@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncConnection);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13258)), TypeDefinitionIndex(TypeDefinitionIndex(13259))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13406))
 // CS Name: ::Oculus.Platform.Models::NetSyncConnection*
 class CORDL_TYPE NetSyncConnection : public ::System::Object {
 public:
@@ -39,41 +37,47 @@ public:
   /// @brief Field ZoneId, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_ZoneId, put = __cordl_internal_set_ZoneId))::StringW ZoneId;
 
-  constexpr int64_t& __cordl_internal_get_ConnectionId();
+  static inline ::Oculus::Platform::Models::NetSyncConnection* New_ctor(void* o);
 
   constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
 
-  constexpr void __cordl_internal_set_ConnectionId(int64_t value);
-
-  constexpr ::Oculus::Platform::NetSyncDisconnectReason& __cordl_internal_get_DisconnectReason();
+  constexpr int64_t& __cordl_internal_get_ConnectionId();
 
   constexpr ::Oculus::Platform::NetSyncDisconnectReason const& __cordl_internal_get_DisconnectReason() const;
 
-  constexpr void __cordl_internal_set_DisconnectReason(::Oculus::Platform::NetSyncDisconnectReason value);
-
-  constexpr uint64_t& __cordl_internal_get_SessionId();
+  constexpr ::Oculus::Platform::NetSyncDisconnectReason& __cordl_internal_get_DisconnectReason();
 
   constexpr uint64_t const& __cordl_internal_get_SessionId() const;
 
-  constexpr void __cordl_internal_set_SessionId(uint64_t value);
-
-  constexpr ::Oculus::Platform::NetSyncConnectionStatus& __cordl_internal_get_Status();
+  constexpr uint64_t& __cordl_internal_get_SessionId();
 
   constexpr ::Oculus::Platform::NetSyncConnectionStatus const& __cordl_internal_get_Status() const;
 
-  constexpr void __cordl_internal_set_Status(::Oculus::Platform::NetSyncConnectionStatus value);
-
-  constexpr ::StringW& __cordl_internal_get_ZoneId();
+  constexpr ::Oculus::Platform::NetSyncConnectionStatus& __cordl_internal_get_Status();
 
   constexpr ::StringW const& __cordl_internal_get_ZoneId() const;
 
+  constexpr ::StringW& __cordl_internal_get_ZoneId();
+
+  constexpr void __cordl_internal_set_ConnectionId(int64_t value);
+
+  constexpr void __cordl_internal_set_DisconnectReason(::Oculus::Platform::NetSyncDisconnectReason value);
+
+  constexpr void __cordl_internal_set_SessionId(uint64_t value);
+
+  constexpr void __cordl_internal_set_Status(::Oculus::Platform::NetSyncConnectionStatus value);
+
   constexpr void __cordl_internal_set_ZoneId(::StringW value);
 
-  static inline ::Oculus::Platform::Models::NetSyncConnection* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x273b4ec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f8de8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetSyncConnection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncConnection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetSyncConnection(NetSyncConnection&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetSyncConnection(NetSyncConnection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetSyncConnection();
-
-public:
   /// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionId;
 

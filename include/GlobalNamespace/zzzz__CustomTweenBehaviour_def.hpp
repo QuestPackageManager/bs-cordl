@@ -45,8 +45,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__CustomTweenBehaviour____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5288))
 // CS Name: ::CustomTweenBehaviour::<>c*
 class CORDL_TYPE __CustomTweenBehaviour____c : public ::System::Object {
 public:
@@ -57,22 +55,28 @@ public:
   /// @brief Field <>9__21_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__21_0, put = setStaticF___9__21_0))::System::Func_2<int32_t, float_t>* __9__21_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__CustomTweenBehaviour____c* value);
+  static inline ::GlobalNamespace::__CustomTweenBehaviour____c* New_ctor();
+
+  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x241113c, size 0x8, virtual false, abstract: false, final false
+  inline float_t _OnBehaviourPlay_b__21_0(int32_t i);
+
+  /// @brief Method .ctor, addr 0x2411134, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__CustomTweenBehaviour____c* getStaticF___9();
 
-  static inline void setStaticF___9__21_0(::System::Func_2<int32_t, float_t>* value);
-
   static inline ::System::Func_2<int32_t, float_t>* getStaticF___9__21_0();
 
-  static inline ::GlobalNamespace::__CustomTweenBehaviour____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__CustomTweenBehaviour____c* value);
 
-  /// @brief Method .ctor, addr 0x23421ec, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__21_0(::System::Func_2<int32_t, float_t>* value);
 
-  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x23421f4, size 0x8, virtual false, abstract: false, final false
-  inline float_t _OnBehaviourPlay_b__21_0(int32_t i);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CustomTweenBehaviour____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CustomTweenBehaviour____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CustomTweenBehaviour____c(__CustomTweenBehaviour____c&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CustomTweenBehaviour____c(__CustomTweenBehaviour____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CustomTweenBehaviour____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -97,35 +95,17 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CustomTweenBe
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(9193)), TypeDefinitionIndex(TypeDefinitionIndex(16199))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5289))
 // CS Name: ::CustomTweenBehaviour*
 class CORDL_TYPE CustomTweenBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__CustomTweenBehaviour____c;
 
-  /// @brief Field _transforms, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__transforms,
-                      put = __cordl_internal_set__transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transforms;
+  /// @brief Field _duration, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
-  /// @brief Field startLocationCurrentPosition, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_startLocationCurrentPosition, put = __cordl_internal_set_startLocationCurrentPosition)) bool startLocationCurrentPosition;
-
-  /// @brief Field startLocalPos, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get_startLocalPos, put = __cordl_internal_set_startLocalPos))::UnityEngine::Vector3 startLocalPos;
-
-  /// @brief Field endLocalPos, offset 0x28, size 0xc
-  __declspec(property(get = __cordl_internal_get_endLocalPos, put = __cordl_internal_set_endLocalPos))::UnityEngine::Vector3 endLocalPos;
-
-  /// @brief Field easeType, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
-
-  /// @brief Field endXRelativeToSelfRotation, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_endXRelativeToSelfRotation, put = __cordl_internal_set_endXRelativeToSelfRotation)) bool endXRelativeToSelfRotation;
-
-  /// @brief Field elementDelay, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_elementDelay, put = __cordl_internal_set_elementDelay)) float_t elementDelay;
+  /// @brief Field _initialized, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _lockX, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__lockX, put = __cordl_internal_set__lockX)) bool _lockX;
@@ -136,155 +116,177 @@ public:
   /// @brief Field _lockZ, offset 0x42, size 0x1
   __declspec(property(get = __cordl_internal_get__lockZ, put = __cordl_internal_set__lockZ)) bool _lockZ;
 
-  /// @brief Field _randomizeOrder, offset 0x43, size 0x1
-  __declspec(property(get = __cordl_internal_get__randomizeOrder, put = __cordl_internal_set__randomizeOrder)) bool _randomizeOrder;
-
-  /// @brief Field _randomizedMinDurationMultiplier, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__randomizedMinDurationMultiplier, put = __cordl_internal_set__randomizedMinDurationMultiplier)) float_t _randomizedMinDurationMultiplier;
-
-  /// @brief Field _duration, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
+  /// @brief Field _originalLocalPos, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__originalLocalPos, put = __cordl_internal_set__originalLocalPos))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _originalLocalPos;
 
   /// @brief Field _perItemDuration, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__perItemDuration, put = __cordl_internal_set__perItemDuration)) float_t _perItemDuration;
 
-  /// @brief Field _originalLocalPos, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__originalLocalPos, put = __cordl_internal_set__originalLocalPos))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _originalLocalPos;
-
-  /// @brief Field _initialized, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
-
-  /// @brief Field _randomizedOrder, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__randomizedOrder, put = __cordl_internal_set__randomizedOrder))::ArrayW<int32_t, ::Array<int32_t>*> _randomizedOrder;
+  /// @brief Field _randomizeOrder, offset 0x43, size 0x1
+  __declspec(property(get = __cordl_internal_get__randomizeOrder, put = __cordl_internal_set__randomizeOrder)) bool _randomizeOrder;
 
   /// @brief Field _randomizedDuration, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__randomizedDuration, put = __cordl_internal_set__randomizedDuration))::ArrayW<float_t, ::Array<float_t>*> _randomizedDuration;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transforms();
+  /// @brief Field _randomizedMinDurationMultiplier, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__randomizedMinDurationMultiplier, put = __cordl_internal_set__randomizedMinDurationMultiplier)) float_t _randomizedMinDurationMultiplier;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transforms() const;
+  /// @brief Field _randomizedOrder, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__randomizedOrder, put = __cordl_internal_set__randomizedOrder))::ArrayW<int32_t, ::Array<int32_t>*> _randomizedOrder;
 
-  constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+  /// @brief Field _transforms, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__transforms,
+                      put = __cordl_internal_set__transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transforms;
 
-  constexpr bool& __cordl_internal_get_startLocationCurrentPosition();
+  /// @brief Field easeType, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
 
-  constexpr bool const& __cordl_internal_get_startLocationCurrentPosition() const;
+  /// @brief Field elementDelay, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_elementDelay, put = __cordl_internal_set_elementDelay)) float_t elementDelay;
 
-  constexpr void __cordl_internal_set_startLocationCurrentPosition(bool value);
+  /// @brief Field endLocalPos, offset 0x28, size 0xc
+  __declspec(property(get = __cordl_internal_get_endLocalPos, put = __cordl_internal_set_endLocalPos))::UnityEngine::Vector3 endLocalPos;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_startLocalPos();
+  /// @brief Field endXRelativeToSelfRotation, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_endXRelativeToSelfRotation, put = __cordl_internal_set_endXRelativeToSelfRotation)) bool endXRelativeToSelfRotation;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_startLocalPos() const;
+  /// @brief Field startLocalPos, offset 0x1c, size 0xc
+  __declspec(property(get = __cordl_internal_get_startLocalPos, put = __cordl_internal_set_startLocalPos))::UnityEngine::Vector3 startLocalPos;
 
-  constexpr void __cordl_internal_set_startLocalPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_endLocalPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_endLocalPos() const;
-
-  constexpr void __cordl_internal_set_endLocalPos(::UnityEngine::Vector3 value);
-
-  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
-
-  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
-
-  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
-
-  constexpr bool& __cordl_internal_get_endXRelativeToSelfRotation();
-
-  constexpr bool const& __cordl_internal_get_endXRelativeToSelfRotation() const;
-
-  constexpr void __cordl_internal_set_endXRelativeToSelfRotation(bool value);
-
-  constexpr float_t& __cordl_internal_get_elementDelay();
-
-  constexpr float_t const& __cordl_internal_get_elementDelay() const;
-
-  constexpr void __cordl_internal_set_elementDelay(float_t value);
-
-  constexpr bool& __cordl_internal_get__lockX();
-
-  constexpr bool const& __cordl_internal_get__lockX() const;
-
-  constexpr void __cordl_internal_set__lockX(bool value);
-
-  constexpr bool& __cordl_internal_get__lockY();
-
-  constexpr bool const& __cordl_internal_get__lockY() const;
-
-  constexpr void __cordl_internal_set__lockY(bool value);
-
-  constexpr bool& __cordl_internal_get__lockZ();
-
-  constexpr bool const& __cordl_internal_get__lockZ() const;
-
-  constexpr void __cordl_internal_set__lockZ(bool value);
-
-  constexpr bool& __cordl_internal_get__randomizeOrder();
-
-  constexpr bool const& __cordl_internal_get__randomizeOrder() const;
-
-  constexpr void __cordl_internal_set__randomizeOrder(bool value);
-
-  constexpr float_t& __cordl_internal_get__randomizedMinDurationMultiplier();
-
-  constexpr float_t const& __cordl_internal_get__randomizedMinDurationMultiplier() const;
-
-  constexpr void __cordl_internal_set__randomizedMinDurationMultiplier(float_t value);
-
-  constexpr float_t& __cordl_internal_get__duration();
-
-  constexpr float_t const& __cordl_internal_get__duration() const;
-
-  constexpr void __cordl_internal_set__duration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__perItemDuration();
-
-  constexpr float_t const& __cordl_internal_get__perItemDuration() const;
-
-  constexpr void __cordl_internal_set__perItemDuration(float_t value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__originalLocalPos();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__originalLocalPos() const;
-
-  constexpr void __cordl_internal_set__originalLocalPos(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr bool& __cordl_internal_get__initialized();
-
-  constexpr bool const& __cordl_internal_get__initialized() const;
-
-  constexpr void __cordl_internal_set__initialized(bool value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__randomizedOrder();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__randomizedOrder() const;
-
-  constexpr void __cordl_internal_set__randomizedOrder(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__randomizedDuration();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__randomizedDuration() const;
-
-  constexpr void __cordl_internal_set__randomizedDuration(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  /// @brief Method OnGraphStart, addr 0x2341964, size 0x13c, virtual true, abstract: false, final false
-  inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
-
-  /// @brief Method ProcessFrame, addr 0x2341aa0, size 0x3e0, virtual true, abstract: false, final false
-  inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
-
-  /// @brief Method OnPlayableDestroy, addr 0x2341e80, size 0x104, virtual true, abstract: false, final false
-  inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
-
-  /// @brief Method OnBehaviourPlay, addr 0x2341f84, size 0x1ec, virtual true, abstract: false, final false
-  inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
+  /// @brief Field startLocationCurrentPosition, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_startLocationCurrentPosition, put = __cordl_internal_set_startLocationCurrentPosition)) bool startLocationCurrentPosition;
 
   static inline ::GlobalNamespace::CustomTweenBehaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2342170, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x2410ecc, size 0x1ec, virtual true, abstract: false, final false
+  inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
+
+  /// @brief Method OnGraphStart, addr 0x24108ac, size 0x13c, virtual true, abstract: false, final false
+  inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
+
+  /// @brief Method OnPlayableDestroy, addr 0x2410dc8, size 0x104, virtual true, abstract: false, final false
+  inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
+
+  /// @brief Method ProcessFrame, addr 0x24109e8, size 0x3e0, virtual true, abstract: false, final false
+  inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
+
+  constexpr float_t const& __cordl_internal_get__duration() const;
+
+  constexpr float_t& __cordl_internal_get__duration();
+
+  constexpr bool const& __cordl_internal_get__initialized() const;
+
+  constexpr bool& __cordl_internal_get__initialized();
+
+  constexpr bool const& __cordl_internal_get__lockX() const;
+
+  constexpr bool& __cordl_internal_get__lockX();
+
+  constexpr bool const& __cordl_internal_get__lockY() const;
+
+  constexpr bool& __cordl_internal_get__lockY();
+
+  constexpr bool const& __cordl_internal_get__lockZ() const;
+
+  constexpr bool& __cordl_internal_get__lockZ();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__originalLocalPos() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__originalLocalPos();
+
+  constexpr float_t const& __cordl_internal_get__perItemDuration() const;
+
+  constexpr float_t& __cordl_internal_get__perItemDuration();
+
+  constexpr bool const& __cordl_internal_get__randomizeOrder() const;
+
+  constexpr bool& __cordl_internal_get__randomizeOrder();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__randomizedDuration() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__randomizedDuration();
+
+  constexpr float_t const& __cordl_internal_get__randomizedMinDurationMultiplier() const;
+
+  constexpr float_t& __cordl_internal_get__randomizedMinDurationMultiplier();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__randomizedOrder() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__randomizedOrder();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transforms() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transforms();
+
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
+
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
+
+  constexpr float_t const& __cordl_internal_get_elementDelay() const;
+
+  constexpr float_t& __cordl_internal_get_elementDelay();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_endLocalPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_endLocalPos();
+
+  constexpr bool const& __cordl_internal_get_endXRelativeToSelfRotation() const;
+
+  constexpr bool& __cordl_internal_get_endXRelativeToSelfRotation();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_startLocalPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_startLocalPos();
+
+  constexpr bool const& __cordl_internal_get_startLocationCurrentPosition() const;
+
+  constexpr bool& __cordl_internal_get_startLocationCurrentPosition();
+
+  constexpr void __cordl_internal_set__duration(float_t value);
+
+  constexpr void __cordl_internal_set__initialized(bool value);
+
+  constexpr void __cordl_internal_set__lockX(bool value);
+
+  constexpr void __cordl_internal_set__lockY(bool value);
+
+  constexpr void __cordl_internal_set__lockZ(bool value);
+
+  constexpr void __cordl_internal_set__originalLocalPos(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  constexpr void __cordl_internal_set__perItemDuration(float_t value);
+
+  constexpr void __cordl_internal_set__randomizeOrder(bool value);
+
+  constexpr void __cordl_internal_set__randomizedDuration(::ArrayW<float_t, ::Array<float_t>*> value);
+
+  constexpr void __cordl_internal_set__randomizedMinDurationMultiplier(float_t value);
+
+  constexpr void __cordl_internal_set__randomizedOrder(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+
+  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
+
+  constexpr void __cordl_internal_set_elementDelay(float_t value);
+
+  constexpr void __cordl_internal_set_endLocalPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_endXRelativeToSelfRotation(bool value);
+
+  constexpr void __cordl_internal_set_startLocalPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_startLocationCurrentPosition(bool value);
+
+  /// @brief Method .ctor, addr 0x24110b8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CustomTweenBehaviour();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomTweenBehaviour(CustomTweenBehaviour&&) = delete;
@@ -293,12 +295,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CustomTweenBehaviour(CustomTweenBehaviour const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomTweenBehaviour();
-
-public:
   /// @brief Field _transforms, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____transforms;
 

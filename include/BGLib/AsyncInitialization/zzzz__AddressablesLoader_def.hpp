@@ -49,23 +49,25 @@ namespace BGLib::AsyncInitialization {
 // cpp template
 template <typename TInstantiate, typename TReturn>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(8940)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 313 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 864 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15242)) CS Name: ::AddressablesLoader::<InstantiateFromAddressableToContainer>d__0`2<TInstantiate,TReturn>
+// CS Name: ::AddressablesLoader::<InstantiateFromAddressableToContainer>d__0`2<TInstantiate,TReturn>
 struct CORDL_TYPE __AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TReturn>", modifiers: "", def_value: None }, CppParam { name: "prefab", ty:
@@ -74,10 +76,6 @@ public:
   constexpr __AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TReturn> __t__builder,
                                                                                 ::UnityEngine::AddressableAssets::AssetReferenceGameObject* prefab, ::Zenject::DiContainer* container,
                                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::GameObject>> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AddressablesLoader___InstantiateFromAddressableToContainer_d__0_2();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -105,8 +103,6 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::AsyncInitialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15243))
 // CS Name: ::BGLib.AsyncInitialization::AddressablesLoader*
 class CORDL_TYPE AddressablesLoader : public ::System::Object {
 public:
@@ -119,6 +115,12 @@ public:
   static inline ::System::Threading::Tasks::Task_1<TReturn>* InstantiateFromAddressableToContainer(::UnityEngine::AddressableAssets::AssetReferenceGameObject* prefab,
                                                                                                    ::Zenject::DiContainer* container);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AddressablesLoader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesLoader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AddressablesLoader(AddressablesLoader&&) = delete;
@@ -127,12 +129,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AddressablesLoader(AddressablesLoader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AddressablesLoader();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

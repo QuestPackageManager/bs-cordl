@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BufferedAudioStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13116))
 // CS Name: ::BufferedAudioStream*
 class CORDL_TYPE BufferedAudioStream : public ::System::Object {
 public:
@@ -32,59 +30,65 @@ public:
   /// @brief Field audioBuffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_audioBuffer, put = __cordl_internal_set_audioBuffer))::ArrayW<float_t, ::Array<float_t>*> audioBuffer;
 
-  /// @brief Field writePos, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_writePos, put = __cordl_internal_set_writePos)) int32_t writePos;
-
   /// @brief Field playbackDelayRemaining, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_playbackDelayRemaining, put = __cordl_internal_set_playbackDelayRemaining)) float_t playbackDelayRemaining;
 
   /// @brief Field remainingBufferTime, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_remainingBufferTime, put = __cordl_internal_set_remainingBufferTime)) float_t remainingBufferTime;
 
-  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get_audio();
+  /// @brief Field writePos, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_writePos, put = __cordl_internal_set_writePos)) int32_t writePos;
 
-  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audio() const;
-
-  constexpr void __cordl_internal_set_audio(::UnityW<::UnityEngine::AudioSource> value);
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_audioBuffer();
-
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_audioBuffer() const;
-
-  constexpr void __cordl_internal_set_audioBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_writePos();
-
-  constexpr int32_t const& __cordl_internal_get_writePos() const;
-
-  constexpr void __cordl_internal_set_writePos(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_playbackDelayRemaining();
-
-  constexpr float_t const& __cordl_internal_get_playbackDelayRemaining() const;
-
-  constexpr void __cordl_internal_set_playbackDelayRemaining(float_t value);
-
-  constexpr float_t& __cordl_internal_get_remainingBufferTime();
-
-  constexpr float_t const& __cordl_internal_get_remainingBufferTime() const;
-
-  constexpr void __cordl_internal_set_remainingBufferTime(float_t value);
+  /// @brief Method AddData, addr 0x27bef30, size 0x11c, virtual false, abstract: false, final false
+  inline void AddData(::ArrayW<float_t, ::Array<float_t>*> samples);
 
   static inline ::GlobalNamespace::BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio);
 
-  /// @brief Method .ctor, addr 0x26ebda0, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::AudioSource* audio);
-
-  /// @brief Method Update, addr 0x26ebea8, size 0x1d0, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method Stop, addr 0x26ebe64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x27bed1c, size 0x44, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method AddData, addr 0x26ec078, size 0x11c, virtual false, abstract: false, final false
-  inline void AddData(::ArrayW<float_t, ::Array<float_t>*> samples);
+  /// @brief Method Update, addr 0x27bed60, size 0x1d0, virtual false, abstract: false, final false
+  inline void Update();
 
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audio() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get_audio();
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_audioBuffer() const;
+
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_audioBuffer();
+
+  constexpr float_t const& __cordl_internal_get_playbackDelayRemaining() const;
+
+  constexpr float_t& __cordl_internal_get_playbackDelayRemaining();
+
+  constexpr float_t const& __cordl_internal_get_remainingBufferTime() const;
+
+  constexpr float_t& __cordl_internal_get_remainingBufferTime();
+
+  constexpr int32_t const& __cordl_internal_get_writePos() const;
+
+  constexpr int32_t& __cordl_internal_get_writePos();
+
+  constexpr void __cordl_internal_set_audio(::UnityW<::UnityEngine::AudioSource> value);
+
+  constexpr void __cordl_internal_set_audioBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
+
+  constexpr void __cordl_internal_set_playbackDelayRemaining(float_t value);
+
+  constexpr void __cordl_internal_set_remainingBufferTime(float_t value);
+
+  constexpr void __cordl_internal_set_writePos(int32_t value);
+
+  /// @brief Method .ctor, addr 0x27bec58, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::AudioSource* audio);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BufferedAudioStream();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BufferedAudioStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedAudioStream(BufferedAudioStream&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BufferedAudioStream(BufferedAudioStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferedAudioStream();
-
-public:
   /// @brief Field audio, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ___audio;
 
@@ -120,14 +118,14 @@ public:
   /// @brief Field bufferLengthSeconds offset 0xffffffff size 0x4
   static constexpr float_t bufferLengthSeconds{ 0.25 };
 
-  /// @brief Field sampleRate offset 0xffffffff size 0x4
-  static constexpr int32_t sampleRate{ static_cast<int32_t>(0xbb80) };
-
   /// @brief Field bufferSize offset 0xffffffff size 0x4
   static constexpr int32_t bufferSize{ static_cast<int32_t>(0x2ee0) };
 
   /// @brief Field playbackDelayTimeSeconds offset 0xffffffff size 0x4
   static constexpr float_t playbackDelayTimeSeconds{ 0.05 };
+
+  /// @brief Field sampleRate offset 0xffffffff size 0x4
+  static constexpr int32_t sampleRate{ static_cast<int32_t>(0xbb80) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

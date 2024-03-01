@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1201))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsHandshakeHash*
 class CORDL_TYPE TlsHandshakeHash {
 public:
@@ -30,8 +28,11 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
-  constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
+  /// @brief Method ForkPrfHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Org::BouncyCastle::Crypto::IDigest* ForkPrfHash();
+
+  /// @brief Method GetFinalHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetFinalHash(uint8_t hashAlgorithm);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
@@ -39,20 +40,17 @@ public:
   /// @brief Method NotifyPrfDetermined, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* NotifyPrfDetermined();
 
-  /// @brief Method TrackHashAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void TrackHashAlgorithm(uint8_t hashAlgorithm);
-
   /// @brief Method SealHashAlgorithms, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SealHashAlgorithms();
 
   /// @brief Method StopTracking, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* StopTracking();
 
-  /// @brief Method ForkPrfHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Org::BouncyCastle::Crypto::IDigest* ForkPrfHash();
+  /// @brief Method TrackHashAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void TrackHashAlgorithm(uint8_t hashAlgorithm);
 
-  /// @brief Method GetFinalHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetFinalHash(uint8_t hashAlgorithm);
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsHandshakeHash", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

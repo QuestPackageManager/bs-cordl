@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerIsReadOnly
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8746))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeContainerIsReadOnlyAttribute*
 class CORDL_TYPE NativeContainerIsReadOnlyAttribute : public ::System::Attribute {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeContainerIsReadOnlyAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NativeContainerIsReadOnlyAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeContainerIsReadOnlyAttribute(NativeContainerIsReadOnlyAttribute&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NativeContainerIsReadOnlyAttribute(NativeContainerIsReadOnlyAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeContainerIsReadOnlyAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

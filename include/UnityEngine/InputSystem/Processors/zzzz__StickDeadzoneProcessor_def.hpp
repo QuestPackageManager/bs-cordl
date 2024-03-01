@@ -23,53 +23,58 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5495)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5495), inst: 413
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5852)) CS Name: ::UnityEngine.InputSystem.Processors::StickDeadzoneProcessor*
+// CS Name: ::UnityEngine.InputSystem.Processors::StickDeadzoneProcessor*
 class CORDL_TYPE StickDeadzoneProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector2> {
 public:
   // Declarations
-  /// @brief Field min, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
-
   /// @brief Field max, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
 
-  __declspec(property(get = get_minOrDefault)) float_t minOrDefault;
-
   __declspec(property(get = get_maxOrDefault)) float_t maxOrDefault;
 
-  constexpr float_t& __cordl_internal_get_min();
+  /// @brief Field min, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
-  constexpr float_t const& __cordl_internal_get_min() const;
+  __declspec(property(get = get_minOrDefault)) float_t minOrDefault;
 
-  constexpr void __cordl_internal_set_min(float_t value);
-
-  constexpr float_t& __cordl_internal_get_max();
-
-  constexpr float_t const& __cordl_internal_get_max() const;
-
-  constexpr void __cordl_internal_set_max(float_t value);
-
-  /// @brief Method get_minOrDefault, addr 0x2afa98c, size 0x70, virtual false, abstract: false, final false
-  inline float_t get_minOrDefault();
-
-  /// @brief Method get_maxOrDefault, addr 0x2afa9fc, size 0x70, virtual false, abstract: false, final false
-  inline float_t get_maxOrDefault();
-
-  /// @brief Method Process, addr 0x2afaa6c, size 0xd0, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
-
-  /// @brief Method GetDeadZoneAdjustedValue, addr 0x2afab3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDeadZoneAdjustedValue, addr 0x2bdfc10, size 0x68, virtual false, abstract: false, final false
   inline float_t GetDeadZoneAdjustedValue(float_t value);
-
-  /// @brief Method ToString, addr 0x2afaba4, size 0xa8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2afac4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x2bdfb40, size 0xd0, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
+
+  /// @brief Method ToString, addr 0x2bdfc78, size 0xa8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  constexpr float_t const& __cordl_internal_get_max() const;
+
+  constexpr float_t& __cordl_internal_get_max();
+
+  constexpr float_t const& __cordl_internal_get_min() const;
+
+  constexpr float_t& __cordl_internal_get_min();
+
+  constexpr void __cordl_internal_set_max(float_t value);
+
+  constexpr void __cordl_internal_set_min(float_t value);
+
+  /// @brief Method .ctor, addr 0x2bdfd20, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_maxOrDefault, addr 0x2bdfad0, size 0x70, virtual false, abstract: false, final false
+  inline float_t get_maxOrDefault();
+
+  /// @brief Method get_minOrDefault, addr 0x2bdfa60, size 0x70, virtual false, abstract: false, final false
+  inline float_t get_minOrDefault();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StickDeadzoneProcessor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StickDeadzoneProcessor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StickDeadzoneProcessor(StickDeadzoneProcessor&&) = delete;
@@ -78,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StickDeadzoneProcessor(StickDeadzoneProcessor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StickDeadzoneProcessor();
-
-public:
   /// @brief Field min, offset: 0x10, size: 0x4, def value: None
   float_t ___min;
 

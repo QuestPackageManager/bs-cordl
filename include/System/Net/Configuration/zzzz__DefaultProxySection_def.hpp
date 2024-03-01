@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::System::Net::Configuration::DefaultProxySection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16433))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7581))
 // CS Name: ::System.Net.Configuration::DefaultProxySection*
 class CORDL_TYPE DefaultProxySection : public ::System::Configuration::ConfigurationSection {
 public:
@@ -30,15 +28,21 @@ public:
 
   static inline ::System::Net::Configuration::DefaultProxySection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2949450, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_Properties, addr 0x2949488, size 0x38, virtual true, abstract: false, final false
-  inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
-
-  /// @brief Method Reset, addr 0x29494c0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2a2e93c, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
+  /// @brief Method .ctor, addr 0x2a2e8cc, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_Properties, addr 0x2a2e904, size 0x38, virtual true, abstract: false, final false
+  inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultProxySection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultProxySection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultProxySection(DefaultProxySection&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultProxySection(DefaultProxySection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultProxySection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

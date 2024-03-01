@@ -23,62 +23,66 @@ MARK_REF_PTR_T(::GlobalNamespace::PresetsSettingsController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16289))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4904))
 // CS Name: ::PresetsSettingsController*
 class CORDL_TYPE PresetsSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
   // Declarations
-  /// @brief Field _settingsValue, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::IntSO> _settingsValue;
-
-  /// @brief Field _presets, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__presets, put = __cordl_internal_set__presets))::UnityW<::GlobalNamespace::NamedPresetsSO> _presets;
-
   /// @brief Field _limitNumberOfElements, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__limitNumberOfElements, put = __cordl_internal_set__limitNumberOfElements)) bool _limitNumberOfElements;
 
   /// @brief Field _numberOfElementsLimit, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfElementsLimit, put = __cordl_internal_set__numberOfElementsLimit)) int32_t _numberOfElementsLimit;
 
-  constexpr ::UnityW<::GlobalNamespace::IntSO>& __cordl_internal_get__settingsValue();
+  /// @brief Field _presets, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__presets, put = __cordl_internal_set__presets))::UnityW<::GlobalNamespace::NamedPresetsSO> _presets;
 
-  constexpr ::UnityW<::GlobalNamespace::IntSO> const& __cordl_internal_get__settingsValue() const;
+  /// @brief Field _settingsValue, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::IntSO> _settingsValue;
 
-  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::IntSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::NamedPresetsSO>& __cordl_internal_get__presets();
-
-  constexpr ::UnityW<::GlobalNamespace::NamedPresetsSO> const& __cordl_internal_get__presets() const;
-
-  constexpr void __cordl_internal_set__presets(::UnityW<::GlobalNamespace::NamedPresetsSO> value);
-
-  constexpr bool& __cordl_internal_get__limitNumberOfElements();
-
-  constexpr bool const& __cordl_internal_get__limitNumberOfElements() const;
-
-  constexpr void __cordl_internal_set__limitNumberOfElements(bool value);
-
-  constexpr int32_t& __cordl_internal_get__numberOfElementsLimit();
-
-  constexpr int32_t const& __cordl_internal_get__numberOfElementsLimit() const;
-
-  constexpr void __cordl_internal_set__numberOfElementsLimit(int32_t value);
-
-  /// @brief Method GetInitValues, addr 0x22de448, size 0xd8, virtual true, abstract: false, final false
-  inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
-
-  /// @brief Method ApplyValue, addr 0x22de520, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x23ad1d4, size 0x58, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue, addr 0x22de578, size 0x50, virtual true, abstract: false, final false
-  inline ::StringW TextForValue(int32_t idx);
+  /// @brief Method GetInitValues, addr 0x23ad0fc, size 0xd8, virtual true, abstract: false, final false
+  inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::PresetsSettingsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22de5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x23ad22c, size 0x50, virtual true, abstract: false, final false
+  inline ::StringW TextForValue(int32_t idx);
+
+  constexpr bool const& __cordl_internal_get__limitNumberOfElements() const;
+
+  constexpr bool& __cordl_internal_get__limitNumberOfElements();
+
+  constexpr int32_t const& __cordl_internal_get__numberOfElementsLimit() const;
+
+  constexpr int32_t& __cordl_internal_get__numberOfElementsLimit();
+
+  constexpr ::UnityW<::GlobalNamespace::NamedPresetsSO> const& __cordl_internal_get__presets() const;
+
+  constexpr ::UnityW<::GlobalNamespace::NamedPresetsSO>& __cordl_internal_get__presets();
+
+  constexpr ::UnityW<::GlobalNamespace::IntSO> const& __cordl_internal_get__settingsValue() const;
+
+  constexpr ::UnityW<::GlobalNamespace::IntSO>& __cordl_internal_get__settingsValue();
+
+  constexpr void __cordl_internal_set__limitNumberOfElements(bool value);
+
+  constexpr void __cordl_internal_set__numberOfElementsLimit(int32_t value);
+
+  constexpr void __cordl_internal_set__presets(::UnityW<::GlobalNamespace::NamedPresetsSO> value);
+
+  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::IntSO> value);
+
+  /// @brief Method .ctor, addr 0x23ad27c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PresetsSettingsController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PresetsSettingsController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PresetsSettingsController(PresetsSettingsController&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PresetsSettingsController(PresetsSettingsController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PresetsSettingsController();
-
-public:
   /// @brief Field _settingsValue, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::IntSO> ____settingsValue;
 

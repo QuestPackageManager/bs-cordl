@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ModDetectionCodePacket);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(560))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(575))
 // CS Name: ::Org.BouncyCastle.Bcpg::ModDetectionCodePacket*
 class CORDL_TYPE ModDetectionCodePacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
@@ -31,28 +29,34 @@ public:
   /// @brief Field digest, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_digest();
+  /// @brief Method Encode, addr 0x1242d04, size 0x28, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
-
-  constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method GetDigest, addr 0x1242c8c, size 0x78, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   static inline ::Org::BouncyCastle::Bcpg::ModDetectionCodePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11fd070, size 0xb8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
-
   static inline ::Org::BouncyCastle::Bcpg::ModDetectionCodePacket* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method .ctor, addr 0x11ffbbc, size 0x100, virtual false, abstract: false, final false
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_digest();
+
+  constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0x1240040, size 0xb8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+
+  /// @brief Method .ctor, addr 0x1242b8c, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method GetDigest, addr 0x11ffcbc, size 0x78, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ModDetectionCodePacket();
 
-  /// @brief Method Encode, addr 0x11ffd34, size 0x28, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ModDetectionCodePacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ModDetectionCodePacket(ModDetectionCodePacket&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ModDetectionCodePacket(ModDetectionCodePacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ModDetectionCodePacket();
-
-public:
   /// @brief Field digest, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___digest;
 

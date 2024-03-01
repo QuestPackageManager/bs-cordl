@@ -17,17 +17,21 @@ MARK_REF_PTR_T(::GlobalNamespace::ManagedGameplayServerFiniteStateMachine);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12660))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12664))
 // CS Name: ::ManagedGameplayServerFiniteStateMachine*
 class CORDL_TYPE ManagedGameplayServerFiniteStateMachine : public ::GlobalNamespace::GameplayServerFiniteStateMachine {
 public:
   // Declarations
   static inline ::GlobalNamespace::ManagedGameplayServerFiniteStateMachine* New_ctor(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
-  /// @brief Method .ctor, addr 0xe67004, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeacfd4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ManagedGameplayServerFiniteStateMachine();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ManagedGameplayServerFiniteStateMachine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ManagedGameplayServerFiniteStateMachine(ManagedGameplayServerFiniteStateMachine&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ManagedGameplayServerFiniteStateMachine(ManagedGameplayServerFiniteStateMachine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ManagedGameplayServerFiniteStateMachine();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

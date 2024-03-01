@@ -57,8 +57,6 @@ MARK_VAL_T(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation___Req
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15982))
 // CS Name: ::OculusXPlatformAccessTokenRequestOperation::OculusTokenRequestOperationState
 struct CORDL_TYPE __OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState {
 public:
@@ -78,18 +76,23 @@ public:
     return static_cast<____OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Failed value: static_cast<int32_t>(0x3)
+  static ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState const Failed;
 
   /// @brief Field NotStarted value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState const NotStarted;
@@ -100,8 +103,8 @@ public:
   /// @brief Field Succeeded value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState const Succeeded;
 
-  /// @brief Field Failed value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState const Failed;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -115,23 +118,25 @@ static_assert(offsetof(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOpe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12823)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 905 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15983)) CS
-// Name: ::OculusXPlatformAccessTokenRequestOperation::<RequestXPlatformAccessToken>d__7
+// CS Name: ::OculusXPlatformAccessTokenRequestOperation::<RequestXPlatformAccessToken>d__7
 struct CORDL_TYPE __OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xe803e0, size 0x2dc, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xe806bc, size 0x1058, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe3b418, size 0x2dc, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe3b6f4, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -142,10 +147,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData> __t__builder,
       ::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation* __4__this, ::System::Threading::CancellationToken cancellationToken, int32_t _attemptCount_5__2,
       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -190,52 +191,56 @@ static_assert(offsetof(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOpe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12823)), TypeDefinitionIndex(TypeDefinitionIndex(15982))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15984))
 // CS Name: ::OculusXPlatformAccessTokenRequestOperation*
 class CORDL_TYPE OculusXPlatformAccessTokenRequestOperation : public ::System::Object {
 public:
   // Declarations
-  using _RequestXPlatformAccessToken_d__7 = ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7;
-
   using OculusTokenRequestOperationState = ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState;
 
-  /// @brief Field _tokenData, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get__tokenData, put = __cordl_internal_set__tokenData))::GlobalNamespace::XPlatformAccessTokenData _tokenData;
+  using _RequestXPlatformAccessToken_d__7 = ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7;
 
   /// @brief Field _operationState, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__operationState,
                       put = __cordl_internal_set__operationState))::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState _operationState;
 
-  constexpr ::GlobalNamespace::XPlatformAccessTokenData& __cordl_internal_get__tokenData();
-
-  constexpr ::GlobalNamespace::XPlatformAccessTokenData const& __cordl_internal_get__tokenData() const;
-
-  constexpr void __cordl_internal_set__tokenData(::GlobalNamespace::XPlatformAccessTokenData value);
-
-  constexpr ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState& __cordl_internal_get__operationState();
-
-  constexpr ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState const& __cordl_internal_get__operationState() const;
-
-  constexpr void __cordl_internal_set__operationState(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState value);
+  /// @brief Field _tokenData, offset 0x10, size 0x10
+  __declspec(property(get = __cordl_internal_get__tokenData, put = __cordl_internal_set__tokenData))::GlobalNamespace::XPlatformAccessTokenData _tokenData;
 
   static inline ::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3b028, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Run, addr 0xe3ad44, size 0x60, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* Run(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method RequestXPlatformAccessToken, addr 0xe3b098, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method RequestAccessToken, addr 0xe3b198, size 0x110, virtual false, abstract: false, final false
-  inline void RequestAccessToken();
-
-  /// @brief Method OnCompleteLoadingOculusAccessToken, addr 0xe3b2a8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method OnCompleteLoadingOculusAccessToken, addr 0xe80270, size 0x170, virtual false, abstract: false, final false
   inline void OnCompleteLoadingOculusAccessToken(::Oculus::Platform::Message_1<::StringW>* message);
 
+  /// @brief Method RequestAccessToken, addr 0xe80160, size 0x110, virtual false, abstract: false, final false
+  inline void RequestAccessToken();
+
+  /// @brief Method RequestXPlatformAccessToken, addr 0xe80060, size 0x100, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method Run, addr 0xe7fd0c, size 0x60, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* Run(::System::Threading::CancellationToken cancellationToken);
+
+  constexpr ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState const& __cordl_internal_get__operationState() const;
+
+  constexpr ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState& __cordl_internal_get__operationState();
+
+  constexpr ::GlobalNamespace::XPlatformAccessTokenData const& __cordl_internal_get__tokenData() const;
+
+  constexpr ::GlobalNamespace::XPlatformAccessTokenData& __cordl_internal_get__tokenData();
+
+  constexpr void __cordl_internal_set__operationState(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState value);
+
+  constexpr void __cordl_internal_set__tokenData(::GlobalNamespace::XPlatformAccessTokenData value);
+
+  /// @brief Method .ctor, addr 0xe7fff0, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OculusXPlatformAccessTokenRequestOperation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OculusXPlatformAccessTokenRequestOperation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusXPlatformAccessTokenRequestOperation(OculusXPlatformAccessTokenRequestOperation&&) = delete;
@@ -244,23 +249,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OculusXPlatformAccessTokenRequestOperation(OculusXPlatformAccessTokenRequestOperation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusXPlatformAccessTokenRequestOperation();
-
-public:
   /// @brief Field _tokenData, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::XPlatformAccessTokenData ____tokenData;
 
   /// @brief Field _operationState, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState ____operationState;
 
-  /// @brief Field kMillisecondsDelayToCheckCallbackResponse offset 0xffffffff size 0x4
-  static constexpr int32_t kMillisecondsDelayToCheckCallbackResponse{ static_cast<int32_t>(0x1f4) };
-
   /// @brief Field kMaxTokenRetry offset 0xffffffff size 0x4
   static constexpr int32_t kMaxTokenRetry{ static_cast<int32_t>(0x3) };
+
+  /// @brief Field kMillisecondsDelayToCheckCallbackResponse offset 0xffffffff size 0x4
+  static constexpr int32_t kMillisecondsDelayToCheckCallbackResponse{ static_cast<int32_t>(0x1f4) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

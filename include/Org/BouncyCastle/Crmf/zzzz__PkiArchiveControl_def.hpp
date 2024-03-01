@@ -30,14 +30,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PkiArchiveControl);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(703))
 // CS Name: ::Org.BouncyCastle.Crmf::PkiArchiveControl*
 class CORDL_TYPE PkiArchiveControl : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field pkiArchiveOptions, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_pkiArchiveOptions, put = __cordl_internal_set_pkiArchiveOptions))::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions;
+  __declspec(property(get = get_ArchiveType)) int32_t ArchiveType;
+
+  __declspec(property(get = get_EnvelopedData)) bool EnvelopedData;
+
+  __declspec(property(get = get_Type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Type;
+
+  __declspec(property(get = get_Value))::Org::BouncyCastle::Asn1::Asn1Encodable* Value;
+
+  /// @brief Field archiveRemGenPrivKey, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_archiveRemGenPrivKey, put = setStaticF_archiveRemGenPrivKey)) int32_t archiveRemGenPrivKey;
 
   /// @brief Field encryptedPrivKey, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_encryptedPrivKey, put = setStaticF_encryptedPrivKey)) int32_t encryptedPrivKey;
@@ -45,25 +51,19 @@ public:
   /// @brief Field keyGenParameters, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_keyGenParameters, put = setStaticF_keyGenParameters)) int32_t keyGenParameters;
 
-  /// @brief Field archiveRemGenPrivKey, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_archiveRemGenPrivKey, put = setStaticF_archiveRemGenPrivKey)) int32_t archiveRemGenPrivKey;
+  /// @brief Field pkiArchiveOptions, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_pkiArchiveOptions, put = __cordl_internal_set_pkiArchiveOptions))::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions;
 
   /// @brief Field type, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_type, put = setStaticF_type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* type;
 
-  __declspec(property(get = get_Type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Type;
-
-  __declspec(property(get = get_Value))::Org::BouncyCastle::Asn1::Asn1Encodable* Value;
-
-  __declspec(property(get = get_ArchiveType)) int32_t ArchiveType;
-
-  __declspec(property(get = get_EnvelopedData)) bool EnvelopedData;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IControl"
   constexpr operator ::Org::BouncyCastle::Crmf::IControl*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
-  constexpr ::Org::BouncyCastle::Crmf::IControl* i___Org__BouncyCastle__Crmf__IControl() noexcept;
+  /// @brief Method GetEnvelopedData, addr 0x12826f4, size 0x264, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* GetEnvelopedData();
+
+  static inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions);
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions*& __cordl_internal_get_pkiArchiveOptions();
 
@@ -71,42 +71,46 @@ public:
 
   constexpr void __cordl_internal_set_pkiArchiveOptions(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* value);
 
-  static inline void setStaticF_encryptedPrivKey(int32_t value);
-
-  static inline int32_t getStaticF_encryptedPrivKey();
-
-  static inline void setStaticF_keyGenParameters(int32_t value);
-
-  static inline int32_t getStaticF_keyGenParameters();
-
-  static inline void setStaticF_archiveRemGenPrivKey(int32_t value);
+  /// @brief Method .ctor, addr 0x127f0c8, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions);
 
   static inline int32_t getStaticF_archiveRemGenPrivKey();
 
-  static inline void setStaticF_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline int32_t getStaticF_encryptedPrivKey();
+
+  static inline int32_t getStaticF_keyGenParameters();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_type();
 
-  static inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions);
-
-  /// @brief Method .ctor, addr 0x123b0f8, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions);
-
-  /// @brief Method get_Type, addr 0x123e660, size 0x58, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
-
-  /// @brief Method get_Value, addr 0x123e6b8, size 0x8, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
-
-  /// @brief Method get_ArchiveType, addr 0x123e6c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ArchiveType, addr 0x1282690, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_ArchiveType();
 
-  /// @brief Method get_EnvelopedData, addr 0x123e6e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_EnvelopedData, addr 0x12826b0, size 0x44, virtual false, abstract: false, final false
   inline bool get_EnvelopedData();
 
-  /// @brief Method GetEnvelopedData, addr 0x123e724, size 0x264, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* GetEnvelopedData();
+  /// @brief Method get_Type, addr 0x1282630, size 0x58, virtual true, abstract: false, final true
+  inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
+  /// @brief Method get_Value, addr 0x1282688, size 0x8, virtual true, abstract: false, final true
+  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
+
+  /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
+  constexpr ::Org::BouncyCastle::Crmf::IControl* i___Org__BouncyCastle__Crmf__IControl() noexcept;
+
+  static inline void setStaticF_archiveRemGenPrivKey(int32_t value);
+
+  static inline void setStaticF_encryptedPrivKey(int32_t value);
+
+  static inline void setStaticF_keyGenParameters(int32_t value);
+
+  static inline void setStaticF_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PkiArchiveControl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PkiArchiveControl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkiArchiveControl(PkiArchiveControl&&) = delete;
@@ -115,12 +119,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkiArchiveControl(PkiArchiveControl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkiArchiveControl();
-
-public:
   /// @brief Field pkiArchiveOptions, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* ___pkiArchiveOptions;
 

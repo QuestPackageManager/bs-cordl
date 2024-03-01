@@ -29,14 +29,11 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(42))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::PkiStatusEncodable*
 class CORDL_TYPE PkiStatusEncodable : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field status, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::DerInteger* status;
+  __declspec(property(get = get_Value))::Org::BouncyCastle::Math::BigInteger* Value;
 
   /// @brief Field granted, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_granted, put = setStaticF_granted))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* granted;
@@ -44,22 +41,33 @@ public:
   /// @brief Field grantedWithMods, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_grantedWithMods, put = setStaticF_grantedWithMods))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* grantedWithMods;
 
+  /// @brief Field keyUpdateWaiting, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_keyUpdateWaiting, put = setStaticF_keyUpdateWaiting))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* keyUpdateWaiting;
+
   /// @brief Field rejection, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_rejection, put = setStaticF_rejection))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* rejection;
-
-  /// @brief Field waiting, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_waiting, put = setStaticF_waiting))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* waiting;
-
-  /// @brief Field revocationWarning, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_revocationWarning, put = setStaticF_revocationWarning))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* revocationWarning;
 
   /// @brief Field revocationNotification, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_revocationNotification, put = setStaticF_revocationNotification))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* revocationNotification;
 
-  /// @brief Field keyUpdateWaiting, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_keyUpdateWaiting, put = setStaticF_keyUpdateWaiting))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* keyUpdateWaiting;
+  /// @brief Field revocationWarning, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_revocationWarning, put = setStaticF_revocationWarning))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* revocationWarning;
 
-  __declspec(property(get = get_Value))::Org::BouncyCastle::Math::BigInteger* Value;
+  /// @brief Field status, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::DerInteger* status;
+
+  /// @brief Field waiting, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_waiting, put = setStaticF_waiting))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* waiting;
+
+  /// @brief Method GetInstance, addr 0xedf120, size 0x18c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* GetInstance(::System::Object* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatus status);
+
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* status);
+
+  /// @brief Method ToAsn1Object, addr 0xedf2c8, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_status();
 
@@ -67,53 +75,49 @@ public:
 
   constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  static inline void setStaticF_granted(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
+  /// @brief Method .ctor, addr 0xedf07c, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatus status);
+
+  /// @brief Method .ctor, addr 0xedf0f8, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* status);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_granted();
 
-  static inline void setStaticF_grantedWithMods(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
-
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_grantedWithMods();
-
-  static inline void setStaticF_rejection(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
-
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_rejection();
-
-  static inline void setStaticF_waiting(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
-
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_waiting();
-
-  static inline void setStaticF_revocationWarning(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
-
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_revocationWarning();
-
-  static inline void setStaticF_revocationNotification(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
-
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_revocationNotification();
-
-  static inline void setStaticF_keyUpdateWaiting(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_keyUpdateWaiting();
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatus status);
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_rejection();
 
-  /// @brief Method .ctor, addr 0xe980ac, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatus status);
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_revocationNotification();
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* status);
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_revocationWarning();
 
-  /// @brief Method .ctor, addr 0xe98128, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* status);
+  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* getStaticF_waiting();
 
-  /// @brief Method GetInstance, addr 0xe98150, size 0x18c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* GetInstance(::System::Object* obj);
-
-  /// @brief Method get_Value, addr 0xe982dc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0xedf2ac, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
-  /// @brief Method ToAsn1Object, addr 0xe982f8, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  static inline void setStaticF_granted(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
 
+  static inline void setStaticF_grantedWithMods(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
+
+  static inline void setStaticF_keyUpdateWaiting(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
+
+  static inline void setStaticF_rejection(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
+
+  static inline void setStaticF_revocationNotification(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
+
+  static inline void setStaticF_revocationWarning(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
+
+  static inline void setStaticF_waiting(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PkiStatusEncodable();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PkiStatusEncodable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkiStatusEncodable(PkiStatusEncodable&&) = delete;
@@ -122,12 +126,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkiStatusEncodable(PkiStatusEncodable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkiStatusEncodable();
-
-public:
   /// @brief Field status, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___status;
 

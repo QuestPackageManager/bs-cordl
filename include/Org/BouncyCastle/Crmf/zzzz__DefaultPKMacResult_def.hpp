@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::DefaultPKMacResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(710))
 // CS Name: ::Org.BouncyCastle.Crmf::DefaultPKMacResult*
 class CORDL_TYPE DefaultPKMacResult : public ::System::Object {
 public:
@@ -34,8 +32,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockResult"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockResult*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
-  constexpr ::Org::BouncyCastle::Crypto::IBlockResult* i___Org__BouncyCastle__Crypto__IBlockResult() noexcept;
+  /// @brief Method Collect, addr 0x12830c8, size 0x148, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
+
+  /// @brief Method Collect, addr 0x1283210, size 0x40, virtual true, abstract: false, final true
+  inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
+
+  static inline ::Org::BouncyCastle::Crmf::DefaultPKMacResult* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
   constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mac();
 
@@ -43,17 +46,18 @@ public:
 
   constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  static inline ::Org::BouncyCastle::Crmf::DefaultPKMacResult* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
-
-  /// @brief Method .ctor, addr 0x123ee44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1282e14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method Collect, addr 0x123f0f8, size 0x148, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockResult"
+  constexpr ::Org::BouncyCastle::Crypto::IBlockResult* i___Org__BouncyCastle__Crypto__IBlockResult() noexcept;
 
-  /// @brief Method Collect, addr 0x123f240, size 0x40, virtual true, abstract: false, final true
-  inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultPKMacResult();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultPKMacResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultPKMacResult(DefaultPKMacResult&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultPKMacResult(DefaultPKMacResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultPKMacResult();
-
-public:
   /// @brief Field mac, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IMac* ___mac;
 

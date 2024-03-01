@@ -21,15 +21,19 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::LightColorBaseDataConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11246))
 // CS Name: ::BeatmapDataLoaderVersion4::LightColorBaseDataConverter*
 class CORDL_TYPE LightColorBaseDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x12c038c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x130135c, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightColorBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::LightColorEvent lightColorEvent);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightColorBaseDataConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseDataConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightColorBaseDataConverter(LightColorBaseDataConverter&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightColorBaseDataConverter(LightColorBaseDataConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightColorBaseDataConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

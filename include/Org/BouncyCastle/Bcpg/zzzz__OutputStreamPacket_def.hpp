@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OutputStreamPacket);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(578))
 // CS Name: ::Org.BouncyCastle.Bcpg::OutputStreamPacket*
 class CORDL_TYPE OutputStreamPacket : public ::System::Object {
 public:
@@ -26,23 +24,29 @@ public:
   /// @brief Field bcpgOut, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bcpgOut, put = __cordl_internal_set_bcpgOut))::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut;
 
+  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Close();
+
+  static inline ::Org::BouncyCastle::Bcpg::OutputStreamPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
+
+  /// @brief Method Open, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* Open();
+
   constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __cordl_internal_get_bcpgOut();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& __cordl_internal_get_bcpgOut() const;
 
   constexpr void __cordl_internal_set_bcpgOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
 
-  static inline ::Org::BouncyCastle::Bcpg::OutputStreamPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
-
-  /// @brief Method .ctor, addr 0x1200034, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1243004, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method Open, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* Open();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OutputStreamPacket();
 
-  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Close();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OutputStreamPacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OutputStreamPacket(OutputStreamPacket&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OutputStreamPacket(OutputStreamPacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OutputStreamPacket();
-
-public:
   /// @brief Field bcpgOut, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::BcpgOutputStream* ___bcpgOut;
 

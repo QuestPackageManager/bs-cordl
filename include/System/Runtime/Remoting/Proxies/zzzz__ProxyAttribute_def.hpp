@@ -38,8 +38,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Proxies::ProxyAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Proxies {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3086))
 // CS Name: ::System.Runtime.Remoting.Proxies::ProxyAttribute*
 class CORDL_TYPE ProxyAttribute : public ::System::Attribute {
 public:
@@ -47,22 +45,28 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
   constexpr operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"
-  constexpr ::System::Runtime::Remoting::Contexts::IContextAttribute* i___System__Runtime__Remoting__Contexts__IContextAttribute() noexcept;
-
-  /// @brief Method CreateInstance, addr 0x24b840c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x2589104, size 0x104, virtual true, abstract: false, final false
   inline ::System::MarshalByRefObject* CreateInstance(::System::Type* serverType);
 
-  /// @brief Method CreateProxy, addr 0x24b8558, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CreateProxy, addr 0x2589250, size 0x70, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(::System::Runtime::Remoting::ObjRef* objRef, ::System::Type* serverType, ::System::Object* serverObject,
                                                                       ::System::Runtime::Remoting::Contexts::Context* serverContext);
 
-  /// @brief Method GetPropertiesForNewContext, addr 0x24b85c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetPropertiesForNewContext, addr 0x25892c0, size 0x4, virtual true, abstract: false, final true
   inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method IsContextOK, addr 0x24b85cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsContextOK, addr 0x25892c4, size 0x8, virtual true, abstract: false, final true
   inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
+  /// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"
+  constexpr ::System::Runtime::Remoting::Contexts::IContextAttribute* i___System__Runtime__Remoting__Contexts__IContextAttribute() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProxyAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ProxyAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProxyAttribute(ProxyAttribute&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProxyAttribute(ProxyAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProxyAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

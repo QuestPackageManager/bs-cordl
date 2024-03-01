@@ -91,6 +91,12 @@ template <typename TElement> inline bool System::Linq::Set_1<TElement>::Add(TEle
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TElement>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
 }
+template <typename TElement> inline bool System::Linq::Set_1<TElement>::Remove(TElement value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Set_1<TElement>*>::get(), "Remove", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TElement>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
+}
 template <typename TElement> inline bool System::Linq::Set_1<TElement>::Find(TElement value, bool add) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Set_1<TElement>*>::get(), "Find", std::span<Il2CppClass const* const, 0>(),

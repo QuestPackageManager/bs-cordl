@@ -19,76 +19,81 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::GeometryChangedEvent);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), TypeDefinitionIndex(TypeDefinitionIndex(8909)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1680
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6471)) CS Name: ::UnityEngine.UIElements::GeometryChangedEvent*
+// CS Name: ::UnityEngine.UIElements::GeometryChangedEvent*
 class CORDL_TYPE GeometryChangedEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::GeometryChangedEvent*> {
 public:
   // Declarations
-  /// @brief Field <oldRect>k__BackingField, offset 0x7c, size 0x10
-  __declspec(property(get = __cordl_internal_get__oldRect_k__BackingField, put = __cordl_internal_set__oldRect_k__BackingField))::UnityEngine::Rect _oldRect_k__BackingField;
+  /// @brief Field <layoutPass>k__BackingField, offset 0x9c, size 0x4
+  __declspec(property(get = __cordl_internal_get__layoutPass_k__BackingField, put = __cordl_internal_set__layoutPass_k__BackingField)) int32_t _layoutPass_k__BackingField;
 
   /// @brief Field <newRect>k__BackingField, offset 0x8c, size 0x10
   __declspec(property(get = __cordl_internal_get__newRect_k__BackingField, put = __cordl_internal_set__newRect_k__BackingField))::UnityEngine::Rect _newRect_k__BackingField;
 
-  /// @brief Field <layoutPass>k__BackingField, offset 0x9c, size 0x4
-  __declspec(property(get = __cordl_internal_get__layoutPass_k__BackingField, put = __cordl_internal_set__layoutPass_k__BackingField)) int32_t _layoutPass_k__BackingField;
-
-  __declspec(property(get = get_oldRect, put = set_oldRect))::UnityEngine::Rect oldRect;
-
-  __declspec(property(get = get_newRect, put = set_newRect))::UnityEngine::Rect newRect;
+  /// @brief Field <oldRect>k__BackingField, offset 0x7c, size 0x10
+  __declspec(property(get = __cordl_internal_get__oldRect_k__BackingField, put = __cordl_internal_set__oldRect_k__BackingField))::UnityEngine::Rect _oldRect_k__BackingField;
 
   __declspec(property(get = get_layoutPass, put = set_layoutPass)) int32_t layoutPass;
 
-  constexpr ::UnityEngine::Rect& __cordl_internal_get__oldRect_k__BackingField();
+  __declspec(property(get = get_newRect, put = set_newRect))::UnityEngine::Rect newRect;
 
-  constexpr ::UnityEngine::Rect const& __cordl_internal_get__oldRect_k__BackingField() const;
+  __declspec(property(get = get_oldRect, put = set_oldRect))::UnityEngine::Rect oldRect;
 
-  constexpr void __cordl_internal_set__oldRect_k__BackingField(::UnityEngine::Rect value);
-
-  constexpr ::UnityEngine::Rect& __cordl_internal_get__newRect_k__BackingField();
-
-  constexpr ::UnityEngine::Rect const& __cordl_internal_get__newRect_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__newRect_k__BackingField(::UnityEngine::Rect value);
-
-  constexpr int32_t& __cordl_internal_get__layoutPass_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__layoutPass_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__layoutPass_k__BackingField(int32_t value);
-
-  /// @brief Method GetPooled, addr 0x2e6c024, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2f5e74c, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::GeometryChangedEvent* GetPooled(::UnityEngine::Rect oldRect, ::UnityEngine::Rect newRect);
 
-  /// @brief Method Init, addr 0x2e6c0e4, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f5e80c, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e6c134, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f5e85c, size 0x34, virtual false, abstract: false, final false
   inline void LocalInit();
-
-  /// @brief Method get_oldRect, addr 0x2e6c168, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rect get_oldRect();
-
-  /// @brief Method set_oldRect, addr 0x2e6c174, size 0xc, virtual false, abstract: false, final false
-  inline void set_oldRect(::UnityEngine::Rect value);
-
-  /// @brief Method get_newRect, addr 0x2e6c180, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rect get_newRect();
-
-  /// @brief Method set_newRect, addr 0x2e6c18c, size 0xc, virtual false, abstract: false, final false
-  inline void set_newRect(::UnityEngine::Rect value);
-
-  /// @brief Method get_layoutPass, addr 0x2e6c198, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_layoutPass();
-
-  /// @brief Method set_layoutPass, addr 0x2e6c1a0, size 0x8, virtual false, abstract: false, final false
-  inline void set_layoutPass(int32_t value);
 
   static inline ::UnityEngine::UIElements::GeometryChangedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6c1a8, size 0x74, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get__layoutPass_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__layoutPass_k__BackingField();
+
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get__newRect_k__BackingField() const;
+
+  constexpr ::UnityEngine::Rect& __cordl_internal_get__newRect_k__BackingField();
+
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get__oldRect_k__BackingField() const;
+
+  constexpr ::UnityEngine::Rect& __cordl_internal_get__oldRect_k__BackingField();
+
+  constexpr void __cordl_internal_set__layoutPass_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__newRect_k__BackingField(::UnityEngine::Rect value);
+
+  constexpr void __cordl_internal_set__oldRect_k__BackingField(::UnityEngine::Rect value);
+
+  /// @brief Method .ctor, addr 0x2f5e8d0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_layoutPass, addr 0x2f5e8c0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_layoutPass();
+
+  /// @brief Method get_newRect, addr 0x2f5e8a8, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rect get_newRect();
+
+  /// @brief Method get_oldRect, addr 0x2f5e890, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rect get_oldRect();
+
+  /// @brief Method set_layoutPass, addr 0x2f5e8c8, size 0x8, virtual false, abstract: false, final false
+  inline void set_layoutPass(int32_t value);
+
+  /// @brief Method set_newRect, addr 0x2f5e8b4, size 0xc, virtual false, abstract: false, final false
+  inline void set_newRect(::UnityEngine::Rect value);
+
+  /// @brief Method set_oldRect, addr 0x2f5e89c, size 0xc, virtual false, abstract: false, final false
+  inline void set_oldRect(::UnityEngine::Rect value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GeometryChangedEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GeometryChangedEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GeometryChangedEvent(GeometryChangedEvent&&) = delete;
@@ -97,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GeometryChangedEvent(GeometryChangedEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GeometryChangedEvent();
-
-public:
   /// @brief Field <oldRect>k__BackingField, offset: 0x7c, size: 0x10, def value: None
   ::UnityEngine::Rect ____oldRect_k__BackingField;
 

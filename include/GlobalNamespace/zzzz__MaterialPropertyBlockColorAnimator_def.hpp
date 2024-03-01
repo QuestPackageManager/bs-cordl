@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockColorAnimator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14457))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14458))
 // CS Name: ::MaterialPropertyBlockColorAnimator*
 class CORDL_TYPE MaterialPropertyBlockColorAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
@@ -29,26 +27,32 @@ public:
 
   __declspec(property(get = get_color, put = set_color))::UnityEngine::Color color;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+  static inline ::GlobalNamespace::MaterialPropertyBlockColorAnimator* New_ctor();
+
+  /// @brief Method SetProperty, addr 0x2276b3c, size 0x34, virtual true, abstract: false, final false
+  inline void SetProperty();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method get_color, addr 0x21a94bc, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
-
-  /// @brief Method set_color, addr 0x21a94c8, size 0xc, virtual false, abstract: false, final false
-  inline void set_color(::UnityEngine::Color value);
-
-  /// @brief Method SetProperty, addr 0x21a94d4, size 0x34, virtual true, abstract: false, final false
-  inline void SetProperty();
-
-  static inline ::GlobalNamespace::MaterialPropertyBlockColorAnimator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21a9574, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2276bdc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_color, addr 0x2276b24, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_color();
+
+  /// @brief Method set_color, addr 0x2276b30, size 0xc, virtual false, abstract: false, final false
+  inline void set_color(::UnityEngine::Color value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaterialPropertyBlockColorAnimator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyBlockColorAnimator(MaterialPropertyBlockColorAnimator&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockColorAnimator(MaterialPropertyBlockColorAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaterialPropertyBlockColorAnimator();
-
-public:
   /// @brief Field _color, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 

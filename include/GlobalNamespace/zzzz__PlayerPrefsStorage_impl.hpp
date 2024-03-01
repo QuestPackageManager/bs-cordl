@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::PlayerPrefsStorage::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0xe49de4;
+  constexpr static std::size_t addrs = 0xe8fdb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerPrefsStorage*>::get(), "Initialize",
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerPrefsStorage::*)(::StringW, ByRef<::StringW>)>(
     &::GlobalNamespace::PlayerPrefsStorage::LoadFile)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0xe49de8;
+  constexpr static std::size_t addrs = 0xe8fdb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerPrefsStorage::*)(::StringW)>(&::GlobalNamespace::PlayerPrefsStorage::FileExists)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xe49e68;
+  constexpr static std::size_t addrs = 0xe8fe38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerPrefsStorage::*)()>(&::GlobalNamespace::PlayerPrefsStorage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xe49e74;
+  constexpr static std::size_t addrs = 0xe8fe44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerPrefsStorage*>::get(), ".ctor",

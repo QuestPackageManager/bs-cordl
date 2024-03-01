@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMeshConstructorCrossedStrips);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4172))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4173))
 // CS Name: ::SliderMeshConstructorCrossedStrips*
 class CORDL_TYPE SliderMeshConstructorCrossedStrips : public ::GlobalNamespace::SliderMeshConstructor {
 public:
@@ -28,26 +26,32 @@ public:
   /// @brief Field _triangleMap, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__triangleMap, put = __cordl_internal_set__triangleMap))::ArrayW<int32_t, ::Array<int32_t>*> _triangleMap;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__triangleMap();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__triangleMap() const;
-
-  constexpr void __cordl_internal_set__triangleMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  /// @brief Method CreateSliderMeshInternal, addr 0x2354304, size 0x3bc, virtual true, abstract: false, final false
+  /// @brief Method CreateSliderMeshInternal, addr 0x242224c, size 0x3bc, virtual true, abstract: false, final false
   inline void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path);
 
-  /// @brief Method GetVertexCount, addr 0x23546c0, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t GetVertexCount(::GlobalNamespace::VertexPath* path);
-
-  /// @brief Method GetTrianglesCount, addr 0x23546dc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetTrianglesCount, addr 0x2422624, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetTrianglesCount(::GlobalNamespace::VertexPath* path);
+
+  /// @brief Method GetVertexCount, addr 0x2422608, size 0x1c, virtual true, abstract: false, final false
+  inline int32_t GetVertexCount(::GlobalNamespace::VertexPath* path);
 
   static inline ::GlobalNamespace::SliderMeshConstructorCrossedStrips* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2354700, size 0x84, virtual false, abstract: false, final false
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__triangleMap() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__triangleMap();
+
+  constexpr void __cordl_internal_set__triangleMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  /// @brief Method .ctor, addr 0x2422648, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SliderMeshConstructorCrossedStrips();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SliderMeshConstructorCrossedStrips", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SliderMeshConstructorCrossedStrips(SliderMeshConstructorCrossedStrips&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderMeshConstructorCrossedStrips(SliderMeshConstructorCrossedStrips const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SliderMeshConstructorCrossedStrips();
-
-public:
   /// @brief Field _triangleMap, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____triangleMap;
 

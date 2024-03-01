@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialInstaller);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4708))
 // CS Name: ::TutorialInstaller*
 class CORDL_TYPE TutorialInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -36,58 +34,64 @@ public:
   /// @brief Field _audioClip, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__audioClip, put = __cordl_internal_set__audioClip))::UnityW<::UnityEngine::AudioClip> _audioClip;
 
-  /// @brief Field _songBPM, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__songBPM, put = __cordl_internal_set__songBPM)) float_t _songBPM;
+  /// @brief Field _effectPoolsManualInstaller, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__effectPoolsManualInstaller,
+                      put = __cordl_internal_set__effectPoolsManualInstaller))::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> _effectPoolsManualInstaller;
 
   /// @brief Field _playerHeightDetectorPrefab, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__playerHeightDetectorPrefab,
                       put = __cordl_internal_set__playerHeightDetectorPrefab))::UnityW<::GlobalNamespace::PlayerHeightDetector> _playerHeightDetectorPrefab;
 
-  /// @brief Field _effectPoolsManualInstaller, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__effectPoolsManualInstaller,
-                      put = __cordl_internal_set__effectPoolsManualInstaller))::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> _effectPoolsManualInstaller;
-
   /// @brief Field _sceneSetupData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::TutorialSceneSetupData* _sceneSetupData;
 
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__audioClip();
+  /// @brief Field _songBPM, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__songBPM, put = __cordl_internal_set__songBPM)) float_t _songBPM;
+
+  /// @brief Method InstallBindings, addr 0x249dd14, size 0xd18, virtual true, abstract: false, final false
+  inline void InstallBindings();
+
+  static inline ::GlobalNamespace::TutorialInstaller* New_ctor();
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
 
-  constexpr void __cordl_internal_set__audioClip(::UnityW<::UnityEngine::AudioClip> value);
-
-  constexpr float_t& __cordl_internal_get__songBPM();
-
-  constexpr float_t const& __cordl_internal_get__songBPM() const;
-
-  constexpr void __cordl_internal_set__songBPM(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector>& __cordl_internal_get__playerHeightDetectorPrefab();
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector> const& __cordl_internal_get__playerHeightDetectorPrefab() const;
-
-  constexpr void __cordl_internal_set__playerHeightDetectorPrefab(::UnityW<::GlobalNamespace::PlayerHeightDetector> value);
-
-  constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller>& __cordl_internal_get__effectPoolsManualInstaller();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__audioClip();
 
   constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> const& __cordl_internal_get__effectPoolsManualInstaller() const;
 
-  constexpr void __cordl_internal_set__effectPoolsManualInstaller(::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> value);
+  constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller>& __cordl_internal_get__effectPoolsManualInstaller();
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector> const& __cordl_internal_get__playerHeightDetectorPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector>& __cordl_internal_get__playerHeightDetectorPrefab();
 
   constexpr ::GlobalNamespace::TutorialSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
+  constexpr float_t const& __cordl_internal_get__songBPM() const;
+
+  constexpr float_t& __cordl_internal_get__songBPM();
+
+  constexpr void __cordl_internal_set__audioClip(::UnityW<::UnityEngine::AudioClip> value);
+
+  constexpr void __cordl_internal_set__effectPoolsManualInstaller(::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> value);
+
+  constexpr void __cordl_internal_set__playerHeightDetectorPrefab(::UnityW<::GlobalNamespace::PlayerHeightDetector> value);
+
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::TutorialSceneSetupData* value);
 
-  /// @brief Method InstallBindings, addr 0x23cedcc, size 0xd18, virtual true, abstract: false, final false
-  inline void InstallBindings();
+  constexpr void __cordl_internal_set__songBPM(float_t value);
 
-  static inline ::GlobalNamespace::TutorialInstaller* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23cfae4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249ea2c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TutorialInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TutorialInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialInstaller(TutorialInstaller&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TutorialInstaller(TutorialInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TutorialInstaller();
-
-public:
   /// @brief Field _audioClip, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 

@@ -15,8 +15,6 @@ MARK_VAL_T(::System::ParseFailureKind);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2397))
 // CS Name: ::System::ParseFailureKind
 struct CORDL_TYPE ParseFailureKind {
 public:
@@ -40,21 +38,20 @@ public:
     return static_cast<__ParseFailureKind_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ParseFailureKind(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__ParseFailureKind_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ParseFailureKind();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ParseFailureKind(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::ParseFailureKind const None;
 
   /// @brief Field ArgumentNull value: static_cast<int32_t>(0x1)
   static ::System::ParseFailureKind const ArgumentNull;
@@ -62,20 +59,26 @@ public:
   /// @brief Field Format value: static_cast<int32_t>(0x2)
   static ::System::ParseFailureKind const Format;
 
-  /// @brief Field FormatWithParameter value: static_cast<int32_t>(0x3)
-  static ::System::ParseFailureKind const FormatWithParameter;
-
-  /// @brief Field FormatWithOriginalDateTime value: static_cast<int32_t>(0x4)
-  static ::System::ParseFailureKind const FormatWithOriginalDateTime;
+  /// @brief Field FormatBadDateTimeCalendar value: static_cast<int32_t>(0x7)
+  static ::System::ParseFailureKind const FormatBadDateTimeCalendar;
 
   /// @brief Field FormatWithFormatSpecifier value: static_cast<int32_t>(0x5)
   static ::System::ParseFailureKind const FormatWithFormatSpecifier;
 
+  /// @brief Field FormatWithOriginalDateTime value: static_cast<int32_t>(0x4)
+  static ::System::ParseFailureKind const FormatWithOriginalDateTime;
+
   /// @brief Field FormatWithOriginalDateTimeAndParameter value: static_cast<int32_t>(0x6)
   static ::System::ParseFailureKind const FormatWithOriginalDateTimeAndParameter;
 
-  /// @brief Field FormatBadDateTimeCalendar value: static_cast<int32_t>(0x7)
-  static ::System::ParseFailureKind const FormatBadDateTimeCalendar;
+  /// @brief Field FormatWithParameter value: static_cast<int32_t>(0x3)
+  static ::System::ParseFailureKind const FormatWithParameter;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::ParseFailureKind const None;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

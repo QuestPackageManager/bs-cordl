@@ -28,38 +28,42 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10108))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10007))
 // CS Name: ::Zenject::MemoryPoolBindingFinalizer`1<TContract>*
 class CORDL_TYPE MemoryPoolBindingFinalizer_1 : public ::Zenject::ProviderBindingFinalizer {
 public:
   // Declarations
-  /// @brief Field _poolBindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__poolBindInfo, put = __cordl_internal_set__poolBindInfo))::Zenject::MemoryPoolBindInfo* _poolBindInfo;
-
   /// @brief Field _factoryBindInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo))::Zenject::FactoryBindInfo* _factoryBindInfo;
 
-  constexpr ::Zenject::MemoryPoolBindInfo*& __cordl_internal_get__poolBindInfo();
+  /// @brief Field _poolBindInfo, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__poolBindInfo, put = __cordl_internal_set__poolBindInfo))::Zenject::MemoryPoolBindInfo* _poolBindInfo;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolBindInfo*> const& __cordl_internal_get__poolBindInfo() const;
+  static inline ::Zenject::MemoryPoolBindingFinalizer_1<TContract>* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
-  constexpr void __cordl_internal_set__poolBindInfo(::Zenject::MemoryPoolBindInfo* value);
+  /// @brief Method OnFinalizeBinding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryBindInfo*& __cordl_internal_get__factoryBindInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const& __cordl_internal_get__factoryBindInfo() const;
 
+  constexpr ::Zenject::MemoryPoolBindInfo*& __cordl_internal_get__poolBindInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolBindInfo*> const& __cordl_internal_get__poolBindInfo() const;
+
   constexpr void __cordl_internal_set__factoryBindInfo(::Zenject::FactoryBindInfo* value);
 
-  static inline ::Zenject::MemoryPoolBindingFinalizer_1<TContract>* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
+  constexpr void __cordl_internal_set__poolBindInfo(::Zenject::MemoryPoolBindInfo* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
-  /// @brief Method OnFinalizeBinding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void OnFinalizeBinding(::Zenject::DiContainer* container);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemoryPoolBindingFinalizer_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolBindingFinalizer_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryPoolBindingFinalizer_1(MemoryPoolBindingFinalizer_1&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryPoolBindingFinalizer_1(MemoryPoolBindingFinalizer_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoryPoolBindingFinalizer_1();
-
-public:
   /// @brief Field _poolBindInfo, offset: 0x18, size: 0x8, def value: None
   ::Zenject::MemoryPoolBindInfo* ____poolBindInfo;
 

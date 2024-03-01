@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButton
 // SizeInfo { instance_size: 472, native_size: -1, calculated_instance_size: 472, calculated_native_size: 472, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5685))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5687))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidGamepadWithDpadButtons*
 class CORDL_TYPE AndroidGamepadWithDpadButtons : public ::UnityEngine::InputSystem::Android::AndroidGamepad {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ae7514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcc5e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidGamepadWithDpadButtons();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidGamepadWithDpadButtons", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidGamepadWithDpadButtons(AndroidGamepadWithDpadButtons&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidGamepadWithDpadButtons(AndroidGamepadWithDpadButtons const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidGamepadWithDpadButtons();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -36,8 +36,6 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5951))
 // CS Name: ::TakeNObservable`1::Take<TValue>*
 class CORDL_TYPE __TakeNObservable_1__Take : public ::System::Object {
 public:
@@ -51,26 +49,8 @@ public:
   /// @brief Convert operator to "::System::IObserver_1<TValue>"
   constexpr operator ::System::IObserver_1<TValue>*() noexcept;
 
-  /// @brief Convert to "::System::IObserver_1<TValue>"
-  constexpr ::System::IObserver_1<TValue>* i___System__IObserver_1_TValue_() noexcept;
-
-  constexpr ::System::IObserver_1<TValue>*& __cordl_internal_get_m_Observer();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TValue>*> const& __cordl_internal_get_m_Observer() const;
-
-  constexpr void __cordl_internal_set_m_Observer(::System::IObserver_1<TValue>* value);
-
-  constexpr int32_t& __cordl_internal_get_m_Remaining();
-
-  constexpr int32_t const& __cordl_internal_get_m_Remaining() const;
-
-  constexpr void __cordl_internal_set_m_Remaining(int32_t value);
-
   static inline ::UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>* New_ctor(::UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>* observable,
                                                                                                    ::System::IObserver_1<TValue>* observer);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>* observable, ::System::IObserver_1<TValue>* observer);
 
   /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnCompleted();
@@ -81,6 +61,30 @@ public:
   /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnNext(TValue evt);
 
+  constexpr ::System::IObserver_1<TValue>*& __cordl_internal_get_m_Observer();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TValue>*> const& __cordl_internal_get_m_Observer() const;
+
+  constexpr int32_t const& __cordl_internal_get_m_Remaining() const;
+
+  constexpr int32_t& __cordl_internal_get_m_Remaining();
+
+  constexpr void __cordl_internal_set_m_Observer(::System::IObserver_1<TValue>* value);
+
+  constexpr void __cordl_internal_set_m_Remaining(int32_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>* observable, ::System::IObserver_1<TValue>* observer);
+
+  /// @brief Convert to "::System::IObserver_1<TValue>"
+  constexpr ::System::IObserver_1<TValue>* i___System__IObserver_1_TValue_() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TakeNObservable_1__Take();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TakeNObservable_1__Take", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TakeNObservable_1__Take(__TakeNObservable_1__Take&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TakeNObservable_1__Take(__TakeNObservable_1__Take const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TakeNObservable_1__Take();
-
-public:
   /// @brief Field m_Observer, offset: 0x10, size: 0x8, def value: None
   ::System::IObserver_1<TValue>* ___m_Observer;
 
@@ -111,46 +109,50 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5952))
 // CS Name: ::UnityEngine.InputSystem.Utilities::TakeNObservable`1<TValue>*
 class CORDL_TYPE TakeNObservable_1 : public ::System::Object {
 public:
   // Declarations
   using Take = ::UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>;
 
-  /// @brief Field m_Source, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source))::System::IObservable_1<TValue>* m_Source;
-
   /// @brief Field m_Count, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Count, put = __cordl_internal_set_m_Count)) int32_t m_Count;
+
+  /// @brief Field m_Source, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source))::System::IObservable_1<TValue>* m_Source;
 
   /// @brief Convert operator to "::System::IObservable_1<TValue>"
   constexpr operator ::System::IObservable_1<TValue>*() noexcept;
 
-  /// @brief Convert to "::System::IObservable_1<TValue>"
-  constexpr ::System::IObservable_1<TValue>* i___System__IObservable_1_TValue_() noexcept;
+  static inline ::UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>* New_ctor(::System::IObservable_1<TValue>* source, int32_t count);
+
+  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::IDisposable* Subscribe(::System::IObserver_1<TValue>* observer);
+
+  constexpr int32_t const& __cordl_internal_get_m_Count() const;
+
+  constexpr int32_t& __cordl_internal_get_m_Count();
 
   constexpr ::System::IObservable_1<TValue>*& __cordl_internal_get_m_Source();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TValue>*> const& __cordl_internal_get_m_Source() const;
 
-  constexpr void __cordl_internal_set_m_Source(::System::IObservable_1<TValue>* value);
-
-  constexpr int32_t& __cordl_internal_get_m_Count();
-
-  constexpr int32_t const& __cordl_internal_get_m_Count() const;
-
   constexpr void __cordl_internal_set_m_Count(int32_t value);
 
-  static inline ::UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>* New_ctor(::System::IObservable_1<TValue>* source, int32_t count);
+  constexpr void __cordl_internal_set_m_Source(::System::IObservable_1<TValue>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::IObservable_1<TValue>* source, int32_t count);
 
-  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::IDisposable* Subscribe(::System::IObserver_1<TValue>* observer);
+  /// @brief Convert to "::System::IObservable_1<TValue>"
+  constexpr ::System::IObservable_1<TValue>* i___System__IObservable_1_TValue_() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TakeNObservable_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TakeNObservable_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TakeNObservable_1(TakeNObservable_1&&) = delete;
@@ -159,12 +161,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TakeNObservable_1(TakeNObservable_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TakeNObservable_1();
-
-public:
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<TValue>* ___m_Source;
 

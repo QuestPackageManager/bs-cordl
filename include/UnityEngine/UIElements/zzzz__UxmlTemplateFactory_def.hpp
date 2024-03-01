@@ -26,9 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTemplateFactory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6003)), TypeDefinitionIndex(TypeDefinitionIndex(6234)), TypeDefinitionIndex(TypeDefinitionIndex(6256)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6256), inst: 5267 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6233)) CS Name:
-// ::UnityEngine.UIElements::UxmlTemplateFactory*
+// CS Name: ::UnityEngine.UIElements::UxmlTemplateFactory*
 class CORDL_TYPE UxmlTemplateFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlTemplateTraits*> {
 public:
   // Declarations
@@ -36,20 +34,26 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName))::StringW uxmlQualifiedName;
 
-  /// @brief Method get_uxmlName, addr 0x2e2b6e8, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_uxmlName();
-
-  /// @brief Method get_uxmlQualifiedName, addr 0x2e2b728, size 0x74, virtual true, abstract: false, final false
-  inline ::StringW get_uxmlQualifiedName();
-
-  /// @brief Method Create, addr 0x2e2b79c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x2f1cec4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlTemplateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e2b7a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1cecc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_uxmlName, addr 0x2f1ce10, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_uxmlName();
+
+  /// @brief Method get_uxmlQualifiedName, addr 0x2f1ce50, size 0x74, virtual true, abstract: false, final false
+  inline ::StringW get_uxmlQualifiedName();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlTemplateFactory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UxmlTemplateFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlTemplateFactory(UxmlTemplateFactory&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UxmlTemplateFactory(UxmlTemplateFactory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlTemplateFactory();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

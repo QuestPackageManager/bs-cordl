@@ -19,20 +19,18 @@ MARK_VAL_T(::GlobalNamespace::BladeMovementDataElement);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14882))
 // CS Name: ::BladeMovementDataElement
 struct CORDL_TYPE BladeMovementDataElement {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BladeMovementDataElement();
+
   // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "segmentAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "topPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "bottomPos", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name:
   // "segmentNormal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
   constexpr BladeMovementDataElement(float_t time, float_t segmentAngle, ::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, ::UnityEngine::Vector3 segmentNormal) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BladeMovementDataElement();
 
   /// @brief Field time, offset: 0x0, size: 0x4, def value: None
   float_t time;

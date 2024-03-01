@@ -24,8 +24,6 @@ MARK_VAL_T(::System::Net::Http::Headers::Token);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14686))
 // CS Name: ::Token::Type
 struct CORDL_TYPE __Token__Type {
 public:
@@ -51,30 +49,38 @@ public:
     return static_cast<____Token__Type_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Token__Type(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____Token__Type_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Token__Type();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Token__Type(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Error value: static_cast<int32_t>(0x0)
-  static ::System::Net::Http::Headers::__Token__Type const Error;
 
   /// @brief Field End value: static_cast<int32_t>(0x1)
   static ::System::Net::Http::Headers::__Token__Type const End;
 
-  /// @brief Field Token value: static_cast<int32_t>(0x2)
-  static ::System::Net::Http::Headers::__Token__Type const Token;
+  /// @brief Field Error value: static_cast<int32_t>(0x0)
+  static ::System::Net::Http::Headers::__Token__Type const Error;
+
+  /// @brief Field OpenParens value: static_cast<int32_t>(0x9)
+  static ::System::Net::Http::Headers::__Token__Type const OpenParens;
 
   /// @brief Field QuotedString value: static_cast<int32_t>(0x3)
   static ::System::Net::Http::Headers::__Token__Type const QuotedString;
+
+  /// @brief Field SeparatorComma value: static_cast<int32_t>(0x8)
+  static ::System::Net::Http::Headers::__Token__Type const SeparatorComma;
+
+  /// @brief Field SeparatorDash value: static_cast<int32_t>(0x7)
+  static ::System::Net::Http::Headers::__Token__Type const SeparatorDash;
 
   /// @brief Field SeparatorEqual value: static_cast<int32_t>(0x4)
   static ::System::Net::Http::Headers::__Token__Type const SeparatorEqual;
@@ -85,14 +91,11 @@ public:
   /// @brief Field SeparatorSlash value: static_cast<int32_t>(0x6)
   static ::System::Net::Http::Headers::__Token__Type const SeparatorSlash;
 
-  /// @brief Field SeparatorDash value: static_cast<int32_t>(0x7)
-  static ::System::Net::Http::Headers::__Token__Type const SeparatorDash;
+  /// @brief Field Token value: static_cast<int32_t>(0x2)
+  static ::System::Net::Http::Headers::__Token__Type const Token;
 
-  /// @brief Field SeparatorComma value: static_cast<int32_t>(0x8)
-  static ::System::Net::Http::Headers::__Token__Type const SeparatorComma;
-
-  /// @brief Field OpenParens value: static_cast<int32_t>(0x9)
-  static ::System::Net::Http::Headers::__Token__Type const OpenParens;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -106,8 +109,6 @@ static_assert(offsetof(::System::Net::Http::Headers::__Token__Type, value__) == 
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14686))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14687))
 // CS Name: ::System.Net.Http.Headers::Token
 struct CORDL_TYPE Token {
 public:
@@ -117,47 +118,47 @@ public:
   /// @brief Field Empty, offset 0xffffffff, size 0xc
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::System::Net::Http::Headers::Token Empty;
 
-  __declspec(property(get = get_StartPosition, put = set_StartPosition)) int32_t StartPosition;
-
   __declspec(property(get = get_EndPosition, put = set_EndPosition)) int32_t EndPosition;
 
   __declspec(property(get = get_Kind))::System::Net::Http::Headers::__Token__Type Kind;
 
-  static inline void setStaticF_Empty(::System::Net::Http::Headers::Token value);
+  __declspec(property(get = get_StartPosition, put = set_StartPosition)) int32_t StartPosition;
+
+  /// @brief Method ToString, addr 0x2926304, size 0x68, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x291ec08, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Net::Http::Headers::__Token__Type type, int32_t startPosition, int32_t endPosition);
 
   static inline ::System::Net::Http::Headers::Token getStaticF_Empty();
 
-  /// @brief Method .ctor, addr 0x283978c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Http::Headers::__Token__Type type, int32_t startPosition, int32_t endPosition);
-
-  /// @brief Method get_StartPosition, addr 0x2840e5c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_StartPosition();
-
-  /// @brief Method set_StartPosition, addr 0x2840e64, size 0x8, virtual false, abstract: false, final false
-  inline void set_StartPosition(int32_t value);
-
-  /// @brief Method get_EndPosition, addr 0x2840e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EndPosition, addr 0x29262e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EndPosition();
 
-  /// @brief Method set_EndPosition, addr 0x2840e74, size 0x8, virtual false, abstract: false, final false
-  inline void set_EndPosition(int32_t value);
-
-  /// @brief Method get_Kind, addr 0x2840e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Kind, addr 0x29262f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::__Token__Type get_Kind();
 
-  /// @brief Method op_Implicit, addr 0x2840e84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_StartPosition, addr 0x29262d8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_StartPosition();
+
+  /// @brief Method op_Implicit, addr 0x2926300, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::Http::Headers::__Token__Type op_Implicit___System__Net__Http__Headers____Token__Type(::System::Net::Http::Headers::Token token);
 
-  /// @brief Method ToString, addr 0x2840e88, size 0x68, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  static inline void setStaticF_Empty(::System::Net::Http::Headers::Token value);
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::System::Net::Http::Headers::__Token__Type", modifiers: "", def_value: None }, CppParam { name: "_StartPosition_k__BackingField", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "_EndPosition_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr Token(::System::Net::Http::Headers::__Token__Type type, int32_t _StartPosition_k__BackingField, int32_t _EndPosition_k__BackingField) noexcept;
+  /// @brief Method set_EndPosition, addr 0x29262f0, size 0x8, virtual false, abstract: false, final false
+  inline void set_EndPosition(int32_t value);
+
+  /// @brief Method set_StartPosition, addr 0x29262e0, size 0x8, virtual false, abstract: false, final false
+  inline void set_StartPosition(int32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Token();
+
+  // Ctor Parameters [CppParam { name: "type", ty: "::System::Net::Http::Headers::__Token__Type", modifiers: "", def_value: None }, CppParam { name: "_StartPosition_k__BackingField", ty: "int32_t",
+  // modifiers: "", def_value: None }, CppParam { name: "_EndPosition_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr Token(::System::Net::Http::Headers::__Token__Type type, int32_t _StartPosition_k__BackingField, int32_t _EndPosition_k__BackingField) noexcept;
 
   /// @brief Field type, offset: 0x0, size: 0x4, def value: None
   ::System::Net::Http::Headers::__Token__Type type;

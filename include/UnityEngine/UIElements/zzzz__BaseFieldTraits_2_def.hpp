@@ -25,8 +25,6 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6388)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6388), inst: 5194 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6390))
 // CS Name: ::UnityEngine.UIElements::BaseFieldTraits`2<TValueType,TValueUxmlAttributeType>*
 class CORDL_TYPE BaseFieldTraits_2 : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType> {
 public:
@@ -34,20 +32,26 @@ public:
   /// @brief Field m_Value, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) TValueUxmlAttributeType m_Value;
 
-  constexpr TValueUxmlAttributeType& __cordl_internal_get_m_Value();
-
-  constexpr TValueUxmlAttributeType const& __cordl_internal_get_m_Value() const;
-
-  constexpr void __cordl_internal_set_m_Value(TValueUxmlAttributeType value);
-
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>* New_ctor();
 
+  constexpr TValueUxmlAttributeType const& __cordl_internal_get_m_Value() const;
+
+  constexpr TValueUxmlAttributeType& __cordl_internal_get_m_Value();
+
+  constexpr void __cordl_internal_set_m_Value(TValueUxmlAttributeType value);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseFieldTraits_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseFieldTraits_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseFieldTraits_2(BaseFieldTraits_2&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseFieldTraits_2(BaseFieldTraits_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseFieldTraits_2();
-
-public:
   /// @brief Field m_Value, offset: 0x80, size: 0x8, def value: None
   TValueUxmlAttributeType ___m_Value;
 

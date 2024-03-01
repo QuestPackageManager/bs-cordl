@@ -16,45 +16,49 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1284))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SupplementalDataEntry*
 class CORDL_TYPE SupplementalDataEntry : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field mDataType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_mDataType, put = __cordl_internal_set_mDataType)) int32_t mDataType;
+  __declspec(property(get = get_Data))::ArrayW<uint8_t, ::Array<uint8_t>*> Data;
+
+  __declspec(property(get = get_DataType)) int32_t DataType;
 
   /// @brief Field mData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mData, put = __cordl_internal_set_mData))::ArrayW<uint8_t, ::Array<uint8_t>*> mData;
 
-  __declspec(property(get = get_DataType)) int32_t DataType;
-
-  __declspec(property(get = get_Data))::ArrayW<uint8_t, ::Array<uint8_t>*> Data;
-
-  constexpr int32_t& __cordl_internal_get_mDataType();
-
-  constexpr int32_t const& __cordl_internal_get_mDataType() const;
-
-  constexpr void __cordl_internal_set_mDataType(int32_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mData();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mData() const;
-
-  constexpr void __cordl_internal_set_mData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Field mDataType, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_mDataType, put = __cordl_internal_set_mDataType)) int32_t mDataType;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry* New_ctor(int32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0xfc46c4, size 0x30, virtual false, abstract: false, final false
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mData() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mData();
+
+  constexpr int32_t const& __cordl_internal_get_mDataType() const;
+
+  constexpr int32_t& __cordl_internal_get_mDataType();
+
+  constexpr void __cordl_internal_set_mData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_mDataType(int32_t value);
+
+  /// @brief Method .ctor, addr 0x1009694, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_DataType, addr 0xfc46f4, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_DataType();
-
-  /// @brief Method get_Data, addr 0xfc46fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0x10096cc, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
+  /// @brief Method get_DataType, addr 0x10096c4, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_DataType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SupplementalDataEntry();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SupplementalDataEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SupplementalDataEntry(SupplementalDataEntry&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SupplementalDataEntry(SupplementalDataEntry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SupplementalDataEntry();
-
-public:
   /// @brief Field mDataType, offset: 0x10, size: 0x4, def value: None
   int32_t ___mDataType;
 

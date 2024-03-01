@@ -15,19 +15,17 @@ MARK_VAL_T(::OVR::OpenVR::HmdQuaternion_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8595))
 // CS Name: ::OVR.OpenVR::HmdQuaternion_t
 struct CORDL_TYPE HmdQuaternion_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "w", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "x", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "y", ty:
-  // "double_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "double_t", modifiers: "", def_value: None }]
-  constexpr HmdQuaternion_t(double_t w, double_t x, double_t y, double_t z) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HmdQuaternion_t();
+
+  // Ctor Parameters [CppParam { name: "w", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "x", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "y", ty:
+  // "double_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "double_t", modifiers: "", def_value: None }]
+  constexpr HmdQuaternion_t(double_t w, double_t x, double_t y, double_t z) noexcept;
 
   /// @brief Field w, offset: 0x0, size: 0x8, def value: None
   double_t w;

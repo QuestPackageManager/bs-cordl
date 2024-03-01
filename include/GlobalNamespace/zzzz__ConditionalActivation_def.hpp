@@ -17,38 +17,42 @@ MARK_REF_PTR_T(::GlobalNamespace::ConditionalActivation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16171))
 // CS Name: ::ConditionalActivation*
 class CORDL_TYPE ConditionalActivation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _value, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::UnityW<::GlobalNamespace::BoolSO> _value;
-
   /// @brief Field _activateOnFalse, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__activateOnFalse, put = __cordl_internal_set__activateOnFalse)) bool _activateOnFalse;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
+  /// @brief Field _value, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::UnityW<::GlobalNamespace::BoolSO> _value;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
-
-  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
-
-  constexpr bool& __cordl_internal_get__activateOnFalse();
-
-  constexpr bool const& __cordl_internal_get__activateOnFalse() const;
-
-  constexpr void __cordl_internal_set__activateOnFalse(bool value);
-
-  /// @brief Method Awake, addr 0x2181490, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x224fb34, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalActivation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2181514, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__activateOnFalse() const;
+
+  constexpr bool& __cordl_internal_get__activateOnFalse();
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
+
+  constexpr void __cordl_internal_set__activateOnFalse(bool value);
+
+  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
+
+  /// @brief Method .ctor, addr 0x224fbb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConditionalActivation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalActivation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalActivation(ConditionalActivation&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConditionalActivation(ConditionalActivation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConditionalActivation();
-
-public:
   /// @brief Field _value, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____value;
 

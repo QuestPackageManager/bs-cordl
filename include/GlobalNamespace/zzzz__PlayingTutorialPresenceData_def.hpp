@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayingTutorialPresenceData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5250))
 // CS Name: ::PlayingTutorialPresenceData*
 class CORDL_TYPE PlayingTutorialPresenceData : public ::System::Object {
 public:
@@ -34,26 +32,32 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
-  constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
-
-  constexpr ::StringW& __cordl_internal_get__localizedDescription();
+  static inline ::GlobalNamespace::PlayingTutorialPresenceData* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get__localizedDescription() const;
 
+  constexpr ::StringW& __cordl_internal_get__localizedDescription();
+
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method get_apiName, addr 0x23375d0, size 0x40, virtual true, abstract: false, final true
-  inline ::StringW get_apiName();
-
-  /// @brief Method get_localizedDescription, addr 0x2337610, size 0x58, virtual true, abstract: false, final true
-  inline ::StringW get_localizedDescription();
-
-  static inline ::GlobalNamespace::PlayingTutorialPresenceData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2337668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24065b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_apiName, addr 0x2406518, size 0x40, virtual true, abstract: false, final true
+  inline ::StringW get_apiName();
+
+  /// @brief Method get_localizedDescription, addr 0x2406558, size 0x58, virtual true, abstract: false, final true
+  inline ::StringW get_localizedDescription();
+
+  /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
+  constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayingTutorialPresenceData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayingTutorialPresenceData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayingTutorialPresenceData(PlayingTutorialPresenceData&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayingTutorialPresenceData(PlayingTutorialPresenceData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayingTutorialPresenceData();
-
-public:
   /// @brief Field _localizedDescription, offset: 0x10, size: 0x8, def value: None
   ::StringW ____localizedDescription;
 

@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusRemote);
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5498))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15196))
 // CS Name: ::Unity.XR.Oculus.Input::OculusRemote*
 class CORDL_TYPE OculusRemote : public ::UnityEngine::InputSystem::InputDevice {
 public:
@@ -42,50 +40,56 @@ public:
 
   __declspec(property(get = get_touchpad, put = set_touchpad))::UnityEngine::InputSystem::Controls::Vector2Control* touchpad;
 
+  /// @brief Method FinishSetup, addr 0x2d626c8, size 0xe8, virtual true, abstract: false, final false
+  inline void FinishSetup();
+
+  static inline ::Unity::XR::Oculus::Input::OculusRemote* New_ctor();
+
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__back_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__back_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__back_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__start_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__start_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__start_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
   constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__touchpad_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__touchpad_k__BackingField() const;
 
+  constexpr void __cordl_internal_set__back_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  constexpr void __cordl_internal_set__start_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
   constexpr void __cordl_internal_set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_back, addr 0x2c795c4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
-
-  /// @brief Method set_back, addr 0x2c795cc, size 0x8, virtual false, abstract: false, final false
-  inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  /// @brief Method get_start, addr 0x2c795d4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_start();
-
-  /// @brief Method set_start, addr 0x2c795dc, size 0x8, virtual false, abstract: false, final false
-  inline void set_start(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  /// @brief Method get_touchpad, addr 0x2c795e4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
-
-  /// @brief Method set_touchpad, addr 0x2c795ec, size 0x8, virtual false, abstract: false, final false
-  inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
-
-  /// @brief Method FinishSetup, addr 0x2c795f4, size 0xe8, virtual true, abstract: false, final false
-  inline void FinishSetup();
-
-  static inline ::Unity::XR::Oculus::Input::OculusRemote* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c796dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d627b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_back, addr 0x2d62698, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
+
+  /// @brief Method get_start, addr 0x2d626a8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_start();
+
+  /// @brief Method get_touchpad, addr 0x2d626b8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
+
+  /// @brief Method set_back, addr 0x2d626a0, size 0x8, virtual false, abstract: false, final false
+  inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method set_start, addr 0x2d626b0, size 0x8, virtual false, abstract: false, final false
+  inline void set_start(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method set_touchpad, addr 0x2d626c0, size 0x8, virtual false, abstract: false, final false
+  inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OculusRemote();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OculusRemote", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusRemote(OculusRemote&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OculusRemote(OculusRemote const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusRemote();
-
-public:
   /// @brief Field <back>k__BackingField, offset: 0x158, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____back_k__BackingField;
 

@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyVersion);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11033))
 // CS Name: ::SonyVersion::VersionFormat
 struct CORDL_TYPE __SonyVersion__VersionFormat {
 public:
@@ -45,30 +43,35 @@ public:
     return static_cast<____SonyVersion__VersionFormat_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __SonyVersion__VersionFormat(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____SonyVersion__VersionFormat_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __SonyVersion__VersionFormat();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __SonyVersion__VersionFormat(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field FullLong value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__SonyVersion__VersionFormat const FullLong;
 
-  /// @brief Field Long value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__SonyVersion__VersionFormat const Long;
-
   /// @brief Field FullShort value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__SonyVersion__VersionFormat const FullShort;
 
+  /// @brief Field Long value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__SonyVersion__VersionFormat const Long;
+
   /// @brief Field Short value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__SonyVersion__VersionFormat const Short;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -82,8 +85,6 @@ static_assert(offsetof(::GlobalNamespace::__SonyVersion__VersionFormat, value__)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11034))
 // CS Name: ::SonyVersion*
 class CORDL_TYPE SonyVersion : public ::System::Object {
 public:
@@ -100,38 +101,44 @@ public:
 
   __declspec(property(get = get_minorVersion)) uint32_t minorVersion;
 
-  constexpr uint32_t& __cordl_internal_get__majorVersion();
+  /// @brief Method Get, addr 0x12ef0ec, size 0x200, virtual false, abstract: false, final false
+  inline ::StringW Get(::GlobalNamespace::__SonyVersion__VersionFormat format);
 
-  constexpr uint32_t const& __cordl_internal_get__majorVersion() const;
+  /// @brief Method GetFromString, addr 0x12eeb0c, size 0x550, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::SonyVersion* GetFromString(::StringW versionString);
 
-  constexpr void __cordl_internal_set__majorVersion(uint32_t value);
-
-  constexpr uint32_t& __cordl_internal_get__minorVersion();
-
-  constexpr uint32_t const& __cordl_internal_get__minorVersion() const;
-
-  constexpr void __cordl_internal_set__minorVersion(uint32_t value);
-
-  /// @brief Method get_majorVersion, addr 0x12adb00, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_majorVersion();
-
-  /// @brief Method get_minorVersion, addr 0x12adb08, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_minorVersion();
+  /// @brief Method IsVersionFormatValid, addr 0x12ef05c, size 0x90, virtual false, abstract: false, final false
+  static inline bool IsVersionFormatValid(::StringW versionString);
 
   static inline ::GlobalNamespace::SonyVersion* New_ctor(uint32_t majorVersion, uint32_t minorVersion);
 
-  /// @brief Method .ctor, addr 0x12adb10, size 0x2c, virtual false, abstract: false, final false
+  constexpr uint32_t const& __cordl_internal_get__majorVersion() const;
+
+  constexpr uint32_t& __cordl_internal_get__majorVersion();
+
+  constexpr uint32_t const& __cordl_internal_get__minorVersion() const;
+
+  constexpr uint32_t& __cordl_internal_get__minorVersion();
+
+  constexpr void __cordl_internal_set__majorVersion(uint32_t value);
+
+  constexpr void __cordl_internal_set__minorVersion(uint32_t value);
+
+  /// @brief Method .ctor, addr 0x12eeae0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t majorVersion, uint32_t minorVersion);
 
-  /// @brief Method GetFromString, addr 0x12adb3c, size 0x550, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::SonyVersion* GetFromString(::StringW versionString);
+  /// @brief Method get_majorVersion, addr 0x12eead0, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t get_majorVersion();
 
-  /// @brief Method IsVersionFormatValid, addr 0x12ae08c, size 0x90, virtual false, abstract: false, final false
-  static inline bool IsVersionFormatValid(::StringW versionString);
+  /// @brief Method get_minorVersion, addr 0x12eead8, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t get_minorVersion();
 
-  /// @brief Method Get, addr 0x12ae11c, size 0x200, virtual false, abstract: false, final false
-  inline ::StringW Get(::GlobalNamespace::__SonyVersion__VersionFormat format);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SonyVersion();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SonyVersion", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SonyVersion(SonyVersion&&) = delete;
@@ -140,12 +147,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SonyVersion(SonyVersion const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SonyVersion();
-
-public:
   /// @brief Field _majorVersion, offset: 0x10, size: 0x4, def value: None
   uint32_t ____majorVersion;
 

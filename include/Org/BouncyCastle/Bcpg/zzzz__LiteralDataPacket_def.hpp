@@ -20,62 +20,66 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::LiteralDataPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(557))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(573))
 // CS Name: ::Org.BouncyCastle.Bcpg::LiteralDataPacket*
 class CORDL_TYPE LiteralDataPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
   // Declarations
-  /// @brief Field format, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format)) int32_t format;
-
-  /// @brief Field fileName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::ArrayW<uint8_t, ::Array<uint8_t>*> fileName;
-
-  /// @brief Field modDate, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_modDate, put = __cordl_internal_set_modDate)) int64_t modDate;
+  __declspec(property(get = get_FileName))::StringW FileName;
 
   __declspec(property(get = get_Format)) int32_t Format;
 
   __declspec(property(get = get_ModificationTime)) int64_t ModificationTime;
 
-  __declspec(property(get = get_FileName))::StringW FileName;
+  /// @brief Field fileName, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::ArrayW<uint8_t, ::Array<uint8_t>*> fileName;
 
-  constexpr int32_t& __cordl_internal_get_format();
+  /// @brief Field format, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format)) int32_t format;
 
-  constexpr int32_t const& __cordl_internal_get_format() const;
+  /// @brief Field modDate, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_modDate, put = __cordl_internal_set_modDate)) int64_t modDate;
 
-  constexpr void __cordl_internal_set_format(int32_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fileName();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fileName() const;
-
-  constexpr void __cordl_internal_set_fileName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int64_t& __cordl_internal_get_modDate();
-
-  constexpr int64_t const& __cordl_internal_get_modDate() const;
-
-  constexpr void __cordl_internal_set_modDate(int64_t value);
+  /// @brief Method GetRawFileName, addr 0x1242b08, size 0x5c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawFileName();
 
   static inline ::Org::BouncyCastle::Bcpg::LiteralDataPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x11fca2c, size 0x1bc, virtual false, abstract: false, final false
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fileName() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fileName();
+
+  constexpr int32_t const& __cordl_internal_get_format() const;
+
+  constexpr int32_t& __cordl_internal_get_format();
+
+  constexpr int64_t const& __cordl_internal_get_modDate() const;
+
+  constexpr int64_t& __cordl_internal_get_modDate();
+
+  constexpr void __cordl_internal_set_fileName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_format(int32_t value);
+
+  constexpr void __cordl_internal_set_modDate(int64_t value);
+
+  /// @brief Method .ctor, addr 0x123f9fc, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Format, addr 0x11ffb1c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Format();
-
-  /// @brief Method get_ModificationTime, addr 0x11ffb24, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_ModificationTime();
-
-  /// @brief Method get_FileName, addr 0x11ffb2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x1242afc, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method GetRawFileName, addr 0x11ffb38, size 0x5c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawFileName();
+  /// @brief Method get_Format, addr 0x1242aec, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Format();
 
+  /// @brief Method get_ModificationTime, addr 0x1242af4, size 0x8, virtual false, abstract: false, final false
+  inline int64_t get_ModificationTime();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LiteralDataPacket();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LiteralDataPacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LiteralDataPacket(LiteralDataPacket&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LiteralDataPacket(LiteralDataPacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LiteralDataPacket();
-
-public:
   /// @brief Field format, offset: 0x18, size: 0x4, def value: None
   int32_t ___format;
 

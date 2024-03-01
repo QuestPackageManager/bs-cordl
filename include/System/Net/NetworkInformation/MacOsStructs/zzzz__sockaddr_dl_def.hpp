@@ -16,14 +16,16 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7309))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::sockaddr_dl
 struct CORDL_TYPE sockaddr_dl {
 public:
   // Declarations
-  /// @brief Method Read, addr 0x29f4aac, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x2adcb80, size 0x190, virtual false, abstract: false, final false
   inline void Read(void* ptr);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr sockaddr_dl();
 
   // Ctor Parameters [CppParam { name: "sdl_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
   // "sdl_index", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sdl_type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_nlen", ty: "uint8_t", modifiers:
@@ -31,10 +33,6 @@ public:
   // "sdl_data", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }]
   constexpr sockaddr_dl(uint8_t sdl_len, uint8_t sdl_family, uint16_t sdl_index, uint8_t sdl_type, uint8_t sdl_nlen, uint8_t sdl_alen, uint8_t sdl_slen,
                         ::ArrayW<uint8_t, ::Array<uint8_t>*> sdl_data) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr sockaddr_dl();
 
   /// @brief Field sdl_len, offset: 0x0, size: 0x1, def value: None
   uint8_t sdl_len;

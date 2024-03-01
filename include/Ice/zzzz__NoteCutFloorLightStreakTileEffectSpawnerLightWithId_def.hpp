@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14436))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16312))
 // CS Name: ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId*
 class CORDL_TYPE NoteCutFloorLightStreakTileEffectSpawnerLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -30,20 +28,26 @@ public:
   __declspec(property(get = __cordl_internal_get__noteCutFloorLightStreakTileEffectSpawner,
                       put = __cordl_internal_set__noteCutFloorLightStreakTileEffectSpawner))::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> _noteCutFloorLightStreakTileEffectSpawner;
 
-  constexpr ::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner>& __cordl_internal_get__noteCutFloorLightStreakTileEffectSpawner();
-
-  constexpr ::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> const& __cordl_internal_get__noteCutFloorLightStreakTileEffectSpawner() const;
-
-  constexpr void __cordl_internal_set__noteCutFloorLightStreakTileEffectSpawner(::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> value);
-
-  /// @brief Method ColorWasSet, addr 0xe34aec, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0xe7a650, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe34b0c, size 0x1008, virtual false, abstract: false, final false
+  constexpr ::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> const& __cordl_internal_get__noteCutFloorLightStreakTileEffectSpawner() const;
+
+  constexpr ::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner>& __cordl_internal_get__noteCutFloorLightStreakTileEffectSpawner();
+
+  constexpr void __cordl_internal_set__noteCutFloorLightStreakTileEffectSpawner(::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> value);
+
+  /// @brief Method .ctor, addr 0xe7a670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteCutFloorLightStreakTileEffectSpawnerLightWithId();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawnerLightWithId", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutFloorLightStreakTileEffectSpawnerLightWithId(NoteCutFloorLightStreakTileEffectSpawnerLightWithId&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutFloorLightStreakTileEffectSpawnerLightWithId(NoteCutFloorLightStreakTileEffectSpawnerLightWithId const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteCutFloorLightStreakTileEffectSpawnerLightWithId();
-
-public:
   /// @brief Field _noteCutFloorLightStreakTileEffectSpawner, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> ____noteCutFloorLightStreakTileEffectSpawner;
 

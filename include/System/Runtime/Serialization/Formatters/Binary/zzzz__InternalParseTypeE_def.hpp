@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::InternalParseTy
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3247))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::InternalParseTypeE
 struct CORDL_TYPE InternalParseTypeE {
 public:
@@ -45,45 +43,29 @@ public:
     return static_cast<__InternalParseTypeE_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr InternalParseTypeE(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__InternalParseTypeE_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr InternalParseTypeE();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr InternalParseTypeE(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Body value: static_cast<int32_t>(0xb)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Body;
+
+  /// @brief Field BodyEnd value: static_cast<int32_t>(0xc)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const BodyEnd;
 
   /// @brief Field Empty value: static_cast<int32_t>(0x0)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Empty;
-
-  /// @brief Field SerializedStreamHeader value: static_cast<int32_t>(0x1)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const SerializedStreamHeader;
-
-  /// @brief Field Object value: static_cast<int32_t>(0x2)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Object;
-
-  /// @brief Field Member value: static_cast<int32_t>(0x3)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Member;
-
-  /// @brief Field ObjectEnd value: static_cast<int32_t>(0x4)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const ObjectEnd;
-
-  /// @brief Field MemberEnd value: static_cast<int32_t>(0x5)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const MemberEnd;
-
-  /// @brief Field Headers value: static_cast<int32_t>(0x6)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Headers;
-
-  /// @brief Field HeadersEnd value: static_cast<int32_t>(0x7)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const HeadersEnd;
-
-  /// @brief Field SerializedStreamHeaderEnd value: static_cast<int32_t>(0x8)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const SerializedStreamHeaderEnd;
 
   /// @brief Field Envelope value: static_cast<int32_t>(0x9)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Envelope;
@@ -91,11 +73,32 @@ public:
   /// @brief Field EnvelopeEnd value: static_cast<int32_t>(0xa)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const EnvelopeEnd;
 
-  /// @brief Field Body value: static_cast<int32_t>(0xb)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Body;
+  /// @brief Field Headers value: static_cast<int32_t>(0x6)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Headers;
 
-  /// @brief Field BodyEnd value: static_cast<int32_t>(0xc)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const BodyEnd;
+  /// @brief Field HeadersEnd value: static_cast<int32_t>(0x7)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const HeadersEnd;
+
+  /// @brief Field Member value: static_cast<int32_t>(0x3)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Member;
+
+  /// @brief Field MemberEnd value: static_cast<int32_t>(0x5)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const MemberEnd;
+
+  /// @brief Field Object value: static_cast<int32_t>(0x2)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const Object;
+
+  /// @brief Field ObjectEnd value: static_cast<int32_t>(0x4)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const ObjectEnd;
+
+  /// @brief Field SerializedStreamHeader value: static_cast<int32_t>(0x1)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const SerializedStreamHeader;
+
+  /// @brief Field SerializedStreamHeaderEnd value: static_cast<int32_t>(0x8)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE const SerializedStreamHeaderEnd;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

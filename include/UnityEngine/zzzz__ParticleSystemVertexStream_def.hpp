@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::ParticleSystemVertexStream);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15093))
 // CS Name: ::UnityEngine::ParticleSystemVertexStream
 struct CORDL_TYPE ParticleSystemVertexStream {
 public:
@@ -78,42 +76,23 @@ public:
     return static_cast<__ParticleSystemVertexStream_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ParticleSystemVertexStream(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__ParticleSystemVertexStream_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ParticleSystemVertexStream();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ParticleSystemVertexStream(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Position value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::ParticleSystemVertexStream const Position;
-
-  /// @brief Field Normal value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::ParticleSystemVertexStream const Normal;
-
-  /// @brief Field Tangent value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::ParticleSystemVertexStream const Tangent;
-
-  /// @brief Field Color value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::ParticleSystemVertexStream const Color;
-
-  /// @brief Field UV value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::ParticleSystemVertexStream const UV;
-
-  /// @brief Field UV2 value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::ParticleSystemVertexStream const UV2;
-
-  /// @brief Field UV3 value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::ParticleSystemVertexStream const UV3;
-
-  /// @brief Field UV4 value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::ParticleSystemVertexStream const UV4;
+  /// @brief Field AgePercent value: static_cast<int32_t>(0x15)
+  static ::UnityEngine::ParticleSystemVertexStream const AgePercent;
 
   /// @brief Field AnimBlend value: static_cast<int32_t>(0x8)
   static ::UnityEngine::ParticleSystemVertexStream const AnimBlend;
@@ -124,65 +103,8 @@ public:
   /// @brief Field Center value: static_cast<int32_t>(0xa)
   static ::UnityEngine::ParticleSystemVertexStream const Center;
 
-  /// @brief Field VertexID value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::ParticleSystemVertexStream const VertexID;
-
-  /// @brief Field SizeX value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::ParticleSystemVertexStream const SizeX;
-
-  /// @brief Field SizeXY value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::ParticleSystemVertexStream const SizeXY;
-
-  /// @brief Field SizeXYZ value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::ParticleSystemVertexStream const SizeXYZ;
-
-  /// @brief Field Rotation value: static_cast<int32_t>(0xf)
-  static ::UnityEngine::ParticleSystemVertexStream const Rotation;
-
-  /// @brief Field Rotation3D value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::ParticleSystemVertexStream const Rotation3D;
-
-  /// @brief Field RotationSpeed value: static_cast<int32_t>(0x11)
-  static ::UnityEngine::ParticleSystemVertexStream const RotationSpeed;
-
-  /// @brief Field RotationSpeed3D value: static_cast<int32_t>(0x12)
-  static ::UnityEngine::ParticleSystemVertexStream const RotationSpeed3D;
-
-  /// @brief Field Velocity value: static_cast<int32_t>(0x13)
-  static ::UnityEngine::ParticleSystemVertexStream const Velocity;
-
-  /// @brief Field Speed value: static_cast<int32_t>(0x14)
-  static ::UnityEngine::ParticleSystemVertexStream const Speed;
-
-  /// @brief Field AgePercent value: static_cast<int32_t>(0x15)
-  static ::UnityEngine::ParticleSystemVertexStream const AgePercent;
-
-  /// @brief Field InvStartLifetime value: static_cast<int32_t>(0x16)
-  static ::UnityEngine::ParticleSystemVertexStream const InvStartLifetime;
-
-  /// @brief Field StableRandomX value: static_cast<int32_t>(0x17)
-  static ::UnityEngine::ParticleSystemVertexStream const StableRandomX;
-
-  /// @brief Field StableRandomXY value: static_cast<int32_t>(0x18)
-  static ::UnityEngine::ParticleSystemVertexStream const StableRandomXY;
-
-  /// @brief Field StableRandomXYZ value: static_cast<int32_t>(0x19)
-  static ::UnityEngine::ParticleSystemVertexStream const StableRandomXYZ;
-
-  /// @brief Field StableRandomXYZW value: static_cast<int32_t>(0x1a)
-  static ::UnityEngine::ParticleSystemVertexStream const StableRandomXYZW;
-
-  /// @brief Field VaryingRandomX value: static_cast<int32_t>(0x1b)
-  static ::UnityEngine::ParticleSystemVertexStream const VaryingRandomX;
-
-  /// @brief Field VaryingRandomXY value: static_cast<int32_t>(0x1c)
-  static ::UnityEngine::ParticleSystemVertexStream const VaryingRandomXY;
-
-  /// @brief Field VaryingRandomXYZ value: static_cast<int32_t>(0x1d)
-  static ::UnityEngine::ParticleSystemVertexStream const VaryingRandomXYZ;
-
-  /// @brief Field VaryingRandomXYZW value: static_cast<int32_t>(0x1e)
-  static ::UnityEngine::ParticleSystemVertexStream const VaryingRandomXYZW;
+  /// @brief Field Color value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::ParticleSystemVertexStream const Color;
 
   /// @brief Field Custom1X value: static_cast<int32_t>(0x1f)
   static ::UnityEngine::ParticleSystemVertexStream const Custom1X;
@@ -208,14 +130,11 @@ public:
   /// @brief Field Custom2XYZW value: static_cast<int32_t>(0x26)
   static ::UnityEngine::ParticleSystemVertexStream const Custom2XYZW;
 
-  /// @brief Field NoiseSumX value: static_cast<int32_t>(0x27)
-  static ::UnityEngine::ParticleSystemVertexStream const NoiseSumX;
+  /// @brief Field InvStartLifetime value: static_cast<int32_t>(0x16)
+  static ::UnityEngine::ParticleSystemVertexStream const InvStartLifetime;
 
-  /// @brief Field NoiseSumXY value: static_cast<int32_t>(0x28)
-  static ::UnityEngine::ParticleSystemVertexStream const NoiseSumXY;
-
-  /// @brief Field NoiseSumXYZ value: static_cast<int32_t>(0x29)
-  static ::UnityEngine::ParticleSystemVertexStream const NoiseSumXYZ;
+  /// @brief Field MeshIndex value: static_cast<int32_t>(0x2d)
+  static ::UnityEngine::ParticleSystemVertexStream const MeshIndex;
 
   /// @brief Field NoiseImpulseX value: static_cast<int32_t>(0x2a)
   static ::UnityEngine::ParticleSystemVertexStream const NoiseImpulseX;
@@ -226,8 +145,92 @@ public:
   /// @brief Field NoiseImpulseXYZ value: static_cast<int32_t>(0x2c)
   static ::UnityEngine::ParticleSystemVertexStream const NoiseImpulseXYZ;
 
-  /// @brief Field MeshIndex value: static_cast<int32_t>(0x2d)
-  static ::UnityEngine::ParticleSystemVertexStream const MeshIndex;
+  /// @brief Field NoiseSumX value: static_cast<int32_t>(0x27)
+  static ::UnityEngine::ParticleSystemVertexStream const NoiseSumX;
+
+  /// @brief Field NoiseSumXY value: static_cast<int32_t>(0x28)
+  static ::UnityEngine::ParticleSystemVertexStream const NoiseSumXY;
+
+  /// @brief Field NoiseSumXYZ value: static_cast<int32_t>(0x29)
+  static ::UnityEngine::ParticleSystemVertexStream const NoiseSumXYZ;
+
+  /// @brief Field Normal value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::ParticleSystemVertexStream const Normal;
+
+  /// @brief Field Position value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::ParticleSystemVertexStream const Position;
+
+  /// @brief Field Rotation value: static_cast<int32_t>(0xf)
+  static ::UnityEngine::ParticleSystemVertexStream const Rotation;
+
+  /// @brief Field Rotation3D value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::ParticleSystemVertexStream const Rotation3D;
+
+  /// @brief Field RotationSpeed value: static_cast<int32_t>(0x11)
+  static ::UnityEngine::ParticleSystemVertexStream const RotationSpeed;
+
+  /// @brief Field RotationSpeed3D value: static_cast<int32_t>(0x12)
+  static ::UnityEngine::ParticleSystemVertexStream const RotationSpeed3D;
+
+  /// @brief Field SizeX value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::ParticleSystemVertexStream const SizeX;
+
+  /// @brief Field SizeXY value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::ParticleSystemVertexStream const SizeXY;
+
+  /// @brief Field SizeXYZ value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::ParticleSystemVertexStream const SizeXYZ;
+
+  /// @brief Field Speed value: static_cast<int32_t>(0x14)
+  static ::UnityEngine::ParticleSystemVertexStream const Speed;
+
+  /// @brief Field StableRandomX value: static_cast<int32_t>(0x17)
+  static ::UnityEngine::ParticleSystemVertexStream const StableRandomX;
+
+  /// @brief Field StableRandomXY value: static_cast<int32_t>(0x18)
+  static ::UnityEngine::ParticleSystemVertexStream const StableRandomXY;
+
+  /// @brief Field StableRandomXYZ value: static_cast<int32_t>(0x19)
+  static ::UnityEngine::ParticleSystemVertexStream const StableRandomXYZ;
+
+  /// @brief Field StableRandomXYZW value: static_cast<int32_t>(0x1a)
+  static ::UnityEngine::ParticleSystemVertexStream const StableRandomXYZW;
+
+  /// @brief Field Tangent value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::ParticleSystemVertexStream const Tangent;
+
+  /// @brief Field UV value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::ParticleSystemVertexStream const UV;
+
+  /// @brief Field UV2 value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::ParticleSystemVertexStream const UV2;
+
+  /// @brief Field UV3 value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::ParticleSystemVertexStream const UV3;
+
+  /// @brief Field UV4 value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::ParticleSystemVertexStream const UV4;
+
+  /// @brief Field VaryingRandomX value: static_cast<int32_t>(0x1b)
+  static ::UnityEngine::ParticleSystemVertexStream const VaryingRandomX;
+
+  /// @brief Field VaryingRandomXY value: static_cast<int32_t>(0x1c)
+  static ::UnityEngine::ParticleSystemVertexStream const VaryingRandomXY;
+
+  /// @brief Field VaryingRandomXYZ value: static_cast<int32_t>(0x1d)
+  static ::UnityEngine::ParticleSystemVertexStream const VaryingRandomXYZ;
+
+  /// @brief Field VaryingRandomXYZW value: static_cast<int32_t>(0x1e)
+  static ::UnityEngine::ParticleSystemVertexStream const VaryingRandomXYZW;
+
+  /// @brief Field Velocity value: static_cast<int32_t>(0x13)
+  static ::UnityEngine::ParticleSystemVertexStream const Velocity;
+
+  /// @brief Field VertexID value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::ParticleSystemVertexStream const VertexID;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -24,17 +24,20 @@ MARK_REF_PTR_T(::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBin
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10068))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9844))
 // CS Name: ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
+  __declspec(property(get = get_SubContainerCreatorBindInfo, put = set_SubContainerCreatorBindInfo))::Zenject::SubContainerCreatorBindInfo* SubContainerCreatorBindInfo;
+
   /// @brief Field <SubContainerCreatorBindInfo>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField,
                       put = __cordl_internal_set__SubContainerCreatorBindInfo_k__BackingField))::Zenject::SubContainerCreatorBindInfo* _SubContainerCreatorBindInfo_k__BackingField;
 
-  __declspec(property(get = get_SubContainerCreatorBindInfo, put = set_SubContainerCreatorBindInfo))::Zenject::SubContainerCreatorBindInfo* SubContainerCreatorBindInfo;
+  static inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
+
+  /// @brief Method WithDefaultGameObjectParent, addr 0x2fdb320, size 0x1c, virtual false, abstract: false, final false
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::StringW defaultParentName);
 
   constexpr ::Zenject::SubContainerCreatorBindInfo*& __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField();
 
@@ -42,20 +45,21 @@ public:
 
   constexpr void __cordl_internal_set__SubContainerCreatorBindInfo_k__BackingField(::Zenject::SubContainerCreatorBindInfo* value);
 
-  static inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
-
-  /// @brief Method .ctor, addr 0x2ee7bbc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fdb2e4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x2ee7be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x2fdb310, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerCreatorBindInfo* get_SubContainerCreatorBindInfo();
 
-  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x2ee7bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x2fdb318, size 0x8, virtual false, abstract: false, final false
   inline void set_SubContainerCreatorBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method WithDefaultGameObjectParent, addr 0x2ee7bf8, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::StringW defaultParentName);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder();
-
-public:
   /// @brief Field <SubContainerCreatorBindInfo>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorBindInfo* ____SubContainerCreatorBindInfo_k__BackingField;
 

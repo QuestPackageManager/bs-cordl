@@ -15,8 +15,6 @@ MARK_VAL_T(::OVR::OpenVR::EVROverlayError);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8546))
 // CS Name: ::OVR.OpenVR::EVROverlayError
 struct CORDL_TYPE EVROverlayError {
 public:
@@ -56,81 +54,65 @@ public:
     return static_cast<__EVROverlayError_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EVROverlayError(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__EVROverlayError_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EVROverlayError();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EVROverlayError(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::OVR::OpenVR::EVROverlayError const None;
-
-  /// @brief Field UnknownOverlay value: static_cast<int32_t>(0xa)
-  static ::OVR::OpenVR::EVROverlayError const UnknownOverlay;
-
-  /// @brief Field InvalidHandle value: static_cast<int32_t>(0xb)
-  static ::OVR::OpenVR::EVROverlayError const InvalidHandle;
-
-  /// @brief Field PermissionDenied value: static_cast<int32_t>(0xc)
-  static ::OVR::OpenVR::EVROverlayError const PermissionDenied;
-
-  /// @brief Field OverlayLimitExceeded value: static_cast<int32_t>(0xd)
-  static ::OVR::OpenVR::EVROverlayError const OverlayLimitExceeded;
-
-  /// @brief Field WrongVisibilityType value: static_cast<int32_t>(0xe)
-  static ::OVR::OpenVR::EVROverlayError const WrongVisibilityType;
-
-  /// @brief Field KeyTooLong value: static_cast<int32_t>(0xf)
-  static ::OVR::OpenVR::EVROverlayError const KeyTooLong;
-
-  /// @brief Field NameTooLong value: static_cast<int32_t>(0x10)
-  static ::OVR::OpenVR::EVROverlayError const NameTooLong;
-
-  /// @brief Field KeyInUse value: static_cast<int32_t>(0x11)
-  static ::OVR::OpenVR::EVROverlayError const KeyInUse;
-
-  /// @brief Field WrongTransformType value: static_cast<int32_t>(0x12)
-  static ::OVR::OpenVR::EVROverlayError const WrongTransformType;
-
-  /// @brief Field InvalidTrackedDevice value: static_cast<int32_t>(0x13)
-  static ::OVR::OpenVR::EVROverlayError const InvalidTrackedDevice;
-
-  /// @brief Field InvalidParameter value: static_cast<int32_t>(0x14)
-  static ::OVR::OpenVR::EVROverlayError const InvalidParameter;
-
-  /// @brief Field ThumbnailCantBeDestroyed value: static_cast<int32_t>(0x15)
-  static ::OVR::OpenVR::EVROverlayError const ThumbnailCantBeDestroyed;
 
   /// @brief Field ArrayTooSmall value: static_cast<int32_t>(0x16)
   static ::OVR::OpenVR::EVROverlayError const ArrayTooSmall;
 
-  /// @brief Field RequestFailed value: static_cast<int32_t>(0x17)
-  static ::OVR::OpenVR::EVROverlayError const RequestFailed;
+  /// @brief Field BadMaskPrimitive value: static_cast<int32_t>(0x1e)
+  static ::OVR::OpenVR::EVROverlayError const BadMaskPrimitive;
+
+  /// @brief Field InvalidHandle value: static_cast<int32_t>(0xb)
+  static ::OVR::OpenVR::EVROverlayError const InvalidHandle;
+
+  /// @brief Field InvalidParameter value: static_cast<int32_t>(0x14)
+  static ::OVR::OpenVR::EVROverlayError const InvalidParameter;
 
   /// @brief Field InvalidTexture value: static_cast<int32_t>(0x18)
   static ::OVR::OpenVR::EVROverlayError const InvalidTexture;
 
-  /// @brief Field UnableToLoadFile value: static_cast<int32_t>(0x19)
-  static ::OVR::OpenVR::EVROverlayError const UnableToLoadFile;
+  /// @brief Field InvalidTrackedDevice value: static_cast<int32_t>(0x13)
+  static ::OVR::OpenVR::EVROverlayError const InvalidTrackedDevice;
+
+  /// @brief Field KeyInUse value: static_cast<int32_t>(0x11)
+  static ::OVR::OpenVR::EVROverlayError const KeyInUse;
+
+  /// @brief Field KeyTooLong value: static_cast<int32_t>(0xf)
+  static ::OVR::OpenVR::EVROverlayError const KeyTooLong;
 
   /// @brief Field KeyboardAlreadyInUse value: static_cast<int32_t>(0x1a)
   static ::OVR::OpenVR::EVROverlayError const KeyboardAlreadyInUse;
 
+  /// @brief Field NameTooLong value: static_cast<int32_t>(0x10)
+  static ::OVR::OpenVR::EVROverlayError const NameTooLong;
+
   /// @brief Field NoNeighbor value: static_cast<int32_t>(0x1b)
   static ::OVR::OpenVR::EVROverlayError const NoNeighbor;
 
-  /// @brief Field TooManyMaskPrimitives value: static_cast<int32_t>(0x1d)
-  static ::OVR::OpenVR::EVROverlayError const TooManyMaskPrimitives;
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::OVR::OpenVR::EVROverlayError const None;
 
-  /// @brief Field BadMaskPrimitive value: static_cast<int32_t>(0x1e)
-  static ::OVR::OpenVR::EVROverlayError const BadMaskPrimitive;
+  /// @brief Field OverlayLimitExceeded value: static_cast<int32_t>(0xd)
+  static ::OVR::OpenVR::EVROverlayError const OverlayLimitExceeded;
+
+  /// @brief Field PermissionDenied value: static_cast<int32_t>(0xc)
+  static ::OVR::OpenVR::EVROverlayError const PermissionDenied;
+
+  /// @brief Field RequestFailed value: static_cast<int32_t>(0x17)
+  static ::OVR::OpenVR::EVROverlayError const RequestFailed;
 
   /// @brief Field TextureAlreadyLocked value: static_cast<int32_t>(0x1f)
   static ::OVR::OpenVR::EVROverlayError const TextureAlreadyLocked;
@@ -140,6 +122,27 @@ public:
 
   /// @brief Field TextureNotLocked value: static_cast<int32_t>(0x21)
   static ::OVR::OpenVR::EVROverlayError const TextureNotLocked;
+
+  /// @brief Field ThumbnailCantBeDestroyed value: static_cast<int32_t>(0x15)
+  static ::OVR::OpenVR::EVROverlayError const ThumbnailCantBeDestroyed;
+
+  /// @brief Field TooManyMaskPrimitives value: static_cast<int32_t>(0x1d)
+  static ::OVR::OpenVR::EVROverlayError const TooManyMaskPrimitives;
+
+  /// @brief Field UnableToLoadFile value: static_cast<int32_t>(0x19)
+  static ::OVR::OpenVR::EVROverlayError const UnableToLoadFile;
+
+  /// @brief Field UnknownOverlay value: static_cast<int32_t>(0xa)
+  static ::OVR::OpenVR::EVROverlayError const UnknownOverlay;
+
+  /// @brief Field WrongTransformType value: static_cast<int32_t>(0x12)
+  static ::OVR::OpenVR::EVROverlayError const WrongTransformType;
+
+  /// @brief Field WrongVisibilityType value: static_cast<int32_t>(0xe)
+  static ::OVR::OpenVR::EVROverlayError const WrongVisibilityType;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

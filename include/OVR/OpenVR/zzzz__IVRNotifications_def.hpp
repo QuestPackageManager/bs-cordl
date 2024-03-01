@@ -53,28 +53,32 @@ MARK_VAL_T(::OVR::OpenVR::IVRNotifications);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8435))
 // CS Name: ::IVRNotifications::_CreateNotification*
 class CORDL_TYPE __IVRNotifications___CreateNotification : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::OVR::OpenVR::__IVRNotifications___CreateNotification* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x27f8164, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x27f8228, size 0x18, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText,
-                                                    ::OVR::OpenVR::EVRNotificationStyle style, ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ByRef<uint32_t> pNotificationId);
-
-  /// @brief Method BeginInvoke, addr 0x27f8240, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x28db398, size 0x15c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText, ::OVR::OpenVR::EVRNotificationStyle style,
                                              ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ByRef<uint32_t> pNotificationId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27f839c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x28db4f4, size 0x34, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError EndInvoke(ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ByRef<uint32_t> pNotificationId, ::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x28db380, size 0x18, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRNotificationError Invoke(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText,
+                                                    ::OVR::OpenVR::EVRNotificationStyle style, ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ByRef<uint32_t> pNotificationId);
+
+  static inline ::OVR::OpenVR::__IVRNotifications___CreateNotification* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x28db2bc, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IVRNotifications___CreateNotification();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IVRNotifications___CreateNotification", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IVRNotifications___CreateNotification(__IVRNotifications___CreateNotification&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IVRNotifications___CreateNotification(__IVRNotifications___CreateNotification const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRNotifications___CreateNotification();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -99,26 +97,30 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRNotifications_
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8436))
 // CS Name: ::IVRNotifications::_RemoveNotification*
 class CORDL_TYPE __IVRNotifications___RemoveNotification : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::OVR::OpenVR::__IVRNotifications___RemoveNotification* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x27f83d0, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x27f8494, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRNotificationError Invoke(uint32_t notificationId);
-
-  /// @brief Method BeginInvoke, addr 0x27f84a8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x28db600, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t notificationId, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x27f852c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x28db684, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x28db5ec, size 0x14, virtual true, abstract: false, final false
+  inline ::OVR::OpenVR::EVRNotificationError Invoke(uint32_t notificationId);
+
+  static inline ::OVR::OpenVR::__IVRNotifications___RemoveNotification* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x28db528, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IVRNotifications___RemoveNotification();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IVRNotifications___RemoveNotification", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IVRNotifications___RemoveNotification(__IVRNotifications___RemoveNotification&&) = delete;
@@ -127,12 +129,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IVRNotifications___RemoveNotification(__IVRNotifications___RemoveNotification const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRNotifications___RemoveNotification();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -143,23 +139,21 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRNotifications_
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8437))
 // CS Name: ::OVR.OpenVR::IVRNotifications
 struct CORDL_TYPE IVRNotifications {
 public:
   // Declarations
-  using _RemoveNotification = ::OVR::OpenVR::__IVRNotifications___RemoveNotification;
-
   using _CreateNotification = ::OVR::OpenVR::__IVRNotifications___CreateNotification;
 
-  // Ctor Parameters [CppParam { name: "CreateNotification", ty: "::OVR::OpenVR::__IVRNotifications___CreateNotification*", modifiers: "", def_value: None }, CppParam { name: "RemoveNotification", ty:
-  // "::OVR::OpenVR::__IVRNotifications___RemoveNotification*", modifiers: "", def_value: None }]
-  constexpr IVRNotifications(::OVR::OpenVR::__IVRNotifications___CreateNotification* CreateNotification, ::OVR::OpenVR::__IVRNotifications___RemoveNotification* RemoveNotification) noexcept;
+  using _RemoveNotification = ::OVR::OpenVR::__IVRNotifications___RemoveNotification;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr IVRNotifications();
+
+  // Ctor Parameters [CppParam { name: "CreateNotification", ty: "::OVR::OpenVR::__IVRNotifications___CreateNotification*", modifiers: "", def_value: None }, CppParam { name: "RemoveNotification", ty:
+  // "::OVR::OpenVR::__IVRNotifications___RemoveNotification*", modifiers: "", def_value: None }]
+  constexpr IVRNotifications(::OVR::OpenVR::__IVRNotifications___CreateNotification* CreateNotification, ::OVR::OpenVR::__IVRNotifications___RemoveNotification* RemoveNotification) noexcept;
 
   /// @brief Field CreateNotification, offset: 0x0, size: 0x8, def value: None
   ::OVR::OpenVR::__IVRNotifications___CreateNotification* CreateNotification;

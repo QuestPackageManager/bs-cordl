@@ -15,8 +15,6 @@ MARK_VAL_T(::ENet::PeerState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15328))
 // CS Name: ::ENet::PeerState
 struct CORDL_TYPE PeerState {
 public:
@@ -43,30 +41,32 @@ public:
     return static_cast<__PeerState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PeerState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__PeerState_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PeerState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PeerState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field AcknowledgingConnect value: static_cast<int32_t>(0x2)
+  static ::ENet::PeerState const AcknowledgingConnect;
 
-  /// @brief Field Uninitialized value: static_cast<int32_t>(0xffffffff)
-  static ::ENet::PeerState const Uninitialized;
+  /// @brief Field AcknowledgingDisconnect value: static_cast<int32_t>(0x8)
+  static ::ENet::PeerState const AcknowledgingDisconnect;
 
-  /// @brief Field Disconnected value: static_cast<int32_t>(0x0)
-  static ::ENet::PeerState const Disconnected;
+  /// @brief Field Connected value: static_cast<int32_t>(0x5)
+  static ::ENet::PeerState const Connected;
 
   /// @brief Field Connecting value: static_cast<int32_t>(0x1)
   static ::ENet::PeerState const Connecting;
-
-  /// @brief Field AcknowledgingConnect value: static_cast<int32_t>(0x2)
-  static ::ENet::PeerState const AcknowledgingConnect;
 
   /// @brief Field ConnectionPending value: static_cast<int32_t>(0x3)
   static ::ENet::PeerState const ConnectionPending;
@@ -74,20 +74,23 @@ public:
   /// @brief Field ConnectionSucceeded value: static_cast<int32_t>(0x4)
   static ::ENet::PeerState const ConnectionSucceeded;
 
-  /// @brief Field Connected value: static_cast<int32_t>(0x5)
-  static ::ENet::PeerState const Connected;
-
   /// @brief Field DisconnectLater value: static_cast<int32_t>(0x6)
   static ::ENet::PeerState const DisconnectLater;
+
+  /// @brief Field Disconnected value: static_cast<int32_t>(0x0)
+  static ::ENet::PeerState const Disconnected;
 
   /// @brief Field Disconnecting value: static_cast<int32_t>(0x7)
   static ::ENet::PeerState const Disconnecting;
 
-  /// @brief Field AcknowledgingDisconnect value: static_cast<int32_t>(0x8)
-  static ::ENet::PeerState const AcknowledgingDisconnect;
+  /// @brief Field Uninitialized value: static_cast<int32_t>(0xffffffff)
+  static ::ENet::PeerState const Uninitialized;
 
   /// @brief Field Zombie value: static_cast<int32_t>(0x9)
   static ::ENet::PeerState const Zombie;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

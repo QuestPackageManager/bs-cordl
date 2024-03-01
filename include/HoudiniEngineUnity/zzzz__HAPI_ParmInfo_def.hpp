@@ -44,29 +44,31 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmInfo);
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9486)), TypeDefinitionIndex(TypeDefinitionIndex(9487)), TypeDefinitionIndex(TypeDefinitionIndex(9488)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9489)), TypeDefinitionIndex(TypeDefinitionIndex(9490)), TypeDefinitionIndex(TypeDefinitionIndex(9492)), TypeDefinitionIndex(TypeDefinitionIndex(9493))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9526)) CS Name: ::HoudiniEngineUnity::HAPI_ParmInfo
+// CS Name: ::HoudiniEngineUnity::HAPI_ParmInfo
 struct CORDL_TYPE HAPI_ParmInfo {
 public:
   // Declarations
-  /// @brief Method isInt, addr 0x222645c, size 0x20, virtual false, abstract: false, final false
-  inline bool isInt();
-
-  /// @brief Method isFloat, addr 0x222647c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isFloat, addr 0x22f3ae4, size 0x14, virtual false, abstract: false, final false
   inline bool isFloat();
 
-  /// @brief Method isString, addr 0x2226490, size 0x30, virtual false, abstract: false, final false
-  inline bool isString();
+  /// @brief Method isInt, addr 0x22f3ac4, size 0x20, virtual false, abstract: false, final false
+  inline bool isInt();
 
-  /// @brief Method isPath, addr 0x22264c0, size 0x20, virtual false, abstract: false, final false
-  inline bool isPath();
-
-  /// @brief Method isNode, addr 0x22264e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method isNode, addr 0x22f3b48, size 0x10, virtual false, abstract: false, final false
   inline bool isNode();
 
-  /// @brief Method isNonValue, addr 0x22264f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isNonValue, addr 0x22f3b58, size 0x14, virtual false, abstract: false, final false
   inline bool isNonValue();
+
+  /// @brief Method isPath, addr 0x22f3b28, size 0x20, virtual false, abstract: false, final false
+  inline bool isPath();
+
+  /// @brief Method isString, addr 0x22f3af8, size 0x30, virtual false, abstract: false, final false
+  inline bool isString();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_ParmInfo();
 
   // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "childIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_ParmType", modifiers: "", def_value: None }, CppParam { name: "scriptType",
@@ -94,10 +96,6 @@ public:
                           int32_t choiceIndex, ::HoudiniEngineUnity::HAPI_NodeType inputNodeType, ::HoudiniEngineUnity::HAPI_NodeFlags inputNodeFlag, bool isChildOfMultiParm, int32_t instanceNum,
                           int32_t instanceLength, int32_t instanceCount, int32_t instanceStartOffset, ::HoudiniEngineUnity::HAPI_RampType rampType, int32_t visibilityConditionSH,
                           int32_t disabledConditionSH) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_ParmInfo();
 
   /// @brief Field id, offset: 0x0, size: 0x4, def value: None
   int32_t id;

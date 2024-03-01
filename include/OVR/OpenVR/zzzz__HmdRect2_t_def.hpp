@@ -18,19 +18,17 @@ MARK_VAL_T(::OVR::OpenVR::HmdRect2_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8594))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8599))
 // CS Name: ::OVR.OpenVR::HmdRect2_t
 struct CORDL_TYPE HmdRect2_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "vTopLeft", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }, CppParam { name: "vBottomRight", ty: "::OVR::OpenVR::HmdVector2_t", modifiers:
-  // "", def_value: None }]
-  constexpr HmdRect2_t(::OVR::OpenVR::HmdVector2_t vTopLeft, ::OVR::OpenVR::HmdVector2_t vBottomRight) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HmdRect2_t();
+
+  // Ctor Parameters [CppParam { name: "vTopLeft", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }, CppParam { name: "vBottomRight", ty: "::OVR::OpenVR::HmdVector2_t", modifiers:
+  // "", def_value: None }]
+  constexpr HmdRect2_t(::OVR::OpenVR::HmdVector2_t vTopLeft, ::OVR::OpenVR::HmdVector2_t vBottomRight) noexcept;
 
   /// @brief Field vTopLeft, offset: 0x0, size: 0x8, def value: None
   ::OVR::OpenVR::HmdVector2_t vTopLeft;

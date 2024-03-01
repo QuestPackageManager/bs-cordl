@@ -25,66 +25,70 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CertificateRequest);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1187))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CertificateRequest*
 class CORDL_TYPE CertificateRequest : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_CertificateAuthorities))::System::Collections::IList* CertificateAuthorities;
+
+  __declspec(property(get = get_CertificateTypes))::ArrayW<uint8_t, ::Array<uint8_t>*> CertificateTypes;
+
+  __declspec(property(get = get_SupportedSignatureAlgorithms))::System::Collections::IList* SupportedSignatureAlgorithms;
+
+  /// @brief Field mCertificateAuthorities, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_mCertificateAuthorities, put = __cordl_internal_set_mCertificateAuthorities))::System::Collections::IList* mCertificateAuthorities;
+
   /// @brief Field mCertificateTypes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mCertificateTypes, put = __cordl_internal_set_mCertificateTypes))::ArrayW<uint8_t, ::Array<uint8_t>*> mCertificateTypes;
 
   /// @brief Field mSupportedSignatureAlgorithms, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mSupportedSignatureAlgorithms, put = __cordl_internal_set_mSupportedSignatureAlgorithms))::System::Collections::IList* mSupportedSignatureAlgorithms;
 
-  /// @brief Field mCertificateAuthorities, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mCertificateAuthorities, put = __cordl_internal_set_mCertificateAuthorities))::System::Collections::IList* mCertificateAuthorities;
+  /// @brief Method Encode, addr 0xfcee4c, size 0x920, virtual true, abstract: false, final false
+  inline void Encode(::System::IO::Stream* output);
 
-  __declspec(property(get = get_CertificateTypes))::ArrayW<uint8_t, ::Array<uint8_t>*> CertificateTypes;
+  static inline ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateTypes, ::System::Collections::IList* supportedSignatureAlgorithms,
+                                                                               ::System::Collections::IList* certificateAuthorities);
 
-  __declspec(property(get = get_SupportedSignatureAlgorithms))::System::Collections::IList* SupportedSignatureAlgorithms;
-
-  __declspec(property(get = get_CertificateAuthorities))::System::Collections::IList* CertificateAuthorities;
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mCertificateTypes();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mCertificateTypes() const;
-
-  constexpr void __cordl_internal_set_mCertificateTypes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::System::Collections::IList*& __cordl_internal_get_mSupportedSignatureAlgorithms();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mSupportedSignatureAlgorithms() const;
-
-  constexpr void __cordl_internal_set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
+  /// @brief Method Parse, addr 0xfcf76c, size 0x308, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_mCertificateAuthorities();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mCertificateAuthorities() const;
 
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mCertificateTypes() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mCertificateTypes();
+
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mSupportedSignatureAlgorithms();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mSupportedSignatureAlgorithms() const;
+
   constexpr void __cordl_internal_set_mCertificateAuthorities(::System::Collections::IList* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateTypes, ::System::Collections::IList* supportedSignatureAlgorithms,
-                                                                               ::System::Collections::IList* certificateAuthorities);
+  constexpr void __cordl_internal_set_mCertificateTypes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0xf88e28, size 0x3c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
+
+  /// @brief Method .ctor, addr 0xfcedf8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateTypes, ::System::Collections::IList* supportedSignatureAlgorithms, ::System::Collections::IList* certificateAuthorities);
 
-  /// @brief Method get_CertificateTypes, addr 0xf88e64, size 0x8, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_CertificateTypes();
-
-  /// @brief Method get_SupportedSignatureAlgorithms, addr 0xf88e6c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Collections::IList* get_SupportedSignatureAlgorithms();
-
-  /// @brief Method get_CertificateAuthorities, addr 0xf88e74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertificateAuthorities, addr 0xfcee44, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_CertificateAuthorities();
 
-  /// @brief Method Encode, addr 0xf88e7c, size 0x920, virtual true, abstract: false, final false
-  inline void Encode(::System::IO::Stream* output);
+  /// @brief Method get_CertificateTypes, addr 0xfcee34, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_CertificateTypes();
 
-  /// @brief Method Parse, addr 0xf8979c, size 0x308, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
+  /// @brief Method get_SupportedSignatureAlgorithms, addr 0xfcee3c, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Collections::IList* get_SupportedSignatureAlgorithms();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertificateRequest();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CertificateRequest", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertificateRequest(CertificateRequest&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertificateRequest(CertificateRequest const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertificateRequest();
-
-public:
   /// @brief Field mCertificateTypes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mCertificateTypes;
 

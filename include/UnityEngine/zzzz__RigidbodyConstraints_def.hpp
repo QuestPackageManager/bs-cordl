@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::RigidbodyConstraints);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13941))
 // CS Name: ::UnityEngine::RigidbodyConstraints
 struct CORDL_TYPE RigidbodyConstraints {
 public:
@@ -42,21 +40,26 @@ public:
     return static_cast<__RigidbodyConstraints_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RigidbodyConstraints(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__RigidbodyConstraints_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RigidbodyConstraints();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RigidbodyConstraints(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field FreezeAll value: static_cast<int32_t>(0x7e)
+  static ::UnityEngine::RigidbodyConstraints const FreezeAll;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::RigidbodyConstraints const None;
+  /// @brief Field FreezePosition value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::RigidbodyConstraints const FreezePosition;
 
   /// @brief Field FreezePositionX value: static_cast<int32_t>(0x2)
   static ::UnityEngine::RigidbodyConstraints const FreezePositionX;
@@ -67,6 +70,9 @@ public:
   /// @brief Field FreezePositionZ value: static_cast<int32_t>(0x8)
   static ::UnityEngine::RigidbodyConstraints const FreezePositionZ;
 
+  /// @brief Field FreezeRotation value: static_cast<int32_t>(0x70)
+  static ::UnityEngine::RigidbodyConstraints const FreezeRotation;
+
   /// @brief Field FreezeRotationX value: static_cast<int32_t>(0x10)
   static ::UnityEngine::RigidbodyConstraints const FreezeRotationX;
 
@@ -76,14 +82,11 @@ public:
   /// @brief Field FreezeRotationZ value: static_cast<int32_t>(0x40)
   static ::UnityEngine::RigidbodyConstraints const FreezeRotationZ;
 
-  /// @brief Field FreezePosition value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::RigidbodyConstraints const FreezePosition;
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::RigidbodyConstraints const None;
 
-  /// @brief Field FreezeRotation value: static_cast<int32_t>(0x70)
-  static ::UnityEngine::RigidbodyConstraints const FreezeRotation;
-
-  /// @brief Field FreezeAll value: static_cast<int32_t>(0x7e)
-  static ::UnityEngine::RigidbodyConstraints const FreezeAll;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::DefaultAllocationStrateg
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13991))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DefaultAllocationStrategy*
 class CORDL_TYPE DefaultAllocationStrategy : public ::System::Object {
 public:
@@ -33,20 +31,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
-  constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* i___UnityEngine__ResourceManagement__Util__IAllocationStrategy() noexcept;
-
-  /// @brief Method New, addr 0x2bcfb80, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method New, addr 0x2cb8c54, size 0xc, virtual true, abstract: false, final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
-
-  /// @brief Method Release, addr 0x2bcfb8c, size 0x4, virtual true, abstract: false, final true
-  inline void Release(int32_t typeHash, ::System::Object* obj);
 
   static inline ::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bcfb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2cb8c60, size 0x4, virtual true, abstract: false, final true
+  inline void Release(int32_t typeHash, ::System::Object* obj);
+
+  /// @brief Method .ctor, addr 0x2cb8c64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
+  constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* i___UnityEngine__ResourceManagement__Util__IAllocationStrategy() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultAllocationStrategy();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultAllocationStrategy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultAllocationStrategy(DefaultAllocationStrategy&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultAllocationStrategy(DefaultAllocationStrategy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultAllocationStrategy();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

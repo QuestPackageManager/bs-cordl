@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::Contraction);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2260))
 // CS Name: ::Mono.Globalization.Unicode::Contraction*
 class CORDL_TYPE Contraction : public ::System::Object {
 public:
@@ -26,45 +24,51 @@ public:
   /// @brief Field Index, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_Index, put = __cordl_internal_set_Index)) int32_t Index;
 
-  /// @brief Field Source, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Source, put = __cordl_internal_set_Source))::ArrayW<char16_t, ::Array<char16_t>*> Source;
-
   /// @brief Field Replacement, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_Replacement, put = __cordl_internal_set_Replacement))::StringW Replacement;
 
   /// @brief Field SortKey, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_SortKey, put = __cordl_internal_set_SortKey))::ArrayW<uint8_t, ::Array<uint8_t>*> SortKey;
 
-  constexpr int32_t& __cordl_internal_get_Index();
-
-  constexpr int32_t const& __cordl_internal_get_Index() const;
-
-  constexpr void __cordl_internal_set_Index(int32_t value);
-
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_Source();
-
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_Source() const;
-
-  constexpr void __cordl_internal_set_Source(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
-  constexpr ::StringW& __cordl_internal_get_Replacement();
-
-  constexpr ::StringW const& __cordl_internal_get_Replacement() const;
-
-  constexpr void __cordl_internal_set_Replacement(::StringW value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_SortKey();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_SortKey() const;
-
-  constexpr void __cordl_internal_set_SortKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Field Source, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_Source, put = __cordl_internal_set_Source))::ArrayW<char16_t, ::Array<char16_t>*> Source;
 
   static inline ::Mono::Globalization::Unicode::Contraction* New_ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement,
                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> sortkey);
 
-  /// @brief Method .ctor, addr 0x24353e0, size 0x44, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_Index() const;
+
+  constexpr int32_t& __cordl_internal_get_Index();
+
+  constexpr ::StringW const& __cordl_internal_get_Replacement() const;
+
+  constexpr ::StringW& __cordl_internal_get_Replacement();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_SortKey() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_SortKey();
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_Source() const;
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_Source();
+
+  constexpr void __cordl_internal_set_Index(int32_t value);
+
+  constexpr void __cordl_internal_set_Replacement(::StringW value);
+
+  constexpr void __cordl_internal_set_SortKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_Source(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  /// @brief Method .ctor, addr 0x25060d8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement, ::ArrayW<uint8_t, ::Array<uint8_t>*> sortkey);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Contraction();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Contraction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Contraction(Contraction&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Contraction(Contraction const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Contraction();
-
-public:
   /// @brief Field Index, offset: 0x10, size: 0x4, def value: None
   int32_t ___Index;
 

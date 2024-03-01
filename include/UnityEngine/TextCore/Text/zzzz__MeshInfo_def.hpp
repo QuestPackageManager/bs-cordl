@@ -32,8 +32,6 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::MeshInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8994))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13683))
 // CS Name: ::UnityEngine.TextCore.Text::MeshInfo
 struct CORDL_TYPE MeshInfo {
 public:
@@ -41,27 +39,31 @@ public:
   /// @brief Field k_DefaultColor, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor))::UnityEngine::Color32 k_DefaultColor;
 
-  static inline void setStaticF_k_DefaultColor(::UnityEngine::Color32 value);
+  /// @brief Method Clear, addr 0x2e53388, size 0x2c, virtual false, abstract: false, final false
+  inline void Clear(bool uploadChanges);
+
+  /// @brief Method ClearUnusedVertices, addr 0x2e56c38, size 0x3c, virtual false, abstract: false, final false
+  inline void ClearUnusedVertices();
+
+  /// @brief Method ResizeMeshInfo, addr 0x2e56a50, size 0x1e8, virtual false, abstract: false, final false
+  inline void ResizeMeshInfo(int32_t size);
+
+  /// @brief Method SortGeometry, addr 0x2e56c74, size 0x7c, virtual false, abstract: false, final false
+  inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
+
+  /// @brief Method SwapVertexData, addr 0x2e56cf0, size 0x58c, virtual false, abstract: false, final false
+  inline void SwapVertexData(int32_t src, int32_t dst);
+
+  /// @brief Method .ctor, addr 0x2e566fc, size 0x354, virtual false, abstract: false, final false
+  inline void _ctor(int32_t size);
 
   static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();
 
-  /// @brief Method .ctor, addr 0x2d69fd4, size 0x354, virtual false, abstract: false, final false
-  inline void _ctor(int32_t size);
+  static inline void setStaticF_k_DefaultColor(::UnityEngine::Color32 value);
 
-  /// @brief Method ResizeMeshInfo, addr 0x2d6a328, size 0x1e8, virtual false, abstract: false, final false
-  inline void ResizeMeshInfo(int32_t size);
-
-  /// @brief Method Clear, addr 0x2d66c60, size 0x2c, virtual false, abstract: false, final false
-  inline void Clear(bool uploadChanges);
-
-  /// @brief Method ClearUnusedVertices, addr 0x2d6a510, size 0x3c, virtual false, abstract: false, final false
-  inline void ClearUnusedVertices();
-
-  /// @brief Method SortGeometry, addr 0x2d6a54c, size 0x7c, virtual false, abstract: false, final false
-  inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
-
-  /// @brief Method SwapVertexData, addr 0x2d6a5c8, size 0x58c, virtual false, abstract: false, final false
-  inline void SwapVertexData(int32_t src, int32_t dst);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MeshInfo();
 
   // Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertices", ty:
   // "::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>", modifiers: "", def_value: None }, CppParam { name: "uvs0", ty:
@@ -72,10 +74,6 @@ public:
   constexpr MeshInfo(int32_t vertexCount, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs0,
                      ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs2, ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors32,
                      ::ArrayW<int32_t, ::Array<int32_t>*> triangles, ::UnityW<::UnityEngine::Material> material) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshInfo();
 
   /// @brief Field vertexCount, offset: 0x0, size: 0x4, def value: None
   int32_t vertexCount;

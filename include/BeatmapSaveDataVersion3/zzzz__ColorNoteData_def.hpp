@@ -24,88 +24,92 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion3::ColorNoteData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11155)), TypeDefinitionIndex(TypeDefinitionIndex(11215)), TypeDefinitionIndex(TypeDefinitionIndex(11216))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11180))
 // CS Name: ::BeatmapSaveDataVersion3::ColorNoteData*
 class CORDL_TYPE ColorNoteData : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
   // Declarations
+  /// @brief Field a, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) int32_t a;
+
+  __declspec(property(get = get_angleOffset)) int32_t angleOffset;
+
+  /// @brief Field c, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::BeatmapSaveDataCommon::NoteColorType c;
+
+  __declspec(property(get = get_color))::BeatmapSaveDataCommon::NoteColorType color;
+
+  __declspec(property(get = get_cutDirection))::BeatmapSaveDataCommon::NoteCutDirection cutDirection;
+
+  /// @brief Field d, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::BeatmapSaveDataCommon::NoteCutDirection d;
+
+  __declspec(property(get = get_layer)) int32_t layer;
+
+  __declspec(property(get = get_line)) int32_t line;
+
   /// @brief Field x, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) int32_t x;
 
   /// @brief Field y, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) int32_t y;
 
-  /// @brief Field a, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) int32_t a;
-
-  /// @brief Field c, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::BeatmapSaveDataCommon::NoteColorType c;
-
-  /// @brief Field d, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::BeatmapSaveDataCommon::NoteCutDirection d;
-
-  __declspec(property(get = get_line)) int32_t line;
-
-  __declspec(property(get = get_layer)) int32_t layer;
-
-  __declspec(property(get = get_angleOffset)) int32_t angleOffset;
-
-  __declspec(property(get = get_color))::BeatmapSaveDataCommon::NoteColorType color;
-
-  __declspec(property(get = get_cutDirection))::BeatmapSaveDataCommon::NoteCutDirection cutDirection;
-
-  constexpr int32_t& __cordl_internal_get_x();
-
-  constexpr int32_t const& __cordl_internal_get_x() const;
-
-  constexpr void __cordl_internal_set_x(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_y();
-
-  constexpr int32_t const& __cordl_internal_get_y() const;
-
-  constexpr void __cordl_internal_set_y(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_a();
-
-  constexpr int32_t const& __cordl_internal_get_a() const;
-
-  constexpr void __cordl_internal_set_a(int32_t value);
-
-  constexpr ::BeatmapSaveDataCommon::NoteColorType& __cordl_internal_get_c();
-
-  constexpr ::BeatmapSaveDataCommon::NoteColorType const& __cordl_internal_get_c() const;
-
-  constexpr void __cordl_internal_set_c(::BeatmapSaveDataCommon::NoteColorType value);
-
-  constexpr ::BeatmapSaveDataCommon::NoteCutDirection& __cordl_internal_get_d();
-
-  constexpr ::BeatmapSaveDataCommon::NoteCutDirection const& __cordl_internal_get_d() const;
-
-  constexpr void __cordl_internal_set_d(::BeatmapSaveDataCommon::NoteCutDirection value);
-
-  /// @brief Method get_line, addr 0x12bc194, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_line();
-
-  /// @brief Method get_layer, addr 0x12bc19c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_layer();
-
-  /// @brief Method get_angleOffset, addr 0x12bc1a4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_angleOffset();
-
-  /// @brief Method get_color, addr 0x12bc1ac, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::NoteColorType get_color();
-
-  /// @brief Method get_cutDirection, addr 0x12bc1b4, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
-
   static inline ::BeatmapSaveDataVersion3::ColorNoteData* New_ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color,
                                                                    ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset);
 
-  /// @brief Method .ctor, addr 0x12bc1bc, size 0x50, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_a() const;
+
+  constexpr int32_t& __cordl_internal_get_a();
+
+  constexpr ::BeatmapSaveDataCommon::NoteColorType const& __cordl_internal_get_c() const;
+
+  constexpr ::BeatmapSaveDataCommon::NoteColorType& __cordl_internal_get_c();
+
+  constexpr ::BeatmapSaveDataCommon::NoteCutDirection const& __cordl_internal_get_d() const;
+
+  constexpr ::BeatmapSaveDataCommon::NoteCutDirection& __cordl_internal_get_d();
+
+  constexpr int32_t const& __cordl_internal_get_x() const;
+
+  constexpr int32_t& __cordl_internal_get_x();
+
+  constexpr int32_t const& __cordl_internal_get_y() const;
+
+  constexpr int32_t& __cordl_internal_get_y();
+
+  constexpr void __cordl_internal_set_a(int32_t value);
+
+  constexpr void __cordl_internal_set_c(::BeatmapSaveDataCommon::NoteColorType value);
+
+  constexpr void __cordl_internal_set_d(::BeatmapSaveDataCommon::NoteCutDirection value);
+
+  constexpr void __cordl_internal_set_x(int32_t value);
+
+  constexpr void __cordl_internal_set_y(int32_t value);
+
+  /// @brief Method .ctor, addr 0x12fd18c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color, ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset);
 
+  /// @brief Method get_angleOffset, addr 0x12fd174, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_angleOffset();
+
+  /// @brief Method get_color, addr 0x12fd17c, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::NoteColorType get_color();
+
+  /// @brief Method get_cutDirection, addr 0x12fd184, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
+
+  /// @brief Method get_layer, addr 0x12fd16c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_layer();
+
+  /// @brief Method get_line, addr 0x12fd164, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_line();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorNoteData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorNoteData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorNoteData(ColorNoteData&&) = delete;
@@ -114,12 +118,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorNoteData(ColorNoteData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorNoteData();
-
-public:
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;
 

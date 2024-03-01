@@ -18,21 +18,25 @@ MARK_REF_PTR_T(::BGLib::Polyglot::LanguageExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15673))
 // CS Name: ::BGLib.Polyglot::LanguageExtensions*
 class CORDL_TYPE LanguageExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToSerializedName, addr 0xe4ae34, size 0x1b0, virtual false, abstract: false, final false
-  static inline ::StringW ToSerializedName(::BGLib::Polyglot::Language lang);
-
-  /// @brief Method ToCultureInfoName, addr 0xe4afe4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ToCultureInfoName, addr 0xe90fb4, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW ToCultureInfoName(::BGLib::Polyglot::Language lang);
 
-  /// @brief Method ToLanguage, addr 0xe4b0cc, size 0x7e8, virtual false, abstract: false, final false
+  /// @brief Method ToLanguage, addr 0xe9109c, size 0x7e8, virtual false, abstract: false, final false
   static inline ::BGLib::Polyglot::Language ToLanguage(::StringW serializedName);
 
+  /// @brief Method ToSerializedName, addr 0xe90e04, size 0x1b0, virtual false, abstract: false, final false
+  static inline ::StringW ToSerializedName(::BGLib::Polyglot::Language lang);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LanguageExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LanguageExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LanguageExtensions(LanguageExtensions&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LanguageExtensions(LanguageExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LanguageExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

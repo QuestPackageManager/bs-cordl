@@ -20,22 +20,26 @@ MARK_REF_PTR_T(::System::ArrayTypeMismatchException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2350))
 // CS Name: ::System::ArrayTypeMismatchException*
 class CORDL_TYPE ArrayTypeMismatchException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::ArrayTypeMismatchException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25429e0, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::ArrayTypeMismatchException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2542a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2610dd0, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2610e2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ArrayTypeMismatchException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ArrayTypeMismatchException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArrayTypeMismatchException(ArrayTypeMismatchException&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ArrayTypeMismatchException(ArrayTypeMismatchException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ArrayTypeMismatchException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

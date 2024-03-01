@@ -15,8 +15,6 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ImagePacking);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9509))
 // CS Name: ::HoudiniEngineUnity::HAPI_ImagePacking
 struct CORDL_TYPE HAPI_ImagePacking {
 public:
@@ -42,48 +40,53 @@ public:
     return static_cast<__HAPI_ImagePacking_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_ImagePacking(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__HAPI_ImagePacking_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_ImagePacking();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_ImagePacking(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field HAPI_IMAGE_PACKING_UNKNOWN value: static_cast<int32_t>(0xffffffff)
-  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_UNKNOWN;
-
-  /// @brief Field HAPI_IMAGE_PACKING_SINGLE value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_SINGLE;
-
-  /// @brief Field HAPI_IMAGE_PACKING_DUAL value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_DUAL;
-
-  /// @brief Field HAPI_IMAGE_PACKING_RGB value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_RGB;
-
-  /// @brief Field HAPI_IMAGE_PACKING_BGR value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_BGR;
-
-  /// @brief Field HAPI_IMAGE_PACKING_RGBA value: static_cast<int32_t>(0x4)
-  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_RGBA;
 
   /// @brief Field HAPI_IMAGE_PACKING_ABGR value: static_cast<int32_t>(0x5)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_ABGR;
 
-  /// @brief Field HAPI_IMAGE_PACKING_MAX value: static_cast<int32_t>(0x6)
-  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_MAX;
+  /// @brief Field HAPI_IMAGE_PACKING_BGR value: static_cast<int32_t>(0x3)
+  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_BGR;
 
   /// @brief Field HAPI_IMAGE_PACKING_DEFAULT3 value: static_cast<int32_t>(0x2)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_DEFAULT3;
 
   /// @brief Field HAPI_IMAGE_PACKING_DEFAULT4 value: static_cast<int32_t>(0x4)
   static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_DEFAULT4;
+
+  /// @brief Field HAPI_IMAGE_PACKING_DUAL value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_DUAL;
+
+  /// @brief Field HAPI_IMAGE_PACKING_MAX value: static_cast<int32_t>(0x6)
+  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_MAX;
+
+  /// @brief Field HAPI_IMAGE_PACKING_RGB value: static_cast<int32_t>(0x2)
+  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_RGB;
+
+  /// @brief Field HAPI_IMAGE_PACKING_RGBA value: static_cast<int32_t>(0x4)
+  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_RGBA;
+
+  /// @brief Field HAPI_IMAGE_PACKING_SINGLE value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_SINGLE;
+
+  /// @brief Field HAPI_IMAGE_PACKING_UNKNOWN value: static_cast<int32_t>(0xffffffff)
+  static ::HoudiniEngineUnity::HAPI_ImagePacking const HAPI_IMAGE_PACKING_UNKNOWN;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

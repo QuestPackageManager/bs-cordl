@@ -67,137 +67,51 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayCla
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4299))
 // CS Name: ::LightTranslationGroupEffect::InitData*
 class CORDL_TYPE __LightTranslationGroupEffect__InitData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field groupId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_groupId, put = __cordl_internal_set_groupId)) int32_t groupId;
-
   /// @brief Field elementId, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_elementId, put = __cordl_internal_set_elementId)) int32_t elementId;
 
-  /// @brief Field xMirrored, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_xMirrored, put = __cordl_internal_set_xMirrored)) bool xMirrored;
-
-  /// @brief Field yMirrored, offset 0x19, size 0x1
-  __declspec(property(get = __cordl_internal_get_yMirrored, put = __cordl_internal_set_yMirrored)) bool yMirrored;
-
-  /// @brief Field zMirrored, offset 0x1a, size 0x1
-  __declspec(property(get = __cordl_internal_get_zMirrored, put = __cordl_internal_set_zMirrored)) bool zMirrored;
-
-  /// @brief Field xTransform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_xTransform, put = __cordl_internal_set_xTransform))::UnityW<::UnityEngine::Transform> xTransform;
-
-  /// @brief Field yTransform, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_yTransform, put = __cordl_internal_set_yTransform))::UnityW<::UnityEngine::Transform> yTransform;
-
-  /// @brief Field zTransform, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_zTransform, put = __cordl_internal_set_zTransform))::UnityW<::UnityEngine::Transform> zTransform;
-
-  /// @brief Field xTranslationLimits, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_xTranslationLimits, put = __cordl_internal_set_xTranslationLimits))::UnityEngine::Vector2 xTranslationLimits;
+  /// @brief Field groupId, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_groupId, put = __cordl_internal_set_groupId)) int32_t groupId;
 
   /// @brief Field xDistributionLimits, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_xDistributionLimits, put = __cordl_internal_set_xDistributionLimits))::UnityEngine::Vector2 xDistributionLimits;
 
-  /// @brief Field yTranslationLimits, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_yTranslationLimits, put = __cordl_internal_set_yTranslationLimits))::UnityEngine::Vector2 yTranslationLimits;
+  /// @brief Field xMirrored, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_xMirrored, put = __cordl_internal_set_xMirrored)) bool xMirrored;
+
+  /// @brief Field xTransform, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_xTransform, put = __cordl_internal_set_xTransform))::UnityW<::UnityEngine::Transform> xTransform;
+
+  /// @brief Field xTranslationLimits, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_xTranslationLimits, put = __cordl_internal_set_xTranslationLimits))::UnityEngine::Vector2 xTranslationLimits;
 
   /// @brief Field yDistributionLimits, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_yDistributionLimits, put = __cordl_internal_set_yDistributionLimits))::UnityEngine::Vector2 yDistributionLimits;
 
-  /// @brief Field zTranslationLimits, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_zTranslationLimits, put = __cordl_internal_set_zTranslationLimits))::UnityEngine::Vector2 zTranslationLimits;
+  /// @brief Field yMirrored, offset 0x19, size 0x1
+  __declspec(property(get = __cordl_internal_get_yMirrored, put = __cordl_internal_set_yMirrored)) bool yMirrored;
+
+  /// @brief Field yTransform, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_yTransform, put = __cordl_internal_set_yTransform))::UnityW<::UnityEngine::Transform> yTransform;
+
+  /// @brief Field yTranslationLimits, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_yTranslationLimits, put = __cordl_internal_set_yTranslationLimits))::UnityEngine::Vector2 yTranslationLimits;
 
   /// @brief Field zDistributionLimits, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_zDistributionLimits, put = __cordl_internal_set_zDistributionLimits))::UnityEngine::Vector2 zDistributionLimits;
 
-  constexpr int32_t& __cordl_internal_get_groupId();
+  /// @brief Field zMirrored, offset 0x1a, size 0x1
+  __declspec(property(get = __cordl_internal_get_zMirrored, put = __cordl_internal_set_zMirrored)) bool zMirrored;
 
-  constexpr int32_t const& __cordl_internal_get_groupId() const;
+  /// @brief Field zTransform, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_zTransform, put = __cordl_internal_set_zTransform))::UnityW<::UnityEngine::Transform> zTransform;
 
-  constexpr void __cordl_internal_set_groupId(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_elementId();
-
-  constexpr int32_t const& __cordl_internal_get_elementId() const;
-
-  constexpr void __cordl_internal_set_elementId(int32_t value);
-
-  constexpr bool& __cordl_internal_get_xMirrored();
-
-  constexpr bool const& __cordl_internal_get_xMirrored() const;
-
-  constexpr void __cordl_internal_set_xMirrored(bool value);
-
-  constexpr bool& __cordl_internal_get_yMirrored();
-
-  constexpr bool const& __cordl_internal_get_yMirrored() const;
-
-  constexpr void __cordl_internal_set_yMirrored(bool value);
-
-  constexpr bool& __cordl_internal_get_zMirrored();
-
-  constexpr bool const& __cordl_internal_get_zMirrored() const;
-
-  constexpr void __cordl_internal_set_zMirrored(bool value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_xTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_xTransform() const;
-
-  constexpr void __cordl_internal_set_xTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_yTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_yTransform() const;
-
-  constexpr void __cordl_internal_set_yTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_zTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_zTransform() const;
-
-  constexpr void __cordl_internal_set_zTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_xTranslationLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_xTranslationLimits() const;
-
-  constexpr void __cordl_internal_set_xTranslationLimits(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_xDistributionLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_xDistributionLimits() const;
-
-  constexpr void __cordl_internal_set_xDistributionLimits(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_yTranslationLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_yTranslationLimits() const;
-
-  constexpr void __cordl_internal_set_yTranslationLimits(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_yDistributionLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_yDistributionLimits() const;
-
-  constexpr void __cordl_internal_set_yDistributionLimits(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_zTranslationLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_zTranslationLimits() const;
-
-  constexpr void __cordl_internal_set_zTranslationLimits(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_zDistributionLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_zDistributionLimits() const;
-
-  constexpr void __cordl_internal_set_zDistributionLimits(::UnityEngine::Vector2 value);
+  /// @brief Field zTranslationLimits, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_zTranslationLimits, put = __cordl_internal_set_zTranslationLimits))::UnityEngine::Vector2 zTranslationLimits;
 
   static inline ::GlobalNamespace::__LightTranslationGroupEffect__InitData* New_ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored,
                                                                                      ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform,
@@ -205,11 +119,101 @@ public:
                                                                                      ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits,
                                                                                      ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits);
 
-  /// @brief Method .ctor, addr 0x236ba20, size 0xd8, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_elementId() const;
+
+  constexpr int32_t& __cordl_internal_get_elementId();
+
+  constexpr int32_t const& __cordl_internal_get_groupId() const;
+
+  constexpr int32_t& __cordl_internal_get_groupId();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_xDistributionLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_xDistributionLimits();
+
+  constexpr bool const& __cordl_internal_get_xMirrored() const;
+
+  constexpr bool& __cordl_internal_get_xMirrored();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_xTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_xTransform();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_xTranslationLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_xTranslationLimits();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_yDistributionLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_yDistributionLimits();
+
+  constexpr bool const& __cordl_internal_get_yMirrored() const;
+
+  constexpr bool& __cordl_internal_get_yMirrored();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_yTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_yTransform();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_yTranslationLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_yTranslationLimits();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_zDistributionLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_zDistributionLimits();
+
+  constexpr bool const& __cordl_internal_get_zMirrored() const;
+
+  constexpr bool& __cordl_internal_get_zMirrored();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_zTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_zTransform();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_zTranslationLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_zTranslationLimits();
+
+  constexpr void __cordl_internal_set_elementId(int32_t value);
+
+  constexpr void __cordl_internal_set_groupId(int32_t value);
+
+  constexpr void __cordl_internal_set_xDistributionLimits(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_xMirrored(bool value);
+
+  constexpr void __cordl_internal_set_xTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_xTranslationLimits(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_yDistributionLimits(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_yMirrored(bool value);
+
+  constexpr void __cordl_internal_set_yTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_yTranslationLimits(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_zDistributionLimits(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_zMirrored(bool value);
+
+  constexpr void __cordl_internal_set_zTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_zTranslationLimits(::UnityEngine::Vector2 value);
+
+  /// @brief Method .ctor, addr 0x2439968, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform,
                     ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits,
                     ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LightTranslationGroupEffect__InitData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__LightTranslationGroupEffect__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __LightTranslationGroupEffect__InitData(__LightTranslationGroupEffect__InitData&&) = delete;
@@ -218,12 +222,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LightTranslationGroupEffect__InitData(__LightTranslationGroupEffect__InitData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LightTranslationGroupEffect__InitData();
-
-public:
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
 
@@ -304,17 +302,12 @@ static_assert(offsetof(::GlobalNamespace::__LightTranslationGroupEffect__InitDat
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4300))
 // CS Name: ::LightTranslationGroupEffect::<>c__DisplayClass12_0*
 class CORDL_TYPE __LightTranslationGroupEffect____c__DisplayClass12_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field translationTween, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_translationTween, put = __cordl_internal_set_translationTween))::Tweening::FloatTween* translationTween;
-
-  /// @brief Field translationLimits, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_translationLimits, put = __cordl_internal_set_translationLimits))::UnityEngine::Vector2 translationLimits;
+  /// @brief Field <>4__this, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::LightTranslationGroupEffect* __4__this;
 
   /// @brief Field distributionLimits, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_distributionLimits, put = __cordl_internal_set_distributionLimits))::UnityEngine::Vector2 distributionLimits;
@@ -322,47 +315,56 @@ public:
   /// @brief Field mirrored, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_mirrored, put = __cordl_internal_set_mirrored)) bool mirrored;
 
-  /// @brief Field <>4__this, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::LightTranslationGroupEffect* __4__this;
+  /// @brief Field translationLimits, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_translationLimits, put = __cordl_internal_set_translationLimits))::UnityEngine::Vector2 translationLimits;
 
-  constexpr ::Tweening::FloatTween*& __cordl_internal_get_translationTween();
+  /// @brief Field translationTween, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_translationTween, put = __cordl_internal_set_translationTween))::Tweening::FloatTween* translationTween;
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get_translationTween() const;
+  static inline ::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0* New_ctor();
 
-  constexpr void __cordl_internal_set_translationTween(::Tweening::FloatTween* value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_translationLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_translationLimits() const;
-
-  constexpr void __cordl_internal_set_translationLimits(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_distributionLimits();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_distributionLimits() const;
-
-  constexpr void __cordl_internal_set_distributionLimits(::UnityEngine::Vector2 value);
-
-  constexpr bool& __cordl_internal_get_mirrored();
-
-  constexpr bool const& __cordl_internal_get_mirrored() const;
-
-  constexpr void __cordl_internal_set_mirrored(bool value);
+  /// @brief Method <GetTranslationEventHandler>b__0, addr 0x2439a40, size 0x1c0, virtual false, abstract: false, final false
+  inline void _GetTranslationEventHandler_b__0(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData);
 
   constexpr ::GlobalNamespace::LightTranslationGroupEffect*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightTranslationGroupEffect*> const& __cordl_internal_get___4__this() const;
 
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_distributionLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_distributionLimits();
+
+  constexpr bool const& __cordl_internal_get_mirrored() const;
+
+  constexpr bool& __cordl_internal_get_mirrored();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_translationLimits() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_translationLimits();
+
+  constexpr ::Tweening::FloatTween*& __cordl_internal_get_translationTween();
+
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get_translationTween() const;
+
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::LightTranslationGroupEffect* value);
 
-  static inline ::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0* New_ctor();
+  constexpr void __cordl_internal_set_distributionLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x236b7c8, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_mirrored(bool value);
+
+  constexpr void __cordl_internal_set_translationLimits(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_translationTween(::Tweening::FloatTween* value);
+
+  /// @brief Method .ctor, addr 0x2439710, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetTranslationEventHandler>b__0, addr 0x236baf8, size 0x1c0, virtual false, abstract: false, final false
-  inline void _GetTranslationEventHandler_b__0(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LightTranslationGroupEffect____c__DisplayClass12_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__LightTranslationGroupEffect____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __LightTranslationGroupEffect____c__DisplayClass12_0(__LightTranslationGroupEffect____c__DisplayClass12_0&&) = delete;
@@ -371,12 +373,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LightTranslationGroupEffect____c__DisplayClass12_0(__LightTranslationGroupEffect____c__DisplayClass12_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LightTranslationGroupEffect____c__DisplayClass12_0();
-
-public:
   /// @brief Field translationTween, offset: 0x10, size: 0x8, def value: None
   ::Tweening::FloatTween* ___translationTween;
 
@@ -412,36 +408,17 @@ static_assert(offsetof(::GlobalNamespace::__LightTranslationGroupEffect____c__Di
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4301))
 // CS Name: ::LightTranslationGroupEffect*
 class CORDL_TYPE LightTranslationGroupEffect : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass12_0 = ::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0;
-
   using InitData = ::GlobalNamespace::__LightTranslationGroupEffect__InitData;
 
-  /// @brief Field _tweeningManager, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
+  using __c__DisplayClass12_0 = ::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0;
 
   /// @brief Field _beatmapCallbacksController, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
-
-  /// @brief Field _transformMask, offset 0x20, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__transformMask,
-               put = __cordl_internal_set__transformMask))::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* _transformMask;
-
-  /// @brief Field _xTranslationTween, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__xTranslationTween, put = __cordl_internal_set__xTranslationTween))::Tweening::FloatTween* _xTranslationTween;
-
-  /// @brief Field _yTranslationTween, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__yTranslationTween, put = __cordl_internal_set__yTranslationTween))::Tweening::FloatTween* _yTranslationTween;
-
-  /// @brief Field _zTranslationTween, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__zTranslationTween, put = __cordl_internal_set__zTranslationTween))::Tweening::FloatTween* _zTranslationTween;
 
   /// @brief Field _lightTranslationXBeatmapEventCallbackWrapper, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__lightTranslationXBeatmapEventCallbackWrapper,
@@ -455,84 +432,107 @@ public:
   __declspec(property(get = __cordl_internal_get__lightTranslationZBeatmapEventCallbackWrapper,
                       put = __cordl_internal_set__lightTranslationZBeatmapEventCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _lightTranslationZBeatmapEventCallbackWrapper;
 
-  constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__tweeningManager();
+  /// @brief Field _transformMask, offset 0x20, size 0x8
+  __declspec(
+      property(get = __cordl_internal_get__transformMask,
+               put = __cordl_internal_set__transformMask))::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* _transformMask;
 
-  constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+  /// @brief Field _tweeningManager, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
+  /// @brief Field _xTranslationTween, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__xTranslationTween, put = __cordl_internal_set__xTranslationTween))::Tweening::FloatTween* _xTranslationTween;
+
+  /// @brief Field _yTranslationTween, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__yTranslationTween, put = __cordl_internal_set__yTranslationTween))::Tweening::FloatTween* _yTranslationTween;
+
+  /// @brief Field _zTranslationTween, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__zTranslationTween, put = __cordl_internal_set__zTranslationTween))::Tweening::FloatTween* _zTranslationTween;
+
+  /// @brief Method Cleanup, addr 0x24396a8, size 0x68, virtual false, abstract: false, final false
+  inline void Cleanup();
+
+  /// @brief Method ComputeTranslation, addr 0x243991c, size 0x4c, virtual false, abstract: false, final false
+  static inline float_t ComputeTranslation(float_t translation, ::UnityEngine::Vector2 translationLimits, float_t distribution, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
+
+  /// @brief Method GetTranslationEventHandler, addr 0x24395b8, size 0xf0, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDataCallback_1<::GlobalNamespace::LightTranslationBeatmapEventData*>*
+  GetTranslationEventHandler(::Tweening::FloatTween* translationTween, ::UnityEngine::Vector2 translationLimits, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
+
+  static inline ::GlobalNamespace::LightTranslationGroupEffect* New_ctor(::GlobalNamespace::__LightTranslationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
+                                                                         ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
+
+  /// @brief Method SetTranslation, addr 0x2439718, size 0x1c8, virtual false, abstract: false, final false
+  inline void SetTranslation(float_t _);
+
+  /// @brief Method SetTweenData, addr 0x24398e0, size 0x3c, virtual false, abstract: false, final false
+  static inline void SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightTranslationXBeatmapEventCallbackWrapper();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__lightTranslationXBeatmapEventCallbackWrapper() const;
+
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightTranslationYBeatmapEventCallbackWrapper();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__lightTranslationYBeatmapEventCallbackWrapper() const;
+
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightTranslationZBeatmapEventCallbackWrapper();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__lightTranslationZBeatmapEventCallbackWrapper() const;
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>*& __cordl_internal_get__transformMask();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>*> const&
   __cordl_internal_get__transformMask() const;
 
-  constexpr void __cordl_internal_set__transformMask(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* value);
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
   constexpr ::Tweening::FloatTween*& __cordl_internal_get__xTranslationTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__xTranslationTween() const;
 
-  constexpr void __cordl_internal_set__xTranslationTween(::Tweening::FloatTween* value);
-
   constexpr ::Tweening::FloatTween*& __cordl_internal_get__yTranslationTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__yTranslationTween() const;
-
-  constexpr void __cordl_internal_set__yTranslationTween(::Tweening::FloatTween* value);
 
   constexpr ::Tweening::FloatTween*& __cordl_internal_get__zTranslationTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__zTranslationTween() const;
 
-  constexpr void __cordl_internal_set__zTranslationTween(::Tweening::FloatTween* value);
-
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightTranslationXBeatmapEventCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__lightTranslationXBeatmapEventCallbackWrapper() const;
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
   constexpr void __cordl_internal_set__lightTranslationXBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightTranslationYBeatmapEventCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__lightTranslationYBeatmapEventCallbackWrapper() const;
-
   constexpr void __cordl_internal_set__lightTranslationYBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
-
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightTranslationZBeatmapEventCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__lightTranslationZBeatmapEventCallbackWrapper() const;
 
   constexpr void __cordl_internal_set__lightTranslationZBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  static inline ::GlobalNamespace::LightTranslationGroupEffect* New_ctor(::GlobalNamespace::__LightTranslationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
-                                                                         ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
+  constexpr void __cordl_internal_set__transformMask(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* value);
 
-  /// @brief Method .ctor, addr 0x236abb0, size 0xac0, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
+
+  constexpr void __cordl_internal_set__xTranslationTween(::Tweening::FloatTween* value);
+
+  constexpr void __cordl_internal_set__yTranslationTween(::Tweening::FloatTween* value);
+
+  constexpr void __cordl_internal_set__zTranslationTween(::Tweening::FloatTween* value);
+
+  /// @brief Method .ctor, addr 0x2438af8, size 0xac0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__LightTranslationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method Cleanup, addr 0x236b760, size 0x68, virtual false, abstract: false, final false
-  inline void Cleanup();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightTranslationGroupEffect();
 
-  /// @brief Method GetTranslationEventHandler, addr 0x236b670, size 0xf0, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDataCallback_1<::GlobalNamespace::LightTranslationBeatmapEventData*>*
-  GetTranslationEventHandler(::Tweening::FloatTween* translationTween, ::UnityEngine::Vector2 translationLimits, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
-
-  /// @brief Method SetTranslation, addr 0x236b7d0, size 0x1c8, virtual false, abstract: false, final false
-  inline void SetTranslation(float_t _);
-
-  /// @brief Method SetTweenData, addr 0x236b998, size 0x3c, virtual false, abstract: false, final false
-  static inline void SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType);
-
-  /// @brief Method ComputeTranslation, addr 0x236b9d4, size 0x4c, virtual false, abstract: false, final false
-  static inline float_t ComputeTranslation(float_t translation, ::UnityEngine::Vector2 translationLimits, float_t distribution, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroupEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationGroupEffect(LightTranslationGroupEffect&&) = delete;
@@ -541,12 +541,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTranslationGroupEffect(LightTranslationGroupEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightTranslationGroupEffect();
-
-public:
   /// @brief Field _tweeningManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;
 

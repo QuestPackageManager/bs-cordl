@@ -31,73 +31,77 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ColorPalette);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12010))
 // CS Name: ::UnityEngine.ProBuilder::ColorPalette*
 class CORDL_TYPE ColorPalette : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
+  __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_Item, put = set_Item))::UnityEngine::Color Item[];
+
   /// @brief Field <current>k__BackingField, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get__current_k__BackingField, put = __cordl_internal_set__current_k__BackingField))::UnityEngine::Color _current_k__BackingField;
+
+  __declspec(property(get = get_colors))::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* colors;
+
+  __declspec(property(get = get_current, put = set_current))::UnityEngine::Color current;
 
   /// @brief Field m_Colors, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Colors, put = __cordl_internal_set_m_Colors))::System::Collections::Generic::List_1<::UnityEngine::Color>* m_Colors;
 
-  __declspec(property(get = get_current, put = set_current))::UnityEngine::Color current;
-
-  __declspec(property(get = get_colors))::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* colors;
-
-  __declspec(property(get = get_Item, put = set_Item))::UnityEngine::Color Item[];
-
-  __declspec(property(get = get_Count)) int32_t Count;
-
   /// @brief Convert operator to "::UnityEngine::ProBuilder::IHasDefault"
   constexpr operator ::UnityEngine::ProBuilder::IHasDefault*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::ProBuilder::IHasDefault"
-  constexpr ::UnityEngine::ProBuilder::IHasDefault* i___UnityEngine__ProBuilder__IHasDefault() noexcept;
+  static inline ::UnityEngine::ProBuilder::ColorPalette* New_ctor();
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__current_k__BackingField();
+  /// @brief Method SetColors, addr 0x2c224c4, size 0xa4, virtual false, abstract: false, final false
+  inline void SetColors(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>* colors);
+
+  /// @brief Method SetDefaultValues, addr 0x2c22568, size 0x7c8, virtual true, abstract: false, final true
+  inline void SetDefaultValues();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__current_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__current_k__BackingField(::UnityEngine::Color value);
+  constexpr ::UnityEngine::Color& __cordl_internal_get__current_k__BackingField();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& __cordl_internal_get_m_Colors();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color>*> const& __cordl_internal_get_m_Colors() const;
 
+  constexpr void __cordl_internal_set__current_k__BackingField(::UnityEngine::Color value);
+
   constexpr void __cordl_internal_set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color>* value);
 
-  /// @brief Method get_current, addr 0x2b3b35c, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_current();
-
-  /// @brief Method set_current, addr 0x2b3b368, size 0xc, virtual false, abstract: false, final false
-  inline void set_current(::UnityEngine::Color value);
-
-  /// @brief Method get_colors, addr 0x2b3b374, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* get_colors();
-
-  /// @brief Method SetColors, addr 0x2b3b3f0, size 0xa4, virtual false, abstract: false, final false
-  inline void SetColors(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>* colors);
-
-  /// @brief Method SetDefaultValues, addr 0x2b3b494, size 0x7c8, virtual true, abstract: false, final true
-  inline void SetDefaultValues();
-
-  /// @brief Method get_Item, addr 0x2b3bc5c, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_Item(int32_t i);
-
-  /// @brief Method set_Item, addr 0x2b3bcb4, size 0x88, virtual false, abstract: false, final false
-  inline void set_Item(int32_t i, ::UnityEngine::Color value);
-
-  /// @brief Method get_Count, addr 0x2b3bd3c, size 0x48, virtual false, abstract: false, final false
-  inline int32_t get_Count();
-
-  static inline ::UnityEngine::ProBuilder::ColorPalette* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2b3bd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c22e58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Count, addr 0x2c22e10, size 0x48, virtual false, abstract: false, final false
+  inline int32_t get_Count();
+
+  /// @brief Method get_Item, addr 0x2c22d30, size 0x58, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_Item(int32_t i);
+
+  /// @brief Method get_colors, addr 0x2c22448, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* get_colors();
+
+  /// @brief Method get_current, addr 0x2c22430, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_current();
+
+  /// @brief Convert to "::UnityEngine::ProBuilder::IHasDefault"
+  constexpr ::UnityEngine::ProBuilder::IHasDefault* i___UnityEngine__ProBuilder__IHasDefault() noexcept;
+
+  /// @brief Method set_Item, addr 0x2c22d88, size 0x88, virtual false, abstract: false, final false
+  inline void set_Item(int32_t i, ::UnityEngine::Color value);
+
+  /// @brief Method set_current, addr 0x2c2243c, size 0xc, virtual false, abstract: false, final false
+  inline void set_current(::UnityEngine::Color value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorPalette();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorPalette", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorPalette(ColorPalette&&) = delete;
@@ -106,12 +110,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorPalette(ColorPalette const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorPalette();
-
-public:
   /// @brief Field <current>k__BackingField, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ____current_k__BackingField;
 

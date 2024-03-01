@@ -23,49 +23,53 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RSAPKCS1SignatureDeformatter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2919))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2983))
 // CS Name: ::System.Security.Cryptography::RSAPKCS1SignatureDeformatter*
 class CORDL_TYPE RSAPKCS1SignatureDeformatter : public ::System::Security::Cryptography::AsymmetricSignatureDeformatter {
 public:
   // Declarations
+  /// @brief Field hashName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_hashName, put = __cordl_internal_set_hashName))::StringW hashName;
+
   /// @brief Field rsa, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_rsa, put = __cordl_internal_set_rsa))::System::Security::Cryptography::RSA* rsa;
 
-  /// @brief Field hashName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_hashName, put = __cordl_internal_set_hashName))::StringW hashName;
+  static inline ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter* New_ctor();
+
+  static inline ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter* New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
+
+  /// @brief Method SetHashAlgorithm, addr 0x2566ef0, size 0x60, virtual true, abstract: false, final false
+  inline void SetHashAlgorithm(::StringW strName);
+
+  /// @brief Method SetKey, addr 0x2566f50, size 0xec, virtual true, abstract: false, final false
+  inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
+
+  /// @brief Method VerifySignature, addr 0x256703c, size 0x160, virtual true, abstract: false, final false
+  inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
+
+  constexpr ::StringW const& __cordl_internal_get_hashName() const;
+
+  constexpr ::StringW& __cordl_internal_get_hashName();
 
   constexpr ::System::Security::Cryptography::RSA*& __cordl_internal_get_rsa();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RSA*> const& __cordl_internal_get_rsa() const;
 
-  constexpr void __cordl_internal_set_rsa(::System::Security::Cryptography::RSA* value);
-
-  constexpr ::StringW& __cordl_internal_get_hashName();
-
-  constexpr ::StringW const& __cordl_internal_get_hashName() const;
-
   constexpr void __cordl_internal_set_hashName(::StringW value);
 
-  static inline ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter* New_ctor();
+  constexpr void __cordl_internal_set_rsa(::System::Security::Cryptography::RSA* value);
 
-  /// @brief Method .ctor, addr 0x2490534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256222c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter* New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
-
-  /// @brief Method .ctor, addr 0x24951c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2566ebc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method SetHashAlgorithm, addr 0x24951f8, size 0x60, virtual true, abstract: false, final false
-  inline void SetHashAlgorithm(::StringW strName);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RSAPKCS1SignatureDeformatter();
 
-  /// @brief Method SetKey, addr 0x2495258, size 0xec, virtual true, abstract: false, final false
-  inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
-
-  /// @brief Method VerifySignature, addr 0x2495344, size 0x160, virtual true, abstract: false, final false
-  inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RSAPKCS1SignatureDeformatter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RSAPKCS1SignatureDeformatter(RSAPKCS1SignatureDeformatter&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RSAPKCS1SignatureDeformatter(RSAPKCS1SignatureDeformatter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RSAPKCS1SignatureDeformatter();
-
-public:
   /// @brief Field rsa, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::RSA* ___rsa;
 

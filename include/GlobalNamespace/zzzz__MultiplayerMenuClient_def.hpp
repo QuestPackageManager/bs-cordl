@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerMenuClient);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4888))
 // CS Name: ::MultiplayerMenuClient*
 class CORDL_TYPE MultiplayerMenuClient : public ::UnityEngine::MonoBehaviour {
 public:
@@ -33,26 +31,32 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  constexpr ::UnityW<::GlobalNamespace::MenuPlayerController>& __cordl_internal_get__menuPlayerController();
+  /// @brief Method LateUpdate, addr 0x23a95dc, size 0x368, virtual false, abstract: false, final false
+  inline void LateUpdate();
+
+  static inline ::GlobalNamespace::MultiplayerMenuClient* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::MenuPlayerController> const& __cordl_internal_get__menuPlayerController() const;
 
-  constexpr void __cordl_internal_set__menuPlayerController(::UnityW<::GlobalNamespace::MenuPlayerController> value);
+  constexpr ::UnityW<::GlobalNamespace::MenuPlayerController>& __cordl_internal_get__menuPlayerController();
 
   constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
+  constexpr void __cordl_internal_set__menuPlayerController(::UnityW<::GlobalNamespace::MenuPlayerController> value);
+
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method LateUpdate, addr 0x22da928, size 0x368, virtual false, abstract: false, final false
-  inline void LateUpdate();
-
-  static inline ::GlobalNamespace::MultiplayerMenuClient* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22dac90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a9944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerMenuClient();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMenuClient", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerMenuClient(MultiplayerMenuClient&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerMenuClient(MultiplayerMenuClient const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerMenuClient();
-
-public:
   /// @brief Field _menuPlayerController, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuPlayerController> ____menuPlayerController;
 

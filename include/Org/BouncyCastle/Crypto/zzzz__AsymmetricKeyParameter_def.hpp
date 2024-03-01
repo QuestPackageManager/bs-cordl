@@ -21,46 +21,50 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1020))
 // CS Name: ::Org.BouncyCastle.Crypto::AsymmetricKeyParameter*
 class CORDL_TYPE AsymmetricKeyParameter : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_IsPrivate)) bool IsPrivate;
+
   /// @brief Field privateKey, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey)) bool privateKey;
-
-  __declspec(property(get = get_IsPrivate)) bool IsPrivate;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
-  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
+  /// @brief Method Equals, addr 0xfa0228, size 0x98, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr bool& __cordl_internal_get_privateKey();
+  /// @brief Method Equals, addr 0xfa02c0, size 0x24, virtual false, abstract: false, final false
+  inline bool Equals(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
 
-  constexpr bool const& __cordl_internal_get_privateKey() const;
-
-  constexpr void __cordl_internal_set_privateKey(bool value);
+  /// @brief Method GetHashCode, addr 0xfa02e4, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* New_ctor(bool privateKey);
 
-  /// @brief Method .ctor, addr 0xf5b228, size 0x28, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_privateKey() const;
+
+  constexpr bool& __cordl_internal_get_privateKey();
+
+  constexpr void __cordl_internal_set_privateKey(bool value);
+
+  /// @brief Method .ctor, addr 0xfa01f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool privateKey);
 
-  /// @brief Method get_IsPrivate, addr 0xf5b250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsPrivate, addr 0xfa0220, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPrivate();
 
-  /// @brief Method Equals, addr 0xf5b258, size 0x98, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
-  /// @brief Method Equals, addr 0xf5b2f0, size 0x24, virtual false, abstract: false, final false
-  inline bool Equals(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsymmetricKeyParameter();
 
-  /// @brief Method GetHashCode, addr 0xf5b314, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsymmetricKeyParameter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsymmetricKeyParameter(AsymmetricKeyParameter&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsymmetricKeyParameter(AsymmetricKeyParameter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsymmetricKeyParameter();
-
-public:
   /// @brief Field privateKey, offset: 0x10, size: 0x1, def value: None
   bool ___privateKey;
 

@@ -52,8 +52,6 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14104))
 // CS Name: ::CheckCatalogsOperation::<>c*
 class CORDL_TYPE __CheckCatalogsOperation____c : public ::System::Object {
 public:
@@ -64,22 +62,28 @@ public:
   /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0))::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* __9__5_0;
 
-  static inline void setStaticF___9(::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* value);
+  static inline ::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* New_ctor();
+
+  /// @brief Method <Start>b__5_0, addr 0x2b0fda0, size 0x9c, virtual false, abstract: false, final false
+  inline bool _Start_b__5_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
+
+  /// @brief Method .ctor, addr 0x2b0fd98, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* getStaticF___9();
 
-  static inline void setStaticF___9__5_0(::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value);
-
   static inline ::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* getStaticF___9__5_0();
 
-  static inline ::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* value);
 
-  /// @brief Method .ctor, addr 0x2a27cc4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__5_0(::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value);
 
-  /// @brief Method <Start>b__5_0, addr 0x2a27ccc, size 0x9c, virtual false, abstract: false, final false
-  inline bool _Start_b__5_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CheckCatalogsOperation____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CheckCatalogsOperation____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CheckCatalogsOperation____c(__CheckCatalogsOperation____c&&) = delete;
@@ -88,12 +92,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CheckCatalogsOperation____c(__CheckCatalogsOperation____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CheckCatalogsOperation____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -104,11 +102,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3834)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(14045)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14046)), TypeDefinitionIndex(TypeDefinitionIndex(14047)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3834), inst: 273 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 398 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14045), inst: 796 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14046), inst: 793 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14105)) CS Name:
-// ::UnityEngine.AddressableAssets::CheckCatalogsOperation*
+// CS Name: ::UnityEngine.AddressableAssets::CheckCatalogsOperation*
 class CORDL_TYPE CheckCatalogsOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::System::Collections::Generic::List_1<::StringW>*> {
 public:
   // Declarations
@@ -117,6 +111,10 @@ public:
   /// @brief Field m_Addressables, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
+  /// @brief Field m_DepOp, offset 0xa0, size 0x20
+  __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
+      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp;
+
   /// @brief Field m_LocalHashes, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LocalHashes, put = __cordl_internal_set_m_LocalHashes))::System::Collections::Generic::List_1<::StringW>* m_LocalHashes;
 
@@ -124,68 +122,70 @@ public:
   __declspec(property(get = __cordl_internal_get_m_LocatorInfos,
                       put = __cordl_internal_set_m_LocatorInfos))::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* m_LocatorInfos;
 
-  /// @brief Field m_DepOp, offset 0xa0, size 0x20
-  __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp;
+  /// @brief Method Destroy, addr 0x2b0f4e4, size 0x70, virtual true, abstract: false, final false
+  inline void Destroy();
+
+  /// @brief Method Execute, addr 0x2b0fc9c, size 0x98, virtual true, abstract: false, final false
+  inline void Execute();
+
+  /// @brief Method GetDependencies, addr 0x2b0f554, size 0x124, virtual true, abstract: false, final false
+  inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
+
+  /// @brief Method InvokeWaitForCompletion, addr 0x2b0f3b0, size 0x134, virtual true, abstract: false, final false
+  inline bool InvokeWaitForCompletion();
+
+  static inline ::UnityEngine::AddressableAssets::CheckCatalogsOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
+
+  /// @brief Method ProcessDependentOpResults, addr 0x2b0f678, size 0x624, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::StringW>*
+  ProcessDependentOpResults(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* results,
+                            ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* locatorInfos,
+                            ::System::Collections::Generic::List_1<::StringW>* localHashes, ByRef<::StringW> errorString, ByRef<bool> success);
+
+  /// @brief Method Start, addr 0x2b0bb70, size 0x5f4, virtual false, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*>
+  Start(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* locatorInfos);
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get_m_Addressables() const;
 
-  constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
+      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
+  __cordl_internal_get_m_DepOp() const;
+
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
+      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>&
+  __cordl_internal_get_m_DepOp();
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_LocalHashes();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_LocalHashes() const;
-
-  constexpr void __cordl_internal_set_m_LocalHashes(::System::Collections::Generic::List_1<::StringW>* value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>*& __cordl_internal_get_m_LocatorInfos();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>*> const&
   __cordl_internal_get_m_LocatorInfos() const;
 
-  constexpr void __cordl_internal_set_m_LocatorInfos(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* value);
-
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>&
-  __cordl_internal_get_m_DepOp();
-
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-  __cordl_internal_get_m_DepOp() const;
+  constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
   constexpr void __cordl_internal_set_m_DepOp(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           value);
 
-  static inline ::UnityEngine::AddressableAssets::CheckCatalogsOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
+  constexpr void __cordl_internal_set_m_LocalHashes(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2a23a40, size 0x5c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_LocatorInfos(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* value);
+
+  /// @brief Method .ctor, addr 0x2b0bb14, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
-  /// @brief Method Start, addr 0x2a23a9c, size 0x5f4, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*>
-  Start(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* locatorInfos);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CheckCatalogsOperation();
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x2a272dc, size 0x134, virtual true, abstract: false, final false
-  inline bool InvokeWaitForCompletion();
-
-  /// @brief Method Destroy, addr 0x2a27410, size 0x70, virtual true, abstract: false, final false
-  inline void Destroy();
-
-  /// @brief Method GetDependencies, addr 0x2a27480, size 0x124, virtual true, abstract: false, final false
-  inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
-
-  /// @brief Method ProcessDependentOpResults, addr 0x2a275a4, size 0x624, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::StringW>*
-  ProcessDependentOpResults(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* results,
-                            ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* locatorInfos,
-                            ::System::Collections::Generic::List_1<::StringW>* localHashes, ByRef<::StringW> errorString, ByRef<bool> success);
-
-  /// @brief Method Execute, addr 0x2a27bc8, size 0x98, virtual true, abstract: false, final false
-  inline void Execute();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CheckCatalogsOperation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CheckCatalogsOperation(CheckCatalogsOperation&&) = delete;
@@ -194,12 +194,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CheckCatalogsOperation(CheckCatalogsOperation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CheckCatalogsOperation();
-
-public:
   /// @brief Field m_Addressables, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* ___m_Addressables;
 

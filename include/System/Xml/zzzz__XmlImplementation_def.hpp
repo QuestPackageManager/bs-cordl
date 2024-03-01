@@ -20,16 +20,21 @@ MARK_REF_PTR_T(::System::Xml::XmlImplementation);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11410))
 // CS Name: ::System.Xml::XmlImplementation*
 class CORDL_TYPE XmlImplementation : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_NameTable))::System::Xml::XmlNameTable* NameTable;
+
   /// @brief Field nameTable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
 
-  __declspec(property(get = get_NameTable))::System::Xml::XmlNameTable* NameTable;
+  /// @brief Method CreateDocument, addr 0x2973e14, size 0x64, virtual true, abstract: false, final false
+  inline ::System::Xml::XmlDocument* CreateDocument();
+
+  static inline ::System::Xml::XmlImplementation* New_ctor();
+
+  static inline ::System::Xml::XmlImplementation* New_ctor(::System::Xml::XmlNameTable* nt);
 
   constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
@@ -37,22 +42,21 @@ public:
 
   constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  static inline ::System::Xml::XmlImplementation* New_ctor();
-
-  /// @brief Method .ctor, addr 0x288d898, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2973d14, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Xml::XmlImplementation* New_ctor(::System::Xml::XmlNameTable* nt);
-
-  /// @brief Method .ctor, addr 0x288d970, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2973dec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nt);
 
-  /// @brief Method CreateDocument, addr 0x288d998, size 0x64, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlDocument* CreateDocument();
-
-  /// @brief Method get_NameTable, addr 0x288d9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x2973e78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlImplementation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlImplementation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlImplementation(XmlImplementation&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlImplementation(XmlImplementation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlImplementation();
-
-public:
   /// @brief Field nameTable, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlNameTable* ___nameTable;
 

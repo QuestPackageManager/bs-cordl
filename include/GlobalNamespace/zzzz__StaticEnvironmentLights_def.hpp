@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::StaticEnvironmentLights);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4356))
 // CS Name: ::StaticEnvironmentLights*
 class CORDL_TYPE StaticEnvironmentLights : public ::UnityEngine::MonoBehaviour {
 public:
@@ -33,26 +31,32 @@ public:
   /// @brief Field _materials, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__materials, put = __cordl_internal_set__materials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> _materials;
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get__lightColors();
-
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get__lightColors() const;
-
-  constexpr void __cordl_internal_set__lightColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>& __cordl_internal_get__materials();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get__materials() const;
-
-  constexpr void __cordl_internal_set__materials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
-
-  /// @brief Method Awake, addr 0x2376840, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2444788, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::StaticEnvironmentLights* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23768d4, size 0x8, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get__lightColors() const;
+
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get__lightColors();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get__materials() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>& __cordl_internal_get__materials();
+
+  constexpr void __cordl_internal_set__lightColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+
+  constexpr void __cordl_internal_set__materials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
+
+  /// @brief Method .ctor, addr 0x244481c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StaticEnvironmentLights();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StaticEnvironmentLights", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StaticEnvironmentLights(StaticEnvironmentLights&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StaticEnvironmentLights(StaticEnvironmentLights const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StaticEnvironmentLights();
-
-public:
   /// @brief Field _lightColors, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> ____lightColors;
 

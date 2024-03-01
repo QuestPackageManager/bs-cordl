@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::HMUI::ScreenModeSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13545))
 // CS Name: ::HMUI::ScreenModeSO*
 class CORDL_TYPE ScreenModeSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -28,20 +26,26 @@ public:
 
   __declspec(property(get = get_data))::HMUI::ScreenModeData* data;
 
+  static inline ::HMUI::ScreenModeSO* New_ctor();
+
   constexpr ::HMUI::ScreenModeData*& __cordl_internal_get__data();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ScreenModeData*> const& __cordl_internal_get__data() const;
 
   constexpr void __cordl_internal_set__data(::HMUI::ScreenModeData* value);
 
-  /// @brief Method get_data, addr 0x21c0f58, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::ScreenModeData* get_data();
-
-  static inline ::HMUI::ScreenModeSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21c0f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228d5c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_data, addr 0x228d5c0, size 0x8, virtual false, abstract: false, final false
+  inline ::HMUI::ScreenModeData* get_data();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScreenModeSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScreenModeSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenModeSO(ScreenModeSO&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScreenModeSO(ScreenModeSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScreenModeSO();
-
-public:
   /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
   ::HMUI::ScreenModeData* ____data;
 

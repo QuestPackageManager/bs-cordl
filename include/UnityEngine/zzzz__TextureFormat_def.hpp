@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::TextureFormat);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8851))
 // CS Name: ::UnityEngine::TextureFormat
 struct CORDL_TYPE TextureFormat {
 public:
@@ -102,129 +100,32 @@ public:
     return static_cast<__TextureFormat_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TextureFormat(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__TextureFormat_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TextureFormat();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TextureFormat(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Alpha8 value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::TextureFormat const Alpha8;
-
-  /// @brief Field ARGB4444 value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::TextureFormat const ARGB4444;
-
-  /// @brief Field RGB24 value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::TextureFormat const RGB24;
-
-  /// @brief Field RGBA32 value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::TextureFormat const RGBA32;
 
   /// @brief Field ARGB32 value: static_cast<int32_t>(0x5)
   static ::UnityEngine::TextureFormat const ARGB32;
 
-  /// @brief Field RGB565 value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::TextureFormat const RGB565;
+  /// @brief Field ARGB4444 value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::TextureFormat const ARGB4444;
 
-  /// @brief Field R16 value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::TextureFormat const R16;
+  /// @brief Field ASTC_10x10 value: static_cast<int32_t>(0x34)
+  static ::UnityEngine::TextureFormat const ASTC_10x10;
 
-  /// @brief Field DXT1 value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::TextureFormat const DXT1;
-
-  /// @brief Field DXT5 value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::TextureFormat const DXT5;
-
-  /// @brief Field RGBA4444 value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::TextureFormat const RGBA4444;
-
-  /// @brief Field BGRA32 value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::TextureFormat const BGRA32;
-
-  /// @brief Field RHalf value: static_cast<int32_t>(0xf)
-  static ::UnityEngine::TextureFormat const RHalf;
-
-  /// @brief Field RGHalf value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::TextureFormat const RGHalf;
-
-  /// @brief Field RGBAHalf value: static_cast<int32_t>(0x11)
-  static ::UnityEngine::TextureFormat const RGBAHalf;
-
-  /// @brief Field RFloat value: static_cast<int32_t>(0x12)
-  static ::UnityEngine::TextureFormat const RFloat;
-
-  /// @brief Field RGFloat value: static_cast<int32_t>(0x13)
-  static ::UnityEngine::TextureFormat const RGFloat;
-
-  /// @brief Field RGBAFloat value: static_cast<int32_t>(0x14)
-  static ::UnityEngine::TextureFormat const RGBAFloat;
-
-  /// @brief Field YUY2 value: static_cast<int32_t>(0x15)
-  static ::UnityEngine::TextureFormat const YUY2;
-
-  /// @brief Field RGB9e5Float value: static_cast<int32_t>(0x16)
-  static ::UnityEngine::TextureFormat const RGB9e5Float;
-
-  /// @brief Field BC4 value: static_cast<int32_t>(0x1a)
-  static ::UnityEngine::TextureFormat const BC4;
-
-  /// @brief Field BC5 value: static_cast<int32_t>(0x1b)
-  static ::UnityEngine::TextureFormat const BC5;
-
-  /// @brief Field BC6H value: static_cast<int32_t>(0x18)
-  static ::UnityEngine::TextureFormat const BC6H;
-
-  /// @brief Field BC7 value: static_cast<int32_t>(0x19)
-  static ::UnityEngine::TextureFormat const BC7;
-
-  /// @brief Field DXT1Crunched value: static_cast<int32_t>(0x1c)
-  static ::UnityEngine::TextureFormat const DXT1Crunched;
-
-  /// @brief Field DXT5Crunched value: static_cast<int32_t>(0x1d)
-  static ::UnityEngine::TextureFormat const DXT5Crunched;
-
-  /// @brief Field PVRTC_RGB2 value: static_cast<int32_t>(0x1e)
-  static ::UnityEngine::TextureFormat const PVRTC_RGB2;
-
-  /// @brief Field PVRTC_RGBA2 value: static_cast<int32_t>(0x1f)
-  static ::UnityEngine::TextureFormat const PVRTC_RGBA2;
-
-  /// @brief Field PVRTC_RGB4 value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::TextureFormat const PVRTC_RGB4;
-
-  /// @brief Field PVRTC_RGBA4 value: static_cast<int32_t>(0x21)
-  static ::UnityEngine::TextureFormat const PVRTC_RGBA4;
-
-  /// @brief Field ETC_RGB4 value: static_cast<int32_t>(0x22)
-  static ::UnityEngine::TextureFormat const ETC_RGB4;
-
-  /// @brief Field EAC_R value: static_cast<int32_t>(0x29)
-  static ::UnityEngine::TextureFormat const EAC_R;
-
-  /// @brief Field EAC_R_SIGNED value: static_cast<int32_t>(0x2a)
-  static ::UnityEngine::TextureFormat const EAC_R_SIGNED;
-
-  /// @brief Field EAC_RG value: static_cast<int32_t>(0x2b)
-  static ::UnityEngine::TextureFormat const EAC_RG;
-
-  /// @brief Field EAC_RG_SIGNED value: static_cast<int32_t>(0x2c)
-  static ::UnityEngine::TextureFormat const EAC_RG_SIGNED;
-
-  /// @brief Field ETC2_RGB value: static_cast<int32_t>(0x2d)
-  static ::UnityEngine::TextureFormat const ETC2_RGB;
-
-  /// @brief Field ETC2_RGBA1 value: static_cast<int32_t>(0x2e)
-  static ::UnityEngine::TextureFormat const ETC2_RGBA1;
-
-  /// @brief Field ETC2_RGBA8 value: static_cast<int32_t>(0x2f)
-  static ::UnityEngine::TextureFormat const ETC2_RGBA8;
+  /// @brief Field ASTC_12x12 value: static_cast<int32_t>(0x35)
+  static ::UnityEngine::TextureFormat const ASTC_12x12;
 
   /// @brief Field ASTC_4x4 value: static_cast<int32_t>(0x30)
   static ::UnityEngine::TextureFormat const ASTC_4x4;
@@ -238,29 +139,11 @@ public:
   /// @brief Field ASTC_8x8 value: static_cast<int32_t>(0x33)
   static ::UnityEngine::TextureFormat const ASTC_8x8;
 
-  /// @brief Field ASTC_10x10 value: static_cast<int32_t>(0x34)
-  static ::UnityEngine::TextureFormat const ASTC_10x10;
+  /// @brief Field ASTC_HDR_10x10 value: static_cast<int32_t>(0x46)
+  static ::UnityEngine::TextureFormat const ASTC_HDR_10x10;
 
-  /// @brief Field ASTC_12x12 value: static_cast<int32_t>(0x35)
-  static ::UnityEngine::TextureFormat const ASTC_12x12;
-
-  /// @brief Field ETC_RGB4_3DS value: static_cast<int32_t>(0x3c)
-  static ::UnityEngine::TextureFormat const ETC_RGB4_3DS;
-
-  /// @brief Field ETC_RGBA8_3DS value: static_cast<int32_t>(0x3d)
-  static ::UnityEngine::TextureFormat const ETC_RGBA8_3DS;
-
-  /// @brief Field RG16 value: static_cast<int32_t>(0x3e)
-  static ::UnityEngine::TextureFormat const RG16;
-
-  /// @brief Field R8 value: static_cast<int32_t>(0x3f)
-  static ::UnityEngine::TextureFormat const R8;
-
-  /// @brief Field ETC_RGB4Crunched value: static_cast<int32_t>(0x40)
-  static ::UnityEngine::TextureFormat const ETC_RGB4Crunched;
-
-  /// @brief Field ETC2_RGBA8Crunched value: static_cast<int32_t>(0x41)
-  static ::UnityEngine::TextureFormat const ETC2_RGBA8Crunched;
+  /// @brief Field ASTC_HDR_12x12 value: static_cast<int32_t>(0x47)
+  static ::UnityEngine::TextureFormat const ASTC_HDR_12x12;
 
   /// @brief Field ASTC_HDR_4x4 value: static_cast<int32_t>(0x42)
   static ::UnityEngine::TextureFormat const ASTC_HDR_4x4;
@@ -274,38 +157,11 @@ public:
   /// @brief Field ASTC_HDR_8x8 value: static_cast<int32_t>(0x45)
   static ::UnityEngine::TextureFormat const ASTC_HDR_8x8;
 
-  /// @brief Field ASTC_HDR_10x10 value: static_cast<int32_t>(0x46)
-  static ::UnityEngine::TextureFormat const ASTC_HDR_10x10;
+  /// @brief Field ASTC_RGBA_10x10 value: static_cast<int32_t>(0x3a)
+  static ::UnityEngine::TextureFormat const ASTC_RGBA_10x10;
 
-  /// @brief Field ASTC_HDR_12x12 value: static_cast<int32_t>(0x47)
-  static ::UnityEngine::TextureFormat const ASTC_HDR_12x12;
-
-  /// @brief Field RG32 value: static_cast<int32_t>(0x48)
-  static ::UnityEngine::TextureFormat const RG32;
-
-  /// @brief Field RGB48 value: static_cast<int32_t>(0x49)
-  static ::UnityEngine::TextureFormat const RGB48;
-
-  /// @brief Field RGBA64 value: static_cast<int32_t>(0x4a)
-  static ::UnityEngine::TextureFormat const RGBA64;
-
-  /// @brief Field ASTC_RGB_4x4 value: static_cast<int32_t>(0x30)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_4x4;
-
-  /// @brief Field ASTC_RGB_5x5 value: static_cast<int32_t>(0x31)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_5x5;
-
-  /// @brief Field ASTC_RGB_6x6 value: static_cast<int32_t>(0x32)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_6x6;
-
-  /// @brief Field ASTC_RGB_8x8 value: static_cast<int32_t>(0x33)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_8x8;
-
-  /// @brief Field ASTC_RGB_10x10 value: static_cast<int32_t>(0x34)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_10x10;
-
-  /// @brief Field ASTC_RGB_12x12 value: static_cast<int32_t>(0x35)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_12x12;
+  /// @brief Field ASTC_RGBA_12x12 value: static_cast<int32_t>(0x3b)
+  static ::UnityEngine::TextureFormat const ASTC_RGBA_12x12;
 
   /// @brief Field ASTC_RGBA_4x4 value: static_cast<int32_t>(0x36)
   static ::UnityEngine::TextureFormat const ASTC_RGBA_4x4;
@@ -319,11 +175,158 @@ public:
   /// @brief Field ASTC_RGBA_8x8 value: static_cast<int32_t>(0x39)
   static ::UnityEngine::TextureFormat const ASTC_RGBA_8x8;
 
-  /// @brief Field ASTC_RGBA_10x10 value: static_cast<int32_t>(0x3a)
-  static ::UnityEngine::TextureFormat const ASTC_RGBA_10x10;
+  /// @brief Field ASTC_RGB_10x10 value: static_cast<int32_t>(0x34)
+  static ::UnityEngine::TextureFormat const ASTC_RGB_10x10;
 
-  /// @brief Field ASTC_RGBA_12x12 value: static_cast<int32_t>(0x3b)
-  static ::UnityEngine::TextureFormat const ASTC_RGBA_12x12;
+  /// @brief Field ASTC_RGB_12x12 value: static_cast<int32_t>(0x35)
+  static ::UnityEngine::TextureFormat const ASTC_RGB_12x12;
+
+  /// @brief Field ASTC_RGB_4x4 value: static_cast<int32_t>(0x30)
+  static ::UnityEngine::TextureFormat const ASTC_RGB_4x4;
+
+  /// @brief Field ASTC_RGB_5x5 value: static_cast<int32_t>(0x31)
+  static ::UnityEngine::TextureFormat const ASTC_RGB_5x5;
+
+  /// @brief Field ASTC_RGB_6x6 value: static_cast<int32_t>(0x32)
+  static ::UnityEngine::TextureFormat const ASTC_RGB_6x6;
+
+  /// @brief Field ASTC_RGB_8x8 value: static_cast<int32_t>(0x33)
+  static ::UnityEngine::TextureFormat const ASTC_RGB_8x8;
+
+  /// @brief Field Alpha8 value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::TextureFormat const Alpha8;
+
+  /// @brief Field BC4 value: static_cast<int32_t>(0x1a)
+  static ::UnityEngine::TextureFormat const BC4;
+
+  /// @brief Field BC5 value: static_cast<int32_t>(0x1b)
+  static ::UnityEngine::TextureFormat const BC5;
+
+  /// @brief Field BC6H value: static_cast<int32_t>(0x18)
+  static ::UnityEngine::TextureFormat const BC6H;
+
+  /// @brief Field BC7 value: static_cast<int32_t>(0x19)
+  static ::UnityEngine::TextureFormat const BC7;
+
+  /// @brief Field BGRA32 value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::TextureFormat const BGRA32;
+
+  /// @brief Field DXT1 value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::TextureFormat const DXT1;
+
+  /// @brief Field DXT1Crunched value: static_cast<int32_t>(0x1c)
+  static ::UnityEngine::TextureFormat const DXT1Crunched;
+
+  /// @brief Field DXT5 value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::TextureFormat const DXT5;
+
+  /// @brief Field DXT5Crunched value: static_cast<int32_t>(0x1d)
+  static ::UnityEngine::TextureFormat const DXT5Crunched;
+
+  /// @brief Field EAC_R value: static_cast<int32_t>(0x29)
+  static ::UnityEngine::TextureFormat const EAC_R;
+
+  /// @brief Field EAC_RG value: static_cast<int32_t>(0x2b)
+  static ::UnityEngine::TextureFormat const EAC_RG;
+
+  /// @brief Field EAC_RG_SIGNED value: static_cast<int32_t>(0x2c)
+  static ::UnityEngine::TextureFormat const EAC_RG_SIGNED;
+
+  /// @brief Field EAC_R_SIGNED value: static_cast<int32_t>(0x2a)
+  static ::UnityEngine::TextureFormat const EAC_R_SIGNED;
+
+  /// @brief Field ETC2_RGB value: static_cast<int32_t>(0x2d)
+  static ::UnityEngine::TextureFormat const ETC2_RGB;
+
+  /// @brief Field ETC2_RGBA1 value: static_cast<int32_t>(0x2e)
+  static ::UnityEngine::TextureFormat const ETC2_RGBA1;
+
+  /// @brief Field ETC2_RGBA8 value: static_cast<int32_t>(0x2f)
+  static ::UnityEngine::TextureFormat const ETC2_RGBA8;
+
+  /// @brief Field ETC2_RGBA8Crunched value: static_cast<int32_t>(0x41)
+  static ::UnityEngine::TextureFormat const ETC2_RGBA8Crunched;
+
+  /// @brief Field ETC_RGB4 value: static_cast<int32_t>(0x22)
+  static ::UnityEngine::TextureFormat const ETC_RGB4;
+
+  /// @brief Field ETC_RGB4Crunched value: static_cast<int32_t>(0x40)
+  static ::UnityEngine::TextureFormat const ETC_RGB4Crunched;
+
+  /// @brief Field ETC_RGB4_3DS value: static_cast<int32_t>(0x3c)
+  static ::UnityEngine::TextureFormat const ETC_RGB4_3DS;
+
+  /// @brief Field ETC_RGBA8_3DS value: static_cast<int32_t>(0x3d)
+  static ::UnityEngine::TextureFormat const ETC_RGBA8_3DS;
+
+  /// @brief Field PVRTC_RGB2 value: static_cast<int32_t>(0x1e)
+  static ::UnityEngine::TextureFormat const PVRTC_RGB2;
+
+  /// @brief Field PVRTC_RGB4 value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::TextureFormat const PVRTC_RGB4;
+
+  /// @brief Field PVRTC_RGBA2 value: static_cast<int32_t>(0x1f)
+  static ::UnityEngine::TextureFormat const PVRTC_RGBA2;
+
+  /// @brief Field PVRTC_RGBA4 value: static_cast<int32_t>(0x21)
+  static ::UnityEngine::TextureFormat const PVRTC_RGBA4;
+
+  /// @brief Field R16 value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::TextureFormat const R16;
+
+  /// @brief Field R8 value: static_cast<int32_t>(0x3f)
+  static ::UnityEngine::TextureFormat const R8;
+
+  /// @brief Field RFloat value: static_cast<int32_t>(0x12)
+  static ::UnityEngine::TextureFormat const RFloat;
+
+  /// @brief Field RG16 value: static_cast<int32_t>(0x3e)
+  static ::UnityEngine::TextureFormat const RG16;
+
+  /// @brief Field RG32 value: static_cast<int32_t>(0x48)
+  static ::UnityEngine::TextureFormat const RG32;
+
+  /// @brief Field RGB24 value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::TextureFormat const RGB24;
+
+  /// @brief Field RGB48 value: static_cast<int32_t>(0x49)
+  static ::UnityEngine::TextureFormat const RGB48;
+
+  /// @brief Field RGB565 value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::TextureFormat const RGB565;
+
+  /// @brief Field RGB9e5Float value: static_cast<int32_t>(0x16)
+  static ::UnityEngine::TextureFormat const RGB9e5Float;
+
+  /// @brief Field RGBA32 value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::TextureFormat const RGBA32;
+
+  /// @brief Field RGBA4444 value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::TextureFormat const RGBA4444;
+
+  /// @brief Field RGBA64 value: static_cast<int32_t>(0x4a)
+  static ::UnityEngine::TextureFormat const RGBA64;
+
+  /// @brief Field RGBAFloat value: static_cast<int32_t>(0x14)
+  static ::UnityEngine::TextureFormat const RGBAFloat;
+
+  /// @brief Field RGBAHalf value: static_cast<int32_t>(0x11)
+  static ::UnityEngine::TextureFormat const RGBAHalf;
+
+  /// @brief Field RGFloat value: static_cast<int32_t>(0x13)
+  static ::UnityEngine::TextureFormat const RGFloat;
+
+  /// @brief Field RGHalf value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::TextureFormat const RGHalf;
+
+  /// @brief Field RHalf value: static_cast<int32_t>(0xf)
+  static ::UnityEngine::TextureFormat const RHalf;
+
+  /// @brief Field YUY2 value: static_cast<int32_t>(0x15)
+  static ::UnityEngine::TextureFormat const YUY2;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

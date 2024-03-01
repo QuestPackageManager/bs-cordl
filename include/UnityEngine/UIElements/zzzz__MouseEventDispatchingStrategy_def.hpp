@@ -30,8 +30,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseEventDispatchingStrategy);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6496))
 // CS Name: ::UnityEngine.UIElements::MouseEventDispatchingStrategy*
 class CORDL_TYPE MouseEventDispatchingStrategy : public ::System::Object {
 public:
@@ -39,39 +37,45 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
-  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
-
-  /// @brief Method CanDispatchEvent, addr 0x2e6d670, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x2f5fd98, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x2e6d6c4, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x2f5fdec, size 0x108, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* iPanel);
 
-  /// @brief Method SendEventToTarget, addr 0x2e6d86c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool SendEventToTarget(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
-
-  /// @brief Method SendEventToRegularTarget, addr 0x2e6d8a8, size 0x38, virtual false, abstract: false, final false
-  static inline bool SendEventToRegularTarget(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
-
-  /// @brief Method SendEventToIMGUIContainer, addr 0x2e6d8e0, size 0x1d8, virtual false, abstract: false, final false
-  static inline bool SendEventToIMGUIContainer(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
-
-  /// @brief Method SetBestTargetForEvent, addr 0x2e6d7cc, size 0xa0, virtual false, abstract: false, final false
-  static inline void SetBestTargetForEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
-
-  /// @brief Method UpdateElementUnderMouse, addr 0x2e6db00, size 0x2fc, virtual false, abstract: false, final false
-  static inline void UpdateElementUnderMouse(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
-                                             ByRef<::UnityEngine::UIElements::VisualElement*> elementUnderMouse);
-
-  /// @brief Method IsDone, addr 0x2e6dab8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsDone, addr 0x2f601e0, size 0x48, virtual false, abstract: false, final false
   static inline bool IsDone(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::MouseEventDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6ddfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SendEventToIMGUIContainer, addr 0x2f60008, size 0x1d8, virtual false, abstract: false, final false
+  static inline bool SendEventToIMGUIContainer(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
+  /// @brief Method SendEventToRegularTarget, addr 0x2f5ffd0, size 0x38, virtual false, abstract: false, final false
+  static inline bool SendEventToRegularTarget(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
+  /// @brief Method SendEventToTarget, addr 0x2f5ff94, size 0x3c, virtual false, abstract: false, final false
+  static inline bool SendEventToTarget(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
+  /// @brief Method SetBestTargetForEvent, addr 0x2f5fef4, size 0xa0, virtual false, abstract: false, final false
+  static inline void SetBestTargetForEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
+  /// @brief Method UpdateElementUnderMouse, addr 0x2f60228, size 0x2fc, virtual false, abstract: false, final false
+  static inline void UpdateElementUnderMouse(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::BaseVisualElementPanel* panel,
+                                             ByRef<::UnityEngine::UIElements::VisualElement*> elementUnderMouse);
+
+  /// @brief Method .ctor, addr 0x2f60524, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
+  constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseEventDispatchingStrategy();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseEventDispatchingStrategy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseEventDispatchingStrategy(MouseEventDispatchingStrategy&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MouseEventDispatchingStrategy(MouseEventDispatchingStrategy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseEventDispatchingStrategy();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

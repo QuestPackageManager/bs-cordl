@@ -14,20 +14,24 @@ MARK_REF_PTR_T(::System::Runtime::ConstrainedExecution::CriticalFinalizerObject)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3351))
 // CS Name: ::System.Runtime.ConstrainedExecution::CriticalFinalizerObject*
 class CORDL_TYPE CriticalFinalizerObject : public ::System::Object {
 public:
   // Declarations
-  static inline ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24f833c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Finalize, addr 0x24fac44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x25cb480, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
+  static inline ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject* New_ctor();
+
+  /// @brief Method .ctor, addr 0x25c8418, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CriticalFinalizerObject();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CriticalFinalizerObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CriticalFinalizerObject(CriticalFinalizerObject&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CriticalFinalizerObject(CriticalFinalizerObject const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CriticalFinalizerObject();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

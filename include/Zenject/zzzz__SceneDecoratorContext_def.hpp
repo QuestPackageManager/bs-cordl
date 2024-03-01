@@ -39,133 +39,137 @@ MARK_REF_PTR_T(::Zenject::SceneDecoratorContext);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10261))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10269))
 // CS Name: ::Zenject::SceneDecoratorContext*
 class CORDL_TYPE SceneDecoratorContext : public ::Zenject::Context {
 public:
   // Declarations
-  /// @brief Field _lateInstallers, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__lateInstallers,
-                      put = __cordl_internal_set__lateInstallers))::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* _lateInstallers;
+  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
+
+  __declspec(property(get = get_DecoratedContractName))::StringW DecoratedContractName;
+
+  __declspec(property(get = get_LateInstallerPrefabs, put = set_LateInstallerPrefabs))::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* LateInstallerPrefabs;
+
+  __declspec(property(get = get_LateInstallers, put = set_LateInstallers))::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* LateInstallers;
+
+  __declspec(property(get = get_LateScriptableObjectInstallers,
+                      put = set_LateScriptableObjectInstallers))::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* LateScriptableObjectInstallers;
+
+  /// @brief Field _container, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+
+  /// @brief Field _decoratedContractName, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__decoratedContractName, put = __cordl_internal_set__decoratedContractName))::StringW _decoratedContractName;
+
+  /// @brief Field _injectableMonoBehaviours, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__injectableMonoBehaviours,
+                      put = __cordl_internal_set__injectableMonoBehaviours))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* _injectableMonoBehaviours;
 
   /// @brief Field _lateInstallerPrefabs, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__lateInstallerPrefabs,
                       put = __cordl_internal_set__lateInstallerPrefabs))::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* _lateInstallerPrefabs;
+
+  /// @brief Field _lateInstallers, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__lateInstallers,
+                      put = __cordl_internal_set__lateInstallers))::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* _lateInstallers;
 
   /// @brief Field _lateScriptableObjectInstallers, offset 0x50, size 0x8
   __declspec(
       property(get = __cordl_internal_get__lateScriptableObjectInstallers,
                put = __cordl_internal_set__lateScriptableObjectInstallers))::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* _lateScriptableObjectInstallers;
 
-  /// @brief Field _decoratedContractName, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__decoratedContractName, put = __cordl_internal_set__decoratedContractName))::StringW _decoratedContractName;
+  /// @brief Method GetInjectableMonoBehaviours, addr 0x3003e9c, size 0x4c, virtual true, abstract: false, final false
+  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
-  /// @brief Field _container, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  /// @brief Method GetRootGameObjects, addr 0x3003e74, size 0x28, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
-  /// @brief Field _injectableMonoBehaviours, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__injectableMonoBehaviours,
-                      put = __cordl_internal_set__injectableMonoBehaviours))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* _injectableMonoBehaviours;
+  /// @brief Method Initialize, addr 0x300254c, size 0x1b4, virtual false, abstract: false, final false
+  inline void Initialize(::Zenject::DiContainer* container);
 
-  __declspec(property(get = get_LateInstallers, put = set_LateInstallers))::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* LateInstallers;
+  /// @brief Method InstallDecoratorInstallers, addr 0x3002e84, size 0xc, virtual false, abstract: false, final false
+  inline void InstallDecoratorInstallers();
 
-  __declspec(property(get = get_LateInstallerPrefabs, put = set_LateInstallerPrefabs))::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* LateInstallerPrefabs;
+  /// @brief Method InstallDecoratorSceneBindings, addr 0x3002e04, size 0x80, virtual false, abstract: false, final false
+  inline void InstallDecoratorSceneBindings();
 
-  __declspec(property(get = get_LateScriptableObjectInstallers,
-                      put = set_LateScriptableObjectInstallers))::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* LateScriptableObjectInstallers;
+  /// @brief Method InstallLateDecoratorInstallers, addr 0x3002e90, size 0xc4, virtual false, abstract: false, final false
+  inline void InstallLateDecoratorInstallers();
 
-  __declspec(property(get = get_DecoratedContractName))::StringW DecoratedContractName;
+  static inline ::Zenject::SceneDecoratorContext* New_ctor();
 
-  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*& __cordl_internal_get__lateInstallers();
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*> const& __cordl_internal_get__lateInstallers() const;
+  constexpr ::StringW const& __cordl_internal_get__decoratedContractName() const;
 
-  constexpr void __cordl_internal_set__lateInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* value);
+  constexpr ::StringW& __cordl_internal_get__decoratedContractName();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*& __cordl_internal_get__injectableMonoBehaviours();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*> const& __cordl_internal_get__injectableMonoBehaviours() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*& __cordl_internal_get__lateInstallerPrefabs();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*> const& __cordl_internal_get__lateInstallerPrefabs() const;
 
-  constexpr void __cordl_internal_set__lateInstallerPrefabs(::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* value);
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*& __cordl_internal_get__lateInstallers();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*> const& __cordl_internal_get__lateInstallers() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*& __cordl_internal_get__lateScriptableObjectInstallers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*> const&
   __cordl_internal_get__lateScriptableObjectInstallers() const;
 
-  constexpr void __cordl_internal_set__lateScriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
-
-  constexpr ::StringW& __cordl_internal_get__decoratedContractName();
-
-  constexpr ::StringW const& __cordl_internal_get__decoratedContractName() const;
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
   constexpr void __cordl_internal_set__decoratedContractName(::StringW value);
 
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
-
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
-
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*& __cordl_internal_get__injectableMonoBehaviours();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*> const& __cordl_internal_get__injectableMonoBehaviours() const;
-
   constexpr void __cordl_internal_set__injectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* value);
 
-  /// @brief Method get_LateInstallers, addr 0x2f1055c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* get_LateInstallers();
+  constexpr void __cordl_internal_set__lateInstallerPrefabs(::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
-  /// @brief Method set_LateInstallers, addr 0x2f10564, size 0x90, virtual false, abstract: false, final false
-  inline void set_LateInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
+  constexpr void __cordl_internal_set__lateInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
-  /// @brief Method get_LateInstallerPrefabs, addr 0x2f105f4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* get_LateInstallerPrefabs();
+  constexpr void __cordl_internal_set__lateScriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
-  /// @brief Method set_LateInstallerPrefabs, addr 0x2f105fc, size 0x90, virtual false, abstract: false, final false
-  inline void set_LateInstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
-
-  /// @brief Method get_LateScriptableObjectInstallers, addr 0x2f1068c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* get_LateScriptableObjectInstallers();
-
-  /// @brief Method set_LateScriptableObjectInstallers, addr 0x2f10694, size 0x90, virtual false, abstract: false, final false
-  inline void set_LateScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
-
-  /// @brief Method get_DecoratedContractName, addr 0x2f10724, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_DecoratedContractName();
-
-  /// @brief Method get_Container, addr 0x2f1072c, size 0x20, virtual true, abstract: false, final false
-  inline ::Zenject::DiContainer* get_Container();
-
-  /// @brief Method GetRootGameObjects, addr 0x2f1074c, size 0x28, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
-
-  /// @brief Method Initialize, addr 0x2f0ee24, size 0x1b4, virtual false, abstract: false, final false
-  inline void Initialize(::Zenject::DiContainer* container);
-
-  /// @brief Method InstallDecoratorSceneBindings, addr 0x2f0f6dc, size 0x80, virtual false, abstract: false, final false
-  inline void InstallDecoratorSceneBindings();
-
-  /// @brief Method InstallDecoratorInstallers, addr 0x2f0f75c, size 0xc, virtual false, abstract: false, final false
-  inline void InstallDecoratorInstallers();
-
-  /// @brief Method GetInjectableMonoBehaviours, addr 0x2f10774, size 0x4c, virtual true, abstract: false, final false
-  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
-
-  /// @brief Method InstallLateDecoratorInstallers, addr 0x2f0f768, size 0xc4, virtual false, abstract: false, final false
-  inline void InstallLateDecoratorInstallers();
-
-  static inline ::Zenject::SceneDecoratorContext* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f107c0, size 0x124, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f108e4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x300400c, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x3003ee8, size 0x124, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_Container, addr 0x3003e54, size 0x20, virtual true, abstract: false, final false
+  inline ::Zenject::DiContainer* get_Container();
+
+  /// @brief Method get_DecoratedContractName, addr 0x3003e4c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_DecoratedContractName();
+
+  /// @brief Method get_LateInstallerPrefabs, addr 0x3003d1c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* get_LateInstallerPrefabs();
+
+  /// @brief Method get_LateInstallers, addr 0x3003c84, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* get_LateInstallers();
+
+  /// @brief Method get_LateScriptableObjectInstallers, addr 0x3003db4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* get_LateScriptableObjectInstallers();
+
+  /// @brief Method set_LateInstallerPrefabs, addr 0x3003d24, size 0x90, virtual false, abstract: false, final false
+  inline void set_LateInstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
+
+  /// @brief Method set_LateInstallers, addr 0x3003c8c, size 0x90, virtual false, abstract: false, final false
+  inline void set_LateInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
+
+  /// @brief Method set_LateScriptableObjectInstallers, addr 0x3003dbc, size 0x90, virtual false, abstract: false, final false
+  inline void set_LateScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SceneDecoratorContext();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SceneDecoratorContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneDecoratorContext(SceneDecoratorContext&&) = delete;
@@ -174,12 +178,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SceneDecoratorContext(SceneDecoratorContext const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SceneDecoratorContext();
-
-public:
   /// @brief Field _lateInstallers, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* ____lateInstallers;
 

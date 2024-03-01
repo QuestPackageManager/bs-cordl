@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::NetworkInterfaceFactory* (*)()>(
     &::System::Net::NetworkInformation::NetworkInterfaceFactoryPal::Create)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x29f4d38;
+  constexpr static std::size_t addrs = 0x2adce0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextStyleSheet);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13685))
 // CS Name: ::UnityEngine.TextCore.Text::TextStyleSheet*
 class CORDL_TYPE TextStyleSheet : public ::UnityEngine::ScriptableObject {
 public:
@@ -40,39 +38,45 @@ public:
 
   __declspec(property(get = get_styles))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* styles;
 
+  /// @brief Method GetStyle, addr 0x2e573a0, size 0x88, virtual false, abstract: false, final false
+  inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(int32_t hashCode);
+
+  /// @brief Method GetStyle, addr 0x2e575ec, size 0x98, virtual false, abstract: false, final false
+  inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(::StringW name);
+
+  /// @brief Method LoadStyleDictionaryInternal, addr 0x2e57428, size 0x1c4, virtual false, abstract: false, final false
+  inline void LoadStyleDictionaryInternal();
+
+  static inline ::UnityEngine::TextCore::Text::TextStyleSheet* New_ctor();
+
+  /// @brief Method RefreshStyles, addr 0x2e57684, size 0x4, virtual false, abstract: false, final false
+  inline void RefreshStyles();
+
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>*& __cordl_internal_get_m_StyleList();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>*> const& __cordl_internal_get_m_StyleList() const;
-
-  constexpr void __cordl_internal_set_m_StyleList(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>*& __cordl_internal_get_m_StyleLookupDictionary();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>*> const&
   __cordl_internal_get_m_StyleLookupDictionary() const;
 
+  constexpr void __cordl_internal_set_m_StyleList(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* value);
+
   constexpr void __cordl_internal_set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>* value);
 
-  /// @brief Method get_styles, addr 0x2d6ac70, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* get_styles();
-
-  /// @brief Method GetStyle, addr 0x2d6ac78, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(int32_t hashCode);
-
-  /// @brief Method GetStyle, addr 0x2d6aec4, size 0x98, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::TextStyle* GetStyle(::StringW name);
-
-  /// @brief Method RefreshStyles, addr 0x2d6af5c, size 0x4, virtual false, abstract: false, final false
-  inline void RefreshStyles();
-
-  /// @brief Method LoadStyleDictionaryInternal, addr 0x2d6ad00, size 0x1c4, virtual false, abstract: false, final false
-  inline void LoadStyleDictionaryInternal();
-
-  static inline ::UnityEngine::TextCore::Text::TextStyleSheet* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2d6af60, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e57688, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_styles, addr 0x2e57398, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* get_styles();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextStyleSheet();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextStyleSheet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextStyleSheet(TextStyleSheet&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextStyleSheet(TextStyleSheet const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextStyleSheet();
-
-public:
   /// @brief Field m_StyleList, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* ___m_StyleList;
 

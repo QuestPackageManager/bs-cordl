@@ -16,22 +16,20 @@ MARK_VAL_T(::System::Net::NetworkInformation::sockaddr_ll);
 // SizeInfo { instance_size: 24, native_size: 20, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7285))
 // CS Name: ::System.Net.NetworkInformation::sockaddr_ll
 struct CORDL_TYPE sockaddr_ll {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr sockaddr_ll();
+
   // Ctor Parameters [CppParam { name: "sll_family", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sll_protocol", ty: "uint16_t", modifiers: "", def_value: None }, CppParam {
   // name: "sll_ifindex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sll_hatype", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sll_pkttype", ty:
   // "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sll_halen", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sll_addr", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>",
   // modifiers: "", def_value: None }]
   constexpr sockaddr_ll(uint16_t sll_family, uint16_t sll_protocol, int32_t sll_ifindex, uint16_t sll_hatype, uint8_t sll_pkttype, uint8_t sll_halen,
                         ::ArrayW<uint8_t, ::Array<uint8_t>*> sll_addr) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr sockaddr_ll();
 
   /// @brief Field sll_family, offset: 0x0, size: 0x2, def value: None
   uint16_t sll_family;

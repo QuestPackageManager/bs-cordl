@@ -31,64 +31,68 @@ MARK_REF_PTR_T(::System::Reflection::MethodInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3473))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3475))
 // CS Name: ::System.Reflection::MethodInfo*
 class CORDL_TYPE MethodInfo : public ::System::Reflection::MethodBase {
 public:
   // Declarations
+  __declspec(property(get = get_GenericParameterCount)) int32_t GenericParameterCount;
+
   __declspec(property(get = get_MemberType))::System::Reflection::MemberTypes MemberType;
 
   __declspec(property(get = get_ReturnParameter))::System::Reflection::ParameterInfo* ReturnParameter;
 
   __declspec(property(get = get_ReturnType))::System::Type* ReturnType;
 
-  __declspec(property(get = get_GenericParameterCount)) int32_t GenericParameterCount;
+  /// @brief Method CreateDelegate, addr 0x25d9798, size 0x50, virtual true, abstract: false, final false
+  inline ::System::Delegate* CreateDelegate(::System::Type* delegateType, ::System::Object* target);
 
-  static inline ::System::Reflection::MethodInfo* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2507a34, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_MemberType, addr 0x2507a3c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Reflection::MemberTypes get_MemberType();
-
-  /// @brief Method get_ReturnParameter, addr 0x2507a44, size 0x28, virtual true, abstract: false, final false
-  inline ::System::Reflection::ParameterInfo* get_ReturnParameter();
-
-  /// @brief Method get_ReturnType, addr 0x2507a6c, size 0x28, virtual true, abstract: false, final false
-  inline ::System::Type* get_ReturnType();
-
-  /// @brief Method GetGenericArguments, addr 0x2507a94, size 0x50, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetGenericArguments();
-
-  /// @brief Method GetGenericMethodDefinition, addr 0x2507ae4, size 0x50, virtual true, abstract: false, final false
-  inline ::System::Reflection::MethodInfo* GetGenericMethodDefinition();
-
-  /// @brief Method MakeGenericMethod, addr 0x2507b34, size 0x50, virtual true, abstract: false, final false
-  inline ::System::Reflection::MethodInfo* MakeGenericMethod(::ArrayW<::System::Type*, ::Array<::System::Type*>*> typeArguments);
+  /// @brief Method Equals, addr 0x25d97e8, size 0x8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
   /// @brief Method GetBaseDefinition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodInfo* GetBaseDefinition();
 
-  /// @brief Method CreateDelegate, addr 0x2507b84, size 0x50, virtual true, abstract: false, final false
-  inline ::System::Delegate* CreateDelegate(::System::Type* delegateType, ::System::Object* target);
+  /// @brief Method GetGenericArguments, addr 0x25d96a8, size 0x50, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetGenericArguments();
 
-  /// @brief Method Equals, addr 0x2507bd4, size 0x8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  /// @brief Method GetGenericMethodDefinition, addr 0x25d96f8, size 0x50, virtual true, abstract: false, final false
+  inline ::System::Reflection::MethodInfo* GetGenericMethodDefinition();
 
-  /// @brief Method GetHashCode, addr 0x2507bdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25d97f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality, addr 0x2507390, size 0x2c, virtual false, abstract: false, final false
-  static inline bool op_Equality(::System::Reflection::MethodInfo* left, ::System::Reflection::MethodInfo* right);
+  /// @brief Method MakeGenericMethod, addr 0x25d9748, size 0x50, virtual true, abstract: false, final false
+  inline ::System::Reflection::MethodInfo* MakeGenericMethod(::ArrayW<::System::Type*, ::Array<::System::Type*>*> typeArguments);
 
-  /// @brief Method op_Inequality, addr 0x2507354, size 0x3c, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::System::Reflection::MethodInfo* left, ::System::Reflection::MethodInfo* right);
+  static inline ::System::Reflection::MethodInfo* New_ctor();
 
-  /// @brief Method get_GenericParameterCount, addr 0x2507be4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d9648, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_GenericParameterCount, addr 0x25d97f8, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_GenericParameterCount();
 
+  /// @brief Method get_MemberType, addr 0x25d9650, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Reflection::MemberTypes get_MemberType();
+
+  /// @brief Method get_ReturnParameter, addr 0x25d9658, size 0x28, virtual true, abstract: false, final false
+  inline ::System::Reflection::ParameterInfo* get_ReturnParameter();
+
+  /// @brief Method get_ReturnType, addr 0x25d9680, size 0x28, virtual true, abstract: false, final false
+  inline ::System::Type* get_ReturnType();
+
+  /// @brief Method op_Equality, addr 0x25d8fa4, size 0x2c, virtual false, abstract: false, final false
+  static inline bool op_Equality(::System::Reflection::MethodInfo* left, ::System::Reflection::MethodInfo* right);
+
+  /// @brief Method op_Inequality, addr 0x25d8f68, size 0x3c, virtual false, abstract: false, final false
+  static inline bool op_Inequality(::System::Reflection::MethodInfo* left, ::System::Reflection::MethodInfo* right);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MethodInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MethodInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MethodInfo(MethodInfo&&) = delete;
@@ -97,12 +101,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MethodInfo(MethodInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MethodInfo();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

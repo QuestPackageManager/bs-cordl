@@ -41,14 +41,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(60))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::AuthEnvelopedData*
 class CORDL_TYPE AuthEnvelopedData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = get_AuthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* AuthAttrs;
+
+  __declspec(property(get = get_AuthEncryptedContentInfo))::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* AuthEncryptedContentInfo;
+
+  __declspec(property(get = get_Mac))::Org::BouncyCastle::Asn1::Asn1OctetString* Mac;
+
+  __declspec(property(get = get_OriginatorInfo))::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* OriginatorInfo;
+
+  __declspec(property(get = get_RecipientInfos))::Org::BouncyCastle::Asn1::Asn1Set* RecipientInfos;
+
+  __declspec(property(get = get_UnauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* UnauthAttrs;
+
+  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
+
+  /// @brief Field authAttrs, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_authAttrs, put = __cordl_internal_set_authAttrs))::Org::BouncyCastle::Asn1::Asn1Set* authAttrs;
+
+  /// @brief Field authEncryptedContentInfo, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_authEncryptedContentInfo,
+                      put = __cordl_internal_set_authEncryptedContentInfo))::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* authEncryptedContentInfo;
+
+  /// @brief Field mac, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::Org::BouncyCastle::Asn1::Asn1OctetString* mac;
 
   /// @brief Field originatorInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_originatorInfo, put = __cordl_internal_set_originatorInfo))::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo;
@@ -56,120 +75,105 @@ public:
   /// @brief Field recipientInfos, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_recipientInfos, put = __cordl_internal_set_recipientInfos))::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos;
 
-  /// @brief Field authEncryptedContentInfo, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_authEncryptedContentInfo,
-                      put = __cordl_internal_set_authEncryptedContentInfo))::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* authEncryptedContentInfo;
-
-  /// @brief Field authAttrs, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_authAttrs, put = __cordl_internal_set_authAttrs))::Org::BouncyCastle::Asn1::Asn1Set* authAttrs;
-
-  /// @brief Field mac, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::Org::BouncyCastle::Asn1::Asn1OctetString* mac;
-
   /// @brief Field unauthAttrs, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_unauthAttrs, put = __cordl_internal_set_unauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
 
-  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
+  /// @brief Field version, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  __declspec(property(get = get_OriginatorInfo))::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* OriginatorInfo;
+  /// @brief Method GetInstance, addr 0xee6244, size 0x18, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedData* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  __declspec(property(get = get_RecipientInfos))::Org::BouncyCastle::Asn1::Asn1Set* RecipientInfos;
-
-  __declspec(property(get = get_AuthEncryptedContentInfo))::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* AuthEncryptedContentInfo;
-
-  __declspec(property(get = get_AuthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* AuthAttrs;
-
-  __declspec(property(get = get_Mac))::Org::BouncyCastle::Asn1::Asn1OctetString* Mac;
-
-  __declspec(property(get = get_UnauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* UnauthAttrs;
-
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
-
-  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __cordl_internal_get_originatorInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*> const& __cordl_internal_get_originatorInfo() const;
-
-  constexpr void __cordl_internal_set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_recipientInfos();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_recipientInfos() const;
-
-  constexpr void __cordl_internal_set_recipientInfos(::Org::BouncyCastle::Asn1::Asn1Set* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo*& __cordl_internal_get_authEncryptedContentInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo*> const& __cordl_internal_get_authEncryptedContentInfo() const;
-
-  constexpr void __cordl_internal_set_authEncryptedContentInfo(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_authAttrs();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_authAttrs() const;
-
-  constexpr void __cordl_internal_set_authAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_mac();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_mac() const;
-
-  constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
-
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_unauthAttrs();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_unauthAttrs() const;
-
-  constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  /// @brief Method GetInstance, addr 0xee625c, size 0x178, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo, ::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
                                                                             ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* authEncryptedContentInfo,
                                                                             ::Org::BouncyCastle::Asn1::Asn1Set* authAttrs, ::Org::BouncyCastle::Asn1::Asn1OctetString* mac,
                                                                             ::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs);
 
-  /// @brief Method .ctor, addr 0xe9ed68, size 0xac, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xee640c, size 0x1cc, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_authAttrs();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_authAttrs() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo*& __cordl_internal_get_authEncryptedContentInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo*> const& __cordl_internal_get_authEncryptedContentInfo() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_mac();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_mac() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __cordl_internal_get_originatorInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*> const& __cordl_internal_get_originatorInfo() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_recipientInfos();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_recipientInfos() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_unauthAttrs();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_unauthAttrs() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
+
+  constexpr void __cordl_internal_set_authAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
+
+  constexpr void __cordl_internal_set_authEncryptedContentInfo(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* value);
+
+  constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+
+  constexpr void __cordl_internal_set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
+
+  constexpr void __cordl_internal_set_recipientInfos(::Org::BouncyCastle::Asn1::Asn1Set* value);
+
+  constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
+
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+
+  /// @brief Method .ctor, addr 0xee5d38, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo, ::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
                     ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* authEncryptedContentInfo, ::Org::BouncyCastle::Asn1::Asn1Set* authAttrs, ::Org::BouncyCastle::Asn1::Asn1OctetString* mac,
                     ::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs);
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xe9ee14, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xee5de4, size 0x2e8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0xe9f274, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedData* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
-
-  /// @brief Method GetInstance, addr 0xe9f28c, size 0x178, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::AuthEnvelopedData* GetInstance(::System::Object* obj);
-
-  /// @brief Method get_Version, addr 0xe9f404, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
-
-  /// @brief Method get_OriginatorInfo, addr 0xe9f40c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* get_OriginatorInfo();
-
-  /// @brief Method get_RecipientInfos, addr 0xe9f414, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Set* get_RecipientInfos();
-
-  /// @brief Method get_AuthEncryptedContentInfo, addr 0xe9f41c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* get_AuthEncryptedContentInfo();
-
-  /// @brief Method get_AuthAttrs, addr 0xe9f424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthAttrs, addr 0xee63f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_AuthAttrs();
 
-  /// @brief Method get_Mac, addr 0xe9f42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AuthEncryptedContentInfo, addr 0xee63ec, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* get_AuthEncryptedContentInfo();
+
+  /// @brief Method get_Mac, addr 0xee63fc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Mac();
 
-  /// @brief Method get_UnauthAttrs, addr 0xe9f434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginatorInfo, addr 0xee63dc, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* get_OriginatorInfo();
+
+  /// @brief Method get_RecipientInfos, addr 0xee63e4, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Set* get_RecipientInfos();
+
+  /// @brief Method get_UnauthAttrs, addr 0xee6404, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_UnauthAttrs();
 
-  /// @brief Method ToAsn1Object, addr 0xe9f43c, size 0x1cc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_Version, addr 0xee63d4, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AuthEnvelopedData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AuthEnvelopedData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AuthEnvelopedData(AuthEnvelopedData&&) = delete;
@@ -178,12 +182,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AuthEnvelopedData(AuthEnvelopedData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AuthEnvelopedData();
-
-public:
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___version;
 

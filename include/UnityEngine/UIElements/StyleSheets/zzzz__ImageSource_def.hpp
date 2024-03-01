@@ -26,24 +26,22 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ImageSource);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6722))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::ImageSource
 struct CORDL_TYPE ImageSource {
 public:
   // Declarations
-  /// @brief Method IsNull, addr 0x2e043a4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x2ef4acc, size 0xe8, virtual false, abstract: false, final false
   inline bool IsNull();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ImageSource();
 
   // Ctor Parameters [CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>",
   // modifiers: "", def_value: None }, CppParam { name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: None }, CppParam { name: "renderTexture", ty:
   // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }]
   constexpr ImageSource(::UnityW<::UnityEngine::Texture2D> texture, ::UnityW<::UnityEngine::Sprite> sprite, ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage,
                         ::UnityW<::UnityEngine::RenderTexture> renderTexture) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ImageSource();
 
   /// @brief Field texture, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> texture;

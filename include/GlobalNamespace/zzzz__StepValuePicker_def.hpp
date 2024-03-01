@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::StepValuePicker);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16294))
 // CS Name: ::StepValuePicker*
 class CORDL_TYPE StepValuePicker : public ::UnityEngine::MonoBehaviour {
 public:
@@ -39,89 +37,95 @@ public:
   /// @brief Field _valueText, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__valueText, put = __cordl_internal_set__valueText))::UnityW<::TMPro::TextMeshProUGUI> _valueText;
 
+  __declspec(property(put = set_decButtonInteractable)) bool decButtonInteractable;
+
   /// @brief Field decButtonWasPressedEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_decButtonWasPressedEvent, put = __cordl_internal_set_decButtonWasPressedEvent))::System::Action* decButtonWasPressedEvent;
+
+  __declspec(property(put = set_incButtonInteractable)) bool incButtonInteractable;
 
   /// @brief Field incButtonWasPressedEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_incButtonWasPressedEvent, put = __cordl_internal_set_incButtonWasPressedEvent))::System::Action* incButtonWasPressedEvent;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  __declspec(property(put = set_decButtonInteractable)) bool decButtonInteractable;
+  /// @brief Method DecButtonPressed, addr 0x24d34cc, size 0x1c, virtual false, abstract: false, final false
+  inline void DecButtonPressed();
 
-  __declspec(property(put = set_incButtonInteractable)) bool incButtonInteractable;
+  /// @brief Method IncButtonPressed, addr 0x24d34b0, size 0x1c, virtual false, abstract: false, final false
+  inline void IncButtonPressed();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__decButton();
+  static inline ::GlobalNamespace::StepValuePicker* New_ctor();
+
+  /// @brief Method OnDisable, addr 0x24d33c0, size 0xf0, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x24d32d0, size 0xf0, virtual true, abstract: false, final false
+  inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__decButton() const;
 
-  constexpr void __cordl_internal_set__decButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__incButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__decButton();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__incButton() const;
 
-  constexpr void __cordl_internal_set__incButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__valueText();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__incButton();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__valueText() const;
 
-  constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__valueText();
 
   constexpr ::System::Action*& __cordl_internal_get_decButtonWasPressedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_decButtonWasPressedEvent() const;
 
-  constexpr void __cordl_internal_set_decButtonWasPressedEvent(::System::Action* value);
-
   constexpr ::System::Action*& __cordl_internal_get_incButtonWasPressedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_incButtonWasPressedEvent() const;
 
+  constexpr void __cordl_internal_set__decButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__incButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  constexpr void __cordl_internal_set_decButtonWasPressedEvent(::System::Action* value);
+
   constexpr void __cordl_internal_set_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_decButtonWasPressedEvent, addr 0x24049f0, size 0x9c, virtual false, abstract: false, final false
-  inline void add_decButtonWasPressedEvent(::System::Action* value);
-
-  /// @brief Method remove_decButtonWasPressedEvent, addr 0x2404c2c, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_decButtonWasPressedEvent(::System::Action* value);
-
-  /// @brief Method add_incButtonWasPressedEvent, addr 0x2404a8c, size 0x9c, virtual false, abstract: false, final false
-  inline void add_incButtonWasPressedEvent(::System::Action* value);
-
-  /// @brief Method remove_incButtonWasPressedEvent, addr 0x2404cc8, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_incButtonWasPressedEvent(::System::Action* value);
-
-  /// @brief Method get_text, addr 0x24055b4, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW get_text();
-
-  /// @brief Method set_text, addr 0x2404914, size 0x24, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
-
-  /// @brief Method set_decButtonInteractable, addr 0x2404880, size 0x20, virtual false, abstract: false, final false
-  inline void set_decButtonInteractable(bool value);
-
-  /// @brief Method set_incButtonInteractable, addr 0x24048c8, size 0x20, virtual false, abstract: false, final false
-  inline void set_incButtonInteractable(bool value);
-
-  /// @brief Method OnEnable, addr 0x24055d8, size 0xf0, virtual true, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDisable, addr 0x24056c8, size 0xf0, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method IncButtonPressed, addr 0x24057b8, size 0x1c, virtual false, abstract: false, final false
-  inline void IncButtonPressed();
-
-  /// @brief Method DecButtonPressed, addr 0x24057d4, size 0x1c, virtual false, abstract: false, final false
-  inline void DecButtonPressed();
-
-  static inline ::GlobalNamespace::StepValuePicker* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24057f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d34e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_decButtonWasPressedEvent, addr 0x24d26e8, size 0x9c, virtual false, abstract: false, final false
+  inline void add_decButtonWasPressedEvent(::System::Action* value);
+
+  /// @brief Method add_incButtonWasPressedEvent, addr 0x24d2784, size 0x9c, virtual false, abstract: false, final false
+  inline void add_incButtonWasPressedEvent(::System::Action* value);
+
+  /// @brief Method get_text, addr 0x24d32ac, size 0x24, virtual false, abstract: false, final false
+  inline ::StringW get_text();
+
+  /// @brief Method remove_decButtonWasPressedEvent, addr 0x24d2924, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_decButtonWasPressedEvent(::System::Action* value);
+
+  /// @brief Method remove_incButtonWasPressedEvent, addr 0x24d29c0, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_incButtonWasPressedEvent(::System::Action* value);
+
+  /// @brief Method set_decButtonInteractable, addr 0x24d2578, size 0x20, virtual false, abstract: false, final false
+  inline void set_decButtonInteractable(bool value);
+
+  /// @brief Method set_incButtonInteractable, addr 0x24d25c0, size 0x20, virtual false, abstract: false, final false
+  inline void set_incButtonInteractable(bool value);
+
+  /// @brief Method set_text, addr 0x24d260c, size 0x24, virtual false, abstract: false, final false
+  inline void set_text(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StepValuePicker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StepValuePicker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StepValuePicker(StepValuePicker&&) = delete;
@@ -130,12 +134,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StepValuePicker(StepValuePicker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StepValuePicker();
-
-public:
   /// @brief Field _decButton, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____decButton;
 

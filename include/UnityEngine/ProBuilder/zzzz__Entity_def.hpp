@@ -18,37 +18,41 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Entity);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(12054))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12020))
 // CS Name: ::UnityEngine.ProBuilder::Entity*
 class CORDL_TYPE Entity : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  __declspec(property(get = get_entityType))::UnityEngine::ProBuilder::EntityType entityType;
+
   /// @brief Field m_EntityType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_EntityType, put = __cordl_internal_set_m_EntityType))::UnityEngine::ProBuilder::EntityType m_EntityType;
 
-  __declspec(property(get = get_entityType))::UnityEngine::ProBuilder::EntityType entityType;
-
-  constexpr ::UnityEngine::ProBuilder::EntityType& __cordl_internal_get_m_EntityType();
-
-  constexpr ::UnityEngine::ProBuilder::EntityType const& __cordl_internal_get_m_EntityType() const;
-
-  constexpr void __cordl_internal_set_m_EntityType(::UnityEngine::ProBuilder::EntityType value);
-
-  /// @brief Method get_entityType, addr 0x2b3eb24, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::EntityType get_entityType();
-
-  /// @brief Method Awake, addr 0x2b3eb2c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2c25c00, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
-
-  /// @brief Method SetEntity, addr 0x2b3ebf4, size 0x8, virtual false, abstract: false, final false
-  inline void SetEntity(::UnityEngine::ProBuilder::EntityType t);
 
   static inline ::UnityEngine::ProBuilder::Entity* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b3ebfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEntity, addr 0x2c25cc8, size 0x8, virtual false, abstract: false, final false
+  inline void SetEntity(::UnityEngine::ProBuilder::EntityType t);
+
+  constexpr ::UnityEngine::ProBuilder::EntityType const& __cordl_internal_get_m_EntityType() const;
+
+  constexpr ::UnityEngine::ProBuilder::EntityType& __cordl_internal_get_m_EntityType();
+
+  constexpr void __cordl_internal_set_m_EntityType(::UnityEngine::ProBuilder::EntityType value);
+
+  /// @brief Method .ctor, addr 0x2c25cd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_entityType, addr 0x2c25bf8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::EntityType get_entityType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Entity();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Entity", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Entity(Entity&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Entity(Entity const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Entity();
-
-public:
   /// @brief Field m_EntityType, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::EntityType ___m_EntityType;
 

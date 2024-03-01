@@ -35,38 +35,42 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14867))
 // CS Name: ::BloomFilterUtil::<>c__DisplayClass1_0`1<T>*
 class CORDL_TYPE __BloomFilterUtil____c__DisplayClass1_0_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field hashCount, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_hashCount, put = __cordl_internal_set_hashCount)) int32_t hashCount;
-
   /// @brief Field hashBits, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_hashBits, put = __cordl_internal_set_hashBits)) int32_t hashBits;
 
-  constexpr int32_t& __cordl_internal_get_hashCount();
-
-  constexpr int32_t const& __cordl_internal_get_hashCount() const;
-
-  constexpr void __cordl_internal_set_hashCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_hashBits();
-
-  constexpr int32_t const& __cordl_internal_get_hashBits() const;
-
-  constexpr void __cordl_internal_set_hashBits(int32_t value);
+  /// @brief Field hashCount, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_hashCount, put = __cordl_internal_set_hashCount)) int32_t hashCount;
 
   static inline ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <ToBloomFilter>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _ToBloomFilter_b__0(T bloomFilter, ::StringW str);
 
+  constexpr int32_t const& __cordl_internal_get_hashBits() const;
+
+  constexpr int32_t& __cordl_internal_get_hashBits();
+
+  constexpr int32_t const& __cordl_internal_get_hashCount() const;
+
+  constexpr int32_t& __cordl_internal_get_hashCount();
+
+  constexpr void __cordl_internal_set_hashBits(int32_t value);
+
+  constexpr void __cordl_internal_set_hashCount(int32_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BloomFilterUtil____c__DisplayClass1_0_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BloomFilterUtil____c__DisplayClass1_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BloomFilterUtil____c__DisplayClass1_0_1(__BloomFilterUtil____c__DisplayClass1_0_1&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BloomFilterUtil____c__DisplayClass1_0_1(__BloomFilterUtil____c__DisplayClass1_0_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BloomFilterUtil____c__DisplayClass1_0_1();
-
-public:
   /// @brief Field hashCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___hashCount;
 
@@ -97,38 +95,42 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14868))
 // CS Name: ::BloomFilterUtil::<>c__DisplayClass2_0`1<T>*
 class CORDL_TYPE __BloomFilterUtil____c__DisplayClass2_0_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field hashCount, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_hashCount, put = __cordl_internal_set_hashCount)) int32_t hashCount;
-
   /// @brief Field hashBits, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_hashBits, put = __cordl_internal_set_hashBits)) int32_t hashBits;
 
-  constexpr int32_t& __cordl_internal_get_hashCount();
-
-  constexpr int32_t const& __cordl_internal_get_hashCount() const;
-
-  constexpr void __cordl_internal_set_hashCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_hashBits();
-
-  constexpr int32_t const& __cordl_internal_get_hashBits() const;
-
-  constexpr void __cordl_internal_set_hashBits(int32_t value);
+  /// @brief Field hashCount, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_hashCount, put = __cordl_internal_set_hashCount)) int32_t hashCount;
 
   static inline ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <ToBloomFilter>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _ToBloomFilter_b__0(T bloomFilter, uint32_t hash);
 
+  constexpr int32_t const& __cordl_internal_get_hashBits() const;
+
+  constexpr int32_t& __cordl_internal_get_hashBits();
+
+  constexpr int32_t const& __cordl_internal_get_hashCount() const;
+
+  constexpr int32_t& __cordl_internal_get_hashCount();
+
+  constexpr void __cordl_internal_set_hashBits(int32_t value);
+
+  constexpr void __cordl_internal_set_hashCount(int32_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BloomFilterUtil____c__DisplayClass2_0_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BloomFilterUtil____c__DisplayClass2_0_1(__BloomFilterUtil____c__DisplayClass2_0_1&&) = delete;
@@ -137,12 +139,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BloomFilterUtil____c__DisplayClass2_0_1(__BloomFilterUtil____c__DisplayClass2_0_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BloomFilterUtil____c__DisplayClass2_0_1();
-
-public:
   /// @brief Field hashCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___hashCount;
 
@@ -157,24 +153,13 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14869))
 // CS Name: ::BloomFilterUtil*
 class CORDL_TYPE BloomFilterUtil : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using __c__DisplayClass2_0_1 = ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>;
-
   template <typename T> using __c__DisplayClass1_0_1 = ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>;
 
-  /// @brief Method ToBloomFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T ToBloomFilter(::StringW value, int32_t hashCount, int32_t hashBits);
-
-  /// @brief Method ToBloomFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T ToBloomFilter(::System::Collections::Generic::IEnumerable_1<::StringW>* strings, int32_t hashCount, int32_t hashBits);
-
-  /// @brief Method ToBloomFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T ToBloomFilter(::System::Collections::Generic::IEnumerable_1<uint32_t>* hashes, int32_t hashCount, int32_t hashBits);
+  template <typename T> using __c__DisplayClass2_0_1 = ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>;
 
   /// @brief Method AddBloomFilterEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T AddBloomFilterEntry(T bitMask, ::StringW value, int32_t hashCount, int32_t hashBits);
@@ -188,6 +173,21 @@ public:
   /// @brief Method ContainsBloomFilterEntryHash, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ContainsBloomFilterEntryHash(T bitMask, uint32_t hash, int32_t hashCount, int32_t hashBits);
 
+  /// @brief Method ToBloomFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline T ToBloomFilter(::System::Collections::Generic::IEnumerable_1<uint32_t>* hashes, int32_t hashCount, int32_t hashBits);
+
+  /// @brief Method ToBloomFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline T ToBloomFilter(::System::Collections::Generic::IEnumerable_1<::StringW>* strings, int32_t hashCount, int32_t hashBits);
+
+  /// @brief Method ToBloomFilter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline T ToBloomFilter(::StringW value, int32_t hashCount, int32_t hashBits);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomFilterUtil();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomFilterUtil", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomFilterUtil(BloomFilterUtil&&) = delete;
@@ -196,12 +196,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomFilterUtil(BloomFilterUtil const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomFilterUtil();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

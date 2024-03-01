@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15463))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5338))
 // CS Name: ::EventsTestScenesTransitionSetupDataSO*
 class CORDL_TYPE EventsTestScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
@@ -35,32 +33,38 @@ public:
   /// @brief Field _gameCoreSceneInfo, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__gameCoreSceneInfo, put = __cordl_internal_set__gameCoreSceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _gameCoreSceneInfo;
 
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get__environmentInfo();
-
-  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get__environmentInfo() const;
-
-  constexpr void __cordl_internal_set__environmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__eventsTestSceneInfo();
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__eventsTestSceneInfo() const;
-
-  constexpr void __cordl_internal_set__eventsTestSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__gameCoreSceneInfo();
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__gameCoreSceneInfo() const;
-
-  constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
-  /// @brief Method Init, addr 0x2349380, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24172c8, size 0x1dc, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::EventsTestScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x234955c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get__environmentInfo() const;
+
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get__environmentInfo();
+
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__eventsTestSceneInfo() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__eventsTestSceneInfo();
+
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__gameCoreSceneInfo() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__gameCoreSceneInfo();
+
+  constexpr void __cordl_internal_set__environmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
+
+  constexpr void __cordl_internal_set__eventsTestSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
+
+  constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
+
+  /// @brief Method .ctor, addr 0x24174a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventsTestScenesTransitionSetupDataSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventsTestScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventsTestScenesTransitionSetupDataSO(EventsTestScenesTransitionSetupDataSO&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventsTestScenesTransitionSetupDataSO(EventsTestScenesTransitionSetupDataSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventsTestScenesTransitionSetupDataSO();
-
-public:
   /// @brief Field _environmentInfo, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ____environmentInfo;
 

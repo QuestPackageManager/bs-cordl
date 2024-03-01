@@ -20,20 +20,24 @@ MARK_REF_PTR_T(::System::Net::HeaderParser);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7111))
 // CS Name: ::System.Net::HeaderParser*
 class CORDL_TYPE HeaderParser : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::System::Net::HeaderParser* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x29aa8c0, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x29aa994, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2a91a68, size 0x14, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Invoke(::StringW value);
 
+  static inline ::System::Net::HeaderParser* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2a91994, size 0xd4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HeaderParser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HeaderParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeaderParser(HeaderParser&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HeaderParser(HeaderParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HeaderParser();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

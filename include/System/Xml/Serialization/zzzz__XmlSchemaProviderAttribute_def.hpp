@@ -15,40 +15,44 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlSchemaProviderAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11488))
 // CS Name: ::System.Xml.Serialization::XmlSchemaProviderAttribute*
 class CORDL_TYPE XmlSchemaProviderAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field _methodName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__methodName, put = __cordl_internal_set__methodName))::StringW _methodName;
+  __declspec(property(put = set_IsAny)) bool IsAny;
 
   /// @brief Field _isAny, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__isAny, put = __cordl_internal_set__isAny)) bool _isAny;
 
-  __declspec(property(put = set_IsAny)) bool IsAny;
-
-  constexpr ::StringW& __cordl_internal_get__methodName();
-
-  constexpr ::StringW const& __cordl_internal_get__methodName() const;
-
-  constexpr void __cordl_internal_set__methodName(::StringW value);
-
-  constexpr bool& __cordl_internal_get__isAny();
-
-  constexpr bool const& __cordl_internal_get__isAny() const;
-
-  constexpr void __cordl_internal_set__isAny(bool value);
+  /// @brief Field _methodName, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__methodName, put = __cordl_internal_set__methodName))::StringW _methodName;
 
   static inline ::System::Xml::Serialization::XmlSchemaProviderAttribute* New_ctor(::StringW methodName);
 
-  /// @brief Method .ctor, addr 0x28af5c4, size 0x28, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__isAny() const;
+
+  constexpr bool& __cordl_internal_get__isAny();
+
+  constexpr ::StringW const& __cordl_internal_get__methodName() const;
+
+  constexpr ::StringW& __cordl_internal_get__methodName();
+
+  constexpr void __cordl_internal_set__isAny(bool value);
+
+  constexpr void __cordl_internal_set__methodName(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2996a40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW methodName);
 
-  /// @brief Method set_IsAny, addr 0x28af5ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsAny, addr 0x2996a68, size 0xc, virtual false, abstract: false, final false
   inline void set_IsAny(bool value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSchemaProviderAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaProviderAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaProviderAttribute(XmlSchemaProviderAttribute&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaProviderAttribute(XmlSchemaProviderAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaProviderAttribute();
-
-public:
   /// @brief Field _methodName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____methodName;
 

@@ -19,21 +19,25 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::StringReferenceExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11765))
 // CS Name: ::Newtonsoft.Json.Utilities::StringReferenceExtensions*
 class CORDL_TYPE StringReferenceExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IndexOf, addr 0x267ec3c, size 0x84, virtual false, abstract: false, final false
-  static inline int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length);
-
-  /// @brief Method StartsWith, addr 0x267ecc0, size 0xb4, virtual false, abstract: false, final false
-  static inline bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
-
-  /// @brief Method EndsWith, addr 0x267ed74, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x274e4c0, size 0xb8, virtual false, abstract: false, final false
   static inline bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
+  /// @brief Method IndexOf, addr 0x274e388, size 0x84, virtual false, abstract: false, final false
+  static inline int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length);
+
+  /// @brief Method StartsWith, addr 0x274e40c, size 0xb4, virtual false, abstract: false, final false
+  static inline bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StringReferenceExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StringReferenceExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringReferenceExtensions(StringReferenceExtensions&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StringReferenceExtensions(StringReferenceExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringReferenceExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

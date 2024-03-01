@@ -36,21 +36,10 @@ MARK_REF_PTR_T(::System::Security::AccessControl::ObjectAce);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(3043)), TypeDefinitionIndex(TypeDefinitionIndex(3046))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3042))
 // CS Name: ::System.Security.AccessControl::ObjectAce*
 class CORDL_TYPE ObjectAce : public ::System::Security::AccessControl::QualifiedAce {
 public:
   // Declarations
-  /// @brief Field object_ace_type, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_object_ace_type, put = __cordl_internal_set_object_ace_type))::System::Guid object_ace_type;
-
-  /// @brief Field inherited_object_type, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get_inherited_object_type, put = __cordl_internal_set_inherited_object_type))::System::Guid inherited_object_type;
-
-  /// @brief Field object_ace_flags, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_object_ace_flags, put = __cordl_internal_set_object_ace_flags))::System::Security::AccessControl::ObjectAceFlags object_ace_flags;
-
   __declspec(property(get = get_BinaryLength)) int32_t BinaryLength;
 
   __declspec(property(get = get_InheritedObjectAceType, put = set_InheritedObjectAceType))::System::Guid InheritedObjectAceType;
@@ -63,78 +52,93 @@ public:
 
   __declspec(property(get = get_ObjectAceTypePresent)) bool ObjectAceTypePresent;
 
-  constexpr ::System::Guid& __cordl_internal_get_object_ace_type();
+  /// @brief Field inherited_object_type, offset 0x38, size 0x10
+  __declspec(property(get = __cordl_internal_get_inherited_object_type, put = __cordl_internal_set_inherited_object_type))::System::Guid inherited_object_type;
 
-  constexpr ::System::Guid const& __cordl_internal_get_object_ace_type() const;
+  /// @brief Field object_ace_flags, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_object_ace_flags, put = __cordl_internal_set_object_ace_flags))::System::Security::AccessControl::ObjectAceFlags object_ace_flags;
 
-  constexpr void __cordl_internal_set_object_ace_type(::System::Guid value);
+  /// @brief Field object_ace_type, offset 0x28, size 0x10
+  __declspec(property(get = __cordl_internal_get_object_ace_type, put = __cordl_internal_set_object_ace_type))::System::Guid object_ace_type;
 
-  constexpr ::System::Guid& __cordl_internal_get_inherited_object_type();
+  /// @brief Method ConvertType, addr 0x2578130, size 0x110, virtual false, abstract: false, final false
+  static inline ::System::Security::AccessControl::AceType ConvertType(::System::Security::AccessControl::AceQualifier qualifier, bool isCallback);
 
-  constexpr ::System::Guid const& __cordl_internal_get_inherited_object_type() const;
-
-  constexpr void __cordl_internal_set_inherited_object_type(::System::Guid value);
-
-  constexpr ::System::Security::AccessControl::ObjectAceFlags& __cordl_internal_get_object_ace_flags();
-
-  constexpr ::System::Security::AccessControl::ObjectAceFlags const& __cordl_internal_get_object_ace_flags() const;
-
-  constexpr void __cordl_internal_set_object_ace_flags(::System::Security::AccessControl::ObjectAceFlags value);
+  /// @brief Method GetBinaryForm, addr 0x257837c, size 0x16c, virtual true, abstract: false, final false
+  inline void GetBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
   static inline ::System::Security::AccessControl::ObjectAce* New_ctor(::System::Security::AccessControl::AceFlags aceFlags, ::System::Security::AccessControl::AceQualifier qualifier,
                                                                        int32_t accessMask, ::System::Security::Principal::SecurityIdentifier* sid,
                                                                        ::System::Security::AccessControl::ObjectAceFlags flags, ::System::Guid type, ::System::Guid inheritedType, bool isCallback,
                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
-  /// @brief Method .ctor, addr 0x24a4520, size 0x98, virtual false, abstract: false, final false
+  static inline ::System::Security::AccessControl::ObjectAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
+
+  /// @brief Method ReadGuid, addr 0x2578258, size 0x98, virtual false, abstract: false, final false
+  inline ::System::Guid ReadGuid(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
+
+  /// @brief Method WriteGuid, addr 0x25784e8, size 0x4c, virtual false, abstract: false, final false
+  inline void WriteGuid(::System::Guid val, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
+
+  constexpr ::System::Guid const& __cordl_internal_get_inherited_object_type() const;
+
+  constexpr ::System::Guid& __cordl_internal_get_inherited_object_type();
+
+  constexpr ::System::Security::AccessControl::ObjectAceFlags const& __cordl_internal_get_object_ace_flags() const;
+
+  constexpr ::System::Security::AccessControl::ObjectAceFlags& __cordl_internal_get_object_ace_flags();
+
+  constexpr ::System::Guid const& __cordl_internal_get_object_ace_type() const;
+
+  constexpr ::System::Guid& __cordl_internal_get_object_ace_type();
+
+  constexpr void __cordl_internal_set_inherited_object_type(::System::Guid value);
+
+  constexpr void __cordl_internal_set_object_ace_flags(::System::Security::AccessControl::ObjectAceFlags value);
+
+  constexpr void __cordl_internal_set_object_ace_type(::System::Guid value);
+
+  /// @brief Method .ctor, addr 0x2576218, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceFlags aceFlags, ::System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask,
                     ::System::Security::Principal::SecurityIdentifier* sid, ::System::Security::AccessControl::ObjectAceFlags flags, ::System::Guid type, ::System::Guid inheritedType, bool isCallback,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
-  static inline ::System::Security::AccessControl::ObjectAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
-
-  /// @brief Method .ctor, addr 0x24a5920, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2577618, size 0x264, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method get_BinaryLength, addr 0x24a65f8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_BinaryLength, addr 0x25782f0, size 0x54, virtual true, abstract: false, final false
   inline int32_t get_BinaryLength();
 
-  /// @brief Method get_InheritedObjectAceType, addr 0x24a664c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_InheritedObjectAceType, addr 0x2578344, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_InheritedObjectAceType();
 
-  /// @brief Method set_InheritedObjectAceType, addr 0x24a6658, size 0x8, virtual false, abstract: false, final false
-  inline void set_InheritedObjectAceType(::System::Guid value);
-
-  /// @brief Method get_InheritedObjectAceTypePresent, addr 0x24a6554, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_InheritedObjectAceTypePresent, addr 0x257824c, size 0xc, virtual false, abstract: false, final false
   inline bool get_InheritedObjectAceTypePresent();
 
-  /// @brief Method get_ObjectAceFlags, addr 0x24a6660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectAceFlags, addr 0x2578358, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::ObjectAceFlags get_ObjectAceFlags();
 
-  /// @brief Method set_ObjectAceFlags, addr 0x24a6668, size 0x8, virtual false, abstract: false, final false
-  inline void set_ObjectAceFlags(::System::Security::AccessControl::ObjectAceFlags value);
-
-  /// @brief Method get_ObjectAceType, addr 0x24a6670, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectAceType, addr 0x2578368, size 0xc, virtual false, abstract: false, final false
   inline ::System::Guid get_ObjectAceType();
 
-  /// @brief Method set_ObjectAceType, addr 0x24a667c, size 0x8, virtual false, abstract: false, final false
-  inline void set_ObjectAceType(::System::Guid value);
-
-  /// @brief Method get_ObjectAceTypePresent, addr 0x24a6548, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectAceTypePresent, addr 0x2578240, size 0xc, virtual false, abstract: false, final false
   inline bool get_ObjectAceTypePresent();
 
-  /// @brief Method GetBinaryForm, addr 0x24a6684, size 0x16c, virtual true, abstract: false, final false
-  inline void GetBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
+  /// @brief Method set_InheritedObjectAceType, addr 0x2578350, size 0x8, virtual false, abstract: false, final false
+  inline void set_InheritedObjectAceType(::System::Guid value);
 
-  /// @brief Method ConvertType, addr 0x24a6438, size 0x110, virtual false, abstract: false, final false
-  static inline ::System::Security::AccessControl::AceType ConvertType(::System::Security::AccessControl::AceQualifier qualifier, bool isCallback);
+  /// @brief Method set_ObjectAceFlags, addr 0x2578360, size 0x8, virtual false, abstract: false, final false
+  inline void set_ObjectAceFlags(::System::Security::AccessControl::ObjectAceFlags value);
 
-  /// @brief Method WriteGuid, addr 0x24a67f0, size 0x4c, virtual false, abstract: false, final false
-  inline void WriteGuid(::System::Guid val, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
+  /// @brief Method set_ObjectAceType, addr 0x2578374, size 0x8, virtual false, abstract: false, final false
+  inline void set_ObjectAceType(::System::Guid value);
 
-  /// @brief Method ReadGuid, addr 0x24a6560, size 0x98, virtual false, abstract: false, final false
-  inline ::System::Guid ReadGuid(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObjectAce();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObjectAce", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectAce(ObjectAce&&) = delete;
@@ -143,12 +147,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectAce(ObjectAce const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectAce();
-
-public:
   /// @brief Field object_ace_type, offset: 0x28, size: 0x10, def value: None
   ::System::Guid ___object_ace_type;
 

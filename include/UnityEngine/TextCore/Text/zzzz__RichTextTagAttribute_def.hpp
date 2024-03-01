@@ -19,20 +19,18 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::RichTextTagAttribute);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13669))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13661))
 // CS Name: ::UnityEngine.TextCore.Text::RichTextTagAttribute
 struct CORDL_TYPE RichTextTagAttribute {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RichTextTagAttribute();
+
   // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "valueHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
   // name: "valueType", ty: "::UnityEngine::TextCore::Text::TagValueType", modifiers: "", def_value: None }, CppParam { name: "valueStartIndex", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "valueLength", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr RichTextTagAttribute(int32_t nameHashCode, int32_t valueHashCode, ::UnityEngine::TextCore::Text::TagValueType valueType, int32_t valueStartIndex, int32_t valueLength) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RichTextTagAttribute();
 
   /// @brief Field nameHashCode, offset: 0x0, size: 0x4, def value: None
   int32_t nameHashCode;

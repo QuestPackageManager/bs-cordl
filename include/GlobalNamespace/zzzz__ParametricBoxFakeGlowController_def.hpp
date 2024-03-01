@@ -26,20 +26,25 @@ MARK_REF_PTR_T(::GlobalNamespace::ParametricBoxFakeGlowController);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14381))
 // CS Name: ::ParametricBoxFakeGlowController*
 class CORDL_TYPE ParametricBoxFakeGlowController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field width, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) float_t width;
+  /// @brief Field _colorID, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF__colorID, put = setStaticF__colorID)) int32_t _colorID;
 
-  /// @brief Field height, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height)) float_t height;
+  /// @brief Field _materialPropertyBlockController, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
-  /// @brief Field length, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
+  /// @brief Field _meshRenderer, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
+
+  /// @brief Field _sizeParamsID, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF__sizeParamsID, put = setStaticF__sizeParamsID)) int32_t _sizeParamsID;
+
+  /// @brief Field color, offset 0x2c, size 0x10
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
 
   /// @brief Field edgeSize, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_edgeSize, put = __cordl_internal_set_edgeSize)) float_t edgeSize;
@@ -47,100 +52,99 @@ public:
   /// @brief Field edgeSizeMultiplier, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_edgeSizeMultiplier, put = __cordl_internal_set_edgeSizeMultiplier)) float_t edgeSizeMultiplier;
 
-  /// @brief Field color, offset 0x2c, size 0x10
-  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
+  /// @brief Field height, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height)) float_t height;
 
-  /// @brief Field _meshRenderer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
-
-  /// @brief Field _materialPropertyBlockController, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
-                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
-
-  /// @brief Field _colorID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__colorID, put = setStaticF__colorID)) int32_t _colorID;
-
-  /// @brief Field _sizeParamsID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__sizeParamsID, put = setStaticF__sizeParamsID)) int32_t _sizeParamsID;
+  /// @brief Field length, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
 
   __declspec(property(put = set_localPosition))::UnityEngine::Vector3 localPosition;
 
-  constexpr float_t& __cordl_internal_get_width();
+  /// @brief Field width, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) float_t width;
 
-  constexpr float_t const& __cordl_internal_get_width() const;
-
-  constexpr void __cordl_internal_set_width(float_t value);
-
-  constexpr float_t& __cordl_internal_get_height();
-
-  constexpr float_t const& __cordl_internal_get_height() const;
-
-  constexpr void __cordl_internal_set_height(float_t value);
-
-  constexpr float_t& __cordl_internal_get_length();
-
-  constexpr float_t const& __cordl_internal_get_length() const;
-
-  constexpr void __cordl_internal_set_length(float_t value);
-
-  constexpr float_t& __cordl_internal_get_edgeSize();
-
-  constexpr float_t const& __cordl_internal_get_edgeSize() const;
-
-  constexpr void __cordl_internal_set_edgeSize(float_t value);
-
-  constexpr float_t& __cordl_internal_get_edgeSizeMultiplier();
-
-  constexpr float_t const& __cordl_internal_get_edgeSizeMultiplier() const;
-
-  constexpr void __cordl_internal_set_edgeSizeMultiplier(float_t value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
-
-  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__meshRenderer() const;
-
-  constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
-
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
-
-  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
-
-  static inline void setStaticF__colorID(int32_t value);
-
-  static inline int32_t getStaticF__colorID();
-
-  static inline void setStaticF__sizeParamsID(int32_t value);
-
-  static inline int32_t getStaticF__sizeParamsID();
-
-  /// @brief Method set_localPosition, addr 0x219dae8, size 0x48, virtual false, abstract: false, final false
-  inline void set_localPosition(::UnityEngine::Vector3 value);
-
-  /// @brief Method Awake, addr 0x219db30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x226c198, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
-
-  /// @brief Method OnEnable, addr 0x219db50, size 0x28, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDisable, addr 0x219dc9c, size 0x20, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method Refresh, addr 0x219db78, size 0x124, virtual false, abstract: false, final false
-  inline void Refresh();
 
   static inline ::GlobalNamespace::ParametricBoxFakeGlowController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x219dcbc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x226c304, size 0x20, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x226c1b8, size 0x28, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method Refresh, addr 0x226c1e0, size 0x124, virtual false, abstract: false, final false
+  inline void Refresh();
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__meshRenderer() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
+
+  constexpr float_t const& __cordl_internal_get_edgeSize() const;
+
+  constexpr float_t& __cordl_internal_get_edgeSize();
+
+  constexpr float_t const& __cordl_internal_get_edgeSizeMultiplier() const;
+
+  constexpr float_t& __cordl_internal_get_edgeSizeMultiplier();
+
+  constexpr float_t const& __cordl_internal_get_height() const;
+
+  constexpr float_t& __cordl_internal_get_height();
+
+  constexpr float_t const& __cordl_internal_get_length() const;
+
+  constexpr float_t& __cordl_internal_get_length();
+
+  constexpr float_t const& __cordl_internal_get_width() const;
+
+  constexpr float_t& __cordl_internal_get_width();
+
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
+
+  constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
+
+  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set_edgeSize(float_t value);
+
+  constexpr void __cordl_internal_set_edgeSizeMultiplier(float_t value);
+
+  constexpr void __cordl_internal_set_height(float_t value);
+
+  constexpr void __cordl_internal_set_length(float_t value);
+
+  constexpr void __cordl_internal_set_width(float_t value);
+
+  /// @brief Method .ctor, addr 0x226c324, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline int32_t getStaticF__colorID();
+
+  static inline int32_t getStaticF__sizeParamsID();
+
+  static inline void setStaticF__colorID(int32_t value);
+
+  static inline void setStaticF__sizeParamsID(int32_t value);
+
+  /// @brief Method set_localPosition, addr 0x226c150, size 0x48, virtual false, abstract: false, final false
+  inline void set_localPosition(::UnityEngine::Vector3 value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ParametricBoxFakeGlowController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxFakeGlowController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ParametricBoxFakeGlowController(ParametricBoxFakeGlowController&&) = delete;
@@ -149,12 +153,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ParametricBoxFakeGlowController(ParametricBoxFakeGlowController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParametricBoxFakeGlowController();
-
-public:
   /// @brief Field width, offset: 0x18, size: 0x4, def value: None
   float_t ___width;
 

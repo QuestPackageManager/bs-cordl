@@ -29,56 +29,60 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Tsp::TimeStampResp);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Tsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(317))
 // CS Name: ::Org.BouncyCastle.Asn1.Tsp::TimeStampResp*
 class CORDL_TYPE TimeStampResp : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_Status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* Status;
+
+  __declspec(property(get = get_TimeStampToken))::Org::BouncyCastle::Asn1::Cms::ContentInfo* TimeStampToken;
+
   /// @brief Field pkiStatusInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_pkiStatusInfo, put = __cordl_internal_set_pkiStatusInfo))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo;
 
   /// @brief Field timeStampToken, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_timeStampToken, put = __cordl_internal_set_timeStampToken))::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken;
 
-  __declspec(property(get = get_Status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* Status;
+  /// @brief Method GetInstance, addr 0x10eb6d8, size 0xa4, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* GetInstance(::System::Object* obj);
 
-  __declspec(property(get = get_TimeStampToken))::Org::BouncyCastle::Asn1::Cms::ContentInfo* TimeStampToken;
+  static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken);
+
+  static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0x10eb840, size 0x148, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*& __cordl_internal_get_pkiStatusInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*> const& __cordl_internal_get_pkiStatusInfo() const;
 
-  constexpr void __cordl_internal_set_pkiStatusInfo(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_timeStampToken();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_timeStampToken() const;
 
+  constexpr void __cordl_internal_set_pkiStatusInfo(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
+
   constexpr void __cordl_internal_set_timeStampToken(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method GetInstance, addr 0x10a6708, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0x10a67ac, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken);
-
-  /// @brief Method .ctor, addr 0x10a6834, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10eb804, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken);
 
-  /// @brief Method get_Status, addr 0x10a6860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10eb77c, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method get_Status, addr 0x10eb830, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_Status();
 
-  /// @brief Method get_TimeStampToken, addr 0x10a6868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeStampToken, addr 0x10eb838, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_TimeStampToken();
 
-  /// @brief Method ToAsn1Object, addr 0x10a6870, size 0x148, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimeStampResp();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampResp", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimeStampResp(TimeStampResp&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimeStampResp(TimeStampResp const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeStampResp();
-
-public:
   /// @brief Field pkiStatusInfo, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* ___pkiStatusInfo;
 

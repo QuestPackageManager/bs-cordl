@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarSyncMessageCounter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14807))
 // CS Name: ::AvatarSyncMessageCounter*
 class CORDL_TYPE AvatarSyncMessageCounter : public ::System::Object {
 public:
@@ -37,32 +35,38 @@ public:
   /// @brief Field period, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_period, put = __cordl_internal_set_period))::System::TimeSpan period;
 
+  /// @brief Method CleanOldMessages, addr 0x2729df4, size 0x138, virtual false, abstract: false, final false
+  inline void CleanOldMessages();
+
+  /// @brief Method CurrentMessages, addr 0x2729f2c, size 0x50, virtual false, abstract: false, final false
+  inline int32_t CurrentMessages();
+
+  /// @brief Method MessageReceived, addr 0x2729d68, size 0x8c, virtual false, abstract: false, final false
+  inline void MessageReceived();
+
+  static inline ::GlobalNamespace::AvatarSyncMessageCounter* New_ctor(::System::TimeSpan period);
+
   constexpr ::System::Collections::Generic::Queue_1<::System::DateTime>*& __cordl_internal_get_messageTimestamps();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::System::DateTime>*> const& __cordl_internal_get_messageTimestamps() const;
 
-  constexpr void __cordl_internal_set_messageTimestamps(::System::Collections::Generic::Queue_1<::System::DateTime>* value);
+  constexpr ::System::TimeSpan const& __cordl_internal_get_period() const;
 
   constexpr ::System::TimeSpan& __cordl_internal_get_period();
 
-  constexpr ::System::TimeSpan const& __cordl_internal_get_period() const;
+  constexpr void __cordl_internal_set_messageTimestamps(::System::Collections::Generic::Queue_1<::System::DateTime>* value);
 
   constexpr void __cordl_internal_set_period(::System::TimeSpan value);
 
-  static inline ::GlobalNamespace::AvatarSyncMessageCounter* New_ctor(::System::TimeSpan period);
-
-  /// @brief Method .ctor, addr 0x265a58c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2729cd8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::TimeSpan period);
 
-  /// @brief Method MessageReceived, addr 0x265a61c, size 0x8c, virtual false, abstract: false, final false
-  inline void MessageReceived();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AvatarSyncMessageCounter();
 
-  /// @brief Method CurrentMessages, addr 0x265a7e0, size 0x50, virtual false, abstract: false, final false
-  inline int32_t CurrentMessages();
-
-  /// @brief Method CleanOldMessages, addr 0x265a6a8, size 0x138, virtual false, abstract: false, final false
-  inline void CleanOldMessages();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarSyncMessageCounter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AvatarSyncMessageCounter(AvatarSyncMessageCounter&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarSyncMessageCounter(AvatarSyncMessageCounter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarSyncMessageCounter();
-
-public:
   /// @brief Field messageTimestamps, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<::System::DateTime>* ___messageTimestamps;
 

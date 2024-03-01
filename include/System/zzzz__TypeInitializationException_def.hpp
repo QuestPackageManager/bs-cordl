@@ -24,49 +24,53 @@ MARK_REF_PTR_T(::System::TypeInitializationException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2497))
 // CS Name: ::System::TypeInitializationException*
 class CORDL_TYPE TypeInitializationException : public ::System::SystemException {
 public:
   // Declarations
+  __declspec(property(get = get_TypeName))::StringW TypeName;
+
   /// @brief Field _typeName, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__typeName, put = __cordl_internal_set__typeName))::StringW _typeName;
 
-  __declspec(property(get = get_TypeName))::StringW TypeName;
-
-  constexpr ::StringW& __cordl_internal_get__typeName();
-
-  constexpr ::StringW const& __cordl_internal_get__typeName() const;
-
-  constexpr void __cordl_internal_set__typeName(::StringW value);
+  /// @brief Method GetObjectData, addr 0x26bd940, size 0x108, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::TypeInitializationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25ed0c8, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::TypeInitializationException* New_ctor(::StringW fullTypeName, ::System::Exception* innerException);
-
-  /// @brief Method .ctor, addr 0x25ed120, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::StringW fullTypeName, ::System::Exception* innerException);
 
   static inline ::System::TypeInitializationException* New_ctor(::StringW fullTypeName, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x25ed1a0, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::StringW fullTypeName, ::StringW message, ::System::Exception* innerException);
-
   static inline ::System::TypeInitializationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x25ed1d8, size 0x84, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__typeName() const;
+
+  constexpr ::StringW& __cordl_internal_get__typeName();
+
+  constexpr void __cordl_internal_set__typeName(::StringW value);
+
+  /// @brief Method .ctor, addr 0x26bd7ac, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x26bd804, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::StringW fullTypeName, ::System::Exception* innerException);
+
+  /// @brief Method .ctor, addr 0x26bd884, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::StringW fullTypeName, ::StringW message, ::System::Exception* innerException);
+
+  /// @brief Method .ctor, addr 0x26bd8bc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x25ed25c, size 0x108, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method get_TypeName, addr 0x25ed364, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x26bda48, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TypeInitializationException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeInitializationException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeInitializationException(TypeInitializationException&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeInitializationException(TypeInitializationException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeInitializationException();
-
-public:
   /// @brief Field _typeName, offset: 0x90, size: 0x8, def value: None
   ::StringW ____typeName;
 

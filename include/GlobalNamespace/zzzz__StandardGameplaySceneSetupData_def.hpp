@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardGameplaySceneSetupData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10773)), TypeDefinitionIndex(TypeDefinitionIndex(15456))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5333))
 // CS Name: ::StandardGameplaySceneSetupData*
 class CORDL_TYPE StandardGameplaySceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -35,14 +33,14 @@ public:
   /// @brief Field autoRestart, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_autoRestart, put = __cordl_internal_set_autoRestart)) bool autoRestart;
 
+  /// @brief Field backButtonText, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText))::StringW backButtonText;
+
   /// @brief Field beatmapKey, offset 0x18, size 0x18
   __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey))::GlobalNamespace::BeatmapKey beatmapKey;
 
   /// @brief Field beatmapLevel, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel))::GlobalNamespace::BeatmapLevel* beatmapLevel;
-
-  /// @brief Field backButtonText, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText))::StringW backButtonText;
 
   /// @brief Field gameplayModifiers, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
@@ -50,49 +48,55 @@ public:
   /// @brief Field startPaused, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_startPaused, put = __cordl_internal_set_startPaused)) bool startPaused;
 
-  constexpr bool& __cordl_internal_get_autoRestart();
+  static inline ::GlobalNamespace::StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                            ::StringW backButtonText, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool startPaused);
 
   constexpr bool const& __cordl_internal_get_autoRestart() const;
 
-  constexpr void __cordl_internal_set_autoRestart(bool value);
+  constexpr bool& __cordl_internal_get_autoRestart();
 
-  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get_beatmapKey();
+  constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
+
+  constexpr ::StringW& __cordl_internal_get_backButtonText();
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
 
-  constexpr void __cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value);
+  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get_beatmapKey();
 
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
 
-  constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
-
-  constexpr ::StringW& __cordl_internal_get_backButtonText();
-
-  constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
-
-  constexpr void __cordl_internal_set_backButtonText(::StringW value);
-
   constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get_gameplayModifiers() const;
 
-  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  constexpr bool const& __cordl_internal_get_startPaused() const;
 
   constexpr bool& __cordl_internal_get_startPaused();
 
-  constexpr bool const& __cordl_internal_get_startPaused() const;
+  constexpr void __cordl_internal_set_autoRestart(bool value);
+
+  constexpr void __cordl_internal_set_backButtonText(::StringW value);
+
+  constexpr void __cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value);
+
+  constexpr void __cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
+
+  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
   constexpr void __cordl_internal_set_startPaused(bool value);
 
-  static inline ::GlobalNamespace::StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                            ::StringW backButtonText, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool startPaused);
-
-  /// @brief Method .ctor, addr 0x2348f44, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2416e8c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(bool autoRestart, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW backButtonText,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool startPaused);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandardGameplaySceneSetupData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardGameplaySceneSetupData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardGameplaySceneSetupData(StandardGameplaySceneSetupData&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardGameplaySceneSetupData(StandardGameplaySceneSetupData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardGameplaySceneSetupData();
-
-public:
   /// @brief Field autoRestart, offset: 0x10, size: 0x1, def value: None
   bool ___autoRestart;
 

@@ -16,12 +16,16 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2774))
 // CS Name: ::System.Threading.Tasks::SystemThreadingTasks_FutureDebugView`1<TResult>*
 class CORDL_TYPE SystemThreadingTasks_FutureDebugView_1 : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SystemThreadingTasks_FutureDebugView_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SystemThreadingTasks_FutureDebugView_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemThreadingTasks_FutureDebugView_1(SystemThreadingTasks_FutureDebugView_1&&) = delete;
@@ -30,12 +34,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SystemThreadingTasks_FutureDebugView_1(SystemThreadingTasks_FutureDebugView_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SystemThreadingTasks_FutureDebugView_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::TextCore::GlyphClassDefinitionType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15713))
 // CS Name: ::UnityEngine.TextCore::GlyphClassDefinitionType
 struct CORDL_TYPE GlyphClassDefinitionType {
 public:
@@ -37,24 +35,26 @@ public:
     return static_cast<__GlyphClassDefinitionType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr GlyphClassDefinitionType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__GlyphClassDefinitionType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GlyphClassDefinitionType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr GlyphClassDefinitionType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::TextCore::GlyphClassDefinitionType const Undefined;
-
   /// @brief Field Base value: static_cast<int32_t>(0x1)
   static ::UnityEngine::TextCore::GlyphClassDefinitionType const Base;
+
+  /// @brief Field Component value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::TextCore::GlyphClassDefinitionType const Component;
 
   /// @brief Field Ligature value: static_cast<int32_t>(0x2)
   static ::UnityEngine::TextCore::GlyphClassDefinitionType const Ligature;
@@ -62,8 +62,11 @@ public:
   /// @brief Field Mark value: static_cast<int32_t>(0x3)
   static ::UnityEngine::TextCore::GlyphClassDefinitionType const Mark;
 
-  /// @brief Field Component value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::TextCore::GlyphClassDefinitionType const Component;
+  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::TextCore::GlyphClassDefinitionType const Undefined;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

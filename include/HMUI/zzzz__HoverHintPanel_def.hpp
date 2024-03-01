@@ -29,91 +29,95 @@ MARK_REF_PTR_T(::HMUI::HoverHintPanel);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13489))
 // CS Name: ::HMUI::HoverHintPanel*
 class CORDL_TYPE HoverHintPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
-
-  /// @brief Field _padding, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding))::UnityEngine::Vector2 _padding;
-
   /// @brief Field _containerPadding, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__containerPadding, put = __cordl_internal_set__containerPadding))::UnityEngine::Vector2 _containerPadding;
-
-  /// @brief Field _separator, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
-
-  /// @brief Field _zOffset, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
 
   /// @brief Field <isShown>k__BackingField, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__isShown_k__BackingField, put = __cordl_internal_set__isShown_k__BackingField)) bool _isShown_k__BackingField;
 
+  /// @brief Field _padding, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding))::UnityEngine::Vector2 _padding;
+
+  /// @brief Field _separator, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
+
+  /// @brief Field _text, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+
+  /// @brief Field _zOffset, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
+
   __declspec(property(get = get_isShown, put = set_isShown)) bool isShown;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
-
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__padding();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__padding() const;
-
-  constexpr void __cordl_internal_set__padding(::UnityEngine::Vector2 value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__containerPadding();
-
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__containerPadding() const;
-
-  constexpr void __cordl_internal_set__containerPadding(::UnityEngine::Vector2 value);
-
-  constexpr float_t& __cordl_internal_get__separator();
-
-  constexpr float_t const& __cordl_internal_get__separator() const;
-
-  constexpr void __cordl_internal_set__separator(float_t value);
-
-  constexpr float_t& __cordl_internal_get__zOffset();
-
-  constexpr float_t const& __cordl_internal_get__zOffset() const;
-
-  constexpr void __cordl_internal_set__zOffset(float_t value);
-
-  constexpr bool& __cordl_internal_get__isShown_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__isShown_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__isShown_k__BackingField(bool value);
-
-  /// @brief Method get_isShown, addr 0x21b2090, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isShown();
-
-  /// @brief Method set_isShown, addr 0x21b2098, size 0xc, virtual false, abstract: false, final false
-  inline void set_isShown(bool value);
-
-  /// @brief Method Awake, addr 0x21b20a4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x227f70c, size 0xb4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Show, addr 0x21b1bb4, size 0x274, virtual false, abstract: false, final false
-  inline void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
-
-  /// @brief Method Hide, addr 0x21b1778, size 0x28, virtual false, abstract: false, final false
-  inline void Hide();
-
-  /// @brief Method CalculatePanelPosition, addr 0x21b2158, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePanelPosition, addr 0x227f7c0, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
+
+  /// @brief Method Hide, addr 0x227ede0, size 0x28, virtual false, abstract: false, final false
+  inline void Hide();
 
   static inline ::HMUI::HoverHintPanel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21b2264, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x227f21c, size 0x274, virtual false, abstract: false, final false
+  inline void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__containerPadding() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__containerPadding();
+
+  constexpr bool const& __cordl_internal_get__isShown_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__isShown_k__BackingField();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__padding() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__padding();
+
+  constexpr float_t const& __cordl_internal_get__separator() const;
+
+  constexpr float_t& __cordl_internal_get__separator();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+
+  constexpr float_t const& __cordl_internal_get__zOffset() const;
+
+  constexpr float_t& __cordl_internal_get__zOffset();
+
+  constexpr void __cordl_internal_set__containerPadding(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set__isShown_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__padding(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set__separator(float_t value);
+
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  constexpr void __cordl_internal_set__zOffset(float_t value);
+
+  /// @brief Method .ctor, addr 0x227f8cc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_isShown, addr 0x227f6f8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isShown();
+
+  /// @brief Method set_isShown, addr 0x227f700, size 0xc, virtual false, abstract: false, final false
+  inline void set_isShown(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HoverHintPanel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HoverHintPanel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HoverHintPanel(HoverHintPanel&&) = delete;
@@ -122,12 +126,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HoverHintPanel(HoverHintPanel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HoverHintPanel();
-
-public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 

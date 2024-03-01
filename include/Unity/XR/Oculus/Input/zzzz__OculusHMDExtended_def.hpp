@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusHMDExtended);
 // SizeInfo { instance_size: 624, native_size: -1, calculated_instance_size: 624, calculated_native_size: 624, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15193))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15198))
 // CS Name: ::Unity.XR.Oculus.Input::OculusHMDExtended*
 class CORDL_TYPE OculusHMDExtended : public ::Unity::XR::Oculus::Input::OculusHMD {
 public:
@@ -37,38 +35,44 @@ public:
 
   __declspec(property(get = get_touchpad, put = set_touchpad))::UnityEngine::InputSystem::Controls::Vector2Control* touchpad;
 
+  /// @brief Method FinishSetup, addr 0x2d627e8, size 0xbc, virtual true, abstract: false, final false
+  inline void FinishSetup();
+
+  static inline ::Unity::XR::Oculus::Input::OculusHMDExtended* New_ctor();
+
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__back_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__back_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__back_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__touchpad_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__touchpad_k__BackingField() const;
 
+  constexpr void __cordl_internal_set__back_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
   constexpr void __cordl_internal_set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_back, addr 0x2c796f4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
-
-  /// @brief Method set_back, addr 0x2c796fc, size 0x8, virtual false, abstract: false, final false
-  inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  /// @brief Method get_touchpad, addr 0x2c79704, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
-
-  /// @brief Method set_touchpad, addr 0x2c7970c, size 0x8, virtual false, abstract: false, final false
-  inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
-
-  /// @brief Method FinishSetup, addr 0x2c79714, size 0xbc, virtual true, abstract: false, final false
-  inline void FinishSetup();
-
-  static inline ::Unity::XR::Oculus::Input::OculusHMDExtended* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c797d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d628a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_back, addr 0x2d627c8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
+
+  /// @brief Method get_touchpad, addr 0x2d627d8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
+
+  /// @brief Method set_back, addr 0x2d627d0, size 0x8, virtual false, abstract: false, final false
+  inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method set_touchpad, addr 0x2d627e0, size 0x8, virtual false, abstract: false, final false
+  inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OculusHMDExtended();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OculusHMDExtended", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusHMDExtended(OculusHMDExtended&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OculusHMDExtended(OculusHMDExtended const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusHMDExtended();
-
-public:
   /// @brief Field <back>k__BackingField, offset: 0x260, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____back_k__BackingField;
 

@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4504))
 // CS Name: ::MultiplayerLocalInactivePlayerInstaller*
 class CORDL_TYPE MultiplayerLocalInactivePlayerInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -41,67 +39,73 @@ public:
   /// @brief Field _audioManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
 
-  /// @brief Field _sceneSetupData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
-
   /// @brief Field _beatmapLoudnessModel, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLoudnessModel, put = __cordl_internal_set__beatmapLoudnessModel))::GlobalNamespace::PerceivedLoudnessPerLevelModel* _beatmapLoudnessModel;
-
-  /// @brief Field _relativeSfxVolumePerLevelModel, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__relativeSfxVolumePerLevelModel,
-                      put = __cordl_internal_set__relativeSfxVolumePerLevelModel))::GlobalNamespace::RelativeSfxVolumePerLevelModel* _relativeSfxVolumePerLevelModel;
-
-  /// @brief Field _playerDataModel, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _optionalAvatarDataSender, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__optionalAvatarDataSender,
                       put = __cordl_internal_set__optionalAvatarDataSender))::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
+  /// @brief Field _playerDataModel, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
+
+  /// @brief Field _relativeSfxVolumePerLevelModel, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__relativeSfxVolumePerLevelModel,
+                      put = __cordl_internal_set__relativeSfxVolumePerLevelModel))::GlobalNamespace::RelativeSfxVolumePerLevelModel* _relativeSfxVolumePerLevelModel;
+
+  /// @brief Field _sceneSetupData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
+
+  /// @brief Method InstallBindings, addr 0x246a840, size 0x310, virtual true, abstract: false, final false
+  inline void InstallBindings();
+
+  static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
 
-  constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
-
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
-
-  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
 
   constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& __cordl_internal_get__beatmapLoudnessModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerceivedLoudnessPerLevelModel*> const& __cordl_internal_get__beatmapLoudnessModel() const;
 
-  constexpr void __cordl_internal_set__beatmapLoudnessModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value);
+  constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender*& __cordl_internal_get__optionalAvatarDataSender();
+
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::OptionalAvatarDataSender*> const& __cordl_internal_get__optionalAvatarDataSender() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
   constexpr ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& __cordl_internal_get__relativeSfxVolumePerLevelModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RelativeSfxVolumePerLevelModel*> const& __cordl_internal_get__relativeSfxVolumePerLevelModel() const;
 
-  constexpr void __cordl_internal_set__relativeSfxVolumePerLevelModel(::GlobalNamespace::RelativeSfxVolumePerLevelModel* value);
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+  constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
 
-  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
-
-  constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender*& __cordl_internal_get__optionalAvatarDataSender();
-
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::OptionalAvatarDataSender*> const& __cordl_internal_get__optionalAvatarDataSender() const;
+  constexpr void __cordl_internal_set__beatmapLoudnessModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value);
 
   constexpr void __cordl_internal_set__optionalAvatarDataSender(::BeatSaber::AvatarCore::OptionalAvatarDataSender* value);
 
-  /// @brief Method InstallBindings, addr 0x239b8f8, size 0x310, virtual true, abstract: false, final false
-  inline void InstallBindings();
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller* New_ctor();
+  constexpr void __cordl_internal_set__relativeSfxVolumePerLevelModel(::GlobalNamespace::RelativeSfxVolumePerLevelModel* value);
 
-  /// @brief Method .ctor, addr 0x239bc54, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+
+  /// @brief Method .ctor, addr 0x246ab9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLocalInactivePlayerInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayerInstaller&&) = delete;
@@ -110,12 +114,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayerInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLocalInactivePlayerInstaller();
-
-public:
   /// @brief Field _audioManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioManagerSO> ____audioManager;
 

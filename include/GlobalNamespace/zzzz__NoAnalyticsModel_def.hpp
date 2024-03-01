@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::NoAnalyticsModel);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16424))
 // CS Name: ::NoAnalyticsModel*
 class CORDL_TYPE NoAnalyticsModel : public ::System::Object {
 public:
@@ -32,35 +30,41 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
-  constexpr ::GlobalNamespace::IAnalyticsModel* i___GlobalNamespace__IAnalyticsModel() noexcept;
-
-  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0xe0d2ec, size 0x8, virtual true, abstract: false, final true
-  inline bool get_supportsOpenDataPrivacyPage();
-
-  /// @brief Method OpenDataPrivacyPage, addr 0xe0d2f4, size 0x4, virtual true, abstract: false, final true
-  inline void OpenDataPrivacyPage();
-
-  /// @brief Method LogEditAvatarEvent, addr 0xe0d2f8, size 0x4, virtual true, abstract: false, final true
-  inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
-
-  /// @brief Method LogEvent, addr 0xe0d2fc, size 0x4, virtual true, abstract: false, final true
-  inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
-
-  /// @brief Method LogClick, addr 0xe0d300, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogClick, addr 0xe52e64, size 0x4, virtual true, abstract: false, final true
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogImpression, addr 0xe0d304, size 0x4, virtual true, abstract: false, final true
-  inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
+  /// @brief Method LogEditAvatarEvent, addr 0xe52e5c, size 0x4, virtual true, abstract: false, final true
+  inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogExposure, addr 0xe0d308, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogEvent, addr 0xe52e60, size 0x4, virtual true, abstract: false, final true
+  inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
+
+  /// @brief Method LogExposure, addr 0xe52e6c, size 0x4, virtual true, abstract: false, final true
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
+
+  /// @brief Method LogImpression, addr 0xe52e68, size 0x4, virtual true, abstract: false, final true
+  inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
   static inline ::GlobalNamespace::NoAnalyticsModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe0d30c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OpenDataPrivacyPage, addr 0xe52e58, size 0x4, virtual true, abstract: false, final true
+  inline void OpenDataPrivacyPage();
+
+  /// @brief Method .ctor, addr 0xe52e70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0xe52e50, size 0x8, virtual true, abstract: false, final true
+  inline bool get_supportsOpenDataPrivacyPage();
+
+  /// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
+  constexpr ::GlobalNamespace::IAnalyticsModel* i___GlobalNamespace__IAnalyticsModel() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoAnalyticsModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoAnalyticsModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoAnalyticsModel(NoAnalyticsModel&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoAnalyticsModel(NoAnalyticsModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoAnalyticsModel();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

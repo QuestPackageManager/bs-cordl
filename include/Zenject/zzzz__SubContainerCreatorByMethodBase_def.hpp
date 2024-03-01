@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByMethodBase);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10388))
 // CS Name: ::Zenject::SubContainerCreatorByMethodBase*
 class CORDL_TYPE SubContainerCreatorByMethodBase : public ::System::Object {
 public:
@@ -47,32 +45,38 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Convert to "::Zenject::ISubContainerCreator"
-  constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
+  /// @brief Method CreateEmptySubContainer, addr 0x301b000, size 0x3c, virtual false, abstract: false, final false
+  inline ::Zenject::DiContainer* CreateEmptySubContainer();
+
+  /// @brief Method CreateSubContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
+
+  static inline ::Zenject::SubContainerCreatorByMethodBase* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo);
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
-
   constexpr ::Zenject::SubContainerCreatorBindInfo*& __cordl_internal_get__containerBindInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const& __cordl_internal_get__containerBindInfo() const;
 
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
   constexpr void __cordl_internal_set__containerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
-  static inline ::Zenject::SubContainerCreatorByMethodBase* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo);
-
-  /// @brief Method .ctor, addr 0x2f278ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x301afd4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo);
 
-  /// @brief Method CreateSubContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
+  /// @brief Convert to "::Zenject::ISubContainerCreator"
+  constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
-  /// @brief Method CreateEmptySubContainer, addr 0x2f278d8, size 0x3c, virtual false, abstract: false, final false
-  inline ::Zenject::DiContainer* CreateEmptySubContainer();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SubContainerCreatorByMethodBase();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethodBase", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorByMethodBase(SubContainerCreatorByMethodBase&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorByMethodBase(SubContainerCreatorByMethodBase const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubContainerCreatorByMethodBase();
-
-public:
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 

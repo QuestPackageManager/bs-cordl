@@ -112,8 +112,6 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9315))
 // CS Name: ::PreLateUpdate::Physics2DLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__Physics2DLateUpdate {
@@ -140,8 +138,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9316))
 // CS Name: ::PreLateUpdate::AIUpdatePostScript
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__AIUpdatePostScript {
@@ -168,8 +164,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9317))
 // CS Name: ::PreLateUpdate::DirectorUpdateAnimationBegin
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__DirectorUpdateAnimationBegin {
@@ -196,8 +190,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9318))
 // CS Name: ::PreLateUpdate::LegacyAnimationUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__LegacyAnimationUpdate {
@@ -224,8 +216,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9319))
 // CS Name: ::PreLateUpdate::DirectorUpdateAnimationEnd
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__DirectorUpdateAnimationEnd {
@@ -252,8 +242,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9320))
 // CS Name: ::PreLateUpdate::DirectorDeferredEvaluate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__DirectorDeferredEvaluate {
@@ -280,8 +268,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9321))
 // CS Name: ::PreLateUpdate::UIElementsUpdatePanels
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__UIElementsUpdatePanels {
@@ -308,8 +294,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9322))
 // CS Name: ::PreLateUpdate::UpdateNetworkManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__UpdateNetworkManager {
@@ -336,8 +320,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9323))
 // CS Name: ::PreLateUpdate::UpdateMasterServerInterface
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__UpdateMasterServerInterface {
@@ -364,8 +346,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9324))
 // CS Name: ::PreLateUpdate::UNetUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__UNetUpdate {
@@ -392,8 +372,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9325))
 // CS Name: ::PreLateUpdate::EndGraphicsJobsAfterScriptUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__EndGraphicsJobsAfterScriptUpdate {
@@ -420,8 +398,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9326))
 // CS Name: ::PreLateUpdate::ParticleSystemBeginUpdateAll
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__ParticleSystemBeginUpdateAll {
@@ -448,8 +424,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9327))
 // CS Name: ::PreLateUpdate::ScriptRunBehaviourLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__ScriptRunBehaviourLateUpdate {
@@ -476,8 +450,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9328))
 // CS Name: ::PreLateUpdate::ConstraintManagerUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PreLateUpdate__ConstraintManagerUpdate {
@@ -504,40 +476,38 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreLa
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9329))
 // CS Name: ::UnityEngine.PlayerLoop::PreLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE PreLateUpdate {
 public:
   // Declarations
+  using AIUpdatePostScript = ::UnityEngine::PlayerLoop::__PreLateUpdate__AIUpdatePostScript;
+
   using ConstraintManagerUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__ConstraintManagerUpdate;
 
-  using ScriptRunBehaviourLateUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__ScriptRunBehaviourLateUpdate;
+  using DirectorDeferredEvaluate = ::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorDeferredEvaluate;
+
+  using DirectorUpdateAnimationBegin = ::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationBegin;
+
+  using DirectorUpdateAnimationEnd = ::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationEnd;
+
+  using EndGraphicsJobsAfterScriptUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__EndGraphicsJobsAfterScriptUpdate;
+
+  using LegacyAnimationUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__LegacyAnimationUpdate;
 
   using ParticleSystemBeginUpdateAll = ::UnityEngine::PlayerLoop::__PreLateUpdate__ParticleSystemBeginUpdateAll;
 
-  using EndGraphicsJobsAfterScriptUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__EndGraphicsJobsAfterScriptUpdate;
+  using Physics2DLateUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate;
+
+  using ScriptRunBehaviourLateUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__ScriptRunBehaviourLateUpdate;
+
+  using UIElementsUpdatePanels = ::UnityEngine::PlayerLoop::__PreLateUpdate__UIElementsUpdatePanels;
 
   using UNetUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__UNetUpdate;
 
   using UpdateMasterServerInterface = ::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateMasterServerInterface;
 
   using UpdateNetworkManager = ::UnityEngine::PlayerLoop::__PreLateUpdate__UpdateNetworkManager;
-
-  using UIElementsUpdatePanels = ::UnityEngine::PlayerLoop::__PreLateUpdate__UIElementsUpdatePanels;
-
-  using DirectorDeferredEvaluate = ::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorDeferredEvaluate;
-
-  using DirectorUpdateAnimationEnd = ::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationEnd;
-
-  using LegacyAnimationUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__LegacyAnimationUpdate;
-
-  using DirectorUpdateAnimationBegin = ::UnityEngine::PlayerLoop::__PreLateUpdate__DirectorUpdateAnimationBegin;
-
-  using AIUpdatePostScript = ::UnityEngine::PlayerLoop::__PreLateUpdate__AIUpdatePostScript;
-
-  using Physics2DLateUpdate = ::UnityEngine::PlayerLoop::__PreLateUpdate__Physics2DLateUpdate;
 
   // Ctor Parameters []
   // @brief default ctor

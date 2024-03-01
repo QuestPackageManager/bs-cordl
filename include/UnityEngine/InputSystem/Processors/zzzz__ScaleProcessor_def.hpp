@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ScaleProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5495)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5495), inst: 391 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5849))
 // CS Name: ::UnityEngine.InputSystem.Processors::ScaleProcessor*
 class CORDL_TYPE ScaleProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
@@ -28,23 +26,29 @@ public:
   /// @brief Field factor, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_factor, put = __cordl_internal_set_factor)) float_t factor;
 
-  constexpr float_t& __cordl_internal_get_factor();
+  static inline ::UnityEngine::InputSystem::Processors::ScaleProcessor* New_ctor();
+
+  /// @brief Method Process, addr 0x2bdf74c, size 0xc, virtual true, abstract: false, final false
+  inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
+
+  /// @brief Method ToString, addr 0x2bdf758, size 0x84, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_factor() const;
 
+  constexpr float_t& __cordl_internal_get_factor();
+
   constexpr void __cordl_internal_set_factor(float_t value);
 
-  /// @brief Method Process, addr 0x2afa678, size 0xc, virtual true, abstract: false, final false
-  inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
-
-  /// @brief Method ToString, addr 0x2afa684, size 0x84, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  static inline ::UnityEngine::InputSystem::Processors::ScaleProcessor* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2afa708, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bdf7dc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScaleProcessor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScaleProcessor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScaleProcessor(ScaleProcessor&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScaleProcessor(ScaleProcessor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScaleProcessor();
-
-public:
   /// @brief Field factor, offset: 0x10, size: 0x4, def value: None
   float_t ___factor;
 

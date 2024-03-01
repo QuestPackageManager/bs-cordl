@@ -19,22 +19,27 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9037)), TypeDefinitionIndex(TypeDefinitionIndex(14095)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14095), inst:
-// 779 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14101)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceAtlasedSprite*
+// CS Name: ::UnityEngine.AddressableAssets::AssetReferenceAtlasedSprite*
 class CORDL_TYPE AssetReferenceAtlasedSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::Sprite>> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x2a267f0, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(::StringW guid);
-
-  /// @brief Method ValidateAsset, addr 0x2a26848, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x2b0e91c, size 0x78, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x2a268c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x2b0e994, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
+  /// @brief Method .ctor, addr 0x2b0e8c4, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::StringW guid);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetReferenceAtlasedSprite();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceAtlasedSprite", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetReferenceAtlasedSprite(AssetReferenceAtlasedSprite&&) = delete;
@@ -43,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetReferenceAtlasedSprite(AssetReferenceAtlasedSprite const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetReferenceAtlasedSprite();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

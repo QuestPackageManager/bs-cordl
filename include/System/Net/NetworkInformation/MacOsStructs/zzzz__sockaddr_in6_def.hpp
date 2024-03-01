@@ -19,21 +19,19 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in6);
 // SizeInfo { instance_size: 24, native_size: 28, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7307))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7308))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::sockaddr_in6
 struct CORDL_TYPE sockaddr_in6 {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr sockaddr_in6();
+
   // Ctor Parameters [CppParam { name: "sin6_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sin6_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
   // "sin6_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin6_flowinfo", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "sin6_addr", ty:
   // "::System::Net::NetworkInformation::MacOsStructs::in6_addr", modifiers: "", def_value: None }, CppParam { name: "sin6_scope_id", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr sockaddr_in6(uint8_t sin6_len, uint8_t sin6_family, uint16_t sin6_port, uint32_t sin6_flowinfo, ::System::Net::NetworkInformation::MacOsStructs::in6_addr sin6_addr,
                          uint32_t sin6_scope_id) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr sockaddr_in6();
 
   /// @brief Field sin6_len, offset: 0x0, size: 0x1, def value: None
   uint8_t sin6_len;

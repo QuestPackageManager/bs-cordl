@@ -31,28 +31,43 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonContainerAttribute);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(11737)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11738)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4737 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4745 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11713)) CS Name:
-// ::Newtonsoft.Json::JsonContainerAttribute*
+// CS Name: ::Newtonsoft.Json::JsonContainerAttribute*
 class CORDL_TYPE JsonContainerAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field <Id>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Id_k__BackingField, put = __cordl_internal_set__Id_k__BackingField))::StringW _Id_k__BackingField;
+  __declspec(property(get = get_Description, put = set_Description))::StringW Description;
 
-  /// @brief Field <Title>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Title_k__BackingField, put = __cordl_internal_set__Title_k__BackingField))::StringW _Title_k__BackingField;
+  __declspec(property(get = get_Id, put = set_Id))::StringW Id;
+
+  __declspec(property(get = get_IsReference, put = set_IsReference)) bool IsReference;
+
+  __declspec(property(get = get_ItemConverterParameters, put = set_ItemConverterParameters))::ArrayW<::System::Object*, ::Array<::System::Object*>*> ItemConverterParameters;
+
+  __declspec(property(get = get_ItemConverterType, put = set_ItemConverterType))::System::Type* ItemConverterType;
+
+  __declspec(property(get = get_ItemIsReference, put = set_ItemIsReference)) bool ItemIsReference;
+
+  __declspec(property(get = get_ItemReferenceLoopHandling, put = set_ItemReferenceLoopHandling))::Newtonsoft::Json::ReferenceLoopHandling ItemReferenceLoopHandling;
+
+  __declspec(property(get = get_ItemTypeNameHandling, put = set_ItemTypeNameHandling))::Newtonsoft::Json::TypeNameHandling ItemTypeNameHandling;
+
+  __declspec(property(get = get_Title, put = set_Title))::StringW Title;
 
   /// @brief Field <Description>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__Description_k__BackingField, put = __cordl_internal_set__Description_k__BackingField))::StringW _Description_k__BackingField;
 
-  /// @brief Field <ItemConverterType>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__ItemConverterType_k__BackingField, put = __cordl_internal_set__ItemConverterType_k__BackingField))::System::Type* _ItemConverterType_k__BackingField;
+  /// @brief Field <Id>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Id_k__BackingField, put = __cordl_internal_set__Id_k__BackingField))::StringW _Id_k__BackingField;
 
   /// @brief Field <ItemConverterParameters>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__ItemConverterParameters_k__BackingField,
                       put = __cordl_internal_set__ItemConverterParameters_k__BackingField))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _ItemConverterParameters_k__BackingField;
+
+  /// @brief Field <ItemConverterType>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__ItemConverterType_k__BackingField, put = __cordl_internal_set__ItemConverterType_k__BackingField))::System::Type* _ItemConverterType_k__BackingField;
+
+  /// @brief Field <Title>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__Title_k__BackingField, put = __cordl_internal_set__Title_k__BackingField))::StringW _Title_k__BackingField;
 
   /// @brief Field _isReference, offset 0x38, size 0x2
   __declspec(property(get = __cordl_internal_get__isReference, put = __cordl_internal_set__isReference))::System::Nullable_1<bool> _isReference;
@@ -68,142 +83,130 @@ public:
   __declspec(property(get = __cordl_internal_get__itemTypeNameHandling,
                       put = __cordl_internal_set__itemTypeNameHandling))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _itemTypeNameHandling;
 
-  __declspec(property(get = get_Id, put = set_Id))::StringW Id;
+  static inline ::Newtonsoft::Json::JsonContainerAttribute* New_ctor();
 
-  __declspec(property(get = get_Title, put = set_Title))::StringW Title;
-
-  __declspec(property(get = get_Description, put = set_Description))::StringW Description;
-
-  __declspec(property(get = get_ItemConverterType, put = set_ItemConverterType))::System::Type* ItemConverterType;
-
-  __declspec(property(get = get_ItemConverterParameters, put = set_ItemConverterParameters))::ArrayW<::System::Object*, ::Array<::System::Object*>*> ItemConverterParameters;
-
-  __declspec(property(get = get_IsReference, put = set_IsReference)) bool IsReference;
-
-  __declspec(property(get = get_ItemIsReference, put = set_ItemIsReference)) bool ItemIsReference;
-
-  __declspec(property(get = get_ItemReferenceLoopHandling, put = set_ItemReferenceLoopHandling))::Newtonsoft::Json::ReferenceLoopHandling ItemReferenceLoopHandling;
-
-  __declspec(property(get = get_ItemTypeNameHandling, put = set_ItemTypeNameHandling))::Newtonsoft::Json::TypeNameHandling ItemTypeNameHandling;
-
-  constexpr ::StringW& __cordl_internal_get__Id_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__Id_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Id_k__BackingField(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__Title_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__Title_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Title_k__BackingField(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__Description_k__BackingField();
+  static inline ::Newtonsoft::Json::JsonContainerAttribute* New_ctor(::StringW id);
 
   constexpr ::StringW const& __cordl_internal_get__Description_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Description_k__BackingField(::StringW value);
+  constexpr ::StringW& __cordl_internal_get__Description_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__Id_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__Id_k__BackingField();
+
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__ItemConverterParameters_k__BackingField() const;
+
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__ItemConverterParameters_k__BackingField();
 
   constexpr ::System::Type*& __cordl_internal_get__ItemConverterType_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__ItemConverterType_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__ItemConverterType_k__BackingField(::System::Type* value);
+  constexpr ::StringW const& __cordl_internal_get__Title_k__BackingField() const;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__ItemConverterParameters_k__BackingField();
-
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__ItemConverterParameters_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ItemConverterParameters_k__BackingField(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
-
-  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__isReference();
+  constexpr ::StringW& __cordl_internal_get__Title_k__BackingField();
 
   constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__isReference() const;
 
-  constexpr void __cordl_internal_set__isReference(::System::Nullable_1<bool> value);
-
-  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__itemIsReference();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__isReference();
 
   constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__itemIsReference() const;
 
-  constexpr void __cordl_internal_set__itemIsReference(::System::Nullable_1<bool> value);
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __cordl_internal_get__itemReferenceLoopHandling();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__itemIsReference();
 
   constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __cordl_internal_get__itemReferenceLoopHandling() const;
 
-  constexpr void __cordl_internal_set__itemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __cordl_internal_get__itemTypeNameHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __cordl_internal_get__itemReferenceLoopHandling();
 
   constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __cordl_internal_get__itemTypeNameHandling() const;
 
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __cordl_internal_get__itemTypeNameHandling();
+
+  constexpr void __cordl_internal_set__Description_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__Id_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__ItemConverterParameters_k__BackingField(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+
+  constexpr void __cordl_internal_set__ItemConverterType_k__BackingField(::System::Type* value);
+
+  constexpr void __cordl_internal_set__Title_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__isReference(::System::Nullable_1<bool> value);
+
+  constexpr void __cordl_internal_set__itemIsReference(::System::Nullable_1<bool> value);
+
+  constexpr void __cordl_internal_set__itemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
+
   constexpr void __cordl_internal_set__itemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
-  /// @brief Method get_Id, addr 0x26631d8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Id();
-
-  /// @brief Method set_Id, addr 0x26631e0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Id(::StringW value);
-
-  /// @brief Method get_Title, addr 0x26631e8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Title();
-
-  /// @brief Method set_Title, addr 0x26631f0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Title(::StringW value);
-
-  /// @brief Method get_Description, addr 0x26631f8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Description();
-
-  /// @brief Method set_Description, addr 0x2663200, size 0x8, virtual false, abstract: false, final false
-  inline void set_Description(::StringW value);
-
-  /// @brief Method get_ItemConverterType, addr 0x2663208, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_ItemConverterType();
-
-  /// @brief Method set_ItemConverterType, addr 0x2663210, size 0x8, virtual false, abstract: false, final false
-  inline void set_ItemConverterType(::System::Type* value);
-
-  /// @brief Method get_ItemConverterParameters, addr 0x2663218, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ItemConverterParameters();
-
-  /// @brief Method set_ItemConverterParameters, addr 0x2663220, size 0x8, virtual false, abstract: false, final false
-  inline void set_ItemConverterParameters(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
-
-  /// @brief Method get_IsReference, addr 0x2663228, size 0x5c, virtual false, abstract: false, final false
-  inline bool get_IsReference();
-
-  /// @brief Method set_IsReference, addr 0x2663284, size 0x68, virtual false, abstract: false, final false
-  inline void set_IsReference(bool value);
-
-  /// @brief Method get_ItemIsReference, addr 0x26632ec, size 0x5c, virtual false, abstract: false, final false
-  inline bool get_ItemIsReference();
-
-  /// @brief Method set_ItemIsReference, addr 0x2663348, size 0x68, virtual false, abstract: false, final false
-  inline void set_ItemIsReference(bool value);
-
-  /// @brief Method get_ItemReferenceLoopHandling, addr 0x26633b0, size 0x50, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::ReferenceLoopHandling get_ItemReferenceLoopHandling();
-
-  /// @brief Method set_ItemReferenceLoopHandling, addr 0x2663400, size 0x68, virtual false, abstract: false, final false
-  inline void set_ItemReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling value);
-
-  /// @brief Method get_ItemTypeNameHandling, addr 0x2663468, size 0x50, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::TypeNameHandling get_ItemTypeNameHandling();
-
-  /// @brief Method set_ItemTypeNameHandling, addr 0x26634b8, size 0x68, virtual false, abstract: false, final false
-  inline void set_ItemTypeNameHandling(::Newtonsoft::Json::TypeNameHandling value);
-
-  static inline ::Newtonsoft::Json::JsonContainerAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2662580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2731ccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Newtonsoft::Json::JsonContainerAttribute* New_ctor(::StringW id);
-
-  /// @brief Method .ctor, addr 0x26625b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2731cfc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
+  /// @brief Method get_Description, addr 0x2732944, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Description();
+
+  /// @brief Method get_Id, addr 0x2732924, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Id();
+
+  /// @brief Method get_IsReference, addr 0x2732974, size 0x5c, virtual false, abstract: false, final false
+  inline bool get_IsReference();
+
+  /// @brief Method get_ItemConverterParameters, addr 0x2732964, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ItemConverterParameters();
+
+  /// @brief Method get_ItemConverterType, addr 0x2732954, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Type* get_ItemConverterType();
+
+  /// @brief Method get_ItemIsReference, addr 0x2732a38, size 0x5c, virtual false, abstract: false, final false
+  inline bool get_ItemIsReference();
+
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x2732afc, size 0x50, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::ReferenceLoopHandling get_ItemReferenceLoopHandling();
+
+  /// @brief Method get_ItemTypeNameHandling, addr 0x2732bb4, size 0x50, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::TypeNameHandling get_ItemTypeNameHandling();
+
+  /// @brief Method get_Title, addr 0x2732934, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Title();
+
+  /// @brief Method set_Description, addr 0x273294c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Description(::StringW value);
+
+  /// @brief Method set_Id, addr 0x273292c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Id(::StringW value);
+
+  /// @brief Method set_IsReference, addr 0x27329d0, size 0x68, virtual false, abstract: false, final false
+  inline void set_IsReference(bool value);
+
+  /// @brief Method set_ItemConverterParameters, addr 0x273296c, size 0x8, virtual false, abstract: false, final false
+  inline void set_ItemConverterParameters(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+
+  /// @brief Method set_ItemConverterType, addr 0x273295c, size 0x8, virtual false, abstract: false, final false
+  inline void set_ItemConverterType(::System::Type* value);
+
+  /// @brief Method set_ItemIsReference, addr 0x2732a94, size 0x68, virtual false, abstract: false, final false
+  inline void set_ItemIsReference(bool value);
+
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x2732b4c, size 0x68, virtual false, abstract: false, final false
+  inline void set_ItemReferenceLoopHandling(::Newtonsoft::Json::ReferenceLoopHandling value);
+
+  /// @brief Method set_ItemTypeNameHandling, addr 0x2732c04, size 0x68, virtual false, abstract: false, final false
+  inline void set_ItemTypeNameHandling(::Newtonsoft::Json::TypeNameHandling value);
+
+  /// @brief Method set_Title, addr 0x273293c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Title(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonContainerAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonContainerAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonContainerAttribute(JsonContainerAttribute&&) = delete;
@@ -212,12 +215,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonContainerAttribute(JsonContainerAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonContainerAttribute();
-
-public:
   /// @brief Field <Id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Id_k__BackingField;
 

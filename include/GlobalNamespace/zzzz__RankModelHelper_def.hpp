@@ -24,16 +24,20 @@ MARK_REF_PTR_T(::GlobalNamespace::RankModelHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11068))
 // CS Name: ::RankModelHelper*
 class CORDL_TYPE RankModelHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MaxRankForGameplayModifiers, addr 0x12b8854, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MaxRankForGameplayModifiers, addr 0x12f9824, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__RankModel__Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                                  ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RankModelHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RankModelHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RankModelHelper(RankModelHelper&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RankModelHelper(RankModelHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RankModelHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -30,59 +30,63 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomFogParamsBehaviour);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9193))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5284))
 // CS Name: ::BloomFogParamsBehaviour*
 class CORDL_TYPE BloomFogParamsBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
-  /// @brief Field _bloomFogParams, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomFogParams, put = __cordl_internal_set__bloomFogParams))::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> _bloomFogParams;
-
   /// @brief Field _blend, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__blend, put = __cordl_internal_set__blend)) float_t _blend;
 
   /// @brief Field _bloomFog, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog))::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
 
+  /// @brief Field _bloomFogParams, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomFogParams, put = __cordl_internal_set__bloomFogParams))::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> _bloomFogParams;
+
   /// @brief Field _initialized, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& __cordl_internal_get__bloomFogParams();
+  static inline ::GlobalNamespace::BloomFogParamsBehaviour* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> const& __cordl_internal_get__bloomFogParams() const;
+  /// @brief Method OnPlayableDestroy, addr 0x24106d0, size 0x90, virtual true, abstract: false, final false
+  inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  constexpr void __cordl_internal_set__bloomFogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
-
-  constexpr float_t& __cordl_internal_get__blend();
+  /// @brief Method ProcessFrame, addr 0x2410578, size 0x158, virtual true, abstract: false, final false
+  inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__blend() const;
 
-  constexpr void __cordl_internal_set__blend(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
+  constexpr float_t& __cordl_internal_get__blend();
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
 
-  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
+  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
 
-  constexpr bool& __cordl_internal_get__initialized();
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> const& __cordl_internal_get__bloomFogParams() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& __cordl_internal_get__bloomFogParams();
 
   constexpr bool const& __cordl_internal_get__initialized() const;
 
+  constexpr bool& __cordl_internal_get__initialized();
+
+  constexpr void __cordl_internal_set__blend(float_t value);
+
+  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
+
+  constexpr void __cordl_internal_set__bloomFogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
+
   constexpr void __cordl_internal_set__initialized(bool value);
 
-  /// @brief Method ProcessFrame, addr 0x2341630, size 0x158, virtual true, abstract: false, final false
-  inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
-
-  /// @brief Method OnPlayableDestroy, addr 0x2341788, size 0x90, virtual true, abstract: false, final false
-  inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
-
-  static inline ::GlobalNamespace::BloomFogParamsBehaviour* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2341818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2410760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomFogParamsBehaviour();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomFogParamsBehaviour", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomFogParamsBehaviour(BloomFogParamsBehaviour&&) = delete;
@@ -91,12 +95,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomFogParamsBehaviour(BloomFogParamsBehaviour const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomFogParamsBehaviour();
-
-public:
   /// @brief Field _bloomFogParams, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> ____bloomFogParams;
 

@@ -20,66 +20,64 @@ MARK_VAL_T(::UnityEngineInternal::Input::NativeInputEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngineInternal::Input {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16219))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16221))
 // CS Name: ::UnityEngineInternal.Input::NativeInputEvent
 #pragma pack(push, 1)
 struct CORDL_TYPE NativeInputEvent {
 public:
   // Declarations
-  /// @brief Field type, offset 0x0, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::UnityEngineInternal::Input::NativeInputEventType type;
-
-  /// @brief Field sizeInBytes, offset 0x4, size 0x2
-  __declspec(property(get = __cordl_internal_get_sizeInBytes, put = __cordl_internal_set_sizeInBytes)) uint16_t sizeInBytes;
-
   /// @brief Field deviceId, offset 0x6, size 0x2
   __declspec(property(get = __cordl_internal_get_deviceId, put = __cordl_internal_set_deviceId)) uint16_t deviceId;
-
-  /// @brief Field time, offset 0x8, size 0x8
-  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) double_t time;
 
   /// @brief Field eventId, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_eventId, put = __cordl_internal_set_eventId)) int32_t eventId;
 
-  constexpr ::UnityEngineInternal::Input::NativeInputEventType& __cordl_internal_get_type();
+  /// @brief Field sizeInBytes, offset 0x4, size 0x2
+  __declspec(property(get = __cordl_internal_get_sizeInBytes, put = __cordl_internal_set_sizeInBytes)) uint16_t sizeInBytes;
 
-  constexpr ::UnityEngineInternal::Input::NativeInputEventType const& __cordl_internal_get_type() const;
+  /// @brief Field time, offset 0x8, size 0x8
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) double_t time;
 
-  constexpr void __cordl_internal_set_type(::UnityEngineInternal::Input::NativeInputEventType value);
-
-  constexpr uint16_t& __cordl_internal_get_sizeInBytes();
-
-  constexpr uint16_t const& __cordl_internal_get_sizeInBytes() const;
-
-  constexpr void __cordl_internal_set_sizeInBytes(uint16_t value);
-
-  constexpr uint16_t& __cordl_internal_get_deviceId();
+  /// @brief Field type, offset 0x0, size 0x4
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::UnityEngineInternal::Input::NativeInputEventType type;
 
   constexpr uint16_t const& __cordl_internal_get_deviceId() const;
 
-  constexpr void __cordl_internal_set_deviceId(uint16_t value);
-
-  constexpr double_t& __cordl_internal_get_time();
-
-  constexpr double_t const& __cordl_internal_get_time() const;
-
-  constexpr void __cordl_internal_set_time(double_t value);
-
-  constexpr int32_t& __cordl_internal_get_eventId();
+  constexpr uint16_t& __cordl_internal_get_deviceId();
 
   constexpr int32_t const& __cordl_internal_get_eventId() const;
 
+  constexpr int32_t& __cordl_internal_get_eventId();
+
+  constexpr uint16_t const& __cordl_internal_get_sizeInBytes() const;
+
+  constexpr uint16_t& __cordl_internal_get_sizeInBytes();
+
+  constexpr double_t const& __cordl_internal_get_time() const;
+
+  constexpr double_t& __cordl_internal_get_time();
+
+  constexpr ::UnityEngineInternal::Input::NativeInputEventType const& __cordl_internal_get_type() const;
+
+  constexpr ::UnityEngineInternal::Input::NativeInputEventType& __cordl_internal_get_type();
+
+  constexpr void __cordl_internal_set_deviceId(uint16_t value);
+
   constexpr void __cordl_internal_set_eventId(int32_t value);
+
+  constexpr void __cordl_internal_set_sizeInBytes(uint16_t value);
+
+  constexpr void __cordl_internal_set_time(double_t value);
+
+  constexpr void __cordl_internal_set_type(::UnityEngineInternal::Input::NativeInputEventType value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeInputEvent();
 
   // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngineInternal::Input::NativeInputEventType", modifiers: "", def_value: None }, CppParam { name: "sizeInBytes", ty: "uint16_t", modifiers:
   // "", def_value: None }, CppParam { name: "deviceId", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name:
   // "eventId", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr NativeInputEvent(::UnityEngineInternal::Input::NativeInputEventType type, uint16_t sizeInBytes, uint16_t deviceId, double_t time, int32_t eventId) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeInputEvent();
 
 private:
   /// @brief Explicitly laid out type with union based offsets

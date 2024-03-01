@@ -40,73 +40,77 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(15251))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15384))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarAnalytics*
 class CORDL_TYPE EditAvatarAnalytics : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _avatarEditorFlowCoordinator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarEditorFlowCoordinator,
-                      put = __cordl_internal_set__avatarEditorFlowCoordinator))::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> _avatarEditorFlowCoordinator;
-
   /// @brief Field _analyticsModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
   /// @brief Field _avatarDataModel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarDataModel, put = __cordl_internal_set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
 
+  /// @brief Field _avatarEditorFlowCoordinator, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarEditorFlowCoordinator,
+                      put = __cordl_internal_set__avatarEditorFlowCoordinator))::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> _avatarEditorFlowCoordinator;
+
   /// @brief Field _lastEditMode, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__lastEditMode, put = __cordl_internal_set__lastEditMode))::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode _lastEditMode;
 
-  constexpr ::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator>& __cordl_internal_get__avatarEditorFlowCoordinator();
+  /// @brief Method Awake, addr 0xe69490, size 0x154, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> const& __cordl_internal_get__avatarEditorFlowCoordinator() const;
+  /// @brief Method CreateEditAvatarEventData, addr 0xe6985c, size 0x278, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateEditAvatarEventData();
 
-  constexpr void __cordl_internal_set__avatarEditorFlowCoordinator(::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> value);
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0xe69ad4, size 0xf8, virtual false, abstract: false, final false
+  inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata,
+                                                         ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__FinishAction finishAction);
+
+  /// @brief Method HandleAvatarEditorFlowCoordinatorDidSetup, addr 0xe69784, size 0xd8, virtual false, abstract: false, final false
+  inline void HandleAvatarEditorFlowCoordinatorDidSetup(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode editMode);
+
+  /// @brief Method HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed, addr 0xe69bcc, size 0xd0, virtual false, abstract: false, final false
+  inline void HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed();
+
+  static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0xe695e4, size 0x1a0, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
 
-  constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
-
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __cordl_internal_get__avatarDataModel();
 
   constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __cordl_internal_get__avatarDataModel() const;
 
-  constexpr void __cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
+  constexpr ::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> const& __cordl_internal_get__avatarEditorFlowCoordinator() const;
 
-  constexpr ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode& __cordl_internal_get__lastEditMode();
+  constexpr ::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator>& __cordl_internal_get__avatarEditorFlowCoordinator();
 
   constexpr ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode const& __cordl_internal_get__lastEditMode() const;
 
+  constexpr ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode& __cordl_internal_get__lastEditMode();
+
+  constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
+
+  constexpr void __cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
+
+  constexpr void __cordl_internal_set__avatarEditorFlowCoordinator(::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> value);
+
   constexpr void __cordl_internal_set__lastEditMode(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode value);
 
-  /// @brief Method Awake, addr 0xe2392c, size 0x154, virtual false, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method OnDestroy, addr 0xe23a80, size 0x1a0, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidSetup, addr 0xe23c20, size 0xd8, virtual false, abstract: false, final false
-  inline void HandleAvatarEditorFlowCoordinatorDidSetup(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode editMode);
-
-  /// @brief Method HandleAvatarEditorFlowCoordinatorDidFinish, addr 0xe23f70, size 0xf8, virtual false, abstract: false, final false
-  inline void HandleAvatarEditorFlowCoordinatorDidFinish(::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* flowCoordinator, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata,
-                                                         ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__FinishAction finishAction);
-
-  /// @brief Method HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed, addr 0xe24068, size 0xd0, virtual false, abstract: false, final false
-  inline void HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed();
-
-  /// @brief Method CreateEditAvatarEventData, addr 0xe23cf8, size 0x278, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateEditAvatarEventData();
-
-  static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe24138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe69c9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EditAvatarAnalytics();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EditAvatarAnalytics", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EditAvatarAnalytics(EditAvatarAnalytics&&) = delete;
@@ -115,12 +119,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EditAvatarAnalytics(EditAvatarAnalytics const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EditAvatarAnalytics();
-
-public:
   /// @brief Field _avatarEditorFlowCoordinator, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> ____avatarEditorFlowCoordinator;
 

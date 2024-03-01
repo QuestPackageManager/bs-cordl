@@ -23,25 +23,23 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKTransform);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14982)), TypeDefinitionIndex(TypeDefinitionIndex(14983))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14992))
 // CS Name: ::LIV.SDK.Unity::SDKTransform
 struct CORDL_TYPE SDKTransform {
 public:
   // Declarations
-  /// @brief Method get_empty, addr 0x22aab50, size 0x14, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKTransform get_empty();
-
-  /// @brief Method ToString, addr 0x22ab5a8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2377c10, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  // Ctor Parameters [CppParam { name: "localPosition", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "localRotation", ty: "::LIV::SDK::Unity::SDKQuaternion",
-  // modifiers: "", def_value: None }, CppParam { name: "localScale", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }]
-  constexpr SDKTransform(::LIV::SDK::Unity::SDKVector3 localPosition, ::LIV::SDK::Unity::SDKQuaternion localRotation, ::LIV::SDK::Unity::SDKVector3 localScale) noexcept;
+  /// @brief Method get_empty, addr 0x23771b8, size 0x14, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKTransform get_empty();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SDKTransform();
+
+  // Ctor Parameters [CppParam { name: "localPosition", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "localRotation", ty: "::LIV::SDK::Unity::SDKQuaternion",
+  // modifiers: "", def_value: None }, CppParam { name: "localScale", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }]
+  constexpr SDKTransform(::LIV::SDK::Unity::SDKVector3 localPosition, ::LIV::SDK::Unity::SDKQuaternion localRotation, ::LIV::SDK::Unity::SDKVector3 localScale) noexcept;
 
   /// @brief Field localPosition, offset: 0x0, size: 0xc, def value: None
   ::LIV::SDK::Unity::SDKVector3 localPosition;

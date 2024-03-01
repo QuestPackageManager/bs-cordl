@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::UnityEngine::UI::IClippable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12925))
 // CS Name: ::UnityEngine.UI::IClippable*
 class CORDL_TYPE IClippable {
 public:
@@ -35,23 +33,23 @@ public:
 
   __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  /// @brief Method get_gameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
+  /// @brief Method Cull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
   /// @brief Method RecalculateClipping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RecalculateClipping();
-
-  /// @brief Method get_rectTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
-
-  /// @brief Method Cull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
   /// @brief Method SetClipRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetClipRect(::UnityEngine::Rect value, bool validRect);
 
   /// @brief Method SetClipSoftness, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetClipSoftness(::UnityEngine::Vector2 clipSoftness);
+
+  /// @brief Method get_gameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
+
+  /// @brief Method get_rectTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   // Ctor Parameters [CppParam { name: "", ty: "IClippable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

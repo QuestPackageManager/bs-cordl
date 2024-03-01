@@ -24,19 +24,10 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectivesGameUIController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4389))
 // CS Name: ::MissionObjectivesGameUIController*
 class CORDL_TYPE MissionObjectivesGameUIController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _missionObjectiveGameUIViewPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionObjectiveGameUIViewPrefab,
-                      put = __cordl_internal_set__missionObjectiveGameUIViewPrefab))::UnityW<::GlobalNamespace::MissionObjectiveGameUIView> _missionObjectiveGameUIViewPrefab;
-
-  /// @brief Field _separator, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
-
   /// @brief Field _elementWidth, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__elementWidth, put = __cordl_internal_set__elementWidth)) float_t _elementWidth;
 
@@ -44,59 +35,72 @@ public:
   __declspec(property(get = __cordl_internal_get__missionObjectiveCheckersManager,
                       put = __cordl_internal_set__missionObjectiveCheckersManager))::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> _missionObjectiveCheckersManager;
 
+  /// @brief Field _missionObjectiveGameUIViewPrefab, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionObjectiveGameUIViewPrefab,
+                      put = __cordl_internal_set__missionObjectiveGameUIViewPrefab))::UnityW<::GlobalNamespace::MissionObjectiveGameUIView> _missionObjectiveGameUIViewPrefab;
+
   /// @brief Field _missionObjectiveGameUIViews, offset 0x30, size 0x8
   __declspec(
       property(get = __cordl_internal_get__missionObjectiveGameUIViews,
                put = __cordl_internal_set__missionObjectiveGameUIViews))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionObjectiveGameUIView>>* _missionObjectiveGameUIViews;
 
-  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveGameUIView>& __cordl_internal_get__missionObjectiveGameUIViewPrefab();
+  /// @brief Field _separator, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
 
-  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveGameUIView> const& __cordl_internal_get__missionObjectiveGameUIViewPrefab() const;
+  /// @brief Method CreateUIElements, addr 0x244cca0, size 0x3a0, virtual false, abstract: false, final false
+  inline void CreateUIElements();
 
-  constexpr void __cordl_internal_set__missionObjectiveGameUIViewPrefab(::UnityW<::GlobalNamespace::MissionObjectiveGameUIView> value);
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectivesListDidChange, addr 0x244d1ac, size 0x4, virtual false, abstract: false, final false
+  inline void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
 
-  constexpr float_t& __cordl_internal_get__separator();
+  static inline ::GlobalNamespace::MissionObjectivesGameUIController* New_ctor();
 
-  constexpr float_t const& __cordl_internal_get__separator() const;
+  /// @brief Method OnDestroy, addr 0x244d040, size 0xd0, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr void __cordl_internal_set__separator(float_t value);
-
-  constexpr float_t& __cordl_internal_get__elementWidth();
+  /// @brief Method Start, addr 0x244cb74, size 0x90, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr float_t const& __cordl_internal_get__elementWidth() const;
 
-  constexpr void __cordl_internal_set__elementWidth(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>& __cordl_internal_get__missionObjectiveCheckersManager();
+  constexpr float_t& __cordl_internal_get__elementWidth();
 
   constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> const& __cordl_internal_get__missionObjectiveCheckersManager() const;
 
-  constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>& __cordl_internal_get__missionObjectiveCheckersManager();
+
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveGameUIView> const& __cordl_internal_get__missionObjectiveGameUIViewPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveGameUIView>& __cordl_internal_get__missionObjectiveGameUIViewPrefab();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionObjectiveGameUIView>>*& __cordl_internal_get__missionObjectiveGameUIViews();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionObjectiveGameUIView>>*> const&
   __cordl_internal_get__missionObjectiveGameUIViews() const;
 
+  constexpr float_t const& __cordl_internal_get__separator() const;
+
+  constexpr float_t& __cordl_internal_get__separator();
+
+  constexpr void __cordl_internal_set__elementWidth(float_t value);
+
+  constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
+
+  constexpr void __cordl_internal_set__missionObjectiveGameUIViewPrefab(::UnityW<::GlobalNamespace::MissionObjectiveGameUIView> value);
+
   constexpr void __cordl_internal_set__missionObjectiveGameUIViews(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionObjectiveGameUIView>>* value);
 
-  /// @brief Method Start, addr 0x237ec2c, size 0x90, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__separator(float_t value);
 
-  /// @brief Method OnDestroy, addr 0x237f0f8, size 0xd0, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectivesListDidChange, addr 0x237f264, size 0x4, virtual false, abstract: false, final false
-  inline void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
-
-  /// @brief Method CreateUIElements, addr 0x237ed58, size 0x3a0, virtual false, abstract: false, final false
-  inline void CreateUIElements();
-
-  static inline ::GlobalNamespace::MissionObjectivesGameUIController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x237f268, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244d1b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionObjectivesGameUIController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectivesGameUIController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionObjectivesGameUIController(MissionObjectivesGameUIController&&) = delete;
@@ -105,12 +109,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionObjectivesGameUIController(MissionObjectivesGameUIController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionObjectivesGameUIController();
-
-public:
   /// @brief Field _missionObjectiveGameUIViewPrefab, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveGameUIView> ____missionObjectiveGameUIViewPrefab;
 

@@ -64,22 +64,13 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion4::LightshowSaveData);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 161, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11146))
 // CS Name: ::BeatmapSaveDataVersion4::LightshowSaveData*
 class CORDL_TYPE LightshowSaveData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::StringW version;
-
-  /// @brief Field waypoints, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_waypoints,
-                      put = __cordl_internal_set_waypoints))::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> waypoints;
-
-  /// @brief Field waypointsData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_waypointsData,
-                      put = __cordl_internal_set_waypointsData))::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> waypointsData;
+  /// @brief Field basicEventTypesWithKeywords, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_basicEventTypesWithKeywords,
+                      put = __cordl_internal_set_basicEventTypesWithKeywords))::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords;
 
   /// @brief Field basicEvents, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_basicEvents,
@@ -100,6 +91,14 @@ public:
   /// @brief Field eventBoxGroups, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_eventBoxGroups,
                       put = __cordl_internal_set_eventBoxGroups))::ArrayW<::BeatmapSaveDataVersion4::EventBoxGroup*, ::Array<::BeatmapSaveDataVersion4::EventBoxGroup*>*> eventBoxGroups;
+
+  /// @brief Field floatFxEvents, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_floatFxEvents,
+                      put = __cordl_internal_set_floatFxEvents))::ArrayW<::BeatmapSaveDataVersion4::FloatFxEvent, ::Array<::BeatmapSaveDataVersion4::FloatFxEvent>*> floatFxEvents;
+
+  /// @brief Field fxEventBoxes, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_fxEventBoxes,
+                      put = __cordl_internal_set_fxEventBoxes))::ArrayW<::BeatmapSaveDataVersion4::FxEventBox, ::Array<::BeatmapSaveDataVersion4::FxEventBox>*> fxEventBoxes;
 
   /// @brief Field indexFilters, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_indexFilters,
@@ -134,140 +133,145 @@ public:
       get = __cordl_internal_get_lightTranslationEvents,
       put = __cordl_internal_set_lightTranslationEvents))::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEvent, ::Array<::BeatmapSaveDataVersion4::LightTranslationEvent>*> lightTranslationEvents;
 
-  /// @brief Field fxEventBoxes, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_fxEventBoxes,
-                      put = __cordl_internal_set_fxEventBoxes))::ArrayW<::BeatmapSaveDataVersion4::FxEventBox, ::Array<::BeatmapSaveDataVersion4::FxEventBox>*> fxEventBoxes;
-
-  /// @brief Field floatFxEvents, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_floatFxEvents,
-                      put = __cordl_internal_set_floatFxEvents))::ArrayW<::BeatmapSaveDataVersion4::FloatFxEvent, ::Array<::BeatmapSaveDataVersion4::FloatFxEvent>*> floatFxEvents;
-
-  /// @brief Field basicEventTypesWithKeywords, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_basicEventTypesWithKeywords,
-                      put = __cordl_internal_set_basicEventTypesWithKeywords))::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords;
-
   /// @brief Field useNormalEventsAsCompatibleEvents, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get_useNormalEventsAsCompatibleEvents, put = __cordl_internal_set_useNormalEventsAsCompatibleEvents)) bool useNormalEventsAsCompatibleEvents;
 
-  constexpr ::StringW& __cordl_internal_get_version();
+  /// @brief Field version, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::StringW version;
 
-  constexpr ::StringW const& __cordl_internal_get_version() const;
+  /// @brief Field waypoints, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_waypoints,
+                      put = __cordl_internal_set_waypoints))::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> waypoints;
 
-  constexpr void __cordl_internal_set_version(::StringW value);
+  /// @brief Field waypointsData, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_waypointsData,
+                      put = __cordl_internal_set_waypointsData))::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> waypointsData;
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*>& __cordl_internal_get_waypoints();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> const& __cordl_internal_get_waypoints() const;
-
-  constexpr void __cordl_internal_set_waypoints(::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*>& __cordl_internal_get_waypointsData();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> const& __cordl_internal_get_waypointsData() const;
-
-  constexpr void __cordl_internal_set_waypointsData(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>& __cordl_internal_get_basicEvents();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> const& __cordl_internal_get_basicEvents() const;
-
-  constexpr void __cordl_internal_set_basicEvents(::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*>& __cordl_internal_get_basicEventsData();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> const& __cordl_internal_get_basicEventsData() const;
-
-  constexpr void __cordl_internal_set_basicEventsData(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>& __cordl_internal_get_colorBoostEvents();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> const& __cordl_internal_get_colorBoostEvents() const;
-
-  constexpr void __cordl_internal_set_colorBoostEvents(::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>& __cordl_internal_get_colorBoostEventsData();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> const& __cordl_internal_get_colorBoostEventsData() const;
-
-  constexpr void __cordl_internal_set_colorBoostEventsData(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::EventBoxGroup*, ::Array<::BeatmapSaveDataVersion4::EventBoxGroup*>*>& __cordl_internal_get_eventBoxGroups();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::EventBoxGroup*, ::Array<::BeatmapSaveDataVersion4::EventBoxGroup*>*> const& __cordl_internal_get_eventBoxGroups() const;
-
-  constexpr void __cordl_internal_set_eventBoxGroups(::ArrayW<::BeatmapSaveDataVersion4::EventBoxGroup*, ::Array<::BeatmapSaveDataVersion4::EventBoxGroup*>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::IndexFilter, ::Array<::BeatmapSaveDataVersion4::IndexFilter>*>& __cordl_internal_get_indexFilters();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::IndexFilter, ::Array<::BeatmapSaveDataVersion4::IndexFilter>*> const& __cordl_internal_get_indexFilters() const;
-
-  constexpr void __cordl_internal_set_indexFilters(::ArrayW<::BeatmapSaveDataVersion4::IndexFilter, ::Array<::BeatmapSaveDataVersion4::IndexFilter>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightColorEventBox, ::Array<::BeatmapSaveDataVersion4::LightColorEventBox>*>& __cordl_internal_get_lightColorEventBoxes();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightColorEventBox, ::Array<::BeatmapSaveDataVersion4::LightColorEventBox>*> const& __cordl_internal_get_lightColorEventBoxes() const;
-
-  constexpr void __cordl_internal_set_lightColorEventBoxes(::ArrayW<::BeatmapSaveDataVersion4::LightColorEventBox, ::Array<::BeatmapSaveDataVersion4::LightColorEventBox>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightColorEvent, ::Array<::BeatmapSaveDataVersion4::LightColorEvent>*>& __cordl_internal_get_lightColorEvents();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightColorEvent, ::Array<::BeatmapSaveDataVersion4::LightColorEvent>*> const& __cordl_internal_get_lightColorEvents() const;
-
-  constexpr void __cordl_internal_set_lightColorEvents(::ArrayW<::BeatmapSaveDataVersion4::LightColorEvent, ::Array<::BeatmapSaveDataVersion4::LightColorEvent>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightRotationEventBox, ::Array<::BeatmapSaveDataVersion4::LightRotationEventBox>*>& __cordl_internal_get_lightRotationEventBoxes();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightRotationEventBox, ::Array<::BeatmapSaveDataVersion4::LightRotationEventBox>*> const& __cordl_internal_get_lightRotationEventBoxes() const;
-
-  constexpr void __cordl_internal_set_lightRotationEventBoxes(::ArrayW<::BeatmapSaveDataVersion4::LightRotationEventBox, ::Array<::BeatmapSaveDataVersion4::LightRotationEventBox>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightRotationEvent, ::Array<::BeatmapSaveDataVersion4::LightRotationEvent>*>& __cordl_internal_get_lightRotationEvents();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightRotationEvent, ::Array<::BeatmapSaveDataVersion4::LightRotationEvent>*> const& __cordl_internal_get_lightRotationEvents() const;
-
-  constexpr void __cordl_internal_set_lightRotationEvents(::ArrayW<::BeatmapSaveDataVersion4::LightRotationEvent, ::Array<::BeatmapSaveDataVersion4::LightRotationEvent>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEventBox, ::Array<::BeatmapSaveDataVersion4::LightTranslationEventBox>*>& __cordl_internal_get_lightTranslationEventBoxes();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEventBox, ::Array<::BeatmapSaveDataVersion4::LightTranslationEventBox>*> const& __cordl_internal_get_lightTranslationEventBoxes() const;
-
-  constexpr void __cordl_internal_set_lightTranslationEventBoxes(::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEventBox, ::Array<::BeatmapSaveDataVersion4::LightTranslationEventBox>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEvent, ::Array<::BeatmapSaveDataVersion4::LightTranslationEvent>*>& __cordl_internal_get_lightTranslationEvents();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEvent, ::Array<::BeatmapSaveDataVersion4::LightTranslationEvent>*> const& __cordl_internal_get_lightTranslationEvents() const;
-
-  constexpr void __cordl_internal_set_lightTranslationEvents(::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEvent, ::Array<::BeatmapSaveDataVersion4::LightTranslationEvent>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::FxEventBox, ::Array<::BeatmapSaveDataVersion4::FxEventBox>*>& __cordl_internal_get_fxEventBoxes();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::FxEventBox, ::Array<::BeatmapSaveDataVersion4::FxEventBox>*> const& __cordl_internal_get_fxEventBoxes() const;
-
-  constexpr void __cordl_internal_set_fxEventBoxes(::ArrayW<::BeatmapSaveDataVersion4::FxEventBox, ::Array<::BeatmapSaveDataVersion4::FxEventBox>*> value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::FloatFxEvent, ::Array<::BeatmapSaveDataVersion4::FloatFxEvent>*>& __cordl_internal_get_floatFxEvents();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::FloatFxEvent, ::Array<::BeatmapSaveDataVersion4::FloatFxEvent>*> const& __cordl_internal_get_floatFxEvents() const;
-
-  constexpr void __cordl_internal_set_floatFxEvents(::ArrayW<::BeatmapSaveDataVersion4::FloatFxEvent, ::Array<::BeatmapSaveDataVersion4::FloatFxEvent>*> value);
+  static inline ::BeatmapSaveDataVersion4::LightshowSaveData* New_ctor();
 
   constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*& __cordl_internal_get_basicEventTypesWithKeywords();
 
   constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*> const& __cordl_internal_get_basicEventTypesWithKeywords() const;
 
-  constexpr void __cordl_internal_set_basicEventTypesWithKeywords(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* value);
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> const& __cordl_internal_get_basicEvents() const;
 
-  constexpr bool& __cordl_internal_get_useNormalEventsAsCompatibleEvents();
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>& __cordl_internal_get_basicEvents();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> const& __cordl_internal_get_basicEventsData() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*>& __cordl_internal_get_basicEventsData();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> const& __cordl_internal_get_colorBoostEvents() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>& __cordl_internal_get_colorBoostEvents();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> const& __cordl_internal_get_colorBoostEventsData() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>& __cordl_internal_get_colorBoostEventsData();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::EventBoxGroup*, ::Array<::BeatmapSaveDataVersion4::EventBoxGroup*>*> const& __cordl_internal_get_eventBoxGroups() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::EventBoxGroup*, ::Array<::BeatmapSaveDataVersion4::EventBoxGroup*>*>& __cordl_internal_get_eventBoxGroups();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::FloatFxEvent, ::Array<::BeatmapSaveDataVersion4::FloatFxEvent>*> const& __cordl_internal_get_floatFxEvents() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::FloatFxEvent, ::Array<::BeatmapSaveDataVersion4::FloatFxEvent>*>& __cordl_internal_get_floatFxEvents();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::FxEventBox, ::Array<::BeatmapSaveDataVersion4::FxEventBox>*> const& __cordl_internal_get_fxEventBoxes() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::FxEventBox, ::Array<::BeatmapSaveDataVersion4::FxEventBox>*>& __cordl_internal_get_fxEventBoxes();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::IndexFilter, ::Array<::BeatmapSaveDataVersion4::IndexFilter>*> const& __cordl_internal_get_indexFilters() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::IndexFilter, ::Array<::BeatmapSaveDataVersion4::IndexFilter>*>& __cordl_internal_get_indexFilters();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightColorEventBox, ::Array<::BeatmapSaveDataVersion4::LightColorEventBox>*> const& __cordl_internal_get_lightColorEventBoxes() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightColorEventBox, ::Array<::BeatmapSaveDataVersion4::LightColorEventBox>*>& __cordl_internal_get_lightColorEventBoxes();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightColorEvent, ::Array<::BeatmapSaveDataVersion4::LightColorEvent>*> const& __cordl_internal_get_lightColorEvents() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightColorEvent, ::Array<::BeatmapSaveDataVersion4::LightColorEvent>*>& __cordl_internal_get_lightColorEvents();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightRotationEventBox, ::Array<::BeatmapSaveDataVersion4::LightRotationEventBox>*> const& __cordl_internal_get_lightRotationEventBoxes() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightRotationEventBox, ::Array<::BeatmapSaveDataVersion4::LightRotationEventBox>*>& __cordl_internal_get_lightRotationEventBoxes();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightRotationEvent, ::Array<::BeatmapSaveDataVersion4::LightRotationEvent>*> const& __cordl_internal_get_lightRotationEvents() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightRotationEvent, ::Array<::BeatmapSaveDataVersion4::LightRotationEvent>*>& __cordl_internal_get_lightRotationEvents();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEventBox, ::Array<::BeatmapSaveDataVersion4::LightTranslationEventBox>*> const& __cordl_internal_get_lightTranslationEventBoxes() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEventBox, ::Array<::BeatmapSaveDataVersion4::LightTranslationEventBox>*>& __cordl_internal_get_lightTranslationEventBoxes();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEvent, ::Array<::BeatmapSaveDataVersion4::LightTranslationEvent>*> const& __cordl_internal_get_lightTranslationEvents() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEvent, ::Array<::BeatmapSaveDataVersion4::LightTranslationEvent>*>& __cordl_internal_get_lightTranslationEvents();
 
   constexpr bool const& __cordl_internal_get_useNormalEventsAsCompatibleEvents() const;
 
+  constexpr bool& __cordl_internal_get_useNormalEventsAsCompatibleEvents();
+
+  constexpr ::StringW const& __cordl_internal_get_version() const;
+
+  constexpr ::StringW& __cordl_internal_get_version();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> const& __cordl_internal_get_waypoints() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*>& __cordl_internal_get_waypoints();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> const& __cordl_internal_get_waypointsData() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*>& __cordl_internal_get_waypointsData();
+
+  constexpr void __cordl_internal_set_basicEventTypesWithKeywords(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* value);
+
+  constexpr void __cordl_internal_set_basicEvents(::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> value);
+
+  constexpr void __cordl_internal_set_basicEventsData(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> value);
+
+  constexpr void __cordl_internal_set_colorBoostEvents(::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> value);
+
+  constexpr void __cordl_internal_set_colorBoostEventsData(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> value);
+
+  constexpr void __cordl_internal_set_eventBoxGroups(::ArrayW<::BeatmapSaveDataVersion4::EventBoxGroup*, ::Array<::BeatmapSaveDataVersion4::EventBoxGroup*>*> value);
+
+  constexpr void __cordl_internal_set_floatFxEvents(::ArrayW<::BeatmapSaveDataVersion4::FloatFxEvent, ::Array<::BeatmapSaveDataVersion4::FloatFxEvent>*> value);
+
+  constexpr void __cordl_internal_set_fxEventBoxes(::ArrayW<::BeatmapSaveDataVersion4::FxEventBox, ::Array<::BeatmapSaveDataVersion4::FxEventBox>*> value);
+
+  constexpr void __cordl_internal_set_indexFilters(::ArrayW<::BeatmapSaveDataVersion4::IndexFilter, ::Array<::BeatmapSaveDataVersion4::IndexFilter>*> value);
+
+  constexpr void __cordl_internal_set_lightColorEventBoxes(::ArrayW<::BeatmapSaveDataVersion4::LightColorEventBox, ::Array<::BeatmapSaveDataVersion4::LightColorEventBox>*> value);
+
+  constexpr void __cordl_internal_set_lightColorEvents(::ArrayW<::BeatmapSaveDataVersion4::LightColorEvent, ::Array<::BeatmapSaveDataVersion4::LightColorEvent>*> value);
+
+  constexpr void __cordl_internal_set_lightRotationEventBoxes(::ArrayW<::BeatmapSaveDataVersion4::LightRotationEventBox, ::Array<::BeatmapSaveDataVersion4::LightRotationEventBox>*> value);
+
+  constexpr void __cordl_internal_set_lightRotationEvents(::ArrayW<::BeatmapSaveDataVersion4::LightRotationEvent, ::Array<::BeatmapSaveDataVersion4::LightRotationEvent>*> value);
+
+  constexpr void __cordl_internal_set_lightTranslationEventBoxes(::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEventBox, ::Array<::BeatmapSaveDataVersion4::LightTranslationEventBox>*> value);
+
+  constexpr void __cordl_internal_set_lightTranslationEvents(::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEvent, ::Array<::BeatmapSaveDataVersion4::LightTranslationEvent>*> value);
+
   constexpr void __cordl_internal_set_useNormalEventsAsCompatibleEvents(bool value);
 
-  static inline ::BeatmapSaveDataVersion4::LightshowSaveData* New_ctor();
+  constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x12badbc, size 0x50, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_waypoints(::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> value);
+
+  constexpr void __cordl_internal_set_waypointsData(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> value);
+
+  /// @brief Method .ctor, addr 0x12fbd8c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightshowSaveData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightshowSaveData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightshowSaveData(LightshowSaveData&&) = delete;
@@ -276,12 +280,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightshowSaveData(LightshowSaveData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightshowSaveData();
-
-public:
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::StringW ___version;
 

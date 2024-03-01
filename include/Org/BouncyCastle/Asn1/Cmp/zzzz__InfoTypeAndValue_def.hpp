@@ -29,61 +29,65 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(25))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::InfoTypeAndValue*
 class CORDL_TYPE InfoTypeAndValue : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_InfoType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* InfoType;
+
+  __declspec(property(get = get_InfoValue))::Org::BouncyCastle::Asn1::Asn1Encodable* InfoValue;
+
   /// @brief Field infoType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_infoType, put = __cordl_internal_set_infoType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType;
 
   /// @brief Field infoValue, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_infoValue, put = __cordl_internal_set_infoValue))::Org::BouncyCastle::Asn1::Asn1Encodable* infoValue;
 
-  __declspec(property(get = get_InfoType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* InfoType;
+  /// @brief Method GetInstance, addr 0xed970c, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* GetInstance(::System::Object* obj);
 
-  __declspec(property(get = get_InfoValue))::Org::BouncyCastle::Asn1::Asn1Encodable* InfoValue;
+  static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType);
+
+  static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType, ::Org::BouncyCastle::Asn1::Asn1Encodable* optionalValue);
+
+  static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xed9cf4, size 0x148, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_infoType();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_infoType() const;
 
-  constexpr void __cordl_internal_set_infoType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_infoValue();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_infoValue() const;
 
+  constexpr void __cordl_internal_set_infoType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
   constexpr void __cordl_internal_set_infoValue(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xe92bf8, size 0xc8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method GetInstance, addr 0xe9273c, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType);
-
-  /// @brief Method .ctor, addr 0xe92cc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed9c90, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType);
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType, ::Org::BouncyCastle::Asn1::Asn1Encodable* optionalValue);
-
-  /// @brief Method .ctor, addr 0xe92ce8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed9cb8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* infoType, ::Org::BouncyCastle::Asn1::Asn1Encodable* optionalValue);
 
-  /// @brief Method get_InfoType, addr 0xe92d14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed9bc8, size 0xc8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method get_InfoType, addr 0xed9ce4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_InfoType();
 
-  /// @brief Method get_InfoValue, addr 0xe92d1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InfoValue, addr 0xed9cec, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_InfoValue();
 
-  /// @brief Method ToAsn1Object, addr 0xe92d24, size 0x148, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InfoTypeAndValue();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InfoTypeAndValue", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InfoTypeAndValue(InfoTypeAndValue&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InfoTypeAndValue(InfoTypeAndValue const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InfoTypeAndValue();
-
-public:
   /// @brief Field infoType, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___infoType;
 

@@ -27,8 +27,6 @@ MARK_VAL_T(::UnityEngine::UIElements::EventDispatcherGate);
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6171))
 // CS Name: ::UnityEngine.UIElements::EventDispatcherGate
 struct CORDL_TYPE EventDispatcherGate {
 public:
@@ -36,36 +34,36 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
-
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*();
+
+  /// @brief Method Dispose, addr 0x2f110d8, size 0x18, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Equals, addr 0x2f11184, size 0x7c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2f11178, size 0xc, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::EventDispatcherGate other);
+
+  /// @brief Method GetHashCode, addr 0x2f11200, size 0x18, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method .ctor, addr 0x2f1105c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::EventDispatcher* d);
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>* i___System__IEquatable_1___UnityEngine__UIElements__EventDispatcherGate_();
 
-  /// @brief Method .ctor, addr 0x2e1f934, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::EventDispatcher* d);
-
-  /// @brief Method Dispose, addr 0x2e1f9b0, size 0x18, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method Equals, addr 0x2e1fa50, size 0xc, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::EventDispatcherGate other);
-
-  /// @brief Method Equals, addr 0x2e1fa5c, size 0x7c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2e1fad8, size 0x18, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  // Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: None }]
-  constexpr EventDispatcherGate(::UnityEngine::UIElements::EventDispatcher* m_Dispatcher) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr EventDispatcherGate();
+
+  // Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: None }]
+  constexpr EventDispatcherGate(::UnityEngine::UIElements::EventDispatcher* m_Dispatcher) noexcept;
 
   /// @brief Field m_Dispatcher, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventDispatcher* m_Dispatcher;

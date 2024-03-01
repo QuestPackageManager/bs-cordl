@@ -15,8 +15,6 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_ID);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14975))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_ID
 struct CORDL_TYPE TEXTURE_ID {
 public:
@@ -36,21 +34,20 @@ public:
     return static_cast<__TEXTURE_ID_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr TEXTURE_ID(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<__TEXTURE_ID_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TEXTURE_ID();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr TEXTURE_ID(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x1e140a00u)
-  static ::LIV::SDK::Unity::TEXTURE_ID const UNDEFINED;
 
   /// @brief Field BACKGROUND_COLOR_BUFFER_ID value: static_cast<uint32_t>(0x1e140au)
   static ::LIV::SDK::Unity::TEXTURE_ID const BACKGROUND_COLOR_BUFFER_ID;
@@ -60,6 +57,12 @@ public:
 
   /// @brief Field OPTIMIZED_COLOR_BUFFER_ID value: static_cast<uint32_t>(0x1001eu)
   static ::LIV::SDK::Unity::TEXTURE_ID const OPTIMIZED_COLOR_BUFFER_ID;
+
+  /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x1e140a00u)
+  static ::LIV::SDK::Unity::TEXTURE_ID const UNDEFINED;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

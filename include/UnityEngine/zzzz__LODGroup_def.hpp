@@ -20,31 +20,35 @@ MARK_REF_PTR_T(::UnityEngine::LODGroup);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8982))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8823))
 // CS Name: ::UnityEngine::LODGroup*
 class CORDL_TYPE LODGroup : public ::UnityEngine::Component {
 public:
   // Declarations
-  __declspec(property(get = get_size)) float_t size;
-
   __declspec(property(get = get_lodCount)) int32_t lodCount;
 
-  /// @brief Method get_size, addr 0x2cb9cb0, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_size();
+  __declspec(property(get = get_size)) float_t size;
 
-  /// @brief Method get_lodCount, addr 0x2cb9cec, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_lodCount();
-
-  /// @brief Method RecalculateBounds, addr 0x2cb9d28, size 0x3c, virtual false, abstract: false, final false
-  inline void RecalculateBounds();
-
-  /// @brief Method GetLODs, addr 0x2cb9d64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLODs, addr 0x2da42c8, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> GetLODs();
 
-  /// @brief Method SetLODs, addr 0x2cb9da0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RecalculateBounds, addr 0x2da428c, size 0x3c, virtual false, abstract: false, final false
+  inline void RecalculateBounds();
+
+  /// @brief Method SetLODs, addr 0x2da4304, size 0x44, virtual false, abstract: false, final false
   inline void SetLODs(::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> lods);
 
+  /// @brief Method get_lodCount, addr 0x2da4250, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_lodCount();
+
+  /// @brief Method get_size, addr 0x2da4214, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_size();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LODGroup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LODGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LODGroup(LODGroup&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LODGroup(LODGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LODGroup();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

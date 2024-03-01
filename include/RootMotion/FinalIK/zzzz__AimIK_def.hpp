@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::AimIK);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12434))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12428))
 // CS Name: ::RootMotion.FinalIK::AimIK*
 class CORDL_TYPE AimIK : public ::RootMotion::FinalIK::IK {
 public:
@@ -29,35 +27,41 @@ public:
   /// @brief Field solver, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::IKSolverAim* solver;
 
+  /// @brief Method ASThread, addr 0x132a134, size 0x44, virtual false, abstract: false, final false
+  inline void ASThread();
+
+  /// @brief Method GetIKSolver, addr 0x132a178, size 0x8, virtual true, abstract: false, final false
+  inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
+
+  static inline ::RootMotion::FinalIK::AimIK* New_ctor();
+
+  /// @brief Method OpenScriptReference, addr 0x132a068, size 0x44, virtual true, abstract: false, final false
+  inline void OpenScriptReference();
+
+  /// @brief Method OpenSetupTutorial, addr 0x132a0ac, size 0x44, virtual false, abstract: false, final false
+  inline void OpenSetupTutorial();
+
+  /// @brief Method OpenUserManual, addr 0x132a024, size 0x44, virtual true, abstract: false, final false
+  inline void OpenUserManual();
+
+  /// @brief Method SupportGroup, addr 0x132a0f0, size 0x44, virtual false, abstract: false, final false
+  inline void SupportGroup();
+
   constexpr ::RootMotion::FinalIK::IKSolverAim*& __cordl_internal_get_solver();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverAim*> const& __cordl_internal_get_solver() const;
 
   constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverAim* value);
 
-  /// @brief Method OpenUserManual, addr 0x12e8038, size 0x44, virtual true, abstract: false, final false
-  inline void OpenUserManual();
-
-  /// @brief Method OpenScriptReference, addr 0x12e807c, size 0x44, virtual true, abstract: false, final false
-  inline void OpenScriptReference();
-
-  /// @brief Method OpenSetupTutorial, addr 0x12e80c0, size 0x44, virtual false, abstract: false, final false
-  inline void OpenSetupTutorial();
-
-  /// @brief Method SupportGroup, addr 0x12e8104, size 0x44, virtual false, abstract: false, final false
-  inline void SupportGroup();
-
-  /// @brief Method ASThread, addr 0x12e8148, size 0x44, virtual false, abstract: false, final false
-  inline void ASThread();
-
-  /// @brief Method GetIKSolver, addr 0x12e818c, size 0x8, virtual true, abstract: false, final false
-  inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
-
-  static inline ::RootMotion::FinalIK::AimIK* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12e8194, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132a180, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AimIK();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AimIK", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AimIK(AimIK&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AimIK(AimIK const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AimIK();
-
-public:
   /// @brief Field solver, offset: 0x38, size: 0x8, def value: None
   ::RootMotion::FinalIK::IKSolverAim* ___solver;
 

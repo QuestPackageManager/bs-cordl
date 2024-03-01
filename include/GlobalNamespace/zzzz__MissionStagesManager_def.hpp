@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionStagesManager____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4859))
 // CS Name: ::MissionStagesManager::<>c*
 class CORDL_TYPE __MissionStagesManager____c : public ::System::Object {
 public:
@@ -46,22 +44,28 @@ public:
   /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0))::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>* __9__6_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__MissionStagesManager____c* value);
+  static inline ::GlobalNamespace::__MissionStagesManager____c* New_ctor();
+
+  /// @brief Method <InitStages>b__6_0, addr 0x23a45bc, size 0x18, virtual false, abstract: false, final false
+  inline int32_t _InitStages_b__6_0(::GlobalNamespace::MissionStage* stage);
+
+  /// @brief Method .ctor, addr 0x23a45b4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__MissionStagesManager____c* getStaticF___9();
 
-  static inline void setStaticF___9__6_0(::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>* value);
-
   static inline ::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>* getStaticF___9__6_0();
 
-  static inline ::GlobalNamespace::__MissionStagesManager____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__MissionStagesManager____c* value);
 
-  /// @brief Method .ctor, addr 0x23fcdf0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__6_0(::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>* value);
 
-  /// @brief Method <InitStages>b__6_0, addr 0x23fcdf8, size 0x18, virtual false, abstract: false, final false
-  inline int32_t _InitStages_b__6_0(::GlobalNamespace::MissionStage* stage);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MissionStagesManager____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MissionStagesManager____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MissionStagesManager____c(__MissionStagesManager____c&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MissionStagesManager____c(__MissionStagesManager____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MissionStagesManager____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -86,13 +84,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MissionStages
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4860))
 // CS Name: ::MissionStagesManager*
 class CORDL_TYPE MissionStagesManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__MissionStagesManager____c;
+
+  /// @brief Field _firstLockedMissionStage, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__firstLockedMissionStage, put = __cordl_internal_set__firstLockedMissionStage))::UnityW<::GlobalNamespace::MissionStage> _firstLockedMissionStage;
 
   /// @brief Field _missionStageLockView, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__missionStageLockView, put = __cordl_internal_set__missionStageLockView))::UnityW<::GlobalNamespace::MissionStageLockView> _missionStageLockView;
@@ -101,52 +100,55 @@ public:
   __declspec(property(get = __cordl_internal_get__missionStages,
                       put = __cordl_internal_set__missionStages))::ArrayW<::UnityW<::GlobalNamespace::MissionStage>, ::Array<::UnityW<::GlobalNamespace::MissionStage>>*> _missionStages;
 
-  /// @brief Field _firstLockedMissionStage, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__firstLockedMissionStage, put = __cordl_internal_set__firstLockedMissionStage))::UnityW<::GlobalNamespace::MissionStage> _firstLockedMissionStage;
-
   __declspec(property(get = get_firstLockedMissionStage))::UnityW<::GlobalNamespace::MissionStage> firstLockedMissionStage;
 
-  constexpr ::UnityW<::GlobalNamespace::MissionStageLockView>& __cordl_internal_get__missionStageLockView();
-
-  constexpr ::UnityW<::GlobalNamespace::MissionStageLockView> const& __cordl_internal_get__missionStageLockView() const;
-
-  constexpr void __cordl_internal_set__missionStageLockView(::UnityW<::GlobalNamespace::MissionStageLockView> value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionStage>, ::Array<::UnityW<::GlobalNamespace::MissionStage>>*>& __cordl_internal_get__missionStages();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionStage>, ::Array<::UnityW<::GlobalNamespace::MissionStage>>*> const& __cordl_internal_get__missionStages() const;
-
-  constexpr void __cordl_internal_set__missionStages(::ArrayW<::UnityW<::GlobalNamespace::MissionStage>, ::Array<::UnityW<::GlobalNamespace::MissionStage>>*> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MissionStage>& __cordl_internal_get__firstLockedMissionStage();
-
-  constexpr ::UnityW<::GlobalNamespace::MissionStage> const& __cordl_internal_get__firstLockedMissionStage() const;
-
-  constexpr void __cordl_internal_set__firstLockedMissionStage(::UnityW<::GlobalNamespace::MissionStage> value);
-
-  /// @brief Method get_firstLockedMissionStage, addr 0x23fcc38, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::MissionStage> get_firstLockedMissionStage();
-
-  /// @brief Method UpdateFirtsLockedMissionStage, addr 0x23fc368, size 0x7c, virtual false, abstract: false, final false
-  inline void UpdateFirtsLockedMissionStage(int32_t numberOfClearedMissions);
-
-  /// @brief Method InitStages, addr 0x23fcc40, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InitStages, addr 0x24cbd80, size 0x144, virtual false, abstract: false, final false
   inline void InitStages();
-
-  /// @brief Method UpdateStageLockPosition, addr 0x23fc5e4, size 0xc, virtual false, abstract: false, final false
-  inline void UpdateStageLockPosition();
-
-  /// @brief Method UpdateStageLockPositionAnimated, addr 0x23fa58c, size 0xf0, virtual false, abstract: false, final false
-  inline void UpdateStageLockPositionAnimated(bool animated, float_t animationDuration);
-
-  /// @brief Method UpdateStageLockText, addr 0x23fc3e4, size 0xb8, virtual false, abstract: false, final false
-  inline void UpdateStageLockText(int32_t numberOfClearedMissions);
 
   static inline ::GlobalNamespace::MissionStagesManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23fcd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateFirtsLockedMissionStage, addr 0x24cb6bc, size 0x7c, virtual false, abstract: false, final false
+  inline void UpdateFirtsLockedMissionStage(int32_t numberOfClearedMissions);
+
+  /// @brief Method UpdateStageLockPosition, addr 0x24cb938, size 0xc, virtual false, abstract: false, final false
+  inline void UpdateStageLockPosition();
+
+  /// @brief Method UpdateStageLockPositionAnimated, addr 0x24c98e4, size 0xf0, virtual false, abstract: false, final false
+  inline void UpdateStageLockPositionAnimated(bool animated, float_t animationDuration);
+
+  /// @brief Method UpdateStageLockText, addr 0x24cb738, size 0xb8, virtual false, abstract: false, final false
+  inline void UpdateStageLockText(int32_t numberOfClearedMissions);
+
+  constexpr ::UnityW<::GlobalNamespace::MissionStage> const& __cordl_internal_get__firstLockedMissionStage() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MissionStage>& __cordl_internal_get__firstLockedMissionStage();
+
+  constexpr ::UnityW<::GlobalNamespace::MissionStageLockView> const& __cordl_internal_get__missionStageLockView() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MissionStageLockView>& __cordl_internal_get__missionStageLockView();
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionStage>, ::Array<::UnityW<::GlobalNamespace::MissionStage>>*> const& __cordl_internal_get__missionStages() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionStage>, ::Array<::UnityW<::GlobalNamespace::MissionStage>>*>& __cordl_internal_get__missionStages();
+
+  constexpr void __cordl_internal_set__firstLockedMissionStage(::UnityW<::GlobalNamespace::MissionStage> value);
+
+  constexpr void __cordl_internal_set__missionStageLockView(::UnityW<::GlobalNamespace::MissionStageLockView> value);
+
+  constexpr void __cordl_internal_set__missionStages(::ArrayW<::UnityW<::GlobalNamespace::MissionStage>, ::Array<::UnityW<::GlobalNamespace::MissionStage>>*> value);
+
+  /// @brief Method .ctor, addr 0x24cbec4, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_firstLockedMissionStage, addr 0x24cbd78, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::MissionStage> get_firstLockedMissionStage();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionStagesManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionStagesManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionStagesManager(MissionStagesManager&&) = delete;
@@ -155,12 +157,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionStagesManager(MissionStagesManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionStagesManager();
-
-public:
   /// @brief Field _missionStageLockView, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionStageLockView> ____missionStageLockView;
 

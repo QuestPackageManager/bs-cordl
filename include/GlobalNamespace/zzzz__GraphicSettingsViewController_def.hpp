@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::GraphicSettingsViewController);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5053))
 // CS Name: ::GraphicSettingsViewController*
 class CORDL_TYPE GraphicSettingsViewController : public ::HMUI::ViewController {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _mainSettingsModel, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
-
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
-
-  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
-
-  /// @brief Method DidActivate, addr 0x230a9d4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x23d8810, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::GraphicSettingsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x230a9d8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+
+  /// @brief Method .ctor, addr 0x23d8814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GraphicSettingsViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GraphicSettingsViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GraphicSettingsViewController(GraphicSettingsViewController&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GraphicSettingsViewController(GraphicSettingsViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GraphicSettingsViewController();
-
-public:
   /// @brief Field _mainSettingsModel, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 

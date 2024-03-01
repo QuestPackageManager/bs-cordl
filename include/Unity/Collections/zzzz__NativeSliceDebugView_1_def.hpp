@@ -16,12 +16,16 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8726))
 // CS Name: ::Unity.Collections::NativeSliceDebugView`1<T>*
 class CORDL_TYPE NativeSliceDebugView_1 : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeSliceDebugView_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NativeSliceDebugView_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NativeSliceDebugView_1(NativeSliceDebugView_1&&) = delete;
@@ -30,12 +34,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NativeSliceDebugView_1(NativeSliceDebugView_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeSliceDebugView_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

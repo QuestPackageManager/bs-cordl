@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::System::Net::Configuration::Ipv6Element);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16432))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7584))
 // CS Name: ::System.Net.Configuration::Ipv6Element*
 class CORDL_TYPE Ipv6Element : public ::System::Configuration::ConfigurationElement {
 public:
@@ -27,12 +25,18 @@ public:
 
   static inline ::System::Net::Configuration::Ipv6Element* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29495d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2ea54, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x2949610, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2a2ea8c, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Ipv6Element();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Ipv6Element", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ipv6Element(Ipv6Element&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Ipv6Element(Ipv6Element const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Ipv6Element();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -17,8 +17,6 @@ MARK_VAL_T(::System::Collections::DictionaryEntry);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3752))
 // CS Name: ::System.Collections::DictionaryEntry
 struct CORDL_TYPE DictionaryEntry {
 public:
@@ -27,21 +25,21 @@ public:
 
   __declspec(property(get = get_Value))::System::Object* Value;
 
-  /// @brief Method .ctor, addr 0x259f3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266faac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method get_Key, addr 0x259f3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x266fab4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x259f3d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x266fabc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
-
-  // Ctor Parameters [CppParam { name: "_key", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }]
-  constexpr DictionaryEntry(::System::Object* _key, ::System::Object* _value) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr DictionaryEntry();
+
+  // Ctor Parameters [CppParam { name: "_key", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: None }]
+  constexpr DictionaryEntry(::System::Object* _key, ::System::Object* _value) noexcept;
 
   /// @brief Field _key, offset: 0x0, size: 0x8, def value: None
   ::System::Object* _key;

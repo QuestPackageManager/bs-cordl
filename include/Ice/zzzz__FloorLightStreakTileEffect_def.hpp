@@ -40,14 +40,12 @@ MARK_REF_PTR_T(::Ice::__FloorLightStreakTileEffect__Element);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16305))
 // CS Name: ::FloorLightStreakTileEffect::Element*
 class CORDL_TYPE __FloorLightStreakTileEffect__Element : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field didMoveToNextTile, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_didMoveToNextTile, put = __cordl_internal_set_didMoveToNextTile))::System::Action_1<::Ice::__FloorLightStreakTileEffect__Element*>* didMoveToNextTile;
+  /// @brief Field _color, offset 0x28, size 0x10
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _currentTileY, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__currentTileY, put = __cordl_internal_set__currentTileY)) int32_t _currentTileY;
@@ -61,71 +59,77 @@ public:
   /// @brief Field _stayOnTileDuration, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__stayOnTileDuration, put = __cordl_internal_set__stayOnTileDuration)) float_t _stayOnTileDuration;
 
-  /// @brief Field _color, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
-
-  __declspec(property(get = get_lineIndex)) int32_t lineIndex;
+  __declspec(property(get = get_color))::UnityEngine::Color color;
 
   __declspec(property(get = get_currentTileY)) int32_t currentTileY;
 
-  __declspec(property(get = get_color))::UnityEngine::Color color;
+  /// @brief Field didMoveToNextTile, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_didMoveToNextTile, put = __cordl_internal_set_didMoveToNextTile))::System::Action_1<::Ice::__FloorLightStreakTileEffect__Element*>* didMoveToNextTile;
+
+  __declspec(property(get = get_lineIndex)) int32_t lineIndex;
+
+  /// @brief Method ManualUpdate, addr 0xe798e4, size 0x68, virtual false, abstract: false, final false
+  inline void ManualUpdate(float_t deltaTime);
+
+  static inline ::Ice::__FloorLightStreakTileEffect__Element* New_ctor();
+
+  /// @brief Method Setup, addr 0xe79a0c, size 0x14, virtual false, abstract: false, final false
+  inline void Setup(::UnityEngine::Color color, int32_t lineIndex, float_t stayOnTileDuration);
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+
+  constexpr int32_t const& __cordl_internal_get__currentTileY() const;
+
+  constexpr int32_t& __cordl_internal_get__currentTileY();
+
+  constexpr int32_t const& __cordl_internal_get__lineIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__lineIndex();
+
+  constexpr float_t const& __cordl_internal_get__nextTileRemainingTime() const;
+
+  constexpr float_t& __cordl_internal_get__nextTileRemainingTime();
+
+  constexpr float_t const& __cordl_internal_get__stayOnTileDuration() const;
+
+  constexpr float_t& __cordl_internal_get__stayOnTileDuration();
 
   constexpr ::System::Action_1<::Ice::__FloorLightStreakTileEffect__Element*>*& __cordl_internal_get_didMoveToNextTile();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Ice::__FloorLightStreakTileEffect__Element*>*> const& __cordl_internal_get_didMoveToNextTile() const;
 
-  constexpr void __cordl_internal_set_didMoveToNextTile(::System::Action_1<::Ice::__FloorLightStreakTileEffect__Element*>* value);
-
-  constexpr int32_t& __cordl_internal_get__currentTileY();
-
-  constexpr int32_t const& __cordl_internal_get__currentTileY() const;
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
   constexpr void __cordl_internal_set__currentTileY(int32_t value);
 
-  constexpr int32_t& __cordl_internal_get__lineIndex();
-
-  constexpr int32_t const& __cordl_internal_get__lineIndex() const;
-
   constexpr void __cordl_internal_set__lineIndex(int32_t value);
-
-  constexpr float_t& __cordl_internal_get__nextTileRemainingTime();
-
-  constexpr float_t const& __cordl_internal_get__nextTileRemainingTime() const;
 
   constexpr void __cordl_internal_set__nextTileRemainingTime(float_t value);
 
-  constexpr float_t& __cordl_internal_get__stayOnTileDuration();
-
-  constexpr float_t const& __cordl_internal_get__stayOnTileDuration() const;
-
   constexpr void __cordl_internal_set__stayOnTileDuration(float_t value);
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+  constexpr void __cordl_internal_set_didMoveToNextTile(::System::Action_1<::Ice::__FloorLightStreakTileEffect__Element*>* value);
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
-
-  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
-
-  /// @brief Method get_lineIndex, addr 0xe34314, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_lineIndex();
-
-  /// @brief Method get_currentTileY, addr 0xe3431c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_currentTileY();
-
-  /// @brief Method get_color, addr 0xe34324, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
-
-  /// @brief Method Setup, addr 0xe33ea8, size 0x14, virtual false, abstract: false, final false
-  inline void Setup(::UnityEngine::Color color, int32_t lineIndex, float_t stayOnTileDuration);
-
-  /// @brief Method ManualUpdate, addr 0xe33d80, size 0x68, virtual false, abstract: false, final false
-  inline void ManualUpdate(float_t deltaTime);
-
-  static inline ::Ice::__FloorLightStreakTileEffect__Element* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe3425c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe79dc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_color, addr 0xe79e88, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_color();
+
+  /// @brief Method get_currentTileY, addr 0xe79e80, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_currentTileY();
+
+  /// @brief Method get_lineIndex, addr 0xe79e78, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_lineIndex();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FloorLightStreakTileEffect__Element();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FloorLightStreakTileEffect__Element", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FloorLightStreakTileEffect__Element(__FloorLightStreakTileEffect__Element&&) = delete;
@@ -134,12 +138,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FloorLightStreakTileEffect__Element(__FloorLightStreakTileEffect__Element const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FloorLightStreakTileEffect__Element();
-
-public:
   /// @brief Field didMoveToNextTile, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::Ice::__FloorLightStreakTileEffect__Element*>* ___didMoveToNextTile;
 
@@ -180,19 +178,11 @@ static_assert(offsetof(::Ice::__FloorLightStreakTileEffect__Element, ____color) 
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5115))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16306))
 // CS Name: ::Ice::FloorLightStreakTileEffect*
 class CORDL_TYPE FloorLightStreakTileEffect : public ::GlobalNamespace::AbstractPoolContainer {
 public:
   // Declarations
   using Element = ::Ice::__FloorLightStreakTileEffect__Element;
-
-  /// @brief Field _stayOnTileDuration, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__stayOnTileDuration, put = __cordl_internal_set__stayOnTileDuration)) float_t _stayOnTileDuration;
-
-  /// @brief Field _floorLightTilesGrid, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__floorLightTilesGrid, put = __cordl_internal_set__floorLightTilesGrid))::UnityW<::Ice::FloorLightTilesGrid> _floorLightTilesGrid;
 
   /// @brief Field _audioTimeSource, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
@@ -201,53 +191,65 @@ public:
   __declspec(property(get = __cordl_internal_get__elementsPool,
                       put = __cordl_internal_set__elementsPool))::GlobalNamespace::SimpleMemoryPool_1<::Ice::__FloorLightStreakTileEffect__Element*>* _elementsPool;
 
-  constexpr float_t& __cordl_internal_get__stayOnTileDuration();
+  /// @brief Field _floorLightTilesGrid, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__floorLightTilesGrid, put = __cordl_internal_set__floorLightTilesGrid))::UnityW<::Ice::FloorLightTilesGrid> _floorLightTilesGrid;
 
-  constexpr float_t const& __cordl_internal_get__stayOnTileDuration() const;
+  /// @brief Field _stayOnTileDuration, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__stayOnTileDuration, put = __cordl_internal_set__stayOnTileDuration)) float_t _stayOnTileDuration;
 
-  constexpr void __cordl_internal_set__stayOnTileDuration(float_t value);
+  /// @brief Method CreateNewElement, addr 0xe79cbc, size 0x104, virtual false, abstract: false, final false
+  inline ::Ice::__FloorLightStreakTileEffect__Element* CreateNewElement();
 
-  constexpr ::UnityW<::Ice::FloorLightTilesGrid>& __cordl_internal_get__floorLightTilesGrid();
+  /// @brief Method DespawnAll, addr 0xe79bd8, size 0xe4, virtual true, abstract: false, final false
+  inline void DespawnAll();
 
-  constexpr ::UnityW<::Ice::FloorLightTilesGrid> const& __cordl_internal_get__floorLightTilesGrid() const;
+  /// @brief Method HandleElementDidMoveToNextTile, addr 0xe79dc8, size 0x9c, virtual false, abstract: false, final false
+  inline void HandleElementDidMoveToNextTile(::Ice::__FloorLightStreakTileEffect__Element* element);
 
-  constexpr void __cordl_internal_set__floorLightTilesGrid(::UnityW<::Ice::FloorLightTilesGrid> value);
+  static inline ::Ice::FloorLightStreakTileEffect* New_ctor();
+
+  /// @brief Method SpawnEffect, addr 0xe7994c, size 0xc0, virtual false, abstract: false, final false
+  inline void SpawnEffect(int32_t x, ::UnityEngine::Color color);
+
+  /// @brief Method Start, addr 0xe79630, size 0xc4, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Update, addr 0xe796f4, size 0x1f0, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
-
   constexpr ::GlobalNamespace::SimpleMemoryPool_1<::Ice::__FloorLightStreakTileEffect__Element*>*& __cordl_internal_get__elementsPool();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleMemoryPool_1<::Ice::__FloorLightStreakTileEffect__Element*>*> const& __cordl_internal_get__elementsPool() const;
 
+  constexpr ::UnityW<::Ice::FloorLightTilesGrid> const& __cordl_internal_get__floorLightTilesGrid() const;
+
+  constexpr ::UnityW<::Ice::FloorLightTilesGrid>& __cordl_internal_get__floorLightTilesGrid();
+
+  constexpr float_t const& __cordl_internal_get__stayOnTileDuration() const;
+
+  constexpr float_t& __cordl_internal_get__stayOnTileDuration();
+
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+
   constexpr void __cordl_internal_set__elementsPool(::GlobalNamespace::SimpleMemoryPool_1<::Ice::__FloorLightStreakTileEffect__Element*>* value);
 
-  /// @brief Method Start, addr 0xe33acc, size 0xc4, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__floorLightTilesGrid(::UnityW<::Ice::FloorLightTilesGrid> value);
 
-  /// @brief Method Update, addr 0xe33b90, size 0x1f0, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set__stayOnTileDuration(float_t value);
 
-  /// @brief Method SpawnEffect, addr 0xe33de8, size 0xc0, virtual false, abstract: false, final false
-  inline void SpawnEffect(int32_t x, ::UnityEngine::Color color);
-
-  /// @brief Method DespawnAll, addr 0xe34074, size 0xe4, virtual true, abstract: false, final false
-  inline void DespawnAll();
-
-  /// @brief Method CreateNewElement, addr 0xe34158, size 0x104, virtual false, abstract: false, final false
-  inline ::Ice::__FloorLightStreakTileEffect__Element* CreateNewElement();
-
-  /// @brief Method HandleElementDidMoveToNextTile, addr 0xe34264, size 0x9c, virtual false, abstract: false, final false
-  inline void HandleElementDidMoveToNextTile(::Ice::__FloorLightStreakTileEffect__Element* element);
-
-  static inline ::Ice::FloorLightStreakTileEffect* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe34300, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe79e64, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FloorLightStreakTileEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FloorLightStreakTileEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FloorLightStreakTileEffect(FloorLightStreakTileEffect&&) = delete;
@@ -256,12 +258,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloorLightStreakTileEffect(FloorLightStreakTileEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FloorLightStreakTileEffect();
-
-public:
   /// @brief Field _stayOnTileDuration, offset: 0x18, size: 0x4, def value: None
   float_t ____stayOnTileDuration;
 

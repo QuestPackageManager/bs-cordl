@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::TriggerEventBroadcaster::*)(::UnityEngine::Collider*)>(
     &::RootMotion::TriggerEventBroadcaster::OnTriggerEnter)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x12da8ac;
+  constexpr static std::size_t addrs = 0x131b898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::TriggerEventBroadcaster::*)(::UnityEngine::Collider*)>(
     &::RootMotion::TriggerEventBroadcaster::OnTriggerStay)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x12da960;
+  constexpr static std::size_t addrs = 0x131b94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::TriggerEventBroadcaster::*)(::UnityEngine::Collider*)>(
     &::RootMotion::TriggerEventBroadcaster::OnTriggerExit)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x12daa14;
+  constexpr static std::size_t addrs = 0x131ba00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::TriggerEventBroadcaster::*)()>(&::RootMotion::TriggerEventBroadcaster::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12daac8;
+  constexpr static std::size_t addrs = 0x131bab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::TriggerEventBroadcaster*>::get(), ".ctor",

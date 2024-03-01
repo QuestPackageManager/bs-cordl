@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::PolicyQualifierID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(350))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(376))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::PolicyQualifierID*
 class CORDL_TYPE PolicyQualifierID : public ::Org::BouncyCastle::Asn1::DerObjectIdentifier {
 public:
@@ -27,19 +25,25 @@ public:
   /// @brief Field IdQtUnotice, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IdQtUnotice, put = setStaticF_IdQtUnotice))::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* IdQtUnotice;
 
-  static inline void setStaticF_IdQtCps(::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* value);
+  static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* New_ctor(::StringW id);
+
+  /// @brief Method .ctor, addr 0x12049f4, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::StringW id);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* getStaticF_IdQtCps();
 
-  static inline void setStaticF_IdQtUnotice(::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* value);
-
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* getStaticF_IdQtUnotice();
 
-  static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* New_ctor(::StringW id);
+  static inline void setStaticF_IdQtCps(::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* value);
 
-  /// @brief Method .ctor, addr 0x11c2a24, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW id);
+  static inline void setStaticF_IdQtUnotice(::Org::BouncyCastle::Asn1::X509::PolicyQualifierID* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PolicyQualifierID();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PolicyQualifierID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PolicyQualifierID(PolicyQualifierID&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PolicyQualifierID(PolicyQualifierID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PolicyQualifierID();
-
-public:
   /// @brief Field IdQt offset 0xffffffff size 0x8
   static constexpr ::ConstString IdQt{ u"1.3.6.1.5.5.7.2" };
 

@@ -22,12 +22,22 @@ MARK_REF_PTR_T(::System::UriBuilder);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6876))
 // CS Name: ::System::UriBuilder*
 class CORDL_TYPE UriBuilder : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(put = set_Host))::StringW Host;
+
+  __declspec(property(put = set_Path))::StringW Path;
+
+  __declspec(property(put = set_Port)) int32_t Port;
+
+  __declspec(property(put = set_Query))::StringW Query;
+
+  __declspec(property(put = set_Scheme))::StringW Scheme;
+
+  __declspec(property(get = get_Uri))::System::Uri* Uri;
+
   /// @brief Field _changed, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__changed, put = __cordl_internal_set__changed)) bool _changed;
 
@@ -61,132 +71,126 @@ public:
   /// @brief Field _username, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__username, put = __cordl_internal_set__username))::StringW _username;
 
-  __declspec(property(put = set_Host))::StringW Host;
+  /// @brief Method Equals, addr 0x2a3129c, size 0x5c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* rparam);
 
-  __declspec(property(put = set_Path))::StringW Path;
+  /// @brief Method GetHashCode, addr 0x2a312f8, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  __declspec(property(put = set_Port)) int32_t Port;
+  /// @brief Method Init, addr 0x2a309a8, size 0x174, virtual false, abstract: false, final false
+  inline void Init(::System::Uri* uri);
 
-  __declspec(property(put = set_Query))::StringW Query;
+  static inline ::System::UriBuilder* New_ctor();
 
-  __declspec(property(put = set_Scheme))::StringW Scheme;
+  static inline ::System::UriBuilder* New_ctor(::StringW uri);
 
-  __declspec(property(get = get_Uri))::System::Uri* Uri;
+  static inline ::System::UriBuilder* New_ctor(::System::Uri* uri);
 
-  constexpr bool& __cordl_internal_get__changed();
+  /// @brief Method SetFieldsFromUri, addr 0x2a30c90, size 0x164, virtual false, abstract: false, final false
+  inline void SetFieldsFromUri(::System::Uri* uri);
+
+  /// @brief Method ToString, addr 0x2a31318, size 0x4cc, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get__changed() const;
 
-  constexpr void __cordl_internal_set__changed(bool value);
-
-  constexpr ::StringW& __cordl_internal_get__fragment();
+  constexpr bool& __cordl_internal_get__changed();
 
   constexpr ::StringW const& __cordl_internal_get__fragment() const;
 
-  constexpr void __cordl_internal_set__fragment(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__host();
+  constexpr ::StringW& __cordl_internal_get__fragment();
 
   constexpr ::StringW const& __cordl_internal_get__host() const;
 
-  constexpr void __cordl_internal_set__host(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__password();
+  constexpr ::StringW& __cordl_internal_get__host();
 
   constexpr ::StringW const& __cordl_internal_get__password() const;
 
-  constexpr void __cordl_internal_set__password(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__path();
+  constexpr ::StringW& __cordl_internal_get__password();
 
   constexpr ::StringW const& __cordl_internal_get__path() const;
 
-  constexpr void __cordl_internal_set__path(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get__port();
+  constexpr ::StringW& __cordl_internal_get__path();
 
   constexpr int32_t const& __cordl_internal_get__port() const;
 
-  constexpr void __cordl_internal_set__port(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get__query();
+  constexpr int32_t& __cordl_internal_get__port();
 
   constexpr ::StringW const& __cordl_internal_get__query() const;
 
-  constexpr void __cordl_internal_set__query(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__scheme();
+  constexpr ::StringW& __cordl_internal_get__query();
 
   constexpr ::StringW const& __cordl_internal_get__scheme() const;
 
-  constexpr void __cordl_internal_set__scheme(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__schemeDelimiter();
+  constexpr ::StringW& __cordl_internal_get__scheme();
 
   constexpr ::StringW const& __cordl_internal_get__schemeDelimiter() const;
 
-  constexpr void __cordl_internal_set__schemeDelimiter(::StringW value);
+  constexpr ::StringW& __cordl_internal_get__schemeDelimiter();
 
   constexpr ::System::Uri*& __cordl_internal_get__uri();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get__uri() const;
 
-  constexpr void __cordl_internal_set__uri(::System::Uri* value);
+  constexpr ::StringW const& __cordl_internal_get__username() const;
 
   constexpr ::StringW& __cordl_internal_get__username();
 
-  constexpr ::StringW const& __cordl_internal_get__username() const;
+  constexpr void __cordl_internal_set__changed(bool value);
+
+  constexpr void __cordl_internal_set__fragment(::StringW value);
+
+  constexpr void __cordl_internal_set__host(::StringW value);
+
+  constexpr void __cordl_internal_set__password(::StringW value);
+
+  constexpr void __cordl_internal_set__path(::StringW value);
+
+  constexpr void __cordl_internal_set__port(int32_t value);
+
+  constexpr void __cordl_internal_set__query(::StringW value);
+
+  constexpr void __cordl_internal_set__scheme(::StringW value);
+
+  constexpr void __cordl_internal_set__schemeDelimiter(::StringW value);
+
+  constexpr void __cordl_internal_set__uri(::System::Uri* value);
 
   constexpr void __cordl_internal_set__username(::StringW value);
 
-  static inline ::System::UriBuilder* New_ctor();
-
-  /// @brief Method .ctor, addr 0x294b278, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a306f4, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::UriBuilder* New_ctor(::StringW uri);
-
-  /// @brief Method .ctor, addr 0x294b384, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a30800, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::StringW uri);
 
-  static inline ::System::UriBuilder* New_ctor(::System::Uri* uri);
-
-  /// @brief Method .ctor, addr 0x294b6a0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a30b1c, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri);
 
-  /// @brief Method Init, addr 0x294b52c, size 0x174, virtual false, abstract: false, final false
-  inline void Init(::System::Uri* uri);
-
-  /// @brief Method set_Host, addr 0x294b978, size 0xec, virtual false, abstract: false, final false
-  inline void set_Host(::StringW value);
-
-  /// @brief Method set_Path, addr 0x294ba64, size 0xb4, virtual false, abstract: false, final false
-  inline void set_Path(::StringW value);
-
-  /// @brief Method set_Port, addr 0x294bb18, size 0x70, virtual false, abstract: false, final false
-  inline void set_Port(int32_t value);
-
-  /// @brief Method set_Query, addr 0x294bb88, size 0xb8, virtual false, abstract: false, final false
-  inline void set_Query(::StringW value);
-
-  /// @brief Method set_Scheme, addr 0x294bc40, size 0x148, virtual false, abstract: false, final false
-  inline void set_Scheme(::StringW value);
-
-  /// @brief Method get_Uri, addr 0x294bd88, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Uri, addr 0x2a31204, size 0x98, virtual false, abstract: false, final false
   inline ::System::Uri* get_Uri();
 
-  /// @brief Method Equals, addr 0x294be20, size 0x5c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* rparam);
+  /// @brief Method set_Host, addr 0x2a30df4, size 0xec, virtual false, abstract: false, final false
+  inline void set_Host(::StringW value);
 
-  /// @brief Method GetHashCode, addr 0x294be7c, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  /// @brief Method set_Path, addr 0x2a30ee0, size 0xb4, virtual false, abstract: false, final false
+  inline void set_Path(::StringW value);
 
-  /// @brief Method SetFieldsFromUri, addr 0x294b814, size 0x164, virtual false, abstract: false, final false
-  inline void SetFieldsFromUri(::System::Uri* uri);
+  /// @brief Method set_Port, addr 0x2a30f94, size 0x70, virtual false, abstract: false, final false
+  inline void set_Port(int32_t value);
 
-  /// @brief Method ToString, addr 0x294be9c, size 0x4cc, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  /// @brief Method set_Query, addr 0x2a31004, size 0xb8, virtual false, abstract: false, final false
+  inline void set_Query(::StringW value);
 
+  /// @brief Method set_Scheme, addr 0x2a310bc, size 0x148, virtual false, abstract: false, final false
+  inline void set_Scheme(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UriBuilder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UriBuilder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UriBuilder(UriBuilder&&) = delete;
@@ -195,12 +199,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UriBuilder(UriBuilder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UriBuilder();
-
-public:
   /// @brief Field _changed, offset: 0x10, size: 0x1, def value: None
   bool ____changed;
 

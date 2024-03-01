@@ -31,19 +31,17 @@ MARK_VAL_T(::UnityEngine::ParticleSystemJobs::__NativeParticleData__Array4);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ParticleSystemJobs {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15095))
 // CS Name: ::NativeParticleData::Array3
 struct CORDL_TYPE __NativeParticleData__Array3 {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "x", ty: "::cordl_internals::Ptr<float_t>", modifiers: "", def_value: None }, CppParam { name: "y", ty: "::cordl_internals::Ptr<float_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "z", ty: "::cordl_internals::Ptr<float_t>", modifiers: "", def_value: None }]
-  constexpr __NativeParticleData__Array3(::cordl_internals::Ptr<float_t> x, ::cordl_internals::Ptr<float_t> y, ::cordl_internals::Ptr<float_t> z) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __NativeParticleData__Array3();
+
+  // Ctor Parameters [CppParam { name: "x", ty: "::cordl_internals::Ptr<float_t>", modifiers: "", def_value: None }, CppParam { name: "y", ty: "::cordl_internals::Ptr<float_t>", modifiers: "",
+  // def_value: None }, CppParam { name: "z", ty: "::cordl_internals::Ptr<float_t>", modifiers: "", def_value: None }]
+  constexpr __NativeParticleData__Array3(::cordl_internals::Ptr<float_t> x, ::cordl_internals::Ptr<float_t> y, ::cordl_internals::Ptr<float_t> z) noexcept;
 
   /// @brief Field x, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<float_t> x;
@@ -73,20 +71,18 @@ static_assert(offsetof(::UnityEngine::ParticleSystemJobs::__NativeParticleData__
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ParticleSystemJobs {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15096))
 // CS Name: ::NativeParticleData::Array4
 struct CORDL_TYPE __NativeParticleData__Array4 {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NativeParticleData__Array4();
+
   // Ctor Parameters [CppParam { name: "x", ty: "::cordl_internals::Ptr<float_t>", modifiers: "", def_value: None }, CppParam { name: "y", ty: "::cordl_internals::Ptr<float_t>", modifiers: "",
   // def_value: None }, CppParam { name: "z", ty: "::cordl_internals::Ptr<float_t>", modifiers: "", def_value: None }, CppParam { name: "w", ty: "::cordl_internals::Ptr<float_t>", modifiers: "",
   // def_value: None }]
   constexpr __NativeParticleData__Array4(::cordl_internals::Ptr<float_t> x, ::cordl_internals::Ptr<float_t> y, ::cordl_internals::Ptr<float_t> z, ::cordl_internals::Ptr<float_t> w) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NativeParticleData__Array4();
 
   /// @brief Field x, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<float_t> x;
@@ -121,15 +117,17 @@ static_assert(offsetof(::UnityEngine::ParticleSystemJobs::__NativeParticleData__
 // SizeInfo { instance_size: 256, native_size: 256, calculated_instance_size: 256, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ParticleSystemJobs {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15095)), TypeDefinitionIndex(TypeDefinitionIndex(15096))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15097))
 // CS Name: ::UnityEngine.ParticleSystemJobs::NativeParticleData
 struct CORDL_TYPE NativeParticleData {
 public:
   // Declarations
+  using Array3 = ::UnityEngine::ParticleSystemJobs::__NativeParticleData__Array3;
+
   using Array4 = ::UnityEngine::ParticleSystemJobs::__NativeParticleData__Array4;
 
-  using Array3 = ::UnityEngine::ParticleSystemJobs::__NativeParticleData__Array3;
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NativeParticleData();
 
   // Ctor Parameters [CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "positions", ty: "::UnityEngine::ParticleSystemJobs::__NativeParticleData__Array3",
   // modifiers: "", def_value: None }, CppParam { name: "velocities", ty: "::UnityEngine::ParticleSystemJobs::__NativeParticleData__Array3", modifiers: "", def_value: None }, CppParam { name:
@@ -148,10 +146,6 @@ public:
                                ::cordl_internals::Ptr<void> startColors, ::cordl_internals::Ptr<void> aliveTimePercent, ::cordl_internals::Ptr<void> inverseStartLifetimes,
                                ::cordl_internals::Ptr<void> randomSeeds, ::UnityEngine::ParticleSystemJobs::__NativeParticleData__Array4 customData1,
                                ::UnityEngine::ParticleSystemJobs::__NativeParticleData__Array4 customData2, ::cordl_internals::Ptr<void> meshIndices) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeParticleData();
 
   /// @brief Field count, offset: 0x0, size: 0x4, def value: None
   int32_t count;

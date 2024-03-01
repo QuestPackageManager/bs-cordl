@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::VRControllersValueSOOffsets);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14588))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11125))
 // CS Name: ::VRControllersValueSOOffsets*
 class CORDL_TYPE VRControllersValueSOOffsets : public ::GlobalNamespace::VRControllerTransformOffset {
 public:
@@ -36,29 +34,35 @@ public:
 
   __declspec(property(get = get_rotationOffset))::UnityEngine::Vector3 rotationOffset;
 
-  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__positionOffset();
+  static inline ::GlobalNamespace::VRControllersValueSOOffsets* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__positionOffset() const;
 
-  constexpr void __cordl_internal_set__positionOffset(::UnityW<::GlobalNamespace::Vector3SO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__rotationOffset();
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__positionOffset();
 
   constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__rotationOffset() const;
 
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__rotationOffset();
+
+  constexpr void __cordl_internal_set__positionOffset(::UnityW<::GlobalNamespace::Vector3SO> value);
+
   constexpr void __cordl_internal_set__rotationOffset(::UnityW<::GlobalNamespace::Vector3SO> value);
 
-  /// @brief Method get_positionOffset, addr 0x12bac7c, size 0x4c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_positionOffset();
-
-  /// @brief Method get_rotationOffset, addr 0x12bacc8, size 0x4c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_rotationOffset();
-
-  static inline ::GlobalNamespace::VRControllersValueSOOffsets* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12bad14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fbce4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_positionOffset, addr 0x12fbc4c, size 0x4c, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_positionOffset();
+
+  /// @brief Method get_rotationOffset, addr 0x12fbc98, size 0x4c, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_rotationOffset();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRControllersValueSOOffsets();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VRControllersValueSOOffsets", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRControllersValueSOOffsets(VRControllersValueSOOffsets&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VRControllersValueSOOffsets(VRControllersValueSOOffsets const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VRControllersValueSOOffsets();
-
-public:
   /// @brief Field _positionOffset, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Vector3SO> ____positionOffset;
 

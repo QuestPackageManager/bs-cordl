@@ -29,29 +29,33 @@ MARK_REF_PTR_T(::System::Xml::Schema::DateTimeFacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11584))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11588))
 // CS Name: ::System.Xml.Schema::DateTimeFacetsChecker*
 class CORDL_TYPE DateTimeFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x28c4878, size 0x64, virtual true, abstract: false, final false
-  inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
-
-  /// @brief Method CheckValueFacets, addr 0x28c48dc, size 0x3a4, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x29abd58, size 0x3a4, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x28c4db8, size 0x5c, virtual true, abstract: false, final false
-  inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
+  /// @brief Method CheckValueFacets, addr 0x29abcf4, size 0x64, virtual true, abstract: false, final false
+  inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x28c4c80, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x29ac0fc, size 0x138, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::DateTime value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
+
+  /// @brief Method MatchEnumeration, addr 0x29ac234, size 0x5c, virtual true, abstract: false, final false
+  inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::DateTimeFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c4e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29ac290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DateTimeFacetsChecker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeFacetsChecker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateTimeFacetsChecker(DateTimeFacetsChecker&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DateTimeFacetsChecker(DateTimeFacetsChecker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeFacetsChecker();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

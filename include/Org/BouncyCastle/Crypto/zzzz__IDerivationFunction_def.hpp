@@ -21,22 +21,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IDerivationFunction);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(721))
 // CS Name: ::Org.BouncyCastle.Crypto::IDerivationFunction*
 class CORDL_TYPE IDerivationFunction {
 public:
   // Declarations
   __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
 
+  /// @brief Method GenerateBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
+
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
   /// @brief Method get_Digest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
-
-  /// @brief Method GenerateBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDerivationFunction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

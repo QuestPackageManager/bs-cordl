@@ -45,8 +45,6 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9677))
 // CS Name: ::HEU_TestHelpers::RequireStruct`1<T>*
 class CORDL_TYPE __HEU_TestHelpers__RequireStruct_1 : public ::System::Object {
 public:
@@ -56,6 +54,12 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HEU_TestHelpers__RequireStruct_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_TestHelpers__RequireStruct_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HEU_TestHelpers__RequireStruct_1(__HEU_TestHelpers__RequireStruct_1&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_TestHelpers__RequireStruct_1(__HEU_TestHelpers__RequireStruct_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HEU_TestHelpers__RequireStruct_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -80,8 +78,6 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9678))
 // CS Name: ::HEU_TestHelpers::RequireClass`1<T>*
 class CORDL_TYPE __HEU_TestHelpers__RequireClass_1 : public ::System::Object {
 public:
@@ -91,6 +87,12 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HEU_TestHelpers__RequireClass_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_TestHelpers__RequireClass_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HEU_TestHelpers__RequireClass_1(__HEU_TestHelpers__RequireClass_1&&) = delete;
@@ -99,12 +101,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_TestHelpers__RequireClass_1(__HEU_TestHelpers__RequireClass_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HEU_TestHelpers__RequireClass_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -113,8 +109,6 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9679))
 // CS Name: ::HoudiniEngineUnity::HEU_TestHelpers*
 class CORDL_TYPE HEU_TestHelpers : public ::System::Object {
 public:
@@ -125,41 +119,37 @@ public:
 
   /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  static inline bool AssertTrueLogEquivalent(T a, T b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3,
-                                             ::HoudiniEngineUnity::__HEU_TestHelpers__RequireStruct_1<T>* _);
-
-  /// @brief Method AssertTrueLogEquivalent, addr 0x2276c94, size 0x114, virtual false, abstract: false, final false
-  static inline bool AssertTrueLogEquivalent(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1,
-                                             ::StringW optional2, ::StringW optional3);
+  static inline bool AssertTrueLogEquivalent(::ArrayW<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*, ::Array<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*>*> a,
+                                             ::ArrayW<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*, ::Array<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*>*> b, ByRef<bool> result,
+                                             ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
   /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  static inline bool AssertTrueLogEquivalent(::HoudiniEngineUnity::IEquivable_1<T>* a, ::HoudiniEngineUnity::IEquivable_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject,
+  static inline bool AssertTrueLogEquivalent(::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*, ::Array<::HoudiniEngineUnity::IEquivable_1<T>*>*> a,
+                                             ::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*, ::Array<::HoudiniEngineUnity::IEquivable_1<T>*>*> b, ByRef<bool> result, ::StringW header,
+                                             ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
+
+  /// @brief Method AssertTrueLogEquivalent, addr 0x2344070, size 0x140, virtual false, abstract: false, final false
+  static inline bool AssertTrueLogEquivalent(::ArrayW<::StringW, ::Array<::StringW>*> a, ::ArrayW<::StringW, ::Array<::StringW>*> b, ByRef<bool> result, ::StringW header, ::StringW subject,
                                              ::StringW optional1, ::StringW optional2, ::StringW optional3);
+
+  /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+  static inline bool AssertTrueLogEquivalent(::ArrayW<T, ::Array<T>*> a, ::ArrayW<T, ::Array<T>*> b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2,
+                                             ::StringW optional3);
 
   /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline bool AssertTrueLogEquivalent(::HoudiniEngineUnity::IEquivableWrapperClass_1<T>* a, ::HoudiniEngineUnity::IEquivableWrapperClass_1<T>* b, ByRef<bool> result, ::StringW header,
                                              ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
-  /// @brief Method AssertTrueLogEquivalent, addr 0x2277918, size 0x9c, virtual false, abstract: false, final false
-  static inline bool AssertTrueLogEquivalent(::StringW a, ::StringW b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
-
   /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  static inline bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject,
-                                             ::StringW optional1, ::StringW optional2, ::StringW optional3, ::HoudiniEngineUnity::__HEU_TestHelpers__RequireStruct_1<T>* _);
-
-  /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T>
-  static inline bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject,
-                                             ::StringW optional1, ::StringW optional2, ::StringW optional3, ::HoudiniEngineUnity::__HEU_TestHelpers__RequireClass_1<T>* _);
-
-  /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T>
-  static inline bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivable_1<T>*>* a,
-                                             ::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivable_1<T>*>* b, ByRef<bool> result, ::StringW header, ::StringW subject,
+  static inline bool AssertTrueLogEquivalent(::HoudiniEngineUnity::IEquivable_1<T>* a, ::HoudiniEngineUnity::IEquivable_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject,
                                              ::StringW optional1, ::StringW optional2, ::StringW optional3);
+
+  /// @brief Method AssertTrueLogEquivalent, addr 0x2343f80, size 0x9c, virtual false, abstract: false, final false
+  static inline bool AssertTrueLogEquivalent(::StringW a, ::StringW b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
   /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -169,36 +159,36 @@ public:
 
   /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  static inline bool AssertTrueLogEquivalent(::ArrayW<T, ::Array<T>*> a, ::ArrayW<T, ::Array<T>*> b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2,
-                                             ::StringW optional3);
-
-  /// @brief Method AssertTrueLogEquivalent, addr 0x2277a08, size 0x140, virtual false, abstract: false, final false
-  static inline bool AssertTrueLogEquivalent(::ArrayW<::StringW, ::Array<::StringW>*> a, ::ArrayW<::StringW, ::Array<::StringW>*> b, ByRef<bool> result, ::StringW header, ::StringW subject,
+  static inline bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivable_1<T>*>* a,
+                                             ::System::Collections::Generic::List_1<::HoudiniEngineUnity::IEquivable_1<T>*>* b, ByRef<bool> result, ::StringW header, ::StringW subject,
                                              ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
   /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  static inline bool AssertTrueLogEquivalent(::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*, ::Array<::HoudiniEngineUnity::IEquivable_1<T>*>*> a,
-                                             ::ArrayW<::HoudiniEngineUnity::IEquivable_1<T>*, ::Array<::HoudiniEngineUnity::IEquivable_1<T>*>*> b, ByRef<bool> result, ::StringW header,
-                                             ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
+  static inline bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject,
+                                             ::StringW optional1, ::StringW optional2, ::StringW optional3, ::HoudiniEngineUnity::__HEU_TestHelpers__RequireClass_1<T>* _);
 
   /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  static inline bool AssertTrueLogEquivalent(::ArrayW<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*, ::Array<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*>*> a,
-                                             ::ArrayW<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*, ::Array<::HoudiniEngineUnity::IEquivableWrapperClass_1<T>*>*> b, ByRef<bool> result,
-                                             ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
+  static inline bool AssertTrueLogEquivalent(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ByRef<bool> result, ::StringW header, ::StringW subject,
+                                             ::StringW optional1, ::StringW optional2, ::StringW optional3, ::HoudiniEngineUnity::__HEU_TestHelpers__RequireStruct_1<T>* _);
 
-  /// @brief Method PrintTestLogAndSetResult, addr 0x22777b8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method AssertTrueLogEquivalent, addr 0x23432fc, size 0x114, virtual false, abstract: false, final false
+  static inline bool AssertTrueLogEquivalent(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1,
+                                             ::StringW optional2, ::StringW optional3);
+
+  /// @brief Method AssertTrueLogEquivalent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+  static inline bool AssertTrueLogEquivalent(T a, T b, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3,
+                                             ::HoudiniEngineUnity::__HEU_TestHelpers__RequireStruct_1<T>* _);
+
+  static inline ::HoudiniEngineUnity::HEU_TestHelpers* New_ctor();
+
+  /// @brief Method PrintTestLogAndSetResult, addr 0x2343e20, size 0x160, virtual false, abstract: false, final false
   static inline void PrintTestLogAndSetResult(bool expression, ByRef<bool> result, ::StringW header, ::StringW subject, ::StringW optional1, ::StringW optional2, ::StringW optional3);
 
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool ShouldBeTested(T a, T b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
-
-  /// @brief Method ShouldBeTested, addr 0x2276da8, size 0x35c, virtual false, abstract: false, final false
-  static inline bool ShouldBeTested(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
-
-  /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool ShouldBeTested(::HoudiniEngineUnity::IEquivable_1<T>* a, ::HoudiniEngineUnity::IEquivable_1<T>* b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
+  template <typename T> static inline bool ShouldBeTested(::ArrayW<T, ::Array<T>*> a, ::ArrayW<T, ::Array<T>*> b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
@@ -206,23 +196,33 @@ public:
                                     ::StringW subject);
 
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline bool ShouldBeTested(::HoudiniEngineUnity::IEquivable_1<T>* a, ::HoudiniEngineUnity::IEquivable_1<T>* b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
+
+  /// @brief Method ShouldBeTested, addr 0x234401c, size 0x54, virtual false, abstract: false, final false
+  static inline bool ShouldBeTested(::StringW a, ::StringW b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
+
+  /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline bool ShouldBeTested(::System::Collections::Generic::List_1<T>* a, ::System::Collections::Generic::List_1<T>* b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
+  /// @brief Method ShouldBeTested, addr 0x2343410, size 0x35c, virtual false, abstract: false, final false
+  static inline bool ShouldBeTested(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
+
   /// @brief Method ShouldBeTested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool ShouldBeTested(::ArrayW<T, ::Array<T>*> a, ::ArrayW<T, ::Array<T>*> b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
+  template <typename T> static inline bool ShouldBeTested(T a, T b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
 
-  /// @brief Method ShouldBeTested, addr 0x22779b4, size 0x54, virtual false, abstract: false, final false
-  static inline bool ShouldBeTested(::StringW a, ::StringW b, ByRef<bool> bResult, ::StringW header, ::StringW subject);
-
-  /// @brief Method TestOutputObjectEquivalence, addr 0x2277104, size 0x6b4, virtual false, abstract: false, final false
+  /// @brief Method TestOutputObjectEquivalence, addr 0x234376c, size 0x6b4, virtual false, abstract: false, final false
   static inline bool TestOutputObjectEquivalence(::UnityEngine::GameObject* a, ::UnityEngine::GameObject* b);
 
-  static inline ::HoudiniEngineUnity::HEU_TestHelpers* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2277da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2344408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_TestHelpers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_TestHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_TestHelpers(HEU_TestHelpers&&) = delete;
@@ -231,12 +231,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_TestHelpers(HEU_TestHelpers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_TestHelpers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -14,15 +14,19 @@ MARK_REF_PTR_T(::System::__Il2CppComDelegate);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16457))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16458))
 // CS Name: ::System::__Il2CppComDelegate*
 class CORDL_TYPE __Il2CppComDelegate : public ::System::__Il2CppComObject {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x2f459e4, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x303910c, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Il2CppComDelegate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Il2CppComDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Il2CppComDelegate(__Il2CppComDelegate&&) = delete;
@@ -31,12 +35,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Il2CppComDelegate(__Il2CppComDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Il2CppComDelegate();
-
-public:
   /// @brief Size padding 0xb0 - 0x10 = 0xa0, packed as 0xa0
   uint8_t _cordl_size_padding[0xa0];
 

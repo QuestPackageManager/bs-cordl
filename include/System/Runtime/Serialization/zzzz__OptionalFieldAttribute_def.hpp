@@ -15,31 +15,35 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::OptionalFieldAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3228))
 // CS Name: ::System.Runtime.Serialization::OptionalFieldAttribute*
 class CORDL_TYPE OptionalFieldAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(put = set_VersionAdded)) int32_t VersionAdded;
+
   /// @brief Field versionAdded, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_versionAdded, put = __cordl_internal_set_versionAdded)) int32_t versionAdded;
 
-  __declspec(property(put = set_VersionAdded)) int32_t VersionAdded;
-
-  constexpr int32_t& __cordl_internal_get_versionAdded();
+  static inline ::System::Runtime::Serialization::OptionalFieldAttribute* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_versionAdded() const;
 
+  constexpr int32_t& __cordl_internal_get_versionAdded();
+
   constexpr void __cordl_internal_set_versionAdded(int32_t value);
 
-  static inline ::System::Runtime::Serialization::OptionalFieldAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24deebc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25afbb4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_VersionAdded, addr 0x24deecc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_VersionAdded, addr 0x25afbc4, size 0x78, virtual false, abstract: false, final false
   inline void set_VersionAdded(int32_t value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OptionalFieldAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OptionalFieldAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OptionalFieldAttribute(OptionalFieldAttribute&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OptionalFieldAttribute(OptionalFieldAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OptionalFieldAttribute();
-
-public:
   /// @brief Field versionAdded, offset: 0x10, size: 0x4, def value: None
   int32_t ___versionAdded;
 

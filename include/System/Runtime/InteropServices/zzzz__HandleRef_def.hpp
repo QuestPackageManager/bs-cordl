@@ -19,26 +19,24 @@ MARK_VAL_T(::System::Runtime::InteropServices::HandleRef);
 // SizeInfo { instance_size: 16, native_size: 8, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3303))
 // CS Name: ::System.Runtime.InteropServices::HandleRef
 struct CORDL_TYPE HandleRef {
 public:
   // Declarations
   __declspec(property(get = get_Handle)) void* Handle;
 
-  /// @brief Method .ctor, addr 0x24f77f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c74f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* wrapper, void* handle);
 
-  /// @brief Method get_Handle, addr 0x24f7800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x25c74f8, size 0x8, virtual false, abstract: false, final false
   inline void* get_Handle();
-
-  // Ctor Parameters [CppParam { name: "_wrapper", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "void*", modifiers: "", def_value: None }]
-  constexpr HandleRef(::System::Object* _wrapper, void* _handle) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HandleRef();
+
+  // Ctor Parameters [CppParam { name: "_wrapper", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "void*", modifiers: "", def_value: None }]
+  constexpr HandleRef(::System::Object* _wrapper, void* _handle) noexcept;
 
   /// @brief Field _wrapper, offset: 0x0, size: 0x8, def value: None
   ::System::Object* _wrapper;

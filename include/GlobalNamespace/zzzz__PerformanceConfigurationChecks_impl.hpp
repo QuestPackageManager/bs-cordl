@@ -80,7 +80,10 @@ constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__XRConfig::__Perfo
 // CppParam { name: "nativeColorGamut", ty: "::GlobalNamespace::__OVRManager__ColorSpace", modifiers: "", def_value: Some("{}") }, CppParam { name: "compositionMethod", ty:
 // "::GlobalNamespace::__OVRManager__CompositionMethod", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableMixedReality", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "trackingOriginType", ty: "::GlobalNamespace::__OVRManager__TrackingOrigin", modifiers: "", def_value: Some("{}") }, CppParam { name: "usePositionTracking", ty: "bool", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "useRotationTracking", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "suggestedCpuPerfLevel", ty:
+// def_value: Some("{}") }, CppParam { name: "useRotationTracking", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharpenType", ty:
+// "::GlobalNamespace::__OVRPlugin__LayerSharpenType", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableDynamicResolution", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam
+// { name: "minDynamicResolutionScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxDynamicResolutionScale", ty: "float_t", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "simultaneousHandsAndControllersSupport", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "suggestedCpuPerfLevel", ty:
 // "::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel", modifiers: "", def_value: Some("{}") }, CppParam { name: "suggestedGpuPerfLevel", ty:
 // "::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel", modifiers: "", def_value: Some("{}") }, CppParam { name: "systemDisplayFrequency", ty: "float_t", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "eyeTrackedFoveatedRenderingEnabled", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "foveatedRenderingLevel", ty:
@@ -92,10 +95,11 @@ constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__XRConfig::__Perfo
 constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__OVRConfig::__PerformanceConfigurationChecks__OVRConfig(
     bool spaceWarpEnabled, bool chromatic, bool monoscopic, ::GlobalNamespace::__OVRManager__ColorSpace colorGamut, ::GlobalNamespace::__OVRManager__ColorSpace nativeColorGamut,
     ::GlobalNamespace::__OVRManager__CompositionMethod compositionMethod, bool enableMixedReality, ::GlobalNamespace::__OVRManager__TrackingOrigin trackingOriginType, bool usePositionTracking,
-    bool useRotationTracking, ::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel suggestedCpuPerfLevel, ::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel suggestedGpuPerfLevel,
-    float_t systemDisplayFrequency, bool eyeTrackedFoveatedRenderingEnabled, ::GlobalNamespace::__OVRPlugin__FoveatedRenderingLevel foveatedRenderingLevel, bool useDynamicFoveatedRendering,
-    bool gpuUtilSupported, float_t gpuUtilLevel, bool eyeFovPremultipliedAlphaModeEnabled, bool asymmetricFovEnabled, bool eyeTextureArrayEnabled, bool localDimmingSupported,
-    bool localDimming) noexcept {
+    bool useRotationTracking, ::GlobalNamespace::__OVRPlugin__LayerSharpenType sharpenType, bool enableDynamicResolution, float_t minDynamicResolutionScale, float_t maxDynamicResolutionScale,
+    bool simultaneousHandsAndControllersSupport, ::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel suggestedCpuPerfLevel,
+    ::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel suggestedGpuPerfLevel, float_t systemDisplayFrequency, bool eyeTrackedFoveatedRenderingEnabled,
+    ::GlobalNamespace::__OVRPlugin__FoveatedRenderingLevel foveatedRenderingLevel, bool useDynamicFoveatedRendering, bool gpuUtilSupported, float_t gpuUtilLevel,
+    bool eyeFovPremultipliedAlphaModeEnabled, bool asymmetricFovEnabled, bool eyeTextureArrayEnabled, bool localDimmingSupported, bool localDimming) noexcept {
   this->spaceWarpEnabled = spaceWarpEnabled;
   this->chromatic = chromatic;
   this->monoscopic = monoscopic;
@@ -106,6 +110,11 @@ constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__OVRConfig::__Perf
   this->trackingOriginType = trackingOriginType;
   this->usePositionTracking = usePositionTracking;
   this->useRotationTracking = useRotationTracking;
+  this->sharpenType = sharpenType;
+  this->enableDynamicResolution = enableDynamicResolution;
+  this->minDynamicResolutionScale = minDynamicResolutionScale;
+  this->maxDynamicResolutionScale = maxDynamicResolutionScale;
+  this->simultaneousHandsAndControllersSupport = simultaneousHandsAndControllersSupport;
   this->suggestedCpuPerfLevel = suggestedCpuPerfLevel;
   this->suggestedGpuPerfLevel = suggestedGpuPerfLevel;
   this->systemDisplayFrequency = systemDisplayFrequency;
@@ -261,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::IsValid)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x232beb4;
+  constexpr static std::size_t addrs = 0x23fabb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
@@ -275,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::CreateErrorLog)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x232bf10;
+  constexpr static std::size_t addrs = 0x23fac0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
@@ -288,8 +297,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
     ::GlobalNamespace::MainSettingsModelSO*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask)>(&::GlobalNamespace::PerformanceConfigurationChecks::SetExpected)> {
-  constexpr static std::size_t size = 0xaa0;
-  constexpr static std::size_t addrs = 0x232c1ac;
+  constexpr static std::size_t size = 0xad0;
+  constexpr static std::size_t addrs = 0x23faea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -306,8 +315,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
     ::GlobalNamespace::MainSettingsModelSO*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected)> {
-  constexpr static std::size_t size = 0x1cd8;
-  constexpr static std::size_t addrs = 0x232cc4c;
+  constexpr static std::size_t size = 0x1dec;
+  constexpr static std::size_t addrs = 0x23fb978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -324,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x232e924;
+  constexpr static std::size_t addrs = 0x23fd764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),

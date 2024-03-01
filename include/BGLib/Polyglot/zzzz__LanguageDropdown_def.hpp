@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::BGLib::Polyglot::LanguageDropdown);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15675))
 // CS Name: ::BGLib.Polyglot::LanguageDropdown*
 class CORDL_TYPE LanguageDropdown : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,32 +33,38 @@ public:
   /// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
   constexpr operator ::BGLib::Polyglot::ILocalize*() noexcept;
 
-  /// @brief Convert to "::BGLib::Polyglot::ILocalize"
-  constexpr ::BGLib::Polyglot::ILocalize* i___BGLib__Polyglot__ILocalize() noexcept;
-
-  constexpr ::UnityW<::UnityEngine::UI::Dropdown>& __cordl_internal_get_dropdown();
-
-  constexpr ::UnityW<::UnityEngine::UI::Dropdown> const& __cordl_internal_get_dropdown() const;
-
-  constexpr void __cordl_internal_set_dropdown(::UnityW<::UnityEngine::UI::Dropdown> value);
-
-  /// @brief Method Reset, addr 0xe4b930, size 0x50, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method Start, addr 0xe4b980, size 0x24, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method CreateDropdown, addr 0xe4b9a4, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0xe91974, size 0x234, virtual false, abstract: false, final false
   inline void CreateDropdown();
-
-  /// @brief Method OnLocalize, addr 0xe4bebc, size 0x138, virtual true, abstract: false, final true
-  inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
   static inline ::BGLib::Polyglot::LanguageDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe4bff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnLocalize, addr 0xe91e8c, size 0x138, virtual true, abstract: false, final true
+  inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
+
+  /// @brief Method Reset, addr 0xe91900, size 0x50, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method Start, addr 0xe91950, size 0x24, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::UnityEngine::UI::Dropdown> const& __cordl_internal_get_dropdown() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Dropdown>& __cordl_internal_get_dropdown();
+
+  constexpr void __cordl_internal_set_dropdown(::UnityW<::UnityEngine::UI::Dropdown> value);
+
+  /// @brief Method .ctor, addr 0xe91fc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::BGLib::Polyglot::ILocalize"
+  constexpr ::BGLib::Polyglot::ILocalize* i___BGLib__Polyglot__ILocalize() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LanguageDropdown();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LanguageDropdown", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LanguageDropdown(LanguageDropdown&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LanguageDropdown(LanguageDropdown const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LanguageDropdown();
-
-public:
   /// @brief Field dropdown, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Dropdown> ___dropdown;
 

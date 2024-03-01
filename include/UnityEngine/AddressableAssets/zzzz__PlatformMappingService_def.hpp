@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::PlatformMappingService);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14112))
 // CS Name: ::UnityEngine.AddressableAssets::PlatformMappingService*
 class CORDL_TYPE PlatformMappingService : public ::System::Object {
 public:
@@ -35,27 +33,33 @@ public:
                              put = setStaticF_s_RuntimeTargetMapping))::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform,
                                                                                                                    ::UnityEngine::AddressableAssets::AddressablesPlatform>* s_RuntimeTargetMapping;
 
-  static inline void setStaticF_s_RuntimeTargetMapping(::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* getStaticF_s_RuntimeTargetMapping();
-
-  /// @brief Method GetAddressablesPlatformInternal, addr 0x2a2aeb4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformInternal, addr 0x2b12f88, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x2a2af88, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x2b1305c, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetPlatform, addr 0x2a2b0a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPlatform, addr 0x2b1317c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
 
-  /// @brief Method GetPlatformPathSubFolder, addr 0x2a1ed60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPathSubFolder, addr 0x2b06e34, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPathSubFolder();
 
   static inline ::UnityEngine::AddressableAssets::PlatformMappingService* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a2b108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b131dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* getStaticF_s_RuntimeTargetMapping();
+
+  static inline void setStaticF_s_RuntimeTargetMapping(::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlatformMappingService();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlatformMappingService", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformMappingService(PlatformMappingService&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformMappingService(PlatformMappingService const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformMappingService();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

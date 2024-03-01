@@ -19,12 +19,14 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_NodeInfo);
 // SizeInfo { instance_size: 68, native_size: 68, calculated_instance_size: 68, calculated_native_size: 82, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9492))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9525))
 // CS Name: ::HoudiniEngineUnity::HAPI_NodeInfo
 struct CORDL_TYPE HAPI_NodeInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_NodeInfo();
+
   // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nameSH",
   // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_NodeType", modifiers: "", def_value: None }, CppParam { name: "isValid", ty: "bool",
   // modifiers: "", def_value: None }, CppParam { name: "totalCookCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "uniqueHoudiniNodeId", ty: "int32_t", modifiers: "",
@@ -36,10 +38,6 @@ public:
   constexpr HAPI_NodeInfo(int32_t id, int32_t parentId, int32_t nameSH, ::HoudiniEngineUnity::HAPI_NodeType type, bool isValid, int32_t totalCookCount, int32_t uniqueHoudiniNodeId,
                           int32_t internalNodePathSH, int32_t parmCount, int32_t parmIntValueCount, int32_t parmFloatValueCount, int32_t parmStringValueCount, int32_t parmChoiceCount,
                           int32_t childNodeCount, int32_t inputCount, int32_t outputCount, bool createdPostAssetLoad, bool isTimeDependent) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_NodeInfo();
 
   /// @brief Field id, offset: 0x0, size: 0x4, def value: None
   int32_t id;

@@ -17,18 +17,22 @@ MARK_REF_PTR_T(::System::UncNameHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6899))
 // CS Name: ::System::UncNameHelper*
 class CORDL_TYPE UncNameHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ParseCanonicalName, addr 0x29518d0, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ByRef<bool> loopback);
-
-  /// @brief Method IsValid, addr 0x29518d4, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2a36d50, size 0x2d8, virtual false, abstract: false, final false
   static inline bool IsValid(::cordl_internals::Ptr<char16_t> name, uint16_t start, ByRef<int32_t> returnedEnd, bool notImplicitFile);
 
+  /// @brief Method ParseCanonicalName, addr 0x2a36d4c, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ByRef<bool> loopback);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UncNameHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UncNameHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UncNameHelper(UncNameHelper&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UncNameHelper(UncNameHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UncNameHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

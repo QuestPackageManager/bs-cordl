@@ -32,43 +32,47 @@ MARK_REF_PTR_T(::System::__TypeNames__ATypeName);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2629))
 // CS Name: ::TypeNames::ATypeName*
 class CORDL_TYPE __TypeNames__ATypeName : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_DisplayName))::StringW DisplayName;
 
-  /// @brief Convert operator to "::System::TypeName"
-  constexpr operator ::System::TypeName*() noexcept;
-
-  /// @brief Convert to "::System::TypeName"
-  constexpr ::System::TypeName* i___System__TypeName() noexcept;
-
   /// @brief Convert operator to "::System::IEquatable_1<::System::TypeName*>"
   constexpr operator ::System::IEquatable_1<::System::TypeName*>*() noexcept;
 
-  /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
-  constexpr ::System::IEquatable_1<::System::TypeName*>* i___System__IEquatable_1___System__TypeName__() noexcept;
+  /// @brief Convert operator to "::System::TypeName"
+  constexpr operator ::System::TypeName*() noexcept;
+
+  /// @brief Method Equals, addr 0x26f9e1c, size 0x60, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* other);
+
+  /// @brief Method Equals, addr 0x26f9d24, size 0xd0, virtual true, abstract: false, final true
+  inline bool Equals(::System::TypeName* other);
+
+  /// @brief Method GetHashCode, addr 0x26f9df4, size 0x28, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::System::__TypeNames__ATypeName* New_ctor();
+
+  /// @brief Method .ctor, addr 0x26f9e7c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
   /// @brief Method get_DisplayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method Equals, addr 0x262a630, size 0xd0, virtual true, abstract: false, final true
-  inline bool Equals(::System::TypeName* other);
+  /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
+  constexpr ::System::IEquatable_1<::System::TypeName*>* i___System__IEquatable_1___System__TypeName__() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x262a700, size 0x28, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  /// @brief Convert to "::System::TypeName"
+  constexpr ::System::TypeName* i___System__TypeName() noexcept;
 
-  /// @brief Method Equals, addr 0x262a728, size 0x60, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* other);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TypeNames__ATypeName();
 
-  static inline ::System::__TypeNames__ATypeName* New_ctor();
-
-  /// @brief Method .ctor, addr 0x262a788, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TypeNames__ATypeName", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TypeNames__ATypeName(__TypeNames__ATypeName&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TypeNames__ATypeName(__TypeNames__ATypeName const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TypeNames__ATypeName();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -93,14 +91,18 @@ static_assert(::cordl_internals::size_check_v<::System::__TypeNames__ATypeName, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2630))
 // CS Name: ::System::TypeNames*
 class CORDL_TYPE TypeNames : public ::System::Object {
 public:
   // Declarations
   using ATypeName = ::System::__TypeNames__ATypeName;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TypeNames();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeNames", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeNames(TypeNames&&) = delete;
@@ -109,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeNames(TypeNames const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeNames();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

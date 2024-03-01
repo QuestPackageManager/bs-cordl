@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Arrays);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1831))
 // CS Name: ::Org.BouncyCastle.Utilities::Arrays*
 class CORDL_TYPE Arrays : public ::System::Object {
 public:
@@ -35,210 +33,216 @@ public:
   /// @brief Field EmptyInts, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_EmptyInts, put = setStaticF_EmptyInts))::ArrayW<int32_t, ::Array<int32_t>*> EmptyInts;
 
-  static inline void setStaticF_EmptyBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method Append, addr 0x11dd6cc, size 0xd0, virtual false, abstract: false, final false
+  static inline ::ArrayW<int16_t, ::Array<int16_t>*> Append(::ArrayW<int16_t, ::Array<int16_t>*> a, int16_t b);
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_EmptyBytes();
+  /// @brief Method Append, addr 0x11dd79c, size 0xd0, virtual false, abstract: false, final false
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> Append(::ArrayW<int32_t, ::Array<int32_t>*> a, int32_t b);
 
-  static inline void setStaticF_EmptyInts(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  /// @brief Method Append, addr 0x11dd5fc, size 0xd0, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Append(::ArrayW<uint8_t, ::Array<uint8_t>*> a, uint8_t b);
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_EmptyInts();
-
-  /// @brief Method AreAllZeroes, addr 0x1199bb4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AreAllZeroes, addr 0x11dbb84, size 0x6c, virtual false, abstract: false, final false
   static inline bool AreAllZeroes(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method AreEqual, addr 0x1199c20, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x11dbbf0, size 0x80, virtual false, abstract: false, final false
   static inline bool AreEqual(::ArrayW<bool, ::Array<bool>*> a, ::ArrayW<bool, ::Array<bool>*> b);
 
-  /// @brief Method AreEqual, addr 0x1199d1c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x11dbcec, size 0x80, virtual false, abstract: false, final false
   static inline bool AreEqual(::ArrayW<char16_t, ::Array<char16_t>*> a, ::ArrayW<char16_t, ::Array<char16_t>*> b);
 
-  /// @brief Method AreEqual, addr 0x1199e08, size 0x80, virtual false, abstract: false, final false
-  static inline bool AreEqual(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
-
-  /// @brief Method AreEqual, addr 0x1199ef4, size 0x94, virtual false, abstract: false, final false
-  static inline bool AreEqual(::ArrayW<uint8_t, ::Array<uint8_t>*> a, int32_t aFromIndex, int32_t aToIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t bFromIndex, int32_t bToIndex);
-
-  /// @brief Method AreSame, addr 0x1199f88, size 0x64, virtual false, abstract: false, final false
-  static inline bool AreSame(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
-
-  /// @brief Method ConstantTimeAreEqual, addr 0x1199fec, size 0xfc, virtual false, abstract: false, final false
-  static inline bool ConstantTimeAreEqual(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
-
-  /// @brief Method ConstantTimeAreEqual, addr 0x119a0e8, size 0x1d8, virtual false, abstract: false, final false
-  static inline bool ConstantTimeAreEqual(int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> a, int32_t aOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t bOff);
-
-  /// @brief Method AreEqual, addr 0x119a2c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x11dc290, size 0x80, virtual false, abstract: false, final false
   static inline bool AreEqual(::ArrayW<int32_t, ::Array<int32_t>*> a, ::ArrayW<int32_t, ::Array<int32_t>*> b);
 
-  /// @brief Method AreEqual, addr 0x119a3ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x11dc37c, size 0x80, virtual false, abstract: false, final false
   static inline bool AreEqual(::ArrayW<uint32_t, ::Array<uint32_t>*> a, ::ArrayW<uint32_t, ::Array<uint32_t>*> b);
 
-  /// @brief Method HaveSameContents, addr 0x1199ca0, size 0x7c, virtual false, abstract: false, final false
-  static inline bool HaveSameContents(::ArrayW<bool, ::Array<bool>*> a, ::ArrayW<bool, ::Array<bool>*> b);
+  /// @brief Method AreEqual, addr 0x11dbec4, size 0x94, virtual false, abstract: false, final false
+  static inline bool AreEqual(::ArrayW<uint8_t, ::Array<uint8_t>*> a, int32_t aFromIndex, int32_t aToIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t bFromIndex, int32_t bToIndex);
 
-  /// @brief Method HaveSameContents, addr 0x1199d9c, size 0x6c, virtual false, abstract: false, final false
-  static inline bool HaveSameContents(::ArrayW<char16_t, ::Array<char16_t>*> a, ::ArrayW<char16_t, ::Array<char16_t>*> b);
+  /// @brief Method AreEqual, addr 0x11dbdd8, size 0x80, virtual false, abstract: false, final false
+  static inline bool AreEqual(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method HaveSameContents, addr 0x1199e88, size 0x6c, virtual false, abstract: false, final false
-  static inline bool HaveSameContents(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
+  /// @brief Method AreSame, addr 0x11dbf58, size 0x64, virtual false, abstract: false, final false
+  static inline bool AreSame(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method HaveSameContents, addr 0x119a340, size 0x6c, virtual false, abstract: false, final false
-  static inline bool HaveSameContents(::ArrayW<int32_t, ::Array<int32_t>*> a, ::ArrayW<int32_t, ::Array<int32_t>*> b);
+  /// @brief Method Clear, addr 0x11ddf74, size 0x18, virtual false, abstract: false, final false
+  static inline void Clear(::ArrayW<int32_t, ::Array<int32_t>*> data);
 
-  /// @brief Method HaveSameContents, addr 0x119a42c, size 0x6c, virtual false, abstract: false, final false
-  static inline bool HaveSameContents(::ArrayW<uint32_t, ::Array<uint32_t>*> a, ::ArrayW<uint32_t, ::Array<uint32_t>*> b);
+  /// @brief Method Clear, addr 0x11ddf5c, size 0x18, virtual false, abstract: false, final false
+  static inline void Clear(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ToString, addr 0x119a498, size 0x120, virtual false, abstract: false, final false
-  static inline ::StringW ToString(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
-
-  /// @brief Method GetHashCode, addr 0x119a5b8, size 0x50, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
-
-  /// @brief Method GetHashCode, addr 0x119a608, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t len);
-
-  /// @brief Method GetHashCode, addr 0x119a65c, size 0x50, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::ArrayW<int32_t, ::Array<int32_t>*> data);
-
-  /// @brief Method GetHashCode, addr 0x119a6ac, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t off, int32_t len);
-
-  /// @brief Method GetHashCode, addr 0x119a700, size 0x50, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::ArrayW<uint32_t, ::Array<uint32_t>*> data);
-
-  /// @brief Method GetHashCode, addr 0x119a750, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::ArrayW<uint32_t, ::Array<uint32_t>*> data, int32_t off, int32_t len);
-
-  /// @brief Method GetHashCode, addr 0x119a7a4, size 0x5c, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::ArrayW<uint64_t, ::Array<uint64_t>*> data);
-
-  /// @brief Method GetHashCode, addr 0x119a800, size 0x5c, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::ArrayW<uint64_t, ::Array<uint64_t>*> data, int32_t off, int32_t len);
-
-  /// @brief Method Clone, addr 0x119a85c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x11dc82c, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> Clone(::ArrayW<bool, ::Array<bool>*> data);
 
-  /// @brief Method Clone, addr 0x119a8d4, size 0x78, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Clone(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
-
-  /// @brief Method Clone, addr 0x119a94c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x11dc91c, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> Clone(::ArrayW<int32_t, ::Array<int32_t>*> data);
 
-  /// @brief Method Clone, addr 0x119a9c4, size 0x78, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Clone(::ArrayW<uint32_t, ::Array<uint32_t>*> data);
-
-  /// @brief Method Clone, addr 0x119aa3c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x11dca0c, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<int64_t, ::Array<int64_t>*> Clone(::ArrayW<int64_t, ::Array<int64_t>*> data);
 
-  /// @brief Method Clone, addr 0x119aab4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x11dc994, size 0x78, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Clone(::ArrayW<uint32_t, ::Array<uint32_t>*> data);
+
+  /// @brief Method Clone, addr 0x11dca84, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> Clone(::ArrayW<uint64_t, ::Array<uint64_t>*> data);
 
-  /// @brief Method Clone, addr 0x119ab2c, size 0xa0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Clone(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ArrayW<uint8_t, ::Array<uint8_t>*> existing);
-
-  /// @brief Method Clone, addr 0x119abcc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x11dcb9c, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> Clone(::ArrayW<uint64_t, ::Array<uint64_t>*> data, ::ArrayW<uint64_t, ::Array<uint64_t>*> existing);
 
-  /// @brief Method Contains, addr 0x119ac6c, size 0x4c, virtual false, abstract: false, final false
-  static inline bool Contains(::ArrayW<uint8_t, ::Array<uint8_t>*> a, uint8_t n);
+  /// @brief Method Clone, addr 0x11dc8a4, size 0x78, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Clone(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Contains, addr 0x119acb8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x11dcafc, size 0xa0, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Clone(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ArrayW<uint8_t, ::Array<uint8_t>*> existing);
+
+  /// @brief Method Concatenate, addr 0x11ddaf4, size 0xec, virtual false, abstract: false, final false
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> Concatenate(::ArrayW<int32_t, ::Array<int32_t>*> a, ::ArrayW<int32_t, ::Array<int32_t>*> b);
+
+  /// @brief Method Concatenate, addr 0x11dd86c, size 0xec, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Concatenate(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
+
+  /// @brief Method ConcatenateAll, addr 0x11dd958, size 0x19c, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConcatenateAll(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> vs);
+
+  /// @brief Method ConstantTimeAreEqual, addr 0x11dbfbc, size 0xfc, virtual false, abstract: false, final false
+  static inline bool ConstantTimeAreEqual(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
+
+  /// @brief Method ConstantTimeAreEqual, addr 0x11dc0b8, size 0x1d8, virtual false, abstract: false, final false
+  static inline bool ConstantTimeAreEqual(int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> a, int32_t aOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t bOff);
+
+  /// @brief Method Contains, addr 0x11dcc88, size 0x4c, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<int16_t, ::Array<int16_t>*> a, int16_t n);
 
-  /// @brief Method Contains, addr 0x119ad04, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x11dccd4, size 0x4c, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<int32_t, ::Array<int32_t>*> a, int32_t n);
 
-  /// @brief Method Fill, addr 0x119ad50, size 0x5c, virtual false, abstract: false, final false
-  static inline void Fill(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, uint8_t b);
+  /// @brief Method Contains, addr 0x11dcc3c, size 0x4c, virtual false, abstract: false, final false
+  static inline bool Contains(::ArrayW<uint8_t, ::Array<uint8_t>*> a, uint8_t n);
 
-  /// @brief Method Fill, addr 0x119adac, size 0x4c, virtual false, abstract: false, final false
-  static inline void Fill(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t from, int32_t to, uint8_t b);
-
-  /// @brief Method CopyOf, addr 0x119adf8, size 0xb8, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CopyOf(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t newLength);
-
-  /// @brief Method CopyOf, addr 0x119aeb0, size 0xb8, virtual false, abstract: false, final false
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> CopyOf(::ArrayW<char16_t, ::Array<char16_t>*> data, int32_t newLength);
-
-  /// @brief Method CopyOf, addr 0x119af68, size 0xb8, virtual false, abstract: false, final false
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> CopyOf(::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t newLength);
-
-  /// @brief Method CopyOf, addr 0x119b020, size 0xb8, virtual false, abstract: false, final false
-  static inline ::ArrayW<int64_t, ::Array<int64_t>*> CopyOf(::ArrayW<int64_t, ::Array<int64_t>*> data, int32_t newLength);
-
-  /// @brief Method CopyOf, addr 0x119b0d8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CopyOf, addr 0x11dd0a8, size 0xb8, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>
   CopyOf(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> data, int32_t newLength);
 
-  /// @brief Method CopyOfRange, addr 0x119b190, size 0xf8, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CopyOfRange(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t from, int32_t to);
+  /// @brief Method CopyOf, addr 0x11dce80, size 0xb8, virtual false, abstract: false, final false
+  static inline ::ArrayW<char16_t, ::Array<char16_t>*> CopyOf(::ArrayW<char16_t, ::Array<char16_t>*> data, int32_t newLength);
 
-  /// @brief Method CopyOfRange, addr 0x119b344, size 0xf8, virtual false, abstract: false, final false
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> CopyOfRange(::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t from, int32_t to);
+  /// @brief Method CopyOf, addr 0x11dcf38, size 0xb8, virtual false, abstract: false, final false
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> CopyOf(::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t newLength);
 
-  /// @brief Method CopyOfRange, addr 0x119b43c, size 0xf8, virtual false, abstract: false, final false
-  static inline ::ArrayW<int64_t, ::Array<int64_t>*> CopyOfRange(::ArrayW<int64_t, ::Array<int64_t>*> data, int32_t from, int32_t to);
+  /// @brief Method CopyOf, addr 0x11dcff0, size 0xb8, virtual false, abstract: false, final false
+  static inline ::ArrayW<int64_t, ::Array<int64_t>*> CopyOf(::ArrayW<int64_t, ::Array<int64_t>*> data, int32_t newLength);
 
-  /// @brief Method CopyOfRange, addr 0x119b534, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CopyOf, addr 0x11dcdc8, size 0xb8, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CopyOf(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t newLength);
+
+  /// @brief Method CopyOfRange, addr 0x11dd504, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>
   CopyOfRange(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> data, int32_t from, int32_t to);
 
-  /// @brief Method GetLength, addr 0x119b288, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CopyOfRange, addr 0x11dd314, size 0xf8, virtual false, abstract: false, final false
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> CopyOfRange(::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t from, int32_t to);
+
+  /// @brief Method CopyOfRange, addr 0x11dd40c, size 0xf8, virtual false, abstract: false, final false
+  static inline ::ArrayW<int64_t, ::Array<int64_t>*> CopyOfRange(::ArrayW<int64_t, ::Array<int64_t>*> data, int32_t from, int32_t to);
+
+  /// @brief Method CopyOfRange, addr 0x11dd160, size 0xf8, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CopyOfRange(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t from, int32_t to);
+
+  /// @brief Method Fill, addr 0x11dcd20, size 0x5c, virtual false, abstract: false, final false
+  static inline void Fill(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, uint8_t b);
+
+  /// @brief Method Fill, addr 0x11dcd7c, size 0x4c, virtual false, abstract: false, final false
+  static inline void Fill(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t from, int32_t to, uint8_t b);
+
+  /// @brief Method GetHashCode, addr 0x11dc62c, size 0x50, virtual false, abstract: false, final false
+  static inline int32_t GetHashCode(::ArrayW<int32_t, ::Array<int32_t>*> data);
+
+  /// @brief Method GetHashCode, addr 0x11dc67c, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t GetHashCode(::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t off, int32_t len);
+
+  /// @brief Method GetHashCode, addr 0x11dc6d0, size 0x50, virtual false, abstract: false, final false
+  static inline int32_t GetHashCode(::ArrayW<uint32_t, ::Array<uint32_t>*> data);
+
+  /// @brief Method GetHashCode, addr 0x11dc720, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t GetHashCode(::ArrayW<uint32_t, ::Array<uint32_t>*> data, int32_t off, int32_t len);
+
+  /// @brief Method GetHashCode, addr 0x11dc774, size 0x5c, virtual false, abstract: false, final false
+  static inline int32_t GetHashCode(::ArrayW<uint64_t, ::Array<uint64_t>*> data);
+
+  /// @brief Method GetHashCode, addr 0x11dc7d0, size 0x5c, virtual false, abstract: false, final false
+  static inline int32_t GetHashCode(::ArrayW<uint64_t, ::Array<uint64_t>*> data, int32_t off, int32_t len);
+
+  /// @brief Method GetHashCode, addr 0x11dc588, size 0x50, virtual false, abstract: false, final false
+  static inline int32_t GetHashCode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+
+  /// @brief Method GetHashCode, addr 0x11dc5d8, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t GetHashCode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t len);
+
+  /// @brief Method GetLength, addr 0x11dd258, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t GetLength(int32_t from, int32_t to);
 
-  /// @brief Method Append, addr 0x119b62c, size 0xd0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Append(::ArrayW<uint8_t, ::Array<uint8_t>*> a, uint8_t b);
+  /// @brief Method HaveSameContents, addr 0x11dbc70, size 0x7c, virtual false, abstract: false, final false
+  static inline bool HaveSameContents(::ArrayW<bool, ::Array<bool>*> a, ::ArrayW<bool, ::Array<bool>*> b);
 
-  /// @brief Method Append, addr 0x119b6fc, size 0xd0, virtual false, abstract: false, final false
-  static inline ::ArrayW<int16_t, ::Array<int16_t>*> Append(::ArrayW<int16_t, ::Array<int16_t>*> a, int16_t b);
+  /// @brief Method HaveSameContents, addr 0x11dbd6c, size 0x6c, virtual false, abstract: false, final false
+  static inline bool HaveSameContents(::ArrayW<char16_t, ::Array<char16_t>*> a, ::ArrayW<char16_t, ::Array<char16_t>*> b);
 
-  /// @brief Method Append, addr 0x119b7cc, size 0xd0, virtual false, abstract: false, final false
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> Append(::ArrayW<int32_t, ::Array<int32_t>*> a, int32_t b);
+  /// @brief Method HaveSameContents, addr 0x11dc310, size 0x6c, virtual false, abstract: false, final false
+  static inline bool HaveSameContents(::ArrayW<int32_t, ::Array<int32_t>*> a, ::ArrayW<int32_t, ::Array<int32_t>*> b);
 
-  /// @brief Method Concatenate, addr 0x119b89c, size 0xec, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Concatenate(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
+  /// @brief Method HaveSameContents, addr 0x11dc3fc, size 0x6c, virtual false, abstract: false, final false
+  static inline bool HaveSameContents(::ArrayW<uint32_t, ::Array<uint32_t>*> a, ::ArrayW<uint32_t, ::Array<uint32_t>*> b);
 
-  /// @brief Method ConcatenateAll, addr 0x119b988, size 0x19c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConcatenateAll(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> vs);
+  /// @brief Method HaveSameContents, addr 0x11dbe58, size 0x6c, virtual false, abstract: false, final false
+  static inline bool HaveSameContents(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method Concatenate, addr 0x119bb24, size 0xec, virtual false, abstract: false, final false
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> Concatenate(::ArrayW<int32_t, ::Array<int32_t>*> a, ::ArrayW<int32_t, ::Array<int32_t>*> b);
-
-  /// @brief Method Prepend, addr 0x119bc10, size 0xb4, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Prepend(::ArrayW<uint8_t, ::Array<uint8_t>*> a, uint8_t b);
-
-  /// @brief Method Prepend, addr 0x119bcc4, size 0xb4, virtual false, abstract: false, final false
-  static inline ::ArrayW<int16_t, ::Array<int16_t>*> Prepend(::ArrayW<int16_t, ::Array<int16_t>*> a, int16_t b);
-
-  /// @brief Method Prepend, addr 0x119bd78, size 0xb4, virtual false, abstract: false, final false
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> Prepend(::ArrayW<int32_t, ::Array<int32_t>*> a, int32_t b);
-
-  /// @brief Method Reverse, addr 0x119be2c, size 0xb0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Reverse(::ArrayW<uint8_t, ::Array<uint8_t>*> a);
-
-  /// @brief Method Reverse, addr 0x119bedc, size 0xb0, virtual false, abstract: false, final false
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> Reverse(::ArrayW<int32_t, ::Array<int32_t>*> a);
-
-  /// @brief Method Clear, addr 0x119bf8c, size 0x18, virtual false, abstract: false, final false
-  static inline void Clear(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
-
-  /// @brief Method Clear, addr 0x119bfa4, size 0x18, virtual false, abstract: false, final false
-  static inline void Clear(::ArrayW<int32_t, ::Array<int32_t>*> data);
-
-  /// @brief Method IsNullOrContainsNull, addr 0x119bfbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrContainsNull, addr 0x11ddf8c, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsNullOrContainsNull(::ArrayW<::System::Object*, ::Array<::System::Object*>*> array);
 
-  /// @brief Method IsNullOrEmpty, addr 0x119bff8, size 0x1c, virtual false, abstract: false, final false
-  static inline bool IsNullOrEmpty(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
-
-  /// @brief Method IsNullOrEmpty, addr 0x119c014, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrEmpty, addr 0x11ddfe4, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty(::ArrayW<::System::Object*, ::Array<::System::Object*>*> array);
+
+  /// @brief Method IsNullOrEmpty, addr 0x11ddfc8, size 0x1c, virtual false, abstract: false, final false
+  static inline bool IsNullOrEmpty(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
   static inline ::Org::BouncyCastle::Utilities::Arrays* New_ctor();
 
-  /// @brief Method .ctor, addr 0x119c0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Prepend, addr 0x11ddc94, size 0xb4, virtual false, abstract: false, final false
+  static inline ::ArrayW<int16_t, ::Array<int16_t>*> Prepend(::ArrayW<int16_t, ::Array<int16_t>*> a, int16_t b);
+
+  /// @brief Method Prepend, addr 0x11ddd48, size 0xb4, virtual false, abstract: false, final false
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> Prepend(::ArrayW<int32_t, ::Array<int32_t>*> a, int32_t b);
+
+  /// @brief Method Prepend, addr 0x11ddbe0, size 0xb4, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Prepend(::ArrayW<uint8_t, ::Array<uint8_t>*> a, uint8_t b);
+
+  /// @brief Method Reverse, addr 0x11ddeac, size 0xb0, virtual false, abstract: false, final false
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> Reverse(::ArrayW<int32_t, ::Array<int32_t>*> a);
+
+  /// @brief Method Reverse, addr 0x11dddfc, size 0xb0, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Reverse(::ArrayW<uint8_t, ::Array<uint8_t>*> a);
+
+  /// @brief Method ToString, addr 0x11dc468, size 0x120, virtual false, abstract: false, final false
+  static inline ::StringW ToString(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
+
+  /// @brief Method .ctor, addr 0x11de09c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_EmptyBytes();
+
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_EmptyInts();
+
+  static inline void setStaticF_EmptyBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  static inline void setStaticF_EmptyInts(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Arrays();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Arrays", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Arrays(Arrays&&) = delete;
@@ -247,12 +251,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Arrays(Arrays const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Arrays();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelStatsView);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5093))
 // CS Name: ::LevelStatsView*
 class CORDL_TYPE LevelStatsView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -39,35 +37,41 @@ public:
   /// @brief Field _maxRankText, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__maxRankText, put = __cordl_internal_set__maxRankText))::UnityW<::TMPro::TextMeshProUGUI> _maxRankText;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__highScoreText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__highScoreText() const;
-
-  constexpr void __cordl_internal_set__highScoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maxComboText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maxComboText() const;
-
-  constexpr void __cordl_internal_set__maxComboText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maxRankText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maxRankText() const;
-
-  constexpr void __cordl_internal_set__maxRankText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  /// @brief Method Hide, addr 0x2316264, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x23e40c4, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
-
-  /// @brief Method ShowStats, addr 0x2316288, size 0x18c, virtual false, abstract: false, final false
-  inline void ShowStats(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
 
   static inline ::GlobalNamespace::LevelStatsView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2316414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShowStats, addr 0x23d0f54, size 0x18c, virtual false, abstract: false, final false
+  inline void ShowStats(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__highScoreText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__highScoreText();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maxComboText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maxComboText();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maxRankText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maxRankText();
+
+  constexpr void __cordl_internal_set__highScoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  constexpr void __cordl_internal_set__maxComboText(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  constexpr void __cordl_internal_set__maxRankText(::UnityW<::TMPro::TextMeshProUGUI> value);
+
+  /// @brief Method .ctor, addr 0x23e40e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LevelStatsView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LevelStatsView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelStatsView(LevelStatsView&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LevelStatsView(LevelStatsView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelStatsView();
-
-public:
   /// @brief Field _highScoreText, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____highScoreText;
 

@@ -37,16 +37,22 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryArray
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3243)), TypeDefinitionIndex(TypeDefinitionIndex(3244)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3245))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3270)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryArray*
+// CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryArray*
 class CORDL_TYPE BinaryArray : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field objectId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
+  /// @brief Field assemId, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_assemId, put = __cordl_internal_set_assemId)) int32_t assemId;
 
-  /// @brief Field rank, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_rank, put = __cordl_internal_set_rank)) int32_t rank;
+  /// @brief Field binaryArrayTypeEnum, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_binaryArrayTypeEnum,
+                      put = __cordl_internal_set_binaryArrayTypeEnum))::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum;
+
+  /// @brief Field binaryHeaderEnum, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_binaryHeaderEnum, put = __cordl_internal_set_binaryHeaderEnum))::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum;
+
+  /// @brief Field binaryTypeEnum, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_binaryTypeEnum, put = __cordl_internal_set_binaryTypeEnum))::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum;
 
   /// @brief Field lengthA, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_lengthA, put = __cordl_internal_set_lengthA))::ArrayW<int32_t, ::Array<int32_t>*> lengthA;
@@ -54,97 +60,96 @@ public:
   /// @brief Field lowerBoundA, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_lowerBoundA, put = __cordl_internal_set_lowerBoundA))::ArrayW<int32_t, ::Array<int32_t>*> lowerBoundA;
 
-  /// @brief Field binaryTypeEnum, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_binaryTypeEnum, put = __cordl_internal_set_binaryTypeEnum))::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum;
+  /// @brief Field objectId, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
+
+  /// @brief Field rank, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_rank, put = __cordl_internal_set_rank)) int32_t rank;
 
   /// @brief Field typeInformation, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_typeInformation, put = __cordl_internal_set_typeInformation))::System::Object* typeInformation;
 
-  /// @brief Field assemId, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_assemId, put = __cordl_internal_set_assemId)) int32_t assemId;
+  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryArray* New_ctor();
 
-  /// @brief Field binaryHeaderEnum, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_binaryHeaderEnum, put = __cordl_internal_set_binaryHeaderEnum))::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum;
+  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Field binaryArrayTypeEnum, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_binaryArrayTypeEnum,
-                      put = __cordl_internal_set_binaryArrayTypeEnum))::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum;
+  /// @brief Method Read, addr 0x25b4d64, size 0x300, virtual true, abstract: false, final true
+  inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  constexpr int32_t& __cordl_internal_get_objectId();
+  /// @brief Method Set, addr 0x25b4a38, size 0x54, virtual false, abstract: false, final false
+  inline void Set(int32_t objectId, int32_t rank, ::ArrayW<int32_t, ::Array<int32_t>*> lengthA, ::ArrayW<int32_t, ::Array<int32_t>*> lowerBoundA,
+                  ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Object* typeInformation,
+                  ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int32_t assemId);
 
-  constexpr int32_t const& __cordl_internal_get_objectId() const;
+  /// @brief Method Write, addr 0x25b4a8c, size 0x2d8, virtual true, abstract: false, final true
+  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  constexpr void __cordl_internal_set_objectId(int32_t value);
+  constexpr int32_t const& __cordl_internal_get_assemId() const;
 
-  constexpr int32_t& __cordl_internal_get_rank();
+  constexpr int32_t& __cordl_internal_get_assemId();
 
-  constexpr int32_t const& __cordl_internal_get_rank() const;
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const& __cordl_internal_get_binaryArrayTypeEnum() const;
 
-  constexpr void __cordl_internal_set_rank(int32_t value);
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum& __cordl_internal_get_binaryArrayTypeEnum();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_lengthA();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const& __cordl_internal_get_binaryHeaderEnum() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_lengthA() const;
-
-  constexpr void __cordl_internal_set_lengthA(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_lowerBoundA();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_lowerBoundA() const;
-
-  constexpr void __cordl_internal_set_lowerBoundA(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& __cordl_internal_get_binaryTypeEnum();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& __cordl_internal_get_binaryHeaderEnum();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const& __cordl_internal_get_binaryTypeEnum() const;
 
-  constexpr void __cordl_internal_set_binaryTypeEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value);
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& __cordl_internal_get_binaryTypeEnum();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_lengthA() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_lengthA();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_lowerBoundA() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_lowerBoundA();
+
+  constexpr int32_t const& __cordl_internal_get_objectId() const;
+
+  constexpr int32_t& __cordl_internal_get_objectId();
+
+  constexpr int32_t const& __cordl_internal_get_rank() const;
+
+  constexpr int32_t& __cordl_internal_get_rank();
 
   constexpr ::System::Object*& __cordl_internal_get_typeInformation();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_typeInformation() const;
 
-  constexpr void __cordl_internal_set_typeInformation(::System::Object* value);
-
-  constexpr int32_t& __cordl_internal_get_assemId();
-
-  constexpr int32_t const& __cordl_internal_get_assemId() const;
-
   constexpr void __cordl_internal_set_assemId(int32_t value);
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& __cordl_internal_get_binaryHeaderEnum();
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const& __cordl_internal_get_binaryHeaderEnum() const;
-
-  constexpr void __cordl_internal_set_binaryHeaderEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value);
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum& __cordl_internal_get_binaryArrayTypeEnum();
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const& __cordl_internal_get_binaryArrayTypeEnum() const;
 
   constexpr void __cordl_internal_set_binaryArrayTypeEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum value);
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryArray* New_ctor();
+  constexpr void __cordl_internal_set_binaryHeaderEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum value);
 
-  /// @brief Method .ctor, addr 0x24e3d10, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_binaryTypeEnum(::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum value);
+
+  constexpr void __cordl_internal_set_lengthA(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_lowerBoundA(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_objectId(int32_t value);
+
+  constexpr void __cordl_internal_set_rank(int32_t value);
+
+  constexpr void __cordl_internal_set_typeInformation(::System::Object* value);
+
+  /// @brief Method .ctor, addr 0x25b4a08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
-
-  /// @brief Method .ctor, addr 0x24e3d18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b4a10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method Set, addr 0x24e3d40, size 0x54, virtual false, abstract: false, final false
-  inline void Set(int32_t objectId, int32_t rank, ::ArrayW<int32_t, ::Array<int32_t>*> lengthA, ::ArrayW<int32_t, ::Array<int32_t>*> lowerBoundA,
-                  ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Object* typeInformation,
-                  ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int32_t assemId);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BinaryArray();
 
-  /// @brief Method Write, addr 0x24e3d94, size 0x2d8, virtual true, abstract: false, final true
-  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
-
-  /// @brief Method Read, addr 0x24e406c, size 0x300, virtual true, abstract: false, final true
-  inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BinaryArray", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BinaryArray(BinaryArray&&) = delete;
@@ -153,12 +158,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryArray(BinaryArray const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryArray();
-
-public:
   /// @brief Field objectId, offset: 0x10, size: 0x4, def value: None
   int32_t ___objectId;
 

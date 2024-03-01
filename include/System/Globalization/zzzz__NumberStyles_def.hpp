@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Globalization::NumberStyles);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3677))
 // CS Name: ::System.Globalization::NumberStyles
 struct CORDL_TYPE NumberStyles {
 public:
@@ -49,69 +47,74 @@ public:
     return static_cast<__NumberStyles_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr NumberStyles(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__NumberStyles_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr NumberStyles();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr NumberStyles(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Globalization::NumberStyles const None;
-
-  /// @brief Field AllowLeadingWhite value: static_cast<int32_t>(0x1)
-  static ::System::Globalization::NumberStyles const AllowLeadingWhite;
-
-  /// @brief Field AllowTrailingWhite value: static_cast<int32_t>(0x2)
-  static ::System::Globalization::NumberStyles const AllowTrailingWhite;
-
-  /// @brief Field AllowLeadingSign value: static_cast<int32_t>(0x4)
-  static ::System::Globalization::NumberStyles const AllowLeadingSign;
-
-  /// @brief Field AllowTrailingSign value: static_cast<int32_t>(0x8)
-  static ::System::Globalization::NumberStyles const AllowTrailingSign;
-
-  /// @brief Field AllowParentheses value: static_cast<int32_t>(0x10)
-  static ::System::Globalization::NumberStyles const AllowParentheses;
-
-  /// @brief Field AllowDecimalPoint value: static_cast<int32_t>(0x20)
-  static ::System::Globalization::NumberStyles const AllowDecimalPoint;
-
-  /// @brief Field AllowThousands value: static_cast<int32_t>(0x40)
-  static ::System::Globalization::NumberStyles const AllowThousands;
-
-  /// @brief Field AllowExponent value: static_cast<int32_t>(0x80)
-  static ::System::Globalization::NumberStyles const AllowExponent;
 
   /// @brief Field AllowCurrencySymbol value: static_cast<int32_t>(0x100)
   static ::System::Globalization::NumberStyles const AllowCurrencySymbol;
 
+  /// @brief Field AllowDecimalPoint value: static_cast<int32_t>(0x20)
+  static ::System::Globalization::NumberStyles const AllowDecimalPoint;
+
+  /// @brief Field AllowExponent value: static_cast<int32_t>(0x80)
+  static ::System::Globalization::NumberStyles const AllowExponent;
+
   /// @brief Field AllowHexSpecifier value: static_cast<int32_t>(0x200)
   static ::System::Globalization::NumberStyles const AllowHexSpecifier;
 
-  /// @brief Field Integer value: static_cast<int32_t>(0x7)
-  static ::System::Globalization::NumberStyles const Integer;
+  /// @brief Field AllowLeadingSign value: static_cast<int32_t>(0x4)
+  static ::System::Globalization::NumberStyles const AllowLeadingSign;
 
-  /// @brief Field HexNumber value: static_cast<int32_t>(0x203)
-  static ::System::Globalization::NumberStyles const HexNumber;
+  /// @brief Field AllowLeadingWhite value: static_cast<int32_t>(0x1)
+  static ::System::Globalization::NumberStyles const AllowLeadingWhite;
 
-  /// @brief Field Number value: static_cast<int32_t>(0x6f)
-  static ::System::Globalization::NumberStyles const Number;
+  /// @brief Field AllowParentheses value: static_cast<int32_t>(0x10)
+  static ::System::Globalization::NumberStyles const AllowParentheses;
 
-  /// @brief Field Float value: static_cast<int32_t>(0xa7)
-  static ::System::Globalization::NumberStyles const Float;
+  /// @brief Field AllowThousands value: static_cast<int32_t>(0x40)
+  static ::System::Globalization::NumberStyles const AllowThousands;
+
+  /// @brief Field AllowTrailingSign value: static_cast<int32_t>(0x8)
+  static ::System::Globalization::NumberStyles const AllowTrailingSign;
+
+  /// @brief Field AllowTrailingWhite value: static_cast<int32_t>(0x2)
+  static ::System::Globalization::NumberStyles const AllowTrailingWhite;
+
+  /// @brief Field Any value: static_cast<int32_t>(0x1ff)
+  static ::System::Globalization::NumberStyles const Any;
 
   /// @brief Field Currency value: static_cast<int32_t>(0x17f)
   static ::System::Globalization::NumberStyles const Currency;
 
-  /// @brief Field Any value: static_cast<int32_t>(0x1ff)
-  static ::System::Globalization::NumberStyles const Any;
+  /// @brief Field Float value: static_cast<int32_t>(0xa7)
+  static ::System::Globalization::NumberStyles const Float;
+
+  /// @brief Field HexNumber value: static_cast<int32_t>(0x203)
+  static ::System::Globalization::NumberStyles const HexNumber;
+
+  /// @brief Field Integer value: static_cast<int32_t>(0x7)
+  static ::System::Globalization::NumberStyles const Integer;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Globalization::NumberStyles const None;
+
+  /// @brief Field Number value: static_cast<int32_t>(0x6f)
+  static ::System::Globalization::NumberStyles const Number;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

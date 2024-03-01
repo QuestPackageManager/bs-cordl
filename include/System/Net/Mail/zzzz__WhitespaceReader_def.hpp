@@ -16,18 +16,22 @@ MARK_REF_PTR_T(::System::Net::Mail::WhitespaceReader);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7391))
 // CS Name: ::System.Net.Mail::WhitespaceReader*
 class CORDL_TYPE WhitespaceReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadFwsReverse, addr 0x2906008, size 0x20c, virtual false, abstract: false, final false
-  static inline int32_t ReadFwsReverse(::StringW data, int32_t index);
-
-  /// @brief Method ReadCfwsReverse, addr 0x2907044, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method ReadCfwsReverse, addr 0x29ec4c0, size 0x2e0, virtual false, abstract: false, final false
   static inline int32_t ReadCfwsReverse(::StringW data, int32_t index);
 
+  /// @brief Method ReadFwsReverse, addr 0x29eb484, size 0x20c, virtual false, abstract: false, final false
+  static inline int32_t ReadFwsReverse(::StringW data, int32_t index);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WhitespaceReader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WhitespaceReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WhitespaceReader(WhitespaceReader&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WhitespaceReader(WhitespaceReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WhitespaceReader();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

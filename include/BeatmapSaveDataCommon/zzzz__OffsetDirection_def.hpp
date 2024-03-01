@@ -15,8 +15,6 @@ MARK_VAL_T(::BeatmapSaveDataCommon::OffsetDirection);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataCommon {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11218))
 // CS Name: ::BeatmapSaveDataCommon::OffsetDirection
 struct CORDL_TYPE OffsetDirection {
 public:
@@ -41,36 +39,23 @@ public:
     return static_cast<__OffsetDirection_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr OffsetDirection(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__OffsetDirection_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr OffsetDirection();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr OffsetDirection(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Up value: static_cast<int32_t>(0x0)
-  static ::BeatmapSaveDataCommon::OffsetDirection const Up;
-
   /// @brief Field Down value: static_cast<int32_t>(0x1)
   static ::BeatmapSaveDataCommon::OffsetDirection const Down;
-
-  /// @brief Field Left value: static_cast<int32_t>(0x2)
-  static ::BeatmapSaveDataCommon::OffsetDirection const Left;
-
-  /// @brief Field Right value: static_cast<int32_t>(0x3)
-  static ::BeatmapSaveDataCommon::OffsetDirection const Right;
-
-  /// @brief Field UpLeft value: static_cast<int32_t>(0x4)
-  static ::BeatmapSaveDataCommon::OffsetDirection const UpLeft;
-
-  /// @brief Field UpRight value: static_cast<int32_t>(0x5)
-  static ::BeatmapSaveDataCommon::OffsetDirection const UpRight;
 
   /// @brief Field DownLeft value: static_cast<int32_t>(0x6)
   static ::BeatmapSaveDataCommon::OffsetDirection const DownLeft;
@@ -78,8 +63,26 @@ public:
   /// @brief Field DownRight value: static_cast<int32_t>(0x7)
   static ::BeatmapSaveDataCommon::OffsetDirection const DownRight;
 
+  /// @brief Field Left value: static_cast<int32_t>(0x2)
+  static ::BeatmapSaveDataCommon::OffsetDirection const Left;
+
   /// @brief Field None value: static_cast<int32_t>(0x9)
   static ::BeatmapSaveDataCommon::OffsetDirection const None;
+
+  /// @brief Field Right value: static_cast<int32_t>(0x3)
+  static ::BeatmapSaveDataCommon::OffsetDirection const Right;
+
+  /// @brief Field Up value: static_cast<int32_t>(0x0)
+  static ::BeatmapSaveDataCommon::OffsetDirection const Up;
+
+  /// @brief Field UpLeft value: static_cast<int32_t>(0x4)
+  static ::BeatmapSaveDataCommon::OffsetDirection const UpLeft;
+
+  /// @brief Field UpRight value: static_cast<int32_t>(0x5)
+  static ::BeatmapSaveDataCommon::OffsetDirection const UpRight;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

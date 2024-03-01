@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::UnityEngine::Avatar*, ::UnityEngine::Transform*)>(
     &::UnityEngine::HumanPoseHandler::Internal_CreateFromRoot)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2c92fdc;
+  constexpr static std::size_t addrs = 0x2d7d0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityEngine::HumanPoseHandler::Internal_Destroy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2c93020;
+  constexpr static std::size_t addrs = 0x2d7d0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::HumanPoseHandler::*)(
     ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>, ByRef<::ArrayW<float_t, ::Array<float_t>*>>)>(&::UnityEngine::HumanPoseHandler::GetHumanPose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2c9305c;
+  constexpr static std::size_t addrs = 0x2d7d130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::HumanPoseHandler::*)()>(&::UnityEngine::HumanPoseHandler::Dispose)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2c930b8;
+  constexpr static std::size_t addrs = 0x2d7d18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::HumanPoseHandler*>::get(), "Dispose",
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::HumanPoseHandler::*)(::UnityEngine::Avatar*, ::UnityEngine::Transform*)>(
     &::UnityEngine::HumanPoseHandler::_ctor)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x2c93184;
+  constexpr static std::size_t addrs = 0x2d7d258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::HumanPoseHandler::*)(ByRef<::UnityEngine::HumanPose>)>(
     &::UnityEngine::HumanPoseHandler::GetHumanPose)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2c933b0;
+  constexpr static std::size_t addrs = 0x2d7d484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

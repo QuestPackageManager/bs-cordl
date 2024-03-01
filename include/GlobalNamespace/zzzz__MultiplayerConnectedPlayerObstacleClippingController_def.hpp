@@ -22,48 +22,52 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingCont
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4478))
 // CS Name: ::MultiplayerConnectedPlayerObstacleClippingController*
 class CORDL_TYPE MultiplayerConnectedPlayerObstacleClippingController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _clippingPlaneNormalID, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF__clippingPlaneNormalID, put = setStaticF__clippingPlaneNormalID)) int32_t _clippingPlaneNormalID;
+
+  /// @brief Field _clippingPlanePositionID, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF__clippingPlanePositionID, put = setStaticF__clippingPlanePositionID)) int32_t _clippingPlanePositionID;
+
   /// @brief Field _materialPropertyBlockControllers, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockControllers,
                       put = __cordl_internal_set__materialPropertyBlockControllers))::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>,
                                                                                              ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> _materialPropertyBlockControllers;
 
-  /// @brief Field _clippingPlanePositionID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__clippingPlanePositionID, put = setStaticF__clippingPlanePositionID)) int32_t _clippingPlanePositionID;
+  static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* New_ctor();
 
-  /// @brief Field _clippingPlaneNormalID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__clippingPlaneNormalID, put = setStaticF__clippingPlaneNormalID)) int32_t _clippingPlaneNormalID;
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>&
-  __cordl_internal_get__materialPropertyBlockControllers();
+  /// @brief Method SetClippingParams, addr 0x246055c, size 0x14c, virtual false, abstract: false, final false
+  inline void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
   __cordl_internal_get__materialPropertyBlockControllers() const;
 
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>&
+  __cordl_internal_get__materialPropertyBlockControllers();
+
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(
       ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  static inline void setStaticF__clippingPlanePositionID(int32_t value);
+  /// @brief Method .ctor, addr 0x24606a8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline int32_t getStaticF__clippingPlaneNormalID();
 
   static inline int32_t getStaticF__clippingPlanePositionID();
 
   static inline void setStaticF__clippingPlaneNormalID(int32_t value);
 
-  static inline int32_t getStaticF__clippingPlaneNormalID();
+  static inline void setStaticF__clippingPlanePositionID(int32_t value);
 
-  /// @brief Method SetClippingParams, addr 0x2391614, size 0x14c, virtual false, abstract: false, final false
-  inline void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerConnectedPlayerObstacleClippingController();
 
-  static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2391760, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleClippingController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConnectedPlayerObstacleClippingController(MultiplayerConnectedPlayerObstacleClippingController&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerObstacleClippingController(MultiplayerConnectedPlayerObstacleClippingController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerConnectedPlayerObstacleClippingController();
-
-public:
   /// @brief Field _materialPropertyBlockControllers, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> ____materialPropertyBlockControllers;
 

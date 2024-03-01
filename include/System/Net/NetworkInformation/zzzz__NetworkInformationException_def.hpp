@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::NetworkInformationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7502))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7261))
 // CS Name: ::System.Net.NetworkInformation::NetworkInformationException*
 class CORDL_TYPE NetworkInformationException : public ::System::ComponentModel::Win32Exception {
 public:
@@ -31,18 +29,24 @@ public:
 
   static inline ::System::Net::NetworkInformation::NetworkInformationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29f01b8, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::Net::NetworkInformation::NetworkInformationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                          ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x29f021c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad828c, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2ad82f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x29f0224, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x2ad82f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetworkInformationException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetworkInformationException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkInformationException(NetworkInformationException&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkInformationException(NetworkInformationException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetworkInformationException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

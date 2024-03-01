@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTraits);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6254))
 // CS Name: ::UnityEngine.UIElements::UxmlTraits*
 class CORDL_TYPE UxmlTraits : public ::System::Object {
 public:
@@ -34,23 +32,29 @@ public:
 
   __declspec(property(put = set_canHaveAnyAttribute)) bool canHaveAnyAttribute;
 
-  constexpr bool& __cordl_internal_get__canHaveAnyAttribute_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__canHaveAnyAttribute_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__canHaveAnyAttribute_k__BackingField(bool value);
+  /// @brief Method Init, addr 0x2f1fa28, size 0x4, virtual true, abstract: false, final false
+  inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e2d2d4, size 0x20, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__canHaveAnyAttribute_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__canHaveAnyAttribute_k__BackingField();
+
+  constexpr void __cordl_internal_set__canHaveAnyAttribute_k__BackingField(bool value);
+
+  /// @brief Method .ctor, addr 0x2f1f9fc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_canHaveAnyAttribute, addr 0x2e2d2f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_canHaveAnyAttribute, addr 0x2f1fa1c, size 0xc, virtual false, abstract: false, final false
   inline void set_canHaveAnyAttribute(bool value);
 
-  /// @brief Method Init, addr 0x2e2d300, size 0x4, virtual true, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlTraits();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UxmlTraits", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlTraits(UxmlTraits&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UxmlTraits(UxmlTraits const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlTraits();
-
-public:
   /// @brief Field <canHaveAnyAttribute>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____canHaveAnyAttribute_k__BackingField;
 

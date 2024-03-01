@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::System::Collections::Specialized::StringDictionary);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7528))
 // CS Name: ::System.Collections.Specialized::StringDictionary*
 class CORDL_TYPE StringDictionary : public ::System::Object {
 public:
@@ -36,8 +34,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Method Add, addr 0x2a29788, size 0x98, virtual true, abstract: false, final false
+  inline void Add(::StringW key, ::StringW value);
+
+  /// @brief Method GetEnumerator, addr 0x2a29820, size 0x24, virtual true, abstract: false, final false
+  inline ::System::Collections::IEnumerator* GetEnumerator();
+
+  static inline ::System::Collections::Specialized::StringDictionary* New_ctor();
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_contents();
 
@@ -45,17 +48,18 @@ public:
 
   constexpr void __cordl_internal_set_contents(::System::Collections::Hashtable* value);
 
-  static inline ::System::Collections::Specialized::StringDictionary* New_ctor();
-
-  /// @brief Method .ctor, addr 0x29442a4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a29720, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Add, addr 0x294430c, size 0x98, virtual true, abstract: false, final false
-  inline void Add(::StringW key, ::StringW value);
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x29443a4, size 0x24, virtual true, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StringDictionary();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StringDictionary", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StringDictionary(StringDictionary&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StringDictionary(StringDictionary const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringDictionary();
-
-public:
   /// @brief Field contents, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___contents;
 

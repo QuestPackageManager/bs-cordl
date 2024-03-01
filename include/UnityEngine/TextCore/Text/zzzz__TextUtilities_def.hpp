@@ -19,24 +19,28 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13654))
 // CS Name: ::UnityEngine.TextCore.Text::TextUtilities*
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUpperFast, addr 0x2d62fc8, size 0x74, virtual false, abstract: false, final false
-  static inline char16_t ToUpperFast(char16_t c);
-
-  /// @brief Method ToUpperASCIIFast, addr 0x2d6303c, size 0x74, virtual false, abstract: false, final false
-  static inline uint32_t ToUpperASCIIFast(uint32_t c);
-
-  /// @brief Method GetHashCodeCaseInSensitive, addr 0x2d574dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeCaseInSensitive, addr 0x2e43c04, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeCaseInSensitive(::StringW s);
 
-  /// @brief Method UintToString, addr 0x2d5d968, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ToUpperASCIIFast, addr 0x2e4f764, size 0x74, virtual false, abstract: false, final false
+  static inline uint32_t ToUpperASCIIFast(uint32_t c);
+
+  /// @brief Method ToUpperFast, addr 0x2e4f6f0, size 0x74, virtual false, abstract: false, final false
+  static inline char16_t ToUpperFast(char16_t c);
+
+  /// @brief Method UintToString, addr 0x2e4a090, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW UintToString(::System::Collections::Generic::List_1<uint32_t>* unicodes);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TextUtilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TextUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TextUtilities(TextUtilities&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextUtilities(TextUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextUtilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

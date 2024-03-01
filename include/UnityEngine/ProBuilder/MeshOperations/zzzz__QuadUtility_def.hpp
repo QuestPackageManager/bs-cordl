@@ -36,24 +36,28 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::QuadUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12177))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::QuadUtility*
 class CORDL_TYPE QuadUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToQuads, addr 0x2bb86c4, size 0x854, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* ToQuads(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
-                                                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, bool smoothing);
-
-  /// @brief Method GetBestQuadConnection, addr 0x2bbca30, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetBestQuadConnection, addr 0x2ca5b04, size 0x270, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* GetBestQuadConnection(::UnityEngine::ProBuilder::WingedEdge* wing,
                                                                        ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float_t>* connections);
 
-  /// @brief Method GetQuadScore, addr 0x2bbc3c4, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method GetQuadScore, addr 0x2ca5498, size 0x66c, virtual false, abstract: false, final false
   static inline float_t GetQuadScore(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right,
                                      float_t normalThreshold);
 
+  /// @brief Method ToQuads, addr 0x2ca1798, size 0x854, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* ToQuads(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
+                                                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, bool smoothing);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QuadUtility();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "QuadUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuadUtility(QuadUtility&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   QuadUtility(QuadUtility const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QuadUtility();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

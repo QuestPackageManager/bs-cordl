@@ -29,38 +29,19 @@ MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::Pkcs8Generator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1692))
 // CS Name: ::Org.BouncyCastle.OpenSsl::Pkcs8Generator*
 class CORDL_TYPE Pkcs8Generator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field password, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
+  __declspec(property(put = set_IterationCount)) int32_t IterationCount;
 
-  /// @brief Field algorithm, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::StringW algorithm;
-
-  /// @brief Field iterationCount, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_iterationCount, put = __cordl_internal_set_iterationCount)) int32_t iterationCount;
-
-  /// @brief Field privKey, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_privKey, put = __cordl_internal_set_privKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey;
-
-  /// @brief Field random, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
-
-  /// @brief Field PbeSha1_RC4_128, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PbeSha1_RC4_128, put = setStaticF_PbeSha1_RC4_128))::StringW PbeSha1_RC4_128;
-
-  /// @brief Field PbeSha1_RC4_40, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PbeSha1_RC4_40, put = setStaticF_PbeSha1_RC4_40))::StringW PbeSha1_RC4_40;
-
-  /// @brief Field PbeSha1_3DES, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PbeSha1_3DES, put = setStaticF_PbeSha1_3DES))::StringW PbeSha1_3DES;
+  __declspec(property(put = set_Password))::ArrayW<char16_t, ::Array<char16_t>*> Password;
 
   /// @brief Field PbeSha1_2DES, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PbeSha1_2DES, put = setStaticF_PbeSha1_2DES))::StringW PbeSha1_2DES;
+
+  /// @brief Field PbeSha1_3DES, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_PbeSha1_3DES, put = setStaticF_PbeSha1_3DES))::StringW PbeSha1_3DES;
 
   /// @brief Field PbeSha1_RC2_128, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PbeSha1_RC2_128, put = setStaticF_PbeSha1_RC2_128))::StringW PbeSha1_RC2_128;
@@ -68,94 +49,117 @@ public:
   /// @brief Field PbeSha1_RC2_40, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PbeSha1_RC2_40, put = setStaticF_PbeSha1_RC2_40))::StringW PbeSha1_RC2_40;
 
+  /// @brief Field PbeSha1_RC4_128, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_PbeSha1_RC4_128, put = setStaticF_PbeSha1_RC4_128))::StringW PbeSha1_RC4_128;
+
+  /// @brief Field PbeSha1_RC4_40, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_PbeSha1_RC4_40, put = setStaticF_PbeSha1_RC4_40))::StringW PbeSha1_RC4_40;
+
   __declspec(property(put = set_SecureRandom))::Org::BouncyCastle::Security::SecureRandom* SecureRandom;
 
-  __declspec(property(put = set_Password))::ArrayW<char16_t, ::Array<char16_t>*> Password;
+  /// @brief Field algorithm, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::StringW algorithm;
 
-  __declspec(property(put = set_IterationCount)) int32_t IterationCount;
+  /// @brief Field iterationCount, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_iterationCount, put = __cordl_internal_set_iterationCount)) int32_t iterationCount;
+
+  /// @brief Field password, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
+
+  /// @brief Field privKey, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_privKey, put = __cordl_internal_set_privKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey;
+
+  /// @brief Field random, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
-  constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* i___Org__BouncyCastle__Utilities__IO__Pem__PemObjectGenerator() noexcept;
+  /// @brief Method Generate, addr 0x1145e90, size 0x270, virtual true, abstract: false, final true
+  inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_password();
+  static inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_password() const;
-
-  constexpr void __cordl_internal_set_password(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
-  constexpr ::StringW& __cordl_internal_get_algorithm();
+  static inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm);
 
   constexpr ::StringW const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __cordl_internal_set_algorithm(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get_iterationCount();
+  constexpr ::StringW& __cordl_internal_get_algorithm();
 
   constexpr int32_t const& __cordl_internal_get_iterationCount() const;
 
-  constexpr void __cordl_internal_set_iterationCount(int32_t value);
+  constexpr int32_t& __cordl_internal_get_iterationCount();
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_password() const;
+
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_password();
 
   constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_privKey();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_privKey() const;
 
-  constexpr void __cordl_internal_set_privKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
-
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
+  constexpr void __cordl_internal_set_algorithm(::StringW value);
+
+  constexpr void __cordl_internal_set_iterationCount(int32_t value);
+
+  constexpr void __cordl_internal_set_password(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
+  constexpr void __cordl_internal_set_privKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  static inline void setStaticF_PbeSha1_RC4_128(::StringW value);
+  /// @brief Method .ctor, addr 0x1145e18, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey);
 
-  static inline ::StringW getStaticF_PbeSha1_RC4_128();
-
-  static inline void setStaticF_PbeSha1_RC4_40(::StringW value);
-
-  static inline ::StringW getStaticF_PbeSha1_RC4_40();
-
-  static inline void setStaticF_PbeSha1_3DES(::StringW value);
-
-  static inline ::StringW getStaticF_PbeSha1_3DES();
-
-  static inline void setStaticF_PbeSha1_2DES(::StringW value);
+  /// @brief Method .ctor, addr 0x1145e40, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm);
 
   static inline ::StringW getStaticF_PbeSha1_2DES();
 
-  static inline void setStaticF_PbeSha1_RC2_128(::StringW value);
+  static inline ::StringW getStaticF_PbeSha1_3DES();
 
   static inline ::StringW getStaticF_PbeSha1_RC2_128();
 
-  static inline void setStaticF_PbeSha1_RC2_40(::StringW value);
-
   static inline ::StringW getStaticF_PbeSha1_RC2_40();
 
-  static inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey);
+  static inline ::StringW getStaticF_PbeSha1_RC4_128();
 
-  /// @brief Method .ctor, addr 0x1102e48, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey);
+  static inline ::StringW getStaticF_PbeSha1_RC4_40();
 
-  static inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm);
+  /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
+  constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* i___Org__BouncyCastle__Utilities__IO__Pem__PemObjectGenerator() noexcept;
 
-  /// @brief Method .ctor, addr 0x1102e70, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm);
+  static inline void setStaticF_PbeSha1_2DES(::StringW value);
 
-  /// @brief Method set_SecureRandom, addr 0x1102ea8, size 0x8, virtual false, abstract: false, final false
-  inline void set_SecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
+  static inline void setStaticF_PbeSha1_3DES(::StringW value);
 
-  /// @brief Method set_Password, addr 0x1102eb0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Password(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  static inline void setStaticF_PbeSha1_RC2_128(::StringW value);
 
-  /// @brief Method set_IterationCount, addr 0x1102eb8, size 0x8, virtual false, abstract: false, final false
+  static inline void setStaticF_PbeSha1_RC2_40(::StringW value);
+
+  static inline void setStaticF_PbeSha1_RC4_128(::StringW value);
+
+  static inline void setStaticF_PbeSha1_RC4_40(::StringW value);
+
+  /// @brief Method set_IterationCount, addr 0x1145e88, size 0x8, virtual false, abstract: false, final false
   inline void set_IterationCount(int32_t value);
 
-  /// @brief Method Generate, addr 0x1102ec0, size 0x270, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
+  /// @brief Method set_Password, addr 0x1145e80, size 0x8, virtual false, abstract: false, final false
+  inline void set_Password(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
+  /// @brief Method set_SecureRandom, addr 0x1145e78, size 0x8, virtual false, abstract: false, final false
+  inline void set_SecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Pkcs8Generator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs8Generator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Pkcs8Generator(Pkcs8Generator&&) = delete;
@@ -164,12 +168,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Pkcs8Generator(Pkcs8Generator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Pkcs8Generator();
-
-public:
   /// @brief Field password, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<char16_t, ::Array<char16_t>*> ___password;
 

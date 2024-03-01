@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::System::Net::Http::ByteArrayContent);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14654))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14645))
 // CS Name: ::System.Net.Http::ByteArrayContent*
 class CORDL_TYPE ByteArrayContent : public ::System::Net::Http::HttpContent {
 public:
@@ -35,41 +33,47 @@ public:
   /// @brief Field content, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::ArrayW<uint8_t, ::Array<uint8_t>*> content;
 
-  /// @brief Field offset, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) int32_t offset;
-
   /// @brief Field count, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_content();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_content() const;
-
-  constexpr void __cordl_internal_set_content(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_offset();
-
-  constexpr int32_t const& __cordl_internal_get_offset() const;
-
-  constexpr void __cordl_internal_set_offset(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_count();
-
-  constexpr int32_t const& __cordl_internal_get_count() const;
-
-  constexpr void __cordl_internal_set_count(int32_t value);
+  /// @brief Field offset, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) int32_t offset;
 
   static inline ::System::Net::Http::ByteArrayContent* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method .ctor, addr 0x2835304, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
-
-  /// @brief Method SerializeToStreamAsync, addr 0x283538c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync, addr 0x291a808, size 0x28, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength, addr 0x28353b4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method TryComputeLength, addr 0x291a830, size 0x10, virtual true, abstract: false, final false
   inline bool TryComputeLength(ByRef<int64_t> length);
 
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_content() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_content();
+
+  constexpr int32_t const& __cordl_internal_get_count() const;
+
+  constexpr int32_t& __cordl_internal_get_count();
+
+  constexpr int32_t const& __cordl_internal_get_offset() const;
+
+  constexpr int32_t& __cordl_internal_get_offset();
+
+  constexpr void __cordl_internal_set_content(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_count(int32_t value);
+
+  constexpr void __cordl_internal_set_offset(int32_t value);
+
+  /// @brief Method .ctor, addr 0x291a780, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ByteArrayContent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ByteArrayContent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ByteArrayContent(ByteArrayContent&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ByteArrayContent(ByteArrayContent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ByteArrayContent();
-
-public:
   /// @brief Field content, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___content;
 

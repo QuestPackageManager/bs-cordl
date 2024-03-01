@@ -36,109 +36,113 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6624))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6623))
 // CS Name: ::UnityEngine.UIElements::ListViewController*
 class CORDL_TYPE ListViewController : public ::UnityEngine::UIElements::CollectionViewController {
 public:
   // Declarations
-  /// @brief Field itemsSourceSizeChanged, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_itemsSourceSizeChanged, put = __cordl_internal_set_itemsSourceSizeChanged))::System::Action* itemsSourceSizeChanged;
-
   /// @brief Field itemsAdded, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_itemsAdded, put = __cordl_internal_set_itemsAdded))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsAdded;
 
   /// @brief Field itemsRemoved, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_itemsRemoved, put = __cordl_internal_set_itemsRemoved))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsRemoved;
 
+  /// @brief Field itemsSourceSizeChanged, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_itemsSourceSizeChanged, put = __cordl_internal_set_itemsSourceSizeChanged))::System::Action* itemsSourceSizeChanged;
+
   __declspec(property(get = get_listView))::UnityEngine::UIElements::ListView* listView;
 
-  constexpr ::System::Action*& __cordl_internal_get_itemsSourceSizeChanged();
+  /// @brief Method AddItems, addr 0x2f9479c, size 0x520, virtual true, abstract: false, final false
+  inline void AddItems(int32_t itemCount);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_itemsSourceSizeChanged() const;
+  /// @brief Method AddToArray, addr 0x2f94dd4, size 0xd8, virtual false, abstract: false, final false
+  static inline ::System::Array* AddToArray(::System::Array* source, int32_t itemCount);
 
-  constexpr void __cordl_internal_set_itemsSourceSizeChanged(::System::Action* value);
+  /// @brief Method EnsureItemSourceCanBeResized, addr 0x2f94cbc, size 0x118, virtual false, abstract: false, final false
+  inline void EnsureItemSourceCanBeResized();
+
+  /// @brief Method InvokeBindItem, addr 0x2f94470, size 0xec, virtual true, abstract: false, final false
+  inline void InvokeBindItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index);
+
+  /// @brief Method InvokeMakeItem, addr 0x2f93ff4, size 0x46c, virtual true, abstract: false, final false
+  inline void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
+
+  /// @brief Method Move, addr 0x2f94f10, size 0x9c, virtual true, abstract: false, final false
+  inline void Move(int32_t index, int32_t newIndex);
+
+  /// @brief Method NeedsDragHandle, addr 0x2f94760, size 0x3c, virtual true, abstract: false, final false
+  inline bool NeedsDragHandle(int32_t index);
+
+  static inline ::UnityEngine::UIElements::ListViewController* New_ctor();
+
+  /// @brief Method RaiseItemsAdded, addr 0x2f94ed8, size 0x1c, virtual false, abstract: false, final false
+  inline void RaiseItemsAdded(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
+
+  /// @brief Method RaiseItemsRemoved, addr 0x2f95784, size 0x1c, virtual false, abstract: false, final false
+  inline void RaiseItemsRemoved(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
+
+  /// @brief Method RaiseOnSizeChanged, addr 0x2f94ef4, size 0x1c, virtual false, abstract: false, final false
+  inline void RaiseOnSizeChanged();
+
+  /// @brief Method RemoveFromArray, addr 0x2f955d0, size 0x1b4, virtual false, abstract: false, final false
+  static inline ::System::Array* RemoveFromArray(::System::Array* source, ::System::Collections::Generic::List_1<int32_t>* indicesToRemove);
+
+  /// @brief Method RemoveItem, addr 0x2f951c0, size 0x1b0, virtual true, abstract: false, final false
+  inline void RemoveItem(int32_t index);
+
+  /// @brief Method RemoveItems, addr 0x2f95370, size 0x260, virtual true, abstract: false, final false
+  inline void RemoveItems(::System::Collections::Generic::List_1<int32_t>* indices);
+
+  /// @brief Method Swap, addr 0x2f94fac, size 0x1f8, virtual false, abstract: false, final false
+  inline void Swap(int32_t lhs, int32_t rhs);
 
   constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __cordl_internal_get_itemsAdded();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __cordl_internal_get_itemsAdded() const;
 
-  constexpr void __cordl_internal_set_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
-
   constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __cordl_internal_get_itemsRemoved();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __cordl_internal_get_itemsRemoved() const;
 
+  constexpr ::System::Action*& __cordl_internal_get_itemsSourceSizeChanged();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_itemsSourceSizeChanged() const;
+
+  constexpr void __cordl_internal_set_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+
   constexpr void __cordl_internal_set_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
-  /// @brief Method add_itemsSourceSizeChanged, addr 0x2e9f458, size 0x9c, virtual false, abstract: false, final false
-  inline void add_itemsSourceSizeChanged(::System::Action* value);
+  constexpr void __cordl_internal_set_itemsSourceSizeChanged(::System::Action* value);
 
-  /// @brief Method remove_itemsSourceSizeChanged, addr 0x2e9f4f4, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_itemsSourceSizeChanged(::System::Action* value);
-
-  /// @brief Method add_itemsAdded, addr 0x2e9f590, size 0xb0, virtual false, abstract: false, final false
-  inline void add_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
-
-  /// @brief Method remove_itemsAdded, addr 0x2e9f640, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
-
-  /// @brief Method add_itemsRemoved, addr 0x2e9f6f0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
-
-  /// @brief Method remove_itemsRemoved, addr 0x2e9f7a0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
-
-  /// @brief Method get_listView, addr 0x2e9f850, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::ListView* get_listView();
-
-  /// @brief Method InvokeMakeItem, addr 0x2e9f8cc, size 0x46c, virtual true, abstract: false, final false
-  inline void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
-
-  /// @brief Method InvokeBindItem, addr 0x2e9fd48, size 0xec, virtual true, abstract: false, final false
-  inline void InvokeBindItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index);
-
-  /// @brief Method NeedsDragHandle, addr 0x2ea0038, size 0x3c, virtual true, abstract: false, final false
-  inline bool NeedsDragHandle(int32_t index);
-
-  /// @brief Method AddItems, addr 0x2ea0074, size 0x520, virtual true, abstract: false, final false
-  inline void AddItems(int32_t itemCount);
-
-  /// @brief Method Move, addr 0x2ea07e8, size 0x9c, virtual true, abstract: false, final false
-  inline void Move(int32_t index, int32_t newIndex);
-
-  /// @brief Method RemoveItem, addr 0x2ea0a98, size 0x1b0, virtual true, abstract: false, final false
-  inline void RemoveItem(int32_t index);
-
-  /// @brief Method RemoveItems, addr 0x2ea0c48, size 0x260, virtual true, abstract: false, final false
-  inline void RemoveItems(::System::Collections::Generic::List_1<int32_t>* indices);
-
-  /// @brief Method RaiseOnSizeChanged, addr 0x2ea07cc, size 0x1c, virtual false, abstract: false, final false
-  inline void RaiseOnSizeChanged();
-
-  /// @brief Method RaiseItemsAdded, addr 0x2ea07b0, size 0x1c, virtual false, abstract: false, final false
-  inline void RaiseItemsAdded(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
-
-  /// @brief Method RaiseItemsRemoved, addr 0x2ea105c, size 0x1c, virtual false, abstract: false, final false
-  inline void RaiseItemsRemoved(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
-
-  /// @brief Method AddToArray, addr 0x2ea06ac, size 0xd8, virtual false, abstract: false, final false
-  static inline ::System::Array* AddToArray(::System::Array* source, int32_t itemCount);
-
-  /// @brief Method RemoveFromArray, addr 0x2ea0ea8, size 0x1b4, virtual false, abstract: false, final false
-  static inline ::System::Array* RemoveFromArray(::System::Array* source, ::System::Collections::Generic::List_1<int32_t>* indicesToRemove);
-
-  /// @brief Method Swap, addr 0x2ea0884, size 0x1f8, virtual false, abstract: false, final false
-  inline void Swap(int32_t lhs, int32_t rhs);
-
-  /// @brief Method EnsureItemSourceCanBeResized, addr 0x2ea0594, size 0x118, virtual false, abstract: false, final false
-  inline void EnsureItemSourceCanBeResized();
-
-  static inline ::UnityEngine::UIElements::ListViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ea1078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f957a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_itemsAdded, addr 0x2f93cb8, size 0xb0, virtual false, abstract: false, final false
+  inline void add_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+
+  /// @brief Method add_itemsRemoved, addr 0x2f93e18, size 0xb0, virtual false, abstract: false, final false
+  inline void add_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+
+  /// @brief Method add_itemsSourceSizeChanged, addr 0x2f93b80, size 0x9c, virtual false, abstract: false, final false
+  inline void add_itemsSourceSizeChanged(::System::Action* value);
+
+  /// @brief Method get_listView, addr 0x2f93f78, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::ListView* get_listView();
+
+  /// @brief Method remove_itemsAdded, addr 0x2f93d68, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+
+  /// @brief Method remove_itemsRemoved, addr 0x2f93ec8, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+
+  /// @brief Method remove_itemsSourceSizeChanged, addr 0x2f93c1c, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_itemsSourceSizeChanged(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ListViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ListViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListViewController(ListViewController&&) = delete;
@@ -147,12 +151,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ListViewController(ListViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ListViewController();
-
-public:
   /// @brief Field itemsSourceSizeChanged, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___itemsSourceSizeChanged;
 

@@ -23,14 +23,10 @@ MARK_REF_PTR_T(::UnityEngine::Tilemaps::ITilemap);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8730)), TypeDefinitionIndex(TypeDefinitionIndex(8991)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 753 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16071)) CS Name: ::UnityEngine.Tilemaps::ITilemap*
+// CS Name: ::UnityEngine.Tilemaps::ITilemap*
 class CORDL_TYPE ITilemap : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Tilemap, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Tilemap, put = __cordl_internal_set_m_Tilemap))::UnityW<::UnityEngine::Tilemaps::Tilemap> m_Tilemap;
-
   /// @brief Field m_AddToList, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_AddToList, put = __cordl_internal_set_m_AddToList)) bool m_AddToList;
 
@@ -40,54 +36,63 @@ public:
   /// @brief Field m_RefreshPos, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_m_RefreshPos, put = __cordl_internal_set_m_RefreshPos))::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> m_RefreshPos;
 
+  /// @brief Field m_Tilemap, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Tilemap, put = __cordl_internal_set_m_Tilemap))::UnityW<::UnityEngine::Tilemaps::Tilemap> m_Tilemap;
+
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::Tilemaps::ITilemap* s_Instance;
 
-  constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap>& __cordl_internal_get_m_Tilemap();
+  /// @brief Method CreateInstance, addr 0x2e5b3c8, size 0x70, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Tilemaps::ITilemap* CreateInstance();
 
-  constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap> const& __cordl_internal_get_m_Tilemap() const;
+  /// @brief Method FindAllRefreshPositions, addr 0x2e5b438, size 0x318, virtual false, abstract: false, final false
+  static inline void FindAllRefreshPositions(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, void* oldTilesIntPtr, void* newTilesIntPtr, void* positionsIntPtr);
 
-  constexpr void __cordl_internal_set_m_Tilemap(::UnityW<::UnityEngine::Tilemaps::Tilemap> value);
-
-  constexpr bool& __cordl_internal_get_m_AddToList();
-
-  constexpr bool const& __cordl_internal_get_m_AddToList() const;
-
-  constexpr void __cordl_internal_set_m_AddToList(bool value);
-
-  constexpr int32_t& __cordl_internal_get_m_RefreshCount();
-
-  constexpr int32_t const& __cordl_internal_get_m_RefreshCount() const;
-
-  constexpr void __cordl_internal_set_m_RefreshCount(int32_t value);
-
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>& __cordl_internal_get_m_RefreshPos();
-
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> const& __cordl_internal_get_m_RefreshPos() const;
-
-  constexpr void __cordl_internal_set_m_RefreshPos(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> value);
-
-  static inline void setStaticF_s_Instance(::UnityEngine::Tilemaps::ITilemap* value);
-
-  static inline ::UnityEngine::Tilemaps::ITilemap* getStaticF_s_Instance();
+  /// @brief Method GetAllTileData, addr 0x2e5b750, size 0x1f8, virtual false, abstract: false, final false
+  static inline void GetAllTileData(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, void* tilesIntPtr, void* positionsIntPtr, void* outTileDataIntPtr);
 
   static inline ::UnityEngine::Tilemaps::ITilemap* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d6ec98, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method RefreshTile, addr 0x2d6ea54, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method RefreshTile, addr 0x2e5b17c, size 0x164, virtual false, abstract: false, final false
   inline void RefreshTile(::UnityEngine::Vector3Int position);
 
-  /// @brief Method CreateInstance, addr 0x2d6eca0, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Tilemaps::ITilemap* CreateInstance();
+  constexpr bool const& __cordl_internal_get_m_AddToList() const;
 
-  /// @brief Method FindAllRefreshPositions, addr 0x2d6ed10, size 0x318, virtual false, abstract: false, final false
-  static inline void FindAllRefreshPositions(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, void* oldTilesIntPtr, void* newTilesIntPtr, void* positionsIntPtr);
+  constexpr bool& __cordl_internal_get_m_AddToList();
 
-  /// @brief Method GetAllTileData, addr 0x2d6f028, size 0x1f8, virtual false, abstract: false, final false
-  static inline void GetAllTileData(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, void* tilesIntPtr, void* positionsIntPtr, void* outTileDataIntPtr);
+  constexpr int32_t const& __cordl_internal_get_m_RefreshCount() const;
 
+  constexpr int32_t& __cordl_internal_get_m_RefreshCount();
+
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> const& __cordl_internal_get_m_RefreshPos() const;
+
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int>& __cordl_internal_get_m_RefreshPos();
+
+  constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap> const& __cordl_internal_get_m_Tilemap() const;
+
+  constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap>& __cordl_internal_get_m_Tilemap();
+
+  constexpr void __cordl_internal_set_m_AddToList(bool value);
+
+  constexpr void __cordl_internal_set_m_RefreshCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_RefreshPos(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3Int> value);
+
+  constexpr void __cordl_internal_set_m_Tilemap(::UnityW<::UnityEngine::Tilemaps::Tilemap> value);
+
+  /// @brief Method .ctor, addr 0x2e5b3c0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::Tilemaps::ITilemap* getStaticF_s_Instance();
+
+  static inline void setStaticF_s_Instance(::UnityEngine::Tilemaps::ITilemap* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ITilemap();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ITilemap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ITilemap(ITilemap&&) = delete;
@@ -96,12 +101,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ITilemap(ITilemap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ITilemap();
-
-public:
   /// @brief Field m_Tilemap, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Tilemaps::Tilemap> ___m_Tilemap;
 

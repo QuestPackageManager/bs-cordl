@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::EventSystems::EventTriggerType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13093))
 // CS Name: ::UnityEngine.EventSystems::EventTriggerType
 struct CORDL_TYPE EventTriggerType {
 public:
@@ -49,33 +47,29 @@ public:
     return static_cast<__EventTriggerType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EventTriggerType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__EventTriggerType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EventTriggerType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EventTriggerType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BeginDrag value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::EventSystems::EventTriggerType const BeginDrag;
 
-  /// @brief Field PointerEnter value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::EventSystems::EventTriggerType const PointerEnter;
+  /// @brief Field Cancel value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::EventSystems::EventTriggerType const Cancel;
 
-  /// @brief Field PointerExit value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::EventSystems::EventTriggerType const PointerExit;
-
-  /// @brief Field PointerDown value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::EventSystems::EventTriggerType const PointerDown;
-
-  /// @brief Field PointerUp value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::EventSystems::EventTriggerType const PointerUp;
-
-  /// @brief Field PointerClick value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::EventSystems::EventTriggerType const PointerClick;
+  /// @brief Field Deselect value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::EventSystems::EventTriggerType const Deselect;
 
   /// @brief Field Drag value: static_cast<int32_t>(0x5)
   static ::UnityEngine::EventSystems::EventTriggerType const Drag;
@@ -83,35 +77,44 @@ public:
   /// @brief Field Drop value: static_cast<int32_t>(0x6)
   static ::UnityEngine::EventSystems::EventTriggerType const Drop;
 
-  /// @brief Field Scroll value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::EventSystems::EventTriggerType const Scroll;
-
-  /// @brief Field UpdateSelected value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::EventSystems::EventTriggerType const UpdateSelected;
-
-  /// @brief Field Select value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::EventSystems::EventTriggerType const Select;
-
-  /// @brief Field Deselect value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::EventSystems::EventTriggerType const Deselect;
-
-  /// @brief Field Move value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::EventSystems::EventTriggerType const Move;
+  /// @brief Field EndDrag value: static_cast<int32_t>(0xe)
+  static ::UnityEngine::EventSystems::EventTriggerType const EndDrag;
 
   /// @brief Field InitializePotentialDrag value: static_cast<int32_t>(0xc)
   static ::UnityEngine::EventSystems::EventTriggerType const InitializePotentialDrag;
 
-  /// @brief Field BeginDrag value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::EventSystems::EventTriggerType const BeginDrag;
+  /// @brief Field Move value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::EventSystems::EventTriggerType const Move;
 
-  /// @brief Field EndDrag value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::EventSystems::EventTriggerType const EndDrag;
+  /// @brief Field PointerClick value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::EventSystems::EventTriggerType const PointerClick;
+
+  /// @brief Field PointerDown value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::EventSystems::EventTriggerType const PointerDown;
+
+  /// @brief Field PointerEnter value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::EventSystems::EventTriggerType const PointerEnter;
+
+  /// @brief Field PointerExit value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::EventSystems::EventTriggerType const PointerExit;
+
+  /// @brief Field PointerUp value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::EventSystems::EventTriggerType const PointerUp;
+
+  /// @brief Field Scroll value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::EventSystems::EventTriggerType const Scroll;
+
+  /// @brief Field Select value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::EventSystems::EventTriggerType const Select;
 
   /// @brief Field Submit value: static_cast<int32_t>(0xf)
   static ::UnityEngine::EventSystems::EventTriggerType const Submit;
 
-  /// @brief Field Cancel value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::EventSystems::EventTriggerType const Cancel;
+  /// @brief Field UpdateSelected value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::EventSystems::EventTriggerType const UpdateSelected;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

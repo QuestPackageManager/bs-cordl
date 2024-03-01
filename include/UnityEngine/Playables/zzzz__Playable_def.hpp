@@ -31,8 +31,6 @@ MARK_VAL_T(::UnityEngine::Playables::Playable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9209))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9196))
 // CS Name: ::UnityEngine.Playables::Playable
 struct CORDL_TYPE Playable {
 public:
@@ -40,49 +38,49 @@ public:
   /// @brief Field m_NullPlayable, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_m_NullPlayable, put = setStaticF_m_NullPlayable))::UnityEngine::Playables::Playable m_NullPlayable;
 
-  /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
-  constexpr operator ::UnityEngine::Playables::IPlayable*();
-
-  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
-  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
-
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::Playable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::Playable>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::Playable>"
-  constexpr ::System::IEquatable_1<::UnityEngine::Playables::Playable>* i___System__IEquatable_1___UnityEngine__Playables__Playable_();
+  /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
+  constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  static inline void setStaticF_m_NullPlayable(::UnityEngine::Playables::Playable value);
-
-  static inline ::UnityEngine::Playables::Playable getStaticF_m_NullPlayable();
-
-  /// @brief Method get_Null, addr 0x2d0064c, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::Playable get_Null();
-
-  /// @brief Method Create, addr 0x2d0091c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2dec044, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method .ctor, addr 0x2d009e0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
+  /// @brief Method Equals, addr 0x2dec1b4, size 0x74, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Playables::Playable other);
 
-  /// @brief Method GetHandle, addr 0x2d009e8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x2dec110, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
+
+  /// @brief Method GetPlayableType, addr 0x2dec11c, size 0x24, virtual false, abstract: false, final false
+  inline ::System::Type* GetPlayableType();
 
   /// @brief Method IsPlayableOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsPlayableOfType();
 
-  /// @brief Method GetPlayableType, addr 0x2d009f4, size 0x24, virtual false, abstract: false, final false
-  inline ::System::Type* GetPlayableType();
+  /// @brief Method .ctor, addr 0x2dec108, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
-  /// @brief Method Equals, addr 0x2d00a8c, size 0x74, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Playables::Playable other);
+  static inline ::UnityEngine::Playables::Playable getStaticF_m_NullPlayable();
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
-  constexpr Playable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
+  /// @brief Method get_Null, addr 0x2debd74, size 0x58, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Playables::Playable get_Null();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::Playable>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Playables::Playable>* i___System__IEquatable_1___UnityEngine__Playables__Playable_();
+
+  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
+  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+
+  static inline void setStaticF_m_NullPlayable(::UnityEngine::Playables::Playable value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Playable();
+
+  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+  constexpr Playable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Playables::PlayableHandle m_Handle;

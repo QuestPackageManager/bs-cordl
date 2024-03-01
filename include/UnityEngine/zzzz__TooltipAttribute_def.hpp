@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::UnityEngine::TooltipAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8914))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8917))
 // CS Name: ::UnityEngine::TooltipAttribute*
 class CORDL_TYPE TooltipAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field tooltip, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tooltip, put = __cordl_internal_set_tooltip))::StringW tooltip;
 
-  constexpr ::StringW& __cordl_internal_get_tooltip();
+  static inline ::UnityEngine::TooltipAttribute* New_ctor(::StringW tooltip);
 
   constexpr ::StringW const& __cordl_internal_get_tooltip() const;
 
+  constexpr ::StringW& __cordl_internal_get_tooltip();
+
   constexpr void __cordl_internal_set_tooltip(::StringW value);
 
-  static inline ::UnityEngine::TooltipAttribute* New_ctor(::StringW tooltip);
-
-  /// @brief Method .ctor, addr 0x2cd31ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbe7fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW tooltip);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TooltipAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TooltipAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TooltipAttribute(TooltipAttribute&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TooltipAttribute(TooltipAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TooltipAttribute();
-
-public:
   /// @brief Field tooltip, offset: 0x10, size: 0x8, def value: None
   ::StringW ___tooltip;
 

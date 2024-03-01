@@ -20,44 +20,48 @@ MARK_REF_PTR_T(::GlobalNamespace::SignalOnUIButtonClick);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14547))
 // CS Name: ::SignalOnUIButtonClick*
 class CORDL_TYPE SignalOnUIButtonClick : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _buttonClickedSignal, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonClickedSignal, put = __cordl_internal_set__buttonClickedSignal))::UnityW<::GlobalNamespace::Signal> _buttonClickedSignal;
-
   /// @brief Field _button, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
-  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__buttonClickedSignal();
-
-  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__buttonClickedSignal() const;
-
-  constexpr void __cordl_internal_set__buttonClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
-
-  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
-
-  /// @brief Method OnReset, addr 0x2189324, size 0x50, virtual false, abstract: false, final false
-  inline void OnReset();
-
-  /// @brief Method Start, addr 0x2189374, size 0x8c, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x2189400, size 0xd0, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  /// @brief Field _buttonClickedSignal, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonClickedSignal, put = __cordl_internal_set__buttonClickedSignal))::UnityW<::GlobalNamespace::Signal> _buttonClickedSignal;
 
   static inline ::GlobalNamespace::SignalOnUIButtonClick* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21894d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2257aa4, size 0xd0, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnReset, addr 0x22579c8, size 0x50, virtual false, abstract: false, final false
+  inline void OnReset();
+
+  /// @brief Method Start, addr 0x2257a18, size 0x8c, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
+
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__buttonClickedSignal() const;
+
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__buttonClickedSignal();
+
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__buttonClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
+
+  /// @brief Method .ctor, addr 0x2257b74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignalOnUIButtonClick();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignalOnUIButtonClick", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalOnUIButtonClick(SignalOnUIButtonClick&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignalOnUIButtonClick(SignalOnUIButtonClick const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignalOnUIButtonClick();
-
-public:
   /// @brief Field _buttonClickedSignal, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::Signal> ____buttonClickedSignal;
 

@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Reflection::FieldAttributes);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3464))
 // CS Name: ::System.Reflection::FieldAttributes
 struct CORDL_TYPE FieldAttributes {
 public:
@@ -51,45 +49,44 @@ public:
     return static_cast<__FieldAttributes_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr FieldAttributes(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__FieldAttributes_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FieldAttributes();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr FieldAttributes(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field FieldAccessMask value: static_cast<int32_t>(0x7)
-  static ::System::Reflection::FieldAttributes const FieldAccessMask;
-
-  /// @brief Field PrivateScope value: static_cast<int32_t>(0x0)
-  static ::System::Reflection::FieldAttributes const PrivateScope;
-
-  /// @brief Field Private value: static_cast<int32_t>(0x1)
-  static ::System::Reflection::FieldAttributes const Private;
-
-  /// @brief Field FamANDAssem value: static_cast<int32_t>(0x2)
-  static ::System::Reflection::FieldAttributes const FamANDAssem;
 
   /// @brief Field Assembly value: static_cast<int32_t>(0x3)
   static ::System::Reflection::FieldAttributes const Assembly;
 
-  /// @brief Field Family value: static_cast<int32_t>(0x4)
-  static ::System::Reflection::FieldAttributes const Family;
+  /// @brief Field FamANDAssem value: static_cast<int32_t>(0x2)
+  static ::System::Reflection::FieldAttributes const FamANDAssem;
 
   /// @brief Field FamORAssem value: static_cast<int32_t>(0x5)
   static ::System::Reflection::FieldAttributes const FamORAssem;
 
-  /// @brief Field Public value: static_cast<int32_t>(0x6)
-  static ::System::Reflection::FieldAttributes const Public;
+  /// @brief Field Family value: static_cast<int32_t>(0x4)
+  static ::System::Reflection::FieldAttributes const Family;
 
-  /// @brief Field Static value: static_cast<int32_t>(0x10)
-  static ::System::Reflection::FieldAttributes const Static;
+  /// @brief Field FieldAccessMask value: static_cast<int32_t>(0x7)
+  static ::System::Reflection::FieldAttributes const FieldAccessMask;
+
+  /// @brief Field HasDefault value: static_cast<int32_t>(0x8000)
+  static ::System::Reflection::FieldAttributes const HasDefault;
+
+  /// @brief Field HasFieldMarshal value: static_cast<int32_t>(0x1000)
+  static ::System::Reflection::FieldAttributes const HasFieldMarshal;
+
+  /// @brief Field HasFieldRVA value: static_cast<int32_t>(0x100)
+  static ::System::Reflection::FieldAttributes const HasFieldRVA;
 
   /// @brief Field InitOnly value: static_cast<int32_t>(0x20)
   static ::System::Reflection::FieldAttributes const InitOnly;
@@ -100,26 +97,32 @@ public:
   /// @brief Field NotSerialized value: static_cast<int32_t>(0x80)
   static ::System::Reflection::FieldAttributes const NotSerialized;
 
-  /// @brief Field SpecialName value: static_cast<int32_t>(0x200)
-  static ::System::Reflection::FieldAttributes const SpecialName;
-
   /// @brief Field PinvokeImpl value: static_cast<int32_t>(0x2000)
   static ::System::Reflection::FieldAttributes const PinvokeImpl;
+
+  /// @brief Field Private value: static_cast<int32_t>(0x1)
+  static ::System::Reflection::FieldAttributes const Private;
+
+  /// @brief Field PrivateScope value: static_cast<int32_t>(0x0)
+  static ::System::Reflection::FieldAttributes const PrivateScope;
+
+  /// @brief Field Public value: static_cast<int32_t>(0x6)
+  static ::System::Reflection::FieldAttributes const Public;
 
   /// @brief Field RTSpecialName value: static_cast<int32_t>(0x400)
   static ::System::Reflection::FieldAttributes const RTSpecialName;
 
-  /// @brief Field HasFieldMarshal value: static_cast<int32_t>(0x1000)
-  static ::System::Reflection::FieldAttributes const HasFieldMarshal;
-
-  /// @brief Field HasDefault value: static_cast<int32_t>(0x8000)
-  static ::System::Reflection::FieldAttributes const HasDefault;
-
-  /// @brief Field HasFieldRVA value: static_cast<int32_t>(0x100)
-  static ::System::Reflection::FieldAttributes const HasFieldRVA;
-
   /// @brief Field ReservedMask value: static_cast<int32_t>(0x9500)
   static ::System::Reflection::FieldAttributes const ReservedMask;
+
+  /// @brief Field SpecialName value: static_cast<int32_t>(0x200)
+  static ::System::Reflection::FieldAttributes const SpecialName;
+
+  /// @brief Field Static value: static_cast<int32_t>(0x10)
+  static ::System::Reflection::FieldAttributes const Static;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

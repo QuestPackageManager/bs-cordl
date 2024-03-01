@@ -50,19 +50,17 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHan
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14047))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationHandle
 struct CORDL_TYPE AsyncOperationHandle {
 public:
   // Declarations
-  __declspec(property(get = get_LocationName, put = set_LocationName))::StringW LocationName;
-
   __declspec(property(get = get_DebugName))::StringW DebugName;
 
   __declspec(property(get = get_InternalOp))::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* InternalOp;
 
   __declspec(property(get = get_IsDone)) bool IsDone;
+
+  __declspec(property(get = get_LocationName, put = set_LocationName))::StringW LocationName;
 
   __declspec(property(get = get_OperationException))::System::Exception* OperationException;
 
@@ -74,119 +72,119 @@ public:
 
   __declspec(property(get = get_Status))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus Status;
 
-  __declspec(property(get = get_Task))::System::Threading::Tasks::Task_1<::System::Object*>* Task;
-
   __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
+  __declspec(property(get = get_Task))::System::Threading::Tasks::Task_1<::System::Object*>* Task;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
-
-  /// @brief Method get_LocationName, addr 0x2bda3cc, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_LocationName();
-
-  /// @brief Method set_LocationName, addr 0x2bda3d4, size 0x8, virtual false, abstract: false, final false
-  inline void set_LocationName(::StringW value);
-
-  /// @brief Method .ctor, addr 0x2bda3dc, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op);
-
-  /// @brief Method .ctor, addr 0x2bda4a0, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int32_t version);
-
-  /// @brief Method .ctor, addr 0x2bc9864, size 0xd0, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::StringW locationName);
-
-  /// @brief Method .ctor, addr 0x2bda4b0, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int32_t version, ::StringW locationName);
-
-  /// @brief Method Acquire, addr 0x2bca894, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x2cb3968, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle Acquire();
-
-  /// @brief Method add_Completed, addr 0x2bcade8, size 0xb4, virtual false, abstract: false, final false
-  inline void add_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
-
-  /// @brief Method remove_Completed, addr 0x2bda5c0, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
   /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> Convert();
 
-  /// @brief Method Equals, addr 0x2bda674, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2cc3748, size 0x2c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle other);
 
-  /// @brief Method get_DebugName, addr 0x2bda6a0, size 0xdc, virtual false, abstract: false, final false
-  inline ::StringW get_DebugName();
-
-  /// @brief Method add_Destroyed, addr 0x2bda834, size 0xb4, virtual false, abstract: false, final false
-  inline void add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
-
-  /// @brief Method remove_Destroyed, addr 0x2bda8e8, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
-
-  /// @brief Method GetDependencies, addr 0x2bda99c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x2cc3a70, size 0xb4, virtual false, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method GetHashCode, addr 0x2bdaa50, size 0x30, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method get_InternalOp, addr 0x2bda4c0, size 0x100, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* get_InternalOp();
-
-  /// @brief Method get_IsDone, addr 0x2bdaa80, size 0xc8, virtual false, abstract: false, final false
-  inline bool get_IsDone();
-
-  /// @brief Method IsValid, addr 0x2bda77c, size 0xb8, virtual false, abstract: false, final false
-  inline bool IsValid();
-
-  /// @brief Method get_OperationException, addr 0x2bdab48, size 0xac, virtual false, abstract: false, final false
-  inline ::System::Exception* get_OperationException();
-
-  /// @brief Method get_PercentComplete, addr 0x2bdabf4, size 0xac, virtual false, abstract: false, final false
-  inline float_t get_PercentComplete();
-
-  /// @brief Method GetDownloadStatus, addr 0x2bdaca0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetDownloadStatus, addr 0x2cc3d74, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
 
-  /// @brief Method InternalGetDownloadStatus, addr 0x2bdad40, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2cc3b24, size 0x30, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method InternalGetDownloadStatus, addr 0x2cc3e14, size 0x174, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus InternalGetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  /// @brief Method get_ReferenceCount, addr 0x2bdaeb4, size 0xac, virtual false, abstract: false, final false
-  inline int32_t get_ReferenceCount();
+  /// @brief Method IsValid, addr 0x2cc3850, size 0xb8, virtual false, abstract: false, final false
+  inline bool IsValid();
 
-  /// @brief Method Release, addr 0x2bca7c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2cb3894, size 0xb4, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method get_Result, addr 0x2bd72c8, size 0xa8, virtual false, abstract: false, final false
-  inline ::System::Object* get_Result();
-
-  /// @brief Method get_Status, addr 0x2bdaf60, size 0xac, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status();
-
-  /// @brief Method get_Task, addr 0x2bdb00c, size 0xac, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Object*>* get_Task();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2bdb0b8, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x2bdb0bc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x2cc4190, size 0x18, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2bdb0d4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2cc41a8, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method WaitForCompletion, addr 0x2bdb0d8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2cc418c, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method WaitForCompletion, addr 0x2cc41ac, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Object* WaitForCompletion();
 
-  // Ctor Parameters [CppParam { name: "m_InternalOp", ty: "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_LocationName", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr AsyncOperationHandle(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* m_InternalOp, int32_t m_Version, ::StringW m_LocationName) noexcept;
+  /// @brief Method .ctor, addr 0x2cc34b0, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op);
+
+  /// @brief Method .ctor, addr 0x2cb2938, size 0xd0, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, ::StringW locationName);
+
+  /// @brief Method .ctor, addr 0x2cc3574, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int32_t version);
+
+  /// @brief Method .ctor, addr 0x2cc3584, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, int32_t version, ::StringW locationName);
+
+  /// @brief Method add_Completed, addr 0x2cb3ebc, size 0xb4, virtual false, abstract: false, final false
+  inline void add_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+
+  /// @brief Method add_Destroyed, addr 0x2cc3908, size 0xb4, virtual false, abstract: false, final false
+  inline void add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+
+  /// @brief Method get_DebugName, addr 0x2cc3774, size 0xdc, virtual false, abstract: false, final false
+  inline ::StringW get_DebugName();
+
+  /// @brief Method get_InternalOp, addr 0x2cc3594, size 0x100, virtual false, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* get_InternalOp();
+
+  /// @brief Method get_IsDone, addr 0x2cc3b54, size 0xc8, virtual false, abstract: false, final false
+  inline bool get_IsDone();
+
+  /// @brief Method get_LocationName, addr 0x2cc34a0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_LocationName();
+
+  /// @brief Method get_OperationException, addr 0x2cc3c1c, size 0xac, virtual false, abstract: false, final false
+  inline ::System::Exception* get_OperationException();
+
+  /// @brief Method get_PercentComplete, addr 0x2cc3cc8, size 0xac, virtual false, abstract: false, final false
+  inline float_t get_PercentComplete();
+
+  /// @brief Method get_ReferenceCount, addr 0x2cc3f88, size 0xac, virtual false, abstract: false, final false
+  inline int32_t get_ReferenceCount();
+
+  /// @brief Method get_Result, addr 0x2cc039c, size 0xa8, virtual false, abstract: false, final false
+  inline ::System::Object* get_Result();
+
+  /// @brief Method get_Status, addr 0x2cc4034, size 0xac, virtual false, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status();
+
+  /// @brief Method get_Task, addr 0x2cc40e0, size 0xac, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Object*>* get_Task();
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
+
+  /// @brief Method remove_Completed, addr 0x2cc3694, size 0xb4, virtual false, abstract: false, final false
+  inline void remove_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+
+  /// @brief Method remove_Destroyed, addr 0x2cc39bc, size 0xb4, virtual false, abstract: false, final false
+  inline void remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+
+  /// @brief Method set_LocationName, addr 0x2cc34a8, size 0x8, virtual false, abstract: false, final false
+  inline void set_LocationName(::StringW value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AsyncOperationHandle();
+
+  // Ctor Parameters [CppParam { name: "m_InternalOp", ty: "::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*", modifiers: "", def_value: None }, CppParam { name: "m_Version", ty:
+  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_LocationName", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr AsyncOperationHandle(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* m_InternalOp, int32_t m_Version, ::StringW m_LocationName) noexcept;
 
   /// @brief Field m_InternalOp, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* m_InternalOp;

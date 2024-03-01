@@ -14,48 +14,52 @@ MARK_REF_PTR_T(::System::AppContextSwitches);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2540))
 // CS Name: ::System::AppContextSwitches*
 class CORDL_TYPE AppContextSwitches : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field SetActorAsReferenceWhenCopyingClaimsIdentity, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity,
-                             put = setStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity)) bool SetActorAsReferenceWhenCopyingClaimsIdentity;
-
-  /// @brief Field NoAsyncCurrentCulture, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_NoAsyncCurrentCulture, put = setStaticF_NoAsyncCurrentCulture)) bool NoAsyncCurrentCulture;
-
   /// @brief Field EnforceJapaneseEraYearRanges, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_EnforceJapaneseEraYearRanges, put = setStaticF_EnforceJapaneseEraYearRanges)) bool EnforceJapaneseEraYearRanges;
-
-  /// @brief Field FormatJapaneseFirstYearAsANumber, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_FormatJapaneseFirstYearAsANumber, put = setStaticF_FormatJapaneseFirstYearAsANumber)) bool FormatJapaneseFirstYearAsANumber;
 
   /// @brief Field EnforceLegacyJapaneseDateParsing, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_EnforceLegacyJapaneseDateParsing, put = setStaticF_EnforceLegacyJapaneseDateParsing)) bool EnforceLegacyJapaneseDateParsing;
 
-  static inline void setStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity(bool value);
+  /// @brief Field FormatJapaneseFirstYearAsANumber, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_FormatJapaneseFirstYearAsANumber, put = setStaticF_FormatJapaneseFirstYearAsANumber)) bool FormatJapaneseFirstYearAsANumber;
 
-  static inline bool getStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity();
+  /// @brief Field NoAsyncCurrentCulture, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_NoAsyncCurrentCulture, put = setStaticF_NoAsyncCurrentCulture)) bool NoAsyncCurrentCulture;
 
-  static inline void setStaticF_NoAsyncCurrentCulture(bool value);
-
-  static inline bool getStaticF_NoAsyncCurrentCulture();
-
-  static inline void setStaticF_EnforceJapaneseEraYearRanges(bool value);
+  /// @brief Field SetActorAsReferenceWhenCopyingClaimsIdentity, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity,
+                             put = setStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity)) bool SetActorAsReferenceWhenCopyingClaimsIdentity;
 
   static inline bool getStaticF_EnforceJapaneseEraYearRanges();
 
-  static inline void setStaticF_FormatJapaneseFirstYearAsANumber(bool value);
+  static inline bool getStaticF_EnforceLegacyJapaneseDateParsing();
 
   static inline bool getStaticF_FormatJapaneseFirstYearAsANumber();
 
+  static inline bool getStaticF_NoAsyncCurrentCulture();
+
+  static inline bool getStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity();
+
+  static inline void setStaticF_EnforceJapaneseEraYearRanges(bool value);
+
   static inline void setStaticF_EnforceLegacyJapaneseDateParsing(bool value);
 
-  static inline bool getStaticF_EnforceLegacyJapaneseDateParsing();
+  static inline void setStaticF_FormatJapaneseFirstYearAsANumber(bool value);
 
+  static inline void setStaticF_NoAsyncCurrentCulture(bool value);
+
+  static inline void setStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AppContextSwitches();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AppContextSwitches", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AppContextSwitches(AppContextSwitches&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AppContextSwitches(AppContextSwitches const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AppContextSwitches();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

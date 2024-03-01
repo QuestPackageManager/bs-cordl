@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttri
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16126))
 // CS Name: ::UnityEngine.Bindings::PreventReadOnlyInstanceModificationAttribute*
 class CORDL_TYPE PreventReadOnlyInstanceModificationAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d3948c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e25bb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PreventReadOnlyInstanceModificationAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PreventReadOnlyInstanceModificationAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PreventReadOnlyInstanceModificationAttribute(PreventReadOnlyInstanceModificationAttribute&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PreventReadOnlyInstanceModificationAttribute(PreventReadOnlyInstanceModificationAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PreventReadOnlyInstanceModificationAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

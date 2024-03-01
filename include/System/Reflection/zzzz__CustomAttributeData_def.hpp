@@ -59,8 +59,6 @@ MARK_REF_PTR_T(::System::Reflection::__CustomAttributeData__LazyCAttrData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3509))
 // CS Name: ::CustomAttributeData::LazyCAttrData*
 class CORDL_TYPE __CustomAttributeData__LazyCAttrData : public ::System::Object {
 public:
@@ -74,29 +72,35 @@ public:
   /// @brief Field data_length, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_data_length, put = __cordl_internal_set_data_length)) uint32_t data_length;
 
+  static inline ::System::Reflection::__CustomAttributeData__LazyCAttrData* New_ctor();
+
   constexpr ::System::Reflection::Assembly*& __cordl_internal_get_assembly();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get_assembly() const;
 
-  constexpr void __cordl_internal_set_assembly(::System::Reflection::Assembly* value);
+  constexpr void* const& __cordl_internal_get_data() const;
 
   constexpr void*& __cordl_internal_get_data();
 
-  constexpr void* const& __cordl_internal_get_data() const;
-
-  constexpr void __cordl_internal_set_data(void* value);
+  constexpr uint32_t const& __cordl_internal_get_data_length() const;
 
   constexpr uint32_t& __cordl_internal_get_data_length();
 
-  constexpr uint32_t const& __cordl_internal_get_data_length() const;
+  constexpr void __cordl_internal_set_assembly(::System::Reflection::Assembly* value);
+
+  constexpr void __cordl_internal_set_data(void* value);
 
   constexpr void __cordl_internal_set_data_length(uint32_t value);
 
-  static inline ::System::Reflection::__CustomAttributeData__LazyCAttrData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x250f8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e14c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CustomAttributeData__LazyCAttrData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CustomAttributeData__LazyCAttrData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CustomAttributeData__LazyCAttrData(__CustomAttributeData__LazyCAttrData&&) = delete;
@@ -105,12 +109,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CustomAttributeData__LazyCAttrData(__CustomAttributeData__LazyCAttrData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CustomAttributeData__LazyCAttrData();
-
-public:
   /// @brief Field assembly, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::Assembly* ___assembly;
 
@@ -136,26 +134,13 @@ static_assert(offsetof(::System::Reflection::__CustomAttributeData__LazyCAttrDat
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3510))
 // CS Name: ::System.Reflection::CustomAttributeData*
 class CORDL_TYPE CustomAttributeData : public ::System::Object {
 public:
   // Declarations
   using LazyCAttrData = ::System::Reflection::__CustomAttributeData__LazyCAttrData;
 
-  /// @brief Field ctorInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ctorInfo, put = __cordl_internal_set_ctorInfo))::System::Reflection::ConstructorInfo* ctorInfo;
-
-  /// @brief Field ctorArgs, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ctorArgs, put = __cordl_internal_set_ctorArgs))::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ctorArgs;
-
-  /// @brief Field namedArgs, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_namedArgs,
-                      put = __cordl_internal_set_namedArgs))::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs;
-
-  /// @brief Field lazyData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_lazyData, put = __cordl_internal_set_lazyData))::System::Reflection::__CustomAttributeData__LazyCAttrData* lazyData;
+  __declspec(property(get = get_AttributeType))::System::Type* AttributeType;
 
   __declspec(property(get = get_Constructor))::System::Reflection::ConstructorInfo* Constructor;
 
@@ -163,101 +148,118 @@ public:
 
   __declspec(property(get = get_NamedArguments))::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* NamedArguments;
 
-  __declspec(property(get = get_AttributeType))::System::Type* AttributeType;
+  /// @brief Field ctorArgs, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_ctorArgs, put = __cordl_internal_set_ctorArgs))::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ctorArgs;
 
-  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get_ctorInfo();
+  /// @brief Field ctorInfo, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_ctorInfo, put = __cordl_internal_set_ctorInfo))::System::Reflection::ConstructorInfo* ctorInfo;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get_ctorInfo() const;
+  /// @brief Field lazyData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_lazyData, put = __cordl_internal_set_lazyData))::System::Reflection::__CustomAttributeData__LazyCAttrData* lazyData;
 
-  constexpr void __cordl_internal_set_ctorInfo(::System::Reflection::ConstructorInfo* value);
+  /// @brief Field namedArgs, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_namedArgs,
+                      put = __cordl_internal_set_namedArgs))::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs;
 
-  constexpr ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>*& __cordl_internal_get_ctorArgs();
+  /// @brief Method Equals, addr 0x25e1df0, size 0x680, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>*> const& __cordl_internal_get_ctorArgs() const;
+  /// @brief Method GetCustomAttributes, addr 0x25e1694, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::Assembly* target);
 
-  constexpr void __cordl_internal_set_ctorArgs(::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* value);
+  /// @brief Method GetCustomAttributes, addr 0x25e16f0, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::MemberInfo* target);
 
-  constexpr ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>*& __cordl_internal_get_namedArgs();
+  /// @brief Method GetCustomAttributes, addr 0x25e17a8, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::Module* target);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>*> const& __cordl_internal_get_namedArgs() const;
+  /// @brief Method GetCustomAttributes, addr 0x25e1804, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::ParameterInfo* target);
 
-  constexpr void __cordl_internal_set_namedArgs(::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* value);
+  /// @brief Method GetCustomAttributesInternal, addr 0x25e174c, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesInternal(::System::RuntimeType* target);
 
-  constexpr ::System::Reflection::__CustomAttributeData__LazyCAttrData*& __cordl_internal_get_lazyData();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__CustomAttributeData__LazyCAttrData*> const& __cordl_internal_get_lazyData() const;
-
-  constexpr void __cordl_internal_set_lazyData(::System::Reflection::__CustomAttributeData__LazyCAttrData* value);
+  /// @brief Method GetHashCode, addr 0x25e2470, size 0x2f8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   static inline ::System::Reflection::CustomAttributeData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x250f814, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::System::Reflection::CustomAttributeData* New_ctor(::System::Reflection::ConstructorInfo* ctorInfo, ::System::Reflection::Assembly* assembly, void* data, uint32_t data_length);
-
-  /// @brief Method .ctor, addr 0x250f81c, size 0x98, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::ConstructorInfo* ctorInfo, ::System::Reflection::Assembly* assembly, void* data, uint32_t data_length);
-
   static inline ::System::Reflection::CustomAttributeData* New_ctor(::System::Reflection::ConstructorInfo* ctorInfo);
 
-  /// @brief Method .ctor, addr 0x25064d4, size 0xfc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::ConstructorInfo* ctorInfo);
+  static inline ::System::Reflection::CustomAttributeData* New_ctor(::System::Reflection::ConstructorInfo* ctorInfo, ::System::Reflection::Assembly* assembly, void* data, uint32_t data_length);
 
   static inline ::System::Reflection::CustomAttributeData* New_ctor(::System::Reflection::ConstructorInfo* ctorInfo,
                                                                     ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ctorArgs,
                                                                     ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs);
 
-  /// @brief Method .ctor, addr 0x2506880, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::ConstructorInfo* ctorInfo, ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ctorArgs,
-                    ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs);
+  /// @brief Method ResolveArguments, addr 0x25e14cc, size 0x190, virtual false, abstract: false, final false
+  inline void ResolveArguments();
 
-  /// @brief Method ResolveArgumentsInternal, addr 0x250f8bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResolveArgumentsInternal, addr 0x25e14c8, size 0x4, virtual false, abstract: false, final false
   static inline void ResolveArgumentsInternal(::System::Reflection::ConstructorInfo* ctor, ::System::Reflection::Assembly* assembly, void* data, uint32_t data_length,
                                               ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> ctorArgs, ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> namedArgs);
 
-  /// @brief Method ResolveArguments, addr 0x250f8c0, size 0x190, virtual false, abstract: false, final false
-  inline void ResolveArguments();
-
-  /// @brief Method get_Constructor, addr 0x250fa50, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Reflection::ConstructorInfo* get_Constructor();
-
-  /// @brief Method get_ConstructorArguments, addr 0x250fa58, size 0x18, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* get_ConstructorArguments();
-
-  /// @brief Method get_NamedArguments, addr 0x250fa70, size 0x18, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* get_NamedArguments();
-
-  /// @brief Method GetCustomAttributes, addr 0x250fa88, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::Assembly* target);
-
-  /// @brief Method GetCustomAttributes, addr 0x250fae4, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::MemberInfo* target);
-
-  /// @brief Method GetCustomAttributesInternal, addr 0x250fb40, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesInternal(::System::RuntimeType* target);
-
-  /// @brief Method GetCustomAttributes, addr 0x250fb9c, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::Module* target);
-
-  /// @brief Method GetCustomAttributes, addr 0x250fbf8, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::ParameterInfo* target);
-
-  /// @brief Method get_AttributeType, addr 0x250fc54, size 0x20, virtual false, abstract: false, final false
-  inline ::System::Type* get_AttributeType();
-
-  /// @brief Method ToString, addr 0x250fc74, size 0x570, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25e1880, size 0x570, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method UnboxValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> UnboxValues(::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method Equals, addr 0x25101e4, size 0x680, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  constexpr ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>*& __cordl_internal_get_ctorArgs();
 
-  /// @brief Method GetHashCode, addr 0x2510864, size 0x2f8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>*> const& __cordl_internal_get_ctorArgs() const;
 
+  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get_ctorInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get_ctorInfo() const;
+
+  constexpr ::System::Reflection::__CustomAttributeData__LazyCAttrData*& __cordl_internal_get_lazyData();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__CustomAttributeData__LazyCAttrData*> const& __cordl_internal_get_lazyData() const;
+
+  constexpr ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>*& __cordl_internal_get_namedArgs();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>*> const& __cordl_internal_get_namedArgs() const;
+
+  constexpr void __cordl_internal_set_ctorArgs(::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* value);
+
+  constexpr void __cordl_internal_set_ctorInfo(::System::Reflection::ConstructorInfo* value);
+
+  constexpr void __cordl_internal_set_lazyData(::System::Reflection::__CustomAttributeData__LazyCAttrData* value);
+
+  constexpr void __cordl_internal_set_namedArgs(::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* value);
+
+  /// @brief Method .ctor, addr 0x25e1420, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x25d80e8, size 0xfc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Reflection::ConstructorInfo* ctorInfo);
+
+  /// @brief Method .ctor, addr 0x25e1428, size 0x98, virtual false, abstract: false, final false
+  inline void _ctor(::System::Reflection::ConstructorInfo* ctorInfo, ::System::Reflection::Assembly* assembly, void* data, uint32_t data_length);
+
+  /// @brief Method .ctor, addr 0x25d8494, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Reflection::ConstructorInfo* ctorInfo, ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ctorArgs,
+                    ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs);
+
+  /// @brief Method get_AttributeType, addr 0x25e1860, size 0x20, virtual false, abstract: false, final false
+  inline ::System::Type* get_AttributeType();
+
+  /// @brief Method get_Constructor, addr 0x25e165c, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Reflection::ConstructorInfo* get_Constructor();
+
+  /// @brief Method get_ConstructorArguments, addr 0x25e1664, size 0x18, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* get_ConstructorArguments();
+
+  /// @brief Method get_NamedArguments, addr 0x25e167c, size 0x18, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* get_NamedArguments();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CustomAttributeData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CustomAttributeData(CustomAttributeData&&) = delete;
@@ -266,12 +268,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CustomAttributeData(CustomAttributeData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomAttributeData();
-
-public:
   /// @brief Field ctorInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ___ctorInfo;
 

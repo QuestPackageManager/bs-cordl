@@ -23,16 +23,11 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10156)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10156), inst: 3487 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10157))
 // CS Name: ::Zenject::Factory`5<TParam1,TParam2,TParam3,TParam4,TValue>*
 class CORDL_TYPE Factory_5 : public ::Zenject::PlaceholderFactory_5<TParam1, TParam2, TParam3, TParam4, TValue> {
 public:
   // Declarations
   static inline ::Zenject::Factory_5<TParam1, TParam2, TParam3, TParam4, TValue>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
@@ -40,6 +35,15 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Factory_5();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Factory_5", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Factory_5(Factory_5&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Factory_5(Factory_5 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Factory_5();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -20,38 +20,42 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4505))
 // CS Name: ::MultiplayerLocalInactivePlayerOutroAnimator*
 class CORDL_TYPE MultiplayerLocalInactivePlayerOutroAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _outroPlayableDirector, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__outroPlayableDirector, put = __cordl_internal_set__outroPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _outroPlayableDirector;
-
   /// @brief Field _multiplayerController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController))::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
-  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__outroPlayableDirector();
-
-  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__outroPlayableDirector() const;
-
-  constexpr void __cordl_internal_set__outroPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
-
-  constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
-
-  /// @brief Method Start, addr 0x239bc5c, size 0x3c, virtual false, abstract: false, final false
-  inline void Start();
+  /// @brief Field _outroPlayableDirector, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__outroPlayableDirector, put = __cordl_internal_set__outroPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _outroPlayableDirector;
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x239bc98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x246aba4, size 0x3c, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
+
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__outroPlayableDirector() const;
+
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__outroPlayableDirector();
+
+  constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
+
+  constexpr void __cordl_internal_set__outroPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
+
+  /// @brief Method .ctor, addr 0x246abe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLocalInactivePlayerOutroAnimator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerOutroAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalInactivePlayerOutroAnimator(MultiplayerLocalInactivePlayerOutroAnimator&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalInactivePlayerOutroAnimator(MultiplayerLocalInactivePlayerOutroAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLocalInactivePlayerOutroAnimator();
-
-public:
   /// @brief Field _outroPlayableDirector, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____outroPlayableDirector;
 

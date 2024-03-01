@@ -16,29 +16,33 @@ MARK_REF_PTR_T(::GlobalNamespace::CoreMathUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16429))
 // CS Name: ::CoreMathUtils*
 class CORDL_TYPE CoreMathUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CalculateHalfJumpDurationInBeats, addr 0x125b848, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CalculateHalfJumpDurationInBeats, addr 0x129e818, size 0x40, virtual false, abstract: false, final false
   static inline float_t CalculateHalfJumpDurationInBeats(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed, float_t oneBeatDuration,
                                                          float_t noteJumpStartBeatOffset);
 
-  /// @brief Method __CalculateHalfJumpDurationInBeatsV2, addr 0x125b888, size 0x34, virtual false, abstract: false, final false
-  static inline float_t __CalculateHalfJumpDurationInBeatsV2(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed, float_t oneBeatDuration,
-                                                             float_t noteJumpStartBeatOffset);
+  static inline ::GlobalNamespace::CoreMathUtils* New_ctor();
 
-  /// @brief Method __CalculateHalfJumpDurationInBeatsV1, addr 0x125b8bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method __CalculateHalfJumpDurationInBeatsV1, addr 0x129e88c, size 0x48, virtual false, abstract: false, final false
   static inline int32_t __CalculateHalfJumpDurationInBeatsV1(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed, float_t oneBeatDuration,
                                                              float_t minHalfJumpDistance);
 
-  static inline ::GlobalNamespace::CoreMathUtils* New_ctor();
+  /// @brief Method __CalculateHalfJumpDurationInBeatsV2, addr 0x129e858, size 0x34, virtual false, abstract: false, final false
+  static inline float_t __CalculateHalfJumpDurationInBeatsV2(float_t startHalfJumpDurationInBeats, float_t maxHalfJumpDistance, float_t noteJumpMovementSpeed, float_t oneBeatDuration,
+                                                             float_t noteJumpStartBeatOffset);
 
-  /// @brief Method .ctor, addr 0x125b904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x129e8d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CoreMathUtils();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CoreMathUtils", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CoreMathUtils(CoreMathUtils&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CoreMathUtils(CoreMathUtils const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CoreMathUtils();
-
-public:
   /// @brief Field kHalfJumpDistanceEpsilon offset 0xffffffff size 0x4
   static constexpr float_t kHalfJumpDistanceEpsilon{ 0.001 };
 

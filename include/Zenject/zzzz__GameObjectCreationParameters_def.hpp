@@ -40,41 +40,16 @@ MARK_REF_PTR_T(::Zenject::GameObjectCreationParameters);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8996)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 414 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 3311 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10091)) CS Name: ::Zenject::GameObjectCreationParameters*
+// CS Name: ::Zenject::GameObjectCreationParameters*
 class CORDL_TYPE GameObjectCreationParameters : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
-
-  /// @brief Field <GroupName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__GroupName_k__BackingField, put = __cordl_internal_set__GroupName_k__BackingField))::StringW _GroupName_k__BackingField;
-
-  /// @brief Field <ParentTransform>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__ParentTransform_k__BackingField,
-                      put = __cordl_internal_set__ParentTransform_k__BackingField))::UnityW<::UnityEngine::Transform> _ParentTransform_k__BackingField;
-
-  /// @brief Field <ParentTransformGetter>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__ParentTransformGetter_k__BackingField,
-      put = __cordl_internal_set__ParentTransformGetter_k__BackingField))::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* _ParentTransformGetter_k__BackingField;
-
-  /// @brief Field <Position>k__BackingField, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get__Position_k__BackingField,
-                      put = __cordl_internal_set__Position_k__BackingField))::System::Nullable_1<::UnityEngine::Vector3> _Position_k__BackingField;
-
-  /// @brief Field <Rotation>k__BackingField, offset 0x40, size 0x14
-  __declspec(property(get = __cordl_internal_get__Rotation_k__BackingField,
-                      put = __cordl_internal_set__Rotation_k__BackingField))::System::Nullable_1<::UnityEngine::Quaternion> _Rotation_k__BackingField;
-
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::Zenject::GameObjectCreationParameters* Default;
 
-  __declspec(property(get = get_Name, put = set_Name))::StringW Name;
-
   __declspec(property(get = get_GroupName, put = set_GroupName))::StringW GroupName;
+
+  __declspec(property(get = get_Name, put = set_Name))::StringW Name;
 
   __declspec(property(get = get_ParentTransform, put = set_ParentTransform))::UnityW<::UnityEngine::Transform> ParentTransform;
 
@@ -84,103 +59,132 @@ public:
 
   __declspec(property(get = get_Rotation, put = set_Rotation))::System::Nullable_1<::UnityEngine::Quaternion> Rotation;
 
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+  /// @brief Field <GroupName>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__GroupName_k__BackingField, put = __cordl_internal_set__GroupName_k__BackingField))::StringW _GroupName_k__BackingField;
 
-  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+  /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
-  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
+  /// @brief Field <ParentTransformGetter>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__ParentTransformGetter_k__BackingField,
+      put = __cordl_internal_set__ParentTransformGetter_k__BackingField))::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* _ParentTransformGetter_k__BackingField;
 
-  constexpr ::StringW& __cordl_internal_get__GroupName_k__BackingField();
+  /// @brief Field <ParentTransform>k__BackingField, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__ParentTransform_k__BackingField,
+                      put = __cordl_internal_set__ParentTransform_k__BackingField))::UnityW<::UnityEngine::Transform> _ParentTransform_k__BackingField;
+
+  /// @brief Field <Position>k__BackingField, offset 0x30, size 0x10
+  __declspec(property(get = __cordl_internal_get__Position_k__BackingField,
+                      put = __cordl_internal_set__Position_k__BackingField))::System::Nullable_1<::UnityEngine::Vector3> _Position_k__BackingField;
+
+  /// @brief Field <Rotation>k__BackingField, offset 0x40, size 0x14
+  __declspec(property(get = __cordl_internal_get__Rotation_k__BackingField,
+                      put = __cordl_internal_set__Rotation_k__BackingField))::System::Nullable_1<::UnityEngine::Quaternion> _Rotation_k__BackingField;
+
+  /// @brief Method Equals, addr 0x2feece0, size 0xd0, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* other);
+
+  /// @brief Method Equals, addr 0x2feee08, size 0x64, virtual false, abstract: false, final false
+  inline bool Equals(::Zenject::GameObjectCreationParameters* that);
+
+  /// @brief Method GetHashCode, addr 0x2feea4c, size 0x294, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::Zenject::GameObjectCreationParameters* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get__GroupName_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__GroupName_k__BackingField(::StringW value);
+  constexpr ::StringW& __cordl_internal_get__GroupName_k__BackingField();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__ParentTransform_k__BackingField();
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__ParentTransform_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ParentTransform_k__BackingField(::UnityW<::UnityEngine::Transform> value);
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
   constexpr ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__ParentTransformGetter_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*> const&
   __cordl_internal_get__ParentTransformGetter_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__ParentTransformGetter_k__BackingField(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* value);
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__ParentTransform_k__BackingField() const;
 
-  constexpr ::System::Nullable_1<::UnityEngine::Vector3>& __cordl_internal_get__Position_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__ParentTransform_k__BackingField();
 
   constexpr ::System::Nullable_1<::UnityEngine::Vector3> const& __cordl_internal_get__Position_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Position_k__BackingField(::System::Nullable_1<::UnityEngine::Vector3> value);
-
-  constexpr ::System::Nullable_1<::UnityEngine::Quaternion>& __cordl_internal_get__Rotation_k__BackingField();
+  constexpr ::System::Nullable_1<::UnityEngine::Vector3>& __cordl_internal_get__Position_k__BackingField();
 
   constexpr ::System::Nullable_1<::UnityEngine::Quaternion> const& __cordl_internal_get__Rotation_k__BackingField() const;
 
+  constexpr ::System::Nullable_1<::UnityEngine::Quaternion>& __cordl_internal_get__Rotation_k__BackingField();
+
+  constexpr void __cordl_internal_set__GroupName_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__ParentTransformGetter_k__BackingField(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* value);
+
+  constexpr void __cordl_internal_set__ParentTransform_k__BackingField(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__Position_k__BackingField(::System::Nullable_1<::UnityEngine::Vector3> value);
+
   constexpr void __cordl_internal_set__Rotation_k__BackingField(::System::Nullable_1<::UnityEngine::Quaternion> value);
 
-  static inline void setStaticF_Default(::Zenject::GameObjectCreationParameters* value);
+  /// @brief Method .ctor, addr 0x2feb398, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Zenject::GameObjectCreationParameters* getStaticF_Default();
 
-  /// @brief Method get_Name, addr 0x2efb2a8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
-
-  /// @brief Method set_Name, addr 0x2efb2b0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Name(::StringW value);
-
-  /// @brief Method get_GroupName, addr 0x2efb2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GroupName, addr 0x2fee9e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_GroupName();
 
-  /// @brief Method set_GroupName, addr 0x2efb2c0, size 0x8, virtual false, abstract: false, final false
-  inline void set_GroupName(::StringW value);
+  /// @brief Method get_Name, addr 0x2fee9d0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Name();
 
-  /// @brief Method get_ParentTransform, addr 0x2efb2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentTransform, addr 0x2fee9f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_ParentTransform();
 
-  /// @brief Method set_ParentTransform, addr 0x2efb2d0, size 0x8, virtual false, abstract: false, final false
-  inline void set_ParentTransform(::UnityEngine::Transform* value);
-
-  /// @brief Method get_ParentTransformGetter, addr 0x2efb2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentTransformGetter, addr 0x2feea00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* get_ParentTransformGetter();
 
-  /// @brief Method set_ParentTransformGetter, addr 0x2efb2e0, size 0x8, virtual false, abstract: false, final false
-  inline void set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* value);
-
-  /// @brief Method get_Position, addr 0x2efb2e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x2feea10, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Vector3> get_Position();
 
-  /// @brief Method set_Position, addr 0x2efb2f4, size 0x8, virtual false, abstract: false, final false
-  inline void set_Position(::System::Nullable_1<::UnityEngine::Vector3> value);
-
-  /// @brief Method get_Rotation, addr 0x2efb2fc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x2feea24, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::UnityEngine::Quaternion> get_Rotation();
 
-  /// @brief Method set_Rotation, addr 0x2efb310, size 0x14, virtual false, abstract: false, final false
-  inline void set_Rotation(::System::Nullable_1<::UnityEngine::Quaternion> value);
-
-  /// @brief Method GetHashCode, addr 0x2efb324, size 0x294, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method Equals, addr 0x2efb5b8, size 0xd0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* other);
-
-  /// @brief Method Equals, addr 0x2efb6e0, size 0x64, virtual false, abstract: false, final false
-  inline bool Equals(::Zenject::GameObjectCreationParameters* that);
-
-  /// @brief Method op_Equality, addr 0x2efb688, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2feedb0, size 0x58, virtual false, abstract: false, final false
   static inline bool op_Equality(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters* right);
 
-  /// @brief Method op_Inequality, addr 0x2efb744, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2feee6c, size 0x20, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Zenject::GameObjectCreationParameters* left, ::Zenject::GameObjectCreationParameters* right);
 
-  static inline ::Zenject::GameObjectCreationParameters* New_ctor();
+  static inline void setStaticF_Default(::Zenject::GameObjectCreationParameters* value);
 
-  /// @brief Method .ctor, addr 0x2ef7c70, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method set_GroupName, addr 0x2fee9e8, size 0x8, virtual false, abstract: false, final false
+  inline void set_GroupName(::StringW value);
 
+  /// @brief Method set_Name, addr 0x2fee9d8, size 0x8, virtual false, abstract: false, final false
+  inline void set_Name(::StringW value);
+
+  /// @brief Method set_ParentTransform, addr 0x2fee9f8, size 0x8, virtual false, abstract: false, final false
+  inline void set_ParentTransform(::UnityEngine::Transform* value);
+
+  /// @brief Method set_ParentTransformGetter, addr 0x2feea08, size 0x8, virtual false, abstract: false, final false
+  inline void set_ParentTransformGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* value);
+
+  /// @brief Method set_Position, addr 0x2feea1c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Position(::System::Nullable_1<::UnityEngine::Vector3> value);
+
+  /// @brief Method set_Rotation, addr 0x2feea38, size 0x14, virtual false, abstract: false, final false
+  inline void set_Rotation(::System::Nullable_1<::UnityEngine::Quaternion> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameObjectCreationParameters();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameObjectCreationParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameObjectCreationParameters(GameObjectCreationParameters&&) = delete;
@@ -189,12 +193,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameObjectCreationParameters(GameObjectCreationParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameObjectCreationParameters();
-
-public:
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 

@@ -14,20 +14,18 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ITimeControl);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13858))
 // CS Name: ::UnityEngine.Timeline::ITimeControl*
 class CORDL_TYPE ITimeControl {
 public:
   // Declarations
-  /// @brief Method SetTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetTime(double_t time);
-
   /// @brief Method OnControlTimeStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnControlTimeStart();
 
   /// @brief Method OnControlTimeStop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnControlTimeStop();
+
+  /// @brief Method SetTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void SetTime(double_t time);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITimeControl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

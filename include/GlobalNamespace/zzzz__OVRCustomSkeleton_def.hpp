@@ -39,8 +39,6 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCustomSkeleton);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8050))
 // CS Name: ::OVRCustomSkeleton::RetargetingType
 struct CORDL_TYPE __OVRCustomSkeleton__RetargetingType {
 public:
@@ -57,21 +55,26 @@ public:
     return static_cast<____OVRCustomSkeleton__RetargetingType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRCustomSkeleton__RetargetingType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____OVRCustomSkeleton__RetargetingType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRCustomSkeleton__RetargetingType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __OVRCustomSkeleton__RetargetingType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
   /// @brief Field OculusSkeleton value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType const OculusSkeleton;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -85,13 +88,13 @@ static_assert(offsetof(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType, 
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8050)), TypeDefinitionIndex(TypeDefinitionIndex(8120))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8051))
 // CS Name: ::OVRCustomSkeleton*
 class CORDL_TYPE OVRCustomSkeleton : public ::GlobalNamespace::OVRSkeleton {
 public:
   // Declarations
   using RetargetingType = ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType;
+
+  __declspec(property(get = get_CustomBones))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* CustomBones;
 
   /// @brief Field _customBones_V2, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__customBones_V2,
@@ -100,49 +103,53 @@ public:
   /// @brief Field retargetingType, offset 0xc0, size 0x4
   __declspec(property(get = __cordl_internal_get_retargetingType, put = __cordl_internal_set_retargetingType))::GlobalNamespace::__OVRCustomSkeleton__RetargetingType retargetingType;
 
-  __declspec(property(get = get_CustomBones))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* CustomBones;
-
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+  /// @brief Method AllocateBones, addr 0x289ba20, size 0xc8, virtual false, abstract: false, final false
+  inline void AllocateBones();
+
+  /// @brief Method GetBoneTransform, addr 0x289b9c0, size 0x58, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> GetBoneTransform(::GlobalNamespace::__OVRSkeleton__BoneId boneId);
+
+  static inline ::GlobalNamespace::OVRCustomSkeleton* New_ctor();
+
+  /// @brief Method SetSkeletonType, addr 0x289bae8, size 0x88, virtual true, abstract: false, final false
+  inline void SetSkeletonType(::GlobalNamespace::__OVRSkeleton__SkeletonType skeletonType);
+
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x289ba1c, size 0x4, virtual true, abstract: false, final true
+  inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
+
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x289ba18, size 0x4, virtual true, abstract: false, final true
+  inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__customBones_V2();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__customBones_V2() const;
 
-  constexpr void __cordl_internal_set__customBones_V2(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
+  constexpr ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType const& __cordl_internal_get_retargetingType() const;
 
   constexpr ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType& __cordl_internal_get_retargetingType();
 
-  constexpr ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType const& __cordl_internal_get_retargetingType() const;
+  constexpr void __cordl_internal_set__customBones_V2(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
 
   constexpr void __cordl_internal_set_retargetingType(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType value);
 
-  /// @brief Method get_CustomBones, addr 0x27bad5c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* get_CustomBones();
-
-  /// @brief Method GetBoneTransform, addr 0x27bad64, size 0x58, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> GetBoneTransform(::GlobalNamespace::__OVRSkeleton__BoneId boneId);
-
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x27badbc, size 0x4, virtual true, abstract: false, final true
-  inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
-
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x27badc0, size 0x4, virtual true, abstract: false, final true
-  inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
-
-  /// @brief Method AllocateBones, addr 0x27badc4, size 0xc8, virtual false, abstract: false, final false
-  inline void AllocateBones();
-
-  /// @brief Method SetSkeletonType, addr 0x27bae8c, size 0x88, virtual false, abstract: false, final false
-  inline void SetSkeletonType(::GlobalNamespace::__OVRSkeleton__SkeletonType skeletonType);
-
-  static inline ::GlobalNamespace::OVRCustomSkeleton* New_ctor();
-
-  /// @brief Method .ctor, addr 0x27baf14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x289bb70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_CustomBones, addr 0x289b9b8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* get_CustomBones();
+
+  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRCustomSkeleton();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRCustomSkeleton", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRCustomSkeleton(OVRCustomSkeleton&&) = delete;
@@ -151,12 +158,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRCustomSkeleton(OVRCustomSkeleton const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRCustomSkeleton();
-
-public:
   /// @brief Field _customBones_V2, offset: 0xb8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____customBones_V2;
 

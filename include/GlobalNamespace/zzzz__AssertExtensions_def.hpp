@@ -16,15 +16,19 @@ MARK_REF_PTR_T(::GlobalNamespace::AssertExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15580))
 // CS Name: ::AssertExtensions*
 class CORDL_TYPE AssertExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LessThan, addr 0xe4f9f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0xe959c4, size 0x4, virtual false, abstract: false, final false
   static inline void LessThan(float_t expected, float_t value, ::StringW message);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssertExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssertExtensions(AssertExtensions&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssertExtensions(AssertExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssertExtensions();
-
-public:
   /// @brief Field kUnityAssertions offset 0xffffffff size 0x8
   static constexpr ::ConstString kUnityAssertions{ u"UNITY_ASSERTIONS" };
 

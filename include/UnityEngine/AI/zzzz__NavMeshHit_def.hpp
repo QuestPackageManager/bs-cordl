@@ -20,25 +20,23 @@ MARK_VAL_T(::UnityEngine::AI::NavMeshHit);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::AI {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16232))
 // CS Name: ::UnityEngine.AI::NavMeshHit
 struct CORDL_TYPE NavMeshHit {
 public:
   // Declarations
   __declspec(property(get = get_position))::UnityEngine::Vector3 position;
 
-  /// @brief Method get_position, addr 0x2c7a44c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x2d63520, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NavMeshHit();
 
   // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "",
   // def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Mask", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_Hit", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr NavMeshHit(::UnityEngine::Vector3 m_Position, ::UnityEngine::Vector3 m_Normal, float_t m_Distance, int32_t m_Mask, int32_t m_Hit) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NavMeshHit();
 
   /// @brief Field m_Position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Position;

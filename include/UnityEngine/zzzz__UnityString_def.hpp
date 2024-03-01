@@ -19,15 +19,19 @@ MARK_REF_PTR_T(::UnityEngine::UnityString);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16104))
 // CS Name: ::UnityEngine::UnityString*
 class CORDL_TYPE UnityString : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x2d38bb4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x2e252dc, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW fmt, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityString();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityString", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityString(UnityString&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityString(UnityString const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityString();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

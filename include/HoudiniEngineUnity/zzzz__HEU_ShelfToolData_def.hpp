@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ShelfToolData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9648))
 // CS Name: ::HEU_ShelfToolData::ToolType
 struct CORDL_TYPE __HEU_ShelfToolData__ToolType {
 public:
@@ -47,30 +45,35 @@ public:
     return static_cast<____HEU_ShelfToolData__ToolType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_ShelfToolData__ToolType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____HEU_ShelfToolData__ToolType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HEU_ShelfToolData__ToolType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HEU_ShelfToolData__ToolType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BATCH value: static_cast<int32_t>(0x3)
+  static ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const BATCH;
 
   /// @brief Field GENERATOR value: static_cast<int32_t>(0x0)
   static ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const GENERATOR;
 
-  /// @brief Field OPERATOR_SINGLE value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const OPERATOR_SINGLE;
-
   /// @brief Field OPERATOR_MULTI value: static_cast<int32_t>(0x2)
   static ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const OPERATOR_MULTI;
 
-  /// @brief Field BATCH value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const BATCH;
+  /// @brief Field OPERATOR_SINGLE value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const OPERATOR_SINGLE;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -84,25 +87,11 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType, valu
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9648))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9649))
 // CS Name: ::HoudiniEngineUnity::HEU_ShelfToolData*
 class CORDL_TYPE HEU_ShelfToolData : public ::System::Object {
 public:
   // Declarations
   using ToolType = ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType;
-
-  /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
-
-  /// @brief Field _toolType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__toolType, put = __cordl_internal_set__toolType))::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType _toolType;
-
-  /// @brief Field _toolTip, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__toolTip, put = __cordl_internal_set__toolTip))::StringW _toolTip;
-
-  /// @brief Field _iconPath, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__iconPath, put = __cordl_internal_set__iconPath))::StringW _iconPath;
 
   /// @brief Field _assetPath, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__assetPath, put = __cordl_internal_set__assetPath))::StringW _assetPath;
@@ -110,65 +99,83 @@ public:
   /// @brief Field _helpURL, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__helpURL, put = __cordl_internal_set__helpURL))::StringW _helpURL;
 
-  /// @brief Field _targets, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__targets, put = __cordl_internal_set__targets))::ArrayW<::StringW, ::Array<::StringW>*> _targets;
+  /// @brief Field _iconPath, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__iconPath, put = __cordl_internal_set__iconPath))::StringW _iconPath;
 
   /// @brief Field _jsonPath, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__jsonPath, put = __cordl_internal_set__jsonPath))::StringW _jsonPath;
 
-  constexpr ::StringW& __cordl_internal_get__name();
+  /// @brief Field _name, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
-  constexpr ::StringW const& __cordl_internal_get__name() const;
+  /// @brief Field _targets, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__targets, put = __cordl_internal_set__targets))::ArrayW<::StringW, ::Array<::StringW>*> _targets;
 
-  constexpr void __cordl_internal_set__name(::StringW value);
+  /// @brief Field _toolTip, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__toolTip, put = __cordl_internal_set__toolTip))::StringW _toolTip;
 
-  constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType& __cordl_internal_get__toolType();
-
-  constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const& __cordl_internal_get__toolType() const;
-
-  constexpr void __cordl_internal_set__toolType(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType value);
-
-  constexpr ::StringW& __cordl_internal_get__toolTip();
-
-  constexpr ::StringW const& __cordl_internal_get__toolTip() const;
-
-  constexpr void __cordl_internal_set__toolTip(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__iconPath();
-
-  constexpr ::StringW const& __cordl_internal_get__iconPath() const;
-
-  constexpr void __cordl_internal_set__iconPath(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__assetPath();
-
-  constexpr ::StringW const& __cordl_internal_get__assetPath() const;
-
-  constexpr void __cordl_internal_set__assetPath(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__helpURL();
-
-  constexpr ::StringW const& __cordl_internal_get__helpURL() const;
-
-  constexpr void __cordl_internal_set__helpURL(::StringW value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__targets();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__targets() const;
-
-  constexpr void __cordl_internal_set__targets(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr ::StringW& __cordl_internal_get__jsonPath();
-
-  constexpr ::StringW const& __cordl_internal_get__jsonPath() const;
-
-  constexpr void __cordl_internal_set__jsonPath(::StringW value);
+  /// @brief Field _toolType, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__toolType, put = __cordl_internal_set__toolType))::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType _toolType;
 
   static inline ::HoudiniEngineUnity::HEU_ShelfToolData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2265f80, size 0x5c, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__assetPath() const;
+
+  constexpr ::StringW& __cordl_internal_get__assetPath();
+
+  constexpr ::StringW const& __cordl_internal_get__helpURL() const;
+
+  constexpr ::StringW& __cordl_internal_get__helpURL();
+
+  constexpr ::StringW const& __cordl_internal_get__iconPath() const;
+
+  constexpr ::StringW& __cordl_internal_get__iconPath();
+
+  constexpr ::StringW const& __cordl_internal_get__jsonPath() const;
+
+  constexpr ::StringW& __cordl_internal_get__jsonPath();
+
+  constexpr ::StringW const& __cordl_internal_get__name() const;
+
+  constexpr ::StringW& __cordl_internal_get__name();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__targets() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__targets();
+
+  constexpr ::StringW const& __cordl_internal_get__toolTip() const;
+
+  constexpr ::StringW& __cordl_internal_get__toolTip();
+
+  constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const& __cordl_internal_get__toolType() const;
+
+  constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType& __cordl_internal_get__toolType();
+
+  constexpr void __cordl_internal_set__assetPath(::StringW value);
+
+  constexpr void __cordl_internal_set__helpURL(::StringW value);
+
+  constexpr void __cordl_internal_set__iconPath(::StringW value);
+
+  constexpr void __cordl_internal_set__jsonPath(::StringW value);
+
+  constexpr void __cordl_internal_set__name(::StringW value);
+
+  constexpr void __cordl_internal_set__targets(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set__toolTip(::StringW value);
+
+  constexpr void __cordl_internal_set__toolType(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType value);
+
+  /// @brief Method .ctor, addr 0x23325e8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_ShelfToolData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ShelfToolData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_ShelfToolData(HEU_ShelfToolData&&) = delete;
@@ -177,12 +184,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ShelfToolData(HEU_ShelfToolData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_ShelfToolData();
-
-public:
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;
 

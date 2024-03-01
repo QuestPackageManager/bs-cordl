@@ -42,8 +42,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__PackDefinitionAsyncInstaller____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10814))
 // CS Name: ::PackDefinitionAsyncInstaller::<>c*
 class CORDL_TYPE __PackDefinitionAsyncInstaller____c : public ::System::Object {
 public:
@@ -54,22 +52,28 @@ public:
   /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, int32_t>* __9__4_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__PackDefinitionAsyncInstaller____c* value);
+  static inline ::GlobalNamespace::__PackDefinitionAsyncInstaller____c* New_ctor();
+
+  /// @brief Method <LoadResourcesBeforeInstall>b__4_0, addr 0x12ce0b4, size 0x18, virtual false, abstract: false, final false
+  inline int32_t _LoadResourcesBeforeInstall_b__4_0(::GlobalNamespace::PackDefinitionSO* asset);
+
+  /// @brief Method .ctor, addr 0x12ce0ac, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__PackDefinitionAsyncInstaller____c* getStaticF___9();
 
-  static inline void setStaticF___9__4_0(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, int32_t>* value);
-
   static inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, int32_t>* getStaticF___9__4_0();
 
-  static inline ::GlobalNamespace::__PackDefinitionAsyncInstaller____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__PackDefinitionAsyncInstaller____c* value);
 
-  /// @brief Method .ctor, addr 0x128b0dc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__4_0(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, int32_t>* value);
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__4_0, addr 0x128b0e4, size 0x18, virtual false, abstract: false, final false
-  inline int32_t _LoadResourcesBeforeInstall_b__4_0(::GlobalNamespace::PackDefinitionSO* asset);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PackDefinitionAsyncInstaller____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionAsyncInstaller____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PackDefinitionAsyncInstaller____c(__PackDefinitionAsyncInstaller____c&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PackDefinitionAsyncInstaller____c(__PackDefinitionAsyncInstaller____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionAsyncInstaller____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -94,8 +92,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitio
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10831)), TypeDefinitionIndex(TypeDefinitionIndex(15466)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15466), inst:
-// 729 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10815)) CS Name: ::PackDefinitionAsyncInstaller*
+// CS Name: ::PackDefinitionAsyncInstaller*
 class CORDL_TYPE PackDefinitionAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::GlobalNamespace::PackDefinitionSO>> {
 public:
   // Declarations
@@ -110,33 +107,39 @@ public:
 
   __declspec(property(get = get_assetLabel))::UnityEngine::AddressableAssets::AssetLabelReference* assetLabel;
 
+  /// @brief Method InstallBindings, addr 0x12cdf44, size 0x74, virtual true, abstract: false, final false
+  inline void InstallBindings();
+
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x12cdde4, size 0x160, virtual true, abstract: false, final false
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* assets,
+                                         ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
+
+  static inline ::GlobalNamespace::PackDefinitionAsyncInstaller* New_ctor();
+
   constexpr ::UnityEngine::AddressableAssets::AssetLabelReference*& __cordl_internal_get__packDefinitionLabel();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetLabelReference*> const& __cordl_internal_get__packDefinitionLabel() const;
-
-  constexpr void __cordl_internal_set__packDefinitionLabel(::UnityEngine::AddressableAssets::AssetLabelReference* value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get__packDefinitions();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get__packDefinitions() const;
 
+  constexpr void __cordl_internal_set__packDefinitionLabel(::UnityEngine::AddressableAssets::AssetLabelReference* value);
+
   constexpr void __cordl_internal_set__packDefinitions(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
 
-  /// @brief Method get_assetLabel, addr 0x128ae0c, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::AddressableAssets::AssetLabelReference* get_assetLabel();
-
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x128ae14, size 0x160, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* assets,
-                                         ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
-
-  /// @brief Method InstallBindings, addr 0x128af74, size 0x74, virtual true, abstract: false, final false
-  inline void InstallBindings();
-
-  static inline ::GlobalNamespace::PackDefinitionAsyncInstaller* New_ctor();
-
-  /// @brief Method .ctor, addr 0x128afe8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cdfb8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_assetLabel, addr 0x12cdddc, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::AddressableAssets::AssetLabelReference* get_assetLabel();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PackDefinitionAsyncInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionAsyncInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PackDefinitionAsyncInstaller(PackDefinitionAsyncInstaller&&) = delete;
@@ -145,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PackDefinitionAsyncInstaller(PackDefinitionAsyncInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PackDefinitionAsyncInstaller();
-
-public:
   /// @brief Field _packDefinitionLabel, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetLabelReference* ____packDefinitionLabel;
 

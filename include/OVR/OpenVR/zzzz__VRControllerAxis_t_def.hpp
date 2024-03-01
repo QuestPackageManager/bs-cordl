@@ -15,18 +15,16 @@ MARK_VAL_T(::OVR::OpenVR::VRControllerAxis_t);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8639))
 // CS Name: ::OVR.OpenVR::VRControllerAxis_t
 struct CORDL_TYPE VRControllerAxis_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr VRControllerAxis_t(float_t x, float_t y) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VRControllerAxis_t();
+
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr VRControllerAxis_t(float_t x, float_t y) noexcept;
 
   /// @brief Field x, offset: 0x0, size: 0x4, def value: None
   float_t x;

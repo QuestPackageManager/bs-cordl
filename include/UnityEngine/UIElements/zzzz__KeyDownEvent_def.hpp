@@ -17,20 +17,24 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::KeyDownEvent);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6499)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6499), inst: 3922 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6500))
 // CS Name: ::UnityEngine.UIElements::KeyDownEvent*
 class CORDL_TYPE KeyDownEvent : public ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyDownEvent*> {
 public:
   // Declarations
-  /// @brief Method GetEquivalentImguiEvent, addr 0x2e6df44, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetEquivalentImguiEvent, addr 0x2f6066c, size 0xc0, virtual false, abstract: false, final false
   inline void GetEquivalentImguiEvent(::UnityEngine::Event* outImguiEvent);
 
   static inline ::UnityEngine::UIElements::KeyDownEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6e004, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f6072c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeyDownEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyDownEvent(KeyDownEvent&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyDownEvent(KeyDownEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyDownEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

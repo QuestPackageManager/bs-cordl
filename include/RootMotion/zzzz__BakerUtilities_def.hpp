@@ -25,27 +25,31 @@ MARK_REF_PTR_T(::RootMotion::BakerUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12373))
 // CS Name: ::RootMotion::BakerUtilities*
 class CORDL_TYPE BakerUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReduceKeyframes, addr 0x12cd62c, size 0x38, virtual false, abstract: false, final false
-  static inline void ReduceKeyframes(::UnityEngine::AnimationCurve* curve, float_t maxError);
-
-  /// @brief Method GetReducedKeyframes, addr 0x12cd664, size 0x3c4, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetReducedKeyframes(::UnityEngine::AnimationCurve* curve, float_t maxError);
-
-  /// @brief Method SetLoopFrame, addr 0x12cda28, size 0x1e0, virtual false, abstract: false, final false
-  static inline void SetLoopFrame(float_t time, ::UnityEngine::AnimationCurve* curve);
-
-  /// @brief Method SetTangentMode, addr 0x12cdc08, size 0x4, virtual false, abstract: false, final false
-  static inline void SetTangentMode(::UnityEngine::AnimationCurve* curve);
-
-  /// @brief Method EnsureQuaternionContinuity, addr 0x12cdc0c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method EnsureQuaternionContinuity, addr 0x130ebf8, size 0x194, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion EnsureQuaternionContinuity(::UnityEngine::Quaternion lastQ, ::UnityEngine::Quaternion q);
 
+  /// @brief Method GetReducedKeyframes, addr 0x130e650, size 0x3c4, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetReducedKeyframes(::UnityEngine::AnimationCurve* curve, float_t maxError);
+
+  /// @brief Method ReduceKeyframes, addr 0x130e618, size 0x38, virtual false, abstract: false, final false
+  static inline void ReduceKeyframes(::UnityEngine::AnimationCurve* curve, float_t maxError);
+
+  /// @brief Method SetLoopFrame, addr 0x130ea14, size 0x1e0, virtual false, abstract: false, final false
+  static inline void SetLoopFrame(float_t time, ::UnityEngine::AnimationCurve* curve);
+
+  /// @brief Method SetTangentMode, addr 0x130ebf4, size 0x4, virtual false, abstract: false, final false
+  static inline void SetTangentMode(::UnityEngine::AnimationCurve* curve);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BakerUtilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BakerUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BakerUtilities(BakerUtilities&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BakerUtilities(BakerUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BakerUtilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

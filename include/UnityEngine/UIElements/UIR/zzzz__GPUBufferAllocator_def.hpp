@@ -21,49 +21,53 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::GPUBufferAllocator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6696))
 // CS Name: ::UnityEngine.UIElements.UIR::GPUBufferAllocator*
 class CORDL_TYPE GPUBufferAllocator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Low, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Low, put = __cordl_internal_set_m_Low))::UnityEngine::UIElements::UIR::BestFitAllocator* m_Low;
+  __declspec(property(get = get_isEmpty)) bool isEmpty;
 
   /// @brief Field m_High, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_High, put = __cordl_internal_set_m_High))::UnityEngine::UIElements::UIR::BestFitAllocator* m_High;
 
-  __declspec(property(get = get_isEmpty)) bool isEmpty;
+  /// @brief Field m_Low, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Low, put = __cordl_internal_set_m_Low))::UnityEngine::UIElements::UIR::BestFitAllocator* m_Low;
 
-  constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& __cordl_internal_get_m_Low();
+  /// @brief Method Allocate, addr 0x2edf800, size 0x13c, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size, bool shortLived);
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& __cordl_internal_get_m_Low() const;
+  /// @brief Method Free, addr 0x2edf93c, size 0x84, virtual false, abstract: false, final false
+  inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
 
-  constexpr void __cordl_internal_set_m_Low(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
+  /// @brief Method HighLowCollide, addr 0x2ee3e44, size 0x38, virtual false, abstract: false, final false
+  inline bool HighLowCollide();
+
+  static inline ::UnityEngine::UIElements::UIR::GPUBufferAllocator* New_ctor(uint32_t maxSize);
 
   constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& __cordl_internal_get_m_High();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& __cordl_internal_get_m_High() const;
 
+  constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& __cordl_internal_get_m_Low();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& __cordl_internal_get_m_Low() const;
+
   constexpr void __cordl_internal_set_m_High(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
 
-  static inline ::UnityEngine::UIElements::UIR::GPUBufferAllocator* New_ctor(uint32_t maxSize);
+  constexpr void __cordl_internal_set_m_Low(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
 
-  /// @brief Method .ctor, addr 0x2df3688, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ee3db0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(uint32_t maxSize);
 
-  /// @brief Method Allocate, addr 0x2def0d8, size 0x13c, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size, bool shortLived);
-
-  /// @brief Method Free, addr 0x2def214, size 0x84, virtual false, abstract: false, final false
-  inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
-
-  /// @brief Method get_isEmpty, addr 0x2df3754, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x2ee3e7c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method HighLowCollide, addr 0x2df371c, size 0x38, virtual false, abstract: false, final false
-  inline bool HighLowCollide();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GPUBufferAllocator();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GPUBufferAllocator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GPUBufferAllocator(GPUBufferAllocator&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GPUBufferAllocator(GPUBufferAllocator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GPUBufferAllocator();
-
-public:
   /// @brief Field m_Low, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::BestFitAllocator* ___m_Low;
 

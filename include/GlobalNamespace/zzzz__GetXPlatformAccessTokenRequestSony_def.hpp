@@ -19,35 +19,39 @@ MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenRequestSony);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12822))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16365))
 // CS Name: ::GetXPlatformAccessTokenRequestSony*
 class CORDL_TYPE GetXPlatformAccessTokenRequestSony : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field platformToken, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_platformToken, put = __cordl_internal_set_platformToken))::StringW platformToken;
-
   /// @brief Field platformEnvironment, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_platformEnvironment, put = __cordl_internal_set_platformEnvironment))::GlobalNamespace::PlatformEnvironment platformEnvironment;
 
-  constexpr ::StringW& __cordl_internal_get_platformToken();
-
-  constexpr ::StringW const& __cordl_internal_get_platformToken() const;
-
-  constexpr void __cordl_internal_set_platformToken(::StringW value);
-
-  constexpr ::GlobalNamespace::PlatformEnvironment& __cordl_internal_get_platformEnvironment();
-
-  constexpr ::GlobalNamespace::PlatformEnvironment const& __cordl_internal_get_platformEnvironment() const;
-
-  constexpr void __cordl_internal_set_platformEnvironment(::GlobalNamespace::PlatformEnvironment value);
+  /// @brief Field platformToken, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_platformToken, put = __cordl_internal_set_platformToken))::StringW platformToken;
 
   static inline ::GlobalNamespace::GetXPlatformAccessTokenRequestSony* New_ctor(::StringW platformToken, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
-  /// @brief Method .ctor, addr 0x280a90c, size 0x30, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::PlatformEnvironment const& __cordl_internal_get_platformEnvironment() const;
+
+  constexpr ::GlobalNamespace::PlatformEnvironment& __cordl_internal_get_platformEnvironment();
+
+  constexpr ::StringW const& __cordl_internal_get_platformToken() const;
+
+  constexpr ::StringW& __cordl_internal_get_platformToken();
+
+  constexpr void __cordl_internal_set_platformEnvironment(::GlobalNamespace::PlatformEnvironment value);
+
+  constexpr void __cordl_internal_set_platformToken(::StringW value);
+
+  /// @brief Method .ctor, addr 0x28eed88, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GetXPlatformAccessTokenRequestSony();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GetXPlatformAccessTokenRequestSony", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetXPlatformAccessTokenRequestSony(GetXPlatformAccessTokenRequestSony&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetXPlatformAccessTokenRequestSony(GetXPlatformAccessTokenRequestSony const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetXPlatformAccessTokenRequestSony();
-
-public:
   /// @brief Field platformToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___platformToken;
 

@@ -17,57 +17,61 @@ MARK_REF_PTR_T(::System::Net::Sockets::SendPacketsElement);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7356))
 // CS Name: ::System.Net.Sockets::SendPacketsElement*
 class CORDL_TYPE SendPacketsElement : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_FilePath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FilePath, put = __cordl_internal_set_m_FilePath))::StringW m_FilePath;
-
   /// @brief Field m_Buffer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Buffer, put = __cordl_internal_set_m_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> m_Buffer;
-
-  /// @brief Field m_Offset, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Offset, put = __cordl_internal_set_m_Offset)) int32_t m_Offset;
 
   /// @brief Field m_Count, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Count, put = __cordl_internal_set_m_Count)) int32_t m_Count;
 
+  /// @brief Field m_FilePath, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_FilePath, put = __cordl_internal_set_m_FilePath))::StringW m_FilePath;
+
+  /// @brief Field m_Offset, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Offset, put = __cordl_internal_set_m_Offset)) int32_t m_Offset;
+
   /// @brief Field m_endOfPacket, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_m_endOfPacket, put = __cordl_internal_set_m_endOfPacket)) bool m_endOfPacket;
 
-  constexpr ::StringW& __cordl_internal_get_m_FilePath();
-
-  constexpr ::StringW const& __cordl_internal_get_m_FilePath() const;
-
-  constexpr void __cordl_internal_set_m_FilePath(::StringW value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_Buffer() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_Buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_Buffer() const;
-
-  constexpr void __cordl_internal_set_m_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_m_Offset();
-
-  constexpr int32_t const& __cordl_internal_get_m_Offset() const;
-
-  constexpr void __cordl_internal_set_m_Offset(int32_t value);
+  constexpr int32_t const& __cordl_internal_get_m_Count() const;
 
   constexpr int32_t& __cordl_internal_get_m_Count();
 
-  constexpr int32_t const& __cordl_internal_get_m_Count() const;
+  constexpr ::StringW const& __cordl_internal_get_m_FilePath() const;
 
-  constexpr void __cordl_internal_set_m_Count(int32_t value);
+  constexpr ::StringW& __cordl_internal_get_m_FilePath();
 
-  constexpr bool& __cordl_internal_get_m_endOfPacket();
+  constexpr int32_t const& __cordl_internal_get_m_Offset() const;
+
+  constexpr int32_t& __cordl_internal_get_m_Offset();
 
   constexpr bool const& __cordl_internal_get_m_endOfPacket() const;
 
+  constexpr bool& __cordl_internal_get_m_endOfPacket();
+
+  constexpr void __cordl_internal_set_m_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_m_Count(int32_t value);
+
+  constexpr void __cordl_internal_set_m_FilePath(::StringW value);
+
+  constexpr void __cordl_internal_set_m_Offset(int32_t value);
+
   constexpr void __cordl_internal_set_m_endOfPacket(bool value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SendPacketsElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SendPacketsElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SendPacketsElement(SendPacketsElement&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SendPacketsElement(SendPacketsElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SendPacketsElement();
-
-public:
   /// @brief Field m_FilePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_FilePath;
 

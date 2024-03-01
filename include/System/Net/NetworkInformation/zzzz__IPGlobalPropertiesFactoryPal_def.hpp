@@ -17,15 +17,19 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7276))
 // CS Name: ::System.Net.NetworkInformation::IPGlobalPropertiesFactoryPal*
 class CORDL_TYPE IPGlobalPropertiesFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x29f0154, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2ad8228, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IPGlobalPropertiesFactoryPal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IPGlobalPropertiesFactoryPal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IPGlobalPropertiesFactoryPal(IPGlobalPropertiesFactoryPal&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IPGlobalPropertiesFactoryPal(IPGlobalPropertiesFactoryPal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IPGlobalPropertiesFactoryPal();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

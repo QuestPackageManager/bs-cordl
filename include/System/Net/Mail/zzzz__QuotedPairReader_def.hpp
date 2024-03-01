@@ -16,18 +16,22 @@ MARK_REF_PTR_T(::System::Net::Mail::QuotedPairReader);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7389))
 // CS Name: ::System.Net.Mail::QuotedPairReader*
 class CORDL_TYPE QuotedPairReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountQuotedChars, addr 0x2906214, size 0x194, virtual false, abstract: false, final false
-  static inline int32_t CountQuotedChars(::StringW data, int32_t index, bool permitUnicodeEscaping);
-
-  /// @brief Method CountBackslashes, addr 0x290777c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CountBackslashes, addr 0x29ecbf8, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t CountBackslashes(::StringW data, int32_t index);
 
+  /// @brief Method CountQuotedChars, addr 0x29eb690, size 0x194, virtual false, abstract: false, final false
+  static inline int32_t CountQuotedChars(::StringW data, int32_t index, bool permitUnicodeEscaping);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QuotedPairReader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "QuotedPairReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuotedPairReader(QuotedPairReader&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   QuotedPairReader(QuotedPairReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QuotedPairReader();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

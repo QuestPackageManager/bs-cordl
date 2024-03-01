@@ -96,22 +96,25 @@ MARK_VAL_T(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12861)) CS Name: ::StandaloneMonobehavior::<Dispatch>d__20
+// CS Name: ::StandaloneMonobehavior::<Dispatch>d__20
 struct CORDL_TYPE __StandaloneMonobehavior___Dispatch_d__20 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xecab24, size 0x200, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xecad24, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe83b54, size 0x200, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe83d54, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __StandaloneMonobehavior___Dispatch_d__20();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::StandaloneMonobehavior>",
@@ -120,10 +123,6 @@ public:
   constexpr __StandaloneMonobehavior___Dispatch_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                       ::UnityW<::GlobalNamespace::StandaloneMonobehavior> __4__this, ::System::Action* action,
                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StandaloneMonobehavior___Dispatch_d__20();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -163,23 +162,25 @@ static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12862)) CS Name:
-// ::StandaloneMonobehavior::<DispatchAsync>d__21
+// CS Name: ::StandaloneMonobehavior::<DispatchAsync>d__21
 struct CORDL_TYPE __StandaloneMonobehavior___DispatchAsync_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xecad30, size 0x2b0, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xecafe0, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe83d60, size 0x2b0, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe84010, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __StandaloneMonobehavior___DispatchAsync_d__21();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::StandaloneMonobehavior>",
@@ -189,10 +190,6 @@ public:
   constexpr __StandaloneMonobehavior___DispatchAsync_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                            ::UnityW<::GlobalNamespace::StandaloneMonobehavior> __4__this, ::System::Func_1<::System::Threading::Tasks::Task*>* action,
                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StandaloneMonobehavior___DispatchAsync_d__21();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -237,12 +234,14 @@ static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___DispatchAsy
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12863))
 // CS Name: ::StandaloneMonobehavior::<RunAsyncCoroutine>d__25*
 class CORDL_TYPE __StandaloneMonobehavior___RunAsyncCoroutine_d__25 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -258,78 +257,80 @@ public:
   /// @brief Field tcs, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0xecaff0, size 0x174, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xecb164, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xecb16c, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xecb1ac, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0xecafec, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::StandaloneMonobehavior> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::StandaloneMonobehavior>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::StandaloneMonobehavior> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::StandaloneMonobehavior> value);
-
-  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
-
   constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
 
-  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_tcs();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_tcs() const;
 
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::StandaloneMonobehavior> value);
+
+  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
+
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  static inline ::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0xe83b2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xecaafc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0xe8401c, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0xe84020, size 0x174, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe84194, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe8419c, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __StandaloneMonobehavior___RunAsyncCoroutine_d__25();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe841dc, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__StandaloneMonobehavior___RunAsyncCoroutine_d__25", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __StandaloneMonobehavior___RunAsyncCoroutine_d__25(__StandaloneMonobehavior___RunAsyncCoroutine_d__25&&) = delete;
@@ -338,12 +339,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __StandaloneMonobehavior___RunAsyncCoroutine_d__25(__StandaloneMonobehavior___RunAsyncCoroutine_d__25 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StandaloneMonobehavior___RunAsyncCoroutine_d__25();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -379,136 +374,140 @@ static_assert(offsetof(::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCor
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12864))
 // CS Name: ::StandaloneMonobehavior*
 class CORDL_TYPE StandaloneMonobehavior : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _RunAsyncCoroutine_d__25 = ::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25;
-
   using _DispatchAsync_d__21 = ::GlobalNamespace::__StandaloneMonobehavior___DispatchAsync_d__21;
 
   using _Dispatch_d__20 = ::GlobalNamespace::__StandaloneMonobehavior___Dispatch_d__20;
 
-  /// @brief Field _readyTcs, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__readyTcs, put = __cordl_internal_set__readyTcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* _readyTcs;
+  using _RunAsyncCoroutine_d__25 = ::GlobalNamespace::__StandaloneMonobehavior___RunAsyncCoroutine_d__25;
 
   /// @brief Field _isRunning, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__isRunning, put = __cordl_internal_set__isRunning)) bool _isRunning;
 
-  /// @brief Field _startTime, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) float_t _startTime;
+  /// @brief Field _lastFrameTimeCount, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastFrameTimeCount, put = __cordl_internal_set__lastFrameTimeCount)) int32_t _lastFrameTimeCount;
 
   /// @brief Field _lastFrameTimings, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__lastFrameTimings,
                       put = __cordl_internal_set__lastFrameTimings))::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> _lastFrameTimings;
 
-  /// @brief Field _lastFrameTimeCount, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__lastFrameTimeCount, put = __cordl_internal_set__lastFrameTimeCount)) int32_t _lastFrameTimeCount;
+  /// @brief Field _readyTcs, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__readyTcs, put = __cordl_internal_set__readyTcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* _readyTcs;
 
-  __declspec(property(get = get_objectLifeTime)) float_t objectLifeTime;
+  /// @brief Field _startTime, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) float_t _startTime;
 
   __declspec(property(get = get_deltaTime)) float_t deltaTime;
-
-  __declspec(property(get = get_lastFrameTime)) float_t lastFrameTime;
 
   __declspec(property(get = get_frameCount)) int32_t frameCount;
 
   __declspec(property(get = get_isReady)) bool isReady;
 
+  __declspec(property(get = get_lastFrameTime)) float_t lastFrameTime;
+
+  __declspec(property(get = get_objectLifeTime)) float_t objectLifeTime;
+
   /// @brief Convert operator to "::GlobalNamespace::IStandaloneMonobehavior"
   constexpr operator ::GlobalNamespace::IStandaloneMonobehavior*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IStandaloneMonobehavior"
-  constexpr ::GlobalNamespace::IStandaloneMonobehavior* i___GlobalNamespace__IStandaloneMonobehavior() noexcept;
+  /// @brief Method Awake, addr 0xeca798, size 0x1c, virtual false, abstract: false, final false
+  inline void Awake();
+
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline T Create();
+
+  /// @brief Method Dispatch, addr 0xeca7c4, size 0x9c, virtual true, abstract: false, final true
+  inline void Dispatch(::System::Action* action);
+
+  /// @brief Method DispatchAsync, addr 0xeca860, size 0xd8, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task* DispatchAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
+
+  /// @brief Method GetLastFrameTime, addr 0xeca6d8, size 0x70, virtual false, abstract: false, final false
+  inline float_t GetLastFrameTime();
+
+  static inline ::GlobalNamespace::StandaloneMonobehavior* New_ctor();
+
+  /// @brief Method OnApplicationPause, addr 0xeca7c0, size 0x4, virtual true, abstract: false, final false
+  inline void OnApplicationPause(bool pauseStatus);
+
+  /// @brief Method OnDestroy, addr 0xeca7bc, size 0x4, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method RunAsync, addr 0xeca938, size 0x140, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method RunAsyncCoroutine, addr 0xecaa78, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* RunAsyncCoroutine(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method Start, addr 0xeca7b4, size 0x4, virtual true, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Stop, addr 0xecaaf4, size 0x8, virtual true, abstract: false, final true
+  inline void Stop();
+
+  /// @brief Method Update, addr 0xeca7b8, size 0x4, virtual true, abstract: false, final false
+  inline void Update();
+
+  constexpr bool const& __cordl_internal_get__isRunning() const;
+
+  constexpr bool& __cordl_internal_get__isRunning();
+
+  constexpr int32_t const& __cordl_internal_get__lastFrameTimeCount() const;
+
+  constexpr int32_t& __cordl_internal_get__lastFrameTimeCount();
+
+  constexpr ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> const& __cordl_internal_get__lastFrameTimings() const;
+
+  constexpr ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*>& __cordl_internal_get__lastFrameTimings();
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get__readyTcs();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get__readyTcs() const;
 
-  constexpr void __cordl_internal_set__readyTcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
-
-  constexpr bool& __cordl_internal_get__isRunning();
-
-  constexpr bool const& __cordl_internal_get__isRunning() const;
-
-  constexpr void __cordl_internal_set__isRunning(bool value);
+  constexpr float_t const& __cordl_internal_get__startTime() const;
 
   constexpr float_t& __cordl_internal_get__startTime();
 
-  constexpr float_t const& __cordl_internal_get__startTime() const;
-
-  constexpr void __cordl_internal_set__startTime(float_t value);
-
-  constexpr ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*>& __cordl_internal_get__lastFrameTimings();
-
-  constexpr ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> const& __cordl_internal_get__lastFrameTimings() const;
-
-  constexpr void __cordl_internal_set__lastFrameTimings(::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> value);
-
-  constexpr int32_t& __cordl_internal_get__lastFrameTimeCount();
-
-  constexpr int32_t const& __cordl_internal_get__lastFrameTimeCount() const;
+  constexpr void __cordl_internal_set__isRunning(bool value);
 
   constexpr void __cordl_internal_set__lastFrameTimeCount(int32_t value);
 
-  /// @brief Method get_objectLifeTime, addr 0xe836dc, size 0x20, virtual false, abstract: false, final false
-  inline float_t get_objectLifeTime();
+  constexpr void __cordl_internal_set__lastFrameTimings(::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> value);
 
-  /// @brief Method get_deltaTime, addr 0xe836fc, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_deltaTime();
+  constexpr void __cordl_internal_set__readyTcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method get_lastFrameTime, addr 0xe83704, size 0x4, virtual false, abstract: false, final false
-  inline float_t get_lastFrameTime();
+  constexpr void __cordl_internal_set__startTime(float_t value);
 
-  /// @brief Method get_frameCount, addr 0xe75b54, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_frameCount();
-
-  /// @brief Method get_isReady, addr 0xe83778, size 0x50, virtual false, abstract: false, final false
-  inline bool get_isReady();
-
-  /// @brief Method Awake, addr 0xe837c8, size 0x1c, virtual false, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method Start, addr 0xe837e4, size 0x4, virtual true, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method Update, addr 0xe837e8, size 0x4, virtual true, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method OnDestroy, addr 0xe837ec, size 0x4, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method OnApplicationPause, addr 0xe837f0, size 0x4, virtual true, abstract: false, final false
-  inline void OnApplicationPause(bool pauseStatus);
-
-  /// @brief Method Dispatch, addr 0xe837f4, size 0x9c, virtual true, abstract: false, final true
-  inline void Dispatch(::System::Action* action);
-
-  /// @brief Method DispatchAsync, addr 0xe83890, size 0xd8, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task* DispatchAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
-
-  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Create();
-
-  /// @brief Method RunAsync, addr 0xe83968, size 0x140, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method Stop, addr 0xe83b24, size 0x8, virtual true, abstract: false, final true
-  inline void Stop();
-
-  /// @brief Method RunAsyncCoroutine, addr 0xe83aa8, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* RunAsyncCoroutine(::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method GetLastFrameTime, addr 0xe83708, size 0x70, virtual false, abstract: false, final false
-  inline float_t GetLastFrameTime();
-
-  static inline ::GlobalNamespace::StandaloneMonobehavior* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe77a34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebea04, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_deltaTime, addr 0xeca6cc, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_deltaTime();
+
+  /// @brief Method get_frameCount, addr 0xebcb24, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_frameCount();
+
+  /// @brief Method get_isReady, addr 0xeca748, size 0x50, virtual false, abstract: false, final false
+  inline bool get_isReady();
+
+  /// @brief Method get_lastFrameTime, addr 0xeca6d4, size 0x4, virtual false, abstract: false, final false
+  inline float_t get_lastFrameTime();
+
+  /// @brief Method get_objectLifeTime, addr 0xeca6ac, size 0x20, virtual false, abstract: false, final false
+  inline float_t get_objectLifeTime();
+
+  /// @brief Convert to "::GlobalNamespace::IStandaloneMonobehavior"
+  constexpr ::GlobalNamespace::IStandaloneMonobehavior* i___GlobalNamespace__IStandaloneMonobehavior() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandaloneMonobehavior();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehavior", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandaloneMonobehavior(StandaloneMonobehavior&&) = delete;
@@ -517,12 +516,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandaloneMonobehavior(StandaloneMonobehavior const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandaloneMonobehavior();
-
-public:
   /// @brief Field _readyTcs, offset: 0x18, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<bool>* ____readyTcs;
 

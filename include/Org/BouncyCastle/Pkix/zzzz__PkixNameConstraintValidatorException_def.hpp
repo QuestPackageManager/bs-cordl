@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1727))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixNameConstraintValidatorException*
 class CORDL_TYPE PkixNameConstraintValidatorException : public ::System::Exception {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x1138e60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x117be30, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PkixNameConstraintValidatorException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PkixNameConstraintValidatorException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkixNameConstraintValidatorException(PkixNameConstraintValidatorException&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkixNameConstraintValidatorException(PkixNameConstraintValidatorException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkixNameConstraintValidatorException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

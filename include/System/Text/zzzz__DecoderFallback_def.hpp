@@ -18,45 +18,49 @@ MARK_REF_PTR_T(::System::Text::DecoderFallback);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2833))
 // CS Name: ::System.Text::DecoderFallback*
 class CORDL_TYPE DecoderFallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_replacementFallback, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_replacementFallback, put = setStaticF_s_replacementFallback))::System::Text::DecoderFallback* s_replacementFallback;
+  __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
 
   /// @brief Field s_exceptionFallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_exceptionFallback, put = setStaticF_s_exceptionFallback))::System::Text::DecoderFallback* s_exceptionFallback;
 
-  __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
-
-  static inline void setStaticF_s_replacementFallback(::System::Text::DecoderFallback* value);
-
-  static inline ::System::Text::DecoderFallback* getStaticF_s_replacementFallback();
-
-  static inline void setStaticF_s_exceptionFallback(::System::Text::DecoderFallback* value);
-
-  static inline ::System::Text::DecoderFallback* getStaticF_s_exceptionFallback();
-
-  /// @brief Method get_ReplacementFallback, addr 0x26540d0, size 0x9c, virtual false, abstract: false, final false
-  static inline ::System::Text::DecoderFallback* get_ReplacementFallback();
-
-  /// @brief Method get_ExceptionFallback, addr 0x26574e8, size 0xa4, virtual false, abstract: false, final false
-  static inline ::System::Text::DecoderFallback* get_ExceptionFallback();
+  /// @brief Field s_replacementFallback, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_replacementFallback, put = setStaticF_s_replacementFallback))::System::Text::DecoderFallback* s_replacementFallback;
 
   /// @brief Method CreateFallbackBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
 
+  static inline ::System::Text::DecoderFallback* New_ctor();
+
+  /// @brief Method .ctor, addr 0x27253a8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::System::Text::DecoderFallback* getStaticF_s_exceptionFallback();
+
+  static inline ::System::Text::DecoderFallback* getStaticF_s_replacementFallback();
+
+  /// @brief Method get_ExceptionFallback, addr 0x2725c34, size 0xa4, virtual false, abstract: false, final false
+  static inline ::System::Text::DecoderFallback* get_ExceptionFallback();
+
   /// @brief Method get_MaxCharCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_MaxCharCount();
 
-  static inline ::System::Text::DecoderFallback* New_ctor();
+  /// @brief Method get_ReplacementFallback, addr 0x272281c, size 0x9c, virtual false, abstract: false, final false
+  static inline ::System::Text::DecoderFallback* get_ReplacementFallback();
 
-  /// @brief Method .ctor, addr 0x2656c5c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF_s_exceptionFallback(::System::Text::DecoderFallback* value);
 
+  static inline void setStaticF_s_replacementFallback(::System::Text::DecoderFallback* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DecoderFallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DecoderFallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecoderFallback(DecoderFallback&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DecoderFallback(DecoderFallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DecoderFallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

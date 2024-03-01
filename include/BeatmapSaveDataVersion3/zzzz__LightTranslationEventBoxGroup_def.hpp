@@ -26,20 +26,25 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11157)), TypeDefinitionIndex(TypeDefinitionIndex(11174)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11157), inst:
-// 1687 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11162)) CS Name: ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*
+// CS Name: ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*
 class CORDL_TYPE LightTranslationEventBoxGroup : public ::BeatmapSaveDataVersion3::EventBoxGroup_1<::BeatmapSaveDataVersion3::LightTranslationEventBox*> {
 public:
   // Declarations
+  /// @brief Method CopyWith, addr 0x12fc70c, size 0xe0, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup* CopyWith(::System::Nullable_1<float_t> newBeat, ::System::Nullable_1<int32_t> newGroupId);
+
   static inline ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup* New_ctor(float_t beat, int32_t groupId,
                                                                                    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBox*>* eventBoxes);
 
-  /// @brief Method .ctor, addr 0x12bb6cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fc69c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBox*>* eventBoxes);
 
-  /// @brief Method CopyWith, addr 0x12bb73c, size 0xe0, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup* CopyWith(::System::Nullable_1<float_t> newBeat, ::System::Nullable_1<int32_t> newGroupId);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightTranslationEventBoxGroup();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationEventBoxGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationEventBoxGroup(LightTranslationEventBoxGroup&&) = delete;
@@ -48,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTranslationEventBoxGroup(LightTranslationEventBoxGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightTranslationEventBoxGroup();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

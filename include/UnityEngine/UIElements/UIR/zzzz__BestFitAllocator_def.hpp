@@ -34,85 +34,89 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6658)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6658), inst: 3962 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6694))
 // CS Name: ::BestFitAllocator::Block*
 class CORDL_TYPE __BestFitAllocator__Block : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> {
 public:
   // Declarations
-  /// @brief Field start, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) uint32_t start;
+  /// @brief Field allocated, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get_allocated, put = __cordl_internal_set_allocated)) bool allocated;
 
   /// @brief Field end, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_end, put = __cordl_internal_set_end)) uint32_t end;
 
-  /// @brief Field prev, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev))::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* prev;
-
   /// @brief Field next, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* next;
-
-  /// @brief Field prevAvailable, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_prevAvailable, put = __cordl_internal_set_prevAvailable))::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* prevAvailable;
 
   /// @brief Field nextAvailable, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_nextAvailable, put = __cordl_internal_set_nextAvailable))::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* nextAvailable;
 
-  /// @brief Field allocated, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get_allocated, put = __cordl_internal_set_allocated)) bool allocated;
+  /// @brief Field prev, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev))::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* prev;
+
+  /// @brief Field prevAvailable, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_prevAvailable, put = __cordl_internal_set_prevAvailable))::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* prevAvailable;
 
   __declspec(property(get = get_size)) uint32_t size;
 
-  constexpr uint32_t& __cordl_internal_get_start();
+  /// @brief Field start, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) uint32_t start;
 
-  constexpr uint32_t const& __cordl_internal_get_start() const;
+  static inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* New_ctor();
 
-  constexpr void __cordl_internal_set_start(uint32_t value);
+  constexpr bool const& __cordl_internal_get_allocated() const;
 
-  constexpr uint32_t& __cordl_internal_get_end();
+  constexpr bool& __cordl_internal_get_allocated();
 
   constexpr uint32_t const& __cordl_internal_get_end() const;
 
-  constexpr void __cordl_internal_set_end(uint32_t value);
-
-  constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*& __cordl_internal_get_prev();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> const& __cordl_internal_get_prev() const;
-
-  constexpr void __cordl_internal_set_prev(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
+  constexpr uint32_t& __cordl_internal_get_end();
 
   constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*& __cordl_internal_get_next();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> const& __cordl_internal_get_next() const;
 
-  constexpr void __cordl_internal_set_next(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
+  constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*& __cordl_internal_get_nextAvailable();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> const& __cordl_internal_get_nextAvailable() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*& __cordl_internal_get_prev();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> const& __cordl_internal_get_prev() const;
 
   constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*& __cordl_internal_get_prevAvailable();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> const& __cordl_internal_get_prevAvailable() const;
 
-  constexpr void __cordl_internal_set_prevAvailable(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
+  constexpr uint32_t const& __cordl_internal_get_start() const;
 
-  constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*& __cordl_internal_get_nextAvailable();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> const& __cordl_internal_get_nextAvailable() const;
-
-  constexpr void __cordl_internal_set_nextAvailable(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
-
-  constexpr bool& __cordl_internal_get_allocated();
-
-  constexpr bool const& __cordl_internal_get_allocated() const;
+  constexpr uint32_t& __cordl_internal_get_start();
 
   constexpr void __cordl_internal_set_allocated(bool value);
 
-  /// @brief Method get_size, addr 0x2df33e4, size 0xc, virtual false, abstract: false, final false
-  inline uint32_t get_size();
+  constexpr void __cordl_internal_set_end(uint32_t value);
 
-  static inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* New_ctor();
+  constexpr void __cordl_internal_set_next(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
 
-  /// @brief Method .ctor, addr 0x2df363c, size 0x48, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_nextAvailable(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
+
+  constexpr void __cordl_internal_set_prev(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
+
+  constexpr void __cordl_internal_set_prevAvailable(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
+
+  constexpr void __cordl_internal_set_start(uint32_t value);
+
+  /// @brief Method .ctor, addr 0x2ee3d64, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_size, addr 0x2ee3b0c, size 0xc, virtual false, abstract: false, final false
+  inline uint32_t get_size();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BestFitAllocator__Block();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BestFitAllocator__Block", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BestFitAllocator__Block(__BestFitAllocator__Block&&) = delete;
@@ -121,12 +125,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BestFitAllocator__Block(__BestFitAllocator__Block const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BestFitAllocator__Block();
-
-public:
   /// @brief Field start, offset: 0x18, size: 0x4, def value: None
   uint32_t ___start;
 
@@ -172,22 +170,27 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6659)), TypeDefinitionIndex(TypeDefinitionIndex(6694)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6659), inst: 3962
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6693)) CS Name: ::BestFitAllocator::BlockPool*
+// CS Name: ::BestFitAllocator::BlockPool*
 class CORDL_TYPE __BestFitAllocator__BlockPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> {
 public:
   // Declarations
-  /// @brief Method CreateBlock, addr 0x2df35e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateBlock, addr 0x2ee3d0c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* CreateBlock();
-
-  /// @brief Method ResetBlock, addr 0x2df3684, size 0x4, virtual false, abstract: false, final false
-  static inline void ResetBlock(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* block);
 
   static inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2df32ac, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ResetBlock, addr 0x2ee3dac, size 0x4, virtual false, abstract: false, final false
+  static inline void ResetBlock(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* block);
+
+  /// @brief Method .ctor, addr 0x2ee39d4, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BestFitAllocator__BlockPool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BestFitAllocator__BlockPool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BestFitAllocator__BlockPool(__BestFitAllocator__BlockPool&&) = delete;
@@ -196,12 +199,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BestFitAllocator__BlockPool(__BestFitAllocator__BlockPool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BestFitAllocator__BlockPool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -212,8 +209,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6695))
 // CS Name: ::UnityEngine.UIElements.UIR::BestFitAllocator*
 class CORDL_TYPE BestFitAllocator : public ::System::Object {
 public:
@@ -225,79 +220,85 @@ public:
   /// @brief Field <totalSize>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__totalSize_k__BackingField, put = __cordl_internal_set__totalSize_k__BackingField)) uint32_t _totalSize_k__BackingField;
 
-  /// @brief Field m_FirstBlock, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FirstBlock, put = __cordl_internal_set_m_FirstBlock))::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* m_FirstBlock;
+  __declspec(property(get = get_highWatermark)) uint32_t highWatermark;
+
+  /// @brief Field m_BlockPool, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_BlockPool, put = __cordl_internal_set_m_BlockPool))::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool* m_BlockPool;
 
   /// @brief Field m_FirstAvailableBlock, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FirstAvailableBlock,
                       put = __cordl_internal_set_m_FirstAvailableBlock))::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* m_FirstAvailableBlock;
 
-  /// @brief Field m_BlockPool, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_BlockPool, put = __cordl_internal_set_m_BlockPool))::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool* m_BlockPool;
+  /// @brief Field m_FirstBlock, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_FirstBlock, put = __cordl_internal_set_m_FirstBlock))::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* m_FirstBlock;
 
   /// @brief Field m_HighWatermark, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_HighWatermark, put = __cordl_internal_set_m_HighWatermark)) uint32_t m_HighWatermark;
 
   __declspec(property(get = get_totalSize)) uint32_t totalSize;
 
-  __declspec(property(get = get_highWatermark)) uint32_t highWatermark;
+  /// @brief Method Allocate, addr 0x2eda868, size 0x194, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size);
 
-  constexpr uint32_t& __cordl_internal_get__totalSize_k__BackingField();
+  /// @brief Method BestFitFindAvailableBlock, addr 0x2ee3acc, size 0x40, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* BestFitFindAvailableBlock(uint32_t size);
+
+  /// @brief Method CoalesceBlockWithPrevious, addr 0x2ee3c04, size 0x108, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* CoalesceBlockWithPrevious(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* block);
+
+  /// @brief Method Free, addr 0x2edad58, size 0x25c, virtual false, abstract: false, final false
+  inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
+
+  static inline ::UnityEngine::UIElements::UIR::BestFitAllocator* New_ctor(uint32_t size);
+
+  /// @brief Method SplitBlock, addr 0x2ee3b18, size 0xec, virtual false, abstract: false, final false
+  inline void SplitBlock(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* block, uint32_t size);
 
   constexpr uint32_t const& __cordl_internal_get__totalSize_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__totalSize_k__BackingField(uint32_t value);
-
-  constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*& __cordl_internal_get_m_FirstBlock();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> const& __cordl_internal_get_m_FirstBlock() const;
-
-  constexpr void __cordl_internal_set_m_FirstBlock(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
-
-  constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*& __cordl_internal_get_m_FirstAvailableBlock();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> const& __cordl_internal_get_m_FirstAvailableBlock() const;
-
-  constexpr void __cordl_internal_set_m_FirstAvailableBlock(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
+  constexpr uint32_t& __cordl_internal_get__totalSize_k__BackingField();
 
   constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool*& __cordl_internal_get_m_BlockPool();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool*> const& __cordl_internal_get_m_BlockPool() const;
 
-  constexpr void __cordl_internal_set_m_BlockPool(::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool* value);
+  constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*& __cordl_internal_get_m_FirstAvailableBlock();
 
-  constexpr uint32_t& __cordl_internal_get_m_HighWatermark();
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> const& __cordl_internal_get_m_FirstAvailableBlock() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*& __cordl_internal_get_m_FirstBlock();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*> const& __cordl_internal_get_m_FirstBlock() const;
 
   constexpr uint32_t const& __cordl_internal_get_m_HighWatermark() const;
 
+  constexpr uint32_t& __cordl_internal_get_m_HighWatermark();
+
+  constexpr void __cordl_internal_set__totalSize_k__BackingField(uint32_t value);
+
+  constexpr void __cordl_internal_set_m_BlockPool(::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool* value);
+
+  constexpr void __cordl_internal_set_m_FirstAvailableBlock(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
+
+  constexpr void __cordl_internal_set_m_FirstBlock(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* value);
+
   constexpr void __cordl_internal_set_m_HighWatermark(uint32_t value);
 
-  static inline ::UnityEngine::UIElements::UIR::BestFitAllocator* New_ctor(uint32_t size);
-
-  /// @brief Method .ctor, addr 0x2dea378, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2edaaa0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t size);
 
-  /// @brief Method get_totalSize, addr 0x2df339c, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_totalSize();
-
-  /// @brief Method get_highWatermark, addr 0x2dea88c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highWatermark, addr 0x2edafb4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_highWatermark();
 
-  /// @brief Method Allocate, addr 0x2dea140, size 0x194, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size);
+  /// @brief Method get_totalSize, addr 0x2ee3ac4, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t get_totalSize();
 
-  /// @brief Method Free, addr 0x2dea630, size 0x25c, virtual false, abstract: false, final false
-  inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BestFitAllocator();
 
-  /// @brief Method CoalesceBlockWithPrevious, addr 0x2df34dc, size 0x108, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* CoalesceBlockWithPrevious(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* block);
-
-  /// @brief Method BestFitFindAvailableBlock, addr 0x2df33a4, size 0x40, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* BestFitFindAvailableBlock(uint32_t size);
-
-  /// @brief Method SplitBlock, addr 0x2df33f0, size 0xec, virtual false, abstract: false, final false
-  inline void SplitBlock(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* block, uint32_t size);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BestFitAllocator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BestFitAllocator(BestFitAllocator&&) = delete;
@@ -306,12 +307,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BestFitAllocator(BestFitAllocator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BestFitAllocator();
-
-public:
   /// @brief Field <totalSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   uint32_t ____totalSize_k__BackingField;
 

@@ -16,27 +16,31 @@ MARK_REF_PTR_T(::GlobalNamespace::MathfExtra);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16454))
 // CS Name: ::MathfExtra*
 class CORDL_TYPE MathfExtra : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Mod, addr 0x23ff1d4, size 0x14, virtual false, abstract: false, final false
-  static inline float_t Mod(float_t value, float_t mod);
-
-  /// @brief Method Mod, addr 0x23ff1e8, size 0x30, virtual false, abstract: false, final false
-  static inline int32_t Mod(int32_t value, int32_t mod);
-
-  /// @brief Method Round, addr 0x23ff218, size 0x118, virtual false, abstract: false, final false
-  static inline float_t Round(float_t value, int32_t decimals);
-
-  /// @brief Method MaxAbs, addr 0x23ff330, size 0x14, virtual false, abstract: false, final false
-  static inline float_t MaxAbs(float_t a, float_t b);
-
-  /// @brief Method Approximately, addr 0x23ff344, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x24cd03c, size 0x10, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b, float_t precision);
 
+  /// @brief Method MaxAbs, addr 0x24cd028, size 0x14, virtual false, abstract: false, final false
+  static inline float_t MaxAbs(float_t a, float_t b);
+
+  /// @brief Method Mod, addr 0x24ccecc, size 0x14, virtual false, abstract: false, final false
+  static inline float_t Mod(float_t value, float_t mod);
+
+  /// @brief Method Mod, addr 0x24ccee0, size 0x30, virtual false, abstract: false, final false
+  static inline int32_t Mod(int32_t value, int32_t mod);
+
+  /// @brief Method Round, addr 0x24ccf10, size 0x118, virtual false, abstract: false, final false
+  static inline float_t Round(float_t value, int32_t decimals);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MathfExtra();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MathfExtra(MathfExtra&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MathfExtra(MathfExtra const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MathfExtra();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

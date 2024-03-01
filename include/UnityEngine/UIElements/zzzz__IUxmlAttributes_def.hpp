@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IUxmlAttributes);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6258))
 // CS Name: ::UnityEngine.UIElements::IUxmlAttributes*
 class CORDL_TYPE IUxmlAttributes {
 public:

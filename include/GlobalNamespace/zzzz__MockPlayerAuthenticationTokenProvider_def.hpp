@@ -37,93 +37,97 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerAuthenticationTokenProvider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12579))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15699))
 // CS Name: ::MockPlayerAuthenticationTokenProvider*
 class CORDL_TYPE MockPlayerAuthenticationTokenProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _userId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
-
-  /// @brief Field _password, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__password, put = __cordl_internal_set__password))::StringW _password;
-
   /// @brief Field <hashedUserId>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__hashedUserId_k__BackingField, put = __cordl_internal_set__hashedUserId_k__BackingField))::StringW _hashedUserId_k__BackingField;
 
-  /// @brief Field <userName>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__userName_k__BackingField, put = __cordl_internal_set__userName_k__BackingField))::StringW _userName_k__BackingField;
+  /// @brief Field _password, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__password, put = __cordl_internal_set__password))::StringW _password;
 
   /// @brief Field <platform>k__BackingField, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__platform_k__BackingField,
                       put = __cordl_internal_set__platform_k__BackingField))::GlobalNamespace::__AuthenticationToken__Platform _platform_k__BackingField;
 
+  /// @brief Field _userId, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
+
+  /// @brief Field <userName>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__userName_k__BackingField, put = __cordl_internal_set__userName_k__BackingField))::StringW _userName_k__BackingField;
+
   __declspec(property(get = get_hashedUserId))::StringW hashedUserId;
 
-  __declspec(property(get = get_userName))::StringW userName;
-
   __declspec(property(get = get_platform))::GlobalNamespace::__AuthenticationToken__Platform platform;
+
+  __declspec(property(get = get_userName))::StringW userName;
 
   /// @brief Convert operator to "::GlobalNamespace::IAuthenticationTokenProvider"
   constexpr operator ::GlobalNamespace::IAuthenticationTokenProvider*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IAuthenticationTokenProvider"
-  constexpr ::GlobalNamespace::IAuthenticationTokenProvider* i___GlobalNamespace__IAuthenticationTokenProvider() noexcept;
+  /// @brief Method GetAuthenticationToken, addr 0x24d5a9c, size 0xa0, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
 
-  constexpr ::StringW& __cordl_internal_get__userId();
+  /// @brief Method GetTokenPlatform, addr 0x24d5b3c, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
-  constexpr ::StringW const& __cordl_internal_get__userId() const;
-
-  constexpr void __cordl_internal_set__userId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__password();
-
-  constexpr ::StringW const& __cordl_internal_get__password() const;
-
-  constexpr void __cordl_internal_set__password(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__hashedUserId_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__hashedUserId_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__hashedUserId_k__BackingField(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__userName_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__userName_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__userName_k__BackingField(::StringW value);
-
-  constexpr ::GlobalNamespace::__AuthenticationToken__Platform& __cordl_internal_get__platform_k__BackingField();
-
-  constexpr ::GlobalNamespace::__AuthenticationToken__Platform const& __cordl_internal_get__platform_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__platform_k__BackingField(::GlobalNamespace::__AuthenticationToken__Platform value);
-
-  /// @brief Method get_hashedUserId, addr 0x2406cf4, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW get_hashedUserId();
-
-  /// @brief Method get_userName, addr 0x2406cfc, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW get_userName();
-
-  /// @brief Method get_platform, addr 0x2406d04, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::__AuthenticationToken__Platform get_platform();
+  /// @brief Method GetXPlatformAccessToken, addr 0x24d5b44, size 0xa0, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
   static inline ::GlobalNamespace::MockPlayerAuthenticationTokenProvider* New_ctor(::StringW userId, ::StringW userName, ::StringW password);
 
-  /// @brief Method .ctor, addr 0x2406d0c, size 0x98, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__hashedUserId_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__hashedUserId_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__password() const;
+
+  constexpr ::StringW& __cordl_internal_get__password();
+
+  constexpr ::GlobalNamespace::__AuthenticationToken__Platform const& __cordl_internal_get__platform_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::__AuthenticationToken__Platform& __cordl_internal_get__platform_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__userId() const;
+
+  constexpr ::StringW& __cordl_internal_get__userId();
+
+  constexpr ::StringW const& __cordl_internal_get__userName_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__userName_k__BackingField();
+
+  constexpr void __cordl_internal_set__hashedUserId_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__password(::StringW value);
+
+  constexpr void __cordl_internal_set__platform_k__BackingField(::GlobalNamespace::__AuthenticationToken__Platform value);
+
+  constexpr void __cordl_internal_set__userId(::StringW value);
+
+  constexpr void __cordl_internal_set__userName_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x24d5a04, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, ::StringW password);
 
-  /// @brief Method GetAuthenticationToken, addr 0x2406da4, size 0xa0, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
+  /// @brief Method get_hashedUserId, addr 0x24d59ec, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_hashedUserId();
 
-  /// @brief Method GetTokenPlatform, addr 0x2406e44, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
+  /// @brief Method get_platform, addr 0x24d59fc, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::__AuthenticationToken__Platform get_platform();
 
-  /// @brief Method GetXPlatformAccessToken, addr 0x2406e4c, size 0xa0, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
+  /// @brief Method get_userName, addr 0x24d59f4, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_userName();
 
+  /// @brief Convert to "::GlobalNamespace::IAuthenticationTokenProvider"
+  constexpr ::GlobalNamespace::IAuthenticationTokenProvider* i___GlobalNamespace__IAuthenticationTokenProvider() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockPlayerAuthenticationTokenProvider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerAuthenticationTokenProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlayerAuthenticationTokenProvider(MockPlayerAuthenticationTokenProvider&&) = delete;
@@ -132,12 +136,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlayerAuthenticationTokenProvider(MockPlayerAuthenticationTokenProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockPlayerAuthenticationTokenProvider();
-
-public:
   /// @brief Field _userId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____userId;
 

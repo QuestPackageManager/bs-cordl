@@ -16,12 +16,16 @@ namespace System::Linq::Expressions {
 // cpp template
 template <typename TDelegate>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14316))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14317))
 // CS Name: ::System.Linq.Expressions::Expression`1<TDelegate>*
 class CORDL_TYPE Expression_1 : public ::System::Linq::Expressions::LambdaExpression {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Expression_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Expression_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Expression_1(Expression_1&&) = delete;
@@ -30,12 +34,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Expression_1(Expression_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Expression_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

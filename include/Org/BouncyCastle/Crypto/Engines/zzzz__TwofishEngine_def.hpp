@@ -23,12 +23,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::TwofishEngine);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(881))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::TwofishEngine*
 class CORDL_TYPE TwofishEngine : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+
+  __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
+
+  /// @brief Field P, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_P, put = setStaticF_P)) Il2CppObject* P;
+
   /// @brief Field encrypting, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_encrypting, put = __cordl_internal_set_encrypting)) bool encrypting;
 
@@ -44,11 +49,11 @@ public:
   /// @brief Field gMDS3, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_gMDS3, put = __cordl_internal_set_gMDS3))::ArrayW<int32_t, ::Array<int32_t>*> gMDS3;
 
-  /// @brief Field gSubKeys, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_gSubKeys, put = __cordl_internal_set_gSubKeys))::ArrayW<int32_t, ::Array<int32_t>*> gSubKeys;
-
   /// @brief Field gSBox, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_gSBox, put = __cordl_internal_set_gSBox))::ArrayW<int32_t, ::Array<int32_t>*> gSBox;
+
+  /// @brief Field gSubKeys, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_gSubKeys, put = __cordl_internal_set_gSubKeys))::ArrayW<int32_t, ::Array<int32_t>*> gSubKeys;
 
   /// @brief Field k64Cnt, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_k64Cnt, put = __cordl_internal_set_k64Cnt)) int32_t k64Cnt;
@@ -56,154 +61,153 @@ public:
   /// @brief Field workingKey, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
 
-  /// @brief Field P, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_P, put = setStaticF_P)) Il2CppObject* P;
-
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
-
-  __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
+
+  /// @brief Method Bits32ToBytes, addr 0xf64ddc, size 0x80, virtual false, abstract: false, final false
+  inline void Bits32ToBytes(int32_t inData, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t offset);
+
+  /// @brief Method BytesTo32Bits, addr 0xf64734, size 0x70, virtual false, abstract: false, final false
+  inline int32_t BytesTo32Bits(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t p);
+
+  /// @brief Method DecryptBlock, addr 0xf644a4, size 0x278, virtual false, abstract: false, final false
+  inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
+
+  /// @brief Method EncryptBlock, addr 0xf6422c, size 0x278, virtual false, abstract: false, final false
+  inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
+
+  /// @brief Method F32, addr 0xf64844, size 0x458, virtual false, abstract: false, final false
+  inline int32_t F32(int32_t x, ::ArrayW<int32_t, ::Array<int32_t>*> k32);
+
+  /// @brief Method Fe32_0, addr 0xf64cbc, size 0x8c, virtual false, abstract: false, final false
+  inline int32_t Fe32_0(int32_t x);
+
+  /// @brief Method Fe32_3, addr 0xf64d48, size 0x94, virtual false, abstract: false, final false
+  inline int32_t Fe32_3(int32_t x);
+
+  /// @brief Method GetBlockSize, addr 0xf6472c, size 0x8, virtual true, abstract: false, final true
+  inline int32_t GetBlockSize();
+
+  /// @brief Method Init, addr 0xf63738, size 0x164, virtual true, abstract: false, final true
+  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+
+  /// @brief Method LFSR1, addr 0xf64e9c, size 0x14, virtual false, abstract: false, final false
+  inline int32_t LFSR1(int32_t x);
+
+  /// @brief Method LFSR2, addr 0xf64eb0, size 0x24, virtual false, abstract: false, final false
+  inline int32_t LFSR2(int32_t x);
+
+  /// @brief Method M_b0, addr 0xf64c9c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t M_b0(int32_t x);
+
+  /// @brief Method M_b1, addr 0xf64ca4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t M_b1(int32_t x);
+
+  /// @brief Method M_b2, addr 0xf64cac, size 0x8, virtual false, abstract: false, final false
+  inline int32_t M_b2(int32_t x);
+
+  /// @brief Method M_b3, addr 0xf64cb4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t M_b3(int32_t x);
+
+  /// @brief Method Mx_X, addr 0xf636dc, size 0x28, virtual false, abstract: false, final false
+  inline int32_t Mx_X(int32_t x);
+
+  /// @brief Method Mx_Y, addr 0xf63704, size 0x34, virtual false, abstract: false, final false
+  inline int32_t Mx_Y(int32_t x);
+
+  static inline ::Org::BouncyCastle::Crypto::Engines::TwofishEngine* New_ctor();
+
+  /// @brief Method ProcessBlock, addr 0xf640f4, size 0x138, virtual true, abstract: false, final true
+  inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+
+  /// @brief Method RS_MDS_Encode, addr 0xf647a4, size 0xa0, virtual false, abstract: false, final false
+  inline int32_t RS_MDS_Encode(int32_t k0, int32_t k1);
+
+  /// @brief Method RS_rem, addr 0xf64e5c, size 0x40, virtual false, abstract: false, final false
+  inline int32_t RS_rem(int32_t x);
+
+  /// @brief Method Reset, addr 0xf6471c, size 0x10, virtual true, abstract: false, final true
+  inline void Reset();
+
+  /// @brief Method SetKey, addr 0xf6389c, size 0x810, virtual false, abstract: false, final false
+  inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
+
+  constexpr bool const& __cordl_internal_get_encrypting() const;
+
+  constexpr bool& __cordl_internal_get_encrypting();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS0() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS0();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS1() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS1();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS2() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS2();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS3() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS3();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gSBox() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gSBox();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gSubKeys() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gSubKeys();
+
+  constexpr int32_t const& __cordl_internal_get_k64Cnt() const;
+
+  constexpr int32_t& __cordl_internal_get_k64Cnt();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workingKey() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workingKey();
+
+  constexpr void __cordl_internal_set_encrypting(bool value);
+
+  constexpr void __cordl_internal_set_gMDS0(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_gMDS1(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_gMDS2(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_gMDS3(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_gSBox(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_gSubKeys(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_k64Cnt(int32_t value);
+
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0xf633ec, size 0x2f0, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline Il2CppObject* getStaticF_P();
+
+  /// @brief Method get_AlgorithmName, addr 0xf640ac, size 0x40, virtual true, abstract: false, final true
+  inline ::StringW get_AlgorithmName();
+
+  /// @brief Method get_IsPartialBlockOkay, addr 0xf640ec, size 0x8, virtual true, abstract: false, final true
+  inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr bool& __cordl_internal_get_encrypting();
-
-  constexpr bool const& __cordl_internal_get_encrypting() const;
-
-  constexpr void __cordl_internal_set_encrypting(bool value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS0();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS0() const;
-
-  constexpr void __cordl_internal_set_gMDS0(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS1();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS1() const;
-
-  constexpr void __cordl_internal_set_gMDS1(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS2();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS2() const;
-
-  constexpr void __cordl_internal_set_gMDS2(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS3();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS3() const;
-
-  constexpr void __cordl_internal_set_gMDS3(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gSubKeys();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gSubKeys() const;
-
-  constexpr void __cordl_internal_set_gSubKeys(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gSBox();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gSBox() const;
-
-  constexpr void __cordl_internal_set_gSBox(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_k64Cnt();
-
-  constexpr int32_t const& __cordl_internal_get_k64Cnt() const;
-
-  constexpr void __cordl_internal_set_k64Cnt(int32_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workingKey();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workingKey() const;
-
-  constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
   static inline void setStaticF_P(Il2CppObject* value);
 
-  static inline Il2CppObject* getStaticF_P();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TwofishEngine();
 
-  static inline ::Org::BouncyCastle::Crypto::Engines::TwofishEngine* New_ctor();
-
-  /// @brief Method .ctor, addr 0xf1d41c, size 0x2f0, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Init, addr 0xf1d768, size 0x164, virtual true, abstract: false, final true
-  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-
-  /// @brief Method get_AlgorithmName, addr 0xf1e0dc, size 0x40, virtual true, abstract: false, final true
-  inline ::StringW get_AlgorithmName();
-
-  /// @brief Method get_IsPartialBlockOkay, addr 0xf1e11c, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsPartialBlockOkay();
-
-  /// @brief Method ProcessBlock, addr 0xf1e124, size 0x138, virtual true, abstract: false, final true
-  inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
-
-  /// @brief Method Reset, addr 0xf1e74c, size 0x10, virtual true, abstract: false, final true
-  inline void Reset();
-
-  /// @brief Method GetBlockSize, addr 0xf1e75c, size 0x8, virtual true, abstract: false, final true
-  inline int32_t GetBlockSize();
-
-  /// @brief Method SetKey, addr 0xf1d8cc, size 0x810, virtual false, abstract: false, final false
-  inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
-
-  /// @brief Method EncryptBlock, addr 0xf1e25c, size 0x278, virtual false, abstract: false, final false
-  inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
-
-  /// @brief Method DecryptBlock, addr 0xf1e4d4, size 0x278, virtual false, abstract: false, final false
-  inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
-
-  /// @brief Method F32, addr 0xf1e874, size 0x458, virtual false, abstract: false, final false
-  inline int32_t F32(int32_t x, ::ArrayW<int32_t, ::Array<int32_t>*> k32);
-
-  /// @brief Method RS_MDS_Encode, addr 0xf1e7d4, size 0xa0, virtual false, abstract: false, final false
-  inline int32_t RS_MDS_Encode(int32_t k0, int32_t k1);
-
-  /// @brief Method RS_rem, addr 0xf1ee8c, size 0x40, virtual false, abstract: false, final false
-  inline int32_t RS_rem(int32_t x);
-
-  /// @brief Method LFSR1, addr 0xf1eecc, size 0x14, virtual false, abstract: false, final false
-  inline int32_t LFSR1(int32_t x);
-
-  /// @brief Method LFSR2, addr 0xf1eee0, size 0x24, virtual false, abstract: false, final false
-  inline int32_t LFSR2(int32_t x);
-
-  /// @brief Method Mx_X, addr 0xf1d70c, size 0x28, virtual false, abstract: false, final false
-  inline int32_t Mx_X(int32_t x);
-
-  /// @brief Method Mx_Y, addr 0xf1d734, size 0x34, virtual false, abstract: false, final false
-  inline int32_t Mx_Y(int32_t x);
-
-  /// @brief Method M_b0, addr 0xf1eccc, size 0x8, virtual false, abstract: false, final false
-  inline int32_t M_b0(int32_t x);
-
-  /// @brief Method M_b1, addr 0xf1ecd4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t M_b1(int32_t x);
-
-  /// @brief Method M_b2, addr 0xf1ecdc, size 0x8, virtual false, abstract: false, final false
-  inline int32_t M_b2(int32_t x);
-
-  /// @brief Method M_b3, addr 0xf1ece4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t M_b3(int32_t x);
-
-  /// @brief Method Fe32_0, addr 0xf1ecec, size 0x8c, virtual false, abstract: false, final false
-  inline int32_t Fe32_0(int32_t x);
-
-  /// @brief Method Fe32_3, addr 0xf1ed78, size 0x94, virtual false, abstract: false, final false
-  inline int32_t Fe32_3(int32_t x);
-
-  /// @brief Method BytesTo32Bits, addr 0xf1e764, size 0x70, virtual false, abstract: false, final false
-  inline int32_t BytesTo32Bits(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t p);
-
-  /// @brief Method Bits32ToBytes, addr 0xf1ee0c, size 0x80, virtual false, abstract: false, final false
-  inline void Bits32ToBytes(int32_t inData, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t offset);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TwofishEngine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TwofishEngine(TwofishEngine&&) = delete;
@@ -212,12 +216,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TwofishEngine(TwofishEngine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TwofishEngine();
-
-public:
   /// @brief Field encrypting, offset: 0x10, size: 0x1, def value: None
   bool ___encrypting;
 
@@ -244,6 +242,30 @@ public:
 
   /// @brief Field workingKey, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___workingKey;
+
+  /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
+  static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x10) };
+
+  /// @brief Field GF256_FDBK offset 0xffffffff size 0x4
+  static constexpr int32_t GF256_FDBK{ static_cast<int32_t>(0x169) };
+
+  /// @brief Field GF256_FDBK_2 offset 0xffffffff size 0x4
+  static constexpr int32_t GF256_FDBK_2{ static_cast<int32_t>(0xb4) };
+
+  /// @brief Field GF256_FDBK_4 offset 0xffffffff size 0x4
+  static constexpr int32_t GF256_FDBK_4{ static_cast<int32_t>(0x5a) };
+
+  /// @brief Field INPUT_WHITEN offset 0xffffffff size 0x4
+  static constexpr int32_t INPUT_WHITEN{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field MAX_KEY_BITS offset 0xffffffff size 0x4
+  static constexpr int32_t MAX_KEY_BITS{ static_cast<int32_t>(0x100) };
+
+  /// @brief Field MAX_ROUNDS offset 0xffffffff size 0x4
+  static constexpr int32_t MAX_ROUNDS{ static_cast<int32_t>(0x10) };
+
+  /// @brief Field OUTPUT_WHITEN offset 0xffffffff size 0x4
+  static constexpr int32_t OUTPUT_WHITEN{ static_cast<int32_t>(0x4) };
 
   /// @brief Field P_00 offset 0xffffffff size 0x4
   static constexpr int32_t P_00{ static_cast<int32_t>(0x1) };
@@ -305,50 +327,26 @@ public:
   /// @brief Field P_34 offset 0xffffffff size 0x4
   static constexpr int32_t P_34{ static_cast<int32_t>(0x1) };
 
-  /// @brief Field GF256_FDBK offset 0xffffffff size 0x4
-  static constexpr int32_t GF256_FDBK{ static_cast<int32_t>(0x169) };
-
-  /// @brief Field GF256_FDBK_2 offset 0xffffffff size 0x4
-  static constexpr int32_t GF256_FDBK_2{ static_cast<int32_t>(0xb4) };
-
-  /// @brief Field GF256_FDBK_4 offset 0xffffffff size 0x4
-  static constexpr int32_t GF256_FDBK_4{ static_cast<int32_t>(0x5a) };
-
-  /// @brief Field RS_GF_FDBK offset 0xffffffff size 0x4
-  static constexpr int32_t RS_GF_FDBK{ static_cast<int32_t>(0x14d) };
-
   /// @brief Field ROUNDS offset 0xffffffff size 0x4
   static constexpr int32_t ROUNDS{ static_cast<int32_t>(0x10) };
-
-  /// @brief Field MAX_ROUNDS offset 0xffffffff size 0x4
-  static constexpr int32_t MAX_ROUNDS{ static_cast<int32_t>(0x10) };
-
-  /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
-  static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x10) };
-
-  /// @brief Field MAX_KEY_BITS offset 0xffffffff size 0x4
-  static constexpr int32_t MAX_KEY_BITS{ static_cast<int32_t>(0x100) };
-
-  /// @brief Field INPUT_WHITEN offset 0xffffffff size 0x4
-  static constexpr int32_t INPUT_WHITEN{ static_cast<int32_t>(0x0) };
-
-  /// @brief Field OUTPUT_WHITEN offset 0xffffffff size 0x4
-  static constexpr int32_t OUTPUT_WHITEN{ static_cast<int32_t>(0x4) };
 
   /// @brief Field ROUND_SUBKEYS offset 0xffffffff size 0x4
   static constexpr int32_t ROUND_SUBKEYS{ static_cast<int32_t>(0x8) };
 
-  /// @brief Field TOTAL_SUBKEYS offset 0xffffffff size 0x4
-  static constexpr int32_t TOTAL_SUBKEYS{ static_cast<int32_t>(0x28) };
-
-  /// @brief Field SK_STEP offset 0xffffffff size 0x4
-  static constexpr int32_t SK_STEP{ static_cast<int32_t>(0x2020202) };
+  /// @brief Field RS_GF_FDBK offset 0xffffffff size 0x4
+  static constexpr int32_t RS_GF_FDBK{ static_cast<int32_t>(0x14d) };
 
   /// @brief Field SK_BUMP offset 0xffffffff size 0x4
   static constexpr int32_t SK_BUMP{ static_cast<int32_t>(0x1010101) };
 
   /// @brief Field SK_ROTL offset 0xffffffff size 0x4
   static constexpr int32_t SK_ROTL{ static_cast<int32_t>(0x9) };
+
+  /// @brief Field SK_STEP offset 0xffffffff size 0x4
+  static constexpr int32_t SK_STEP{ static_cast<int32_t>(0x2020202) };
+
+  /// @brief Field TOTAL_SUBKEYS offset 0xffffffff size 0x4
+  static constexpr int32_t TOTAL_SUBKEYS{ static_cast<int32_t>(0x28) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

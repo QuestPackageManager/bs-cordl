@@ -32,22 +32,22 @@ MARK_REF_PTR_T(::GlobalNamespace::AutoSetupController);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4862))
 // CS Name: ::AutoSetupController*
 class CORDL_TYPE AutoSetupController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _closeButton, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__closeButton, put = __cordl_internal_set__closeButton))::UnityW<::UnityEngine::UI::Button> _closeButton;
-
-  /// @brief Field _selectBasedOnSuggestionsToggle, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectBasedOnSuggestionsToggle,
-                      put = __cordl_internal_set__selectBasedOnSuggestionsToggle))::UnityW<::UnityEngine::UI::Toggle> _selectBasedOnSuggestionsToggle;
+  /// @brief Field _autoSetupData, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__autoSetupData, put = __cordl_internal_set__autoSetupData))::GlobalNamespace::AutoSetupData* _autoSetupData;
 
   /// @brief Field _autoStartWhenAllReadyToggle, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__autoStartWhenAllReadyToggle,
                       put = __cordl_internal_set__autoStartWhenAllReadyToggle))::UnityW<::UnityEngine::UI::Toggle> _autoStartWhenAllReadyToggle;
+
+  /// @brief Field _buttonBinder, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+
+  /// @brief Field _closeButton, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__closeButton, put = __cordl_internal_set__closeButton))::UnityW<::UnityEngine::UI::Button> _closeButton;
 
   /// @brief Field _forceAutoStartAfterSongSelectionToggle, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__forceAutoStartAfterSongSelectionToggle,
@@ -57,107 +57,111 @@ public:
   __declspec(property(get = __cordl_internal_get__randomSongIfNoneSuggestedToggle,
                       put = __cordl_internal_set__randomSongIfNoneSuggestedToggle))::UnityW<::UnityEngine::UI::Toggle> _randomSongIfNoneSuggestedToggle;
 
-  /// @brief Field didFinishEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::AutoSetupData*>* didFinishEvent;
-
-  /// @brief Field _buttonBinder, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  /// @brief Field _selectBasedOnSuggestionsToggle, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__selectBasedOnSuggestionsToggle,
+                      put = __cordl_internal_set__selectBasedOnSuggestionsToggle))::UnityW<::UnityEngine::UI::Toggle> _selectBasedOnSuggestionsToggle;
 
   /// @brief Field _toggleBinder, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
-  /// @brief Field _autoSetupData, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__autoSetupData, put = __cordl_internal_set__autoSetupData))::GlobalNamespace::AutoSetupData* _autoSetupData;
+  /// @brief Field didFinishEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::AutoSetupData*>* didFinishEvent;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__closeButton();
+  static inline ::GlobalNamespace::AutoSetupController* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__closeButton() const;
+  /// @brief Method OnDisable, addr 0x23a5024, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-  constexpr void __cordl_internal_set__closeButton(::UnityW<::UnityEngine::UI::Button> value);
+  /// @brief Method OnEnable, addr 0x23a4e24, size 0x200, virtual false, abstract: false, final false
+  inline void OnEnable();
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__selectBasedOnSuggestionsToggle();
+  /// @brief Method Setup, addr 0x23a4e1c, size 0x8, virtual false, abstract: false, final false
+  inline void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__selectBasedOnSuggestionsToggle() const;
+  /// @brief Method <OnEnable>b__12_0, addr 0x23a5110, size 0x20, virtual false, abstract: false, final false
+  inline void _OnEnable_b__12_0();
 
-  constexpr void __cordl_internal_set__selectBasedOnSuggestionsToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+  /// @brief Method <OnEnable>b__12_1, addr 0x23a5130, size 0x20, virtual false, abstract: false, final false
+  inline void _OnEnable_b__12_1(bool isOn);
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__autoStartWhenAllReadyToggle();
+  /// @brief Method <OnEnable>b__12_2, addr 0x23a5150, size 0x20, virtual false, abstract: false, final false
+  inline void _OnEnable_b__12_2(bool isOn);
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__autoStartWhenAllReadyToggle() const;
+  /// @brief Method <OnEnable>b__12_3, addr 0x23a5170, size 0x20, virtual false, abstract: false, final false
+  inline void _OnEnable_b__12_3(bool isOn);
 
-  constexpr void __cordl_internal_set__autoStartWhenAllReadyToggle(::UnityW<::UnityEngine::UI::Toggle> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__forceAutoStartAfterSongSelectionToggle();
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__forceAutoStartAfterSongSelectionToggle() const;
-
-  constexpr void __cordl_internal_set__forceAutoStartAfterSongSelectionToggle(::UnityW<::UnityEngine::UI::Toggle> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__randomSongIfNoneSuggestedToggle();
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__randomSongIfNoneSuggestedToggle() const;
-
-  constexpr void __cordl_internal_set__randomSongIfNoneSuggestedToggle(::UnityW<::UnityEngine::UI::Toggle> value);
-
-  constexpr ::System::Action_1<::GlobalNamespace::AutoSetupData*>*& __cordl_internal_get_didFinishEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::AutoSetupData*>*> const& __cordl_internal_get_didFinishEvent() const;
-
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
-
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
-
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
-
-  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
-
-  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
-
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
-
-  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
+  /// @brief Method <OnEnable>b__12_4, addr 0x23a5190, size 0x20, virtual false, abstract: false, final false
+  inline void _OnEnable_b__12_4(bool isOn);
 
   constexpr ::GlobalNamespace::AutoSetupData*& __cordl_internal_get__autoSetupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AutoSetupData*> const& __cordl_internal_get__autoSetupData() const;
 
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__autoStartWhenAllReadyToggle() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__autoStartWhenAllReadyToggle();
+
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__closeButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__closeButton();
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__forceAutoStartAfterSongSelectionToggle() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__forceAutoStartAfterSongSelectionToggle();
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__randomSongIfNoneSuggestedToggle() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__randomSongIfNoneSuggestedToggle();
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__selectBasedOnSuggestionsToggle() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__selectBasedOnSuggestionsToggle();
+
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
+
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
+
+  constexpr ::System::Action_1<::GlobalNamespace::AutoSetupData*>*& __cordl_internal_get_didFinishEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::AutoSetupData*>*> const& __cordl_internal_get_didFinishEvent() const;
+
   constexpr void __cordl_internal_set__autoSetupData(::GlobalNamespace::AutoSetupData* value);
 
-  /// @brief Method add_didFinishEvent, addr 0x23fd2f4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
+  constexpr void __cordl_internal_set__autoStartWhenAllReadyToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x23fd3a4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method Setup, addr 0x23fd454, size 0x8, virtual false, abstract: false, final false
-  inline void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
+  constexpr void __cordl_internal_set__closeButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method OnEnable, addr 0x23fd45c, size 0x200, virtual false, abstract: false, final false
-  inline void OnEnable();
+  constexpr void __cordl_internal_set__forceAutoStartAfterSongSelectionToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method OnDisable, addr 0x23fd65c, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDisable();
+  constexpr void __cordl_internal_set__randomSongIfNoneSuggestedToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  static inline ::GlobalNamespace::AutoSetupController* New_ctor();
+  constexpr void __cordl_internal_set__selectBasedOnSuggestionsToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x23fd678, size 0xc8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
+
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
+
+  /// @brief Method .ctor, addr 0x23a5040, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnEnable>b__12_0, addr 0x23fd748, size 0x20, virtual false, abstract: false, final false
-  inline void _OnEnable_b__12_0();
+  /// @brief Method add_didFinishEvent, addr 0x23a4cbc, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method <OnEnable>b__12_1, addr 0x23fd768, size 0x20, virtual false, abstract: false, final false
-  inline void _OnEnable_b__12_1(bool isOn);
+  /// @brief Method remove_didFinishEvent, addr 0x23a4d6c, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method <OnEnable>b__12_2, addr 0x23fd788, size 0x20, virtual false, abstract: false, final false
-  inline void _OnEnable_b__12_2(bool isOn);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AutoSetupController();
 
-  /// @brief Method <OnEnable>b__12_3, addr 0x23fd7a8, size 0x20, virtual false, abstract: false, final false
-  inline void _OnEnable_b__12_3(bool isOn);
-
-  /// @brief Method <OnEnable>b__12_4, addr 0x23fd7c8, size 0x20, virtual false, abstract: false, final false
-  inline void _OnEnable_b__12_4(bool isOn);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AutoSetupController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AutoSetupController(AutoSetupController&&) = delete;
@@ -166,12 +170,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AutoSetupController(AutoSetupController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AutoSetupController();
-
-public:
   /// @brief Field _closeButton, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____closeButton;
 

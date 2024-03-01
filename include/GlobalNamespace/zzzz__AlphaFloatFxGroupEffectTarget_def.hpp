@@ -25,82 +25,86 @@ MARK_REF_PTR_T(::GlobalNamespace::AlphaFloatFxGroupEffectTarget);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4263)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4256))
 // CS Name: ::AlphaFloatFxGroupEffectTarget*
 class CORDL_TYPE AlphaFloatFxGroupEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
-  /// @brief Field _staticColor, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get__staticColor, put = __cordl_internal_set__staticColor))::UnityEngine::Color _staticColor;
-
-  /// @brief Field _property, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__property, put = __cordl_internal_set__property))::StringW _property;
+  /// @brief Field _isInitialized, offset 0x3c, size 0x1
+  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
   /// @brief Field _materialPropertyBlockControllers, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockControllers,
                       put = __cordl_internal_set__materialPropertyBlockControllers))::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>,
                                                                                              ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> _materialPropertyBlockControllers;
 
+  /// @brief Field _property, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__property, put = __cordl_internal_set__property))::StringW _property;
+
   /// @brief Field _propertyId, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__propertyId, put = __cordl_internal_set__propertyId)) int32_t _propertyId;
 
-  /// @brief Field _isInitialized, offset 0x3c, size 0x1
-  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
+  /// @brief Field _staticColor, offset 0x18, size 0x10
+  __declspec(property(get = __cordl_internal_get__staticColor, put = __cordl_internal_set__staticColor))::UnityEngine::Color _staticColor;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__staticColor();
+  /// @brief Method Awake, addr 0x2433704, size 0x30, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__staticColor() const;
+  /// @brief Method InitIfNeeded, addr 0x2433734, size 0x30, virtual false, abstract: false, final false
+  inline void InitIfNeeded();
 
-  constexpr void __cordl_internal_set__staticColor(::UnityEngine::Color value);
+  static inline ::GlobalNamespace::AlphaFloatFxGroupEffectTarget* New_ctor();
 
-  constexpr ::StringW& __cordl_internal_get__property();
+  /// @brief Method SetColor, addr 0x243377c, size 0xdc, virtual false, abstract: false, final false
+  inline void SetColor(::UnityEngine::Color color);
 
-  constexpr ::StringW const& __cordl_internal_get__property() const;
+  /// @brief Method SetValue, addr 0x2433764, size 0x18, virtual true, abstract: false, final false
+  inline void SetValue(float_t value);
 
-  constexpr void __cordl_internal_set__property(::StringW value);
+  /// @brief Method TriggerValue, addr 0x2433858, size 0x18, virtual true, abstract: false, final false
+  inline void TriggerValue(float_t value);
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>&
-  __cordl_internal_get__materialPropertyBlockControllers();
+  constexpr bool const& __cordl_internal_get__isInitialized() const;
+
+  constexpr bool& __cordl_internal_get__isInitialized();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
   __cordl_internal_get__materialPropertyBlockControllers() const;
 
-  constexpr void __cordl_internal_set__materialPropertyBlockControllers(
-      ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>&
+  __cordl_internal_get__materialPropertyBlockControllers();
 
-  constexpr int32_t& __cordl_internal_get__propertyId();
+  constexpr ::StringW const& __cordl_internal_get__property() const;
+
+  constexpr ::StringW& __cordl_internal_get__property();
 
   constexpr int32_t const& __cordl_internal_get__propertyId() const;
 
-  constexpr void __cordl_internal_set__propertyId(int32_t value);
+  constexpr int32_t& __cordl_internal_get__propertyId();
 
-  constexpr bool& __cordl_internal_get__isInitialized();
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__staticColor() const;
 
-  constexpr bool const& __cordl_internal_get__isInitialized() const;
+  constexpr ::UnityEngine::Color& __cordl_internal_get__staticColor();
 
   constexpr void __cordl_internal_set__isInitialized(bool value);
 
-  /// @brief Method Awake, addr 0x23657bc, size 0x30, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set__materialPropertyBlockControllers(
+      ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  /// @brief Method InitIfNeeded, addr 0x23657ec, size 0x30, virtual false, abstract: false, final false
-  inline void InitIfNeeded();
+  constexpr void __cordl_internal_set__property(::StringW value);
 
-  /// @brief Method SetValue, addr 0x236581c, size 0x18, virtual true, abstract: false, final false
-  inline void SetValue(float_t value);
+  constexpr void __cordl_internal_set__propertyId(int32_t value);
 
-  /// @brief Method TriggerValue, addr 0x2365910, size 0x18, virtual true, abstract: false, final false
-  inline void TriggerValue(float_t value);
+  constexpr void __cordl_internal_set__staticColor(::UnityEngine::Color value);
 
-  /// @brief Method SetColor, addr 0x2365834, size 0xdc, virtual false, abstract: false, final false
-  inline void SetColor(::UnityEngine::Color color);
-
-  static inline ::GlobalNamespace::AlphaFloatFxGroupEffectTarget* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2365928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2433870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AlphaFloatFxGroupEffectTarget();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AlphaFloatFxGroupEffectTarget", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AlphaFloatFxGroupEffectTarget(AlphaFloatFxGroupEffectTarget&&) = delete;
@@ -109,12 +113,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AlphaFloatFxGroupEffectTarget(AlphaFloatFxGroupEffectTarget const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AlphaFloatFxGroupEffectTarget();
-
-public:
   /// @brief Field _staticColor, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ____staticColor;
 

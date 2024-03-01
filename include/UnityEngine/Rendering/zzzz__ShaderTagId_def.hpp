@@ -22,8 +22,6 @@ MARK_VAL_T(::UnityEngine::Rendering::ShaderTagId);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9113))
 // CS Name: ::UnityEngine.Rendering::ShaderTagId
 struct CORDL_TYPE ShaderTagId {
 public:
@@ -33,33 +31,33 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>*();
 
+  /// @brief Method Equals, addr 0x2de04c8, size 0x78, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2de0540, size 0x10, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Rendering::ShaderTagId other);
+
+  /// @brief Method GetHashCode, addr 0x2de0550, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method .ctor, addr 0x2de0498, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name);
+
+  /// @brief Method get_id, addr 0x2de04b8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_id();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>* i___System__IEquatable_1___UnityEngine__Rendering__ShaderTagId_();
 
-  /// @brief Method .ctor, addr 0x2cf4d70, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
-
-  /// @brief Method get_id, addr 0x2cf4d90, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_id();
-
-  /// @brief Method set_id, addr 0x2cf4d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x2de04c0, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
-
-  /// @brief Method Equals, addr 0x2cf4da0, size 0x78, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method Equals, addr 0x2cf4e18, size 0x10, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Rendering::ShaderTagId other);
-
-  /// @brief Method GetHashCode, addr 0x2cf4e28, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ShaderTagId(int32_t m_Id) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ShaderTagId();
+
+  // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ShaderTagId(int32_t m_Id) noexcept;
 
   /// @brief Field m_Id, offset: 0x0, size: 0x4, def value: None
   int32_t m_Id;

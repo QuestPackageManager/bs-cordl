@@ -72,17 +72,14 @@ MARK_VAL_T(::TMPro::WordWrapState);
 // SizeInfo { instance_size: 888, native_size: -1, calculated_instance_size: 888, calculated_native_size: 902, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8994)), TypeDefinitionIndex(TypeDefinitionIndex(12202)), TypeDefinitionIndex(TypeDefinitionIndex(12220)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12229)), TypeDefinitionIndex(TypeDefinitionIndex(12232)), TypeDefinitionIndex(TypeDefinitionIndex(12292)), TypeDefinitionIndex(TypeDefinitionIndex(12328)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12336)), TypeDefinitionIndex(TypeDefinitionIndex(12337)), TypeDefinitionIndex(TypeDefinitionIndex(12350)), TypeDefinitionIndex(TypeDefinitionIndex(12351)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12351), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12351), inst: 391 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12351), inst: 738 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12351), inst: 5021 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12351), inst: 5022 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12351), inst: 5023 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12351), inst: 5024 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12351), inst: 5025 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12222)) CS Name: ::TMPro::WordWrapState
+// CS Name: ::TMPro::WordWrapState
 struct CORDL_TYPE WordWrapState {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WordWrapState();
+
   // Ctor Parameters [CppParam { name: "previous_WordBreak", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "total_CharacterCount", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "visible_CharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visible_SpriteCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
   // name: "visible_LinkCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -136,10 +133,6 @@ public:
                           ::TMPro::TMP_TextProcessingStack_1<::TMPro::HorizontalAlignmentOptions> lineJustificationStack, int32_t spriteAnimationID, ::UnityW<::TMPro::TMP_FontAsset> currentFontAsset,
                           ::UnityW<::TMPro::TMP_SpriteAsset> currentSpriteAsset, ::UnityW<::UnityEngine::Material> currentMaterial, int32_t currentMaterialIndex, ::TMPro::Extents meshExtents,
                           bool tagNoParsing, bool isNonBreakingSpace) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WordWrapState();
 
   /// @brief Field previous_WordBreak, offset: 0x0, size: 0x4, def value: None
   int32_t previous_WordBreak;

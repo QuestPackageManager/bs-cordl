@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::*)()>(
     &::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12638dc;
+  constexpr static std::size_t addrs = 0x12a68ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::*)(::GlobalNamespace::BeatmapDataItem*)>(
         &::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_CreateTransformedData_g__ProcessData_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x12639ec;
+  constexpr static std::size_t addrs = 0x12a69bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType, bool)>(
         &::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x12637a8;
+  constexpr static std::size_t addrs = 0x12a6778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType, bool)>(
     &::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapDataItem)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x12638e4;
+  constexpr static std::size_t addrs = 0x12a68b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

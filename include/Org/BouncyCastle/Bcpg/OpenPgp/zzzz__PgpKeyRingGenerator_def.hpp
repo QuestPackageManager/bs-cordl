@@ -43,17 +43,12 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(594)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1648))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyRingGenerator*
 class CORDL_TYPE PgpKeyRingGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field keys, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::System::Collections::IList* keys;
-
-  /// @brief Field id, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::StringW id;
+  /// @brief Field certificationLevel, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_certificationLevel, put = __cordl_internal_set_certificationLevel)) int32_t certificationLevel;
 
   /// @brief Field encAlgorithm, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_encAlgorithm, put = __cordl_internal_set_encAlgorithm))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm;
@@ -61,136 +56,50 @@ public:
   /// @brief Field hashAlgorithm, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm))::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm;
 
-  /// @brief Field certificationLevel, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_certificationLevel, put = __cordl_internal_set_certificationLevel)) int32_t certificationLevel;
+  /// @brief Field hashedPacketVector, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_hashedPacketVector, put = __cordl_internal_set_hashedPacketVector))::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPacketVector;
 
-  /// @brief Field rawPassPhrase, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_rawPassPhrase, put = __cordl_internal_set_rawPassPhrase))::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase;
+  /// @brief Field id, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::StringW id;
 
-  /// @brief Field useSha1, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_useSha1, put = __cordl_internal_set_useSha1)) bool useSha1;
+  /// @brief Field keys, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::System::Collections::IList* keys;
 
   /// @brief Field masterKey, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_masterKey, put = __cordl_internal_set_masterKey))::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey;
 
-  /// @brief Field hashedPacketVector, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_hashedPacketVector, put = __cordl_internal_set_hashedPacketVector))::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPacketVector;
+  /// @brief Field rand, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_rand, put = __cordl_internal_set_rand))::Org::BouncyCastle::Security::SecureRandom* rand;
+
+  /// @brief Field rawPassPhrase, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_rawPassPhrase, put = __cordl_internal_set_rawPassPhrase))::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase;
 
   /// @brief Field unhashedPacketVector, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_unhashedPacketVector,
                       put = __cordl_internal_set_unhashedPacketVector))::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPacketVector;
 
-  /// @brief Field rand, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_rand, put = __cordl_internal_set_rand))::Org::BouncyCastle::Security::SecureRandom* rand;
+  /// @brief Field useSha1, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_useSha1, put = __cordl_internal_set_useSha1)) bool useSha1;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_keys();
+  /// @brief Method AddSubKey, addr 0x111fa04, size 0x8, virtual false, abstract: false, final false
+  inline void AddSubKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* keyPair);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_keys() const;
+  /// @brief Method AddSubKey, addr 0x111fe34, size 0xc, virtual false, abstract: false, final false
+  inline void AddSubKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* keyPair, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  constexpr void __cordl_internal_set_keys(::System::Collections::IList* value);
+  /// @brief Method AddSubKey, addr 0x111fa0c, size 0x428, virtual false, abstract: false, final false
+  inline void AddSubKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* keyPair, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
+                        ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets);
 
-  constexpr ::StringW& __cordl_internal_get_id();
+  /// @brief Method AddSubKey, addr 0x111fe40, size 0x41c, virtual false, abstract: false, final false
+  inline void AddSubKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* keyPair, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
+                        ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  constexpr ::StringW const& __cordl_internal_get_id() const;
+  /// @brief Method GeneratePublicKeyRing, addr 0x1120390, size 0x4c4, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* GeneratePublicKeyRing();
 
-  constexpr void __cordl_internal_set_id(::StringW value);
-
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag& __cordl_internal_get_encAlgorithm();
-
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const& __cordl_internal_get_encAlgorithm() const;
-
-  constexpr void __cordl_internal_set_encAlgorithm(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value);
-
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __cordl_internal_get_hashAlgorithm();
-
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_hashAlgorithm() const;
-
-  constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
-
-  constexpr int32_t& __cordl_internal_get_certificationLevel();
-
-  constexpr int32_t const& __cordl_internal_get_certificationLevel() const;
-
-  constexpr void __cordl_internal_set_certificationLevel(int32_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_rawPassPhrase();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_rawPassPhrase() const;
-
-  constexpr void __cordl_internal_set_rawPassPhrase(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr bool& __cordl_internal_get_useSha1();
-
-  constexpr bool const& __cordl_internal_get_useSha1() const;
-
-  constexpr void __cordl_internal_set_useSha1(bool value);
-
-  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair*& __cordl_internal_get_masterKey();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair*> const& __cordl_internal_get_masterKey() const;
-
-  constexpr void __cordl_internal_set_masterKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* value);
-
-  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*& __cordl_internal_get_hashedPacketVector();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*> const& __cordl_internal_get_hashedPacketVector() const;
-
-  constexpr void __cordl_internal_set_hashedPacketVector(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* value);
-
-  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*& __cordl_internal_get_unhashedPacketVector();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*> const& __cordl_internal_get_unhashedPacketVector() const;
-
-  constexpr void __cordl_internal_set_unhashedPacketVector(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* value);
-
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_rand();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_rand() const;
-
-  constexpr void __cordl_internal_set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
-
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator* New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id,
-                                                                                  ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
-                                                                                  ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
-                                                                                  ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
-                                                                                  ::Org::BouncyCastle::Security::SecureRandom* rand);
-
-  /// @brief Method .ctor, addr 0x10db434, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
-                    ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
-                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Security::SecureRandom* rand);
-
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator* New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id,
-                                                                                  ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
-                                                                                  bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
-                                                                                  ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
-                                                                                  ::Org::BouncyCastle::Security::SecureRandom* rand);
-
-  /// @brief Method .ctor, addr 0x10db4c0, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
-                    ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
-                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Security::SecureRandom* rand);
-
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator*
-  New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool utf8PassPhrase,
-           ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
-           ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Security::SecureRandom* rand);
-
-  /// @brief Method .ctor, addr 0x10db540, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
-                    bool utf8PassPhrase, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
-                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Security::SecureRandom* rand);
-
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator* New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id,
-                                                                                  ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase,
-                                                                                  bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
-                                                                                  ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
-                                                                                  ::Org::BouncyCastle::Security::SecureRandom* rand);
-
-  /// @brief Method .ctor, addr 0x10db5c0, size 0x1a4, virtual false, abstract: false, final false
-  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
-                    ::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase, bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
-                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Security::SecureRandom* rand);
+  /// @brief Method GenerateSecretKeyRing, addr 0x1120328, size 0x68, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* GenerateSecretKeyRing();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator* New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id,
                                                                                   ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
@@ -199,24 +108,6 @@ public:
                                                                                   ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
                                                                                   ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x10db764, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
-                    ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1,
-                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
-                    ::Org::BouncyCastle::Security::SecureRandom* rand);
-
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator*
-  New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
-           ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, bool utf8PassPhrase, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1,
-           ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
-           ::Org::BouncyCastle::Security::SecureRandom* rand);
-
-  /// @brief Method .ctor, addr 0x10db7f4, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
-                    ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, bool utf8PassPhrase, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1,
-                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
-                    ::Org::BouncyCastle::Security::SecureRandom* rand);
-
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator* New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id,
                                                                                   ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
                                                                                   ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase,
@@ -224,32 +115,145 @@ public:
                                                                                   ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
                                                                                   ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x10db884, size 0x1b0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator*
+  New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
+           ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, bool utf8PassPhrase, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1,
+           ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
+           ::Org::BouncyCastle::Security::SecureRandom* rand);
+
+  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator* New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id,
+                                                                                  ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
+                                                                                  ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
+                                                                                  ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
+                                                                                  ::Org::BouncyCastle::Security::SecureRandom* rand);
+
+  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator* New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id,
+                                                                                  ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase,
+                                                                                  bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
+                                                                                  ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
+                                                                                  ::Org::BouncyCastle::Security::SecureRandom* rand);
+
+  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator* New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id,
+                                                                                  ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase,
+                                                                                  bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
+                                                                                  ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
+                                                                                  ::Org::BouncyCastle::Security::SecureRandom* rand);
+
+  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRingGenerator*
+  New_ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool utf8PassPhrase,
+           ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
+           ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Security::SecureRandom* rand);
+
+  constexpr int32_t const& __cordl_internal_get_certificationLevel() const;
+
+  constexpr int32_t& __cordl_internal_get_certificationLevel();
+
+  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const& __cordl_internal_get_encAlgorithm() const;
+
+  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag& __cordl_internal_get_encAlgorithm();
+
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_hashAlgorithm() const;
+
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __cordl_internal_get_hashAlgorithm();
+
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*& __cordl_internal_get_hashedPacketVector();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*> const& __cordl_internal_get_hashedPacketVector() const;
+
+  constexpr ::StringW const& __cordl_internal_get_id() const;
+
+  constexpr ::StringW& __cordl_internal_get_id();
+
+  constexpr ::System::Collections::IList*& __cordl_internal_get_keys();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_keys() const;
+
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair*& __cordl_internal_get_masterKey();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair*> const& __cordl_internal_get_masterKey() const;
+
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_rand();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_rand() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_rawPassPhrase() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_rawPassPhrase();
+
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*& __cordl_internal_get_unhashedPacketVector();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*> const& __cordl_internal_get_unhashedPacketVector() const;
+
+  constexpr bool const& __cordl_internal_get_useSha1() const;
+
+  constexpr bool& __cordl_internal_get_useSha1();
+
+  constexpr void __cordl_internal_set_certificationLevel(int32_t value);
+
+  constexpr void __cordl_internal_set_encAlgorithm(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value);
+
+  constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
+
+  constexpr void __cordl_internal_set_hashedPacketVector(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* value);
+
+  constexpr void __cordl_internal_set_id(::StringW value);
+
+  constexpr void __cordl_internal_set_keys(::System::Collections::IList* value);
+
+  constexpr void __cordl_internal_set_masterKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* value);
+
+  constexpr void __cordl_internal_set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
+
+  constexpr void __cordl_internal_set_rawPassPhrase(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_unhashedPacketVector(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* value);
+
+  constexpr void __cordl_internal_set_useSha1(bool value);
+
+  /// @brief Method .ctor, addr 0x111f734, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
+                    ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1,
+                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
+                    ::Org::BouncyCastle::Security::SecureRandom* rand);
+
+  /// @brief Method .ctor, addr 0x111f854, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
                     ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase, bool useSha1,
                     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
                     ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method AddSubKey, addr 0x10dba34, size 0x8, virtual false, abstract: false, final false
-  inline void AddSubKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* keyPair);
+  /// @brief Method .ctor, addr 0x111f7c4, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
+                    ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, bool utf8PassPhrase, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1,
+                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets,
+                    ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method AddSubKey, addr 0x10dbe64, size 0xc, virtual false, abstract: false, final false
-  inline void AddSubKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* keyPair, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
+  /// @brief Method .ctor, addr 0x111f404, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
+                    ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
+                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method AddSubKey, addr 0x10dba3c, size 0x428, virtual false, abstract: false, final false
-  inline void AddSubKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* keyPair, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
-                        ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets);
+  /// @brief Method .ctor, addr 0x111f490, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
+                    ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
+                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method AddSubKey, addr 0x10dbe70, size 0x41c, virtual false, abstract: false, final false
-  inline void AddSubKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* keyPair, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
-                        ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
+  /// @brief Method .ctor, addr 0x111f590, size 0x1a4, virtual false, abstract: false, final false
+  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
+                    ::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase, bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
+                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method GenerateSecretKeyRing, addr 0x10dc358, size 0x68, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKeyRing* GenerateSecretKeyRing();
+  /// @brief Method .ctor, addr 0x111f510, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(int32_t certificationLevel, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* masterKey, ::StringW id, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
+                    bool utf8PassPhrase, ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool useSha1, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* hashedPackets,
+                    ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* unhashedPackets, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method GeneratePublicKeyRing, addr 0x10dc3c0, size 0x4c4, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRing* GeneratePublicKeyRing();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PgpKeyRingGenerator();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PgpKeyRingGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpKeyRingGenerator(PgpKeyRingGenerator&&) = delete;
@@ -258,12 +262,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PgpKeyRingGenerator(PgpKeyRingGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PgpKeyRingGenerator();
-
-public:
   /// @brief Field keys, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___keys;
 

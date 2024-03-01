@@ -15,8 +15,6 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_EnvIntType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9510))
 // CS Name: ::HoudiniEngineUnity::HAPI_EnvIntType
 struct CORDL_TYPE HAPI_EnvIntType {
 public:
@@ -41,33 +39,32 @@ public:
     return static_cast<__HAPI_EnvIntType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_EnvIntType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__HAPI_EnvIntType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_EnvIntType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_EnvIntType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field HAPI_ENVINT_INVALID value: static_cast<int32_t>(0xffffffff)
   static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_INVALID;
 
-  /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_MAJOR value: static_cast<int32_t>(0x64)
-  static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_MAJOR;
-
-  /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_MINOR value: static_cast<int32_t>(0x6e)
-  static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_MINOR;
+  /// @brief Field HAPI_ENVINT_MAX value: static_cast<int32_t>(0xdd)
+  static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_MAX;
 
   /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_BUILD value: static_cast<int32_t>(0x78)
   static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_BUILD;
 
-  /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_PATCH value: static_cast<int32_t>(0x82)
-  static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_PATCH;
+  /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_ENGINE_API value: static_cast<int32_t>(0xdc)
+  static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_ENGINE_API;
 
   /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MAJOR value: static_cast<int32_t>(0xc8)
   static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MAJOR;
@@ -75,11 +72,17 @@ public:
   /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MINOR value: static_cast<int32_t>(0xd2)
   static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MINOR;
 
-  /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_ENGINE_API value: static_cast<int32_t>(0xdc)
-  static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_ENGINE_API;
+  /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_MAJOR value: static_cast<int32_t>(0x64)
+  static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_MAJOR;
 
-  /// @brief Field HAPI_ENVINT_MAX value: static_cast<int32_t>(0xdd)
-  static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_MAX;
+  /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_MINOR value: static_cast<int32_t>(0x6e)
+  static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_MINOR;
+
+  /// @brief Field HAPI_ENVINT_VERSION_HOUDINI_PATCH value: static_cast<int32_t>(0x82)
+  static ::HoudiniEngineUnity::HAPI_EnvIntType const HAPI_ENVINT_VERSION_HOUDINI_PATCH;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

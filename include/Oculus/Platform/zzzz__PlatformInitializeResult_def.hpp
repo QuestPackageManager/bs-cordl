@@ -15,8 +15,6 @@ MARK_VAL_T(::Oculus::Platform::PlatformInitializeResult);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13299))
 // CS Name: ::Oculus.Platform::PlatformInitializeResult
 struct CORDL_TYPE PlatformInitializeResult {
 public:
@@ -42,48 +40,53 @@ public:
     return static_cast<__PlatformInitializeResult_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PlatformInitializeResult(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__PlatformInitializeResult_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PlatformInitializeResult();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PlatformInitializeResult(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Success value: static_cast<int32_t>(0x0)
-  static ::Oculus::Platform::PlatformInitializeResult const Success;
-
-  /// @brief Field Uninitialized value: static_cast<int32_t>(0xffffffff)
-  static ::Oculus::Platform::PlatformInitializeResult const Uninitialized;
-
-  /// @brief Field PreLoaded value: static_cast<int32_t>(0xfffffffe)
-  static ::Oculus::Platform::PlatformInitializeResult const PreLoaded;
-
   /// @brief Field FileInvalid value: static_cast<int32_t>(0xfffffffd)
   static ::Oculus::Platform::PlatformInitializeResult const FileInvalid;
-
-  /// @brief Field SignatureInvalid value: static_cast<int32_t>(0xfffffffc)
-  static ::Oculus::Platform::PlatformInitializeResult const SignatureInvalid;
-
-  /// @brief Field UnableToVerify value: static_cast<int32_t>(0xfffffffb)
-  static ::Oculus::Platform::PlatformInitializeResult const UnableToVerify;
-
-  /// @brief Field VersionMismatch value: static_cast<int32_t>(0xfffffffa)
-  static ::Oculus::Platform::PlatformInitializeResult const VersionMismatch;
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0xfffffff9)
-  static ::Oculus::Platform::PlatformInitializeResult const Unknown;
 
   /// @brief Field InvalidCredentials value: static_cast<int32_t>(0xfffffff8)
   static ::Oculus::Platform::PlatformInitializeResult const InvalidCredentials;
 
   /// @brief Field NotEntitled value: static_cast<int32_t>(0xfffffff7)
   static ::Oculus::Platform::PlatformInitializeResult const NotEntitled;
+
+  /// @brief Field PreLoaded value: static_cast<int32_t>(0xfffffffe)
+  static ::Oculus::Platform::PlatformInitializeResult const PreLoaded;
+
+  /// @brief Field SignatureInvalid value: static_cast<int32_t>(0xfffffffc)
+  static ::Oculus::Platform::PlatformInitializeResult const SignatureInvalid;
+
+  /// @brief Field Success value: static_cast<int32_t>(0x0)
+  static ::Oculus::Platform::PlatformInitializeResult const Success;
+
+  /// @brief Field UnableToVerify value: static_cast<int32_t>(0xfffffffb)
+  static ::Oculus::Platform::PlatformInitializeResult const UnableToVerify;
+
+  /// @brief Field Uninitialized value: static_cast<int32_t>(0xffffffff)
+  static ::Oculus::Platform::PlatformInitializeResult const Uninitialized;
+
+  /// @brief Field Unknown value: static_cast<int32_t>(0xfffffff9)
+  static ::Oculus::Platform::PlatformInitializeResult const Unknown;
+
+  /// @brief Field VersionMismatch value: static_cast<int32_t>(0xfffffffa)
+  static ::Oculus::Platform::PlatformInitializeResult const VersionMismatch;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

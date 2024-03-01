@@ -15,8 +15,6 @@ MARK_VAL_T(::Zenject::ReflectionBakingCoverageModes);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10496))
 // CS Name: ::Zenject::ReflectionBakingCoverageModes
 struct CORDL_TYPE ReflectionBakingCoverageModes {
 public:
@@ -35,27 +33,32 @@ public:
     return static_cast<__ReflectionBakingCoverageModes_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ReflectionBakingCoverageModes(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__ReflectionBakingCoverageModes_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ReflectionBakingCoverageModes();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ReflectionBakingCoverageModes(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field FallbackToDirectReflection value: static_cast<int32_t>(0x0)
   static ::Zenject::ReflectionBakingCoverageModes const FallbackToDirectReflection;
 
+  /// @brief Field FallbackToDirectReflectionWithWarning value: static_cast<int32_t>(0x2)
+  static ::Zenject::ReflectionBakingCoverageModes const FallbackToDirectReflectionWithWarning;
+
   /// @brief Field NoCheckAssumeFullCoverage value: static_cast<int32_t>(0x1)
   static ::Zenject::ReflectionBakingCoverageModes const NoCheckAssumeFullCoverage;
 
-  /// @brief Field FallbackToDirectReflectionWithWarning value: static_cast<int32_t>(0x2)
-  static ::Zenject::ReflectionBakingCoverageModes const FallbackToDirectReflectionWithWarning;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

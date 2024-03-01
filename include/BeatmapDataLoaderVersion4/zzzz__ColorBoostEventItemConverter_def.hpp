@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10726))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11243))
 // CS Name: ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter*
 class CORDL_TYPE ColorBoostEventItemConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
 public:
@@ -37,21 +35,27 @@ public:
   __declspec(property(get = __cordl_internal_get__colorBoostEvents,
                       put = __cordl_internal_set__colorBoostEvents))::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> _colorBoostEvents;
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>& __cordl_internal_get__colorBoostEvents();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> const& __cordl_internal_get__colorBoostEvents() const;
-
-  constexpr void __cordl_internal_set__colorBoostEvents(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> value);
+  /// @brief Method Convert, addr 0x1300880, size 0xb4, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter*
   New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> colorBoostEvents, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x12bf78c, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> const& __cordl_internal_get__colorBoostEvents() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>& __cordl_internal_get__colorBoostEvents();
+
+  constexpr void __cordl_internal_set__colorBoostEvents(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> value);
+
+  /// @brief Method .ctor, addr 0x130075c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> colorBoostEvents, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
-  /// @brief Method Convert, addr 0x12bf8b0, size 0xb4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorBoostEventItemConverter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorBoostEventItemConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorBoostEventItemConverter(ColorBoostEventItemConverter&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorBoostEventItemConverter(ColorBoostEventItemConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorBoostEventItemConverter();
-
-public:
   /// @brief Field _colorBoostEvents, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> ____colorBoostEvents;
 

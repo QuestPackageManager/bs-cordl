@@ -31,8 +31,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15495))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::Triangulatable*
 class CORDL_TYPE Triangulatable {
 public:
@@ -43,15 +41,6 @@ public:
 
   __declspec(property(get = get_TriangulationMode))::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode TriangulationMode;
 
-  /// @brief Method Prepare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Prepare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
-
-  /// @brief Method get_Points, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* get_Points();
-
-  /// @brief Method get_Triangles, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();
-
   /// @brief Method AddTriangle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* t);
 
@@ -60,6 +49,15 @@ public:
 
   /// @brief Method ClearTriangles, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ClearTriangles();
+
+  /// @brief Method Prepare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Prepare(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
+
+  /// @brief Method get_Points, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* get_Points();
+
+  /// @brief Method get_Triangles, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* get_Triangles();
 
   /// @brief Method get_TriangulationMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();

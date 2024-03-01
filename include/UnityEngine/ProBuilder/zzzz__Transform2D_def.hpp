@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Transform2D);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12105))
 // CS Name: ::UnityEngine.ProBuilder::Transform2D*
 class CORDL_TYPE Transform2D : public ::System::Object {
 public:
@@ -35,35 +33,41 @@ public:
   /// @brief Field scale, offset 0x1c, size 0x8
   __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale))::UnityEngine::Vector2 scale;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_position();
+  static inline ::UnityEngine::ProBuilder::Transform2D* New_ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
+
+  /// @brief Method ToString, addr 0x2c62d30, size 0x1f4, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method TransformPoint, addr 0x2c62ccc, size 0x64, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 TransformPoint(::UnityEngine::Vector2 p);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_position() const;
 
-  constexpr void __cordl_internal_set_position(::UnityEngine::Vector2 value);
-
-  constexpr float_t& __cordl_internal_get_rotation();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_position();
 
   constexpr float_t const& __cordl_internal_get_rotation() const;
 
-  constexpr void __cordl_internal_set_rotation(float_t value);
-
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_scale();
+  constexpr float_t& __cordl_internal_get_rotation();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_scale() const;
 
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_scale();
+
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set_rotation(float_t value);
+
   constexpr void __cordl_internal_set_scale(::UnityEngine::Vector2 value);
 
-  static inline ::UnityEngine::ProBuilder::Transform2D* New_ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
-
-  /// @brief Method .ctor, addr 0x2b7aba8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c62c7c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
 
-  /// @brief Method TransformPoint, addr 0x2b7abf8, size 0x64, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 TransformPoint(::UnityEngine::Vector2 p);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Transform2D();
 
-  /// @brief Method ToString, addr 0x2b7ac5c, size 0x1f4, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Transform2D", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Transform2D(Transform2D&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Transform2D(Transform2D const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Transform2D();
-
-public:
   /// @brief Field position, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___position;
 

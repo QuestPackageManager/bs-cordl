@@ -15,31 +15,35 @@ MARK_REF_PTR_T(::UnityEngine::Assertions::AssertionException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Assertions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9062))
 // CS Name: ::UnityEngine.Assertions::AssertionException*
 class CORDL_TYPE AssertionException : public ::System::Exception {
 public:
   // Declarations
+  __declspec(property(get = get_Message))::StringW Message;
+
   /// @brief Field m_UserMessage, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UserMessage, put = __cordl_internal_set_m_UserMessage))::StringW m_UserMessage;
 
-  __declspec(property(get = get_Message))::StringW Message;
-
-  constexpr ::StringW& __cordl_internal_get_m_UserMessage();
+  static inline ::UnityEngine::Assertions::AssertionException* New_ctor(::StringW message, ::StringW userMessage);
 
   constexpr ::StringW const& __cordl_internal_get_m_UserMessage() const;
 
+  constexpr ::StringW& __cordl_internal_get_m_UserMessage();
+
   constexpr void __cordl_internal_set_m_UserMessage(::StringW value);
 
-  static inline ::UnityEngine::Assertions::AssertionException* New_ctor(::StringW message, ::StringW userMessage);
-
-  /// @brief Method .ctor, addr 0x2cf067c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ddbda4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW userMessage);
 
-  /// @brief Method get_Message, addr 0x2cf0d90, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2ddc4b8, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssertionException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssertionException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssertionException(AssertionException&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssertionException(AssertionException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssertionException();
-
-public:
   /// @brief Field m_UserMessage, offset: 0x90, size: 0x8, def value: None
   ::StringW ___m_UserMessage;
 

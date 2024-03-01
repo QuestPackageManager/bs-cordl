@@ -19,17 +19,19 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKApplicationOutput);
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14974))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14987))
 // CS Name: ::LIV.SDK.Unity::SDKApplicationOutput
 struct CORDL_TYPE SDKApplicationOutput {
 public:
   // Declarations
-  /// @brief Method get_empty, addr 0x22a3de0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2376f40, size 0x244, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method get_empty, addr 0x2370448, size 0x80, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKApplicationOutput get_empty();
 
-  /// @brief Method ToString, addr 0x22aa8d8, size 0x244, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SDKApplicationOutput();
 
   // Ctor Parameters [CppParam { name: "supportedFeatures", ty: "::LIV::SDK::Unity::FEATURES", modifiers: "", def_value: None }, CppParam { name: "engineName", ty: "::StringW", modifiers: "",
   // def_value: None }, CppParam { name: "engineVersion", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "applicationName", ty: "::StringW", modifiers: "", def_value: None },
@@ -38,10 +40,6 @@ public:
   // modifiers: "", def_value: None }]
   constexpr SDKApplicationOutput(::LIV::SDK::Unity::FEATURES supportedFeatures, ::StringW engineName, ::StringW engineVersion, ::StringW applicationName, ::StringW applicationVersion,
                                  ::StringW xrDeviceName, ::StringW graphicsAPI, ::StringW sdkID, ::StringW sdkVersion) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SDKApplicationOutput();
 
   /// @brief Field supportedFeatures, offset: 0x0, size: 0x8, def value: None
   ::LIV::SDK::Unity::FEATURES supportedFeatures;

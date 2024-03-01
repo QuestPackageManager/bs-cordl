@@ -14,15 +14,19 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XInput::XInputSupport);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5615))
 // CS Name: ::UnityEngine.InputSystem.XInput::XInputSupport*
 class CORDL_TYPE XInputSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2aca66c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2bb1740, size 0x70, virtual false, abstract: false, final false
   static inline void Initialize();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XInputSupport();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XInputSupport", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XInputSupport(XInputSupport&&) = delete;
@@ -31,12 +35,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XInputSupport(XInputSupport const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XInputSupport();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

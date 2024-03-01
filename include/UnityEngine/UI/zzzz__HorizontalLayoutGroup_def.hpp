@@ -14,29 +14,33 @@ MARK_REF_PTR_T(::UnityEngine::UI::HorizontalLayoutGroup);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12981))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12980))
 // CS Name: ::UnityEngine.UI::HorizontalLayoutGroup*
 class CORDL_TYPE HorizontalLayoutGroup : public ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
 public:
   // Declarations
-  static inline ::UnityEngine::UI::HorizontalLayoutGroup* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2d943a8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x2d943c0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x2e81ae8, size 0x20, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x2d94684, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x2e81dac, size 0xc, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x2d94690, size 0xc, virtual true, abstract: false, final false
+  static inline ::UnityEngine::UI::HorizontalLayoutGroup* New_ctor();
+
+  /// @brief Method SetLayoutHorizontal, addr 0x2e81db8, size 0xc, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x2d94d08, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x2e82430, size 0xc, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
+  /// @brief Method .ctor, addr 0x2e81ad0, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HorizontalLayoutGroup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HorizontalLayoutGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HorizontalLayoutGroup(HorizontalLayoutGroup&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HorizontalLayoutGroup(HorizontalLayoutGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HorizontalLayoutGroup();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

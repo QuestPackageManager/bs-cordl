@@ -23,19 +23,17 @@ MARK_VAL_T(::ENet::ENetCallbacks);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15333))
 // CS Name: ::ENet::ENetCallbacks
 struct CORDL_TYPE ENetCallbacks {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "malloc", ty: "::ENet::AllocCallback*", modifiers: "", def_value: None }, CppParam { name: "free", ty: "::ENet::FreeCallback*", modifiers: "", def_value: None },
-  // CppParam { name: "noMemory", ty: "::ENet::NoMemoryCallback*", modifiers: "", def_value: None }]
-  constexpr ENetCallbacks(::ENet::AllocCallback* malloc, ::ENet::FreeCallback* free, ::ENet::NoMemoryCallback* noMemory) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ENetCallbacks();
+
+  // Ctor Parameters [CppParam { name: "malloc", ty: "::ENet::AllocCallback*", modifiers: "", def_value: None }, CppParam { name: "free", ty: "::ENet::FreeCallback*", modifiers: "", def_value: None },
+  // CppParam { name: "noMemory", ty: "::ENet::NoMemoryCallback*", modifiers: "", def_value: None }]
+  constexpr ENetCallbacks(::ENet::AllocCallback* malloc, ::ENet::FreeCallback* free, ::ENet::NoMemoryCallback* noMemory) noexcept;
 
   /// @brief Field malloc, offset: 0x0, size: 0x8, def value: None
   ::ENet::AllocCallback* malloc;

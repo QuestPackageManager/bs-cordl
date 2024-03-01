@@ -15,22 +15,20 @@ MARK_VAL_T(::TMPro::KerningPairKey);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12259))
 // CS Name: ::TMPro::KerningPairKey
 struct CORDL_TYPE KerningPairKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2c0ce54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf6f28, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t ascii_left, uint32_t ascii_right);
-
-  // Ctor Parameters [CppParam { name: "ascii_Left", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ascii_Right", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "key", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr KerningPairKey(uint32_t ascii_Left, uint32_t ascii_Right, uint32_t key) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr KerningPairKey();
+
+  // Ctor Parameters [CppParam { name: "ascii_Left", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ascii_Right", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
+  // name: "key", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr KerningPairKey(uint32_t ascii_Left, uint32_t ascii_Right, uint32_t key) noexcept;
 
   /// @brief Field ascii_Left, offset: 0x0, size: 0x4, def value: None
   uint32_t ascii_Left;

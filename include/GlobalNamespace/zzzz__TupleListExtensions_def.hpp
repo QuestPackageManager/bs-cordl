@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::GlobalNamespace::TupleListExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15221))
 // CS Name: ::TupleListExtensions*
 class CORDL_TYPE TupleListExtensions : public ::System::Object {
 public:
@@ -42,6 +40,12 @@ public:
   template <typename T1, typename T2, typename T3, typename T4>
   static inline void Add(::System::Collections::Generic::IList_1<::System::Tuple_4<T1, T2, T3, T4>*>* list, T1 item1, T2 item2, T3 item3, T4 item4);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TupleListExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TupleListExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TupleListExtensions(TupleListExtensions&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TupleListExtensions(TupleListExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TupleListExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

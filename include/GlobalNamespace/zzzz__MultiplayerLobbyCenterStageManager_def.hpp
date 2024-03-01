@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyCenterStageManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4869))
 // CS Name: ::MultiplayerLobbyCenterStageManager*
 class CORDL_TYPE MultiplayerLobbyCenterStageManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -37,62 +35,68 @@ public:
   __declspec(property(get = __cordl_internal_get__centerStageScreenController,
                       put = __cordl_internal_set__centerStageScreenController))::UnityW<::GlobalNamespace::CenterStageScreenController> _centerStageScreenController;
 
-  /// @brief Field _lobbyStateDataModel, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyStateDataModel, put = __cordl_internal_set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
-
   /// @brief Field _innerCircleRadius, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__innerCircleRadius, put = __cordl_internal_set__innerCircleRadius)) float_t _innerCircleRadius;
+
+  /// @brief Field _lobbyStateDataModel, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__lobbyStateDataModel, put = __cordl_internal_set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
 
   /// @brief Field _minOuterCircleRadius, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__centerObjectTransform();
+  /// @brief Method ActivateCenterStageManager, addr 0x23a5ba4, size 0x24, virtual false, abstract: false, final false
+  inline void ActivateCenterStageManager();
+
+  /// @brief Method DeactivateCenterStageManager, addr 0x23a5cc0, size 0x24, virtual false, abstract: false, final false
+  inline void DeactivateCenterStageManager();
+
+  /// @brief Method Init, addr 0x23a5b9c, size 0x8, virtual false, abstract: false, final false
+  inline void Init(float_t innerCircleRadius, float_t minOuterCircleRadius);
+
+  static inline ::GlobalNamespace::MultiplayerLobbyCenterStageManager* New_ctor();
+
+  /// @brief Method RecalculateCenterPosition, addr 0x23a5bc8, size 0xf8, virtual false, abstract: false, final false
+  inline void RecalculateCenterPosition();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__centerObjectTransform() const;
 
-  constexpr void __cordl_internal_set__centerObjectTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::GlobalNamespace::CenterStageScreenController>& __cordl_internal_get__centerStageScreenController();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__centerObjectTransform();
 
   constexpr ::UnityW<::GlobalNamespace::CenterStageScreenController> const& __cordl_internal_get__centerStageScreenController() const;
 
-  constexpr void __cordl_internal_set__centerStageScreenController(::UnityW<::GlobalNamespace::CenterStageScreenController> value);
+  constexpr ::UnityW<::GlobalNamespace::CenterStageScreenController>& __cordl_internal_get__centerStageScreenController();
+
+  constexpr float_t const& __cordl_internal_get__innerCircleRadius() const;
+
+  constexpr float_t& __cordl_internal_get__innerCircleRadius();
 
   constexpr ::GlobalNamespace::ILobbyStateDataModel*& __cordl_internal_get__lobbyStateDataModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __cordl_internal_get__lobbyStateDataModel() const;
 
-  constexpr void __cordl_internal_set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
-
-  constexpr float_t& __cordl_internal_get__innerCircleRadius();
-
-  constexpr float_t const& __cordl_internal_get__innerCircleRadius() const;
-
-  constexpr void __cordl_internal_set__innerCircleRadius(float_t value);
+  constexpr float_t const& __cordl_internal_get__minOuterCircleRadius() const;
 
   constexpr float_t& __cordl_internal_get__minOuterCircleRadius();
 
-  constexpr float_t const& __cordl_internal_get__minOuterCircleRadius() const;
+  constexpr void __cordl_internal_set__centerObjectTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__centerStageScreenController(::UnityW<::GlobalNamespace::CenterStageScreenController> value);
+
+  constexpr void __cordl_internal_set__innerCircleRadius(float_t value);
+
+  constexpr void __cordl_internal_set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
 
   constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
-  /// @brief Method Init, addr 0x22d6ee8, size 0x8, virtual false, abstract: false, final false
-  inline void Init(float_t innerCircleRadius, float_t minOuterCircleRadius);
-
-  /// @brief Method ActivateCenterStageManager, addr 0x22d6ef0, size 0x24, virtual false, abstract: false, final false
-  inline void ActivateCenterStageManager();
-
-  /// @brief Method DeactivateCenterStageManager, addr 0x22d700c, size 0x24, virtual false, abstract: false, final false
-  inline void DeactivateCenterStageManager();
-
-  /// @brief Method RecalculateCenterPosition, addr 0x22d6f14, size 0xf8, virtual false, abstract: false, final false
-  inline void RecalculateCenterPosition();
-
-  static inline ::GlobalNamespace::MultiplayerLobbyCenterStageManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22d7030, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a5ce4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLobbyCenterStageManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterStageManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLobbyCenterStageManager(MultiplayerLobbyCenterStageManager&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLobbyCenterStageManager(MultiplayerLobbyCenterStageManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLobbyCenterStageManager();
-
-public:
   /// @brief Field _centerObjectTransform, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____centerObjectTransform;
 

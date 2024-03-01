@@ -15,8 +15,6 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9211))
 // CS Name: ::UnityEngine.Pool::IObjectPool`1<T>*
 class CORDL_TYPE IObjectPool_1 {
 public:

@@ -39,67 +39,71 @@ MARK_REF_PTR_T(::Zenject::GetFromGameObjectComponentProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10329))
 // CS Name: ::Zenject::GetFromGameObjectComponentProvider*
 class CORDL_TYPE GetFromGameObjectComponentProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _gameObject, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject))::UnityW<::UnityEngine::GameObject> _gameObject;
-
-  /// @brief Field _componentType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType))::System::Type* _componentType;
-
-  /// @brief Field _matchSingle, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__matchSingle, put = __cordl_internal_set__matchSingle)) bool _matchSingle;
-
   __declspec(property(get = get_IsCached)) bool IsCached;
 
   __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
+  /// @brief Field _componentType, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType))::System::Type* _componentType;
+
+  /// @brief Field _gameObject, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject))::UnityW<::UnityEngine::GameObject> _gameObject;
+
+  /// @brief Field _matchSingle, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__matchSingle, put = __cordl_internal_set__matchSingle)) bool _matchSingle;
+
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Convert to "::Zenject::IProvider"
-  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x3016518, size 0x1b4, virtual true, abstract: false, final true
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__gameObject();
+  /// @brief Method GetInstanceType, addr 0x3016510, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__gameObject() const;
-
-  constexpr void __cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value);
+  static inline ::Zenject::GetFromGameObjectComponentProvider* New_ctor(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, bool matchSingle);
 
   constexpr ::System::Type*& __cordl_internal_get__componentType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__componentType() const;
 
-  constexpr void __cordl_internal_set__componentType(::System::Type* value);
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__gameObject() const;
 
-  constexpr bool& __cordl_internal_get__matchSingle();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__gameObject();
 
   constexpr bool const& __cordl_internal_get__matchSingle() const;
 
+  constexpr bool& __cordl_internal_get__matchSingle();
+
+  constexpr void __cordl_internal_set__componentType(::System::Type* value);
+
+  constexpr void __cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value);
+
   constexpr void __cordl_internal_set__matchSingle(bool value);
 
-  static inline ::Zenject::GetFromGameObjectComponentProvider* New_ctor(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, bool matchSingle);
-
-  /// @brief Method .ctor, addr 0x2f22d9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30164c4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, bool matchSingle);
 
-  /// @brief Method get_IsCached, addr 0x2f22dd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x3016500, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f22de0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x3016508, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType, addr 0x2f22de8, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+  /// @brief Convert to "::Zenject::IProvider"
+  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f22df0, size 0x1b4, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
-                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GetFromGameObjectComponentProvider();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GetFromGameObjectComponentProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GetFromGameObjectComponentProvider(GetFromGameObjectComponentProvider&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetFromGameObjectComponentProvider(GetFromGameObjectComponentProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetFromGameObjectComponentProvider();
-
-public:
   /// @brief Field _gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____gameObject;
 

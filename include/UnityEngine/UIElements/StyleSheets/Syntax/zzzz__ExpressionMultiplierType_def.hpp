@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierT
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6755))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionMultiplierType
 struct CORDL_TYPE ExpressionMultiplierType {
 public:
@@ -39,39 +37,44 @@ public:
     return static_cast<__ExpressionMultiplierType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ExpressionMultiplierType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__ExpressionMultiplierType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ExpressionMultiplierType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ExpressionMultiplierType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field GroupAtLeastOne value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const GroupAtLeastOne;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const None;
 
-  /// @brief Field ZeroOrMore value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const ZeroOrMore;
-
   /// @brief Field OneOrMore value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const OneOrMore;
-
-  /// @brief Field ZeroOrOne value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const ZeroOrOne;
-
-  /// @brief Field Ranges value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const Ranges;
 
   /// @brief Field OneOrMoreComma value: static_cast<int32_t>(0x5)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const OneOrMoreComma;
 
-  /// @brief Field GroupAtLeastOne value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const GroupAtLeastOne;
+  /// @brief Field Ranges value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const Ranges;
+
+  /// @brief Field ZeroOrMore value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const ZeroOrMore;
+
+  /// @brief Field ZeroOrOne value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType const ZeroOrOne;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

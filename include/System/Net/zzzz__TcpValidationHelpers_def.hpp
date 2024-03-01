@@ -15,15 +15,19 @@ MARK_REF_PTR_T(::System::Net::TcpValidationHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7035))
 // CS Name: ::System.Net::TcpValidationHelpers*
 class CORDL_TYPE TcpValidationHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidatePortNumber, addr 0x298dcf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidatePortNumber, addr 0x2a74dcc, size 0xc, virtual false, abstract: false, final false
   static inline bool ValidatePortNumber(int32_t port);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TcpValidationHelpers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TcpValidationHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TcpValidationHelpers(TcpValidationHelpers&&) = delete;
@@ -32,12 +36,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TcpValidationHelpers(TcpValidationHelpers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TcpValidationHelpers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

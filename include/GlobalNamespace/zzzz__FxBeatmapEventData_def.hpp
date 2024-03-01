@@ -16,47 +16,51 @@ MARK_REF_PTR_T(::GlobalNamespace::FxBeatmapEventData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15111))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15115))
 // CS Name: ::FxBeatmapEventData*
 class CORDL_TYPE FxBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
   // Declarations
-  /// @brief Field groupId, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_groupId, put = __cordl_internal_set_groupId)) int32_t groupId;
-
   /// @brief Field elementId, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_elementId, put = __cordl_internal_set_elementId)) int32_t elementId;
+
+  /// @brief Field groupId, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_groupId, put = __cordl_internal_set_groupId)) int32_t groupId;
 
   /// @brief Field usePreviousEventValue, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_usePreviousEventValue, put = __cordl_internal_set_usePreviousEventValue)) bool usePreviousEventValue;
 
-  constexpr int32_t& __cordl_internal_get_groupId();
+  static inline ::GlobalNamespace::FxBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue);
 
-  constexpr int32_t const& __cordl_internal_get_groupId() const;
-
-  constexpr void __cordl_internal_set_groupId(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_elementId();
+  /// @brief Method SubtypeIdentifier, addr 0xe543d8, size 0xc, virtual false, abstract: false, final false
+  static inline int32_t SubtypeIdentifier(int32_t groupId, int32_t elementId);
 
   constexpr int32_t const& __cordl_internal_get_elementId() const;
 
-  constexpr void __cordl_internal_set_elementId(int32_t value);
+  constexpr int32_t& __cordl_internal_get_elementId();
 
-  constexpr bool& __cordl_internal_get_usePreviousEventValue();
+  constexpr int32_t const& __cordl_internal_get_groupId() const;
+
+  constexpr int32_t& __cordl_internal_get_groupId();
 
   constexpr bool const& __cordl_internal_get_usePreviousEventValue() const;
 
+  constexpr bool& __cordl_internal_get_usePreviousEventValue();
+
+  constexpr void __cordl_internal_set_elementId(int32_t value);
+
+  constexpr void __cordl_internal_set_groupId(int32_t value);
+
   constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
-  static inline ::GlobalNamespace::FxBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue);
-
-  /// @brief Method .ctor, addr 0xe0e810, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe54374, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue);
 
-  /// @brief Method SubtypeIdentifier, addr 0xe0e874, size 0xc, virtual false, abstract: false, final false
-  static inline int32_t SubtypeIdentifier(int32_t groupId, int32_t elementId);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FxBeatmapEventData();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FxBeatmapEventData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FxBeatmapEventData(FxBeatmapEventData&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FxBeatmapEventData(FxBeatmapEventData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FxBeatmapEventData();
-
-public:
   /// @brief Field groupId, offset: 0x30, size: 0x4, def value: None
   int32_t ___groupId;
 

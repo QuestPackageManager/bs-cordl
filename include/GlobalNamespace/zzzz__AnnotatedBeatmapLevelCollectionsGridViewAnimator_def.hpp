@@ -29,152 +29,156 @@ MARK_REF_PTR_T(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimat
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(16199))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5069))
 // CS Name: ::AnnotatedBeatmapLevelCollectionsGridViewAnimator*
 class CORDL_TYPE AnnotatedBeatmapLevelCollectionsGridViewAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _viewportTransform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__viewportTransform, put = __cordl_internal_set__viewportTransform))::UnityW<::UnityEngine::RectTransform> _viewportTransform;
+  /// @brief Field _contentPositionTween, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__contentPositionTween, put = __cordl_internal_set__contentPositionTween))::Tweening::Vector2Tween* _contentPositionTween;
 
   /// @brief Field _contentTransform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__contentTransform, put = __cordl_internal_set__contentTransform))::UnityW<::UnityEngine::RectTransform> _contentTransform;
 
-  /// @brief Field _transitionDuration, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__transitionDuration, put = __cordl_internal_set__transitionDuration)) float_t _transitionDuration;
-
   /// @brief Field _easeType, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType))::GlobalNamespace::EaseType _easeType;
-
-  /// @brief Field _tweeningManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
-
-  /// @brief Field _rowHeight, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__rowHeight, put = __cordl_internal_set__rowHeight)) float_t _rowHeight;
 
   /// @brief Field _rowCount, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__rowCount, put = __cordl_internal_set__rowCount)) int32_t _rowCount;
 
+  /// @brief Field _rowHeight, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__rowHeight, put = __cordl_internal_set__rowHeight)) float_t _rowHeight;
+
   /// @brief Field _selectedRow, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__selectedRow, put = __cordl_internal_set__selectedRow)) int32_t _selectedRow;
+
+  /// @brief Field _transitionDuration, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__transitionDuration, put = __cordl_internal_set__transitionDuration)) float_t _transitionDuration;
+
+  /// @brief Field _tweeningManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   /// @brief Field _viewportSizeTween, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__viewportSizeTween, put = __cordl_internal_set__viewportSizeTween))::Tweening::Vector2Tween* _viewportSizeTween;
 
-  /// @brief Field _contentPositionTween, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__contentPositionTween, put = __cordl_internal_set__contentPositionTween))::Tweening::Vector2Tween* _contentPositionTween;
+  /// @brief Field _viewportTransform, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__viewportTransform, put = __cordl_internal_set__viewportTransform))::UnityW<::UnityEngine::RectTransform> _viewportTransform;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__viewportTransform();
+  /// @brief Method AnimateClose, addr 0x23dc4f4, size 0x308, virtual false, abstract: false, final false
+  inline void AnimateClose(int32_t selectedRow, bool animated);
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__viewportTransform() const;
+  /// @brief Method AnimateOpen, addr 0x23dc158, size 0x334, virtual false, abstract: false, final false
+  inline void AnimateOpen(bool animated);
 
-  constexpr void __cordl_internal_set__viewportTransform(::UnityW<::UnityEngine::RectTransform> value);
+  /// @brief Method DespawnAllActiveTweens, addr 0x23dd7c8, size 0xc8, virtual false, abstract: false, final false
+  inline void DespawnAllActiveTweens();
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__contentTransform();
+  /// @brief Method GetContentYOffset, addr 0x23dd798, size 0x2c, virtual false, abstract: false, final false
+  inline float_t GetContentYOffset();
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__contentTransform() const;
+  /// @brief Method Init, addr 0x23db3b0, size 0xb0, virtual false, abstract: false, final false
+  inline void Init(float_t rowHeight, int32_t rowCount);
 
-  constexpr void __cordl_internal_set__contentTransform(::UnityW<::UnityEngine::RectTransform> value);
+  static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator* New_ctor();
 
-  constexpr float_t& __cordl_internal_get__transitionDuration();
+  /// @brief Method OnDestroy, addr 0x23dd7c4, size 0x4, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr float_t const& __cordl_internal_get__transitionDuration() const;
+  /// @brief Method ScrollToRowIdxInstant, addr 0x23dc0a8, size 0x5c, virtual false, abstract: false, final false
+  inline void ScrollToRowIdxInstant(int32_t selectedRow);
 
-  constexpr void __cordl_internal_set__transitionDuration(float_t value);
+  /// @brief Method <AnimateClose>b__14_0, addr 0x23dd9f0, size 0x1c, virtual false, abstract: false, final false
+  inline void _AnimateClose_b__14_0(::UnityEngine::Vector2 size);
 
-  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
+  /// @brief Method <AnimateClose>b__14_1, addr 0x23dda0c, size 0x88, virtual false, abstract: false, final false
+  inline void _AnimateClose_b__14_1();
 
-  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
+  /// @brief Method <AnimateClose>b__14_2, addr 0x23dda94, size 0x1c, virtual false, abstract: false, final false
+  inline void _AnimateClose_b__14_2(::UnityEngine::Vector2 pos);
 
-  constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
+  /// @brief Method <AnimateClose>b__14_3, addr 0x23ddab0, size 0x88, virtual false, abstract: false, final false
+  inline void _AnimateClose_b__14_3();
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+  /// @brief Method <AnimateOpen>b__13_0, addr 0x23dd8a8, size 0x1c, virtual false, abstract: false, final false
+  inline void _AnimateOpen_b__13_0(::UnityEngine::Vector2 size);
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+  /// @brief Method <AnimateOpen>b__13_1, addr 0x23dd8c4, size 0x88, virtual false, abstract: false, final false
+  inline void _AnimateOpen_b__13_1();
 
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
+  /// @brief Method <AnimateOpen>b__13_2, addr 0x23dd94c, size 0x1c, virtual false, abstract: false, final false
+  inline void _AnimateOpen_b__13_2(::UnityEngine::Vector2 pos);
 
-  constexpr float_t& __cordl_internal_get__rowHeight();
-
-  constexpr float_t const& __cordl_internal_get__rowHeight() const;
-
-  constexpr void __cordl_internal_set__rowHeight(float_t value);
-
-  constexpr int32_t& __cordl_internal_get__rowCount();
-
-  constexpr int32_t const& __cordl_internal_get__rowCount() const;
-
-  constexpr void __cordl_internal_set__rowCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__selectedRow();
-
-  constexpr int32_t const& __cordl_internal_get__selectedRow() const;
-
-  constexpr void __cordl_internal_set__selectedRow(int32_t value);
-
-  constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__viewportSizeTween();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector2Tween*> const& __cordl_internal_get__viewportSizeTween() const;
-
-  constexpr void __cordl_internal_set__viewportSizeTween(::Tweening::Vector2Tween* value);
+  /// @brief Method <AnimateOpen>b__13_3, addr 0x23dd968, size 0x88, virtual false, abstract: false, final false
+  inline void _AnimateOpen_b__13_3();
 
   constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__contentPositionTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector2Tween*> const& __cordl_internal_get__contentPositionTween() const;
 
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__contentTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__contentTransform();
+
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
+
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
+
+  constexpr int32_t const& __cordl_internal_get__rowCount() const;
+
+  constexpr int32_t& __cordl_internal_get__rowCount();
+
+  constexpr float_t const& __cordl_internal_get__rowHeight() const;
+
+  constexpr float_t& __cordl_internal_get__rowHeight();
+
+  constexpr int32_t const& __cordl_internal_get__selectedRow() const;
+
+  constexpr int32_t& __cordl_internal_get__selectedRow();
+
+  constexpr float_t const& __cordl_internal_get__transitionDuration() const;
+
+  constexpr float_t& __cordl_internal_get__transitionDuration();
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+
+  constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__viewportSizeTween();
+
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector2Tween*> const& __cordl_internal_get__viewportSizeTween() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__viewportTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__viewportTransform();
+
   constexpr void __cordl_internal_set__contentPositionTween(::Tweening::Vector2Tween* value);
 
-  /// @brief Method Init, addr 0x230d4d4, size 0xb0, virtual false, abstract: false, final false
-  inline void Init(float_t rowHeight, int32_t rowCount);
+  constexpr void __cordl_internal_set__contentTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method OnDestroy, addr 0x230f8e8, size 0x4, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method ScrollToRowIdxInstant, addr 0x230e1cc, size 0x5c, virtual false, abstract: false, final false
-  inline void ScrollToRowIdxInstant(int32_t selectedRow);
+  constexpr void __cordl_internal_set__rowCount(int32_t value);
 
-  /// @brief Method AnimateOpen, addr 0x230e27c, size 0x334, virtual false, abstract: false, final false
-  inline void AnimateOpen(bool animated);
+  constexpr void __cordl_internal_set__rowHeight(float_t value);
 
-  /// @brief Method AnimateClose, addr 0x230e618, size 0x308, virtual false, abstract: false, final false
-  inline void AnimateClose(int32_t selectedRow, bool animated);
+  constexpr void __cordl_internal_set__selectedRow(int32_t value);
 
-  /// @brief Method DespawnAllActiveTweens, addr 0x230f8ec, size 0xc8, virtual false, abstract: false, final false
-  inline void DespawnAllActiveTweens();
+  constexpr void __cordl_internal_set__transitionDuration(float_t value);
 
-  /// @brief Method GetContentYOffset, addr 0x230f8bc, size 0x2c, virtual false, abstract: false, final false
-  inline float_t GetContentYOffset();
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator* New_ctor();
+  constexpr void __cordl_internal_set__viewportSizeTween(::Tweening::Vector2Tween* value);
 
-  /// @brief Method .ctor, addr 0x230f9b4, size 0x18, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__viewportTransform(::UnityW<::UnityEngine::RectTransform> value);
+
+  /// @brief Method .ctor, addr 0x23dd890, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AnimateOpen>b__13_0, addr 0x230f9cc, size 0x1c, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__13_0(::UnityEngine::Vector2 size);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnnotatedBeatmapLevelCollectionsGridViewAnimator();
 
-  /// @brief Method <AnimateOpen>b__13_1, addr 0x230f9e8, size 0x88, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__13_1();
-
-  /// @brief Method <AnimateOpen>b__13_2, addr 0x230fa70, size 0x1c, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__13_2(::UnityEngine::Vector2 pos);
-
-  /// @brief Method <AnimateOpen>b__13_3, addr 0x230fa8c, size 0x88, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__13_3();
-
-  /// @brief Method <AnimateClose>b__14_0, addr 0x230fb14, size 0x1c, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__14_0(::UnityEngine::Vector2 size);
-
-  /// @brief Method <AnimateClose>b__14_1, addr 0x230fb30, size 0x88, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__14_1();
-
-  /// @brief Method <AnimateClose>b__14_2, addr 0x230fbb8, size 0x1c, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__14_2(::UnityEngine::Vector2 pos);
-
-  /// @brief Method <AnimateClose>b__14_3, addr 0x230fbd4, size 0x88, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__14_3();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AnnotatedBeatmapLevelCollectionsGridViewAnimator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimator&&) = delete;
@@ -183,12 +187,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnnotatedBeatmapLevelCollectionsGridViewAnimator();
-
-public:
   /// @brief Field _viewportTransform, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____viewportTransform;
 

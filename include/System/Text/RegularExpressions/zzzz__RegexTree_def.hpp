@@ -27,17 +27,12 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexTree);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6935))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6941))
 // CS Name: ::System.Text.RegularExpressions::RegexTree*
 class CORDL_TYPE RegexTree : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field Root, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Root, put = __cordl_internal_set_Root))::System::Text::RegularExpressions::RegexNode* Root;
-
-  /// @brief Field Caps, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Caps, put = __cordl_internal_set_Caps))::System::Collections::Hashtable* Caps;
+  /// @brief Field CapNames, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_CapNames, put = __cordl_internal_set_CapNames))::System::Collections::Hashtable* CapNames;
 
   /// @brief Field CapNumList, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_CapNumList, put = __cordl_internal_set_CapNumList))::ArrayW<int32_t, ::Array<int32_t>*> CapNumList;
@@ -45,8 +40,8 @@ public:
   /// @brief Field CapTop, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_CapTop, put = __cordl_internal_set_CapTop)) int32_t CapTop;
 
-  /// @brief Field CapNames, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_CapNames, put = __cordl_internal_set_CapNames))::System::Collections::Hashtable* CapNames;
+  /// @brief Field Caps, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_Caps, put = __cordl_internal_set_Caps))::System::Collections::Hashtable* Caps;
 
   /// @brief Field CapsList, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_CapsList, put = __cordl_internal_set_CapsList))::ArrayW<::StringW, ::Array<::StringW>*> CapsList;
@@ -54,56 +49,65 @@ public:
   /// @brief Field Options, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_Options, put = __cordl_internal_set_Options))::System::Text::RegularExpressions::RegexOptions Options;
 
-  constexpr ::System::Text::RegularExpressions::RegexNode*& __cordl_internal_get_Root();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __cordl_internal_get_Root() const;
-
-  constexpr void __cordl_internal_set_Root(::System::Text::RegularExpressions::RegexNode* value);
-
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Caps();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Caps() const;
-
-  constexpr void __cordl_internal_set_Caps(::System::Collections::Hashtable* value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_CapNumList();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_CapNumList() const;
-
-  constexpr void __cordl_internal_set_CapNumList(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_CapTop();
-
-  constexpr int32_t const& __cordl_internal_get_CapTop() const;
-
-  constexpr void __cordl_internal_set_CapTop(int32_t value);
-
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_CapNames();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_CapNames() const;
-
-  constexpr void __cordl_internal_set_CapNames(::System::Collections::Hashtable* value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_CapsList();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_CapsList() const;
-
-  constexpr void __cordl_internal_set_CapsList(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr ::System::Text::RegularExpressions::RegexOptions& __cordl_internal_get_Options();
-
-  constexpr ::System::Text::RegularExpressions::RegexOptions const& __cordl_internal_get_Options() const;
-
-  constexpr void __cordl_internal_set_Options(::System::Text::RegularExpressions::RegexOptions value);
+  /// @brief Field Root, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_Root, put = __cordl_internal_set_Root))::System::Text::RegularExpressions::RegexNode* Root;
 
   static inline ::System::Text::RegularExpressions::RegexTree* New_ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps,
                                                                         ::ArrayW<int32_t, ::Array<int32_t>*> capNumList, int32_t capTop, ::System::Collections::Hashtable* capNames,
                                                                         ::ArrayW<::StringW, ::Array<::StringW>*> capsList, ::System::Text::RegularExpressions::RegexOptions options);
 
-  /// @brief Method .ctor, addr 0x29684e4, size 0x68, virtual false, abstract: false, final false
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_CapNames();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_CapNames() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_CapNumList() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_CapNumList();
+
+  constexpr int32_t const& __cordl_internal_get_CapTop() const;
+
+  constexpr int32_t& __cordl_internal_get_CapTop();
+
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Caps();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Caps() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_CapsList() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_CapsList();
+
+  constexpr ::System::Text::RegularExpressions::RegexOptions const& __cordl_internal_get_Options() const;
+
+  constexpr ::System::Text::RegularExpressions::RegexOptions& __cordl_internal_get_Options();
+
+  constexpr ::System::Text::RegularExpressions::RegexNode*& __cordl_internal_get_Root();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __cordl_internal_get_Root() const;
+
+  constexpr void __cordl_internal_set_CapNames(::System::Collections::Hashtable* value);
+
+  constexpr void __cordl_internal_set_CapNumList(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_CapTop(int32_t value);
+
+  constexpr void __cordl_internal_set_Caps(::System::Collections::Hashtable* value);
+
+  constexpr void __cordl_internal_set_CapsList(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set_Options(::System::Text::RegularExpressions::RegexOptions value);
+
+  constexpr void __cordl_internal_set_Root(::System::Text::RegularExpressions::RegexNode* value);
+
+  /// @brief Method .ctor, addr 0x2a4e13c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps, ::ArrayW<int32_t, ::Array<int32_t>*> capNumList, int32_t capTop,
                     ::System::Collections::Hashtable* capNames, ::ArrayW<::StringW, ::Array<::StringW>*> capsList, ::System::Text::RegularExpressions::RegexOptions options);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RegexTree();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RegexTree", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RegexTree(RegexTree&&) = delete;
@@ -112,12 +116,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RegexTree(RegexTree const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RegexTree();
-
-public:
   /// @brief Field Root, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::RegexNode* ___Root;
 

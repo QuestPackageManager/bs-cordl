@@ -35,17 +35,18 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsEnvelopedDataParser);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(620))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(635))
 // CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedDataParser*
 class CORDL_TYPE CmsEnvelopedDataParser : public ::Org::BouncyCastle::Cms::CmsContentInfoParser {
 public:
   // Declarations
-  /// @brief Field recipientInfoStore, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore))::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
+  __declspec(property(get = get_EncryptionAlgOid))::StringW EncryptionAlgOid;
 
-  /// @brief Field envelopedData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_envelopedData, put = __cordl_internal_set_envelopedData))::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* envelopedData;
+  __declspec(property(get = get_EncryptionAlgParams))::Org::BouncyCastle::Asn1::Asn1Object* EncryptionAlgParams;
+
+  __declspec(property(get = get_EncryptionAlgorithmID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* EncryptionAlgorithmID;
+
+  /// @brief Field _attrNotRead, offset 0x40, size 0x1
+  __declspec(property(get = __cordl_internal_get__attrNotRead, put = __cordl_internal_set__attrNotRead)) bool _attrNotRead;
 
   /// @brief Field _encAlg, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__encAlg, put = __cordl_internal_set__encAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _encAlg;
@@ -53,70 +54,73 @@ public:
   /// @brief Field _unprotectedAttributes, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__unprotectedAttributes, put = __cordl_internal_set__unprotectedAttributes))::Org::BouncyCastle::Asn1::Cms::AttributeTable* _unprotectedAttributes;
 
-  /// @brief Field _attrNotRead, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get__attrNotRead, put = __cordl_internal_set__attrNotRead)) bool _attrNotRead;
+  /// @brief Field envelopedData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_envelopedData, put = __cordl_internal_set_envelopedData))::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* envelopedData;
 
-  __declspec(property(get = get_EncryptionAlgorithmID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* EncryptionAlgorithmID;
+  /// @brief Field recipientInfoStore, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore))::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
 
-  __declspec(property(get = get_EncryptionAlgOid))::StringW EncryptionAlgOid;
+  /// @brief Method GetRecipientInfos, addr 0x1250868, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  __declspec(property(get = get_EncryptionAlgParams))::Org::BouncyCastle::Asn1::Asn1Object* EncryptionAlgParams;
+  /// @brief Method GetUnprotectedAttributes, addr 0x1250870, size 0x24c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnprotectedAttributes();
 
-  constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore*& __cordl_internal_get_recipientInfoStore();
+  static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> const& __cordl_internal_get_recipientInfoStore() const;
+  static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* New_ctor(::System::IO::Stream* envelopedData);
 
-  constexpr void __cordl_internal_set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore* value);
+  constexpr bool const& __cordl_internal_get__attrNotRead() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*& __cordl_internal_get_envelopedData();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*> const& __cordl_internal_get_envelopedData() const;
-
-  constexpr void __cordl_internal_set_envelopedData(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* value);
+  constexpr bool& __cordl_internal_get__attrNotRead();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get__encAlg();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get__encAlg() const;
 
-  constexpr void __cordl_internal_set__encAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __cordl_internal_get__unprotectedAttributes();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __cordl_internal_get__unprotectedAttributes() const;
 
-  constexpr void __cordl_internal_set__unprotectedAttributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
+  constexpr ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*& __cordl_internal_get_envelopedData();
 
-  constexpr bool& __cordl_internal_get__attrNotRead();
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser*> const& __cordl_internal_get_envelopedData() const;
 
-  constexpr bool const& __cordl_internal_get__attrNotRead() const;
+  constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore*& __cordl_internal_get_recipientInfoStore();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> const& __cordl_internal_get_recipientInfoStore() const;
 
   constexpr void __cordl_internal_set__attrNotRead(bool value);
 
-  static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
+  constexpr void __cordl_internal_set__encAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x120d4bc, size 0x78, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__unprotectedAttributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
+
+  constexpr void __cordl_internal_set_envelopedData(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* value);
+
+  constexpr void __cordl_internal_set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore* value);
+
+  /// @brief Method .ctor, addr 0x125048c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
-  static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* New_ctor(::System::IO::Stream* envelopedData);
-
-  /// @brief Method .ctor, addr 0x120d534, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1250504, size 0x2f8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* envelopedData);
 
-  /// @brief Method get_EncryptionAlgorithmID, addr 0x120d82c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID();
-
-  /// @brief Method get_EncryptionAlgOid, addr 0x120d834, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgOid, addr 0x1250804, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_EncryptionAlgOid();
 
-  /// @brief Method get_EncryptionAlgParams, addr 0x120d860, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgParams, addr 0x1250830, size 0x38, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_EncryptionAlgParams();
 
-  /// @brief Method GetRecipientInfos, addr 0x120d898, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
+  /// @brief Method get_EncryptionAlgorithmID, addr 0x12507fc, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID();
 
-  /// @brief Method GetUnprotectedAttributes, addr 0x120d8a0, size 0x24c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnprotectedAttributes();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsEnvelopedDataParser();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedDataParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsEnvelopedDataParser(CmsEnvelopedDataParser&&) = delete;
@@ -125,12 +129,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsEnvelopedDataParser(CmsEnvelopedDataParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsEnvelopedDataParser();
-
-public:
   /// @brief Field recipientInfoStore, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Cms::RecipientInformationStore* ___recipientInfoStore;
 

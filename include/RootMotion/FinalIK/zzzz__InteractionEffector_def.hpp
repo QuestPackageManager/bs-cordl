@@ -44,8 +44,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::InteractionEffector);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12469))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12493)) CS Name: ::RootMotion.FinalIK::InteractionEffector*
+// CS Name: ::RootMotion.FinalIK::InteractionEffector*
 class CORDL_TYPE InteractionEffector : public ::System::Object {
 public:
   // Declarations
@@ -53,42 +52,24 @@ public:
   __declspec(property(get = __cordl_internal_get__effectorType_k__BackingField,
                       put = __cordl_internal_set__effectorType_k__BackingField))::RootMotion::FinalIK::FullBodyBipedEffector _effectorType_k__BackingField;
 
-  /// @brief Field <isPaused>k__BackingField, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get__isPaused_k__BackingField, put = __cordl_internal_set__isPaused_k__BackingField)) bool _isPaused_k__BackingField;
-
   /// @brief Field <interactionObject>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__interactionObject_k__BackingField,
                       put = __cordl_internal_set__interactionObject_k__BackingField))::UnityW<::RootMotion::FinalIK::InteractionObject> _interactionObject_k__BackingField;
 
-  /// @brief Field poser, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_poser, put = __cordl_internal_set_poser))::UnityW<::RootMotion::FinalIK::Poser> poser;
+  /// @brief Field <isPaused>k__BackingField, offset 0x14, size 0x1
+  __declspec(property(get = __cordl_internal_get__isPaused_k__BackingField, put = __cordl_internal_set__isPaused_k__BackingField)) bool _isPaused_k__BackingField;
 
-  /// @brief Field effector, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_effector, put = __cordl_internal_set_effector))::RootMotion::FinalIK::IKEffector* effector;
+  /// @brief Field bendGoalWeightUsed, offset 0x66, size 0x1
+  __declspec(property(get = __cordl_internal_get_bendGoalWeightUsed, put = __cordl_internal_set_bendGoalWeightUsed)) bool bendGoalWeightUsed;
 
-  /// @brief Field timer, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_timer, put = __cordl_internal_set_timer)) float_t timer;
-
-  /// @brief Field length, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
-
-  /// @brief Field weight, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
-
-  /// @brief Field fadeInSpeed, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_fadeInSpeed, put = __cordl_internal_set_fadeInSpeed)) float_t fadeInSpeed;
+  /// @brief Field defaultBendGoalWeight, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_defaultBendGoalWeight, put = __cordl_internal_set_defaultBendGoalWeight)) float_t defaultBendGoalWeight;
 
   /// @brief Field defaultPositionWeight, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_defaultPositionWeight, put = __cordl_internal_set_defaultPositionWeight)) float_t defaultPositionWeight;
 
-  /// @brief Field defaultRotationWeight, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_defaultRotationWeight, put = __cordl_internal_set_defaultRotationWeight)) float_t defaultRotationWeight;
-
   /// @brief Field defaultPull, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_defaultPull, put = __cordl_internal_set_defaultPull)) float_t defaultPull;
-
-  /// @brief Field defaultReach, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get_defaultReach, put = __cordl_internal_set_defaultReach)) float_t defaultReach;
 
   /// @brief Field defaultPush, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_defaultPush, put = __cordl_internal_set_defaultPush)) float_t defaultPush;
@@ -96,38 +77,43 @@ public:
   /// @brief Field defaultPushParent, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_defaultPushParent, put = __cordl_internal_set_defaultPushParent)) float_t defaultPushParent;
 
-  /// @brief Field defaultBendGoalWeight, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_defaultBendGoalWeight, put = __cordl_internal_set_defaultBendGoalWeight)) float_t defaultBendGoalWeight;
+  /// @brief Field defaultReach, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get_defaultReach, put = __cordl_internal_set_defaultReach)) float_t defaultReach;
 
-  /// @brief Field resetTimer, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get_resetTimer, put = __cordl_internal_set_resetTimer)) float_t resetTimer;
-
-  /// @brief Field positionWeightUsed, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get_positionWeightUsed, put = __cordl_internal_set_positionWeightUsed)) bool positionWeightUsed;
-
-  /// @brief Field rotationWeightUsed, offset 0x61, size 0x1
-  __declspec(property(get = __cordl_internal_get_rotationWeightUsed, put = __cordl_internal_set_rotationWeightUsed)) bool rotationWeightUsed;
-
-  /// @brief Field pullUsed, offset 0x62, size 0x1
-  __declspec(property(get = __cordl_internal_get_pullUsed, put = __cordl_internal_set_pullUsed)) bool pullUsed;
-
-  /// @brief Field reachUsed, offset 0x63, size 0x1
-  __declspec(property(get = __cordl_internal_get_reachUsed, put = __cordl_internal_set_reachUsed)) bool reachUsed;
-
-  /// @brief Field pushUsed, offset 0x64, size 0x1
-  __declspec(property(get = __cordl_internal_get_pushUsed, put = __cordl_internal_set_pushUsed)) bool pushUsed;
-
-  /// @brief Field pushParentUsed, offset 0x65, size 0x1
-  __declspec(property(get = __cordl_internal_get_pushParentUsed, put = __cordl_internal_set_pushParentUsed)) bool pushParentUsed;
-
-  /// @brief Field bendGoalWeightUsed, offset 0x66, size 0x1
-  __declspec(property(get = __cordl_internal_get_bendGoalWeightUsed, put = __cordl_internal_set_bendGoalWeightUsed)) bool bendGoalWeightUsed;
-
-  /// @brief Field pickedUp, offset 0x67, size 0x1
-  __declspec(property(get = __cordl_internal_get_pickedUp, put = __cordl_internal_set_pickedUp)) bool pickedUp;
+  /// @brief Field defaultRotationWeight, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_defaultRotationWeight, put = __cordl_internal_set_defaultRotationWeight)) float_t defaultRotationWeight;
 
   /// @brief Field defaults, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get_defaults, put = __cordl_internal_set_defaults)) bool defaults;
+
+  /// @brief Field effector, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_effector, put = __cordl_internal_set_effector))::RootMotion::FinalIK::IKEffector* effector;
+
+  __declspec(property(get = get_effectorType, put = set_effectorType))::RootMotion::FinalIK::FullBodyBipedEffector effectorType;
+
+  /// @brief Field fadeInSpeed, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_fadeInSpeed, put = __cordl_internal_set_fadeInSpeed)) float_t fadeInSpeed;
+
+  __declspec(property(get = get_inInteraction)) bool inInteraction;
+
+  __declspec(property(get = get_interactionObject, put = set_interactionObject))::UnityW<::RootMotion::FinalIK::InteractionObject> interactionObject;
+
+  /// @brief Field interactionSystem, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_interactionSystem, put = __cordl_internal_set_interactionSystem))::UnityW<::RootMotion::FinalIK::InteractionSystem> interactionSystem;
+
+  /// @brief Field interactionTarget, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_interactionTarget, put = __cordl_internal_set_interactionTarget))::UnityW<::RootMotion::FinalIK::InteractionTarget> interactionTarget;
+
+  __declspec(property(get = get_isPaused, put = set_isPaused)) bool isPaused;
+
+  /// @brief Field length, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
+
+  /// @brief Field pausePositionRelative, offset 0x78, size 0xc
+  __declspec(property(get = __cordl_internal_get_pausePositionRelative, put = __cordl_internal_set_pausePositionRelative))::UnityEngine::Vector3 pausePositionRelative;
+
+  /// @brief Field pauseRotationRelative, offset 0x94, size 0x10
+  __declspec(property(get = __cordl_internal_get_pauseRotationRelative, put = __cordl_internal_set_pauseRotationRelative))::UnityEngine::Quaternion pauseRotationRelative;
 
   /// @brief Field pickUpOnPostFBBIK, offset 0x69, size 0x1
   __declspec(property(get = __cordl_internal_get_pickUpOnPostFBBIK, put = __cordl_internal_set_pickUpOnPostFBBIK)) bool pickUpOnPostFBBIK;
@@ -135,318 +121,337 @@ public:
   /// @brief Field pickUpPosition, offset 0x6c, size 0xc
   __declspec(property(get = __cordl_internal_get_pickUpPosition, put = __cordl_internal_set_pickUpPosition))::UnityEngine::Vector3 pickUpPosition;
 
-  /// @brief Field pausePositionRelative, offset 0x78, size 0xc
-  __declspec(property(get = __cordl_internal_get_pausePositionRelative, put = __cordl_internal_set_pausePositionRelative))::UnityEngine::Vector3 pausePositionRelative;
-
   /// @brief Field pickUpRotation, offset 0x84, size 0x10
   __declspec(property(get = __cordl_internal_get_pickUpRotation, put = __cordl_internal_set_pickUpRotation))::UnityEngine::Quaternion pickUpRotation;
 
-  /// @brief Field pauseRotationRelative, offset 0x94, size 0x10
-  __declspec(property(get = __cordl_internal_get_pauseRotationRelative, put = __cordl_internal_set_pauseRotationRelative))::UnityEngine::Quaternion pauseRotationRelative;
+  /// @brief Field pickedUp, offset 0x67, size 0x1
+  __declspec(property(get = __cordl_internal_get_pickedUp, put = __cordl_internal_set_pickedUp)) bool pickedUp;
 
-  /// @brief Field interactionTarget, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_interactionTarget, put = __cordl_internal_set_interactionTarget))::UnityW<::RootMotion::FinalIK::InteractionTarget> interactionTarget;
+  /// @brief Field poser, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_poser, put = __cordl_internal_set_poser))::UnityW<::RootMotion::FinalIK::Poser> poser;
 
-  /// @brief Field target, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
+  /// @brief Field positionWeightUsed, offset 0x60, size 0x1
+  __declspec(property(get = __cordl_internal_get_positionWeightUsed, put = __cordl_internal_set_positionWeightUsed)) bool positionWeightUsed;
 
-  /// @brief Field triggered, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_triggered, put = __cordl_internal_set_triggered))::System::Collections::Generic::List_1<bool>* triggered;
+  __declspec(property(get = get_progress)) float_t progress;
 
-  /// @brief Field interactionSystem, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_interactionSystem, put = __cordl_internal_set_interactionSystem))::UnityW<::RootMotion::FinalIK::InteractionSystem> interactionSystem;
+  /// @brief Field pullUsed, offset 0x62, size 0x1
+  __declspec(property(get = __cordl_internal_get_pullUsed, put = __cordl_internal_set_pullUsed)) bool pullUsed;
+
+  /// @brief Field pushParentUsed, offset 0x65, size 0x1
+  __declspec(property(get = __cordl_internal_get_pushParentUsed, put = __cordl_internal_set_pushParentUsed)) bool pushParentUsed;
+
+  /// @brief Field pushUsed, offset 0x64, size 0x1
+  __declspec(property(get = __cordl_internal_get_pushUsed, put = __cordl_internal_set_pushUsed)) bool pushUsed;
+
+  /// @brief Field reachUsed, offset 0x63, size 0x1
+  __declspec(property(get = __cordl_internal_get_reachUsed, put = __cordl_internal_set_reachUsed)) bool reachUsed;
+
+  /// @brief Field resetTimer, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get_resetTimer, put = __cordl_internal_set_resetTimer)) float_t resetTimer;
+
+  /// @brief Field rotationWeightUsed, offset 0x61, size 0x1
+  __declspec(property(get = __cordl_internal_get_rotationWeightUsed, put = __cordl_internal_set_rotationWeightUsed)) bool rotationWeightUsed;
 
   /// @brief Field started, offset 0xc8, size 0x1
   __declspec(property(get = __cordl_internal_get_started, put = __cordl_internal_set_started)) bool started;
 
-  __declspec(property(get = get_effectorType, put = set_effectorType))::RootMotion::FinalIK::FullBodyBipedEffector effectorType;
+  /// @brief Field target, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
 
-  __declspec(property(get = get_isPaused, put = set_isPaused)) bool isPaused;
+  /// @brief Field timer, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_timer, put = __cordl_internal_set_timer)) float_t timer;
 
-  __declspec(property(get = get_interactionObject, put = set_interactionObject))::UnityW<::RootMotion::FinalIK::InteractionObject> interactionObject;
+  /// @brief Field triggered, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_triggered, put = __cordl_internal_set_triggered))::System::Collections::Generic::List_1<bool>* triggered;
 
-  __declspec(property(get = get_inInteraction)) bool inInteraction;
+  /// @brief Field weight, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  __declspec(property(get = get_progress)) float_t progress;
+  /// @brief Method Initiate, addr 0x135da9c, size 0x94, virtual false, abstract: false, final false
+  inline void Initiate(::RootMotion::FinalIK::InteractionSystem* interactionSystem);
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __cordl_internal_get__effectorType_k__BackingField();
+  static inline ::RootMotion::FinalIK::InteractionEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+
+  /// @brief Method OnPostFBBIK, addr 0x13600c8, size 0x23c, virtual false, abstract: false, final false
+  inline void OnPostFBBIK();
+
+  /// @brief Method Pause, addr 0x135e078, size 0x120, virtual false, abstract: false, final false
+  inline bool Pause();
+
+  /// @brief Method PickUp, addr 0x135f95c, size 0x218, virtual false, abstract: false, final false
+  inline void PickUp(::UnityEngine::Transform* root);
+
+  /// @brief Method ResetToDefaults, addr 0x135dc9c, size 0x3dc, virtual false, abstract: false, final false
+  inline bool ResetToDefaults(float_t speed);
+
+  /// @brief Method Resume, addr 0x135e198, size 0x54, virtual false, abstract: false, final false
+  inline bool Resume();
+
+  /// @brief Method Start, addr 0x135e1ec, size 0x48c, virtual false, abstract: false, final false
+  inline bool Start(::RootMotion::FinalIK::InteractionObject* interactionObject, ::StringW tag, float_t fadeInTime, bool interrupt);
+
+  /// @brief Method Stop, addr 0x135fd80, size 0x148, virtual false, abstract: false, final false
+  inline bool Stop();
+
+  /// @brief Method StoreDefaults, addr 0x135db30, size 0x16c, virtual false, abstract: false, final false
+  inline void StoreDefaults();
+
+  /// @brief Method TriggerUntriggeredEvents, addr 0x135f73c, size 0x220, virtual false, abstract: false, final false
+  inline void TriggerUntriggeredEvents(bool checkTime, ByRef<bool> pickUp, ByRef<bool> pause);
+
+  /// @brief Method Update, addr 0x135ecf4, size 0x640, virtual false, abstract: false, final false
+  inline void Update(::UnityEngine::Transform* root, float_t speed);
 
   constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __cordl_internal_get__effectorType_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__effectorType_k__BackingField(::RootMotion::FinalIK::FullBodyBipedEffector value);
-
-  constexpr bool& __cordl_internal_get__isPaused_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__isPaused_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__isPaused_k__BackingField(bool value);
-
-  constexpr ::UnityW<::RootMotion::FinalIK::InteractionObject>& __cordl_internal_get__interactionObject_k__BackingField();
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __cordl_internal_get__effectorType_k__BackingField();
 
   constexpr ::UnityW<::RootMotion::FinalIK::InteractionObject> const& __cordl_internal_get__interactionObject_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__interactionObject_k__BackingField(::UnityW<::RootMotion::FinalIK::InteractionObject> value);
+  constexpr ::UnityW<::RootMotion::FinalIK::InteractionObject>& __cordl_internal_get__interactionObject_k__BackingField();
 
-  constexpr ::UnityW<::RootMotion::FinalIK::Poser>& __cordl_internal_get_poser();
+  constexpr bool const& __cordl_internal_get__isPaused_k__BackingField() const;
 
-  constexpr ::UnityW<::RootMotion::FinalIK::Poser> const& __cordl_internal_get_poser() const;
+  constexpr bool& __cordl_internal_get__isPaused_k__BackingField();
 
-  constexpr void __cordl_internal_set_poser(::UnityW<::RootMotion::FinalIK::Poser> value);
+  constexpr bool const& __cordl_internal_get_bendGoalWeightUsed() const;
+
+  constexpr bool& __cordl_internal_get_bendGoalWeightUsed();
+
+  constexpr float_t const& __cordl_internal_get_defaultBendGoalWeight() const;
+
+  constexpr float_t& __cordl_internal_get_defaultBendGoalWeight();
+
+  constexpr float_t const& __cordl_internal_get_defaultPositionWeight() const;
+
+  constexpr float_t& __cordl_internal_get_defaultPositionWeight();
+
+  constexpr float_t const& __cordl_internal_get_defaultPull() const;
+
+  constexpr float_t& __cordl_internal_get_defaultPull();
+
+  constexpr float_t const& __cordl_internal_get_defaultPush() const;
+
+  constexpr float_t& __cordl_internal_get_defaultPush();
+
+  constexpr float_t const& __cordl_internal_get_defaultPushParent() const;
+
+  constexpr float_t& __cordl_internal_get_defaultPushParent();
+
+  constexpr float_t const& __cordl_internal_get_defaultReach() const;
+
+  constexpr float_t& __cordl_internal_get_defaultReach();
+
+  constexpr float_t const& __cordl_internal_get_defaultRotationWeight() const;
+
+  constexpr float_t& __cordl_internal_get_defaultRotationWeight();
+
+  constexpr bool const& __cordl_internal_get_defaults() const;
+
+  constexpr bool& __cordl_internal_get_defaults();
 
   constexpr ::RootMotion::FinalIK::IKEffector*& __cordl_internal_get_effector();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKEffector*> const& __cordl_internal_get_effector() const;
 
-  constexpr void __cordl_internal_set_effector(::RootMotion::FinalIK::IKEffector* value);
-
-  constexpr float_t& __cordl_internal_get_timer();
-
-  constexpr float_t const& __cordl_internal_get_timer() const;
-
-  constexpr void __cordl_internal_set_timer(float_t value);
-
-  constexpr float_t& __cordl_internal_get_length();
-
-  constexpr float_t const& __cordl_internal_get_length() const;
-
-  constexpr void __cordl_internal_set_length(float_t value);
-
-  constexpr float_t& __cordl_internal_get_weight();
-
-  constexpr float_t const& __cordl_internal_get_weight() const;
-
-  constexpr void __cordl_internal_set_weight(float_t value);
+  constexpr float_t const& __cordl_internal_get_fadeInSpeed() const;
 
   constexpr float_t& __cordl_internal_get_fadeInSpeed();
 
-  constexpr float_t const& __cordl_internal_get_fadeInSpeed() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::InteractionSystem> const& __cordl_internal_get_interactionSystem() const;
 
-  constexpr void __cordl_internal_set_fadeInSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get_defaultPositionWeight();
-
-  constexpr float_t const& __cordl_internal_get_defaultPositionWeight() const;
-
-  constexpr void __cordl_internal_set_defaultPositionWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_defaultRotationWeight();
-
-  constexpr float_t const& __cordl_internal_get_defaultRotationWeight() const;
-
-  constexpr void __cordl_internal_set_defaultRotationWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_defaultPull();
-
-  constexpr float_t const& __cordl_internal_get_defaultPull() const;
-
-  constexpr void __cordl_internal_set_defaultPull(float_t value);
-
-  constexpr float_t& __cordl_internal_get_defaultReach();
-
-  constexpr float_t const& __cordl_internal_get_defaultReach() const;
-
-  constexpr void __cordl_internal_set_defaultReach(float_t value);
-
-  constexpr float_t& __cordl_internal_get_defaultPush();
-
-  constexpr float_t const& __cordl_internal_get_defaultPush() const;
-
-  constexpr void __cordl_internal_set_defaultPush(float_t value);
-
-  constexpr float_t& __cordl_internal_get_defaultPushParent();
-
-  constexpr float_t const& __cordl_internal_get_defaultPushParent() const;
-
-  constexpr void __cordl_internal_set_defaultPushParent(float_t value);
-
-  constexpr float_t& __cordl_internal_get_defaultBendGoalWeight();
-
-  constexpr float_t const& __cordl_internal_get_defaultBendGoalWeight() const;
-
-  constexpr void __cordl_internal_set_defaultBendGoalWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_resetTimer();
-
-  constexpr float_t const& __cordl_internal_get_resetTimer() const;
-
-  constexpr void __cordl_internal_set_resetTimer(float_t value);
-
-  constexpr bool& __cordl_internal_get_positionWeightUsed();
-
-  constexpr bool const& __cordl_internal_get_positionWeightUsed() const;
-
-  constexpr void __cordl_internal_set_positionWeightUsed(bool value);
-
-  constexpr bool& __cordl_internal_get_rotationWeightUsed();
-
-  constexpr bool const& __cordl_internal_get_rotationWeightUsed() const;
-
-  constexpr void __cordl_internal_set_rotationWeightUsed(bool value);
-
-  constexpr bool& __cordl_internal_get_pullUsed();
-
-  constexpr bool const& __cordl_internal_get_pullUsed() const;
-
-  constexpr void __cordl_internal_set_pullUsed(bool value);
-
-  constexpr bool& __cordl_internal_get_reachUsed();
-
-  constexpr bool const& __cordl_internal_get_reachUsed() const;
-
-  constexpr void __cordl_internal_set_reachUsed(bool value);
-
-  constexpr bool& __cordl_internal_get_pushUsed();
-
-  constexpr bool const& __cordl_internal_get_pushUsed() const;
-
-  constexpr void __cordl_internal_set_pushUsed(bool value);
-
-  constexpr bool& __cordl_internal_get_pushParentUsed();
-
-  constexpr bool const& __cordl_internal_get_pushParentUsed() const;
-
-  constexpr void __cordl_internal_set_pushParentUsed(bool value);
-
-  constexpr bool& __cordl_internal_get_bendGoalWeightUsed();
-
-  constexpr bool const& __cordl_internal_get_bendGoalWeightUsed() const;
-
-  constexpr void __cordl_internal_set_bendGoalWeightUsed(bool value);
-
-  constexpr bool& __cordl_internal_get_pickedUp();
-
-  constexpr bool const& __cordl_internal_get_pickedUp() const;
-
-  constexpr void __cordl_internal_set_pickedUp(bool value);
-
-  constexpr bool& __cordl_internal_get_defaults();
-
-  constexpr bool const& __cordl_internal_get_defaults() const;
-
-  constexpr void __cordl_internal_set_defaults(bool value);
-
-  constexpr bool& __cordl_internal_get_pickUpOnPostFBBIK();
-
-  constexpr bool const& __cordl_internal_get_pickUpOnPostFBBIK() const;
-
-  constexpr void __cordl_internal_set_pickUpOnPostFBBIK(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pickUpPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pickUpPosition() const;
-
-  constexpr void __cordl_internal_set_pickUpPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pausePositionRelative();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pausePositionRelative() const;
-
-  constexpr void __cordl_internal_set_pausePositionRelative(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pickUpRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pickUpRotation() const;
-
-  constexpr void __cordl_internal_set_pickUpRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pauseRotationRelative();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pauseRotationRelative() const;
-
-  constexpr void __cordl_internal_set_pauseRotationRelative(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityW<::RootMotion::FinalIK::InteractionTarget>& __cordl_internal_get_interactionTarget();
+  constexpr ::UnityW<::RootMotion::FinalIK::InteractionSystem>& __cordl_internal_get_interactionSystem();
 
   constexpr ::UnityW<::RootMotion::FinalIK::InteractionTarget> const& __cordl_internal_get_interactionTarget() const;
 
-  constexpr void __cordl_internal_set_interactionTarget(::UnityW<::RootMotion::FinalIK::InteractionTarget> value);
+  constexpr ::UnityW<::RootMotion::FinalIK::InteractionTarget>& __cordl_internal_get_interactionTarget();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
+  constexpr float_t const& __cordl_internal_get_length() const;
+
+  constexpr float_t& __cordl_internal_get_length();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pausePositionRelative() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pausePositionRelative();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pauseRotationRelative() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pauseRotationRelative();
+
+  constexpr bool const& __cordl_internal_get_pickUpOnPostFBBIK() const;
+
+  constexpr bool& __cordl_internal_get_pickUpOnPostFBBIK();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pickUpPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pickUpPosition();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pickUpRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pickUpRotation();
+
+  constexpr bool const& __cordl_internal_get_pickedUp() const;
+
+  constexpr bool& __cordl_internal_get_pickedUp();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::Poser> const& __cordl_internal_get_poser() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::Poser>& __cordl_internal_get_poser();
+
+  constexpr bool const& __cordl_internal_get_positionWeightUsed() const;
+
+  constexpr bool& __cordl_internal_get_positionWeightUsed();
+
+  constexpr bool const& __cordl_internal_get_pullUsed() const;
+
+  constexpr bool& __cordl_internal_get_pullUsed();
+
+  constexpr bool const& __cordl_internal_get_pushParentUsed() const;
+
+  constexpr bool& __cordl_internal_get_pushParentUsed();
+
+  constexpr bool const& __cordl_internal_get_pushUsed() const;
+
+  constexpr bool& __cordl_internal_get_pushUsed();
+
+  constexpr bool const& __cordl_internal_get_reachUsed() const;
+
+  constexpr bool& __cordl_internal_get_reachUsed();
+
+  constexpr float_t const& __cordl_internal_get_resetTimer() const;
+
+  constexpr float_t& __cordl_internal_get_resetTimer();
+
+  constexpr bool const& __cordl_internal_get_rotationWeightUsed() const;
+
+  constexpr bool& __cordl_internal_get_rotationWeightUsed();
+
+  constexpr bool const& __cordl_internal_get_started() const;
+
+  constexpr bool& __cordl_internal_get_started();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
 
-  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
+
+  constexpr float_t const& __cordl_internal_get_timer() const;
+
+  constexpr float_t& __cordl_internal_get_timer();
 
   constexpr ::System::Collections::Generic::List_1<bool>*& __cordl_internal_get_triggered();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<bool>*> const& __cordl_internal_get_triggered() const;
 
-  constexpr void __cordl_internal_set_triggered(::System::Collections::Generic::List_1<bool>* value);
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr ::UnityW<::RootMotion::FinalIK::InteractionSystem>& __cordl_internal_get_interactionSystem();
+  constexpr float_t& __cordl_internal_get_weight();
 
-  constexpr ::UnityW<::RootMotion::FinalIK::InteractionSystem> const& __cordl_internal_get_interactionSystem() const;
+  constexpr void __cordl_internal_set__effectorType_k__BackingField(::RootMotion::FinalIK::FullBodyBipedEffector value);
+
+  constexpr void __cordl_internal_set__interactionObject_k__BackingField(::UnityW<::RootMotion::FinalIK::InteractionObject> value);
+
+  constexpr void __cordl_internal_set__isPaused_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set_bendGoalWeightUsed(bool value);
+
+  constexpr void __cordl_internal_set_defaultBendGoalWeight(float_t value);
+
+  constexpr void __cordl_internal_set_defaultPositionWeight(float_t value);
+
+  constexpr void __cordl_internal_set_defaultPull(float_t value);
+
+  constexpr void __cordl_internal_set_defaultPush(float_t value);
+
+  constexpr void __cordl_internal_set_defaultPushParent(float_t value);
+
+  constexpr void __cordl_internal_set_defaultReach(float_t value);
+
+  constexpr void __cordl_internal_set_defaultRotationWeight(float_t value);
+
+  constexpr void __cordl_internal_set_defaults(bool value);
+
+  constexpr void __cordl_internal_set_effector(::RootMotion::FinalIK::IKEffector* value);
+
+  constexpr void __cordl_internal_set_fadeInSpeed(float_t value);
 
   constexpr void __cordl_internal_set_interactionSystem(::UnityW<::RootMotion::FinalIK::InteractionSystem> value);
 
-  constexpr bool& __cordl_internal_get_started();
+  constexpr void __cordl_internal_set_interactionTarget(::UnityW<::RootMotion::FinalIK::InteractionTarget> value);
 
-  constexpr bool const& __cordl_internal_get_started() const;
+  constexpr void __cordl_internal_set_length(float_t value);
+
+  constexpr void __cordl_internal_set_pausePositionRelative(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_pauseRotationRelative(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_pickUpOnPostFBBIK(bool value);
+
+  constexpr void __cordl_internal_set_pickUpPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_pickUpRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_pickedUp(bool value);
+
+  constexpr void __cordl_internal_set_poser(::UnityW<::RootMotion::FinalIK::Poser> value);
+
+  constexpr void __cordl_internal_set_positionWeightUsed(bool value);
+
+  constexpr void __cordl_internal_set_pullUsed(bool value);
+
+  constexpr void __cordl_internal_set_pushParentUsed(bool value);
+
+  constexpr void __cordl_internal_set_pushUsed(bool value);
+
+  constexpr void __cordl_internal_set_reachUsed(bool value);
+
+  constexpr void __cordl_internal_set_resetTimer(float_t value);
+
+  constexpr void __cordl_internal_set_rotationWeightUsed(bool value);
 
   constexpr void __cordl_internal_set_started(bool value);
 
-  /// @brief Method get_effectorType, addr 0x131b98c, size 0x8, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
+  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method set_effectorType, addr 0x131b994, size 0x8, virtual false, abstract: false, final false
-  inline void set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
+  constexpr void __cordl_internal_set_timer(float_t value);
 
-  /// @brief Method get_isPaused, addr 0x131b99c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isPaused();
+  constexpr void __cordl_internal_set_triggered(::System::Collections::Generic::List_1<bool>* value);
 
-  /// @brief Method set_isPaused, addr 0x131b9a4, size 0xc, virtual false, abstract: false, final false
-  inline void set_isPaused(bool value);
+  constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method get_interactionObject, addr 0x131b9b0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::RootMotion::FinalIK::InteractionObject> get_interactionObject();
-
-  /// @brief Method set_interactionObject, addr 0x131b9b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_interactionObject(::RootMotion::FinalIK::InteractionObject* value);
-
-  /// @brief Method get_inInteraction, addr 0x131b9c0, size 0x60, virtual false, abstract: false, final false
-  inline bool get_inInteraction();
-
-  static inline ::RootMotion::FinalIK::InteractionEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
-
-  /// @brief Method .ctor, addr 0x131ba20, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135da0c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method Initiate, addr 0x131bab0, size 0x94, virtual false, abstract: false, final false
-  inline void Initiate(::RootMotion::FinalIK::InteractionSystem* interactionSystem);
+  /// @brief Method get_effectorType, addr 0x135d978, size 0x8, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
 
-  /// @brief Method StoreDefaults, addr 0x131bb44, size 0x16c, virtual false, abstract: false, final false
-  inline void StoreDefaults();
+  /// @brief Method get_inInteraction, addr 0x135d9ac, size 0x60, virtual false, abstract: false, final false
+  inline bool get_inInteraction();
 
-  /// @brief Method ResetToDefaults, addr 0x131bcb0, size 0x3dc, virtual false, abstract: false, final false
-  inline bool ResetToDefaults(float_t speed);
+  /// @brief Method get_interactionObject, addr 0x135d99c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::RootMotion::FinalIK::InteractionObject> get_interactionObject();
 
-  /// @brief Method Pause, addr 0x131c08c, size 0x120, virtual false, abstract: false, final false
-  inline bool Pause();
+  /// @brief Method get_isPaused, addr 0x135d988, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isPaused();
 
-  /// @brief Method Resume, addr 0x131c1ac, size 0x54, virtual false, abstract: false, final false
-  inline bool Resume();
-
-  /// @brief Method Start, addr 0x131c200, size 0x48c, virtual false, abstract: false, final false
-  inline bool Start(::RootMotion::FinalIK::InteractionObject* interactionObject, ::StringW tag, float_t fadeInTime, bool interrupt);
-
-  /// @brief Method Update, addr 0x131cd08, size 0x640, virtual false, abstract: false, final false
-  inline void Update(::UnityEngine::Transform* root, float_t speed);
-
-  /// @brief Method get_progress, addr 0x131dedc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x135fec8, size 0x30, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method TriggerUntriggeredEvents, addr 0x131d750, size 0x220, virtual false, abstract: false, final false
-  inline void TriggerUntriggeredEvents(bool checkTime, ByRef<bool> pickUp, ByRef<bool> pause);
+  /// @brief Method set_effectorType, addr 0x135d980, size 0x8, virtual false, abstract: false, final false
+  inline void set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
 
-  /// @brief Method PickUp, addr 0x131d970, size 0x218, virtual false, abstract: false, final false
-  inline void PickUp(::UnityEngine::Transform* root);
+  /// @brief Method set_interactionObject, addr 0x135d9a4, size 0x8, virtual false, abstract: false, final false
+  inline void set_interactionObject(::RootMotion::FinalIK::InteractionObject* value);
 
-  /// @brief Method Stop, addr 0x131dd94, size 0x148, virtual false, abstract: false, final false
-  inline bool Stop();
+  /// @brief Method set_isPaused, addr 0x135d990, size 0xc, virtual false, abstract: false, final false
+  inline void set_isPaused(bool value);
 
-  /// @brief Method OnPostFBBIK, addr 0x131e0dc, size 0x23c, virtual false, abstract: false, final false
-  inline void OnPostFBBIK();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InteractionEffector();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InteractionEffector", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InteractionEffector(InteractionEffector&&) = delete;
@@ -455,12 +460,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InteractionEffector(InteractionEffector const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InteractionEffector();
-
-public:
   /// @brief Field <effectorType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::RootMotion::FinalIK::FullBodyBipedEffector ____effectorType_k__BackingField;
 

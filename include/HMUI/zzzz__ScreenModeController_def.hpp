@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::HMUI::ScreenModeController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13544))
 // CS Name: ::HMUI::ScreenModeController*
 class CORDL_TYPE ScreenModeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -37,53 +35,59 @@ public:
   __declspec(property(get = __cordl_internal_get__curvedCanvases,
                       put = __cordl_internal_set__curvedCanvases))::ArrayW<::UnityW<::HMUI::CurvedCanvasSettings>, ::Array<::UnityW<::HMUI::CurvedCanvasSettings>>*> _curvedCanvases;
 
-  /// @brief Field _vrPlatformHelper, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
-
   /// @brief Field _defaultModeData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultModeData, put = __cordl_internal_set__defaultModeData))::HMUI::ScreenModeData* _defaultModeData;
 
   /// @brief Field _transform, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr ::ArrayW<::UnityW<::HMUI::CurvedCanvasSettings>, ::Array<::UnityW<::HMUI::CurvedCanvasSettings>>*>& __cordl_internal_get__curvedCanvases();
+  /// @brief Field _vrPlatformHelper, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+
+  /// @brief Method Awake, addr 0x228d1c0, size 0x144, virtual false, abstract: false, final false
+  inline void Awake();
+
+  static inline ::HMUI::ScreenModeController* New_ctor();
+
+  /// @brief Method SetDefaultMode, addr 0x228d5b0, size 0x8, virtual false, abstract: false, final false
+  inline void SetDefaultMode();
+
+  /// @brief Method SetMode, addr 0x228d39c, size 0x214, virtual false, abstract: false, final false
+  inline void SetMode(::HMUI::ScreenModeData* screenModeData);
 
   constexpr ::ArrayW<::UnityW<::HMUI::CurvedCanvasSettings>, ::Array<::UnityW<::HMUI::CurvedCanvasSettings>>*> const& __cordl_internal_get__curvedCanvases() const;
 
-  constexpr void __cordl_internal_set__curvedCanvases(::ArrayW<::UnityW<::HMUI::CurvedCanvasSettings>, ::Array<::UnityW<::HMUI::CurvedCanvasSettings>>*> value);
-
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
-
-  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr ::ArrayW<::UnityW<::HMUI::CurvedCanvasSettings>, ::Array<::UnityW<::HMUI::CurvedCanvasSettings>>*>& __cordl_internal_get__curvedCanvases();
 
   constexpr ::HMUI::ScreenModeData*& __cordl_internal_get__defaultModeData();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ScreenModeData*> const& __cordl_internal_get__defaultModeData() const;
 
-  constexpr void __cordl_internal_set__defaultModeData(::HMUI::ScreenModeData* value);
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
+  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
+
+  constexpr void __cordl_internal_set__curvedCanvases(::ArrayW<::UnityW<::HMUI::CurvedCanvasSettings>, ::Array<::UnityW<::HMUI::CurvedCanvasSettings>>*> value);
+
+  constexpr void __cordl_internal_set__defaultModeData(::HMUI::ScreenModeData* value);
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method Awake, addr 0x21c0b58, size 0x144, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method SetMode, addr 0x21c0d34, size 0x214, virtual false, abstract: false, final false
-  inline void SetMode(::HMUI::ScreenModeData* screenModeData);
-
-  /// @brief Method SetDefaultMode, addr 0x21c0f48, size 0x8, virtual false, abstract: false, final false
-  inline void SetDefaultMode();
-
-  static inline ::HMUI::ScreenModeController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21c0f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228d5b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScreenModeController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScreenModeController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScreenModeController(ScreenModeController&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScreenModeController(ScreenModeController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScreenModeController();
-
-public:
   /// @brief Field _curvedCanvases, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::HMUI::CurvedCanvasSettings>, ::Array<::UnityW<::HMUI::CurvedCanvasSettings>>*> ____curvedCanvases;
 

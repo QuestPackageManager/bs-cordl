@@ -23,70 +23,74 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsConnectionInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13730)), TypeDefinitionIndex(TypeDefinitionIndex(13739))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13731))
 // CS Name: ::Mono.Security.Interface::MonoTlsConnectionInfo*
 class CORDL_TYPE MonoTlsConnectionInfo : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_CipherSuiteCode, put = set_CipherSuiteCode))::Mono::Security::Interface::CipherSuiteCode CipherSuiteCode;
+
+  __declspec(property(put = set_PeerDomainName))::StringW PeerDomainName;
+
+  __declspec(property(get = get_ProtocolVersion, put = set_ProtocolVersion))::Mono::Security::Interface::TlsProtocols ProtocolVersion;
+
   /// @brief Field <CipherSuiteCode>k__BackingField, offset 0x10, size 0x2
   __declspec(property(get = __cordl_internal_get__CipherSuiteCode_k__BackingField,
                       put = __cordl_internal_set__CipherSuiteCode_k__BackingField))::Mono::Security::Interface::CipherSuiteCode _CipherSuiteCode_k__BackingField;
+
+  /// @brief Field <PeerDomainName>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__PeerDomainName_k__BackingField, put = __cordl_internal_set__PeerDomainName_k__BackingField))::StringW _PeerDomainName_k__BackingField;
 
   /// @brief Field <ProtocolVersion>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__ProtocolVersion_k__BackingField,
                       put = __cordl_internal_set__ProtocolVersion_k__BackingField))::Mono::Security::Interface::TlsProtocols _ProtocolVersion_k__BackingField;
 
-  /// @brief Field <PeerDomainName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__PeerDomainName_k__BackingField, put = __cordl_internal_set__PeerDomainName_k__BackingField))::StringW _PeerDomainName_k__BackingField;
+  static inline ::Mono::Security::Interface::MonoTlsConnectionInfo* New_ctor();
 
-  __declspec(property(get = get_CipherSuiteCode, put = set_CipherSuiteCode))::Mono::Security::Interface::CipherSuiteCode CipherSuiteCode;
-
-  __declspec(property(get = get_ProtocolVersion, put = set_ProtocolVersion))::Mono::Security::Interface::TlsProtocols ProtocolVersion;
-
-  __declspec(property(put = set_PeerDomainName))::StringW PeerDomainName;
-
-  constexpr ::Mono::Security::Interface::CipherSuiteCode& __cordl_internal_get__CipherSuiteCode_k__BackingField();
+  /// @brief Method ToString, addr 0x24f1640, size 0xbc, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::Mono::Security::Interface::CipherSuiteCode const& __cordl_internal_get__CipherSuiteCode_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__CipherSuiteCode_k__BackingField(::Mono::Security::Interface::CipherSuiteCode value);
-
-  constexpr ::Mono::Security::Interface::TlsProtocols& __cordl_internal_get__ProtocolVersion_k__BackingField();
-
-  constexpr ::Mono::Security::Interface::TlsProtocols const& __cordl_internal_get__ProtocolVersion_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ProtocolVersion_k__BackingField(::Mono::Security::Interface::TlsProtocols value);
-
-  constexpr ::StringW& __cordl_internal_get__PeerDomainName_k__BackingField();
+  constexpr ::Mono::Security::Interface::CipherSuiteCode& __cordl_internal_get__CipherSuiteCode_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__PeerDomainName_k__BackingField() const;
 
+  constexpr ::StringW& __cordl_internal_get__PeerDomainName_k__BackingField();
+
+  constexpr ::Mono::Security::Interface::TlsProtocols const& __cordl_internal_get__ProtocolVersion_k__BackingField() const;
+
+  constexpr ::Mono::Security::Interface::TlsProtocols& __cordl_internal_get__ProtocolVersion_k__BackingField();
+
+  constexpr void __cordl_internal_set__CipherSuiteCode_k__BackingField(::Mono::Security::Interface::CipherSuiteCode value);
+
   constexpr void __cordl_internal_set__PeerDomainName_k__BackingField(::StringW value);
 
-  /// @brief Method get_CipherSuiteCode, addr 0x2422920, size 0x8, virtual false, abstract: false, final false
-  inline ::Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
+  constexpr void __cordl_internal_set__ProtocolVersion_k__BackingField(::Mono::Security::Interface::TlsProtocols value);
 
-  /// @brief Method set_CipherSuiteCode, addr 0x2422928, size 0x8, virtual false, abstract: false, final false
-  inline void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value);
-
-  /// @brief Method get_ProtocolVersion, addr 0x2422930, size 0x8, virtual false, abstract: false, final false
-  inline ::Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
-
-  /// @brief Method set_ProtocolVersion, addr 0x2422938, size 0x8, virtual false, abstract: false, final false
-  inline void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value);
-
-  /// @brief Method set_PeerDomainName, addr 0x2422940, size 0x8, virtual false, abstract: false, final false
-  inline void set_PeerDomainName(::StringW value);
-
-  /// @brief Method ToString, addr 0x2422948, size 0xbc, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  static inline ::Mono::Security::Interface::MonoTlsConnectionInfo* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2422a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f16fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_CipherSuiteCode, addr 0x24f1618, size 0x8, virtual false, abstract: false, final false
+  inline ::Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
+
+  /// @brief Method get_ProtocolVersion, addr 0x24f1628, size 0x8, virtual false, abstract: false, final false
+  inline ::Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
+
+  /// @brief Method set_CipherSuiteCode, addr 0x24f1620, size 0x8, virtual false, abstract: false, final false
+  inline void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value);
+
+  /// @brief Method set_PeerDomainName, addr 0x24f1638, size 0x8, virtual false, abstract: false, final false
+  inline void set_PeerDomainName(::StringW value);
+
+  /// @brief Method set_ProtocolVersion, addr 0x24f1630, size 0x8, virtual false, abstract: false, final false
+  inline void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoTlsConnectionInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoTlsConnectionInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MonoTlsConnectionInfo(MonoTlsConnectionInfo&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoTlsConnectionInfo(MonoTlsConnectionInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoTlsConnectionInfo();
-
-public:
   /// @brief Field <CipherSuiteCode>k__BackingField, offset: 0x10, size: 0x2, def value: None
   ::Mono::Security::Interface::CipherSuiteCode ____CipherSuiteCode_k__BackingField;
 

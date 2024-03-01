@@ -23,18 +23,21 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::CompositeExpression);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11920))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11921))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::CompositeExpression*
 class CORDL_TYPE CompositeExpression : public ::Newtonsoft::Json::Linq::JsonPath::QueryExpression {
 public:
   // Declarations
+  __declspec(property(get = get_Expressions, put = set_Expressions))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* Expressions;
+
   /// @brief Field <Expressions>k__BackingField, offset 0x18, size 0x8
   __declspec(
       property(get = __cordl_internal_get__Expressions_k__BackingField,
                put = __cordl_internal_set__Expressions_k__BackingField))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* _Expressions_k__BackingField;
 
-  __declspec(property(get = get_Expressions, put = set_Expressions))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* Expressions;
+  /// @brief Method IsMatch, addr 0x27a1b9c, size 0x27c, virtual true, abstract: false, final false
+  inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* t);
+
+  static inline ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression* New_ctor();
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>*& __cordl_internal_get__Expressions_k__BackingField();
 
@@ -43,20 +46,21 @@ public:
 
   constexpr void __cordl_internal_set__Expressions_k__BackingField(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
 
-  /// @brief Method get_Expressions, addr 0x26d3440, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* get_Expressions();
-
-  /// @brief Method set_Expressions, addr 0x26d3448, size 0x8, virtual false, abstract: false, final false
-  inline void set_Expressions(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
-
-  static inline ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression* New_ctor();
-
-  /// @brief Method .ctor, addr 0x26d2f8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a16d8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method IsMatch, addr 0x26d3450, size 0x27c, virtual true, abstract: false, final false
-  inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* t);
+  /// @brief Method get_Expressions, addr 0x27a1b8c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* get_Expressions();
 
+  /// @brief Method set_Expressions, addr 0x27a1b94, size 0x8, virtual false, abstract: false, final false
+  inline void set_Expressions(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CompositeExpression();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CompositeExpression", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompositeExpression(CompositeExpression&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CompositeExpression(CompositeExpression const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CompositeExpression();
-
-public:
   /// @brief Field <Expressions>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* ____Expressions_k__BackingField;
 

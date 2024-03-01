@@ -15,8 +15,6 @@ MARK_VAL_T(::Oculus::Platform::KeyValuePairType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13147))
 // CS Name: ::Oculus.Platform::KeyValuePairType
 struct CORDL_TYPE KeyValuePairType {
 public:
@@ -36,30 +34,35 @@ public:
     return static_cast<__KeyValuePairType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr KeyValuePairType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__KeyValuePairType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr KeyValuePairType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr KeyValuePairType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field String value: static_cast<int32_t>(0x0)
-  static ::Oculus::Platform::KeyValuePairType const String;
-
-  /// @brief Field Int value: static_cast<int32_t>(0x1)
-  static ::Oculus::Platform::KeyValuePairType const Int;
 
   /// @brief Field Double value: static_cast<int32_t>(0x2)
   static ::Oculus::Platform::KeyValuePairType const Double;
 
+  /// @brief Field Int value: static_cast<int32_t>(0x1)
+  static ::Oculus::Platform::KeyValuePairType const Int;
+
+  /// @brief Field String value: static_cast<int32_t>(0x0)
+  static ::Oculus::Platform::KeyValuePairType const String;
+
   /// @brief Field Unknown value: static_cast<int32_t>(0x3)
   static ::Oculus::Platform::KeyValuePairType const Unknown;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

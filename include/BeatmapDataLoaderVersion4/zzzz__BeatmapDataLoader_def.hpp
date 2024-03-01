@@ -70,8 +70,6 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::__BeatmapDataLoader____c__DisplayCla
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15101))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11230))
 // CS Name: ::BeatmapDataLoader::<>c__DisplayClass0_0*
 class CORDL_TYPE __BeatmapDataLoader____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -79,23 +77,14 @@ public:
   /// @brief Field audioDataJson, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_audioDataJson, put = __cordl_internal_set_audioDataJson))::StringW audioDataJson;
 
-  /// @brief Field beatmapJson, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapJson, put = __cordl_internal_set_beatmapJson))::StringW beatmapJson;
-
-  /// @brief Field lightshowJson, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_lightshowJson, put = __cordl_internal_set_lightshowJson))::StringW lightshowJson;
-
-  /// @brief Field defaultLightshowJson, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_defaultLightshowJson, put = __cordl_internal_set_defaultLightshowJson))::StringW defaultLightshowJson;
-
   /// @brief Field beatmapDifficulty, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_beatmapDifficulty, put = __cordl_internal_set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
 
-  /// @brief Field startBpm, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_startBpm, put = __cordl_internal_set_startBpm)) float_t startBpm;
+  /// @brief Field beatmapJson, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_beatmapJson, put = __cordl_internal_set_beatmapJson))::StringW beatmapJson;
 
-  /// @brief Field loadingForDesignatedEnvironment, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_loadingForDesignatedEnvironment, put = __cordl_internal_set_loadingForDesignatedEnvironment)) bool loadingForDesignatedEnvironment;
+  /// @brief Field defaultLightshowJson, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_defaultLightshowJson, put = __cordl_internal_set_defaultLightshowJson))::StringW defaultLightshowJson;
 
   /// @brief Field environmentInfo, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo))::GlobalNamespace::IEnvironmentInfo* environmentInfo;
@@ -103,77 +92,92 @@ public:
   /// @brief Field gameplayModifiers, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
+  /// @brief Field lightshowJson, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_lightshowJson, put = __cordl_internal_set_lightshowJson))::StringW lightshowJson;
+
+  /// @brief Field loadingForDesignatedEnvironment, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_loadingForDesignatedEnvironment, put = __cordl_internal_set_loadingForDesignatedEnvironment)) bool loadingForDesignatedEnvironment;
+
   /// @brief Field playerSpecificSettings, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_playerSpecificSettings, put = __cordl_internal_set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
-  constexpr ::StringW& __cordl_internal_get_audioDataJson();
+  /// @brief Field startBpm, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_startBpm, put = __cordl_internal_set_startBpm)) float_t startBpm;
+
+  static inline ::BeatmapDataLoaderVersion4::__BeatmapDataLoader____c__DisplayClass0_0* New_ctor();
+
+  /// @brief Method <GetBeatmapDataFromSaveDataJsonAsync>b__0, addr 0x1300cb4, size 0x3c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapData* _GetBeatmapDataFromSaveDataJsonAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_audioDataJson() const;
 
-  constexpr void __cordl_internal_set_audioDataJson(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_beatmapJson();
-
-  constexpr ::StringW const& __cordl_internal_get_beatmapJson() const;
-
-  constexpr void __cordl_internal_set_beatmapJson(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_lightshowJson();
-
-  constexpr ::StringW const& __cordl_internal_get_lightshowJson() const;
-
-  constexpr void __cordl_internal_set_lightshowJson(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_defaultLightshowJson();
-
-  constexpr ::StringW const& __cordl_internal_get_defaultLightshowJson() const;
-
-  constexpr void __cordl_internal_set_defaultLightshowJson(::StringW value);
-
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
+  constexpr ::StringW& __cordl_internal_get_audioDataJson();
 
   constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_beatmapDifficulty() const;
 
-  constexpr void __cordl_internal_set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
 
-  constexpr float_t& __cordl_internal_get_startBpm();
+  constexpr ::StringW const& __cordl_internal_get_beatmapJson() const;
 
-  constexpr float_t const& __cordl_internal_get_startBpm() const;
+  constexpr ::StringW& __cordl_internal_get_beatmapJson();
 
-  constexpr void __cordl_internal_set_startBpm(float_t value);
+  constexpr ::StringW const& __cordl_internal_get_defaultLightshowJson() const;
 
-  constexpr bool& __cordl_internal_get_loadingForDesignatedEnvironment();
-
-  constexpr bool const& __cordl_internal_get_loadingForDesignatedEnvironment() const;
-
-  constexpr void __cordl_internal_set_loadingForDesignatedEnvironment(bool value);
+  constexpr ::StringW& __cordl_internal_get_defaultLightshowJson();
 
   constexpr ::GlobalNamespace::IEnvironmentInfo*& __cordl_internal_get_environmentInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IEnvironmentInfo*> const& __cordl_internal_get_environmentInfo() const;
 
-  constexpr void __cordl_internal_set_environmentInfo(::GlobalNamespace::IEnvironmentInfo* value);
-
   constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get_gameplayModifiers() const;
 
-  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  constexpr ::StringW const& __cordl_internal_get_lightshowJson() const;
+
+  constexpr ::StringW& __cordl_internal_get_lightshowJson();
+
+  constexpr bool const& __cordl_internal_get_loadingForDesignatedEnvironment() const;
+
+  constexpr bool& __cordl_internal_get_loadingForDesignatedEnvironment();
 
   constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get_playerSpecificSettings();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get_playerSpecificSettings() const;
 
+  constexpr float_t const& __cordl_internal_get_startBpm() const;
+
+  constexpr float_t& __cordl_internal_get_startBpm();
+
+  constexpr void __cordl_internal_set_audioDataJson(::StringW value);
+
+  constexpr void __cordl_internal_set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+
+  constexpr void __cordl_internal_set_beatmapJson(::StringW value);
+
+  constexpr void __cordl_internal_set_defaultLightshowJson(::StringW value);
+
+  constexpr void __cordl_internal_set_environmentInfo(::GlobalNamespace::IEnvironmentInfo* value);
+
+  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+
+  constexpr void __cordl_internal_set_lightshowJson(::StringW value);
+
+  constexpr void __cordl_internal_set_loadingForDesignatedEnvironment(bool value);
+
   constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  static inline ::BeatmapDataLoaderVersion4::__BeatmapDataLoader____c__DisplayClass0_0* New_ctor();
+  constexpr void __cordl_internal_set_startBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x12bd0ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fe07c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetBeatmapDataFromSaveDataJsonAsync>b__0, addr 0x12bfce4, size 0x3c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapData* _GetBeatmapDataFromSaveDataJsonAsync_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader____c__DisplayClass0_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader____c__DisplayClass0_0(__BeatmapDataLoader____c__DisplayClass0_0&&) = delete;
@@ -182,12 +186,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader____c__DisplayClass0_0(__BeatmapDataLoader____c__DisplayClass0_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader____c__DisplayClass0_0();
-
-public:
   /// @brief Field audioDataJson, offset: 0x10, size: 0x8, def value: None
   ::StringW ___audioDataJson;
 
@@ -248,8 +246,6 @@ static_assert(offsetof(::BeatmapDataLoaderVersion4::__BeatmapDataLoader____c__Di
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11231))
 // CS Name: ::BeatmapDataLoader::<>c__DisplayClass1_0*
 class CORDL_TYPE __BeatmapDataLoader____c__DisplayClass1_0 : public ::System::Object {
 public:
@@ -257,20 +253,26 @@ public:
   /// @brief Field beatmapJson, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapJson, put = __cordl_internal_set_beatmapJson))::StringW beatmapJson;
 
-  constexpr ::StringW& __cordl_internal_get_beatmapJson();
+  static inline ::BeatmapDataLoaderVersion4::__BeatmapDataLoader____c__DisplayClass1_0* New_ctor();
+
+  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJsonAsync>b__0, addr 0x1300cf0, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDataBasicInfo* _GetBeatmapDataBasicInfoFromSaveDataJsonAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_beatmapJson() const;
 
+  constexpr ::StringW& __cordl_internal_get_beatmapJson();
+
   constexpr void __cordl_internal_set_beatmapJson(::StringW value);
 
-  static inline ::BeatmapDataLoaderVersion4::__BeatmapDataLoader____c__DisplayClass1_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12bd1a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fe174, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetBeatmapDataBasicInfoFromSaveDataJsonAsync>b__0, addr 0x12bfd20, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDataBasicInfo* _GetBeatmapDataBasicInfoFromSaveDataJsonAsync_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapDataLoader____c__DisplayClass1_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataLoader____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapDataLoader____c__DisplayClass1_0(__BeatmapDataLoader____c__DisplayClass1_0&&) = delete;
@@ -279,12 +281,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataLoader____c__DisplayClass1_0(__BeatmapDataLoader____c__DisplayClass1_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataLoader____c__DisplayClass1_0();
-
-public:
   /// @brief Field beatmapJson, offset: 0x10, size: 0x8, def value: None
   ::StringW ___beatmapJson;
 
@@ -300,39 +296,33 @@ static_assert(offsetof(::BeatmapDataLoaderVersion4::__BeatmapDataLoader____c__Di
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11232))
 // CS Name: ::BeatmapDataLoaderVersion4::BeatmapDataLoader*
 class CORDL_TYPE BeatmapDataLoader : public ::System::Object {
 public:
   // Declarations
-  using __c__DisplayClass1_0 = ::BeatmapDataLoaderVersion4::__BeatmapDataLoader____c__DisplayClass1_0;
-
   using __c__DisplayClass0_0 = ::BeatmapDataLoaderVersion4::__BeatmapDataLoader____c__DisplayClass0_0;
 
-  /// @brief Method GetBeatmapDataFromSaveDataJsonAsync, addr 0x12bcf5c, size 0x150, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapData*>*
-  GetBeatmapDataFromSaveDataJsonAsync(::StringW audioDataJson, ::StringW beatmapJson, ::StringW lightshowJson, ::StringW defaultLightshowJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
-                                      float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
-                                      ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+  using __c__DisplayClass1_0 = ::BeatmapDataLoaderVersion4::__BeatmapDataLoader____c__DisplayClass1_0;
 
-  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJsonAsync, addr 0x12bd0b4, size 0xf0, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoFromSaveDataJsonAsync(::StringW beatmapJson);
+  /// @brief Method ConvertBasicEvents, addr 0x12fe754, size 0x6d0, virtual false, abstract: false, final false
+  static inline void ConvertBasicEvents(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
+                                        ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
 
-  /// @brief Method GetBeatmapDataFromSaveDataJson, addr 0x12bd1ac, size 0x334, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveDataJson(::StringW audioDataJson, ::StringW beatmapJson, ::StringW lightshowJson, ::StringW defaultLightshowJson,
-                                                                               ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm, bool loadingForDesignatedEnvironment,
-                                                                               ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                                                                               ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+  /// @brief Method ConvertBeatmapObjects, addr 0x12ff170, size 0x98c, virtual false, abstract: false, final false
+  static inline void ConvertBeatmapObjects(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion4::BeatmapSaveData* beatmapSaveData,
+                                           ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
-  /// @brief Method LoadLightshow, addr 0x12bd744, size 0x40, virtual false, abstract: false, final false
-  static inline void LoadLightshow(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
-                                   ::GlobalNamespace::EnvironmentKeywords* environmentKeywords, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups);
+  /// @brief Method ConvertEventBoxGroups, addr 0x12fee24, size 0x270, virtual false, abstract: false, final false
+  static inline void ConvertEventBoxGroups(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
+                                           ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups);
 
-  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJson, addr 0x12be0c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJson, addr 0x12ff094, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataBasicInfo* GetBeatmapDataBasicInfoFromSaveDataJson(::StringW beatmapDataJson);
 
-  /// @brief Method GetBeatmapDataFromSaveData, addr 0x12bd4e0, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapDataBasicInfoFromSaveDataJsonAsync, addr 0x12fe084, size 0xf0, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoFromSaveDataJsonAsync(::StringW beatmapJson);
+
+  /// @brief Method GetBeatmapDataFromSaveData, addr 0x12fe4b0, size 0x264, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveData(::BeatmapLevelSaveDataVersion4::AudioSaveData* audioSaveData, ::BeatmapSaveDataVersion4::BeatmapSaveData* beatmapSaveData,
                                                                            ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                            ::BeatmapSaveDataVersion4::LightshowSaveData* defaultLightshowSaveData,
@@ -341,18 +331,28 @@ public:
                                                                            ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                            ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method ConvertBeatmapObjects, addr 0x12be1a0, size 0x98c, virtual false, abstract: false, final false
-  static inline void ConvertBeatmapObjects(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion4::BeatmapSaveData* beatmapSaveData,
-                                           ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+  /// @brief Method GetBeatmapDataFromSaveDataJson, addr 0x12fe17c, size 0x334, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::BeatmapData* GetBeatmapDataFromSaveDataJson(::StringW audioDataJson, ::StringW beatmapJson, ::StringW lightshowJson, ::StringW defaultLightshowJson,
+                                                                               ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t startBpm, bool loadingForDesignatedEnvironment,
+                                                                               ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+                                                                               ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method ConvertBasicEvents, addr 0x12bd784, size 0x6d0, virtual false, abstract: false, final false
-  static inline void ConvertBasicEvents(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
-                                        ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
+  /// @brief Method GetBeatmapDataFromSaveDataJsonAsync, addr 0x12fdf2c, size 0x150, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapData*>*
+  GetBeatmapDataFromSaveDataJsonAsync(::StringW audioDataJson, ::StringW beatmapJson, ::StringW lightshowJson, ::StringW defaultLightshowJson, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
+                                      float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
+                                      ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method ConvertEventBoxGroups, addr 0x12bde54, size 0x270, virtual false, abstract: false, final false
-  static inline void ConvertEventBoxGroups(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
-                                           ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups);
+  /// @brief Method LoadLightshow, addr 0x12fe714, size 0x40, virtual false, abstract: false, final false
+  static inline void LoadLightshow(::GlobalNamespace::BeatmapData* beatmapData, ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor,
+                                   ::GlobalNamespace::EnvironmentKeywords* environmentKeywords, ::GlobalNamespace::IEnvironmentLightGroups* environmentLightGroups);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataLoader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataLoader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataLoader(BeatmapDataLoader&&) = delete;
@@ -361,12 +361,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataLoader(BeatmapDataLoader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataLoader();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

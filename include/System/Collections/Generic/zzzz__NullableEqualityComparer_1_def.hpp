@@ -25,14 +25,18 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3868)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3210
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3868), inst: 1662 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3870)) CS Name:
-// ::System.Collections.Generic::NullableEqualityComparer`1<T>*
+// CS Name: ::System.Collections.Generic::NullableEqualityComparer`1<T>*
 class CORDL_TYPE NullableEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<T>> {
 public:
   // Declarations
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Nullable_1<T> x, ::System::Nullable_1<T> y);
+
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::System::Nullable_1<T> obj);
@@ -43,17 +47,17 @@ public:
   /// @brief Method LastIndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t LastIndexOf(::ArrayW<::System::Nullable_1<T>, ::Array<::System::Nullable_1<T>>*> array, ::System::Nullable_1<T> value, int32_t startIndex, int32_t count);
 
-  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
   static inline ::System::Collections::Generic::NullableEqualityComparer_1<T>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NullableEqualityComparer_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NullableEqualityComparer_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullableEqualityComparer_1(NullableEqualityComparer_1&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NullableEqualityComparer_1(NullableEqualityComparer_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NullableEqualityComparer_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

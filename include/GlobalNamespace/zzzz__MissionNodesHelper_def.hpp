@@ -24,36 +24,40 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodesHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4854))
 // CS Name: ::MissionNodesHelper*
 class CORDL_TYPE MissionNodesHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAllNodesFromRoot, addr 0x23fb9c8, size 0x80, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* GetAllNodesFromRoot(::GlobalNamespace::MissionNode* root);
-
-  /// @brief Method VisitAllTree, addr 0x23fba48, size 0xd8, virtual false, abstract: false, final false
-  static inline void VisitAllTree(::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes);
-
-  /// @brief Method CycleDetection, addr 0x23fbb20, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CycleDetection, addr 0x24cae74, size 0x7c, virtual false, abstract: false, final false
   static inline bool CycleDetection(::GlobalNamespace::MissionNode* node);
 
-  /// @brief Method CycleDetection, addr 0x23fbb9c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CycleDetection, addr 0x24caef0, size 0x154, virtual false, abstract: false, final false
   static inline bool CycleDetection(::GlobalNamespace::MissionNode* node, int32_t layer, ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MissionNode>, int32_t>* layers);
 
-  /// @brief Method FinalNodeIsFinal, addr 0x23fbcf0, size 0x88, virtual false, abstract: false, final false
-  static inline bool FinalNodeIsFinal(::GlobalNamespace::MissionNode* finalNode, ::GlobalNamespace::MissionNode* rootNode);
-
-  /// @brief Method FinalNodeIsFinal, addr 0x23fbd78, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method FinalNodeIsFinal, addr 0x24cb0cc, size 0x11c, virtual false, abstract: false, final false
   static inline bool FinalNodeIsFinal(::GlobalNamespace::MissionNode* finalNode, ::GlobalNamespace::MissionNode* node,
                                       ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes);
 
+  /// @brief Method FinalNodeIsFinal, addr 0x24cb044, size 0x88, virtual false, abstract: false, final false
+  static inline bool FinalNodeIsFinal(::GlobalNamespace::MissionNode* finalNode, ::GlobalNamespace::MissionNode* rootNode);
+
+  /// @brief Method GetAllNodesFromRoot, addr 0x24cad1c, size 0x80, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* GetAllNodesFromRoot(::GlobalNamespace::MissionNode* root);
+
   static inline ::GlobalNamespace::MissionNodesHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23fbe94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method VisitAllTree, addr 0x24cad9c, size 0xd8, virtual false, abstract: false, final false
+  static inline void VisitAllTree(::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes);
+
+  /// @brief Method .ctor, addr 0x24cb1e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionNodesHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionNodesHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionNodesHelper(MissionNodesHelper&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionNodesHelper(MissionNodesHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionNodesHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

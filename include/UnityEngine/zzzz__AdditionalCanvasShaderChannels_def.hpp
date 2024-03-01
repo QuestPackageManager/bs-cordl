@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::AdditionalCanvasShaderChannels);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15818))
 // CS Name: ::UnityEngine::AdditionalCanvasShaderChannels
 struct CORDL_TYPE AdditionalCanvasShaderChannels {
 public:
@@ -38,21 +36,29 @@ public:
     return static_cast<__AdditionalCanvasShaderChannels_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AdditionalCanvasShaderChannels(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__AdditionalCanvasShaderChannels_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AdditionalCanvasShaderChannels();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AdditionalCanvasShaderChannels(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::AdditionalCanvasShaderChannels const None;
+
+  /// @brief Field Normal value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::AdditionalCanvasShaderChannels const Normal;
+
+  /// @brief Field Tangent value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::AdditionalCanvasShaderChannels const Tangent;
 
   /// @brief Field TexCoord1 value: static_cast<int32_t>(0x1)
   static ::UnityEngine::AdditionalCanvasShaderChannels const TexCoord1;
@@ -63,11 +69,8 @@ public:
   /// @brief Field TexCoord3 value: static_cast<int32_t>(0x4)
   static ::UnityEngine::AdditionalCanvasShaderChannels const TexCoord3;
 
-  /// @brief Field Normal value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::AdditionalCanvasShaderChannels const Normal;
-
-  /// @brief Field Tangent value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::AdditionalCanvasShaderChannels const Tangent;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

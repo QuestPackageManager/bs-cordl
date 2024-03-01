@@ -15,8 +15,6 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ChoiceListType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9490))
 // CS Name: ::HoudiniEngineUnity::HAPI_ChoiceListType
 struct CORDL_TYPE HAPI_ChoiceListType {
 public:
@@ -37,18 +35,23 @@ public:
     return static_cast<__HAPI_ChoiceListType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_ChoiceListType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__HAPI_ChoiceListType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_ChoiceListType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_ChoiceListType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field HAPI_CHOICELISTTYPE_MINI value: static_cast<int32_t>(0x2)
+  static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_MINI;
 
   /// @brief Field HAPI_CHOICELISTTYPE_NONE value: static_cast<int32_t>(0x0)
   static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_NONE;
@@ -56,14 +59,14 @@ public:
   /// @brief Field HAPI_CHOICELISTTYPE_NORMAL value: static_cast<int32_t>(0x1)
   static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_NORMAL;
 
-  /// @brief Field HAPI_CHOICELISTTYPE_MINI value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_MINI;
-
   /// @brief Field HAPI_CHOICELISTTYPE_REPLACE value: static_cast<int32_t>(0x3)
   static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_REPLACE;
 
   /// @brief Field HAPI_CHOICELISTTYPE_TOGGLE value: static_cast<int32_t>(0x4)
   static ::HoudiniEngineUnity::HAPI_ChoiceListType const HAPI_CHOICELISTTYPE_TOGGLE;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

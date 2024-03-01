@@ -15,8 +15,6 @@ MARK_VAL_T(::BeatmapSaveDataCommon::BeatmapEventType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataCommon {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11203))
 // CS Name: ::BeatmapSaveDataCommon::BeatmapEventType
 struct CORDL_TYPE BeatmapEventType {
 public:
@@ -60,48 +58,35 @@ public:
     return static_cast<__BeatmapEventType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr BeatmapEventType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__BeatmapEventType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BeatmapEventType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr BeatmapEventType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BpmChange value: static_cast<int32_t>(0x64)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const BpmChange;
+
+  /// @brief Field ColorBoostEventType value: static_cast<int32_t>(0x5)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const ColorBoostEventType;
+
+  /// @brief Field EarlyRotationEventType value: static_cast<int32_t>(0xe)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const EarlyRotationEventType;
 
   /// @brief Field Event0 value: static_cast<int32_t>(0x0)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event0;
 
   /// @brief Field Event1 value: static_cast<int32_t>(0x1)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event1;
-
-  /// @brief Field Event2 value: static_cast<int32_t>(0x2)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const Event2;
-
-  /// @brief Field Event3 value: static_cast<int32_t>(0x3)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const Event3;
-
-  /// @brief Field Event4 value: static_cast<int32_t>(0x4)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const Event4;
-
-  /// @brief Field Event5 value: static_cast<int32_t>(0x5)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const Event5;
-
-  /// @brief Field Event6 value: static_cast<int32_t>(0x6)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const Event6;
-
-  /// @brief Field Event7 value: static_cast<int32_t>(0x7)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const Event7;
-
-  /// @brief Field Event8 value: static_cast<int32_t>(0x8)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const Event8;
-
-  /// @brief Field Event9 value: static_cast<int32_t>(0x9)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const Event9;
 
   /// @brief Field Event10 value: static_cast<int32_t>(0xa)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event10;
@@ -127,8 +112,35 @@ public:
   /// @brief Field Event17 value: static_cast<int32_t>(0x11)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Event17;
 
-  /// @brief Field VoidEvent value: static_cast<int32_t>(0xffffffff)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const VoidEvent;
+  /// @brief Field Event2 value: static_cast<int32_t>(0x2)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const Event2;
+
+  /// @brief Field Event3 value: static_cast<int32_t>(0x3)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const Event3;
+
+  /// @brief Field Event4 value: static_cast<int32_t>(0x4)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const Event4;
+
+  /// @brief Field Event5 value: static_cast<int32_t>(0x5)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const Event5;
+
+  /// @brief Field Event6 value: static_cast<int32_t>(0x6)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const Event6;
+
+  /// @brief Field Event7 value: static_cast<int32_t>(0x7)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const Event7;
+
+  /// @brief Field Event8 value: static_cast<int32_t>(0x8)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const Event8;
+
+  /// @brief Field Event9 value: static_cast<int32_t>(0x9)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const Event9;
+
+  /// @brief Field LateRotationEventType value: static_cast<int32_t>(0xf)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const LateRotationEventType;
+
+  /// @brief Field LegacyBpmEventType value: static_cast<int32_t>(0xa)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const LegacyBpmEventType;
 
   /// @brief Field Special0 value: static_cast<int32_t>(0x28)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Special0;
@@ -142,20 +154,11 @@ public:
   /// @brief Field Special3 value: static_cast<int32_t>(0x2b)
   static ::BeatmapSaveDataCommon::BeatmapEventType const Special3;
 
-  /// @brief Field BpmChange value: static_cast<int32_t>(0x64)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const BpmChange;
+  /// @brief Field VoidEvent value: static_cast<int32_t>(0xffffffff)
+  static ::BeatmapSaveDataCommon::BeatmapEventType const VoidEvent;
 
-  /// @brief Field ColorBoostEventType value: static_cast<int32_t>(0x5)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const ColorBoostEventType;
-
-  /// @brief Field LegacyBpmEventType value: static_cast<int32_t>(0xa)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const LegacyBpmEventType;
-
-  /// @brief Field EarlyRotationEventType value: static_cast<int32_t>(0xe)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const EarlyRotationEventType;
-
-  /// @brief Field LateRotationEventType value: static_cast<int32_t>(0xf)
-  static ::BeatmapSaveDataCommon::BeatmapEventType const LateRotationEventType;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

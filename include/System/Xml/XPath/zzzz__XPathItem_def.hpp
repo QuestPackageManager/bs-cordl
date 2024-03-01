@@ -32,19 +32,13 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathItem);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11478))
 // CS Name: ::System.Xml.XPath::XPathItem*
 class CORDL_TYPE XPathItem : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_XmlType))::System::Xml::Schema::XmlSchemaType* XmlType;
-
-  __declspec(property(get = get_Value))::StringW Value;
-
   __declspec(property(get = get_TypedValue))::System::Object* TypedValue;
 
-  __declspec(property(get = get_ValueType))::System::Type* ValueType;
+  __declspec(property(get = get_Value))::StringW Value;
 
   __declspec(property(get = get_ValueAsBoolean)) bool ValueAsBoolean;
 
@@ -56,17 +50,26 @@ public:
 
   __declspec(property(get = get_ValueAsLong)) int64_t ValueAsLong;
 
-  /// @brief Method get_XmlType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Xml::Schema::XmlSchemaType* get_XmlType();
+  __declspec(property(get = get_ValueType))::System::Type* ValueType;
 
-  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_Value();
+  __declspec(property(get = get_XmlType))::System::Xml::Schema::XmlSchemaType* XmlType;
+
+  static inline ::System::Xml::XPath::XPathItem* New_ctor();
+
+  /// @brief Method ValueAs, addr 0x2994948, size 0x14, virtual true, abstract: false, final false
+  inline ::System::Object* ValueAs(::System::Type* returnType);
+
+  /// @brief Method ValueAs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Object* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
+
+  /// @brief Method .ctor, addr 0x299495c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   /// @brief Method get_TypedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_ValueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Type* get_ValueType();
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_Value();
 
   /// @brief Method get_ValueAsBoolean, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ValueAsBoolean();
@@ -83,17 +86,18 @@ public:
   /// @brief Method get_ValueAsLong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_ValueAsLong();
 
-  /// @brief Method ValueAs, addr 0x28ad4cc, size 0x14, virtual true, abstract: false, final false
-  inline ::System::Object* ValueAs(::System::Type* returnType);
+  /// @brief Method get_ValueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Type* get_ValueType();
 
-  /// @brief Method ValueAs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
+  /// @brief Method get_XmlType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Xml::Schema::XmlSchemaType* get_XmlType();
 
-  static inline ::System::Xml::XPath::XPathItem* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XPathItem();
 
-  /// @brief Method .ctor, addr 0x28ad4e0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XPathItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XPathItem(XPathItem&&) = delete;
@@ -102,12 +106,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XPathItem(XPathItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XPathItem();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionDataExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10871))
 // CS Name: ::MissionDataExtensions*
 class CORDL_TYPE MissionDataExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Name, addr 0x1294408, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x12d63d8, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType comparisonType);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionDataExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionDataExtensions(MissionDataExtensions&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionDataExtensions(MissionDataExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionDataExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

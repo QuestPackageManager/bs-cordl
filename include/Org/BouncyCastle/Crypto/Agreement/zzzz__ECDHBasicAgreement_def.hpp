@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(736))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::ECDHBasicAgreement*
 class CORDL_TYPE ECDHBasicAgreement : public ::System::Object {
 public:
@@ -39,8 +37,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBasicAgreement"
   constexpr operator ::Org::BouncyCastle::Crypto::IBasicAgreement*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"
-  constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* i___Org__BouncyCastle__Crypto__IBasicAgreement() noexcept;
+  /// @brief Method CalculateAgreement, addr 0x128b3fc, size 0x268, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
+
+  /// @brief Method GetFieldSize, addr 0x128b3b4, size 0x48, virtual true, abstract: false, final false
+  inline int32_t GetFieldSize();
+
+  /// @brief Method Init, addr 0x128b2c8, size 0xec, virtual true, abstract: false, final false
+  inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+
+  static inline ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* New_ctor();
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_privKey();
 
@@ -48,20 +54,18 @@ public:
 
   constexpr void __cordl_internal_set_privKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
 
-  /// @brief Method Init, addr 0x12472f8, size 0xec, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
-
-  /// @brief Method GetFieldSize, addr 0x12473e4, size 0x48, virtual true, abstract: false, final false
-  inline int32_t GetFieldSize();
-
-  /// @brief Method CalculateAgreement, addr 0x124742c, size 0x268, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
-
-  static inline ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1247694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x128b664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"
+  constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* i___Org__BouncyCastle__Crypto__IBasicAgreement() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ECDHBasicAgreement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ECDHBasicAgreement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECDHBasicAgreement(ECDHBasicAgreement&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ECDHBasicAgreement(ECDHBasicAgreement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ECDHBasicAgreement();
-
-public:
   /// @brief Field privKey, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ___privKey;
 

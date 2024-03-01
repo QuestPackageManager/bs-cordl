@@ -36,22 +36,25 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKInputFrame);
 // SizeInfo { instance_size: 344, native_size: 344, calculated_instance_size: 344, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14974)), TypeDefinitionIndex(TypeDefinitionIndex(14986)), TypeDefinitionIndex(TypeDefinitionIndex(14992)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14993)), TypeDefinitionIndex(TypeDefinitionIndex(14995))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14988)) CS Name: ::LIV.SDK.Unity::SDKInputFrame
+// CS Name: ::LIV.SDK.Unity::SDKInputFrame
 struct CORDL_TYPE SDKInputFrame {
 public:
   // Declarations
-  /// @brief Method get_empty, addr 0x22a4c14, size 0x144, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKInputFrame get_empty();
-
-  /// @brief Method ReleaseControl, addr 0x22a9140, size 0x10, virtual false, abstract: false, final false
-  inline void ReleaseControl();
-
-  /// @brief Method ObtainControl, addr 0x22a9150, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ObtainControl, addr 0x23757b8, size 0x14, virtual false, abstract: false, final false
   inline void ObtainControl();
 
-  /// @brief Method ToString, addr 0x22aab64, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method ReleaseControl, addr 0x23757a8, size 0x10, virtual false, abstract: false, final false
+  inline void ReleaseControl();
+
+  /// @brief Method ToString, addr 0x23771cc, size 0x334, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  /// @brief Method get_empty, addr 0x237127c, size 0x144, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKInputFrame get_empty();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SDKInputFrame();
 
   // Ctor Parameters [CppParam { name: "pose", ty: "::LIV::SDK::Unity::SDKPose", modifiers: "", def_value: None }, CppParam { name: "clipPlane", ty: "::LIV::SDK::Unity::SDKClipPlane", modifiers: "",
   // def_value: None }, CppParam { name: "stageTransform", ty: "::LIV::SDK::Unity::SDKTransform", modifiers: "", def_value: None }, CppParam { name: "features", ty: "::LIV::SDK::Unity::FEATURES",
@@ -60,10 +63,6 @@ public:
   // modifiers: "", def_value: None }]
   constexpr SDKInputFrame(::LIV::SDK::Unity::SDKPose pose, ::LIV::SDK::Unity::SDKClipPlane clipPlane, ::LIV::SDK::Unity::SDKTransform stageTransform, ::LIV::SDK::Unity::FEATURES features,
                           ::LIV::SDK::Unity::SDKClipPlane groundClipPlane, uint64_t frameid, uint64_t referenceframe, ::LIV::SDK::Unity::SDKPriority priority) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SDKInputFrame();
 
   /// @brief Field pose, offset: 0x0, size: 0x70, def value: None
   ::LIV::SDK::Unity::SDKPose pose;

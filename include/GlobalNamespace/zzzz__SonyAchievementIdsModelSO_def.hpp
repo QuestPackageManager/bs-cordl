@@ -35,45 +35,49 @@ MARK_REF_PTR_T(::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11004))
 // CS Name: ::SonyAchievementIdsModelSO::AchievementIdData*
 class CORDL_TYPE __SonyAchievementIdsModelSO__AchievementIdData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _trophyId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__trophyId, put = __cordl_internal_set__trophyId)) int32_t _trophyId;
-
   /// @brief Field _achievement, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__achievement, put = __cordl_internal_set__achievement))::UnityW<::GlobalNamespace::AchievementSO> _achievement;
 
-  __declspec(property(get = get_ps4TrophyId)) int32_t ps4TrophyId;
+  /// @brief Field _trophyId, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__trophyId, put = __cordl_internal_set__trophyId)) int32_t _trophyId;
 
   __declspec(property(get = get_achievementId))::StringW achievementId;
 
-  constexpr int32_t& __cordl_internal_get__trophyId();
-
-  constexpr int32_t const& __cordl_internal_get__trophyId() const;
-
-  constexpr void __cordl_internal_set__trophyId(int32_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__achievement();
-
-  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__achievement() const;
-
-  constexpr void __cordl_internal_set__achievement(::UnityW<::GlobalNamespace::AchievementSO> value);
-
-  /// @brief Method get_ps4TrophyId, addr 0x12a93bc, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_ps4TrophyId();
-
-  /// @brief Method get_achievementId, addr 0x12a9160, size 0x1c, virtual false, abstract: false, final false
-  inline ::StringW get_achievementId();
+  __declspec(property(get = get_ps4TrophyId)) int32_t ps4TrophyId;
 
   static inline ::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a93c4, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__achievement() const;
+
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__achievement();
+
+  constexpr int32_t const& __cordl_internal_get__trophyId() const;
+
+  constexpr int32_t& __cordl_internal_get__trophyId();
+
+  constexpr void __cordl_internal_set__achievement(::UnityW<::GlobalNamespace::AchievementSO> value);
+
+  constexpr void __cordl_internal_set__trophyId(int32_t value);
+
+  /// @brief Method .ctor, addr 0x12ea394, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_achievementId, addr 0x12ea130, size 0x1c, virtual false, abstract: false, final false
+  inline ::StringW get_achievementId();
+
+  /// @brief Method get_ps4TrophyId, addr 0x12ea38c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_ps4TrophyId();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SonyAchievementIdsModelSO__AchievementIdData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SonyAchievementIdsModelSO__AchievementIdData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SonyAchievementIdsModelSO__AchievementIdData(__SonyAchievementIdsModelSO__AchievementIdData&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SonyAchievementIdsModelSO__AchievementIdData(__SonyAchievementIdsModelSO__AchievementIdData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SonyAchievementIdsModelSO__AchievementIdData();
-
-public:
   /// @brief Field _trophyId, offset: 0x10, size: 0x4, def value: None
   int32_t ____trophyId;
 
@@ -108,21 +106,19 @@ static_assert(offsetof(::GlobalNamespace::__SonyAchievementIdsModelSO__Achieveme
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11005))
 // CS Name: ::SonyAchievementIdsModelSO*
 class CORDL_TYPE SonyAchievementIdsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   using AchievementIdData = ::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData;
 
-  /// @brief Field _achievementsIds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__achievementsIds,
-                      put = __cordl_internal_set__achievementsIds))::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>* _achievementsIds;
-
   /// @brief Field _achievementIdToTrophyId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__achievementIdToTrophyId,
                       put = __cordl_internal_set__achievementIdToTrophyId))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _achievementIdToTrophyId;
+
+  /// @brief Field _achievementsIds, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__achievementsIds,
+                      put = __cordl_internal_set__achievementsIds))::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>* _achievementsIds;
 
   /// @brief Field _trophyIdToAchievementId, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__trophyIdToAchievementId,
@@ -130,45 +126,51 @@ public:
 
   __declspec(property(get = get_achievementsIds))::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>* achievementsIds;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>*& __cordl_internal_get__achievementsIds();
+  /// @brief Method GetAchievementId, addr 0x12ea220, size 0x68, virtual false, abstract: false, final false
+  inline bool GetAchievementId(int32_t trophyId, ByRef<::StringW> achievementId);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>*> const&
-  __cordl_internal_get__achievementsIds() const;
+  /// @brief Method GetTrophyId, addr 0x12ea14c, size 0x68, virtual false, abstract: false, final false
+  inline bool GetTrophyId(::StringW achievementId, ByRef<int32_t> trophyId);
 
-  constexpr void __cordl_internal_set__achievementsIds(::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>* value);
+  /// @brief Method GetTrophyIds, addr 0x12ea1b4, size 0x6c, virtual false, abstract: false, final false
+  inline ::ArrayW<int32_t, ::Array<int32_t>*> GetTrophyIds();
+
+  static inline ::GlobalNamespace::SonyAchievementIdsModelSO* New_ctor();
+
+  /// @brief Method OnEnable, addr 0x12e9ef0, size 0x240, virtual true, abstract: false, final false
+  inline void OnEnable();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get__achievementIdToTrophyId();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __cordl_internal_get__achievementIdToTrophyId() const;
 
-  constexpr void __cordl_internal_set__achievementIdToTrophyId(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>*& __cordl_internal_get__achievementsIds();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>*> const&
+  __cordl_internal_get__achievementsIds() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*& __cordl_internal_get__trophyIdToAchievementId();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*> const& __cordl_internal_get__trophyIdToAchievementId() const;
 
+  constexpr void __cordl_internal_set__achievementIdToTrophyId(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
+
+  constexpr void __cordl_internal_set__achievementsIds(::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>* value);
+
   constexpr void __cordl_internal_set__trophyIdToAchievementId(::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* value);
 
-  /// @brief Method get_achievementsIds, addr 0x12a8f18, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>* get_achievementsIds();
-
-  /// @brief Method OnEnable, addr 0x12a8f20, size 0x240, virtual true, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method GetTrophyId, addr 0x12a917c, size 0x68, virtual false, abstract: false, final false
-  inline bool GetTrophyId(::StringW achievementId, ByRef<int32_t> trophyId);
-
-  /// @brief Method GetTrophyIds, addr 0x12a91e4, size 0x6c, virtual false, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> GetTrophyIds();
-
-  /// @brief Method GetAchievementId, addr 0x12a9250, size 0x68, virtual false, abstract: false, final false
-  inline bool GetAchievementId(int32_t trophyId, ByRef<::StringW> achievementId);
-
-  static inline ::GlobalNamespace::SonyAchievementIdsModelSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12a92b8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ea288, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_achievementsIds, addr 0x12e9ee8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>* get_achievementsIds();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SonyAchievementIdsModelSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SonyAchievementIdsModelSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SonyAchievementIdsModelSO(SonyAchievementIdsModelSO&&) = delete;
@@ -177,12 +179,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SonyAchievementIdsModelSO(SonyAchievementIdsModelSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SonyAchievementIdsModelSO();
-
-public:
   /// @brief Field _achievementsIds, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyAchievementIdsModelSO__AchievementIdData*>* ____achievementsIds;
 

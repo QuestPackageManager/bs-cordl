@@ -17,26 +17,30 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IMGUIEvent);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1681 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6416))
 // CS Name: ::UnityEngine.UIElements::IMGUIEvent*
 class CORDL_TYPE IMGUIEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::IMGUIEvent*> {
 public:
   // Declarations
-  /// @brief Method GetPooled, addr 0x2e64e60, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2f57588, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IMGUIEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x2e64f98, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f576c0, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e64fec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f57714, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::IMGUIEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e64ff8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f57720, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IMGUIEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IMGUIEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IMGUIEvent(IMGUIEvent&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IMGUIEvent(IMGUIEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IMGUIEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

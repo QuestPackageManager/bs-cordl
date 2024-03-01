@@ -19,22 +19,27 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithPartyUpdateNotification);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13417)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst:
-// 977 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13225)) CS Name: ::Oculus.Platform::MessageWithPartyUpdateNotification*
+// CS Name: ::Oculus.Platform::MessageWithPartyUpdateNotification*
 class CORDL_TYPE MessageWithPartyUpdateNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PartyUpdateNotification*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::MessageWithPartyUpdateNotification* New_ctor(void* c_message);
-
-  /// @brief Method .ctor, addr 0x2718f44, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
-
-  /// @brief Method GetPartyUpdateNotification, addr 0x271d164, size 0x3c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::PartyUpdateNotification* GetPartyUpdateNotification();
-
-  /// @brief Method GetDataFromMessage, addr 0x271d1a0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x27e4cbc, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PartyUpdateNotification* GetDataFromMessage(void* c_message);
 
+  /// @brief Method GetPartyUpdateNotification, addr 0x27e4c80, size 0x3c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::PartyUpdateNotification* GetPartyUpdateNotification();
+
+  static inline ::Oculus::Platform::MessageWithPartyUpdateNotification* New_ctor(void* c_message);
+
+  /// @brief Method .ctor, addr 0x27e0eb8, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(void* c_message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MessageWithPartyUpdateNotification();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithPartyUpdateNotification", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MessageWithPartyUpdateNotification(MessageWithPartyUpdateNotification&&) = delete;
@@ -43,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithPartyUpdateNotification(MessageWithPartyUpdateNotification const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithPartyUpdateNotification();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

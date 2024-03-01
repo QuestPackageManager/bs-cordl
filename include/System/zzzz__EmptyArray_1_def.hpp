@@ -17,8 +17,6 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2592))
 // CS Name: ::System::EmptyArray`1<T>*
 class CORDL_TYPE EmptyArray_1 : public ::System::Object {
 public:
@@ -26,10 +24,16 @@ public:
   /// @brief Field Value, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Value, put = setStaticF_Value))::ArrayW<T, ::Array<T>*> Value;
 
-  static inline void setStaticF_Value(::ArrayW<T, ::Array<T>*> value);
-
   static inline ::ArrayW<T, ::Array<T>*> getStaticF_Value();
 
+  static inline void setStaticF_Value(::ArrayW<T, ::Array<T>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EmptyArray_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EmptyArray_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EmptyArray_1(EmptyArray_1&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EmptyArray_1(EmptyArray_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EmptyArray_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

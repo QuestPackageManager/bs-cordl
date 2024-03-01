@@ -18,20 +18,24 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10899))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10896))
 // CS Name: ::MultiplayerBadgeDataGoodCutsSO*
 class CORDL_TYPE MultiplayerBadgeDataGoodCutsSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x1296444, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x12d8414, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x129646c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d843c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerBadgeDataGoodCutsSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataGoodCutsSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgeDataGoodCutsSO(MultiplayerBadgeDataGoodCutsSO&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBadgeDataGoodCutsSO(MultiplayerBadgeDataGoodCutsSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerBadgeDataGoodCutsSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

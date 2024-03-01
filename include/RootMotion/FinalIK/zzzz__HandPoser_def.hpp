@@ -24,21 +24,15 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::HandPoser);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12515))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12514))
 // CS Name: ::RootMotion.FinalIK::HandPoser*
 class CORDL_TYPE HandPoser : public ::RootMotion::FinalIK::Poser {
 public:
   // Declarations
-  /// @brief Field children, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> children;
-
   /// @brief Field _poseRoot, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__poseRoot, put = __cordl_internal_set__poseRoot))::UnityW<::UnityEngine::Transform> _poseRoot;
 
-  /// @brief Field poseChildren, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_poseChildren,
-                      put = __cordl_internal_set_poseChildren))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> poseChildren;
+  /// @brief Field children, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> children;
 
   /// @brief Field defaultLocalPositions, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_defaultLocalPositions,
@@ -48,56 +42,66 @@ public:
   __declspec(property(get = __cordl_internal_get_defaultLocalRotations,
                       put = __cordl_internal_set_defaultLocalRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> defaultLocalRotations;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_children();
+  /// @brief Field poseChildren, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_poseChildren,
+                      put = __cordl_internal_set_poseChildren))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> poseChildren;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_children() const;
-
-  constexpr void __cordl_internal_set_children(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__poseRoot();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__poseRoot() const;
-
-  constexpr void __cordl_internal_set__poseRoot(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_poseChildren();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_poseChildren() const;
-
-  constexpr void __cordl_internal_set_poseChildren(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_defaultLocalPositions();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_defaultLocalPositions() const;
-
-  constexpr void __cordl_internal_set_defaultLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_defaultLocalRotations();
-
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_defaultLocalRotations() const;
-
-  constexpr void __cordl_internal_set_defaultLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
-
-  /// @brief Method AutoMapping, addr 0x1324ea4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method AutoMapping, addr 0x1366e90, size 0xbc, virtual true, abstract: false, final false
   inline void AutoMapping();
 
-  /// @brief Method InitiatePoser, addr 0x1324f60, size 0x54, virtual true, abstract: false, final false
-  inline void InitiatePoser();
-
-  /// @brief Method FixPoserTransforms, addr 0x1325104, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method FixPoserTransforms, addr 0x13670f0, size 0xe8, virtual true, abstract: false, final false
   inline void FixPoserTransforms();
 
-  /// @brief Method UpdatePoser, addr 0x13251ec, size 0x330, virtual true, abstract: false, final false
-  inline void UpdatePoser();
-
-  /// @brief Method StoreDefaultState, addr 0x1324fb4, size 0x150, virtual false, abstract: false, final false
-  inline void StoreDefaultState();
+  /// @brief Method InitiatePoser, addr 0x1366f4c, size 0x54, virtual true, abstract: false, final false
+  inline void InitiatePoser();
 
   static inline ::RootMotion::FinalIK::HandPoser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x132551c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method StoreDefaultState, addr 0x1366fa0, size 0x150, virtual false, abstract: false, final false
+  inline void StoreDefaultState();
+
+  /// @brief Method UpdatePoser, addr 0x13671d8, size 0x330, virtual true, abstract: false, final false
+  inline void UpdatePoser();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__poseRoot() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__poseRoot();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_children() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_children();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_defaultLocalPositions() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_defaultLocalPositions();
+
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_defaultLocalRotations() const;
+
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_defaultLocalRotations();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_poseChildren() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_poseChildren();
+
+  constexpr void __cordl_internal_set__poseRoot(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_children(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+
+  constexpr void __cordl_internal_set_defaultLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  constexpr void __cordl_internal_set_defaultLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
+
+  constexpr void __cordl_internal_set_poseChildren(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+
+  /// @brief Method .ctor, addr 0x1367508, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HandPoser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HandPoser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HandPoser(HandPoser&&) = delete;
@@ -106,12 +110,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HandPoser(HandPoser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HandPoser();
-
-public:
   /// @brief Field children, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___children;
 

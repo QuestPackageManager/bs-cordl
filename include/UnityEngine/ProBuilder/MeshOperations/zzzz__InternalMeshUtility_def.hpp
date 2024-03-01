@@ -50,8 +50,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12163))
 // CS Name: ::InternalMeshUtility::<>c*
 class CORDL_TYPE __InternalMeshUtility____c : public ::System::Object {
 public:
@@ -86,64 +84,70 @@ public:
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<bool, bool>* __9__3_0;
 
-  static inline void setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* value);
+  static inline ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* New_ctor();
+
+  /// @brief Method <CreateMeshWithTransform>b__1_0, addr 0x2c9f380, size 0x18, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _CreateMeshWithTransform_b__1_0(::UnityEngine::Mesh* x);
+
+  /// @brief Method <CreateMeshWithTransform>b__1_1, addr 0x2c9f398, size 0x18, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _CreateMeshWithTransform_b__1_1(::UnityEngine::Mesh* x);
+
+  /// @brief Method <CreateMeshWithTransform>b__1_2, addr 0x2c9f3b0, size 0x18, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _CreateMeshWithTransform_b__1_2(::UnityEngine::Mesh* x);
+
+  /// @brief Method <FilterUnusedSubmeshIndexes>b__3_0, addr 0x2c9f410, size 0xc, virtual false, abstract: false, final false
+  inline bool _FilterUnusedSubmeshIndexes_b__3_0(bool x);
+
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_0, addr 0x2c9f3c8, size 0x18, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _ResetPbObjectWithMeshFilter_b__2_0(::UnityEngine::Mesh* x);
+
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_1, addr 0x2c9f3e0, size 0x18, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _ResetPbObjectWithMeshFilter_b__2_1(::UnityEngine::Mesh* x);
+
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_2, addr 0x2c9f3f8, size 0x18, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _ResetPbObjectWithMeshFilter_b__2_2(::UnityEngine::Mesh* x);
+
+  /// @brief Method .ctor, addr 0x2c9f378, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* getStaticF___9();
 
-  static inline void setStaticF___9__1_0(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* value);
-
   static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* getStaticF___9__1_0();
-
-  static inline void setStaticF___9__1_1(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* value);
 
   static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* getStaticF___9__1_1();
 
-  static inline void setStaticF___9__1_2(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* value);
-
   static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* getStaticF___9__1_2();
-
-  static inline void setStaticF___9__2_0(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* value);
 
   static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* getStaticF___9__2_0();
 
-  static inline void setStaticF___9__2_1(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* value);
-
   static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* getStaticF___9__2_1();
-
-  static inline void setStaticF___9__2_2(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* value);
 
   static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* getStaticF___9__2_2();
 
-  static inline void setStaticF___9__3_0(::System::Func_2<bool, bool>* value);
-
   static inline ::System::Func_2<bool, bool>* getStaticF___9__3_0();
 
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* value);
 
-  /// @brief Method .ctor, addr 0x2bb62a4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__1_0(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* value);
 
-  /// @brief Method <CreateMeshWithTransform>b__1_0, addr 0x2bb62ac, size 0x18, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _CreateMeshWithTransform_b__1_0(::UnityEngine::Mesh* x);
+  static inline void setStaticF___9__1_1(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* value);
 
-  /// @brief Method <CreateMeshWithTransform>b__1_1, addr 0x2bb62c4, size 0x18, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _CreateMeshWithTransform_b__1_1(::UnityEngine::Mesh* x);
+  static inline void setStaticF___9__1_2(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* value);
 
-  /// @brief Method <CreateMeshWithTransform>b__1_2, addr 0x2bb62dc, size 0x18, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _CreateMeshWithTransform_b__1_2(::UnityEngine::Mesh* x);
+  static inline void setStaticF___9__2_0(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* value);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_0, addr 0x2bb62f4, size 0x18, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _ResetPbObjectWithMeshFilter_b__2_0(::UnityEngine::Mesh* x);
+  static inline void setStaticF___9__2_1(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* value);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_1, addr 0x2bb630c, size 0x18, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _ResetPbObjectWithMeshFilter_b__2_1(::UnityEngine::Mesh* x);
+  static inline void setStaticF___9__2_2(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* value);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_2, addr 0x2bb6324, size 0x18, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _ResetPbObjectWithMeshFilter_b__2_2(::UnityEngine::Mesh* x);
+  static inline void setStaticF___9__3_0(::System::Func_2<bool, bool>* value);
 
-  /// @brief Method <FilterUnusedSubmeshIndexes>b__3_0, addr 0x2bb633c, size 0xc, virtual false, abstract: false, final false
-  inline bool _FilterUnusedSubmeshIndexes_b__3_0(bool x);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InternalMeshUtility____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InternalMeshUtility____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InternalMeshUtility____c(__InternalMeshUtility____c&&) = delete;
@@ -152,12 +156,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InternalMeshUtility____c(__InternalMeshUtility____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InternalMeshUtility____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -168,27 +166,31 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12164))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::InternalMeshUtility*
 class CORDL_TYPE InternalMeshUtility : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c;
 
-  /// @brief Method AverageNormalWithIndexes, addr 0x2bb21e8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method AverageNormalWithIndexes, addr 0x2c9b2bc, size 0x194, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 AverageNormalWithIndexes(::UnityEngine::ProBuilder::SharedVertex* shared, ::ArrayW<int32_t, ::Array<int32_t>*> all,
                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* norm);
 
-  /// @brief Method CreateMeshWithTransform, addr 0x2bb371c, size 0x10fc, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshWithTransform, addr 0x2c9c7f0, size 0x10fc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateMeshWithTransform(::UnityEngine::Transform* t, bool preserveFaces);
 
-  /// @brief Method ResetPbObjectWithMeshFilter, addr 0x2bb4b10, size 0x11d8, virtual false, abstract: false, final false
-  static inline bool ResetPbObjectWithMeshFilter(::UnityEngine::ProBuilder::ProBuilderMesh* pb, bool preserveFaces);
-
-  /// @brief Method FilterUnusedSubmeshIndexes, addr 0x2bb5ce8, size 0x558, virtual false, abstract: false, final false
+  /// @brief Method FilterUnusedSubmeshIndexes, addr 0x2c9edbc, size 0x558, virtual false, abstract: false, final false
   static inline void FilterUnusedSubmeshIndexes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
+  /// @brief Method ResetPbObjectWithMeshFilter, addr 0x2c9dbe4, size 0x11d8, virtual false, abstract: false, final false
+  static inline bool ResetPbObjectWithMeshFilter(::UnityEngine::ProBuilder::ProBuilderMesh* pb, bool preserveFaces);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InternalMeshUtility();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InternalMeshUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InternalMeshUtility(InternalMeshUtility&&) = delete;
@@ -197,12 +199,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InternalMeshUtility(InternalMeshUtility const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InternalMeshUtility();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

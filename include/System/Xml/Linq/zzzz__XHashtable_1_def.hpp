@@ -46,20 +46,24 @@ namespace System::Xml::Linq {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15556))
 // CS Name: ::XHashtable`1::ExtractKeyDelegate<TValue>*
 class CORDL_TYPE __XHashtable_1__ExtractKeyDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW Invoke(TValue value);
+
   static inline ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW Invoke(TValue value);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __XHashtable_1__ExtractKeyDelegate();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__XHashtable_1__ExtractKeyDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __XHashtable_1__ExtractKeyDelegate(__XHashtable_1__ExtractKeyDelegate&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __XHashtable_1__ExtractKeyDelegate(__XHashtable_1__ExtractKeyDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __XHashtable_1__ExtractKeyDelegate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -84,19 +82,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15557))
 // CS Name: ::XHashtable`1::XHashtableState::Entry<TValue>
 struct CORDL_TYPE __XHashtable_1__XHashtableState__Entry {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Value", ty: "TValue", modifiers: "", def_value: None }, CppParam { name: "HashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Next",
-  // ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __XHashtable_1__XHashtableState__Entry(TValue Value, int32_t HashCode, int32_t Next) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __XHashtable_1__XHashtableState__Entry();
+
+  // Ctor Parameters [CppParam { name: "Value", ty: "TValue", modifiers: "", def_value: None }, CppParam { name: "HashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Next",
+  // ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __XHashtable_1__XHashtableState__Entry(TValue Value, int32_t HashCode, int32_t Next) noexcept;
 
   /// @brief Field Value, offset: 0x0, size: 0x8, def value: None
   TValue Value;
@@ -120,8 +116,6 @@ namespace System::Xml::Linq {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15558))
 // CS Name: ::XHashtable`1::XHashtableState<TValue>*
 class CORDL_TYPE __XHashtable_1__XHashtableState : public ::System::Object {
 public:
@@ -135,58 +129,64 @@ public:
   __declspec(property(get = __cordl_internal_get__entries, put = __cordl_internal_set__entries))::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>,
                                                                                                          ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> _entries;
 
-  /// @brief Field _numEntries, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__numEntries, put = __cordl_internal_set__numEntries)) int32_t _numEntries;
-
   /// @brief Field _extractKey, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__extractKey, put = __cordl_internal_set__extractKey))::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* _extractKey;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__buckets();
+  /// @brief Field _numEntries, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__numEntries, put = __cordl_internal_set__numEntries)) int32_t _numEntries;
+
+  /// @brief Method ComputeHashCode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline int32_t ComputeHashCode(::StringW key, int32_t index, int32_t count);
+
+  /// @brief Method FindEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool FindEntry(int32_t hashCode, ::StringW key, int32_t index, int32_t count, ByRef<int32_t> entryIndex);
+
+  static inline ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* New_ctor(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* extractKey, int32_t capacity);
+
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* Resize();
+
+  /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryAdd(TValue value, ByRef<TValue> newValue);
+
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryGetValue(::StringW key, int32_t index, int32_t count, ByRef<TValue> value);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__buckets() const;
 
-  constexpr void __cordl_internal_set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*>& __cordl_internal_get__entries();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__buckets();
 
   constexpr ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> const&
   __cordl_internal_get__entries() const;
 
-  constexpr void
-  __cordl_internal_set__entries(::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> value);
-
-  constexpr int32_t& __cordl_internal_get__numEntries();
-
-  constexpr int32_t const& __cordl_internal_get__numEntries() const;
-
-  constexpr void __cordl_internal_set__numEntries(int32_t value);
+  constexpr ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*>& __cordl_internal_get__entries();
 
   constexpr ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>*& __cordl_internal_get__extractKey();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>*> const& __cordl_internal_get__extractKey() const;
 
+  constexpr int32_t const& __cordl_internal_get__numEntries() const;
+
+  constexpr int32_t& __cordl_internal_get__numEntries();
+
+  constexpr void __cordl_internal_set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void
+  __cordl_internal_set__entries(::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> value);
+
   constexpr void __cordl_internal_set__extractKey(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* value);
 
-  static inline ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* New_ctor(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* extractKey, int32_t capacity);
+  constexpr void __cordl_internal_set__numEntries(int32_t value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* extractKey, int32_t capacity);
 
-  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* Resize();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __XHashtable_1__XHashtableState();
 
-  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetValue(::StringW key, int32_t index, int32_t count, ByRef<TValue> value);
-
-  /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryAdd(TValue value, ByRef<TValue> newValue);
-
-  /// @brief Method FindEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool FindEntry(int32_t hashCode, ::StringW key, int32_t index, int32_t count, ByRef<int32_t> entryIndex);
-
-  /// @brief Method ComputeHashCode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline int32_t ComputeHashCode(::StringW key, int32_t index, int32_t count);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__XHashtable_1__XHashtableState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __XHashtable_1__XHashtableState(__XHashtable_1__XHashtableState&&) = delete;
@@ -195,12 +195,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __XHashtable_1__XHashtableState(__XHashtable_1__XHashtableState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __XHashtable_1__XHashtableState();
-
-public:
   /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____buckets;
 
@@ -223,18 +217,24 @@ namespace System::Xml::Linq {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15559))
 // CS Name: ::System.Xml.Linq::XHashtable`1<TValue>*
 class CORDL_TYPE XHashtable_1 : public ::System::Object {
 public:
   // Declarations
-  using XHashtableState = ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>;
-
   using ExtractKeyDelegate = ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>;
+
+  using XHashtableState = ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>;
 
   /// @brief Field _state, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* _state;
+
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TValue Add(TValue value);
+
+  static inline ::System::Xml::Linq::XHashtable_1<TValue>* New_ctor(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* extractKey, int32_t capacity);
+
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryGetValue(::StringW key, int32_t index, int32_t count, ByRef<TValue> value);
 
   constexpr ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>*& __cordl_internal_get__state();
 
@@ -242,17 +242,15 @@ public:
 
   constexpr void __cordl_internal_set__state(::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* value);
 
-  static inline ::System::Xml::Linq::XHashtable_1<TValue>* New_ctor(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* extractKey, int32_t capacity);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* extractKey, int32_t capacity);
 
-  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetValue(::StringW key, int32_t index, int32_t count, ByRef<TValue> value);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XHashtable_1();
 
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TValue Add(TValue value);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XHashtable_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XHashtable_1(XHashtable_1&&) = delete;
@@ -261,12 +259,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XHashtable_1(XHashtable_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XHashtable_1();
-
-public:
   /// @brief Field _state, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* ____state;
 

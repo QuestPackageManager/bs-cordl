@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ClassInterfaceAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3315))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3316))
 // CS Name: ::System.Runtime.InteropServices::ClassInterfaceAttribute*
 class CORDL_TYPE ClassInterfaceAttribute : public ::System::Attribute {
 public:
@@ -27,17 +25,23 @@ public:
   /// @brief Field _val, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val))::System::Runtime::InteropServices::ClassInterfaceType _val;
 
-  constexpr ::System::Runtime::InteropServices::ClassInterfaceType& __cordl_internal_get__val();
+  static inline ::System::Runtime::InteropServices::ClassInterfaceAttribute* New_ctor(::System::Runtime::InteropServices::ClassInterfaceType classInterfaceType);
 
   constexpr ::System::Runtime::InteropServices::ClassInterfaceType const& __cordl_internal_get__val() const;
 
+  constexpr ::System::Runtime::InteropServices::ClassInterfaceType& __cordl_internal_get__val();
+
   constexpr void __cordl_internal_set__val(::System::Runtime::InteropServices::ClassInterfaceType value);
 
-  static inline ::System::Runtime::InteropServices::ClassInterfaceAttribute* New_ctor(::System::Runtime::InteropServices::ClassInterfaceType classInterfaceType);
-
-  /// @brief Method .ctor, addr 0x24f7ed8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c7fb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::ClassInterfaceType classInterfaceType);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ClassInterfaceAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ClassInterfaceAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClassInterfaceAttribute(ClassInterfaceAttribute&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClassInterfaceAttribute(ClassInterfaceAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClassInterfaceAttribute();
-
-public:
   /// @brief Field _val, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::InteropServices::ClassInterfaceType ____val;
 

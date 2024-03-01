@@ -17,17 +17,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Ed25519KeyGenerationPara
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1018))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1040))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Ed25519KeyGenerationParameters*
 class CORDL_TYPE Ed25519KeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0xf5ee68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa3e38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Ed25519KeyGenerationParameters();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Ed25519KeyGenerationParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed25519KeyGenerationParameters(Ed25519KeyGenerationParameters&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Ed25519KeyGenerationParameters(Ed25519KeyGenerationParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Ed25519KeyGenerationParameters();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

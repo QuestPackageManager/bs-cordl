@@ -19,19 +19,17 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::EventBox);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11138))
 // CS Name: ::BeatmapSaveDataVersion4::EventBox
 struct CORDL_TYPE EventBox {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "f", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "l", ty:
-  // "::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*,::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>", modifiers: "", def_value: None }]
-  constexpr EventBox(int32_t f, int32_t e, ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> l) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr EventBox();
+
+  // Ctor Parameters [CppParam { name: "f", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "l", ty:
+  // "::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*,::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>", modifiers: "", def_value: None }]
+  constexpr EventBox(int32_t f, int32_t e, ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> l) noexcept;
 
   /// @brief Field f, offset: 0x0, size: 0x4, def value: None
   int32_t f;

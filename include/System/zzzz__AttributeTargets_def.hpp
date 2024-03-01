@@ -15,8 +15,6 @@ MARK_VAL_T(::System::AttributeTargets);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2354))
 // CS Name: ::System::AttributeTargets
 struct CORDL_TYPE AttributeTargets {
 public:
@@ -48,66 +46,71 @@ public:
     return static_cast<__AttributeTargets_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AttributeTargets(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__AttributeTargets_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AttributeTargets();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AttributeTargets(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field All value: static_cast<int32_t>(0x7fff)
+  static ::System::AttributeTargets const All;
 
   /// @brief Field Assembly value: static_cast<int32_t>(0x1)
   static ::System::AttributeTargets const Assembly;
 
-  /// @brief Field Module value: static_cast<int32_t>(0x2)
-  static ::System::AttributeTargets const Module;
-
   /// @brief Field Class value: static_cast<int32_t>(0x4)
   static ::System::AttributeTargets const Class;
-
-  /// @brief Field Struct value: static_cast<int32_t>(0x8)
-  static ::System::AttributeTargets const Struct;
-
-  /// @brief Field Enum value: static_cast<int32_t>(0x10)
-  static ::System::AttributeTargets const Enum;
 
   /// @brief Field Constructor value: static_cast<int32_t>(0x20)
   static ::System::AttributeTargets const Constructor;
 
-  /// @brief Field Method value: static_cast<int32_t>(0x40)
-  static ::System::AttributeTargets const Method;
+  /// @brief Field Delegate value: static_cast<int32_t>(0x1000)
+  static ::System::AttributeTargets const Delegate;
 
-  /// @brief Field Property value: static_cast<int32_t>(0x80)
-  static ::System::AttributeTargets const Property;
-
-  /// @brief Field Field value: static_cast<int32_t>(0x100)
-  static ::System::AttributeTargets const Field;
+  /// @brief Field Enum value: static_cast<int32_t>(0x10)
+  static ::System::AttributeTargets const Enum;
 
   /// @brief Field Event value: static_cast<int32_t>(0x200)
   static ::System::AttributeTargets const Event;
 
-  /// @brief Field Interface value: static_cast<int32_t>(0x400)
-  static ::System::AttributeTargets const Interface;
-
-  /// @brief Field Parameter value: static_cast<int32_t>(0x800)
-  static ::System::AttributeTargets const Parameter;
-
-  /// @brief Field Delegate value: static_cast<int32_t>(0x1000)
-  static ::System::AttributeTargets const Delegate;
-
-  /// @brief Field ReturnValue value: static_cast<int32_t>(0x2000)
-  static ::System::AttributeTargets const ReturnValue;
+  /// @brief Field Field value: static_cast<int32_t>(0x100)
+  static ::System::AttributeTargets const Field;
 
   /// @brief Field GenericParameter value: static_cast<int32_t>(0x4000)
   static ::System::AttributeTargets const GenericParameter;
 
-  /// @brief Field All value: static_cast<int32_t>(0x7fff)
-  static ::System::AttributeTargets const All;
+  /// @brief Field Interface value: static_cast<int32_t>(0x400)
+  static ::System::AttributeTargets const Interface;
+
+  /// @brief Field Method value: static_cast<int32_t>(0x40)
+  static ::System::AttributeTargets const Method;
+
+  /// @brief Field Module value: static_cast<int32_t>(0x2)
+  static ::System::AttributeTargets const Module;
+
+  /// @brief Field Parameter value: static_cast<int32_t>(0x800)
+  static ::System::AttributeTargets const Parameter;
+
+  /// @brief Field Property value: static_cast<int32_t>(0x80)
+  static ::System::AttributeTargets const Property;
+
+  /// @brief Field ReturnValue value: static_cast<int32_t>(0x2000)
+  static ::System::AttributeTargets const ReturnValue;
+
+  /// @brief Field Struct value: static_cast<int32_t>(0x8)
+  static ::System::AttributeTargets const Struct;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

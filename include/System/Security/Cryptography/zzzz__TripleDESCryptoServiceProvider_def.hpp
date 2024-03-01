@@ -19,29 +19,33 @@ MARK_REF_PTR_T(::System::Security::Cryptography::TripleDESCryptoServiceProvider)
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2974))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2975))
 // CS Name: ::System.Security.Cryptography::TripleDESCryptoServiceProvider*
 class CORDL_TYPE TripleDESCryptoServiceProvider : public ::System::Security::Cryptography::TripleDES {
 public:
   // Declarations
-  static inline ::System::Security::Cryptography::TripleDESCryptoServiceProvider* New_ctor();
-
-  /// @brief Method .ctor, addr 0x248d338, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method CreateEncryptor, addr 0x248d77c, size 0x114, virtual true, abstract: false, final false
-  inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
-
-  /// @brief Method CreateDecryptor, addr 0x248dbb0, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x255f8a8, size 0x114, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateKey, addr 0x248dcc4, size 0xc8, virtual true, abstract: false, final false
-  inline void GenerateKey();
+  /// @brief Method CreateEncryptor, addr 0x255f474, size 0x114, virtual true, abstract: false, final false
+  inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateIV, addr 0x248de2c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x255fb24, size 0x68, virtual true, abstract: false, final false
   inline void GenerateIV();
 
+  /// @brief Method GenerateKey, addr 0x255f9bc, size 0xc8, virtual true, abstract: false, final false
+  inline void GenerateKey();
+
+  static inline ::System::Security::Cryptography::TripleDESCryptoServiceProvider* New_ctor();
+
+  /// @brief Method .ctor, addr 0x255f030, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TripleDESCryptoServiceProvider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TripleDESCryptoServiceProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TripleDESCryptoServiceProvider(TripleDESCryptoServiceProvider&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TripleDESCryptoServiceProvider(TripleDESCryptoServiceProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TripleDESCryptoServiceProvider();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

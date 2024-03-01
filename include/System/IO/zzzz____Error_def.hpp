@@ -16,30 +16,34 @@ MARK_REF_PTR_T(::System::IO::__Error);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3618))
 // CS Name: ::System.IO::__Error*
 class CORDL_TYPE __Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndOfFile, addr 0x2558ee0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EndOfFile, addr 0x262bfac, size 0x60, virtual false, abstract: false, final false
   static inline void EndOfFile();
 
-  /// @brief Method FileNotOpen, addr 0x2558f40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method FileNotOpen, addr 0x262c00c, size 0x64, virtual false, abstract: false, final false
   static inline void FileNotOpen();
 
-  /// @brief Method ReaderClosed, addr 0x2558fa4, size 0x64, virtual false, abstract: false, final false
-  static inline void ReaderClosed();
-
-  /// @brief Method GetDisplayablePath, addr 0x2559008, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayablePath, addr 0x262c0d4, size 0x144, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayablePath(::StringW path, bool isInvalidPath);
 
-  /// @brief Method WinIOError, addr 0x25592e8, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method ReaderClosed, addr 0x262c070, size 0x64, virtual false, abstract: false, final false
+  static inline void ReaderClosed();
+
+  /// @brief Method WinIOError, addr 0x262c3b4, size 0x5a0, virtual false, abstract: false, final false
   static inline void WinIOError(int32_t errorCode, ::StringW maybeFullPath);
 
-  /// @brief Method WriterClosed, addr 0x2559888, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WriterClosed, addr 0x262c954, size 0x64, virtual false, abstract: false, final false
   static inline void WriterClosed();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Error();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Error", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Error(__Error&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Error(__Error const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Error();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

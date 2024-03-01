@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerSetParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(494))
 // CS Name: ::Org.BouncyCastle.Asn1::BerSetParser*
 class CORDL_TYPE BerSetParser : public ::System::Object {
 public:
@@ -38,14 +36,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::Asn1SetParser"
   constexpr operator ::Org::BouncyCastle::Asn1::Asn1SetParser*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1SetParser"
-  constexpr ::Org::BouncyCastle::Asn1::Asn1SetParser* i___Org__BouncyCastle__Asn1__Asn1SetParser() noexcept;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
+  static inline ::Org::BouncyCastle::Asn1::BerSetParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
+
+  /// @brief Method ReadObject, addr 0x122eeb0, size 0x20, virtual true, abstract: false, final true
+  inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
+
+  /// @brief Method ToAsn1Object, addr 0x12266b8, size 0x78, virtual true, abstract: false, final true
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get__parser();
 
@@ -53,17 +53,21 @@ public:
 
   constexpr void __cordl_internal_set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
 
-  static inline ::Org::BouncyCastle::Asn1::BerSetParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
-
-  /// @brief Method .ctor, addr 0x11e36c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1226690, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ReadObject, addr 0x11ebee0, size 0x20, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1SetParser"
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SetParser* i___Org__BouncyCastle__Asn1__Asn1SetParser() noexcept;
 
-  /// @brief Method ToAsn1Object, addr 0x11e36e8, size 0x78, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerSetParser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BerSetParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerSetParser(BerSetParser&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BerSetParser(BerSetParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerSetParser();
-
-public:
   /// @brief Field _parser, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1StreamParser* ____parser;
 

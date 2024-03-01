@@ -18,15 +18,10 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3138))
 // CS Name: ::System.Runtime.Remoting.Metadata::SoapAttribute*
 class CORDL_TYPE SoapAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field _useAttribute, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__useAttribute, put = __cordl_internal_set__useAttribute)) bool _useAttribute;
-
   /// @brief Field ProtXmlNamespace, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ProtXmlNamespace, put = __cordl_internal_set_ProtXmlNamespace))::StringW ProtXmlNamespace;
 
@@ -37,38 +32,47 @@ public:
 
   __declspec(property(get = get_XmlNamespace))::StringW XmlNamespace;
 
-  constexpr bool& __cordl_internal_get__useAttribute();
+  /// @brief Field _useAttribute, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__useAttribute, put = __cordl_internal_set__useAttribute)) bool _useAttribute;
 
-  constexpr bool const& __cordl_internal_get__useAttribute() const;
+  static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* New_ctor();
 
-  constexpr void __cordl_internal_set__useAttribute(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_ProtXmlNamespace();
+  /// @brief Method SetReflectionObject, addr 0x2598a10, size 0x8, virtual true, abstract: false, final false
+  inline void SetReflectionObject(::System::Object* reflectionObject);
 
   constexpr ::StringW const& __cordl_internal_get_ProtXmlNamespace() const;
 
-  constexpr void __cordl_internal_set_ProtXmlNamespace(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_ProtXmlNamespace();
 
   constexpr ::System::Object*& __cordl_internal_get_ReflectInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_ReflectInfo() const;
 
+  constexpr bool const& __cordl_internal_get__useAttribute() const;
+
+  constexpr bool& __cordl_internal_get__useAttribute();
+
+  constexpr void __cordl_internal_set_ProtXmlNamespace(::StringW value);
+
   constexpr void __cordl_internal_set_ReflectInfo(::System::Object* value);
 
-  static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* New_ctor();
+  constexpr void __cordl_internal_set__useAttribute(bool value);
 
-  /// @brief Method .ctor, addr 0x24c7d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25989f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseAttribute, addr 0x24c7d08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UseAttribute, addr 0x2598a00, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlNamespace, addr 0x24c7d10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlNamespace, addr 0x2598a08, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
-  /// @brief Method SetReflectionObject, addr 0x24c7d18, size 0x8, virtual true, abstract: false, final false
-  inline void SetReflectionObject(::System::Object* reflectionObject);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SoapAttribute();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SoapAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoapAttribute(SoapAttribute&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SoapAttribute(SoapAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SoapAttribute();
-
-public:
   /// @brief Field _useAttribute, offset: 0x10, size: 0x1, def value: None
   bool ____useAttribute;
 

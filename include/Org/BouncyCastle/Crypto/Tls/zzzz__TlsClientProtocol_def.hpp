@@ -58,132 +58,136 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1292))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1293))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsClientProtocol*
 class CORDL_TYPE TlsClientProtocol : public ::Org::BouncyCastle::Crypto::Tls::TlsProtocol {
 public:
   // Declarations
-  /// @brief Field mTlsClient, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_mTlsClient, put = __cordl_internal_set_mTlsClient))::Org::BouncyCastle::Crypto::Tls::TlsClient* mTlsClient;
-
-  /// @brief Field mTlsClientContext, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_mTlsClientContext, put = __cordl_internal_set_mTlsClientContext))::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl* mTlsClientContext;
-
-  /// @brief Field mSelectedSessionID, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSelectedSessionID, put = __cordl_internal_set_mSelectedSessionID))::ArrayW<uint8_t, ::Array<uint8_t>*> mSelectedSessionID;
-
-  /// @brief Field mKeyExchange, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_mKeyExchange, put = __cordl_internal_set_mKeyExchange))::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* mKeyExchange;
-
-  /// @brief Field mAuthentication, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_mAuthentication, put = __cordl_internal_set_mAuthentication))::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* mAuthentication;
-
-  /// @brief Field mCertificateStatus, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get_mCertificateStatus, put = __cordl_internal_set_mCertificateStatus))::Org::BouncyCastle::Crypto::Tls::CertificateStatus* mCertificateStatus;
-
-  /// @brief Field mCertificateRequest, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_mCertificateRequest, put = __cordl_internal_set_mCertificateRequest))::Org::BouncyCastle::Crypto::Tls::CertificateRequest* mCertificateRequest;
-
   __declspec(property(get = get_Context))::Org::BouncyCastle::Crypto::Tls::TlsContext* Context;
 
   __declspec(property(get = get_ContextAdmin))::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext* ContextAdmin;
 
   __declspec(property(get = get_Peer))::Org::BouncyCastle::Crypto::Tls::TlsPeer* Peer;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClient*& __cordl_internal_get_mTlsClient();
+  /// @brief Field mAuthentication, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_mAuthentication, put = __cordl_internal_set_mAuthentication))::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* mAuthentication;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsClient*> const& __cordl_internal_get_mTlsClient() const;
+  /// @brief Field mCertificateRequest, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_mCertificateRequest, put = __cordl_internal_set_mCertificateRequest))::Org::BouncyCastle::Crypto::Tls::CertificateRequest* mCertificateRequest;
 
-  constexpr void __cordl_internal_set_mTlsClient(::Org::BouncyCastle::Crypto::Tls::TlsClient* value);
+  /// @brief Field mCertificateStatus, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get_mCertificateStatus, put = __cordl_internal_set_mCertificateStatus))::Org::BouncyCastle::Crypto::Tls::CertificateStatus* mCertificateStatus;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl*& __cordl_internal_get_mTlsClientContext();
+  /// @brief Field mKeyExchange, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_mKeyExchange, put = __cordl_internal_set_mKeyExchange))::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* mKeyExchange;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl*> const& __cordl_internal_get_mTlsClientContext() const;
+  /// @brief Field mSelectedSessionID, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_mSelectedSessionID, put = __cordl_internal_set_mSelectedSessionID))::ArrayW<uint8_t, ::Array<uint8_t>*> mSelectedSessionID;
 
-  constexpr void __cordl_internal_set_mTlsClientContext(::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl* value);
+  /// @brief Field mTlsClient, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_mTlsClient, put = __cordl_internal_set_mTlsClient))::Org::BouncyCastle::Crypto::Tls::TlsClient* mTlsClient;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSelectedSessionID();
+  /// @brief Field mTlsClientContext, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_mTlsClientContext, put = __cordl_internal_set_mTlsClientContext))::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl* mTlsClientContext;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSelectedSessionID() const;
+  /// @brief Method CleanupHandshake, addr 0x1011190, size 0x24, virtual true, abstract: false, final false
+  inline void CleanupHandshake();
 
-  constexpr void __cordl_internal_set_mSelectedSessionID(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method Connect, addr 0x1010d18, size 0x478, virtual true, abstract: false, final false
+  inline void Connect(::Org::BouncyCastle::Crypto::Tls::TlsClient* tlsClient);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*& __cordl_internal_get_mKeyExchange();
+  /// @brief Method HandleHandshakeMessage, addr 0x10111cc, size 0x1260, virtual true, abstract: false, final false
+  inline void HandleHandshakeMessage(uint8_t type, ::System::IO::MemoryStream* buf);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*> const& __cordl_internal_get_mKeyExchange() const;
+  /// @brief Method HandleSupplementalData, addr 0x101242c, size 0x1b0, virtual true, abstract: false, final false
+  inline void HandleSupplementalData(::System::Collections::IList* serverSupplementalData);
 
-  constexpr void __cordl_internal_set_mKeyExchange(::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* value);
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol* New_ctor(::System::IO::Stream* input, ::System::IO::Stream* output, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
+
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
+
+  static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
+
+  /// @brief Method ReceiveNewSessionTicketMessage, addr 0x10125dc, size 0xc0, virtual true, abstract: false, final false
+  inline void ReceiveNewSessionTicketMessage(::System::IO::MemoryStream* buf);
+
+  /// @brief Method ReceiveServerHelloMessage, addr 0x101269c, size 0xea4, virtual true, abstract: false, final false
+  inline void ReceiveServerHelloMessage(::System::IO::MemoryStream* buf);
+
+  /// @brief Method SendCertificateVerifyMessage, addr 0x1013540, size 0x8c, virtual true, abstract: false, final false
+  inline void SendCertificateVerifyMessage(::Org::BouncyCastle::Crypto::Tls::DigitallySigned* certificateVerify);
+
+  /// @brief Method SendClientHelloMessage, addr 0x10135cc, size 0x6a0, virtual true, abstract: false, final false
+  inline void SendClientHelloMessage();
+
+  /// @brief Method SendClientKeyExchangeMessage, addr 0x1013c6c, size 0xe4, virtual true, abstract: false, final false
+  inline void SendClientKeyExchangeMessage();
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication*& __cordl_internal_get_mAuthentication();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsAuthentication*> const& __cordl_internal_get_mAuthentication() const;
 
-  constexpr void __cordl_internal_set_mAuthentication(::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* value);
+  constexpr ::Org::BouncyCastle::Crypto::Tls::CertificateRequest*& __cordl_internal_get_mCertificateRequest();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::CertificateRequest*> const& __cordl_internal_get_mCertificateRequest() const;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::CertificateStatus*& __cordl_internal_get_mCertificateStatus();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::CertificateStatus*> const& __cordl_internal_get_mCertificateStatus() const;
 
-  constexpr void __cordl_internal_set_mCertificateStatus(::Org::BouncyCastle::Crypto::Tls::CertificateStatus* value);
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*& __cordl_internal_get_mKeyExchange();
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::CertificateRequest*& __cordl_internal_get_mCertificateRequest();
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange*> const& __cordl_internal_get_mKeyExchange() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::CertificateRequest*> const& __cordl_internal_get_mCertificateRequest() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSelectedSessionID() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSelectedSessionID();
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClient*& __cordl_internal_get_mTlsClient();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsClient*> const& __cordl_internal_get_mTlsClient() const;
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl*& __cordl_internal_get_mTlsClientContext();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl*> const& __cordl_internal_get_mTlsClientContext() const;
+
+  constexpr void __cordl_internal_set_mAuthentication(::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* value);
 
   constexpr void __cordl_internal_set_mCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
+  constexpr void __cordl_internal_set_mCertificateStatus(::Org::BouncyCastle::Crypto::Tls::CertificateStatus* value);
 
-  /// @brief Method .ctor, addr 0xfcbcf8, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
+  constexpr void __cordl_internal_set_mKeyExchange(::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol* New_ctor(::System::IO::Stream* input, ::System::IO::Stream* output, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
+  constexpr void __cordl_internal_set_mSelectedSessionID(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0xfcbd18, size 0x18, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_mTlsClient(::Org::BouncyCastle::Crypto::Tls::TlsClient* value);
+
+  constexpr void __cordl_internal_set_mTlsClientContext(::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl* value);
+
+  /// @brief Method .ctor, addr 0x1010ce8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, ::System::IO::Stream* output, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
-
-  /// @brief Method .ctor, addr 0xfcbd30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1010d00, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method Connect, addr 0xfcbd48, size 0x478, virtual true, abstract: false, final false
-  inline void Connect(::Org::BouncyCastle::Crypto::Tls::TlsClient* tlsClient);
+  /// @brief Method .ctor, addr 0x1010cc8, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method CleanupHandshake, addr 0xfcc1c0, size 0x24, virtual true, abstract: false, final false
-  inline void CleanupHandshake();
-
-  /// @brief Method get_Context, addr 0xfcc1e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Context, addr 0x10111b4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsContext* get_Context();
 
-  /// @brief Method get_ContextAdmin, addr 0xfcc1ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ContextAdmin, addr 0x10111bc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext* get_ContextAdmin();
 
-  /// @brief Method get_Peer, addr 0xfcc1f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Peer, addr 0x10111c4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsPeer* get_Peer();
 
-  /// @brief Method HandleHandshakeMessage, addr 0xfcc1fc, size 0x1260, virtual true, abstract: false, final false
-  inline void HandleHandshakeMessage(uint8_t type, ::System::IO::MemoryStream* buf);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsClientProtocol();
 
-  /// @brief Method HandleSupplementalData, addr 0xfcd45c, size 0x1b0, virtual true, abstract: false, final false
-  inline void HandleSupplementalData(::System::Collections::IList* serverSupplementalData);
-
-  /// @brief Method ReceiveNewSessionTicketMessage, addr 0xfcd60c, size 0xc0, virtual true, abstract: false, final false
-  inline void ReceiveNewSessionTicketMessage(::System::IO::MemoryStream* buf);
-
-  /// @brief Method ReceiveServerHelloMessage, addr 0xfcd6cc, size 0xea4, virtual true, abstract: false, final false
-  inline void ReceiveServerHelloMessage(::System::IO::MemoryStream* buf);
-
-  /// @brief Method SendCertificateVerifyMessage, addr 0xfce570, size 0x8c, virtual true, abstract: false, final false
-  inline void SendCertificateVerifyMessage(::Org::BouncyCastle::Crypto::Tls::DigitallySigned* certificateVerify);
-
-  /// @brief Method SendClientHelloMessage, addr 0xfce5fc, size 0x6a0, virtual true, abstract: false, final false
-  inline void SendClientHelloMessage();
-
-  /// @brief Method SendClientKeyExchangeMessage, addr 0xfcec9c, size 0xe4, virtual true, abstract: false, final false
-  inline void SendClientKeyExchangeMessage();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsClientProtocol", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsClientProtocol(TlsClientProtocol&&) = delete;
@@ -192,12 +196,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsClientProtocol(TlsClientProtocol const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsClientProtocol();
-
-public:
   /// @brief Field mTlsClient, offset: 0xa8, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsClient* ___mTlsClient;
 

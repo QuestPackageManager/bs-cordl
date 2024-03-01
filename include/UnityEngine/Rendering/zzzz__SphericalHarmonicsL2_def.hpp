@@ -22,8 +22,6 @@ MARK_VAL_T(::UnityEngine::Rendering::SphericalHarmonicsL2);
 // SizeInfo { instance_size: 108, native_size: 108, calculated_instance_size: 108, calculated_native_size: 124, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9136))
 // CS Name: ::UnityEngine.Rendering::SphericalHarmonicsL2
 struct CORDL_TYPE SphericalHarmonicsL2 {
 public:
@@ -31,20 +29,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>*();
 
+  /// @brief Method Equals, addr 0x2de6138, size 0xb8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* other);
+
+  /// @brief Method Equals, addr 0x2de61f0, size 0x48, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Rendering::SphericalHarmonicsL2 other);
+
+  /// @brief Method GetHashCode, addr 0x2de5f64, size 0x1d4, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>* i___System__IEquatable_1___UnityEngine__Rendering__SphericalHarmonicsL2_();
 
-  /// @brief Method GetHashCode, addr 0x2cfa83c, size 0x1d4, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method Equals, addr 0x2cfaa10, size 0xb8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* other);
-
-  /// @brief Method Equals, addr 0x2cfaac8, size 0x48, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Rendering::SphericalHarmonicsL2 other);
-
-  /// @brief Method op_Equality, addr 0x2cfab10, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2de6238, size 0x1bc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SphericalHarmonicsL2();
 
   // Ctor Parameters [CppParam { name: "shr0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shr1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shr2", ty:
   // "float_t", modifiers: "", def_value: None }, CppParam { name: "shr3", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shr4", ty: "float_t", modifiers: "", def_value: None },
@@ -60,10 +62,6 @@ public:
   constexpr SphericalHarmonicsL2(float_t shr0, float_t shr1, float_t shr2, float_t shr3, float_t shr4, float_t shr5, float_t shr6, float_t shr7, float_t shr8, float_t shg0, float_t shg1, float_t shg2,
                                  float_t shg3, float_t shg4, float_t shg5, float_t shg6, float_t shg7, float_t shg8, float_t shb0, float_t shb1, float_t shb2, float_t shb3, float_t shb4, float_t shb5,
                                  float_t shb6, float_t shb7, float_t shb8) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SphericalHarmonicsL2();
 
   /// @brief Field shr0, offset: 0x0, size: 0x4, def value: None
   float_t shr0;

@@ -43,8 +43,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__PosesRecorder____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5190))
 // CS Name: ::PosesRecorder::<>c*
 class CORDL_TYPE __PosesRecorder____c : public ::System::Object {
 public:
@@ -58,29 +56,35 @@ public:
   /// @brief Field <>9__6_1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__6_1, put = setStaticF___9__6_1))::System::Func_2<::GlobalNamespace::PoseObject*, ::StringW>* __9__6_1;
 
-  static inline void setStaticF___9(::GlobalNamespace::__PosesRecorder____c* value);
+  static inline ::GlobalNamespace::__PosesRecorder____c* New_ctor();
+
+  /// @brief Method <Init>b__6_0, addr 0x23f8b98, size 0x18, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> _Init_b__6_0(::GlobalNamespace::PoseObject* ro);
+
+  /// @brief Method <Init>b__6_1, addr 0x23f8bb0, size 0x20, virtual false, abstract: false, final false
+  inline ::StringW _Init_b__6_1(::GlobalNamespace::PoseObject* ro);
+
+  /// @brief Method .ctor, addr 0x23f8b90, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__PosesRecorder____c* getStaticF___9();
 
-  static inline void setStaticF___9__6_0(::System::Func_2<::GlobalNamespace::PoseObject*, ::UnityW<::UnityEngine::Transform>>* value);
-
   static inline ::System::Func_2<::GlobalNamespace::PoseObject*, ::UnityW<::UnityEngine::Transform>>* getStaticF___9__6_0();
-
-  static inline void setStaticF___9__6_1(::System::Func_2<::GlobalNamespace::PoseObject*, ::StringW>* value);
 
   static inline ::System::Func_2<::GlobalNamespace::PoseObject*, ::StringW>* getStaticF___9__6_1();
 
-  static inline ::GlobalNamespace::__PosesRecorder____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__PosesRecorder____c* value);
 
-  /// @brief Method .ctor, addr 0x2329e94, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__6_0(::System::Func_2<::GlobalNamespace::PoseObject*, ::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method <Init>b__6_0, addr 0x2329e9c, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> _Init_b__6_0(::GlobalNamespace::PoseObject* ro);
+  static inline void setStaticF___9__6_1(::System::Func_2<::GlobalNamespace::PoseObject*, ::StringW>* value);
 
-  /// @brief Method <Init>b__6_1, addr 0x2329eb4, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW _Init_b__6_1(::GlobalNamespace::PoseObject* ro);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __PosesRecorder____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__PosesRecorder____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __PosesRecorder____c(__PosesRecorder____c&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PosesRecorder____c(__PosesRecorder____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PosesRecorder____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -105,8 +103,6 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PosesRecorder
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5191))
 // CS Name: ::PosesRecorder*
 class CORDL_TYPE PosesRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -117,57 +113,63 @@ public:
   __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
                       put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
+  /// @brief Field _data, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::GlobalNamespace::PosesRecordingData* _data;
+
   /// @brief Field _transforms, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__transforms,
                       put = __cordl_internal_set__transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transforms;
 
-  /// @brief Field _data, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::GlobalNamespace::PosesRecordingData* _data;
-
   __declspec(property(get = get_data))::GlobalNamespace::PosesRecordingData* data;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
+  /// @brief Method Init, addr 0x23f62c0, size 0x238, virtual false, abstract: false, final false
+  inline void Init(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> poseObjects,
+                   ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
+
+  /// @brief Method LateUpdate, addr 0x23f87cc, size 0x1c, virtual false, abstract: false, final false
+  inline void LateUpdate();
+
+  static inline ::GlobalNamespace::PosesRecorder* New_ctor();
+
+  /// @brief Method RecordTick, addr 0x23f87e8, size 0x1c8, virtual false, abstract: false, final false
+  inline void RecordTick(float_t time);
+
+  /// @brief Method StartRecording, addr 0x23f6c74, size 0xc, virtual false, abstract: false, final false
+  inline void StartRecording();
+
+  /// @brief Method StopRecording, addr 0x23f6bec, size 0xc, virtual false, abstract: false, final false
+  inline void StopRecording();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transforms();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transforms() const;
-
-  constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
   constexpr ::GlobalNamespace::PosesRecordingData*& __cordl_internal_get__data();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PosesRecordingData*> const& __cordl_internal_get__data() const;
 
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transforms() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transforms();
+
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
+
   constexpr void __cordl_internal_set__data(::GlobalNamespace::PosesRecordingData* value);
 
-  /// @brief Method get_data, addr 0x2329ac8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PosesRecordingData* get_data();
+  constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method LateUpdate, addr 0x2329ad0, size 0x1c, virtual false, abstract: false, final false
-  inline void LateUpdate();
-
-  /// @brief Method Init, addr 0x23275c4, size 0x238, virtual false, abstract: false, final false
-  inline void Init(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> poseObjects,
-                   ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
-
-  /// @brief Method StartRecording, addr 0x2327f78, size 0xc, virtual false, abstract: false, final false
-  inline void StartRecording();
-
-  /// @brief Method RecordTick, addr 0x2329aec, size 0x1c8, virtual false, abstract: false, final false
-  inline void RecordTick(float_t time);
-
-  /// @brief Method StopRecording, addr 0x2327ef0, size 0xc, virtual false, abstract: false, final false
-  inline void StopRecording();
-
-  static inline ::GlobalNamespace::PosesRecorder* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2329e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23f8b24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_data, addr 0x23f87c4, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PosesRecordingData* get_data();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PosesRecorder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PosesRecorder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PosesRecorder(PosesRecorder&&) = delete;
@@ -176,12 +178,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PosesRecorder(PosesRecorder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PosesRecorder();
-
-public:
   /// @brief Field _audioTimeSyncController, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 

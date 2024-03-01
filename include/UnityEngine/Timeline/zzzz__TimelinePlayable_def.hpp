@@ -54,15 +54,12 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimelinePlayable);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9193))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13882))
 // CS Name: ::UnityEngine.Timeline::TimelinePlayable*
 class CORDL_TYPE TimelinePlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
-  /// @brief Field m_IntervalTree, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_IntervalTree,
-                      put = __cordl_internal_set_m_IntervalTree))::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* m_IntervalTree;
+  /// @brief Field m_ActiveBit, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_ActiveBit, put = __cordl_internal_set_m_ActiveBit)) int32_t m_ActiveBit;
 
   /// @brief Field m_ActiveClips, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ActiveClips,
@@ -72,12 +69,13 @@ public:
   __declspec(property(get = __cordl_internal_get_m_CurrentListOfActiveClips,
                       put = __cordl_internal_set_m_CurrentListOfActiveClips))::System::Collections::Generic::List_1<::UnityEngine::Timeline::RuntimeElement*>* m_CurrentListOfActiveClips;
 
-  /// @brief Field m_ActiveBit, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ActiveBit, put = __cordl_internal_set_m_ActiveBit)) int32_t m_ActiveBit;
-
   /// @brief Field m_EvaluateCallbacks, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_EvaluateCallbacks,
                       put = __cordl_internal_set_m_EvaluateCallbacks))::System::Collections::Generic::List_1<::UnityEngine::Timeline::ITimelineEvaluateCallback*>* m_EvaluateCallbacks;
+
+  /// @brief Field m_IntervalTree, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_IntervalTree,
+                      put = __cordl_internal_set_m_IntervalTree))::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* m_IntervalTree;
 
   /// @brief Field m_PlayableCache, offset 0x38, size 0x8
   __declspec(property(
@@ -87,91 +85,97 @@ public:
   /// @brief Field muteAudioScrubbing, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_muteAudioScrubbing, put = setStaticF_muteAudioScrubbing)) bool muteAudioScrubbing;
 
-  constexpr ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*& __cordl_internal_get_m_IntervalTree();
+  /// @brief Method CacheTrack, addr 0x2d56940, size 0x70, virtual false, abstract: false, final false
+  inline void CacheTrack(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Playables::Playable playable, int32_t port, ::UnityEngine::Playables::Playable parent);
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*> const& __cordl_internal_get_m_IntervalTree() const;
+  /// @brief Method Compile, addr 0x2d55694, size 0x290, virtual false, abstract: false, final false
+  inline void Compile(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
+                      ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
 
-  constexpr void __cordl_internal_set_m_IntervalTree(::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* value);
+  /// @brief Method CompileTrackList, addr 0x2d55924, size 0x39c, virtual false, abstract: false, final false
+  inline void CompileTrackList(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
+                               ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool createOutputs);
+
+  /// @brief Method Create, addr 0x2d55474, size 0x220, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimelinePlayable*>
+  Create(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go,
+         bool autoRebalance, bool createOutputs);
+
+  /// @brief Method CreateTrackOutput, addr 0x2d560e0, size 0x680, virtual false, abstract: false, final false
+  inline void CreateTrackOutput(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, ::UnityEngine::Playables::Playable playable,
+                                int32_t port);
+
+  /// @brief Method CreateTrackPlayable, addr 0x2d55cc0, size 0x420, virtual false, abstract: false, final false
+  inline ::UnityEngine::Playables::Playable CreateTrackPlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
+                                                                ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, bool createOutputs);
+
+  /// @brief Method Evaluate, addr 0x2d569dc, size 0x5ec, virtual false, abstract: false, final false
+  inline void Evaluate(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData frameData);
+
+  /// @brief Method EvaluateAnimationPreviewUpdateCallback, addr 0x2d56850, size 0xf0, virtual false, abstract: false, final false
+  inline void EvaluateAnimationPreviewUpdateCallback(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
+
+  /// @brief Method EvaluateWeightsForAnimationPlayableOutput, addr 0x2d56760, size 0xf0, virtual false, abstract: false, final false
+  inline void EvaluateWeightsForAnimationPlayableOutput(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
+
+  /// @brief Method ForAOTCompilationOnly, addr 0x2d56fc8, size 0x64, virtual false, abstract: false, final false
+  static inline void ForAOTCompilationOnly();
+
+  static inline ::UnityEngine::Timeline::TimelinePlayable* New_ctor();
+
+  /// @brief Method PrepareFrame, addr 0x2d569b0, size 0x2c, virtual true, abstract: false, final false
+  inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
+
+  constexpr int32_t const& __cordl_internal_get_m_ActiveBit() const;
+
+  constexpr int32_t& __cordl_internal_get_m_ActiveBit();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::RuntimeElement*>*& __cordl_internal_get_m_ActiveClips();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::RuntimeElement*>*> const& __cordl_internal_get_m_ActiveClips() const;
 
-  constexpr void __cordl_internal_set_m_ActiveClips(::System::Collections::Generic::List_1<::UnityEngine::Timeline::RuntimeElement*>* value);
-
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::RuntimeElement*>*& __cordl_internal_get_m_CurrentListOfActiveClips();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::RuntimeElement*>*> const& __cordl_internal_get_m_CurrentListOfActiveClips() const;
-
-  constexpr void __cordl_internal_set_m_CurrentListOfActiveClips(::System::Collections::Generic::List_1<::UnityEngine::Timeline::RuntimeElement*>* value);
-
-  constexpr int32_t& __cordl_internal_get_m_ActiveBit();
-
-  constexpr int32_t const& __cordl_internal_get_m_ActiveBit() const;
-
-  constexpr void __cordl_internal_set_m_ActiveBit(int32_t value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::ITimelineEvaluateCallback*>*& __cordl_internal_get_m_EvaluateCallbacks();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::ITimelineEvaluateCallback*>*> const& __cordl_internal_get_m_EvaluateCallbacks() const;
 
-  constexpr void __cordl_internal_set_m_EvaluateCallbacks(::System::Collections::Generic::List_1<::UnityEngine::Timeline::ITimelineEvaluateCallback*>* value);
+  constexpr ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*& __cordl_internal_get_m_IntervalTree();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>*> const& __cordl_internal_get_m_IntervalTree() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityEngine::Playables::Playable>*& __cordl_internal_get_m_PlayableCache();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityEngine::Playables::Playable>*> const&
   __cordl_internal_get_m_PlayableCache() const;
 
+  constexpr void __cordl_internal_set_m_ActiveBit(int32_t value);
+
+  constexpr void __cordl_internal_set_m_ActiveClips(::System::Collections::Generic::List_1<::UnityEngine::Timeline::RuntimeElement*>* value);
+
+  constexpr void __cordl_internal_set_m_CurrentListOfActiveClips(::System::Collections::Generic::List_1<::UnityEngine::Timeline::RuntimeElement*>* value);
+
+  constexpr void __cordl_internal_set_m_EvaluateCallbacks(::System::Collections::Generic::List_1<::UnityEngine::Timeline::ITimelineEvaluateCallback*>* value);
+
+  constexpr void __cordl_internal_set_m_IntervalTree(::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* value);
+
   constexpr void __cordl_internal_set_m_PlayableCache(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityEngine::Playables::Playable>* value);
 
-  static inline void setStaticF_muteAudioScrubbing(bool value);
+  /// @brief Method .ctor, addr 0x2d5702c, size 0x148, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline bool getStaticF_muteAudioScrubbing();
 
-  /// @brief Method Create, addr 0x2c6b3a0, size 0x220, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimelinePlayable*>
-  Create(::UnityEngine::Playables::PlayableGraph graph, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go,
-         bool autoRebalance, bool createOutputs);
+  static inline void setStaticF_muteAudioScrubbing(bool value);
 
-  /// @brief Method Compile, addr 0x2c6b5c0, size 0x290, virtual false, abstract: false, final false
-  inline void Compile(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
-                      ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool autoRebalance, bool createOutputs);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TimelinePlayable();
 
-  /// @brief Method CompileTrackList, addr 0x2c6b850, size 0x39c, virtual false, abstract: false, final false
-  inline void CompileTrackList(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
-                               ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks, ::UnityEngine::GameObject* go, bool createOutputs);
-
-  /// @brief Method CreateTrackOutput, addr 0x2c6c00c, size 0x680, virtual false, abstract: false, final false
-  inline void CreateTrackOutput(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, ::UnityEngine::Playables::Playable playable,
-                                int32_t port);
-
-  /// @brief Method EvaluateWeightsForAnimationPlayableOutput, addr 0x2c6c68c, size 0xf0, virtual false, abstract: false, final false
-  inline void EvaluateWeightsForAnimationPlayableOutput(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
-
-  /// @brief Method EvaluateAnimationPreviewUpdateCallback, addr 0x2c6c77c, size 0xf0, virtual false, abstract: false, final false
-  inline void EvaluateAnimationPreviewUpdateCallback(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Animations::AnimationPlayableOutput animOutput);
-
-  /// @brief Method CreateTrackPlayable, addr 0x2c6bbec, size 0x420, virtual false, abstract: false, final false
-  inline ::UnityEngine::Playables::Playable CreateTrackPlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Playables::Playable timelinePlayable,
-                                                                ::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::GameObject* go, bool createOutputs);
-
-  /// @brief Method PrepareFrame, addr 0x2c6c8dc, size 0x2c, virtual true, abstract: false, final false
-  inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
-
-  /// @brief Method Evaluate, addr 0x2c6c908, size 0x5ec, virtual false, abstract: false, final false
-  inline void Evaluate(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData frameData);
-
-  /// @brief Method CacheTrack, addr 0x2c6c86c, size 0x70, virtual false, abstract: false, final false
-  inline void CacheTrack(::UnityEngine::Timeline::TrackAsset* track, ::UnityEngine::Playables::Playable playable, int32_t port, ::UnityEngine::Playables::Playable parent);
-
-  /// @brief Method ForAOTCompilationOnly, addr 0x2c6cef4, size 0x64, virtual false, abstract: false, final false
-  static inline void ForAOTCompilationOnly();
-
-  static inline ::UnityEngine::Timeline::TimelinePlayable* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c6cf58, size 0x148, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TimelinePlayable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TimelinePlayable(TimelinePlayable&&) = delete;
@@ -180,12 +184,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimelinePlayable(TimelinePlayable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimelinePlayable();
-
-public:
   /// @brief Field m_IntervalTree, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* ___m_IntervalTree;
 

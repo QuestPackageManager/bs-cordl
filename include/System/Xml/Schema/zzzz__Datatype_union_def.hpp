@@ -21,39 +21,43 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_union);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11522))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11521))
 // CS Name: ::System.Xml.Schema::Datatype_union*
 class CORDL_TYPE Datatype_union : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
   // Declarations
-  /// @brief Field types, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_types,
-                      put = __cordl_internal_set_types))::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> types;
-
   /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType))::System::Type* atomicValueType;
 
   /// @brief Field listValueType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType))::System::Type* listValueType;
 
-  constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>& __cordl_internal_get_types();
+  /// @brief Field types, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_types,
+                      put = __cordl_internal_set_types))::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> types;
+
+  /// @brief Method HasAtomicMembers, addr 0x29a0ee8, size 0x80, virtual false, abstract: false, final false
+  inline bool HasAtomicMembers();
 
   constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> const& __cordl_internal_get_types() const;
 
-  constexpr void __cordl_internal_set_types(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> value);
+  constexpr ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*>& __cordl_internal_get_types();
 
-  static inline void setStaticF_atomicValueType(::System::Type* value);
+  constexpr void __cordl_internal_set_types(::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> value);
 
   static inline ::System::Type* getStaticF_atomicValueType();
 
-  static inline void setStaticF_listValueType(::System::Type* value);
-
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method HasAtomicMembers, addr 0x28b9a6c, size 0x80, virtual false, abstract: false, final false
-  inline bool HasAtomicMembers();
+  static inline void setStaticF_atomicValueType(::System::Type* value);
 
+  static inline void setStaticF_listValueType(::System::Type* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Datatype_union();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_union", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Datatype_union(Datatype_union&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_union(Datatype_union const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Datatype_union();
-
-public:
   /// @brief Field types, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::System::Xml::Schema::XmlSchemaSimpleType*, ::Array<::System::Xml::Schema::XmlSchemaSimpleType*>*> ___types;
 

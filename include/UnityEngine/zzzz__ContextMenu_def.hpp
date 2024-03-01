@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::UnityEngine::ContextMenu);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8961))
 // CS Name: ::UnityEngine::ContextMenu*
 class CORDL_TYPE ContextMenu : public ::System::Attribute {
 public:
@@ -25,45 +23,51 @@ public:
   /// @brief Field menuItem, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_menuItem, put = __cordl_internal_set_menuItem))::StringW menuItem;
 
-  /// @brief Field validate, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_validate, put = __cordl_internal_set_validate)) bool validate;
-
   /// @brief Field priority, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_priority, put = __cordl_internal_set_priority)) int32_t priority;
 
-  constexpr ::StringW& __cordl_internal_get_menuItem();
-
-  constexpr ::StringW const& __cordl_internal_get_menuItem() const;
-
-  constexpr void __cordl_internal_set_menuItem(::StringW value);
-
-  constexpr bool& __cordl_internal_get_validate();
-
-  constexpr bool const& __cordl_internal_get_validate() const;
-
-  constexpr void __cordl_internal_set_validate(bool value);
-
-  constexpr int32_t& __cordl_internal_get_priority();
-
-  constexpr int32_t const& __cordl_internal_get_priority() const;
-
-  constexpr void __cordl_internal_set_priority(int32_t value);
+  /// @brief Field validate, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_validate, put = __cordl_internal_set_validate)) bool validate;
 
   static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName);
 
-  /// @brief Method .ctor, addr 0x2cd97dc, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::StringW itemName);
-
   static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName, bool isValidateFunction);
-
-  /// @brief Method .ctor, addr 0x2cd9814, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW itemName, bool isValidateFunction);
 
   static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
-  /// @brief Method .ctor, addr 0x2cd9850, size 0x40, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get_menuItem() const;
+
+  constexpr ::StringW& __cordl_internal_get_menuItem();
+
+  constexpr int32_t const& __cordl_internal_get_priority() const;
+
+  constexpr int32_t& __cordl_internal_get_priority();
+
+  constexpr bool const& __cordl_internal_get_validate() const;
+
+  constexpr bool& __cordl_internal_get_validate();
+
+  constexpr void __cordl_internal_set_menuItem(::StringW value);
+
+  constexpr void __cordl_internal_set_priority(int32_t value);
+
+  constexpr void __cordl_internal_set_validate(bool value);
+
+  /// @brief Method .ctor, addr 0x2dc4e2c, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::StringW itemName);
+
+  /// @brief Method .ctor, addr 0x2dc4e64, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW itemName, bool isValidateFunction);
+
+  /// @brief Method .ctor, addr 0x2dc4ea0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ContextMenu();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ContextMenu", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ContextMenu(ContextMenu&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContextMenu(ContextMenu const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContextMenu();
-
-public:
   /// @brief Field menuItem, offset: 0x10, size: 0x8, def value: None
   ::StringW ___menuItem;
 

@@ -16,27 +16,25 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKPriority);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14986))
 // CS Name: ::LIV.SDK.Unity::SDKPriority
 struct CORDL_TYPE SDKPriority {
 public:
   // Declarations
-  /// @brief Method get_empty, addr 0x22aa660, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2376cd4, size 0x26c, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method get_empty, addr 0x2376cc8, size 0xc, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPriority get_empty();
 
-  /// @brief Method ToString, addr 0x22aa66c, size 0x26c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SDKPriority();
 
   // Ctor Parameters [CppParam { name: "pose", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "clipPlane", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "stage",
   // ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "resolution", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "feature", ty: "int8_t", modifiers: "", def_value:
   // None }, CppParam { name: "nearFarAdjustment", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "groundPlane", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name:
   // "reserved2", ty: "int8_t", modifiers: "", def_value: None }]
   constexpr SDKPriority(int8_t pose, int8_t clipPlane, int8_t stage, int8_t resolution, int8_t feature, int8_t nearFarAdjustment, int8_t groundPlane, int8_t reserved2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SDKPriority();
 
   /// @brief Field pose, offset: 0x0, size: 0x1, def value: None
   int8_t pose;

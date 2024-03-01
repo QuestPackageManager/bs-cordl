@@ -20,73 +20,77 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleProperty);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6521))
 // CS Name: ::UnityEngine.UIElements::StyleProperty*
 class CORDL_TYPE StyleProperty : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::StringW m_Name;
+  /// @brief Field isCustomProperty, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get_isCustomProperty, put = __cordl_internal_set_isCustomProperty)) bool isCustomProperty;
 
   /// @brief Field m_Line, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Line, put = __cordl_internal_set_m_Line)) int32_t m_Line;
+
+  /// @brief Field m_Name, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::StringW m_Name;
 
   /// @brief Field m_Values, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Values,
                       put = __cordl_internal_set_m_Values))::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> m_Values;
 
-  /// @brief Field isCustomProperty, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_isCustomProperty, put = __cordl_internal_set_isCustomProperty)) bool isCustomProperty;
+  __declspec(property(get = get_name))::StringW name;
 
   /// @brief Field requireVariableResolve, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get_requireVariableResolve, put = __cordl_internal_set_requireVariableResolve)) bool requireVariableResolve;
 
-  __declspec(property(get = get_name))::StringW name;
-
   __declspec(property(get = get_values))::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> values;
-
-  constexpr ::StringW& __cordl_internal_get_m_Name();
-
-  constexpr ::StringW const& __cordl_internal_get_m_Name() const;
-
-  constexpr void __cordl_internal_set_m_Name(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get_m_Line();
-
-  constexpr int32_t const& __cordl_internal_get_m_Line() const;
-
-  constexpr void __cordl_internal_set_m_Line(int32_t value);
-
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*>& __cordl_internal_get_m_Values();
-
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> const& __cordl_internal_get_m_Values() const;
-
-  constexpr void __cordl_internal_set_m_Values(::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> value);
-
-  constexpr bool& __cordl_internal_get_isCustomProperty();
-
-  constexpr bool const& __cordl_internal_get_isCustomProperty() const;
-
-  constexpr void __cordl_internal_set_isCustomProperty(bool value);
-
-  constexpr bool& __cordl_internal_get_requireVariableResolve();
-
-  constexpr bool const& __cordl_internal_get_requireVariableResolve() const;
-
-  constexpr void __cordl_internal_set_requireVariableResolve(bool value);
-
-  /// @brief Method get_name, addr 0x2e83d58, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_name();
-
-  /// @brief Method get_values, addr 0x2e83d60, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> get_values();
 
   static inline ::UnityEngine::UIElements::StyleProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e83d68, size 0x8, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_isCustomProperty() const;
+
+  constexpr bool& __cordl_internal_get_isCustomProperty();
+
+  constexpr int32_t const& __cordl_internal_get_m_Line() const;
+
+  constexpr int32_t& __cordl_internal_get_m_Line();
+
+  constexpr ::StringW const& __cordl_internal_get_m_Name() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_Name();
+
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> const& __cordl_internal_get_m_Values() const;
+
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*>& __cordl_internal_get_m_Values();
+
+  constexpr bool const& __cordl_internal_get_requireVariableResolve() const;
+
+  constexpr bool& __cordl_internal_get_requireVariableResolve();
+
+  constexpr void __cordl_internal_set_isCustomProperty(bool value);
+
+  constexpr void __cordl_internal_set_m_Line(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Name(::StringW value);
+
+  constexpr void __cordl_internal_set_m_Values(::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> value);
+
+  constexpr void __cordl_internal_set_requireVariableResolve(bool value);
+
+  /// @brief Method .ctor, addr 0x2f77490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_name, addr 0x2f77480, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_name();
+
+  /// @brief Method get_values, addr 0x2f77488, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> get_values();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StyleProperty();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleProperty(StyleProperty&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StyleProperty(StyleProperty const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleProperty();
-
-public:
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
 

@@ -16,20 +16,18 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8659))
 // CS Name: ::OVR.OpenVR::RenderModel_t
 struct CORDL_TYPE RenderModel_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderModel_t();
+
   // Ctor Parameters [CppParam { name: "rVertexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
   // name: "rIndexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "diffuseTextureId", ty:
   // "int32_t", modifiers: "", def_value: None }]
   constexpr RenderModel_t(void* rVertexData, uint32_t unVertexCount, void* rIndexData, uint32_t unTriangleCount, int32_t diffuseTextureId) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RenderModel_t();
 
   /// @brief Field rVertexData, offset: 0x0, size: 0x8, def value: None
   void* rVertexData;

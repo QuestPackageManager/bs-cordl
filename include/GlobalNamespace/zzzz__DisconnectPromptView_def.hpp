@@ -40,38 +40,42 @@ MARK_REF_PTR_T(::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5075))
 // CS Name: ::DisconnectPromptView::<>c__DisplayClass12_0*
 class CORDL_TYPE __DisconnectPromptView____c__DisplayClass12_0 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field <>4__this, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::DisconnectPromptView> __4__this;
+
   /// @brief Field finishedCallback, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback))::System::Action* finishedCallback;
 
-  /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::DisconnectPromptView> __4__this;
+  static inline ::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0* New_ctor();
+
+  /// @brief Method <Hide>b__0, addr 0x23df05c, size 0x44, virtual false, abstract: false, final false
+  inline void _Hide_b__0();
+
+  constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView> const& __cordl_internal_get___4__this() const;
+
+  constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView>& __cordl_internal_get___4__this();
 
   constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_finishedCallback() const;
 
-  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
-
-  constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView>& __cordl_internal_get___4__this();
-
-  constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView> const& __cordl_internal_get___4__this() const;
-
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::DisconnectPromptView> value);
 
-  static inline ::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0* New_ctor();
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x23110d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23defac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Hide>b__0, addr 0x2311180, size 0x44, virtual false, abstract: false, final false
-  inline void _Hide_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DisconnectPromptView____c__DisplayClass12_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__DisconnectPromptView____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __DisconnectPromptView____c__DisplayClass12_0(__DisconnectPromptView____c__DisplayClass12_0&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DisconnectPromptView____c__DisplayClass12_0(__DisconnectPromptView____c__DisplayClass12_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DisconnectPromptView____c__DisplayClass12_0();
-
-public:
   /// @brief Field finishedCallback, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___finishedCallback;
 
@@ -106,106 +104,110 @@ static_assert(offsetof(::GlobalNamespace::__DisconnectPromptView____c__DisplayCl
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5076))
 // CS Name: ::DisconnectPromptView*
 class CORDL_TYPE DisconnectPromptView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using __c__DisplayClass12_0 = ::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0;
 
-  /// @brief Field _presentPanelAnimation, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__presentPanelAnimation, put = __cordl_internal_set__presentPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _presentPanelAnimation;
-
-  /// @brief Field _dismissPanelAnimation, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__dismissPanelAnimation, put = __cordl_internal_set__dismissPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _dismissPanelAnimation;
-
-  /// @brief Field _promptGameObject, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__promptGameObject, put = __cordl_internal_set__promptGameObject))::UnityW<::UnityEngine::GameObject> _promptGameObject;
-
-  /// @brief Field _okButton, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton))::UnityW<::UnityEngine::UI::Button> _okButton;
+  /// @brief Field _buttonBinder, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _cancelButton, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__cancelButton, put = __cordl_internal_set__cancelButton))::UnityW<::UnityEngine::UI::Button> _cancelButton;
 
+  /// @brief Field _dismissPanelAnimation, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__dismissPanelAnimation, put = __cordl_internal_set__dismissPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _dismissPanelAnimation;
+
+  /// @brief Field _okButton, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton))::UnityW<::UnityEngine::UI::Button> _okButton;
+
+  /// @brief Field _presentPanelAnimation, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__presentPanelAnimation, put = __cordl_internal_set__presentPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _presentPanelAnimation;
+
+  /// @brief Field _promptGameObject, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__promptGameObject, put = __cordl_internal_set__promptGameObject))::UnityW<::UnityEngine::GameObject> _promptGameObject;
+
   /// @brief Field didViewFinishEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_didViewFinishEvent, put = __cordl_internal_set_didViewFinishEvent))::System::Action_1<bool>* didViewFinishEvent;
 
-  /// @brief Field _buttonBinder, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  /// @brief Method Hide, addr 0x23deee0, size 0xcc, virtual false, abstract: false, final false
+  inline void Hide(::System::Action* finishedCallback);
 
-  constexpr ::UnityW<::HMUI::PanelAnimationSO>& __cordl_internal_get__presentPanelAnimation();
+  static inline ::GlobalNamespace::DisconnectPromptView* New_ctor();
 
-  constexpr ::UnityW<::HMUI::PanelAnimationSO> const& __cordl_internal_get__presentPanelAnimation() const;
+  /// @brief Method OnDisable, addr 0x23dee8c, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDisable();
 
-  constexpr void __cordl_internal_set__presentPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
+  /// @brief Method OnEnable, addr 0x23ded9c, size 0xf0, virtual false, abstract: false, final false
+  inline void OnEnable();
 
-  constexpr ::UnityW<::HMUI::PanelAnimationSO>& __cordl_internal_get__dismissPanelAnimation();
+  /// @brief Method Show, addr 0x23deea8, size 0x38, virtual false, abstract: false, final false
+  inline void Show();
 
-  constexpr ::UnityW<::HMUI::PanelAnimationSO> const& __cordl_internal_get__dismissPanelAnimation() const;
+  /// @brief Method <OnEnable>b__9_0, addr 0x23df01c, size 0x20, virtual false, abstract: false, final false
+  inline void _OnEnable_b__9_0();
 
-  constexpr void __cordl_internal_set__dismissPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__promptGameObject();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__promptGameObject() const;
-
-  constexpr void __cordl_internal_set__promptGameObject(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
-
-  constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelButton();
-
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
-
-  constexpr void __cordl_internal_set__cancelButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::System::Action_1<bool>*& __cordl_internal_get_didViewFinishEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_didViewFinishEvent() const;
-
-  constexpr void __cordl_internal_set_didViewFinishEvent(::System::Action_1<bool>* value);
+  /// @brief Method <OnEnable>b__9_1, addr 0x23df03c, size 0x20, virtual false, abstract: false, final false
+  inline void _OnEnable_b__9_1();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelButton();
+
+  constexpr ::UnityW<::HMUI::PanelAnimationSO> const& __cordl_internal_get__dismissPanelAnimation() const;
+
+  constexpr ::UnityW<::HMUI::PanelAnimationSO>& __cordl_internal_get__dismissPanelAnimation();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton();
+
+  constexpr ::UnityW<::HMUI::PanelAnimationSO> const& __cordl_internal_get__presentPanelAnimation() const;
+
+  constexpr ::UnityW<::HMUI::PanelAnimationSO>& __cordl_internal_get__presentPanelAnimation();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__promptGameObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__promptGameObject();
+
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_didViewFinishEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_didViewFinishEvent() const;
+
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method add_didViewFinishEvent, addr 0x2310d60, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didViewFinishEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set__cancelButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method remove_didViewFinishEvent, addr 0x2310e10, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didViewFinishEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set__dismissPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  /// @brief Method OnEnable, addr 0x2310ec0, size 0xf0, virtual false, abstract: false, final false
-  inline void OnEnable();
+  constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method OnDisable, addr 0x2310fb0, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDisable();
+  constexpr void __cordl_internal_set__presentPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  /// @brief Method Show, addr 0x2310fcc, size 0x38, virtual false, abstract: false, final false
-  inline void Show();
+  constexpr void __cordl_internal_set__promptGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method Hide, addr 0x2311004, size 0xcc, virtual false, abstract: false, final false
-  inline void Hide(::System::Action* finishedCallback);
+  constexpr void __cordl_internal_set_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  static inline ::GlobalNamespace::DisconnectPromptView* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23110d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23defb4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnEnable>b__9_0, addr 0x2311140, size 0x20, virtual false, abstract: false, final false
-  inline void _OnEnable_b__9_0();
+  /// @brief Method add_didViewFinishEvent, addr 0x23dec3c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method <OnEnable>b__9_1, addr 0x2311160, size 0x20, virtual false, abstract: false, final false
-  inline void _OnEnable_b__9_1();
+  /// @brief Method remove_didViewFinishEvent, addr 0x23decec, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didViewFinishEvent(::System::Action_1<bool>* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DisconnectPromptView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisconnectPromptView(DisconnectPromptView&&) = delete;
@@ -214,12 +216,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisconnectPromptView(DisconnectPromptView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisconnectPromptView();
-
-public:
   /// @brief Field _presentPanelAnimation, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimation;
 

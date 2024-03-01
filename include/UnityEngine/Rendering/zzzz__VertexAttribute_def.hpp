@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Rendering::VertexAttribute);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9078))
 // CS Name: ::UnityEngine.Rendering::VertexAttribute
 struct CORDL_TYPE VertexAttribute {
 public:
@@ -46,30 +44,38 @@ public:
     return static_cast<__VertexAttribute_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr VertexAttribute(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__VertexAttribute_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr VertexAttribute();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr VertexAttribute(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BlendIndices value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::Rendering::VertexAttribute const BlendIndices;
 
-  /// @brief Field Position value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Rendering::VertexAttribute const Position;
+  /// @brief Field BlendWeight value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::Rendering::VertexAttribute const BlendWeight;
+
+  /// @brief Field Color value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::Rendering::VertexAttribute const Color;
 
   /// @brief Field Normal value: static_cast<int32_t>(0x1)
   static ::UnityEngine::Rendering::VertexAttribute const Normal;
 
+  /// @brief Field Position value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::Rendering::VertexAttribute const Position;
+
   /// @brief Field Tangent value: static_cast<int32_t>(0x2)
   static ::UnityEngine::Rendering::VertexAttribute const Tangent;
-
-  /// @brief Field Color value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::Rendering::VertexAttribute const Color;
 
   /// @brief Field TexCoord0 value: static_cast<int32_t>(0x4)
   static ::UnityEngine::Rendering::VertexAttribute const TexCoord0;
@@ -95,11 +101,8 @@ public:
   /// @brief Field TexCoord7 value: static_cast<int32_t>(0xb)
   static ::UnityEngine::Rendering::VertexAttribute const TexCoord7;
 
-  /// @brief Field BlendWeight value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::Rendering::VertexAttribute const BlendWeight;
-
-  /// @brief Field BlendIndices value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::Rendering::VertexAttribute const BlendIndices;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

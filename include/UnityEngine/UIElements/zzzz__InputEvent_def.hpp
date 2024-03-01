@@ -15,54 +15,58 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::InputEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1682 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6505))
 // CS Name: ::UnityEngine.UIElements::InputEvent*
 class CORDL_TYPE InputEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::InputEvent*> {
 public:
   // Declarations
-  /// @brief Field <previousData>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__previousData_k__BackingField, put = __cordl_internal_set__previousData_k__BackingField))::StringW _previousData_k__BackingField;
-
   /// @brief Field <newData>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__newData_k__BackingField, put = __cordl_internal_set__newData_k__BackingField))::StringW _newData_k__BackingField;
 
-  __declspec(property(put = set_previousData))::StringW previousData;
+  /// @brief Field <previousData>k__BackingField, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__previousData_k__BackingField, put = __cordl_internal_set__previousData_k__BackingField))::StringW _previousData_k__BackingField;
 
   __declspec(property(put = set_newData))::StringW newData;
 
-  constexpr ::StringW& __cordl_internal_get__previousData_k__BackingField();
+  __declspec(property(put = set_previousData))::StringW previousData;
 
-  constexpr ::StringW const& __cordl_internal_get__previousData_k__BackingField() const;
+  /// @brief Method GetPooled, addr 0x2f608c4, size 0x84, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::InputEvent* GetPooled(::StringW previousData, ::StringW newData);
 
-  constexpr void __cordl_internal_set__previousData_k__BackingField(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__newData_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__newData_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__newData_k__BackingField(::StringW value);
-
-  /// @brief Method set_previousData, addr 0x2e6e124, size 0x8, virtual false, abstract: false, final false
-  inline void set_previousData(::StringW value);
-
-  /// @brief Method set_newData, addr 0x2e6e12c, size 0x8, virtual false, abstract: false, final false
-  inline void set_newData(::StringW value);
-
-  /// @brief Method Init, addr 0x2e6e134, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f6085c, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e6e18c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f608b4, size 0x10, virtual false, abstract: false, final false
   inline void LocalInit();
-
-  /// @brief Method GetPooled, addr 0x2e6e19c, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::InputEvent* GetPooled(::StringW previousData, ::StringW newData);
 
   static inline ::UnityEngine::UIElements::InputEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6e220, size 0x7c, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__newData_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__newData_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__previousData_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__previousData_k__BackingField();
+
+  constexpr void __cordl_internal_set__newData_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__previousData_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2f60948, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method set_newData, addr 0x2f60854, size 0x8, virtual false, abstract: false, final false
+  inline void set_newData(::StringW value);
+
+  /// @brief Method set_previousData, addr 0x2f6084c, size 0x8, virtual false, abstract: false, final false
+  inline void set_previousData(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InputEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputEvent(InputEvent&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputEvent(InputEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputEvent();
-
-public:
   /// @brief Field <previousData>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::StringW ____previousData_k__BackingField;
 

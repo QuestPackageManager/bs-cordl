@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::System::Empty);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2555))
 // CS Name: ::System::Empty*
 class CORDL_TYPE Empty : public ::System::Object {
 public:
@@ -36,24 +34,30 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
+  /// @brief Method GetObjectData, addr 0x26d4298, size 0x6c, virtual true, abstract: false, final true
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::Empty* New_ctor();
+
+  /// @brief Method ToString, addr 0x26d4250, size 0x48, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x26d4248, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::System::Empty* getStaticF_Value();
+
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   static inline void setStaticF_Value(::System::Empty* value);
 
-  static inline ::System::Empty* getStaticF_Value();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Empty();
 
-  static inline ::System::Empty* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2604b64, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method ToString, addr 0x2604b6c, size 0x48, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method GetObjectData, addr 0x2604bb4, size 0x6c, virtual true, abstract: false, final true
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Empty", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Empty(Empty&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Empty(Empty const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Empty();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

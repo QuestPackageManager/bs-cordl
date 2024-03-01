@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(468))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1TaggedObjectParser*
 class CORDL_TYPE Asn1TaggedObjectParser {
 public:
@@ -28,14 +26,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
+  /// @brief Method GetObjectParser, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
 
   /// @brief Method get_TagNo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_TagNo();
 
-  /// @brief Method GetObjectParser, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1TaggedObjectParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

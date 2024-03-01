@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1ParsingException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2427))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(459))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1ParsingException*
 class CORDL_TYPE Asn1ParsingException : public ::System::InvalidOperationException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Asn1ParsingException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11e4fdc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Asn1::Asn1ParsingException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x11e4fe4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1ParsingException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x11e4fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1227fac, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x1227fb4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x1227fbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Asn1ParsingException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Asn1ParsingException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1ParsingException(Asn1ParsingException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Asn1ParsingException(Asn1ParsingException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Asn1ParsingException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

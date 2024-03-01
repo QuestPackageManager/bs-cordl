@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::NtlmSettings);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13719))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13721))
 // CS Name: ::Mono.Security.Protocol.Ntlm::NtlmSettings*
 class CORDL_TYPE NtlmSettings : public ::System::Object {
 public:
@@ -27,13 +25,19 @@ public:
   /// @brief Field defaultAuthLevel, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_defaultAuthLevel, put = setStaticF_defaultAuthLevel))::Mono::Security::Protocol::Ntlm::NtlmAuthLevel defaultAuthLevel;
 
-  static inline void setStaticF_defaultAuthLevel(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
-
   static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel getStaticF_defaultAuthLevel();
 
-  /// @brief Method get_DefaultAuthLevel, addr 0x24211d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultAuthLevel, addr 0x24efecc, size 0x58, virtual false, abstract: false, final false
   static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel();
 
+  static inline void setStaticF_defaultAuthLevel(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NtlmSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NtlmSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NtlmSettings(NtlmSettings&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NtlmSettings(NtlmSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NtlmSettings();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -48,24 +48,32 @@ MARK_REF_PTR_T(::Tayx::Graphy::Ram::G_RamManager);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Ram {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14937))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14950))
 // CS Name: ::Tayx.Graphy.Ram::G_RamManager*
 class CORDL_TYPE G_RamManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field m_ramGraphGameObject, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ramGraphGameObject, put = __cordl_internal_set_m_ramGraphGameObject))::UnityW<::UnityEngine::GameObject> m_ramGraphGameObject;
-
   /// @brief Field m_backgroundImages, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_backgroundImages,
                       put = __cordl_internal_set_m_backgroundImages))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* m_backgroundImages;
 
+  /// @brief Field m_childrenGameObjects, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_childrenGameObjects,
+                      put = __cordl_internal_set_m_childrenGameObjects))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* m_childrenGameObjects;
+
+  /// @brief Field m_currentModuleState, offset 0x54, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_currentModuleState, put = __cordl_internal_set_m_currentModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_currentModuleState;
+
   /// @brief Field m_graphyManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager))::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
 
+  /// @brief Field m_previousModuleState, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_previousModuleState, put = __cordl_internal_set_m_previousModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_previousModuleState;
+
   /// @brief Field m_ramGraph, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ramGraph, put = __cordl_internal_set_m_ramGraph))::UnityW<::Tayx::Graphy::Ram::G_RamGraph> m_ramGraph;
+
+  /// @brief Field m_ramGraphGameObject, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ramGraphGameObject, put = __cordl_internal_set_m_ramGraphGameObject))::UnityW<::UnityEngine::GameObject> m_ramGraphGameObject;
 
   /// @brief Field m_ramText, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ramText, put = __cordl_internal_set_m_ramText))::UnityW<::Tayx::Graphy::Ram::G_RamText> m_ramText;
@@ -73,114 +81,110 @@ public:
   /// @brief Field m_rectTransform, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_rectTransform, put = __cordl_internal_set_m_rectTransform))::UnityW<::UnityEngine::RectTransform> m_rectTransform;
 
-  /// @brief Field m_childrenGameObjects, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_childrenGameObjects,
-                      put = __cordl_internal_set_m_childrenGameObjects))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* m_childrenGameObjects;
-
-  /// @brief Field m_previousModuleState, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_previousModuleState, put = __cordl_internal_set_m_previousModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_previousModuleState;
-
-  /// @brief Field m_currentModuleState, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_currentModuleState, put = __cordl_internal_set_m_currentModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_currentModuleState;
+  /// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
+  constexpr operator ::Tayx::Graphy::UI::IModifiableState*() noexcept;
 
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
-  /// @brief Convert to "::Tayx::Graphy::UI::IMovable"
-  constexpr ::Tayx::Graphy::UI::IMovable* i___Tayx__Graphy__UI__IMovable() noexcept;
+  /// @brief Method Awake, addr 0x2af4afc, size 0x4, virtual false, abstract: false, final false
+  inline void Awake();
 
-  /// @brief Convert operator to "::Tayx::Graphy::UI::IModifiableState"
-  constexpr operator ::Tayx::Graphy::UI::IModifiableState*() noexcept;
+  /// @brief Method Init, addr 0x2af0850, size 0x4b8, virtual false, abstract: false, final false
+  inline void Init();
 
-  /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
-  constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
+  static inline ::Tayx::Graphy::Ram::G_RamManager* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_ramGraphGameObject();
+  /// @brief Method RefreshParameters, addr 0x2af28d8, size 0x194, virtual false, abstract: false, final false
+  inline void RefreshParameters();
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_ramGraphGameObject() const;
+  /// @brief Method RestorePreviousState, addr 0x2af0174, size 0xc, virtual false, abstract: false, final false
+  inline void RestorePreviousState();
 
-  constexpr void __cordl_internal_set_m_ramGraphGameObject(::UnityW<::UnityEngine::GameObject> value);
+  /// @brief Method SetGraphActive, addr 0x2af4b04, size 0x44, virtual false, abstract: false, final false
+  inline void SetGraphActive(bool active);
+
+  /// @brief Method SetPosition, addr 0x2aed72c, size 0x2e8, virtual true, abstract: false, final true
+  inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
+
+  /// @brief Method SetState, addr 0x2aee2c8, size 0x150, virtual true, abstract: false, final true
+  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
+
+  /// @brief Method Start, addr 0x2af4b00, size 0x4, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method UpdateParameters, addr 0x2aee448, size 0x1ac, virtual false, abstract: false, final false
+  inline void UpdateParameters();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& __cordl_internal_get_m_backgroundImages();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*> const& __cordl_internal_get_m_backgroundImages() const;
 
-  constexpr void __cordl_internal_set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
-
-  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
-
-  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
-
-  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
-
-  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamGraph>& __cordl_internal_get_m_ramGraph();
-
-  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamGraph> const& __cordl_internal_get_m_ramGraph() const;
-
-  constexpr void __cordl_internal_set_m_ramGraph(::UnityW<::Tayx::Graphy::Ram::G_RamGraph> value);
-
-  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamText>& __cordl_internal_get_m_ramText();
-
-  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamText> const& __cordl_internal_get_m_ramText() const;
-
-  constexpr void __cordl_internal_set_m_ramText(::UnityW<::Tayx::Graphy::Ram::G_RamText> value);
-
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_rectTransform();
-
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_rectTransform() const;
-
-  constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
-
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_m_childrenGameObjects();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_m_childrenGameObjects() const;
 
-  constexpr void __cordl_internal_set_m_childrenGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
-
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_previousModuleState();
-
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_previousModuleState() const;
-
-  constexpr void __cordl_internal_set_m_previousModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_currentModuleState() const;
 
   constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_currentModuleState();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_currentModuleState() const;
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
+
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
+
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_previousModuleState() const;
+
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_previousModuleState();
+
+  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamGraph> const& __cordl_internal_get_m_ramGraph() const;
+
+  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamGraph>& __cordl_internal_get_m_ramGraph();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_ramGraphGameObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_ramGraphGameObject();
+
+  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamText> const& __cordl_internal_get_m_ramText() const;
+
+  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamText>& __cordl_internal_get_m_ramText();
+
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_rectTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_rectTransform();
+
+  constexpr void __cordl_internal_set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
+
+  constexpr void __cordl_internal_set_m_childrenGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   constexpr void __cordl_internal_set_m_currentModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  /// @brief Method Awake, addr 0x2a0ca28, size 0x4, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
 
-  /// @brief Method Start, addr 0x2a0ca2c, size 0x4, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set_m_previousModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  /// @brief Method SetPosition, addr 0x2a05658, size 0x2e8, virtual true, abstract: false, final true
-  inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
+  constexpr void __cordl_internal_set_m_ramGraph(::UnityW<::Tayx::Graphy::Ram::G_RamGraph> value);
 
-  /// @brief Method SetState, addr 0x2a061f4, size 0x150, virtual true, abstract: false, final true
-  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
+  constexpr void __cordl_internal_set_m_ramGraphGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method RestorePreviousState, addr 0x2a080a0, size 0xc, virtual false, abstract: false, final false
-  inline void RestorePreviousState();
+  constexpr void __cordl_internal_set_m_ramText(::UnityW<::Tayx::Graphy::Ram::G_RamText> value);
 
-  /// @brief Method UpdateParameters, addr 0x2a06374, size 0x1ac, virtual false, abstract: false, final false
-  inline void UpdateParameters();
+  constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method RefreshParameters, addr 0x2a0a804, size 0x194, virtual false, abstract: false, final false
-  inline void RefreshParameters();
-
-  /// @brief Method Init, addr 0x2a0877c, size 0x4b8, virtual false, abstract: false, final false
-  inline void Init();
-
-  /// @brief Method SetGraphActive, addr 0x2a0ca30, size 0x44, virtual false, abstract: false, final false
-  inline void SetGraphActive(bool active);
-
-  static inline ::Tayx::Graphy::Ram::G_RamManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2a0cc20, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af4cf4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
+  constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
+
+  /// @brief Convert to "::Tayx::Graphy::UI::IMovable"
+  constexpr ::Tayx::Graphy::UI::IMovable* i___Tayx__Graphy__UI__IMovable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr G_RamManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "G_RamManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   G_RamManager(G_RamManager&&) = delete;
@@ -189,12 +193,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_RamManager(G_RamManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_RamManager();
-
-public:
   /// @brief Field m_ramGraphGameObject, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_ramGraphGameObject;
 

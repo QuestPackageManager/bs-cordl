@@ -16,23 +16,27 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::Raw::Nat512);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Raw {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1599))
 // CS Name: ::Org.BouncyCastle.Math.Raw::Nat512*
 class CORDL_TYPE Nat512 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Mul, addr 0x10bbbf8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Mul, addr 0x10ffbc8, size 0x140, virtual false, abstract: false, final false
   static inline void Mul(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
-
-  /// @brief Method Square, addr 0x10bbd38, size 0xf0, virtual false, abstract: false, final false
-  static inline void Square(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
   static inline ::Org::BouncyCastle::Math::Raw::Nat512* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10bbe28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x10ffd08, size 0xf0, virtual false, abstract: false, final false
+  static inline void Square(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
+
+  /// @brief Method .ctor, addr 0x10ffdf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Nat512();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Nat512", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Nat512(Nat512&&) = delete;
@@ -41,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Nat512(Nat512 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Nat512();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

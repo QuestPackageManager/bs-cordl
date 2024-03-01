@@ -135,23 +135,25 @@ MARK_VAL_T(::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntit
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 884 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11022)) CS Name: ::SonyPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__7
+// CS Name: ::SonyPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__7
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12ecbcc, size 0x210, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12ecddc, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x12abbfc, size 0x210, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x12abe0c, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -162,10 +164,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW levelId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -210,23 +208,25 @@ static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 884 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11023)) CS Name: ::SonyPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__8
+// CS Name: ::SonyPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__8
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12ece34, size 0x210, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12ed044, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x12abe64, size 0x210, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x12ac074, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -237,10 +237,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW levelPackId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -285,24 +281,25 @@ static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10598)), TypeDefinitionIndex(TypeDefinitionIndex(16446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5049 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 896 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11024)) CS Name:
-// ::SonyPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__9
+// CS Name: ::SonyPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__9
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__9 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12ed09c, size 0x29c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12ed338, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x12ac0cc, size 0x29c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x12ac368, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__9();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -313,10 +310,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::StringW levelId, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__9();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -361,24 +354,25 @@ static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10598)), TypeDefinitionIndex(TypeDefinitionIndex(16446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 398 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5049 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 896 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(11025)) CS Name: ::SonyPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__10
+// CS Name: ::SonyPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__10
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12ed390, size 0x380, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12ed710, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x12ac3c0, size 0x380, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x12ac740, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__10();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -391,10 +385,6 @@ public:
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult> __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__10();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -444,23 +434,25 @@ static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16447)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 892 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11026)) CS Name: ::SonyPlatformAdditionalContentModel::<IsPackBetterBuyThanLevelAsync>d__11
+// CS Name: ::SonyPlatformAdditionalContentModel::<IsPackBetterBuyThanLevelAsync>d__11
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__11 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12ed768, size 0x610, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12edd78, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x12ac798, size 0x610, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x12acda8, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__11();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -471,10 +463,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW levelPackId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__11();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -519,23 +507,25 @@ static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel__
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 884 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 398 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11027)) CS Name: ::SonyPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__12
+// CS Name: ::SonyPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__12
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__12 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12eddd0, size 0x2e8, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12ee0b8, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x12ace00, size 0x2e8, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x12ad0e8, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__12();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -549,10 +539,6 @@ public:
       ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackProductData* _originalPack_5__2,
       ::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData* _levelPackRedirectionData_5__3,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__12();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -607,24 +593,25 @@ static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(10559)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 906 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 77 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11028)) CS Name:
-// ::SonyPlatformAdditionalContentModel::<EnsureDataValidity>d__15
+// CS Name: ::SonyPlatformAdditionalContentModel::<EnsureDataValidity>d__15
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel___EnsureDataValidity_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12ee110, size 0x3c0, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12ee4d0, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x12ad140, size 0x3c0, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x12ad500, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SonyPlatformAdditionalContentModel___EnsureDataValidity_d__15();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -635,10 +622,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this,
       ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult> __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___EnsureDataValidity_d__15();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -683,24 +666,25 @@ static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10559)), TypeDefinitionIndex(TypeDefinitionIndex(10601)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5048 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 906 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11029)) CS Name:
-// ::SonyPlatformAdditionalContentModel::<UpdateEntitlementsAsync>d__16
+// CS Name: ::SonyPlatformAdditionalContentModel::<UpdateEntitlementsAsync>d__16
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__16 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12ee528, size 0x378, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12ee8a0, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x12ad558, size 0x378, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x12ad8d0, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__16();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>", modifiers: "", def_value: None }, CppParam { name:
@@ -711,10 +695,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__16();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -754,15 +734,15 @@ static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10560))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11030))
 // CS Name: ::SonyPlatformAdditionalContentModel*
 class CORDL_TYPE SonyPlatformAdditionalContentModel : public ::GlobalNamespace::AdditionalContentModel {
 public:
   // Declarations
-  using _UpdateEntitlementsAsync_d__16 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__16;
-
   using _EnsureDataValidity_d__15 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__15;
+
+  using _GetLevelEntitlementStatusInternalAsync_d__7 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7;
+
+  using _GetPackEntitlementStatusInternalAsync_d__8 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8;
 
   using _GetRedirectedLevelPackProductData_d__12 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__12;
 
@@ -772,18 +752,16 @@ public:
 
   using _OpenLevelProductStoreAsync_d__9 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__9;
 
-  using _GetPackEntitlementStatusInternalAsync_d__8 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8;
-
-  using _GetLevelEntitlementStatusInternalAsync_d__7 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7;
+  using _UpdateEntitlementsAsync_d__16 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__16;
 
   /// @brief Field _entitlementsLabels, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__entitlementsLabels, put = __cordl_internal_set__entitlementsLabels))::System::Collections::Generic::HashSet_1<::StringW>* _entitlementsLabels;
 
-  /// @brief Field _semaphoreSlim, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
-
   /// @brief Field _isDataValid, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__isDataValid, put = __cordl_internal_set__isDataValid)) bool _isDataValid;
+
+  /// @brief Field _semaphoreSlim, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
 
   /// @brief Field _sonyCommerceHelper, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__sonyCommerceHelper, put = __cordl_internal_set__sonyCommerceHelper))::GlobalNamespace::ISonyCommerceHelper* _sonyCommerceHelper;
@@ -792,77 +770,83 @@ public:
   __declspec(property(get = __cordl_internal_get__sonyLevelProductCollectionModel,
                       put = __cordl_internal_set__sonyLevelProductCollectionModel))::GlobalNamespace::SonyLevelProductCollectionModel* _sonyLevelProductCollectionModel;
 
+  /// @brief Method EnsureDataValidity, addr 0x12ec9d0, size 0x100, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<bool>* EnsureDataValidity(::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x12ebfe8, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x12ec0ec, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId,
+                                                                                                                         ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method GetRedirectedLevelPackProductData, addr 0x12ec500, size 0x108, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetRedirectedLevelPackProductData(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method HasLevelEntitlement, addr 0x12ec608, size 0x7c, virtual false, abstract: false, final false
+  inline bool HasLevelEntitlement(::StringW levelId);
+
+  /// @brief Method HasLevelPackEntitlement, addr 0x12ec684, size 0x34c, virtual false, abstract: false, final false
+  inline bool HasLevelPackEntitlement(::StringW levelPackId);
+
+  /// @brief Method InvalidateDataInternal, addr 0x12ebfe0, size 0x8, virtual true, abstract: false, final false
+  inline void InvalidateDataInternal();
+
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x12ec3fc, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId,
+                                                                                                                              ::System::Threading::CancellationToken cancellationToken);
+
+  static inline ::GlobalNamespace::SonyPlatformAdditionalContentModel* New_ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
+                                                                                ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
+
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x12ec2f4, size 0x108, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x12ec1f0, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method UpdateEntitlementsAsync, addr 0x12ecad0, size 0xfc, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>* UpdateEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
+
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__entitlementsLabels();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__entitlementsLabels() const;
 
-  constexpr void __cordl_internal_set__entitlementsLabels(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr bool const& __cordl_internal_get__isDataValid() const;
+
+  constexpr bool& __cordl_internal_get__isDataValid();
 
   constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__semaphoreSlim();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__semaphoreSlim() const;
 
-  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
-
-  constexpr bool& __cordl_internal_get__isDataValid();
-
-  constexpr bool const& __cordl_internal_get__isDataValid() const;
-
-  constexpr void __cordl_internal_set__isDataValid(bool value);
-
   constexpr ::GlobalNamespace::ISonyCommerceHelper*& __cordl_internal_get__sonyCommerceHelper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISonyCommerceHelper*> const& __cordl_internal_get__sonyCommerceHelper() const;
-
-  constexpr void __cordl_internal_set__sonyCommerceHelper(::GlobalNamespace::ISonyCommerceHelper* value);
 
   constexpr ::GlobalNamespace::SonyLevelProductCollectionModel*& __cordl_internal_get__sonyLevelProductCollectionModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyLevelProductCollectionModel*> const& __cordl_internal_get__sonyLevelProductCollectionModel() const;
 
+  constexpr void __cordl_internal_set__entitlementsLabels(::System::Collections::Generic::HashSet_1<::StringW>* value);
+
+  constexpr void __cordl_internal_set__isDataValid(bool value);
+
+  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
+
+  constexpr void __cordl_internal_set__sonyCommerceHelper(::GlobalNamespace::ISonyCommerceHelper* value);
+
   constexpr void __cordl_internal_set__sonyLevelProductCollectionModel(::GlobalNamespace::SonyLevelProductCollectionModel* value);
 
-  static inline ::GlobalNamespace::SonyPlatformAdditionalContentModel* New_ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
-                                                                                ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
-
-  /// @brief Method .ctor, addr 0x12a8798, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e9768, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper, ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
-  /// @brief Method InvalidateDataInternal, addr 0x12ab010, size 0x8, virtual true, abstract: false, final false
-  inline void InvalidateDataInternal();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SonyPlatformAdditionalContentModel();
 
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x12ab018, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x12ab11c, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId,
-                                                                                                                         ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x12ab220, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x12ab324, size 0x108, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x12ab42c, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId,
-                                                                                                                              ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method GetRedirectedLevelPackProductData, addr 0x12ab530, size 0x108, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* GetRedirectedLevelPackProductData(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method HasLevelEntitlement, addr 0x12ab638, size 0x7c, virtual false, abstract: false, final false
-  inline bool HasLevelEntitlement(::StringW levelId);
-
-  /// @brief Method HasLevelPackEntitlement, addr 0x12ab6b4, size 0x34c, virtual false, abstract: false, final false
-  inline bool HasLevelPackEntitlement(::StringW levelPackId);
-
-  /// @brief Method EnsureDataValidity, addr 0x12aba00, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* EnsureDataValidity(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method UpdateEntitlementsAsync, addr 0x12abb00, size 0xfc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>* UpdateEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SonyPlatformAdditionalContentModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SonyPlatformAdditionalContentModel(SonyPlatformAdditionalContentModel&&) = delete;
@@ -871,12 +855,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SonyPlatformAdditionalContentModel(SonyPlatformAdditionalContentModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SonyPlatformAdditionalContentModel();
-
-public:
   /// @brief Field _entitlementsLabels, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::StringW>* ____entitlementsLabels;
 

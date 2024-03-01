@@ -80,23 +80,25 @@ MARK_VAL_T(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9037)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 779 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4731)) CS
-// Name: ::LevelListTableCell::<SetDataFromLevelAsync>d__20
+// CS Name: ::LevelListTableCell::<SetDataFromLevelAsync>d__20
 struct CORDL_TYPE __LevelListTableCell___SetDataFromLevelAsync_d__20 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x24a49b8, size 0x7f0, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x24a51a8, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x23d6a70, size 0x7f0, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x23d7260, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LevelListTableCell___SetDataFromLevelAsync_d__20();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelListTableCell>", modifiers:
@@ -108,10 +110,6 @@ public:
                                                                ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::GlobalNamespace::BeatmapLevel* level, bool isFavorite, bool isPromoted,
                                                                bool isUpdated, ::System::Threading::CancellationToken _cancellationToken_5__2,
                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LevelListTableCell___SetDataFromLevelAsync_d__20();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -171,23 +169,25 @@ static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLeve
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 884 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4732)) CS
-// Name: ::LevelListTableCell::<RefreshAvailabilityAsync>d__25
+// CS Name: ::LevelListTableCell::<RefreshAvailabilityAsync>d__25
 struct CORDL_TYPE __LevelListTableCell___RefreshAvailabilityAsync_d__25 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x24a51b4, size 0x3f8, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x24a55ac, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x23d726c, size 0x3f8, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x23d7664, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LevelListTableCell___RefreshAvailabilityAsync_d__25();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelListTableCell>", modifiers:
@@ -198,10 +198,6 @@ public:
                                                                   ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::StringW levelID, ::GlobalNamespace::BeatmapLevelsModel* contentModel,
                                                                   ::System::Threading::CancellationToken _cancellationToken_5__2,
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LevelListTableCell___RefreshAvailabilityAsync_d__25();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -251,8 +247,6 @@ static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabi
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(13617))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4733))
 // CS Name: ::LevelListTableCell*
 class CORDL_TYPE LevelListTableCell : public ::HMUI::TableCell {
 public:
@@ -270,30 +264,17 @@ public:
   /// @brief Field _coverImage, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__coverImage, put = __cordl_internal_set__coverImage))::UnityW<::UnityEngine::UI::Image> _coverImage;
 
-  /// @brief Field _songNameText, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__songNameText, put = __cordl_internal_set__songNameText))::UnityW<::TMPro::TextMeshProUGUI> _songNameText;
-
-  /// @brief Field _songAuthorText, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__songAuthorText, put = __cordl_internal_set__songAuthorText))::UnityW<::TMPro::TextMeshProUGUI> _songAuthorText;
+  /// @brief Field _defaultCoverImage, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultCoverImage, put = __cordl_internal_set__defaultCoverImage))::UnityW<::UnityEngine::Sprite> _defaultCoverImage;
 
   /// @brief Field _favoritesBadgeImage, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__favoritesBadgeImage, put = __cordl_internal_set__favoritesBadgeImage))::UnityW<::UnityEngine::UI::Image> _favoritesBadgeImage;
 
-  /// @brief Field _songDurationText, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__songDurationText, put = __cordl_internal_set__songDurationText))::UnityW<::TMPro::TextMeshProUGUI> _songDurationText;
-
-  /// @brief Field _songBpmText, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__songBpmText, put = __cordl_internal_set__songBpmText))::UnityW<::TMPro::TextMeshProUGUI> _songBpmText;
-
   /// @brief Field _highlightBackgroundColor, offset 0x98, size 0x10
   __declspec(property(get = __cordl_internal_get__highlightBackgroundColor, put = __cordl_internal_set__highlightBackgroundColor))::UnityEngine::Color _highlightBackgroundColor;
 
-  /// @brief Field _selectedBackgroundColor, offset 0xa8, size 0x10
-  __declspec(property(get = __cordl_internal_get__selectedBackgroundColor, put = __cordl_internal_set__selectedBackgroundColor))::UnityEngine::Color _selectedBackgroundColor;
-
-  /// @brief Field _selectedAndHighlightedBackgroundColor, offset 0xb8, size 0x10
-  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedBackgroundColor,
-                      put = __cordl_internal_set__selectedAndHighlightedBackgroundColor))::UnityEngine::Color _selectedAndHighlightedBackgroundColor;
+  /// @brief Field _notOwned, offset 0xf8, size 0x1
+  __declspec(property(get = __cordl_internal_get__notOwned, put = __cordl_internal_set__notOwned)) bool _notOwned;
 
   /// @brief Field _notOwnedAlpha, offset 0xc8, size 0x4
   __declspec(property(get = __cordl_internal_get__notOwnedAlpha, put = __cordl_internal_set__notOwnedAlpha)) float_t _notOwnedAlpha;
@@ -301,175 +282,194 @@ public:
   /// @brief Field _promoBadgeGo, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__promoBadgeGo, put = __cordl_internal_set__promoBadgeGo))::UnityW<::UnityEngine::GameObject> _promoBadgeGo;
 
-  /// @brief Field _updatedBadgeGo, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__updatedBadgeGo, put = __cordl_internal_set__updatedBadgeGo))::UnityW<::UnityEngine::GameObject> _updatedBadgeGo;
-
-  /// @brief Field _defaultCoverImage, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultCoverImage, put = __cordl_internal_set__defaultCoverImage))::UnityW<::UnityEngine::Sprite> _defaultCoverImage;
-
   /// @brief Field _refreshingAvailabilityCancellationTokenSource, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__refreshingAvailabilityCancellationTokenSource,
                       put = __cordl_internal_set__refreshingAvailabilityCancellationTokenSource))::System::Threading::CancellationTokenSource* _refreshingAvailabilityCancellationTokenSource;
+
+  /// @brief Field _refreshingAvailabilityLevelID, offset 0x100, size 0x8
+  __declspec(property(get = __cordl_internal_get__refreshingAvailabilityLevelID, put = __cordl_internal_set__refreshingAvailabilityLevelID))::StringW _refreshingAvailabilityLevelID;
+
+  /// @brief Field _selectedAndHighlightedBackgroundColor, offset 0xb8, size 0x10
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedBackgroundColor,
+                      put = __cordl_internal_set__selectedAndHighlightedBackgroundColor))::UnityEngine::Color _selectedAndHighlightedBackgroundColor;
+
+  /// @brief Field _selectedBackgroundColor, offset 0xa8, size 0x10
+  __declspec(property(get = __cordl_internal_get__selectedBackgroundColor, put = __cordl_internal_set__selectedBackgroundColor))::UnityEngine::Color _selectedBackgroundColor;
 
   /// @brief Field _settingDataCancellationTokenSource, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__settingDataCancellationTokenSource,
                       put = __cordl_internal_set__settingDataCancellationTokenSource))::System::Threading::CancellationTokenSource* _settingDataCancellationTokenSource;
 
-  /// @brief Field _notOwned, offset 0xf8, size 0x1
-  __declspec(property(get = __cordl_internal_get__notOwned, put = __cordl_internal_set__notOwned)) bool _notOwned;
-
-  /// @brief Field _refreshingAvailabilityLevelID, offset 0x100, size 0x8
-  __declspec(property(get = __cordl_internal_get__refreshingAvailabilityLevelID, put = __cordl_internal_set__refreshingAvailabilityLevelID))::StringW _refreshingAvailabilityLevelID;
-
   /// @brief Field _settingDataFromLevelId, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get__settingDataFromLevelId, put = __cordl_internal_set__settingDataFromLevelId))::StringW _settingDataFromLevelId;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__backgroundImage();
+  /// @brief Field _songAuthorText, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__songAuthorText, put = __cordl_internal_set__songAuthorText))::UnityW<::TMPro::TextMeshProUGUI> _songAuthorText;
+
+  /// @brief Field _songBpmText, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__songBpmText, put = __cordl_internal_set__songBpmText))::UnityW<::TMPro::TextMeshProUGUI> _songBpmText;
+
+  /// @brief Field _songDurationText, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__songDurationText, put = __cordl_internal_set__songDurationText))::UnityW<::TMPro::TextMeshProUGUI> _songDurationText;
+
+  /// @brief Field _songNameText, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__songNameText, put = __cordl_internal_set__songNameText))::UnityW<::TMPro::TextMeshProUGUI> _songNameText;
+
+  /// @brief Field _updatedBadgeGo, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get__updatedBadgeGo, put = __cordl_internal_set__updatedBadgeGo))::UnityW<::UnityEngine::GameObject> _updatedBadgeGo;
+
+  /// @brief Method CancelAsyncOperations, addr 0x24a48c8, size 0x38, virtual false, abstract: false, final false
+  inline void CancelAsyncOperations();
+
+  /// @brief Method HighlightDidChange, addr 0x24a48c0, size 0x4, virtual true, abstract: false, final false
+  inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+
+  static inline ::GlobalNamespace::LevelListTableCell* New_ctor();
+
+  /// @brief Method RefreshAvailabilityAsync, addr 0x24a4900, size 0xa8, virtual false, abstract: false, final false
+  inline void RefreshAvailabilityAsync(::GlobalNamespace::BeatmapLevelsModel* contentModel, ::StringW levelID);
+
+  /// @brief Method RefreshVisuals, addr 0x24a47fc, size 0xc4, virtual false, abstract: false, final false
+  inline void RefreshVisuals();
+
+  /// @brief Method SelectionDidChange, addr 0x24a47f8, size 0x4, virtual true, abstract: false, final false
+  inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+
+  /// @brief Method SetDataFromLevelAsync, addr 0x24a4738, size 0xc0, virtual false, abstract: false, final false
+  inline void SetDataFromLevelAsync(::GlobalNamespace::BeatmapLevel* level, bool isFavorite, bool isPromoted, bool isUpdated);
+
+  /// @brief Method WasPreparedForReuse, addr 0x24a48c4, size 0x4, virtual true, abstract: false, final false
+  inline void WasPreparedForReuse();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
 
-  constexpr void __cordl_internal_set__backgroundImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__backgroundImage();
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
 
-  constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__coverImage();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__coverImage() const;
 
-  constexpr void __cordl_internal_set__coverImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songNameText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songNameText() const;
-
-  constexpr void __cordl_internal_set__songNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songAuthorText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songAuthorText() const;
-
-  constexpr void __cordl_internal_set__songAuthorText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__favoritesBadgeImage();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__favoritesBadgeImage() const;
-
-  constexpr void __cordl_internal_set__favoritesBadgeImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songDurationText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songDurationText() const;
-
-  constexpr void __cordl_internal_set__songDurationText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songBpmText();
-
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songBpmText() const;
-
-  constexpr void __cordl_internal_set__songBpmText(::UnityW<::TMPro::TextMeshProUGUI> value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__highlightBackgroundColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__highlightBackgroundColor() const;
-
-  constexpr void __cordl_internal_set__highlightBackgroundColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedBackgroundColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedBackgroundColor() const;
-
-  constexpr void __cordl_internal_set__selectedBackgroundColor(::UnityEngine::Color value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedAndHighlightedBackgroundColor();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedAndHighlightedBackgroundColor() const;
-
-  constexpr void __cordl_internal_set__selectedAndHighlightedBackgroundColor(::UnityEngine::Color value);
-
-  constexpr float_t& __cordl_internal_get__notOwnedAlpha();
-
-  constexpr float_t const& __cordl_internal_get__notOwnedAlpha() const;
-
-  constexpr void __cordl_internal_set__notOwnedAlpha(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__promoBadgeGo();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__promoBadgeGo() const;
-
-  constexpr void __cordl_internal_set__promoBadgeGo(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__updatedBadgeGo();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__updatedBadgeGo() const;
-
-  constexpr void __cordl_internal_set__updatedBadgeGo(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__defaultCoverImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__coverImage();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__defaultCoverImage() const;
 
-  constexpr void __cordl_internal_set__defaultCoverImage(::UnityW<::UnityEngine::Sprite> value);
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__defaultCoverImage();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__favoritesBadgeImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__favoritesBadgeImage();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__highlightBackgroundColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__highlightBackgroundColor();
+
+  constexpr bool const& __cordl_internal_get__notOwned() const;
+
+  constexpr bool& __cordl_internal_get__notOwned();
+
+  constexpr float_t const& __cordl_internal_get__notOwnedAlpha() const;
+
+  constexpr float_t& __cordl_internal_get__notOwnedAlpha();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__promoBadgeGo() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__promoBadgeGo();
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__refreshingAvailabilityCancellationTokenSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__refreshingAvailabilityCancellationTokenSource() const;
 
-  constexpr void __cordl_internal_set__refreshingAvailabilityCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr ::StringW const& __cordl_internal_get__refreshingAvailabilityLevelID() const;
+
+  constexpr ::StringW& __cordl_internal_get__refreshingAvailabilityLevelID();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedAndHighlightedBackgroundColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedAndHighlightedBackgroundColor();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedBackgroundColor() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedBackgroundColor();
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__settingDataCancellationTokenSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__settingDataCancellationTokenSource() const;
 
-  constexpr void __cordl_internal_set__settingDataCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
-
-  constexpr bool& __cordl_internal_get__notOwned();
-
-  constexpr bool const& __cordl_internal_get__notOwned() const;
-
-  constexpr void __cordl_internal_set__notOwned(bool value);
-
-  constexpr ::StringW& __cordl_internal_get__refreshingAvailabilityLevelID();
-
-  constexpr ::StringW const& __cordl_internal_get__refreshingAvailabilityLevelID() const;
-
-  constexpr void __cordl_internal_set__refreshingAvailabilityLevelID(::StringW value);
+  constexpr ::StringW const& __cordl_internal_get__settingDataFromLevelId() const;
 
   constexpr ::StringW& __cordl_internal_get__settingDataFromLevelId();
 
-  constexpr ::StringW const& __cordl_internal_get__settingDataFromLevelId() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songAuthorText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songAuthorText();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songBpmText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songBpmText();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songDurationText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songDurationText();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songNameText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songNameText();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__updatedBadgeGo() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__updatedBadgeGo();
+
+  constexpr void __cordl_internal_set__backgroundImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
+
+  constexpr void __cordl_internal_set__coverImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__defaultCoverImage(::UnityW<::UnityEngine::Sprite> value);
+
+  constexpr void __cordl_internal_set__favoritesBadgeImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__highlightBackgroundColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__notOwned(bool value);
+
+  constexpr void __cordl_internal_set__notOwnedAlpha(float_t value);
+
+  constexpr void __cordl_internal_set__promoBadgeGo(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__refreshingAvailabilityCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+
+  constexpr void __cordl_internal_set__refreshingAvailabilityLevelID(::StringW value);
+
+  constexpr void __cordl_internal_set__selectedAndHighlightedBackgroundColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__selectedBackgroundColor(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__settingDataCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
   constexpr void __cordl_internal_set__settingDataFromLevelId(::StringW value);
 
-  /// @brief Method SetDataFromLevelAsync, addr 0x23d67f0, size 0xc0, virtual false, abstract: false, final false
-  inline void SetDataFromLevelAsync(::GlobalNamespace::BeatmapLevel* level, bool isFavorite, bool isPromoted, bool isUpdated);
+  constexpr void __cordl_internal_set__songAuthorText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method SelectionDidChange, addr 0x23d68b0, size 0x4, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+  constexpr void __cordl_internal_set__songBpmText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method HighlightDidChange, addr 0x23d6978, size 0x4, virtual true, abstract: false, final false
-  inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+  constexpr void __cordl_internal_set__songDurationText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method RefreshVisuals, addr 0x23d68b4, size 0xc4, virtual false, abstract: false, final false
-  inline void RefreshVisuals();
+  constexpr void __cordl_internal_set__songNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method WasPreparedForReuse, addr 0x23d697c, size 0x4, virtual true, abstract: false, final false
-  inline void WasPreparedForReuse();
+  constexpr void __cordl_internal_set__updatedBadgeGo(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x23d69b8, size 0xa8, virtual false, abstract: false, final false
-  inline void RefreshAvailabilityAsync(::GlobalNamespace::BeatmapLevelsModel* contentModel, ::StringW levelID);
-
-  /// @brief Method CancelAsyncOperations, addr 0x23d6980, size 0x38, virtual false, abstract: false, final false
-  inline void CancelAsyncOperations();
-
-  static inline ::GlobalNamespace::LevelListTableCell* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23d6a60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24a49a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LevelListTableCell();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LevelListTableCell", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelListTableCell(LevelListTableCell&&) = delete;
@@ -478,12 +478,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LevelListTableCell(LevelListTableCell const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelListTableCell();
-
-public:
   /// @brief Field _backgroundImage, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 

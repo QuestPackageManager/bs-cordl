@@ -31,84 +31,88 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::SigI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(335))
 // CS Name: ::Org.BouncyCastle.Asn1.X509.SigI::NameOrPseudonym*
 class CORDL_TYPE NameOrPseudonym : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_Pseudonym))::Org::BouncyCastle::Asn1::X500::DirectoryString* Pseudonym;
+
+  __declspec(property(get = get_Surname))::Org::BouncyCastle::Asn1::X500::DirectoryString* Surname;
+
+  /// @brief Field givenName, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_givenName, put = __cordl_internal_set_givenName))::Org::BouncyCastle::Asn1::Asn1Sequence* givenName;
+
   /// @brief Field pseudonym, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_pseudonym, put = __cordl_internal_set_pseudonym))::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym;
 
   /// @brief Field surname, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_surname, put = __cordl_internal_set_surname))::Org::BouncyCastle::Asn1::X500::DirectoryString* surname;
 
-  /// @brief Field givenName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_givenName, put = __cordl_internal_set_givenName))::Org::BouncyCastle::Asn1::Asn1Sequence* givenName;
-
-  __declspec(property(get = get_Pseudonym))::Org::BouncyCastle::Asn1::X500::DirectoryString* Pseudonym;
-
-  __declspec(property(get = get_Surname))::Org::BouncyCastle::Asn1::X500::DirectoryString* Surname;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+  /// @brief Method GetGivenName, addr 0x10f470c, size 0x318, virtual false, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> GetGivenName();
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_pseudonym();
+  /// @brief Method GetInstance, addr 0x10f42a0, size 0x1e8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* GetInstance(::System::Object* obj);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_pseudonym() const;
+  static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
 
-  constexpr void __cordl_internal_set_pseudonym(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+  static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::StringW pseudonym);
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_surname();
+  static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_surname() const;
+  static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
 
-  constexpr void __cordl_internal_set_surname(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+  /// @brief Method ToAsn1Object, addr 0x10f4a24, size 0x10c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_givenName();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_givenName() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_pseudonym();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_pseudonym() const;
+
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_surname();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_surname() const;
+
   constexpr void __cordl_internal_set_givenName(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance, addr 0x10af2d0, size 0x1e8, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* GetInstance(::System::Object* obj);
+  constexpr void __cordl_internal_set_pseudonym(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
+  constexpr void __cordl_internal_set_surname(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method .ctor, addr 0x10af4b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f4488, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0x10af4e0, size 0x1a8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::StringW pseudonym);
-
-  /// @brief Method .ctor, addr 0x10af688, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f4658, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW pseudonym);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
+  /// @brief Method .ctor, addr 0x10f44b0, size 0x1a8, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x10af700, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f46d0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
 
-  /// @brief Method get_Pseudonym, addr 0x10af72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pseudonym, addr 0x10f46fc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Pseudonym();
 
-  /// @brief Method get_Surname, addr 0x10af734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Surname, addr 0x10f4704, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Surname();
 
-  /// @brief Method GetGivenName, addr 0x10af73c, size 0x318, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> GetGivenName();
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
-  /// @brief Method ToAsn1Object, addr 0x10afa54, size 0x10c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NameOrPseudonym();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NameOrPseudonym", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NameOrPseudonym(NameOrPseudonym&&) = delete;
@@ -117,12 +121,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NameOrPseudonym(NameOrPseudonym const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NameOrPseudonym();
-
-public:
   /// @brief Field pseudonym, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X500::DirectoryString* ___pseudonym;
 

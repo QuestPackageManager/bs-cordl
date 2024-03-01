@@ -31,8 +31,6 @@ MARK_VAL_T(::UnityEngine::ModifiableContactPatch);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13905))
 // CS Name: ::ModifiableContactPatch::Flags
 struct CORDL_TYPE __ModifiableContactPatch__Flags {
 public:
@@ -53,21 +51,26 @@ public:
     return static_cast<____ModifiableContactPatch__Flags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ModifiableContactPatch__Flags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____ModifiableContactPatch__Flags_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ModifiableContactPatch__Flags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ModifiableContactPatch__Flags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
   /// @brief Field HasFaceIndices value: static_cast<int32_t>(0x1)
   static ::UnityEngine::__ModifiableContactPatch__Flags const HasFaceIndices;
+
+  /// @brief Field HasMaxImpulse value: static_cast<int32_t>(0x20)
+  static ::UnityEngine::__ModifiableContactPatch__Flags const HasMaxImpulse;
 
   /// @brief Field HasModifiedMassRatios value: static_cast<int32_t>(0x8)
   static ::UnityEngine::__ModifiableContactPatch__Flags const HasModifiedMassRatios;
@@ -75,11 +78,11 @@ public:
   /// @brief Field HasTargetVelocity value: static_cast<int32_t>(0x10)
   static ::UnityEngine::__ModifiableContactPatch__Flags const HasTargetVelocity;
 
-  /// @brief Field HasMaxImpulse value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::__ModifiableContactPatch__Flags const HasMaxImpulse;
-
   /// @brief Field RegeneratePatches value: static_cast<int32_t>(0x40)
   static ::UnityEngine::__ModifiableContactPatch__Flags const RegeneratePatches;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -93,13 +96,15 @@ static_assert(offsetof(::UnityEngine::__ModifiableContactPatch__Flags, value__) 
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(13903))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13906))
 // CS Name: ::UnityEngine::ModifiableContactPatch
 struct CORDL_TYPE ModifiableContactPatch {
 public:
   // Declarations
   using Flags = ::UnityEngine::__ModifiableContactPatch__Flags;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ModifiableContactPatch();
 
   // Ctor Parameters [CppParam { name: "massProperties", ty: "::UnityEngine::ModifiableMassProperties", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3",
   // modifiers: "", def_value: None }, CppParam { name: "restitution", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "dynamicFriction", ty: "float_t", modifiers: "", def_value:
@@ -109,10 +114,6 @@ public:
   // "", def_value: None }]
   constexpr ModifiableContactPatch(::UnityEngine::ModifiableMassProperties massProperties, ::UnityEngine::Vector3 normal, float_t restitution, float_t dynamicFriction, float_t staticFriction,
                                    uint8_t startContactIndex, uint8_t contactCount, uint8_t materialFlags, uint8_t internalFlags, uint16_t materialIndex, uint16_t otherMaterialIndex) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ModifiableContactPatch();
 
   /// @brief Field massProperties, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::ModifiableMassProperties massProperties;

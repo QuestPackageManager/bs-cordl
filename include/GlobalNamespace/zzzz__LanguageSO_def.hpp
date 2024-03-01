@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::GlobalNamespace::LanguageSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15622)), TypeDefinitionIndex(TypeDefinitionIndex(15672)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15622), inst:
-// 3787 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15665)) CS Name: ::LanguageSO*
+// CS Name: ::LanguageSO*
 class CORDL_TYPE LanguageSO : public ::GlobalNamespace::ObservableVariableSO_1<::BGLib::Polyglot::Language> {
 public:
   // Declarations
   static inline ::GlobalNamespace::LanguageSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe49f54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8ff24, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LanguageSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LanguageSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LanguageSO(LanguageSO&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LanguageSO(LanguageSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LanguageSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

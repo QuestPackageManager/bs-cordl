@@ -16,16 +16,18 @@ MARK_VAL_T(::UnityEngine::AnimatorStateInfo);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14752))
 // CS Name: ::UnityEngine::AnimatorStateInfo
 struct CORDL_TYPE AnimatorStateInfo {
 public:
   // Declarations
   __declspec(property(get = get_normalizedTime)) float_t normalizedTime;
 
-  /// @brief Method get_normalizedTime, addr 0x2c8d284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedTime, addr 0x2d77358, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedTime();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimatorStateInfo();
 
   // Ctor Parameters [CppParam { name: "m_Name", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Path", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_FullPath", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_NormalizedTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "float_t",
@@ -33,10 +35,6 @@ public:
   // }, CppParam { name: "m_Tag", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Loop", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AnimatorStateInfo(int32_t m_Name, int32_t m_Path, int32_t m_FullPath, float_t m_NormalizedTime, float_t m_Length, float_t m_Speed, float_t m_SpeedMultiplier, int32_t m_Tag,
                               int32_t m_Loop) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimatorStateInfo();
 
   /// @brief Field m_Name, offset: 0x0, size: 0x4, def value: None
   int32_t m_Name;

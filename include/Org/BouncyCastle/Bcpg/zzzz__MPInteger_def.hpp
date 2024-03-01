@@ -23,16 +23,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::MPInteger);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(554))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(576))
 // CS Name: ::Org.BouncyCastle.Bcpg::MPInteger*
 class CORDL_TYPE MPInteger : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
+  __declspec(property(get = get_Value))::Org::BouncyCastle::Math::BigInteger* Value;
+
   /// @brief Field val, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val))::Org::BouncyCastle::Math::BigInteger* val;
 
-  __declspec(property(get = get_Value))::Org::BouncyCastle::Math::BigInteger* Value;
+  /// @brief Method Encode, addr 0x1242d34, size 0x70, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
+
+  /// @brief Method Encode, addr 0x1242da4, size 0x6c, virtual false, abstract: false, final false
+  static inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut, ::Org::BouncyCastle::Math::BigInteger* val);
+
+  static inline ::Org::BouncyCastle::Bcpg::MPInteger* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+
+  static inline ::Org::BouncyCastle::Bcpg::MPInteger* New_ctor(::Org::BouncyCastle::Math::BigInteger* val);
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_val();
 
@@ -40,25 +48,21 @@ public:
 
   constexpr void __cordl_internal_set_val(::Org::BouncyCastle::Math::BigInteger* value);
 
-  static inline ::Org::BouncyCastle::Bcpg::MPInteger* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
-
-  /// @brief Method .ctor, addr 0x11fe440, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1241410, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  static inline ::Org::BouncyCastle::Bcpg::MPInteger* New_ctor(::Org::BouncyCastle::Math::BigInteger* val);
-
-  /// @brief Method .ctor, addr 0x11fe660, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1241630, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method get_Value, addr 0x11ffd5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x1242d2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
-  /// @brief Method Encode, addr 0x11ffd64, size 0x70, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MPInteger();
 
-  /// @brief Method Encode, addr 0x11ffdd4, size 0x6c, virtual false, abstract: false, final false
-  static inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut, ::Org::BouncyCastle::Math::BigInteger* val);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MPInteger", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MPInteger(MPInteger&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MPInteger(MPInteger const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MPInteger();
-
-public:
   /// @brief Field val, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___val;
 

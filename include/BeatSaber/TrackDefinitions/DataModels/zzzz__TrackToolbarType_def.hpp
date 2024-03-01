@@ -15,8 +15,6 @@ MARK_VAL_T(::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions::DataModels {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16149))
 // CS Name: ::BeatSaber.TrackDefinitions.DataModels::TrackToolbarType
 struct CORDL_TYPE TrackToolbarType {
 public:
@@ -39,27 +37,26 @@ public:
     return static_cast<__TrackToolbarType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TrackToolbarType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__TrackToolbarType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TrackToolbarType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TrackToolbarType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BtsCharacterSelection value: static_cast<int32_t>(0x5)
+  static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const BtsCharacterSelection;
 
-  /// @brief Field None value: static_cast<int32_t>(0xffffffff)
-  static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const None;
-
-  /// @brief Field Lights value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const Lights;
-
-  /// @brief Field Toggle value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const Toggle;
+  /// @brief Field CarSelection value: static_cast<int32_t>(0x6)
+  static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const CarSelection;
 
   /// @brief Field FloatValue value: static_cast<int32_t>(0x3)
   static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const FloatValue;
@@ -67,11 +64,17 @@ public:
   /// @brief Field IntValue value: static_cast<int32_t>(0x4)
   static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const IntValue;
 
-  /// @brief Field BtsCharacterSelection value: static_cast<int32_t>(0x5)
-  static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const BtsCharacterSelection;
+  /// @brief Field Lights value: static_cast<int32_t>(0x0)
+  static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const Lights;
 
-  /// @brief Field CarSelection value: static_cast<int32_t>(0x6)
-  static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const CarSelection;
+  /// @brief Field None value: static_cast<int32_t>(0xffffffff)
+  static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const None;
+
+  /// @brief Field Toggle value: static_cast<int32_t>(0x1)
+  static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const Toggle;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::*)()>(
     &::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::GetCommandLineArgs)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x2332d18;
+  constexpr static std::size_t addrs = 0x2401c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::*)()>(
     &::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2332e94;
+  constexpr static std::size_t addrs = 0x2401ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

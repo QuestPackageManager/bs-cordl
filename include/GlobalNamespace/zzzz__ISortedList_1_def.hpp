@@ -22,8 +22,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15160))
 // CS Name: ::ISortedList`1<T>*
 class CORDL_TYPE ISortedList_1 {
 public:
@@ -31,12 +29,6 @@ public:
   __declspec(property(get = get_count)) int32_t count;
 
   __declspec(property(get = get_items))::System::Collections::Generic::LinkedList_1<T>* items;
-
-  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_count();
-
-  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::LinkedList_1<T>* get_items();
 
   /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* Insert(T newItem);
@@ -49,6 +41,12 @@ public:
 
   /// @brief Method TouchLastUsedNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<T>* node);
+
+  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_count();
+
+  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Collections::Generic::LinkedList_1<T>* get_items();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISortedList_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

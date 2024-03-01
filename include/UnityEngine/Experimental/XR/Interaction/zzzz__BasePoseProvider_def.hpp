@@ -21,23 +21,27 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::XR::Interaction::BasePoseProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::XR::Interaction {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16346))
 // CS Name: ::UnityEngine.Experimental.XR.Interaction::BasePoseProvider*
 class CORDL_TYPE BasePoseProvider : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method GetPoseFromProvider, addr 0x2d3ab00, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetPoseFromProvider, addr 0x2e27228, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::SpatialTracking::PoseDataFlags GetPoseFromProvider(ByRef<::UnityEngine::Pose> output);
-
-  /// @brief Method TryGetPoseFromProvider, addr 0x2d3ab24, size 0x88, virtual true, abstract: false, final false
-  inline bool TryGetPoseFromProvider(ByRef<::UnityEngine::Pose> output);
 
   static inline ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d3abac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method TryGetPoseFromProvider, addr 0x2e2724c, size 0x88, virtual true, abstract: false, final false
+  inline bool TryGetPoseFromProvider(ByRef<::UnityEngine::Pose> output);
+
+  /// @brief Method .ctor, addr 0x2e272d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BasePoseProvider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BasePoseProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BasePoseProvider(BasePoseProvider&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasePoseProvider(BasePoseProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasePoseProvider();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

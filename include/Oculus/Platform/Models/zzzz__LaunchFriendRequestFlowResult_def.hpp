@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchFriendRequestFlowResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13382))
 // CS Name: ::Oculus.Platform.Models::LaunchFriendRequestFlowResult*
 class CORDL_TYPE LaunchFriendRequestFlowResult : public ::System::Object {
 public:
@@ -27,23 +25,29 @@ public:
   /// @brief Field DidSendRequest, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_DidSendRequest, put = __cordl_internal_set_DidSendRequest)) bool DidSendRequest;
 
-  constexpr bool& __cordl_internal_get_DidCancel();
+  static inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* New_ctor(void* o);
 
   constexpr bool const& __cordl_internal_get_DidCancel() const;
 
-  constexpr void __cordl_internal_set_DidCancel(bool value);
-
-  constexpr bool& __cordl_internal_get_DidSendRequest();
+  constexpr bool& __cordl_internal_get_DidCancel();
 
   constexpr bool const& __cordl_internal_get_DidSendRequest() const;
 
+  constexpr bool& __cordl_internal_get_DidSendRequest();
+
+  constexpr void __cordl_internal_set_DidCancel(bool value);
+
   constexpr void __cordl_internal_set_DidSendRequest(bool value);
 
-  static inline ::Oculus::Platform::Models::LaunchFriendRequestFlowResult* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x27394c0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f7edc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LaunchFriendRequestFlowResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LaunchFriendRequestFlowResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LaunchFriendRequestFlowResult(LaunchFriendRequestFlowResult&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LaunchFriendRequestFlowResult(LaunchFriendRequestFlowResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LaunchFriendRequestFlowResult();
-
-public:
   /// @brief Field DidCancel, offset: 0x10, size: 0x1, def value: None
   bool ___DidCancel;
 

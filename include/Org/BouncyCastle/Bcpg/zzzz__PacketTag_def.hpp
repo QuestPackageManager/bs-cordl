@@ -15,8 +15,6 @@ MARK_VAL_T(::Org::BouncyCastle::Bcpg::PacketTag);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(579))
 // CS Name: ::Org.BouncyCastle.Bcpg::PacketTag
 struct CORDL_TYPE PacketTag {
 public:
@@ -54,72 +52,23 @@ public:
     return static_cast<__PacketTag_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PacketTag(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__PacketTag_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PacketTag();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PacketTag(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Reserved value: static_cast<int32_t>(0x0)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const Reserved;
-
-  /// @brief Field PublicKeyEncryptedSession value: static_cast<int32_t>(0x1)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const PublicKeyEncryptedSession;
-
-  /// @brief Field Signature value: static_cast<int32_t>(0x2)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const Signature;
-
-  /// @brief Field SymmetricKeyEncryptedSessionKey value: static_cast<int32_t>(0x3)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const SymmetricKeyEncryptedSessionKey;
-
-  /// @brief Field OnePassSignature value: static_cast<int32_t>(0x4)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const OnePassSignature;
-
-  /// @brief Field SecretKey value: static_cast<int32_t>(0x5)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const SecretKey;
-
-  /// @brief Field PublicKey value: static_cast<int32_t>(0x6)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const PublicKey;
-
-  /// @brief Field SecretSubkey value: static_cast<int32_t>(0x7)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const SecretSubkey;
-
   /// @brief Field CompressedData value: static_cast<int32_t>(0x8)
   static ::Org::BouncyCastle::Bcpg::PacketTag const CompressedData;
-
-  /// @brief Field SymmetricKeyEncrypted value: static_cast<int32_t>(0x9)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const SymmetricKeyEncrypted;
-
-  /// @brief Field Marker value: static_cast<int32_t>(0xa)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const Marker;
-
-  /// @brief Field LiteralData value: static_cast<int32_t>(0xb)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const LiteralData;
-
-  /// @brief Field Trust value: static_cast<int32_t>(0xc)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const Trust;
-
-  /// @brief Field UserId value: static_cast<int32_t>(0xd)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const UserId;
-
-  /// @brief Field PublicSubkey value: static_cast<int32_t>(0xe)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const PublicSubkey;
-
-  /// @brief Field UserAttribute value: static_cast<int32_t>(0x11)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const UserAttribute;
-
-  /// @brief Field SymmetricEncryptedIntegrityProtected value: static_cast<int32_t>(0x12)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const SymmetricEncryptedIntegrityProtected;
-
-  /// @brief Field ModificationDetectionCode value: static_cast<int32_t>(0x13)
-  static ::Org::BouncyCastle::Bcpg::PacketTag const ModificationDetectionCode;
 
   /// @brief Field Experimental1 value: static_cast<int32_t>(0x3c)
   static ::Org::BouncyCastle::Bcpg::PacketTag const Experimental1;
@@ -132,6 +81,60 @@ public:
 
   /// @brief Field Experimental4 value: static_cast<int32_t>(0x3f)
   static ::Org::BouncyCastle::Bcpg::PacketTag const Experimental4;
+
+  /// @brief Field LiteralData value: static_cast<int32_t>(0xb)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const LiteralData;
+
+  /// @brief Field Marker value: static_cast<int32_t>(0xa)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const Marker;
+
+  /// @brief Field ModificationDetectionCode value: static_cast<int32_t>(0x13)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const ModificationDetectionCode;
+
+  /// @brief Field OnePassSignature value: static_cast<int32_t>(0x4)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const OnePassSignature;
+
+  /// @brief Field PublicKey value: static_cast<int32_t>(0x6)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const PublicKey;
+
+  /// @brief Field PublicKeyEncryptedSession value: static_cast<int32_t>(0x1)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const PublicKeyEncryptedSession;
+
+  /// @brief Field PublicSubkey value: static_cast<int32_t>(0xe)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const PublicSubkey;
+
+  /// @brief Field Reserved value: static_cast<int32_t>(0x0)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const Reserved;
+
+  /// @brief Field SecretKey value: static_cast<int32_t>(0x5)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const SecretKey;
+
+  /// @brief Field SecretSubkey value: static_cast<int32_t>(0x7)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const SecretSubkey;
+
+  /// @brief Field Signature value: static_cast<int32_t>(0x2)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const Signature;
+
+  /// @brief Field SymmetricEncryptedIntegrityProtected value: static_cast<int32_t>(0x12)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const SymmetricEncryptedIntegrityProtected;
+
+  /// @brief Field SymmetricKeyEncrypted value: static_cast<int32_t>(0x9)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const SymmetricKeyEncrypted;
+
+  /// @brief Field SymmetricKeyEncryptedSessionKey value: static_cast<int32_t>(0x3)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const SymmetricKeyEncryptedSessionKey;
+
+  /// @brief Field Trust value: static_cast<int32_t>(0xc)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const Trust;
+
+  /// @brief Field UserAttribute value: static_cast<int32_t>(0x11)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const UserAttribute;
+
+  /// @brief Field UserId value: static_cast<int32_t>(0xd)
+  static ::Org::BouncyCastle::Bcpg::PacketTag const UserId;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

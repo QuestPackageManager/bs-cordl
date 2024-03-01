@@ -25,24 +25,28 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::VectorHash);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12113))
 // CS Name: ::UnityEngine.ProBuilder::VectorHash*
 class CORDL_TYPE VectorHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HashFloat, addr 0x2b7dfe8, size 0x40, virtual false, abstract: false, final false
-  static inline int32_t HashFloat(float_t f);
-
-  /// @brief Method GetHashCode, addr 0x2b7e028, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2c660fc, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x2b68954, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2c50a28, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector3 v);
 
-  /// @brief Method GetHashCode, addr 0x2b7e0a4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2c66178, size 0xe0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector4 v);
 
+  /// @brief Method HashFloat, addr 0x2c660bc, size 0x40, virtual false, abstract: false, final false
+  static inline int32_t HashFloat(float_t f);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VectorHash();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VectorHash(VectorHash&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VectorHash(VectorHash const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VectorHash();
-
-public:
   /// @brief Field FltCompareResolution offset 0xffffffff size 0x4
   static constexpr float_t FltCompareResolution{ 1000.0 };
 

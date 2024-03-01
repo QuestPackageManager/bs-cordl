@@ -15,28 +15,32 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::IPGlobalProperties);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7259))
 // CS Name: ::System.Net.NetworkInformation::IPGlobalProperties*
 class CORDL_TYPE IPGlobalProperties : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_DomainName))::StringW DomainName;
 
-  /// @brief Method GetIPGlobalProperties, addr 0x29f0150, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetIPGlobalProperties, addr 0x2ad8224, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
 
-  /// @brief Method InternalGetIPGlobalProperties, addr 0x29f01a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetIPGlobalProperties, addr 0x2ad8278, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
+
+  static inline ::System::Net::NetworkInformation::IPGlobalProperties* New_ctor();
+
+  /// @brief Method .ctor, addr 0x2ad827c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   /// @brief Method get_DomainName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_DomainName();
 
-  static inline ::System::Net::NetworkInformation::IPGlobalProperties* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IPGlobalProperties();
 
-  /// @brief Method .ctor, addr 0x29f01a8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IPGlobalProperties", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IPGlobalProperties(IPGlobalProperties&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IPGlobalProperties(IPGlobalProperties const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IPGlobalProperties();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

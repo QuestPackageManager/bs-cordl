@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightTranslationBaseData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11208))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11175))
 // CS Name: ::BeatmapSaveDataVersion3::LightTranslationBaseData*
 class CORDL_TYPE LightTranslationBaseData : public ::System::Object {
 public:
@@ -29,64 +27,70 @@ public:
   /// @brief Field b, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
 
-  /// @brief Field p, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) int32_t p;
+  __declspec(property(get = get_beat)) float_t beat;
 
   /// @brief Field e, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::BeatmapSaveDataCommon::EaseType e;
 
+  __declspec(property(get = get_easeType))::BeatmapSaveDataCommon::EaseType easeType;
+
+  /// @brief Field p, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) int32_t p;
+
   /// @brief Field t, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t)) float_t t;
 
-  __declspec(property(get = get_beat)) float_t beat;
+  __declspec(property(get = get_translation)) float_t translation;
 
   __declspec(property(get = get_usePreviousEventTranslationValue)) bool usePreviousEventTranslationValue;
 
-  __declspec(property(get = get_easeType))::BeatmapSaveDataCommon::EaseType easeType;
-
-  __declspec(property(get = get_translation)) float_t translation;
-
-  constexpr float_t& __cordl_internal_get_b();
+  static inline ::BeatmapSaveDataVersion3::LightTranslationBaseData* New_ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation);
 
   constexpr float_t const& __cordl_internal_get_b() const;
 
-  constexpr void __cordl_internal_set_b(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_p();
-
-  constexpr int32_t const& __cordl_internal_get_p() const;
-
-  constexpr void __cordl_internal_set_p(int32_t value);
-
-  constexpr ::BeatmapSaveDataCommon::EaseType& __cordl_internal_get_e();
+  constexpr float_t& __cordl_internal_get_b();
 
   constexpr ::BeatmapSaveDataCommon::EaseType const& __cordl_internal_get_e() const;
 
-  constexpr void __cordl_internal_set_e(::BeatmapSaveDataCommon::EaseType value);
+  constexpr ::BeatmapSaveDataCommon::EaseType& __cordl_internal_get_e();
 
-  constexpr float_t& __cordl_internal_get_t();
+  constexpr int32_t const& __cordl_internal_get_p() const;
+
+  constexpr int32_t& __cordl_internal_get_p();
 
   constexpr float_t const& __cordl_internal_get_t() const;
 
+  constexpr float_t& __cordl_internal_get_t();
+
+  constexpr void __cordl_internal_set_b(float_t value);
+
+  constexpr void __cordl_internal_set_e(::BeatmapSaveDataCommon::EaseType value);
+
+  constexpr void __cordl_internal_set_p(int32_t value);
+
   constexpr void __cordl_internal_set_t(float_t value);
 
-  /// @brief Method get_beat, addr 0x12bc020, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_beat();
-
-  /// @brief Method get_usePreviousEventTranslationValue, addr 0x12bc028, size 0x10, virtual false, abstract: false, final false
-  inline bool get_usePreviousEventTranslationValue();
-
-  /// @brief Method get_easeType, addr 0x12bc038, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::EaseType get_easeType();
-
-  /// @brief Method get_translation, addr 0x12bc040, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_translation();
-
-  static inline ::BeatmapSaveDataVersion3::LightTranslationBaseData* New_ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation);
-
-  /// @brief Method .ctor, addr 0x12bc048, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fd018, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation);
 
+  /// @brief Method get_beat, addr 0x12fcff0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_beat();
+
+  /// @brief Method get_easeType, addr 0x12fd008, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::EaseType get_easeType();
+
+  /// @brief Method get_translation, addr 0x12fd010, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_translation();
+
+  /// @brief Method get_usePreviousEventTranslationValue, addr 0x12fcff8, size 0x10, virtual false, abstract: false, final false
+  inline bool get_usePreviousEventTranslationValue();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightTranslationBaseData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBaseData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightTranslationBaseData(LightTranslationBaseData&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTranslationBaseData(LightTranslationBaseData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightTranslationBaseData();
-
-public:
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
 

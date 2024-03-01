@@ -30,24 +30,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::Time);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(97))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::Time*
 class CORDL_TYPE Time : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field time, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time))::Org::BouncyCastle::Asn1::Asn1Object* time;
+  __declspec(property(get = get_Date))::System::DateTime Date;
 
   __declspec(property(get = get_TimeString))::StringW TimeString;
 
-  __declspec(property(get = get_Date))::System::DateTime Date;
+  /// @brief Field time, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time))::Org::BouncyCastle::Asn1::Asn1Object* time;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+  /// @brief Method GetInstance, addr 0xef273c, size 0x1c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::Time* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+
+  /// @brief Method GetInstance, addr 0xef2758, size 0x1c0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::Time* GetInstance(::System::Object* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::Cms::Time* New_ctor(::System::DateTime date);
+
+  static inline ::Org::BouncyCastle::Asn1::Cms::Time* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
+
+  /// @brief Method ToAsn1Object, addr 0xef2e94, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_time();
 
@@ -55,31 +63,27 @@ public:
 
   constexpr void __cordl_internal_set_time(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance, addr 0xeab76c, size 0x1c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::Time* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
-
-  static inline ::Org::BouncyCastle::Asn1::Cms::Time* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
-
-  /// @brief Method .ctor, addr 0xeab948, size 0x140, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
-
-  static inline ::Org::BouncyCastle::Asn1::Cms::Time* New_ctor(::System::DateTime date);
-
-  /// @brief Method .ctor, addr 0xeaba88, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef2a58, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime date);
 
-  /// @brief Method GetInstance, addr 0xeab788, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::Time* GetInstance(::System::Object* obj);
+  /// @brief Method .ctor, addr 0xef2918, size 0x140, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
-  /// @brief Method get_TimeString, addr 0xeabbf0, size 0xf0, virtual false, abstract: false, final false
-  inline ::StringW get_TimeString();
-
-  /// @brief Method get_Date, addr 0xeabce0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0xef2cb0, size 0x1e4, virtual false, abstract: false, final false
   inline ::System::DateTime get_Date();
 
-  /// @brief Method ToAsn1Object, addr 0xeabec4, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_TimeString, addr 0xef2bc0, size 0xf0, virtual false, abstract: false, final false
+  inline ::StringW get_TimeString();
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Time();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Time", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Time(Time&&) = delete;
@@ -88,12 +92,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Time(Time const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Time();
-
-public:
   /// @brief Field time, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Object* ___time;
 

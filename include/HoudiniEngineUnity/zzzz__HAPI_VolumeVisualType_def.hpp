@@ -15,8 +15,6 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeVisualType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9498))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeVisualType
 struct CORDL_TYPE HAPI_VolumeVisualType {
 public:
@@ -39,39 +37,44 @@ public:
     return static_cast<__HAPI_VolumeVisualType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_VolumeVisualType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__HAPI_VolumeVisualType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_VolumeVisualType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_VolumeVisualType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field HAPI_VOLUMEVISTYPE_INVALID value: static_cast<int32_t>(0xffffffff)
-  static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_INVALID;
-
-  /// @brief Field HAPI_VOLUMEVISTYPE_SMOKE value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_SMOKE;
-
-  /// @brief Field HAPI_VOLUMEVISTYPE_RAINBOW value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_RAINBOW;
-
-  /// @brief Field HAPI_VOLUMEVISTYPE_ISO value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_ISO;
-
-  /// @brief Field HAPI_VOLUMEVISTYPE_INVISIBLE value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_INVISIBLE;
 
   /// @brief Field HAPI_VOLUMEVISTYPE_HEIGHTFIELD value: static_cast<int32_t>(0x4)
   static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_HEIGHTFIELD;
 
+  /// @brief Field HAPI_VOLUMEVISTYPE_INVALID value: static_cast<int32_t>(0xffffffff)
+  static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_INVALID;
+
+  /// @brief Field HAPI_VOLUMEVISTYPE_INVISIBLE value: static_cast<int32_t>(0x3)
+  static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_INVISIBLE;
+
+  /// @brief Field HAPI_VOLUMEVISTYPE_ISO value: static_cast<int32_t>(0x2)
+  static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_ISO;
+
   /// @brief Field HAPI_VOLUMEVISTYPE_MAX value: static_cast<int32_t>(0x5)
   static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_MAX;
+
+  /// @brief Field HAPI_VOLUMEVISTYPE_RAINBOW value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_RAINBOW;
+
+  /// @brief Field HAPI_VOLUMEVISTYPE_SMOKE value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::HAPI_VolumeVisualType const HAPI_VOLUMEVISTYPE_SMOKE;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -63,19 +63,17 @@ MARK_VAL_T(::UnityEngine::Rendering::__CameraProperties___m_ShadowCullPlanes_e__
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9123))
 // CS Name: ::CameraProperties::<m_ShadowCullPlanes>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __CameraProperties___m_ShadowCullPlanes_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __CameraProperties___m_ShadowCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __CameraProperties___m_ShadowCullPlanes_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __CameraProperties___m_ShadowCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
   uint8_t FixedElementField;
@@ -99,19 +97,17 @@ static_assert(offsetof(::UnityEngine::Rendering::__CameraProperties___m_ShadowCu
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9124))
 // CS Name: ::CameraProperties::<m_CameraCullPlanes>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __CameraProperties___m_CameraCullPlanes_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __CameraProperties___m_CameraCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __CameraProperties___m_CameraCullPlanes_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __CameraProperties___m_CameraCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
   uint8_t FixedElementField;
@@ -135,19 +131,17 @@ static_assert(offsetof(::UnityEngine::Rendering::__CameraProperties___m_CameraCu
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9125))
 // CS Name: ::CameraProperties::<layerCullDistances>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __CameraProperties___layerCullDistances_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __CameraProperties___layerCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __CameraProperties___layerCullDistances_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr __CameraProperties___layerCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x4, def value: None
   float_t FixedElementField;
@@ -171,9 +165,7 @@ static_assert(offsetof(::UnityEngine::Rendering::__CameraProperties___layerCullD
 // SizeInfo { instance_size: 992, native_size: 992, calculated_instance_size: 992, calculated_native_size: 1008, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8909)), TypeDefinitionIndex(TypeDefinitionIndex(8989)), TypeDefinitionIndex(TypeDefinitionIndex(8993)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9122)), TypeDefinitionIndex(TypeDefinitionIndex(9123)), TypeDefinitionIndex(TypeDefinitionIndex(9124)), TypeDefinitionIndex(TypeDefinitionIndex(9125))] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9126)) CS Name: ::UnityEngine.Rendering::CameraProperties
+// CS Name: ::UnityEngine.Rendering::CameraProperties
 struct CORDL_TYPE CameraProperties {
 public:
   // Declarations
@@ -186,23 +178,27 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>*();
 
+  /// @brief Method Equals, addr 0x2de3870, size 0xb8, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2de2904, size 0xf6c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Rendering::CameraProperties other);
+
+  /// @brief Method GetCameraCullingPlane, addr 0x2de2818, size 0xec, virtual false, abstract: false, final false
+  inline ::UnityEngine::Plane GetCameraCullingPlane(int32_t index);
+
+  /// @brief Method GetHashCode, addr 0x2de3928, size 0x1174, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetShadowCullingPlane, addr 0x2de272c, size 0xec, virtual false, abstract: false, final false
+  inline ::UnityEngine::Plane GetShadowCullingPlane(int32_t index);
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>* i___System__IEquatable_1___UnityEngine__Rendering__CameraProperties_();
 
-  /// @brief Method GetShadowCullingPlane, addr 0x2cf7004, size 0xec, virtual false, abstract: false, final false
-  inline ::UnityEngine::Plane GetShadowCullingPlane(int32_t index);
-
-  /// @brief Method GetCameraCullingPlane, addr 0x2cf70f0, size 0xec, virtual false, abstract: false, final false
-  inline ::UnityEngine::Plane GetCameraCullingPlane(int32_t index);
-
-  /// @brief Method Equals, addr 0x2cf71dc, size 0xf6c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Rendering::CameraProperties other);
-
-  /// @brief Method Equals, addr 0x2cf8148, size 0xb8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2cf8200, size 0x1174, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CameraProperties();
 
   // Ctor Parameters [CppParam { name: "screenRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "viewDir", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
   // None }, CppParam { name: "projectionNear", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "projectionFar", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
@@ -231,10 +227,6 @@ public:
                              ::UnityEngine::Rendering::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer m_CameraCullPlanes, float_t baseFarDistance, ::UnityEngine::Vector3 shadowCullCenter,
                              ::UnityEngine::Rendering::__CameraProperties___layerCullDistances_e__FixedBuffer layerCullDistances, int32_t layerCullSpherical,
                              ::UnityEngine::Rendering::CoreCameraValues coreCameraValues, uint32_t cameraType, int32_t projectionIsOblique, int32_t isImplicitProjectionMatrix) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CameraProperties();
 
   /// @brief Field screenRect, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Rect screenRect;

@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Android::AndroidAssetPackStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14793))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackStatus
 struct CORDL_TYPE AndroidAssetPackStatus {
 public:
@@ -41,45 +39,50 @@ public:
     return static_cast<__AndroidAssetPackStatus_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AndroidAssetPackStatus(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__AndroidAssetPackStatus_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AndroidAssetPackStatus();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AndroidAssetPackStatus(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Android::AndroidAssetPackStatus const Unknown;
-
-  /// @brief Field Pending value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::Android::AndroidAssetPackStatus const Pending;
-
-  /// @brief Field Downloading value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::Android::AndroidAssetPackStatus const Downloading;
-
-  /// @brief Field Transferring value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::Android::AndroidAssetPackStatus const Transferring;
-
-  /// @brief Field Completed value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::Android::AndroidAssetPackStatus const Completed;
-
-  /// @brief Field Failed value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::Android::AndroidAssetPackStatus const Failed;
 
   /// @brief Field Canceled value: static_cast<int32_t>(0x6)
   static ::UnityEngine::Android::AndroidAssetPackStatus const Canceled;
 
-  /// @brief Field WaitingForWifi value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::Android::AndroidAssetPackStatus const WaitingForWifi;
+  /// @brief Field Completed value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::Android::AndroidAssetPackStatus const Completed;
+
+  /// @brief Field Downloading value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::Android::AndroidAssetPackStatus const Downloading;
+
+  /// @brief Field Failed value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::Android::AndroidAssetPackStatus const Failed;
 
   /// @brief Field NotInstalled value: static_cast<int32_t>(0x8)
   static ::UnityEngine::Android::AndroidAssetPackStatus const NotInstalled;
+
+  /// @brief Field Pending value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::Android::AndroidAssetPackStatus const Pending;
+
+  /// @brief Field Transferring value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::Android::AndroidAssetPackStatus const Transferring;
+
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::Android::AndroidAssetPackStatus const Unknown;
+
+  /// @brief Field WaitingForWifi value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::Android::AndroidAssetPackStatus const WaitingForWifi;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

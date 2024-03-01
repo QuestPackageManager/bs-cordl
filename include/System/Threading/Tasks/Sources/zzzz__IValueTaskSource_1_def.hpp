@@ -28,20 +28,18 @@ namespace System::Threading::Tasks::Sources {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2824))
 // CS Name: ::System.Threading.Tasks.Sources::IValueTaskSource`1<TResult>*
 class CORDL_TYPE IValueTaskSource_1 {
 public:
   // Declarations
+  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline TResult GetResult(int16_t token);
+
   /// @brief Method GetStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus GetStatus(int16_t token);
 
   /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token, ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags);
-
-  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline TResult GetResult(int16_t token);
 
   // Ctor Parameters [CppParam { name: "", ty: "IValueTaskSource_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

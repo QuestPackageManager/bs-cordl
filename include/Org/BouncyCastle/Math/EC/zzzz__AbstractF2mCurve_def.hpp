@@ -31,61 +31,65 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractF2mCurve);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1361))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1443))
 // CS Name: ::Org.BouncyCastle.Math.EC::AbstractF2mCurve*
 class CORDL_TYPE AbstractF2mCurve : public ::Org::BouncyCastle::Math::EC::ECCurve {
 public:
   // Declarations
+  __declspec(property(get = get_IsKoblitz)) bool IsKoblitz;
+
   /// @brief Field si, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_si, put = __cordl_internal_set_si))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> si;
 
-  __declspec(property(get = get_IsKoblitz)) bool IsKoblitz;
+  /// @brief Method BuildField, addr 0x1073774, size 0x1e0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::Field::IFiniteField* BuildField(int32_t m, int32_t k1, int32_t k2, int32_t k3);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>& __cordl_internal_get_si();
+  /// @brief Method CreatePoint, addr 0x1073988, size 0x160, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> const& __cordl_internal_get_si() const;
+  /// @brief Method DecompressPoint, addr 0x1073c58, size 0x214, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int32_t yTilde, ::Org::BouncyCastle::Math::BigInteger* X1);
 
-  constexpr void __cordl_internal_set_si(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> value);
+  /// @brief Method GetSi, addr 0x1074158, size 0xf4, virtual true, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> GetSi();
 
-  /// @brief Method Inverse, addr 0x102e718, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ImplRandomFieldElementMult, addr 0x1073c18, size 0x40, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r, int32_t m);
+
+  /// @brief Method Inverse, addr 0x10736e8, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* Inverse(int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks, ::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method BuildField, addr 0x102e7a4, size 0x1e0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::Field::IFiniteField* BuildField(int32_t m, int32_t k1, int32_t k2, int32_t k3);
+  /// @brief Method IsValidFieldElement, addr 0x1073ae8, size 0x54, virtual true, abstract: false, final false
+  inline bool IsValidFieldElement(::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractF2mCurve* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
 
-  /// @brief Method .ctor, addr 0x102e984, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
-
-  /// @brief Method CreatePoint, addr 0x102e9b8, size 0x160, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Math::BigInteger* y, bool withCompression);
-
-  /// @brief Method IsValidFieldElement, addr 0x102eb18, size 0x54, virtual true, abstract: false, final false
-  inline bool IsValidFieldElement(::Org::BouncyCastle::Math::BigInteger* x);
-
-  /// @brief Method RandomFieldElement, addr 0x102eb6c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElement, addr 0x1073b3c, size 0x48, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElement(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method RandomFieldElementMult, addr 0x102ebb4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method RandomFieldElementMult, addr 0x1073b84, size 0x94, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* RandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method DecompressPoint, addr 0x102ec88, size 0x214, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int32_t yTilde, ::Org::BouncyCastle::Math::BigInteger* X1);
-
-  /// @brief Method SolveQuadraticEquation, addr 0x102ee9c, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method SolveQuadraticEquation, addr 0x1073e6c, size 0x2ec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* SolveQuadraticEquation(::Org::BouncyCastle::Math::EC::ECFieldElement* beta);
 
-  /// @brief Method GetSi, addr 0x102f188, size 0xf4, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> GetSi();
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> const& __cordl_internal_get_si() const;
 
-  /// @brief Method get_IsKoblitz, addr 0x102f27c, size 0x84, virtual true, abstract: false, final false
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>& __cordl_internal_get_si();
+
+  constexpr void __cordl_internal_set_si(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> value);
+
+  /// @brief Method .ctor, addr 0x1073954, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
+
+  /// @brief Method get_IsKoblitz, addr 0x107424c, size 0x84, virtual true, abstract: false, final false
   inline bool get_IsKoblitz();
 
-  /// @brief Method ImplRandomFieldElementMult, addr 0x102ec48, size 0x40, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(::Org::BouncyCastle::Security::SecureRandom* r, int32_t m);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AbstractF2mCurve();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AbstractF2mCurve", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AbstractF2mCurve(AbstractF2mCurve&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AbstractF2mCurve(AbstractF2mCurve const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AbstractF2mCurve();
-
-public:
   /// @brief Field si, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> ___si;
 

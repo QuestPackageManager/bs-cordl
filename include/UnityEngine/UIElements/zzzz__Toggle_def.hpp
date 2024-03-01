@@ -44,13 +44,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Toggle__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6251)), TypeDefinitionIndex(TypeDefinitionIndex(6390)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6390), inst: 916
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6351)) CS Name: ::Toggle::UxmlTraits*
+// CS Name: ::Toggle::UxmlTraits*
 class CORDL_TYPE __Toggle__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<bool, ::UnityEngine::UIElements::UxmlBoolAttributeDescription*> {
 public:
   // Declarations
   /// @brief Field m_Text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
+
+  /// @brief Method Init, addr 0x2f42400, size 0x118, virtual true, abstract: false, final false
+  inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+
+  static inline ::UnityEngine::UIElements::__Toggle__UxmlTraits* New_ctor();
 
   constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text();
 
@@ -58,14 +62,15 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method Init, addr 0x2e4fcd8, size 0x118, virtual true, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
-
-  static inline ::UnityEngine::UIElements::__Toggle__UxmlTraits* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2e4fdf0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f42518, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Toggle__UxmlTraits();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Toggle__UxmlTraits", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Toggle__UxmlTraits(__Toggle__UxmlTraits&&) = delete;
@@ -74,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Toggle__UxmlTraits(__Toggle__UxmlTraits const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Toggle__UxmlTraits();
-
-public:
   /// @brief Field m_Text, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
 
@@ -95,71 +94,75 @@ static_assert(offsetof(::UnityEngine::UIElements::__Toggle__UxmlTraits, ___m_Tex
 // SizeInfo { instance_size: 1064, native_size: -1, calculated_instance_size: 1064, calculated_native_size: 1064, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6326))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6352))
 // CS Name: ::UnityEngine.UIElements::Toggle*
 class CORDL_TYPE Toggle : public ::UnityEngine::UIElements::BaseBoolField {
 public:
   // Declarations
-  using UxmlTraits = ::UnityEngine::UIElements::__Toggle__UxmlTraits;
-
   using UxmlFactory = ::UnityEngine::UIElements::__Toggle__UxmlFactory;
 
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
-
-  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName))::StringW labelUssClassName;
-
-  /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName))::StringW inputUssClassName;
-
-  /// @brief Field noTextVariantUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_noTextVariantUssClassName, put = setStaticF_noTextVariantUssClassName))::StringW noTextVariantUssClassName;
+  using UxmlTraits = ::UnityEngine::UIElements::__Toggle__UxmlTraits;
 
   /// @brief Field checkmarkUssClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_checkmarkUssClassName, put = setStaticF_checkmarkUssClassName))::StringW checkmarkUssClassName;
 
+  /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName))::StringW inputUssClassName;
+
+  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName))::StringW labelUssClassName;
+
+  /// @brief Field noTextVariantUssClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_noTextVariantUssClassName, put = setStaticF_noTextVariantUssClassName))::StringW noTextVariantUssClassName;
+
   /// @brief Field textUssClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_textUssClassName, put = setStaticF_textUssClassName))::StringW textUssClassName;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
-  static inline ::StringW getStaticF_ussClassName();
-
-  static inline void setStaticF_labelUssClassName(::StringW value);
-
-  static inline ::StringW getStaticF_labelUssClassName();
-
-  static inline void setStaticF_inputUssClassName(::StringW value);
-
-  static inline ::StringW getStaticF_inputUssClassName();
-
-  static inline void setStaticF_noTextVariantUssClassName(::StringW value);
-
-  static inline ::StringW getStaticF_noTextVariantUssClassName();
-
-  static inline void setStaticF_checkmarkUssClassName(::StringW value);
-
-  static inline ::StringW getStaticF_checkmarkUssClassName();
-
-  static inline void setStaticF_textUssClassName(::StringW value);
-
-  static inline ::StringW getStaticF_textUssClassName();
+  /// @brief Method InitLabel, addr 0x2f421d0, size 0x78, virtual true, abstract: false, final false
+  inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::Toggle* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4f0c8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::UnityEngine::UIElements::Toggle* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x2e4f9ac, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f417f0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2f420d4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method InitLabel, addr 0x2e4faa8, size 0x78, virtual true, abstract: false, final false
-  inline void InitLabel();
+  static inline ::StringW getStaticF_checkmarkUssClassName();
 
+  static inline ::StringW getStaticF_inputUssClassName();
+
+  static inline ::StringW getStaticF_labelUssClassName();
+
+  static inline ::StringW getStaticF_noTextVariantUssClassName();
+
+  static inline ::StringW getStaticF_textUssClassName();
+
+  static inline ::StringW getStaticF_ussClassName();
+
+  static inline void setStaticF_checkmarkUssClassName(::StringW value);
+
+  static inline void setStaticF_inputUssClassName(::StringW value);
+
+  static inline void setStaticF_labelUssClassName(::StringW value);
+
+  static inline void setStaticF_noTextVariantUssClassName(::StringW value);
+
+  static inline void setStaticF_textUssClassName(::StringW value);
+
+  static inline void setStaticF_ussClassName(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Toggle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Toggle(Toggle&&) = delete;
@@ -168,12 +171,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Toggle(Toggle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Toggle();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -184,16 +181,21 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Toggle,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6256)), TypeDefinitionIndex(TypeDefinitionIndex(6351)), TypeDefinitionIndex(TypeDefinitionIndex(6352)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6256), inst: 5261 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6350)) CS Name: ::Toggle::UxmlFactory*
+// CS Name: ::Toggle::UxmlFactory*
 class CORDL_TYPE __Toggle__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Toggle*, ::UnityEngine::UIElements::__Toggle__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Toggle__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4fc90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f423b8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Toggle__UxmlFactory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Toggle__UxmlFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Toggle__UxmlFactory(__Toggle__UxmlFactory&&) = delete;
@@ -202,12 +204,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Toggle__UxmlFactory(__Toggle__UxmlFactory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Toggle__UxmlFactory();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

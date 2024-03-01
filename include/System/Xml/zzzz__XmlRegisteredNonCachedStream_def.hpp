@@ -35,21 +35,10 @@ MARK_REF_PTR_T(::System::Xml::XmlRegisteredNonCachedStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3617))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11451))
 // CS Name: ::System.Xml::XmlRegisteredNonCachedStream*
 class CORDL_TYPE XmlRegisteredNonCachedStream : public ::System::IO::Stream {
 public:
   // Declarations
-  /// @brief Field stream, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
-
-  /// @brief Field downloadManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_downloadManager, put = __cordl_internal_set_downloadManager))::System::Xml::XmlDownloadManager* downloadManager;
-
-  /// @brief Field host, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_host, put = __cordl_internal_set_host))::StringW host;
-
   __declspec(property(get = get_CanRead)) bool CanRead;
 
   __declspec(property(get = get_CanSeek)) bool CanSeek;
@@ -60,86 +49,101 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
+  /// @brief Field downloadManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_downloadManager, put = __cordl_internal_set_downloadManager))::System::Xml::XmlDownloadManager* downloadManager;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
+  /// @brief Field host, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_host, put = __cordl_internal_set_host))::StringW host;
 
-  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
+  /// @brief Field stream, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
+
+  /// @brief Method BeginRead, addr 0x298fd54, size 0x24, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
+
+  /// @brief Method BeginWrite, addr 0x298fd78, size 0x24, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
+
+  /// @brief Method Dispose, addr 0x298fc1c, size 0x138, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method EndRead, addr 0x298fd9c, size 0x24, virtual true, abstract: false, final false
+  inline int32_t EndRead(::System::IAsyncResult* asyncResult);
+
+  /// @brief Method EndWrite, addr 0x298fdc0, size 0x24, virtual true, abstract: false, final false
+  inline void EndWrite(::System::IAsyncResult* asyncResult);
+
+  /// @brief Method Finalize, addr 0x298fb78, size 0xa4, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  /// @brief Method Flush, addr 0x298fde4, size 0x24, virtual true, abstract: false, final false
+  inline void Flush();
+
+  static inline ::System::Xml::XmlRegisteredNonCachedStream* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlDownloadManager* downloadManager, ::StringW host);
+
+  /// @brief Method Read, addr 0x298fe08, size 0x24, virtual true, abstract: false, final false
+  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method ReadByte, addr 0x298fe2c, size 0x24, virtual true, abstract: false, final false
+  inline int32_t ReadByte();
+
+  /// @brief Method Seek, addr 0x298fe50, size 0x24, virtual true, abstract: false, final false
+  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
+
+  /// @brief Method SetLength, addr 0x298fe74, size 0x24, virtual true, abstract: false, final false
+  inline void SetLength(int64_t value);
+
+  /// @brief Method Write, addr 0x298fe98, size 0x24, virtual true, abstract: false, final false
+  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+
+  /// @brief Method WriteByte, addr 0x298febc, size 0x24, virtual true, abstract: false, final false
+  inline void WriteByte(uint8_t value);
 
   constexpr ::System::Xml::XmlDownloadManager*& __cordl_internal_get_downloadManager();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDownloadManager*> const& __cordl_internal_get_downloadManager() const;
 
-  constexpr void __cordl_internal_set_downloadManager(::System::Xml::XmlDownloadManager* value);
+  constexpr ::StringW const& __cordl_internal_get_host() const;
 
   constexpr ::StringW& __cordl_internal_get_host();
 
-  constexpr ::StringW const& __cordl_internal_get_host() const;
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
+
+  constexpr void __cordl_internal_set_downloadManager(::System::Xml::XmlDownloadManager* value);
 
   constexpr void __cordl_internal_set_host(::StringW value);
 
-  static inline ::System::Xml::XmlRegisteredNonCachedStream* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlDownloadManager* downloadManager, ::StringW host);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x28a78b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298ed30, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlDownloadManager* downloadManager, ::StringW host);
 
-  /// @brief Method Finalize, addr 0x28a86fc, size 0xa4, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method Dispose, addr 0x28a87a0, size 0x138, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method BeginRead, addr 0x28a88d8, size 0x24, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
-
-  /// @brief Method BeginWrite, addr 0x28a88fc, size 0x24, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
-
-  /// @brief Method EndRead, addr 0x28a8920, size 0x24, virtual true, abstract: false, final false
-  inline int32_t EndRead(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method EndWrite, addr 0x28a8944, size 0x24, virtual true, abstract: false, final false
-  inline void EndWrite(::System::IAsyncResult* asyncResult);
-
-  /// @brief Method Flush, addr 0x28a8968, size 0x24, virtual true, abstract: false, final false
-  inline void Flush();
-
-  /// @brief Method Read, addr 0x28a898c, size 0x24, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method ReadByte, addr 0x28a89b0, size 0x24, virtual true, abstract: false, final false
-  inline int32_t ReadByte();
-
-  /// @brief Method Seek, addr 0x28a89d4, size 0x24, virtual true, abstract: false, final false
-  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
-
-  /// @brief Method SetLength, addr 0x28a89f8, size 0x24, virtual true, abstract: false, final false
-  inline void SetLength(int64_t value);
-
-  /// @brief Method Write, addr 0x28a8a1c, size 0x24, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
-
-  /// @brief Method WriteByte, addr 0x28a8a40, size 0x24, virtual true, abstract: false, final false
-  inline void WriteByte(uint8_t value);
-
-  /// @brief Method get_CanRead, addr 0x28a8a64, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x298fee0, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x28a8a84, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x298ff00, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x28a8aa4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x298ff20, size 0x20, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x28a8ac4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x298ff40, size 0x20, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x28a8ae4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x298ff60, size 0x24, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x28a8b08, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x298ff84, size 0x24, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlRegisteredNonCachedStream();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlRegisteredNonCachedStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlRegisteredNonCachedStream(XmlRegisteredNonCachedStream&&) = delete;
@@ -148,12 +152,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlRegisteredNonCachedStream(XmlRegisteredNonCachedStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlRegisteredNonCachedStream();
-
-public:
   /// @brief Field stream, offset: 0x28, size: 0x8, def value: None
   ::System::IO::Stream* ___stream;
 

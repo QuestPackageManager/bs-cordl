@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ILightWithId);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14424))
 // CS Name: ::ILightWithId*
 class CORDL_TYPE ILightWithId {
 public:
@@ -27,8 +25,8 @@ public:
 
   __declspec(property(get = get_lightId)) int32_t lightId;
 
-  /// @brief Method get_isRegistered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_isRegistered();
+  /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ColorWasSet(::UnityEngine::Color color);
 
   /// @brief Method __SetIsRegistered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void __SetIsRegistered();
@@ -36,11 +34,11 @@ public:
   /// @brief Method __SetIsUnRegistered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void __SetIsUnRegistered();
 
+  /// @brief Method get_isRegistered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_isRegistered();
+
   /// @brief Method get_lightId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_lightId();
-
-  /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ColorWasSet(::UnityEngine::Color color);
 
   // Ctor Parameters [CppParam { name: "", ty: "ILightWithId", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -27,26 +27,30 @@ MARK_REF_PTR_T(::Assets::OVR::Scripts::FixMethodDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8676))
 // CS Name: ::Assets.OVR.Scripts::FixMethodDelegate*
 class CORDL_TYPE FixMethodDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::Assets::OVR::Scripts::FixMethodDelegate* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x28059c8, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2805af8, size 0x18, virtual true, abstract: false, final false
-  inline void Invoke(::UnityEngine::Object* obj, bool isLastInSet, int32_t selectedIndex);
-
-  /// @brief Method BeginInvoke, addr 0x2805b10, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x28e9f8c, size 0xc4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Object* obj, bool isLastInSet, int32_t selectedIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2805bd4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x28ea050, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x28e9f74, size 0x18, virtual true, abstract: false, final false
+  inline void Invoke(::UnityEngine::Object* obj, bool isLastInSet, int32_t selectedIndex);
+
+  static inline ::Assets::OVR::Scripts::FixMethodDelegate* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x28e9e44, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FixMethodDelegate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FixMethodDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixMethodDelegate(FixMethodDelegate&&) = delete;
@@ -55,12 +59,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixMethodDelegate(FixMethodDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FixMethodDelegate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

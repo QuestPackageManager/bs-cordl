@@ -15,73 +15,77 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataBasicInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10713))
 // CS Name: ::BeatmapDataBasicInfo*
 class CORDL_TYPE BeatmapDataBasicInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <numberOfLines>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__numberOfLines_k__BackingField, put = __cordl_internal_set__numberOfLines_k__BackingField)) int32_t _numberOfLines_k__BackingField;
+  /// @brief Field <bombsCount>k__BackingField, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__bombsCount_k__BackingField, put = __cordl_internal_set__bombsCount_k__BackingField)) int32_t _bombsCount_k__BackingField;
 
   /// @brief Field <cuttableNotesCount>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__cuttableNotesCount_k__BackingField, put = __cordl_internal_set__cuttableNotesCount_k__BackingField)) int32_t _cuttableNotesCount_k__BackingField;
 
+  /// @brief Field <numberOfLines>k__BackingField, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__numberOfLines_k__BackingField, put = __cordl_internal_set__numberOfLines_k__BackingField)) int32_t _numberOfLines_k__BackingField;
+
   /// @brief Field <obstaclesCount>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__obstaclesCount_k__BackingField, put = __cordl_internal_set__obstaclesCount_k__BackingField)) int32_t _obstaclesCount_k__BackingField;
 
-  /// @brief Field <bombsCount>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__bombsCount_k__BackingField, put = __cordl_internal_set__bombsCount_k__BackingField)) int32_t _bombsCount_k__BackingField;
-
-  __declspec(property(get = get_numberOfLines)) int32_t numberOfLines;
+  __declspec(property(get = get_bombsCount)) int32_t bombsCount;
 
   __declspec(property(get = get_cuttableNotesCount)) int32_t cuttableNotesCount;
 
+  __declspec(property(get = get_numberOfLines)) int32_t numberOfLines;
+
   __declspec(property(get = get_obstaclesCount)) int32_t obstaclesCount;
-
-  __declspec(property(get = get_bombsCount)) int32_t bombsCount;
-
-  constexpr int32_t& __cordl_internal_get__numberOfLines_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__numberOfLines_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__numberOfLines_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__cuttableNotesCount_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__cuttableNotesCount_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__cuttableNotesCount_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__obstaclesCount_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__obstaclesCount_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__obstaclesCount_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__bombsCount_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__bombsCount_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__bombsCount_k__BackingField(int32_t value);
-
-  /// @brief Method get_numberOfLines, addr 0x12765b8, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_numberOfLines();
-
-  /// @brief Method get_cuttableNotesCount, addr 0x12765c0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_cuttableNotesCount();
-
-  /// @brief Method get_obstaclesCount, addr 0x12765c8, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_obstaclesCount();
-
-  /// @brief Method get_bombsCount, addr 0x12765d0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_bombsCount();
 
   static inline ::GlobalNamespace::BeatmapDataBasicInfo* New_ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount);
 
-  /// @brief Method .ctor, addr 0x12765d8, size 0x40, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get__bombsCount_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__bombsCount_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__cuttableNotesCount_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__cuttableNotesCount_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__numberOfLines_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__numberOfLines_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__obstaclesCount_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__obstaclesCount_k__BackingField();
+
+  constexpr void __cordl_internal_set__bombsCount_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__cuttableNotesCount_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__numberOfLines_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__obstaclesCount_k__BackingField(int32_t value);
+
+  /// @brief Method .ctor, addr 0x12b95a8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount);
 
+  /// @brief Method get_bombsCount, addr 0x12b95a0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_bombsCount();
+
+  /// @brief Method get_cuttableNotesCount, addr 0x12b9590, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_cuttableNotesCount();
+
+  /// @brief Method get_numberOfLines, addr 0x12b9588, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_numberOfLines();
+
+  /// @brief Method get_obstaclesCount, addr 0x12b9598, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_obstaclesCount();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataBasicInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataBasicInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataBasicInfo(BeatmapDataBasicInfo&&) = delete;
@@ -90,12 +94,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataBasicInfo(BeatmapDataBasicInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataBasicInfo();
-
-public:
   /// @brief Field <numberOfLines>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____numberOfLines_k__BackingField;
 

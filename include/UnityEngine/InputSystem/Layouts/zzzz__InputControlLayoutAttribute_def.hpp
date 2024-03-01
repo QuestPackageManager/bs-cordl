@@ -20,205 +20,210 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute)
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2547)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 77
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5875)) CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayoutAttribute*
+// CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayoutAttribute*
 class CORDL_TYPE InputControlLayoutAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field <stateType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__stateType_k__BackingField, put = __cordl_internal_set__stateType_k__BackingField))::System::Type* _stateType_k__BackingField;
-
-  /// @brief Field <stateFormat>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__stateFormat_k__BackingField, put = __cordl_internal_set__stateFormat_k__BackingField))::StringW _stateFormat_k__BackingField;
-
   /// @brief Field <commonUsages>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__commonUsages_k__BackingField,
                       put = __cordl_internal_set__commonUsages_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _commonUsages_k__BackingField;
 
-  /// @brief Field <variants>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__variants_k__BackingField, put = __cordl_internal_set__variants_k__BackingField))::StringW _variants_k__BackingField;
+  /// @brief Field <description>k__BackingField, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__description_k__BackingField, put = __cordl_internal_set__description_k__BackingField))::StringW _description_k__BackingField;
 
-  /// @brief Field <isNoisy>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__isNoisy_k__BackingField, put = __cordl_internal_set__isNoisy_k__BackingField)) bool _isNoisy_k__BackingField;
+  /// @brief Field <displayName>k__BackingField, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField))::StringW _displayName_k__BackingField;
 
-  /// @brief Field canRunInBackgroundInternal, offset 0x31, size 0x2
-  __declspec(property(get = __cordl_internal_get_canRunInBackgroundInternal, put = __cordl_internal_set_canRunInBackgroundInternal))::System::Nullable_1<bool> canRunInBackgroundInternal;
-
-  /// @brief Field updateBeforeRenderInternal, offset 0x33, size 0x2
-  __declspec(property(get = __cordl_internal_get_updateBeforeRenderInternal, put = __cordl_internal_set_updateBeforeRenderInternal))::System::Nullable_1<bool> updateBeforeRenderInternal;
+  /// @brief Field <hideInUI>k__BackingField, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get__hideInUI_k__BackingField, put = __cordl_internal_set__hideInUI_k__BackingField)) bool _hideInUI_k__BackingField;
 
   /// @brief Field <isGenericTypeOfDevice>k__BackingField, offset 0x35, size 0x1
   __declspec(property(get = __cordl_internal_get__isGenericTypeOfDevice_k__BackingField,
                       put = __cordl_internal_set__isGenericTypeOfDevice_k__BackingField)) bool _isGenericTypeOfDevice_k__BackingField;
 
-  /// @brief Field <displayName>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField))::StringW _displayName_k__BackingField;
+  /// @brief Field <isNoisy>k__BackingField, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__isNoisy_k__BackingField, put = __cordl_internal_set__isNoisy_k__BackingField)) bool _isNoisy_k__BackingField;
 
-  /// @brief Field <description>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__description_k__BackingField, put = __cordl_internal_set__description_k__BackingField))::StringW _description_k__BackingField;
+  /// @brief Field <stateFormat>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__stateFormat_k__BackingField, put = __cordl_internal_set__stateFormat_k__BackingField))::StringW _stateFormat_k__BackingField;
 
-  /// @brief Field <hideInUI>k__BackingField, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__hideInUI_k__BackingField, put = __cordl_internal_set__hideInUI_k__BackingField)) bool _hideInUI_k__BackingField;
+  /// @brief Field <stateType>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__stateType_k__BackingField, put = __cordl_internal_set__stateType_k__BackingField))::System::Type* _stateType_k__BackingField;
 
-  __declspec(property(get = get_stateType, put = set_stateType))::System::Type* stateType;
-
-  __declspec(property(get = get_stateFormat, put = set_stateFormat))::StringW stateFormat;
-
-  __declspec(property(get = get_commonUsages, put = set_commonUsages))::ArrayW<::StringW, ::Array<::StringW>*> commonUsages;
-
-  __declspec(property(get = get_variants, put = set_variants))::StringW variants;
-
-  __declspec(property(get = get_isNoisy, put = set_isNoisy)) bool isNoisy;
+  /// @brief Field <variants>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__variants_k__BackingField, put = __cordl_internal_set__variants_k__BackingField))::StringW _variants_k__BackingField;
 
   __declspec(property(get = get_canRunInBackground, put = set_canRunInBackground)) bool canRunInBackground;
 
-  __declspec(property(get = get_updateBeforeRender, put = set_updateBeforeRender)) bool updateBeforeRender;
+  /// @brief Field canRunInBackgroundInternal, offset 0x31, size 0x2
+  __declspec(property(get = __cordl_internal_get_canRunInBackgroundInternal, put = __cordl_internal_set_canRunInBackgroundInternal))::System::Nullable_1<bool> canRunInBackgroundInternal;
 
-  __declspec(property(get = get_isGenericTypeOfDevice, put = set_isGenericTypeOfDevice)) bool isGenericTypeOfDevice;
-
-  __declspec(property(get = get_displayName, put = set_displayName))::StringW displayName;
+  __declspec(property(get = get_commonUsages, put = set_commonUsages))::ArrayW<::StringW, ::Array<::StringW>*> commonUsages;
 
   __declspec(property(get = get_description, put = set_description))::StringW description;
 
+  __declspec(property(get = get_displayName, put = set_displayName))::StringW displayName;
+
   __declspec(property(get = get_hideInUI, put = set_hideInUI)) bool hideInUI;
+
+  __declspec(property(get = get_isGenericTypeOfDevice, put = set_isGenericTypeOfDevice)) bool isGenericTypeOfDevice;
+
+  __declspec(property(get = get_isNoisy, put = set_isNoisy)) bool isNoisy;
+
+  __declspec(property(get = get_stateFormat, put = set_stateFormat))::StringW stateFormat;
+
+  __declspec(property(get = get_stateType, put = set_stateType))::System::Type* stateType;
+
+  __declspec(property(get = get_updateBeforeRender, put = set_updateBeforeRender)) bool updateBeforeRender;
+
+  /// @brief Field updateBeforeRenderInternal, offset 0x33, size 0x2
+  __declspec(property(get = __cordl_internal_get_updateBeforeRenderInternal, put = __cordl_internal_set_updateBeforeRenderInternal))::System::Nullable_1<bool> updateBeforeRenderInternal;
+
+  __declspec(property(get = get_variants, put = set_variants))::StringW variants;
+
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute* New_ctor();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__commonUsages_k__BackingField() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__commonUsages_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__description_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__description_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__displayName_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__displayName_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__hideInUI_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__hideInUI_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__isGenericTypeOfDevice_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__isGenericTypeOfDevice_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__isNoisy_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__isNoisy_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__stateFormat_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__stateFormat_k__BackingField();
 
   constexpr ::System::Type*& __cordl_internal_get__stateType_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__stateType_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__stateType_k__BackingField(::System::Type* value);
-
-  constexpr ::StringW& __cordl_internal_get__stateFormat_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__stateFormat_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__stateFormat_k__BackingField(::StringW value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__commonUsages_k__BackingField();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__commonUsages_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__commonUsages_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr ::StringW const& __cordl_internal_get__variants_k__BackingField() const;
 
   constexpr ::StringW& __cordl_internal_get__variants_k__BackingField();
 
-  constexpr ::StringW const& __cordl_internal_get__variants_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__variants_k__BackingField(::StringW value);
-
-  constexpr bool& __cordl_internal_get__isNoisy_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__isNoisy_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__isNoisy_k__BackingField(bool value);
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_canRunInBackgroundInternal() const;
 
   constexpr ::System::Nullable_1<bool>& __cordl_internal_get_canRunInBackgroundInternal();
 
-  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_canRunInBackgroundInternal() const;
-
-  constexpr void __cordl_internal_set_canRunInBackgroundInternal(::System::Nullable_1<bool> value);
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_updateBeforeRenderInternal() const;
 
   constexpr ::System::Nullable_1<bool>& __cordl_internal_get_updateBeforeRenderInternal();
 
-  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_updateBeforeRenderInternal() const;
-
-  constexpr void __cordl_internal_set_updateBeforeRenderInternal(::System::Nullable_1<bool> value);
-
-  constexpr bool& __cordl_internal_get__isGenericTypeOfDevice_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__isGenericTypeOfDevice_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__isGenericTypeOfDevice_k__BackingField(bool value);
-
-  constexpr ::StringW& __cordl_internal_get__displayName_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__displayName_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__description_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__description_k__BackingField() const;
+  constexpr void __cordl_internal_set__commonUsages_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   constexpr void __cordl_internal_set__description_k__BackingField(::StringW value);
 
-  constexpr bool& __cordl_internal_get__hideInUI_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__hideInUI_k__BackingField() const;
+  constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set__hideInUI_k__BackingField(bool value);
 
-  /// @brief Method get_stateType, addr 0x2b04150, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_stateType();
+  constexpr void __cordl_internal_set__isGenericTypeOfDevice_k__BackingField(bool value);
 
-  /// @brief Method set_stateType, addr 0x2b04158, size 0x8, virtual false, abstract: false, final false
-  inline void set_stateType(::System::Type* value);
+  constexpr void __cordl_internal_set__isNoisy_k__BackingField(bool value);
 
-  /// @brief Method get_stateFormat, addr 0x2b04160, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_stateFormat();
+  constexpr void __cordl_internal_set__stateFormat_k__BackingField(::StringW value);
 
-  /// @brief Method set_stateFormat, addr 0x2b04168, size 0x8, virtual false, abstract: false, final false
-  inline void set_stateFormat(::StringW value);
+  constexpr void __cordl_internal_set__stateType_k__BackingField(::System::Type* value);
 
-  /// @brief Method get_commonUsages, addr 0x2b04170, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_commonUsages();
+  constexpr void __cordl_internal_set__variants_k__BackingField(::StringW value);
 
-  /// @brief Method set_commonUsages, addr 0x2b04178, size 0x8, virtual false, abstract: false, final false
-  inline void set_commonUsages(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_canRunInBackgroundInternal(::System::Nullable_1<bool> value);
 
-  /// @brief Method get_variants, addr 0x2b04180, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_variants();
+  constexpr void __cordl_internal_set_updateBeforeRenderInternal(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_variants, addr 0x2b04188, size 0x8, virtual false, abstract: false, final false
-  inline void set_variants(::StringW value);
-
-  /// @brief Method get_isNoisy, addr 0x2b04190, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isNoisy();
-
-  /// @brief Method set_isNoisy, addr 0x2b04198, size 0xc, virtual false, abstract: false, final false
-  inline void set_isNoisy(bool value);
-
-  /// @brief Method get_canRunInBackground, addr 0x2b041a4, size 0x48, virtual false, abstract: false, final false
-  inline bool get_canRunInBackground();
-
-  /// @brief Method set_canRunInBackground, addr 0x2b041ec, size 0x68, virtual false, abstract: false, final false
-  inline void set_canRunInBackground(bool value);
-
-  /// @brief Method get_updateBeforeRender, addr 0x2b04254, size 0x48, virtual false, abstract: false, final false
-  inline bool get_updateBeforeRender();
-
-  /// @brief Method set_updateBeforeRender, addr 0x2b0429c, size 0x68, virtual false, abstract: false, final false
-  inline void set_updateBeforeRender(bool value);
-
-  /// @brief Method get_isGenericTypeOfDevice, addr 0x2b04304, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isGenericTypeOfDevice();
-
-  /// @brief Method set_isGenericTypeOfDevice, addr 0x2b0430c, size 0xc, virtual false, abstract: false, final false
-  inline void set_isGenericTypeOfDevice(bool value);
-
-  /// @brief Method get_displayName, addr 0x2b04318, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_displayName();
-
-  /// @brief Method set_displayName, addr 0x2b04320, size 0x8, virtual false, abstract: false, final false
-  inline void set_displayName(::StringW value);
-
-  /// @brief Method get_description, addr 0x2b04328, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_description();
-
-  /// @brief Method set_description, addr 0x2b04330, size 0x8, virtual false, abstract: false, final false
-  inline void set_description(::StringW value);
-
-  /// @brief Method get_hideInUI, addr 0x2b04338, size 0x8, virtual false, abstract: false, final false
-  inline bool get_hideInUI();
-
-  /// @brief Method set_hideInUI, addr 0x2b04340, size 0xc, virtual false, abstract: false, final false
-  inline void set_hideInUI(bool value);
-
-  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayoutAttribute* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2b0434c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2be9420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_canRunInBackground, addr 0x2be9278, size 0x48, virtual false, abstract: false, final false
+  inline bool get_canRunInBackground();
+
+  /// @brief Method get_commonUsages, addr 0x2be9244, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_commonUsages();
+
+  /// @brief Method get_description, addr 0x2be93fc, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_description();
+
+  /// @brief Method get_displayName, addr 0x2be93ec, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_displayName();
+
+  /// @brief Method get_hideInUI, addr 0x2be940c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_hideInUI();
+
+  /// @brief Method get_isGenericTypeOfDevice, addr 0x2be93d8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isGenericTypeOfDevice();
+
+  /// @brief Method get_isNoisy, addr 0x2be9264, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isNoisy();
+
+  /// @brief Method get_stateFormat, addr 0x2be9234, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_stateFormat();
+
+  /// @brief Method get_stateType, addr 0x2be9224, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Type* get_stateType();
+
+  /// @brief Method get_updateBeforeRender, addr 0x2be9328, size 0x48, virtual false, abstract: false, final false
+  inline bool get_updateBeforeRender();
+
+  /// @brief Method get_variants, addr 0x2be9254, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_variants();
+
+  /// @brief Method set_canRunInBackground, addr 0x2be92c0, size 0x68, virtual false, abstract: false, final false
+  inline void set_canRunInBackground(bool value);
+
+  /// @brief Method set_commonUsages, addr 0x2be924c, size 0x8, virtual false, abstract: false, final false
+  inline void set_commonUsages(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  /// @brief Method set_description, addr 0x2be9404, size 0x8, virtual false, abstract: false, final false
+  inline void set_description(::StringW value);
+
+  /// @brief Method set_displayName, addr 0x2be93f4, size 0x8, virtual false, abstract: false, final false
+  inline void set_displayName(::StringW value);
+
+  /// @brief Method set_hideInUI, addr 0x2be9414, size 0xc, virtual false, abstract: false, final false
+  inline void set_hideInUI(bool value);
+
+  /// @brief Method set_isGenericTypeOfDevice, addr 0x2be93e0, size 0xc, virtual false, abstract: false, final false
+  inline void set_isGenericTypeOfDevice(bool value);
+
+  /// @brief Method set_isNoisy, addr 0x2be926c, size 0xc, virtual false, abstract: false, final false
+  inline void set_isNoisy(bool value);
+
+  /// @brief Method set_stateFormat, addr 0x2be923c, size 0x8, virtual false, abstract: false, final false
+  inline void set_stateFormat(::StringW value);
+
+  /// @brief Method set_stateType, addr 0x2be922c, size 0x8, virtual false, abstract: false, final false
+  inline void set_stateType(::System::Type* value);
+
+  /// @brief Method set_updateBeforeRender, addr 0x2be9370, size 0x68, virtual false, abstract: false, final false
+  inline void set_updateBeforeRender(bool value);
+
+  /// @brief Method set_variants, addr 0x2be925c, size 0x8, virtual false, abstract: false, final false
+  inline void set_variants(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputControlLayoutAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InputControlLayoutAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputControlLayoutAttribute(InputControlLayoutAttribute&&) = delete;
@@ -227,12 +232,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputControlLayoutAttribute(InputControlLayoutAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputControlLayoutAttribute();
-
-public:
   /// @brief Field <stateType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____stateType_k__BackingField;
 

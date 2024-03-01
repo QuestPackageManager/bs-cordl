@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberActivityCounter);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4633))
 // CS Name: ::SaberActivityCounter*
 class CORDL_TYPE SaberActivityCounter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -43,232 +41,238 @@ public:
   /// @brief Field _averageWindowDuration, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__averageWindowDuration, put = __cordl_internal_set__averageWindowDuration)) float_t _averageWindowDuration;
 
-  /// @brief Field _valuesPerSecond, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__valuesPerSecond, put = __cordl_internal_set__valuesPerSecond)) float_t _valuesPerSecond;
-
-  /// @brief Field _increaseSpeed, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__increaseSpeed, put = __cordl_internal_set__increaseSpeed)) float_t _increaseSpeed;
-
   /// @brief Field _decreaseSpeed, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__decreaseSpeed, put = __cordl_internal_set__decreaseSpeed)) float_t _decreaseSpeed;
 
-  /// @brief Field _movementSensitivityThreshold, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__movementSensitivityThreshold, put = __cordl_internal_set__movementSensitivityThreshold)) float_t _movementSensitivityThreshold;
-
-  /// @brief Field _saberManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
-
   /// @brief Field _gamePause, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
-
-  /// @brief Field totalDistanceDidChangeEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_totalDistanceDidChangeEvent, put = __cordl_internal_set_totalDistanceDidChangeEvent))::System::Action_1<float_t>* totalDistanceDidChangeEvent;
-
-  /// @brief Field _prevLeftSaberTipPos, offset 0x48, size 0xc
-  __declspec(property(get = __cordl_internal_get__prevLeftSaberTipPos, put = __cordl_internal_set__prevLeftSaberTipPos))::UnityEngine::Vector3 _prevLeftSaberTipPos;
-
-  /// @brief Field _prevRightSaberTipPos, offset 0x54, size 0xc
-  __declspec(property(get = __cordl_internal_get__prevRightSaberTipPos, put = __cordl_internal_set__prevRightSaberTipPos))::UnityEngine::Vector3 _prevRightSaberTipPos;
-
-  /// @brief Field _prevLeftHandPos, offset 0x60, size 0xc
-  __declspec(property(get = __cordl_internal_get__prevLeftHandPos, put = __cordl_internal_set__prevLeftHandPos))::UnityEngine::Vector3 _prevLeftHandPos;
-
-  /// @brief Field _prevRightHandPos, offset 0x6c, size 0xc
-  __declspec(property(get = __cordl_internal_get__prevRightHandPos, put = __cordl_internal_set__prevRightHandPos))::UnityEngine::Vector3 _prevRightHandPos;
-
-  /// @brief Field _hasPrevPos, offset 0x78, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasPrevPos, put = __cordl_internal_set__hasPrevPos)) bool _hasPrevPos;
-
-  /// @brief Field _leftSaberMovementDistance, offset 0x7c, size 0x4
-  __declspec(property(get = __cordl_internal_get__leftSaberMovementDistance, put = __cordl_internal_set__leftSaberMovementDistance)) float_t _leftSaberMovementDistance;
-
-  /// @brief Field _rightSaberMovementDistance, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get__rightSaberMovementDistance, put = __cordl_internal_set__rightSaberMovementDistance)) float_t _rightSaberMovementDistance;
-
-  /// @brief Field _leftHandMovementDistance, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get__leftHandMovementDistance, put = __cordl_internal_set__leftHandMovementDistance)) float_t _leftHandMovementDistance;
-
-  /// @brief Field _rightHandMovementDistance, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__rightHandMovementDistance, put = __cordl_internal_set__rightHandMovementDistance)) float_t _rightHandMovementDistance;
-
-  /// @brief Field _saberMovementHistoryRecorder, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberMovementHistoryRecorder,
-                      put = __cordl_internal_set__saberMovementHistoryRecorder))::GlobalNamespace::MovementHistoryRecorder* _saberMovementHistoryRecorder;
 
   /// @brief Field _handMovementHistoryRecorder, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__handMovementHistoryRecorder,
                       put = __cordl_internal_set__handMovementHistoryRecorder))::GlobalNamespace::MovementHistoryRecorder* _handMovementHistoryRecorder;
 
-  __declspec(property(get = get_leftSaberMovementDistance)) float_t leftSaberMovementDistance;
+  /// @brief Field _hasPrevPos, offset 0x78, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasPrevPos, put = __cordl_internal_set__hasPrevPos)) bool _hasPrevPos;
 
-  __declspec(property(get = get_rightSaberMovementDistance)) float_t rightSaberMovementDistance;
+  /// @brief Field _increaseSpeed, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__increaseSpeed, put = __cordl_internal_set__increaseSpeed)) float_t _increaseSpeed;
 
-  __declspec(property(get = get_leftHandMovementDistance)) float_t leftHandMovementDistance;
+  /// @brief Field _leftHandMovementDistance, offset 0x84, size 0x4
+  __declspec(property(get = __cordl_internal_get__leftHandMovementDistance, put = __cordl_internal_set__leftHandMovementDistance)) float_t _leftHandMovementDistance;
 
-  __declspec(property(get = get_rightHandMovementDistance)) float_t rightHandMovementDistance;
+  /// @brief Field _leftSaberMovementDistance, offset 0x7c, size 0x4
+  __declspec(property(get = __cordl_internal_get__leftSaberMovementDistance, put = __cordl_internal_set__leftSaberMovementDistance)) float_t _leftSaberMovementDistance;
 
-  __declspec(property(get = get_saberMovementAveragingValueRecorder))::GlobalNamespace::AveragingValueRecorder* saberMovementAveragingValueRecorder;
+  /// @brief Field _movementSensitivityThreshold, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__movementSensitivityThreshold, put = __cordl_internal_set__movementSensitivityThreshold)) float_t _movementSensitivityThreshold;
+
+  /// @brief Field _prevLeftHandPos, offset 0x60, size 0xc
+  __declspec(property(get = __cordl_internal_get__prevLeftHandPos, put = __cordl_internal_set__prevLeftHandPos))::UnityEngine::Vector3 _prevLeftHandPos;
+
+  /// @brief Field _prevLeftSaberTipPos, offset 0x48, size 0xc
+  __declspec(property(get = __cordl_internal_get__prevLeftSaberTipPos, put = __cordl_internal_set__prevLeftSaberTipPos))::UnityEngine::Vector3 _prevLeftSaberTipPos;
+
+  /// @brief Field _prevRightHandPos, offset 0x6c, size 0xc
+  __declspec(property(get = __cordl_internal_get__prevRightHandPos, put = __cordl_internal_set__prevRightHandPos))::UnityEngine::Vector3 _prevRightHandPos;
+
+  /// @brief Field _prevRightSaberTipPos, offset 0x54, size 0xc
+  __declspec(property(get = __cordl_internal_get__prevRightSaberTipPos, put = __cordl_internal_set__prevRightSaberTipPos))::UnityEngine::Vector3 _prevRightSaberTipPos;
+
+  /// @brief Field _rightHandMovementDistance, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get__rightHandMovementDistance, put = __cordl_internal_set__rightHandMovementDistance)) float_t _rightHandMovementDistance;
+
+  /// @brief Field _rightSaberMovementDistance, offset 0x80, size 0x4
+  __declspec(property(get = __cordl_internal_get__rightSaberMovementDistance, put = __cordl_internal_set__rightSaberMovementDistance)) float_t _rightSaberMovementDistance;
+
+  /// @brief Field _saberManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
+
+  /// @brief Field _saberMovementHistoryRecorder, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberMovementHistoryRecorder,
+                      put = __cordl_internal_set__saberMovementHistoryRecorder))::GlobalNamespace::MovementHistoryRecorder* _saberMovementHistoryRecorder;
+
+  /// @brief Field _valuesPerSecond, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__valuesPerSecond, put = __cordl_internal_set__valuesPerSecond)) float_t _valuesPerSecond;
 
   __declspec(property(get = get_handMovementAveragingValueRecorder))::GlobalNamespace::AveragingValueRecorder* handMovementAveragingValueRecorder;
 
-  constexpr float_t& __cordl_internal_get__averageWindowDuration();
+  __declspec(property(get = get_leftHandMovementDistance)) float_t leftHandMovementDistance;
+
+  __declspec(property(get = get_leftSaberMovementDistance)) float_t leftSaberMovementDistance;
+
+  __declspec(property(get = get_rightHandMovementDistance)) float_t rightHandMovementDistance;
+
+  __declspec(property(get = get_rightSaberMovementDistance)) float_t rightSaberMovementDistance;
+
+  __declspec(property(get = get_saberMovementAveragingValueRecorder))::GlobalNamespace::AveragingValueRecorder* saberMovementAveragingValueRecorder;
+
+  /// @brief Field totalDistanceDidChangeEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_totalDistanceDidChangeEvent, put = __cordl_internal_set_totalDistanceDidChangeEvent))::System::Action_1<float_t>* totalDistanceDidChangeEvent;
+
+  /// @brief Method Awake, addr 0x249104c, size 0xb4, virtual false, abstract: false, final false
+  inline void Awake();
+
+  /// @brief Method HandleDidPauseEvent, addr 0x2491828, size 0x8, virtual false, abstract: false, final false
+  inline void HandleDidPauseEvent();
+
+  /// @brief Method HandleSaberPositionsWereUpdated, addr 0x24913f4, size 0x434, virtual false, abstract: false, final false
+  inline void HandleSaberPositionsWereUpdated(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
+
+  static inline ::GlobalNamespace::SaberActivityCounter* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x2491254, size 0x1a0, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x2491100, size 0x154, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr float_t const& __cordl_internal_get__averageWindowDuration() const;
 
-  constexpr void __cordl_internal_set__averageWindowDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__valuesPerSecond();
-
-  constexpr float_t const& __cordl_internal_get__valuesPerSecond() const;
-
-  constexpr void __cordl_internal_set__valuesPerSecond(float_t value);
-
-  constexpr float_t& __cordl_internal_get__increaseSpeed();
-
-  constexpr float_t const& __cordl_internal_get__increaseSpeed() const;
-
-  constexpr void __cordl_internal_set__increaseSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get__decreaseSpeed();
+  constexpr float_t& __cordl_internal_get__averageWindowDuration();
 
   constexpr float_t const& __cordl_internal_get__decreaseSpeed() const;
 
-  constexpr void __cordl_internal_set__decreaseSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get__movementSensitivityThreshold();
-
-  constexpr float_t const& __cordl_internal_get__movementSensitivityThreshold() const;
-
-  constexpr void __cordl_internal_set__movementSensitivityThreshold(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
-
-  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
-
-  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
+  constexpr float_t& __cordl_internal_get__decreaseSpeed();
 
   constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
 
-  constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
+  constexpr ::GlobalNamespace::MovementHistoryRecorder*& __cordl_internal_get__handMovementHistoryRecorder();
 
-  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_totalDistanceDidChangeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_totalDistanceDidChangeEvent() const;
-
-  constexpr void __cordl_internal_set_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__prevLeftSaberTipPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevLeftSaberTipPos() const;
-
-  constexpr void __cordl_internal_set__prevLeftSaberTipPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__prevRightSaberTipPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevRightSaberTipPos() const;
-
-  constexpr void __cordl_internal_set__prevRightSaberTipPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__prevLeftHandPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevLeftHandPos() const;
-
-  constexpr void __cordl_internal_set__prevLeftHandPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__prevRightHandPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevRightHandPos() const;
-
-  constexpr void __cordl_internal_set__prevRightHandPos(::UnityEngine::Vector3 value);
-
-  constexpr bool& __cordl_internal_get__hasPrevPos();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MovementHistoryRecorder*> const& __cordl_internal_get__handMovementHistoryRecorder() const;
 
   constexpr bool const& __cordl_internal_get__hasPrevPos() const;
 
-  constexpr void __cordl_internal_set__hasPrevPos(bool value);
+  constexpr bool& __cordl_internal_get__hasPrevPos();
 
-  constexpr float_t& __cordl_internal_get__leftSaberMovementDistance();
+  constexpr float_t const& __cordl_internal_get__increaseSpeed() const;
 
-  constexpr float_t const& __cordl_internal_get__leftSaberMovementDistance() const;
-
-  constexpr void __cordl_internal_set__leftSaberMovementDistance(float_t value);
-
-  constexpr float_t& __cordl_internal_get__rightSaberMovementDistance();
-
-  constexpr float_t const& __cordl_internal_get__rightSaberMovementDistance() const;
-
-  constexpr void __cordl_internal_set__rightSaberMovementDistance(float_t value);
-
-  constexpr float_t& __cordl_internal_get__leftHandMovementDistance();
+  constexpr float_t& __cordl_internal_get__increaseSpeed();
 
   constexpr float_t const& __cordl_internal_get__leftHandMovementDistance() const;
 
-  constexpr void __cordl_internal_set__leftHandMovementDistance(float_t value);
+  constexpr float_t& __cordl_internal_get__leftHandMovementDistance();
 
-  constexpr float_t& __cordl_internal_get__rightHandMovementDistance();
+  constexpr float_t const& __cordl_internal_get__leftSaberMovementDistance() const;
+
+  constexpr float_t& __cordl_internal_get__leftSaberMovementDistance();
+
+  constexpr float_t const& __cordl_internal_get__movementSensitivityThreshold() const;
+
+  constexpr float_t& __cordl_internal_get__movementSensitivityThreshold();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevLeftHandPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__prevLeftHandPos();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevLeftSaberTipPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__prevLeftSaberTipPos();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevRightHandPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__prevRightHandPos();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevRightSaberTipPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__prevRightSaberTipPos();
 
   constexpr float_t const& __cordl_internal_get__rightHandMovementDistance() const;
 
-  constexpr void __cordl_internal_set__rightHandMovementDistance(float_t value);
+  constexpr float_t& __cordl_internal_get__rightHandMovementDistance();
+
+  constexpr float_t const& __cordl_internal_get__rightSaberMovementDistance() const;
+
+  constexpr float_t& __cordl_internal_get__rightSaberMovementDistance();
+
+  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
 
   constexpr ::GlobalNamespace::MovementHistoryRecorder*& __cordl_internal_get__saberMovementHistoryRecorder();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MovementHistoryRecorder*> const& __cordl_internal_get__saberMovementHistoryRecorder() const;
 
-  constexpr void __cordl_internal_set__saberMovementHistoryRecorder(::GlobalNamespace::MovementHistoryRecorder* value);
+  constexpr float_t const& __cordl_internal_get__valuesPerSecond() const;
 
-  constexpr ::GlobalNamespace::MovementHistoryRecorder*& __cordl_internal_get__handMovementHistoryRecorder();
+  constexpr float_t& __cordl_internal_get__valuesPerSecond();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MovementHistoryRecorder*> const& __cordl_internal_get__handMovementHistoryRecorder() const;
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_totalDistanceDidChangeEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_totalDistanceDidChangeEvent() const;
+
+  constexpr void __cordl_internal_set__averageWindowDuration(float_t value);
+
+  constexpr void __cordl_internal_set__decreaseSpeed(float_t value);
+
+  constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
 
   constexpr void __cordl_internal_set__handMovementHistoryRecorder(::GlobalNamespace::MovementHistoryRecorder* value);
 
-  /// @brief Method add_totalDistanceDidChangeEvent, addr 0x23c1f84, size 0xb0, virtual false, abstract: false, final false
-  inline void add_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
+  constexpr void __cordl_internal_set__hasPrevPos(bool value);
 
-  /// @brief Method remove_totalDistanceDidChangeEvent, addr 0x23c2034, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
+  constexpr void __cordl_internal_set__increaseSpeed(float_t value);
 
-  /// @brief Method get_leftSaberMovementDistance, addr 0x23c20e4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_leftSaberMovementDistance();
+  constexpr void __cordl_internal_set__leftHandMovementDistance(float_t value);
 
-  /// @brief Method get_rightSaberMovementDistance, addr 0x23c20ec, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_rightSaberMovementDistance();
+  constexpr void __cordl_internal_set__leftSaberMovementDistance(float_t value);
 
-  /// @brief Method get_leftHandMovementDistance, addr 0x23c20f4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_leftHandMovementDistance();
+  constexpr void __cordl_internal_set__movementSensitivityThreshold(float_t value);
 
-  /// @brief Method get_rightHandMovementDistance, addr 0x23c20fc, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_rightHandMovementDistance();
+  constexpr void __cordl_internal_set__prevLeftHandPos(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_saberMovementAveragingValueRecorder, addr 0x23bf410, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
+  constexpr void __cordl_internal_set__prevLeftSaberTipPos(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_handMovementAveragingValueRecorder, addr 0x23bf42c, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
+  constexpr void __cordl_internal_set__prevRightHandPos(::UnityEngine::Vector3 value);
 
-  /// @brief Method Awake, addr 0x23c2104, size 0xb4, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set__prevRightSaberTipPos(::UnityEngine::Vector3 value);
 
-  /// @brief Method Start, addr 0x23c21b8, size 0x154, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__rightHandMovementDistance(float_t value);
 
-  /// @brief Method OnDestroy, addr 0x23c230c, size 0x1a0, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__rightSaberMovementDistance(float_t value);
 
-  /// @brief Method HandleSaberPositionsWereUpdated, addr 0x23c24ac, size 0x434, virtual false, abstract: false, final false
-  inline void HandleSaberPositionsWereUpdated(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
+  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  /// @brief Method HandleDidPauseEvent, addr 0x23c28e0, size 0x8, virtual false, abstract: false, final false
-  inline void HandleDidPauseEvent();
+  constexpr void __cordl_internal_set__saberMovementHistoryRecorder(::GlobalNamespace::MovementHistoryRecorder* value);
 
-  static inline ::GlobalNamespace::SaberActivityCounter* New_ctor();
+  constexpr void __cordl_internal_set__valuesPerSecond(float_t value);
 
-  /// @brief Method .ctor, addr 0x23c28e8, size 0x20, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
+
+  /// @brief Method .ctor, addr 0x2491830, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_totalDistanceDidChangeEvent, addr 0x2490ecc, size 0xb0, virtual false, abstract: false, final false
+  inline void add_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
+
+  /// @brief Method get_handMovementAveragingValueRecorder, addr 0x248e374, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
+
+  /// @brief Method get_leftHandMovementDistance, addr 0x249103c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_leftHandMovementDistance();
+
+  /// @brief Method get_leftSaberMovementDistance, addr 0x249102c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_leftSaberMovementDistance();
+
+  /// @brief Method get_rightHandMovementDistance, addr 0x2491044, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_rightHandMovementDistance();
+
+  /// @brief Method get_rightSaberMovementDistance, addr 0x2491034, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_rightSaberMovementDistance();
+
+  /// @brief Method get_saberMovementAveragingValueRecorder, addr 0x248e358, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
+
+  /// @brief Method remove_totalDistanceDidChangeEvent, addr 0x2490f7c, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SaberActivityCounter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SaberActivityCounter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberActivityCounter(SaberActivityCounter&&) = delete;
@@ -277,12 +281,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SaberActivityCounter(SaberActivityCounter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SaberActivityCounter();
-
-public:
   /// @brief Field _averageWindowDuration, offset: 0x18, size: 0x4, def value: None
   float_t ____averageWindowDuration;
 

@@ -72,8 +72,6 @@ MARK_REF_PTR_T(::System::Collections::Specialized::__NameObjectCollectionBase__N
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7530))
 // CS Name: ::NameObjectCollectionBase::NameObjectEntry*
 class CORDL_TYPE __NameObjectCollectionBase__NameObjectEntry : public ::System::Object {
 public:
@@ -84,23 +82,29 @@ public:
   /// @brief Field Value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value))::System::Object* Value;
 
-  constexpr ::StringW& __cordl_internal_get_Key();
+  static inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* New_ctor(::StringW name, ::System::Object* value);
 
   constexpr ::StringW const& __cordl_internal_get_Key() const;
 
-  constexpr void __cordl_internal_set_Key(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_Key();
 
   constexpr ::System::Object*& __cordl_internal_get_Value();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_Value() const;
 
+  constexpr void __cordl_internal_set_Key(::StringW value);
+
   constexpr void __cordl_internal_set_Value(::System::Object* value);
 
-  static inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* New_ctor(::StringW name, ::System::Object* value);
-
-  /// @brief Method .ctor, addr 0x2945648, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2aac4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Object* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NameObjectCollectionBase__NameObjectEntry();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__NameObjectCollectionBase__NameObjectEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __NameObjectCollectionBase__NameObjectEntry(__NameObjectCollectionBase__NameObjectEntry&&) = delete;
@@ -109,12 +113,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NameObjectCollectionBase__NameObjectEntry(__NameObjectCollectionBase__NameObjectEntry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NameObjectCollectionBase__NameObjectEntry();
-
-public:
   /// @brief Field Key, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Key;
 
@@ -135,61 +133,65 @@ static_assert(offsetof(::System::Collections::Specialized::__NameObjectCollectio
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7531))
 // CS Name: ::NameObjectCollectionBase::NameObjectKeysEnumerator*
 class CORDL_TYPE __NameObjectCollectionBase__NameObjectKeysEnumerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _pos, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__pos, put = __cordl_internal_set__pos)) int32_t _pos;
+  __declspec(property(get = get_Current))::System::Object* Current;
 
   /// @brief Field _coll, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__coll, put = __cordl_internal_set__coll))::System::Collections::Specialized::NameObjectCollectionBase* _coll;
 
+  /// @brief Field _pos, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__pos, put = __cordl_internal_set__pos)) int32_t _pos;
+
   /// @brief Field _version, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
-
-  __declspec(property(get = get_Current))::System::Object* Current;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+  /// @brief Method MoveNext, addr 0x2a2affc, size 0xe0, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get__pos();
+  static inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectKeysEnumerator* New_ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll);
 
-  constexpr int32_t const& __cordl_internal_get__pos() const;
-
-  constexpr void __cordl_internal_set__pos(int32_t value);
+  /// @brief Method Reset, addr 0x2a2b0dc, size 0x90, virtual true, abstract: false, final true
+  inline void Reset();
 
   constexpr ::System::Collections::Specialized::NameObjectCollectionBase*& __cordl_internal_get__coll();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::NameObjectCollectionBase*> const& __cordl_internal_get__coll() const;
 
-  constexpr void __cordl_internal_set__coll(::System::Collections::Specialized::NameObjectCollectionBase* value);
+  constexpr int32_t const& __cordl_internal_get__pos() const;
 
-  constexpr int32_t& __cordl_internal_get__version();
+  constexpr int32_t& __cordl_internal_get__pos();
 
   constexpr int32_t const& __cordl_internal_get__version() const;
 
+  constexpr int32_t& __cordl_internal_get__version();
+
+  constexpr void __cordl_internal_set__coll(::System::Collections::Specialized::NameObjectCollectionBase* value);
+
+  constexpr void __cordl_internal_set__pos(int32_t value);
+
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  static inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectKeysEnumerator* New_ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll);
-
-  /// @brief Method .ctor, addr 0x29456d4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2ab50, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NameObjectCollectionBase* coll);
 
-  /// @brief Method MoveNext, addr 0x2945b80, size 0xe0, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  /// @brief Method Reset, addr 0x2945c60, size 0x90, virtual true, abstract: false, final true
-  inline void Reset();
-
-  /// @brief Method get_Current, addr 0x2945cf0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x2a2b16c, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NameObjectCollectionBase__NameObjectKeysEnumerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__NameObjectCollectionBase__NameObjectKeysEnumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __NameObjectCollectionBase__NameObjectKeysEnumerator(__NameObjectCollectionBase__NameObjectKeysEnumerator&&) = delete;
@@ -198,12 +200,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NameObjectCollectionBase__NameObjectKeysEnumerator(__NameObjectCollectionBase__NameObjectKeysEnumerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NameObjectCollectionBase__NameObjectKeysEnumerator();
-
-public:
   /// @brief Field _pos, offset: 0x10, size: 0x4, def value: None
   int32_t ____pos;
 
@@ -229,210 +225,214 @@ static_assert(offsetof(::System::Collections::Specialized::__NameObjectCollectio
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7532))
 // CS Name: ::System.Collections.Specialized::NameObjectCollectionBase*
 class CORDL_TYPE NameObjectCollectionBase : public ::System::Object {
 public:
   // Declarations
-  using NameObjectKeysEnumerator = ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectKeysEnumerator;
-
   using NameObjectEntry = ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry;
 
-  /// @brief Field _readOnly, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__readOnly, put = __cordl_internal_set__readOnly)) bool _readOnly;
+  using NameObjectKeysEnumerator = ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectKeysEnumerator;
+
+  __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
+  __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
+
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _entriesArray, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__entriesArray, put = __cordl_internal_set__entriesArray))::System::Collections::ArrayList* _entriesArray;
 
-  /// @brief Field _keyComparer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__keyComparer, put = __cordl_internal_set__keyComparer))::System::Collections::IEqualityComparer* _keyComparer;
-
   /// @brief Field _entriesTable, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__entriesTable, put = __cordl_internal_set__entriesTable))::System::Collections::Hashtable* _entriesTable;
+
+  /// @brief Field _keyComparer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__keyComparer, put = __cordl_internal_set__keyComparer))::System::Collections::IEqualityComparer* _keyComparer;
 
   /// @brief Field _nullKeyEntry, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__nullKeyEntry,
                       put = __cordl_internal_set__nullKeyEntry))::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* _nullKeyEntry;
 
+  /// @brief Field _readOnly, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__readOnly, put = __cordl_internal_set__readOnly)) bool _readOnly;
+
   /// @brief Field _serializationInfo, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__serializationInfo, put = __cordl_internal_set__serializationInfo))::System::Runtime::Serialization::SerializationInfo* _serializationInfo;
-
-  /// @brief Field _version, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _syncRoot, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
+  /// @brief Field _version, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
+
   /// @brief Field defaultComparer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_defaultComparer, put = setStaticF_defaultComparer))::System::StringComparer* defaultComparer;
-
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
-
-  __declspec(property(get = get_Count)) int32_t Count;
-
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
-
-  __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
-
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
-  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
+  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  constexpr bool& __cordl_internal_get__readOnly();
+  /// @brief Method BaseAdd, addr 0x2a26c98, size 0x164, virtual false, abstract: false, final false
+  inline void BaseAdd(::StringW name, ::System::Object* value);
 
-  constexpr bool const& __cordl_internal_get__readOnly() const;
+  /// @brief Method BaseGet, addr 0x2a27368, size 0x9c, virtual false, abstract: false, final false
+  inline ::System::Object* BaseGet(int32_t index);
 
-  constexpr void __cordl_internal_set__readOnly(bool value);
+  /// @brief Method BaseGet, addr 0x2a26c80, size 0x18, virtual false, abstract: false, final false
+  inline ::System::Object* BaseGet(::StringW name);
+
+  /// @brief Method BaseGetKey, addr 0x2a2748c, size 0x9c, virtual false, abstract: false, final false
+  inline ::StringW BaseGetKey(int32_t index);
+
+  /// @brief Method BaseRemove, addr 0x2a270b8, size 0x20c, virtual false, abstract: false, final false
+  inline void BaseRemove(::StringW name);
+
+  /// @brief Method BaseSet, addr 0x2a27000, size 0xb0, virtual false, abstract: false, final false
+  inline void BaseSet(::StringW name, ::System::Object* value);
+
+  /// @brief Method FindEntry, addr 0x2a2aa04, size 0xb8, virtual false, abstract: false, final false
+  inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* FindEntry(::StringW key);
+
+  /// @brief Method GetEnumerator, addr 0x2a2aaf0, size 0x60, virtual true, abstract: false, final false
+  inline ::System::Collections::IEnumerator* GetEnumerator();
+
+  /// @brief Method GetObjectData, addr 0x2a29ab8, size 0x580, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor();
+
+  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(int32_t capacity);
+
+  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
+
+  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::DBNull* dummy);
+
+  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::Collections::IEqualityComparer* equalityComparer);
+
+  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                       ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method OnDeserialization, addr 0x2a2a1f4, size 0x768, virtual true, abstract: false, final false
+  inline void OnDeserialization(::System::Object* sender);
+
+  /// @brief Method Reset, addr 0x2a2993c, size 0xb8, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method Reset, addr 0x2a299f4, size 0xc4, virtual false, abstract: false, final false
+  inline void Reset(int32_t capacity);
+
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2a2abb4, size 0x31c, virtual true, abstract: false, final true
+  inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
+
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x2a2af4c, size 0x8, virtual true, abstract: false, final true
+  inline bool System_Collections_ICollection_get_IsSynchronized();
+
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x2a2aed0, size 0x7c, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__entriesArray();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__entriesArray() const;
 
-  constexpr void __cordl_internal_set__entriesArray(::System::Collections::ArrayList* value);
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__entriesTable();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__entriesTable() const;
 
   constexpr ::System::Collections::IEqualityComparer*& __cordl_internal_get__keyComparer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEqualityComparer*> const& __cordl_internal_get__keyComparer() const;
 
-  constexpr void __cordl_internal_set__keyComparer(::System::Collections::IEqualityComparer* value);
-
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__entriesTable();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__entriesTable() const;
-
-  constexpr void __cordl_internal_set__entriesTable(::System::Collections::Hashtable* value);
-
   constexpr ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry*& __cordl_internal_get__nullKeyEntry();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry*> const& __cordl_internal_get__nullKeyEntry() const;
 
-  constexpr void __cordl_internal_set__nullKeyEntry(::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* value);
+  constexpr bool const& __cordl_internal_get__readOnly() const;
+
+  constexpr bool& __cordl_internal_get__readOnly();
 
   constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get__serializationInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get__serializationInfo() const;
 
-  constexpr void __cordl_internal_set__serializationInfo(::System::Runtime::Serialization::SerializationInfo* value);
-
-  constexpr int32_t& __cordl_internal_get__version();
-
-  constexpr int32_t const& __cordl_internal_get__version() const;
-
-  constexpr void __cordl_internal_set__version(int32_t value);
-
   constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
+  constexpr int32_t const& __cordl_internal_get__version() const;
+
+  constexpr int32_t& __cordl_internal_get__version();
+
+  constexpr void __cordl_internal_set__entriesArray(::System::Collections::ArrayList* value);
+
+  constexpr void __cordl_internal_set__entriesTable(::System::Collections::Hashtable* value);
+
+  constexpr void __cordl_internal_set__keyComparer(::System::Collections::IEqualityComparer* value);
+
+  constexpr void __cordl_internal_set__nullKeyEntry(::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* value);
+
+  constexpr void __cordl_internal_set__readOnly(bool value);
+
+  constexpr void __cordl_internal_set__serializationInfo(::System::Runtime::Serialization::SerializationInfo* value);
+
   constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
-  static inline void setStaticF_defaultComparer(::System::StringComparer* value);
+  constexpr void __cordl_internal_set__version(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2a26624, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2a266e8, size 0xb0, virtual false, abstract: false, final false
+  inline void _ctor(int32_t capacity);
+
+  /// @brief Method .ctor, addr 0x2a2680c, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
+
+  /// @brief Method .ctor, addr 0x2a27580, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::DBNull* dummy);
+
+  /// @brief Method .ctor, addr 0x2a298bc, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::IEqualityComparer* equalityComparer);
+
+  /// @brief Method .ctor, addr 0x2a268a4, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::StringComparer* getStaticF_defaultComparer();
 
-  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor();
-
-  /// @brief Method .ctor, addr 0x29411a8, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::Collections::IEqualityComparer* equalityComparer);
-
-  /// @brief Method .ctor, addr 0x2944440, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IEqualityComparer* equalityComparer);
-
-  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
-
-  /// @brief Method .ctor, addr 0x2941390, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity, ::System::Collections::IEqualityComparer* equalityComparer);
-
-  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(int32_t capacity);
-
-  /// @brief Method .ctor, addr 0x294126c, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity);
-
-  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::DBNull* dummy);
-
-  /// @brief Method .ctor, addr 0x2942104, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::DBNull* dummy);
-
-  static inline ::System::Collections::Specialized::NameObjectCollectionBase* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                       ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x2941428, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method GetObjectData, addr 0x294463c, size 0x580, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method OnDeserialization, addr 0x2944d78, size 0x768, virtual true, abstract: false, final false
-  inline void OnDeserialization(::System::Object* sender);
-
-  /// @brief Method Reset, addr 0x29444c0, size 0xb8, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method Reset, addr 0x2944578, size 0xc4, virtual false, abstract: false, final false
-  inline void Reset(int32_t capacity);
-
-  /// @brief Method FindEntry, addr 0x2945588, size 0xb8, virtual false, abstract: false, final false
-  inline ::System::Collections::Specialized::__NameObjectCollectionBase__NameObjectEntry* FindEntry(::StringW key);
-
-  /// @brief Method get_IsReadOnly, addr 0x2945640, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsReadOnly();
-
-  /// @brief Method BaseAdd, addr 0x294181c, size 0x164, virtual false, abstract: false, final false
-  inline void BaseAdd(::StringW name, ::System::Object* value);
-
-  /// @brief Method BaseRemove, addr 0x2941c3c, size 0x20c, virtual false, abstract: false, final false
-  inline void BaseRemove(::StringW name);
-
-  /// @brief Method BaseGet, addr 0x2941804, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Object* BaseGet(::StringW name);
-
-  /// @brief Method BaseSet, addr 0x2941b84, size 0xb0, virtual false, abstract: false, final false
-  inline void BaseSet(::StringW name, ::System::Object* value);
-
-  /// @brief Method BaseGet, addr 0x2941eec, size 0x9c, virtual false, abstract: false, final false
-  inline ::System::Object* BaseGet(int32_t index);
-
-  /// @brief Method BaseGetKey, addr 0x2942010, size 0x9c, virtual false, abstract: false, final false
-  inline ::StringW BaseGetKey(int32_t index);
-
-  /// @brief Method GetEnumerator, addr 0x2945674, size 0x60, virtual true, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetEnumerator();
-
-  /// @brief Method get_Count, addr 0x2945714, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2a2ab90, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2945738, size 0x31c, virtual true, abstract: false, final true
-  inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
+  /// @brief Method get_IsReadOnly, addr 0x2a2aabc, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsReadOnly();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x2945a54, size 0x7c, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
+  /// @brief Convert to "::System::Collections::ICollection"
+  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x2945ad0, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Collections_ICollection_get_IsSynchronized();
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
+  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
+  static inline void setStaticF_defaultComparer(::System::StringComparer* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NameObjectCollectionBase();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NameObjectCollectionBase", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NameObjectCollectionBase(NameObjectCollectionBase&&) = delete;
@@ -441,12 +441,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NameObjectCollectionBase(NameObjectCollectionBase const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NameObjectCollectionBase();
-
-public:
   /// @brief Field _readOnly, offset: 0x10, size: 0x1, def value: None
   bool ____readOnly;
 

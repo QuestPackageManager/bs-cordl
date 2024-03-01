@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::InternalPrimiti
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3253))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::InternalPrimitiveTypeE
 struct CORDL_TYPE InternalPrimitiveTypeE {
 public:
@@ -51,21 +49,20 @@ public:
     return static_cast<__InternalPrimitiveTypeE_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr InternalPrimitiveTypeE(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__InternalPrimitiveTypeE_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr InternalPrimitiveTypeE();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr InternalPrimitiveTypeE(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Invalid value: static_cast<int32_t>(0x0)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Invalid;
 
   /// @brief Field Boolean value: static_cast<int32_t>(0x1)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Boolean;
@@ -78,6 +75,9 @@ public:
 
   /// @brief Field Currency value: static_cast<int32_t>(0x4)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Currency;
+
+  /// @brief Field DateTime value: static_cast<int32_t>(0xd)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const DateTime;
 
   /// @brief Field Decimal value: static_cast<int32_t>(0x5)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Decimal;
@@ -94,17 +94,23 @@ public:
   /// @brief Field Int64 value: static_cast<int32_t>(0x9)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Int64;
 
+  /// @brief Field Invalid value: static_cast<int32_t>(0x0)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Invalid;
+
+  /// @brief Field Null value: static_cast<int32_t>(0x11)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Null;
+
   /// @brief Field SByte value: static_cast<int32_t>(0xa)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const SByte;
 
   /// @brief Field Single value: static_cast<int32_t>(0xb)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Single;
 
+  /// @brief Field String value: static_cast<int32_t>(0x12)
+  static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const String;
+
   /// @brief Field TimeSpan value: static_cast<int32_t>(0xc)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const TimeSpan;
-
-  /// @brief Field DateTime value: static_cast<int32_t>(0xd)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const DateTime;
 
   /// @brief Field UInt16 value: static_cast<int32_t>(0xe)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const UInt16;
@@ -115,11 +121,8 @@ public:
   /// @brief Field UInt64 value: static_cast<int32_t>(0x10)
   static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const UInt64;
 
-  /// @brief Field Null value: static_cast<int32_t>(0x11)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const Null;
-
-  /// @brief Field String value: static_cast<int32_t>(0x12)
-  static ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const String;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

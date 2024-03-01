@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::ScaleYPointMap);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1578))
 // CS Name: ::Org.BouncyCastle.Math.EC::ScaleYPointMap*
 class CORDL_TYPE ScaleYPointMap : public ::System::Object {
 public:
@@ -35,8 +33,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::ECPointMap"
   constexpr operator ::Org::BouncyCastle::Math::EC::ECPointMap*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Math::EC::ECPointMap"
-  constexpr ::Org::BouncyCastle::Math::EC::ECPointMap* i___Org__BouncyCastle__Math__EC__ECPointMap() noexcept;
+  /// @brief Method Map, addr 0x10ccd28, size 0x2c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
+
+  static inline ::Org::BouncyCastle::Math::EC::ScaleYPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
   constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __cordl_internal_get_scale();
 
@@ -44,14 +44,18 @@ public:
 
   constexpr void __cordl_internal_set_scale(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  static inline ::Org::BouncyCastle::Math::EC::ScaleYPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
-
-  /// @brief Method .ctor, addr 0x1087d30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ccd00, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
-  /// @brief Method Map, addr 0x1087d58, size 0x2c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
+  /// @brief Convert to "::Org::BouncyCastle::Math::EC::ECPointMap"
+  constexpr ::Org::BouncyCastle::Math::EC::ECPointMap* i___Org__BouncyCastle__Math__EC__ECPointMap() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScaleYPointMap();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScaleYPointMap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScaleYPointMap(ScaleYPointMap&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScaleYPointMap(ScaleYPointMap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScaleYPointMap();
-
-public:
   /// @brief Field scale, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::ECFieldElement* ___scale;
 

@@ -53,8 +53,6 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11847))
 // CS Name: ::JsonSerializerInternalBase::ReferenceEqualsEqualityComparer*
 class CORDL_TYPE __JsonSerializerInternalBase__ReferenceEqualsEqualityComparer : public ::System::Object {
 public:
@@ -62,20 +60,26 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::System::Object*>*() noexcept;
 
+  static inline ::Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer* New_ctor();
+
+  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.Equals, addr 0x276d10c, size 0xc, virtual true, abstract: false, final true
+  inline bool System_Collections_Generic_IEqualityComparer_System_Object__Equals(::System::Object* x, ::System::Object* y);
+
+  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode, addr 0x276d118, size 0xc, virtual true, abstract: false, final true
+  inline int32_t System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode(::System::Object* obj);
+
+  /// @brief Method .ctor, addr 0x276cc0c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::Object*>"
   constexpr ::System::Collections::Generic::IEqualityComparer_1<::System::Object*>* i___System__Collections__Generic__IEqualityComparer_1___System__Object__() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.Equals, addr 0x269e9c0, size 0xc, virtual true, abstract: false, final true
-  inline bool System_Collections_Generic_IEqualityComparer_System_Object__Equals(::System::Object* x, ::System::Object* y);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __JsonSerializerInternalBase__ReferenceEqualsEqualityComparer();
 
-  /// @brief Method System.Collections.Generic.IEqualityComparer<System.Object>.GetHashCode, addr 0x269e9cc, size 0xc, virtual true, abstract: false, final true
-  inline int32_t System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode(::System::Object* obj);
-
-  static inline ::Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x269e4c0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __JsonSerializerInternalBase__ReferenceEqualsEqualityComparer(__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __JsonSerializerInternalBase__ReferenceEqualsEqualityComparer(__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __JsonSerializerInternalBase__ReferenceEqualsEqualityComparer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -100,19 +98,16 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization:
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11848))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonSerializerInternalBase*
 class CORDL_TYPE JsonSerializerInternalBase : public ::System::Object {
 public:
   // Declarations
   using ReferenceEqualsEqualityComparer = ::Newtonsoft::Json::Serialization::__JsonSerializerInternalBase__ReferenceEqualsEqualityComparer;
 
-  /// @brief Field _currentErrorContext, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentErrorContext, put = __cordl_internal_set__currentErrorContext))::Newtonsoft::Json::Serialization::ErrorContext* _currentErrorContext;
+  __declspec(property(get = get_DefaultReferenceMappings))::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* DefaultReferenceMappings;
 
-  /// @brief Field _mappings, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__mappings, put = __cordl_internal_set__mappings))::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* _mappings;
+  /// @brief Field InternalSerializer, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_InternalSerializer, put = __cordl_internal_set_InternalSerializer))::Newtonsoft::Json::Serialization::JsonSerializerProxy* InternalSerializer;
 
   /// @brief Field Serializer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_Serializer, put = __cordl_internal_set_Serializer))::Newtonsoft::Json::JsonSerializer* Serializer;
@@ -120,59 +115,66 @@ public:
   /// @brief Field TraceWriter, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_TraceWriter, put = __cordl_internal_set_TraceWriter))::Newtonsoft::Json::Serialization::ITraceWriter* TraceWriter;
 
-  /// @brief Field InternalSerializer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_InternalSerializer, put = __cordl_internal_set_InternalSerializer))::Newtonsoft::Json::Serialization::JsonSerializerProxy* InternalSerializer;
+  /// @brief Field _currentErrorContext, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__currentErrorContext, put = __cordl_internal_set__currentErrorContext))::Newtonsoft::Json::Serialization::ErrorContext* _currentErrorContext;
 
-  __declspec(property(get = get_DefaultReferenceMappings))::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* DefaultReferenceMappings;
+  /// @brief Field _mappings, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__mappings, put = __cordl_internal_set__mappings))::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* _mappings;
 
-  constexpr ::Newtonsoft::Json::Serialization::ErrorContext*& __cordl_internal_get__currentErrorContext();
+  /// @brief Method ClearErrorContext, addr 0x276cd00, size 0x64, virtual false, abstract: false, final false
+  inline void ClearErrorContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ErrorContext*> const& __cordl_internal_get__currentErrorContext() const;
+  /// @brief Method GetErrorContext, addr 0x276cc14, size 0xec, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::ErrorContext* GetErrorContext(::System::Object* currentObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  constexpr void __cordl_internal_set__currentErrorContext(::Newtonsoft::Json::Serialization::ErrorContext* value);
+  /// @brief Method IsErrorHandled, addr 0x276cd64, size 0x3a8, virtual false, abstract: false, final false
+  inline bool IsErrorHandled(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Object* keyValue, ::Newtonsoft::Json::IJsonLineInfo* lineInfo,
+                             ::StringW path, ::System::Exception* ex);
 
-  constexpr ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>*& __cordl_internal_get__mappings();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>*> const& __cordl_internal_get__mappings() const;
-
-  constexpr void __cordl_internal_set__mappings(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* value);
-
-  constexpr ::Newtonsoft::Json::JsonSerializer*& __cordl_internal_get_Serializer();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonSerializer*> const& __cordl_internal_get_Serializer() const;
-
-  constexpr void __cordl_internal_set_Serializer(::Newtonsoft::Json::JsonSerializer* value);
-
-  constexpr ::Newtonsoft::Json::Serialization::ITraceWriter*& __cordl_internal_get_TraceWriter();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ITraceWriter*> const& __cordl_internal_get_TraceWriter() const;
-
-  constexpr void __cordl_internal_set_TraceWriter(::Newtonsoft::Json::Serialization::ITraceWriter* value);
+  static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase* New_ctor(::Newtonsoft::Json::JsonSerializer* serializer);
 
   constexpr ::Newtonsoft::Json::Serialization::JsonSerializerProxy*& __cordl_internal_get_InternalSerializer();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonSerializerProxy*> const& __cordl_internal_get_InternalSerializer() const;
 
+  constexpr ::Newtonsoft::Json::JsonSerializer*& __cordl_internal_get_Serializer();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonSerializer*> const& __cordl_internal_get_Serializer() const;
+
+  constexpr ::Newtonsoft::Json::Serialization::ITraceWriter*& __cordl_internal_get_TraceWriter();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ITraceWriter*> const& __cordl_internal_get_TraceWriter() const;
+
+  constexpr ::Newtonsoft::Json::Serialization::ErrorContext*& __cordl_internal_get__currentErrorContext();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ErrorContext*> const& __cordl_internal_get__currentErrorContext() const;
+
+  constexpr ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>*& __cordl_internal_get__mappings();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>*> const& __cordl_internal_get__mappings() const;
+
   constexpr void __cordl_internal_set_InternalSerializer(::Newtonsoft::Json::Serialization::JsonSerializerProxy* value);
 
-  static inline ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase* New_ctor(::Newtonsoft::Json::JsonSerializer* serializer);
+  constexpr void __cordl_internal_set_Serializer(::Newtonsoft::Json::JsonSerializer* value);
 
-  /// @brief Method .ctor, addr 0x269e438, size 0x88, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_TraceWriter(::Newtonsoft::Json::Serialization::ITraceWriter* value);
+
+  constexpr void __cordl_internal_set__currentErrorContext(::Newtonsoft::Json::Serialization::ErrorContext* value);
+
+  constexpr void __cordl_internal_set__mappings(::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* value);
+
+  /// @brief Method .ctor, addr 0x276cb84, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method get_DefaultReferenceMappings, addr 0x2691a88, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultReferenceMappings, addr 0x27601d4, size 0x110, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* get_DefaultReferenceMappings();
 
-  /// @brief Method GetErrorContext, addr 0x269e4c8, size 0xec, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::ErrorContext* GetErrorContext(::System::Object* currentObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonSerializerInternalBase();
 
-  /// @brief Method ClearErrorContext, addr 0x269e5b4, size 0x64, virtual false, abstract: false, final false
-  inline void ClearErrorContext();
-
-  /// @brief Method IsErrorHandled, addr 0x269e618, size 0x3a8, virtual false, abstract: false, final false
-  inline bool IsErrorHandled(::System::Object* currentObject, ::Newtonsoft::Json::Serialization::JsonContract* contract, ::System::Object* keyValue, ::Newtonsoft::Json::IJsonLineInfo* lineInfo,
-                             ::StringW path, ::System::Exception* ex);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonSerializerInternalBase", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonSerializerInternalBase(JsonSerializerInternalBase&&) = delete;
@@ -181,12 +183,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonSerializerInternalBase(JsonSerializerInternalBase const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonSerializerInternalBase();
-
-public:
   /// @brief Field _currentErrorContext, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ErrorContext* ____currentErrorContext;
 

@@ -16,43 +16,41 @@ MARK_VAL_T(::UnityEngine::JointMotor);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13948))
 // CS Name: ::UnityEngine::JointMotor
 struct CORDL_TYPE JointMotor {
 public:
   // Declarations
-  __declspec(property(get = get_targetVelocity, put = set_targetVelocity)) float_t targetVelocity;
-
   __declspec(property(get = get_force, put = set_force)) float_t force;
 
   __declspec(property(get = get_freeSpin, put = set_freeSpin)) bool freeSpin;
 
-  /// @brief Method get_targetVelocity, addr 0x2d3886c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_targetVelocity();
+  __declspec(property(get = get_targetVelocity, put = set_targetVelocity)) float_t targetVelocity;
 
-  /// @brief Method set_targetVelocity, addr 0x2d38874, size 0x8, virtual false, abstract: false, final false
-  inline void set_targetVelocity(float_t value);
-
-  /// @brief Method get_force, addr 0x2d3887c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_force, addr 0x2e24fa4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_force();
 
-  /// @brief Method set_force, addr 0x2d38884, size 0x8, virtual false, abstract: false, final false
-  inline void set_force(float_t value);
-
-  /// @brief Method get_freeSpin, addr 0x2d3888c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_freeSpin, addr 0x2e24fb4, size 0x10, virtual false, abstract: false, final false
   inline bool get_freeSpin();
 
-  /// @brief Method set_freeSpin, addr 0x2d3889c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_targetVelocity, addr 0x2e24f94, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_targetVelocity();
+
+  /// @brief Method set_force, addr 0x2e24fac, size 0x8, virtual false, abstract: false, final false
+  inline void set_force(float_t value);
+
+  /// @brief Method set_freeSpin, addr 0x2e24fc4, size 0xc, virtual false, abstract: false, final false
   inline void set_freeSpin(bool value);
 
-  // Ctor Parameters [CppParam { name: "m_TargetVelocity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Force", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_FreeSpin", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr JointMotor(float_t m_TargetVelocity, float_t m_Force, int32_t m_FreeSpin) noexcept;
+  /// @brief Method set_targetVelocity, addr 0x2e24f9c, size 0x8, virtual false, abstract: false, final false
+  inline void set_targetVelocity(float_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr JointMotor();
+
+  // Ctor Parameters [CppParam { name: "m_TargetVelocity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Force", ty: "float_t", modifiers: "", def_value: None }, CppParam {
+  // name: "m_FreeSpin", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr JointMotor(float_t m_TargetVelocity, float_t m_Force, int32_t m_FreeSpin) noexcept;
 
   /// @brief Field m_TargetVelocity, offset: 0x0, size: 0x4, def value: None
   float_t m_TargetVelocity;

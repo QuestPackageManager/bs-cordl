@@ -148,23 +148,25 @@ MARK_VAL_T(::GlobalNamespace::__OculusPlatformAdditionalContentModel___OpenLevel
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 884 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 398 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10565)) CS Name: ::OculusPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__5
+// CS Name: ::OculusPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__5
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__5 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a225c, size 0x2f0, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a254c, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x125f28c, size 0x2f0, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x125f57c, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__5();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -178,10 +180,6 @@ public:
       ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackProductData* _originalPack_5__2,
       ::GlobalNamespace::__OculusLevelProductCollectionModel__LevelPackRedirectionData* _levelPackRedirectionData_5__3,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__5();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -236,23 +234,25 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 884 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10566)) CS Name: ::OculusPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__7
+// CS Name: ::OculusPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__7
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a25a4, size 0x210, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a27b4, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x125f5d4, size 0x210, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x125f7e4, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -263,10 +263,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW levelId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -311,23 +307,25 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 884 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10567)) CS Name: ::OculusPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__8
+// CS Name: ::OculusPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__8
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a280c, size 0x210, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a2a1c, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x125f83c, size 0x210, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x125fa4c, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -338,10 +336,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW packId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -386,24 +380,25 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(10559)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 906 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 77 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10568)) CS Name:
-// ::OculusPlatformAdditionalContentModel::<IsDataValidAsync>d__9
+// CS Name: ::OculusPlatformAdditionalContentModel::<IsDataValidAsync>d__9
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___IsDataValidAsync_d__9 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a2a74, size 0x3b8, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a2e2c, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x125faa4, size 0x3b8, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x125fe5c, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAdditionalContentModel___IsDataValidAsync_d__9();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -414,10 +409,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this,
       ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult> __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAdditionalContentModel___IsDataValidAsync_d__9();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -462,24 +453,25 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13424)), TypeDefinitionIndex(TypeDefinitionIndex(16446)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3390), inst: 5031 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 896 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13162), inst: 1163 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10569)) CS Name: ::OculusPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__10
+// CS Name: ::OculusPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__10
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a2e84, size 0x34c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a31d0, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x125feb4, size 0x34c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x1260200, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__10();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -490,10 +482,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW levelId, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__10();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -538,25 +526,25 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13162)), TypeDefinitionIndex(TypeDefinitionIndex(13424)), TypeDefinitionIndex(TypeDefinitionIndex(16446)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3390), inst: 398 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5031 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 896 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13162), inst: 1163 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10570)) CS Name:
-// ::OculusPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__11
+// CS Name: ::OculusPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__11
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__11 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a3228, size 0x710, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a3938, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x1260258, size 0x710, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x1260968, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__11();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -569,10 +557,6 @@ public:
       ::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this, ::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*> __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__11();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -622,8 +606,6 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10571))
 // CS Name: ::OculusPlatformAdditionalContentModel::<>c__DisplayClass12_0*
 class CORDL_TYPE __OculusPlatformAdditionalContentModel____c__DisplayClass12_0 : public ::System::Object {
 public:
@@ -632,6 +614,11 @@ public:
   __declspec(property(get = __cordl_internal_get_launchCheckoutFlowTaskSource, put = __cordl_internal_set_launchCheckoutFlowTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<
       ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* launchCheckoutFlowTaskSource;
 
+  static inline ::GlobalNamespace::__OculusPlatformAdditionalContentModel____c__DisplayClass12_0* New_ctor();
+
+  /// @brief Method <LaunchCheckoutFlow>b__0, addr 0x12a3990, size 0x58, virtual false, abstract: false, final false
+  inline void _LaunchCheckoutFlow_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>* msg);
+
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>*& __cordl_internal_get_launchCheckoutFlowTaskSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>*> const&
@@ -639,14 +626,15 @@ public:
 
   constexpr void __cordl_internal_set_launchCheckoutFlowTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* value);
 
-  static inline ::GlobalNamespace::__OculusPlatformAdditionalContentModel____c__DisplayClass12_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x125ec54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a1c24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <LaunchCheckoutFlow>b__0, addr 0x12609c0, size 0x58, virtual false, abstract: false, final false
-  inline void _LaunchCheckoutFlow_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>* msg);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAdditionalContentModel____c__DisplayClass12_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAdditionalContentModel____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OculusPlatformAdditionalContentModel____c__DisplayClass12_0(__OculusPlatformAdditionalContentModel____c__DisplayClass12_0&&) = delete;
@@ -655,12 +643,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OculusPlatformAdditionalContentModel____c__DisplayClass12_0(__OculusPlatformAdditionalContentModel____c__DisplayClass12_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAdditionalContentModel____c__DisplayClass12_0();
-
-public:
   /// @brief Field launchCheckoutFlowTaskSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* ___launchCheckoutFlowTaskSource;
 
@@ -676,12 +658,16 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10572))
 // CS Name: ::OculusPlatformAdditionalContentModel::<>c__DisplayClass14_0*
 class CORDL_TYPE __OculusPlatformAdditionalContentModel____c__DisplayClass14_0 : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field <>4__this, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this;
+
+  /// @brief Field <>9__1, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>* __9__1;
+
   /// @brief Field cancellationToken, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
 
@@ -689,48 +675,48 @@ public:
   __declspec(property(get = __cordl_internal_get_getViewerPurchasesTaskSource, put = __cordl_internal_set_getViewerPurchasesTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<
       ::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>* getViewerPurchasesTaskSource;
 
-  /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this;
+  static inline ::GlobalNamespace::__OculusPlatformAdditionalContentModel____c__DisplayClass14_0* New_ctor();
 
-  /// @brief Field <>9__1, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>* __9__1;
+  /// @brief Method <CheckForNewEntitlementsAsync>b__0, addr 0x12a39e8, size 0x570, virtual false, abstract: false, final false
+  inline void _CheckForNewEntitlementsAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
 
-  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
+  /// @brief Method <CheckForNewEntitlementsAsync>b__1, addr 0x12a3f58, size 0x38c, virtual false, abstract: false, final false
+  inline void _CheckForNewEntitlementsAsync_b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>* getPurchasesMsg);
+
+  constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel*& __cordl_internal_get___4__this();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformAdditionalContentModel*> const& __cordl_internal_get___4__this() const;
+
+  constexpr ::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>*& __cordl_internal_get___9__1();
+
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>*> const& __cordl_internal_get___9__1() const;
 
   constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
 
-  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>*& __cordl_internal_get_getViewerPurchasesTaskSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>*> const&
   __cordl_internal_get_getViewerPurchasesTaskSource() const;
 
-  constexpr void __cordl_internal_set_getViewerPurchasesTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>* value);
-
-  constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel*& __cordl_internal_get___4__this();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformAdditionalContentModel*> const& __cordl_internal_get___4__this() const;
-
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusPlatformAdditionalContentModel* value);
-
-  constexpr ::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>*& __cordl_internal_get___9__1();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>*> const& __cordl_internal_get___9__1() const;
 
   constexpr void __cordl_internal_set___9__1(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>* value);
 
-  static inline ::GlobalNamespace::__OculusPlatformAdditionalContentModel____c__DisplayClass14_0* New_ctor();
+  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
 
-  /// @brief Method .ctor, addr 0x125ee10, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_getViewerPurchasesTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>* value);
+
+  /// @brief Method .ctor, addr 0x12a1de0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CheckForNewEntitlementsAsync>b__0, addr 0x1260a18, size 0x570, virtual false, abstract: false, final false
-  inline void _CheckForNewEntitlementsAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OculusPlatformAdditionalContentModel____c__DisplayClass14_0();
 
-  /// @brief Method <CheckForNewEntitlementsAsync>b__1, addr 0x1260f88, size 0x38c, virtual false, abstract: false, final false
-  inline void _CheckForNewEntitlementsAsync_b__1(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PurchaseList*>* getPurchasesMsg);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OculusPlatformAdditionalContentModel____c__DisplayClass14_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OculusPlatformAdditionalContentModel____c__DisplayClass14_0(__OculusPlatformAdditionalContentModel____c__DisplayClass14_0&&) = delete;
@@ -739,12 +725,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OculusPlatformAdditionalContentModel____c__DisplayClass14_0(__OculusPlatformAdditionalContentModel____c__DisplayClass14_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusPlatformAdditionalContentModel____c__DisplayClass14_0();
-
-public:
   /// @brief Field cancellationToken, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::CancellationToken ___cancellationToken;
 
@@ -775,110 +755,114 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10560))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10573))
 // CS Name: ::OculusPlatformAdditionalContentModel*
 class CORDL_TYPE OculusPlatformAdditionalContentModel : public ::GlobalNamespace::AdditionalContentModel {
 public:
   // Declarations
-  using __c__DisplayClass14_0 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel____c__DisplayClass14_0;
+  using _GetLevelEntitlementStatusInternalAsync_d__7 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7;
 
-  using __c__DisplayClass12_0 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel____c__DisplayClass12_0;
+  using _GetPackEntitlementStatusInternalAsync_d__8 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8;
+
+  using _GetRedirectedLevelPackProductData_d__5 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__5;
+
+  using _IsDataValidAsync_d__9 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___IsDataValidAsync_d__9;
 
   using _OpenLevelPackProductStoreAsync_d__11 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__11;
 
   using _OpenLevelProductStoreAsync_d__10 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__10;
 
-  using _IsDataValidAsync_d__9 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___IsDataValidAsync_d__9;
+  using __c__DisplayClass12_0 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel____c__DisplayClass12_0;
 
-  using _GetPackEntitlementStatusInternalAsync_d__8 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8;
+  using __c__DisplayClass14_0 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel____c__DisplayClass14_0;
 
-  using _GetLevelEntitlementStatusInternalAsync_d__7 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7;
+  /// @brief Field _entitlementsSKU, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__entitlementsSKU, put = __cordl_internal_set__entitlementsSKU))::System::Collections::Generic::HashSet_1<::StringW>* _entitlementsSKU;
 
-  using _GetRedirectedLevelPackProductData_d__5 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__5;
+  /// @brief Field _isDataValid, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get__isDataValid, put = __cordl_internal_set__isDataValid)) bool _isDataValid;
 
   /// @brief Field _oculusLevelProductCollectionModel, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__oculusLevelProductCollectionModel,
                       put = __cordl_internal_set__oculusLevelProductCollectionModel))::GlobalNamespace::OculusLevelProductCollectionModel* _oculusLevelProductCollectionModel;
 
-  /// @brief Field _entitlementsSKU, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__entitlementsSKU, put = __cordl_internal_set__entitlementsSKU))::System::Collections::Generic::HashSet_1<::StringW>* _entitlementsSKU;
-
   /// @brief Field _semaphoreSlim, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
 
-  /// @brief Field _isDataValid, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__isDataValid, put = __cordl_internal_set__isDataValid)) bool _isDataValid;
+  /// @brief Method CheckForNewEntitlementsAsync, addr 0x12a1c94, size 0x14c, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>*
+  CheckForNewEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::GlobalNamespace::OculusLevelProductCollectionModel*& __cordl_internal_get__oculusLevelProductCollectionModel();
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x12a15cc, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusLevelProductCollectionModel*> const& __cordl_internal_get__oculusLevelProductCollectionModel() const;
+  /// @brief Method GetLevelProductData, addr 0x12a14a0, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OculusLevelProductCollectionModel__LevelProductData* GetLevelProductData(::StringW GetLevelProductData);
 
-  constexpr void __cordl_internal_set__oculusLevelProductCollectionModel(::GlobalNamespace::OculusLevelProductCollectionModel* value);
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x12a16d0, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method GetRedirectedLevelPackProductData, addr 0x12a14bc, size 0x108, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* GetRedirectedLevelPackProductData(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method HasLevelEntitlement, addr 0x12a1de8, size 0x74, virtual false, abstract: false, final false
+  inline bool HasLevelEntitlement(::StringW levelId);
+
+  /// @brief Method HasLevelPackEntitlement, addr 0x12a1e5c, size 0x350, virtual false, abstract: false, final false
+  inline bool HasLevelPackEntitlement(::StringW levelPackId);
+
+  /// @brief Method InvalidateDataInternal, addr 0x12a15c4, size 0x8, virtual true, abstract: false, final false
+  inline void InvalidateDataInternal();
+
+  /// @brief Method IsDataValidAsync, addr 0x12a17d4, size 0x100, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<bool>* IsDataValidAsync(::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x12a1c2c, size 0x68, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
+
+  /// @brief Method LaunchCheckoutFlow, addr 0x12a1ae0, size 0x144, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* LaunchCheckoutFlow(::StringW sku);
+
+  static inline ::GlobalNamespace::OculusPlatformAdditionalContentModel* New_ctor();
+
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x12a19d8, size 0x108, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x12a18d4, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__entitlementsSKU();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__entitlementsSKU() const;
 
-  constexpr void __cordl_internal_set__entitlementsSKU(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr bool const& __cordl_internal_get__isDataValid() const;
+
+  constexpr bool& __cordl_internal_get__isDataValid();
+
+  constexpr ::GlobalNamespace::OculusLevelProductCollectionModel*& __cordl_internal_get__oculusLevelProductCollectionModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusLevelProductCollectionModel*> const& __cordl_internal_get__oculusLevelProductCollectionModel() const;
 
   constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__semaphoreSlim();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__semaphoreSlim() const;
 
-  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
-
-  constexpr bool& __cordl_internal_get__isDataValid();
-
-  constexpr bool const& __cordl_internal_get__isDataValid() const;
+  constexpr void __cordl_internal_set__entitlementsSKU(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
   constexpr void __cordl_internal_set__isDataValid(bool value);
 
-  /// @brief Method GetLevelProductData, addr 0x125e4d0, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OculusLevelProductCollectionModel__LevelProductData* GetLevelProductData(::StringW GetLevelProductData);
+  constexpr void __cordl_internal_set__oculusLevelProductCollectionModel(::GlobalNamespace::OculusLevelProductCollectionModel* value);
 
-  /// @brief Method GetRedirectedLevelPackProductData, addr 0x125e4ec, size 0x108, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* GetRedirectedLevelPackProductData(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
+  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
 
-  /// @brief Method InvalidateDataInternal, addr 0x125e5f4, size 0x8, virtual true, abstract: false, final false
-  inline void InvalidateDataInternal();
-
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x125e5fc, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x125e700, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method IsDataValidAsync, addr 0x125e804, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* IsDataValidAsync(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x125e904, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x125ea08, size 0x108, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method LaunchCheckoutFlow, addr 0x125eb10, size 0x144, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* LaunchCheckoutFlow(::StringW sku);
-
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x125ec5c, size 0x68, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
-
-  /// @brief Method CheckForNewEntitlementsAsync, addr 0x125ecc4, size 0x14c, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>*
-  CheckForNewEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method HasLevelEntitlement, addr 0x125ee18, size 0x74, virtual false, abstract: false, final false
-  inline bool HasLevelEntitlement(::StringW levelId);
-
-  /// @brief Method HasLevelPackEntitlement, addr 0x125ee8c, size 0x350, virtual false, abstract: false, final false
-  inline bool HasLevelPackEntitlement(::StringW levelPackId);
-
-  static inline ::GlobalNamespace::OculusPlatformAdditionalContentModel* New_ctor();
-
-  /// @brief Method .ctor, addr 0x125f1dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a21ac, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OculusPlatformAdditionalContentModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OculusPlatformAdditionalContentModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusPlatformAdditionalContentModel(OculusPlatformAdditionalContentModel&&) = delete;
@@ -887,12 +871,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OculusPlatformAdditionalContentModel(OculusPlatformAdditionalContentModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusPlatformAdditionalContentModel();
-
-public:
   /// @brief Field _oculusLevelProductCollectionModel, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::OculusLevelProductCollectionModel* ____oculusLevelProductCollectionModel;
 

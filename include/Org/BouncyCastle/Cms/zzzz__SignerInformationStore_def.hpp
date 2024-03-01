@@ -30,54 +30,58 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerInformationStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(692))
 // CS Name: ::Org.BouncyCastle.Cms::SignerInformationStore*
 class CORDL_TYPE SignerInformationStore : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Count)) int32_t Count;
+
   /// @brief Field all, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_all, put = __cordl_internal_set_all))::System::Collections::IList* all;
 
   /// @brief Field table, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table))::System::Collections::IDictionary* table;
 
-  __declspec(property(get = get_Count)) int32_t Count;
+  /// @brief Method GetFirstSigner, addr 0x127e7f4, size 0x190, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::SignerInformation* GetFirstSigner(::Org::BouncyCastle::Cms::SignerID* selector);
+
+  /// @brief Method GetSigners, addr 0x127ea28, size 0x5c, virtual false, abstract: false, final false
+  inline ::System::Collections::ICollection* GetSigners();
+
+  /// @brief Method GetSigners, addr 0x127ea84, size 0x130, virtual false, abstract: false, final false
+  inline ::System::Collections::ICollection* GetSigners(::Org::BouncyCastle::Cms::SignerID* selector);
+
+  static inline ::Org::BouncyCastle::Cms::SignerInformationStore* New_ctor(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
+
+  static inline ::Org::BouncyCastle::Cms::SignerInformationStore* New_ctor(::System::Collections::ICollection* signerInfos);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_all();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_all() const;
 
-  constexpr void __cordl_internal_set_all(::System::Collections::IList* value);
-
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_table();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_table() const;
 
+  constexpr void __cordl_internal_set_all(::System::Collections::IList* value);
+
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  static inline ::Org::BouncyCastle::Cms::SignerInformationStore* New_ctor(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
-
-  /// @brief Method .ctor, addr 0x123a0f0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127e0c0, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 
-  static inline ::Org::BouncyCastle::Cms::SignerInformationStore* New_ctor(::System::Collections::ICollection* signerInfos);
-
-  /// @brief Method .ctor, addr 0x123a27c, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127e24c, size 0x5a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* signerInfos);
 
-  /// @brief Method GetFirstSigner, addr 0x123a824, size 0x190, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::SignerInformation* GetFirstSigner(::Org::BouncyCastle::Cms::SignerID* selector);
-
-  /// @brief Method get_Count, addr 0x123a9b4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x127e984, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method GetSigners, addr 0x123aa58, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Collections::ICollection* GetSigners();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignerInformationStore();
 
-  /// @brief Method GetSigners, addr 0x123aab4, size 0x130, virtual false, abstract: false, final false
-  inline ::System::Collections::ICollection* GetSigners(::Org::BouncyCastle::Cms::SignerID* selector);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignerInformationStore", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignerInformationStore(SignerInformationStore&&) = delete;
@@ -86,12 +90,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignerInformationStore(SignerInformationStore const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignerInformationStore();
-
-public:
   /// @brief Field all, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___all;
 

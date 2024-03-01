@@ -21,45 +21,49 @@ MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationAsset);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15670))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15677))
 // CS Name: ::BGLib.Polyglot::LocalizationAsset*
 class CORDL_TYPE LocalizationAsset : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field textAsset, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_textAsset, put = __cordl_internal_set_textAsset))::UnityW<::UnityEngine::TextAsset> textAsset;
+  __declspec(property(get = get_Format))::BGLib::Polyglot::GoogleDriveDownloadFormat Format;
+
+  __declspec(property(get = get_TextAsset))::UnityW<::UnityEngine::TextAsset> TextAsset;
 
   /// @brief Field format, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format))::BGLib::Polyglot::GoogleDriveDownloadFormat format;
 
-  __declspec(property(get = get_TextAsset))::UnityW<::UnityEngine::TextAsset> TextAsset;
-
-  __declspec(property(get = get_Format))::BGLib::Polyglot::GoogleDriveDownloadFormat Format;
-
-  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_textAsset();
-
-  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_textAsset() const;
-
-  constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
-
-  constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat& __cordl_internal_get_format();
-
-  constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat const& __cordl_internal_get_format() const;
-
-  constexpr void __cordl_internal_set_format(::BGLib::Polyglot::GoogleDriveDownloadFormat value);
-
-  /// @brief Method get_TextAsset, addr 0xe4c56c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
-
-  /// @brief Method get_Format, addr 0xe4c574, size 0x8, virtual false, abstract: false, final false
-  inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
+  /// @brief Field textAsset, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_textAsset, put = __cordl_internal_set_textAsset))::UnityW<::UnityEngine::TextAsset> textAsset;
 
   static inline ::BGLib::Polyglot::LocalizationAsset* New_ctor(::UnityEngine::TextAsset* textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method .ctor, addr 0xe4c57c, size 0x30, virtual false, abstract: false, final false
+  constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat const& __cordl_internal_get_format() const;
+
+  constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat& __cordl_internal_get_format();
+
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_textAsset() const;
+
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_textAsset();
+
+  constexpr void __cordl_internal_set_format(::BGLib::Polyglot::GoogleDriveDownloadFormat value);
+
+  constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
+
+  /// @brief Method .ctor, addr 0xe9254c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextAsset* textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
+  /// @brief Method get_Format, addr 0xe92544, size 0x8, virtual false, abstract: false, final false
+  inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
+
+  /// @brief Method get_TextAsset, addr 0xe9253c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalizationAsset();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsset", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizationAsset(LocalizationAsset&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizationAsset(LocalizationAsset const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalizationAsset();
-
-public:
   /// @brief Field textAsset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___textAsset;
 

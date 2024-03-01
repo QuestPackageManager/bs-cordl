@@ -15,19 +15,17 @@ MARK_VAL_T(::OVR::OpenVR::VRTextureBounds_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8603))
 // CS Name: ::OVR.OpenVR::VRTextureBounds_t
 struct CORDL_TYPE VRTextureBounds_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "uMin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vMin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "uMax", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "vMax", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr VRTextureBounds_t(float_t uMin, float_t vMin, float_t uMax, float_t vMax) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VRTextureBounds_t();
+
+  // Ctor Parameters [CppParam { name: "uMin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vMin", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "uMax", ty:
+  // "float_t", modifiers: "", def_value: None }, CppParam { name: "vMax", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr VRTextureBounds_t(float_t uMin, float_t vMin, float_t uMax, float_t vMax) noexcept;
 
   /// @brief Field uMin, offset: 0x0, size: 0x4, def value: None
   float_t uMin;

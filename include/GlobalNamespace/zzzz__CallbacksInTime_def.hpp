@@ -40,15 +40,17 @@ MARK_REF_PTR_T(::GlobalNamespace::CallbacksInTime);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4064))
 // CS Name: ::CallbacksInTime*
 class CORDL_TYPE CallbacksInTime : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field lastProcessedNode, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_lastProcessedNode,
-                      put = __cordl_internal_set_lastProcessedNode))::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* lastProcessedNode;
+  /// @brief Field _callbacks, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__callbacks, put = __cordl_internal_set__callbacks))::System::Collections::Generic::Dictionary_2<
+      ::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* _callbacks;
+
+  /// @brief Field _callbacksWithSubtypeIdentifier, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__callbacksWithSubtypeIdentifier, put = __cordl_internal_set__callbacksWithSubtypeIdentifier))::System::Collections::Generic::Dictionary_2<
+      ::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* _callbacksWithSubtypeIdentifier;
 
   /// @brief Field aheadTime, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_aheadTime, put = __cordl_internal_set_aheadTime)) float_t aheadTime;
@@ -57,33 +59,31 @@ public:
   __declspec(property(get = __cordl_internal_get_beatmapEventDataForCallbacksAfterNodeRemoval,
                       put = __cordl_internal_set_beatmapEventDataForCallbacksAfterNodeRemoval))::GlobalNamespace::BeatmapEventData* beatmapEventDataForCallbacksAfterNodeRemoval;
 
-  /// @brief Field _callbacksWithSubtypeIdentifier, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__callbacksWithSubtypeIdentifier, put = __cordl_internal_set__callbacksWithSubtypeIdentifier))::System::Collections::Generic::Dictionary_2<
-      ::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* _callbacksWithSubtypeIdentifier;
-
-  /// @brief Field _callbacks, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__callbacks, put = __cordl_internal_set__callbacks))::System::Collections::Generic::Dictionary_2<
-      ::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* _callbacks;
-
   __declspec(property(get = get_isEmpty)) bool isEmpty;
 
-  constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*& __cordl_internal_get_lastProcessedNode();
+  /// @brief Field lastProcessedNode, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_lastProcessedNode,
+                      put = __cordl_internal_set_lastProcessedNode))::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* lastProcessedNode;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*> const& __cordl_internal_get_lastProcessedNode() const;
+  /// @brief Method AddCallback, addr 0x238ec8c, size 0x308, virtual false, abstract: false, final false
+  inline void AddCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  constexpr void __cordl_internal_set_lastProcessedNode(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value);
+  /// @brief Method CallCallbacks, addr 0x238db8c, size 0xd4, virtual false, abstract: false, final false
+  inline void CallCallbacks(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-  constexpr float_t& __cordl_internal_get_aheadTime();
+  /// @brief Method CallCallbacks, addr 0x238ef94, size 0x2cc, virtual false, abstract: false, final false
+  inline void CallCallbacks(::System::Type* beatmapEventDataType, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
-  constexpr float_t const& __cordl_internal_get_aheadTime() const;
+  static inline ::GlobalNamespace::CallbacksInTime* New_ctor(float_t aheadTime);
 
-  constexpr void __cordl_internal_set_aheadTime(float_t value);
+  /// @brief Method RemoveCallback, addr 0x238d7bc, size 0x1e4, virtual false, abstract: false, final false
+  inline void RemoveCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
 
-  constexpr ::GlobalNamespace::BeatmapEventData*& __cordl_internal_get_beatmapEventDataForCallbacksAfterNodeRemoval();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*& __cordl_internal_get__callbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventData*> const& __cordl_internal_get_beatmapEventDataForCallbacksAfterNodeRemoval() const;
-
-  constexpr void __cordl_internal_set_beatmapEventDataForCallbacksAfterNodeRemoval(::GlobalNamespace::BeatmapEventData* value);
+  constexpr ::cordl_internals::to_const_pointer<
+      ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*> const&
+  __cordl_internal_get__callbacks() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*&
   __cordl_internal_get__callbacksWithSubtypeIdentifier();
@@ -92,38 +92,42 @@ public:
       ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*> const&
   __cordl_internal_get__callbacksWithSubtypeIdentifier() const;
 
-  constexpr void __cordl_internal_set__callbacksWithSubtypeIdentifier(
-      ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* value);
+  constexpr float_t const& __cordl_internal_get_aheadTime() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*& __cordl_internal_get__callbacks();
+  constexpr float_t& __cordl_internal_get_aheadTime();
 
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*> const&
-  __cordl_internal_get__callbacks() const;
+  constexpr ::GlobalNamespace::BeatmapEventData*& __cordl_internal_get_beatmapEventDataForCallbacksAfterNodeRemoval();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventData*> const& __cordl_internal_get_beatmapEventDataForCallbacksAfterNodeRemoval() const;
+
+  constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*& __cordl_internal_get_lastProcessedNode();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*> const& __cordl_internal_get_lastProcessedNode() const;
 
   constexpr void
   __cordl_internal_set__callbacks(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* value);
 
-  /// @brief Method get_isEmpty, addr 0x22c0338, size 0x8c, virtual false, abstract: false, final false
-  inline bool get_isEmpty();
+  constexpr void __cordl_internal_set__callbacksWithSubtypeIdentifier(
+      ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* value);
 
-  static inline ::GlobalNamespace::CallbacksInTime* New_ctor(float_t aheadTime);
+  constexpr void __cordl_internal_set_aheadTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x22c1550, size 0xd4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_beatmapEventDataForCallbacksAfterNodeRemoval(::GlobalNamespace::BeatmapEventData* value);
+
+  constexpr void __cordl_internal_set_lastProcessedNode(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value);
+
+  /// @brief Method .ctor, addr 0x238ebb8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime);
 
-  /// @brief Method AddCallback, addr 0x22c1624, size 0x308, virtual false, abstract: false, final false
-  inline void AddCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
+  /// @brief Method get_isEmpty, addr 0x238d9a0, size 0x8c, virtual false, abstract: false, final false
+  inline bool get_isEmpty();
 
-  /// @brief Method RemoveCallback, addr 0x22c0154, size 0x1e4, virtual false, abstract: false, final false
-  inline void RemoveCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* callbackWrapper);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CallbacksInTime();
 
-  /// @brief Method CallCallbacks, addr 0x22c0524, size 0xd4, virtual false, abstract: false, final false
-  inline void CallCallbacks(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
-
-  /// @brief Method CallCallbacks, addr 0x22c192c, size 0x2cc, virtual false, abstract: false, final false
-  inline void CallCallbacks(::System::Type* beatmapEventDataType, ::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CallbacksInTime", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallbacksInTime(CallbacksInTime&&) = delete;
@@ -132,12 +136,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CallbacksInTime(CallbacksInTime const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CallbacksInTime();
-
-public:
   /// @brief Field lastProcessedNode, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* ___lastProcessedNode;
 

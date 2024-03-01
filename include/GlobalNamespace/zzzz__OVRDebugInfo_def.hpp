@@ -20,89 +20,54 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRDebugInfo);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 205, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8052))
 // CS Name: ::OVRDebugInfo*
 class CORDL_TYPE OVRDebugInfo : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field accum, offset 0xb4, size 0x4
+  __declspec(property(get = __cordl_internal_get_accum, put = __cordl_internal_set_accum)) float_t accum;
+
   /// @brief Field debugUIManager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_debugUIManager, put = __cordl_internal_set_debugUIManager))::UnityW<::UnityEngine::GameObject> debugUIManager;
 
   /// @brief Field debugUIObject, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_debugUIObject, put = __cordl_internal_set_debugUIObject))::UnityW<::UnityEngine::GameObject> debugUIObject;
 
-  /// @brief Field riftPresent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_riftPresent, put = __cordl_internal_set_riftPresent))::UnityW<::UnityEngine::GameObject> riftPresent;
-
-  /// @brief Field fps, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_fps, put = __cordl_internal_set_fps))::UnityW<::UnityEngine::GameObject> fps;
-
-  /// @brief Field ipd, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_ipd, put = __cordl_internal_set_ipd))::UnityW<::UnityEngine::GameObject> ipd;
+  /// @brief Field depth, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_depth, put = __cordl_internal_set_depth))::UnityW<::UnityEngine::GameObject> depth;
 
   /// @brief Field fov, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_fov, put = __cordl_internal_set_fov))::UnityW<::UnityEngine::GameObject> fov;
 
-  /// @brief Field height, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height))::UnityW<::UnityEngine::GameObject> height;
-
-  /// @brief Field depth, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_depth, put = __cordl_internal_set_depth))::UnityW<::UnityEngine::GameObject> depth;
-
-  /// @brief Field resolutionEyeTexture, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_resolutionEyeTexture, put = __cordl_internal_set_resolutionEyeTexture))::UnityW<::UnityEngine::GameObject> resolutionEyeTexture;
-
-  /// @brief Field latencies, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_latencies, put = __cordl_internal_set_latencies))::UnityW<::UnityEngine::GameObject> latencies;
-
-  /// @brief Field texts, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_texts, put = __cordl_internal_set_texts))::UnityW<::UnityEngine::GameObject> texts;
-
-  /// @brief Field strRiftPresent, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_strRiftPresent, put = __cordl_internal_set_strRiftPresent))::StringW strRiftPresent;
-
-  /// @brief Field strFPS, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_strFPS, put = __cordl_internal_set_strFPS))::StringW strFPS;
-
-  /// @brief Field strIPD, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_strIPD, put = __cordl_internal_set_strIPD))::StringW strIPD;
-
-  /// @brief Field strFOV, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_strFOV, put = __cordl_internal_set_strFOV))::StringW strFOV;
-
-  /// @brief Field strHeight, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_strHeight, put = __cordl_internal_set_strHeight))::StringW strHeight;
-
-  /// @brief Field strDepth, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_strDepth, put = __cordl_internal_set_strDepth))::StringW strDepth;
-
-  /// @brief Field strResolutionEyeTexture, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_strResolutionEyeTexture, put = __cordl_internal_set_strResolutionEyeTexture))::StringW strResolutionEyeTexture;
-
-  /// @brief Field strLatencies, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_strLatencies, put = __cordl_internal_set_strLatencies))::StringW strLatencies;
-
-  /// @brief Field updateInterval, offset 0xb0, size 0x4
-  __declspec(property(get = __cordl_internal_get_updateInterval, put = __cordl_internal_set_updateInterval)) float_t updateInterval;
-
-  /// @brief Field accum, offset 0xb4, size 0x4
-  __declspec(property(get = __cordl_internal_get_accum, put = __cordl_internal_set_accum)) float_t accum;
+  /// @brief Field fps, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_fps, put = __cordl_internal_set_fps))::UnityW<::UnityEngine::GameObject> fps;
 
   /// @brief Field frames, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_frames, put = __cordl_internal_set_frames)) int32_t frames;
 
-  /// @brief Field timeLeft, offset 0xbc, size 0x4
-  __declspec(property(get = __cordl_internal_get_timeLeft, put = __cordl_internal_set_timeLeft)) float_t timeLeft;
+  /// @brief Field height, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height))::UnityW<::UnityEngine::GameObject> height;
 
   /// @brief Field initUIComponent, offset 0xc0, size 0x1
   __declspec(property(get = __cordl_internal_get_initUIComponent, put = __cordl_internal_set_initUIComponent)) bool initUIComponent;
 
+  /// @brief Field ipd, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_ipd, put = __cordl_internal_set_ipd))::UnityW<::UnityEngine::GameObject> ipd;
+
   /// @brief Field isInited, offset 0xc1, size 0x1
   __declspec(property(get = __cordl_internal_get_isInited, put = __cordl_internal_set_isInited)) bool isInited;
 
+  /// @brief Field latencies, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_latencies, put = __cordl_internal_set_latencies))::UnityW<::UnityEngine::GameObject> latencies;
+
   /// @brief Field offsetY, offset 0xc4, size 0x4
   __declspec(property(get = __cordl_internal_get_offsetY, put = __cordl_internal_set_offsetY)) float_t offsetY;
+
+  /// @brief Field resolutionEyeTexture, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_resolutionEyeTexture, put = __cordl_internal_set_resolutionEyeTexture))::UnityW<::UnityEngine::GameObject> resolutionEyeTexture;
+
+  /// @brief Field riftPresent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_riftPresent, put = __cordl_internal_set_riftPresent))::UnityW<::UnityEngine::GameObject> riftPresent;
 
   /// @brief Field riftPresentTimeout, offset 0xc8, size 0x4
   __declspec(property(get = __cordl_internal_get_riftPresentTimeout, put = __cordl_internal_set_riftPresentTimeout)) float_t riftPresentTimeout;
@@ -110,230 +75,269 @@ public:
   /// @brief Field showVRVars, offset 0xcc, size 0x1
   __declspec(property(get = __cordl_internal_get_showVRVars, put = __cordl_internal_set_showVRVars)) bool showVRVars;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_debugUIManager();
+  /// @brief Field strDepth, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_strDepth, put = __cordl_internal_set_strDepth))::StringW strDepth;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_debugUIManager() const;
+  /// @brief Field strFOV, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_strFOV, put = __cordl_internal_set_strFOV))::StringW strFOV;
 
-  constexpr void __cordl_internal_set_debugUIManager(::UnityW<::UnityEngine::GameObject> value);
+  /// @brief Field strFPS, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_strFPS, put = __cordl_internal_set_strFPS))::StringW strFPS;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_debugUIObject();
+  /// @brief Field strHeight, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_strHeight, put = __cordl_internal_set_strHeight))::StringW strHeight;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_debugUIObject() const;
+  /// @brief Field strIPD, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_strIPD, put = __cordl_internal_set_strIPD))::StringW strIPD;
 
-  constexpr void __cordl_internal_set_debugUIObject(::UnityW<::UnityEngine::GameObject> value);
+  /// @brief Field strLatencies, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_strLatencies, put = __cordl_internal_set_strLatencies))::StringW strLatencies;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_riftPresent();
+  /// @brief Field strResolutionEyeTexture, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_strResolutionEyeTexture, put = __cordl_internal_set_strResolutionEyeTexture))::StringW strResolutionEyeTexture;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_riftPresent() const;
+  /// @brief Field strRiftPresent, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_strRiftPresent, put = __cordl_internal_set_strRiftPresent))::StringW strRiftPresent;
 
-  constexpr void __cordl_internal_set_riftPresent(::UnityW<::UnityEngine::GameObject> value);
+  /// @brief Field texts, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_texts, put = __cordl_internal_set_texts))::UnityW<::UnityEngine::GameObject> texts;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_fps();
+  /// @brief Field timeLeft, offset 0xbc, size 0x4
+  __declspec(property(get = __cordl_internal_get_timeLeft, put = __cordl_internal_set_timeLeft)) float_t timeLeft;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_fps() const;
+  /// @brief Field updateInterval, offset 0xb0, size 0x4
+  __declspec(property(get = __cordl_internal_get_updateInterval, put = __cordl_internal_set_updateInterval)) float_t updateInterval;
 
-  constexpr void __cordl_internal_set_fps(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_ipd();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_ipd() const;
-
-  constexpr void __cordl_internal_set_ipd(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_fov();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_fov() const;
-
-  constexpr void __cordl_internal_set_fov(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_height();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_height() const;
-
-  constexpr void __cordl_internal_set_height(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_depth();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_depth() const;
-
-  constexpr void __cordl_internal_set_depth(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_resolutionEyeTexture();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_resolutionEyeTexture() const;
-
-  constexpr void __cordl_internal_set_resolutionEyeTexture(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_latencies();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_latencies() const;
-
-  constexpr void __cordl_internal_set_latencies(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_texts();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_texts() const;
-
-  constexpr void __cordl_internal_set_texts(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::StringW& __cordl_internal_get_strRiftPresent();
-
-  constexpr ::StringW const& __cordl_internal_get_strRiftPresent() const;
-
-  constexpr void __cordl_internal_set_strRiftPresent(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_strFPS();
-
-  constexpr ::StringW const& __cordl_internal_get_strFPS() const;
-
-  constexpr void __cordl_internal_set_strFPS(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_strIPD();
-
-  constexpr ::StringW const& __cordl_internal_get_strIPD() const;
-
-  constexpr void __cordl_internal_set_strIPD(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_strFOV();
-
-  constexpr ::StringW const& __cordl_internal_get_strFOV() const;
-
-  constexpr void __cordl_internal_set_strFOV(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_strHeight();
-
-  constexpr ::StringW const& __cordl_internal_get_strHeight() const;
-
-  constexpr void __cordl_internal_set_strHeight(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_strDepth();
-
-  constexpr ::StringW const& __cordl_internal_get_strDepth() const;
-
-  constexpr void __cordl_internal_set_strDepth(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_strResolutionEyeTexture();
-
-  constexpr ::StringW const& __cordl_internal_get_strResolutionEyeTexture() const;
-
-  constexpr void __cordl_internal_set_strResolutionEyeTexture(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_strLatencies();
-
-  constexpr ::StringW const& __cordl_internal_get_strLatencies() const;
-
-  constexpr void __cordl_internal_set_strLatencies(::StringW value);
-
-  constexpr float_t& __cordl_internal_get_updateInterval();
-
-  constexpr float_t const& __cordl_internal_get_updateInterval() const;
-
-  constexpr void __cordl_internal_set_updateInterval(float_t value);
-
-  constexpr float_t& __cordl_internal_get_accum();
-
-  constexpr float_t const& __cordl_internal_get_accum() const;
-
-  constexpr void __cordl_internal_set_accum(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_frames();
-
-  constexpr int32_t const& __cordl_internal_get_frames() const;
-
-  constexpr void __cordl_internal_set_frames(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_timeLeft();
-
-  constexpr float_t const& __cordl_internal_get_timeLeft() const;
-
-  constexpr void __cordl_internal_set_timeLeft(float_t value);
-
-  constexpr bool& __cordl_internal_get_initUIComponent();
-
-  constexpr bool const& __cordl_internal_get_initUIComponent() const;
-
-  constexpr void __cordl_internal_set_initUIComponent(bool value);
-
-  constexpr bool& __cordl_internal_get_isInited();
-
-  constexpr bool const& __cordl_internal_get_isInited() const;
-
-  constexpr void __cordl_internal_set_isInited(bool value);
-
-  constexpr float_t& __cordl_internal_get_offsetY();
-
-  constexpr float_t const& __cordl_internal_get_offsetY() const;
-
-  constexpr void __cordl_internal_set_offsetY(float_t value);
-
-  constexpr float_t& __cordl_internal_get_riftPresentTimeout();
-
-  constexpr float_t const& __cordl_internal_get_riftPresentTimeout() const;
-
-  constexpr void __cordl_internal_set_riftPresentTimeout(float_t value);
-
-  constexpr bool& __cordl_internal_get_showVRVars();
-
-  constexpr bool const& __cordl_internal_get_showVRVars() const;
-
-  constexpr void __cordl_internal_set_showVRVars(bool value);
-
-  /// @brief Method Awake, addr 0x27baf1c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x289bb78, size 0x1e4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update, addr 0x27bb100, size 0xb8, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method OnDestroy, addr 0x27bb808, size 0x8, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method InitUIComponents, addr 0x27bb1b8, size 0x3b4, virtual false, abstract: false, final false
-  inline void InitUIComponents();
-
-  /// @brief Method UpdateVariable, addr 0x27bb5a0, size 0x38, virtual false, abstract: false, final false
-  inline void UpdateVariable();
-
-  /// @brief Method UpdateStrings, addr 0x27bb5d8, size 0x230, virtual false, abstract: false, final false
-  inline void UpdateStrings();
-
-  /// @brief Method RiftPresentGUI, addr 0x27bbfb8, size 0x184, virtual false, abstract: false, final false
-  inline void RiftPresentGUI(::UnityEngine::GameObject* guiMainOBj);
-
-  /// @brief Method UpdateDeviceDetection, addr 0x27bb56c, size 0x34, virtual false, abstract: false, final false
-  inline void UpdateDeviceDetection();
-
-  /// @brief Method VariableObjectManager, addr 0x27bb810, size 0x1ac, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> VariableObjectManager(::UnityEngine::GameObject* gameObject, ::StringW name, float_t posY, ::StringW str, int32_t fontSize);
-
-  /// @brief Method ComponentComposition, addr 0x27bc13c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method ComponentComposition, addr 0x289cd98, size 0x338, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> ComponentComposition(::UnityEngine::GameObject* GO);
 
-  /// @brief Method UpdateIPD, addr 0x27bb9bc, size 0xcc, virtual false, abstract: false, final false
-  inline void UpdateIPD();
-
-  /// @brief Method UpdateEyeHeightOffset, addr 0x27bba88, size 0xc0, virtual false, abstract: false, final false
-  inline void UpdateEyeHeightOffset();
-
-  /// @brief Method UpdateEyeDepthOffset, addr 0x27bbb48, size 0xc0, virtual false, abstract: false, final false
-  inline void UpdateEyeDepthOffset();
-
-  /// @brief Method UpdateFOV, addr 0x27bbc08, size 0x100, virtual false, abstract: false, final false
-  inline void UpdateFOV();
-
-  /// @brief Method UpdateResolutionEyeTexture, addr 0x27bbd08, size 0x1cc, virtual false, abstract: false, final false
-  inline void UpdateResolutionEyeTexture();
-
-  /// @brief Method UpdateLatencyValues, addr 0x27bbed4, size 0x4, virtual false, abstract: false, final false
-  inline void UpdateLatencyValues();
-
-  /// @brief Method UpdateFPS, addr 0x27bbed8, size 0xe0, virtual false, abstract: false, final false
-  inline void UpdateFPS();
+  /// @brief Method InitUIComponents, addr 0x289be14, size 0x3b4, virtual false, abstract: false, final false
+  inline void InitUIComponents();
 
   static inline ::GlobalNamespace::OVRDebugInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27bc474, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x289c464, size 0x8, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method RiftPresentGUI, addr 0x289cc14, size 0x184, virtual false, abstract: false, final false
+  inline void RiftPresentGUI(::UnityEngine::GameObject* guiMainOBj);
+
+  /// @brief Method Update, addr 0x289bd5c, size 0xb8, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdateDeviceDetection, addr 0x289c1c8, size 0x34, virtual false, abstract: false, final false
+  inline void UpdateDeviceDetection();
+
+  /// @brief Method UpdateEyeDepthOffset, addr 0x289c7a4, size 0xc0, virtual false, abstract: false, final false
+  inline void UpdateEyeDepthOffset();
+
+  /// @brief Method UpdateEyeHeightOffset, addr 0x289c6e4, size 0xc0, virtual false, abstract: false, final false
+  inline void UpdateEyeHeightOffset();
+
+  /// @brief Method UpdateFOV, addr 0x289c864, size 0x100, virtual false, abstract: false, final false
+  inline void UpdateFOV();
+
+  /// @brief Method UpdateFPS, addr 0x289cb34, size 0xe0, virtual false, abstract: false, final false
+  inline void UpdateFPS();
+
+  /// @brief Method UpdateIPD, addr 0x289c618, size 0xcc, virtual false, abstract: false, final false
+  inline void UpdateIPD();
+
+  /// @brief Method UpdateLatencyValues, addr 0x289cb30, size 0x4, virtual false, abstract: false, final false
+  inline void UpdateLatencyValues();
+
+  /// @brief Method UpdateResolutionEyeTexture, addr 0x289c964, size 0x1cc, virtual false, abstract: false, final false
+  inline void UpdateResolutionEyeTexture();
+
+  /// @brief Method UpdateStrings, addr 0x289c234, size 0x230, virtual false, abstract: false, final false
+  inline void UpdateStrings();
+
+  /// @brief Method UpdateVariable, addr 0x289c1fc, size 0x38, virtual false, abstract: false, final false
+  inline void UpdateVariable();
+
+  /// @brief Method VariableObjectManager, addr 0x289c46c, size 0x1ac, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> VariableObjectManager(::UnityEngine::GameObject* gameObject, ::StringW name, float_t posY, ::StringW str, int32_t fontSize);
+
+  constexpr float_t const& __cordl_internal_get_accum() const;
+
+  constexpr float_t& __cordl_internal_get_accum();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_debugUIManager() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_debugUIManager();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_debugUIObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_debugUIObject();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_depth() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_depth();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_fov() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_fov();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_fps() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_fps();
+
+  constexpr int32_t const& __cordl_internal_get_frames() const;
+
+  constexpr int32_t& __cordl_internal_get_frames();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_height() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_height();
+
+  constexpr bool const& __cordl_internal_get_initUIComponent() const;
+
+  constexpr bool& __cordl_internal_get_initUIComponent();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_ipd() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_ipd();
+
+  constexpr bool const& __cordl_internal_get_isInited() const;
+
+  constexpr bool& __cordl_internal_get_isInited();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_latencies() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_latencies();
+
+  constexpr float_t const& __cordl_internal_get_offsetY() const;
+
+  constexpr float_t& __cordl_internal_get_offsetY();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_resolutionEyeTexture() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_resolutionEyeTexture();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_riftPresent() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_riftPresent();
+
+  constexpr float_t const& __cordl_internal_get_riftPresentTimeout() const;
+
+  constexpr float_t& __cordl_internal_get_riftPresentTimeout();
+
+  constexpr bool const& __cordl_internal_get_showVRVars() const;
+
+  constexpr bool& __cordl_internal_get_showVRVars();
+
+  constexpr ::StringW const& __cordl_internal_get_strDepth() const;
+
+  constexpr ::StringW& __cordl_internal_get_strDepth();
+
+  constexpr ::StringW const& __cordl_internal_get_strFOV() const;
+
+  constexpr ::StringW& __cordl_internal_get_strFOV();
+
+  constexpr ::StringW const& __cordl_internal_get_strFPS() const;
+
+  constexpr ::StringW& __cordl_internal_get_strFPS();
+
+  constexpr ::StringW const& __cordl_internal_get_strHeight() const;
+
+  constexpr ::StringW& __cordl_internal_get_strHeight();
+
+  constexpr ::StringW const& __cordl_internal_get_strIPD() const;
+
+  constexpr ::StringW& __cordl_internal_get_strIPD();
+
+  constexpr ::StringW const& __cordl_internal_get_strLatencies() const;
+
+  constexpr ::StringW& __cordl_internal_get_strLatencies();
+
+  constexpr ::StringW const& __cordl_internal_get_strResolutionEyeTexture() const;
+
+  constexpr ::StringW& __cordl_internal_get_strResolutionEyeTexture();
+
+  constexpr ::StringW const& __cordl_internal_get_strRiftPresent() const;
+
+  constexpr ::StringW& __cordl_internal_get_strRiftPresent();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_texts() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_texts();
+
+  constexpr float_t const& __cordl_internal_get_timeLeft() const;
+
+  constexpr float_t& __cordl_internal_get_timeLeft();
+
+  constexpr float_t const& __cordl_internal_get_updateInterval() const;
+
+  constexpr float_t& __cordl_internal_get_updateInterval();
+
+  constexpr void __cordl_internal_set_accum(float_t value);
+
+  constexpr void __cordl_internal_set_debugUIManager(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_debugUIObject(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_depth(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_fov(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_fps(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_frames(int32_t value);
+
+  constexpr void __cordl_internal_set_height(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_initUIComponent(bool value);
+
+  constexpr void __cordl_internal_set_ipd(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_isInited(bool value);
+
+  constexpr void __cordl_internal_set_latencies(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_offsetY(float_t value);
+
+  constexpr void __cordl_internal_set_resolutionEyeTexture(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_riftPresent(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_riftPresentTimeout(float_t value);
+
+  constexpr void __cordl_internal_set_showVRVars(bool value);
+
+  constexpr void __cordl_internal_set_strDepth(::StringW value);
+
+  constexpr void __cordl_internal_set_strFOV(::StringW value);
+
+  constexpr void __cordl_internal_set_strFPS(::StringW value);
+
+  constexpr void __cordl_internal_set_strHeight(::StringW value);
+
+  constexpr void __cordl_internal_set_strIPD(::StringW value);
+
+  constexpr void __cordl_internal_set_strLatencies(::StringW value);
+
+  constexpr void __cordl_internal_set_strResolutionEyeTexture(::StringW value);
+
+  constexpr void __cordl_internal_set_strRiftPresent(::StringW value);
+
+  constexpr void __cordl_internal_set_texts(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_timeLeft(float_t value);
+
+  constexpr void __cordl_internal_set_updateInterval(float_t value);
+
+  /// @brief Method .ctor, addr 0x289d0d0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRDebugInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRDebugInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRDebugInfo(OVRDebugInfo&&) = delete;
@@ -342,12 +346,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRDebugInfo(OVRDebugInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRDebugInfo();
-
-public:
   /// @brief Field debugUIManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___debugUIManager;
 

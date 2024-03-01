@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerOutEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 234, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6457)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6457), inst: 4811 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6467))
 // CS Name: ::UnityEngine.UIElements::PointerOutEvent*
 class CORDL_TYPE PointerOutEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerOutEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::PointerOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6bc98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5e3c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerOutEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointerOutEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointerOutEvent(PointerOutEvent&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerOutEvent(PointerOutEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerOutEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

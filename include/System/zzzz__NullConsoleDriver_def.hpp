@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::System::NullConsoleDriver);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2520)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2612))
 // CS Name: ::System::NullConsoleDriver*
 class CORDL_TYPE NullConsoleDriver : public ::System::Object {
 public:
@@ -33,21 +31,27 @@ public:
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
 
+  static inline ::System::NullConsoleDriver* New_ctor();
+
+  /// @brief Method ReadKey, addr 0x26f2268, size 0x5c, virtual true, abstract: false, final true
+  inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
+
+  /// @brief Method .ctor, addr 0x26eae8c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::System::ConsoleKeyInfo getStaticF_EmptyConsoleKeyInfo();
+
   /// @brief Convert to "::System::IConsoleDriver"
   constexpr ::System::IConsoleDriver* i___System__IConsoleDriver() noexcept;
 
   static inline void setStaticF_EmptyConsoleKeyInfo(::System::ConsoleKeyInfo value);
 
-  static inline ::System::ConsoleKeyInfo getStaticF_EmptyConsoleKeyInfo();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NullConsoleDriver();
 
-  /// @brief Method ReadKey, addr 0x2622b74, size 0x5c, virtual true, abstract: false, final true
-  inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
-
-  static inline ::System::NullConsoleDriver* New_ctor();
-
-  /// @brief Method .ctor, addr 0x261b790, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NullConsoleDriver", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NullConsoleDriver(NullConsoleDriver&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NullConsoleDriver(NullConsoleDriver const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NullConsoleDriver();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

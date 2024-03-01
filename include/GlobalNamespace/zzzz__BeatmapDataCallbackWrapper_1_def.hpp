@@ -25,8 +25,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4062))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4063))
 // CS Name: ::BeatmapDataCallbackWrapper`1<T>*
 class CORDL_TYPE BeatmapDataCallbackWrapper_1 : public ::GlobalNamespace::BeatmapDataCallbackWrapper {
 public:
@@ -34,21 +32,27 @@ public:
   /// @brief Field _callback, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback))::GlobalNamespace::BeatmapDataCallback_1<T>* _callback;
 
+  /// @brief Method CallCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void CallCallback(::GlobalNamespace::BeatmapDataItem* beatmapData);
+
+  static inline ::GlobalNamespace::BeatmapDataCallbackWrapper_1<T>* New_ctor(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, float_t aheadTime,
+                                                                             ::ArrayW<int32_t, ::Array<int32_t>*> beatmapEventSubtypeIdentifiers);
+
   constexpr ::GlobalNamespace::BeatmapDataCallback_1<T>*& __cordl_internal_get__callback();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallback_1<T>*> const& __cordl_internal_get__callback() const;
 
   constexpr void __cordl_internal_set__callback(::GlobalNamespace::BeatmapDataCallback_1<T>* value);
 
-  static inline ::GlobalNamespace::BeatmapDataCallbackWrapper_1<T>* New_ctor(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, float_t aheadTime,
-                                                                             ::ArrayW<int32_t, ::Array<int32_t>*> beatmapEventSubtypeIdentifiers);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, float_t aheadTime, ::ArrayW<int32_t, ::Array<int32_t>*> beatmapEventSubtypeIdentifiers);
 
-  /// @brief Method CallCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void CallCallback(::GlobalNamespace::BeatmapDataItem* beatmapData);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataCallbackWrapper_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCallbackWrapper_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataCallbackWrapper_1(BeatmapDataCallbackWrapper_1&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataCallbackWrapper_1(BeatmapDataCallbackWrapper_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataCallbackWrapper_1();
-
-public:
   /// @brief Field _callback, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallback_1<T>* ____callback;
 

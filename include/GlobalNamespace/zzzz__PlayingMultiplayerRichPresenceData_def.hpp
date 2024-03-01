@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayingMultiplayerRichPresenceData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5243))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5244))
 // CS Name: ::PlayingMultiplayerRichPresenceData*
 class CORDL_TYPE PlayingMultiplayerRichPresenceData : public ::GlobalNamespace::InMultiplayerRichPresenceData {
 public:
   // Declarations
   static inline ::GlobalNamespace::PlayingMultiplayerRichPresenceData* New_ctor(bool atMaxPartySize);
 
-  /// @brief Method .ctor, addr 0x2336ef8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2405e40, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool atMaxPartySize);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayingMultiplayerRichPresenceData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayingMultiplayerRichPresenceData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayingMultiplayerRichPresenceData(PlayingMultiplayerRichPresenceData&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayingMultiplayerRichPresenceData(PlayingMultiplayerRichPresenceData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayingMultiplayerRichPresenceData();
-
-public:
   /// @brief Field kPlayingMultiplayerLobbyRichPresenceLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kPlayingMultiplayerLobbyRichPresenceLocalizationKey{ u"PLAYING_MULTIPLAYER_PRESENCE" };
 

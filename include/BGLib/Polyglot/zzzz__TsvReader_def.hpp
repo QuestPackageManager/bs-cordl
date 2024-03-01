@@ -18,20 +18,24 @@ MARK_REF_PTR_T(::BGLib::Polyglot::TsvReader);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15669))
 // CS Name: ::BGLib.Polyglot::TsvReader*
 class CORDL_TYPE TsvReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0xe4ac80, size 0x1ac, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
-
   static inline ::BGLib::Polyglot::TsvReader* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe4ae2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xe90c50, size 0x1ac, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
+
+  /// @brief Method .ctor, addr 0xe90dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TsvReader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TsvReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TsvReader(TsvReader&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TsvReader(TsvReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TsvReader();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

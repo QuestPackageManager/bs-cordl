@@ -20,20 +20,24 @@ namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2326))
 // CS Name: ::System::Action`4<T1,T2,T3,T4>*
 class CORDL_TYPE Action_4 : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4);
+
   static inline ::System::Action_4<T1, T2, T3, T4>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Action_4();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Action_4", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Action_4(Action_4&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Action_4(Action_4 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Action_4();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

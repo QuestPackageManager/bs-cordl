@@ -28,59 +28,63 @@ MARK_REF_PTR_T(::TMPro::TMP_ResourceManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12305))
 // CS Name: ::TMPro::TMP_ResourceManager*
 class CORDL_TYPE TMP_ResourceManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_instance, put = setStaticF_s_instance))::TMPro::TMP_ResourceManager* s_instance;
-
-  /// @brief Field s_TextSettings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_TextSettings, put = setStaticF_s_TextSettings))::UnityW<::TMPro::TMP_Settings> s_TextSettings;
+  /// @brief Field s_FontAssetReferenceLookup, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_FontAssetReferenceLookup,
+                             put = setStaticF_s_FontAssetReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* s_FontAssetReferenceLookup;
 
   /// @brief Field s_FontAssetReferences, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_FontAssetReferences,
                              put = setStaticF_s_FontAssetReferences))::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* s_FontAssetReferences;
 
-  /// @brief Field s_FontAssetReferenceLookup, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_FontAssetReferenceLookup,
-                             put = setStaticF_s_FontAssetReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* s_FontAssetReferenceLookup;
+  /// @brief Field s_TextSettings, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_TextSettings, put = setStaticF_s_TextSettings))::UnityW<::TMPro::TMP_Settings> s_TextSettings;
 
-  static inline void setStaticF_s_instance(::TMPro::TMP_ResourceManager* value);
+  /// @brief Field s_instance, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_instance, put = setStaticF_s_instance))::TMPro::TMP_ResourceManager* s_instance;
 
-  static inline ::TMPro::TMP_ResourceManager* getStaticF_s_instance();
-
-  static inline void setStaticF_s_TextSettings(::UnityW<::TMPro::TMP_Settings> value);
-
-  static inline ::UnityW<::TMPro::TMP_Settings> getStaticF_s_TextSettings();
-
-  static inline void setStaticF_s_FontAssetReferences(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
-
-  static inline ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_s_FontAssetReferences();
-
-  static inline void setStaticF_s_FontAssetReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_s_FontAssetReferenceLookup();
-
-  /// @brief Method GetTextSettings, addr 0x2c3d0f4, size 0x110, virtual false, abstract: false, final false
-  static inline ::UnityW<::TMPro::TMP_Settings> GetTextSettings();
-
-  /// @brief Method AddFontAsset, addr 0x2c3d204, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddFontAsset, addr 0x2d272d8, size 0x154, virtual false, abstract: false, final false
   static inline void AddFontAsset(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method TryGetFontAsset, addr 0x2c3d358, size 0x94, virtual false, abstract: false, final false
-  static inline bool TryGetFontAsset(int32_t hashcode, ByRef<::TMPro::TMP_FontAsset*> fontAsset);
-
-  /// @brief Method RebuildFontAssetCache, addr 0x2c3d3ec, size 0x118, virtual false, abstract: false, final false
-  static inline void RebuildFontAssetCache(int32_t instanceID);
+  /// @brief Method GetTextSettings, addr 0x2d271c8, size 0x110, virtual false, abstract: false, final false
+  static inline ::UnityW<::TMPro::TMP_Settings> GetTextSettings();
 
   static inline ::TMPro::TMP_ResourceManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c3d0ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RebuildFontAssetCache, addr 0x2d274c0, size 0x118, virtual false, abstract: false, final false
+  static inline void RebuildFontAssetCache(int32_t instanceID);
+
+  /// @brief Method TryGetFontAsset, addr 0x2d2742c, size 0x94, virtual false, abstract: false, final false
+  static inline bool TryGetFontAsset(int32_t hashcode, ByRef<::TMPro::TMP_FontAsset*> fontAsset);
+
+  /// @brief Method .ctor, addr 0x2d271c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_s_FontAssetReferenceLookup();
+
+  static inline ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_s_FontAssetReferences();
+
+  static inline ::UnityW<::TMPro::TMP_Settings> getStaticF_s_TextSettings();
+
+  static inline ::TMPro::TMP_ResourceManager* getStaticF_s_instance();
+
+  static inline void setStaticF_s_FontAssetReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* value);
+
+  static inline void setStaticF_s_FontAssetReferences(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
+
+  static inline void setStaticF_s_TextSettings(::UnityW<::TMPro::TMP_Settings> value);
+
+  static inline void setStaticF_s_instance(::TMPro::TMP_ResourceManager* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_ResourceManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ResourceManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_ResourceManager(TMP_ResourceManager&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_ResourceManager(TMP_ResourceManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_ResourceManager();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

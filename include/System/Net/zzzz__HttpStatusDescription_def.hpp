@@ -19,18 +19,22 @@ MARK_REF_PTR_T(::System::Net::HttpStatusDescription);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7031))
 // CS Name: ::System.Net::HttpStatusDescription*
 class CORDL_TYPE HttpStatusDescription : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x298c0e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2a731bc, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW Get(::System::Net::HttpStatusCode code);
 
-  /// @brief Method Get, addr 0x298c0ec, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2a731c0, size 0x698, virtual false, abstract: false, final false
   static inline ::StringW Get(int32_t code);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpStatusDescription();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpStatusDescription", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpStatusDescription(HttpStatusDescription&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpStatusDescription(HttpStatusDescription const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpStatusDescription();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -22,19 +22,17 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayIntersectionParams_t);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8530)), TypeDefinitionIndex(TypeDefinitionIndex(8591))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8650))
 // CS Name: ::OVR.OpenVR::VROverlayIntersectionParams_t
 struct CORDL_TYPE VROverlayIntersectionParams_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "vSource", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vDirection", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "",
-  // def_value: None }, CppParam { name: "eOrigin", ty: "::OVR::OpenVR::ETrackingUniverseOrigin", modifiers: "", def_value: None }]
-  constexpr VROverlayIntersectionParams_t(::OVR::OpenVR::HmdVector3_t vSource, ::OVR::OpenVR::HmdVector3_t vDirection, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VROverlayIntersectionParams_t();
+
+  // Ctor Parameters [CppParam { name: "vSource", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: None }, CppParam { name: "vDirection", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "",
+  // def_value: None }, CppParam { name: "eOrigin", ty: "::OVR::OpenVR::ETrackingUniverseOrigin", modifiers: "", def_value: None }]
+  constexpr VROverlayIntersectionParams_t(::OVR::OpenVR::HmdVector3_t vSource, ::OVR::OpenVR::HmdVector3_t vDirection, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin) noexcept;
 
   /// @brief Field vSource, offset: 0x0, size: 0xc, def value: None
   ::OVR::OpenVR::HmdVector3_t vSource;

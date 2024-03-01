@@ -15,19 +15,17 @@ MARK_VAL_T(::OVR::OpenVR::HmdColor_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8597))
 // CS Name: ::OVR.OpenVR::HmdColor_t
 struct CORDL_TYPE HmdColor_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr HmdColor_t(float_t r, float_t g, float_t b, float_t a) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HmdColor_t();
+
+  // Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "b", ty: "float_t",
+  // modifiers: "", def_value: None }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr HmdColor_t(float_t r, float_t g, float_t b, float_t a) noexcept;
 
   /// @brief Field r, offset: 0x0, size: 0x4, def value: None
   float_t r;

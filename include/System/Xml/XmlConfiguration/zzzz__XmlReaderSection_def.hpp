@@ -14,18 +14,22 @@ MARK_REF_PTR_T(::System::Xml::XmlConfiguration::XmlReaderSection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::XmlConfiguration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11489))
 // CS Name: ::System.Xml.XmlConfiguration::XmlReaderSection*
 class CORDL_TYPE XmlReaderSection : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x28af5f8, size 0x8, virtual false, abstract: false, final false
-  static inline bool get_ProhibitDefaultUrlResolver();
-
-  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x28a1840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x2988cbc, size 0x8, virtual false, abstract: false, final false
   static inline bool get_CollapseWhiteSpaceIntoEmptyString();
 
+  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x2996a74, size 0x8, virtual false, abstract: false, final false
+  static inline bool get_ProhibitDefaultUrlResolver();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlReaderSection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlReaderSection(XmlReaderSection&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlReaderSection(XmlReaderSection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlReaderSection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

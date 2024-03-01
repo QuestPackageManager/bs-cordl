@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleAudioPlayer);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4023))
 // CS Name: ::SimpleAudioPlayer*
 class CORDL_TYPE SimpleAudioPlayer : public ::GlobalNamespace::AudioPlayerBase {
 public:
@@ -33,82 +31,88 @@ public:
   /// @brief Field _audioSource, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
-  /// @brief Field _targetVolume, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__targetVolume, put = __cordl_internal_set__targetVolume)) float_t _targetVolume;
-
-  /// @brief Field _loop, offset 0x2c, size 0x1
-  __declspec(property(get = __cordl_internal_get__loop, put = __cordl_internal_set__loop)) bool _loop;
-
   /// @brief Field _fadeSpeed, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__fadeSpeed, put = __cordl_internal_set__fadeSpeed)) float_t _fadeSpeed;
 
   /// @brief Field _fadingIn, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__fadingIn, put = __cordl_internal_set__fadingIn)) bool _fadingIn;
 
+  /// @brief Field _loop, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get__loop, put = __cordl_internal_set__loop)) bool _loop;
+
+  /// @brief Field _targetVolume, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__targetVolume, put = __cordl_internal_set__targetVolume)) float_t _targetVolume;
+
   __declspec(property(get = get_activeAudioClip))::UnityW<::UnityEngine::AudioClip> activeAudioClip;
 
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__audioClip();
-
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
-
-  constexpr void __cordl_internal_set__audioClip(::UnityW<::UnityEngine::AudioClip> value);
-
-  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
-
-  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
-
-  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
-
-  constexpr float_t& __cordl_internal_get__targetVolume();
-
-  constexpr float_t const& __cordl_internal_get__targetVolume() const;
-
-  constexpr void __cordl_internal_set__targetVolume(float_t value);
-
-  constexpr bool& __cordl_internal_get__loop();
-
-  constexpr bool const& __cordl_internal_get__loop() const;
-
-  constexpr void __cordl_internal_set__loop(bool value);
-
-  constexpr float_t& __cordl_internal_get__fadeSpeed();
-
-  constexpr float_t const& __cordl_internal_get__fadeSpeed() const;
-
-  constexpr void __cordl_internal_set__fadeSpeed(float_t value);
-
-  constexpr bool& __cordl_internal_get__fadingIn();
-
-  constexpr bool const& __cordl_internal_get__fadingIn() const;
-
-  constexpr void __cordl_internal_set__fadingIn(bool value);
-
-  /// @brief Method get_activeAudioClip, addr 0x22b9dd4, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::AudioClip> get_activeAudioClip();
-
-  /// @brief Method Start, addr 0x22b9ddc, size 0x80, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method Update, addr 0x22b9e98, size 0x100, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method FadeIn, addr 0x22b9e5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x23864c4, size 0x3c, virtual false, abstract: false, final false
   inline void FadeIn(float_t duration);
 
-  /// @brief Method FadeOut, addr 0x22b9f98, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x2386600, size 0x38, virtual true, abstract: false, final false
   inline void FadeOut(float_t duration);
-
-  /// @brief Method PauseCurrentChannel, addr 0x22b9fd0, size 0x1c, virtual true, abstract: false, final false
-  inline void PauseCurrentChannel();
-
-  /// @brief Method UnPauseCurrentChannel, addr 0x22b9fec, size 0x1c, virtual true, abstract: false, final false
-  inline void UnPauseCurrentChannel();
 
   static inline ::GlobalNamespace::SimpleAudioPlayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22ba008, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PauseCurrentChannel, addr 0x2386638, size 0x1c, virtual true, abstract: false, final false
+  inline void PauseCurrentChannel();
+
+  /// @brief Method Start, addr 0x2386444, size 0x80, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method UnPauseCurrentChannel, addr 0x2386654, size 0x1c, virtual true, abstract: false, final false
+  inline void UnPauseCurrentChannel();
+
+  /// @brief Method Update, addr 0x2386500, size 0x100, virtual false, abstract: false, final false
+  inline void Update();
+
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__audioClip();
+
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
+
+  constexpr float_t const& __cordl_internal_get__fadeSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__fadeSpeed();
+
+  constexpr bool const& __cordl_internal_get__fadingIn() const;
+
+  constexpr bool& __cordl_internal_get__fadingIn();
+
+  constexpr bool const& __cordl_internal_get__loop() const;
+
+  constexpr bool& __cordl_internal_get__loop();
+
+  constexpr float_t const& __cordl_internal_get__targetVolume() const;
+
+  constexpr float_t& __cordl_internal_get__targetVolume();
+
+  constexpr void __cordl_internal_set__audioClip(::UnityW<::UnityEngine::AudioClip> value);
+
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
+
+  constexpr void __cordl_internal_set__fadeSpeed(float_t value);
+
+  constexpr void __cordl_internal_set__fadingIn(bool value);
+
+  constexpr void __cordl_internal_set__loop(bool value);
+
+  constexpr void __cordl_internal_set__targetVolume(float_t value);
+
+  /// @brief Method .ctor, addr 0x2386670, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_activeAudioClip, addr 0x238643c, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::AudioClip> get_activeAudioClip();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SimpleAudioPlayer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SimpleAudioPlayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleAudioPlayer(SimpleAudioPlayer&&) = delete;
@@ -117,12 +121,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SimpleAudioPlayer(SimpleAudioPlayer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SimpleAudioPlayer();
-
-public:
   /// @brief Field _audioClip, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 

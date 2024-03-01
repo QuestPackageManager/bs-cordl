@@ -49,16 +49,18 @@ MARK_VAL_T(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12584)), TypeDefinitionIndex(TypeDefinitionIndex(12656))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12659))
 // CS Name: ::GameplayServerFiniteStateMachine::InitParams
 struct CORDL_TYPE __GameplayServerFiniteStateMachine__InitParams {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xe66e28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeacdf8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId,
                     ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration,
                     ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GameplayServerFiniteStateMachine__InitParams();
 
   // Ctor Parameters [CppParam { name: "taskUtility", ty: "::BGNet::Core::ITaskUtility*", modifiers: "", def_value: None }, CppParam { name: "multiplayerSessionManager", ty:
   // "::GlobalNamespace::IMultiplayerSessionManager*", modifiers: "", def_value: None }, CppParam { name: "creatorId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
@@ -67,10 +69,6 @@ public:
   constexpr __GameplayServerFiniteStateMachine__InitParams(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId,
                                                            ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration,
                                                            ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GameplayServerFiniteStateMachine__InitParams();
 
   /// @brief Field taskUtility, offset: 0x0, size: 0x8, def value: None
   ::BGNet::Core::ITaskUtility* taskUtility;
@@ -115,16 +113,27 @@ static_assert(offsetof(::GlobalNamespace::__GameplayServerFiniteStateMachine__In
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12584)), TypeDefinitionIndex(TypeDefinitionIndex(12656))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12660))
 // CS Name: ::GameplayServerFiniteStateMachine*
 class CORDL_TYPE GameplayServerFiniteStateMachine : public ::System::Object {
 public:
   // Declarations
   using InitParams = ::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams;
 
-  /// @brief Field <taskUtility>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__taskUtility_k__BackingField, put = __cordl_internal_set__taskUtility_k__BackingField))::BGNet::Core::ITaskUtility* _taskUtility_k__BackingField;
+  /// @brief Field <beatmapProvider>k__BackingField, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapProvider_k__BackingField,
+                      put = __cordl_internal_set__beatmapProvider_k__BackingField))::GlobalNamespace::IServerBeatmapProvider* _beatmapProvider_k__BackingField;
+
+  /// @brief Field <configuration>k__BackingField, offset 0x50, size 0x18
+  __declspec(property(get = __cordl_internal_get__configuration_k__BackingField,
+                      put = __cordl_internal_set__configuration_k__BackingField))::GlobalNamespace::GameplayServerConfiguration _configuration_k__BackingField;
+
+  /// @brief Field <gameplayRpcManager>k__BackingField, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayRpcManager_k__BackingField,
+                      put = __cordl_internal_set__gameplayRpcManager_k__BackingField))::GlobalNamespace::GameplayRpcManager* _gameplayRpcManager_k__BackingField;
+
+  /// @brief Field <menuRpcManager>k__BackingField, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__menuRpcManager_k__BackingField,
+                      put = __cordl_internal_set__menuRpcManager_k__BackingField))::GlobalNamespace::MenuRpcManager* _menuRpcManager_k__BackingField;
 
   /// @brief Field <multiplayerSessionManager>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager_k__BackingField,
@@ -137,29 +146,19 @@ public:
   __declspec(property(get = __cordl_internal_get__selectionMask_k__BackingField,
                       put = __cordl_internal_set__selectionMask_k__BackingField))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask_k__BackingField;
 
-  /// @brief Field <configuration>k__BackingField, offset 0x50, size 0x18
-  __declspec(property(get = __cordl_internal_get__configuration_k__BackingField,
-                      put = __cordl_internal_set__configuration_k__BackingField))::GlobalNamespace::GameplayServerConfiguration _configuration_k__BackingField;
+  /// @brief Field <taskUtility>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__taskUtility_k__BackingField, put = __cordl_internal_set__taskUtility_k__BackingField))::BGNet::Core::ITaskUtility* _taskUtility_k__BackingField;
 
-  /// @brief Field <beatmapProvider>k__BackingField, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapProvider_k__BackingField,
-                      put = __cordl_internal_set__beatmapProvider_k__BackingField))::GlobalNamespace::IServerBeatmapProvider* _beatmapProvider_k__BackingField;
+  __declspec(property(get = get_beatmapProvider, put = set_beatmapProvider))::GlobalNamespace::IServerBeatmapProvider* beatmapProvider;
 
-  /// @brief Field <menuRpcManager>k__BackingField, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuRpcManager_k__BackingField,
-                      put = __cordl_internal_set__menuRpcManager_k__BackingField))::GlobalNamespace::MenuRpcManager* _menuRpcManager_k__BackingField;
-
-  /// @brief Field <gameplayRpcManager>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayRpcManager_k__BackingField,
-                      put = __cordl_internal_set__gameplayRpcManager_k__BackingField))::GlobalNamespace::GameplayRpcManager* _gameplayRpcManager_k__BackingField;
-
-  /// @brief Field state, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::GlobalNamespace::GameState* state;
+  __declspec(property(get = get_configuration, put = set_configuration))::GlobalNamespace::GameplayServerConfiguration configuration;
 
   /// @brief Field enteringState, offset 0x88, size 0x1
   __declspec(property(get = __cordl_internal_get_enteringState, put = __cordl_internal_set_enteringState)) bool enteringState;
 
-  __declspec(property(get = get_taskUtility, put = set_taskUtility))::BGNet::Core::ITaskUtility* taskUtility;
+  __declspec(property(get = get_gameplayRpcManager, put = set_gameplayRpcManager))::GlobalNamespace::GameplayRpcManager* gameplayRpcManager;
+
+  __declspec(property(get = get_menuRpcManager, put = set_menuRpcManager))::GlobalNamespace::MenuRpcManager* menuRpcManager;
 
   __declspec(property(get = get_multiplayerSessionManager, put = set_multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
 
@@ -167,127 +166,130 @@ public:
 
   __declspec(property(get = get_selectionMask, put = set_selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
 
-  __declspec(property(get = get_configuration, put = set_configuration))::GlobalNamespace::GameplayServerConfiguration configuration;
+  /// @brief Field state, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::GlobalNamespace::GameState* state;
 
-  __declspec(property(get = get_beatmapProvider, put = set_beatmapProvider))::GlobalNamespace::IServerBeatmapProvider* beatmapProvider;
+  __declspec(property(get = get_taskUtility, put = set_taskUtility))::BGNet::Core::ITaskUtility* taskUtility;
 
-  __declspec(property(get = get_menuRpcManager, put = set_menuRpcManager))::GlobalNamespace::MenuRpcManager* menuRpcManager;
-
-  __declspec(property(get = get_gameplayRpcManager, put = set_gameplayRpcManager))::GlobalNamespace::GameplayRpcManager* gameplayRpcManager;
-
-  constexpr ::BGNet::Core::ITaskUtility*& __cordl_internal_get__taskUtility_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __cordl_internal_get__taskUtility_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__taskUtility_k__BackingField(::BGNet::Core::ITaskUtility* value);
-
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__multiplayerSessionManager_k__BackingField(::GlobalNamespace::IMultiplayerSessionManager* value);
-
-  constexpr ::StringW& __cordl_internal_get__ownerUserId_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__ownerUserId_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ownerUserId_k__BackingField(::StringW value);
-
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get__selectionMask_k__BackingField();
-
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __cordl_internal_get__selectionMask_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__selectionMask_k__BackingField(::GlobalNamespace::BeatmapLevelSelectionMask value);
-
-  constexpr ::GlobalNamespace::GameplayServerConfiguration& __cordl_internal_get__configuration_k__BackingField();
-
-  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get__configuration_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__configuration_k__BackingField(::GlobalNamespace::GameplayServerConfiguration value);
+  static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* New_ctor(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
   constexpr ::GlobalNamespace::IServerBeatmapProvider*& __cordl_internal_get__beatmapProvider_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IServerBeatmapProvider*> const& __cordl_internal_get__beatmapProvider_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__beatmapProvider_k__BackingField(::GlobalNamespace::IServerBeatmapProvider* value);
+  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get__configuration_k__BackingField() const;
 
-  constexpr ::GlobalNamespace::MenuRpcManager*& __cordl_internal_get__menuRpcManager_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuRpcManager*> const& __cordl_internal_get__menuRpcManager_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__menuRpcManager_k__BackingField(::GlobalNamespace::MenuRpcManager* value);
+  constexpr ::GlobalNamespace::GameplayServerConfiguration& __cordl_internal_get__configuration_k__BackingField();
 
   constexpr ::GlobalNamespace::GameplayRpcManager*& __cordl_internal_get__gameplayRpcManager_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__gameplayRpcManager_k__BackingField(::GlobalNamespace::GameplayRpcManager* value);
+  constexpr ::GlobalNamespace::MenuRpcManager*& __cordl_internal_get__menuRpcManager_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuRpcManager*> const& __cordl_internal_get__menuRpcManager_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager_k__BackingField() const;
+
+  constexpr ::StringW const& __cordl_internal_get__ownerUserId_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__ownerUserId_k__BackingField();
+
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __cordl_internal_get__selectionMask_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get__selectionMask_k__BackingField();
+
+  constexpr ::BGNet::Core::ITaskUtility*& __cordl_internal_get__taskUtility_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __cordl_internal_get__taskUtility_k__BackingField() const;
+
+  constexpr bool const& __cordl_internal_get_enteringState() const;
+
+  constexpr bool& __cordl_internal_get_enteringState();
 
   constexpr ::GlobalNamespace::GameState*& __cordl_internal_get_state();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameState*> const& __cordl_internal_get_state() const;
 
-  constexpr void __cordl_internal_set_state(::GlobalNamespace::GameState* value);
+  constexpr void __cordl_internal_set__beatmapProvider_k__BackingField(::GlobalNamespace::IServerBeatmapProvider* value);
 
-  constexpr bool& __cordl_internal_get_enteringState();
+  constexpr void __cordl_internal_set__configuration_k__BackingField(::GlobalNamespace::GameplayServerConfiguration value);
 
-  constexpr bool const& __cordl_internal_get_enteringState() const;
+  constexpr void __cordl_internal_set__gameplayRpcManager_k__BackingField(::GlobalNamespace::GameplayRpcManager* value);
+
+  constexpr void __cordl_internal_set__menuRpcManager_k__BackingField(::GlobalNamespace::MenuRpcManager* value);
+
+  constexpr void __cordl_internal_set__multiplayerSessionManager_k__BackingField(::GlobalNamespace::IMultiplayerSessionManager* value);
+
+  constexpr void __cordl_internal_set__ownerUserId_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__selectionMask_k__BackingField(::GlobalNamespace::BeatmapLevelSelectionMask value);
+
+  constexpr void __cordl_internal_set__taskUtility_k__BackingField(::BGNet::Core::ITaskUtility* value);
 
   constexpr void __cordl_internal_set_enteringState(bool value);
 
-  /// @brief Method get_taskUtility, addr 0xe66d70, size 0x8, virtual false, abstract: false, final false
-  inline ::BGNet::Core::ITaskUtility* get_taskUtility();
+  constexpr void __cordl_internal_set_state(::GlobalNamespace::GameState* value);
 
-  /// @brief Method set_taskUtility, addr 0xe66d78, size 0x8, virtual false, abstract: false, final false
-  inline void set_taskUtility(::BGNet::Core::ITaskUtility* value);
-
-  /// @brief Method get_multiplayerSessionManager, addr 0xe66d80, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
-
-  /// @brief Method set_multiplayerSessionManager, addr 0xe66d88, size 0x8, virtual false, abstract: false, final false
-  inline void set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
-
-  /// @brief Method get_ownerUserId, addr 0xe66d90, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_ownerUserId();
-
-  /// @brief Method set_ownerUserId, addr 0xe66d98, size 0x8, virtual false, abstract: false, final false
-  inline void set_ownerUserId(::StringW value);
-
-  /// @brief Method get_selectionMask, addr 0xe66da0, size 0x18, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
-
-  /// @brief Method set_selectionMask, addr 0xe66db8, size 0x18, virtual false, abstract: false, final false
-  inline void set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
-
-  /// @brief Method get_configuration, addr 0xe66dd0, size 0x14, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
-
-  /// @brief Method set_configuration, addr 0xe66de4, size 0x14, virtual false, abstract: false, final false
-  inline void set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
-
-  /// @brief Method get_beatmapProvider, addr 0xe66df8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IServerBeatmapProvider* get_beatmapProvider();
-
-  /// @brief Method set_beatmapProvider, addr 0xe66e00, size 0x8, virtual false, abstract: false, final false
-  inline void set_beatmapProvider(::GlobalNamespace::IServerBeatmapProvider* value);
-
-  /// @brief Method get_menuRpcManager, addr 0xe66e08, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MenuRpcManager* get_menuRpcManager();
-
-  /// @brief Method set_menuRpcManager, addr 0xe66e10, size 0x8, virtual false, abstract: false, final false
-  inline void set_menuRpcManager(::GlobalNamespace::MenuRpcManager* value);
-
-  /// @brief Method get_gameplayRpcManager, addr 0xe66e18, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayRpcManager* get_gameplayRpcManager();
-
-  /// @brief Method set_gameplayRpcManager, addr 0xe66e20, size 0x8, virtual false, abstract: false, final false
-  inline void set_gameplayRpcManager(::GlobalNamespace::GameplayRpcManager* value);
-
-  static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* New_ctor(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
-
-  /// @brief Method .ctor, addr 0xe66c4c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xeacc1c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
+  /// @brief Method get_beatmapProvider, addr 0xeacdc8, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::IServerBeatmapProvider* get_beatmapProvider();
+
+  /// @brief Method get_configuration, addr 0xeacda0, size 0x14, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
+
+  /// @brief Method get_gameplayRpcManager, addr 0xeacde8, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::GameplayRpcManager* get_gameplayRpcManager();
+
+  /// @brief Method get_menuRpcManager, addr 0xeacdd8, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::MenuRpcManager* get_menuRpcManager();
+
+  /// @brief Method get_multiplayerSessionManager, addr 0xeacd50, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
+
+  /// @brief Method get_ownerUserId, addr 0xeacd60, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_ownerUserId();
+
+  /// @brief Method get_selectionMask, addr 0xeacd70, size 0x18, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
+
+  /// @brief Method get_taskUtility, addr 0xeacd40, size 0x8, virtual false, abstract: false, final false
+  inline ::BGNet::Core::ITaskUtility* get_taskUtility();
+
+  /// @brief Method set_beatmapProvider, addr 0xeacdd0, size 0x8, virtual false, abstract: false, final false
+  inline void set_beatmapProvider(::GlobalNamespace::IServerBeatmapProvider* value);
+
+  /// @brief Method set_configuration, addr 0xeacdb4, size 0x14, virtual false, abstract: false, final false
+  inline void set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
+
+  /// @brief Method set_gameplayRpcManager, addr 0xeacdf0, size 0x8, virtual false, abstract: false, final false
+  inline void set_gameplayRpcManager(::GlobalNamespace::GameplayRpcManager* value);
+
+  /// @brief Method set_menuRpcManager, addr 0xeacde0, size 0x8, virtual false, abstract: false, final false
+  inline void set_menuRpcManager(::GlobalNamespace::MenuRpcManager* value);
+
+  /// @brief Method set_multiplayerSessionManager, addr 0xeacd58, size 0x8, virtual false, abstract: false, final false
+  inline void set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+
+  /// @brief Method set_ownerUserId, addr 0xeacd68, size 0x8, virtual false, abstract: false, final false
+  inline void set_ownerUserId(::StringW value);
+
+  /// @brief Method set_selectionMask, addr 0xeacd88, size 0x18, virtual false, abstract: false, final false
+  inline void set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
+
+  /// @brief Method set_taskUtility, addr 0xeacd48, size 0x8, virtual false, abstract: false, final false
+  inline void set_taskUtility(::BGNet::Core::ITaskUtility* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameplayServerFiniteStateMachine();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameplayServerFiniteStateMachine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameplayServerFiniteStateMachine(GameplayServerFiniteStateMachine&&) = delete;
@@ -296,12 +298,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameplayServerFiniteStateMachine(GameplayServerFiniteStateMachine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameplayServerFiniteStateMachine();
-
-public:
   /// @brief Field <taskUtility>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BGNet::Core::ITaskUtility* ____taskUtility_k__BackingField;
 

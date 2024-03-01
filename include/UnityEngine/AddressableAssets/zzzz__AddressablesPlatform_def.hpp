@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::AddressableAssets::AddressablesPlatform);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14111))
 // CS Name: ::UnityEngine.AddressableAssets::AddressablesPlatform
 struct CORDL_TYPE AddressablesPlatform {
 public:
@@ -43,30 +41,29 @@ public:
     return static_cast<__AddressablesPlatform_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AddressablesPlatform(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__AddressablesPlatform_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AddressablesPlatform();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AddressablesPlatform(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::AddressableAssets::AddressablesPlatform const Unknown;
-
-  /// @brief Field Windows value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::AddressableAssets::AddressablesPlatform const Windows;
-
-  /// @brief Field OSX value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::AddressableAssets::AddressablesPlatform const OSX;
+  /// @brief Field Android value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::AddressableAssets::AddressablesPlatform const Android;
 
   /// @brief Field Linux value: static_cast<int32_t>(0x3)
   static ::UnityEngine::AddressableAssets::AddressablesPlatform const Linux;
+
+  /// @brief Field OSX value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::AddressableAssets::AddressablesPlatform const OSX;
 
   /// @brief Field PS4 value: static_cast<int32_t>(0x4)
   static ::UnityEngine::AddressableAssets::AddressablesPlatform const PS4;
@@ -74,20 +71,26 @@ public:
   /// @brief Field Switch value: static_cast<int32_t>(0x5)
   static ::UnityEngine::AddressableAssets::AddressablesPlatform const Switch;
 
-  /// @brief Field XboxOne value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::AddressableAssets::AddressablesPlatform const XboxOne;
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::AddressableAssets::AddressablesPlatform const Unknown;
 
   /// @brief Field WebGL value: static_cast<int32_t>(0x7)
   static ::UnityEngine::AddressableAssets::AddressablesPlatform const WebGL;
 
-  /// @brief Field iOS value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::AddressableAssets::AddressablesPlatform const iOS;
-
-  /// @brief Field Android value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::AddressableAssets::AddressablesPlatform const Android;
+  /// @brief Field Windows value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::AddressableAssets::AddressablesPlatform const Windows;
 
   /// @brief Field WindowsUniversal value: static_cast<int32_t>(0xa)
   static ::UnityEngine::AddressableAssets::AddressablesPlatform const WindowsUniversal;
+
+  /// @brief Field XboxOne value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::AddressableAssets::AddressablesPlatform const XboxOne;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field iOS value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::AddressableAssets::AddressablesPlatform const iOS;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

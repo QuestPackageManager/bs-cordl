@@ -19,20 +19,18 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_DualAnalog_t);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8539))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8630))
 // CS Name: ::OVR.OpenVR::VREvent_DualAnalog_t
 struct CORDL_TYPE VREvent_DualAnalog_t {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VREvent_DualAnalog_t();
+
   // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transformedX", ty:
   // "float_t", modifiers: "", def_value: None }, CppParam { name: "transformedY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "which", ty: "::OVR::OpenVR::EDualAnalogWhich",
   // modifiers: "", def_value: None }]
   constexpr VREvent_DualAnalog_t(float_t x, float_t y, float_t transformedX, float_t transformedY, ::OVR::OpenVR::EDualAnalogWhich which) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VREvent_DualAnalog_t();
 
   /// @brief Field x, offset: 0x0, size: 0x4, def value: None
   float_t x;

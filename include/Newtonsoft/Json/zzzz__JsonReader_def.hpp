@@ -81,8 +81,6 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonReader);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11730))
 // CS Name: ::JsonReader::State
 struct CORDL_TYPE __JsonReader__State {
 public:
@@ -111,57 +109,62 @@ public:
     return static_cast<____JsonReader__State_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __JsonReader__State(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____JsonReader__State_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __JsonReader__State();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __JsonReader__State(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Start value: static_cast<int32_t>(0x0)
-  static ::Newtonsoft::Json::__JsonReader__State const Start;
-
-  /// @brief Field Complete value: static_cast<int32_t>(0x1)
-  static ::Newtonsoft::Json::__JsonReader__State const Complete;
-
-  /// @brief Field Property value: static_cast<int32_t>(0x2)
-  static ::Newtonsoft::Json::__JsonReader__State const Property;
-
-  /// @brief Field ObjectStart value: static_cast<int32_t>(0x3)
-  static ::Newtonsoft::Json::__JsonReader__State const ObjectStart;
-
-  /// @brief Field Object value: static_cast<int32_t>(0x4)
-  static ::Newtonsoft::Json::__JsonReader__State const Object;
-
-  /// @brief Field ArrayStart value: static_cast<int32_t>(0x5)
-  static ::Newtonsoft::Json::__JsonReader__State const ArrayStart;
 
   /// @brief Field Array value: static_cast<int32_t>(0x6)
   static ::Newtonsoft::Json::__JsonReader__State const Array;
 
+  /// @brief Field ArrayStart value: static_cast<int32_t>(0x5)
+  static ::Newtonsoft::Json::__JsonReader__State const ArrayStart;
+
   /// @brief Field Closed value: static_cast<int32_t>(0x7)
   static ::Newtonsoft::Json::__JsonReader__State const Closed;
 
-  /// @brief Field PostValue value: static_cast<int32_t>(0x8)
-  static ::Newtonsoft::Json::__JsonReader__State const PostValue;
-
-  /// @brief Field ConstructorStart value: static_cast<int32_t>(0x9)
-  static ::Newtonsoft::Json::__JsonReader__State const ConstructorStart;
+  /// @brief Field Complete value: static_cast<int32_t>(0x1)
+  static ::Newtonsoft::Json::__JsonReader__State const Complete;
 
   /// @brief Field Constructor value: static_cast<int32_t>(0xa)
   static ::Newtonsoft::Json::__JsonReader__State const Constructor;
+
+  /// @brief Field ConstructorStart value: static_cast<int32_t>(0x9)
+  static ::Newtonsoft::Json::__JsonReader__State const ConstructorStart;
 
   /// @brief Field Error value: static_cast<int32_t>(0xb)
   static ::Newtonsoft::Json::__JsonReader__State const Error;
 
   /// @brief Field Finished value: static_cast<int32_t>(0xc)
   static ::Newtonsoft::Json::__JsonReader__State const Finished;
+
+  /// @brief Field Object value: static_cast<int32_t>(0x4)
+  static ::Newtonsoft::Json::__JsonReader__State const Object;
+
+  /// @brief Field ObjectStart value: static_cast<int32_t>(0x3)
+  static ::Newtonsoft::Json::__JsonReader__State const ObjectStart;
+
+  /// @brief Field PostValue value: static_cast<int32_t>(0x8)
+  static ::Newtonsoft::Json::__JsonReader__State const PostValue;
+
+  /// @brief Field Property value: static_cast<int32_t>(0x2)
+  static ::Newtonsoft::Json::__JsonReader__State const Property;
+
+  /// @brief Field Start value: static_cast<int32_t>(0x0)
+  static ::Newtonsoft::Json::__JsonReader__State const Start;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -175,53 +178,41 @@ static_assert(offsetof(::Newtonsoft::Json::__JsonReader__State, value__) == 0x0,
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 114, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11694)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11695)), TypeDefinitionIndex(TypeDefinitionIndex(11697)), TypeDefinitionIndex(TypeDefinitionIndex(11705)), TypeDefinitionIndex(TypeDefinitionIndex(11730)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11739)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 103 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11731)) CS
-// Name: ::Newtonsoft.Json::JsonReader*
+// CS Name: ::Newtonsoft.Json::JsonReader*
 class CORDL_TYPE JsonReader : public ::System::Object {
 public:
   // Declarations
   using State = ::Newtonsoft::Json::__JsonReader__State;
 
-  /// @brief Field _tokenType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__tokenType, put = __cordl_internal_set__tokenType))::Newtonsoft::Json::JsonToken _tokenType;
+  __declspec(property(get = get_CloseInput, put = set_CloseInput)) bool CloseInput;
 
-  /// @brief Field _value, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::System::Object* _value;
+  __declspec(property(get = get_Culture, put = set_Culture))::System::Globalization::CultureInfo* Culture;
 
-  /// @brief Field _quoteChar, offset 0x20, size 0x2
-  __declspec(property(get = __cordl_internal_get__quoteChar, put = __cordl_internal_set__quoteChar)) char16_t _quoteChar;
+  __declspec(property(get = get_CurrentState))::Newtonsoft::Json::__JsonReader__State CurrentState;
 
-  /// @brief Field _currentState, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__currentState, put = __cordl_internal_set__currentState))::Newtonsoft::Json::__JsonReader__State _currentState;
+  __declspec(property(get = get_DateFormatString, put = set_DateFormatString))::StringW DateFormatString;
 
-  /// @brief Field _currentPosition, offset 0x28, size 0x18
-  __declspec(property(get = __cordl_internal_get__currentPosition, put = __cordl_internal_set__currentPosition))::Newtonsoft::Json::JsonPosition _currentPosition;
+  __declspec(property(get = get_DateParseHandling, put = set_DateParseHandling))::Newtonsoft::Json::DateParseHandling DateParseHandling;
 
-  /// @brief Field _culture, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture))::System::Globalization::CultureInfo* _culture;
+  __declspec(property(get = get_DateTimeZoneHandling, put = set_DateTimeZoneHandling))::Newtonsoft::Json::DateTimeZoneHandling DateTimeZoneHandling;
 
-  /// @brief Field _dateTimeZoneHandling, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__dateTimeZoneHandling, put = __cordl_internal_set__dateTimeZoneHandling))::Newtonsoft::Json::DateTimeZoneHandling _dateTimeZoneHandling;
+  __declspec(property(get = get_Depth)) int32_t Depth;
 
-  /// @brief Field _maxDepth, offset 0x4c, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxDepth, put = __cordl_internal_set__maxDepth))::System::Nullable_1<int32_t> _maxDepth;
+  __declspec(property(get = get_FloatParseHandling, put = set_FloatParseHandling))::Newtonsoft::Json::FloatParseHandling FloatParseHandling;
 
-  /// @brief Field _hasExceededMaxDepth, offset 0x54, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasExceededMaxDepth, put = __cordl_internal_set__hasExceededMaxDepth)) bool _hasExceededMaxDepth;
+  __declspec(property(get = get_MaxDepth, put = set_MaxDepth))::System::Nullable_1<int32_t> MaxDepth;
 
-  /// @brief Field _dateParseHandling, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__dateParseHandling, put = __cordl_internal_set__dateParseHandling))::Newtonsoft::Json::DateParseHandling _dateParseHandling;
+  __declspec(property(get = get_Path))::StringW Path;
 
-  /// @brief Field _floatParseHandling, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__floatParseHandling, put = __cordl_internal_set__floatParseHandling))::Newtonsoft::Json::FloatParseHandling _floatParseHandling;
+  __declspec(property(get = get_QuoteChar, put = set_QuoteChar)) char16_t QuoteChar;
 
-  /// @brief Field _dateFormatString, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__dateFormatString, put = __cordl_internal_set__dateFormatString))::StringW _dateFormatString;
+  __declspec(property(get = get_SupportMultipleContent, put = set_SupportMultipleContent)) bool SupportMultipleContent;
 
-  /// @brief Field _stack, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack))::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* _stack;
+  __declspec(property(get = get_TokenType))::Newtonsoft::Json::JsonToken TokenType;
+
+  __declspec(property(get = get_Value))::System::Object* Value;
+
+  __declspec(property(get = get_ValueType))::System::Type* ValueType;
 
   /// @brief Field <CloseInput>k__BackingField, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get__CloseInput_k__BackingField, put = __cordl_internal_set__CloseInput_k__BackingField)) bool _CloseInput_k__BackingField;
@@ -230,329 +221,344 @@ public:
   __declspec(property(get = __cordl_internal_get__SupportMultipleContent_k__BackingField,
                       put = __cordl_internal_set__SupportMultipleContent_k__BackingField)) bool _SupportMultipleContent_k__BackingField;
 
-  __declspec(property(get = get_CurrentState))::Newtonsoft::Json::__JsonReader__State CurrentState;
+  /// @brief Field _culture, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture))::System::Globalization::CultureInfo* _culture;
 
-  __declspec(property(get = get_CloseInput, put = set_CloseInput)) bool CloseInput;
+  /// @brief Field _currentPosition, offset 0x28, size 0x18
+  __declspec(property(get = __cordl_internal_get__currentPosition, put = __cordl_internal_set__currentPosition))::Newtonsoft::Json::JsonPosition _currentPosition;
 
-  __declspec(property(get = get_SupportMultipleContent, put = set_SupportMultipleContent)) bool SupportMultipleContent;
+  /// @brief Field _currentState, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get__currentState, put = __cordl_internal_set__currentState))::Newtonsoft::Json::__JsonReader__State _currentState;
 
-  __declspec(property(get = get_QuoteChar, put = set_QuoteChar)) char16_t QuoteChar;
+  /// @brief Field _dateFormatString, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__dateFormatString, put = __cordl_internal_set__dateFormatString))::StringW _dateFormatString;
 
-  __declspec(property(get = get_DateTimeZoneHandling, put = set_DateTimeZoneHandling))::Newtonsoft::Json::DateTimeZoneHandling DateTimeZoneHandling;
+  /// @brief Field _dateParseHandling, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get__dateParseHandling, put = __cordl_internal_set__dateParseHandling))::Newtonsoft::Json::DateParseHandling _dateParseHandling;
 
-  __declspec(property(get = get_DateParseHandling, put = set_DateParseHandling))::Newtonsoft::Json::DateParseHandling DateParseHandling;
+  /// @brief Field _dateTimeZoneHandling, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get__dateTimeZoneHandling, put = __cordl_internal_set__dateTimeZoneHandling))::Newtonsoft::Json::DateTimeZoneHandling _dateTimeZoneHandling;
 
-  __declspec(property(get = get_FloatParseHandling, put = set_FloatParseHandling))::Newtonsoft::Json::FloatParseHandling FloatParseHandling;
+  /// @brief Field _floatParseHandling, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get__floatParseHandling, put = __cordl_internal_set__floatParseHandling))::Newtonsoft::Json::FloatParseHandling _floatParseHandling;
 
-  __declspec(property(get = get_DateFormatString, put = set_DateFormatString))::StringW DateFormatString;
+  /// @brief Field _hasExceededMaxDepth, offset 0x54, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasExceededMaxDepth, put = __cordl_internal_set__hasExceededMaxDepth)) bool _hasExceededMaxDepth;
 
-  __declspec(property(get = get_MaxDepth, put = set_MaxDepth))::System::Nullable_1<int32_t> MaxDepth;
+  /// @brief Field _maxDepth, offset 0x4c, size 0x8
+  __declspec(property(get = __cordl_internal_get__maxDepth, put = __cordl_internal_set__maxDepth))::System::Nullable_1<int32_t> _maxDepth;
 
-  __declspec(property(get = get_TokenType))::Newtonsoft::Json::JsonToken TokenType;
+  /// @brief Field _quoteChar, offset 0x20, size 0x2
+  __declspec(property(get = __cordl_internal_get__quoteChar, put = __cordl_internal_set__quoteChar)) char16_t _quoteChar;
 
-  __declspec(property(get = get_Value))::System::Object* Value;
+  /// @brief Field _stack, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack))::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* _stack;
 
-  __declspec(property(get = get_ValueType))::System::Type* ValueType;
+  /// @brief Field _tokenType, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__tokenType, put = __cordl_internal_set__tokenType))::Newtonsoft::Json::JsonToken _tokenType;
 
-  __declspec(property(get = get_Depth)) int32_t Depth;
-
-  __declspec(property(get = get_Path))::StringW Path;
-
-  __declspec(property(get = get_Culture, put = set_Culture))::System::Globalization::CultureInfo* Culture;
+  /// @brief Field _value, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::System::Object* _value;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Close, addr 0x273b30c, size 0x14, virtual true, abstract: false, final false
+  inline void Close();
 
-  constexpr ::Newtonsoft::Json::JsonToken& __cordl_internal_get__tokenType();
+  /// @brief Method CreateUnexpectedEndException, addr 0x273a1fc, size 0x4c, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedEndException();
 
-  constexpr ::Newtonsoft::Json::JsonToken const& __cordl_internal_get__tokenType() const;
+  /// @brief Method Dispose, addr 0x27402a8, size 0x24, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  constexpr void __cordl_internal_set__tokenType(::Newtonsoft::Json::JsonToken value);
+  /// @brief Method GetContentToken, addr 0x273e9e4, size 0x74, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonToken GetContentToken();
 
-  constexpr ::System::Object*& __cordl_internal_get__value();
+  /// @brief Method GetPosition, addr 0x273e2a0, size 0xa4, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonPosition GetPosition(int32_t depth);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__value() const;
+  /// @brief Method GetTypeForCloseToken, addr 0x2740190, size 0xa8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonContainerType GetTypeForCloseToken(::Newtonsoft::Json::JsonToken token);
 
-  constexpr void __cordl_internal_set__value(::System::Object* value);
+  /// @brief Method MoveToContent, addr 0x2740358, size 0x58, virtual false, abstract: false, final false
+  inline bool MoveToContent();
 
-  constexpr char16_t& __cordl_internal_get__quoteChar();
+  static inline ::Newtonsoft::Json::JsonReader* New_ctor();
 
-  constexpr char16_t const& __cordl_internal_get__quoteChar() const;
+  /// @brief Method Peek, addr 0x273e700, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonContainerType Peek();
 
-  constexpr void __cordl_internal_set__quoteChar(char16_t value);
+  /// @brief Method Pop, addr 0x273e5e4, size 0x11c, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonContainerType Pop();
 
-  constexpr ::Newtonsoft::Json::__JsonReader__State& __cordl_internal_get__currentState();
+  /// @brief Method Push, addr 0x273e344, size 0x288, virtual false, abstract: false, final false
+  inline void Push(::Newtonsoft::Json::JsonContainerType value);
 
-  constexpr ::Newtonsoft::Json::__JsonReader__State const& __cordl_internal_get__currentState() const;
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool Read();
 
-  constexpr void __cordl_internal_set__currentState(::Newtonsoft::Json::__JsonReader__State value);
+  /// @brief Method ReadAndAssert, addr 0x27402cc, size 0x54, virtual false, abstract: false, final false
+  inline void ReadAndAssert();
 
-  constexpr ::Newtonsoft::Json::JsonPosition& __cordl_internal_get__currentPosition();
+  /// @brief Method ReadAndMoveToContent, addr 0x2740328, size 0x30, virtual false, abstract: false, final false
+  inline bool ReadAndMoveToContent();
 
-  constexpr ::Newtonsoft::Json::JsonPosition const& __cordl_internal_get__currentPosition() const;
+  /// @brief Method ReadArrayIntoByteArray, addr 0x2737340, size 0x29c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadArrayIntoByteArray();
 
-  constexpr void __cordl_internal_set__currentPosition(::Newtonsoft::Json::JsonPosition value);
+  /// @brief Method ReadAsBoolean, addr 0x273f484, size 0x2c0, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<bool> ReadAsBoolean();
+
+  /// @brief Method ReadAsBytes, addr 0x273edc0, size 0x3f8, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
+
+  /// @brief Method ReadAsDateTime, addr 0x273fa54, size 0x2c0, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
+
+  /// @brief Method ReadAsDateTimeOffset, addr 0x273fd14, size 0x2cc, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
+
+  /// @brief Method ReadAsDecimal, addr 0x273f744, size 0x310, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
+
+  /// @brief Method ReadAsDouble, addr 0x273f1b8, size 0x2cc, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<double_t> ReadAsDouble();
+
+  /// @brief Method ReadAsInt32, addr 0x273e708, size 0x2dc, virtual true, abstract: false, final false
+  inline ::System::Nullable_1<int32_t> ReadAsInt32();
+
+  /// @brief Method ReadAsString, addr 0x273ea58, size 0x368, virtual true, abstract: false, final false
+  inline ::StringW ReadAsString();
+
+  /// @brief Method ReadBooleanString, addr 0x273963c, size 0x1e8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<bool> ReadBooleanString(::StringW s);
+
+  /// @brief Method ReadDateTimeOffsetString, addr 0x2737c48, size 0x268, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::System::DateTimeOffset> ReadDateTimeOffsetString(::StringW s);
+
+  /// @brief Method ReadDateTimeString, addr 0x27379c0, size 0x288, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::System::DateTime> ReadDateTimeString(::StringW s);
+
+  /// @brief Method ReadDecimalString, addr 0x2739afc, size 0x22c, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::System::Decimal> ReadDecimalString(::StringW s);
+
+  /// @brief Method ReadDoubleString, addr 0x2739d28, size 0x1dc, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<double_t> ReadDoubleString(::StringW s);
+
+  /// @brief Method ReadInt32String, addr 0x2739914, size 0x1e8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<int32_t> ReadInt32String(::StringW s);
+
+  /// @brief Method ReadIntoWrappedTypeObject, addr 0x2737188, size 0x1b8, virtual false, abstract: false, final false
+  inline void ReadIntoWrappedTypeObject();
+
+  /// @brief Method ReaderReadAndAssert, addr 0x2737144, size 0x44, virtual false, abstract: false, final false
+  inline void ReaderReadAndAssert();
+
+  /// @brief Method SetFinished, addr 0x2740178, size 0x18, virtual false, abstract: false, final false
+  inline void SetFinished();
+
+  /// @brief Method SetPostValueState, addr 0x2734c24, size 0x40, virtual false, abstract: false, final false
+  inline void SetPostValueState(bool updateIndex);
+
+  /// @brief Method SetStateBasedOnCurrent, addr 0x2739824, size 0xf0, virtual false, abstract: false, final false
+  inline void SetStateBasedOnCurrent();
+
+  /// @brief Method SetToken, addr 0x2735c88, size 0xc, virtual false, abstract: false, final false
+  inline void SetToken(::Newtonsoft::Json::JsonToken newToken);
+
+  /// @brief Method SetToken, addr 0x2738e94, size 0x8, virtual false, abstract: false, final false
+  inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value);
+
+  /// @brief Method SetToken, addr 0x2734c64, size 0x158, virtual false, abstract: false, final false
+  inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value, bool updateIndex);
+
+  /// @brief Method Skip, addr 0x273ffe0, size 0x98, virtual false, abstract: false, final false
+  inline void Skip();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x2740238, size 0x70, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
+
+  /// @brief Method UpdateScopeWithFinishedValue, addr 0x273e5cc, size 0x18, virtual false, abstract: false, final false
+  inline void UpdateScopeWithFinishedValue();
+
+  /// @brief Method ValidateEnd, addr 0x2740078, size 0x100, virtual false, abstract: false, final false
+  inline void ValidateEnd(::Newtonsoft::Json::JsonToken endToken);
+
+  constexpr bool const& __cordl_internal_get__CloseInput_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__CloseInput_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__SupportMultipleContent_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__SupportMultipleContent_k__BackingField();
 
   constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get__culture() const;
 
-  constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
+  constexpr ::Newtonsoft::Json::JsonPosition const& __cordl_internal_get__currentPosition() const;
 
-  constexpr ::Newtonsoft::Json::DateTimeZoneHandling& __cordl_internal_get__dateTimeZoneHandling();
+  constexpr ::Newtonsoft::Json::JsonPosition& __cordl_internal_get__currentPosition();
 
-  constexpr ::Newtonsoft::Json::DateTimeZoneHandling const& __cordl_internal_get__dateTimeZoneHandling() const;
+  constexpr ::Newtonsoft::Json::__JsonReader__State const& __cordl_internal_get__currentState() const;
 
-  constexpr void __cordl_internal_set__dateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
-
-  constexpr ::System::Nullable_1<int32_t>& __cordl_internal_get__maxDepth();
-
-  constexpr ::System::Nullable_1<int32_t> const& __cordl_internal_get__maxDepth() const;
-
-  constexpr void __cordl_internal_set__maxDepth(::System::Nullable_1<int32_t> value);
-
-  constexpr bool& __cordl_internal_get__hasExceededMaxDepth();
-
-  constexpr bool const& __cordl_internal_get__hasExceededMaxDepth() const;
-
-  constexpr void __cordl_internal_set__hasExceededMaxDepth(bool value);
-
-  constexpr ::Newtonsoft::Json::DateParseHandling& __cordl_internal_get__dateParseHandling();
-
-  constexpr ::Newtonsoft::Json::DateParseHandling const& __cordl_internal_get__dateParseHandling() const;
-
-  constexpr void __cordl_internal_set__dateParseHandling(::Newtonsoft::Json::DateParseHandling value);
-
-  constexpr ::Newtonsoft::Json::FloatParseHandling& __cordl_internal_get__floatParseHandling();
-
-  constexpr ::Newtonsoft::Json::FloatParseHandling const& __cordl_internal_get__floatParseHandling() const;
-
-  constexpr void __cordl_internal_set__floatParseHandling(::Newtonsoft::Json::FloatParseHandling value);
-
-  constexpr ::StringW& __cordl_internal_get__dateFormatString();
+  constexpr ::Newtonsoft::Json::__JsonReader__State& __cordl_internal_get__currentState();
 
   constexpr ::StringW const& __cordl_internal_get__dateFormatString() const;
 
-  constexpr void __cordl_internal_set__dateFormatString(::StringW value);
+  constexpr ::StringW& __cordl_internal_get__dateFormatString();
+
+  constexpr ::Newtonsoft::Json::DateParseHandling const& __cordl_internal_get__dateParseHandling() const;
+
+  constexpr ::Newtonsoft::Json::DateParseHandling& __cordl_internal_get__dateParseHandling();
+
+  constexpr ::Newtonsoft::Json::DateTimeZoneHandling const& __cordl_internal_get__dateTimeZoneHandling() const;
+
+  constexpr ::Newtonsoft::Json::DateTimeZoneHandling& __cordl_internal_get__dateTimeZoneHandling();
+
+  constexpr ::Newtonsoft::Json::FloatParseHandling const& __cordl_internal_get__floatParseHandling() const;
+
+  constexpr ::Newtonsoft::Json::FloatParseHandling& __cordl_internal_get__floatParseHandling();
+
+  constexpr bool const& __cordl_internal_get__hasExceededMaxDepth() const;
+
+  constexpr bool& __cordl_internal_get__hasExceededMaxDepth();
+
+  constexpr ::System::Nullable_1<int32_t> const& __cordl_internal_get__maxDepth() const;
+
+  constexpr ::System::Nullable_1<int32_t>& __cordl_internal_get__maxDepth();
+
+  constexpr char16_t const& __cordl_internal_get__quoteChar() const;
+
+  constexpr char16_t& __cordl_internal_get__quoteChar();
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*& __cordl_internal_get__stack();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*> const& __cordl_internal_get__stack() const;
 
-  constexpr void __cordl_internal_set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* value);
+  constexpr ::Newtonsoft::Json::JsonToken const& __cordl_internal_get__tokenType() const;
 
-  constexpr bool& __cordl_internal_get__CloseInput_k__BackingField();
+  constexpr ::Newtonsoft::Json::JsonToken& __cordl_internal_get__tokenType();
 
-  constexpr bool const& __cordl_internal_get__CloseInput_k__BackingField() const;
+  constexpr ::System::Object*& __cordl_internal_get__value();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__value() const;
 
   constexpr void __cordl_internal_set__CloseInput_k__BackingField(bool value);
 
-  constexpr bool& __cordl_internal_get__SupportMultipleContent_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__SupportMultipleContent_k__BackingField() const;
-
   constexpr void __cordl_internal_set__SupportMultipleContent_k__BackingField(bool value);
 
-  /// @brief Method get_CurrentState, addr 0x266e730, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::__JsonReader__State get_CurrentState();
+  constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method get_CloseInput, addr 0x266e738, size 0x8, virtual false, abstract: false, final false
-  inline bool get_CloseInput();
+  constexpr void __cordl_internal_set__currentPosition(::Newtonsoft::Json::JsonPosition value);
 
-  /// @brief Method set_CloseInput, addr 0x266e740, size 0xc, virtual false, abstract: false, final false
-  inline void set_CloseInput(bool value);
+  constexpr void __cordl_internal_set__currentState(::Newtonsoft::Json::__JsonReader__State value);
 
-  /// @brief Method get_SupportMultipleContent, addr 0x266e74c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_SupportMultipleContent();
+  constexpr void __cordl_internal_set__dateFormatString(::StringW value);
 
-  /// @brief Method set_SupportMultipleContent, addr 0x266e754, size 0xc, virtual false, abstract: false, final false
-  inline void set_SupportMultipleContent(bool value);
+  constexpr void __cordl_internal_set__dateParseHandling(::Newtonsoft::Json::DateParseHandling value);
 
-  /// @brief Method get_QuoteChar, addr 0x266e760, size 0x8, virtual true, abstract: false, final false
-  inline char16_t get_QuoteChar();
+  constexpr void __cordl_internal_set__dateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
 
-  /// @brief Method set_QuoteChar, addr 0x266e768, size 0x8, virtual true, abstract: false, final false
-  inline void set_QuoteChar(char16_t value);
+  constexpr void __cordl_internal_set__floatParseHandling(::Newtonsoft::Json::FloatParseHandling value);
 
-  /// @brief Method get_DateTimeZoneHandling, addr 0x266e770, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::DateTimeZoneHandling get_DateTimeZoneHandling();
+  constexpr void __cordl_internal_set__hasExceededMaxDepth(bool value);
 
-  /// @brief Method set_DateTimeZoneHandling, addr 0x266e778, size 0x64, virtual false, abstract: false, final false
-  inline void set_DateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
+  constexpr void __cordl_internal_set__maxDepth(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method get_DateParseHandling, addr 0x266e7dc, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::DateParseHandling get_DateParseHandling();
+  constexpr void __cordl_internal_set__quoteChar(char16_t value);
 
-  /// @brief Method set_DateParseHandling, addr 0x266e7e4, size 0x64, virtual false, abstract: false, final false
-  inline void set_DateParseHandling(::Newtonsoft::Json::DateParseHandling value);
+  constexpr void __cordl_internal_set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* value);
 
-  /// @brief Method get_FloatParseHandling, addr 0x266e848, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::FloatParseHandling get_FloatParseHandling();
+  constexpr void __cordl_internal_set__tokenType(::Newtonsoft::Json::JsonToken value);
 
-  /// @brief Method set_FloatParseHandling, addr 0x266e850, size 0x64, virtual false, abstract: false, final false
-  inline void set_FloatParseHandling(::Newtonsoft::Json::FloatParseHandling value);
+  constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method get_DateFormatString, addr 0x266e8b4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_DateFormatString();
-
-  /// @brief Method set_DateFormatString, addr 0x266e8bc, size 0x8, virtual false, abstract: false, final false
-  inline void set_DateFormatString(::StringW value);
-
-  /// @brief Method get_MaxDepth, addr 0x266e8c4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<int32_t> get_MaxDepth();
-
-  /// @brief Method set_MaxDepth, addr 0x266e8cc, size 0xc0, virtual false, abstract: false, final false
-  inline void set_MaxDepth(::System::Nullable_1<int32_t> value);
-
-  /// @brief Method get_TokenType, addr 0x266e98c, size 0x8, virtual true, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonToken get_TokenType();
-
-  /// @brief Method get_Value, addr 0x266e994, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Object* get_Value();
-
-  /// @brief Method get_ValueType, addr 0x266e99c, size 0x14, virtual true, abstract: false, final false
-  inline ::System::Type* get_ValueType();
-
-  /// @brief Method get_Depth, addr 0x266e9b0, size 0x7c, virtual true, abstract: false, final false
-  inline int32_t get_Depth();
-
-  /// @brief Method get_Path, addr 0x266ea2c, size 0x120, virtual true, abstract: false, final false
-  inline ::StringW get_Path();
-
-  /// @brief Method get_Culture, addr 0x2665670, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Globalization::CultureInfo* get_Culture();
-
-  /// @brief Method set_Culture, addr 0x266eb4c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Culture(::System::Globalization::CultureInfo* value);
-
-  /// @brief Method GetPosition, addr 0x266eb54, size 0xa4, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonPosition GetPosition(int32_t depth);
-
-  static inline ::Newtonsoft::Json::JsonReader* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2664adc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2734228, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Push, addr 0x266ebf8, size 0x288, virtual false, abstract: false, final false
-  inline void Push(::Newtonsoft::Json::JsonContainerType value);
+  /// @brief Method get_CloseInput, addr 0x273de84, size 0x8, virtual false, abstract: false, final false
+  inline bool get_CloseInput();
 
-  /// @brief Method Pop, addr 0x266ee98, size 0x11c, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonContainerType Pop();
+  /// @brief Method get_Culture, addr 0x2734dbc, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Globalization::CultureInfo* get_Culture();
 
-  /// @brief Method Peek, addr 0x266efb4, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonContainerType Peek();
+  /// @brief Method get_CurrentState, addr 0x273de7c, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::__JsonReader__State get_CurrentState();
 
-  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool Read();
+  /// @brief Method get_DateFormatString, addr 0x273e000, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_DateFormatString();
 
-  /// @brief Method ReadAsInt32, addr 0x266efbc, size 0x2dc, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<int32_t> ReadAsInt32();
+  /// @brief Method get_DateParseHandling, addr 0x273df28, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::DateParseHandling get_DateParseHandling();
 
-  /// @brief Method ReadInt32String, addr 0x266a1c8, size 0x1e8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<int32_t> ReadInt32String(::StringW s);
+  /// @brief Method get_DateTimeZoneHandling, addr 0x273debc, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::DateTimeZoneHandling get_DateTimeZoneHandling();
 
-  /// @brief Method ReadAsString, addr 0x266f30c, size 0x368, virtual true, abstract: false, final false
-  inline ::StringW ReadAsString();
+  /// @brief Method get_Depth, addr 0x273e0fc, size 0x7c, virtual true, abstract: false, final false
+  inline int32_t get_Depth();
 
-  /// @brief Method ReadAsBytes, addr 0x266f674, size 0x3f8, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
+  /// @brief Method get_FloatParseHandling, addr 0x273df94, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::FloatParseHandling get_FloatParseHandling();
 
-  /// @brief Method ReadArrayIntoByteArray, addr 0x2667bf4, size 0x29c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadArrayIntoByteArray();
+  /// @brief Method get_MaxDepth, addr 0x273e010, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<int32_t> get_MaxDepth();
 
-  /// @brief Method ReadAsDouble, addr 0x266fa6c, size 0x2cc, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<double_t> ReadAsDouble();
+  /// @brief Method get_Path, addr 0x273e178, size 0x120, virtual true, abstract: false, final false
+  inline ::StringW get_Path();
 
-  /// @brief Method ReadDoubleString, addr 0x266a5dc, size 0x1dc, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<double_t> ReadDoubleString(::StringW s);
+  /// @brief Method get_QuoteChar, addr 0x273deac, size 0x8, virtual true, abstract: false, final false
+  inline char16_t get_QuoteChar();
 
-  /// @brief Method ReadAsBoolean, addr 0x266fd38, size 0x2c0, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<bool> ReadAsBoolean();
+  /// @brief Method get_SupportMultipleContent, addr 0x273de98, size 0x8, virtual false, abstract: false, final false
+  inline bool get_SupportMultipleContent();
 
-  /// @brief Method ReadBooleanString, addr 0x2669ef0, size 0x1e8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<bool> ReadBooleanString(::StringW s);
+  /// @brief Method get_TokenType, addr 0x273e0d8, size 0x8, virtual true, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
-  /// @brief Method ReadAsDecimal, addr 0x266fff8, size 0x310, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
+  /// @brief Method get_Value, addr 0x273e0e0, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Object* get_Value();
 
-  /// @brief Method ReadDecimalString, addr 0x266a3b0, size 0x22c, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::System::Decimal> ReadDecimalString(::StringW s);
+  /// @brief Method get_ValueType, addr 0x273e0e8, size 0x14, virtual true, abstract: false, final false
+  inline ::System::Type* get_ValueType();
 
-  /// @brief Method ReadAsDateTime, addr 0x2670308, size 0x2c0, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method ReadDateTimeString, addr 0x2668274, size 0x288, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::System::DateTime> ReadDateTimeString(::StringW s);
+  /// @brief Method set_CloseInput, addr 0x273de8c, size 0xc, virtual false, abstract: false, final false
+  inline void set_CloseInput(bool value);
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x26705c8, size 0x2cc, virtual true, abstract: false, final false
-  inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
+  /// @brief Method set_Culture, addr 0x273e298, size 0x8, virtual false, abstract: false, final false
+  inline void set_Culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method ReadDateTimeOffsetString, addr 0x26684fc, size 0x268, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::System::DateTimeOffset> ReadDateTimeOffsetString(::StringW s);
+  /// @brief Method set_DateFormatString, addr 0x273e008, size 0x8, virtual false, abstract: false, final false
+  inline void set_DateFormatString(::StringW value);
 
-  /// @brief Method ReaderReadAndAssert, addr 0x26679f8, size 0x44, virtual false, abstract: false, final false
-  inline void ReaderReadAndAssert();
+  /// @brief Method set_DateParseHandling, addr 0x273df30, size 0x64, virtual false, abstract: false, final false
+  inline void set_DateParseHandling(::Newtonsoft::Json::DateParseHandling value);
 
-  /// @brief Method CreateUnexpectedEndException, addr 0x266aab0, size 0x4c, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedEndException();
+  /// @brief Method set_DateTimeZoneHandling, addr 0x273dec4, size 0x64, virtual false, abstract: false, final false
+  inline void set_DateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
 
-  /// @brief Method ReadIntoWrappedTypeObject, addr 0x2667a3c, size 0x1b8, virtual false, abstract: false, final false
-  inline void ReadIntoWrappedTypeObject();
+  /// @brief Method set_FloatParseHandling, addr 0x273df9c, size 0x64, virtual false, abstract: false, final false
+  inline void set_FloatParseHandling(::Newtonsoft::Json::FloatParseHandling value);
 
-  /// @brief Method Skip, addr 0x2670894, size 0x98, virtual false, abstract: false, final false
-  inline void Skip();
+  /// @brief Method set_MaxDepth, addr 0x273e018, size 0xc0, virtual false, abstract: false, final false
+  inline void set_MaxDepth(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method SetToken, addr 0x266653c, size 0xc, virtual false, abstract: false, final false
-  inline void SetToken(::Newtonsoft::Json::JsonToken newToken);
+  /// @brief Method set_QuoteChar, addr 0x273deb4, size 0x8, virtual true, abstract: false, final false
+  inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method SetToken, addr 0x2669748, size 0x8, virtual false, abstract: false, final false
-  inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value);
+  /// @brief Method set_SupportMultipleContent, addr 0x273dea0, size 0xc, virtual false, abstract: false, final false
+  inline void set_SupportMultipleContent(bool value);
 
-  /// @brief Method SetToken, addr 0x2665518, size 0x158, virtual false, abstract: false, final false
-  inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value, bool updateIndex);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonReader();
 
-  /// @brief Method SetPostValueState, addr 0x26654d8, size 0x40, virtual false, abstract: false, final false
-  inline void SetPostValueState(bool updateIndex);
-
-  /// @brief Method UpdateScopeWithFinishedValue, addr 0x266ee80, size 0x18, virtual false, abstract: false, final false
-  inline void UpdateScopeWithFinishedValue();
-
-  /// @brief Method ValidateEnd, addr 0x267092c, size 0x100, virtual false, abstract: false, final false
-  inline void ValidateEnd(::Newtonsoft::Json::JsonToken endToken);
-
-  /// @brief Method SetStateBasedOnCurrent, addr 0x266a0d8, size 0xf0, virtual false, abstract: false, final false
-  inline void SetStateBasedOnCurrent();
-
-  /// @brief Method SetFinished, addr 0x2670a2c, size 0x18, virtual false, abstract: false, final false
-  inline void SetFinished();
-
-  /// @brief Method GetTypeForCloseToken, addr 0x2670a44, size 0xa8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonContainerType GetTypeForCloseToken(::Newtonsoft::Json::JsonToken token);
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x2670aec, size 0x70, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  /// @brief Method Dispose, addr 0x2670b5c, size 0x24, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method Close, addr 0x266bbc0, size 0x14, virtual true, abstract: false, final false
-  inline void Close();
-
-  /// @brief Method ReadAndAssert, addr 0x2670b80, size 0x54, virtual false, abstract: false, final false
-  inline void ReadAndAssert();
-
-  /// @brief Method ReadAndMoveToContent, addr 0x2670bdc, size 0x30, virtual false, abstract: false, final false
-  inline bool ReadAndMoveToContent();
-
-  /// @brief Method MoveToContent, addr 0x2670c0c, size 0x58, virtual false, abstract: false, final false
-  inline bool MoveToContent();
-
-  /// @brief Method GetContentToken, addr 0x266f298, size 0x74, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonToken GetContentToken();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonReader(JsonReader&&) = delete;
@@ -561,12 +567,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonReader(JsonReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonReader();
-
-public:
   /// @brief Field _tokenType, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::JsonToken ____tokenType;
 

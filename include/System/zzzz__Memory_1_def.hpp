@@ -34,8 +34,6 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2437))
 // CS Name: ::System::Memory`1<T>
 struct CORDL_TYPE Memory_1 {
 public:
@@ -47,44 +45,11 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Memory_1<T>>"
   constexpr operator ::System::IEquatable_1<::System::Memory_1<T>>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::System::Memory_1<T>>"
-  constexpr ::System::IEquatable_1<::System::Memory_1<T>>* i___System__IEquatable_1___System__Memory_1_T__();
+  /// @brief Method CombineHashCodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<T, ::Array<T>*> array);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<T, ::Array<T>*> array, int32_t start, int32_t length);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* obj, int32_t start, int32_t length);
-
-  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Memory_1<T> op_Implicit___System__Memory_1_T_(::ArrayW<T, ::Array<T>*> array);
-
-  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::ReadOnlyMemory_1<T> op_Implicit___System__ReadOnlyMemory_1_T_(::System::Memory_1<T> memory);
-
-  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_Length();
-
-  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method Slice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Memory_1<T> Slice(int32_t start);
-
-  /// @brief Method Slice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Memory_1<T> Slice(int32_t start, int32_t length);
-
-  /// @brief Method get_Span, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Span_1<T> get_Span();
-
-  /// @brief Method Pin, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Buffers::MemoryHandle Pin();
-
-  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::ArrayW<T, ::Array<T>*> ToArray();
+  /// @brief Method CombineHashCodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline int32_t CombineHashCodes(int32_t left, int32_t right);
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
@@ -95,19 +60,52 @@ public:
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method CombineHashCodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline int32_t CombineHashCodes(int32_t left, int32_t right);
+  /// @brief Method Pin, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Buffers::MemoryHandle Pin();
 
-  /// @brief Method CombineHashCodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3);
+  /// @brief Method Slice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Memory_1<T> Slice(int32_t start);
 
-  // Ctor Parameters [CppParam { name: "_object", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr Memory_1(::System::Object* _object, int32_t _index, int32_t _length) noexcept;
+  /// @brief Method Slice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Memory_1<T> Slice(int32_t start, int32_t length);
+
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::ArrayW<T, ::Array<T>*> ToArray();
+
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<T, ::Array<T>*> array);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<T, ::Array<T>*> array, int32_t start, int32_t length);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* obj, int32_t start, int32_t length);
+
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_Length();
+
+  /// @brief Method get_Span, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Span_1<T> get_Span();
+
+  /// @brief Convert to "::System::IEquatable_1<::System::Memory_1<T>>"
+  constexpr ::System::IEquatable_1<::System::Memory_1<T>>* i___System__IEquatable_1___System__Memory_1_T__();
+
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Memory_1<T> op_Implicit___System__Memory_1_T_(::ArrayW<T, ::Array<T>*> array);
+
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::ReadOnlyMemory_1<T> op_Implicit___System__ReadOnlyMemory_1_T_(::System::Memory_1<T> memory);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Memory_1();
+
+  // Ctor Parameters [CppParam { name: "_object", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
+  // name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr Memory_1(::System::Object* _object, int32_t _index, int32_t _length) noexcept;
 
   /// @brief Field _object, offset: 0x0, size: 0x8, def value: None
   ::System::Object* _object;
@@ -118,11 +116,11 @@ public:
   /// @brief Field _length, offset: 0xc, size: 0x4, def value: None
   int32_t _length;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   /// @brief Field RemoveFlagsBitMask offset 0xffffffff size 0x4
   static constexpr int32_t RemoveFlagsBitMask{ static_cast<int32_t>(0x7fffffff) };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

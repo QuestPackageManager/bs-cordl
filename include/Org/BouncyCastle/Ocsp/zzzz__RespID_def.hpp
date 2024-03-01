@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::RespID);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1623))
 // CS Name: ::Org.BouncyCastle.Ocsp::RespID*
 class CORDL_TYPE RespID : public ::System::Object {
 public:
@@ -36,36 +34,42 @@ public:
   /// @brief Field id, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id;
 
+  /// @brief Method Equals, addr 0x1115c50, size 0xb0, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method GetHashCode, addr 0x1115d00, size 0x1c, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
+
+  static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name);
+
+  static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
+
+  /// @brief Method ToAsn1Object, addr 0x1115c48, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ToAsn1Object();
+
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*& __cordl_internal_get_id();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponderID*> const& __cordl_internal_get_id() const;
 
   constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* value);
 
-  static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
-
-  /// @brief Method .ctor, addr 0x10c8d7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x110cd4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
 
-  static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name);
-
-  /// @brief Method .ctor, addr 0x10d1bfc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1115bcc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
-  static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
-
-  /// @brief Method .ctor, addr 0x10ca09c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x110e06c, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method ToAsn1Object, addr 0x10d1c78, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RespID();
 
-  /// @brief Method Equals, addr 0x10d1c80, size 0xb0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x10d1d30, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RespID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RespID(RespID&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RespID(RespID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RespID();
-
-public:
   /// @brief Field id, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ___id;
 

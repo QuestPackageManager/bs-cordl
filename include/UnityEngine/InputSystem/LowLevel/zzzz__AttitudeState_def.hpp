@@ -24,8 +24,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::AttitudeState);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5770))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::AttitudeState
 struct CORDL_TYPE AttitudeState {
 public:
@@ -35,21 +33,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
-
-  /// @brief Method get_kFormat, addr 0x2aea808, size 0x30, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
-
-  /// @brief Method get_format, addr 0x2aea838, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x2bcf90c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  // Ctor Parameters [CppParam { name: "attitude", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
-  constexpr AttitudeState(::UnityEngine::Quaternion attitude) noexcept;
+  /// @brief Method get_kFormat, addr 0x2bcf8dc, size 0x30, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
+
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AttitudeState();
+
+  // Ctor Parameters [CppParam { name: "attitude", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }]
+  constexpr AttitudeState(::UnityEngine::Quaternion attitude) noexcept;
 
   /// @brief Field attitude, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Quaternion attitude;

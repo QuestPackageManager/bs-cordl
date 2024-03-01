@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Xml::XmlTokenizedType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11440))
 // CS Name: ::System.Xml::XmlTokenizedType
 struct CORDL_TYPE XmlTokenizedType {
 public:
@@ -45,24 +43,32 @@ public:
     return static_cast<__XmlTokenizedType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr XmlTokenizedType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__XmlTokenizedType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr XmlTokenizedType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr XmlTokenizedType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field CDATA value: static_cast<int32_t>(0x0)
   static ::System::Xml::XmlTokenizedType const CDATA;
 
-  /// @brief Field ID value: static_cast<int32_t>(0x1)
-  static ::System::Xml::XmlTokenizedType const _cordl_ID;
+  /// @brief Field ENTITIES value: static_cast<int32_t>(0x5)
+  static ::System::Xml::XmlTokenizedType const ENTITIES;
+
+  /// @brief Field ENTITY value: static_cast<int32_t>(0x4)
+  static ::System::Xml::XmlTokenizedType const ENTITY;
+
+  /// @brief Field ENUMERATION value: static_cast<int32_t>(0x9)
+  static ::System::Xml::XmlTokenizedType const ENUMERATION;
 
   /// @brief Field IDREF value: static_cast<int32_t>(0x2)
   static ::System::Xml::XmlTokenizedType const IDREF;
@@ -70,11 +76,8 @@ public:
   /// @brief Field IDREFS value: static_cast<int32_t>(0x3)
   static ::System::Xml::XmlTokenizedType const IDREFS;
 
-  /// @brief Field ENTITY value: static_cast<int32_t>(0x4)
-  static ::System::Xml::XmlTokenizedType const ENTITY;
-
-  /// @brief Field ENTITIES value: static_cast<int32_t>(0x5)
-  static ::System::Xml::XmlTokenizedType const ENTITIES;
+  /// @brief Field NCName value: static_cast<int32_t>(0xb)
+  static ::System::Xml::XmlTokenizedType const NCName;
 
   /// @brief Field NMTOKEN value: static_cast<int32_t>(0x6)
   static ::System::Xml::XmlTokenizedType const NMTOKEN;
@@ -85,17 +88,17 @@ public:
   /// @brief Field NOTATION value: static_cast<int32_t>(0x8)
   static ::System::Xml::XmlTokenizedType const NOTATION;
 
-  /// @brief Field ENUMERATION value: static_cast<int32_t>(0x9)
-  static ::System::Xml::XmlTokenizedType const ENUMERATION;
+  /// @brief Field None value: static_cast<int32_t>(0xc)
+  static ::System::Xml::XmlTokenizedType const None;
 
   /// @brief Field QName value: static_cast<int32_t>(0xa)
   static ::System::Xml::XmlTokenizedType const QName;
 
-  /// @brief Field NCName value: static_cast<int32_t>(0xb)
-  static ::System::Xml::XmlTokenizedType const NCName;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field None value: static_cast<int32_t>(0xc)
-  static ::System::Xml::XmlTokenizedType const None;
+  /// @brief Field ID value: static_cast<int32_t>(0x1)
+  static ::System::Xml::XmlTokenizedType const _cordl_ID;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

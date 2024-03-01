@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Srp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(729))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Srp::Srp6StandardGroups*
 class CORDL_TYPE Srp6StandardGroups : public ::System::Object {
 public:
@@ -48,45 +46,51 @@ public:
   /// @brief Field rfc5054_8192, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_rfc5054_8192, put = setStaticF_rfc5054_8192))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* rfc5054_8192;
 
-  static inline void setStaticF_rfc5054_1024(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_1024();
-
-  static inline void setStaticF_rfc5054_1536(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_1536();
-
-  static inline void setStaticF_rfc5054_2048(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_2048();
-
-  static inline void setStaticF_rfc5054_3072(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_3072();
-
-  static inline void setStaticF_rfc5054_4096(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_4096();
-
-  static inline void setStaticF_rfc5054_6144(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_6144();
-
-  static inline void setStaticF_rfc5054_8192(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_8192();
-
-  /// @brief Method FromHex, addr 0x12457dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x12897ac, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method FromNG, addr 0x124587c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FromNG, addr 0x128984c, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* FromNG(::StringW hexN, ::StringW hexG);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1245afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1289acc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_1024();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_1536();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_2048();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_3072();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_4096();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_6144();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_8192();
+
+  static inline void setStaticF_rfc5054_1024(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
+
+  static inline void setStaticF_rfc5054_1536(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
+
+  static inline void setStaticF_rfc5054_2048(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
+
+  static inline void setStaticF_rfc5054_3072(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
+
+  static inline void setStaticF_rfc5054_4096(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
+
+  static inline void setStaticF_rfc5054_6144(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
+
+  static inline void setStaticF_rfc5054_8192(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Srp6StandardGroups();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Srp6StandardGroups", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Srp6StandardGroups(Srp6StandardGroups&&) = delete;
@@ -95,12 +99,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Srp6StandardGroups(Srp6StandardGroups const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Srp6StandardGroups();
-
-public:
   /// @brief Field rfc5054_1024_N offset 0xffffffff size 0x8
   static constexpr ::ConstString rfc5054_1024_N{ u"EEAF0AB9ADB38DD69C33F80AFA8FC5E86072618775FF3C0B9EA2314C9C256576D674DF7496EA81D3383B4813D692C6E0E0D5D8E250B98BE48E495C1D6089DAD15DC7D7B46154D6B6CE8E"
                                                  u"F4AD69B15D4982559B297BCF1885C529F566660E57EC68EDBC3C05726CC02FD4CBF4976EAA9AFD5138FE8376435B9FC61D2FC0EB06E3" };

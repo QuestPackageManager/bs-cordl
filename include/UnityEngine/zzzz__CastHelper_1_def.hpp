@@ -18,18 +18,16 @@ namespace UnityEngine {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8949))
 // CS Name: ::UnityEngine::CastHelper`1<T>
 struct CORDL_TYPE CastHelper_1 {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "t", ty: "T", modifiers: "", def_value: None }, CppParam { name: "onePointerFurtherThanT", ty: "void*", modifiers: "", def_value: None }]
-  constexpr CastHelper_1(T t, void* onePointerFurtherThanT) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr CastHelper_1();
+
+  // Ctor Parameters [CppParam { name: "t", ty: "T", modifiers: "", def_value: None }, CppParam { name: "onePointerFurtherThanT", ty: "void*", modifiers: "", def_value: None }]
+  constexpr CastHelper_1(T t, void* onePointerFurtherThanT) noexcept;
 
   /// @brief Field t, offset: 0x0, size: 0x8, def value: None
   T t;

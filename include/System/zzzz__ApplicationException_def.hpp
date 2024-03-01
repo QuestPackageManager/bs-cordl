@@ -24,32 +24,36 @@ MARK_REF_PTR_T(::System::ApplicationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2343))
 // CS Name: ::System::ApplicationException*
 class CORDL_TYPE ApplicationException : public ::System::Exception {
 public:
   // Declarations
   static inline ::System::ApplicationException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25420c4, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::ApplicationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ApplicationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2542144, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
   static inline ::System::ApplicationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x25421bc, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
+  /// @brief Method .ctor, addr 0x26104b4, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline ::System::ApplicationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x254223c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261062c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x2610534, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x26105ac, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ApplicationException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ApplicationException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ApplicationException(ApplicationException&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ApplicationException(ApplicationException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ApplicationException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

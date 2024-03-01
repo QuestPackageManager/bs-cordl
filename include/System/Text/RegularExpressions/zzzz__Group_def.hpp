@@ -20,70 +20,74 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::Group);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6910))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6913))
 // CS Name: ::System.Text.RegularExpressions::Group*
 class CORDL_TYPE Group : public ::System::Text::RegularExpressions::Capture {
 public:
   // Declarations
-  /// @brief Field _caps, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__caps, put = __cordl_internal_set__caps))::ArrayW<int32_t, ::Array<int32_t>*> _caps;
-
-  /// @brief Field _capcount, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__capcount, put = __cordl_internal_set__capcount)) int32_t _capcount;
-
-  /// @brief Field _capcoll, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__capcoll, put = __cordl_internal_set__capcoll))::System::Text::RegularExpressions::CaptureCollection* _capcoll;
+  __declspec(property(get = get_Success)) bool Success;
 
   /// @brief Field <Name>k__BackingField, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
+  /// @brief Field _capcoll, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__capcoll, put = __cordl_internal_set__capcoll))::System::Text::RegularExpressions::CaptureCollection* _capcoll;
+
+  /// @brief Field _capcount, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__capcount, put = __cordl_internal_set__capcount)) int32_t _capcount;
+
+  /// @brief Field _caps, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__caps, put = __cordl_internal_set__caps))::ArrayW<int32_t, ::Array<int32_t>*> _caps;
+
   /// @brief Field s_emptyGroup, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_emptyGroup, put = setStaticF_s_emptyGroup))::System::Text::RegularExpressions::Group* s_emptyGroup;
 
-  __declspec(property(get = get_Success)) bool Success;
+  static inline ::System::Text::RegularExpressions::Group* New_ctor();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__caps();
+  static inline ::System::Text::RegularExpressions::Group* New_ctor(::StringW text, ::ArrayW<int32_t, ::Array<int32_t>*> caps, int32_t capcount, ::StringW name);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__caps() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__caps(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get__capcount();
-
-  constexpr int32_t const& __cordl_internal_get__capcount() const;
-
-  constexpr void __cordl_internal_set__capcount(int32_t value);
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
   constexpr ::System::Text::RegularExpressions::CaptureCollection*& __cordl_internal_get__capcoll();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::CaptureCollection*> const& __cordl_internal_get__capcoll() const;
 
-  constexpr void __cordl_internal_set__capcoll(::System::Text::RegularExpressions::CaptureCollection* value);
+  constexpr int32_t const& __cordl_internal_get__capcount() const;
 
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__capcount();
 
-  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__caps() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__caps();
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  static inline void setStaticF_s_emptyGroup(::System::Text::RegularExpressions::Group* value);
+  constexpr void __cordl_internal_set__capcoll(::System::Text::RegularExpressions::CaptureCollection* value);
+
+  constexpr void __cordl_internal_set__capcount(int32_t value);
+
+  constexpr void __cordl_internal_set__caps(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  /// @brief Method .ctor, addr 0x2a38254, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2a380ac, size 0x9c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW text, ::ArrayW<int32_t, ::Array<int32_t>*> caps, int32_t capcount, ::StringW name);
 
   static inline ::System::Text::RegularExpressions::Group* getStaticF_s_emptyGroup();
 
-  static inline ::System::Text::RegularExpressions::Group* New_ctor(::StringW text, ::ArrayW<int32_t, ::Array<int32_t>*> caps, int32_t capcount, ::StringW name);
-
-  /// @brief Method .ctor, addr 0x2952c30, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW text, ::ArrayW<int32_t, ::Array<int32_t>*> caps, int32_t capcount, ::StringW name);
-
-  /// @brief Method get_Success, addr 0x2952ccc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Success, addr 0x2a38148, size 0x10, virtual false, abstract: false, final false
   inline bool get_Success();
 
-  static inline ::System::Text::RegularExpressions::Group* New_ctor();
+  static inline void setStaticF_s_emptyGroup(::System::Text::RegularExpressions::Group* value);
 
-  /// @brief Method .ctor, addr 0x2952dd8, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Group();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Group", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Group(Group&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Group(Group const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Group();
-
-public:
   /// @brief Field _caps, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____caps;
 

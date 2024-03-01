@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerStatusModel);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10877))
 // CS Name: ::IMultiplayerStatusModel*
 class CORDL_TYPE IMultiplayerStatusModel {
 public:

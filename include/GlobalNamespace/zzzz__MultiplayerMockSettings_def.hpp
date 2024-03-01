@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerMockSettings);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4528))
 // CS Name: ::MultiplayerMockSettings*
 class CORDL_TYPE MultiplayerMockSettings : public ::UnityEngine::ScriptableObject {
 public:
@@ -41,101 +39,107 @@ public:
   /// @brief Field _localPlayer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__localPlayer, put = __cordl_internal_set__localPlayer))::GlobalNamespace::MockPlayerSettings* _localPlayer;
 
-  /// @brief Field _otherPlayers, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__otherPlayers, put = __cordl_internal_set__otherPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* _otherPlayers;
-
-  /// @brief Field _quickplayServer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__quickplayServer, put = __cordl_internal_set__quickplayServer))::GlobalNamespace::MockServerSettings* _quickplayServer;
-
   /// @brief Field _multiplayerStatusData, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerStatusData, put = __cordl_internal_set__multiplayerStatusData))::GlobalNamespace::MultiplayerStatusData* _multiplayerStatusData;
+
+  /// @brief Field _otherPlayers, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__otherPlayers, put = __cordl_internal_set__otherPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* _otherPlayers;
 
   /// @brief Field _quickPlaySetupData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__quickPlaySetupData, put = __cordl_internal_set__quickPlaySetupData))::GlobalNamespace::QuickPlaySetupData* _quickPlaySetupData;
 
-  __declspec(property(get = get_quickplayServer))::GlobalNamespace::MockServerSettings* quickplayServer;
+  /// @brief Field _quickplayServer, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__quickplayServer, put = __cordl_internal_set__quickplayServer))::GlobalNamespace::MockServerSettings* _quickplayServer;
+
+  __declspec(property(get = get_isEnabled, put = set_isEnabled)) bool isEnabled;
 
   __declspec(property(get = get_localPlayer))::GlobalNamespace::MockPlayerSettings* localPlayer;
-
-  __declspec(property(get = get_quickPlaySetupData, put = set_quickPlaySetupData))::GlobalNamespace::QuickPlaySetupData* quickPlaySetupData;
 
   __declspec(property(get = get_multiplayerStatusData, put = set_multiplayerStatusData))::GlobalNamespace::MultiplayerStatusData* multiplayerStatusData;
 
   __declspec(property(get = get_otherPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* otherPlayers;
 
-  __declspec(property(get = get_isEnabled, put = set_isEnabled)) bool isEnabled;
+  __declspec(property(get = get_quickPlaySetupData, put = set_quickPlaySetupData))::GlobalNamespace::QuickPlaySetupData* quickPlaySetupData;
 
-  constexpr bool& __cordl_internal_get__isEnabled();
+  __declspec(property(get = get_quickplayServer))::GlobalNamespace::MockServerSettings* quickplayServer;
+
+  static inline ::GlobalNamespace::MultiplayerMockSettings* New_ctor();
+
+  /// @brief Method SharedSettings, addr 0x24713a0, size 0x8, virtual false, abstract: false, final false
+  static inline ::UnityW<::GlobalNamespace::MultiplayerMockSettings> SharedSettings();
 
   constexpr bool const& __cordl_internal_get__isEnabled() const;
 
-  constexpr void __cordl_internal_set__isEnabled(bool value);
+  constexpr bool& __cordl_internal_get__isEnabled();
 
   constexpr ::GlobalNamespace::MockPlayerSettings*& __cordl_internal_get__localPlayer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerSettings*> const& __cordl_internal_get__localPlayer() const;
 
-  constexpr void __cordl_internal_set__localPlayer(::GlobalNamespace::MockPlayerSettings* value);
+  constexpr ::GlobalNamespace::MultiplayerStatusData*& __cordl_internal_get__multiplayerStatusData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerStatusData*> const& __cordl_internal_get__multiplayerStatusData() const;
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>*& __cordl_internal_get__otherPlayers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>*> const& __cordl_internal_get__otherPlayers() const;
 
-  constexpr void __cordl_internal_set__otherPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* value);
+  constexpr ::GlobalNamespace::QuickPlaySetupData*& __cordl_internal_get__quickPlaySetupData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuickPlaySetupData*> const& __cordl_internal_get__quickPlaySetupData() const;
 
   constexpr ::GlobalNamespace::MockServerSettings*& __cordl_internal_get__quickplayServer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockServerSettings*> const& __cordl_internal_get__quickplayServer() const;
 
-  constexpr void __cordl_internal_set__quickplayServer(::GlobalNamespace::MockServerSettings* value);
+  constexpr void __cordl_internal_set__isEnabled(bool value);
 
-  constexpr ::GlobalNamespace::MultiplayerStatusData*& __cordl_internal_get__multiplayerStatusData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerStatusData*> const& __cordl_internal_get__multiplayerStatusData() const;
+  constexpr void __cordl_internal_set__localPlayer(::GlobalNamespace::MockPlayerSettings* value);
 
   constexpr void __cordl_internal_set__multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
 
-  constexpr ::GlobalNamespace::QuickPlaySetupData*& __cordl_internal_get__quickPlaySetupData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuickPlaySetupData*> const& __cordl_internal_get__quickPlaySetupData() const;
+  constexpr void __cordl_internal_set__otherPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* value);
 
   constexpr void __cordl_internal_set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
-  /// @brief Method get_quickplayServer, addr 0x23a2368, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MockServerSettings* get_quickplayServer();
+  constexpr void __cordl_internal_set__quickplayServer(::GlobalNamespace::MockServerSettings* value);
 
-  /// @brief Method get_localPlayer, addr 0x23a2370, size 0xac, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MockPlayerSettings* get_localPlayer();
-
-  /// @brief Method get_quickPlaySetupData, addr 0x23a241c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::QuickPlaySetupData* get_quickPlaySetupData();
-
-  /// @brief Method set_quickPlaySetupData, addr 0x23a2424, size 0x8, virtual false, abstract: false, final false
-  inline void set_quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
-
-  /// @brief Method get_multiplayerStatusData, addr 0x23a242c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerStatusData* get_multiplayerStatusData();
-
-  /// @brief Method set_multiplayerStatusData, addr 0x23a2434, size 0x8, virtual false, abstract: false, final false
-  inline void set_multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
-
-  /// @brief Method get_otherPlayers, addr 0x23a243c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* get_otherPlayers();
-
-  /// @brief Method get_isEnabled, addr 0x23a2444, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isEnabled();
-
-  /// @brief Method set_isEnabled, addr 0x23a244c, size 0xc, virtual false, abstract: false, final false
-  inline void set_isEnabled(bool value);
-
-  /// @brief Method SharedSettings, addr 0x23a2458, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityW<::GlobalNamespace::MultiplayerMockSettings> SharedSettings();
-
-  static inline ::GlobalNamespace::MultiplayerMockSettings* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23a2460, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24713a8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_isEnabled, addr 0x247138c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isEnabled();
+
+  /// @brief Method get_localPlayer, addr 0x24712b8, size 0xac, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::MockPlayerSettings* get_localPlayer();
+
+  /// @brief Method get_multiplayerStatusData, addr 0x2471374, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::MultiplayerStatusData* get_multiplayerStatusData();
+
+  /// @brief Method get_otherPlayers, addr 0x2471384, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* get_otherPlayers();
+
+  /// @brief Method get_quickPlaySetupData, addr 0x2471364, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::QuickPlaySetupData* get_quickPlaySetupData();
+
+  /// @brief Method get_quickplayServer, addr 0x24712b0, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::MockServerSettings* get_quickplayServer();
+
+  /// @brief Method set_isEnabled, addr 0x2471394, size 0xc, virtual false, abstract: false, final false
+  inline void set_isEnabled(bool value);
+
+  /// @brief Method set_multiplayerStatusData, addr 0x247137c, size 0x8, virtual false, abstract: false, final false
+  inline void set_multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
+
+  /// @brief Method set_quickPlaySetupData, addr 0x247136c, size 0x8, virtual false, abstract: false, final false
+  inline void set_quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerMockSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMockSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerMockSettings(MultiplayerMockSettings&&) = delete;
@@ -144,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerMockSettings(MultiplayerMockSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerMockSettings();
-
-public:
   /// @brief Field _isEnabled, offset: 0x18, size: 0x1, def value: None
   bool ____isEnabled;
 

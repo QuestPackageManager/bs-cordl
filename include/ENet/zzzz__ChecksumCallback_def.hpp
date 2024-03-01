@@ -24,26 +24,30 @@ MARK_REF_PTR_T(::ENet::ChecksumCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15339))
 // CS Name: ::ENet::ChecksumCallback*
 class CORDL_TYPE ChecksumCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::ENet::ChecksumCallback* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2284d2c, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2284df0, size 0x14, virtual true, abstract: false, final false
-  inline uint64_t Invoke(void* buffers, int32_t bufferCount);
-
-  /// @brief Method BeginInvoke, addr 0x2284e04, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x235146c, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* buffers, int32_t bufferCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2284eb8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2351520, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x2351458, size 0x14, virtual true, abstract: false, final false
+  inline uint64_t Invoke(void* buffers, int32_t bufferCount);
+
+  static inline ::ENet::ChecksumCallback* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2351394, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ChecksumCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ChecksumCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ChecksumCallback(ChecksumCallback&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ChecksumCallback(ChecksumCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ChecksumCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

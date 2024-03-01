@@ -71,18 +71,17 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreController);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4659))
 // CS Name: ::ScoreController*
 class CORDL_TYPE ScoreController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _gameplayModifiersModel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel,
-                      put = __cordl_internal_set__gameplayModifiersModel))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModel;
+  /// @brief Field _audioTimeSyncController, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
-  /// @brief Field _gameplayModifiers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  /// @brief Field _badCutScoringElementPool, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__badCutScoringElementPool,
+                      put = __cordl_internal_set__badCutScoringElementPool))::GlobalNamespace::__BadCutScoringElement__Pool* _badCutScoringElementPool;
 
   /// @brief Field _beatmapObjectManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
@@ -90,42 +89,33 @@ public:
   /// @brief Field _gameEnergyCounter, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__gameEnergyCounter, put = __cordl_internal_set__gameEnergyCounter))::GlobalNamespace::IGameEnergyCounter* _gameEnergyCounter;
 
-  /// @brief Field _audioTimeSyncController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
-                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
+  /// @brief Field _gameplayModifierParams, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayModifierParams,
+                      put = __cordl_internal_set__gameplayModifierParams))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* _gameplayModifierParams;
+
+  /// @brief Field _gameplayModifiers, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+
+  /// @brief Field _gameplayModifiersModel, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel,
+                      put = __cordl_internal_set__gameplayModifiersModel))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModel;
 
   /// @brief Field _goodCutScoringElementPool, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__goodCutScoringElementPool,
                       put = __cordl_internal_set__goodCutScoringElementPool))::GlobalNamespace::__GoodCutScoringElement__Pool* _goodCutScoringElementPool;
 
-  /// @brief Field _badCutScoringElementPool, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__badCutScoringElementPool,
-                      put = __cordl_internal_set__badCutScoringElementPool))::GlobalNamespace::__BadCutScoringElement__Pool* _badCutScoringElementPool;
+  /// @brief Field _immediateMaxPossibleModifiedScore, offset 0x94, size 0x4
+  __declspec(property(get = __cordl_internal_get__immediateMaxPossibleModifiedScore, put = __cordl_internal_set__immediateMaxPossibleModifiedScore)) int32_t _immediateMaxPossibleModifiedScore;
+
+  /// @brief Field _immediateMaxPossibleMultipliedScore, offset 0x90, size 0x4
+  __declspec(property(get = __cordl_internal_get__immediateMaxPossibleMultipliedScore, put = __cordl_internal_set__immediateMaxPossibleMultipliedScore)) int32_t _immediateMaxPossibleMultipliedScore;
+
+  /// @brief Field _maxScoreMultiplierCounter, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__maxScoreMultiplierCounter,
+                      put = __cordl_internal_set__maxScoreMultiplierCounter))::GlobalNamespace::ScoreMultiplierCounter* _maxScoreMultiplierCounter;
 
   /// @brief Field _missScoringElementPool, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__missScoringElementPool, put = __cordl_internal_set__missScoringElementPool))::GlobalNamespace::__MissScoringElement__Pool* _missScoringElementPool;
-
-  /// @brief Field _playerHeadAndObstacleInteraction, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
-                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
-
-  /// @brief Field scoreDidChangeEvent, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_scoreDidChangeEvent, put = __cordl_internal_set_scoreDidChangeEvent))::System::Action_2<int32_t, int32_t>* scoreDidChangeEvent;
-
-  /// @brief Field multiplierDidChangeEvent, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_multiplierDidChangeEvent, put = __cordl_internal_set_multiplierDidChangeEvent))::System::Action_2<int32_t, float_t>* multiplierDidChangeEvent;
-
-  /// @brief Field scoringForNoteStartedEvent, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_scoringForNoteStartedEvent,
-                      put = __cordl_internal_set_scoringForNoteStartedEvent))::System::Action_1<::GlobalNamespace::ScoringElement*>* scoringForNoteStartedEvent;
-
-  /// @brief Field scoringForNoteFinishedEvent, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_scoringForNoteFinishedEvent,
-                      put = __cordl_internal_set_scoringForNoteFinishedEvent))::System::Action_1<::GlobalNamespace::ScoringElement*>* scoringForNoteFinishedEvent;
-
-  /// @brief Field _gameplayModifierParams, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifierParams,
-                      put = __cordl_internal_set__gameplayModifierParams))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* _gameplayModifierParams;
 
   /// @brief Field _modifiedScore, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get__modifiedScore, put = __cordl_internal_set__modifiedScore)) int32_t _modifiedScore;
@@ -133,21 +123,23 @@ public:
   /// @brief Field _multipliedScore, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get__multipliedScore, put = __cordl_internal_set__multipliedScore)) int32_t _multipliedScore;
 
-  /// @brief Field _immediateMaxPossibleMultipliedScore, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get__immediateMaxPossibleMultipliedScore, put = __cordl_internal_set__immediateMaxPossibleMultipliedScore)) int32_t _immediateMaxPossibleMultipliedScore;
-
-  /// @brief Field _immediateMaxPossibleModifiedScore, offset 0x94, size 0x4
-  __declspec(property(get = __cordl_internal_get__immediateMaxPossibleModifiedScore, put = __cordl_internal_set__immediateMaxPossibleModifiedScore)) int32_t _immediateMaxPossibleModifiedScore;
+  /// @brief Field _playerHeadAndObstacleInteraction, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
 
   /// @brief Field _prevMultiplierFromModifiers, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get__prevMultiplierFromModifiers, put = __cordl_internal_set__prevMultiplierFromModifiers)) float_t _prevMultiplierFromModifiers;
 
-  /// @brief Field _maxScoreMultiplierCounter, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxScoreMultiplierCounter,
-                      put = __cordl_internal_set__maxScoreMultiplierCounter))::GlobalNamespace::ScoreMultiplierCounter* _maxScoreMultiplierCounter;
-
   /// @brief Field _scoreMultiplierCounter, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreMultiplierCounter, put = __cordl_internal_set__scoreMultiplierCounter))::GlobalNamespace::ScoreMultiplierCounter* _scoreMultiplierCounter;
+
+  /// @brief Field _scoringElementsToRemove, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get__scoringElementsToRemove,
+                      put = __cordl_internal_set__scoringElementsToRemove))::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* _scoringElementsToRemove;
+
+  /// @brief Field _scoringElementsWithMultiplier, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__scoringElementsWithMultiplier,
+                      put = __cordl_internal_set__scoringElementsWithMultiplier))::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* _scoringElementsWithMultiplier;
 
   /// @brief Field _sortedNoteTimesWithoutScoringElements, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__sortedNoteTimesWithoutScoringElements,
@@ -158,248 +150,260 @@ public:
       property(get = __cordl_internal_get__sortedScoringElementsWithoutMultiplier,
                put = __cordl_internal_set__sortedScoringElementsWithoutMultiplier))::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* _sortedScoringElementsWithoutMultiplier;
 
-  /// @brief Field _scoringElementsWithMultiplier, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoringElementsWithMultiplier,
-                      put = __cordl_internal_set__scoringElementsWithMultiplier))::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* _scoringElementsWithMultiplier;
-
-  /// @brief Field _scoringElementsToRemove, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoringElementsToRemove,
-                      put = __cordl_internal_set__scoringElementsToRemove))::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* _scoringElementsToRemove;
-
-  __declspec(property(get = get_multipliedScore)) int32_t multipliedScore;
-
-  __declspec(property(get = get_modifiedScore)) int32_t modifiedScore;
+  __declspec(property(get = get_immediateMaxPossibleModifiedScore)) int32_t immediateMaxPossibleModifiedScore;
 
   __declspec(property(get = get_immediateMaxPossibleMultipliedScore)) int32_t immediateMaxPossibleMultipliedScore;
 
-  __declspec(property(get = get_immediateMaxPossibleModifiedScore)) int32_t immediateMaxPossibleModifiedScore;
+  __declspec(property(get = get_modifiedScore)) int32_t modifiedScore;
+
+  __declspec(property(get = get_multipliedScore)) int32_t multipliedScore;
+
+  /// @brief Field multiplierDidChangeEvent, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_multiplierDidChangeEvent, put = __cordl_internal_set_multiplierDidChangeEvent))::System::Action_2<int32_t, float_t>* multiplierDidChangeEvent;
+
+  /// @brief Field scoreDidChangeEvent, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_scoreDidChangeEvent, put = __cordl_internal_set_scoreDidChangeEvent))::System::Action_2<int32_t, int32_t>* scoreDidChangeEvent;
+
+  /// @brief Field scoringForNoteFinishedEvent, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_scoringForNoteFinishedEvent,
+                      put = __cordl_internal_set_scoringForNoteFinishedEvent))::System::Action_1<::GlobalNamespace::ScoringElement*>* scoringForNoteFinishedEvent;
+
+  /// @brief Field scoringForNoteStartedEvent, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_scoringForNoteStartedEvent,
+                      put = __cordl_internal_set_scoringForNoteStartedEvent))::System::Action_1<::GlobalNamespace::ScoringElement*>* scoringForNoteStartedEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IScoreController"
   constexpr operator ::GlobalNamespace::IScoreController*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IScoreController"
-  constexpr ::GlobalNamespace::IScoreController* i___GlobalNamespace__IScoreController() noexcept;
+  /// @brief Method DespawnScoringElement, addr 0x24952d4, size 0x188, virtual false, abstract: false, final false
+  inline void DespawnScoringElement(::GlobalNamespace::ScoringElement* scoringElement);
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
+  /// @brief Method HandleNoteWasCut, addr 0x24954f8, size 0x178, virtual false, abstract: false, final false
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
+  /// @brief Method HandleNoteWasMissed, addr 0x249572c, size 0x10c, virtual false, abstract: false, final false
+  inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
+  /// @brief Method HandleNoteWasSpawned, addr 0x249545c, size 0x9c, virtual false, abstract: false, final false
+  inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
+  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x2495884, size 0x6c, virtual false, abstract: false, final false
+  inline void HandlePlayerHeadDidEnterObstacles();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
+  /// @brief Method LateUpdate, addr 0x2494ab4, size 0x788, virtual false, abstract: false, final false
+  inline void LateUpdate();
 
-  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  static inline ::GlobalNamespace::ScoreController* New_ctor();
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
+  /// @brief Method OnDestroy, addr 0x24948cc, size 0x1e8, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
+  /// @brief Method SetEnabled, addr 0x2494674, size 0xc, virtual true, abstract: false, final true
+  inline void SetEnabled(bool enabled);
 
-  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
-
-  constexpr ::GlobalNamespace::IGameEnergyCounter*& __cordl_internal_get__gameEnergyCounter();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameEnergyCounter*> const& __cordl_internal_get__gameEnergyCounter() const;
-
-  constexpr void __cordl_internal_set__gameEnergyCounter(::GlobalNamespace::IGameEnergyCounter* value);
-
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
+  /// @brief Method Start, addr 0x2494680, size 0x24c, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
-
-  constexpr ::GlobalNamespace::__GoodCutScoringElement__Pool*& __cordl_internal_get__goodCutScoringElementPool();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GoodCutScoringElement__Pool*> const& __cordl_internal_get__goodCutScoringElementPool() const;
-
-  constexpr void __cordl_internal_set__goodCutScoringElementPool(::GlobalNamespace::__GoodCutScoringElement__Pool* value);
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
   constexpr ::GlobalNamespace::__BadCutScoringElement__Pool*& __cordl_internal_get__badCutScoringElementPool();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BadCutScoringElement__Pool*> const& __cordl_internal_get__badCutScoringElementPool() const;
 
-  constexpr void __cordl_internal_set__badCutScoringElementPool(::GlobalNamespace::__BadCutScoringElement__Pool* value);
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::GlobalNamespace::__MissScoringElement__Pool*& __cordl_internal_get__missScoringElementPool();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MissScoringElement__Pool*> const& __cordl_internal_get__missScoringElementPool() const;
+  constexpr ::GlobalNamespace::IGameEnergyCounter*& __cordl_internal_get__gameEnergyCounter();
 
-  constexpr void __cordl_internal_set__missScoringElementPool(::GlobalNamespace::__MissScoringElement__Pool* value);
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction();
-
-  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
-
-  constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
-
-  constexpr ::System::Action_2<int32_t, int32_t>*& __cordl_internal_get_scoreDidChangeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& __cordl_internal_get_scoreDidChangeEvent() const;
-
-  constexpr void __cordl_internal_set_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
-
-  constexpr ::System::Action_2<int32_t, float_t>*& __cordl_internal_get_multiplierDidChangeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, float_t>*> const& __cordl_internal_get_multiplierDidChangeEvent() const;
-
-  constexpr void __cordl_internal_set_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
-
-  constexpr ::System::Action_1<::GlobalNamespace::ScoringElement*>*& __cordl_internal_get_scoringForNoteStartedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ScoringElement*>*> const& __cordl_internal_get_scoringForNoteStartedEvent() const;
-
-  constexpr void __cordl_internal_set_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
-
-  constexpr ::System::Action_1<::GlobalNamespace::ScoringElement*>*& __cordl_internal_get_scoringForNoteFinishedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ScoringElement*>*> const& __cordl_internal_get_scoringForNoteFinishedEvent() const;
-
-  constexpr void __cordl_internal_set_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameEnergyCounter*> const& __cordl_internal_get__gameEnergyCounter() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*& __cordl_internal_get__gameplayModifierParams();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const&
   __cordl_internal_get__gameplayModifierParams() const;
 
-  constexpr void __cordl_internal_set__gameplayModifierParams(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-  constexpr int32_t& __cordl_internal_get__modifiedScore();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr int32_t const& __cordl_internal_get__modifiedScore() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
 
-  constexpr void __cordl_internal_set__modifiedScore(int32_t value);
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
 
-  constexpr int32_t& __cordl_internal_get__multipliedScore();
+  constexpr ::GlobalNamespace::__GoodCutScoringElement__Pool*& __cordl_internal_get__goodCutScoringElementPool();
 
-  constexpr int32_t const& __cordl_internal_get__multipliedScore() const;
-
-  constexpr void __cordl_internal_set__multipliedScore(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__immediateMaxPossibleMultipliedScore();
-
-  constexpr int32_t const& __cordl_internal_get__immediateMaxPossibleMultipliedScore() const;
-
-  constexpr void __cordl_internal_set__immediateMaxPossibleMultipliedScore(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__immediateMaxPossibleModifiedScore();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GoodCutScoringElement__Pool*> const& __cordl_internal_get__goodCutScoringElementPool() const;
 
   constexpr int32_t const& __cordl_internal_get__immediateMaxPossibleModifiedScore() const;
 
-  constexpr void __cordl_internal_set__immediateMaxPossibleModifiedScore(int32_t value);
+  constexpr int32_t& __cordl_internal_get__immediateMaxPossibleModifiedScore();
 
-  constexpr float_t& __cordl_internal_get__prevMultiplierFromModifiers();
+  constexpr int32_t const& __cordl_internal_get__immediateMaxPossibleMultipliedScore() const;
 
-  constexpr float_t const& __cordl_internal_get__prevMultiplierFromModifiers() const;
-
-  constexpr void __cordl_internal_set__prevMultiplierFromModifiers(float_t value);
+  constexpr int32_t& __cordl_internal_get__immediateMaxPossibleMultipliedScore();
 
   constexpr ::GlobalNamespace::ScoreMultiplierCounter*& __cordl_internal_get__maxScoreMultiplierCounter();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScoreMultiplierCounter*> const& __cordl_internal_get__maxScoreMultiplierCounter() const;
 
-  constexpr void __cordl_internal_set__maxScoreMultiplierCounter(::GlobalNamespace::ScoreMultiplierCounter* value);
+  constexpr ::GlobalNamespace::__MissScoringElement__Pool*& __cordl_internal_get__missScoringElementPool();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MissScoringElement__Pool*> const& __cordl_internal_get__missScoringElementPool() const;
+
+  constexpr int32_t const& __cordl_internal_get__modifiedScore() const;
+
+  constexpr int32_t& __cordl_internal_get__modifiedScore();
+
+  constexpr int32_t const& __cordl_internal_get__multipliedScore() const;
+
+  constexpr int32_t& __cordl_internal_get__multipliedScore();
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction();
+
+  constexpr float_t const& __cordl_internal_get__prevMultiplierFromModifiers() const;
+
+  constexpr float_t& __cordl_internal_get__prevMultiplierFromModifiers();
 
   constexpr ::GlobalNamespace::ScoreMultiplierCounter*& __cordl_internal_get__scoreMultiplierCounter();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScoreMultiplierCounter*> const& __cordl_internal_get__scoreMultiplierCounter() const;
 
-  constexpr void __cordl_internal_set__scoreMultiplierCounter(::GlobalNamespace::ScoreMultiplierCounter* value);
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*& __cordl_internal_get__scoringElementsToRemove();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*> const& __cordl_internal_get__scoringElementsToRemove() const;
+
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*& __cordl_internal_get__scoringElementsWithMultiplier();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*> const& __cordl_internal_get__scoringElementsWithMultiplier() const;
 
   constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get__sortedNoteTimesWithoutScoringElements();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get__sortedNoteTimesWithoutScoringElements() const;
-
-  constexpr void __cordl_internal_set__sortedNoteTimesWithoutScoringElements(::System::Collections::Generic::List_1<float_t>* value);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*& __cordl_internal_get__sortedScoringElementsWithoutMultiplier();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*> const&
   __cordl_internal_get__sortedScoringElementsWithoutMultiplier() const;
 
-  constexpr void __cordl_internal_set__sortedScoringElementsWithoutMultiplier(::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* value);
+  constexpr ::System::Action_2<int32_t, float_t>*& __cordl_internal_get_multiplierDidChangeEvent();
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*& __cordl_internal_get__scoringElementsWithMultiplier();
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, float_t>*> const& __cordl_internal_get_multiplierDidChangeEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*> const& __cordl_internal_get__scoringElementsWithMultiplier() const;
+  constexpr ::System::Action_2<int32_t, int32_t>*& __cordl_internal_get_scoreDidChangeEvent();
 
-  constexpr void __cordl_internal_set__scoringElementsWithMultiplier(::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* value);
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& __cordl_internal_get_scoreDidChangeEvent() const;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*& __cordl_internal_get__scoringElementsToRemove();
+  constexpr ::System::Action_1<::GlobalNamespace::ScoringElement*>*& __cordl_internal_get_scoringForNoteFinishedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*> const& __cordl_internal_get__scoringElementsToRemove() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ScoringElement*>*> const& __cordl_internal_get_scoringForNoteFinishedEvent() const;
+
+  constexpr ::System::Action_1<::GlobalNamespace::ScoringElement*>*& __cordl_internal_get_scoringForNoteStartedEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ScoringElement*>*> const& __cordl_internal_get_scoringForNoteStartedEvent() const;
+
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
+
+  constexpr void __cordl_internal_set__badCutScoringElementPool(::GlobalNamespace::__BadCutScoringElement__Pool* value);
+
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+
+  constexpr void __cordl_internal_set__gameEnergyCounter(::GlobalNamespace::IGameEnergyCounter* value);
+
+  constexpr void __cordl_internal_set__gameplayModifierParams(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
+
+  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+
+  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
+
+  constexpr void __cordl_internal_set__goodCutScoringElementPool(::GlobalNamespace::__GoodCutScoringElement__Pool* value);
+
+  constexpr void __cordl_internal_set__immediateMaxPossibleModifiedScore(int32_t value);
+
+  constexpr void __cordl_internal_set__immediateMaxPossibleMultipliedScore(int32_t value);
+
+  constexpr void __cordl_internal_set__maxScoreMultiplierCounter(::GlobalNamespace::ScoreMultiplierCounter* value);
+
+  constexpr void __cordl_internal_set__missScoringElementPool(::GlobalNamespace::__MissScoringElement__Pool* value);
+
+  constexpr void __cordl_internal_set__modifiedScore(int32_t value);
+
+  constexpr void __cordl_internal_set__multipliedScore(int32_t value);
+
+  constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
+
+  constexpr void __cordl_internal_set__prevMultiplierFromModifiers(float_t value);
+
+  constexpr void __cordl_internal_set__scoreMultiplierCounter(::GlobalNamespace::ScoreMultiplierCounter* value);
 
   constexpr void __cordl_internal_set__scoringElementsToRemove(::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method add_scoreDidChangeEvent, addr 0x23c518c, size 0xb0, virtual true, abstract: false, final true
-  inline void add_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set__scoringElementsWithMultiplier(::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method remove_scoreDidChangeEvent, addr 0x23c523c, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set__sortedNoteTimesWithoutScoringElements(::System::Collections::Generic::List_1<float_t>* value);
 
-  /// @brief Method add_multiplierDidChangeEvent, addr 0x23c52ec, size 0xb0, virtual true, abstract: false, final true
-  inline void add_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
+  constexpr void __cordl_internal_set__sortedScoringElementsWithoutMultiplier(::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method remove_multiplierDidChangeEvent, addr 0x23c539c, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
+  constexpr void __cordl_internal_set_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method add_scoringForNoteStartedEvent, addr 0x23c544c, size 0xb0, virtual true, abstract: false, final true
-  inline void add_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
+  constexpr void __cordl_internal_set_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method remove_scoringForNoteStartedEvent, addr 0x23c54fc, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
+  constexpr void __cordl_internal_set_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method add_scoringForNoteFinishedEvent, addr 0x23c55ac, size 0xb0, virtual true, abstract: false, final true
-  inline void add_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
+  constexpr void __cordl_internal_set_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method remove_scoringForNoteFinishedEvent, addr 0x23c565c, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
-
-  /// @brief Method get_multipliedScore, addr 0x23c570c, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_multipliedScore();
-
-  /// @brief Method get_modifiedScore, addr 0x23c5714, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_modifiedScore();
-
-  /// @brief Method get_immediateMaxPossibleMultipliedScore, addr 0x23c571c, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_immediateMaxPossibleMultipliedScore();
-
-  /// @brief Method get_immediateMaxPossibleModifiedScore, addr 0x23c5724, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_immediateMaxPossibleModifiedScore();
-
-  /// @brief Method SetEnabled, addr 0x23c572c, size 0xc, virtual true, abstract: false, final true
-  inline void SetEnabled(bool enabled);
-
-  /// @brief Method Start, addr 0x23c5738, size 0x24c, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x23c5984, size 0x1e8, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method LateUpdate, addr 0x23c5b6c, size 0x788, virtual false, abstract: false, final false
-  inline void LateUpdate();
-
-  /// @brief Method HandleNoteWasSpawned, addr 0x23c6514, size 0x9c, virtual false, abstract: false, final false
-  inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
-
-  /// @brief Method HandleNoteWasCut, addr 0x23c65b0, size 0x178, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-
-  /// @brief Method HandleNoteWasMissed, addr 0x23c67e4, size 0x10c, virtual false, abstract: false, final false
-  inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
-
-  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x23c693c, size 0x6c, virtual false, abstract: false, final false
-  inline void HandlePlayerHeadDidEnterObstacles();
-
-  /// @brief Method DespawnScoringElement, addr 0x23c638c, size 0x188, virtual false, abstract: false, final false
-  inline void DespawnScoringElement(::GlobalNamespace::ScoringElement* scoringElement);
-
-  static inline ::GlobalNamespace::ScoreController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23c69a8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24958f0, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_multiplierDidChangeEvent, addr 0x2494234, size 0xb0, virtual true, abstract: false, final true
+  inline void add_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
+
+  /// @brief Method add_scoreDidChangeEvent, addr 0x24940d4, size 0xb0, virtual true, abstract: false, final true
+  inline void add_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
+
+  /// @brief Method add_scoringForNoteFinishedEvent, addr 0x24944f4, size 0xb0, virtual true, abstract: false, final true
+  inline void add_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
+
+  /// @brief Method add_scoringForNoteStartedEvent, addr 0x2494394, size 0xb0, virtual true, abstract: false, final true
+  inline void add_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
+
+  /// @brief Method get_immediateMaxPossibleModifiedScore, addr 0x249466c, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_immediateMaxPossibleModifiedScore();
+
+  /// @brief Method get_immediateMaxPossibleMultipliedScore, addr 0x2494664, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_immediateMaxPossibleMultipliedScore();
+
+  /// @brief Method get_modifiedScore, addr 0x249465c, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_modifiedScore();
+
+  /// @brief Method get_multipliedScore, addr 0x2494654, size 0x8, virtual true, abstract: false, final true
+  inline int32_t get_multipliedScore();
+
+  /// @brief Convert to "::GlobalNamespace::IScoreController"
+  constexpr ::GlobalNamespace::IScoreController* i___GlobalNamespace__IScoreController() noexcept;
+
+  /// @brief Method remove_multiplierDidChangeEvent, addr 0x24942e4, size 0xb0, virtual true, abstract: false, final true
+  inline void remove_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
+
+  /// @brief Method remove_scoreDidChangeEvent, addr 0x2494184, size 0xb0, virtual true, abstract: false, final true
+  inline void remove_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
+
+  /// @brief Method remove_scoringForNoteFinishedEvent, addr 0x24945a4, size 0xb0, virtual true, abstract: false, final true
+  inline void remove_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
+
+  /// @brief Method remove_scoringForNoteStartedEvent, addr 0x2494444, size 0xb0, virtual true, abstract: false, final true
+  inline void remove_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScoreController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScoreController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScoreController(ScoreController&&) = delete;
@@ -408,12 +412,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScoreController(ScoreController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScoreController();
-
-public:
   /// @brief Field _gameplayModifiersModel, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 

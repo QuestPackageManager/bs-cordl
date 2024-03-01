@@ -15,8 +15,6 @@ MARK_VAL_T(::System::UInt64Enum);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2600))
 // CS Name: ::System::UInt64Enum
 struct CORDL_TYPE UInt64Enum {
 public:
@@ -31,12 +29,17 @@ public:
     return static_cast<__UInt64Enum_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None }]
-  constexpr UInt64Enum(uint64_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint64_t() const noexcept {
+    return static_cast<__UInt64Enum_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr UInt64Enum();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: None }]
+  constexpr UInt64Enum(uint64_t value__) noexcept;
 
   /// @brief Field value__, offset: 0x0, size: 0x8, def value: None
   uint64_t value__;

@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SyncTimeProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16197))
 // CS Name: ::SyncTimeProvider*
 class CORDL_TYPE SyncTimeProvider : public ::System::Object {
 public:
@@ -36,8 +34,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ITimeProvider"
   constexpr operator ::GlobalNamespace::ITimeProvider*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ITimeProvider"
-  constexpr ::GlobalNamespace::ITimeProvider* i___GlobalNamespace__ITimeProvider() noexcept;
+  static inline ::GlobalNamespace::SyncTimeProvider* New_ctor();
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
@@ -45,14 +42,21 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method get_time, addr 0x2182714, size 0xa4, virtual true, abstract: false, final true
-  inline int64_t get_time();
-
-  static inline ::GlobalNamespace::SyncTimeProvider* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21827b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2250e5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_time, addr 0x2250db8, size 0xa4, virtual true, abstract: false, final true
+  inline int64_t get_time();
+
+  /// @brief Convert to "::GlobalNamespace::ITimeProvider"
+  constexpr ::GlobalNamespace::ITimeProvider* i___GlobalNamespace__ITimeProvider() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SyncTimeProvider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SyncTimeProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SyncTimeProvider(SyncTimeProvider&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SyncTimeProvider(SyncTimeProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SyncTimeProvider();
-
-public:
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 

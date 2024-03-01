@@ -29,22 +29,20 @@ MARK_VAL_T(::UnityEngine::U2D::SpriteBone);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::U2D {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8994)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9040))
 // CS Name: ::UnityEngine.U2D::SpriteBone
 struct CORDL_TYPE SpriteBone {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpriteBone();
+
   // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Guid", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name:
   // "m_Length", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ParentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Color", ty:
   // "::UnityEngine::Color32", modifiers: "", def_value: None }]
   constexpr SpriteBone(::StringW m_Name, ::StringW m_Guid, ::UnityEngine::Vector3 m_Position, ::UnityEngine::Quaternion m_Rotation, float_t m_Length, int32_t m_ParentId,
                        ::UnityEngine::Color32 m_Color) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpriteBone();
 
   /// @brief Field m_Name, offset: 0x0, size: 0x8, def value: None
   ::StringW m_Name;

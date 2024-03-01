@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::UnityEngine::Coroutine);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8935))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8977))
 // CS Name: ::UnityEngine::Coroutine*
 class CORDL_TYPE Coroutine : public ::UnityEngine::YieldInstruction {
 public:
@@ -25,23 +23,29 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
-
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
-
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  /// @brief Method Finalize, addr 0x2dc5c78, size 0xbc, virtual true, abstract: false, final false
+  inline void Finalize();
 
   static inline ::UnityEngine::Coroutine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cda620, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Finalize, addr 0x2cda628, size 0xbc, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method ReleaseCoroutine, addr 0x2cda6e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCoroutine, addr 0x2dc5d34, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseCoroutine(void* ptr);
 
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+
+  constexpr void*& __cordl_internal_get_m_Ptr();
+
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
+
+  /// @brief Method .ctor, addr 0x2dc5c70, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Coroutine();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Coroutine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Coroutine(Coroutine&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Coroutine(Coroutine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Coroutine();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

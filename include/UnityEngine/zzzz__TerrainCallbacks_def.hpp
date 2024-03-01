@@ -43,20 +43,24 @@ MARK_REF_PTR_T(::UnityEngine::__TerrainCallbacks__TextureChangedCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15651))
 // CS Name: ::TerrainCallbacks::HeightmapChangedCallback*
 class CORDL_TYPE __TerrainCallbacks__HeightmapChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2d3f144, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2d3f21c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e2b944, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Terrain* terrain, ::UnityEngine::RectInt heightRegion, bool synched);
 
+  static inline ::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2e2b86c, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TerrainCallbacks__HeightmapChangedCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TerrainCallbacks__HeightmapChangedCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TerrainCallbacks__HeightmapChangedCallback(__TerrainCallbacks__HeightmapChangedCallback&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TerrainCallbacks__HeightmapChangedCallback(__TerrainCallbacks__HeightmapChangedCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TerrainCallbacks__HeightmapChangedCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -81,20 +79,24 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__TerrainCallbacks_
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15652))
 // CS Name: ::TerrainCallbacks::TextureChangedCallback*
 class CORDL_TYPE __TerrainCallbacks__TextureChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::UnityEngine::__TerrainCallbacks__TextureChangedCallback* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2d3f234, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2d3f30c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e2ba34, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Terrain* terrain, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
+  static inline ::UnityEngine::__TerrainCallbacks__TextureChangedCallback* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2e2b95c, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TerrainCallbacks__TextureChangedCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TerrainCallbacks__TextureChangedCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TerrainCallbacks__TextureChangedCallback(__TerrainCallbacks__TextureChangedCallback&&) = delete;
@@ -103,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TerrainCallbacks__TextureChangedCallback(__TerrainCallbacks__TextureChangedCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TerrainCallbacks__TextureChangedCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -119,15 +115,13 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__TerrainCallbacks_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15653))
 // CS Name: ::UnityEngine::TerrainCallbacks*
 class CORDL_TYPE TerrainCallbacks : public ::System::Object {
 public:
   // Declarations
-  using TextureChangedCallback = ::UnityEngine::__TerrainCallbacks__TextureChangedCallback;
-
   using HeightmapChangedCallback = ::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback;
+
+  using TextureChangedCallback = ::UnityEngine::__TerrainCallbacks__TextureChangedCallback;
 
   /// @brief Field heightmapChanged, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_heightmapChanged, put = setStaticF_heightmapChanged))::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback* heightmapChanged;
@@ -135,20 +129,26 @@ public:
   /// @brief Field textureChanged, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_textureChanged, put = setStaticF_textureChanged))::UnityEngine::__TerrainCallbacks__TextureChangedCallback* textureChanged;
 
-  static inline void setStaticF_heightmapChanged(::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback* value);
+  /// @brief Method InvokeHeightmapChangedCallback, addr 0x2e2b644, size 0x10c, virtual false, abstract: false, final false
+  static inline void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* terrainData, ::UnityEngine::RectInt heightRegion, bool synched);
+
+  /// @brief Method InvokeTextureChangedCallback, addr 0x2e2b750, size 0x11c, virtual false, abstract: false, final false
+  static inline void InvokeTextureChangedCallback(::UnityEngine::TerrainData* terrainData, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
   static inline ::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback* getStaticF_heightmapChanged();
 
-  static inline void setStaticF_textureChanged(::UnityEngine::__TerrainCallbacks__TextureChangedCallback* value);
-
   static inline ::UnityEngine::__TerrainCallbacks__TextureChangedCallback* getStaticF_textureChanged();
 
-  /// @brief Method InvokeHeightmapChangedCallback, addr 0x2d3ef1c, size 0x10c, virtual false, abstract: false, final false
-  static inline void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* terrainData, ::UnityEngine::RectInt heightRegion, bool synched);
+  static inline void setStaticF_heightmapChanged(::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback* value);
 
-  /// @brief Method InvokeTextureChangedCallback, addr 0x2d3f028, size 0x11c, virtual false, abstract: false, final false
-  static inline void InvokeTextureChangedCallback(::UnityEngine::TerrainData* terrainData, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
+  static inline void setStaticF_textureChanged(::UnityEngine::__TerrainCallbacks__TextureChangedCallback* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TerrainCallbacks();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TerrainCallbacks(TerrainCallbacks&&) = delete;
@@ -157,12 +157,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TerrainCallbacks(TerrainCallbacks const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TerrainCallbacks();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

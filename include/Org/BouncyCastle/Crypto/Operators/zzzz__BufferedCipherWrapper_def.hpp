@@ -27,52 +27,56 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(982))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::BufferedCipherWrapper*
 class CORDL_TYPE BufferedCipherWrapper : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
+
   /// @brief Field bufferedCipher, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bufferedCipher, put = __cordl_internal_set_bufferedCipher))::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher;
 
   /// @brief Field stream, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::Org::BouncyCastle::Crypto::IO::CipherStream* stream;
 
-  __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipher"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipher*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipher"
-  constexpr ::Org::BouncyCastle::Crypto::ICipher* i___Org__BouncyCastle__Crypto__ICipher() noexcept;
+  /// @brief Method GetMaxOutputSize, addr 0xf984d4, size 0xac, virtual true, abstract: false, final true
+  inline int32_t GetMaxOutputSize(int32_t inputLen);
+
+  /// @brief Method GetUpdateOutputSize, addr 0xf98580, size 0xac, virtual true, abstract: false, final true
+  inline int32_t GetUpdateOutputSize(int32_t inputLen);
+
+  static inline ::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper* New_ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
 
   constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_bufferedCipher();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __cordl_internal_get_bufferedCipher() const;
 
-  constexpr void __cordl_internal_set_bufferedCipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
-
   constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream*& __cordl_internal_get_stream();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::CipherStream*> const& __cordl_internal_get_stream() const;
 
+  constexpr void __cordl_internal_set_bufferedCipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
+
   constexpr void __cordl_internal_set_stream(::Org::BouncyCastle::Crypto::IO::CipherStream* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper* New_ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
-
-  /// @brief Method .ctor, addr 0xf53470, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf98440, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
 
-  /// @brief Method GetMaxOutputSize, addr 0xf53504, size 0xac, virtual true, abstract: false, final true
-  inline int32_t GetMaxOutputSize(int32_t inputLen);
-
-  /// @brief Method GetUpdateOutputSize, addr 0xf535b0, size 0xac, virtual true, abstract: false, final true
-  inline int32_t GetUpdateOutputSize(int32_t inputLen);
-
-  /// @brief Method get_Stream, addr 0xf5365c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0xf9862c, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipher"
+  constexpr ::Org::BouncyCastle::Crypto::ICipher* i___Org__BouncyCastle__Crypto__ICipher() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BufferedCipherWrapper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BufferedCipherWrapper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferedCipherWrapper(BufferedCipherWrapper&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BufferedCipherWrapper(BufferedCipherWrapper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferedCipherWrapper();
-
-public:
   /// @brief Field bufferedCipher, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IBufferedCipher* ___bufferedCipher;
 

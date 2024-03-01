@@ -15,8 +15,6 @@ MARK_VAL_T(::Newtonsoft::Json::Bson::BsonBinaryType);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11967))
 // CS Name: ::Newtonsoft.Json.Bson::BsonBinaryType
 struct CORDL_TYPE BsonBinaryType {
 public:
@@ -39,39 +37,44 @@ public:
     return static_cast<__BsonBinaryType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr BsonBinaryType(uint8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint8_t() const noexcept {
+    return static_cast<__BsonBinaryType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BsonBinaryType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr BsonBinaryType(uint8_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   uint8_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   /// @brief Field Binary value: static_cast<uint8_t>(0x0u)
   static ::Newtonsoft::Json::Bson::BsonBinaryType const Binary;
 
-  /// @brief Field Function value: static_cast<uint8_t>(0x1u)
-  static ::Newtonsoft::Json::Bson::BsonBinaryType const Function;
-
   /// @brief Field BinaryOld value: static_cast<uint8_t>(0x2u)
   static ::Newtonsoft::Json::Bson::BsonBinaryType const BinaryOld;
 
-  /// @brief Field UuidOld value: static_cast<uint8_t>(0x3u)
-  static ::Newtonsoft::Json::Bson::BsonBinaryType const UuidOld;
-
-  /// @brief Field Uuid value: static_cast<uint8_t>(0x4u)
-  static ::Newtonsoft::Json::Bson::BsonBinaryType const Uuid;
+  /// @brief Field Function value: static_cast<uint8_t>(0x1u)
+  static ::Newtonsoft::Json::Bson::BsonBinaryType const Function;
 
   /// @brief Field Md5 value: static_cast<uint8_t>(0x5u)
   static ::Newtonsoft::Json::Bson::BsonBinaryType const Md5;
 
   /// @brief Field UserDefined value: static_cast<uint8_t>(0x80u)
   static ::Newtonsoft::Json::Bson::BsonBinaryType const UserDefined;
+
+  /// @brief Field Uuid value: static_cast<uint8_t>(0x4u)
+  static ::Newtonsoft::Json::Bson::BsonBinaryType const Uuid;
+
+  /// @brief Field UuidOld value: static_cast<uint8_t>(0x3u)
+  static ::Newtonsoft::Json::Bson::BsonBinaryType const UuidOld;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

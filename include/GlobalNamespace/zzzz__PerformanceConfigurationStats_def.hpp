@@ -49,24 +49,22 @@ MARK_VAL_T(::GlobalNamespace::__PerformanceConfigurationStats__IntStats);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5212))
 // CS Name: ::PerformanceConfigurationStats::BoolStats
 struct CORDL_TYPE __PerformanceConfigurationStats__BoolStats {
 public:
   // Declarations
-  /// @brief Method Update, addr 0x232ebe4, size 0x1c, virtual false, abstract: false, final false
-  inline void Update(bool value);
-
-  /// @brief Method CreateLogValue, addr 0x232ec9c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateLogValue, addr 0x23fdadc, size 0xa4, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  // Ctor Parameters [CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "on", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PerformanceConfigurationStats__BoolStats(int32_t off, int32_t on) noexcept;
+  /// @brief Method Update, addr 0x23fda24, size 0x1c, virtual false, abstract: false, final false
+  inline void Update(bool value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PerformanceConfigurationStats__BoolStats();
+
+  // Ctor Parameters [CppParam { name: "off", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "on", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PerformanceConfigurationStats__BoolStats(int32_t off, int32_t on) noexcept;
 
   /// @brief Field off, offset: 0x0, size: 0x4, def value: None
   int32_t off;
@@ -91,8 +89,6 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationStats__BoolS
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5213))
 // CS Name: ::PerformanceConfigurationStats::IntStats
 struct CORDL_TYPE __PerformanceConfigurationStats__IntStats {
 public:
@@ -100,22 +96,22 @@ public:
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial))::GlobalNamespace::__PerformanceConfigurationStats__IntStats kInitial;
 
-  static inline void setStaticF_kInitial(::GlobalNamespace::__PerformanceConfigurationStats__IntStats value);
+  /// @brief Method CreateLogValue, addr 0x23fdb80, size 0xc4, virtual false, abstract: false, final false
+  inline ::StringW CreateLogValue();
+
+  /// @brief Method Update, addr 0x23fd90c, size 0x8c, virtual false, abstract: false, final false
+  inline void Update(int32_t value);
 
   static inline ::GlobalNamespace::__PerformanceConfigurationStats__IntStats getStaticF_kInitial();
 
-  /// @brief Method Update, addr 0x232eacc, size 0x8c, virtual false, abstract: false, final false
-  inline void Update(int32_t value);
-
-  /// @brief Method CreateLogValue, addr 0x232ed40, size 0xc4, virtual false, abstract: false, final false
-  inline ::StringW CreateLogValue();
-
-  // Ctor Parameters [CppParam { name: "min", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PerformanceConfigurationStats__IntStats(int32_t min, int32_t max) noexcept;
+  static inline void setStaticF_kInitial(::GlobalNamespace::__PerformanceConfigurationStats__IntStats value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PerformanceConfigurationStats__IntStats();
+
+  // Ctor Parameters [CppParam { name: "min", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PerformanceConfigurationStats__IntStats(int32_t min, int32_t max) noexcept;
 
   /// @brief Field min, offset: 0x0, size: 0x4, def value: None
   int32_t min;
@@ -140,8 +136,6 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationStats__IntSt
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5214))
 // CS Name: ::PerformanceConfigurationStats::FloatStats
 struct CORDL_TYPE __PerformanceConfigurationStats__FloatStats {
 public:
@@ -149,22 +143,22 @@ public:
   /// @brief Field kInitial, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kInitial, put = setStaticF_kInitial))::GlobalNamespace::__PerformanceConfigurationStats__FloatStats kInitial;
 
-  static inline void setStaticF_kInitial(::GlobalNamespace::__PerformanceConfigurationStats__FloatStats value);
+  /// @brief Method CreateLogValue, addr 0x23fdc90, size 0xc4, virtual false, abstract: false, final false
+  inline ::StringW CreateLogValue();
+
+  /// @brief Method Update, addr 0x23fd998, size 0x8c, virtual false, abstract: false, final false
+  inline void Update(float_t value);
 
   static inline ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats getStaticF_kInitial();
 
-  /// @brief Method Update, addr 0x232eb58, size 0x8c, virtual false, abstract: false, final false
-  inline void Update(float_t value);
-
-  /// @brief Method CreateLogValue, addr 0x232ee50, size 0xc4, virtual false, abstract: false, final false
-  inline ::StringW CreateLogValue();
-
-  // Ctor Parameters [CppParam { name: "min", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __PerformanceConfigurationStats__FloatStats(float_t min, float_t max) noexcept;
+  static inline void setStaticF_kInitial(::GlobalNamespace::__PerformanceConfigurationStats__FloatStats value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PerformanceConfigurationStats__FloatStats();
+
+  // Ctor Parameters [CppParam { name: "min", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "max", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr __PerformanceConfigurationStats__FloatStats(float_t min, float_t max) noexcept;
 
   /// @brief Field min, offset: 0x0, size: 0x4, def value: None
   float_t min;
@@ -191,24 +185,22 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5215))
 // CS Name: ::PerformanceConfigurationStats::EnumStats`1<T>
 struct CORDL_TYPE __PerformanceConfigurationStats__EnumStats_1 {
 public:
   // Declarations
-  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Update(T value);
-
   /// @brief Method CreateLogValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW CreateLogValue();
 
-  // Ctor Parameters [CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PerformanceConfigurationStats__EnumStats_1(int32_t flags) noexcept;
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Update(T value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PerformanceConfigurationStats__EnumStats_1();
+
+  // Ctor Parameters [CppParam { name: "flags", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __PerformanceConfigurationStats__EnumStats_1(int32_t flags) noexcept;
 
   /// @brief Field flags, offset: 0x0, size: 0x4, def value: None
   int32_t flags;
@@ -224,30 +216,27 @@ public:
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5212)), TypeDefinitionIndex(TypeDefinitionIndex(5213)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5214)), TypeDefinitionIndex(TypeDefinitionIndex(5215)), TypeDefinitionIndex(TypeDefinitionIndex(8876)), TypeDefinitionIndex(TypeDefinitionIndex(9015)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5215), inst: 1631 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5215), inst: 1632 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5216)) CS Name: ::PerformanceConfigurationStats*
+// CS Name: ::PerformanceConfigurationStats*
 class CORDL_TYPE PerformanceConfigurationStats : public ::System::Object {
 public:
   // Declarations
+  using BoolStats = ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats;
+
   template <typename T> using EnumStats_1 = ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<T>;
 
   using FloatStats = ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats;
 
   using IntStats = ::GlobalNamespace::__PerformanceConfigurationStats__IntStats;
 
-  using BoolStats = ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats;
-
-  /// @brief Field processorFrequency, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_processorFrequency, put = __cordl_internal_set_processorFrequency))::GlobalNamespace::__PerformanceConfigurationStats__IntStats processorFrequency;
+  /// @brief Field batteryLevel, offset 0x1c, size 0x8
+  __declspec(property(get = __cordl_internal_get_batteryLevel, put = __cordl_internal_set_batteryLevel))::GlobalNamespace::__PerformanceConfigurationStats__FloatStats batteryLevel;
 
   /// @brief Field batteryStatus, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_batteryStatus,
                       put = __cordl_internal_set_batteryStatus))::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::BatteryStatus> batteryStatus;
 
-  /// @brief Field batteryLevel, offset 0x1c, size 0x8
-  __declspec(property(get = __cordl_internal_get_batteryLevel, put = __cordl_internal_set_batteryLevel))::GlobalNamespace::__PerformanceConfigurationStats__FloatStats batteryLevel;
+  /// @brief Field boundaryVisible, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_boundaryVisible, put = __cordl_internal_set_boundaryVisible))::GlobalNamespace::__PerformanceConfigurationStats__BoolStats boundaryVisible;
 
   /// @brief Field internetReachability, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_internetReachability,
@@ -256,47 +245,8 @@ public:
   /// @brief Field powerSaving, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_powerSaving, put = __cordl_internal_set_powerSaving))::GlobalNamespace::__PerformanceConfigurationStats__BoolStats powerSaving;
 
-  /// @brief Field boundaryVisible, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_boundaryVisible, put = __cordl_internal_set_boundaryVisible))::GlobalNamespace::__PerformanceConfigurationStats__BoolStats boundaryVisible;
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__IntStats& __cordl_internal_get_processorFrequency();
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__IntStats const& __cordl_internal_get_processorFrequency() const;
-
-  constexpr void __cordl_internal_set_processorFrequency(::GlobalNamespace::__PerformanceConfigurationStats__IntStats value);
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::BatteryStatus>& __cordl_internal_get_batteryStatus();
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::BatteryStatus> const& __cordl_internal_get_batteryStatus() const;
-
-  constexpr void __cordl_internal_set_batteryStatus(::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::BatteryStatus> value);
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats& __cordl_internal_get_batteryLevel();
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats const& __cordl_internal_get_batteryLevel() const;
-
-  constexpr void __cordl_internal_set_batteryLevel(::GlobalNamespace::__PerformanceConfigurationStats__FloatStats value);
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability>& __cordl_internal_get_internetReachability();
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability> const& __cordl_internal_get_internetReachability() const;
-
-  constexpr void __cordl_internal_set_internetReachability(::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability> value);
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats& __cordl_internal_get_powerSaving();
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats const& __cordl_internal_get_powerSaving() const;
-
-  constexpr void __cordl_internal_set_powerSaving(::GlobalNamespace::__PerformanceConfigurationStats__BoolStats value);
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats& __cordl_internal_get_boundaryVisible();
-
-  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats const& __cordl_internal_get_boundaryVisible() const;
-
-  constexpr void __cordl_internal_set_boundaryVisible(::GlobalNamespace::__PerformanceConfigurationStats__BoolStats value);
-
-  /// @brief Method Update, addr 0x232e9a0, size 0x12c, virtual false, abstract: false, final false
-  inline void Update();
+  /// @brief Field processorFrequency, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_processorFrequency, put = __cordl_internal_set_processorFrequency))::GlobalNamespace::__PerformanceConfigurationStats__IntStats processorFrequency;
 
   /// @brief Method ConvertEnumToFlag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t ConvertEnumToFlag(T value);
@@ -306,9 +256,54 @@ public:
 
   static inline ::GlobalNamespace::PerformanceConfigurationStats* New_ctor();
 
-  /// @brief Method .ctor, addr 0x232ec00, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x23fd7e0, size 0x12c, virtual false, abstract: false, final false
+  inline void Update();
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats const& __cordl_internal_get_batteryLevel() const;
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__FloatStats& __cordl_internal_get_batteryLevel();
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::BatteryStatus> const& __cordl_internal_get_batteryStatus() const;
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::BatteryStatus>& __cordl_internal_get_batteryStatus();
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats const& __cordl_internal_get_boundaryVisible() const;
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats& __cordl_internal_get_boundaryVisible();
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability> const& __cordl_internal_get_internetReachability() const;
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability>& __cordl_internal_get_internetReachability();
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats const& __cordl_internal_get_powerSaving() const;
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__BoolStats& __cordl_internal_get_powerSaving();
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__IntStats const& __cordl_internal_get_processorFrequency() const;
+
+  constexpr ::GlobalNamespace::__PerformanceConfigurationStats__IntStats& __cordl_internal_get_processorFrequency();
+
+  constexpr void __cordl_internal_set_batteryLevel(::GlobalNamespace::__PerformanceConfigurationStats__FloatStats value);
+
+  constexpr void __cordl_internal_set_batteryStatus(::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::BatteryStatus> value);
+
+  constexpr void __cordl_internal_set_boundaryVisible(::GlobalNamespace::__PerformanceConfigurationStats__BoolStats value);
+
+  constexpr void __cordl_internal_set_internetReachability(::GlobalNamespace::__PerformanceConfigurationStats__EnumStats_1<::UnityEngine::NetworkReachability> value);
+
+  constexpr void __cordl_internal_set_powerSaving(::GlobalNamespace::__PerformanceConfigurationStats__BoolStats value);
+
+  constexpr void __cordl_internal_set_processorFrequency(::GlobalNamespace::__PerformanceConfigurationStats__IntStats value);
+
+  /// @brief Method .ctor, addr 0x23fda40, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PerformanceConfigurationStats();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PerformanceConfigurationStats", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PerformanceConfigurationStats(PerformanceConfigurationStats&&) = delete;
@@ -317,12 +312,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PerformanceConfigurationStats(PerformanceConfigurationStats const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PerformanceConfigurationStats();
-
-public:
   /// @brief Field processorFrequency, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::__PerformanceConfigurationStats__IntStats ___processorFrequency;
 

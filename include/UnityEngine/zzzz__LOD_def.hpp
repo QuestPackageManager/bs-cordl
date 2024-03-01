@@ -19,22 +19,20 @@ MARK_VAL_T(::UnityEngine::LOD);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8822))
 // CS Name: ::UnityEngine::LOD
 struct CORDL_TYPE LOD {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2cb9ca0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2da4204, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t screenRelativeTransitionHeight, ::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> renderers);
-
-  // Ctor Parameters [CppParam { name: "screenRelativeTransitionHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fadeTransitionWidth", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "renderers", ty: "::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*>", modifiers: "", def_value: None }]
-  constexpr LOD(float_t screenRelativeTransitionHeight, float_t fadeTransitionWidth, ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> renderers) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LOD();
+
+  // Ctor Parameters [CppParam { name: "screenRelativeTransitionHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fadeTransitionWidth", ty: "float_t", modifiers: "",
+  // def_value: None }, CppParam { name: "renderers", ty: "::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*>", modifiers: "", def_value: None }]
+  constexpr LOD(float_t screenRelativeTransitionHeight, float_t fadeTransitionWidth, ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> renderers) noexcept;
 
   /// @brief Field screenRelativeTransitionHeight, offset: 0x0, size: 0x4, def value: None
   float_t screenRelativeTransitionHeight;

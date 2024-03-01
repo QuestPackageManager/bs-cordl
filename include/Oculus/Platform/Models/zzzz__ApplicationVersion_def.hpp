@@ -13,11 +13,9 @@ class ApplicationVersion;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationVersion);
 // Type: Oculus.Platform.Models::ApplicationVersion
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13346))
 // CS Name: ::Oculus.Platform.Models::ApplicationVersion*
 class CORDL_TYPE ApplicationVersion : public ::System::Object {
 public:
@@ -34,35 +32,59 @@ public:
   /// @brief Field LatestName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_LatestName, put = __cordl_internal_set_LatestName))::StringW LatestName;
 
-  constexpr int32_t& __cordl_internal_get_CurrentCode();
+  /// @brief Field ReleaseDate, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_ReleaseDate, put = __cordl_internal_set_ReleaseDate)) int64_t ReleaseDate;
 
-  constexpr int32_t const& __cordl_internal_get_CurrentCode() const;
-
-  constexpr void __cordl_internal_set_CurrentCode(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get_CurrentName();
-
-  constexpr ::StringW const& __cordl_internal_get_CurrentName() const;
-
-  constexpr void __cordl_internal_set_CurrentName(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get_LatestCode();
-
-  constexpr int32_t const& __cordl_internal_get_LatestCode() const;
-
-  constexpr void __cordl_internal_set_LatestCode(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get_LatestName();
-
-  constexpr ::StringW const& __cordl_internal_get_LatestName() const;
-
-  constexpr void __cordl_internal_set_LatestName(::StringW value);
+  /// @brief Field Size, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_Size, put = __cordl_internal_set_Size))::StringW Size;
 
   static inline ::Oculus::Platform::Models::ApplicationVersion* New_ctor(void* o);
 
-  /// @brief Method .ctor, addr 0x2736a74, size 0xa8, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_CurrentCode() const;
+
+  constexpr int32_t& __cordl_internal_get_CurrentCode();
+
+  constexpr ::StringW const& __cordl_internal_get_CurrentName() const;
+
+  constexpr ::StringW& __cordl_internal_get_CurrentName();
+
+  constexpr int32_t const& __cordl_internal_get_LatestCode() const;
+
+  constexpr int32_t& __cordl_internal_get_LatestCode();
+
+  constexpr ::StringW const& __cordl_internal_get_LatestName() const;
+
+  constexpr ::StringW& __cordl_internal_get_LatestName();
+
+  constexpr int64_t const& __cordl_internal_get_ReleaseDate() const;
+
+  constexpr int64_t& __cordl_internal_get_ReleaseDate();
+
+  constexpr ::StringW const& __cordl_internal_get_Size() const;
+
+  constexpr ::StringW& __cordl_internal_get_Size();
+
+  constexpr void __cordl_internal_set_CurrentCode(int32_t value);
+
+  constexpr void __cordl_internal_set_CurrentName(::StringW value);
+
+  constexpr void __cordl_internal_set_LatestCode(int32_t value);
+
+  constexpr void __cordl_internal_set_LatestName(::StringW value);
+
+  constexpr void __cordl_internal_set_ReleaseDate(int64_t value);
+
+  constexpr void __cordl_internal_set_Size(::StringW value);
+
+  /// @brief Method .ctor, addr 0x27f5dc8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ApplicationVersion();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ApplicationVersion", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ApplicationVersion(ApplicationVersion&&) = delete;
@@ -71,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ApplicationVersion(ApplicationVersion const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ApplicationVersion();
-
-public:
   /// @brief Field CurrentCode, offset: 0x10, size: 0x4, def value: None
   int32_t ___CurrentCode;
 
@@ -89,10 +105,16 @@ public:
   /// @brief Field LatestName, offset: 0x28, size: 0x8, def value: None
   ::StringW ___LatestName;
 
+  /// @brief Field ReleaseDate, offset: 0x30, size: 0x8, def value: None
+  int64_t ___ReleaseDate;
+
+  /// @brief Field Size, offset: 0x38, size: 0x8, def value: None
+  ::StringW ___Size;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ApplicationVersion, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ApplicationVersion, 0x40>, "Size mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::ApplicationVersion, ___CurrentCode) == 0x10, "Offset mismatch!");
 
@@ -101,6 +123,10 @@ static_assert(offsetof(::Oculus::Platform::Models::ApplicationVersion, ___Curren
 static_assert(offsetof(::Oculus::Platform::Models::ApplicationVersion, ___LatestCode) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::ApplicationVersion, ___LatestName) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::ApplicationVersion, ___ReleaseDate) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::Oculus::Platform::Models::ApplicationVersion, ___Size) == 0x38, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::ApplicationVersion);

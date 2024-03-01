@@ -18,20 +18,24 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10898))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10902))
 // CS Name: ::MultiplayerBadgeDataSaberMovementSO*
 class CORDL_TYPE MultiplayerBadgeDataSaberMovementSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x129810c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x12da0dc, size 0x2c, virtual true, abstract: false, final false
   inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1298138, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12da108, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerBadgeDataSaberMovementSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSaberMovementSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgeDataSaberMovementSO(MultiplayerBadgeDataSaberMovementSO&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBadgeDataSaberMovementSO(MultiplayerBadgeDataSaberMovementSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerBadgeDataSaberMovementSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -23,8 +23,6 @@ MARK_VAL_T(::UnityEngine::XR::InputDevice);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15752))
 // CS Name: ::UnityEngine.XR::InputDevice
 struct CORDL_TYPE InputDevice {
 public:
@@ -38,45 +36,45 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::InputDevice>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"
-  constexpr ::System::IEquatable_1<::UnityEngine::XR::InputDevice>* i___System__IEquatable_1___UnityEngine__XR__InputDevice_();
-
-  /// @brief Method .ctor, addr 0x2ecd29c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(uint64_t deviceId);
-
-  /// @brief Method get_deviceId, addr 0x2ecd2ac, size 0x18, virtual false, abstract: false, final false
-  inline uint64_t get_deviceId();
-
-  /// @brief Method get_isValid, addr 0x2ecd2c4, size 0x5c, virtual false, abstract: false, final false
-  inline bool get_isValid();
-
-  /// @brief Method get_manufacturer, addr 0x2ecd37c, size 0x5c, virtual false, abstract: false, final false
-  inline ::StringW get_manufacturer();
-
-  /// @brief Method IsValidId, addr 0x2ecd320, size 0x20, virtual false, abstract: false, final false
-  inline bool IsValidId();
-
-  /// @brief Method SendHapticImpulse, addr 0x2ecd414, size 0x100, virtual false, abstract: false, final false
-  inline bool SendHapticImpulse(uint32_t channel, float_t amplitude, float_t duration);
-
-  /// @brief Method StopHaptics, addr 0x2ecd570, size 0x58, virtual false, abstract: false, final false
-  inline void StopHaptics();
-
-  /// @brief Method Equals, addr 0x2ecd604, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2fc1d2c, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2ecd698, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2fc1dc0, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::InputDevice other);
 
-  /// @brief Method GetHashCode, addr 0x2ecd6c0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2fc1de8, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_Initialized", ty: "bool", modifiers: "", def_value: None }]
-  constexpr InputDevice(uint64_t m_DeviceId, bool m_Initialized) noexcept;
+  /// @brief Method IsValidId, addr 0x2fc1a48, size 0x20, virtual false, abstract: false, final false
+  inline bool IsValidId();
+
+  /// @brief Method SendHapticImpulse, addr 0x2fc1b3c, size 0x100, virtual false, abstract: false, final false
+  inline bool SendHapticImpulse(uint32_t channel, float_t amplitude, float_t duration);
+
+  /// @brief Method StopHaptics, addr 0x2fc1c98, size 0x58, virtual false, abstract: false, final false
+  inline void StopHaptics();
+
+  /// @brief Method .ctor, addr 0x2fc19c4, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(uint64_t deviceId);
+
+  /// @brief Method get_deviceId, addr 0x2fc19d4, size 0x18, virtual false, abstract: false, final false
+  inline uint64_t get_deviceId();
+
+  /// @brief Method get_isValid, addr 0x2fc19ec, size 0x5c, virtual false, abstract: false, final false
+  inline bool get_isValid();
+
+  /// @brief Method get_manufacturer, addr 0x2fc1aa4, size 0x5c, virtual false, abstract: false, final false
+  inline ::StringW get_manufacturer();
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"
+  constexpr ::System::IEquatable_1<::UnityEngine::XR::InputDevice>* i___System__IEquatable_1___UnityEngine__XR__InputDevice_();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr InputDevice();
+
+  // Ctor Parameters [CppParam { name: "m_DeviceId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_Initialized", ty: "bool", modifiers: "", def_value: None }]
+  constexpr InputDevice(uint64_t m_DeviceId, bool m_Initialized) noexcept;
 
   /// @brief Field m_DeviceId, offset: 0x0, size: 0x8, def value: None
   uint64_t m_DeviceId;

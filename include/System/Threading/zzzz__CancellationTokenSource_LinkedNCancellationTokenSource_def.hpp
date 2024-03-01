@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::Threading::__CancellationTokenSource__LinkedNCancellati
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2688))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2687))
 // CS Name: ::CancellationTokenSource::LinkedNCancellationTokenSource*
 class CORDL_TYPE __CancellationTokenSource__LinkedNCancellationTokenSource : public ::System::Threading::CancellationTokenSource {
 public:
@@ -34,10 +32,16 @@ public:
   /// @brief Field s_linkedTokenCancelDelegate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_linkedTokenCancelDelegate, put = setStaticF_s_linkedTokenCancelDelegate))::System::Action_1<::System::Object*>* s_linkedTokenCancelDelegate;
 
-  static inline void setStaticF_s_linkedTokenCancelDelegate(::System::Action_1<::System::Object*>* value);
-
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_linkedTokenCancelDelegate();
 
+  static inline void setStaticF_s_linkedTokenCancelDelegate(::System::Action_1<::System::Object*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CancellationTokenSource__LinkedNCancellationTokenSource();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CancellationTokenSource__LinkedNCancellationTokenSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CancellationTokenSource__LinkedNCancellationTokenSource(__CancellationTokenSource__LinkedNCancellationTokenSource&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CancellationTokenSource__LinkedNCancellationTokenSource(__CancellationTokenSource__LinkedNCancellationTokenSource const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CancellationTokenSource__LinkedNCancellationTokenSource();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

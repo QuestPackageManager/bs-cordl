@@ -26,14 +26,16 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformInstallerSO);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10289))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3981))
 // CS Name: ::PlatformInstallerSO*
 class CORDL_TYPE PlatformInstallerSO : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Field _setupData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__setupData, put = __cordl_internal_set__setupData))::GlobalNamespace::AppInitSetupData* _setupData;
+  /// @brief Field _achievementIdsModel, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__achievementIdsModel, put = __cordl_internal_set__achievementIdsModel))::UnityW<::GlobalNamespace::AchievementIdsModelSO> _achievementIdsModel;
+
+  /// @brief Field _mockPlatformAdditionalContentModelInitialData, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__mockPlatformAdditionalContentModelInitialData, put = __cordl_internal_set__mockPlatformAdditionalContentModelInitialData))::UnityW<
+      ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> _mockPlatformAdditionalContentModelInitialData;
 
   /// @brief Field _ps4AchievementIdsModel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__ps4AchievementIdsModel,
@@ -43,51 +45,53 @@ public:
   __declspec(property(get = __cordl_internal_get__ps5AchievementIdsModel,
                       put = __cordl_internal_set__ps5AchievementIdsModel))::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> _ps5AchievementIdsModel;
 
-  /// @brief Field _achievementIdsModel, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__achievementIdsModel, put = __cordl_internal_set__achievementIdsModel))::UnityW<::GlobalNamespace::AchievementIdsModelSO> _achievementIdsModel;
+  /// @brief Field _setupData, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__setupData, put = __cordl_internal_set__setupData))::GlobalNamespace::AppInitSetupData* _setupData;
 
-  /// @brief Field _mockPlatformAdditionalContentModelInitialData, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__mockPlatformAdditionalContentModelInitialData, put = __cordl_internal_set__mockPlatformAdditionalContentModelInitialData))::UnityW<
-      ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> _mockPlatformAdditionalContentModelInitialData;
+  /// @brief Method InstallBindings, addr 0x237f634, size 0x90, virtual true, abstract: false, final false
+  inline void InstallBindings();
+
+  static inline ::GlobalNamespace::PlatformInstallerSO* New_ctor();
+
+  constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO> const& __cordl_internal_get__achievementIdsModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO>& __cordl_internal_get__achievementIdsModel();
+
+  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> const& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData();
+
+  constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> const& __cordl_internal_get__ps4AchievementIdsModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO>& __cordl_internal_get__ps4AchievementIdsModel();
+
+  constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> const& __cordl_internal_get__ps5AchievementIdsModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO>& __cordl_internal_get__ps5AchievementIdsModel();
 
   constexpr ::GlobalNamespace::AppInitSetupData*& __cordl_internal_get__setupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitSetupData*> const& __cordl_internal_get__setupData() const;
 
-  constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
-
-  constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO>& __cordl_internal_get__ps4AchievementIdsModel();
-
-  constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> const& __cordl_internal_get__ps4AchievementIdsModel() const;
-
-  constexpr void __cordl_internal_set__ps4AchievementIdsModel(::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO>& __cordl_internal_get__ps5AchievementIdsModel();
-
-  constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> const& __cordl_internal_get__ps5AchievementIdsModel() const;
-
-  constexpr void __cordl_internal_set__ps5AchievementIdsModel(::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO>& __cordl_internal_get__achievementIdsModel();
-
-  constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO> const& __cordl_internal_get__achievementIdsModel() const;
-
   constexpr void __cordl_internal_set__achievementIdsModel(::UnityW<::GlobalNamespace::AchievementIdsModelSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData();
-
-  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> const& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData() const;
 
   constexpr void __cordl_internal_set__mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> value);
 
-  /// @brief Method InstallBindings, addr 0x22b2fcc, size 0x90, virtual true, abstract: false, final false
-  inline void InstallBindings();
+  constexpr void __cordl_internal_set__ps4AchievementIdsModel(::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> value);
 
-  static inline ::GlobalNamespace::PlatformInstallerSO* New_ctor();
+  constexpr void __cordl_internal_set__ps5AchievementIdsModel(::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> value);
 
-  /// @brief Method .ctor, addr 0x22b305c, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
+
+  /// @brief Method .ctor, addr 0x237f6c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlatformInstallerSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlatformInstallerSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlatformInstallerSO(PlatformInstallerSO&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformInstallerSO(PlatformInstallerSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformInstallerSO();
-
-public:
   /// @brief Field _setupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::AppInitSetupData* ____setupData;
 

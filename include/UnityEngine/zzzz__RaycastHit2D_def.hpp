@@ -23,45 +23,43 @@ MARK_VAL_T(::UnityEngine::RaycastHit2D);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16057))
 // CS Name: ::UnityEngine::RaycastHit2D
 struct CORDL_TYPE RaycastHit2D {
 public:
   // Declarations
-  __declspec(property(get = get_point))::UnityEngine::Vector2 point;
-
-  __declspec(property(get = get_normal))::UnityEngine::Vector2 normal;
+  __declspec(property(get = get_collider))::UnityW<::UnityEngine::Collider2D> collider;
 
   __declspec(property(get = get_distance)) float_t distance;
 
   __declspec(property(get = get_fraction)) float_t fraction;
 
-  __declspec(property(get = get_collider))::UnityW<::UnityEngine::Collider2D> collider;
+  __declspec(property(get = get_normal))::UnityEngine::Vector2 normal;
 
-  /// @brief Method get_point, addr 0x2d23570, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_point();
+  __declspec(property(get = get_point))::UnityEngine::Vector2 point;
 
-  /// @brief Method get_normal, addr 0x2d23578, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_normal();
+  /// @brief Method get_collider, addr 0x2e0fcb8, size 0xac, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Collider2D> get_collider();
 
-  /// @brief Method get_distance, addr 0x2d23580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x2e0fca8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_fraction, addr 0x2d23588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fraction, addr 0x2e0fcb0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fraction();
 
-  /// @brief Method get_collider, addr 0x2d23590, size 0xac, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Collider2D> get_collider();
+  /// @brief Method get_normal, addr 0x2e0fca0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_normal();
+
+  /// @brief Method get_point, addr 0x2e0fc98, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_point();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RaycastHit2D();
 
   // Ctor Parameters [CppParam { name: "m_Centroid", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Point", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
   // None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }, CppParam {
   // name: "m_Fraction", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr RaycastHit2D(::UnityEngine::Vector2 m_Centroid, ::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, float_t m_Distance, float_t m_Fraction, int32_t m_Collider) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RaycastHit2D();
 
   /// @brief Field m_Centroid, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_Centroid;

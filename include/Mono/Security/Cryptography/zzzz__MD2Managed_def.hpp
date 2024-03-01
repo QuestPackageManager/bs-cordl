@@ -16,84 +16,88 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::MD2Managed);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13743))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13744))
 // CS Name: ::Mono.Security.Cryptography::MD2Managed*
 class CORDL_TYPE MD2Managed : public ::Mono::Security::Cryptography::MD2 {
 public:
   // Declarations
-  /// @brief Field state, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint8_t, ::Array<uint8_t>*> state;
-
-  /// @brief Field checksum, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_checksum, put = __cordl_internal_set_checksum))::ArrayW<uint8_t, ::Array<uint8_t>*> checksum;
+  /// @brief Field PI_SUBST, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_PI_SUBST, put = setStaticF_PI_SUBST))::ArrayW<uint8_t, ::Array<uint8_t>*> PI_SUBST;
 
   /// @brief Field buffer, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
+  /// @brief Field checksum, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_checksum, put = __cordl_internal_set_checksum))::ArrayW<uint8_t, ::Array<uint8_t>*> checksum;
+
   /// @brief Field count, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
+
+  /// @brief Field state, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint8_t, ::Array<uint8_t>*> state;
 
   /// @brief Field x, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::ArrayW<uint8_t, ::Array<uint8_t>*> x;
 
-  /// @brief Field PI_SUBST, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PI_SUBST, put = setStaticF_PI_SUBST))::ArrayW<uint8_t, ::Array<uint8_t>*> PI_SUBST;
+  /// @brief Method HashCore, addr 0x24f4590, size 0xdc, virtual true, abstract: false, final false
+  inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t ibStart, int32_t cbSize);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_state();
+  /// @brief Method HashFinal, addr 0x24f48c4, size 0xf0, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_state() const;
+  /// @brief Method Initialize, addr 0x24f4530, size 0x60, virtual true, abstract: false, final false
+  inline void Initialize();
 
-  constexpr void __cordl_internal_set_state(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_checksum();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_checksum() const;
-
-  constexpr void __cordl_internal_set_checksum(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
-
-  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_count();
-
-  constexpr int32_t const& __cordl_internal_get_count() const;
-
-  constexpr void __cordl_internal_set_count(int32_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_x();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_x() const;
-
-  constexpr void __cordl_internal_set_x(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline void setStaticF_PI_SUBST(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_PI_SUBST();
-
-  /// @brief Method Padding, addr 0x242479c, size 0x9c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Padding(int32_t nLength);
+  /// @brief Method MD2Transform, addr 0x24f466c, size 0x258, virtual false, abstract: false, final false
+  inline void MD2Transform(::ArrayW<uint8_t, ::Array<uint8_t>*> state, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum, ::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t index);
 
   static inline ::Mono::Security::Cryptography::MD2Managed* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24246f8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Padding, addr 0x24f4494, size 0x9c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Padding(int32_t nLength);
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_checksum() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_checksum();
+
+  constexpr int32_t const& __cordl_internal_get_count() const;
+
+  constexpr int32_t& __cordl_internal_get_count();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_state() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_state();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_x() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_x();
+
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_checksum(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_count(int32_t value);
+
+  constexpr void __cordl_internal_set_state(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_x(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0x24f43f0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Initialize, addr 0x2424838, size 0x60, virtual true, abstract: false, final false
-  inline void Initialize();
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_PI_SUBST();
 
-  /// @brief Method HashCore, addr 0x2424898, size 0xdc, virtual true, abstract: false, final false
-  inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t ibStart, int32_t cbSize);
+  static inline void setStaticF_PI_SUBST(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method HashFinal, addr 0x2424bcc, size 0xf0, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MD2Managed();
 
-  /// @brief Method MD2Transform, addr 0x2424974, size 0x258, virtual false, abstract: false, final false
-  inline void MD2Transform(::ArrayW<uint8_t, ::Array<uint8_t>*> state, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum, ::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t index);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MD2Managed", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MD2Managed(MD2Managed&&) = delete;
@@ -102,12 +106,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MD2Managed(MD2Managed const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MD2Managed();
-
-public:
   /// @brief Field state, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___state;
 

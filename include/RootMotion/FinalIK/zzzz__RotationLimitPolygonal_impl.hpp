@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::*)()>(
     &::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::get_o)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x132a838;
+  constexpr static std::size_t addrs = 0x136b824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::*)()>(
     &::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::get_a)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x132a864;
+  constexpr static std::size_t addrs = 0x136b850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::*)()>(
     &::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::get_b)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x132a894;
+  constexpr static std::size_t addrs = 0x136b880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::*)()>(
     &::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::get_c)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x132a8c4;
+  constexpr static std::size_t addrs = 0x136b8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x132a8f4;
+  constexpr static std::size_t addrs = 0x136b8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::*)()>(
     &::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::get_isValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x132aa58;
+  constexpr static std::size_t addrs = 0x136ba44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::*)()>(
     &::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone::Calculate)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x132aa68;
+  constexpr static std::size_t addrs = 0x136ba54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint::*)()>(
     &::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x132acdc;
+  constexpr static std::size_t addrs = 0x136bcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitPolygonal::*)()>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::OpenUserManual)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1327f30;
+  constexpr static std::size_t addrs = 0x1369f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(),
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitPolygonal::*)()>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::OpenScriptReference)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1327f74;
+  constexpr static std::size_t addrs = 0x1369f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(),
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitPolygonal::*)()>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::SupportGroup)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1327fb8;
+  constexpr static std::size_t addrs = 0x1369fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(),
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitPolygonal::*)()>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::ASThread)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1327ffc;
+  constexpr static std::size_t addrs = 0x1369fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(),
@@ -318,7 +318,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*>)>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::SetLimitPoints)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x1328040;
+  constexpr static std::size_t addrs = 0x136a02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::RootMotion::FinalIK::RotationLimitPolygonal::*)(::UnityEngine::Quaternion)>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::LimitRotation)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x1328684;
+  constexpr static std::size_t addrs = 0x136a670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitPolygonal::*)()>(&::RootMotion::FinalIK::RotationLimitPolygonal::Start)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x132870c;
+  constexpr static std::size_t addrs = 0x136a6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(), "Start",
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitPolygonal::*)()>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::ResetToDefault)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x1328d00;
+  constexpr static std::size_t addrs = 0x136acec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(),
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitPolygonal::*)()>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::BuildReachCones)> {
   constexpr static std::size_t size = 0x5b8;
-  constexpr static std::size_t addrs = 0x13280cc;
+  constexpr static std::size_t addrs = 0x136a0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(),
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (
     ::RootMotion::FinalIK::RotationLimitPolygonal::*)()>(&::RootMotion::FinalIK::RotationLimitPolygonal::SmoothPoints)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x13291cc;
+  constexpr static std::size_t addrs = 0x136b1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(),
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::RootMotion::FinalIK::RotationLimitPolygonal::*)(int32_t)>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::GetScalar)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x13295fc;
+  constexpr static std::size_t addrs = 0x136b5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::RotationLimitPolygonal::*)(::UnityEngine::Vector3, float_t)>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::PointToTangentPlane)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x1329644;
+  constexpr static std::size_t addrs = 0x136b630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(),
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::RotationLimitPolygonal::*)(::UnityEngine::Vector3, float_t)>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::TangentPointToSphere)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x13296a4;
+  constexpr static std::size_t addrs = 0x136b690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(),
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::RootMotion::FinalIK::RotationLimitPolygonal::*)(::UnityEngine::Quaternion)>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::LimitSwing)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x1328a5c;
+  constexpr static std::size_t addrs = 0x136aa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -466,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::RootMotion::FinalIK::RotationLimitPolygonal::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::RotationLimitPolygonal::GetReachCone)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x1329710;
+  constexpr static std::size_t addrs = 0x136b6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -479,8 +479,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::RotationLimitPolygonal::*)()>(&::RootMotion::FinalIK::RotationLimitPolygonal::_ctor)> {
-  constexpr static std::size_t size = 0x105c;
-  constexpr static std::size_t addrs = 0x13297dc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x136b7c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitPolygonal*>::get(), ".ctor",

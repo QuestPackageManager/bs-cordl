@@ -47,8 +47,6 @@ MARK_REF_PTR_T(::Zenject::__TypeAnalyzer____c__DisplayClass23_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10497))
 // CS Name: ::TypeAnalyzer::<>c__DisplayClass23_0*
 class CORDL_TYPE __TypeAnalyzer____c__DisplayClass23_0 : public ::System::Object {
 public:
@@ -56,29 +54,35 @@ public:
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
+  static inline ::Zenject::__TypeAnalyzer____c__DisplayClass23_0* New_ctor();
+
+  /// @brief Method <CreateTypeInfoFromReflection>b__0, addr 0x302ed84, size 0x8, virtual false, abstract: false, final false
+  inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* _CreateTypeInfoFromReflection_b__0(::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo* x);
+
+  /// @brief Method <CreateTypeInfoFromReflection>b__1, addr 0x302ee14, size 0x8, virtual false, abstract: false, final false
+  inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* _CreateTypeInfoFromReflection_b__1(::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo* x);
+
   constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  static inline ::Zenject::__TypeAnalyzer____c__DisplayClass23_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f3b224, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <CreateTypeInfoFromReflection>b__0, addr 0x2f3b65c, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* _CreateTypeInfoFromReflection_b__0(::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo* x);
-
-  /// @brief Method <CreateTypeInfoFromReflection>b__1, addr 0x2f3b6ec, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* _CreateTypeInfoFromReflection_b__1(::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo* x);
-
-  /// @brief Method __zenCreate, addr 0x2f3b77c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x302eea4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f3b7d8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x302ef00, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x302e94c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TypeAnalyzer____c__DisplayClass23_0();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__TypeAnalyzer____c__DisplayClass23_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __TypeAnalyzer____c__DisplayClass23_0(__TypeAnalyzer____c__DisplayClass23_0&&) = delete;
@@ -87,12 +91,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TypeAnalyzer____c__DisplayClass23_0(__TypeAnalyzer____c__DisplayClass23_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TypeAnalyzer____c__DisplayClass23_0();
-
-public:
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
 
@@ -108,82 +106,86 @@ static_assert(offsetof(::Zenject::__TypeAnalyzer____c__DisplayClass23_0, ___type
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10496))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10498))
 // CS Name: ::Zenject::TypeAnalyzer*
 class CORDL_TYPE TypeAnalyzer : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass23_0 = ::Zenject::__TypeAnalyzer____c__DisplayClass23_0;
 
-  /// @brief Field _typeInfo, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__typeInfo, put = setStaticF__typeInfo))::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::InjectTypeInfo*>* _typeInfo;
+  /// @brief Field <ReflectionBakingCoverageMode>k__BackingField, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF__ReflectionBakingCoverageMode_k__BackingField,
+                             put = setStaticF__ReflectionBakingCoverageMode_k__BackingField))::Zenject::ReflectionBakingCoverageModes _ReflectionBakingCoverageMode_k__BackingField;
 
   /// @brief Field _allowDuringValidation, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__allowDuringValidation,
                              put = setStaticF__allowDuringValidation))::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* _allowDuringValidation;
 
-  /// @brief Field <ReflectionBakingCoverageMode>k__BackingField, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__ReflectionBakingCoverageMode_k__BackingField,
-                             put = setStaticF__ReflectionBakingCoverageMode_k__BackingField))::Zenject::ReflectionBakingCoverageModes _ReflectionBakingCoverageMode_k__BackingField;
+  /// @brief Field _typeInfo, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__typeInfo, put = setStaticF__typeInfo))::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::InjectTypeInfo*>* _typeInfo;
 
-  static inline void setStaticF__typeInfo(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::InjectTypeInfo*>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::InjectTypeInfo*>* getStaticF__typeInfo();
-
-  static inline void setStaticF__allowDuringValidation(::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* value);
-
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* getStaticF__allowDuringValidation();
-
-  static inline void setStaticF__ReflectionBakingCoverageMode_k__BackingField(::Zenject::ReflectionBakingCoverageModes value);
-
-  static inline ::Zenject::ReflectionBakingCoverageModes getStaticF__ReflectionBakingCoverageMode_k__BackingField();
-
-  /// @brief Method get_ReflectionBakingCoverageMode, addr 0x2f3a8b4, size 0x58, virtual false, abstract: false, final false
-  static inline ::Zenject::ReflectionBakingCoverageModes get_ReflectionBakingCoverageMode();
-
-  /// @brief Method set_ReflectionBakingCoverageMode, addr 0x2f3a90c, size 0x5c, virtual false, abstract: false, final false
-  static inline void set_ReflectionBakingCoverageMode(::Zenject::ReflectionBakingCoverageModes value);
-
-  /// @brief Method ShouldAllowDuringValidation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool ShouldAllowDuringValidation();
-
-  /// @brief Method ShouldAllowDuringValidation, addr 0x2f21f44, size 0xec, virtual false, abstract: false, final false
-  static inline bool ShouldAllowDuringValidation(::System::Type* type);
-
-  /// @brief Method ShouldAllowDuringValidationInternal, addr 0x2f3a968, size 0x118, virtual false, abstract: false, final false
-  static inline bool ShouldAllowDuringValidationInternal(::System::Type* type);
-
-  /// @brief Method HasInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool HasInfo();
-
-  /// @brief Method HasInfo, addr 0x2f3aa80, size 0x60, virtual false, abstract: false, final false
-  static inline bool HasInfo(::System::Type* type);
+  /// @brief Method CreateTypeInfoFromReflection, addr 0x302e5f4, size 0x2d0, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* CreateTypeInfoFromReflection(::System::Type* type);
 
   /// @brief Method GetInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Zenject::InjectTypeInfo* GetInfo();
 
-  /// @brief Method GetInfo, addr 0x2f29050, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetInfo, addr 0x301c778, size 0x84, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* GetInfo(::System::Type* type);
+
+  /// @brief Method GetInfoInternal, addr 0x302e208, size 0x27c, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectTypeInfo* GetInfoInternal(::System::Type* type);
+
+  /// @brief Method HasInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline bool HasInfo();
+
+  /// @brief Method HasInfo, addr 0x302e1a8, size 0x60, virtual false, abstract: false, final false
+  static inline bool HasInfo(::System::Type* type);
+
+  /// @brief Method IsStaticType, addr 0x302e8c4, size 0x88, virtual false, abstract: false, final false
+  static inline bool IsStaticType(::System::Type* type);
+
+  /// @brief Method ShouldAllowDuringValidation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline bool ShouldAllowDuringValidation();
+
+  /// @brief Method ShouldAllowDuringValidation, addr 0x301566c, size 0xec, virtual false, abstract: false, final false
+  static inline bool ShouldAllowDuringValidation(::System::Type* type);
+
+  /// @brief Method ShouldAllowDuringValidationInternal, addr 0x302e090, size 0x118, virtual false, abstract: false, final false
+  static inline bool ShouldAllowDuringValidationInternal(::System::Type* type);
+
+  /// @brief Method ShouldSkipTypeAnalysis, addr 0x302e484, size 0x170, virtual false, abstract: false, final false
+  static inline bool ShouldSkipTypeAnalysis(::System::Type* type);
 
   /// @brief Method TryGetInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Zenject::InjectTypeInfo* TryGetInfo();
 
-  /// @brief Method TryGetInfo, addr 0x2f1fdd4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method TryGetInfo, addr 0x30134fc, size 0x1d4, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* TryGetInfo(::System::Type* type);
 
-  /// @brief Method GetInfoInternal, addr 0x2f3aae0, size 0x27c, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* GetInfoInternal(::System::Type* type);
+  static inline ::Zenject::ReflectionBakingCoverageModes getStaticF__ReflectionBakingCoverageMode_k__BackingField();
 
-  /// @brief Method ShouldSkipTypeAnalysis, addr 0x2f3ad5c, size 0x170, virtual false, abstract: false, final false
-  static inline bool ShouldSkipTypeAnalysis(::System::Type* type);
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* getStaticF__allowDuringValidation();
 
-  /// @brief Method IsStaticType, addr 0x2f3b19c, size 0x88, virtual false, abstract: false, final false
-  static inline bool IsStaticType(::System::Type* type);
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::InjectTypeInfo*>* getStaticF__typeInfo();
 
-  /// @brief Method CreateTypeInfoFromReflection, addr 0x2f3aecc, size 0x2d0, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* CreateTypeInfoFromReflection(::System::Type* type);
+  /// @brief Method get_ReflectionBakingCoverageMode, addr 0x302dfdc, size 0x58, virtual false, abstract: false, final false
+  static inline ::Zenject::ReflectionBakingCoverageModes get_ReflectionBakingCoverageMode();
 
+  static inline void setStaticF__ReflectionBakingCoverageMode_k__BackingField(::Zenject::ReflectionBakingCoverageModes value);
+
+  static inline void setStaticF__allowDuringValidation(::System::Collections::Generic::Dictionary_2<::System::Type*, bool>* value);
+
+  static inline void setStaticF__typeInfo(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::InjectTypeInfo*>* value);
+
+  /// @brief Method set_ReflectionBakingCoverageMode, addr 0x302e034, size 0x5c, virtual false, abstract: false, final false
+  static inline void set_ReflectionBakingCoverageMode(::Zenject::ReflectionBakingCoverageModes value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TypeAnalyzer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeAnalyzer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TypeAnalyzer(TypeAnalyzer&&) = delete;
@@ -192,23 +194,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeAnalyzer(TypeAnalyzer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeAnalyzer();
-
-public:
-  /// @brief Field ReflectionBakingGetInjectInfoMethodName offset 0xffffffff size 0x8
-  static constexpr ::ConstString ReflectionBakingGetInjectInfoMethodName{ u"__zenCreateInjectTypeInfo" };
-
   /// @brief Field ReflectionBakingFactoryMethodName offset 0xffffffff size 0x8
   static constexpr ::ConstString ReflectionBakingFactoryMethodName{ u"__zenCreate" };
 
-  /// @brief Field ReflectionBakingInjectMethodPrefix offset 0xffffffff size 0x8
-  static constexpr ::ConstString ReflectionBakingInjectMethodPrefix{ u"__zenInjectMethod" };
-
   /// @brief Field ReflectionBakingFieldSetterPrefix offset 0xffffffff size 0x8
   static constexpr ::ConstString ReflectionBakingFieldSetterPrefix{ u"__zenFieldSetter" };
+
+  /// @brief Field ReflectionBakingGetInjectInfoMethodName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ReflectionBakingGetInjectInfoMethodName{ u"__zenCreateInjectTypeInfo" };
+
+  /// @brief Field ReflectionBakingInjectMethodPrefix offset 0xffffffff size 0x8
+  static constexpr ::ConstString ReflectionBakingInjectMethodPrefix{ u"__zenInjectMethod" };
 
   /// @brief Field ReflectionBakingPropertySetterPrefix offset 0xffffffff size 0x8
   static constexpr ::ConstString ReflectionBakingPropertySetterPrefix{ u"__zenPropertySetter" };

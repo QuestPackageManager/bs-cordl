@@ -15,8 +15,6 @@ MARK_VAL_T(::ENet::PacketFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15326))
 // CS Name: ::ENet::PacketFlags
 struct CORDL_TYPE PacketFlags {
 public:
@@ -40,18 +38,26 @@ public:
     return static_cast<__PacketFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PacketFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__PacketFlags_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PacketFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PacketFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Instant value: static_cast<int32_t>(0x10)
+  static ::ENet::PacketFlags const Instant;
+
+  /// @brief Field NoAllocate value: static_cast<int32_t>(0x4)
+  static ::ENet::PacketFlags const NoAllocate;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::ENet::PacketFlags const None;
@@ -59,23 +65,20 @@ public:
   /// @brief Field Reliable value: static_cast<int32_t>(0x1)
   static ::ENet::PacketFlags const Reliable;
 
-  /// @brief Field Unsequenced value: static_cast<int32_t>(0x2)
-  static ::ENet::PacketFlags const Unsequenced;
-
-  /// @brief Field NoAllocate value: static_cast<int32_t>(0x4)
-  static ::ENet::PacketFlags const NoAllocate;
+  /// @brief Field Sent value: static_cast<int32_t>(0x100)
+  static ::ENet::PacketFlags const Sent;
 
   /// @brief Field UnreliableFragmented value: static_cast<int32_t>(0x8)
   static ::ENet::PacketFlags const UnreliableFragmented;
 
-  /// @brief Field Instant value: static_cast<int32_t>(0x10)
-  static ::ENet::PacketFlags const Instant;
+  /// @brief Field Unsequenced value: static_cast<int32_t>(0x2)
+  static ::ENet::PacketFlags const Unsequenced;
 
   /// @brief Field Unthrottled value: static_cast<int32_t>(0x20)
   static ::ENet::PacketFlags const Unthrottled;
 
-  /// @brief Field Sent value: static_cast<int32_t>(0x100)
-  static ::ENet::PacketFlags const Sent;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -275,8 +275,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect571r1Holder
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(256))
 // CS Name: ::SecNamedCurves::Secp112r1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp112r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -284,18 +282,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10ded6c, size 0x220, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp112r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1099d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ded64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x1099d9c, size 0x220, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp112r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp112r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp112r1Holder(__SecNamedCurves__Secp112r1Holder&&) = delete;
@@ -304,12 +308,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp112r1Holder(__SecNamedCurves__Secp112r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp112r1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -320,8 +318,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(257))
 // CS Name: ::SecNamedCurves::Secp112r2Holder*
 class CORDL_TYPE __SecNamedCurves__Secp112r2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -329,18 +325,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10deff8, size 0x228, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp112r2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109a020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10deff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109a028, size 0x228, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp112r2Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp112r2Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp112r2Holder(__SecNamedCurves__Secp112r2Holder&&) = delete;
@@ -349,12 +351,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp112r2Holder(__SecNamedCurves__Secp112r2Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp112r2Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -365,8 +361,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(258))
 // CS Name: ::SecNamedCurves::Secp128r1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp128r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -374,18 +368,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10df28c, size 0x220, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp128r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109a2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10df284, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109a2bc, size 0x220, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp128r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp128r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp128r1Holder(__SecNamedCurves__Secp128r1Holder&&) = delete;
@@ -394,12 +394,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp128r1Holder(__SecNamedCurves__Secp128r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp128r1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -410,8 +404,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(259))
 // CS Name: ::SecNamedCurves::Secp128r2Holder*
 class CORDL_TYPE __SecNamedCurves__Secp128r2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -419,18 +411,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10df518, size 0x228, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp128r2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109a540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10df510, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109a548, size 0x228, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp128r2Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp128r2Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp128r2Holder(__SecNamedCurves__Secp128r2Holder&&) = delete;
@@ -439,12 +437,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp128r2Holder(__SecNamedCurves__Secp128r2Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp128r2Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -455,8 +447,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(260))
 // CS Name: ::SecNamedCurves::Secp160k1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp160k1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -464,18 +454,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10df7ac, size 0x4a8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp160k1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109a7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10df7a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109a7dc, size 0x4a8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp160k1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp160k1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp160k1Holder(__SecNamedCurves__Secp160k1Holder&&) = delete;
@@ -484,12 +480,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp160k1Holder(__SecNamedCurves__Secp160k1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp160k1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -500,8 +490,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(261))
 // CS Name: ::SecNamedCurves::Secp160r1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp160r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -509,18 +497,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10dfcc0, size 0x220, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp160r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109ace8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dfcb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109acf0, size 0x220, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp160r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp160r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp160r1Holder(__SecNamedCurves__Secp160r1Holder&&) = delete;
@@ -529,12 +523,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp160r1Holder(__SecNamedCurves__Secp160r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp160r1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -545,8 +533,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(262))
 // CS Name: ::SecNamedCurves::Secp160r2Holder*
 class CORDL_TYPE __SecNamedCurves__Secp160r2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -554,18 +540,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10dff4c, size 0x220, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp160r2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109af74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dff44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109af7c, size 0x220, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp160r2Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp160r2Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp160r2Holder(__SecNamedCurves__Secp160r2Holder&&) = delete;
@@ -574,12 +566,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp160r2Holder(__SecNamedCurves__Secp160r2Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp160r2Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -590,8 +576,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(263))
 // CS Name: ::SecNamedCurves::Secp192k1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp192k1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -599,18 +583,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e01d8, size 0x4a8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp192k1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109b200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e01d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109b208, size 0x4a8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp192k1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp192k1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp192k1Holder(__SecNamedCurves__Secp192k1Holder&&) = delete;
@@ -619,12 +609,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp192k1Holder(__SecNamedCurves__Secp192k1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp192k1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -635,8 +619,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(264))
 // CS Name: ::SecNamedCurves::Secp192r1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp192r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -644,18 +626,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e06ec, size 0x220, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp192r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109b714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e06e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109b71c, size 0x220, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp192r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp192r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp192r1Holder(__SecNamedCurves__Secp192r1Holder&&) = delete;
@@ -664,12 +652,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp192r1Holder(__SecNamedCurves__Secp192r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp192r1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -680,8 +662,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(265))
 // CS Name: ::SecNamedCurves::Secp224k1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp224k1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -689,18 +669,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e0978, size 0x4a8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp224k1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109b9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e0970, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109b9a8, size 0x4a8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp224k1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp224k1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp224k1Holder(__SecNamedCurves__Secp224k1Holder&&) = delete;
@@ -709,12 +695,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp224k1Holder(__SecNamedCurves__Secp224k1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp224k1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -725,8 +705,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(266))
 // CS Name: ::SecNamedCurves::Secp224r1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp224r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -734,18 +712,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e0e8c, size 0x220, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp224r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109beb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e0e84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109bebc, size 0x220, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp224r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp224r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp224r1Holder(__SecNamedCurves__Secp224r1Holder&&) = delete;
@@ -754,12 +738,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp224r1Holder(__SecNamedCurves__Secp224r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp224r1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -770,8 +748,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(267))
 // CS Name: ::SecNamedCurves::Secp256k1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp256k1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -779,18 +755,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e1118, size 0x4a8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp256k1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109c140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e1110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109c148, size 0x4a8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp256k1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp256k1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp256k1Holder(__SecNamedCurves__Secp256k1Holder&&) = delete;
@@ -799,12 +781,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp256k1Holder(__SecNamedCurves__Secp256k1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp256k1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -815,8 +791,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(268))
 // CS Name: ::SecNamedCurves::Secp256r1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp256r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -824,18 +798,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e162c, size 0x220, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp256r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109c654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e1624, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109c65c, size 0x220, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp256r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp256r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp256r1Holder(__SecNamedCurves__Secp256r1Holder&&) = delete;
@@ -844,12 +824,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp256r1Holder(__SecNamedCurves__Secp256r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp256r1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -860,8 +834,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(269))
 // CS Name: ::SecNamedCurves::Secp384r1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp384r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -869,18 +841,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e18b8, size 0x220, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp384r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109c8e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e18b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109c8e8, size 0x220, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp384r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp384r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp384r1Holder(__SecNamedCurves__Secp384r1Holder&&) = delete;
@@ -889,12 +867,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp384r1Holder(__SecNamedCurves__Secp384r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp384r1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -905,8 +877,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(270))
 // CS Name: ::SecNamedCurves::Secp521r1Holder*
 class CORDL_TYPE __SecNamedCurves__Secp521r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -914,18 +884,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e1b44, size 0x220, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp521r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109cb6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e1b3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109cb74, size 0x220, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Secp521r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Secp521r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Secp521r1Holder(__SecNamedCurves__Secp521r1Holder&&) = delete;
@@ -934,12 +910,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Secp521r1Holder(__SecNamedCurves__Secp521r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Secp521r1Holder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -950,8 +920,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(271))
 // CS Name: ::SecNamedCurves::Sect113r1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect113r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -959,18 +927,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e1dd0, size 0x208, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect113r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109cdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e1dc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109ce00, size 0x208, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Sect113r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect113r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Sect113r1Holder(__SecNamedCurves__Sect113r1Holder&&) = delete;
@@ -979,17 +953,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Sect113r1Holder(__SecNamedCurves__Sect113r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Sect113r1Holder();
-
-public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0x71) };
-
   /// @brief Field k offset 0xffffffff size 0x4
   static constexpr int32_t k{ static_cast<int32_t>(0x9) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0x71) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1001,8 +969,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(272))
 // CS Name: ::SecNamedCurves::Sect113r2Holder*
 class CORDL_TYPE __SecNamedCurves__Sect113r2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1010,18 +976,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e2044, size 0x208, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect113r2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109d06c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e203c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109d074, size 0x208, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Sect113r2Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect113r2Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Sect113r2Holder(__SecNamedCurves__Sect113r2Holder&&) = delete;
@@ -1030,17 +1002,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Sect113r2Holder(__SecNamedCurves__Sect113r2Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Sect113r2Holder();
-
-public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0x71) };
-
   /// @brief Field k offset 0xffffffff size 0x4
   static constexpr int32_t k{ static_cast<int32_t>(0x9) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0x71) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1052,8 +1018,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(273))
 // CS Name: ::SecNamedCurves::Sect131r1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect131r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1061,25 +1025,17 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e22b8, size 0x214, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect131r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109d2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e22b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109d2e8, size 0x214, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect131r1Holder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SecNamedCurves__Sect131r1Holder(__SecNamedCurves__Sect131r1Holder&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect131r1Holder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SecNamedCurves__Sect131r1Holder(__SecNamedCurves__Sect131r1Holder const&) = delete;
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
 
 protected:
   // Ctor Parameters []
@@ -1087,8 +1043,13 @@ protected:
   constexpr __SecNamedCurves__Sect131r1Holder();
 
 public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0x83) };
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect131r1Holder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SecNamedCurves__Sect131r1Holder(__SecNamedCurves__Sect131r1Holder&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect131r1Holder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SecNamedCurves__Sect131r1Holder(__SecNamedCurves__Sect131r1Holder const&) = delete;
 
   /// @brief Field k1 offset 0xffffffff size 0x4
   static constexpr int32_t k1{ static_cast<int32_t>(0x2) };
@@ -1098,6 +1059,9 @@ public:
 
   /// @brief Field k3 offset 0xffffffff size 0x4
   static constexpr int32_t k3{ static_cast<int32_t>(0x8) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0x83) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1109,8 +1073,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(274))
 // CS Name: ::SecNamedCurves::Sect131r2Holder*
 class CORDL_TYPE __SecNamedCurves__Sect131r2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1118,25 +1080,17 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e2538, size 0x214, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect131r2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109d560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e2530, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109d568, size 0x214, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect131r2Holder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SecNamedCurves__Sect131r2Holder(__SecNamedCurves__Sect131r2Holder&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect131r2Holder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SecNamedCurves__Sect131r2Holder(__SecNamedCurves__Sect131r2Holder const&) = delete;
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
 
 protected:
   // Ctor Parameters []
@@ -1144,8 +1098,13 @@ protected:
   constexpr __SecNamedCurves__Sect131r2Holder();
 
 public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0x83) };
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect131r2Holder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SecNamedCurves__Sect131r2Holder(__SecNamedCurves__Sect131r2Holder&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect131r2Holder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SecNamedCurves__Sect131r2Holder(__SecNamedCurves__Sect131r2Holder const&) = delete;
 
   /// @brief Field k1 offset 0xffffffff size 0x4
   static constexpr int32_t k1{ static_cast<int32_t>(0x2) };
@@ -1155,6 +1114,9 @@ public:
 
   /// @brief Field k3 offset 0xffffffff size 0x4
   static constexpr int32_t k3{ static_cast<int32_t>(0x8) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0x83) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1166,8 +1128,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(275))
 // CS Name: ::SecNamedCurves::Sect163k1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect163k1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1175,25 +1135,17 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e27b8, size 0x184, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect163k1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109d7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e27b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109d7e8, size 0x184, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163k1Holder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SecNamedCurves__Sect163k1Holder(__SecNamedCurves__Sect163k1Holder&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163k1Holder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SecNamedCurves__Sect163k1Holder(__SecNamedCurves__Sect163k1Holder const&) = delete;
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
 
 protected:
   // Ctor Parameters []
@@ -1201,8 +1153,13 @@ protected:
   constexpr __SecNamedCurves__Sect163k1Holder();
 
 public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0xa3) };
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163k1Holder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SecNamedCurves__Sect163k1Holder(__SecNamedCurves__Sect163k1Holder&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163k1Holder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SecNamedCurves__Sect163k1Holder(__SecNamedCurves__Sect163k1Holder const&) = delete;
 
   /// @brief Field k1 offset 0xffffffff size 0x4
   static constexpr int32_t k1{ static_cast<int32_t>(0x3) };
@@ -1212,6 +1169,9 @@ public:
 
   /// @brief Field k3 offset 0xffffffff size 0x4
   static constexpr int32_t k3{ static_cast<int32_t>(0x7) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0xa3) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1223,8 +1183,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(276))
 // CS Name: ::SecNamedCurves::Sect163r1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect163r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1232,25 +1190,17 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e29a8, size 0x214, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect163r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109d9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e29a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109d9d8, size 0x214, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163r1Holder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SecNamedCurves__Sect163r1Holder(__SecNamedCurves__Sect163r1Holder&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163r1Holder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SecNamedCurves__Sect163r1Holder(__SecNamedCurves__Sect163r1Holder const&) = delete;
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
 
 protected:
   // Ctor Parameters []
@@ -1258,8 +1208,13 @@ protected:
   constexpr __SecNamedCurves__Sect163r1Holder();
 
 public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0xa3) };
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163r1Holder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SecNamedCurves__Sect163r1Holder(__SecNamedCurves__Sect163r1Holder&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163r1Holder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SecNamedCurves__Sect163r1Holder(__SecNamedCurves__Sect163r1Holder const&) = delete;
 
   /// @brief Field k1 offset 0xffffffff size 0x4
   static constexpr int32_t k1{ static_cast<int32_t>(0x3) };
@@ -1269,6 +1224,9 @@ public:
 
   /// @brief Field k3 offset 0xffffffff size 0x4
   static constexpr int32_t k3{ static_cast<int32_t>(0x7) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0xa3) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1280,8 +1238,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(277))
 // CS Name: ::SecNamedCurves::Sect163r2Holder*
 class CORDL_TYPE __SecNamedCurves__Sect163r2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1289,25 +1245,17 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e2c28, size 0x1fc, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect163r2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109dc50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e2c20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109dc58, size 0x1fc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163r2Holder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SecNamedCurves__Sect163r2Holder(__SecNamedCurves__Sect163r2Holder&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163r2Holder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SecNamedCurves__Sect163r2Holder(__SecNamedCurves__Sect163r2Holder const&) = delete;
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
 
 protected:
   // Ctor Parameters []
@@ -1315,8 +1263,13 @@ protected:
   constexpr __SecNamedCurves__Sect163r2Holder();
 
 public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0xa3) };
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163r2Holder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SecNamedCurves__Sect163r2Holder(__SecNamedCurves__Sect163r2Holder&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect163r2Holder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SecNamedCurves__Sect163r2Holder(__SecNamedCurves__Sect163r2Holder const&) = delete;
 
   /// @brief Field k1 offset 0xffffffff size 0x4
   static constexpr int32_t k1{ static_cast<int32_t>(0x3) };
@@ -1326,6 +1279,9 @@ public:
 
   /// @brief Field k3 offset 0xffffffff size 0x4
   static constexpr int32_t k3{ static_cast<int32_t>(0x7) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0xa3) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1337,8 +1293,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(278))
 // CS Name: ::SecNamedCurves::Sect193r1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect193r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1346,18 +1300,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e2e90, size 0x208, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect193r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109deb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e2e88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109dec0, size 0x208, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Sect193r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect193r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Sect193r1Holder(__SecNamedCurves__Sect193r1Holder&&) = delete;
@@ -1366,17 +1326,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Sect193r1Holder(__SecNamedCurves__Sect193r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Sect193r1Holder();
-
-public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0xc1) };
-
   /// @brief Field k offset 0xffffffff size 0x4
   static constexpr int32_t k{ static_cast<int32_t>(0xf) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0xc1) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1388,8 +1342,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(279))
 // CS Name: ::SecNamedCurves::Sect193r2Holder*
 class CORDL_TYPE __SecNamedCurves__Sect193r2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1397,18 +1349,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e3104, size 0x208, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect193r2Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109e12c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e30fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109e134, size 0x208, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Sect193r2Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect193r2Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Sect193r2Holder(__SecNamedCurves__Sect193r2Holder&&) = delete;
@@ -1417,17 +1375,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Sect193r2Holder(__SecNamedCurves__Sect193r2Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Sect193r2Holder();
-
-public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0xc1) };
-
   /// @brief Field k offset 0xffffffff size 0x4
   static constexpr int32_t k{ static_cast<int32_t>(0xf) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0xc1) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1439,8 +1391,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(280))
 // CS Name: ::SecNamedCurves::Sect233k1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect233k1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1448,18 +1398,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e3378, size 0x178, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect233k1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109e3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e3370, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109e3a8, size 0x178, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Sect233k1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect233k1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Sect233k1Holder(__SecNamedCurves__Sect233k1Holder&&) = delete;
@@ -1468,17 +1424,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Sect233k1Holder(__SecNamedCurves__Sect233k1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Sect233k1Holder();
-
-public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0xe9) };
-
   /// @brief Field k offset 0xffffffff size 0x4
   static constexpr int32_t k{ static_cast<int32_t>(0x4a) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0xe9) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1490,8 +1440,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(281))
 // CS Name: ::SecNamedCurves::Sect233r1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect233r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1499,18 +1447,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e355c, size 0x1f0, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect233r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109e584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e3554, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109e58c, size 0x1f0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Sect233r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect233r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Sect233r1Holder(__SecNamedCurves__Sect233r1Holder&&) = delete;
@@ -1519,17 +1473,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Sect233r1Holder(__SecNamedCurves__Sect233r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Sect233r1Holder();
-
-public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0xe9) };
-
   /// @brief Field k offset 0xffffffff size 0x4
   static constexpr int32_t k{ static_cast<int32_t>(0x4a) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0xe9) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1541,8 +1489,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(282))
 // CS Name: ::SecNamedCurves::Sect239k1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect239k1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1550,18 +1496,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e37b8, size 0x178, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect239k1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109e7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e37b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109e7e8, size 0x178, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Sect239k1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect239k1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Sect239k1Holder(__SecNamedCurves__Sect239k1Holder&&) = delete;
@@ -1570,17 +1522,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Sect239k1Holder(__SecNamedCurves__Sect239k1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Sect239k1Holder();
-
-public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0xef) };
-
   /// @brief Field k offset 0xffffffff size 0x4
   static constexpr int32_t k{ static_cast<int32_t>(0x9e) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0xef) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1592,8 +1538,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(283))
 // CS Name: ::SecNamedCurves::Sect283k1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect283k1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1601,25 +1545,17 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e399c, size 0x184, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect283k1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109e9c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e3994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109e9cc, size 0x184, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect283k1Holder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SecNamedCurves__Sect283k1Holder(__SecNamedCurves__Sect283k1Holder&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect283k1Holder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SecNamedCurves__Sect283k1Holder(__SecNamedCurves__Sect283k1Holder const&) = delete;
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
 
 protected:
   // Ctor Parameters []
@@ -1627,8 +1563,13 @@ protected:
   constexpr __SecNamedCurves__Sect283k1Holder();
 
 public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0x11b) };
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect283k1Holder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SecNamedCurves__Sect283k1Holder(__SecNamedCurves__Sect283k1Holder&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect283k1Holder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SecNamedCurves__Sect283k1Holder(__SecNamedCurves__Sect283k1Holder const&) = delete;
 
   /// @brief Field k1 offset 0xffffffff size 0x4
   static constexpr int32_t k1{ static_cast<int32_t>(0x5) };
@@ -1638,6 +1579,9 @@ public:
 
   /// @brief Field k3 offset 0xffffffff size 0x4
   static constexpr int32_t k3{ static_cast<int32_t>(0xc) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0x11b) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1649,8 +1593,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(284))
 // CS Name: ::SecNamedCurves::Sect283r1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect283r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1658,25 +1600,17 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e3b8c, size 0x1fc, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect283r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109ebb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e3b84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109ebbc, size 0x1fc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect283r1Holder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SecNamedCurves__Sect283r1Holder(__SecNamedCurves__Sect283r1Holder&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect283r1Holder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SecNamedCurves__Sect283r1Holder(__SecNamedCurves__Sect283r1Holder const&) = delete;
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
 
 protected:
   // Ctor Parameters []
@@ -1684,8 +1618,13 @@ protected:
   constexpr __SecNamedCurves__Sect283r1Holder();
 
 public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0x11b) };
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect283r1Holder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SecNamedCurves__Sect283r1Holder(__SecNamedCurves__Sect283r1Holder&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect283r1Holder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SecNamedCurves__Sect283r1Holder(__SecNamedCurves__Sect283r1Holder const&) = delete;
 
   /// @brief Field k1 offset 0xffffffff size 0x4
   static constexpr int32_t k1{ static_cast<int32_t>(0x5) };
@@ -1695,6 +1634,9 @@ public:
 
   /// @brief Field k3 offset 0xffffffff size 0x4
   static constexpr int32_t k3{ static_cast<int32_t>(0xc) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0x11b) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1706,8 +1648,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(285))
 // CS Name: ::SecNamedCurves::Sect409k1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect409k1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1715,18 +1655,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e3df4, size 0x178, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect409k1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109ee1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e3dec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109ee24, size 0x178, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Sect409k1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect409k1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Sect409k1Holder(__SecNamedCurves__Sect409k1Holder&&) = delete;
@@ -1735,17 +1681,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Sect409k1Holder(__SecNamedCurves__Sect409k1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Sect409k1Holder();
-
-public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0x199) };
-
   /// @brief Field k offset 0xffffffff size 0x4
   static constexpr int32_t k{ static_cast<int32_t>(0x57) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0x199) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1757,8 +1697,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(286))
 // CS Name: ::SecNamedCurves::Sect409r1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect409r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1766,18 +1704,24 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e3fd8, size 0x1f0, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect409r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109f000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e3fd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109f008, size 0x1f0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SecNamedCurves__Sect409r1Holder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect409r1Holder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SecNamedCurves__Sect409r1Holder(__SecNamedCurves__Sect409r1Holder&&) = delete;
@@ -1786,17 +1730,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SecNamedCurves__Sect409r1Holder(__SecNamedCurves__Sect409r1Holder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SecNamedCurves__Sect409r1Holder();
-
-public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0x199) };
-
   /// @brief Field k offset 0xffffffff size 0x4
   static constexpr int32_t k{ static_cast<int32_t>(0x57) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0x199) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1808,8 +1746,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(287))
 // CS Name: ::SecNamedCurves::Sect571k1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect571k1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1817,25 +1753,17 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e4234, size 0x184, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect571k1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109f25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e422c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109f264, size 0x184, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect571k1Holder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SecNamedCurves__Sect571k1Holder(__SecNamedCurves__Sect571k1Holder&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect571k1Holder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SecNamedCurves__Sect571k1Holder(__SecNamedCurves__Sect571k1Holder const&) = delete;
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
 
 protected:
   // Ctor Parameters []
@@ -1843,8 +1771,13 @@ protected:
   constexpr __SecNamedCurves__Sect571k1Holder();
 
 public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0x23b) };
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect571k1Holder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SecNamedCurves__Sect571k1Holder(__SecNamedCurves__Sect571k1Holder&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect571k1Holder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SecNamedCurves__Sect571k1Holder(__SecNamedCurves__Sect571k1Holder const&) = delete;
 
   /// @brief Field k1 offset 0xffffffff size 0x4
   static constexpr int32_t k1{ static_cast<int32_t>(0x2) };
@@ -1854,6 +1787,9 @@ public:
 
   /// @brief Field k3 offset 0xffffffff size 0x4
   static constexpr int32_t k3{ static_cast<int32_t>(0xa) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0x23b) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1865,8 +1801,6 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(288))
 // CS Name: ::SecNamedCurves::Sect571r1Holder*
 class CORDL_TYPE __SecNamedCurves__Sect571r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
@@ -1874,25 +1808,17 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+  /// @brief Method CreateParameters, addr 0x10e4424, size 0x1fc, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect571r1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x109f44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e441c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters, addr 0x109f454, size 0x1fc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect571r1Holder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SecNamedCurves__Sect571r1Holder(__SecNamedCurves__Sect571r1Holder&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect571r1Holder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SecNamedCurves__Sect571r1Holder(__SecNamedCurves__Sect571r1Holder const&) = delete;
+  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
 
 protected:
   // Ctor Parameters []
@@ -1900,8 +1826,13 @@ protected:
   constexpr __SecNamedCurves__Sect571r1Holder();
 
 public:
-  /// @brief Field m offset 0xffffffff size 0x4
-  static constexpr int32_t m{ static_cast<int32_t>(0x23b) };
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect571r1Holder", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __SecNamedCurves__Sect571r1Holder(__SecNamedCurves__Sect571r1Holder&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__SecNamedCurves__Sect571r1Holder", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __SecNamedCurves__Sect571r1Holder(__SecNamedCurves__Sect571r1Holder const&) = delete;
 
   /// @brief Field k1 offset 0xffffffff size 0x4
   static constexpr int32_t k1{ static_cast<int32_t>(0x2) };
@@ -1911,6 +1842,9 @@ public:
 
   /// @brief Field k3 offset 0xffffffff size 0x4
   static constexpr int32_t k3{ static_cast<int32_t>(0xa) };
+
+  /// @brief Field m offset 0xffffffff size 0x4
+  static constexpr int32_t m{ static_cast<int32_t>(0x23b) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1922,80 +1856,75 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Sec::__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Sec {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(289))
 // CS Name: ::Org.BouncyCastle.Asn1.Sec::SecNamedCurves*
 class CORDL_TYPE SecNamedCurves : public ::System::Object {
 public:
   // Declarations
-  using Sect571r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect571r1Holder;
-
-  using Sect571k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect571k1Holder;
-
-  using Sect409r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect409r1Holder;
-
-  using Sect409k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect409k1Holder;
-
-  using Sect283r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect283r1Holder;
-
-  using Sect283k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect283k1Holder;
-
-  using Sect239k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect239k1Holder;
-
-  using Sect233r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect233r1Holder;
-
-  using Sect233k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect233k1Holder;
-
-  using Sect193r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect193r2Holder;
-
-  using Sect193r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect193r1Holder;
-
-  using Sect163r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect163r2Holder;
-
-  using Sect163r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect163r1Holder;
-
-  using Sect163k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect163k1Holder;
-
-  using Sect131r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect131r2Holder;
-
-  using Sect131r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect131r1Holder;
-
-  using Sect113r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect113r2Holder;
-
-  using Sect113r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect113r1Holder;
-
-  using Secp521r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp521r1Holder;
-
-  using Secp384r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp384r1Holder;
-
-  using Secp256r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp256r1Holder;
-
-  using Secp256k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp256k1Holder;
-
-  using Secp224r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp224r1Holder;
-
-  using Secp224k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp224k1Holder;
-
-  using Secp192r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp192r1Holder;
-
-  using Secp192k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp192k1Holder;
-
-  using Secp160r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp160r2Holder;
-
-  using Secp160r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp160r1Holder;
-
-  using Secp160k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp160k1Holder;
-
-  using Secp128r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp128r2Holder;
-
-  using Secp128r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp128r1Holder;
+  using Secp112r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp112r1Holder;
 
   using Secp112r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp112r2Holder;
 
-  using Secp112r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp112r1Holder;
+  using Secp128r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp128r1Holder;
 
-  /// @brief Field objIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds))::System::Collections::IDictionary* objIds;
+  using Secp128r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp128r2Holder;
+
+  using Secp160k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp160k1Holder;
+
+  using Secp160r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp160r1Holder;
+
+  using Secp160r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp160r2Holder;
+
+  using Secp192k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp192k1Holder;
+
+  using Secp192r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp192r1Holder;
+
+  using Secp224k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp224k1Holder;
+
+  using Secp224r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp224r1Holder;
+
+  using Secp256k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp256k1Holder;
+
+  using Secp256r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp256r1Holder;
+
+  using Secp384r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp384r1Holder;
+
+  using Secp521r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Secp521r1Holder;
+
+  using Sect113r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect113r1Holder;
+
+  using Sect113r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect113r2Holder;
+
+  using Sect131r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect131r1Holder;
+
+  using Sect131r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect131r2Holder;
+
+  using Sect163k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect163k1Holder;
+
+  using Sect163r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect163r1Holder;
+
+  using Sect163r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect163r2Holder;
+
+  using Sect193r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect193r1Holder;
+
+  using Sect193r2Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect193r2Holder;
+
+  using Sect233k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect233k1Holder;
+
+  using Sect233r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect233r1Holder;
+
+  using Sect239k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect239k1Holder;
+
+  using Sect283k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect283k1Holder;
+
+  using Sect283r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect283r1Holder;
+
+  using Sect409k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect409k1Holder;
+
+  using Sect409r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect409r1Holder;
+
+  using Sect571k1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect571k1Holder;
+
+  using Sect571r1Holder = ::Org::BouncyCastle::Asn1::Sec::__SecNamedCurves__Sect571r1Holder;
 
   /// @brief Field curves, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_curves, put = setStaticF_curves))::System::Collections::IDictionary* curves;
@@ -2003,53 +1932,62 @@ public:
   /// @brief Field names, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_names, put = setStaticF_names))::System::Collections::IDictionary* names;
 
-  static inline void setStaticF_objIds(::System::Collections::IDictionary* value);
+  /// @brief Field objIds, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds))::System::Collections::IDictionary* objIds;
 
-  static inline ::System::Collections::IDictionary* getStaticF_objIds();
+  /// @brief Method ConfigureBasepoint, addr 0x10dd768, size 0xf0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
 
-  static inline void setStaticF_curves(::System::Collections::IDictionary* value);
+  /// @brief Method ConfigureCurve, addr 0x10dd858, size 0x4, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  static inline ::System::Collections::IDictionary* getStaticF_curves();
+  /// @brief Method ConfigureCurveGlv, addr 0x10dd85c, size 0xa8, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurveGlv(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* p);
 
-  static inline void setStaticF_names(::System::Collections::IDictionary* value);
+  /// @brief Method DefineCurve, addr 0x10dd9a4, size 0x210, virtual false, abstract: false, final false
+  static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
 
-  static inline ::System::Collections::IDictionary* getStaticF_names();
+  /// @brief Method FromHex, addr 0x10dd904, size 0xa0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
+
+  /// @brief Method GetByName, addr 0x10de858, size 0x80, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
+
+  /// @brief Method GetByOid, addr 0x10dea2c, size 0x12c, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+
+  /// @brief Method GetName, addr 0x10deb58, size 0x100, virtual false, abstract: false, final false
+  static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+
+  /// @brief Method GetOid, addr 0x10de8d8, size 0x154, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::Sec::SecNamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1098790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10dd760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ConfigureBasepoint, addr 0x1098798, size 0xf0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
+  static inline ::System::Collections::IDictionary* getStaticF_curves();
 
-  /// @brief Method ConfigureCurve, addr 0x1098888, size 0x4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
+  static inline ::System::Collections::IDictionary* getStaticF_names();
 
-  /// @brief Method ConfigureCurveGlv, addr 0x109888c, size 0xa8, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurveGlv(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* p);
+  static inline ::System::Collections::IDictionary* getStaticF_objIds();
 
-  /// @brief Method FromHex, addr 0x1098934, size 0xa0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
-
-  /// @brief Method DefineCurve, addr 0x10989d4, size 0x210, virtual false, abstract: false, final false
-  static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
-
-  /// @brief Method GetByName, addr 0x1099888, size 0x80, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
-
-  /// @brief Method GetByOid, addr 0x1099a5c, size 0x12c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
-
-  /// @brief Method GetOid, addr 0x1099908, size 0x154, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
-
-  /// @brief Method GetName, addr 0x1099b88, size 0x100, virtual false, abstract: false, final false
-  static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
-
-  /// @brief Method get_Names, addr 0x1099c88, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x10dec58, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
+  static inline void setStaticF_curves(::System::Collections::IDictionary* value);
+
+  static inline void setStaticF_names(::System::Collections::IDictionary* value);
+
+  static inline void setStaticF_objIds(::System::Collections::IDictionary* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SecNamedCurves();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SecNamedCurves", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecNamedCurves(SecNamedCurves&&) = delete;
@@ -2058,12 +1996,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SecNamedCurves(SecNamedCurves const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecNamedCurves();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

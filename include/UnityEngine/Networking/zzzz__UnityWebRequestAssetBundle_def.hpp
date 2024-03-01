@@ -22,21 +22,25 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestAssetBundle);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16257))
 // CS Name: ::UnityEngine.Networking::UnityWebRequestAssetBundle*
 class CORDL_TYPE UnityWebRequestAssetBundle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAssetBundle, addr 0x2ec5d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x2fba48c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri);
 
-  /// @brief Method GetAssetBundle, addr 0x2ec5d6c, size 0xc0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint32_t crc);
-
-  /// @brief Method GetAssetBundle, addr 0x2ec5e90, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x2fba5b8, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc);
 
+  /// @brief Method GetAssetBundle, addr 0x2fba494, size 0xc0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint32_t crc);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityWebRequestAssetBundle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAssetBundle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequestAssetBundle(UnityWebRequestAssetBundle&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityWebRequestAssetBundle(UnityWebRequestAssetBundle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityWebRequestAssetBundle();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

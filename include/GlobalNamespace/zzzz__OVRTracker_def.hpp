@@ -31,19 +31,17 @@ MARK_VAL_T(::GlobalNamespace::__OVRTracker__Frustum);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8035))
 // CS Name: ::OVRTracker::Frustum
 struct CORDL_TYPE __OVRTracker__Frustum {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fov", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-  constexpr __OVRTracker__Frustum(float_t nearZ, float_t farZ, ::UnityEngine::Vector2 fov) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRTracker__Frustum();
+
+  // Ctor Parameters [CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fov", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  constexpr __OVRTracker__Frustum(float_t nearZ, float_t farZ, ::UnityEngine::Vector2 fov) noexcept;
 
   /// @brief Field nearZ, offset: 0x0, size: 0x4, def value: None
   float_t nearZ;
@@ -73,54 +71,58 @@ static_assert(offsetof(::GlobalNamespace::__OVRTracker__Frustum, fov) == 0x8, "O
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8036))
 // CS Name: ::OVRTracker*
 class CORDL_TYPE OVRTracker : public ::System::Object {
 public:
   // Declarations
   using Frustum = ::GlobalNamespace::__OVRTracker__Frustum;
 
-  __declspec(property(get = get_isPresent)) bool isPresent;
-
-  __declspec(property(get = get_isPositionTracked)) bool isPositionTracked;
+  __declspec(property(get = get_count)) int32_t count;
 
   __declspec(property(get = get_isEnabled, put = set_isEnabled)) bool isEnabled;
 
-  __declspec(property(get = get_count)) int32_t count;
+  __declspec(property(get = get_isPositionTracked)) bool isPositionTracked;
 
-  /// @brief Method get_isPresent, addr 0x27b46bc, size 0x90, virtual false, abstract: false, final false
-  inline bool get_isPresent();
+  __declspec(property(get = get_isPresent)) bool isPresent;
 
-  /// @brief Method get_isPositionTracked, addr 0x27b474c, size 0x50, virtual false, abstract: false, final false
-  inline bool get_isPositionTracked();
-
-  /// @brief Method get_isEnabled, addr 0x27b479c, size 0x90, virtual false, abstract: false, final false
-  inline bool get_isEnabled();
-
-  /// @brief Method set_isEnabled, addr 0x27b482c, size 0x94, virtual false, abstract: false, final false
-  inline void set_isEnabled(bool value);
-
-  /// @brief Method get_count, addr 0x27b48c0, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_count();
-
-  /// @brief Method GetFrustum, addr 0x27b4a00, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetFrustum, addr 0x288c06c, size 0xa4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRTracker__Frustum GetFrustum(int32_t tracker);
 
-  /// @brief Method GetPose, addr 0x27b4aa4, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetPose, addr 0x288c110, size 0x2b0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose GetPose(int32_t tracker);
 
-  /// @brief Method GetPoseValid, addr 0x27b4d54, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetPoseValid, addr 0x288c3c0, size 0x104, virtual false, abstract: false, final false
   inline bool GetPoseValid(int32_t tracker);
 
-  /// @brief Method GetPresent, addr 0x27b48fc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetPresent, addr 0x288bf68, size 0x104, virtual false, abstract: false, final false
   inline bool GetPresent(int32_t tracker);
 
   static inline ::GlobalNamespace::OVRTracker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27b4e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x288c4c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_count, addr 0x288bf2c, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_count();
+
+  /// @brief Method get_isEnabled, addr 0x288be08, size 0x90, virtual false, abstract: false, final false
+  inline bool get_isEnabled();
+
+  /// @brief Method get_isPositionTracked, addr 0x288bdb8, size 0x50, virtual false, abstract: false, final false
+  inline bool get_isPositionTracked();
+
+  /// @brief Method get_isPresent, addr 0x288bd28, size 0x90, virtual false, abstract: false, final false
+  inline bool get_isPresent();
+
+  /// @brief Method set_isEnabled, addr 0x288be98, size 0x94, virtual false, abstract: false, final false
+  inline void set_isEnabled(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRTracker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRTracker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRTracker(OVRTracker&&) = delete;
@@ -129,12 +131,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRTracker(OVRTracker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRTracker();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

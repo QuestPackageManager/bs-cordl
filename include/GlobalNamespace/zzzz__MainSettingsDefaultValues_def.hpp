@@ -16,17 +16,21 @@ MARK_REF_PTR_T(::GlobalNamespace::MainSettingsDefaultValues);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10847))
 // CS Name: ::MainSettingsDefaultValues*
 class CORDL_TYPE MainSettingsDefaultValues : public ::System::Object {
 public:
   // Declarations
   static inline ::GlobalNamespace::MainSettingsDefaultValues* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12916fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d36cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MainSettingsDefaultValues();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MainSettingsDefaultValues", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MainSettingsDefaultValues(MainSettingsDefaultValues&&) = delete;
@@ -35,20 +39,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainSettingsDefaultValues(MainSettingsDefaultValues const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MainSettingsDefaultValues();
-
-public:
-  /// @brief Field kDefaultRoomCenterX offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultRoomCenterX{ 0.0 };
-
-  /// @brief Field kDefaultRoomCenterY offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultRoomCenterY{ 0.0 };
-
-  /// @brief Field kDefaultRoomCenterZ offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultRoomCenterZ{ 0.0 };
+  /// @brief Field kCreateScreenshotDuringTheGame offset 0xffffffff size 0x1
+  static constexpr bool kCreateScreenshotDuringTheGame{ false };
 
   /// @brief Field kDefaultControllerPositionX offset 0xffffffff size 0x4
   static constexpr float_t kDefaultControllerPositionX{ 0.0 };
@@ -68,20 +60,26 @@ public:
   /// @brief Field kDefaultControllerRotationZ offset 0xffffffff size 0x4
   static constexpr float_t kDefaultControllerRotationZ{ 0.0 };
 
-  /// @brief Field kDefaultWindowResolutionWidth offset 0xffffffff size 0x4
-  static constexpr int32_t kDefaultWindowResolutionWidth{ static_cast<int32_t>(0x780) };
+  /// @brief Field kDefaultPauseButtonPressDurationLevel offset 0xffffffff size 0x4
+  static constexpr int32_t kDefaultPauseButtonPressDurationLevel{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field kDefaultRoomCenterX offset 0xffffffff size 0x4
+  static constexpr float_t kDefaultRoomCenterX{ 0.0 };
+
+  /// @brief Field kDefaultRoomCenterY offset 0xffffffff size 0x4
+  static constexpr float_t kDefaultRoomCenterY{ 0.0 };
+
+  /// @brief Field kDefaultRoomCenterZ offset 0xffffffff size 0x4
+  static constexpr float_t kDefaultRoomCenterZ{ 0.0 };
 
   /// @brief Field kDefaultWindowResolutionHeight offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultWindowResolutionHeight{ static_cast<int32_t>(0x438) };
 
-  /// @brief Field kCreateScreenshotDuringTheGame offset 0xffffffff size 0x1
-  static constexpr bool kCreateScreenshotDuringTheGame{ false };
+  /// @brief Field kDefaultWindowResolutionWidth offset 0xffffffff size 0x4
+  static constexpr int32_t kDefaultWindowResolutionWidth{ static_cast<int32_t>(0x780) };
 
   /// @brief Field kSystemLanguageSerializedName offset 0xffffffff size 0x8
   static constexpr ::ConstString kSystemLanguageSerializedName{ u"SystemLanguage" };
-
-  /// @brief Field kDefaultPauseButtonPressDurationLevel offset 0xffffffff size 0x4
-  static constexpr int32_t kDefaultPauseButtonPressDurationLevel{ static_cast<int32_t>(0x0) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

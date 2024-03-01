@@ -28,13 +28,12 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11191)), TypeDefinitionIndex(TypeDefinitionIndex(11199)), TypeDefinitionIndex(TypeDefinitionIndex(11216)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11217))] Self: TypeDefinitionIndex(TypeDefinitionIndex(11195)) CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*
+// CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*
 class CORDL_TYPE NoteData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
-  /// @brief Field _time, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
+  /// @brief Field _cutDirection, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__cutDirection, put = __cordl_internal_set__cutDirection))::BeatmapSaveDataCommon::NoteCutDirection _cutDirection;
 
   /// @brief Field _lineIndex, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__lineIndex, put = __cordl_internal_set__lineIndex)) int32_t _lineIndex;
@@ -42,74 +41,80 @@ public:
   /// @brief Field _lineLayer, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__lineLayer, put = __cordl_internal_set__lineLayer))::BeatmapSaveDataCommon::NoteLineLayer _lineLayer;
 
+  /// @brief Field _time, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
+
   /// @brief Field _type, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType _type;
 
-  /// @brief Field _cutDirection, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__cutDirection, put = __cordl_internal_set__cutDirection))::BeatmapSaveDataCommon::NoteCutDirection _cutDirection;
-
-  __declspec(property(get = get_time)) float_t time;
+  __declspec(property(get = get_cutDirection))::BeatmapSaveDataCommon::NoteCutDirection cutDirection;
 
   __declspec(property(get = get_lineIndex)) int32_t lineIndex;
 
   __declspec(property(get = get_lineLayer))::BeatmapSaveDataCommon::NoteLineLayer lineLayer;
 
+  __declspec(property(get = get_time)) float_t time;
+
   __declspec(property(get = get_type))::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType type;
-
-  __declspec(property(get = get_cutDirection))::BeatmapSaveDataCommon::NoteCutDirection cutDirection;
-
-  constexpr float_t& __cordl_internal_get__time();
-
-  constexpr float_t const& __cordl_internal_get__time() const;
-
-  constexpr void __cordl_internal_set__time(float_t value);
-
-  constexpr int32_t& __cordl_internal_get__lineIndex();
-
-  constexpr int32_t const& __cordl_internal_get__lineIndex() const;
-
-  constexpr void __cordl_internal_set__lineIndex(int32_t value);
-
-  constexpr ::BeatmapSaveDataCommon::NoteLineLayer& __cordl_internal_get__lineLayer();
-
-  constexpr ::BeatmapSaveDataCommon::NoteLineLayer const& __cordl_internal_get__lineLayer() const;
-
-  constexpr void __cordl_internal_set__lineLayer(::BeatmapSaveDataCommon::NoteLineLayer value);
-
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType& __cordl_internal_get__type();
-
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType const& __cordl_internal_get__type() const;
-
-  constexpr void __cordl_internal_set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType value);
-
-  constexpr ::BeatmapSaveDataCommon::NoteCutDirection& __cordl_internal_get__cutDirection();
-
-  constexpr ::BeatmapSaveDataCommon::NoteCutDirection const& __cordl_internal_get__cutDirection() const;
-
-  constexpr void __cordl_internal_set__cutDirection(::BeatmapSaveDataCommon::NoteCutDirection value);
-
-  /// @brief Method get_time, addr 0x12bc988, size 0x8, virtual true, abstract: false, final false
-  inline float_t get_time();
-
-  /// @brief Method get_lineIndex, addr 0x12bc990, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_lineIndex();
-
-  /// @brief Method get_lineLayer, addr 0x12bc998, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::NoteLineLayer get_lineLayer();
-
-  /// @brief Method get_type, addr 0x12bc9a0, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType get_type();
-
-  /// @brief Method get_cutDirection, addr 0x12bc9a8, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData* New_ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataCommon::NoteLineLayer lineLayer,
                                                                             ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType type, ::BeatmapSaveDataCommon::NoteCutDirection cutDirection);
 
-  /// @brief Method .ctor, addr 0x12bc9b0, size 0x50, virtual false, abstract: false, final false
+  constexpr ::BeatmapSaveDataCommon::NoteCutDirection const& __cordl_internal_get__cutDirection() const;
+
+  constexpr ::BeatmapSaveDataCommon::NoteCutDirection& __cordl_internal_get__cutDirection();
+
+  constexpr int32_t const& __cordl_internal_get__lineIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__lineIndex();
+
+  constexpr ::BeatmapSaveDataCommon::NoteLineLayer const& __cordl_internal_get__lineLayer() const;
+
+  constexpr ::BeatmapSaveDataCommon::NoteLineLayer& __cordl_internal_get__lineLayer();
+
+  constexpr float_t const& __cordl_internal_get__time() const;
+
+  constexpr float_t& __cordl_internal_get__time();
+
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType const& __cordl_internal_get__type() const;
+
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType& __cordl_internal_get__type();
+
+  constexpr void __cordl_internal_set__cutDirection(::BeatmapSaveDataCommon::NoteCutDirection value);
+
+  constexpr void __cordl_internal_set__lineIndex(int32_t value);
+
+  constexpr void __cordl_internal_set__lineLayer(::BeatmapSaveDataCommon::NoteLineLayer value);
+
+  constexpr void __cordl_internal_set__time(float_t value);
+
+  constexpr void __cordl_internal_set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType value);
+
+  /// @brief Method .ctor, addr 0x12fd980, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataCommon::NoteLineLayer lineLayer, ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType type,
                     ::BeatmapSaveDataCommon::NoteCutDirection cutDirection);
 
+  /// @brief Method get_cutDirection, addr 0x12fd978, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
+
+  /// @brief Method get_lineIndex, addr 0x12fd960, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_lineIndex();
+
+  /// @brief Method get_lineLayer, addr 0x12fd968, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataCommon::NoteLineLayer get_lineLayer();
+
+  /// @brief Method get_time, addr 0x12fd958, size 0x8, virtual true, abstract: false, final false
+  inline float_t get_time();
+
+  /// @brief Method get_type, addr 0x12fd970, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType get_type();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteData(NoteData&&) = delete;
@@ -118,12 +123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteData(NoteData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteData();
-
-public:
   /// @brief Field _time, offset: 0x10, size: 0x4, def value: None
   float_t ____time;
 

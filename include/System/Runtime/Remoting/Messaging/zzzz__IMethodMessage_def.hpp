@@ -28,8 +28,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodMessage);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3172))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMethodMessage*
 class CORDL_TYPE IMethodMessage {
 public:
@@ -53,8 +51,8 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
-  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
+  /// @brief Method GetArg, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Object* GetArg(int32_t argNum);
 
   /// @brief Method get_ArgCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ArgCount();
@@ -80,8 +78,8 @@ public:
   /// @brief Method get_Uri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Uri();
 
-  /// @brief Method GetArg, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* GetArg(int32_t argNum);
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IMethodMessage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

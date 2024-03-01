@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::Sockets::IOControlCode);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7348))
 // CS Name: ::System.Net.Sockets::IOControlCode
 struct CORDL_TYPE IOControlCode {
 public:
@@ -66,33 +64,50 @@ public:
     return static_cast<__IOControlCode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
-  constexpr IOControlCode(int64_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int64_t() const noexcept {
+    return static_cast<__IOControlCode_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr IOControlCode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
+  constexpr IOControlCode(int64_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x8, def value: None
   int64_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+  /// @brief Field AbsorbRouterAlert value: static_cast<int64_t>(0x98000005)
+  static ::System::Net::Sockets::IOControlCode const AbsorbRouterAlert;
+
+  /// @brief Field AddMulticastGroupOnInterface value: static_cast<int64_t>(0x9800000a)
+  static ::System::Net::Sockets::IOControlCode const AddMulticastGroupOnInterface;
+
+  /// @brief Field AddressListChange value: static_cast<int64_t>(0x28000017)
+  static ::System::Net::Sockets::IOControlCode const AddressListChange;
+
+  /// @brief Field AddressListQuery value: static_cast<int64_t>(0x48000016)
+  static ::System::Net::Sockets::IOControlCode const AddressListQuery;
+
+  /// @brief Field AddressListSort value: static_cast<int64_t>(0xc8000019)
+  static ::System::Net::Sockets::IOControlCode const AddressListSort;
+
+  /// @brief Field AssociateHandle value: static_cast<int64_t>(0x88000001)
+  static ::System::Net::Sockets::IOControlCode const AssociateHandle;
 
   /// @brief Field AsyncIO value: static_cast<int64_t>(0x8004667d)
   static ::System::Net::Sockets::IOControlCode const AsyncIO;
 
-  /// @brief Field NonBlockingIO value: static_cast<int64_t>(0x8004667e)
-  static ::System::Net::Sockets::IOControlCode const NonBlockingIO;
+  /// @brief Field BindToInterface value: static_cast<int64_t>(0x98000008)
+  static ::System::Net::Sockets::IOControlCode const BindToInterface;
 
   /// @brief Field DataToRead value: static_cast<int64_t>(0x4004667f)
   static ::System::Net::Sockets::IOControlCode const DataToRead;
 
-  /// @brief Field OobDataRead value: static_cast<int64_t>(0x40047307)
-  static ::System::Net::Sockets::IOControlCode const OobDataRead;
-
-  /// @brief Field AssociateHandle value: static_cast<int64_t>(0x88000001)
-  static ::System::Net::Sockets::IOControlCode const AssociateHandle;
+  /// @brief Field DeleteMulticastGroupFromInterface value: static_cast<int64_t>(0x9800000b)
+  static ::System::Net::Sockets::IOControlCode const DeleteMulticastGroupFromInterface;
 
   /// @brief Field EnableCircularQueuing value: static_cast<int64_t>(0x28000002)
   static ::System::Net::Sockets::IOControlCode const EnableCircularQueuing;
@@ -106,80 +121,68 @@ public:
   /// @brief Field GetExtensionFunctionPointer value: static_cast<int64_t>(0xc8000006)
   static ::System::Net::Sockets::IOControlCode const GetExtensionFunctionPointer;
 
-  /// @brief Field GetQos value: static_cast<int64_t>(0xc8000007)
-  static ::System::Net::Sockets::IOControlCode const GetQos;
-
   /// @brief Field GetGroupQos value: static_cast<int64_t>(0xc8000008)
   static ::System::Net::Sockets::IOControlCode const GetGroupQos;
 
-  /// @brief Field MultipointLoopback value: static_cast<int64_t>(0x88000009)
-  static ::System::Net::Sockets::IOControlCode const MultipointLoopback;
-
-  /// @brief Field MulticastScope value: static_cast<int64_t>(0x8800000a)
-  static ::System::Net::Sockets::IOControlCode const MulticastScope;
-
-  /// @brief Field SetQos value: static_cast<int64_t>(0x8800000b)
-  static ::System::Net::Sockets::IOControlCode const SetQos;
-
-  /// @brief Field SetGroupQos value: static_cast<int64_t>(0x8800000c)
-  static ::System::Net::Sockets::IOControlCode const SetGroupQos;
-
-  /// @brief Field TranslateHandle value: static_cast<int64_t>(0xc800000d)
-  static ::System::Net::Sockets::IOControlCode const TranslateHandle;
-
-  /// @brief Field RoutingInterfaceQuery value: static_cast<int64_t>(0xc8000014)
-  static ::System::Net::Sockets::IOControlCode const RoutingInterfaceQuery;
-
-  /// @brief Field RoutingInterfaceChange value: static_cast<int64_t>(0x88000015)
-  static ::System::Net::Sockets::IOControlCode const RoutingInterfaceChange;
-
-  /// @brief Field AddressListQuery value: static_cast<int64_t>(0x48000016)
-  static ::System::Net::Sockets::IOControlCode const AddressListQuery;
-
-  /// @brief Field AddressListChange value: static_cast<int64_t>(0x28000017)
-  static ::System::Net::Sockets::IOControlCode const AddressListChange;
-
-  /// @brief Field QueryTargetPnpHandle value: static_cast<int64_t>(0x48000018)
-  static ::System::Net::Sockets::IOControlCode const QueryTargetPnpHandle;
-
-  /// @brief Field NamespaceChange value: static_cast<int64_t>(0x88000019)
-  static ::System::Net::Sockets::IOControlCode const NamespaceChange;
-
-  /// @brief Field AddressListSort value: static_cast<int64_t>(0xc8000019)
-  static ::System::Net::Sockets::IOControlCode const AddressListSort;
-
-  /// @brief Field ReceiveAll value: static_cast<int64_t>(0x98000001)
-  static ::System::Net::Sockets::IOControlCode const ReceiveAll;
-
-  /// @brief Field ReceiveAllMulticast value: static_cast<int64_t>(0x98000002)
-  static ::System::Net::Sockets::IOControlCode const ReceiveAllMulticast;
-
-  /// @brief Field ReceiveAllIgmpMulticast value: static_cast<int64_t>(0x98000003)
-  static ::System::Net::Sockets::IOControlCode const ReceiveAllIgmpMulticast;
+  /// @brief Field GetQos value: static_cast<int64_t>(0xc8000007)
+  static ::System::Net::Sockets::IOControlCode const GetQos;
 
   /// @brief Field KeepAliveValues value: static_cast<int64_t>(0x98000004)
   static ::System::Net::Sockets::IOControlCode const KeepAliveValues;
 
-  /// @brief Field AbsorbRouterAlert value: static_cast<int64_t>(0x98000005)
-  static ::System::Net::Sockets::IOControlCode const AbsorbRouterAlert;
-
-  /// @brief Field UnicastInterface value: static_cast<int64_t>(0x98000006)
-  static ::System::Net::Sockets::IOControlCode const UnicastInterface;
-
   /// @brief Field LimitBroadcasts value: static_cast<int64_t>(0x98000007)
   static ::System::Net::Sockets::IOControlCode const LimitBroadcasts;
-
-  /// @brief Field BindToInterface value: static_cast<int64_t>(0x98000008)
-  static ::System::Net::Sockets::IOControlCode const BindToInterface;
 
   /// @brief Field MulticastInterface value: static_cast<int64_t>(0x98000009)
   static ::System::Net::Sockets::IOControlCode const MulticastInterface;
 
-  /// @brief Field AddMulticastGroupOnInterface value: static_cast<int64_t>(0x9800000a)
-  static ::System::Net::Sockets::IOControlCode const AddMulticastGroupOnInterface;
+  /// @brief Field MulticastScope value: static_cast<int64_t>(0x8800000a)
+  static ::System::Net::Sockets::IOControlCode const MulticastScope;
 
-  /// @brief Field DeleteMulticastGroupFromInterface value: static_cast<int64_t>(0x9800000b)
-  static ::System::Net::Sockets::IOControlCode const DeleteMulticastGroupFromInterface;
+  /// @brief Field MultipointLoopback value: static_cast<int64_t>(0x88000009)
+  static ::System::Net::Sockets::IOControlCode const MultipointLoopback;
+
+  /// @brief Field NamespaceChange value: static_cast<int64_t>(0x88000019)
+  static ::System::Net::Sockets::IOControlCode const NamespaceChange;
+
+  /// @brief Field NonBlockingIO value: static_cast<int64_t>(0x8004667e)
+  static ::System::Net::Sockets::IOControlCode const NonBlockingIO;
+
+  /// @brief Field OobDataRead value: static_cast<int64_t>(0x40047307)
+  static ::System::Net::Sockets::IOControlCode const OobDataRead;
+
+  /// @brief Field QueryTargetPnpHandle value: static_cast<int64_t>(0x48000018)
+  static ::System::Net::Sockets::IOControlCode const QueryTargetPnpHandle;
+
+  /// @brief Field ReceiveAll value: static_cast<int64_t>(0x98000001)
+  static ::System::Net::Sockets::IOControlCode const ReceiveAll;
+
+  /// @brief Field ReceiveAllIgmpMulticast value: static_cast<int64_t>(0x98000003)
+  static ::System::Net::Sockets::IOControlCode const ReceiveAllIgmpMulticast;
+
+  /// @brief Field ReceiveAllMulticast value: static_cast<int64_t>(0x98000002)
+  static ::System::Net::Sockets::IOControlCode const ReceiveAllMulticast;
+
+  /// @brief Field RoutingInterfaceChange value: static_cast<int64_t>(0x88000015)
+  static ::System::Net::Sockets::IOControlCode const RoutingInterfaceChange;
+
+  /// @brief Field RoutingInterfaceQuery value: static_cast<int64_t>(0xc8000014)
+  static ::System::Net::Sockets::IOControlCode const RoutingInterfaceQuery;
+
+  /// @brief Field SetGroupQos value: static_cast<int64_t>(0x8800000c)
+  static ::System::Net::Sockets::IOControlCode const SetGroupQos;
+
+  /// @brief Field SetQos value: static_cast<int64_t>(0x8800000b)
+  static ::System::Net::Sockets::IOControlCode const SetQos;
+
+  /// @brief Field TranslateHandle value: static_cast<int64_t>(0xc800000d)
+  static ::System::Net::Sockets::IOControlCode const TranslateHandle;
+
+  /// @brief Field UnicastInterface value: static_cast<int64_t>(0x98000006)
+  static ::System::Net::Sockets::IOControlCode const UnicastInterface;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

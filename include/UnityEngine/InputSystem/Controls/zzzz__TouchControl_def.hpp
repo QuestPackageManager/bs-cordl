@@ -42,25 +42,28 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::TouchControl);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5475)), TypeDefinitionIndex(TypeDefinitionIndex(5773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5475), inst: 3878
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5900)) CS Name: ::UnityEngine.InputSystem.Controls::TouchControl*
+// CS Name: ::UnityEngine.InputSystem.Controls::TouchControl*
 class CORDL_TYPE TouchControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::LowLevel::TouchState> {
 public:
   // Declarations
-  /// @brief Field <press>k__BackingField, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get__press_k__BackingField,
-                      put = __cordl_internal_set__press_k__BackingField))::UnityEngine::InputSystem::Controls::TouchPressControl* _press_k__BackingField;
+  /// @brief Field <delta>k__BackingField, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get__delta_k__BackingField, put = __cordl_internal_set__delta_k__BackingField))::UnityEngine::InputSystem::Controls::DeltaControl* _delta_k__BackingField;
 
-  /// @brief Field <touchId>k__BackingField, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get__touchId_k__BackingField,
-                      put = __cordl_internal_set__touchId_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _touchId_k__BackingField;
+  /// @brief Field <indirectTouch>k__BackingField, offset 0x128, size 0x8
+  __declspec(property(get = __cordl_internal_get__indirectTouch_k__BackingField,
+                      put = __cordl_internal_set__indirectTouch_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _indirectTouch_k__BackingField;
+
+  /// @brief Field <phase>k__BackingField, offset 0x120, size 0x8
+  __declspec(property(get = __cordl_internal_get__phase_k__BackingField,
+                      put = __cordl_internal_set__phase_k__BackingField))::UnityEngine::InputSystem::Controls::TouchPhaseControl* _phase_k__BackingField;
 
   /// @brief Field <position>k__BackingField, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__position_k__BackingField,
                       put = __cordl_internal_set__position_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _position_k__BackingField;
 
-  /// @brief Field <delta>k__BackingField, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get__delta_k__BackingField, put = __cordl_internal_set__delta_k__BackingField))::UnityEngine::InputSystem::Controls::DeltaControl* _delta_k__BackingField;
+  /// @brief Field <press>k__BackingField, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get__press_k__BackingField,
+                      put = __cordl_internal_set__press_k__BackingField))::UnityEngine::InputSystem::Controls::TouchPressControl* _press_k__BackingField;
 
   /// @brief Field <pressure>k__BackingField, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get__pressure_k__BackingField,
@@ -70,216 +73,218 @@ public:
   __declspec(property(get = __cordl_internal_get__radius_k__BackingField,
                       put = __cordl_internal_set__radius_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _radius_k__BackingField;
 
-  /// @brief Field <phase>k__BackingField, offset 0x120, size 0x8
-  __declspec(property(get = __cordl_internal_get__phase_k__BackingField,
-                      put = __cordl_internal_set__phase_k__BackingField))::UnityEngine::InputSystem::Controls::TouchPhaseControl* _phase_k__BackingField;
-
-  /// @brief Field <indirectTouch>k__BackingField, offset 0x128, size 0x8
-  __declspec(property(get = __cordl_internal_get__indirectTouch_k__BackingField,
-                      put = __cordl_internal_set__indirectTouch_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _indirectTouch_k__BackingField;
-
-  /// @brief Field <tap>k__BackingField, offset 0x130, size 0x8
-  __declspec(property(get = __cordl_internal_get__tap_k__BackingField, put = __cordl_internal_set__tap_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _tap_k__BackingField;
-
-  /// @brief Field <tapCount>k__BackingField, offset 0x138, size 0x8
-  __declspec(property(get = __cordl_internal_get__tapCount_k__BackingField,
-                      put = __cordl_internal_set__tapCount_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _tapCount_k__BackingField;
+  /// @brief Field <startPosition>k__BackingField, offset 0x148, size 0x8
+  __declspec(property(get = __cordl_internal_get__startPosition_k__BackingField,
+                      put = __cordl_internal_set__startPosition_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _startPosition_k__BackingField;
 
   /// @brief Field <startTime>k__BackingField, offset 0x140, size 0x8
   __declspec(property(get = __cordl_internal_get__startTime_k__BackingField,
                       put = __cordl_internal_set__startTime_k__BackingField))::UnityEngine::InputSystem::Controls::DoubleControl* _startTime_k__BackingField;
 
-  /// @brief Field <startPosition>k__BackingField, offset 0x148, size 0x8
-  __declspec(property(get = __cordl_internal_get__startPosition_k__BackingField,
-                      put = __cordl_internal_set__startPosition_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _startPosition_k__BackingField;
+  /// @brief Field <tapCount>k__BackingField, offset 0x138, size 0x8
+  __declspec(property(get = __cordl_internal_get__tapCount_k__BackingField,
+                      put = __cordl_internal_set__tapCount_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _tapCount_k__BackingField;
 
-  __declspec(property(get = get_press, put = set_press))::UnityEngine::InputSystem::Controls::TouchPressControl* press;
+  /// @brief Field <tap>k__BackingField, offset 0x130, size 0x8
+  __declspec(property(get = __cordl_internal_get__tap_k__BackingField, put = __cordl_internal_set__tap_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _tap_k__BackingField;
 
-  __declspec(property(get = get_touchId, put = set_touchId))::UnityEngine::InputSystem::Controls::IntegerControl* touchId;
+  /// @brief Field <touchId>k__BackingField, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get__touchId_k__BackingField,
+                      put = __cordl_internal_set__touchId_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _touchId_k__BackingField;
+
+  __declspec(property(get = get_delta, put = set_delta))::UnityEngine::InputSystem::Controls::DeltaControl* delta;
+
+  __declspec(property(get = get_indirectTouch, put = set_indirectTouch))::UnityEngine::InputSystem::Controls::ButtonControl* indirectTouch;
+
+  __declspec(property(get = get_isInProgress)) bool isInProgress;
+
+  __declspec(property(get = get_phase, put = set_phase))::UnityEngine::InputSystem::Controls::TouchPhaseControl* phase;
 
   __declspec(property(get = get_position, put = set_position))::UnityEngine::InputSystem::Controls::Vector2Control* position;
 
-  __declspec(property(get = get_delta, put = set_delta))::UnityEngine::InputSystem::Controls::DeltaControl* delta;
+  __declspec(property(get = get_press, put = set_press))::UnityEngine::InputSystem::Controls::TouchPressControl* press;
 
   __declspec(property(get = get_pressure, put = set_pressure))::UnityEngine::InputSystem::Controls::AxisControl* pressure;
 
   __declspec(property(get = get_radius, put = set_radius))::UnityEngine::InputSystem::Controls::Vector2Control* radius;
 
-  __declspec(property(get = get_phase, put = set_phase))::UnityEngine::InputSystem::Controls::TouchPhaseControl* phase;
+  __declspec(property(get = get_startPosition, put = set_startPosition))::UnityEngine::InputSystem::Controls::Vector2Control* startPosition;
 
-  __declspec(property(get = get_indirectTouch, put = set_indirectTouch))::UnityEngine::InputSystem::Controls::ButtonControl* indirectTouch;
+  __declspec(property(get = get_startTime, put = set_startTime))::UnityEngine::InputSystem::Controls::DoubleControl* startTime;
 
   __declspec(property(get = get_tap, put = set_tap))::UnityEngine::InputSystem::Controls::ButtonControl* tap;
 
   __declspec(property(get = get_tapCount, put = set_tapCount))::UnityEngine::InputSystem::Controls::IntegerControl* tapCount;
 
-  __declspec(property(get = get_startTime, put = set_startTime))::UnityEngine::InputSystem::Controls::DoubleControl* startTime;
+  __declspec(property(get = get_touchId, put = set_touchId))::UnityEngine::InputSystem::Controls::IntegerControl* touchId;
 
-  __declspec(property(get = get_startPosition, put = set_startPosition))::UnityEngine::InputSystem::Controls::Vector2Control* startPosition;
+  /// @brief Method FinishSetup, addr 0x2bf14bc, size 0x2d4, virtual true, abstract: false, final false
+  inline void FinishSetup();
 
-  __declspec(property(get = get_isInProgress)) bool isInProgress;
+  static inline ::UnityEngine::InputSystem::Controls::TouchControl* New_ctor();
 
-  constexpr ::UnityEngine::InputSystem::Controls::TouchPressControl*& __cordl_internal_get__press_k__BackingField();
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2bf1790, size 0x24, virtual true, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::TouchState ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::TouchPressControl*> const& __cordl_internal_get__press_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__press_k__BackingField(::UnityEngine::InputSystem::Controls::TouchPressControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__touchId_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __cordl_internal_get__touchId_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__touchId_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__position_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__position_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__position_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+  /// @brief Method WriteValueIntoState, addr 0x2bf17b4, size 0x70, virtual true, abstract: false, final false
+  inline void WriteValueIntoState(::UnityEngine::InputSystem::LowLevel::TouchState value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::DeltaControl*& __cordl_internal_get__delta_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::DeltaControl*> const& __cordl_internal_get__delta_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__delta_k__BackingField(::UnityEngine::InputSystem::Controls::DeltaControl* value);
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__indirectTouch_k__BackingField();
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__pressure_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__pressure_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__pressure_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__radius_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__radius_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__radius_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__indirectTouch_k__BackingField() const;
 
   constexpr ::UnityEngine::InputSystem::Controls::TouchPhaseControl*& __cordl_internal_get__phase_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::TouchPhaseControl*> const& __cordl_internal_get__phase_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__phase_k__BackingField(::UnityEngine::InputSystem::Controls::TouchPhaseControl* value);
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__position_k__BackingField();
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__indirectTouch_k__BackingField();
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__position_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__indirectTouch_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Controls::TouchPressControl*& __cordl_internal_get__press_k__BackingField();
 
-  constexpr void __cordl_internal_set__indirectTouch_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::TouchPressControl*> const& __cordl_internal_get__press_k__BackingField() const;
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__tap_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__pressure_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__tap_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__pressure_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__tap_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__radius_k__BackingField();
 
-  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__tapCount_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __cordl_internal_get__tapCount_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__tapCount_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
-
-  constexpr ::UnityEngine::InputSystem::Controls::DoubleControl*& __cordl_internal_get__startTime_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::DoubleControl*> const& __cordl_internal_get__startTime_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__startTime_k__BackingField(::UnityEngine::InputSystem::Controls::DoubleControl* value);
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__radius_k__BackingField() const;
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__startPosition_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__startPosition_k__BackingField() const;
 
+  constexpr ::UnityEngine::InputSystem::Controls::DoubleControl*& __cordl_internal_get__startTime_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::DoubleControl*> const& __cordl_internal_get__startTime_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__tapCount_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __cordl_internal_get__tapCount_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__tap_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__tap_k__BackingField() const;
+
+  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__touchId_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __cordl_internal_get__touchId_k__BackingField() const;
+
+  constexpr void __cordl_internal_set__delta_k__BackingField(::UnityEngine::InputSystem::Controls::DeltaControl* value);
+
+  constexpr void __cordl_internal_set__indirectTouch_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  constexpr void __cordl_internal_set__phase_k__BackingField(::UnityEngine::InputSystem::Controls::TouchPhaseControl* value);
+
+  constexpr void __cordl_internal_set__position_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+  constexpr void __cordl_internal_set__press_k__BackingField(::UnityEngine::InputSystem::Controls::TouchPressControl* value);
+
+  constexpr void __cordl_internal_set__pressure_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+  constexpr void __cordl_internal_set__radius_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
   constexpr void __cordl_internal_set__startPosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_press, addr 0x2b0b240, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::TouchPressControl* get_press();
+  constexpr void __cordl_internal_set__startTime_k__BackingField(::UnityEngine::InputSystem::Controls::DoubleControl* value);
 
-  /// @brief Method set_press, addr 0x2b0b248, size 0x8, virtual false, abstract: false, final false
-  inline void set_press(::UnityEngine::InputSystem::Controls::TouchPressControl* value);
+  constexpr void __cordl_internal_set__tapCount_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method get_touchId, addr 0x2b0b250, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_touchId();
+  constexpr void __cordl_internal_set__tap_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_touchId, addr 0x2b0b258, size 0x8, virtual false, abstract: false, final false
-  inline void set_touchId(::UnityEngine::InputSystem::Controls::IntegerControl* value);
+  constexpr void __cordl_internal_set__touchId_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method get_position, addr 0x2b0b260, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_position();
-
-  /// @brief Method set_position, addr 0x2b0b268, size 0x8, virtual false, abstract: false, final false
-  inline void set_position(::UnityEngine::InputSystem::Controls::Vector2Control* value);
-
-  /// @brief Method get_delta, addr 0x2b0b270, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::DeltaControl* get_delta();
-
-  /// @brief Method set_delta, addr 0x2b0b278, size 0x8, virtual false, abstract: false, final false
-  inline void set_delta(::UnityEngine::InputSystem::Controls::DeltaControl* value);
-
-  /// @brief Method get_pressure, addr 0x2b0b280, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_pressure();
-
-  /// @brief Method set_pressure, addr 0x2b0b288, size 0x8, virtual false, abstract: false, final false
-  inline void set_pressure(::UnityEngine::InputSystem::Controls::AxisControl* value);
-
-  /// @brief Method get_radius, addr 0x2b0b290, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_radius();
-
-  /// @brief Method set_radius, addr 0x2b0b298, size 0x8, virtual false, abstract: false, final false
-  inline void set_radius(::UnityEngine::InputSystem::Controls::Vector2Control* value);
-
-  /// @brief Method get_phase, addr 0x2b0b2a0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* get_phase();
-
-  /// @brief Method set_phase, addr 0x2b0b2a8, size 0x8, virtual false, abstract: false, final false
-  inline void set_phase(::UnityEngine::InputSystem::Controls::TouchPhaseControl* value);
-
-  /// @brief Method get_indirectTouch, addr 0x2b0b2b0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_indirectTouch();
-
-  /// @brief Method set_indirectTouch, addr 0x2b0b2b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_indirectTouch(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  /// @brief Method get_tap, addr 0x2b0b2c0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_tap();
-
-  /// @brief Method set_tap, addr 0x2b0b2c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_tap(::UnityEngine::InputSystem::Controls::ButtonControl* value);
-
-  /// @brief Method get_tapCount, addr 0x2b0b2d0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_tapCount();
-
-  /// @brief Method set_tapCount, addr 0x2b0b2d8, size 0x8, virtual false, abstract: false, final false
-  inline void set_tapCount(::UnityEngine::InputSystem::Controls::IntegerControl* value);
-
-  /// @brief Method get_startTime, addr 0x2b0b2e0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::DoubleControl* get_startTime();
-
-  /// @brief Method set_startTime, addr 0x2b0b2e8, size 0x8, virtual false, abstract: false, final false
-  inline void set_startTime(::UnityEngine::InputSystem::Controls::DoubleControl* value);
-
-  /// @brief Method get_startPosition, addr 0x2b0b2f0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_startPosition();
-
-  /// @brief Method set_startPosition, addr 0x2b0b2f8, size 0x8, virtual false, abstract: false, final false
-  inline void set_startPosition(::UnityEngine::InputSystem::Controls::Vector2Control* value);
-
-  /// @brief Method get_isInProgress, addr 0x2b0b300, size 0x70, virtual false, abstract: false, final false
-  inline bool get_isInProgress();
-
-  static inline ::UnityEngine::InputSystem::Controls::TouchControl* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2b0b370, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bf1444, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FinishSetup, addr 0x2b0b3e8, size 0x2d4, virtual true, abstract: false, final false
-  inline void FinishSetup();
+  /// @brief Method get_delta, addr 0x2bf1344, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::DeltaControl* get_delta();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0b6bc, size 0x24, virtual true, abstract: false, final false
-  inline ::UnityEngine::InputSystem::LowLevel::TouchState ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
+  /// @brief Method get_indirectTouch, addr 0x2bf1384, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_indirectTouch();
 
-  /// @brief Method WriteValueIntoState, addr 0x2b0b6e0, size 0x70, virtual true, abstract: false, final false
-  inline void WriteValueIntoState(::UnityEngine::InputSystem::LowLevel::TouchState value, ::cordl_internals::Ptr<void> statePtr);
+  /// @brief Method get_isInProgress, addr 0x2bf13d4, size 0x70, virtual false, abstract: false, final false
+  inline bool get_isInProgress();
 
+  /// @brief Method get_phase, addr 0x2bf1374, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* get_phase();
+
+  /// @brief Method get_position, addr 0x2bf1334, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_position();
+
+  /// @brief Method get_press, addr 0x2bf1314, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::TouchPressControl* get_press();
+
+  /// @brief Method get_pressure, addr 0x2bf1354, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::AxisControl* get_pressure();
+
+  /// @brief Method get_radius, addr 0x2bf1364, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_radius();
+
+  /// @brief Method get_startPosition, addr 0x2bf13c4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_startPosition();
+
+  /// @brief Method get_startTime, addr 0x2bf13b4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::DoubleControl* get_startTime();
+
+  /// @brief Method get_tap, addr 0x2bf1394, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_tap();
+
+  /// @brief Method get_tapCount, addr 0x2bf13a4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_tapCount();
+
+  /// @brief Method get_touchId, addr 0x2bf1324, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_touchId();
+
+  /// @brief Method set_delta, addr 0x2bf134c, size 0x8, virtual false, abstract: false, final false
+  inline void set_delta(::UnityEngine::InputSystem::Controls::DeltaControl* value);
+
+  /// @brief Method set_indirectTouch, addr 0x2bf138c, size 0x8, virtual false, abstract: false, final false
+  inline void set_indirectTouch(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method set_phase, addr 0x2bf137c, size 0x8, virtual false, abstract: false, final false
+  inline void set_phase(::UnityEngine::InputSystem::Controls::TouchPhaseControl* value);
+
+  /// @brief Method set_position, addr 0x2bf133c, size 0x8, virtual false, abstract: false, final false
+  inline void set_position(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+  /// @brief Method set_press, addr 0x2bf131c, size 0x8, virtual false, abstract: false, final false
+  inline void set_press(::UnityEngine::InputSystem::Controls::TouchPressControl* value);
+
+  /// @brief Method set_pressure, addr 0x2bf135c, size 0x8, virtual false, abstract: false, final false
+  inline void set_pressure(::UnityEngine::InputSystem::Controls::AxisControl* value);
+
+  /// @brief Method set_radius, addr 0x2bf136c, size 0x8, virtual false, abstract: false, final false
+  inline void set_radius(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+  /// @brief Method set_startPosition, addr 0x2bf13cc, size 0x8, virtual false, abstract: false, final false
+  inline void set_startPosition(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+
+  /// @brief Method set_startTime, addr 0x2bf13bc, size 0x8, virtual false, abstract: false, final false
+  inline void set_startTime(::UnityEngine::InputSystem::Controls::DoubleControl* value);
+
+  /// @brief Method set_tap, addr 0x2bf139c, size 0x8, virtual false, abstract: false, final false
+  inline void set_tap(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+
+  /// @brief Method set_tapCount, addr 0x2bf13ac, size 0x8, virtual false, abstract: false, final false
+  inline void set_tapCount(::UnityEngine::InputSystem::Controls::IntegerControl* value);
+
+  /// @brief Method set_touchId, addr 0x2bf132c, size 0x8, virtual false, abstract: false, final false
+  inline void set_touchId(::UnityEngine::InputSystem::Controls::IntegerControl* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TouchControl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TouchControl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TouchControl(TouchControl&&) = delete;
@@ -288,12 +293,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TouchControl(TouchControl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TouchControl();
-
-public:
   /// @brief Field <press>k__BackingField, offset: 0xf0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::TouchPressControl* ____press_k__BackingField;
 

@@ -29,12 +29,16 @@ MARK_REF_PTR_T(::Mono::SystemDependencyProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6761))
 // CS Name: ::Mono::SystemDependencyProvider*
 class CORDL_TYPE SystemDependencyProvider : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_CertificateProvider))::Mono::SystemCertificateProvider* CertificateProvider;
+
+  __declspec(property(get = Mono_ISystemDependencyProvider_get_CertificateProvider))::Mono::ISystemCertificateProvider* Mono_ISystemDependencyProvider_CertificateProvider;
+
+  __declspec(property(get = get_X509Pal))::Mono::X509PalImpl* X509Pal;
+
   /// @brief Field <CertificateProvider>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__CertificateProvider_k__BackingField,
                       put = __cordl_internal_set__CertificateProvider_k__BackingField))::Mono::SystemCertificateProvider* _CertificateProvider_k__BackingField;
@@ -45,17 +49,16 @@ public:
   /// @brief Field syncRoot, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_syncRoot, put = setStaticF_syncRoot))::System::Object* syncRoot;
 
-  __declspec(property(get = Mono_ISystemDependencyProvider_get_CertificateProvider))::Mono::ISystemCertificateProvider* Mono_ISystemDependencyProvider_CertificateProvider;
-
-  __declspec(property(get = get_CertificateProvider))::Mono::SystemCertificateProvider* CertificateProvider;
-
-  __declspec(property(get = get_X509Pal))::Mono::X509PalImpl* X509Pal;
-
   /// @brief Convert operator to "::Mono::ISystemDependencyProvider"
   constexpr operator ::Mono::ISystemDependencyProvider*() noexcept;
 
-  /// @brief Convert to "::Mono::ISystemDependencyProvider"
-  constexpr ::Mono::ISystemDependencyProvider* i___Mono__ISystemDependencyProvider() noexcept;
+  /// @brief Method Initialize, addr 0x2900850, size 0x154, virtual false, abstract: false, final false
+  static inline void Initialize();
+
+  /// @brief Method Mono.ISystemDependencyProvider.get_CertificateProvider, addr 0x2900a3c, size 0x8, virtual true, abstract: false, final true
+  inline ::Mono::ISystemCertificateProvider* Mono_ISystemDependencyProvider_get_CertificateProvider();
+
+  static inline ::Mono::SystemDependencyProvider* New_ctor();
 
   constexpr ::Mono::SystemCertificateProvider*& __cordl_internal_get__CertificateProvider_k__BackingField();
 
@@ -63,34 +66,35 @@ public:
 
   constexpr void __cordl_internal_set__CertificateProvider_k__BackingField(::Mono::SystemCertificateProvider* value);
 
-  static inline void setStaticF_instance(::Mono::SystemDependencyProvider* value);
+  /// @brief Method .ctor, addr 0x29009a4, size 0x98, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::Mono::SystemDependencyProvider* getStaticF_instance();
 
-  static inline void setStaticF_syncRoot(::System::Object* value);
-
   static inline ::System::Object* getStaticF_syncRoot();
 
-  /// @brief Method get_Instance, addr 0x281b378, size 0x5c, virtual false, abstract: false, final false
-  static inline ::Mono::SystemDependencyProvider* get_Instance();
-
-  /// @brief Method Initialize, addr 0x281b3d4, size 0x154, virtual false, abstract: false, final false
-  static inline void Initialize();
-
-  /// @brief Method Mono.ISystemDependencyProvider.get_CertificateProvider, addr 0x281b5c0, size 0x8, virtual true, abstract: false, final true
-  inline ::Mono::ISystemCertificateProvider* Mono_ISystemDependencyProvider_get_CertificateProvider();
-
-  /// @brief Method get_CertificateProvider, addr 0x281b5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateProvider, addr 0x2900a44, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::SystemCertificateProvider* get_CertificateProvider();
 
-  /// @brief Method get_X509Pal, addr 0x281b5d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x29007f4, size 0x5c, virtual false, abstract: false, final false
+  static inline ::Mono::SystemDependencyProvider* get_Instance();
+
+  /// @brief Method get_X509Pal, addr 0x2900a4c, size 0x18, virtual false, abstract: false, final false
   inline ::Mono::X509PalImpl* get_X509Pal();
 
-  static inline ::Mono::SystemDependencyProvider* New_ctor();
+  /// @brief Convert to "::Mono::ISystemDependencyProvider"
+  constexpr ::Mono::ISystemDependencyProvider* i___Mono__ISystemDependencyProvider() noexcept;
 
-  /// @brief Method .ctor, addr 0x281b528, size 0x98, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF_instance(::Mono::SystemDependencyProvider* value);
 
+  static inline void setStaticF_syncRoot(::System::Object* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SystemDependencyProvider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SystemDependencyProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemDependencyProvider(SystemDependencyProvider&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SystemDependencyProvider(SystemDependencyProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SystemDependencyProvider();
-
-public:
   /// @brief Field <CertificateProvider>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Mono::SystemCertificateProvider* ____CertificateProvider_k__BackingField;
 

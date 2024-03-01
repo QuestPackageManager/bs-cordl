@@ -28,48 +28,52 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509ExtensionCollection);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3772))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13710))
 // CS Name: ::Mono.Security.X509::X509ExtensionCollection*
 class CORDL_TYPE X509ExtensionCollection : public ::System::Collections::CollectionBase {
 public:
   // Declarations
+  __declspec(property(get = get_Item))::Mono::Security::X509::X509Extension* Item[];
+
   /// @brief Field readOnly, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_readOnly, put = __cordl_internal_set_readOnly)) bool readOnly;
-
-  __declspec(property(get = get_Item))::Mono::Security::X509::X509Extension* Item[];
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  constexpr bool& __cordl_internal_get_readOnly();
-
-  constexpr bool const& __cordl_internal_get_readOnly() const;
-
-  constexpr void __cordl_internal_set_readOnly(bool value);
+  /// @brief Method IndexOf, addr 0x24ebf60, size 0x13c, virtual false, abstract: false, final false
+  inline int32_t IndexOf(::StringW oid);
 
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x241d260, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method .ctor, addr 0x2418f8c, size 0x13c, virtual false, abstract: false, final false
-  inline void _ctor(::Mono::Security::ASN1* asn1);
-
-  /// @brief Method IndexOf, addr 0x241d268, size 0x13c, virtual false, abstract: false, final false
-  inline int32_t IndexOf(::StringW oid);
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x241d3a4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x24ec09c, size 0x24, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_Item, addr 0x241c8ec, size 0xb0, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get_readOnly() const;
+
+  constexpr bool& __cordl_internal_get_readOnly();
+
+  constexpr void __cordl_internal_set_readOnly(bool value);
+
+  /// @brief Method .ctor, addr 0x24ebf58, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x24e7c84, size 0x13c, virtual false, abstract: false, final false
+  inline void _ctor(::Mono::Security::ASN1* asn1);
+
+  /// @brief Method get_Item, addr 0x24eb5e4, size 0xb0, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Extension* get_Item(::StringW oid);
 
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509ExtensionCollection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509ExtensionCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509ExtensionCollection(X509ExtensionCollection&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509ExtensionCollection(X509ExtensionCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509ExtensionCollection();
-
-public:
   /// @brief Field readOnly, offset: 0x18, size: 0x1, def value: None
   bool ___readOnly;
 

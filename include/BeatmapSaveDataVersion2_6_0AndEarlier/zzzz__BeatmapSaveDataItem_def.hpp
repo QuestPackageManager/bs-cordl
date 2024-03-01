@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11199))
 // CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem*
 class CORDL_TYPE BeatmapSaveDataItem : public ::System::Object {
 public:
@@ -34,26 +32,32 @@ public:
   /// @brief Convert operator to "::BeatmapSaveDataCommon::IBeat"
   constexpr operator ::BeatmapSaveDataCommon::IBeat*() noexcept;
 
-  /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
-  constexpr ::BeatmapSaveDataCommon::IBeat* i___BeatmapSaveDataCommon__IBeat() noexcept;
-
   /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
 
-  /// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
-  constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept;
+  static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem* New_ctor();
 
-  /// @brief Method get_beat, addr 0x12bcbe4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method .ctor, addr 0x12fd950, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_beat, addr 0x12fdbb4, size 0xc, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Method get_time, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_time();
 
-  static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem* New_ctor();
+  /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
+  constexpr ::BeatmapSaveDataCommon::IBeat* i___BeatmapSaveDataCommon__IBeat() noexcept;
 
-  /// @brief Method .ctor, addr 0x12bc980, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
+  constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapSaveDataItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapSaveDataItem(BeatmapSaveDataItem&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapSaveDataItem(BeatmapSaveDataItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapSaveDataItem();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_VAL_T(::GlobalNamespace::EnvironmentName);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10628))
 // CS Name: ::EnvironmentName
 struct CORDL_TYPE EnvironmentName {
 public:
@@ -24,28 +22,28 @@ public:
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::GlobalNamespace::EnvironmentName Empty;
 
-  static inline void setStaticF_Empty(::GlobalNamespace::EnvironmentName value);
+  /// @brief Method ToString, addr 0x12a9870, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x12a9860, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW environmentName);
 
   static inline ::GlobalNamespace::EnvironmentName getStaticF_Empty();
 
-  /// @brief Method .ctor, addr 0x1266890, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW environmentName);
-
-  /// @brief Method op_Implicit, addr 0x1266898, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW op_Implicit___StringW(::GlobalNamespace::EnvironmentName e);
-
-  /// @brief Method op_Implicit, addr 0x126689c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x12a986c, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentName op_Implicit___GlobalNamespace__EnvironmentName(::StringW environmentName);
 
-  /// @brief Method ToString, addr 0x12668a0, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  /// @brief Method op_Implicit, addr 0x12a9868, size 0x4, virtual false, abstract: false, final false
+  static inline ::StringW op_Implicit___StringW(::GlobalNamespace::EnvironmentName e);
 
-  // Ctor Parameters [CppParam { name: "_environmentName", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr EnvironmentName(::StringW _environmentName) noexcept;
+  static inline void setStaticF_Empty(::GlobalNamespace::EnvironmentName value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EnvironmentName();
+
+  // Ctor Parameters [CppParam { name: "_environmentName", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr EnvironmentName(::StringW _environmentName) noexcept;
 
   /// @brief Field _environmentName, offset: 0x0, size: 0x8, def value: None
   ::StringW _environmentName;

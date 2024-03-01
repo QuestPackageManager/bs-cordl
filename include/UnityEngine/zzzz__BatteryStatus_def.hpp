@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::BatteryStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8876))
 // CS Name: ::UnityEngine::BatteryStatus
 struct CORDL_TYPE BatteryStatus {
 public:
@@ -37,21 +35,20 @@ public:
     return static_cast<__BatteryStatus_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr BatteryStatus(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__BatteryStatus_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BatteryStatus();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr BatteryStatus(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::BatteryStatus const Unknown;
 
   /// @brief Field Charging value: static_cast<int32_t>(0x1)
   static ::UnityEngine::BatteryStatus const Charging;
@@ -59,11 +56,17 @@ public:
   /// @brief Field Discharging value: static_cast<int32_t>(0x2)
   static ::UnityEngine::BatteryStatus const Discharging;
 
+  /// @brief Field Full value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::BatteryStatus const Full;
+
   /// @brief Field NotCharging value: static_cast<int32_t>(0x3)
   static ::UnityEngine::BatteryStatus const NotCharging;
 
-  /// @brief Field Full value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::BatteryStatus const Full;
+  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::BatteryStatus const Unknown;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

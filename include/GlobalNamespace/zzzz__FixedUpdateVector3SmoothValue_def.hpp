@@ -19,19 +19,24 @@ MARK_REF_PTR_T(::GlobalNamespace::FixedUpdateVector3SmoothValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(14491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14491), inst:
-// 414 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14492)) CS Name: ::FixedUpdateVector3SmoothValue*
+// CS Name: ::FixedUpdateVector3SmoothValue*
 class CORDL_TYPE FixedUpdateVector3SmoothValue : public ::GlobalNamespace::FixedUpdateSmoothValue_1<::UnityEngine::Vector3> {
 public:
   // Declarations
-  static inline ::GlobalNamespace::FixedUpdateVector3SmoothValue* New_ctor(float_t smooth);
-
-  /// @brief Method .ctor, addr 0x2183b6c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(float_t smooth);
-
-  /// @brief Method Interpolate, addr 0x2183bc4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x2252268, size 0x28, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 value0, ::UnityEngine::Vector3 value1, float_t t);
 
+  static inline ::GlobalNamespace::FixedUpdateVector3SmoothValue* New_ctor(float_t smooth);
+
+  /// @brief Method .ctor, addr 0x2252210, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(float_t smooth);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FixedUpdateVector3SmoothValue();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue&&) = delete;
@@ -40,12 +45,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FixedUpdateVector3SmoothValue();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

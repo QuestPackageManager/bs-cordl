@@ -32,35 +32,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Smime {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(292))
 // CS Name: ::Org.BouncyCastle.Asn1.Smime::SmimeCapabilities*
 class CORDL_TYPE SmimeCapabilities : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field capabilities, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_capabilities, put = __cordl_internal_set_capabilities))::Org::BouncyCastle::Asn1::Asn1Sequence* capabilities;
-
-  /// @brief Field PreferSignedData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PreferSignedData, put = setStaticF_PreferSignedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PreferSignedData;
-
-  /// @brief Field CannotDecryptAny, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CannotDecryptAny, put = setStaticF_CannotDecryptAny))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CannotDecryptAny;
-
-  /// @brief Field SmimeCapabilitesVersions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SmimeCapabilitesVersions, put = setStaticF_SmimeCapabilitesVersions))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SmimeCapabilitesVersions;
-
-  /// @brief Field Aes256Cbc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Aes256Cbc, put = setStaticF_Aes256Cbc))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Aes256Cbc;
+  /// @brief Field Aes128Cbc, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Aes128Cbc, put = setStaticF_Aes128Cbc))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Aes128Cbc;
 
   /// @brief Field Aes192Cbc, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Aes192Cbc, put = setStaticF_Aes192Cbc))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Aes192Cbc;
 
-  /// @brief Field Aes128Cbc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Aes128Cbc, put = setStaticF_Aes128Cbc))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Aes128Cbc;
+  /// @brief Field Aes256Cbc, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Aes256Cbc, put = setStaticF_Aes256Cbc))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Aes256Cbc;
 
-  /// @brief Field IdeaCbc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdeaCbc, put = setStaticF_IdeaCbc))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdeaCbc;
+  /// @brief Field CannotDecryptAny, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_CannotDecryptAny, put = setStaticF_CannotDecryptAny))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CannotDecryptAny;
 
   /// @brief Field Cast5Cbc, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Cast5Cbc, put = setStaticF_Cast5Cbc))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Cast5Cbc;
@@ -71,8 +57,37 @@ public:
   /// @brief Field DesEde3Cbc, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DesEde3Cbc, put = setStaticF_DesEde3Cbc))::Org::BouncyCastle::Asn1::DerObjectIdentifier* DesEde3Cbc;
 
+  /// @brief Field IdeaCbc, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_IdeaCbc, put = setStaticF_IdeaCbc))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdeaCbc;
+
+  /// @brief Field PreferSignedData, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_PreferSignedData, put = setStaticF_PreferSignedData))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PreferSignedData;
+
   /// @brief Field RC2Cbc, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_RC2Cbc, put = setStaticF_RC2Cbc))::Org::BouncyCastle::Asn1::DerObjectIdentifier* RC2Cbc;
+
+  /// @brief Field SmimeCapabilitesVersions, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_SmimeCapabilitesVersions, put = setStaticF_SmimeCapabilitesVersions))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SmimeCapabilitesVersions;
+
+  /// @brief Field capabilities, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_capabilities, put = __cordl_internal_set_capabilities))::Org::BouncyCastle::Asn1::Asn1Sequence* capabilities;
+
+  /// @brief Method DoGetCapabilitiesForOid, addr 0x10e5498, size 0x640, virtual false, abstract: false, final false
+  inline void DoGetCapabilitiesForOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, ::System::Collections::IList* list);
+
+  /// @brief Method GetCapabilities, addr 0x10e541c, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Collections::ArrayList* GetCapabilities(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
+
+  /// @brief Method GetCapabilitiesForOid, addr 0x10e5ad8, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Collections::IList* GetCapabilitiesForOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
+
+  /// @brief Method GetInstance, addr 0x10e51b4, size 0x240, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities* GetInstance(::System::Object* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0x10e5c9c, size 0x8, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_capabilities();
 
@@ -80,70 +95,59 @@ public:
 
   constexpr void __cordl_internal_set_capabilities(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  static inline void setStaticF_PreferSignedData(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PreferSignedData();
-
-  static inline void setStaticF_CannotDecryptAny(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_CannotDecryptAny();
-
-  static inline void setStaticF_SmimeCapabilitesVersions(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_SmimeCapabilitesVersions();
-
-  static inline void setStaticF_Aes256Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Aes256Cbc();
-
-  static inline void setStaticF_Aes192Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Aes192Cbc();
-
-  static inline void setStaticF_Aes128Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  /// @brief Method .ctor, addr 0x10e53f4, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Aes128Cbc();
 
-  static inline void setStaticF_IdeaCbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Aes192Cbc();
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdeaCbc();
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Aes256Cbc();
 
-  static inline void setStaticF_Cast5Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_CannotDecryptAny();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_Cast5Cbc();
 
-  static inline void setStaticF_DesCbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_DesCbc();
-
-  static inline void setStaticF_DesEde3Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_DesEde3Cbc();
 
-  static inline void setStaticF_RC2Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdeaCbc();
+
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_PreferSignedData();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RC2Cbc();
 
-  /// @brief Method GetInstance, addr 0x10a01e4, size 0x240, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities* GetInstance(::System::Object* obj);
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_SmimeCapabilitesVersions();
 
-  static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilities* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+  static inline void setStaticF_Aes128Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x10a0424, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+  static inline void setStaticF_Aes192Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method GetCapabilities, addr 0x10a044c, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::ArrayList* GetCapabilities(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
+  static inline void setStaticF_Aes256Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method GetCapabilitiesForOid, addr 0x10a0b08, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::IList* GetCapabilitiesForOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
+  static inline void setStaticF_CannotDecryptAny(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method DoGetCapabilitiesForOid, addr 0x10a04c8, size 0x640, virtual false, abstract: false, final false
-  inline void DoGetCapabilitiesForOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, ::System::Collections::IList* list);
+  static inline void setStaticF_Cast5Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method ToAsn1Object, addr 0x10a0ccc, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  static inline void setStaticF_DesCbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
+  static inline void setStaticF_DesEde3Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_IdeaCbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_PreferSignedData(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_RC2Cbc(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+  static inline void setStaticF_SmimeCapabilitesVersions(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SmimeCapabilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SmimeCapabilities(SmimeCapabilities&&) = delete;
@@ -152,12 +156,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SmimeCapabilities(SmimeCapabilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SmimeCapabilities();
-
-public:
   /// @brief Field capabilities, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___capabilities;
 

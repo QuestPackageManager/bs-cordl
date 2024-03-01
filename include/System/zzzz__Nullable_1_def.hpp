@@ -21,8 +21,6 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2448))
 // CS Name: ::System::Nullable`1<T>
 struct CORDL_TYPE Nullable_1 {
 public:
@@ -30,6 +28,30 @@ public:
   __declspec(property(get = get_HasValue)) bool HasValue;
 
   __declspec(property(get = get_Value)) T Value;
+
+  /// @brief Method Box, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Object* Box(::System::Nullable_1<T> o);
+
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* other);
+
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T GetValueOrDefault();
+
+  /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T GetValueOrDefault(T defaultValue);
+
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method Unbox, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<T> Unbox(::System::Object* o);
+
+  /// @brief Method UnboxExact, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Nullable_1<T> UnboxExact(::System::Object* o);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value);
@@ -40,36 +62,12 @@ public:
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Value();
 
-  /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T GetValueOrDefault();
-
-  /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T GetValueOrDefault(T defaultValue);
-
-  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* other);
-
-  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method Box, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Object* Box(::System::Nullable_1<T> o);
-
-  /// @brief Method Unbox, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<T> Unbox(::System::Object* o);
-
-  /// @brief Method UnboxExact, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<T> UnboxExact(::System::Object* o);
-
-  // Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None }]
-  constexpr Nullable_1(bool hasValue, T value) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr Nullable_1();
+
+  // Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None }]
+  constexpr Nullable_1(bool hasValue, T value) noexcept;
 
   /// @brief Field hasValue, offset: 0x0, size: 0x1, def value: None
   bool hasValue;

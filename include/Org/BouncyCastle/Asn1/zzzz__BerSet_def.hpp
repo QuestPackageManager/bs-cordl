@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerSet);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(491))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(492))
 // CS Name: ::Org.BouncyCastle.Asn1::BerSet*
 class CORDL_TYPE BerSet : public ::Org::BouncyCastle::Asn1::DerSet {
 public:
@@ -32,39 +30,45 @@ public:
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::Org::BouncyCastle::Asn1::BerSet* Empty;
 
-  static inline void setStaticF_Empty(::Org::BouncyCastle::Asn1::BerSet* value);
+  /// @brief Method Encode, addr 0x122e9dc, size 0x3ec, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  static inline ::Org::BouncyCastle::Asn1::BerSet* getStaticF_Empty();
-
-  /// @brief Method FromVector, addr 0x11eb74c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FromVector, addr 0x122e71c, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::BerSet* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method FromVector, addr 0x11eb83c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method FromVector, addr 0x122e80c, size 0x94, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::BerSet* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
 
   static inline ::Org::BouncyCastle::Asn1::BerSet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11eb954, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Asn1::BerSet* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
-
-  /// @brief Method .ctor, addr 0x11eb9a8, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
 
   static inline ::Org::BouncyCastle::Asn1::BerSet* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
 
-  /// @brief Method .ctor, addr 0x11eb7d8, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
-
   static inline ::Org::BouncyCastle::Asn1::BerSet* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
 
-  /// @brief Method .ctor, addr 0x11eb8d0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122e924, size 0x54, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x122e978, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
+
+  /// @brief Method .ctor, addr 0x122e7a8, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
+
+  /// @brief Method .ctor, addr 0x122e8a0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector, bool needsSorting);
 
-  /// @brief Method Encode, addr 0x11eba0c, size 0x3ec, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
+  static inline ::Org::BouncyCastle::Asn1::BerSet* getStaticF_Empty();
 
+  static inline void setStaticF_Empty(::Org::BouncyCastle::Asn1::BerSet* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerSet();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BerSet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerSet(BerSet&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BerSet(BerSet const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerSet();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

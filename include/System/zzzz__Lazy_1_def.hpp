@@ -26,69 +26,37 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2432))
 // CS Name: ::System::Lazy`1<T>*
 class CORDL_TYPE Lazy_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _state, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::System::LazyHelper* _state;
-
-  /// @brief Field _factory, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__factory, put = __cordl_internal_set__factory))::System::Func_1<T>* _factory;
-
-  /// @brief Field _value, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
-
   __declspec(property(get = get_IsValueCreated)) bool IsValueCreated;
 
   __declspec(property(get = get_Value)) T Value;
 
-  constexpr ::System::LazyHelper*& __cordl_internal_get__state();
+  /// @brief Field _factory, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__factory, put = __cordl_internal_set__factory))::System::Func_1<T>* _factory;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::LazyHelper*> const& __cordl_internal_get__state() const;
+  /// @brief Field _state, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::System::LazyHelper* _state;
 
-  constexpr void __cordl_internal_set__state(::System::LazyHelper* value);
+  /// @brief Field _value, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
-  constexpr ::System::Func_1<T>*& __cordl_internal_get__factory();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get__factory() const;
-
-  constexpr void __cordl_internal_set__factory(::System::Func_1<T>* value);
-
-  constexpr T& __cordl_internal_get__value();
-
-  constexpr T const& __cordl_internal_get__value() const;
-
-  constexpr void __cordl_internal_set__value(T value);
+  /// @brief Method CreateValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T CreateValue();
 
   /// @brief Method CreateViaDefaultConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T CreateViaDefaultConstructor();
 
-  static inline ::System::Lazy_1<T>* New_ctor();
+  /// @brief Method ExecutionAndPublication, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ExecutionAndPublication(::System::LazyHelper* executionAndPublication, bool useDefaultConstructor);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::Lazy_1<T>* New_ctor();
 
   static inline ::System::Lazy_1<T>* New_ctor(::System::Func_1<T>* valueFactory);
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Func_1<T>* valueFactory);
-
   static inline ::System::Lazy_1<T>* New_ctor(::System::Func_1<T>* valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Func_1<T>* valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);
-
-  /// @brief Method ViaConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void ViaConstructor();
-
-  /// @brief Method ViaFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void ViaFactory(::System::Threading::LazyThreadSafetyMode mode);
-
-  /// @brief Method ExecutionAndPublication, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void ExecutionAndPublication(::System::LazyHelper* executionAndPublication, bool useDefaultConstructor);
 
   /// @brief Method PublicationOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PublicationOnly(::System::LazyHelper* publicationOnly, T possibleValue);
@@ -102,11 +70,41 @@ public:
   /// @brief Method PublicationOnlyWaitForOtherThreadToPublish, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PublicationOnlyWaitForOtherThreadToPublish();
 
-  /// @brief Method CreateValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T CreateValue();
-
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  /// @brief Method ViaConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ViaConstructor();
+
+  /// @brief Method ViaFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ViaFactory(::System::Threading::LazyThreadSafetyMode mode);
+
+  constexpr ::System::Func_1<T>*& __cordl_internal_get__factory();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get__factory() const;
+
+  constexpr ::System::LazyHelper*& __cordl_internal_get__state();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::LazyHelper*> const& __cordl_internal_get__state() const;
+
+  constexpr T const& __cordl_internal_get__value() const;
+
+  constexpr T& __cordl_internal_get__value();
+
+  constexpr void __cordl_internal_set__factory(::System::Func_1<T>* value);
+
+  constexpr void __cordl_internal_set__state(::System::LazyHelper* value);
+
+  constexpr void __cordl_internal_set__value(T value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Func_1<T>* valueFactory);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Func_1<T>* valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);
 
   /// @brief Method get_IsValueCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsValueCreated();
@@ -114,6 +112,12 @@ public:
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Value();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Lazy_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Lazy_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Lazy_1(Lazy_1&&) = delete;
@@ -122,12 +126,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Lazy_1(Lazy_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Lazy_1();
-
-public:
   /// @brief Field _state, offset: 0x10, size: 0x8, def value: None
   ::System::LazyHelper* ____state;
 

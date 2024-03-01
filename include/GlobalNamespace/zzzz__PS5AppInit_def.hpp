@@ -38,23 +38,29 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5AppInit);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15439))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3986))
 // CS Name: ::PS5AppInit*
 class CORDL_TYPE PS5AppInit : public ::GlobalNamespace::AppInit {
 public:
   // Declarations
-  /// @brief Field _mainSystemInit, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
+  /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0x58, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__appInitScenesTransitionSetupDataContainer,
+      put = __cordl_internal_set__appInitScenesTransitionSetupDataContainer))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> _appInitScenesTransitionSetupDataContainer;
+
+  /// @brief Field _backgroundExecutionHelper, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__backgroundExecutionHelper,
+                      put = __cordl_internal_set__backgroundExecutionHelper))::GlobalNamespace::SonyBackgroundExecutionHelper* _backgroundExecutionHelper;
 
   /// @brief Field _defaultScenesTransitionsFromInit, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultScenesTransitionsFromInit,
                       put = __cordl_internal_set__defaultScenesTransitionsFromInit))::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> _defaultScenesTransitionsFromInit;
 
-  /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0x58, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__appInitScenesTransitionSetupDataContainer,
-      put = __cordl_internal_set__appInitScenesTransitionSetupDataContainer))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> _appInitScenesTransitionSetupDataContainer;
+  /// @brief Field _mainSystemInit, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
+
+  /// @brief Field _ps5AdvancedHapticPlayerPrefab, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__ps5AdvancedHapticPlayerPrefab,
+                      put = __cordl_internal_set__ps5AdvancedHapticPlayerPrefab))::UnityW<::UnityEngine::GameObject> _ps5AdvancedHapticPlayerPrefab;
 
   /// @brief Field _ps5SharedPackageSKUs, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__ps5SharedPackageSKUs, put = __cordl_internal_set__ps5SharedPackageSKUs))::UnityW<::GlobalNamespace::PS5SharedPackageSKUsSO> _ps5SharedPackageSKUs;
@@ -63,79 +69,77 @@ public:
   __declspec(property(get = __cordl_internal_get__sonyOnGoingToBackgroundSaveHandler,
                       put = __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler))::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> _sonyOnGoingToBackgroundSaveHandler;
 
-  /// @brief Field _ps5AdvancedHapticPlayerPrefab, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__ps5AdvancedHapticPlayerPrefab,
-                      put = __cordl_internal_set__ps5AdvancedHapticPlayerPrefab))::UnityW<::UnityEngine::GameObject> _ps5AdvancedHapticPlayerPrefab;
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x238038c, size 0x68, virtual true, abstract: false, final false
+  inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Field _backgroundExecutionHelper, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__backgroundExecutionHelper,
-                      put = __cordl_internal_set__backgroundExecutionHelper))::GlobalNamespace::SonyBackgroundExecutionHelper* _backgroundExecutionHelper;
+  /// @brief Method InstallBindings, addr 0x23804e8, size 0x19c, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
+  static inline ::GlobalNamespace::PS5AppInit* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& __cordl_internal_get__mainSystemInit() const;
+  /// @brief Method PreloadAsync, addr 0x238033c, size 0x50, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
+  /// @brief Method RepeatableSetupAsync, addr 0x23803f4, size 0x9c, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& __cordl_internal_get__defaultScenesTransitionsFromInit();
+  /// @brief Method TransitionToNextScene, addr 0x2380490, size 0x4, virtual true, abstract: false, final false
+  inline void TransitionToNextScene();
 
-  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
-
-  constexpr void __cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value);
-
-  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>& __cordl_internal_get__appInitScenesTransitionSetupDataContainer();
+  /// @brief Method TransitionToNextSceneInternal, addr 0x2380494, size 0x54, virtual false, abstract: false, final false
+  inline void TransitionToNextSceneInternal();
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
 
-  constexpr void __cordl_internal_set__appInitScenesTransitionSetupDataContainer(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::PS5SharedPackageSKUsSO>& __cordl_internal_get__ps5SharedPackageSKUs();
-
-  constexpr ::UnityW<::GlobalNamespace::PS5SharedPackageSKUsSO> const& __cordl_internal_get__ps5SharedPackageSKUs() const;
-
-  constexpr void __cordl_internal_set__ps5SharedPackageSKUs(::UnityW<::GlobalNamespace::PS5SharedPackageSKUsSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>& __cordl_internal_get__sonyOnGoingToBackgroundSaveHandler();
-
-  constexpr ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> const& __cordl_internal_get__sonyOnGoingToBackgroundSaveHandler() const;
-
-  constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__ps5AdvancedHapticPlayerPrefab();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__ps5AdvancedHapticPlayerPrefab() const;
-
-  constexpr void __cordl_internal_set__ps5AdvancedHapticPlayerPrefab(::UnityW<::UnityEngine::GameObject> value);
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>& __cordl_internal_get__appInitScenesTransitionSetupDataContainer();
 
   constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper*& __cordl_internal_get__backgroundExecutionHelper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyBackgroundExecutionHelper*> const& __cordl_internal_get__backgroundExecutionHelper() const;
 
+  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
+
+  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& __cordl_internal_get__defaultScenesTransitionsFromInit();
+
+  constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& __cordl_internal_get__mainSystemInit() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__ps5AdvancedHapticPlayerPrefab() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__ps5AdvancedHapticPlayerPrefab();
+
+  constexpr ::UnityW<::GlobalNamespace::PS5SharedPackageSKUsSO> const& __cordl_internal_get__ps5SharedPackageSKUs() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PS5SharedPackageSKUsSO>& __cordl_internal_get__ps5SharedPackageSKUs();
+
+  constexpr ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> const& __cordl_internal_get__sonyOnGoingToBackgroundSaveHandler() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>& __cordl_internal_get__sonyOnGoingToBackgroundSaveHandler();
+
+  constexpr void __cordl_internal_set__appInitScenesTransitionSetupDataContainer(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> value);
+
   constexpr void __cordl_internal_set__backgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value);
 
-  /// @brief Method PreloadAsync, addr 0x22b3cd4, size 0x50, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* PreloadAsync();
+  constexpr void __cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value);
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x22b3d24, size 0x68, virtual true, abstract: false, final false
-  inline void AppStartAndMultiSceneEditorSetup();
+  constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
 
-  /// @brief Method RepeatableSetupAsync, addr 0x22b3d8c, size 0x9c, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
+  constexpr void __cordl_internal_set__ps5AdvancedHapticPlayerPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method TransitionToNextScene, addr 0x22b3e28, size 0x4, virtual true, abstract: false, final false
-  inline void TransitionToNextScene();
+  constexpr void __cordl_internal_set__ps5SharedPackageSKUs(::UnityW<::GlobalNamespace::PS5SharedPackageSKUsSO> value);
 
-  /// @brief Method TransitionToNextSceneInternal, addr 0x22b3e2c, size 0x54, virtual false, abstract: false, final false
-  inline void TransitionToNextSceneInternal();
+  constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
 
-  /// @brief Method InstallBindings, addr 0x22b3e80, size 0x19c, virtual true, abstract: false, final false
-  inline void InstallBindings();
-
-  static inline ::GlobalNamespace::PS5AppInit* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22b401c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2380684, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PS5AppInit();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PS5AppInit", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PS5AppInit(PS5AppInit&&) = delete;
@@ -144,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PS5AppInit(PS5AppInit const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PS5AppInit();
-
-public:
   /// @brief Field _mainSystemInit, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
 

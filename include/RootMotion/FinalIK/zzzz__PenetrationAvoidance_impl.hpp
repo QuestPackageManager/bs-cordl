@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink::*)()>(
     &::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13310d0;
+  constexpr static std::size_t addrs = 0x13720bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__PenetrationAvoidance__Avoider::*)(
     ::RootMotion::FinalIK::IKSolverFullBodyBiped*, float_t)>(&::RootMotion::FinalIK::__PenetrationAvoidance__Avoider::Solve)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x1330af4;
+  constexpr static std::size_t addrs = 0x1371ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__PenetrationAvoidance__Avoider::*)(
     ::RootMotion::FinalIK::IKSolverFullBodyBiped*)>(&::RootMotion::FinalIK::__PenetrationAvoidance__Avoider::GetOffsetTarget)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x1330c94;
+  constexpr static std::size_t addrs = 0x1371c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::RootMotion::FinalIK::__PenetrationAvoidance__Avoider::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::RootMotion::FinalIK::__PenetrationAvoidance__Avoider::Raycast)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x1330d9c;
+  constexpr static std::size_t addrs = 0x1371d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__PenetrationAvoidance__Avoider::*)()>(
     &::RootMotion::FinalIK::__PenetrationAvoidance__Avoider::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x13310bc;
+  constexpr static std::size_t addrs = 0x13720a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>::get(),
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::PenetrationAvoidance::*)()>(
     &::RootMotion::FinalIK::PenetrationAvoidance::OnModifyOffset)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x1330a84;
+  constexpr static std::size_t addrs = 0x1371a70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::PenetrationAvoidance::*)()>(&::RootMotion::FinalIK::PenetrationAvoidance::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1330c84;
+  constexpr static std::size_t addrs = 0x1371c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::PenetrationAvoidance*>::get(), ".ctor",

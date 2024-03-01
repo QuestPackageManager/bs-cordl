@@ -15,8 +15,6 @@ MARK_VAL_T(::System::SByteEnum);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2593))
 // CS Name: ::System::SByteEnum
 struct CORDL_TYPE SByteEnum {
 public:
@@ -31,12 +29,17 @@ public:
     return static_cast<__SByteEnum_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int8_t", modifiers: "", def_value: None }]
-  constexpr SByteEnum(int8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int8_t() const noexcept {
+    return static_cast<__SByteEnum_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SByteEnum();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int8_t", modifiers: "", def_value: None }]
+  constexpr SByteEnum(int8_t value__) noexcept;
 
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   int8_t value__;

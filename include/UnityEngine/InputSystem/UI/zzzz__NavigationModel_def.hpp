@@ -27,24 +27,22 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::NavigationModel);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(13105))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5637))
 // CS Name: ::UnityEngine.InputSystem.UI::NavigationModel
 struct CORDL_TYPE NavigationModel {
 public:
   // Declarations
-  /// @brief Method Reset, addr 0x2ad4aac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2bbab80, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NavigationModel();
 
   // Ctor Parameters [CppParam { name: "move", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "consecutiveMoveCount", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "lastMoveDirection", ty: "::UnityEngine::EventSystems::MoveDirection", modifiers: "", def_value: None }, CppParam { name: "lastMoveTime", ty: "float_t", modifiers: "", def_value:
   // None }, CppParam { name: "eventData", ty: "::UnityEngine::EventSystems::AxisEventData*", modifiers: "", def_value: None }]
   constexpr NavigationModel(::UnityEngine::Vector2 move, int32_t consecutiveMoveCount, ::UnityEngine::EventSystems::MoveDirection lastMoveDirection, float_t lastMoveTime,
                             ::UnityEngine::EventSystems::AxisEventData* eventData) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NavigationModel();
 
   /// @brief Field move, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 move;

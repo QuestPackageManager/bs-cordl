@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::System::Security::Authentication::ExtendedProtection::ServiceNa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Authentication::ExtendedProtection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3776))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6975))
 // CS Name: ::System.Security.Authentication.ExtendedProtection::ServiceNameCollection*
 class CORDL_TYPE ServiceNameCollection : public ::System::Collections::ReadOnlyCollectionBase {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ServiceNameCollection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ServiceNameCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServiceNameCollection(ServiceNameCollection&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ServiceNameCollection(ServiceNameCollection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServiceNameCollection();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

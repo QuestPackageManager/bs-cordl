@@ -15,20 +15,18 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceClientStats);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15362))
 // CS Name: ::IgnoranceCore::IgnoranceClientStats
 struct CORDL_TYPE IgnoranceClientStats {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IgnoranceClientStats();
+
   // Ctor Parameters [CppParam { name: "RTT", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "BytesReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
   // "BytesSent", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsSent", ty:
   // "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsLost", ty: "uint64_t", modifiers: "", def_value: None }]
   constexpr IgnoranceClientStats(uint32_t RTT, uint64_t BytesReceived, uint64_t BytesSent, uint64_t PacketsReceived, uint64_t PacketsSent, uint64_t PacketsLost) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IgnoranceClientStats();
 
   /// @brief Field RTT, offset: 0x0, size: 0x4, def value: None
   uint32_t RTT;

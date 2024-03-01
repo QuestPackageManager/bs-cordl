@@ -26,71 +26,75 @@ MARK_REF_PTR_T(::Zenject::MemoryPoolSettings);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10092))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10190))
 // CS Name: ::Zenject::MemoryPoolSettings*
 class CORDL_TYPE MemoryPoolSettings : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field Default, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::Zenject::MemoryPoolSettings* Default;
+
+  /// @brief Field ExpandMethod, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_ExpandMethod, put = __cordl_internal_set_ExpandMethod))::Zenject::PoolExpandMethods ExpandMethod;
+
   /// @brief Field InitialSize, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_InitialSize, put = __cordl_internal_set_InitialSize)) int32_t InitialSize;
 
   /// @brief Field MaxSize, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_MaxSize, put = __cordl_internal_set_MaxSize)) int32_t MaxSize;
 
-  /// @brief Field ExpandMethod, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_ExpandMethod, put = __cordl_internal_set_ExpandMethod))::Zenject::PoolExpandMethods ExpandMethod;
-
   /// @brief Field ShowExpandWarning, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_ShowExpandWarning, put = __cordl_internal_set_ShowExpandWarning)) bool ShowExpandWarning;
 
-  /// @brief Field Default, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::Zenject::MemoryPoolSettings* Default;
-
-  constexpr int32_t& __cordl_internal_get_InitialSize();
-
-  constexpr int32_t const& __cordl_internal_get_InitialSize() const;
-
-  constexpr void __cordl_internal_set_InitialSize(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_MaxSize();
-
-  constexpr int32_t const& __cordl_internal_get_MaxSize() const;
-
-  constexpr void __cordl_internal_set_MaxSize(int32_t value);
-
-  constexpr ::Zenject::PoolExpandMethods& __cordl_internal_get_ExpandMethod();
-
-  constexpr ::Zenject::PoolExpandMethods const& __cordl_internal_get_ExpandMethod() const;
-
-  constexpr void __cordl_internal_set_ExpandMethod(::Zenject::PoolExpandMethods value);
-
-  constexpr bool& __cordl_internal_get_ShowExpandWarning();
-
-  constexpr bool const& __cordl_internal_get_ShowExpandWarning() const;
-
-  constexpr void __cordl_internal_set_ShowExpandWarning(bool value);
-
-  static inline void setStaticF_Default(::Zenject::MemoryPoolSettings* value);
-
-  static inline ::Zenject::MemoryPoolSettings* getStaticF_Default();
-
   static inline ::Zenject::MemoryPoolSettings* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f048d4, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor();
 
   static inline ::Zenject::MemoryPoolSettings* New_ctor(int32_t initialSize, int32_t maxSize, ::Zenject::PoolExpandMethods expandMethod, bool showExpandWarning);
 
-  /// @brief Method .ctor, addr 0x2f04904, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(int32_t initialSize, int32_t maxSize, ::Zenject::PoolExpandMethods expandMethod, bool showExpandWarning);
+  constexpr ::Zenject::PoolExpandMethods const& __cordl_internal_get_ExpandMethod() const;
 
-  /// @brief Method __zenCreate, addr 0x2f049c4, size 0x74, virtual false, abstract: false, final false
+  constexpr ::Zenject::PoolExpandMethods& __cordl_internal_get_ExpandMethod();
+
+  constexpr int32_t const& __cordl_internal_get_InitialSize() const;
+
+  constexpr int32_t& __cordl_internal_get_InitialSize();
+
+  constexpr int32_t const& __cordl_internal_get_MaxSize() const;
+
+  constexpr int32_t& __cordl_internal_get_MaxSize();
+
+  constexpr bool const& __cordl_internal_get_ShowExpandWarning() const;
+
+  constexpr bool& __cordl_internal_get_ShowExpandWarning();
+
+  constexpr void __cordl_internal_set_ExpandMethod(::Zenject::PoolExpandMethods value);
+
+  constexpr void __cordl_internal_set_InitialSize(int32_t value);
+
+  constexpr void __cordl_internal_set_MaxSize(int32_t value);
+
+  constexpr void __cordl_internal_set_ShowExpandWarning(bool value);
+
+  /// @brief Method __zenCreate, addr 0x2ff80ec, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f04a38, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ff8160, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x2ff7ffc, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2ff802c, size 0x44, virtual false, abstract: false, final false
+  inline void _ctor(int32_t initialSize, int32_t maxSize, ::Zenject::PoolExpandMethods expandMethod, bool showExpandWarning);
+
+  static inline ::Zenject::MemoryPoolSettings* getStaticF_Default();
+
+  static inline void setStaticF_Default(::Zenject::MemoryPoolSettings* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemoryPoolSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoryPoolSettings(MemoryPoolSettings&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryPoolSettings(MemoryPoolSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoryPoolSettings();
-
-public:
   /// @brief Field InitialSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___InitialSize;
 

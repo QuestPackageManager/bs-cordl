@@ -19,19 +19,17 @@ MARK_VAL_T(::OVR::OpenVR::InputPoseActionData_t);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8666))
 // CS Name: ::OVR.OpenVR::InputPoseActionData_t
 struct CORDL_TYPE InputPoseActionData_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
-  // "pose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
-  constexpr InputPoseActionData_t(bool bActive, uint64_t activeOrigin, ::OVR::OpenVR::TrackedDevicePose_t pose) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr InputPoseActionData_t();
+
+  // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
+  // "pose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
+  constexpr InputPoseActionData_t(bool bActive, uint64_t activeOrigin, ::OVR::OpenVR::TrackedDevicePose_t pose) noexcept;
 
   /// @brief Field bActive, offset: 0x0, size: 0x1, def value: None
   bool bActive;

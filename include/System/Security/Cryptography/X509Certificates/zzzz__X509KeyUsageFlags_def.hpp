@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6994))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509KeyUsageFlags
 struct CORDL_TYPE X509KeyUsageFlags {
 public:
@@ -42,36 +40,41 @@ public:
     return static_cast<__X509KeyUsageFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr X509KeyUsageFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__X509KeyUsageFlags_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr X509KeyUsageFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr X509KeyUsageFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const None;
-
-  /// @brief Field EncipherOnly value: static_cast<int32_t>(0x1)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const EncipherOnly;
 
   /// @brief Field CrlSign value: static_cast<int32_t>(0x2)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const CrlSign;
 
-  /// @brief Field KeyCertSign value: static_cast<int32_t>(0x4)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyCertSign;
+  /// @brief Field DataEncipherment value: static_cast<int32_t>(0x10)
+  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DataEncipherment;
+
+  /// @brief Field DecipherOnly value: static_cast<int32_t>(0x8000)
+  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DecipherOnly;
+
+  /// @brief Field DigitalSignature value: static_cast<int32_t>(0x80)
+  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DigitalSignature;
+
+  /// @brief Field EncipherOnly value: static_cast<int32_t>(0x1)
+  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const EncipherOnly;
 
   /// @brief Field KeyAgreement value: static_cast<int32_t>(0x8)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyAgreement;
 
-  /// @brief Field DataEncipherment value: static_cast<int32_t>(0x10)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DataEncipherment;
+  /// @brief Field KeyCertSign value: static_cast<int32_t>(0x4)
+  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyCertSign;
 
   /// @brief Field KeyEncipherment value: static_cast<int32_t>(0x20)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const KeyEncipherment;
@@ -79,11 +82,11 @@ public:
   /// @brief Field NonRepudiation value: static_cast<int32_t>(0x40)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const NonRepudiation;
 
-  /// @brief Field DigitalSignature value: static_cast<int32_t>(0x80)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DigitalSignature;
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const None;
 
-  /// @brief Field DecipherOnly value: static_cast<int32_t>(0x8000)
-  static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const DecipherOnly;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::System::Reflection::SignaturePointerType);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3489))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3490))
 // CS Name: ::System.Reflection::SignaturePointerType*
 class CORDL_TYPE SignaturePointerType : public ::System::Reflection::SignatureHasElementType {
 public:
@@ -31,32 +29,38 @@ public:
 
   __declspec(property(get = get_Suffix))::StringW Suffix;
 
-  static inline ::System::Reflection::SignaturePointerType* New_ctor(::System::Reflection::SignatureType* elementType);
-
-  /// @brief Method .ctor, addr 0x2509a34, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::SignatureType* elementType);
-
-  /// @brief Method IsArrayImpl, addr 0x2509a58, size 0x8, virtual true, abstract: false, final true
-  inline bool IsArrayImpl();
-
-  /// @brief Method IsByRefImpl, addr 0x2509a60, size 0x8, virtual true, abstract: false, final true
-  inline bool IsByRefImpl();
-
-  /// @brief Method IsPointerImpl, addr 0x2509a68, size 0x8, virtual true, abstract: false, final true
-  inline bool IsPointerImpl();
-
-  /// @brief Method get_IsSZArray, addr 0x2509a70, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsSZArray();
-
-  /// @brief Method get_IsVariableBoundArray, addr 0x2509a78, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsVariableBoundArray();
-
-  /// @brief Method GetArrayRank, addr 0x2509a80, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method GetArrayRank, addr 0x25db694, size 0x50, virtual true, abstract: false, final true
   inline int32_t GetArrayRank();
 
-  /// @brief Method get_Suffix, addr 0x2509ad0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method IsArrayImpl, addr 0x25db66c, size 0x8, virtual true, abstract: false, final true
+  inline bool IsArrayImpl();
+
+  /// @brief Method IsByRefImpl, addr 0x25db674, size 0x8, virtual true, abstract: false, final true
+  inline bool IsByRefImpl();
+
+  /// @brief Method IsPointerImpl, addr 0x25db67c, size 0x8, virtual true, abstract: false, final true
+  inline bool IsPointerImpl();
+
+  static inline ::System::Reflection::SignaturePointerType* New_ctor(::System::Reflection::SignatureType* elementType);
+
+  /// @brief Method .ctor, addr 0x25db648, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::System::Reflection::SignatureType* elementType);
+
+  /// @brief Method get_IsSZArray, addr 0x25db684, size 0x8, virtual true, abstract: false, final true
+  inline bool get_IsSZArray();
+
+  /// @brief Method get_IsVariableBoundArray, addr 0x25db68c, size 0x8, virtual true, abstract: false, final true
+  inline bool get_IsVariableBoundArray();
+
+  /// @brief Method get_Suffix, addr 0x25db6e4, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Suffix();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignaturePointerType();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignaturePointerType", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignaturePointerType(SignaturePointerType&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignaturePointerType(SignaturePointerType const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignaturePointerType();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

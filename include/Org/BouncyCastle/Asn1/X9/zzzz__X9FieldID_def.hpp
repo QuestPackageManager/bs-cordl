@@ -30,66 +30,70 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X9FieldID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(446))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::X9FieldID*
 class CORDL_TYPE X9FieldID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_Identifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Identifier;
+
+  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Asn1::Asn1Object* Parameters;
+
   /// @brief Field id, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::Org::BouncyCastle::Asn1::DerObjectIdentifier* id;
 
   /// @brief Field parameters, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Asn1::Asn1Object* parameters;
 
-  __declspec(property(get = get_Identifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Identifier;
+  /// @brief Method GetInstance, addr 0x1221378, size 0xa0, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* GetInstance(::System::Object* obj);
 
-  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Asn1::Asn1Object* Parameters;
+  static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(int32_t m, int32_t k1);
+
+  static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
+
+  static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(::Org::BouncyCastle::Math::BigInteger* primeP);
+
+  static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0x1222350, size 0xec, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_id();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_id() const;
 
-  constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
-
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_parameters();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get_parameters() const;
 
+  constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(::Org::BouncyCastle::Math::BigInteger* primeP);
-
-  /// @brief Method .ctor, addr 0x11de548, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::BigInteger* primeP);
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(int32_t m, int32_t k1);
-
-  /// @brief Method .ctor, addr 0x11de5f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12215c8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1);
 
-  static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
-
-  /// @brief Method .ctor, addr 0x11de604, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12215d4, size 0x3e4, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3);
 
-  static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+  /// @brief Method .ctor, addr 0x1221518, size 0xb0, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Math::BigInteger* primeP);
 
-  /// @brief Method .ctor, addr 0x11df2b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1222284, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance, addr 0x11de3a8, size 0xa0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::X9FieldID* GetInstance(::System::Object* obj);
-
-  /// @brief Method get_Identifier, addr 0x11df370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x1222340, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Identifier();
 
-  /// @brief Method get_Parameters, addr 0x11df378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x1222348, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
 
-  /// @brief Method ToAsn1Object, addr 0x11df380, size 0xec, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X9FieldID();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X9FieldID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X9FieldID(X9FieldID&&) = delete;
@@ -98,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X9FieldID(X9FieldID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X9FieldID();
-
-public:
   /// @brief Field id, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___id;
 

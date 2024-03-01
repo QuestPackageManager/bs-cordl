@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::UnmanagedFunctionPointerAttri
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3331))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3311))
 // CS Name: ::System.Runtime.InteropServices::UnmanagedFunctionPointerAttribute*
 class CORDL_TYPE UnmanagedFunctionPointerAttribute : public ::System::Attribute {
 public:
@@ -27,17 +25,23 @@ public:
   /// @brief Field m_callingConvention, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_callingConvention, put = __cordl_internal_set_m_callingConvention))::System::Runtime::InteropServices::CallingConvention m_callingConvention;
 
-  constexpr ::System::Runtime::InteropServices::CallingConvention& __cordl_internal_get_m_callingConvention();
+  static inline ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute* New_ctor(::System::Runtime::InteropServices::CallingConvention callingConvention);
 
   constexpr ::System::Runtime::InteropServices::CallingConvention const& __cordl_internal_get_m_callingConvention() const;
 
+  constexpr ::System::Runtime::InteropServices::CallingConvention& __cordl_internal_get_m_callingConvention();
+
   constexpr void __cordl_internal_set_m_callingConvention(::System::Runtime::InteropServices::CallingConvention value);
 
-  static inline ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute* New_ctor(::System::Runtime::InteropServices::CallingConvention callingConvention);
-
-  /// @brief Method .ctor, addr 0x24f7e60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c7f3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::CallingConvention callingConvention);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnmanagedFunctionPointerAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnmanagedFunctionPointerAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnmanagedFunctionPointerAttribute(UnmanagedFunctionPointerAttribute&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnmanagedFunctionPointerAttribute(UnmanagedFunctionPointerAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnmanagedFunctionPointerAttribute();
-
-public:
   /// @brief Field m_callingConvention, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::InteropServices::CallingConvention ___m_callingConvention;
 

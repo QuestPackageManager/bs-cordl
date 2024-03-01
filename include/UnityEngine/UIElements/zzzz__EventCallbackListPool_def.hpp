@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackListPool);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6424))
 // CS Name: ::UnityEngine.UIElements::EventCallbackListPool*
 class CORDL_TYPE EventCallbackListPool : public ::System::Object {
 public:
@@ -29,23 +27,29 @@ public:
   /// @brief Field m_Stack, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Stack, put = __cordl_internal_set_m_Stack))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* m_Stack;
 
+  /// @brief Method Get, addr 0x2f588a4, size 0xc4, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventCallbackList* Get(::UnityEngine::UIElements::EventCallbackList* initializer);
+
+  static inline ::UnityEngine::UIElements::EventCallbackListPool* New_ctor();
+
+  /// @brief Method Release, addr 0x2f58c08, size 0x64, virtual false, abstract: false, final false
+  inline void Release(::UnityEngine::UIElements::EventCallbackList* element);
+
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>*& __cordl_internal_get_m_Stack();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>*> const& __cordl_internal_get_m_Stack() const;
 
   constexpr void __cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* value);
 
-  /// @brief Method Get, addr 0x2e6617c, size 0xc4, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventCallbackList* Get(::UnityEngine::UIElements::EventCallbackList* initializer);
-
-  /// @brief Method Release, addr 0x2e664e0, size 0x64, virtual false, abstract: false, final false
-  inline void Release(::UnityEngine::UIElements::EventCallbackList* element);
-
-  static inline ::UnityEngine::UIElements::EventCallbackListPool* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2e665b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f58cd8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventCallbackListPool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventCallbackListPool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventCallbackListPool(EventCallbackListPool&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventCallbackListPool(EventCallbackListPool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventCallbackListPool();
-
-public:
   /// @brief Field m_Stack, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::EventCallbackList*>* ___m_Stack;
 

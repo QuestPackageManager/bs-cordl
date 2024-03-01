@@ -28,8 +28,7 @@ MARK_REF_PTR_T(::Tweening::ColorTween);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(16208)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16208), inst:
-// 293 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16205)) CS Name: ::Tweening::ColorTween*
+// CS Name: ::Tweening::ColorTween*
 class CORDL_TYPE ColorTween : public ::Tweening::Tween_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -37,28 +36,34 @@ public:
   static __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool))::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float_t,
                                                                                                          ::GlobalNamespace::EaseType, float_t, ::Tweening::ColorTween*>* Pool;
 
-  static inline void setStaticF_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float_t, ::GlobalNamespace::EaseType, float_t,
-                                                                   ::Tweening::ColorTween*>* value);
+  /// @brief Method GetValue, addr 0x2af8e94, size 0x48, virtual true, abstract: false, final false
+  inline ::UnityEngine::Color GetValue(float_t t);
+
+  static inline ::Tweening::ColorTween* New_ctor();
+
+  static inline ::Tweening::ColorTween* New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration,
+                                                 ::GlobalNamespace::EaseType easeType, float_t delay);
+
+  /// @brief Method .ctor, addr 0x2af8d7c, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2af8dc4, size 0xd0, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
+                    float_t delay);
 
   static inline ::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float_t, ::GlobalNamespace::EaseType, float_t,
                                               ::Tweening::ColorTween*>*
   getStaticF_Pool();
 
-  static inline ::Tweening::ColorTween* New_ctor();
+  static inline void setStaticF_Pool(::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float_t, ::GlobalNamespace::EaseType, float_t,
+                                                                   ::Tweening::ColorTween*>* value);
 
-  /// @brief Method .ctor, addr 0x2a10ca8, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorTween();
 
-  static inline ::Tweening::ColorTween* New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration,
-                                                 ::GlobalNamespace::EaseType easeType, float_t delay);
-
-  /// @brief Method .ctor, addr 0x2a10cf0, size 0xd0, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
-                    float_t delay);
-
-  /// @brief Method GetValue, addr 0x2a10dc0, size 0x48, virtual true, abstract: false, final false
-  inline ::UnityEngine::Color GetValue(float_t t);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorTween", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorTween(ColorTween&&) = delete;
@@ -67,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorTween(ColorTween const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorTween();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

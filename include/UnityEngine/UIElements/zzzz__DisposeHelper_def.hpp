@@ -17,15 +17,19 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DisposeHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6138))
 // CS Name: ::UnityEngine.UIElements::DisposeHelper*
 class CORDL_TYPE DisposeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NotifyDisposedUsed, addr 0x2e16d7c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method NotifyDisposedUsed, addr 0x2f084a4, size 0xc8, virtual false, abstract: false, final false
   static inline void NotifyDisposedUsed(::System::IDisposable* disposable);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DisposeHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DisposeHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DisposeHelper(DisposeHelper&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DisposeHelper(DisposeHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisposeHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

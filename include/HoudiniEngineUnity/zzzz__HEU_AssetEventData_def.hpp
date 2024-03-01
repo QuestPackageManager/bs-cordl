@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9386))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9387))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetEventData*
 class CORDL_TYPE HEU_AssetEventData : public ::System::Object {
 public:
@@ -36,42 +34,48 @@ public:
   /// @brief Field CookSuccess, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_CookSuccess, put = __cordl_internal_set_CookSuccess)) bool CookSuccess;
 
-  /// @brief Field OutputObjects, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_OutputObjects, put = __cordl_internal_set_OutputObjects))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* OutputObjects;
-
   /// @brief Field EventType, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_EventType, put = __cordl_internal_set_EventType))::HoudiniEngineUnity::HEU_AssetEventType EventType;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get_Asset();
+  /// @brief Field OutputObjects, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_OutputObjects, put = __cordl_internal_set_OutputObjects))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* OutputObjects;
+
+  static inline ::HoudiniEngineUnity::HEU_AssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
+                                                                   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get_Asset() const;
 
-  constexpr void __cordl_internal_set_Asset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
-
-  constexpr bool& __cordl_internal_get_CookSuccess();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get_Asset();
 
   constexpr bool const& __cordl_internal_get_CookSuccess() const;
 
-  constexpr void __cordl_internal_set_CookSuccess(bool value);
+  constexpr bool& __cordl_internal_get_CookSuccess();
+
+  constexpr ::HoudiniEngineUnity::HEU_AssetEventType const& __cordl_internal_get_EventType() const;
+
+  constexpr ::HoudiniEngineUnity::HEU_AssetEventType& __cordl_internal_get_EventType();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_OutputObjects();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_OutputObjects() const;
 
-  constexpr void __cordl_internal_set_OutputObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
+  constexpr void __cordl_internal_set_Asset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  constexpr ::HoudiniEngineUnity::HEU_AssetEventType& __cordl_internal_get_EventType();
-
-  constexpr ::HoudiniEngineUnity::HEU_AssetEventType const& __cordl_internal_get_EventType() const;
+  constexpr void __cordl_internal_set_CookSuccess(bool value);
 
   constexpr void __cordl_internal_set_EventType(::HoudiniEngineUnity::HEU_AssetEventType value);
 
-  static inline ::HoudiniEngineUnity::HEU_AssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
-                                                                   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
+  constexpr void __cordl_internal_set_OutputObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method .ctor, addr 0x21e3b30, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22af198, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_AssetEventData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetEventData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_AssetEventData(HEU_AssetEventData&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_AssetEventData(HEU_AssetEventData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_AssetEventData();
-
-public:
   /// @brief Field Asset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ___Asset;
 

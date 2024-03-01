@@ -35,14 +35,12 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelBuyView);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5111))
 // CS Name: ::StandardLevelBuyView*
 class CORDL_TYPE StandardLevelBuyView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _levelBar, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
+  /// @brief Field _beatmapLevel, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::GlobalNamespace::BeatmapLevel* _beatmapLevel;
 
   /// @brief Field _buyButton, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__buyButton, put = __cordl_internal_set__buyButton))::UnityW<::UnityEngine::UI::Button> _buyButton;
@@ -50,92 +48,98 @@ public:
   /// @brief Field _favoriteToggle, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__favoriteToggle, put = __cordl_internal_set__favoriteToggle))::UnityW<::UnityEngine::UI::Toggle> _favoriteToggle;
 
-  /// @brief Field didFavoriteToggleChangeEvent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFavoriteToggleChangeEvent,
-                      put = __cordl_internal_set_didFavoriteToggleChangeEvent))::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* didFavoriteToggleChangeEvent;
-
-  /// @brief Field _toggleBinder, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
-
-  /// @brief Field _beatmapLevel, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::GlobalNamespace::BeatmapLevel* _beatmapLevel;
+  /// @brief Field _levelBar, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
 
   /// @brief Field _playerData, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__playerData, put = __cordl_internal_set__playerData))::GlobalNamespace::PlayerData* _playerData;
 
+  /// @brief Field _toggleBinder, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
+
   __declspec(property(get = get_buyButton))::UnityW<::UnityEngine::UI::Button> buyButton;
 
-  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
+  /// @brief Field didFavoriteToggleChangeEvent, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFavoriteToggleChangeEvent,
+                      put = __cordl_internal_set_didFavoriteToggleChangeEvent))::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* didFavoriteToggleChangeEvent;
 
-  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
+  /// @brief Method Awake, addr 0x23e5ebc, size 0xc4, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
+  static inline ::GlobalNamespace::StandardLevelBuyView* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__buyButton();
+  /// @brief Method OnDestroy, addr 0x23e5f80, size 0x14, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyButton() const;
+  /// @brief Method RefreshFavouriteToggle, addr 0x23e5fc4, size 0x3c, virtual false, abstract: false, final false
+  inline void RefreshFavouriteToggle();
 
-  constexpr void __cordl_internal_set__buyButton(::UnityW<::UnityEngine::UI::Button> value);
+  /// @brief Method SetContent, addr 0x23e5f94, size 0x30, virtual false, abstract: false, final false
+  inline void SetContent(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::PlayerData* playerData);
 
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__favoriteToggle();
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__favoriteToggle() const;
-
-  constexpr void __cordl_internal_set__favoriteToggle(::UnityW<::UnityEngine::UI::Toggle> value);
-
-  constexpr ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*& __cordl_internal_get_didFavoriteToggleChangeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*> const& __cordl_internal_get_didFavoriteToggleChangeEvent() const;
-
-  constexpr void __cordl_internal_set_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
-
-  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
-
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
-
-  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
+  /// @brief Method <Awake>b__11_0, addr 0x23e6008, size 0x30, virtual false, abstract: false, final false
+  inline void _Awake_b__11_0(bool on);
 
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr void __cordl_internal_set__beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__buyButton();
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__favoriteToggle() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__favoriteToggle();
+
+  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
+
+  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
 
   constexpr ::GlobalNamespace::PlayerData*& __cordl_internal_get__playerData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerData*> const& __cordl_internal_get__playerData() const;
 
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
+
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
+
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*& __cordl_internal_get_didFavoriteToggleChangeEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*> const& __cordl_internal_get_didFavoriteToggleChangeEvent() const;
+
+  constexpr void __cordl_internal_set__beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
+
+  constexpr void __cordl_internal_set__buyButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__favoriteToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+
+  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
+
   constexpr void __cordl_internal_set__playerData(::GlobalNamespace::PlayerData* value);
 
-  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x2318080, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x2318130, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
+  constexpr void __cordl_internal_set_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method get_buyButton, addr 0x23181e0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::UI::Button> get_buyButton();
-
-  /// @brief Method Awake, addr 0x23181e8, size 0xc4, virtual false, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method OnDestroy, addr 0x23182ac, size 0x14, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method SetContent, addr 0x23182c0, size 0x30, virtual false, abstract: false, final false
-  inline void SetContent(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::PlayerData* playerData);
-
-  /// @brief Method RefreshFavouriteToggle, addr 0x23182f0, size 0x3c, virtual false, abstract: false, final false
-  inline void RefreshFavouriteToggle();
-
-  static inline ::GlobalNamespace::StandardLevelBuyView* New_ctor();
-
-  /// @brief Method .ctor, addr 0x231832c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e6000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__11_0, addr 0x2318334, size 0x30, virtual false, abstract: false, final false
-  inline void _Awake_b__11_0(bool on);
+  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x23e5d54, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
+  /// @brief Method get_buyButton, addr 0x23e5eb4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::UI::Button> get_buyButton();
+
+  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x23e5e04, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StandardLevelBuyView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelBuyView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StandardLevelBuyView(StandardLevelBuyView&&) = delete;
@@ -144,12 +148,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelBuyView(StandardLevelBuyView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardLevelBuyView();
-
-public:
   /// @brief Field _levelBar, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 

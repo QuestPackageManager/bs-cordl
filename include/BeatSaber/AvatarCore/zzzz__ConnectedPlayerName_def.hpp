@@ -20,38 +20,42 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerName);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15270))
 // CS Name: ::BeatSaber.AvatarCore::ConnectedPlayerName*
 class CORDL_TYPE ConnectedPlayerName : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _nameText, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
-
   /// @brief Field _connectedPlayer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
+  /// @brief Field _nameText, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
+  static inline ::BeatSaber::AvatarCore::ConnectedPlayerName* New_ctor();
 
-  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
+  /// @brief Method Start, addr 0xe608cc, size 0xc4, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
+
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method Start, addr 0xe1ad68, size 0xc4, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  static inline ::BeatSaber::AvatarCore::ConnectedPlayerName* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe1ae2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe60990, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConnectedPlayerName();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerName", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectedPlayerName(ConnectedPlayerName&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConnectedPlayerName(ConnectedPlayerName const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConnectedPlayerName();
-
-public:
   /// @brief Field _nameText, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 

@@ -14,23 +14,27 @@ MARK_REF_PTR_T(::GlobalNamespace::OVROnCompleteListener);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14785))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7717))
 // CS Name: ::OVROnCompleteListener*
 class CORDL_TYPE OVROnCompleteListener : public ::UnityEngine::AndroidJavaProxy {
 public:
   // Declarations
   static inline ::GlobalNamespace::OVROnCompleteListener* New_ctor();
 
-  /// @brief Method .ctor, addr 0x276b234, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2838964, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
-
-  /// @brief Method onSuccess, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void onSuccess();
 
   /// @brief Method onFailure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void onFailure();
 
+  /// @brief Method onSuccess, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void onSuccess();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVROnCompleteListener();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVROnCompleteListener", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVROnCompleteListener(OVROnCompleteListener&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVROnCompleteListener(OVROnCompleteListener const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVROnCompleteListener();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

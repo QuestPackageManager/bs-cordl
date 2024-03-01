@@ -43,12 +43,31 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseInputModule);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13112))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13097))
 // CS Name: ::UnityEngine.EventSystems::BaseInputModule*
 class CORDL_TYPE BaseInputModule : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
+  __declspec(property(get = get_eventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> eventSystem;
+
+  __declspec(property(get = get_input))::UnityW<::UnityEngine::EventSystems::BaseInput> input;
+
+  __declspec(property(get = get_inputOverride, put = set_inputOverride))::UnityW<::UnityEngine::EventSystems::BaseInput> inputOverride;
+
+  /// @brief Field m_AxisEventData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_AxisEventData, put = __cordl_internal_set_m_AxisEventData))::UnityEngine::EventSystems::AxisEventData* m_AxisEventData;
+
+  /// @brief Field m_BaseEventData, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_BaseEventData, put = __cordl_internal_set_m_BaseEventData))::UnityEngine::EventSystems::BaseEventData* m_BaseEventData;
+
+  /// @brief Field m_DefaultInput, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DefaultInput, put = __cordl_internal_set_m_DefaultInput))::UnityW<::UnityEngine::EventSystems::BaseInput> m_DefaultInput;
+
+  /// @brief Field m_EventSystem, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_EventSystem, put = __cordl_internal_set_m_EventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> m_EventSystem;
+
+  /// @brief Field m_InputOverride, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_InputOverride, put = __cordl_internal_set_m_InputOverride))::UnityW<::UnityEngine::EventSystems::BaseInput> m_InputOverride;
+
   /// @brief Field m_RaycastResultCache, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RaycastResultCache,
                       put = __cordl_internal_set_m_RaycastResultCache))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* m_RaycastResultCache;
@@ -56,145 +75,130 @@ public:
   /// @brief Field m_SendPointerHoverToParent, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_SendPointerHoverToParent, put = __cordl_internal_set_m_SendPointerHoverToParent)) bool m_SendPointerHoverToParent;
 
-  /// @brief Field m_AxisEventData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_AxisEventData, put = __cordl_internal_set_m_AxisEventData))::UnityEngine::EventSystems::AxisEventData* m_AxisEventData;
-
-  /// @brief Field m_EventSystem, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EventSystem, put = __cordl_internal_set_m_EventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> m_EventSystem;
-
-  /// @brief Field m_BaseEventData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_BaseEventData, put = __cordl_internal_set_m_BaseEventData))::UnityEngine::EventSystems::BaseEventData* m_BaseEventData;
-
-  /// @brief Field m_InputOverride, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InputOverride, put = __cordl_internal_set_m_InputOverride))::UnityW<::UnityEngine::EventSystems::BaseInput> m_InputOverride;
-
-  /// @brief Field m_DefaultInput, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DefaultInput, put = __cordl_internal_set_m_DefaultInput))::UnityW<::UnityEngine::EventSystems::BaseInput> m_DefaultInput;
-
   __declspec(property(get = get_sendPointerHoverToParent, put = set_sendPointerHoverToParent)) bool sendPointerHoverToParent;
 
-  __declspec(property(get = get_input))::UnityW<::UnityEngine::EventSystems::BaseInput> input;
+  /// @brief Method ActivateModule, addr 0x2ea8564, size 0x4, virtual true, abstract: false, final false
+  inline void ActivateModule();
 
-  __declspec(property(get = get_inputOverride, put = set_inputOverride))::UnityW<::UnityEngine::EventSystems::BaseInput> inputOverride;
+  /// @brief Method ConvertUIToolkitPointerId, addr 0x2ea8574, size 0x7c, virtual true, abstract: false, final false
+  inline int32_t ConvertUIToolkitPointerId(::UnityEngine::EventSystems::PointerEventData* sourcePointerData);
 
-  __declspec(property(get = get_eventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> eventSystem;
+  /// @brief Method DeactivateModule, addr 0x2ea8560, size 0x4, virtual true, abstract: false, final false
+  inline void DeactivateModule();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*& __cordl_internal_get_m_RaycastResultCache();
+  /// @brief Method DetermineMoveDirection, addr 0x2ea7734, size 0x54, virtual false, abstract: false, final false
+  static inline ::UnityEngine::EventSystems::MoveDirection DetermineMoveDirection(float_t x, float_t y);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*> const& __cordl_internal_get_m_RaycastResultCache() const;
+  /// @brief Method DetermineMoveDirection, addr 0x2ea7788, size 0x50, virtual false, abstract: false, final false
+  static inline ::UnityEngine::EventSystems::MoveDirection DetermineMoveDirection(float_t x, float_t y, float_t deadZone);
 
-  constexpr void __cordl_internal_set_m_RaycastResultCache(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* value);
+  /// @brief Method FindCommonRoot, addr 0x2ea77d8, size 0x174, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::GameObject> FindCommonRoot(::UnityEngine::GameObject* g1, ::UnityEngine::GameObject* g2);
 
-  constexpr bool& __cordl_internal_get_m_SendPointerHoverToParent();
+  /// @brief Method FindFirstRaycast, addr 0x2ea7620, size 0x114, virtual false, abstract: false, final false
+  static inline ::UnityEngine::EventSystems::RaycastResult FindFirstRaycast(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* candidates);
 
-  constexpr bool const& __cordl_internal_get_m_SendPointerHoverToParent() const;
+  /// @brief Method GetAxisEventData, addr 0x2ea8394, size 0x100, virtual true, abstract: false, final false
+  inline ::UnityEngine::EventSystems::AxisEventData* GetAxisEventData(float_t x, float_t y, float_t moveDeadZone);
 
-  constexpr void __cordl_internal_set_m_SendPointerHoverToParent(bool value);
+  /// @brief Method GetBaseEventData, addr 0x2ea8494, size 0x84, virtual true, abstract: false, final false
+  inline ::UnityEngine::EventSystems::BaseEventData* GetBaseEventData();
+
+  /// @brief Method HandlePointerExitAndEnter, addr 0x2ea794c, size 0xa48, virtual false, abstract: false, final false
+  inline void HandlePointerExitAndEnter(::UnityEngine::EventSystems::PointerEventData* currentPointerData, ::UnityEngine::GameObject* newEnterTarget);
+
+  /// @brief Method IsModuleSupported, addr 0x2ea856c, size 0x8, virtual true, abstract: false, final false
+  inline bool IsModuleSupported();
+
+  /// @brief Method IsPointerOverGameObject, addr 0x2ea8518, size 0x8, virtual true, abstract: false, final false
+  inline bool IsPointerOverGameObject(int32_t pointerId);
+
+  static inline ::UnityEngine::EventSystems::BaseInputModule* New_ctor();
+
+  /// @brief Method OnDisable, addr 0x2ea7608, size 0x18, virtual true, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x2ea75b0, size 0x58, virtual true, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Process();
+
+  /// @brief Method ShouldActivateModule, addr 0x2ea8520, size 0x40, virtual true, abstract: false, final false
+  inline bool ShouldActivateModule();
+
+  /// @brief Method UpdateModule, addr 0x2ea8568, size 0x4, virtual true, abstract: false, final false
+  inline void UpdateModule();
 
   constexpr ::UnityEngine::EventSystems::AxisEventData*& __cordl_internal_get_m_AxisEventData();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::AxisEventData*> const& __cordl_internal_get_m_AxisEventData() const;
 
-  constexpr void __cordl_internal_set_m_AxisEventData(::UnityEngine::EventSystems::AxisEventData* value);
-
-  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get_m_EventSystem();
-
-  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get_m_EventSystem() const;
-
-  constexpr void __cordl_internal_set_m_EventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
-
   constexpr ::UnityEngine::EventSystems::BaseEventData*& __cordl_internal_get_m_BaseEventData();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::BaseEventData*> const& __cordl_internal_get_m_BaseEventData() const;
 
-  constexpr void __cordl_internal_set_m_BaseEventData(::UnityEngine::EventSystems::BaseEventData* value);
-
-  constexpr ::UnityW<::UnityEngine::EventSystems::BaseInput>& __cordl_internal_get_m_InputOverride();
-
-  constexpr ::UnityW<::UnityEngine::EventSystems::BaseInput> const& __cordl_internal_get_m_InputOverride() const;
-
-  constexpr void __cordl_internal_set_m_InputOverride(::UnityW<::UnityEngine::EventSystems::BaseInput> value);
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseInput> const& __cordl_internal_get_m_DefaultInput() const;
 
   constexpr ::UnityW<::UnityEngine::EventSystems::BaseInput>& __cordl_internal_get_m_DefaultInput();
 
-  constexpr ::UnityW<::UnityEngine::EventSystems::BaseInput> const& __cordl_internal_get_m_DefaultInput() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get_m_EventSystem() const;
+
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get_m_EventSystem();
+
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseInput> const& __cordl_internal_get_m_InputOverride() const;
+
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseInput>& __cordl_internal_get_m_InputOverride();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*& __cordl_internal_get_m_RaycastResultCache();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*> const& __cordl_internal_get_m_RaycastResultCache() const;
+
+  constexpr bool const& __cordl_internal_get_m_SendPointerHoverToParent() const;
+
+  constexpr bool& __cordl_internal_get_m_SendPointerHoverToParent();
+
+  constexpr void __cordl_internal_set_m_AxisEventData(::UnityEngine::EventSystems::AxisEventData* value);
+
+  constexpr void __cordl_internal_set_m_BaseEventData(::UnityEngine::EventSystems::BaseEventData* value);
 
   constexpr void __cordl_internal_set_m_DefaultInput(::UnityW<::UnityEngine::EventSystems::BaseInput> value);
 
-  /// @brief Method get_sendPointerHoverToParent, addr 0x2db8c44, size 0x8, virtual false, abstract: false, final false
-  inline bool get_sendPointerHoverToParent();
+  constexpr void __cordl_internal_set_m_EventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
-  /// @brief Method set_sendPointerHoverToParent, addr 0x2db8c4c, size 0xc, virtual false, abstract: false, final false
-  inline void set_sendPointerHoverToParent(bool value);
+  constexpr void __cordl_internal_set_m_InputOverride(::UnityW<::UnityEngine::EventSystems::BaseInput> value);
 
-  /// @brief Method get_input, addr 0x2db8c58, size 0x218, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::EventSystems::BaseInput> get_input();
+  constexpr void __cordl_internal_set_m_RaycastResultCache(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* value);
 
-  /// @brief Method get_inputOverride, addr 0x2db8e70, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::EventSystems::BaseInput> get_inputOverride();
+  constexpr void __cordl_internal_set_m_SendPointerHoverToParent(bool value);
 
-  /// @brief Method set_inputOverride, addr 0x2db8e78, size 0x8, virtual false, abstract: false, final false
-  inline void set_inputOverride(::UnityEngine::EventSystems::BaseInput* value);
-
-  /// @brief Method get_eventSystem, addr 0x2db8e80, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::EventSystems::EventSystem> get_eventSystem();
-
-  /// @brief Method OnEnable, addr 0x2db8e88, size 0x58, virtual true, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDisable, addr 0x2db8ee0, size 0x18, virtual true, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Process();
-
-  /// @brief Method FindFirstRaycast, addr 0x2db8ef8, size 0x114, virtual false, abstract: false, final false
-  static inline ::UnityEngine::EventSystems::RaycastResult FindFirstRaycast(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* candidates);
-
-  /// @brief Method DetermineMoveDirection, addr 0x2db900c, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::EventSystems::MoveDirection DetermineMoveDirection(float_t x, float_t y);
-
-  /// @brief Method DetermineMoveDirection, addr 0x2db9060, size 0x50, virtual false, abstract: false, final false
-  static inline ::UnityEngine::EventSystems::MoveDirection DetermineMoveDirection(float_t x, float_t y, float_t deadZone);
-
-  /// @brief Method FindCommonRoot, addr 0x2db90b0, size 0x174, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::GameObject> FindCommonRoot(::UnityEngine::GameObject* g1, ::UnityEngine::GameObject* g2);
-
-  /// @brief Method HandlePointerExitAndEnter, addr 0x2db9224, size 0xa48, virtual false, abstract: false, final false
-  inline void HandlePointerExitAndEnter(::UnityEngine::EventSystems::PointerEventData* currentPointerData, ::UnityEngine::GameObject* newEnterTarget);
-
-  /// @brief Method GetAxisEventData, addr 0x2db9c6c, size 0x100, virtual true, abstract: false, final false
-  inline ::UnityEngine::EventSystems::AxisEventData* GetAxisEventData(float_t x, float_t y, float_t moveDeadZone);
-
-  /// @brief Method GetBaseEventData, addr 0x2db9d6c, size 0x84, virtual true, abstract: false, final false
-  inline ::UnityEngine::EventSystems::BaseEventData* GetBaseEventData();
-
-  /// @brief Method IsPointerOverGameObject, addr 0x2db9df0, size 0x8, virtual true, abstract: false, final false
-  inline bool IsPointerOverGameObject(int32_t pointerId);
-
-  /// @brief Method ShouldActivateModule, addr 0x2db9df8, size 0x40, virtual true, abstract: false, final false
-  inline bool ShouldActivateModule();
-
-  /// @brief Method DeactivateModule, addr 0x2db9e38, size 0x4, virtual true, abstract: false, final false
-  inline void DeactivateModule();
-
-  /// @brief Method ActivateModule, addr 0x2db9e3c, size 0x4, virtual true, abstract: false, final false
-  inline void ActivateModule();
-
-  /// @brief Method UpdateModule, addr 0x2db9e40, size 0x4, virtual true, abstract: false, final false
-  inline void UpdateModule();
-
-  /// @brief Method IsModuleSupported, addr 0x2db9e44, size 0x8, virtual true, abstract: false, final false
-  inline bool IsModuleSupported();
-
-  /// @brief Method ConvertUIToolkitPointerId, addr 0x2db9e4c, size 0x7c, virtual true, abstract: false, final false
-  inline int32_t ConvertUIToolkitPointerId(::UnityEngine::EventSystems::PointerEventData* sourcePointerData);
-
-  static inline ::UnityEngine::EventSystems::BaseInputModule* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2db9ec8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea85f0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_eventSystem, addr 0x2ea75a8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::EventSystems::EventSystem> get_eventSystem();
+
+  /// @brief Method get_input, addr 0x2ea7380, size 0x218, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::EventSystems::BaseInput> get_input();
+
+  /// @brief Method get_inputOverride, addr 0x2ea7598, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::EventSystems::BaseInput> get_inputOverride();
+
+  /// @brief Method get_sendPointerHoverToParent, addr 0x2ea736c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_sendPointerHoverToParent();
+
+  /// @brief Method set_inputOverride, addr 0x2ea75a0, size 0x8, virtual false, abstract: false, final false
+  inline void set_inputOverride(::UnityEngine::EventSystems::BaseInput* value);
+
+  /// @brief Method set_sendPointerHoverToParent, addr 0x2ea7374, size 0xc, virtual false, abstract: false, final false
+  inline void set_sendPointerHoverToParent(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BaseInputModule();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseInputModule", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BaseInputModule(BaseInputModule&&) = delete;
@@ -203,12 +207,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseInputModule(BaseInputModule const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseInputModule();
-
-public:
   /// @brief Field m_RaycastResultCache, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* ___m_RaycastResultCache;
 

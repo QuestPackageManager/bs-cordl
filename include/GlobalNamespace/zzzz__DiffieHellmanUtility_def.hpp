@@ -99,8 +99,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__DiffieHellmanUtility__OperationTimer);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12610))
 // CS Name: ::DiffieHellmanUtility::KeyType
 struct CORDL_TYPE __DiffieHellmanUtility__KeyType {
 public:
@@ -118,24 +116,29 @@ public:
     return static_cast<____DiffieHellmanUtility__KeyType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __DiffieHellmanUtility__KeyType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____DiffieHellmanUtility__KeyType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __DiffieHellmanUtility__KeyType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __DiffieHellmanUtility__KeyType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field DiffieHellman value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__DiffieHellmanUtility__KeyType const DiffieHellman;
 
   /// @brief Field ElipticalCurve value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__DiffieHellmanUtility__KeyType const ElipticalCurve;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -149,8 +152,6 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__KeyType, value
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12611))
 // CS Name: ::DiffieHellmanUtility::DiffieHellmanKeyPair::<>c__DisplayClass5_0*
 class CORDL_TYPE __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -161,26 +162,32 @@ public:
   /// @brief Field clientPublicKey, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_clientPublicKey, put = __cordl_internal_set_clientPublicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey;
 
+  static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0* New_ctor();
+
+  /// @brief Method <GetPreMasterSecretAsync>b__0, addr 0xea44a4, size 0x6c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _GetPreMasterSecretAsync_b__0();
+
   constexpr ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_clientPublicKey() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_clientPublicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_clientPublicKey() const;
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* value);
 
   constexpr void __cordl_internal_set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe5e464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4434, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetPreMasterSecretAsync>b__0, addr 0xe5e4d4, size 0x6c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _GetPreMasterSecretAsync_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0(__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0&&) = delete;
@@ -189,12 +196,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0(__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0();
-
-public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* _____4__this;
 
@@ -215,8 +216,6 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanK
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12612))
 // CS Name: ::DiffieHellmanUtility::DiffieHellmanKeyPair*
 class CORDL_TYPE __DiffieHellmanUtility__DiffieHellmanKeyPair : public ::System::Object {
 public:
@@ -234,37 +233,43 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IDiffieHellmanKeyPair"
   constexpr operator ::GlobalNamespace::IDiffieHellmanKeyPair*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
-  constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept;
+  /// @brief Method GetPreMasterSecret, addr 0xea443c, size 0x68, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
+
+  /// @brief Method GetPreMasterSecretAsync, addr 0xea42e4, size 0x150, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility,
+                                                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
+
+  static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* New_ctor(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters,
+                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
   constexpr ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*& __cordl_internal_get__dhBasicAgreement();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*> const& __cordl_internal_get__dhBasicAgreement() const;
 
-  constexpr void __cordl_internal_set__dhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__publicKey() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__publicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__publicKey() const;
+  constexpr void __cordl_internal_set__dhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* value);
 
   constexpr void __cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_publicKey, addr 0xe5e30c, size 0x8, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
-
-  static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* New_ctor(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters,
-                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
-
-  /// @brief Method .ctor, addr 0xe5dd34, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea3d04, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method GetPreMasterSecretAsync, addr 0xe5e314, size 0x150, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility,
-                                                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
+  /// @brief Method get_publicKey, addr 0xea42dc, size 0x8, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
 
-  /// @brief Method GetPreMasterSecret, addr 0xe5e46c, size 0x68, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
+  /// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
+  constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DiffieHellmanUtility__DiffieHellmanKeyPair();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__DiffieHellmanUtility__DiffieHellmanKeyPair", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __DiffieHellmanUtility__DiffieHellmanKeyPair(__DiffieHellmanUtility__DiffieHellmanKeyPair&&) = delete;
@@ -273,12 +278,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DiffieHellmanUtility__DiffieHellmanKeyPair(__DiffieHellmanUtility__DiffieHellmanKeyPair const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DiffieHellmanUtility__DiffieHellmanKeyPair();
-
-public:
   /// @brief Field _dhBasicAgreement, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* ____dhBasicAgreement;
 
@@ -299,8 +298,6 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanK
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12613))
 // CS Name: ::DiffieHellmanUtility::ElipticalCurveKeyPair::<>c__DisplayClass5_0*
 class CORDL_TYPE __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -311,26 +308,32 @@ public:
   /// @brief Field clientPublicKey, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_clientPublicKey, put = __cordl_internal_set_clientPublicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey;
 
+  static inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0* New_ctor();
+
+  /// @brief Method <GetPreMasterSecretAsync>b__0, addr 0xea46d8, size 0x6c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _GetPreMasterSecretAsync_b__0();
+
   constexpr ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_clientPublicKey() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_clientPublicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_clientPublicKey() const;
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* value);
 
   constexpr void __cordl_internal_set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  static inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe5e698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetPreMasterSecretAsync>b__0, addr 0xe5e708, size 0x6c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _GetPreMasterSecretAsync_b__0();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0(__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0&&) = delete;
@@ -339,12 +342,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0(__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0();
-
-public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* _____4__this;
 
@@ -365,8 +362,6 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurve
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12614))
 // CS Name: ::DiffieHellmanUtility::ElipticalCurveKeyPair*
 class CORDL_TYPE __DiffieHellmanUtility__ElipticalCurveKeyPair : public ::System::Object {
 public:
@@ -384,37 +379,43 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IDiffieHellmanKeyPair"
   constexpr operator ::GlobalNamespace::IDiffieHellmanKeyPair*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
-  constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept;
+  /// @brief Method GetPreMasterSecret, addr 0xea4670, size 0x68, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
+
+  /// @brief Method GetPreMasterSecretAsync, addr 0xea4518, size 0x150, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility,
+                                                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
+
+  static inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters,
+                                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
   constexpr ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*& __cordl_internal_get__ecdhBasicAgreement();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*> const& __cordl_internal_get__ecdhBasicAgreement() const;
 
-  constexpr void __cordl_internal_set__ecdhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__publicKey() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__publicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__publicKey() const;
+  constexpr void __cordl_internal_set__ecdhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* value);
 
   constexpr void __cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_publicKey, addr 0xe5e540, size 0x8, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
-
-  static inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters,
-                                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
-
-  /// @brief Method .ctor, addr 0xe5ddcc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea3d9c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
 
-  /// @brief Method GetPreMasterSecretAsync, addr 0xe5e548, size 0x150, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility,
-                                                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
+  /// @brief Method get_publicKey, addr 0xea4510, size 0x8, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
 
-  /// @brief Method GetPreMasterSecret, addr 0xe5e6a0, size 0x68, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
+  /// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
+  constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DiffieHellmanUtility__ElipticalCurveKeyPair();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__DiffieHellmanUtility__ElipticalCurveKeyPair", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __DiffieHellmanUtility__ElipticalCurveKeyPair(__DiffieHellmanUtility__ElipticalCurveKeyPair&&) = delete;
@@ -423,12 +424,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DiffieHellmanUtility__ElipticalCurveKeyPair(__DiffieHellmanUtility__ElipticalCurveKeyPair const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DiffieHellmanUtility__ElipticalCurveKeyPair();
-
-public:
   /// @brief Field _ecdhBasicAgreement, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ____ecdhBasicAgreement;
 
@@ -449,47 +444,51 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurve
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12615))
 // CS Name: ::DiffieHellmanUtility::OperationTimer*
 class CORDL_TYPE __DiffieHellmanUtility__OperationTimer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _stopwatch, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__stopwatch, put = __cordl_internal_set__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
-
   /// @brief Field _operationName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__operationName, put = __cordl_internal_set__operationName))::StringW _operationName;
+
+  /// @brief Field _stopwatch, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__stopwatch, put = __cordl_internal_set__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method Dispose, addr 0xea47c8, size 0xe8, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  static inline ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer* New_ctor(::StringW operationName);
+
+  /// @brief Method Time, addr 0xea3cfc, size 0x8, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer* Time(::StringW operation);
+
+  constexpr ::StringW const& __cordl_internal_get__operationName() const;
+
+  constexpr ::StringW& __cordl_internal_get__operationName();
 
   constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__stopwatch();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __cordl_internal_get__stopwatch() const;
 
-  constexpr void __cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value);
-
-  constexpr ::StringW& __cordl_internal_get__operationName();
-
-  constexpr ::StringW const& __cordl_internal_get__operationName() const;
-
   constexpr void __cordl_internal_set__operationName(::StringW value);
 
-  static inline ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer* New_ctor(::StringW operationName);
+  constexpr void __cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method .ctor, addr 0xe5e774, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xea4744, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW operationName);
 
-  /// @brief Method Dispose, addr 0xe5e7f8, size 0xe8, virtual true, abstract: false, final true
-  inline void Dispose();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method Time, addr 0xe5dd2c, size 0x8, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer* Time(::StringW operation);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DiffieHellmanUtility__OperationTimer();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__DiffieHellmanUtility__OperationTimer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __DiffieHellmanUtility__OperationTimer(__DiffieHellmanUtility__OperationTimer&&) = delete;
@@ -498,12 +497,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DiffieHellmanUtility__OperationTimer(__DiffieHellmanUtility__OperationTimer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DiffieHellmanUtility__OperationTimer();
-
-public:
   /// @brief Field _stopwatch, offset: 0x10, size: 0x8, def value: None
   ::System::Diagnostics::Stopwatch* ____stopwatch;
 
@@ -524,22 +517,17 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__OperationTimer
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12616))
 // CS Name: ::DiffieHellmanUtility*
 class CORDL_TYPE DiffieHellmanUtility : public ::System::Object {
 public:
   // Declarations
-  using OperationTimer = ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer;
+  using DiffieHellmanKeyPair = ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair;
 
   using ElipticalCurveKeyPair = ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair;
 
-  using DiffieHellmanKeyPair = ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair;
-
   using KeyType = ::GlobalNamespace::__DiffieHellmanUtility__KeyType;
 
-  /// @brief Field _secureRandom, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__secureRandom, put = setStaticF__secureRandom))::Org::BouncyCastle::Security::SecureRandom* _secureRandom;
+  using OperationTimer = ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer;
 
   /// @brief Field _dhParameters, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__dhParameters, put = setStaticF__dhParameters))::Org::BouncyCastle::Crypto::Parameters::DHParameters* _dhParameters;
@@ -550,43 +538,52 @@ public:
   /// @brief Field _ecPointFormats, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__ecPointFormats, put = setStaticF__ecPointFormats))::ArrayW<uint8_t, ::Array<uint8_t>*> _ecPointFormats;
 
-  static inline void setStaticF__secureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
+  /// @brief Field _secureRandom, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__secureRandom, put = setStaticF__secureRandom))::Org::BouncyCastle::Security::SecureRandom* _secureRandom;
+
+  /// @brief Method GenerateDiffieHellmanKeys, addr 0xea3b78, size 0x184, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* GenerateDiffieHellmanKeys();
+
+  /// @brief Method GenerateElipticalCurveKeys, addr 0xea39e8, size 0x190, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* GenerateElipticalCurveKeys();
+
+  /// @brief Method GenerateKeys, addr 0xe9fddc, size 0x64, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::IDiffieHellmanKeyPair* GenerateKeys(::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType);
+
+  /// @brief Method GenerateKeysAsync, addr 0xea3854, size 0x194, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>*
+  GenerateKeysAsync(::BGNet::Core::ITaskUtility* taskUtility, ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType);
+
+  /// @brief Method GetPreMasterSecret, addr 0xea3e34, size 0x19c, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement,
+                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
+
+  /// @brief Method GetPreMasterSecret, addr 0xea3fd0, size 0x1d0, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement,
+                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF__dhParameters();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* getStaticF__ecParameters();
+
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__ecPointFormats();
 
   static inline ::Org::BouncyCastle::Security::SecureRandom* getStaticF__secureRandom();
 
   static inline void setStaticF__dhParameters(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF__dhParameters();
-
   static inline void setStaticF__ecParameters(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* getStaticF__ecParameters();
 
   static inline void setStaticF__ecPointFormats(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__ecPointFormats();
+  static inline void setStaticF__secureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method GenerateKeysAsync, addr 0xe5d884, size 0x194, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>*
-  GenerateKeysAsync(::BGNet::Core::ITaskUtility* taskUtility, ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DiffieHellmanUtility();
 
-  /// @brief Method GenerateKeys, addr 0xe59e0c, size 0x64, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::IDiffieHellmanKeyPair* GenerateKeys(::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType);
-
-  /// @brief Method GenerateDiffieHellmanKeys, addr 0xe5dba8, size 0x184, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* GenerateDiffieHellmanKeys();
-
-  /// @brief Method GenerateElipticalCurveKeys, addr 0xe5da18, size 0x190, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* GenerateElipticalCurveKeys();
-
-  /// @brief Method GetPreMasterSecret, addr 0xe5de64, size 0x19c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement,
-                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
-
-  /// @brief Method GetPreMasterSecret, addr 0xe5e000, size 0x1d0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement,
-                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DiffieHellmanUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiffieHellmanUtility(DiffieHellmanUtility&&) = delete;
@@ -595,12 +592,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DiffieHellmanUtility(DiffieHellmanUtility const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DiffieHellmanUtility();
-
-public:
   /// @brief Field kMaxDiffieHellmanPublicKeyLength offset 0xffffffff size 0x4
   static constexpr int32_t kMaxDiffieHellmanPublicKeyLength{ static_cast<int32_t>(0x800) };
 

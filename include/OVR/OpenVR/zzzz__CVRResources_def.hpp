@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRResources);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8461))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8518))
 // CS Name: ::OVR.OpenVR::CVRResources*
 class CORDL_TYPE CVRResources : public ::System::Object {
 public:
@@ -29,23 +27,29 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRResources FnTable;
 
-  constexpr ::OVR::OpenVR::IVRResources& __cordl_internal_get_FnTable();
+  /// @brief Method GetResourceFullPath, addr 0x28e71dc, size 0x24, virtual false, abstract: false, final false
+  inline uint32_t GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
 
-  constexpr ::OVR::OpenVR::IVRResources const& __cordl_internal_get_FnTable() const;
-
-  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRResources value);
+  /// @brief Method LoadSharedResource, addr 0x28e71b8, size 0x24, virtual false, abstract: false, final false
+  inline uint32_t LoadSharedResource(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
 
   static inline ::OVR::OpenVR::CVRResources* New_ctor(void* pInterface);
 
-  /// @brief Method .ctor, addr 0x2802f54, size 0x10c, virtual false, abstract: false, final false
+  constexpr ::OVR::OpenVR::IVRResources const& __cordl_internal_get_FnTable() const;
+
+  constexpr ::OVR::OpenVR::IVRResources& __cordl_internal_get_FnTable();
+
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRResources value);
+
+  /// @brief Method .ctor, addr 0x28e70ac, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(void* pInterface);
 
-  /// @brief Method LoadSharedResource, addr 0x2803060, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t LoadSharedResource(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CVRResources();
 
-  /// @brief Method GetResourceFullPath, addr 0x2803084, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CVRResources", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CVRResources(CVRResources&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CVRResources(CVRResources const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CVRResources();
-
-public:
   /// @brief Field FnTable, offset: 0x10, size: 0x10, def value: None
   ::OVR::OpenVR::IVRResources ___FnTable;
 

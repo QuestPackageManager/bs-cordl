@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::System::Xml::XmlCachedStream);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3562))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11452))
 // CS Name: ::System.Xml::XmlCachedStream*
 class CORDL_TYPE XmlCachedStream : public ::System::IO::MemoryStream {
 public:
@@ -29,17 +27,23 @@ public:
   /// @brief Field uri, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri))::System::Uri* uri;
 
+  static inline ::System::Xml::XmlCachedStream* New_ctor(::System::Uri* uri, ::System::IO::Stream* stream);
+
   constexpr ::System::Uri*& __cordl_internal_get_uri();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_uri() const;
 
   constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  static inline ::System::Xml::XmlCachedStream* New_ctor(::System::Uri* uri, ::System::IO::Stream* stream);
-
-  /// @brief Method .ctor, addr 0x28a7934, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x298edb0, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlCachedStream();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlCachedStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlCachedStream(XmlCachedStream&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlCachedStream(XmlCachedStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlCachedStream();
-
-public:
   /// @brief Field uri, offset: 0x50, size: 0x8, def value: None
   ::System::Uri* ___uri;
 

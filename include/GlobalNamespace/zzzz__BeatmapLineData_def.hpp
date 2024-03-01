@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLineData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15134))
 // CS Name: ::BeatmapLineData*
 class CORDL_TYPE BeatmapLineData : public ::System::Object {
 public:
@@ -42,8 +40,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IReadonlyBeatmapLineData"
   constexpr operator ::GlobalNamespace::IReadonlyBeatmapLineData*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IReadonlyBeatmapLineData"
-  constexpr ::GlobalNamespace::IReadonlyBeatmapLineData* i___GlobalNamespace__IReadonlyBeatmapLineData() noexcept;
+  /// @brief Method AddBeatmapObjectData, addr 0xe56640, size 0xa8, virtual false, abstract: false, final false
+  inline void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
+
+  static inline ::GlobalNamespace::BeatmapLineData* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
+
+  static inline ::GlobalNamespace::BeatmapLineData* New_ctor(int32_t initialCapacity);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>*& __cordl_internal_get__beatmapObjectsData();
 
@@ -51,22 +53,24 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectsData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* value);
 
-  /// @brief Method get_beatmapObjectsData, addr 0xe10a1c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
-
-  static inline ::GlobalNamespace::BeatmapLineData* New_ctor(int32_t initialCapacity);
-
-  /// @brief Method .ctor, addr 0xe10a24, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(int32_t initialCapacity);
-
-  static inline ::GlobalNamespace::BeatmapLineData* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
-
-  /// @brief Method .ctor, addr 0xe10ab4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe56618, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
 
-  /// @brief Method AddBeatmapObjectData, addr 0xe10adc, size 0xa8, virtual false, abstract: false, final false
-  inline void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
+  /// @brief Method .ctor, addr 0xe56588, size 0x90, virtual false, abstract: false, final false
+  inline void _ctor(int32_t initialCapacity);
 
+  /// @brief Method get_beatmapObjectsData, addr 0xe56580, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
+
+  /// @brief Convert to "::GlobalNamespace::IReadonlyBeatmapLineData"
+  constexpr ::GlobalNamespace::IReadonlyBeatmapLineData* i___GlobalNamespace__IReadonlyBeatmapLineData() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapLineData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLineData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLineData(BeatmapLineData&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapLineData(BeatmapLineData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLineData();
-
-public:
   /// @brief Field _beatmapObjectsData, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* ____beatmapObjectsData;
 

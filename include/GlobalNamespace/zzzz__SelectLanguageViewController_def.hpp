@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectLanguageViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5048))
 // CS Name: ::SelectLanguageViewController*
 class CORDL_TYPE SelectLanguageViewController : public ::HMUI::ViewController {
 public:
@@ -42,59 +40,65 @@ public:
   /// @brief Field didPressContinueButtonEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressContinueButtonEvent, put = __cordl_internal_set_didPressContinueButtonEvent))::System::Action* didPressContinueButtonEvent;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
+  /// @brief Method DidActivate, addr 0x23d8058, size 0x100, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+
+  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x23d8238, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleLanguageSettingsControllerOndropDownValueDidChange();
+
+  static inline ::GlobalNamespace::SelectLanguageViewController* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x23d8158, size 0xe0, virtual true, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method <DidActivate>b__8_0, addr 0x23d825c, size 0x1c, virtual false, abstract: false, final false
+  inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
-  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr ::UnityW<::GlobalNamespace::LanguageSettingsController>& __cordl_internal_get__languageSettingsController();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
   constexpr ::UnityW<::GlobalNamespace::LanguageSettingsController> const& __cordl_internal_get__languageSettingsController() const;
 
-  constexpr void __cordl_internal_set__languageSettingsController(::UnityW<::GlobalNamespace::LanguageSettingsController> value);
+  constexpr ::UnityW<::GlobalNamespace::LanguageSettingsController>& __cordl_internal_get__languageSettingsController();
 
   constexpr ::System::Action*& __cordl_internal_get_didChangeLanguageEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didChangeLanguageEvent() const;
 
-  constexpr void __cordl_internal_set_didChangeLanguageEvent(::System::Action* value);
-
   constexpr ::System::Action*& __cordl_internal_get_didPressContinueButtonEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressContinueButtonEvent() const;
 
+  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
+
+  constexpr void __cordl_internal_set__languageSettingsController(::UnityW<::GlobalNamespace::LanguageSettingsController> value);
+
+  constexpr void __cordl_internal_set_didChangeLanguageEvent(::System::Action* value);
+
   constexpr void __cordl_internal_set_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didChangeLanguageEvent, addr 0x2309fac, size 0x9c, virtual false, abstract: false, final false
-  inline void add_didChangeLanguageEvent(::System::Action* value);
-
-  /// @brief Method remove_didChangeLanguageEvent, addr 0x230a048, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_didChangeLanguageEvent(::System::Action* value);
-
-  /// @brief Method add_didPressContinueButtonEvent, addr 0x230a0e4, size 0x9c, virtual false, abstract: false, final false
-  inline void add_didPressContinueButtonEvent(::System::Action* value);
-
-  /// @brief Method remove_didPressContinueButtonEvent, addr 0x230a180, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_didPressContinueButtonEvent(::System::Action* value);
-
-  /// @brief Method DidActivate, addr 0x230a21c, size 0x100, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-  /// @brief Method OnDestroy, addr 0x230a31c, size 0xe0, virtual true, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x230a3fc, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleLanguageSettingsControllerOndropDownValueDidChange();
-
-  static inline ::GlobalNamespace::SelectLanguageViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x230a418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d8254, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x230a420, size 0x1c, virtual false, abstract: false, final false
-  inline void _DidActivate_b__8_0();
+  /// @brief Method add_didChangeLanguageEvent, addr 0x23d7de8, size 0x9c, virtual false, abstract: false, final false
+  inline void add_didChangeLanguageEvent(::System::Action* value);
 
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x23d7f20, size 0x9c, virtual false, abstract: false, final false
+  inline void add_didPressContinueButtonEvent(::System::Action* value);
+
+  /// @brief Method remove_didChangeLanguageEvent, addr 0x23d7e84, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_didChangeLanguageEvent(::System::Action* value);
+
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x23d7fbc, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_didPressContinueButtonEvent(::System::Action* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SelectLanguageViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SelectLanguageViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SelectLanguageViewController(SelectLanguageViewController&&) = delete;
@@ -103,12 +107,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectLanguageViewController(SelectLanguageViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SelectLanguageViewController();
-
-public:
   /// @brief Field _continueButton, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 

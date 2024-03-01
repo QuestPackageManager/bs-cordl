@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Runtime::InteropServices::VarEnum);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3318))
 // CS Name: ::System.Runtime.InteropServices::VarEnum
 struct CORDL_TYPE VarEnum {
 public:
@@ -76,36 +74,47 @@ public:
     return static_cast<__VarEnum_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr VarEnum(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__VarEnum_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr VarEnum();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr VarEnum(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field VT_ARRAY value: static_cast<int32_t>(0x2000)
+  static ::System::Runtime::InteropServices::VarEnum const VT_ARRAY;
 
-  /// @brief Field VT_EMPTY value: static_cast<int32_t>(0x0)
-  static ::System::Runtime::InteropServices::VarEnum const VT_EMPTY;
+  /// @brief Field VT_BLOB value: static_cast<int32_t>(0x41)
+  static ::System::Runtime::InteropServices::VarEnum const VT_BLOB;
 
-  /// @brief Field VT_NULL value: static_cast<int32_t>(0x1)
-  static ::System::Runtime::InteropServices::VarEnum const VT_NULL;
+  /// @brief Field VT_BLOB_OBJECT value: static_cast<int32_t>(0x46)
+  static ::System::Runtime::InteropServices::VarEnum const VT_BLOB_OBJECT;
 
-  /// @brief Field VT_I2 value: static_cast<int32_t>(0x2)
-  static ::System::Runtime::InteropServices::VarEnum const VT_I2;
+  /// @brief Field VT_BOOL value: static_cast<int32_t>(0xb)
+  static ::System::Runtime::InteropServices::VarEnum const VT_BOOL;
 
-  /// @brief Field VT_I4 value: static_cast<int32_t>(0x3)
-  static ::System::Runtime::InteropServices::VarEnum const VT_I4;
+  /// @brief Field VT_BSTR value: static_cast<int32_t>(0x8)
+  static ::System::Runtime::InteropServices::VarEnum const VT_BSTR;
 
-  /// @brief Field VT_R4 value: static_cast<int32_t>(0x4)
-  static ::System::Runtime::InteropServices::VarEnum const VT_R4;
+  /// @brief Field VT_BYREF value: static_cast<int32_t>(0x4000)
+  static ::System::Runtime::InteropServices::VarEnum const VT_BYREF;
 
-  /// @brief Field VT_R8 value: static_cast<int32_t>(0x5)
-  static ::System::Runtime::InteropServices::VarEnum const VT_R8;
+  /// @brief Field VT_CARRAY value: static_cast<int32_t>(0x1c)
+  static ::System::Runtime::InteropServices::VarEnum const VT_CARRAY;
+
+  /// @brief Field VT_CF value: static_cast<int32_t>(0x47)
+  static ::System::Runtime::InteropServices::VarEnum const VT_CF;
+
+  /// @brief Field VT_CLSID value: static_cast<int32_t>(0x48)
+  static ::System::Runtime::InteropServices::VarEnum const VT_CLSID;
 
   /// @brief Field VT_CY value: static_cast<int32_t>(0x6)
   static ::System::Runtime::InteropServices::VarEnum const VT_CY;
@@ -113,29 +122,74 @@ public:
   /// @brief Field VT_DATE value: static_cast<int32_t>(0x7)
   static ::System::Runtime::InteropServices::VarEnum const VT_DATE;
 
-  /// @brief Field VT_BSTR value: static_cast<int32_t>(0x8)
-  static ::System::Runtime::InteropServices::VarEnum const VT_BSTR;
+  /// @brief Field VT_DECIMAL value: static_cast<int32_t>(0xe)
+  static ::System::Runtime::InteropServices::VarEnum const VT_DECIMAL;
 
   /// @brief Field VT_DISPATCH value: static_cast<int32_t>(0x9)
   static ::System::Runtime::InteropServices::VarEnum const VT_DISPATCH;
 
+  /// @brief Field VT_EMPTY value: static_cast<int32_t>(0x0)
+  static ::System::Runtime::InteropServices::VarEnum const VT_EMPTY;
+
   /// @brief Field VT_ERROR value: static_cast<int32_t>(0xa)
   static ::System::Runtime::InteropServices::VarEnum const VT_ERROR;
 
-  /// @brief Field VT_BOOL value: static_cast<int32_t>(0xb)
-  static ::System::Runtime::InteropServices::VarEnum const VT_BOOL;
+  /// @brief Field VT_FILETIME value: static_cast<int32_t>(0x40)
+  static ::System::Runtime::InteropServices::VarEnum const VT_FILETIME;
 
-  /// @brief Field VT_VARIANT value: static_cast<int32_t>(0xc)
-  static ::System::Runtime::InteropServices::VarEnum const VT_VARIANT;
-
-  /// @brief Field VT_UNKNOWN value: static_cast<int32_t>(0xd)
-  static ::System::Runtime::InteropServices::VarEnum const VT_UNKNOWN;
-
-  /// @brief Field VT_DECIMAL value: static_cast<int32_t>(0xe)
-  static ::System::Runtime::InteropServices::VarEnum const VT_DECIMAL;
+  /// @brief Field VT_HRESULT value: static_cast<int32_t>(0x19)
+  static ::System::Runtime::InteropServices::VarEnum const VT_HRESULT;
 
   /// @brief Field VT_I1 value: static_cast<int32_t>(0x10)
   static ::System::Runtime::InteropServices::VarEnum const VT_I1;
+
+  /// @brief Field VT_I2 value: static_cast<int32_t>(0x2)
+  static ::System::Runtime::InteropServices::VarEnum const VT_I2;
+
+  /// @brief Field VT_I4 value: static_cast<int32_t>(0x3)
+  static ::System::Runtime::InteropServices::VarEnum const VT_I4;
+
+  /// @brief Field VT_I8 value: static_cast<int32_t>(0x14)
+  static ::System::Runtime::InteropServices::VarEnum const VT_I8;
+
+  /// @brief Field VT_INT value: static_cast<int32_t>(0x16)
+  static ::System::Runtime::InteropServices::VarEnum const VT_INT;
+
+  /// @brief Field VT_LPSTR value: static_cast<int32_t>(0x1e)
+  static ::System::Runtime::InteropServices::VarEnum const VT_LPSTR;
+
+  /// @brief Field VT_LPWSTR value: static_cast<int32_t>(0x1f)
+  static ::System::Runtime::InteropServices::VarEnum const VT_LPWSTR;
+
+  /// @brief Field VT_NULL value: static_cast<int32_t>(0x1)
+  static ::System::Runtime::InteropServices::VarEnum const VT_NULL;
+
+  /// @brief Field VT_PTR value: static_cast<int32_t>(0x1a)
+  static ::System::Runtime::InteropServices::VarEnum const VT_PTR;
+
+  /// @brief Field VT_R4 value: static_cast<int32_t>(0x4)
+  static ::System::Runtime::InteropServices::VarEnum const VT_R4;
+
+  /// @brief Field VT_R8 value: static_cast<int32_t>(0x5)
+  static ::System::Runtime::InteropServices::VarEnum const VT_R8;
+
+  /// @brief Field VT_RECORD value: static_cast<int32_t>(0x24)
+  static ::System::Runtime::InteropServices::VarEnum const VT_RECORD;
+
+  /// @brief Field VT_SAFEARRAY value: static_cast<int32_t>(0x1b)
+  static ::System::Runtime::InteropServices::VarEnum const VT_SAFEARRAY;
+
+  /// @brief Field VT_STORAGE value: static_cast<int32_t>(0x43)
+  static ::System::Runtime::InteropServices::VarEnum const VT_STORAGE;
+
+  /// @brief Field VT_STORED_OBJECT value: static_cast<int32_t>(0x45)
+  static ::System::Runtime::InteropServices::VarEnum const VT_STORED_OBJECT;
+
+  /// @brief Field VT_STREAM value: static_cast<int32_t>(0x42)
+  static ::System::Runtime::InteropServices::VarEnum const VT_STREAM;
+
+  /// @brief Field VT_STREAMED_OBJECT value: static_cast<int32_t>(0x44)
+  static ::System::Runtime::InteropServices::VarEnum const VT_STREAMED_OBJECT;
 
   /// @brief Field VT_UI1 value: static_cast<int32_t>(0x11)
   static ::System::Runtime::InteropServices::VarEnum const VT_UI1;
@@ -146,80 +200,29 @@ public:
   /// @brief Field VT_UI4 value: static_cast<int32_t>(0x13)
   static ::System::Runtime::InteropServices::VarEnum const VT_UI4;
 
-  /// @brief Field VT_I8 value: static_cast<int32_t>(0x14)
-  static ::System::Runtime::InteropServices::VarEnum const VT_I8;
-
   /// @brief Field VT_UI8 value: static_cast<int32_t>(0x15)
   static ::System::Runtime::InteropServices::VarEnum const VT_UI8;
-
-  /// @brief Field VT_INT value: static_cast<int32_t>(0x16)
-  static ::System::Runtime::InteropServices::VarEnum const VT_INT;
 
   /// @brief Field VT_UINT value: static_cast<int32_t>(0x17)
   static ::System::Runtime::InteropServices::VarEnum const VT_UINT;
 
-  /// @brief Field VT_VOID value: static_cast<int32_t>(0x18)
-  static ::System::Runtime::InteropServices::VarEnum const VT_VOID;
-
-  /// @brief Field VT_HRESULT value: static_cast<int32_t>(0x19)
-  static ::System::Runtime::InteropServices::VarEnum const VT_HRESULT;
-
-  /// @brief Field VT_PTR value: static_cast<int32_t>(0x1a)
-  static ::System::Runtime::InteropServices::VarEnum const VT_PTR;
-
-  /// @brief Field VT_SAFEARRAY value: static_cast<int32_t>(0x1b)
-  static ::System::Runtime::InteropServices::VarEnum const VT_SAFEARRAY;
-
-  /// @brief Field VT_CARRAY value: static_cast<int32_t>(0x1c)
-  static ::System::Runtime::InteropServices::VarEnum const VT_CARRAY;
+  /// @brief Field VT_UNKNOWN value: static_cast<int32_t>(0xd)
+  static ::System::Runtime::InteropServices::VarEnum const VT_UNKNOWN;
 
   /// @brief Field VT_USERDEFINED value: static_cast<int32_t>(0x1d)
   static ::System::Runtime::InteropServices::VarEnum const VT_USERDEFINED;
 
-  /// @brief Field VT_LPSTR value: static_cast<int32_t>(0x1e)
-  static ::System::Runtime::InteropServices::VarEnum const VT_LPSTR;
-
-  /// @brief Field VT_LPWSTR value: static_cast<int32_t>(0x1f)
-  static ::System::Runtime::InteropServices::VarEnum const VT_LPWSTR;
-
-  /// @brief Field VT_RECORD value: static_cast<int32_t>(0x24)
-  static ::System::Runtime::InteropServices::VarEnum const VT_RECORD;
-
-  /// @brief Field VT_FILETIME value: static_cast<int32_t>(0x40)
-  static ::System::Runtime::InteropServices::VarEnum const VT_FILETIME;
-
-  /// @brief Field VT_BLOB value: static_cast<int32_t>(0x41)
-  static ::System::Runtime::InteropServices::VarEnum const VT_BLOB;
-
-  /// @brief Field VT_STREAM value: static_cast<int32_t>(0x42)
-  static ::System::Runtime::InteropServices::VarEnum const VT_STREAM;
-
-  /// @brief Field VT_STORAGE value: static_cast<int32_t>(0x43)
-  static ::System::Runtime::InteropServices::VarEnum const VT_STORAGE;
-
-  /// @brief Field VT_STREAMED_OBJECT value: static_cast<int32_t>(0x44)
-  static ::System::Runtime::InteropServices::VarEnum const VT_STREAMED_OBJECT;
-
-  /// @brief Field VT_STORED_OBJECT value: static_cast<int32_t>(0x45)
-  static ::System::Runtime::InteropServices::VarEnum const VT_STORED_OBJECT;
-
-  /// @brief Field VT_BLOB_OBJECT value: static_cast<int32_t>(0x46)
-  static ::System::Runtime::InteropServices::VarEnum const VT_BLOB_OBJECT;
-
-  /// @brief Field VT_CF value: static_cast<int32_t>(0x47)
-  static ::System::Runtime::InteropServices::VarEnum const VT_CF;
-
-  /// @brief Field VT_CLSID value: static_cast<int32_t>(0x48)
-  static ::System::Runtime::InteropServices::VarEnum const VT_CLSID;
+  /// @brief Field VT_VARIANT value: static_cast<int32_t>(0xc)
+  static ::System::Runtime::InteropServices::VarEnum const VT_VARIANT;
 
   /// @brief Field VT_VECTOR value: static_cast<int32_t>(0x1000)
   static ::System::Runtime::InteropServices::VarEnum const VT_VECTOR;
 
-  /// @brief Field VT_ARRAY value: static_cast<int32_t>(0x2000)
-  static ::System::Runtime::InteropServices::VarEnum const VT_ARRAY;
+  /// @brief Field VT_VOID value: static_cast<int32_t>(0x18)
+  static ::System::Runtime::InteropServices::VarEnum const VT_VOID;
 
-  /// @brief Field VT_BYREF value: static_cast<int32_t>(0x4000)
-  static ::System::Runtime::InteropServices::VarEnum const VT_BYREF;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

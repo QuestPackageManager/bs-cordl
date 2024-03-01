@@ -28,22 +28,15 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Glyph);
 // SizeInfo { instance_size: 72, native_size: 52, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15713)), TypeDefinitionIndex(TypeDefinitionIndex(15714)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15715))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15716)) CS Name: ::UnityEngine.TextCore::Glyph*
+// CS Name: ::UnityEngine.TextCore::Glyph*
 class CORDL_TYPE Glyph : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Index, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) uint32_t m_Index;
+  __declspec(property(get = get_atlasIndex, put = set_atlasIndex)) int32_t atlasIndex;
 
-  /// @brief Field m_Metrics, offset 0x14, size 0x14
-  __declspec(property(get = __cordl_internal_get_m_Metrics, put = __cordl_internal_set_m_Metrics))::UnityEngine::TextCore::GlyphMetrics m_Metrics;
+  __declspec(property(get = get_glyphRect, put = set_glyphRect))::UnityEngine::TextCore::GlyphRect glyphRect;
 
-  /// @brief Field m_GlyphRect, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_GlyphRect, put = __cordl_internal_set_m_GlyphRect))::UnityEngine::TextCore::GlyphRect m_GlyphRect;
-
-  /// @brief Field m_Scale, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Scale, put = __cordl_internal_set_m_Scale)) float_t m_Scale;
+  __declspec(property(get = get_index, put = set_index)) uint32_t index;
 
   /// @brief Field m_AtlasIndex, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_AtlasIndex, put = __cordl_internal_set_m_AtlasIndex)) int32_t m_AtlasIndex;
@@ -51,98 +44,110 @@ public:
   /// @brief Field m_ClassDefinitionType, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ClassDefinitionType, put = __cordl_internal_set_m_ClassDefinitionType))::UnityEngine::TextCore::GlyphClassDefinitionType m_ClassDefinitionType;
 
-  __declspec(property(get = get_index, put = set_index)) uint32_t index;
+  /// @brief Field m_GlyphRect, offset 0x28, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_GlyphRect, put = __cordl_internal_set_m_GlyphRect))::UnityEngine::TextCore::GlyphRect m_GlyphRect;
+
+  /// @brief Field m_Index, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) uint32_t m_Index;
+
+  /// @brief Field m_Metrics, offset 0x14, size 0x14
+  __declspec(property(get = __cordl_internal_get_m_Metrics, put = __cordl_internal_set_m_Metrics))::UnityEngine::TextCore::GlyphMetrics m_Metrics;
+
+  /// @brief Field m_Scale, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Scale, put = __cordl_internal_set_m_Scale)) float_t m_Scale;
 
   __declspec(property(get = get_metrics, put = set_metrics))::UnityEngine::TextCore::GlyphMetrics metrics;
 
-  __declspec(property(get = get_glyphRect, put = set_glyphRect))::UnityEngine::TextCore::GlyphRect glyphRect;
-
   __declspec(property(get = get_scale, put = set_scale)) float_t scale;
-
-  __declspec(property(get = get_atlasIndex, put = set_atlasIndex)) int32_t atlasIndex;
-
-  constexpr uint32_t& __cordl_internal_get_m_Index();
-
-  constexpr uint32_t const& __cordl_internal_get_m_Index() const;
-
-  constexpr void __cordl_internal_set_m_Index(uint32_t value);
-
-  constexpr ::UnityEngine::TextCore::GlyphMetrics& __cordl_internal_get_m_Metrics();
-
-  constexpr ::UnityEngine::TextCore::GlyphMetrics const& __cordl_internal_get_m_Metrics() const;
-
-  constexpr void __cordl_internal_set_m_Metrics(::UnityEngine::TextCore::GlyphMetrics value);
-
-  constexpr ::UnityEngine::TextCore::GlyphRect& __cordl_internal_get_m_GlyphRect();
-
-  constexpr ::UnityEngine::TextCore::GlyphRect const& __cordl_internal_get_m_GlyphRect() const;
-
-  constexpr void __cordl_internal_set_m_GlyphRect(::UnityEngine::TextCore::GlyphRect value);
-
-  constexpr float_t& __cordl_internal_get_m_Scale();
-
-  constexpr float_t const& __cordl_internal_get_m_Scale() const;
-
-  constexpr void __cordl_internal_set_m_Scale(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_AtlasIndex();
-
-  constexpr int32_t const& __cordl_internal_get_m_AtlasIndex() const;
-
-  constexpr void __cordl_internal_set_m_AtlasIndex(int32_t value);
-
-  constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType& __cordl_internal_get_m_ClassDefinitionType();
-
-  constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType const& __cordl_internal_get_m_ClassDefinitionType() const;
-
-  constexpr void __cordl_internal_set_m_ClassDefinitionType(::UnityEngine::TextCore::GlyphClassDefinitionType value);
-
-  /// @brief Method get_index, addr 0x2d41464, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_index();
-
-  /// @brief Method set_index, addr 0x2d4146c, size 0x8, virtual false, abstract: false, final false
-  inline void set_index(uint32_t value);
-
-  /// @brief Method get_metrics, addr 0x2d41474, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::GlyphMetrics get_metrics();
-
-  /// @brief Method set_metrics, addr 0x2d41488, size 0x14, virtual false, abstract: false, final false
-  inline void set_metrics(::UnityEngine::TextCore::GlyphMetrics value);
-
-  /// @brief Method get_glyphRect, addr 0x2d4149c, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::GlyphRect get_glyphRect();
-
-  /// @brief Method set_glyphRect, addr 0x2d414a8, size 0x8, virtual false, abstract: false, final false
-  inline void set_glyphRect(::UnityEngine::TextCore::GlyphRect value);
-
-  /// @brief Method get_scale, addr 0x2d414b0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_scale();
-
-  /// @brief Method set_scale, addr 0x2d414b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_scale(float_t value);
-
-  /// @brief Method get_atlasIndex, addr 0x2d414c0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_atlasIndex();
-
-  /// @brief Method set_atlasIndex, addr 0x2d414c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_atlasIndex(int32_t value);
 
   static inline ::UnityEngine::TextCore::Glyph* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d414d0, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::UnityEngine::TextCore::Glyph* New_ctor(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct);
-
-  /// @brief Method .ctor, addr 0x2d414f8, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct);
 
   static inline ::UnityEngine::TextCore::Glyph* New_ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale,
                                                          int32_t atlasIndex);
 
-  /// @brief Method .ctor, addr 0x2d41584, size 0x70, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_m_AtlasIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_m_AtlasIndex();
+
+  constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType const& __cordl_internal_get_m_ClassDefinitionType() const;
+
+  constexpr ::UnityEngine::TextCore::GlyphClassDefinitionType& __cordl_internal_get_m_ClassDefinitionType();
+
+  constexpr ::UnityEngine::TextCore::GlyphRect const& __cordl_internal_get_m_GlyphRect() const;
+
+  constexpr ::UnityEngine::TextCore::GlyphRect& __cordl_internal_get_m_GlyphRect();
+
+  constexpr uint32_t const& __cordl_internal_get_m_Index() const;
+
+  constexpr uint32_t& __cordl_internal_get_m_Index();
+
+  constexpr ::UnityEngine::TextCore::GlyphMetrics const& __cordl_internal_get_m_Metrics() const;
+
+  constexpr ::UnityEngine::TextCore::GlyphMetrics& __cordl_internal_get_m_Metrics();
+
+  constexpr float_t const& __cordl_internal_get_m_Scale() const;
+
+  constexpr float_t& __cordl_internal_get_m_Scale();
+
+  constexpr void __cordl_internal_set_m_AtlasIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_m_ClassDefinitionType(::UnityEngine::TextCore::GlyphClassDefinitionType value);
+
+  constexpr void __cordl_internal_set_m_GlyphRect(::UnityEngine::TextCore::GlyphRect value);
+
+  constexpr void __cordl_internal_set_m_Index(uint32_t value);
+
+  constexpr void __cordl_internal_set_m_Metrics(::UnityEngine::TextCore::GlyphMetrics value);
+
+  constexpr void __cordl_internal_set_m_Scale(float_t value);
+
+  /// @brief Method .ctor, addr 0x2e2dbf8, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2e2dc20, size 0x8c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct glyphStruct);
+
+  /// @brief Method .ctor, addr 0x2e2dcac, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
+  /// @brief Method get_atlasIndex, addr 0x2e2dbe8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_atlasIndex();
+
+  /// @brief Method get_glyphRect, addr 0x2e2dbc4, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::TextCore::GlyphRect get_glyphRect();
+
+  /// @brief Method get_index, addr 0x2e2db8c, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t get_index();
+
+  /// @brief Method get_metrics, addr 0x2e2db9c, size 0x14, virtual false, abstract: false, final false
+  inline ::UnityEngine::TextCore::GlyphMetrics get_metrics();
+
+  /// @brief Method get_scale, addr 0x2e2dbd8, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_scale();
+
+  /// @brief Method set_atlasIndex, addr 0x2e2dbf0, size 0x8, virtual false, abstract: false, final false
+  inline void set_atlasIndex(int32_t value);
+
+  /// @brief Method set_glyphRect, addr 0x2e2dbd0, size 0x8, virtual false, abstract: false, final false
+  inline void set_glyphRect(::UnityEngine::TextCore::GlyphRect value);
+
+  /// @brief Method set_index, addr 0x2e2db94, size 0x8, virtual false, abstract: false, final false
+  inline void set_index(uint32_t value);
+
+  /// @brief Method set_metrics, addr 0x2e2dbb0, size 0x14, virtual false, abstract: false, final false
+  inline void set_metrics(::UnityEngine::TextCore::GlyphMetrics value);
+
+  /// @brief Method set_scale, addr 0x2e2dbe0, size 0x8, virtual false, abstract: false, final false
+  inline void set_scale(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Glyph();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Glyph", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Glyph(Glyph&&) = delete;
@@ -151,12 +156,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Glyph(Glyph const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Glyph();
-
-public:
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   uint32_t ___m_Index;
 

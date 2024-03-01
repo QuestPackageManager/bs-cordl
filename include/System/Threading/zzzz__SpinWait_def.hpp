@@ -15,47 +15,45 @@ MARK_VAL_T(::System::Threading::SpinWait);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2680))
 // CS Name: ::System.Threading::SpinWait
 struct CORDL_TYPE SpinWait {
 public:
   // Declarations
-  /// @brief Field SpinCountforSpinBeforeWait, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_SpinCountforSpinBeforeWait, put = setStaticF_SpinCountforSpinBeforeWait)) int32_t SpinCountforSpinBeforeWait;
-
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_NextSpinWillYield)) bool NextSpinWillYield;
 
-  static inline void setStaticF_SpinCountforSpinBeforeWait(int32_t value);
+  /// @brief Field SpinCountforSpinBeforeWait, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_SpinCountforSpinBeforeWait, put = setStaticF_SpinCountforSpinBeforeWait)) int32_t SpinCountforSpinBeforeWait;
+
+  /// @brief Method Reset, addr 0x2706824, size 0x8, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method SpinOnce, addr 0x2706564, size 0x8, virtual false, abstract: false, final false
+  inline void SpinOnce();
+
+  /// @brief Method SpinOnce, addr 0x27061f4, size 0xac, virtual false, abstract: false, final false
+  inline void SpinOnce(int32_t sleep1Threshold);
+
+  /// @brief Method SpinOnceCore, addr 0x2706680, size 0x1a4, virtual false, abstract: false, final false
+  inline void SpinOnceCore(int32_t sleep1Threshold);
 
   static inline int32_t getStaticF_SpinCountforSpinBeforeWait();
 
-  /// @brief Method get_Count, addr 0x2636f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2706600, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_NextSpinWillYield, addr 0x2636f14, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_NextSpinWillYield, addr 0x2706608, size 0x78, virtual false, abstract: false, final false
   inline bool get_NextSpinWillYield();
 
-  /// @brief Method SpinOnce, addr 0x2636e70, size 0x8, virtual false, abstract: false, final false
-  inline void SpinOnce();
-
-  /// @brief Method SpinOnce, addr 0x2636b00, size 0xac, virtual false, abstract: false, final false
-  inline void SpinOnce(int32_t sleep1Threshold);
-
-  /// @brief Method SpinOnceCore, addr 0x2636f8c, size 0x1a4, virtual false, abstract: false, final false
-  inline void SpinOnceCore(int32_t sleep1Threshold);
-
-  /// @brief Method Reset, addr 0x2637130, size 0x8, virtual false, abstract: false, final false
-  inline void Reset();
-
-  // Ctor Parameters [CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr SpinWait(int32_t _count) noexcept;
+  static inline void setStaticF_SpinCountforSpinBeforeWait(int32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SpinWait();
+
+  // Ctor Parameters [CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SpinWait(int32_t _count) noexcept;
 
   /// @brief Field _count, offset: 0x0, size: 0x4, def value: None
   int32_t _count;

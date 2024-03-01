@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::Unity::XR::OpenVR::ViveLighthouse);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5548))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5377))
 // CS Name: ::Unity.XR.OpenVR::ViveLighthouse*
 class CORDL_TYPE ViveLighthouse : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
   static inline ::Unity::XR::OpenVR::ViveLighthouse* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a37128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b1f1fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ViveLighthouse();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ViveLighthouse", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ViveLighthouse(ViveLighthouse&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ViveLighthouse(ViveLighthouse const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ViveLighthouse();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

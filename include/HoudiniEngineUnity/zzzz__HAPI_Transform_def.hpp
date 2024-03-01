@@ -20,27 +20,25 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Transform);
 // SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9506))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9518))
 // CS Name: ::HoudiniEngineUnity::HAPI_Transform
 struct CORDL_TYPE HAPI_Transform {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x221d270, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x22f391c, size 0xe0, virtual false, abstract: false, final false
+  inline void Init();
+
+  /// @brief Method .ctor, addr 0x22ea8d8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
-  /// @brief Method Init, addr 0x22262b4, size 0xe0, virtual false, abstract: false, final false
-  inline void Init();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_Transform();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "rotationQuaternion", ty:
   // "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name:
   // "shear", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "rstOrder", ty: "::HoudiniEngineUnity::HAPI_RSTOrder", modifiers: "", def_value: None }]
   constexpr HAPI_Transform(::ArrayW<float_t, ::Array<float_t>*> position, ::ArrayW<float_t, ::Array<float_t>*> rotationQuaternion, ::ArrayW<float_t, ::Array<float_t>*> scale,
                            ::ArrayW<float_t, ::Array<float_t>*> shear, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_Transform();
 
   /// @brief Field position, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> position;

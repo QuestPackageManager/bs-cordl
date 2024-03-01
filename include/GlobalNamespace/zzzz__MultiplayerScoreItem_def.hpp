@@ -37,86 +37,90 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerScoreItem);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4587))
 // CS Name: ::MultiplayerScoreItem*
 class CORDL_TYPE MultiplayerScoreItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _scoreText, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText))::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
+  /// @brief Field _nameColorTween, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__nameColorTween, put = __cordl_internal_set__nameColorTween))::Tweening::Tween_1<::UnityEngine::Color>* _nameColorTween;
 
   /// @brief Field _nameText, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
-  /// @brief Field _tweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
-
-  /// @brief Field _nameColorTween, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__nameColorTween, put = __cordl_internal_set__nameColorTween))::Tweening::Tween_1<::UnityEngine::Color>* _nameColorTween;
-
   /// @brief Field _scoreColorTween, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreColorTween, put = __cordl_internal_set__scoreColorTween))::Tweening::Tween_1<::UnityEngine::Color>* _scoreColorTween;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__scoreText();
+  /// @brief Field _scoreText, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText))::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__scoreText() const;
+  /// @brief Field _tweeningManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
+  /// @brief Method AnimateColors, addr 0x2477c20, size 0x114, virtual false, abstract: false, final false
+  inline void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
+  /// @brief Method Awake, addr 0x248666c, size 0x1b0, virtual false, abstract: false, final false
+  inline void Awake();
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
+  static inline ::GlobalNamespace::MultiplayerScoreItem* New_ctor();
 
-  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
+  /// @brief Method OnDestroy, addr 0x248681c, size 0x88, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+  /// @brief Method SetName, addr 0x2478440, size 0x24, virtual false, abstract: false, final false
+  inline void SetName(::StringW text);
 
-  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+  /// @brief Method SetPositionAndRotation, addr 0x24868a4, size 0x78, virtual false, abstract: false, final false
+  inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
+  /// @brief Method SetScore, addr 0x24784fc, size 0x24, virtual false, abstract: false, final false
+  inline void SetScore(::StringW text);
+
+  /// @brief Method <Awake>b__5_0, addr 0x2486924, size 0x24, virtual false, abstract: false, final false
+  inline void _Awake_b__5_0(::UnityEngine::Color val);
+
+  /// @brief Method <Awake>b__5_1, addr 0x2486948, size 0x24, virtual false, abstract: false, final false
+  inline void _Awake_b__5_1(::UnityEngine::Color val);
 
   constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __cordl_internal_get__nameColorTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& __cordl_internal_get__nameColorTween() const;
 
-  constexpr void __cordl_internal_set__nameColorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
 
   constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __cordl_internal_get__scoreColorTween();
 
   constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& __cordl_internal_get__scoreColorTween() const;
 
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__scoreText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__scoreText();
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
+
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
+
+  constexpr void __cordl_internal_set__nameColorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
+
+  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
+
   constexpr void __cordl_internal_set__scoreColorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
 
-  /// @brief Method Awake, addr 0x23b8724, size 0x1b0, virtual false, abstract: false, final false
-  inline void Awake();
+  constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method OnDestroy, addr 0x23b88d4, size 0x88, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method SetPositionAndRotation, addr 0x23b895c, size 0x78, virtual false, abstract: false, final false
-  inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
-
-  /// @brief Method AnimateColors, addr 0x23a9cd8, size 0x114, virtual false, abstract: false, final false
-  inline void AnimateColors(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType);
-
-  /// @brief Method SetName, addr 0x23aa4f8, size 0x24, virtual false, abstract: false, final false
-  inline void SetName(::StringW text);
-
-  /// @brief Method SetScore, addr 0x23aa5b4, size 0x24, virtual false, abstract: false, final false
-  inline void SetScore(::StringW text);
-
-  static inline ::GlobalNamespace::MultiplayerScoreItem* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23b89d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x248691c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__5_0, addr 0x23b89dc, size 0x24, virtual false, abstract: false, final false
-  inline void _Awake_b__5_0(::UnityEngine::Color val);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerScoreItem();
 
-  /// @brief Method <Awake>b__5_1, addr 0x23b8a00, size 0x24, virtual false, abstract: false, final false
-  inline void _Awake_b__5_1(::UnityEngine::Color val);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerScoreItem(MultiplayerScoreItem&&) = delete;
@@ -125,12 +129,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerScoreItem(MultiplayerScoreItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerScoreItem();
-
-public:
   /// @brief Field _scoreText, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 

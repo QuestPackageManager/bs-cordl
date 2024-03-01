@@ -20,15 +20,19 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10438))
 // CS Name: ::Zenject::SubContainerCreatorUtil*
 class CORDL_TYPE SubContainerCreatorUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyBindSettings, addr 0x2f2746c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindSettings, addr 0x301ab94, size 0x304, virtual false, abstract: false, final false
   static inline void ApplyBindSettings(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::DiContainer* subContainer);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SubContainerCreatorUtil();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorUtil", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SubContainerCreatorUtil(SubContainerCreatorUtil&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorUtil(SubContainerCreatorUtil const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubContainerCreatorUtil();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

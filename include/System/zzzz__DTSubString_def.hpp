@@ -23,24 +23,23 @@ MARK_VAL_T(::System::DTSubString);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2393)), TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2394)) CS Name: ::System::DTSubString
+// CS Name: ::System::DTSubString
 struct CORDL_TYPE DTSubString {
 public:
   // Declarations
   __declspec(property(get = get_Item)) char16_t Item[];
 
-  /// @brief Method get_Item, addr 0x25c875c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2697e40, size 0x2c, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t relativeIndex);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DTSubString();
 
   // Ctor Parameters [CppParam { name: "s", ty: "::System::ReadOnlySpan_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::System::DTSubStringType", modifiers: "", def_value: None }, CppParam { name: "value",
   // ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DTSubString(::System::ReadOnlySpan_1<char16_t> s, int32_t index, int32_t length, ::System::DTSubStringType type, int32_t value) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DTSubString();
 
   /// @brief Field s, offset: 0x0, size: 0x10, def value: None
   ::System::ReadOnlySpan_1<char16_t> s;

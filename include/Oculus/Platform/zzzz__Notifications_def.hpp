@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Notifications)
-namespace Oculus::Platform::Models {
-class RoomInviteNotificationList;
-}
-namespace Oculus::Platform {
-template <typename T> class Request_1;
-}
 namespace Oculus::Platform {
 class Request;
 }
@@ -24,22 +18,19 @@ MARK_REF_PTR_T(::Oculus::Platform::Notifications);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13294))
 // CS Name: ::Oculus.Platform::Notifications*
 class CORDL_TYPE Notifications : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRoomInviteNotifications, addr 0x27306fc, size 0x15c, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomInviteNotificationList*>* GetRoomInviteNotifications();
-
-  /// @brief Method MarkAsRead, addr 0x2730858, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method MarkAsRead, addr 0x27f069c, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* MarkAsRead(uint64_t notificationID);
 
-  /// @brief Method GetNextRoomInviteNotificationListPage, addr 0x27309a8, size 0x1e0, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RoomInviteNotificationList*>*
-  GetNextRoomInviteNotificationListPage(::Oculus::Platform::Models::RoomInviteNotificationList* list);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Notifications();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Notifications", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Notifications(Notifications&&) = delete;
@@ -48,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Notifications(Notifications const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Notifications();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

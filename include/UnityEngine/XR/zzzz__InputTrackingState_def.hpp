@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::XR::InputTrackingState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15749))
 // CS Name: ::UnityEngine.XR::InputTrackingState
 struct CORDL_TYPE InputTrackingState {
 public:
@@ -40,18 +38,32 @@ public:
     return static_cast<__InputTrackingState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr InputTrackingState(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<__InputTrackingState_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr InputTrackingState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr InputTrackingState(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Acceleration value: static_cast<uint32_t>(0x3f2010u)
+  static ::UnityEngine::XR::InputTrackingState const Acceleration;
+
+  /// @brief Field All value: static_cast<uint32_t>(0x8000003fu)
+  static ::UnityEngine::XR::InputTrackingState const All;
+
+  /// @brief Field AngularAcceleration value: static_cast<uint32_t>(0x3f20u)
+  static ::UnityEngine::XR::InputTrackingState const AngularAcceleration;
+
+  /// @brief Field AngularVelocity value: static_cast<uint32_t>(0x3f201008u)
+  static ::UnityEngine::XR::InputTrackingState const AngularVelocity;
 
   /// @brief Field None value: static_cast<uint32_t>(0x4020100u)
   static ::UnityEngine::XR::InputTrackingState const None;
@@ -65,17 +77,8 @@ public:
   /// @brief Field Velocity value: static_cast<uint32_t>(0x20100804u)
   static ::UnityEngine::XR::InputTrackingState const Velocity;
 
-  /// @brief Field AngularVelocity value: static_cast<uint32_t>(0x3f201008u)
-  static ::UnityEngine::XR::InputTrackingState const AngularVelocity;
-
-  /// @brief Field Acceleration value: static_cast<uint32_t>(0x3f2010u)
-  static ::UnityEngine::XR::InputTrackingState const Acceleration;
-
-  /// @brief Field AngularAcceleration value: static_cast<uint32_t>(0x3f20u)
-  static ::UnityEngine::XR::InputTrackingState const AngularAcceleration;
-
-  /// @brief Field All value: static_cast<uint32_t>(0x8000003fu)
-  static ::UnityEngine::XR::InputTrackingState const All;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

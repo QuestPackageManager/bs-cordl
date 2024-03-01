@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::CryptoException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1347))
 // CS Name: ::Org.BouncyCastle.Crypto::CryptoException*
 class CORDL_TYPE CryptoException : public ::System::Exception {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::CryptoException* New_ctor();
 
-  /// @brief Method .ctor, addr 0xff26e8, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Crypto::CryptoException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0xff2740, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Crypto::CryptoException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0xff27a8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10366b8, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x1036710, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x1036778, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CryptoException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CryptoException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CryptoException(CryptoException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CryptoException(CryptoException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CryptoException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

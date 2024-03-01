@@ -20,16 +20,25 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Generator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(451))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1Generator*
 class CORDL_TYPE Asn1Generator : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Out))::System::IO::Stream* Out;
+
   /// @brief Field _out, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out))::System::IO::Stream* _out;
 
-  __declspec(property(get = get_Out))::System::IO::Stream* Out;
+  /// @brief Method AddObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
+
+  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Close();
+
+  /// @brief Method GetRawOutputStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::IO::Stream* GetRawOutputStream();
+
+  static inline ::Org::BouncyCastle::Asn1::Asn1Generator* New_ctor(::System::IO::Stream* outStream);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get__out();
 
@@ -37,23 +46,18 @@ public:
 
   constexpr void __cordl_internal_set__out(::System::IO::Stream* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Asn1Generator* New_ctor(::System::IO::Stream* outStream);
-
-  /// @brief Method .ctor, addr 0x11e0c04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1223bd4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method get_Out, addr 0x11e0c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Out, addr 0x1223bfc, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_Out();
 
-  /// @brief Method AddObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Asn1Generator();
 
-  /// @brief Method GetRawOutputStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::IO::Stream* GetRawOutputStream();
-
-  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Close();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Generator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Generator(Asn1Generator&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Asn1Generator(Asn1Generator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Asn1Generator();
-
-public:
   /// @brief Field _out, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Stream* ____out;
 

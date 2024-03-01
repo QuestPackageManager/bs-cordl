@@ -18,41 +18,45 @@ MARK_REF_PTR_T(::VRUIControls::MouseButtonEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13065))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15827))
 // CS Name: ::VRUIControls::MouseButtonEventData*
 class CORDL_TYPE MouseButtonEventData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field buttonState, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_buttonState, put = __cordl_internal_set_buttonState))::UnityEngine::EventSystems::__PointerEventData__FramePressState buttonState;
-
   /// @brief Field buttonData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_buttonData, put = __cordl_internal_set_buttonData))::UnityEngine::EventSystems::PointerEventData* buttonData;
 
-  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState& __cordl_internal_get_buttonState();
+  /// @brief Field buttonState, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_buttonState, put = __cordl_internal_set_buttonState))::UnityEngine::EventSystems::__PointerEventData__FramePressState buttonState;
 
-  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState const& __cordl_internal_get_buttonState() const;
+  static inline ::VRUIControls::MouseButtonEventData* New_ctor();
 
-  constexpr void __cordl_internal_set_buttonState(::UnityEngine::EventSystems::__PointerEventData__FramePressState value);
+  /// @brief Method PressedThisFrame, addr 0x2fc3a14, size 0x10, virtual false, abstract: false, final false
+  inline bool PressedThisFrame();
+
+  /// @brief Method ReleasedThisFrame, addr 0x2fc3a24, size 0x14, virtual false, abstract: false, final false
+  inline bool ReleasedThisFrame();
 
   constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_buttonData();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __cordl_internal_get_buttonData() const;
 
+  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState const& __cordl_internal_get_buttonState() const;
+
+  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState& __cordl_internal_get_buttonState();
+
   constexpr void __cordl_internal_set_buttonData(::UnityEngine::EventSystems::PointerEventData* value);
 
-  /// @brief Method PressedThisFrame, addr 0x2ed02ec, size 0x10, virtual false, abstract: false, final false
-  inline bool PressedThisFrame();
+  constexpr void __cordl_internal_set_buttonState(::UnityEngine::EventSystems::__PointerEventData__FramePressState value);
 
-  /// @brief Method ReleasedThisFrame, addr 0x2ed02fc, size 0x14, virtual false, abstract: false, final false
-  inline bool ReleasedThisFrame();
-
-  static inline ::VRUIControls::MouseButtonEventData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ed0310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc3a38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseButtonEventData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseButtonEventData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseButtonEventData(MouseButtonEventData&&) = delete;
@@ -61,12 +65,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MouseButtonEventData(MouseButtonEventData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseButtonEventData();
-
-public:
   /// @brief Field buttonState, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::EventSystems::__PointerEventData__FramePressState ___buttonState;
 

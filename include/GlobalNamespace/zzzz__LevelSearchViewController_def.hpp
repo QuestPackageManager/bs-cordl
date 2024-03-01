@@ -95,23 +95,25 @@ MARK_VAL_T(::GlobalNamespace::__LevelSearchViewController___RefreshAsync_d__34);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(10776)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 876 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4972)) CS Name:
-// ::LevelSearchViewController::<RefreshAsync>d__34
+// CS Name: ::LevelSearchViewController::<RefreshAsync>d__34
 struct CORDL_TYPE __LevelSearchViewController___RefreshAsync_d__34 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x23c07bc, size 0x8c8, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x23c1084, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22f169c, size 0x8c8, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x22f1f64, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LevelSearchViewController___RefreshAsync_d__34();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelSearchViewController>",
@@ -120,10 +122,6 @@ public:
   constexpr __LevelSearchViewController___RefreshAsync_d__34(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelSearchViewController> __4__this,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LevelSearchViewController___RefreshAsync_d__34();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -158,19 +156,31 @@ static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController___RefreshA
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10813)), TypeDefinitionIndex(TypeDefinitionIndex(13558)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15101)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 1646 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4973)) CS
-// Name: ::LevelSearchViewController*
+// CS Name: ::LevelSearchViewController*
 class CORDL_TYPE LevelSearchViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   using _RefreshAsync_d__34 = ::GlobalNamespace::__LevelSearchViewController___RefreshAsync_d__34;
 
-  /// @brief Field _searchButton, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__searchButton, put = __cordl_internal_set__searchButton))::UnityW<::UnityEngine::UI::Button> _searchButton;
+  /// @brief Field _beatmapCharacteristicCollection, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
+                      put = __cordl_internal_set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
+
+  /// @brief Field _beatmapLevelPack, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelPack, put = __cordl_internal_set__beatmapLevelPack))::GlobalNamespace::BeatmapLevelPack* _beatmapLevelPack;
+
+  /// @brief Field _beatmapLevelPacks, offset 0x140, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevelPacks,
+                      put = __cordl_internal_set__beatmapLevelPacks))::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> _beatmapLevelPacks;
+
+  /// @brief Field _cancellationTokenSource, offset 0x138, size 0x8
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   /// @brief Field _clearFiltersButton, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__clearFiltersButton, put = __cordl_internal_set__clearFiltersButton))::UnityW<::UnityEngine::UI::Button> _clearFiltersButton;
+
+  /// @brief Field _currentSearchFilter, offset 0xe8, size 0x50
+  __declspec(property(get = __cordl_internal_get__currentSearchFilter, put = __cordl_internal_set__currentSearchFilter))::GlobalNamespace::LevelFilter _currentSearchFilter;
 
   /// @brief Field _filterParamsText, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__filterParamsText, put = __cordl_internal_set__filterParamsText))::UnityW<::TMPro::TextMeshProUGUI> _filterParamsText;
@@ -178,38 +188,11 @@ public:
   /// @brief Field _filterPlaceholder, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__filterPlaceholder, put = __cordl_internal_set__filterPlaceholder))::UnityW<::UnityEngine::GameObject> _filterPlaceholder;
 
-  /// @brief Field _searchTextInputFieldView, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__searchTextInputFieldView, put = __cordl_internal_set__searchTextInputFieldView))::UnityW<::HMUI::InputFieldView> _searchTextInputFieldView;
-
-  /// @brief Field _playerDataModel, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
-
-  /// @brief Field _songPackMasksModel, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__songPackMasksModel, put = __cordl_internal_set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
-
   /// @brief Field _levelsModel, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__levelsModel, put = __cordl_internal_set__levelsModel))::GlobalNamespace::IBeatmapLevelsModel* _levelsModel;
 
-  /// @brief Field _beatmapCharacteristicCollection, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
-                      put = __cordl_internal_set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
-
-  /// @brief Field didPressSearchButtonEvent, offset 0xb8, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_didPressSearchButtonEvent,
-      put = __cordl_internal_set_didPressSearchButtonEvent))::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* didPressSearchButtonEvent;
-
-  /// @brief Field didFilterBeatmapLevelCollectionEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFilterBeatmapLevelCollectionEvent,
-                      put = __cordl_internal_set_didFilterBeatmapLevelCollectionEvent))::System::Action_2<::GlobalNamespace::BeatmapLevelPack*,
-                                                                                                          ::GlobalNamespace::LevelSelectionOptions>* didFilterBeatmapLevelCollectionEvent;
-
-  /// @brief Field didStartLoadingEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_didStartLoadingEvent,
-                      put = __cordl_internal_set_didStartLoadingEvent))::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* didStartLoadingEvent;
-
-  /// @brief Field _beatmapLevelPack, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelPack, put = __cordl_internal_set__beatmapLevelPack))::GlobalNamespace::BeatmapLevelPack* _beatmapLevelPack;
+  /// @brief Field _playerDataModel, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _preferredBeatmapCharacteristic, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__preferredBeatmapCharacteristic,
@@ -219,198 +202,217 @@ public:
   __declspec(property(get = __cordl_internal_get__preferredBeatmapDifficulty,
                       put = __cordl_internal_set__preferredBeatmapDifficulty))::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> _preferredBeatmapDifficulty;
 
-  /// @brief Field _currentSearchFilter, offset 0xe8, size 0x50
-  __declspec(property(get = __cordl_internal_get__currentSearchFilter, put = __cordl_internal_set__currentSearchFilter))::GlobalNamespace::LevelFilter _currentSearchFilter;
+  /// @brief Field _searchButton, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__searchButton, put = __cordl_internal_set__searchButton))::UnityW<::UnityEngine::UI::Button> _searchButton;
 
-  /// @brief Field _cancellationTokenSource, offset 0x138, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+  /// @brief Field _searchTextInputFieldView, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__searchTextInputFieldView, put = __cordl_internal_set__searchTextInputFieldView))::UnityW<::HMUI::InputFieldView> _searchTextInputFieldView;
 
-  /// @brief Field _beatmapLevelPacks, offset 0x140, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelPacks,
-                      put = __cordl_internal_set__beatmapLevelPacks))::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> _beatmapLevelPacks;
+  /// @brief Field _songPackMasksModel, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__songPackMasksModel, put = __cordl_internal_set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__searchButton();
+  /// @brief Field didFilterBeatmapLevelCollectionEvent, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFilterBeatmapLevelCollectionEvent,
+                      put = __cordl_internal_set_didFilterBeatmapLevelCollectionEvent))::System::Action_2<::GlobalNamespace::BeatmapLevelPack*,
+                                                                                                          ::GlobalNamespace::LevelSelectionOptions>* didFilterBeatmapLevelCollectionEvent;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__searchButton() const;
+  /// @brief Field didPressSearchButtonEvent, offset 0xb8, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get_didPressSearchButtonEvent,
+      put = __cordl_internal_set_didPressSearchButtonEvent))::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* didPressSearchButtonEvent;
 
-  constexpr void __cordl_internal_set__searchButton(::UnityW<::UnityEngine::UI::Button> value);
+  /// @brief Field didStartLoadingEvent, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_didStartLoadingEvent,
+                      put = __cordl_internal_set_didStartLoadingEvent))::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* didStartLoadingEvent;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__clearFiltersButton();
+  /// @brief Method DidActivate, addr 0x23bfd9c, size 0x198, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearFiltersButton() const;
+  /// @brief Method DidDeactivate, addr 0x23bff34, size 0xbc, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  constexpr void __cordl_internal_set__clearFiltersButton(::UnityW<::UnityEngine::UI::Button> value);
+  /// @brief Method IsFilteringPlayCounts, addr 0x23bde58, size 0x8, virtual false, abstract: false, final false
+  inline bool IsFilteringPlayCounts();
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__filterParamsText();
+  /// @brief Method LocalizedLevelFilterParamsDescription, addr 0x23c00a4, size 0x604, virtual false, abstract: false, final false
+  static inline ::StringW LocalizedLevelFilterParamsDescription(ByRef<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
+                                                                ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* characteristics);
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__filterParamsText() const;
+  static inline ::GlobalNamespace::LevelSearchViewController* New_ctor();
 
-  constexpr void __cordl_internal_set__filterParamsText(::UnityW<::TMPro::TextMeshProUGUI> value);
+  /// @brief Method Refresh, addr 0x23bde60, size 0x4, virtual false, abstract: false, final false
+  inline void Refresh();
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__filterPlaceholder();
+  /// @brief Method Refresh, addr 0x23bfd7c, size 0x20, virtual false, abstract: false, final false
+  inline void Refresh(ByRef<::GlobalNamespace::LevelFilter> filter);
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__filterPlaceholder() const;
+  /// @brief Method RefreshAsync, addr 0x23bfce8, size 0x94, virtual false, abstract: false, final false
+  inline void RefreshAsync();
 
-  constexpr void __cordl_internal_set__filterPlaceholder(::UnityW<::UnityEngine::GameObject> value);
+  /// @brief Method ResetAllFilterSettings, addr 0x23bfc84, size 0x64, virtual false, abstract: false, final false
+  inline void ResetAllFilterSettings(bool onlyFavorites);
 
-  constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get__searchTextInputFieldView();
+  /// @brief Method ResetFilter, addr 0x23bdc7c, size 0x1c, virtual false, abstract: false, final false
+  inline void ResetFilter(bool onlyFavorites);
 
-  constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__searchTextInputFieldView() const;
+  /// @brief Method ResetOptionFilterSettings, addr 0x23bfff8, size 0x90, virtual false, abstract: false, final false
+  inline void ResetOptionFilterSettings(bool onlyFavorites);
 
-  constexpr void __cordl_internal_set__searchTextInputFieldView(::UnityW<::HMUI::InputFieldView> value);
+  /// @brief Method ResetTextFilterSettings, addr 0x23bfff0, size 0x8, virtual false, abstract: false, final false
+  inline void ResetTextFilterSettings(::StringW text);
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
+  /// @brief Method SearchTextInputFieldViewOnValueChanged, addr 0x23c0088, size 0x1c, virtual false, abstract: false, final false
+  inline void SearchTextInputFieldViewOnValueChanged(::HMUI::InputFieldView* inputFieldView);
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+  /// @brief Method Setup, addr 0x23bfc7c, size 0x8, virtual false, abstract: false, final false
+  inline void Setup(::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> beatmapLevelPacks);
 
-  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
+  /// @brief Method <DidActivate>b__29_0, addr 0x23c072c, size 0x6c, virtual false, abstract: false, final false
+  inline void _DidActivate_b__29_0();
 
-  constexpr ::GlobalNamespace::SongPackMasksModel*& __cordl_internal_get__songPackMasksModel();
+  /// @brief Method <DidActivate>b__29_1, addr 0x23c0798, size 0x24, virtual false, abstract: false, final false
+  inline void _DidActivate_b__29_1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __cordl_internal_get__songPackMasksModel() const;
-
-  constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
-
-  constexpr ::GlobalNamespace::IBeatmapLevelsModel*& __cordl_internal_get__levelsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelsModel*> const& __cordl_internal_get__levelsModel() const;
-
-  constexpr void __cordl_internal_set__levelsModel(::GlobalNamespace::IBeatmapLevelsModel* value);
+  /// @brief Method <LocalizedLevelFilterParamsDescription>g__Append|36_0, addr 0x23c06a8, size 0x7c, virtual false, abstract: false, final false
+  static inline void _LocalizedLevelFilterParamsDescription_g__Append_36_0(::System::Text::StringBuilder* sb, ::StringW value);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
-  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+  constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get__beatmapLevelPack();
 
-  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*& __cordl_internal_get_didPressSearchButtonEvent();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get__beatmapLevelPack() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*> const&
-  __cordl_internal_get_didPressSearchButtonEvent() const;
+  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> const& __cordl_internal_get__beatmapLevelPacks() const;
 
-  constexpr void __cordl_internal_set_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
+  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*>& __cordl_internal_get__beatmapLevelPacks();
+
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearFiltersButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__clearFiltersButton();
+
+  constexpr ::GlobalNamespace::LevelFilter const& __cordl_internal_get__currentSearchFilter() const;
+
+  constexpr ::GlobalNamespace::LevelFilter& __cordl_internal_get__currentSearchFilter();
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__filterParamsText() const;
+
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__filterParamsText();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__filterPlaceholder() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__filterPlaceholder();
+
+  constexpr ::GlobalNamespace::IBeatmapLevelsModel*& __cordl_internal_get__levelsModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelsModel*> const& __cordl_internal_get__levelsModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
+
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__preferredBeatmapCharacteristic() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__preferredBeatmapCharacteristic();
+
+  constexpr ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> const& __cordl_internal_get__preferredBeatmapDifficulty() const;
+
+  constexpr ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty>& __cordl_internal_get__preferredBeatmapDifficulty();
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__searchButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__searchButton();
+
+  constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__searchTextInputFieldView() const;
+
+  constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get__searchTextInputFieldView();
+
+  constexpr ::GlobalNamespace::SongPackMasksModel*& __cordl_internal_get__songPackMasksModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __cordl_internal_get__songPackMasksModel() const;
 
   constexpr ::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>*& __cordl_internal_get_didFilterBeatmapLevelCollectionEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>*> const&
   __cordl_internal_get_didFilterBeatmapLevelCollectionEvent() const;
 
-  constexpr void __cordl_internal_set_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*& __cordl_internal_get_didPressSearchButtonEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*> const&
+  __cordl_internal_get_didPressSearchButtonEvent() const;
 
   constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*& __cordl_internal_get_didStartLoadingEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*> const& __cordl_internal_get_didStartLoadingEvent() const;
 
-  constexpr void __cordl_internal_set_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
-
-  constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get__beatmapLevelPack();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get__beatmapLevelPack() const;
+  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
 
   constexpr void __cordl_internal_set__beatmapLevelPack(::GlobalNamespace::BeatmapLevelPack* value);
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__preferredBeatmapCharacteristic();
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__preferredBeatmapCharacteristic() const;
-
-  constexpr void __cordl_internal_set__preferredBeatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
-
-  constexpr ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty>& __cordl_internal_get__preferredBeatmapDifficulty();
-
-  constexpr ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> const& __cordl_internal_get__preferredBeatmapDifficulty() const;
-
-  constexpr void __cordl_internal_set__preferredBeatmapDifficulty(::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> value);
-
-  constexpr ::GlobalNamespace::LevelFilter& __cordl_internal_get__currentSearchFilter();
-
-  constexpr ::GlobalNamespace::LevelFilter const& __cordl_internal_get__currentSearchFilter() const;
-
-  constexpr void __cordl_internal_set__currentSearchFilter(::GlobalNamespace::LevelFilter value);
-
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
+  constexpr void __cordl_internal_set__beatmapLevelPacks(::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> value);
 
   constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*>& __cordl_internal_get__beatmapLevelPacks();
+  constexpr void __cordl_internal_set__clearFiltersButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> const& __cordl_internal_get__beatmapLevelPacks() const;
+  constexpr void __cordl_internal_set__currentSearchFilter(::GlobalNamespace::LevelFilter value);
 
-  constexpr void __cordl_internal_set__beatmapLevelPacks(::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> value);
+  constexpr void __cordl_internal_set__filterParamsText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method add_didPressSearchButtonEvent, addr 0x22f0714, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
+  constexpr void __cordl_internal_set__filterPlaceholder(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method remove_didPressSearchButtonEvent, addr 0x22f07c4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
+  constexpr void __cordl_internal_set__levelsModel(::GlobalNamespace::IBeatmapLevelsModel* value);
 
-  /// @brief Method add_didFilterBeatmapLevelCollectionEvent, addr 0x22f0874, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method remove_didFilterBeatmapLevelCollectionEvent, addr 0x22f0924, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
+  constexpr void __cordl_internal_set__preferredBeatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  /// @brief Method add_didStartLoadingEvent, addr 0x22f09d4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
+  constexpr void __cordl_internal_set__preferredBeatmapDifficulty(::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> value);
 
-  /// @brief Method remove_didStartLoadingEvent, addr 0x22f0a84, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
+  constexpr void __cordl_internal_set__searchButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method IsFilteringPlayCounts, addr 0x22f0b34, size 0x8, virtual false, abstract: false, final false
-  inline bool IsFilteringPlayCounts();
+  constexpr void __cordl_internal_set__searchTextInputFieldView(::UnityW<::HMUI::InputFieldView> value);
 
-  /// @brief Method Setup, addr 0x22f0b3c, size 0x8, virtual false, abstract: false, final false
-  inline void Setup(::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*> beatmapLevelPacks);
+  constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  /// @brief Method ResetFilter, addr 0x22f0b44, size 0x1c, virtual false, abstract: false, final false
-  inline void ResetFilter(bool onlyFavorites);
+  constexpr void __cordl_internal_set_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
-  /// @brief Method Refresh, addr 0x22f0bc4, size 0x4, virtual false, abstract: false, final false
-  inline void Refresh();
+  constexpr void __cordl_internal_set_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method Refresh, addr 0x22f0c5c, size 0x20, virtual false, abstract: false, final false
-  inline void Refresh(ByRef<::GlobalNamespace::LevelFilter> filter);
+  constexpr void __cordl_internal_set_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
-  /// @brief Method DidActivate, addr 0x22f0c7c, size 0x198, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-  /// @brief Method DidDeactivate, addr 0x22f0e14, size 0xbc, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-
-  /// @brief Method ResetAllFilterSettings, addr 0x22f0b60, size 0x64, virtual false, abstract: false, final false
-  inline void ResetAllFilterSettings(bool onlyFavorites);
-
-  /// @brief Method ResetTextFilterSettings, addr 0x22f0ed0, size 0x8, virtual false, abstract: false, final false
-  inline void ResetTextFilterSettings(::StringW text);
-
-  /// @brief Method ResetOptionFilterSettings, addr 0x22f0ed8, size 0x90, virtual false, abstract: false, final false
-  inline void ResetOptionFilterSettings(bool onlyFavorites);
-
-  /// @brief Method RefreshAsync, addr 0x22f0bc8, size 0x94, virtual false, abstract: false, final false
-  inline void RefreshAsync();
-
-  /// @brief Method SearchTextInputFieldViewOnValueChanged, addr 0x22f0f68, size 0x1c, virtual false, abstract: false, final false
-  inline void SearchTextInputFieldViewOnValueChanged(::HMUI::InputFieldView* inputFieldView);
-
-  /// @brief Method LocalizedLevelFilterParamsDescription, addr 0x22f0f84, size 0x604, virtual false, abstract: false, final false
-  static inline ::StringW LocalizedLevelFilterParamsDescription(ByRef<::GlobalNamespace::LevelFilter> filter, ::GlobalNamespace::SongPackMasksModel* songPackMasksModel,
-                                                                ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* characteristics);
-
-  static inline ::GlobalNamespace::LevelSearchViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22f1604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c0724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__29_0, addr 0x22f160c, size 0x6c, virtual false, abstract: false, final false
-  inline void _DidActivate_b__29_0();
+  /// @brief Method add_didFilterBeatmapLevelCollectionEvent, addr 0x23bce18, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
 
-  /// @brief Method <DidActivate>b__29_1, addr 0x22f1678, size 0x24, virtual false, abstract: false, final false
-  inline void _DidActivate_b__29_1();
+  /// @brief Method add_didPressSearchButtonEvent, addr 0x23bfb1c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method <LocalizedLevelFilterParamsDescription>g__Append|36_0, addr 0x22f1588, size 0x7c, virtual false, abstract: false, final false
-  static inline void _LocalizedLevelFilterParamsDescription_g__Append_36_0(::System::Text::StringBuilder* sb, ::StringW value);
+  /// @brief Method add_didStartLoadingEvent, addr 0x23bcec8, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
 
+  /// @brief Method remove_didFilterBeatmapLevelCollectionEvent, addr 0x23bd514, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>* value);
+
+  /// @brief Method remove_didPressSearchButtonEvent, addr 0x23bfbcc, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didPressSearchButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>* value);
+
+  /// @brief Method remove_didStartLoadingEvent, addr 0x23bd5c4, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didStartLoadingEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LevelSearchViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LevelSearchViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LevelSearchViewController(LevelSearchViewController&&) = delete;
@@ -419,12 +421,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LevelSearchViewController(LevelSearchViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelSearchViewController();
-
-public:
   /// @brief Field _searchButton, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____searchButton;
 

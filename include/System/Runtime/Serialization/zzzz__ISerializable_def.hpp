@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ISerializable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3196))
 // CS Name: ::System.Runtime.Serialization::ISerializable*
 class CORDL_TYPE ISerializable {
 public:

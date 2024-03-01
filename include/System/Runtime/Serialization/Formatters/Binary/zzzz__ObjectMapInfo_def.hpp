@@ -20,57 +20,61 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectMapIn
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3280))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectMapInfo*
 class CORDL_TYPE ObjectMapInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field objectId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
-
-  /// @brief Field numMembers, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_numMembers, put = __cordl_internal_set_numMembers)) int32_t numMembers;
-
   /// @brief Field memberNames, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_memberNames, put = __cordl_internal_set_memberNames))::ArrayW<::StringW, ::Array<::StringW>*> memberNames;
 
   /// @brief Field memberTypes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_memberTypes, put = __cordl_internal_set_memberTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes;
 
-  constexpr int32_t& __cordl_internal_get_objectId();
+  /// @brief Field numMembers, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_numMembers, put = __cordl_internal_set_numMembers)) int32_t numMembers;
 
-  constexpr int32_t const& __cordl_internal_get_objectId() const;
-
-  constexpr void __cordl_internal_set_objectId(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_numMembers();
-
-  constexpr int32_t const& __cordl_internal_get_numMembers() const;
-
-  constexpr void __cordl_internal_set_numMembers(int32_t value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_memberNames();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_memberNames() const;
-
-  constexpr void __cordl_internal_set_memberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_memberTypes();
-
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_memberTypes() const;
-
-  constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  /// @brief Field objectId, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo* New_ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                                                                                               ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method .ctor, addr 0x24e8250, size 0x40, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_memberNames() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_memberNames();
+
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_memberTypes() const;
+
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_memberTypes();
+
+  constexpr int32_t const& __cordl_internal_get_numMembers() const;
+
+  constexpr int32_t& __cordl_internal_get_numMembers();
+
+  constexpr int32_t const& __cordl_internal_get_objectId() const;
+
+  constexpr int32_t& __cordl_internal_get_objectId();
+
+  constexpr void __cordl_internal_set_memberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+
+  constexpr void __cordl_internal_set_numMembers(int32_t value);
+
+  constexpr void __cordl_internal_set_objectId(int32_t value);
+
+  /// @brief Method .ctor, addr 0x25b8f48, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method isCompatible, addr 0x24e8114, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method isCompatible, addr 0x25b8e0c, size 0x13c, virtual false, abstract: false, final false
   inline bool isCompatible(int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObjectMapInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObjectMapInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectMapInfo(ObjectMapInfo&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectMapInfo(ObjectMapInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectMapInfo();
-
-public:
   /// @brief Field objectId, offset: 0x10, size: 0x4, def value: None
   int32_t ___objectId;
 

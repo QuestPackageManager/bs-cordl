@@ -28,12 +28,14 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::IndexFilter);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11212)), TypeDefinitionIndex(TypeDefinitionIndex(11213)), TypeDefinitionIndex(TypeDefinitionIndex(11214))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11141))
 // CS Name: ::BeatmapSaveDataVersion4::IndexFilter
 struct CORDL_TYPE IndexFilter {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IndexFilter();
+
   // Ctor Parameters [CppParam { name: "f", ty: "::BeatmapSaveDataCommon::IndexFilterType", modifiers: "", def_value: None }, CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "t", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "r", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "c", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "n", ty: "::BeatmapSaveDataCommon::IndexFilterRandomType", modifiers: "", def_value: None }, CppParam { name: "s", ty: "int32_t", modifiers: "", def_value:
@@ -41,10 +43,6 @@ public:
   // }]
   constexpr IndexFilter(::BeatmapSaveDataCommon::IndexFilterType f, int32_t p, int32_t t, int32_t r, int32_t c, ::BeatmapSaveDataCommon::IndexFilterRandomType n, int32_t s, float_t l,
                         ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType d) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IndexFilter();
 
   /// @brief Field f, offset: 0x0, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::IndexFilterType f;

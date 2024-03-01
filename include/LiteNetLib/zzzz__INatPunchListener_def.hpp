@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::LiteNetLib::INatPunchListener);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14158))
 // CS Name: ::LiteNetLib::INatPunchListener*
 class CORDL_TYPE INatPunchListener {
 public:

@@ -27,71 +27,75 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::GrounderVRIK);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12416))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12423))
 // CS Name: ::RootMotion.FinalIK::GrounderVRIK*
 class CORDL_TYPE GrounderVRIK : public ::RootMotion::FinalIK::Grounder {
 public:
   // Declarations
-  /// @brief Field ik, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::VRIK> ik;
-
   /// @brief Field feet, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_feet, put = __cordl_internal_set_feet))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> feet;
 
-  constexpr ::UnityW<::RootMotion::FinalIK::VRIK>& __cordl_internal_get_ik();
+  /// @brief Field ik, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::VRIK> ik;
 
-  constexpr ::UnityW<::RootMotion::FinalIK::VRIK> const& __cordl_internal_get_ik() const;
-
-  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::VRIK> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_feet();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_feet() const;
-
-  constexpr void __cordl_internal_set_feet(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
-
-  /// @brief Method OpenTutorial, addr 0x12e5260, size 0x44, virtual false, abstract: false, final false
-  inline void OpenTutorial();
-
-  /// @brief Method OpenUserManual, addr 0x12e52a4, size 0x44, virtual true, abstract: false, final false
-  inline void OpenUserManual();
-
-  /// @brief Method OpenScriptReference, addr 0x12e52e8, size 0x44, virtual true, abstract: false, final false
-  inline void OpenScriptReference();
-
-  /// @brief Method ResetPosition, addr 0x12e532c, size 0x18, virtual true, abstract: false, final false
-  inline void ResetPosition();
-
-  /// @brief Method IsReadyToInitiate, addr 0x12e5344, size 0x88, virtual false, abstract: false, final false
-  inline bool IsReadyToInitiate();
-
-  /// @brief Method Update, addr 0x12e53cc, size 0x54, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method Initiate, addr 0x12e5420, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Initiate, addr 0x132740c, size 0x238, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method OnSolverUpdate, addr 0x12e5658, size 0x1f4, virtual false, abstract: false, final false
-  inline void OnSolverUpdate();
-
-  /// @brief Method SetLegIK, addr 0x12e584c, size 0x84, virtual false, abstract: false, final false
-  inline void SetLegIK(::RootMotion::FinalIK::__IKSolverVR__PositionOffset positionOffset, ::UnityEngine::Transform* bone, ::RootMotion::FinalIK::__Grounding__Leg* leg);
-
-  /// @brief Method OnPostSolverUpdate, addr 0x12e58d0, size 0x29c, virtual false, abstract: false, final false
-  inline void OnPostSolverUpdate();
-
-  /// @brief Method OnDrawGizmosSelected, addr 0x12e5b6c, size 0x134, virtual false, abstract: false, final false
-  inline void OnDrawGizmosSelected();
-
-  /// @brief Method OnDestroy, addr 0x12e5ca0, size 0x198, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  /// @brief Method IsReadyToInitiate, addr 0x1327330, size 0x88, virtual false, abstract: false, final false
+  inline bool IsReadyToInitiate();
 
   static inline ::RootMotion::FinalIK::GrounderVRIK* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12e5e38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1327c8c, size 0x198, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method OnDrawGizmosSelected, addr 0x1327b58, size 0x134, virtual false, abstract: false, final false
+  inline void OnDrawGizmosSelected();
+
+  /// @brief Method OnPostSolverUpdate, addr 0x13278bc, size 0x29c, virtual false, abstract: false, final false
+  inline void OnPostSolverUpdate();
+
+  /// @brief Method OnSolverUpdate, addr 0x1327644, size 0x1f4, virtual false, abstract: false, final false
+  inline void OnSolverUpdate();
+
+  /// @brief Method OpenScriptReference, addr 0x13272d4, size 0x44, virtual true, abstract: false, final false
+  inline void OpenScriptReference();
+
+  /// @brief Method OpenTutorial, addr 0x132724c, size 0x44, virtual false, abstract: false, final false
+  inline void OpenTutorial();
+
+  /// @brief Method OpenUserManual, addr 0x1327290, size 0x44, virtual true, abstract: false, final false
+  inline void OpenUserManual();
+
+  /// @brief Method ResetPosition, addr 0x1327318, size 0x18, virtual true, abstract: false, final false
+  inline void ResetPosition();
+
+  /// @brief Method SetLegIK, addr 0x1327838, size 0x84, virtual false, abstract: false, final false
+  inline void SetLegIK(::RootMotion::FinalIK::__IKSolverVR__PositionOffset positionOffset, ::UnityEngine::Transform* bone, ::RootMotion::FinalIK::__Grounding__Leg* leg);
+
+  /// @brief Method Update, addr 0x13273b8, size 0x54, virtual false, abstract: false, final false
+  inline void Update();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_feet() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_feet();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::VRIK> const& __cordl_internal_get_ik() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::VRIK>& __cordl_internal_get_ik();
+
+  constexpr void __cordl_internal_set_feet(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::VRIK> value);
+
+  /// @brief Method .ctor, addr 0x1327e24, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GrounderVRIK();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GrounderVRIK", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GrounderVRIK(GrounderVRIK&&) = delete;
@@ -100,12 +104,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GrounderVRIK(GrounderVRIK const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GrounderVRIK();
-
-public:
   /// @brief Field ik, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::RootMotion::FinalIK::VRIK> ___ik;
 

@@ -20,12 +20,14 @@ MARK_VAL_T(::UnityEngine::ModifiableContact);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13904))
 // CS Name: ::UnityEngine::ModifiableContact
 struct CORDL_TYPE ModifiableContact {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ModifiableContact();
+
   // Ctor Parameters [CppParam { name: "contact", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "separation", ty: "float_t", modifiers: "", def_value: None },
   // CppParam { name: "targetVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "maxImpulse", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "restitution", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "materialFlags", ty:
@@ -33,10 +35,6 @@ public:
   // "", def_value: None }, CppParam { name: "staticFriction", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "dynamicFriction", ty: "float_t", modifiers: "", def_value: None }]
   constexpr ModifiableContact(::UnityEngine::Vector3 contact, float_t separation, ::UnityEngine::Vector3 targetVelocity, float_t maxImpulse, ::UnityEngine::Vector3 normal, float_t restitution,
                               uint32_t materialFlags, uint16_t materialIndex, uint16_t otherMaterialIndex, float_t staticFriction, float_t dynamicFriction) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ModifiableContact();
 
   /// @brief Field contact, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 contact;

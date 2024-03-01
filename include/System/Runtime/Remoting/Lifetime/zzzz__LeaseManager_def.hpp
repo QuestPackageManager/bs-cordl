@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::LeaseManager);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3094))
 // CS Name: ::System.Runtime.Remoting.Lifetime::LeaseManager*
 class CORDL_TYPE LeaseManager : public ::System::Object {
 public:
@@ -41,38 +39,44 @@ public:
   /// @brief Field _timer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer))::System::Threading::Timer* _timer;
 
+  /// @brief Method ManageLeases, addr 0x258e76c, size 0x264, virtual false, abstract: false, final false
+  inline void ManageLeases(::System::Object* state);
+
+  static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* New_ctor();
+
+  /// @brief Method SetPollTime, addr 0x258e3c4, size 0xf8, virtual false, abstract: false, final false
+  inline void SetPollTime(::System::TimeSpan timeSpan);
+
+  /// @brief Method StartManager, addr 0x258e5f0, size 0x160, virtual false, abstract: false, final false
+  inline void StartManager();
+
+  /// @brief Method StopManager, addr 0x258e750, size 0x1c, virtual false, abstract: false, final false
+  inline void StopManager();
+
+  /// @brief Method TrackLifetime, addr 0x258e4bc, size 0x134, virtual false, abstract: false, final false
+  inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
+
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__objects();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__objects() const;
-
-  constexpr void __cordl_internal_set__objects(::System::Collections::ArrayList* value);
 
   constexpr ::System::Threading::Timer*& __cordl_internal_get__timer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& __cordl_internal_get__timer() const;
 
+  constexpr void __cordl_internal_set__objects(::System::Collections::ArrayList* value);
+
   constexpr void __cordl_internal_set__timer(::System::Threading::Timer* value);
 
-  /// @brief Method SetPollTime, addr 0x24bd6cc, size 0xf8, virtual false, abstract: false, final false
-  inline void SetPollTime(::System::TimeSpan timeSpan);
-
-  /// @brief Method TrackLifetime, addr 0x24bd7c4, size 0x134, virtual false, abstract: false, final false
-  inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
-
-  /// @brief Method StartManager, addr 0x24bd8f8, size 0x160, virtual false, abstract: false, final false
-  inline void StartManager();
-
-  /// @brief Method StopManager, addr 0x24bda58, size 0x1c, virtual false, abstract: false, final false
-  inline void StopManager();
-
-  /// @brief Method ManageLeases, addr 0x24bda74, size 0x264, virtual false, abstract: false, final false
-  inline void ManageLeases(::System::Object* state);
-
-  static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24bdcd8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258e9d0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LeaseManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LeaseManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaseManager(LeaseManager&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LeaseManager(LeaseManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LeaseManager();
-
-public:
   /// @brief Field _objects, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____objects;
 

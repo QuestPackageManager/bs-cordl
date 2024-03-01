@@ -28,76 +28,80 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParamet
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1020))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1041))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Ed25519PrivateKeyParameters*
 class CORDL_TYPE Ed25519PrivateKeyParameters : public ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
 public:
   // Declarations
-  /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
-
-  /// @brief Field cachedPublicKey, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_cachedPublicKey, put = __cordl_internal_set_cachedPublicKey))::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* cachedPublicKey;
-
   /// @brief Field KeySize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_KeySize, put = setStaticF_KeySize)) int32_t KeySize;
 
   /// @brief Field SignatureSize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_SignatureSize, put = setStaticF_SignatureSize)) int32_t SignatureSize;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
+  /// @brief Field cachedPublicKey, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_cachedPublicKey, put = __cordl_internal_set_cachedPublicKey))::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* cachedPublicKey;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
+  /// @brief Field data, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
-  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method Encode, addr 0xfa40dc, size 0x84, virtual false, abstract: false, final false
+  inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
+
+  /// @brief Method GeneratePublicKey, addr 0xfa41bc, size 0x174, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* GeneratePublicKey();
+
+  /// @brief Method GetEncoded, addr 0xfa4160, size 0x5c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* New_ctor(::System::IO::Stream* input);
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
+
+  /// @brief Method Sign, addr 0xfa440c, size 0x280, virtual false, abstract: false, final false
+  inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> msg, int32_t msgOff,
+                   int32_t msgLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
+
+  /// @brief Method Sign, addr 0xfa43ec, size 0x20, virtual false, abstract: false, final false
+  inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm algorithm, ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey,
+                   ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> msg, int32_t msgOff, int32_t msgLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& __cordl_internal_get_cachedPublicKey();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*> const& __cordl_internal_get_cachedPublicKey() const;
 
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
+
   constexpr void __cordl_internal_set_cachedPublicKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
 
-  static inline void setStaticF_KeySize(int32_t value);
+  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0xfa3f10, size 0xc0, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
+
+  /// @brief Method .ctor, addr 0xfa3fd0, size 0x10c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IO::Stream* input);
+
+  /// @brief Method .ctor, addr 0xfa3e40, size 0xd0, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline int32_t getStaticF_KeySize();
 
-  static inline void setStaticF_SignatureSize(int32_t value);
-
   static inline int32_t getStaticF_SignatureSize();
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
+  static inline void setStaticF_KeySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0xf5ee70, size 0xd0, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
+  static inline void setStaticF_SignatureSize(int32_t value);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Ed25519PrivateKeyParameters();
 
-  /// @brief Method .ctor, addr 0xf5ef40, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* New_ctor(::System::IO::Stream* input);
-
-  /// @brief Method .ctor, addr 0xf5f000, size 0x10c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* input);
-
-  /// @brief Method Encode, addr 0xf5f10c, size 0x84, virtual false, abstract: false, final false
-  inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
-
-  /// @brief Method GetEncoded, addr 0xf5f190, size 0x5c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
-
-  /// @brief Method GeneratePublicKey, addr 0xf5f1ec, size 0x174, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* GeneratePublicKey();
-
-  /// @brief Method Sign, addr 0xf5f41c, size 0x20, virtual false, abstract: false, final false
-  inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm algorithm, ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey,
-                   ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> msg, int32_t msgOff, int32_t msgLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
-
-  /// @brief Method Sign, addr 0xf5f43c, size 0x280, virtual false, abstract: false, final false
-  inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> msg, int32_t msgOff,
-                   int32_t msgLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Ed25519PrivateKeyParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Ed25519PrivateKeyParameters(Ed25519PrivateKeyParameters&&) = delete;
@@ -106,12 +110,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Ed25519PrivateKeyParameters(Ed25519PrivateKeyParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Ed25519PrivateKeyParameters();
-
-public:
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___data;
 

@@ -34,38 +34,42 @@ namespace Newtonsoft::Json::Converters {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11728))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11931))
 // CS Name: ::Newtonsoft.Json.Converters::EnumerableVectorConverter`1<T>*
 class CORDL_TYPE EnumerableVectorConverter_1 : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Field VectorConverter, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_VectorConverter, put = setStaticF_VectorConverter))::Newtonsoft::Json::Converters::VectorConverter* VectorConverter;
-
   __declspec(property(get = get_CanRead)) bool CanRead;
 
-  static inline void setStaticF_VectorConverter(::Newtonsoft::Json::Converters::VectorConverter* value);
-
-  static inline ::Newtonsoft::Json::Converters::VectorConverter* getStaticF_VectorConverter();
-
-  /// @brief Method WriteJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+  /// @brief Field VectorConverter, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_VectorConverter, put = setStaticF_VectorConverter))::Newtonsoft::Json::Converters::VectorConverter* VectorConverter;
 
   /// @brief Method CanConvert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
+  static inline ::Newtonsoft::Json::Converters::EnumerableVectorConverter_1<T>* New_ctor();
+
   /// @brief Method ReadJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method get_CanRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_CanRead();
-
-  static inline ::Newtonsoft::Json::Converters::EnumerableVectorConverter_1<T>* New_ctor();
+  /// @brief Method WriteJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::Newtonsoft::Json::Converters::VectorConverter* getStaticF_VectorConverter();
+
+  /// @brief Method get_CanRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_CanRead();
+
+  static inline void setStaticF_VectorConverter(::Newtonsoft::Json::Converters::VectorConverter* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnumerableVectorConverter_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnumerableVectorConverter_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnumerableVectorConverter_1(EnumerableVectorConverter_1&&) = delete;
@@ -74,12 +78,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnumerableVectorConverter_1(EnumerableVectorConverter_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnumerableVectorConverter_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

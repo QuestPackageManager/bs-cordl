@@ -15,35 +15,39 @@ MARK_REF_PTR_T(::UnityEngine::RangeAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8914))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8920))
 // CS Name: ::UnityEngine::RangeAttribute*
 class CORDL_TYPE RangeAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field min, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
-
   /// @brief Field max, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
 
-  constexpr float_t& __cordl_internal_get_min();
-
-  constexpr float_t const& __cordl_internal_get_min() const;
-
-  constexpr void __cordl_internal_set_min(float_t value);
-
-  constexpr float_t& __cordl_internal_get_max();
-
-  constexpr float_t const& __cordl_internal_get_max() const;
-
-  constexpr void __cordl_internal_set_max(float_t value);
+  /// @brief Field min, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
   static inline ::UnityEngine::RangeAttribute* New_ctor(float_t min, float_t max);
 
-  /// @brief Method .ctor, addr 0x2cd3244, size 0x2c, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get_max() const;
+
+  constexpr float_t& __cordl_internal_get_max();
+
+  constexpr float_t const& __cordl_internal_get_min() const;
+
+  constexpr float_t& __cordl_internal_get_min();
+
+  constexpr void __cordl_internal_set_max(float_t value);
+
+  constexpr void __cordl_internal_set_min(float_t value);
+
+  /// @brief Method .ctor, addr 0x2dbe894, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t min, float_t max);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RangeAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RangeAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RangeAttribute(RangeAttribute&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RangeAttribute(RangeAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RangeAttribute();
-
-public:
   /// @brief Field min, offset: 0x10, size: 0x4, def value: None
   float_t ___min;
 

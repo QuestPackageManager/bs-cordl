@@ -41,12 +41,14 @@ MARK_REF_PTR_T(::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4034))
 // CS Name: ::SongProfilingController::<ProfileCoroutine>d__8*
 class CORDL_TYPE __SongProfilingController___ProfileCoroutine_d__8 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -56,11 +58,8 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::SongProfilingController> __4__this;
 
-  /// @brief Field folderName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_folderName, put = __cordl_internal_set_folderName))::StringW folderName;
-
-  /// @brief Field <startTime>5__2, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__startTime_5__2, put = __cordl_internal_set__startTime_5__2)) float_t _startTime_5__2;
+  /// @brief Field <i>5__5, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__i_5__5, put = __cordl_internal_set__i_5__5)) int32_t _i_5__5;
 
   /// @brief Field <lastFileName>5__3, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lastFileName_5__3, put = __cordl_internal_set__lastFileName_5__3))::StringW _lastFileName_5__3;
@@ -68,99 +67,104 @@ public:
   /// @brief Field <lowFPSCount>5__4, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__lowFPSCount_5__4, put = __cordl_internal_set__lowFPSCount_5__4)) int32_t _lowFPSCount_5__4;
 
-  /// @brief Field <i>5__5, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__i_5__5, put = __cordl_internal_set__i_5__5)) int32_t _i_5__5;
+  /// @brief Field <startTime>5__2, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__startTime_5__2, put = __cordl_internal_set__startTime_5__2)) float_t _startTime_5__2;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  /// @brief Field folderName, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_folderName, put = __cordl_internal_set_folderName))::StringW folderName;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method MoveNext, addr 0x23882ec, size 0x2dc, virtual true, abstract: false, final true
+  inline bool MoveNext();
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+  static inline ::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23885c8, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23885d0, size 0x40, virtual true, abstract: false, final true
+  inline void System_Collections_IEnumerator_Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2388610, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  /// @brief Method System.IDisposable.Dispose, addr 0x23882e8, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+  constexpr int32_t& __cordl_internal_get___1__state();
 
   constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+  constexpr ::UnityW<::GlobalNamespace::SongProfilingController> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::SongProfilingController>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityW<::GlobalNamespace::SongProfilingController> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SongProfilingController> value);
-
-  constexpr ::StringW& __cordl_internal_get_folderName();
-
-  constexpr ::StringW const& __cordl_internal_get_folderName() const;
-
-  constexpr void __cordl_internal_set_folderName(::StringW value);
-
-  constexpr float_t& __cordl_internal_get__startTime_5__2();
-
-  constexpr float_t const& __cordl_internal_get__startTime_5__2() const;
-
-  constexpr void __cordl_internal_set__startTime_5__2(float_t value);
-
-  constexpr ::StringW& __cordl_internal_get__lastFileName_5__3();
-
-  constexpr ::StringW const& __cordl_internal_get__lastFileName_5__3() const;
-
-  constexpr void __cordl_internal_set__lastFileName_5__3(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get__lowFPSCount_5__4();
-
-  constexpr int32_t const& __cordl_internal_get__lowFPSCount_5__4() const;
-
-  constexpr void __cordl_internal_set__lowFPSCount_5__4(int32_t value);
+  constexpr int32_t const& __cordl_internal_get__i_5__5() const;
 
   constexpr int32_t& __cordl_internal_get__i_5__5();
 
-  constexpr int32_t const& __cordl_internal_get__i_5__5() const;
+  constexpr ::StringW const& __cordl_internal_get__lastFileName_5__3() const;
+
+  constexpr ::StringW& __cordl_internal_get__lastFileName_5__3();
+
+  constexpr int32_t const& __cordl_internal_get__lowFPSCount_5__4() const;
+
+  constexpr int32_t& __cordl_internal_get__lowFPSCount_5__4();
+
+  constexpr float_t const& __cordl_internal_get__startTime_5__2() const;
+
+  constexpr float_t& __cordl_internal_get__startTime_5__2();
+
+  constexpr ::StringW const& __cordl_internal_get_folderName() const;
+
+  constexpr ::StringW& __cordl_internal_get_folderName();
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SongProfilingController> value);
 
   constexpr void __cordl_internal_set__i_5__5(int32_t value);
 
-  static inline ::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8* New_ctor(int32_t __1__state);
+  constexpr void __cordl_internal_set__lastFileName_5__3(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22bb9f8, size 0x28, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__lowFPSCount_5__4(int32_t value);
+
+  constexpr void __cordl_internal_set__startTime_5__2(float_t value);
+
+  constexpr void __cordl_internal_set_folderName(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2388060, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22bbc80, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22bbc84, size 0x2dc, virtual true, abstract: false, final true
-  inline bool MoveNext();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22bbf60, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22bbf68, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SongProfilingController___ProfileCoroutine_d__8();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22bbfa8, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SongProfilingController___ProfileCoroutine_d__8", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SongProfilingController___ProfileCoroutine_d__8(__SongProfilingController___ProfileCoroutine_d__8&&) = delete;
@@ -169,12 +173,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SongProfilingController___ProfileCoroutine_d__8(__SongProfilingController___ProfileCoroutine_d__8 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SongProfilingController___ProfileCoroutine_d__8();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -225,61 +223,65 @@ static_assert(offsetof(::GlobalNamespace::__SongProfilingController___ProfileCor
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4035))
 // CS Name: ::SongProfilingController*
 class CORDL_TYPE SongProfilingController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using _ProfileCoroutine_d__8 = ::GlobalNamespace::__SongProfilingController___ProfileCoroutine_d__8;
 
+  /// @brief Field _fps, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__fps, put = __cordl_internal_set__fps))::ArrayW<int32_t, ::Array<int32_t>*> _fps;
+
   /// @brief Field _sceneSetupData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Field _fps, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__fps, put = __cordl_internal_set__fps))::ArrayW<int32_t, ::Array<int32_t>*> _fps;
+  /// @brief Method CreateCaptureFolder, addr 0x2387f68, size 0x74, virtual false, abstract: false, final false
+  inline void CreateCaptureFolder(::StringW folderName);
+
+  /// @brief Method CreateLogPath, addr 0x2388088, size 0x14c, virtual false, abstract: false, final false
+  inline ::StringW CreateLogPath(::StringW folder, float_t startTime);
+
+  /// @brief Method FinishProfiling, addr 0x2387e38, size 0x9c, virtual false, abstract: false, final false
+  inline void FinishProfiling();
+
+  static inline ::GlobalNamespace::SongProfilingController* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x238805c, size 0x4, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method ProfileCoroutine, addr 0x2387fe8, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* ProfileCoroutine(::StringW folderName);
+
+  /// @brief Method SetupProfiler, addr 0x2387fdc, size 0xc, virtual false, abstract: false, final false
+  inline void SetupProfiler();
+
+  /// @brief Method Start, addr 0x2387ed4, size 0x94, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method StartProfilingToFile, addr 0x23881d4, size 0xbc, virtual false, abstract: false, final false
+  inline void StartProfilingToFile(::StringW filePath);
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__fps() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__fps();
 
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__fps();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__fps() const;
-
   constexpr void __cordl_internal_set__fps(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method FinishProfiling, addr 0x22bb7d0, size 0x9c, virtual false, abstract: false, final false
-  inline void FinishProfiling();
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method Start, addr 0x22bb86c, size 0x94, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x22bb9f4, size 0x4, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method ProfileCoroutine, addr 0x22bb980, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* ProfileCoroutine(::StringW folderName);
-
-  /// @brief Method CreateCaptureFolder, addr 0x22bb900, size 0x74, virtual false, abstract: false, final false
-  inline void CreateCaptureFolder(::StringW folderName);
-
-  /// @brief Method SetupProfiler, addr 0x22bb974, size 0xc, virtual false, abstract: false, final false
-  inline void SetupProfiler();
-
-  /// @brief Method CreateLogPath, addr 0x22bba20, size 0x14c, virtual false, abstract: false, final false
-  inline ::StringW CreateLogPath(::StringW folder, float_t startTime);
-
-  /// @brief Method StartProfilingToFile, addr 0x22bbb6c, size 0xbc, virtual false, abstract: false, final false
-  inline void StartProfilingToFile(::StringW filePath);
-
-  static inline ::GlobalNamespace::SongProfilingController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22bbc28, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2388290, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SongProfilingController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SongProfilingController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SongProfilingController(SongProfilingController&&) = delete;
@@ -288,23 +290,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongProfilingController(SongProfilingController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SongProfilingController();
-
-public:
   /// @brief Field _sceneSetupData, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
   /// @brief Field _fps, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____fps;
 
-  /// @brief Field kProfileFramesPerLog offset 0xffffffff size 0x4
-  static constexpr int32_t kProfileFramesPerLog{ static_cast<int32_t>(0x7d0) };
-
   /// @brief Field kLowFPSCountLimit offset 0xffffffff size 0x4
   static constexpr int32_t kLowFPSCountLimit{ static_cast<int32_t>(0x6e) };
+
+  /// @brief Field kProfileFramesPerLog offset 0xffffffff size 0x4
+  static constexpr int32_t kProfileFramesPerLog{ static_cast<int32_t>(0x7d0) };
 
   /// @brief Field kProfilerMaxUsedMemory offset 0xffffffff size 0x4
   static constexpr int32_t kProfilerMaxUsedMemory{ static_cast<int32_t>(0x10000000) };

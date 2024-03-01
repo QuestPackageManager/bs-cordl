@@ -25,62 +25,66 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParamete
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1020))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1089))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::X25519PrivateKeyParameters*
 class CORDL_TYPE X25519PrivateKeyParameters : public ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
 public:
   // Declarations
-  /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
-
   /// @brief Field KeySize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_KeySize, put = setStaticF_KeySize)) int32_t KeySize;
 
   /// @brief Field SecretSize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_SecretSize, put = setStaticF_SecretSize)) int32_t SecretSize;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
+  /// @brief Field data, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
+  /// @brief Method Encode, addr 0xfab9dc, size 0x84, virtual false, abstract: false, final false
+  inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  /// @brief Method GeneratePublicKey, addr 0xfababc, size 0xac, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* GeneratePublicKey();
 
-  static inline void setStaticF_KeySize(int32_t value);
+  /// @brief Method GenerateSecret, addr 0xfabc24, size 0xf4, virtual false, abstract: false, final false
+  inline void GenerateSecret(::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  static inline int32_t getStaticF_KeySize();
-
-  static inline void setStaticF_SecretSize(int32_t value);
-
-  static inline int32_t getStaticF_SecretSize();
-
-  static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
-
-  /// @brief Method .ctor, addr 0xf667a4, size 0xa4, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
+  /// @brief Method GetEncoded, addr 0xfaba60, size 0x5c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method .ctor, addr 0xf66848, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
-
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0xf66904, size 0x108, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
+
+  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method .ctor, addr 0xfab818, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
+
+  /// @brief Method .ctor, addr 0xfab8d4, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method Encode, addr 0xf66a0c, size 0x84, virtual false, abstract: false, final false
-  inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
+  /// @brief Method .ctor, addr 0xfab774, size 0xa4, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GetEncoded, addr 0xf66a90, size 0x5c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
+  static inline int32_t getStaticF_KeySize();
 
-  /// @brief Method GeneratePublicKey, addr 0xf66aec, size 0xac, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* GeneratePublicKey();
+  static inline int32_t getStaticF_SecretSize();
 
-  /// @brief Method GenerateSecret, addr 0xf66c54, size 0xf4, virtual false, abstract: false, final false
-  inline void GenerateSecret(::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
+  static inline void setStaticF_KeySize(int32_t value);
 
+  static inline void setStaticF_SecretSize(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X25519PrivateKeyParameters();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X25519PrivateKeyParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X25519PrivateKeyParameters(X25519PrivateKeyParameters&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X25519PrivateKeyParameters(X25519PrivateKeyParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X25519PrivateKeyParameters();
-
-public:
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___data;
 

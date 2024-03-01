@@ -80,8 +80,6 @@ MARK_VAL_T(::GlobalNamespace::__SettingsFlowCoordinator___HandleSettingsNavigati
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4827))
 // CS Name: ::SettingsFlowCoordinator::FinishAction
 struct CORDL_TYPE __SettingsFlowCoordinator__FinishAction {
 public:
@@ -100,18 +98,23 @@ public:
     return static_cast<____SettingsFlowCoordinator__FinishAction_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __SettingsFlowCoordinator__FinishAction(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____SettingsFlowCoordinator__FinishAction_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __SettingsFlowCoordinator__FinishAction();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __SettingsFlowCoordinator__FinishAction(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Apply value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction const Apply;
 
   /// @brief Field Cancel value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction const Cancel;
@@ -119,8 +122,8 @@ public:
   /// @brief Field Ok value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction const Ok;
 
-  /// @brief Field Apply value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction const Apply;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -134,8 +137,6 @@ static_assert(offsetof(::GlobalNamespace::__SettingsFlowCoordinator__FinishActio
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(5060))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4828))
 // CS Name: ::SettingsFlowCoordinator::<HandleSettingsNavigationControllerDidFinishAsync>d__14
 struct CORDL_TYPE __SettingsFlowCoordinator___HandleSettingsNavigationControllerDidFinishAsync_d__14 {
 public:
@@ -143,14 +144,18 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x24c62d0, size 0x43c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x24c670c, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x23f6e10, size 0x43c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x23f724c, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SettingsFlowCoordinator___HandleSettingsNavigationControllerDidFinishAsync_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "finishAction", ty:
@@ -160,10 +165,6 @@ public:
                                                                                                ::GlobalNamespace::__SettingsNavigationController__FinishAction finishAction,
                                                                                                ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> __4__this,
                                                                                                ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SettingsFlowCoordinator___HandleSettingsNavigationControllerDidFinishAsync_d__14();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -203,8 +204,6 @@ static_assert(offsetof(::GlobalNamespace::__SettingsFlowCoordinator___HandleSett
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3397))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4829))
 // CS Name: ::SettingsFlowCoordinator::<ApplySettingsAsync>d__15
 struct CORDL_TYPE __SettingsFlowCoordinator___ApplySettingsAsync_d__15 {
 public:
@@ -212,24 +211,24 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x24c6718, size 0x250, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x24c6968, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x23f7258, size 0x250, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x23f74a8, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SettingsFlowCoordinator___ApplySettingsAsync_d__15();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::SettingsFlowCoordinator>",
   // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __SettingsFlowCoordinator___ApplySettingsAsync_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                  ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SettingsFlowCoordinator___ApplySettingsAsync_d__15();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -264,110 +263,114 @@ static_assert(offsetof(::GlobalNamespace::__SettingsFlowCoordinator___ApplySetti
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13535))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4830))
 // CS Name: ::SettingsFlowCoordinator*
 class CORDL_TYPE SettingsFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
+  using FinishAction = ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction;
+
   using _ApplySettingsAsync_d__15 = ::GlobalNamespace::__SettingsFlowCoordinator___ApplySettingsAsync_d__15;
 
   using _HandleSettingsNavigationControllerDidFinishAsync_d__14 = ::GlobalNamespace::__SettingsFlowCoordinator___HandleSettingsNavigationControllerDidFinishAsync_d__14;
 
-  using FinishAction = ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction;
-
-  /// @brief Field _mainSettingsModel, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
+  /// @brief Field _fileStorage, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage))::GlobalNamespace::IFileStorage* _fileStorage;
 
   /// @brief Field _mainSettingsMenuViewController, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSettingsMenuViewController,
                       put = __cordl_internal_set__mainSettingsMenuViewController))::UnityW<::GlobalNamespace::MainSettingsMenuViewController> _mainSettingsMenuViewController;
 
+  /// @brief Field _mainSettingsModel, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
+
+  /// @brief Field _selectedSettingsSubMenuInfoIdx, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF__selectedSettingsSubMenuInfoIdx, put = setStaticF__selectedSettingsSubMenuInfoIdx)) int32_t _selectedSettingsSubMenuInfoIdx;
+
   /// @brief Field _settingsNavigationController, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsNavigationController,
                       put = __cordl_internal_set__settingsNavigationController))::UnityW<::GlobalNamespace::SettingsNavigationController> _settingsNavigationController;
-
-  /// @brief Field _fileStorage, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage))::GlobalNamespace::IFileStorage* _fileStorage;
 
   /// @brief Field didFinishEvent, offset 0xc8, size 0x8
   __declspec(property(
       get = __cordl_internal_get_didFinishEvent,
       put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* didFinishEvent;
 
-  /// @brief Field _selectedSettingsSubMenuInfoIdx, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__selectedSettingsSubMenuInfoIdx, put = setStaticF__selectedSettingsSubMenuInfoIdx)) int32_t _selectedSettingsSubMenuInfoIdx;
+  /// @brief Method ApplySettingsAsync, addr 0x24c61d8, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* ApplySettingsAsync();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+  /// @brief Method CancelSettingsAsync, addr 0x24c62a0, size 0x28, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* CancelSettingsAsync();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
+  /// @brief Method DidActivate, addr 0x24c5c78, size 0x2b0, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+  /// @brief Method DidDeactivate, addr 0x24c5f28, size 0x10c, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController>& __cordl_internal_get__mainSettingsMenuViewController();
+  /// @brief Method HandleDidSelectSettingsSubMenu, addr 0x24c60cc, size 0x6c, virtual false, abstract: false, final false
+  inline void HandleDidSelectSettingsSubMenu(::GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int32_t idx);
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> const& __cordl_internal_get__mainSettingsMenuViewController() const;
+  /// @brief Method HandleSettingsNavigationControllerDidFinishAsync, addr 0x24c6138, size 0xa0, virtual false, abstract: false, final false
+  inline void HandleSettingsNavigationControllerDidFinishAsync(::GlobalNamespace::__SettingsNavigationController__FinishAction finishAction);
 
-  constexpr void __cordl_internal_set__mainSettingsMenuViewController(::UnityW<::GlobalNamespace::MainSettingsMenuViewController> value);
+  static inline ::GlobalNamespace::SettingsFlowCoordinator* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::SettingsNavigationController>& __cordl_internal_get__settingsNavigationController();
+  /// @brief Method ReplaceViewController, addr 0x24c6038, size 0x94, virtual false, abstract: false, final false
+  inline void ReplaceViewController(::HMUI::ViewController* viewController);
 
-  constexpr ::UnityW<::GlobalNamespace::SettingsNavigationController> const& __cordl_internal_get__settingsNavigationController() const;
-
-  constexpr void __cordl_internal_set__settingsNavigationController(::UnityW<::GlobalNamespace::SettingsNavigationController> value);
+  /// @brief Method ShowSecretViewController, addr 0x24c6034, size 0x4, virtual false, abstract: false, final false
+  inline void ShowSecretViewController(::HMUI::ViewController* viewController);
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get__fileStorage() const;
 
-  constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> const& __cordl_internal_get__mainSettingsMenuViewController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController>& __cordl_internal_get__mainSettingsMenuViewController();
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+
+  constexpr ::UnityW<::GlobalNamespace::SettingsNavigationController> const& __cordl_internal_get__settingsNavigationController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SettingsNavigationController>& __cordl_internal_get__settingsNavigationController();
 
   constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>*& __cordl_internal_get_didFinishEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>*> const&
   __cordl_internal_get_didFinishEvent() const;
 
+  constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
+
+  constexpr void __cordl_internal_set__mainSettingsMenuViewController(::UnityW<::GlobalNamespace::MainSettingsMenuViewController> value);
+
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+
+  constexpr void __cordl_internal_set__settingsNavigationController(::UnityW<::GlobalNamespace::SettingsNavigationController> value);
+
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
-  static inline void setStaticF__selectedSettingsSubMenuInfoIdx(int32_t value);
+  /// @brief Method .ctor, addr 0x24c62c8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method add_didFinishEvent, addr 0x24b5f68, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
   static inline int32_t getStaticF__selectedSettingsSubMenuInfoIdx();
 
-  /// @brief Method add_didFinishEvent, addr 0x23f6658, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
-
-  /// @brief Method remove_didFinishEvent, addr 0x23f6708, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x24b6794, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::__SettingsFlowCoordinator__FinishAction>* value);
 
-  /// @brief Method DidActivate, addr 0x23f67b8, size 0x2b0, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+  static inline void setStaticF__selectedSettingsSubMenuInfoIdx(int32_t value);
 
-  /// @brief Method DidDeactivate, addr 0x23f6a68, size 0x10c, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SettingsFlowCoordinator();
 
-  /// @brief Method ShowSecretViewController, addr 0x23f6b74, size 0x4, virtual false, abstract: false, final false
-  inline void ShowSecretViewController(::HMUI::ViewController* viewController);
-
-  /// @brief Method HandleDidSelectSettingsSubMenu, addr 0x23f6c0c, size 0x6c, virtual false, abstract: false, final false
-  inline void HandleDidSelectSettingsSubMenu(::GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int32_t idx);
-
-  /// @brief Method ReplaceViewController, addr 0x23f6b78, size 0x94, virtual false, abstract: false, final false
-  inline void ReplaceViewController(::HMUI::ViewController* viewController);
-
-  /// @brief Method HandleSettingsNavigationControllerDidFinishAsync, addr 0x23f6c78, size 0xa0, virtual false, abstract: false, final false
-  inline void HandleSettingsNavigationControllerDidFinishAsync(::GlobalNamespace::__SettingsNavigationController__FinishAction finishAction);
-
-  /// @brief Method ApplySettingsAsync, addr 0x23f6d18, size 0xc8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* ApplySettingsAsync();
-
-  /// @brief Method CancelSettingsAsync, addr 0x23f6de0, size 0x28, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* CancelSettingsAsync();
-
-  static inline ::GlobalNamespace::SettingsFlowCoordinator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23f6e08, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SettingsFlowCoordinator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsFlowCoordinator(SettingsFlowCoordinator&&) = delete;
@@ -376,12 +379,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SettingsFlowCoordinator(SettingsFlowCoordinator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SettingsFlowCoordinator();
-
-public:
   /// @brief Field _mainSettingsModel, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 

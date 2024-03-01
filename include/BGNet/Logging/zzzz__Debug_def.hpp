@@ -35,8 +35,6 @@ MARK_REF_PTR_T(::BGNet::Logging::__Debug__LoggerLinkedList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Logging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16414))
 // CS Name: ::Debug::LoggerLinkedList*
 class CORDL_TYPE __Debug__LoggerLinkedList : public ::System::Object {
 public:
@@ -47,23 +45,29 @@ public:
   /// @brief Field next, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::BGNet::Logging::__Debug__LoggerLinkedList* next;
 
+  static inline ::BGNet::Logging::__Debug__LoggerLinkedList* New_ctor(::BGNet::Logging::__Debug__ILogger* logger);
+
   constexpr ::BGNet::Logging::__Debug__ILogger*& __cordl_internal_get_logger();
 
   constexpr ::cordl_internals::to_const_pointer<::BGNet::Logging::__Debug__ILogger*> const& __cordl_internal_get_logger() const;
-
-  constexpr void __cordl_internal_set_logger(::BGNet::Logging::__Debug__ILogger* value);
 
   constexpr ::BGNet::Logging::__Debug__LoggerLinkedList*& __cordl_internal_get_next();
 
   constexpr ::cordl_internals::to_const_pointer<::BGNet::Logging::__Debug__LoggerLinkedList*> const& __cordl_internal_get_next() const;
 
+  constexpr void __cordl_internal_set_logger(::BGNet::Logging::__Debug__ILogger* value);
+
   constexpr void __cordl_internal_set_next(::BGNet::Logging::__Debug__LoggerLinkedList* value);
 
-  static inline ::BGNet::Logging::__Debug__LoggerLinkedList* New_ctor(::BGNet::Logging::__Debug__ILogger* logger);
-
-  /// @brief Method .ctor, addr 0xe8c498, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed3468, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Logging::__Debug__ILogger* logger);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Debug__LoggerLinkedList();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Debug__LoggerLinkedList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Debug__LoggerLinkedList(__Debug__LoggerLinkedList&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Debug__LoggerLinkedList(__Debug__LoggerLinkedList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Debug__LoggerLinkedList();
-
-public:
   /// @brief Field logger, offset: 0x10, size: 0x8, def value: None
   ::BGNet::Logging::__Debug__ILogger* ___logger;
 
@@ -98,20 +96,18 @@ static_assert(offsetof(::BGNet::Logging::__Debug__LoggerLinkedList, ___next) == 
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Logging {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16415))
 // CS Name: ::Debug::ILogger*
 class CORDL_TYPE __Debug__ILogger {
 public:
   // Declarations
-  /// @brief Method LogInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void LogInfo(::StringW message);
-
   /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogError(::StringW message);
 
   /// @brief Method LogException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogException(::System::Exception* exception, ::StringW message);
+
+  /// @brief Method LogInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void LogInfo(::StringW message);
 
   /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogWarning(::StringW message);
@@ -132,8 +128,6 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Logging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16416))
 // CS Name: ::BGNet.Logging::Debug*
 class CORDL_TYPE Debug : public ::System::Object {
 public:
@@ -142,41 +136,47 @@ public:
 
   using LoggerLinkedList = ::BGNet::Logging::__Debug__LoggerLinkedList;
 
-  /// @brief Field _loggersMutex, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__loggersMutex, put = setStaticF__loggersMutex))::System::Object* _loggersMutex;
-
   /// @brief Field _loggers, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__loggers, put = setStaticF__loggers))::BGNet::Logging::__Debug__LoggerLinkedList* _loggers;
 
-  static inline void setStaticF__loggersMutex(::System::Object* value);
+  /// @brief Field _loggersMutex, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__loggersMutex, put = setStaticF__loggersMutex))::System::Object* _loggersMutex;
+
+  /// @brief Method AddLogger, addr 0xed3278, size 0x178, virtual false, abstract: false, final false
+  static inline void AddLogger(::BGNet::Logging::__Debug__ILogger* logger);
+
+  /// @brief Method Log, addr 0xed36dc, size 0xf4, virtual false, abstract: false, final false
+  static inline void Log(::StringW message);
+
+  /// @brief Method LogError, addr 0xed37d0, size 0xf8, virtual false, abstract: false, final false
+  static inline void LogError(::StringW message);
+
+  /// @brief Method LogException, addr 0xed38c8, size 0x100, virtual false, abstract: false, final false
+  static inline void LogException(::System::Exception* exception, ::StringW message);
+
+  /// @brief Method LogWarning, addr 0xed39c8, size 0xf8, virtual false, abstract: false, final false
+  static inline void LogWarning(::StringW message);
+
+  /// @brief Method NoDomainReloadInit, addr 0xed31e0, size 0x90, virtual false, abstract: false, final false
+  static inline void NoDomainReloadInit();
+
+  /// @brief Method RemoveLogger, addr 0xed3490, size 0x24c, virtual false, abstract: false, final false
+  static inline void RemoveLogger(::BGNet::Logging::__Debug__ILogger* logger);
+
+  static inline ::BGNet::Logging::__Debug__LoggerLinkedList* getStaticF__loggers();
 
   static inline ::System::Object* getStaticF__loggersMutex();
 
   static inline void setStaticF__loggers(::BGNet::Logging::__Debug__LoggerLinkedList* value);
 
-  static inline ::BGNet::Logging::__Debug__LoggerLinkedList* getStaticF__loggers();
+  static inline void setStaticF__loggersMutex(::System::Object* value);
 
-  /// @brief Method NoDomainReloadInit, addr 0xe8c210, size 0x90, virtual false, abstract: false, final false
-  static inline void NoDomainReloadInit();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Debug();
 
-  /// @brief Method AddLogger, addr 0xe8c2a8, size 0x178, virtual false, abstract: false, final false
-  static inline void AddLogger(::BGNet::Logging::__Debug__ILogger* logger);
-
-  /// @brief Method RemoveLogger, addr 0xe8c4c0, size 0x24c, virtual false, abstract: false, final false
-  static inline void RemoveLogger(::BGNet::Logging::__Debug__ILogger* logger);
-
-  /// @brief Method Log, addr 0xe8c70c, size 0xf4, virtual false, abstract: false, final false
-  static inline void Log(::StringW message);
-
-  /// @brief Method LogError, addr 0xe8c800, size 0xf8, virtual false, abstract: false, final false
-  static inline void LogError(::StringW message);
-
-  /// @brief Method LogException, addr 0xe8c8f8, size 0x100, virtual false, abstract: false, final false
-  static inline void LogException(::System::Exception* exception, ::StringW message);
-
-  /// @brief Method LogWarning, addr 0xe8c9f8, size 0xf8, virtual false, abstract: false, final false
-  static inline void LogWarning(::StringW message);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Debug(Debug&&) = delete;
@@ -185,12 +185,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Debug(Debug const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Debug();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

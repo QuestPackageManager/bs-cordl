@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::Platform);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6908))
 // CS Name: ::System::Platform*
 class CORDL_TYPE Platform : public ::System::Object {
 public:
@@ -24,66 +22,72 @@ public:
   /// @brief Field checkedOS, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_checkedOS, put = setStaticF_checkedOS)) bool checkedOS;
 
-  /// @brief Field isMacOS, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_isMacOS, put = setStaticF_isMacOS)) bool isMacOS;
-
   /// @brief Field isAix, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_isAix, put = setStaticF_isAix)) bool isAix;
-
-  /// @brief Field isIBMi, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_isIBMi, put = setStaticF_isIBMi)) bool isIBMi;
 
   /// @brief Field isFreeBSD, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_isFreeBSD, put = setStaticF_isFreeBSD)) bool isFreeBSD;
 
+  /// @brief Field isIBMi, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_isIBMi, put = setStaticF_isIBMi)) bool isIBMi;
+
+  /// @brief Field isMacOS, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_isMacOS, put = setStaticF_isMacOS)) bool isMacOS;
+
   /// @brief Field isOpenBSD, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_isOpenBSD, put = setStaticF_isOpenBSD)) bool isOpenBSD;
 
-  static inline void setStaticF_checkedOS(bool value);
+  /// @brief Method CheckOS, addr 0x2a374f4, size 0x20c, virtual false, abstract: false, final false
+  static inline void CheckOS();
 
   static inline bool getStaticF_checkedOS();
 
-  static inline void setStaticF_isMacOS(bool value);
-
-  static inline bool getStaticF_isMacOS();
-
-  static inline void setStaticF_isAix(bool value);
-
   static inline bool getStaticF_isAix();
-
-  static inline void setStaticF_isIBMi(bool value);
-
-  static inline bool getStaticF_isIBMi();
-
-  static inline void setStaticF_isFreeBSD(bool value);
 
   static inline bool getStaticF_isFreeBSD();
 
-  static inline void setStaticF_isOpenBSD(bool value);
+  static inline bool getStaticF_isIBMi();
+
+  static inline bool getStaticF_isMacOS();
 
   static inline bool getStaticF_isOpenBSD();
 
-  /// @brief Method uname, addr 0x2951ffc, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t uname(void* buf);
-
-  /// @brief Method CheckOS, addr 0x2952078, size 0x20c, virtual false, abstract: false, final false
-  static inline void CheckOS();
-
-  /// @brief Method get_IsMacOS, addr 0x2952284, size 0xe0, virtual false, abstract: false, final false
-  static inline bool get_IsMacOS();
-
-  /// @brief Method get_IsFreeBSD, addr 0x2952364, size 0x5c, virtual false, abstract: false, final false
-  static inline bool get_IsFreeBSD();
-
-  /// @brief Method get_IsOpenBSD, addr 0x29523c0, size 0x5c, virtual false, abstract: false, final false
-  static inline bool get_IsOpenBSD();
-
-  /// @brief Method get_IsIBMi, addr 0x295241c, size 0x5c, virtual false, abstract: false, final false
-  static inline bool get_IsIBMi();
-
-  /// @brief Method get_IsAix, addr 0x2952478, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_IsAix, addr 0x2a378f4, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_IsAix();
 
+  /// @brief Method get_IsFreeBSD, addr 0x2a377e0, size 0x5c, virtual false, abstract: false, final false
+  static inline bool get_IsFreeBSD();
+
+  /// @brief Method get_IsIBMi, addr 0x2a37898, size 0x5c, virtual false, abstract: false, final false
+  static inline bool get_IsIBMi();
+
+  /// @brief Method get_IsMacOS, addr 0x2a37700, size 0xe0, virtual false, abstract: false, final false
+  static inline bool get_IsMacOS();
+
+  /// @brief Method get_IsOpenBSD, addr 0x2a3783c, size 0x5c, virtual false, abstract: false, final false
+  static inline bool get_IsOpenBSD();
+
+  static inline void setStaticF_checkedOS(bool value);
+
+  static inline void setStaticF_isAix(bool value);
+
+  static inline void setStaticF_isFreeBSD(bool value);
+
+  static inline void setStaticF_isIBMi(bool value);
+
+  static inline void setStaticF_isMacOS(bool value);
+
+  static inline void setStaticF_isOpenBSD(bool value);
+
+  /// @brief Method uname, addr 0x2a37478, size 0x7c, virtual false, abstract: false, final false
+  static inline int32_t uname(void* buf);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Platform();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Platform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Platform(Platform&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Platform(Platform const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Platform();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

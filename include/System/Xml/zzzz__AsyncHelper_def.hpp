@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::System::Xml::AsyncHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11301))
 // CS Name: ::System.Xml::AsyncHelper*
 class CORDL_TYPE AsyncHelper : public ::System::Object {
 public:
@@ -30,31 +28,37 @@ public:
   /// @brief Field DoneTask, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DoneTask, put = setStaticF_DoneTask))::System::Threading::Tasks::Task* DoneTask;
 
-  /// @brief Field DoneTaskTrue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DoneTaskTrue, put = setStaticF_DoneTaskTrue))::System::Threading::Tasks::Task_1<bool>* DoneTaskTrue;
-
   /// @brief Field DoneTaskFalse, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DoneTaskFalse, put = setStaticF_DoneTaskFalse))::System::Threading::Tasks::Task_1<bool>* DoneTaskFalse;
+
+  /// @brief Field DoneTaskTrue, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_DoneTaskTrue, put = setStaticF_DoneTaskTrue))::System::Threading::Tasks::Task_1<bool>* DoneTaskTrue;
 
   /// @brief Field DoneTaskZero, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DoneTaskZero, put = setStaticF_DoneTaskZero))::System::Threading::Tasks::Task_1<int32_t>* DoneTaskZero;
 
-  static inline void setStaticF_DoneTask(::System::Threading::Tasks::Task* value);
-
   static inline ::System::Threading::Tasks::Task* getStaticF_DoneTask();
-
-  static inline void setStaticF_DoneTaskTrue(::System::Threading::Tasks::Task_1<bool>* value);
-
-  static inline ::System::Threading::Tasks::Task_1<bool>* getStaticF_DoneTaskTrue();
-
-  static inline void setStaticF_DoneTaskFalse(::System::Threading::Tasks::Task_1<bool>* value);
 
   static inline ::System::Threading::Tasks::Task_1<bool>* getStaticF_DoneTaskFalse();
 
-  static inline void setStaticF_DoneTaskZero(::System::Threading::Tasks::Task_1<int32_t>* value);
+  static inline ::System::Threading::Tasks::Task_1<bool>* getStaticF_DoneTaskTrue();
 
   static inline ::System::Threading::Tasks::Task_1<int32_t>* getStaticF_DoneTaskZero();
 
+  static inline void setStaticF_DoneTask(::System::Threading::Tasks::Task* value);
+
+  static inline void setStaticF_DoneTaskFalse(::System::Threading::Tasks::Task_1<bool>* value);
+
+  static inline void setStaticF_DoneTaskTrue(::System::Threading::Tasks::Task_1<bool>* value);
+
+  static inline void setStaticF_DoneTaskZero(::System::Threading::Tasks::Task_1<int32_t>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncHelper(AsyncHelper&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncHelper(AsyncHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

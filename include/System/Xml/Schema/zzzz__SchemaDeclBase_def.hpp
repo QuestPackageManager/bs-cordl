@@ -40,8 +40,6 @@ MARK_REF_PTR_T(::System::Xml::Schema::SchemaDeclBase);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11600))
 // CS Name: ::SchemaDeclBase::Use
 struct CORDL_TYPE __SchemaDeclBase__Use {
 public:
@@ -62,33 +60,38 @@ public:
     return static_cast<____SchemaDeclBase__Use_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __SchemaDeclBase__Use(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____SchemaDeclBase__Use_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __SchemaDeclBase__Use();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __SchemaDeclBase__Use(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Default value: static_cast<int32_t>(0x0)
   static ::System::Xml::Schema::__SchemaDeclBase__Use const Default;
 
-  /// @brief Field Required value: static_cast<int32_t>(0x1)
-  static ::System::Xml::Schema::__SchemaDeclBase__Use const Required;
+  /// @brief Field Fixed value: static_cast<int32_t>(0x3)
+  static ::System::Xml::Schema::__SchemaDeclBase__Use const Fixed;
 
   /// @brief Field Implied value: static_cast<int32_t>(0x2)
   static ::System::Xml::Schema::__SchemaDeclBase__Use const Implied;
 
-  /// @brief Field Fixed value: static_cast<int32_t>(0x3)
-  static ::System::Xml::Schema::__SchemaDeclBase__Use const Fixed;
+  /// @brief Field Required value: static_cast<int32_t>(0x1)
+  static ::System::Xml::Schema::__SchemaDeclBase__Use const Required;
 
   /// @brief Field RequiredFixed value: static_cast<int32_t>(0x4)
   static ::System::Xml::Schema::__SchemaDeclBase__Use const RequiredFixed;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -102,28 +105,29 @@ static_assert(offsetof(::System::Xml::Schema::__SchemaDeclBase__Use, value__) ==
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11600))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11601))
 // CS Name: ::System.Xml.Schema::SchemaDeclBase*
 class CORDL_TYPE SchemaDeclBase : public ::System::Object {
 public:
   // Declarations
   using Use = ::System::Xml::Schema::__SchemaDeclBase__Use;
 
-  /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::XmlQualifiedName* name;
+  __declspec(property(get = get_Datatype, put = set_Datatype))::System::Xml::Schema::XmlSchemaDatatype* Datatype;
 
-  /// @brief Field prefix, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::StringW prefix;
+  __declspec(property(get = get_DefaultValueRaw))::StringW DefaultValueRaw;
 
-  /// @brief Field isDeclaredInExternal, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_isDeclaredInExternal, put = __cordl_internal_set_isDeclaredInExternal)) bool isDeclaredInExternal;
+  __declspec(property(get = get_DefaultValueTyped, put = set_DefaultValueTyped))::System::Object* DefaultValueTyped;
 
-  /// @brief Field presence, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_presence, put = __cordl_internal_set_presence))::System::Xml::Schema::__SchemaDeclBase__Use presence;
+  __declspec(property(get = get_IsDeclaredInExternal, put = set_IsDeclaredInExternal)) bool IsDeclaredInExternal;
 
-  /// @brief Field schemaType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
+  __declspec(property(get = get_Name))::System::Xml::XmlQualifiedName* Name;
+
+  __declspec(property(get = get_Prefix))::StringW Prefix;
+
+  __declspec(property(get = get_Presence, put = set_Presence))::System::Xml::Schema::__SchemaDeclBase__Use Presence;
+
+  __declspec(property(put = set_SchemaType))::System::Xml::Schema::XmlSchemaType* SchemaType;
+
+  __declspec(property(get = get_Values))::System::Collections::Generic::List_1<::StringW>* Values;
 
   /// @brief Field datatype, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_datatype, put = __cordl_internal_set_datatype))::System::Xml::Schema::XmlSchemaDatatype* datatype;
@@ -134,151 +138,154 @@ public:
   /// @brief Field defaultValueTyped, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_defaultValueTyped, put = __cordl_internal_set_defaultValueTyped))::System::Object* defaultValueTyped;
 
+  /// @brief Field isDeclaredInExternal, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_isDeclaredInExternal, put = __cordl_internal_set_isDeclaredInExternal)) bool isDeclaredInExternal;
+
   /// @brief Field maxLength, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_maxLength, put = __cordl_internal_set_maxLength)) int64_t maxLength;
 
   /// @brief Field minLength, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_minLength, put = __cordl_internal_set_minLength)) int64_t minLength;
 
+  /// @brief Field name, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::XmlQualifiedName* name;
+
+  /// @brief Field prefix, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::StringW prefix;
+
+  /// @brief Field presence, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_presence, put = __cordl_internal_set_presence))::System::Xml::Schema::__SchemaDeclBase__Use presence;
+
+  /// @brief Field schemaType, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
+
   /// @brief Field values, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::System::Collections::Generic::List_1<::StringW>* values;
 
-  __declspec(property(get = get_Name))::System::Xml::XmlQualifiedName* Name;
+  /// @brief Method AddValue, addr 0x29ae4ac, size 0xf0, virtual false, abstract: false, final false
+  inline void AddValue(::StringW value);
 
-  __declspec(property(get = get_Prefix))::StringW Prefix;
+  static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor();
 
-  __declspec(property(get = get_IsDeclaredInExternal, put = set_IsDeclaredInExternal)) bool IsDeclaredInExternal;
-
-  __declspec(property(get = get_Presence, put = set_Presence))::System::Xml::Schema::__SchemaDeclBase__Use Presence;
-
-  __declspec(property(put = set_SchemaType))::System::Xml::Schema::XmlSchemaType* SchemaType;
-
-  __declspec(property(get = get_Datatype, put = set_Datatype))::System::Xml::Schema::XmlSchemaDatatype* Datatype;
-
-  __declspec(property(get = get_Values))::System::Collections::Generic::List_1<::StringW>* Values;
-
-  __declspec(property(get = get_DefaultValueRaw))::StringW DefaultValueRaw;
-
-  __declspec(property(get = get_DefaultValueTyped, put = set_DefaultValueTyped))::System::Object* DefaultValueTyped;
-
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_name();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_name() const;
-
-  constexpr void __cordl_internal_set_name(::System::Xml::XmlQualifiedName* value);
-
-  constexpr ::StringW& __cordl_internal_get_prefix();
-
-  constexpr ::StringW const& __cordl_internal_get_prefix() const;
-
-  constexpr void __cordl_internal_set_prefix(::StringW value);
-
-  constexpr bool& __cordl_internal_get_isDeclaredInExternal();
-
-  constexpr bool const& __cordl_internal_get_isDeclaredInExternal() const;
-
-  constexpr void __cordl_internal_set_isDeclaredInExternal(bool value);
-
-  constexpr ::System::Xml::Schema::__SchemaDeclBase__Use& __cordl_internal_get_presence();
-
-  constexpr ::System::Xml::Schema::__SchemaDeclBase__Use const& __cordl_internal_get_presence() const;
-
-  constexpr void __cordl_internal_set_presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
-
-  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_schemaType();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_schemaType() const;
-
-  constexpr void __cordl_internal_set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
+  static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
   constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __cordl_internal_get_datatype();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaDatatype*> const& __cordl_internal_get_datatype() const;
 
-  constexpr void __cordl_internal_set_datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
-
-  constexpr ::StringW& __cordl_internal_get_defaultValueRaw();
-
   constexpr ::StringW const& __cordl_internal_get_defaultValueRaw() const;
 
-  constexpr void __cordl_internal_set_defaultValueRaw(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_defaultValueRaw();
 
   constexpr ::System::Object*& __cordl_internal_get_defaultValueTyped();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_defaultValueTyped() const;
 
-  constexpr void __cordl_internal_set_defaultValueTyped(::System::Object* value);
+  constexpr bool const& __cordl_internal_get_isDeclaredInExternal() const;
 
-  constexpr int64_t& __cordl_internal_get_maxLength();
+  constexpr bool& __cordl_internal_get_isDeclaredInExternal();
 
   constexpr int64_t const& __cordl_internal_get_maxLength() const;
 
-  constexpr void __cordl_internal_set_maxLength(int64_t value);
-
-  constexpr int64_t& __cordl_internal_get_minLength();
+  constexpr int64_t& __cordl_internal_get_maxLength();
 
   constexpr int64_t const& __cordl_internal_get_minLength() const;
 
-  constexpr void __cordl_internal_set_minLength(int64_t value);
+  constexpr int64_t& __cordl_internal_get_minLength();
+
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_name();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_name() const;
+
+  constexpr ::StringW const& __cordl_internal_get_prefix() const;
+
+  constexpr ::StringW& __cordl_internal_get_prefix();
+
+  constexpr ::System::Xml::Schema::__SchemaDeclBase__Use const& __cordl_internal_get_presence() const;
+
+  constexpr ::System::Xml::Schema::__SchemaDeclBase__Use& __cordl_internal_get_presence();
+
+  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_schemaType();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_schemaType() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_values();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_values() const;
 
+  constexpr void __cordl_internal_set_datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
+
+  constexpr void __cordl_internal_set_defaultValueRaw(::StringW value);
+
+  constexpr void __cordl_internal_set_defaultValueTyped(::System::Object* value);
+
+  constexpr void __cordl_internal_set_isDeclaredInExternal(bool value);
+
+  constexpr void __cordl_internal_set_maxLength(int64_t value);
+
+  constexpr void __cordl_internal_set_minLength(int64_t value);
+
+  constexpr void __cordl_internal_set_name(::System::Xml::XmlQualifiedName* value);
+
+  constexpr void __cordl_internal_set_prefix(::StringW value);
+
+  constexpr void __cordl_internal_set_presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
+
+  constexpr void __cordl_internal_set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
+
   constexpr void __cordl_internal_set_values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
-
-  /// @brief Method .ctor, addr 0x28c69c4, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
-
-  static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor();
-
-  /// @brief Method .ctor, addr 0x28c6a50, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29adecc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x28c6fec, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::XmlQualifiedName* get_Name();
+  /// @brief Method .ctor, addr 0x29ade40, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
-  /// @brief Method get_Prefix, addr 0x28c6b0c, size 0x54, virtual false, abstract: false, final false
-  inline ::StringW get_Prefix();
-
-  /// @brief Method get_IsDeclaredInExternal, addr 0x28c6ff4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsDeclaredInExternal();
-
-  /// @brief Method set_IsDeclaredInExternal, addr 0x28c6ffc, size 0xc, virtual false, abstract: false, final false
-  inline void set_IsDeclaredInExternal(bool value);
-
-  /// @brief Method get_Presence, addr 0x28c7008, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::__SchemaDeclBase__Use get_Presence();
-
-  /// @brief Method set_Presence, addr 0x28c7010, size 0x8, virtual false, abstract: false, final false
-  inline void set_Presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
-
-  /// @brief Method set_SchemaType, addr 0x28c7018, size 0x8, virtual false, abstract: false, final false
-  inline void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
-
-  /// @brief Method get_Datatype, addr 0x28c7020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Datatype, addr 0x29ae49c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
 
-  /// @brief Method set_Datatype, addr 0x28c7028, size 0x8, virtual false, abstract: false, final false
-  inline void set_Datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
-
-  /// @brief Method AddValue, addr 0x28c7030, size 0xf0, virtual false, abstract: false, final false
-  inline void AddValue(::StringW value);
-
-  /// @brief Method get_Values, addr 0x28c7120, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::StringW>* get_Values();
-
-  /// @brief Method get_DefaultValueRaw, addr 0x28c7128, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueRaw, addr 0x29ae5a4, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DefaultValueRaw();
 
-  /// @brief Method get_DefaultValueTyped, addr 0x28c717c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueTyped, addr 0x29ae5f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValueTyped();
 
-  /// @brief Method set_DefaultValueTyped, addr 0x28c7184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDeclaredInExternal, addr 0x29ae470, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsDeclaredInExternal();
+
+  /// @brief Method get_Name, addr 0x29ae468, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlQualifiedName* get_Name();
+
+  /// @brief Method get_Prefix, addr 0x29adf88, size 0x54, virtual false, abstract: false, final false
+  inline ::StringW get_Prefix();
+
+  /// @brief Method get_Presence, addr 0x29ae484, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::__SchemaDeclBase__Use get_Presence();
+
+  /// @brief Method get_Values, addr 0x29ae59c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::StringW>* get_Values();
+
+  /// @brief Method set_Datatype, addr 0x29ae4a4, size 0x8, virtual false, abstract: false, final false
+  inline void set_Datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
+
+  /// @brief Method set_DefaultValueTyped, addr 0x29ae600, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValueTyped(::System::Object* value);
 
+  /// @brief Method set_IsDeclaredInExternal, addr 0x29ae478, size 0xc, virtual false, abstract: false, final false
+  inline void set_IsDeclaredInExternal(bool value);
+
+  /// @brief Method set_Presence, addr 0x29ae48c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
+
+  /// @brief Method set_SchemaType, addr 0x29ae494, size 0x8, virtual false, abstract: false, final false
+  inline void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SchemaDeclBase();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SchemaDeclBase", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SchemaDeclBase(SchemaDeclBase&&) = delete;
@@ -287,12 +294,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SchemaDeclBase(SchemaDeclBase const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SchemaDeclBase();
-
-public:
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___name;
 

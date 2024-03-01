@@ -15,8 +15,6 @@ MARK_VAL_T(::GlobalNamespace::GameplayModifierMask);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14870))
 // CS Name: ::GameplayModifierMask
 struct CORDL_TYPE GameplayModifierMask {
 public:
@@ -50,72 +48,77 @@ public:
     return static_cast<__GameplayModifierMask_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
-  constexpr GameplayModifierMask(uint16_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint16_t() const noexcept {
+    return static_cast<__GameplayModifierMask_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr GameplayModifierMask();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  constexpr GameplayModifierMask(uint16_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
   uint16_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
-
-  /// @brief Field None value: static_cast<uint16_t>(0x0u)
-  static ::GlobalNamespace::GameplayModifierMask const None;
+  /// @brief Field All value: static_cast<uint16_t>(0xffffu)
+  static ::GlobalNamespace::GameplayModifierMask const All;
 
   /// @brief Field BatteryEnergy value: static_cast<uint16_t>(0x1u)
   static ::GlobalNamespace::GameplayModifierMask const BatteryEnergy;
 
-  /// @brief Field NoFail value: static_cast<uint16_t>(0x2u)
-  static ::GlobalNamespace::GameplayModifierMask const NoFail;
-
-  /// @brief Field InstaFail value: static_cast<uint16_t>(0x4u)
-  static ::GlobalNamespace::GameplayModifierMask const InstaFail;
-
-  /// @brief Field NoObstacles value: static_cast<uint16_t>(0x8u)
-  static ::GlobalNamespace::GameplayModifierMask const NoObstacles;
-
-  /// @brief Field NoBombs value: static_cast<uint16_t>(0x10u)
-  static ::GlobalNamespace::GameplayModifierMask const NoBombs;
+  /// @brief Field DisappearingArrows value: static_cast<uint16_t>(0x80u)
+  static ::GlobalNamespace::GameplayModifierMask const DisappearingArrows;
 
   /// @brief Field FastNotes value: static_cast<uint16_t>(0x20u)
   static ::GlobalNamespace::GameplayModifierMask const FastNotes;
 
-  /// @brief Field StrictAngles value: static_cast<uint16_t>(0x40u)
-  static ::GlobalNamespace::GameplayModifierMask const StrictAngles;
-
-  /// @brief Field DisappearingArrows value: static_cast<uint16_t>(0x80u)
-  static ::GlobalNamespace::GameplayModifierMask const DisappearingArrows;
-
   /// @brief Field FasterSong value: static_cast<uint16_t>(0x100u)
   static ::GlobalNamespace::GameplayModifierMask const FasterSong;
-
-  /// @brief Field SlowerSong value: static_cast<uint16_t>(0x200u)
-  static ::GlobalNamespace::GameplayModifierMask const SlowerSong;
-
-  /// @brief Field NoArrows value: static_cast<uint16_t>(0x400u)
-  static ::GlobalNamespace::GameplayModifierMask const NoArrows;
 
   /// @brief Field GhostNotes value: static_cast<uint16_t>(0x800u)
   static ::GlobalNamespace::GameplayModifierMask const GhostNotes;
 
-  /// @brief Field SuperFastSong value: static_cast<uint16_t>(0x1000u)
-  static ::GlobalNamespace::GameplayModifierMask const SuperFastSong;
+  /// @brief Field InstaFail value: static_cast<uint16_t>(0x4u)
+  static ::GlobalNamespace::GameplayModifierMask const InstaFail;
+
+  /// @brief Field NoArrows value: static_cast<uint16_t>(0x400u)
+  static ::GlobalNamespace::GameplayModifierMask const NoArrows;
+
+  /// @brief Field NoBombs value: static_cast<uint16_t>(0x10u)
+  static ::GlobalNamespace::GameplayModifierMask const NoBombs;
+
+  /// @brief Field NoFail value: static_cast<uint16_t>(0x2u)
+  static ::GlobalNamespace::GameplayModifierMask const NoFail;
+
+  /// @brief Field NoObstacles value: static_cast<uint16_t>(0x8u)
+  static ::GlobalNamespace::GameplayModifierMask const NoObstacles;
+
+  /// @brief Field None value: static_cast<uint16_t>(0x0u)
+  static ::GlobalNamespace::GameplayModifierMask const None;
 
   /// @brief Field ProMode value: static_cast<uint16_t>(0x2000u)
   static ::GlobalNamespace::GameplayModifierMask const ProMode;
 
-  /// @brief Field ZenMode value: static_cast<uint16_t>(0x4000u)
-  static ::GlobalNamespace::GameplayModifierMask const ZenMode;
+  /// @brief Field SlowerSong value: static_cast<uint16_t>(0x200u)
+  static ::GlobalNamespace::GameplayModifierMask const SlowerSong;
 
   /// @brief Field SmallCubes value: static_cast<uint16_t>(0x8000u)
   static ::GlobalNamespace::GameplayModifierMask const SmallCubes;
 
-  /// @brief Field All value: static_cast<uint16_t>(0xffffu)
-  static ::GlobalNamespace::GameplayModifierMask const All;
+  /// @brief Field StrictAngles value: static_cast<uint16_t>(0x40u)
+  static ::GlobalNamespace::GameplayModifierMask const StrictAngles;
+
+  /// @brief Field SuperFastSong value: static_cast<uint16_t>(0x1000u)
+  static ::GlobalNamespace::GameplayModifierMask const SuperFastSong;
+
+  /// @brief Field ZenMode value: static_cast<uint16_t>(0x4000u)
+  static ::GlobalNamespace::GameplayModifierMask const ZenMode;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

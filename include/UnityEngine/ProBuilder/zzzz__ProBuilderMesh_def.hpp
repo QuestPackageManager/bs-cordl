@@ -140,8 +140,6 @@ MARK_VAL_T(::UnityEngine::ProBuilder::__ProBuilderMesh__NonVersionedEditScope);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12068))
 // CS Name: ::ProBuilderMesh::CacheValidState
 struct CORDL_TYPE __ProBuilderMesh__CacheValidState {
 public:
@@ -159,24 +157,29 @@ public:
     return static_cast<____ProBuilderMesh__CacheValidState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __ProBuilderMesh__CacheValidState(uint8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint8_t() const noexcept {
+    return static_cast<____ProBuilderMesh__CacheValidState_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ProBuilderMesh__CacheValidState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __ProBuilderMesh__CacheValidState(uint8_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   uint8_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+  /// @brief Field SharedTexture value: static_cast<uint8_t>(0x2u)
+  static ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState const SharedTexture;
 
   /// @brief Field SharedVertex value: static_cast<uint8_t>(0x1u)
   static ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState const SharedVertex;
 
-  /// @brief Field SharedTexture value: static_cast<uint8_t>(0x2u)
-  static ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState const SharedTexture;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -190,8 +193,6 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidSt
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12069))
 // CS Name: ::ProBuilderMesh::NonVersionedEditScope
 struct CORDL_TYPE __ProBuilderMesh__NonVersionedEditScope {
 public:
@@ -199,22 +200,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
-
-  /// @brief Method .ctor, addr 0x2b59770, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
-
-  /// @brief Method Dispose, addr 0x2b5eaf8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2c45bcc, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  // Ctor Parameters [CppParam { name: "m_Mesh", ty: "::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>", modifiers: "", def_value: None }, CppParam { name: "m_VersionIndex", ty: "uint16_t",
-  // modifiers: "", def_value: None }]
-  constexpr __ProBuilderMesh__NonVersionedEditScope(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh, uint16_t m_VersionIndex) noexcept;
+  /// @brief Method .ctor, addr 0x2c40844, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ProBuilderMesh__NonVersionedEditScope();
+
+  // Ctor Parameters [CppParam { name: "m_Mesh", ty: "::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>", modifiers: "", def_value: None }, CppParam { name: "m_VersionIndex", ty: "uint16_t",
+  // modifiers: "", def_value: None }]
+  constexpr __ProBuilderMesh__NonVersionedEditScope(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh, uint16_t m_VersionIndex) noexcept;
 
   /// @brief Field m_Mesh, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh;
@@ -239,8 +240,6 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__ProBuilderMesh__NonVersioned
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12070))
 // CS Name: ::ProBuilderMesh::<>c*
 class CORDL_TYPE __ProBuilderMesh____c : public ::System::Object {
 public:
@@ -263,50 +262,56 @@ public:
   /// @brief Field <>9__165_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__165_0, put = setStaticF___9__165_0))::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>* __9__165_0;
 
-  static inline void setStaticF___9(::UnityEngine::ProBuilder::__ProBuilderMesh____c* value);
+  static inline ::UnityEngine::ProBuilder::__ProBuilderMesh____c* New_ctor();
+
+  /// @brief Method <CopyFrom>b__165_0, addr 0x2c45ca0, size 0x64, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Face* _CopyFrom_b__165_0(::UnityEngine::ProBuilder::Face* x);
+
+  /// @brief Method <SetUVs>b__114_0, addr 0x2c45c58, size 0x4, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 _SetUVs_b__114_0(::UnityEngine::Vector4 x);
+
+  /// @brief Method <SetUVs>b__114_1, addr 0x2c45c5c, size 0x4, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 _SetUVs_b__114_1(::UnityEngine::Vector4 x);
+
+  /// @brief Method .ctor, addr 0x2c45c50, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method <get_indexCount>b__122_0, addr 0x2c45c60, size 0x20, virtual false, abstract: false, final false
+  inline int32_t _get_indexCount_b__122_0(::UnityEngine::ProBuilder::Face* x);
+
+  /// @brief Method <get_triangleCount>b__124_0, addr 0x2c45c80, size 0x20, virtual false, abstract: false, final false
+  inline int32_t _get_triangleCount_b__124_0(::UnityEngine::ProBuilder::Face* x);
 
   static inline ::UnityEngine::ProBuilder::__ProBuilderMesh____c* getStaticF___9();
 
-  static inline void setStaticF___9__114_0(::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* value);
-
   static inline ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* getStaticF___9__114_0();
-
-  static inline void setStaticF___9__114_1(::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* value);
 
   static inline ::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* getStaticF___9__114_1();
 
-  static inline void setStaticF___9__122_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* value);
-
   static inline ::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* getStaticF___9__122_0();
-
-  static inline void setStaticF___9__124_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* value);
 
   static inline ::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* getStaticF___9__124_0();
 
-  static inline void setStaticF___9__165_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>* value);
-
   static inline ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>* getStaticF___9__165_0();
 
-  static inline ::UnityEngine::ProBuilder::__ProBuilderMesh____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::ProBuilder::__ProBuilderMesh____c* value);
 
-  /// @brief Method .ctor, addr 0x2b5eb7c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__114_0(::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* value);
 
-  /// @brief Method <SetUVs>b__114_0, addr 0x2b5eb84, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 _SetUVs_b__114_0(::UnityEngine::Vector4 x);
+  static inline void setStaticF___9__114_1(::System::Func_2<::UnityEngine::Vector4, ::UnityEngine::Vector2>* value);
 
-  /// @brief Method <SetUVs>b__114_1, addr 0x2b5eb88, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 _SetUVs_b__114_1(::UnityEngine::Vector4 x);
+  static inline void setStaticF___9__122_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* value);
 
-  /// @brief Method <get_indexCount>b__122_0, addr 0x2b5eb8c, size 0x20, virtual false, abstract: false, final false
-  inline int32_t _get_indexCount_b__122_0(::UnityEngine::ProBuilder::Face* x);
+  static inline void setStaticF___9__124_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* value);
 
-  /// @brief Method <get_triangleCount>b__124_0, addr 0x2b5ebac, size 0x20, virtual false, abstract: false, final false
-  inline int32_t _get_triangleCount_b__124_0(::UnityEngine::ProBuilder::Face* x);
+  static inline void setStaticF___9__165_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>* value);
 
-  /// @brief Method <CopyFrom>b__165_0, addr 0x2b5ebcc, size 0x64, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::Face* _CopyFrom_b__165_0(::UnityEngine::ProBuilder::Face* x);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ProBuilderMesh____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ProBuilderMesh____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ProBuilderMesh____c(__ProBuilderMesh____c&&) = delete;
@@ -315,12 +320,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ProBuilderMesh____c(__ProBuilderMesh____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ProBuilderMesh____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -331,8 +330,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__ProBu
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12071))
 // CS Name: ::ProBuilderMesh::<>c__DisplayClass168_0*
 class CORDL_TYPE __ProBuilderMesh____c__DisplayClass168_0 : public ::System::Object {
 public:
@@ -340,20 +337,26 @@ public:
   /// @brief Field i, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) int32_t i;
 
-  constexpr int32_t& __cordl_internal_get_i();
+  static inline ::UnityEngine::ProBuilder::__ProBuilderMesh____c__DisplayClass168_0* New_ctor();
+
+  /// @brief Method <GetUnusedTextureGroup>b__0, addr 0x2c45d04, size 0x24, virtual false, abstract: false, final false
+  inline bool _GetUnusedTextureGroup_b__0(::UnityEngine::ProBuilder::Face* element);
 
   constexpr int32_t const& __cordl_internal_get_i() const;
 
+  constexpr int32_t& __cordl_internal_get_i();
+
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  static inline ::UnityEngine::ProBuilder::__ProBuilderMesh____c__DisplayClass168_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2b5b140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c42214, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetUnusedTextureGroup>b__0, addr 0x2b5ec30, size 0x24, virtual false, abstract: false, final false
-  inline bool _GetUnusedTextureGroup_b__0(::UnityEngine::ProBuilder::Face* element);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ProBuilderMesh____c__DisplayClass168_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ProBuilderMesh____c__DisplayClass168_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ProBuilderMesh____c__DisplayClass168_0(__ProBuilderMesh____c__DisplayClass168_0&&) = delete;
@@ -362,12 +365,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ProBuilderMesh____c__DisplayClass168_0(__ProBuilderMesh____c__DisplayClass168_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ProBuilderMesh____c__DisplayClass168_0();
-
-public:
   /// @brief Field i, offset: 0x10, size: 0x4, def value: None
   int32_t ___i;
 
@@ -383,8 +380,6 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__ProBuilderMesh____c__Display
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12072))
 // CS Name: ::ProBuilderMesh::<>c__DisplayClass170_0*
 class CORDL_TYPE __ProBuilderMesh____c__DisplayClass170_0 : public ::System::Object {
 public:
@@ -392,20 +387,26 @@ public:
   /// @brief Field i, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) int32_t i;
 
-  constexpr int32_t& __cordl_internal_get_i();
+  static inline ::UnityEngine::ProBuilder::__ProBuilderMesh____c__DisplayClass170_0* New_ctor();
+
+  /// @brief Method <UnusedElementGroup>b__0, addr 0x2c45d28, size 0x24, virtual false, abstract: false, final false
+  inline bool _UnusedElementGroup_b__0(::UnityEngine::ProBuilder::Face* element);
 
   constexpr int32_t const& __cordl_internal_get_i() const;
 
+  constexpr int32_t& __cordl_internal_get_i();
+
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  static inline ::UnityEngine::ProBuilder::__ProBuilderMesh____c__DisplayClass170_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2b5b264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c42338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <UnusedElementGroup>b__0, addr 0x2b5ec54, size 0x24, virtual false, abstract: false, final false
-  inline bool _UnusedElementGroup_b__0(::UnityEngine::ProBuilder::Face* element);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ProBuilderMesh____c__DisplayClass170_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ProBuilderMesh____c__DisplayClass170_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ProBuilderMesh____c__DisplayClass170_0(__ProBuilderMesh____c__DisplayClass170_0&&) = delete;
@@ -414,12 +415,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ProBuilderMesh____c__DisplayClass170_0(__ProBuilderMesh____c__DisplayClass170_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ProBuilderMesh____c__DisplayClass170_0();
-
-public:
   /// @brief Field i, offset: 0x10, size: 0x4, def value: None
   int32_t ___i;
 
@@ -435,49 +430,134 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__ProBuilderMesh____c__Display
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8943)), TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(12068))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12073))
 // CS Name: ::UnityEngine.ProBuilder::ProBuilderMesh*
 class CORDL_TYPE ProBuilderMesh : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c__DisplayClass170_0 = ::UnityEngine::ProBuilder::__ProBuilderMesh____c__DisplayClass170_0;
-
-  using __c__DisplayClass168_0 = ::UnityEngine::ProBuilder::__ProBuilderMesh____c__DisplayClass168_0;
-
-  using __c = ::UnityEngine::ProBuilder::__ProBuilderMesh____c;
+  using CacheValidState = ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState;
 
   using NonVersionedEditScope = ::UnityEngine::ProBuilder::__ProBuilderMesh__NonVersionedEditScope;
 
-  using CacheValidState = ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState;
+  using __c = ::UnityEngine::ProBuilder::__ProBuilderMesh____c;
 
-  /// @brief Field m_MeshFormatVersion, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_MeshFormatVersion, put = __cordl_internal_set_m_MeshFormatVersion)) int32_t m_MeshFormatVersion;
+  using __c__DisplayClass168_0 = ::UnityEngine::ProBuilder::__ProBuilderMesh____c__DisplayClass168_0;
 
-  /// @brief Field m_Faces, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Faces, put = __cordl_internal_set_m_Faces))::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> m_Faces;
+  using __c__DisplayClass170_0 = ::UnityEngine::ProBuilder::__ProBuilderMesh____c__DisplayClass170_0;
 
-  /// @brief Field m_SharedVertices, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SharedVertices,
-                      put = __cordl_internal_set_m_SharedVertices))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> m_SharedVertices;
+  /// @brief Field <userCollisions>k__BackingField, offset 0x88, size 0x1
+  __declspec(property(get = __cordl_internal_get__userCollisions_k__BackingField, put = __cordl_internal_set__userCollisions_k__BackingField)) bool _userCollisions_k__BackingField;
+
+  /// @brief Field assetGuid, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_assetGuid, put = __cordl_internal_set_assetGuid))::StringW assetGuid;
+
+  __declspec(property(get = get_colors, put = set_colors))::System::Collections::Generic::IList_1<::UnityEngine::Color>* colors;
+
+  __declspec(property(get = get_colorsInternal, put = set_colorsInternal))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colorsInternal;
+
+  /// @brief Field componentHasBeenReset, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_componentHasBeenReset,
+                             put = setStaticF_componentHasBeenReset))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* componentHasBeenReset;
+
+  /// @brief Field componentWillBeDestroyed, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_componentWillBeDestroyed,
+                             put = setStaticF_componentWillBeDestroyed))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* componentWillBeDestroyed;
+
+  __declspec(property(get = get_edgeCount)) int32_t edgeCount;
+
+  /// @brief Field elementSelectionChanged, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_elementSelectionChanged,
+                             put = setStaticF_elementSelectionChanged))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* elementSelectionChanged;
+
+  __declspec(property(get = get_faceCount)) int32_t faceCount;
+
+  __declspec(property(get = get_faces, put = set_faces))::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces;
+
+  __declspec(property(get = get_facesInternal, put = set_facesInternal))::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> facesInternal;
+
+  __declspec(property(get = get_filter))::UnityW<::UnityEngine::MeshFilter> filter;
+
+  __declspec(property(get = get_id)) int32_t id;
+
+  __declspec(property(get = get_indexCount)) int32_t indexCount;
 
   /// @brief Field m_CacheValid, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_m_CacheValid, put = __cordl_internal_set_m_CacheValid))::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState m_CacheValid;
 
-  /// @brief Field m_SharedVertexLookup, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SharedVertexLookup,
-                      put = __cordl_internal_set_m_SharedVertexLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_SharedVertexLookup;
+  /// @brief Field m_Colors, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Colors, put = __cordl_internal_set_m_Colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> m_Colors;
 
-  /// @brief Field m_SharedTextures, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SharedTextures,
-                      put = __cordl_internal_set_m_SharedTextures))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> m_SharedTextures;
+  /// @brief Field m_Faces, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Faces, put = __cordl_internal_set_m_Faces))::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> m_Faces;
+
+  /// @brief Field m_IsSelectable, offset 0xc2, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_IsSelectable, put = __cordl_internal_set_m_IsSelectable)) bool m_IsSelectable;
+
+  /// @brief Field m_Mesh, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::Mesh> m_Mesh;
+
+  /// @brief Field m_MeshFilter, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MeshFilter, put = __cordl_internal_set_m_MeshFilter))::UnityW<::UnityEngine::MeshFilter> m_MeshFilter;
+
+  /// @brief Field m_MeshFormatVersion, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_MeshFormatVersion, put = __cordl_internal_set_m_MeshFormatVersion)) int32_t m_MeshFormatVersion;
+
+  /// @brief Field m_MeshRenderer, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MeshRenderer, put = __cordl_internal_set_m_MeshRenderer))::UnityW<::UnityEngine::MeshRenderer> m_MeshRenderer;
+
+  /// @brief Field m_Normals, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Normals, put = __cordl_internal_set_m_Normals))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Normals;
+
+  /// @brief Field m_Positions, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Positions, put = __cordl_internal_set_m_Positions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Positions;
+
+  /// @brief Field m_PreserveMeshAssetOnDestroy, offset 0x98, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_PreserveMeshAssetOnDestroy, put = __cordl_internal_set_m_PreserveMeshAssetOnDestroy)) bool m_PreserveMeshAssetOnDestroy;
+
+  /// @brief Field m_SelectedCacheDirty, offset 0xe0, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_SelectedCacheDirty, put = __cordl_internal_set_m_SelectedCacheDirty)) bool m_SelectedCacheDirty;
+
+  /// @brief Field m_SelectedCoincidentVertexCount, offset 0xe8, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_SelectedCoincidentVertexCount, put = __cordl_internal_set_m_SelectedCoincidentVertexCount)) int32_t m_SelectedCoincidentVertexCount;
+
+  /// @brief Field m_SelectedCoincidentVertices, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SelectedCoincidentVertices,
+                      put = __cordl_internal_set_m_SelectedCoincidentVertices))::System::Collections::Generic::List_1<int32_t>* m_SelectedCoincidentVertices;
+
+  /// @brief Field m_SelectedEdges, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SelectedEdges,
+                      put = __cordl_internal_set_m_SelectedEdges))::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> m_SelectedEdges;
+
+  /// @brief Field m_SelectedFaces, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SelectedFaces, put = __cordl_internal_set_m_SelectedFaces))::ArrayW<int32_t, ::Array<int32_t>*> m_SelectedFaces;
+
+  /// @brief Field m_SelectedSharedVertices, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SelectedSharedVertices,
+                      put = __cordl_internal_set_m_SelectedSharedVertices))::System::Collections::Generic::HashSet_1<int32_t>* m_SelectedSharedVertices;
+
+  /// @brief Field m_SelectedSharedVerticesCount, offset 0xe4, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_SelectedSharedVerticesCount, put = __cordl_internal_set_m_SelectedSharedVerticesCount)) int32_t m_SelectedSharedVerticesCount;
+
+  /// @brief Field m_SelectedVertices, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SelectedVertices, put = __cordl_internal_set_m_SelectedVertices))::ArrayW<int32_t, ::Array<int32_t>*> m_SelectedVertices;
 
   /// @brief Field m_SharedTextureLookup, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SharedTextureLookup,
                       put = __cordl_internal_set_m_SharedTextureLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_SharedTextureLookup;
 
-  /// @brief Field m_Positions, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Positions, put = __cordl_internal_set_m_Positions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Positions;
+  /// @brief Field m_SharedTextures, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SharedTextures,
+                      put = __cordl_internal_set_m_SharedTextures))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> m_SharedTextures;
+
+  /// @brief Field m_SharedVertexLookup, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SharedVertexLookup,
+                      put = __cordl_internal_set_m_SharedVertexLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_SharedVertexLookup;
+
+  /// @brief Field m_SharedVertices, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SharedVertices,
+                      put = __cordl_internal_set_m_SharedVertices))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> m_SharedVertices;
+
+  /// @brief Field m_Tangents, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Tangents, put = __cordl_internal_set_m_Tangents))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> m_Tangents;
 
   /// @brief Field m_Textures0, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Textures0, put = __cordl_internal_set_m_Textures0))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> m_Textures0;
@@ -488,875 +568,794 @@ public:
   /// @brief Field m_Textures3, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Textures3, put = __cordl_internal_set_m_Textures3))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Textures3;
 
-  /// @brief Field m_Tangents, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Tangents, put = __cordl_internal_set_m_Tangents))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> m_Tangents;
-
-  /// @brief Field m_Normals, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Normals, put = __cordl_internal_set_m_Normals))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Normals;
-
-  /// @brief Field m_Colors, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Colors, put = __cordl_internal_set_m_Colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> m_Colors;
-
-  /// @brief Field <userCollisions>k__BackingField, offset 0x88, size 0x1
-  __declspec(property(get = __cordl_internal_get__userCollisions_k__BackingField, put = __cordl_internal_set__userCollisions_k__BackingField)) bool _userCollisions_k__BackingField;
-
   /// @brief Field m_UnwrapParameters, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UnwrapParameters, put = __cordl_internal_set_m_UnwrapParameters))::UnityEngine::ProBuilder::UnwrapParameters* m_UnwrapParameters;
-
-  /// @brief Field m_PreserveMeshAssetOnDestroy, offset 0x98, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_PreserveMeshAssetOnDestroy, put = __cordl_internal_set_m_PreserveMeshAssetOnDestroy)) bool m_PreserveMeshAssetOnDestroy;
-
-  /// @brief Field assetGuid, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_assetGuid, put = __cordl_internal_set_assetGuid))::StringW assetGuid;
-
-  /// @brief Field m_Mesh, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::Mesh> m_Mesh;
-
-  /// @brief Field m_MeshRenderer, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MeshRenderer, put = __cordl_internal_set_m_MeshRenderer))::UnityW<::UnityEngine::MeshRenderer> m_MeshRenderer;
-
-  /// @brief Field m_MeshFilter, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MeshFilter, put = __cordl_internal_set_m_MeshFilter))::UnityW<::UnityEngine::MeshFilter> m_MeshFilter;
 
   /// @brief Field m_VersionIndex, offset 0xc0, size 0x2
   __declspec(property(get = __cordl_internal_get_m_VersionIndex, put = __cordl_internal_set_m_VersionIndex)) uint16_t m_VersionIndex;
 
-  /// @brief Field m_IsSelectable, offset 0xc2, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_IsSelectable, put = __cordl_internal_set_m_IsSelectable)) bool m_IsSelectable;
+  __declspec(property(get = get_mesh, put = set_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
-  /// @brief Field m_SelectedFaces, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SelectedFaces, put = __cordl_internal_set_m_SelectedFaces))::ArrayW<int32_t, ::Array<int32_t>*> m_SelectedFaces;
+  __declspec(property(get = get_meshFormatVersion)) int32_t meshFormatVersion;
 
-  /// @brief Field m_SelectedEdges, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SelectedEdges,
-                      put = __cordl_internal_set_m_SelectedEdges))::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> m_SelectedEdges;
-
-  /// @brief Field m_SelectedVertices, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SelectedVertices, put = __cordl_internal_set_m_SelectedVertices))::ArrayW<int32_t, ::Array<int32_t>*> m_SelectedVertices;
-
-  /// @brief Field m_SelectedCacheDirty, offset 0xe0, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_SelectedCacheDirty, put = __cordl_internal_set_m_SelectedCacheDirty)) bool m_SelectedCacheDirty;
-
-  /// @brief Field m_SelectedSharedVerticesCount, offset 0xe4, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_SelectedSharedVerticesCount, put = __cordl_internal_set_m_SelectedSharedVerticesCount)) int32_t m_SelectedSharedVerticesCount;
-
-  /// @brief Field m_SelectedCoincidentVertexCount, offset 0xe8, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_SelectedCoincidentVertexCount, put = __cordl_internal_set_m_SelectedCoincidentVertexCount)) int32_t m_SelectedCoincidentVertexCount;
-
-  /// @brief Field m_SelectedSharedVertices, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SelectedSharedVertices,
-                      put = __cordl_internal_set_m_SelectedSharedVertices))::System::Collections::Generic::HashSet_1<int32_t>* m_SelectedSharedVertices;
-
-  /// @brief Field m_SelectedCoincidentVertices, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SelectedCoincidentVertices,
-                      put = __cordl_internal_set_m_SelectedCoincidentVertices))::System::Collections::Generic::List_1<int32_t>* m_SelectedCoincidentVertices;
-
-  /// @brief Field meshWillBeDestroyed, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_meshWillBeDestroyed, put = setStaticF_meshWillBeDestroyed))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshWillBeDestroyed;
+  __declspec(property(get = get_meshSyncState))::UnityEngine::ProBuilder::MeshSyncState meshSyncState;
 
   /// @brief Field meshWasInitialized, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_meshWasInitialized, put = setStaticF_meshWasInitialized))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshWasInitialized;
 
-  /// @brief Field componentWillBeDestroyed, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_componentWillBeDestroyed,
-                             put = setStaticF_componentWillBeDestroyed))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* componentWillBeDestroyed;
-
-  /// @brief Field componentHasBeenReset, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_componentHasBeenReset,
-                             put = setStaticF_componentHasBeenReset))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* componentHasBeenReset;
-
-  /// @brief Field elementSelectionChanged, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_elementSelectionChanged,
-                             put = setStaticF_elementSelectionChanged))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* elementSelectionChanged;
-
-  /// @brief Field s_CachedHashSet, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CachedHashSet, put = setStaticF_s_CachedHashSet))::System::Collections::Generic::HashSet_1<int32_t>* s_CachedHashSet;
-
-  __declspec(property(get = get_userCollisions, put = set_userCollisions)) bool userCollisions;
-
-  __declspec(property(get = get_unwrapParameters, put = set_unwrapParameters))::UnityEngine::ProBuilder::UnwrapParameters* unwrapParameters;
-
-  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::MeshRenderer> renderer;
-
-  __declspec(property(get = get_filter))::UnityW<::UnityEngine::MeshFilter> filter;
-
-  __declspec(property(get = get_versionIndex)) uint16_t versionIndex;
-
-  __declspec(property(get = get_preserveMeshAssetOnDestroy, put = set_preserveMeshAssetOnDestroy)) bool preserveMeshAssetOnDestroy;
-
-  __declspec(property(get = get_facesInternal, put = set_facesInternal))::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> facesInternal;
-
-  __declspec(property(get = get_faces, put = set_faces))::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces;
-
-  __declspec(property(get = get_sharedVerticesInternal,
-                      put = set_sharedVerticesInternal))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> sharedVerticesInternal;
-
-  __declspec(property(get = get_sharedVertices, put = set_sharedVertices))::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices;
-
-  __declspec(property(get = get_sharedVertexLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup;
-
-  __declspec(property(get = get_sharedTextures, put = set_sharedTextures))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> sharedTextures;
-
-  __declspec(property(get = get_sharedTextureLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup;
-
-  __declspec(property(get = get_positionsInternal, put = set_positionsInternal))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positionsInternal;
-
-  __declspec(property(get = get_positions, put = set_positions))::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions;
+  /// @brief Field meshWillBeDestroyed, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_meshWillBeDestroyed, put = setStaticF_meshWillBeDestroyed))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshWillBeDestroyed;
 
   __declspec(property(get = get_normals))::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* normals;
 
   __declspec(property(get = get_normalsInternal, put = set_normalsInternal))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normalsInternal;
 
-  __declspec(property(get = get_colorsInternal, put = set_colorsInternal))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colorsInternal;
+  __declspec(property(get = get_positions, put = set_positions))::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions;
 
-  __declspec(property(get = get_colors, put = set_colors))::System::Collections::Generic::IList_1<::UnityEngine::Color>* colors;
+  __declspec(property(get = get_positionsInternal, put = set_positionsInternal))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positionsInternal;
+
+  __declspec(property(get = get_preserveMeshAssetOnDestroy, put = set_preserveMeshAssetOnDestroy)) bool preserveMeshAssetOnDestroy;
+
+  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::MeshRenderer> renderer;
+
+  /// @brief Field s_CachedHashSet, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_CachedHashSet, put = setStaticF_s_CachedHashSet))::System::Collections::Generic::HashSet_1<int32_t>* s_CachedHashSet;
+
+  __declspec(property(get = get_selectable, put = set_selectable)) bool selectable;
+
+  __declspec(property(get = get_selectedCoincidentVertexCount)) int32_t selectedCoincidentVertexCount;
+
+  __declspec(property(get = get_selectedCoincidentVertices))::System::Collections::Generic::IEnumerable_1<int32_t>* selectedCoincidentVertices;
+
+  __declspec(property(get = get_selectedEdgeCount)) int32_t selectedEdgeCount;
+
+  __declspec(property(get = get_selectedEdges))::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge>* selectedEdges;
+
+  __declspec(property(get = get_selectedEdgesInternal, put = set_selectedEdgesInternal))::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> selectedEdgesInternal;
+
+  __declspec(property(get = get_selectedFaceCount)) int32_t selectedFaceCount;
+
+  __declspec(property(get = get_selectedFaceIndexes))::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* selectedFaceIndexes;
+
+  __declspec(property(get = get_selectedFaceIndicesInternal, put = set_selectedFaceIndicesInternal))::ArrayW<int32_t, ::Array<int32_t>*> selectedFaceIndicesInternal;
+
+  __declspec(property(get = get_selectedFacesInternal, put = set_selectedFacesInternal))::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> selectedFacesInternal;
+
+  __declspec(property(get = get_selectedIndexesInternal, put = set_selectedIndexesInternal))::ArrayW<int32_t, ::Array<int32_t>*> selectedIndexesInternal;
+
+  __declspec(property(get = get_selectedSharedVertices))::System::Collections::Generic::IEnumerable_1<int32_t>* selectedSharedVertices;
+
+  __declspec(property(get = get_selectedSharedVerticesCount)) int32_t selectedSharedVerticesCount;
+
+  __declspec(property(get = get_selectedVertexCount)) int32_t selectedVertexCount;
+
+  __declspec(property(get = get_selectedVertices))::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* selectedVertices;
+
+  __declspec(property(get = get_sharedTextureLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup;
+
+  __declspec(property(get = get_sharedTextures, put = set_sharedTextures))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> sharedTextures;
+
+  __declspec(property(get = get_sharedVertexLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup;
+
+  __declspec(property(get = get_sharedVertices, put = set_sharedVertices))::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices;
+
+  __declspec(property(get = get_sharedVerticesInternal,
+                      put = set_sharedVerticesInternal))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> sharedVerticesInternal;
 
   __declspec(property(get = get_tangents, put = set_tangents))::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* tangents;
 
   __declspec(property(get = get_tangentsInternal, put = set_tangentsInternal))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> tangentsInternal;
 
-  __declspec(property(get = get_texturesInternal, put = set_texturesInternal))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> texturesInternal;
+  __declspec(property(get = get_textures, put = set_textures))::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* textures;
 
   __declspec(property(get = get_textures2Internal, put = set_textures2Internal))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* textures2Internal;
 
   __declspec(property(get = get_textures3Internal, put = set_textures3Internal))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* textures3Internal;
 
-  __declspec(property(get = get_textures, put = set_textures))::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* textures;
-
-  __declspec(property(get = get_faceCount)) int32_t faceCount;
-
-  __declspec(property(get = get_vertexCount)) int32_t vertexCount;
-
-  __declspec(property(get = get_edgeCount)) int32_t edgeCount;
-
-  __declspec(property(get = get_indexCount)) int32_t indexCount;
+  __declspec(property(get = get_texturesInternal, put = set_texturesInternal))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> texturesInternal;
 
   __declspec(property(get = get_triangleCount)) int32_t triangleCount;
 
-  __declspec(property(get = get_mesh, put = set_mesh))::UnityW<::UnityEngine::Mesh> mesh;
+  __declspec(property(get = get_unwrapParameters, put = set_unwrapParameters))::UnityEngine::ProBuilder::UnwrapParameters* unwrapParameters;
 
-  __declspec(property(get = get_id)) int32_t id;
+  __declspec(property(get = get_userCollisions, put = set_userCollisions)) bool userCollisions;
 
-  __declspec(property(get = get_meshSyncState))::UnityEngine::ProBuilder::MeshSyncState meshSyncState;
+  __declspec(property(get = get_versionIndex)) uint16_t versionIndex;
 
-  __declspec(property(get = get_meshFormatVersion)) int32_t meshFormatVersion;
+  __declspec(property(get = get_vertexCount)) int32_t vertexCount;
 
-  __declspec(property(get = get_selectable, put = set_selectable)) bool selectable;
+  /// @brief Method AddSharedVertex, addr 0x2c447a4, size 0xac, virtual false, abstract: false, final false
+  inline void AddSharedVertex(::UnityEngine::ProBuilder::SharedVertex* vertex);
 
-  __declspec(property(get = get_selectedFaceCount)) int32_t selectedFaceCount;
+  /// @brief Method AddToFaceSelection, addr 0x2c45300, size 0x6c, virtual false, abstract: false, final false
+  inline void AddToFaceSelection(int32_t index);
 
-  __declspec(property(get = get_selectedVertexCount)) int32_t selectedVertexCount;
+  /// @brief Method AddToSharedVertex, addr 0x2c44708, size 0x9c, virtual false, abstract: false, final false
+  inline void AddToSharedVertex(int32_t sharedVertexHandle, int32_t vertex);
 
-  __declspec(property(get = get_selectedEdgeCount)) int32_t selectedEdgeCount;
-
-  __declspec(property(get = get_selectedSharedVerticesCount)) int32_t selectedSharedVerticesCount;
-
-  __declspec(property(get = get_selectedCoincidentVertexCount)) int32_t selectedCoincidentVertexCount;
-
-  __declspec(property(get = get_selectedSharedVertices))::System::Collections::Generic::IEnumerable_1<int32_t>* selectedSharedVertices;
-
-  __declspec(property(get = get_selectedCoincidentVertices))::System::Collections::Generic::IEnumerable_1<int32_t>* selectedCoincidentVertices;
-
-  __declspec(property(get = get_selectedFaceIndexes))::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* selectedFaceIndexes;
-
-  __declspec(property(get = get_selectedVertices))::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* selectedVertices;
-
-  __declspec(property(get = get_selectedEdges))::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge>* selectedEdges;
-
-  __declspec(property(get = get_selectedFacesInternal, put = set_selectedFacesInternal))::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> selectedFacesInternal;
-
-  __declspec(property(get = get_selectedFaceIndicesInternal, put = set_selectedFaceIndicesInternal))::ArrayW<int32_t, ::Array<int32_t>*> selectedFaceIndicesInternal;
-
-  __declspec(property(get = get_selectedEdgesInternal, put = set_selectedEdgesInternal))::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> selectedEdgesInternal;
-
-  __declspec(property(get = get_selectedIndexesInternal, put = set_selectedIndexesInternal))::ArrayW<int32_t, ::Array<int32_t>*> selectedIndexesInternal;
-
-  constexpr int32_t& __cordl_internal_get_m_MeshFormatVersion();
-
-  constexpr int32_t const& __cordl_internal_get_m_MeshFormatVersion() const;
-
-  constexpr void __cordl_internal_set_m_MeshFormatVersion(int32_t value);
-
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>& __cordl_internal_get_m_Faces();
-
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> const& __cordl_internal_get_m_Faces() const;
-
-  constexpr void __cordl_internal_set_m_Faces(::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __cordl_internal_get_m_SharedVertices();
-
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __cordl_internal_get_m_SharedVertices() const;
-
-  constexpr void __cordl_internal_set_m_SharedVertices(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
-
-  constexpr ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState& __cordl_internal_get_m_CacheValid();
-
-  constexpr ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState const& __cordl_internal_get_m_CacheValid() const;
-
-  constexpr void __cordl_internal_set_m_CacheValid(::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_m_SharedVertexLookup();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get_m_SharedVertexLookup() const;
-
-  constexpr void __cordl_internal_set_m_SharedVertexLookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
-
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __cordl_internal_get_m_SharedTextures();
-
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __cordl_internal_get_m_SharedTextures() const;
-
-  constexpr void __cordl_internal_set_m_SharedTextures(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_m_SharedTextureLookup();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get_m_SharedTextureLookup() const;
-
-  constexpr void __cordl_internal_set_m_SharedTextureLookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_Positions();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Positions() const;
-
-  constexpr void __cordl_internal_set_m_Positions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get_m_Textures0();
-
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get_m_Textures0() const;
-
-  constexpr void __cordl_internal_set_m_Textures0(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
-
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Textures2();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Textures2() const;
-
-  constexpr void __cordl_internal_set_m_Textures2(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
-
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Textures3();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Textures3() const;
-
-  constexpr void __cordl_internal_set_m_Textures3(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get_m_Tangents();
-
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Tangents() const;
-
-  constexpr void __cordl_internal_set_m_Tangents(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_Normals();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Normals() const;
-
-  constexpr void __cordl_internal_set_m_Normals(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get_m_Colors();
-
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get_m_Colors() const;
-
-  constexpr void __cordl_internal_set_m_Colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
-
-  constexpr bool& __cordl_internal_get__userCollisions_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__userCollisions_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__userCollisions_k__BackingField(bool value);
-
-  constexpr ::UnityEngine::ProBuilder::UnwrapParameters*& __cordl_internal_get_m_UnwrapParameters();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::UnwrapParameters*> const& __cordl_internal_get_m_UnwrapParameters() const;
-
-  constexpr void __cordl_internal_set_m_UnwrapParameters(::UnityEngine::ProBuilder::UnwrapParameters* value);
-
-  constexpr bool& __cordl_internal_get_m_PreserveMeshAssetOnDestroy();
-
-  constexpr bool const& __cordl_internal_get_m_PreserveMeshAssetOnDestroy() const;
-
-  constexpr void __cordl_internal_set_m_PreserveMeshAssetOnDestroy(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_assetGuid();
-
-  constexpr ::StringW const& __cordl_internal_get_assetGuid() const;
-
-  constexpr void __cordl_internal_set_assetGuid(::StringW value);
-
-  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_m_Mesh();
-
-  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_Mesh() const;
-
-  constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::Mesh> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_m_MeshRenderer();
-
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_m_MeshRenderer() const;
-
-  constexpr void __cordl_internal_set_m_MeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_m_MeshFilter();
-
-  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_m_MeshFilter() const;
-
-  constexpr void __cordl_internal_set_m_MeshFilter(::UnityW<::UnityEngine::MeshFilter> value);
-
-  constexpr uint16_t& __cordl_internal_get_m_VersionIndex();
-
-  constexpr uint16_t const& __cordl_internal_get_m_VersionIndex() const;
-
-  constexpr void __cordl_internal_set_m_VersionIndex(uint16_t value);
-
-  constexpr bool& __cordl_internal_get_m_IsSelectable();
-
-  constexpr bool const& __cordl_internal_get_m_IsSelectable() const;
-
-  constexpr void __cordl_internal_set_m_IsSelectable(bool value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_SelectedFaces();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_SelectedFaces() const;
-
-  constexpr void __cordl_internal_set_m_SelectedFaces(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>& __cordl_internal_get_m_SelectedEdges();
-
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> const& __cordl_internal_get_m_SelectedEdges() const;
-
-  constexpr void __cordl_internal_set_m_SelectedEdges(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_SelectedVertices();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_SelectedVertices() const;
-
-  constexpr void __cordl_internal_set_m_SelectedVertices(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr bool& __cordl_internal_get_m_SelectedCacheDirty();
-
-  constexpr bool const& __cordl_internal_get_m_SelectedCacheDirty() const;
-
-  constexpr void __cordl_internal_set_m_SelectedCacheDirty(bool value);
-
-  constexpr int32_t& __cordl_internal_get_m_SelectedSharedVerticesCount();
-
-  constexpr int32_t const& __cordl_internal_get_m_SelectedSharedVerticesCount() const;
-
-  constexpr void __cordl_internal_set_m_SelectedSharedVerticesCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_SelectedCoincidentVertexCount();
-
-  constexpr int32_t const& __cordl_internal_get_m_SelectedCoincidentVertexCount() const;
-
-  constexpr void __cordl_internal_set_m_SelectedCoincidentVertexCount(int32_t value);
-
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_SelectedSharedVertices();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_SelectedSharedVertices() const;
-
-  constexpr void __cordl_internal_set_m_SelectedSharedVertices(::System::Collections::Generic::HashSet_1<int32_t>* value);
-
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_SelectedCoincidentVertices();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_SelectedCoincidentVertices() const;
-
-  constexpr void __cordl_internal_set_m_SelectedCoincidentVertices(::System::Collections::Generic::List_1<int32_t>* value);
-
-  static inline void setStaticF_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_meshWillBeDestroyed();
-
-  static inline void setStaticF_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_meshWasInitialized();
-
-  static inline void setStaticF_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_componentWillBeDestroyed();
-
-  static inline void setStaticF_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_componentHasBeenReset();
-
-  static inline void setStaticF_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_elementSelectionChanged();
-
-  static inline void setStaticF_s_CachedHashSet(::System::Collections::Generic::HashSet_1<int32_t>* value);
-
-  static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_s_CachedHashSet();
-
-  /// @brief Method get_userCollisions, addr 0x2b56294, size 0x8, virtual false, abstract: false, final false
-  inline bool get_userCollisions();
-
-  /// @brief Method set_userCollisions, addr 0x2b5629c, size 0xc, virtual false, abstract: false, final false
-  inline void set_userCollisions(bool value);
-
-  /// @brief Method get_unwrapParameters, addr 0x2b562a8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::UnwrapParameters* get_unwrapParameters();
-
-  /// @brief Method set_unwrapParameters, addr 0x2b562b0, size 0x8, virtual false, abstract: false, final false
-  inline void set_unwrapParameters(::UnityEngine::ProBuilder::UnwrapParameters* value);
-
-  /// @brief Method get_renderer, addr 0x2b532b4, size 0x74, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::MeshRenderer> get_renderer();
-
-  /// @brief Method get_filter, addr 0x2b562b8, size 0xb8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::MeshFilter> get_filter();
-
-  /// @brief Method get_versionIndex, addr 0x2b56370, size 0x8, virtual false, abstract: false, final false
-  inline uint16_t get_versionIndex();
-
-  /// @brief Method get_preserveMeshAssetOnDestroy, addr 0x2b56378, size 0x8, virtual false, abstract: false, final false
-  inline bool get_preserveMeshAssetOnDestroy();
-
-  /// @brief Method set_preserveMeshAssetOnDestroy, addr 0x2b56380, size 0xc, virtual false, abstract: false, final false
-  inline void set_preserveMeshAssetOnDestroy(bool value);
-
-  /// @brief Method HasArrays, addr 0x2b519e0, size 0x1e0, virtual false, abstract: false, final false
-  inline bool HasArrays(::UnityEngine::ProBuilder::MeshArrays channels);
-
-  /// @brief Method get_facesInternal, addr 0x2b5638c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> get_facesInternal();
-
-  /// @brief Method set_facesInternal, addr 0x2b56394, size 0x8, virtual false, abstract: false, final false
-  inline void set_facesInternal(::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> value);
-
-  /// @brief Method get_faces, addr 0x2b5639c, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* get_faces();
-
-  /// @brief Method set_faces, addr 0x2b56418, size 0xa4, virtual false, abstract: false, final false
-  inline void set_faces(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* value);
-
-  /// @brief Method InvalidateSharedVertexLookup, addr 0x2b564bc, size 0xa8, virtual false, abstract: false, final false
-  inline void InvalidateSharedVertexLookup();
-
-  /// @brief Method InvalidateSharedTextureLookup, addr 0x2b56564, size 0xa8, virtual false, abstract: false, final false
-  inline void InvalidateSharedTextureLookup();
-
-  /// @brief Method InvalidateFaces, addr 0x2b5660c, size 0x310, virtual false, abstract: false, final false
-  inline void InvalidateFaces();
-
-  /// @brief Method InvalidateCaches, addr 0x2b5691c, size 0x2c, virtual false, abstract: false, final false
-  inline void InvalidateCaches();
-
-  /// @brief Method get_sharedVerticesInternal, addr 0x2b56948, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> get_sharedVerticesInternal();
-
-  /// @brief Method set_sharedVerticesInternal, addr 0x2b56950, size 0x8, virtual false, abstract: false, final false
-  inline void set_sharedVerticesInternal(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
-
-  /// @brief Method get_sharedVertices, addr 0x2b56958, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* get_sharedVertices();
-
-  /// @brief Method set_sharedVertices, addr 0x2b569d4, size 0x244, virtual false, abstract: false, final false
-  inline void set_sharedVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* value);
-
-  /// @brief Method get_sharedVertexLookup, addr 0x2b56c18, size 0xa4, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* get_sharedVertexLookup();
-
-  /// @brief Method SetSharedVertices, addr 0x2b56cbc, size 0x74, virtual false, abstract: false, final false
-  inline void SetSharedVertices(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>>* indexes);
-
-  /// @brief Method get_sharedTextures, addr 0x2b56d30, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> get_sharedTextures();
-
-  /// @brief Method set_sharedTextures, addr 0x2b56d38, size 0x8, virtual false, abstract: false, final false
-  inline void set_sharedTextures(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
-
-  /// @brief Method get_sharedTextureLookup, addr 0x2b56d40, size 0xa0, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* get_sharedTextureLookup();
-
-  /// @brief Method SetSharedTextures, addr 0x2b56de0, size 0x74, virtual false, abstract: false, final false
-  inline void SetSharedTextures(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>>* indexes);
-
-  /// @brief Method get_positionsInternal, addr 0x2b56e54, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_positionsInternal();
-
-  /// @brief Method set_positionsInternal, addr 0x2b56e5c, size 0x8, virtual false, abstract: false, final false
-  inline void set_positionsInternal(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  /// @brief Method get_positions, addr 0x2b56e64, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* get_positions();
-
-  /// @brief Method set_positions, addr 0x2b56ee0, size 0xa4, virtual false, abstract: false, final false
-  inline void set_positions(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* value);
-
-  /// @brief Method GetVertices, addr 0x2b5287c, size 0x6bc, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> GetVertices(::System::Collections::Generic::IList_1<int32_t>* indexes);
-
-  /// @brief Method GetVerticesInList, addr 0x2b56f84, size 0x888, virtual false, abstract: false, final false
-  inline void GetVerticesInList(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
-
-  /// @brief Method SetVertices, addr 0x2b5780c, size 0x2cc, virtual false, abstract: false, final false
-  inline void SetVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, bool applyMesh);
-
-  /// @brief Method get_normals, addr 0x2b57bf4, size 0x88, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* get_normals();
-
-  /// @brief Method get_normalsInternal, addr 0x2b57c7c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_normalsInternal();
-
-  /// @brief Method set_normalsInternal, addr 0x2b57c84, size 0x8, virtual false, abstract: false, final false
-  inline void set_normalsInternal(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  /// @brief Method GetNormals, addr 0x2b51edc, size 0x88, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetNormals();
-
-  /// @brief Method get_colorsInternal, addr 0x2b57c8c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> get_colorsInternal();
-
-  /// @brief Method set_colorsInternal, addr 0x2b57c94, size 0x8, virtual false, abstract: false, final false
-  inline void set_colorsInternal(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
-
-  /// @brief Method get_colors, addr 0x2b57c9c, size 0x88, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IList_1<::UnityEngine::Color>* get_colors();
-
-  /// @brief Method set_colors, addr 0x2b57d24, size 0x104, virtual false, abstract: false, final false
-  inline void set_colors(::System::Collections::Generic::IList_1<::UnityEngine::Color>* value);
-
-  /// @brief Method GetColors, addr 0x2b57e28, size 0xa4, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> GetColors();
-
-  /// @brief Method get_tangents, addr 0x2b57ecc, size 0xa0, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* get_tangents();
-
-  /// @brief Method set_tangents, addr 0x2b57f6c, size 0xf4, virtual false, abstract: false, final false
-  inline void set_tangents(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* value);
-
-  /// @brief Method get_tangentsInternal, addr 0x2b58060, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> get_tangentsInternal();
-
-  /// @brief Method set_tangentsInternal, addr 0x2b58068, size 0x8, virtual false, abstract: false, final false
-  inline void set_tangentsInternal(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
-
-  /// @brief Method GetTangents, addr 0x2b51f64, size 0x88, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> GetTangents();
-
-  /// @brief Method get_texturesInternal, addr 0x2b58070, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> get_texturesInternal();
-
-  /// @brief Method set_texturesInternal, addr 0x2b58078, size 0x8, virtual false, abstract: false, final false
-  inline void set_texturesInternal(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
-
-  /// @brief Method get_textures2Internal, addr 0x2b58080, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* get_textures2Internal();
-
-  /// @brief Method set_textures2Internal, addr 0x2b58088, size 0x8, virtual false, abstract: false, final false
-  inline void set_textures2Internal(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
-
-  /// @brief Method get_textures3Internal, addr 0x2b58090, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* get_textures3Internal();
-
-  /// @brief Method set_textures3Internal, addr 0x2b58098, size 0x8, virtual false, abstract: false, final false
-  inline void set_textures3Internal(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
-
-  /// @brief Method get_textures, addr 0x2b580a0, size 0x88, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* get_textures();
-
-  /// @brief Method set_textures, addr 0x2b58128, size 0xe0, virtual false, abstract: false, final false
-  inline void set_textures(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* value);
-
-  /// @brief Method GetUVs, addr 0x2b51bc0, size 0x31c, virtual false, abstract: false, final false
-  inline void GetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs);
-
-  /// @brief Method GetUVs, addr 0x2b58208, size 0x124, virtual false, abstract: false, final false
-  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector2>* GetUVs(int32_t channel);
-
-  /// @brief Method SetUVs, addr 0x2b5832c, size 0x2d8, virtual false, abstract: false, final false
-  inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs);
-
-  /// @brief Method get_faceCount, addr 0x2b548bc, size 0x18, virtual false, abstract: false, final false
-  inline int32_t get_faceCount();
-
-  /// @brief Method get_vertexCount, addr 0x2b52828, size 0x18, virtual false, abstract: false, final false
-  inline int32_t get_vertexCount();
-
-  /// @brief Method get_edgeCount, addr 0x2b58604, size 0x8c, virtual false, abstract: false, final false
-  inline int32_t get_edgeCount();
-
-  /// @brief Method get_indexCount, addr 0x2b58690, size 0x114, virtual false, abstract: false, final false
-  inline int32_t get_indexCount();
-
-  /// @brief Method get_triangleCount, addr 0x2b587a4, size 0x124, virtual false, abstract: false, final false
-  inline int32_t get_triangleCount();
-
-  /// @brief Method add_meshWillBeDestroyed, addr 0x2b588c8, size 0xf0, virtual false, abstract: false, final false
-  static inline void add_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  /// @brief Method remove_meshWillBeDestroyed, addr 0x2b589b8, size 0xf0, virtual false, abstract: false, final false
-  static inline void remove_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  /// @brief Method add_meshWasInitialized, addr 0x2b58aa8, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  /// @brief Method remove_meshWasInitialized, addr 0x2b58b9c, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  /// @brief Method add_componentWillBeDestroyed, addr 0x2b58c90, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  /// @brief Method remove_componentWillBeDestroyed, addr 0x2b58d84, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  /// @brief Method add_componentHasBeenReset, addr 0x2b58e78, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  /// @brief Method remove_componentHasBeenReset, addr 0x2b58f6c, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  /// @brief Method add_elementSelectionChanged, addr 0x2b59060, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  /// @brief Method remove_elementSelectionChanged, addr 0x2b59154, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
-
-  /// @brief Method get_mesh, addr 0x2b53490, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
-
-  /// @brief Method set_mesh, addr 0x2b59248, size 0x8, virtual false, abstract: false, final false
-  inline void set_mesh(::UnityEngine::Mesh* value);
-
-  /// @brief Method get_id, addr 0x2b51fec, size 0x20, virtual false, abstract: false, final false
-  inline int32_t get_id();
-
-  /// @brief Method get_meshSyncState, addr 0x2b59250, size 0x124, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::MeshSyncState get_meshSyncState();
-
-  /// @brief Method get_meshFormatVersion, addr 0x2b59374, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_meshFormatVersion();
-
-  /// @brief Method Awake, addr 0x2b5937c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2c40450, size 0x13c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Reset, addr 0x2b59790, size 0xd0, virtual false, abstract: false, final false
-  inline void Reset();
+  /// @brief Method CacheSelection, addr 0x2c448d0, size 0x550, virtual false, abstract: false, final false
+  inline void CacheSelection();
 
-  /// @brief Method OnDestroy, addr 0x2b59860, size 0x210, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method IncrementVersionIndex, addr 0x2b57be4, size 0x10, virtual false, abstract: false, final false
-  inline void IncrementVersionIndex();
-
-  /// @brief Method Clear, addr 0x2b57ad8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2c3ebac, size 0x10c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method EnsureMeshFilterIsAssigned, addr 0x2b594b8, size 0x124, virtual false, abstract: false, final false
-  inline void EnsureMeshFilterIsAssigned();
+  /// @brief Method ClearSelection, addr 0x2c407b0, size 0x94, virtual false, abstract: false, final false
+  inline void ClearSelection();
 
-  /// @brief Method CreateInstanceWithPoints, addr 0x2b59a70, size 0x120, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateInstanceWithPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions);
+  /// @brief Method CopyFrom, addr 0x2c4177c, size 0x2e4, virtual false, abstract: false, final false
+  inline void CopyFrom(::UnityEngine::ProBuilder::ProBuilderMesh* other);
 
-  /// @brief Method Create, addr 0x2b59db8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c40e8c, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create();
 
-  /// @brief Method Create, addr 0x2b59e48, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c40f1c, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector3>* positions,
                                                                            ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Create, addr 0x2b5a02c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c41100, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
                                                                            ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
                                                                            ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,
                                                                            ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedTextures,
                                                                            ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
-  /// @brief Method GeometryWithPoints, addr 0x2b59b90, size 0x228, virtual false, abstract: false, final false
-  inline void GeometryWithPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points);
+  /// @brief Method CreateInstanceWithPoints, addr 0x2c40b44, size 0x120, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateInstanceWithPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions);
 
-  /// @brief Method RebuildWithPositionsAndFaces, addr 0x2b59f18, size 0x114, virtual false, abstract: false, final false
-  inline void RebuildWithPositionsAndFaces(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector3>* vertices,
-                                           ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
-
-  /// @brief Method Rebuild, addr 0x2b52840, size 0x20, virtual false, abstract: false, final false
-  inline void Rebuild();
-
-  /// @brief Method ToMesh, addr 0x2b5a1cc, size 0x368, virtual false, abstract: false, final false
-  inline void ToMesh(::UnityEngine::MeshTopology preferredTopology);
-
-  /// @brief Method MakeUnique, addr 0x2b5a634, size 0x74, virtual false, abstract: false, final false
-  inline void MakeUnique();
-
-  /// @brief Method CopyFrom, addr 0x2b5a6a8, size 0x2e4, virtual false, abstract: false, final false
-  inline void CopyFrom(::UnityEngine::ProBuilder::ProBuilderMesh* other);
-
-  /// @brief Method Refresh, addr 0x2b5a534, size 0x100, virtual false, abstract: false, final false
-  inline void Refresh(::UnityEngine::ProBuilder::RefreshMask mask);
-
-  /// @brief Method EnsureMeshColliderIsAssigned, addr 0x2b595dc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method EnsureMeshColliderIsAssigned, addr 0x2c406b0, size 0x100, virtual false, abstract: false, final false
   inline void EnsureMeshColliderIsAssigned();
 
-  /// @brief Method GetUnusedTextureGroup, addr 0x2b5b030, size 0x110, virtual false, abstract: false, final false
-  inline int32_t GetUnusedTextureGroup(int32_t i);
+  /// @brief Method EnsureMeshFilterIsAssigned, addr 0x2c4058c, size 0x124, virtual false, abstract: false, final false
+  inline void EnsureMeshFilterIsAssigned();
 
-  /// @brief Method IsValidTextureGroup, addr 0x2b5b148, size 0xc, virtual false, abstract: false, final false
-  static inline bool IsValidTextureGroup(int32_t group);
+  /// @brief Method GeometryWithPoints, addr 0x2c40c64, size 0x228, virtual false, abstract: false, final false
+  inline void GeometryWithPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points);
 
-  /// @brief Method UnusedElementGroup, addr 0x2b5b154, size 0x110, virtual false, abstract: false, final false
-  inline int32_t UnusedElementGroup(int32_t i);
-
-  /// @brief Method RefreshUV, addr 0x2b5a98c, size 0x594, virtual false, abstract: false, final false
-  inline void RefreshUV(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* facesToRefresh);
-
-  /// @brief Method SetGroupUV, addr 0x2b5b26c, size 0xc4, virtual false, abstract: false, final false
-  inline void SetGroupUV(::UnityEngine::ProBuilder::AutoUnwrapSettings settings, int32_t group);
-
-  /// @brief Method RefreshColors, addr 0x2b5af20, size 0x30, virtual false, abstract: false, final false
-  inline void RefreshColors();
-
-  /// @brief Method SetFaceColor, addr 0x2b5b330, size 0x374, virtual false, abstract: false, final false
-  inline void SetFaceColor(::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Color color);
-
-  /// @brief Method SetMaterial, addr 0x2b5b6a4, size 0x564, virtual false, abstract: false, final false
-  inline void SetMaterial(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::UnityEngine::Material* material);
-
-  /// @brief Method RefreshNormals, addr 0x2b5af50, size 0x70, virtual false, abstract: false, final false
-  inline void RefreshNormals();
-
-  /// @brief Method RefreshTangents, addr 0x2b5afc0, size 0x70, virtual false, abstract: false, final false
-  inline void RefreshTangents();
-
-  /// @brief Method GetSharedVertexHandle, addr 0x2b5bc08, size 0x168, virtual false, abstract: false, final false
-  inline int32_t GetSharedVertexHandle(int32_t vertex);
-
-  /// @brief Method GetSharedVertexHandles, addr 0x2b5bd70, size 0x380, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::HashSet_1<int32_t>* GetSharedVertexHandles(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
-
-  /// @brief Method GetCoincidentVertices, addr 0x2b5c0f0, size 0xd8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<int32_t>* GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
-
-  /// @brief Method GetCoincidentVertices, addr 0x2b5c718, size 0x5c0, virtual false, abstract: false, final false
-  inline void GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::List_1<int32_t>* coincident);
-
-  /// @brief Method GetCoincidentVertices, addr 0x2b5ccd8, size 0x690, virtual false, abstract: false, final false
-  inline void GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Collections::Generic::List_1<int32_t>* coincident);
-
-  /// @brief Method GetCoincidentVertices, addr 0x2b5c1c8, size 0x550, virtual false, abstract: false, final false
-  inline void GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices, ::System::Collections::Generic::List_1<int32_t>* coincident);
-
-  /// @brief Method GetCoincidentVertices, addr 0x2b5d368, size 0x1d4, virtual false, abstract: false, final false
-  inline void GetCoincidentVertices(int32_t vertex, ::System::Collections::Generic::List_1<int32_t>* coincident);
-
-  /// @brief Method SetVerticesCoincident, addr 0x2b5d53c, size 0xb8, virtual false, abstract: false, final false
-  inline void SetVerticesCoincident(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
-
-  /// @brief Method SetTexturesCoincident, addr 0x2b5d5f4, size 0x40, virtual false, abstract: false, final false
-  inline void SetTexturesCoincident(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
-
-  /// @brief Method AddToSharedVertex, addr 0x2b5d634, size 0x9c, virtual false, abstract: false, final false
-  inline void AddToSharedVertex(int32_t sharedVertexHandle, int32_t vertex);
-
-  /// @brief Method AddSharedVertex, addr 0x2b5d6d0, size 0xac, virtual false, abstract: false, final false
-  inline void AddSharedVertex(::UnityEngine::ProBuilder::SharedVertex* vertex);
-
-  /// @brief Method get_selectable, addr 0x2b5d77c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_selectable();
-
-  /// @brief Method set_selectable, addr 0x2b5d784, size 0xc, virtual false, abstract: false, final false
-  inline void set_selectable(bool value);
-
-  /// @brief Method get_selectedFaceCount, addr 0x2b5d790, size 0x1c, virtual false, abstract: false, final false
-  inline int32_t get_selectedFaceCount();
-
-  /// @brief Method get_selectedVertexCount, addr 0x2b5d7ac, size 0x1c, virtual false, abstract: false, final false
-  inline int32_t get_selectedVertexCount();
-
-  /// @brief Method get_selectedEdgeCount, addr 0x2b5d7c8, size 0x1c, virtual false, abstract: false, final false
-  inline int32_t get_selectedEdgeCount();
-
-  /// @brief Method get_selectedSharedVerticesCount, addr 0x2b5d7e4, size 0x18, virtual false, abstract: false, final false
-  inline int32_t get_selectedSharedVerticesCount();
-
-  /// @brief Method get_selectedCoincidentVertexCount, addr 0x2b5dd4c, size 0x18, virtual false, abstract: false, final false
-  inline int32_t get_selectedCoincidentVertexCount();
-
-  /// @brief Method get_selectedSharedVertices, addr 0x2b5dd64, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_selectedSharedVertices();
-
-  /// @brief Method get_selectedCoincidentVertices, addr 0x2b5dd7c, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_selectedCoincidentVertices();
-
-  /// @brief Method CacheSelection, addr 0x2b5d7fc, size 0x550, virtual false, abstract: false, final false
-  inline void CacheSelection();
-
-  /// @brief Method GetSelectedFaces, addr 0x2b5dd94, size 0x108, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> GetSelectedFaces();
-
-  /// @brief Method get_selectedFaceIndexes, addr 0x2b5de9c, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* get_selectedFaceIndexes();
-
-  /// @brief Method get_selectedVertices, addr 0x2b5df18, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* get_selectedVertices();
-
-  /// @brief Method get_selectedEdges, addr 0x2b5df94, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge>* get_selectedEdges();
-
-  /// @brief Method get_selectedFacesInternal, addr 0x2b5e010, size 0x4, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> get_selectedFacesInternal();
-
-  /// @brief Method set_selectedFacesInternal, addr 0x2b5e014, size 0xc8, virtual false, abstract: false, final false
-  inline void set_selectedFacesInternal(::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> value);
-
-  /// @brief Method get_selectedFaceIndicesInternal, addr 0x2b5e0dc, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> get_selectedFaceIndicesInternal();
-
-  /// @brief Method set_selectedFaceIndicesInternal, addr 0x2b5e0e4, size 0x8, virtual false, abstract: false, final false
-  inline void set_selectedFaceIndicesInternal(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  /// @brief Method get_selectedEdgesInternal, addr 0x2b5e0ec, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> get_selectedEdgesInternal();
-
-  /// @brief Method set_selectedEdgesInternal, addr 0x2b5e0f4, size 0x8, virtual false, abstract: false, final false
-  inline void set_selectedEdgesInternal(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> value);
-
-  /// @brief Method get_selectedIndexesInternal, addr 0x2b5e0fc, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> get_selectedIndexesInternal();
-
-  /// @brief Method set_selectedIndexesInternal, addr 0x2b5e104, size 0x8, virtual false, abstract: false, final false
-  inline void set_selectedIndexesInternal(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  /// @brief Method GetActiveFace, addr 0x2b5e10c, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::Face* GetActiveFace();
-
-  /// @brief Method GetActiveEdge, addr 0x2b5e168, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetActiveEdge, addr 0x2c4523c, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Edge GetActiveEdge();
 
-  /// @brief Method GetActiveVertex, addr 0x2b5e1f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetActiveFace, addr 0x2c451e0, size 0x5c, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::Face* GetActiveFace();
+
+  /// @brief Method GetActiveVertex, addr 0x2c452c4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetActiveVertex();
 
-  /// @brief Method AddToFaceSelection, addr 0x2b5e22c, size 0x6c, virtual false, abstract: false, final false
-  inline void AddToFaceSelection(int32_t index);
+  /// @brief Method GetCoincidentVertices, addr 0x2c431c4, size 0xd8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<int32_t>* GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
 
-  /// @brief Method SetSelectedFaces, addr 0x2b5e498, size 0xc0, virtual false, abstract: false, final false
-  inline void SetSelectedFaces(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* selected);
+  /// @brief Method GetCoincidentVertices, addr 0x2c43dac, size 0x690, virtual false, abstract: false, final false
+  inline void GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges, ::System::Collections::Generic::List_1<int32_t>* coincident);
 
-  /// @brief Method SetSelectedFaces, addr 0x2b5e298, size 0x200, virtual false, abstract: false, final false
-  inline void SetSelectedFaces(::System::Collections::Generic::IEnumerable_1<int32_t>* selected);
+  /// @brief Method GetCoincidentVertices, addr 0x2c437ec, size 0x5c0, virtual false, abstract: false, final false
+  inline void GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::List_1<int32_t>* coincident);
 
-  /// @brief Method SetSelectedEdges, addr 0x2b5e558, size 0x118, virtual false, abstract: false, final false
-  inline void SetSelectedEdges(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
+  /// @brief Method GetCoincidentVertices, addr 0x2c4443c, size 0x1d4, virtual false, abstract: false, final false
+  inline void GetCoincidentVertices(int32_t vertex, ::System::Collections::Generic::List_1<int32_t>* coincident);
 
-  /// @brief Method SetSelectedVertices, addr 0x2b5e670, size 0x150, virtual false, abstract: false, final false
-  inline void SetSelectedVertices(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
+  /// @brief Method GetCoincidentVertices, addr 0x2c4329c, size 0x550, virtual false, abstract: false, final false
+  inline void GetCoincidentVertices(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices, ::System::Collections::Generic::List_1<int32_t>* coincident);
 
-  /// @brief Method RemoveFromFaceSelectionAtIndex, addr 0x2b5e7c0, size 0x64, virtual false, abstract: false, final false
-  inline void RemoveFromFaceSelectionAtIndex(int32_t index);
+  /// @brief Method GetColors, addr 0x2c3eefc, size 0xa4, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> GetColors();
 
-  /// @brief Method ClearSelection, addr 0x2b596dc, size 0x94, virtual false, abstract: false, final false
-  inline void ClearSelection();
+  /// @brief Method GetNormals, addr 0x2c38fb0, size 0x88, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetNormals();
+
+  /// @brief Method GetSelectedFaces, addr 0x2c44e68, size 0x108, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> GetSelectedFaces();
+
+  /// @brief Method GetSharedVertexHandle, addr 0x2c42cdc, size 0x168, virtual false, abstract: false, final false
+  inline int32_t GetSharedVertexHandle(int32_t vertex);
+
+  /// @brief Method GetSharedVertexHandles, addr 0x2c42e44, size 0x380, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::HashSet_1<int32_t>* GetSharedVertexHandles(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
+
+  /// @brief Method GetTangents, addr 0x2c39038, size 0x88, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> GetTangents();
+
+  /// @brief Method GetUVs, addr 0x2c3f2dc, size 0x124, virtual false, abstract: false, final false
+  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector2>* GetUVs(int32_t channel);
+
+  /// @brief Method GetUVs, addr 0x2c38c94, size 0x31c, virtual false, abstract: false, final false
+  inline void GetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs);
+
+  /// @brief Method GetUnusedTextureGroup, addr 0x2c42104, size 0x110, virtual false, abstract: false, final false
+  inline int32_t GetUnusedTextureGroup(int32_t i);
+
+  /// @brief Method GetVertices, addr 0x2c39950, size 0x6bc, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> GetVertices(::System::Collections::Generic::IList_1<int32_t>* indexes);
+
+  /// @brief Method GetVerticesInList, addr 0x2c3e058, size 0x888, virtual false, abstract: false, final false
+  inline void GetVerticesInList(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
+
+  /// @brief Method HasArrays, addr 0x2c38ab4, size 0x1e0, virtual false, abstract: false, final false
+  inline bool HasArrays(::UnityEngine::ProBuilder::MeshArrays channels);
+
+  /// @brief Method IncrementVersionIndex, addr 0x2c3ecb8, size 0x10, virtual false, abstract: false, final false
+  inline void IncrementVersionIndex();
+
+  /// @brief Method InvalidateCaches, addr 0x2c3d9f0, size 0x2c, virtual false, abstract: false, final false
+  inline void InvalidateCaches();
+
+  /// @brief Method InvalidateFaces, addr 0x2c3d6e0, size 0x310, virtual false, abstract: false, final false
+  inline void InvalidateFaces();
+
+  /// @brief Method InvalidateSharedTextureLookup, addr 0x2c3d638, size 0xa8, virtual false, abstract: false, final false
+  inline void InvalidateSharedTextureLookup();
+
+  /// @brief Method InvalidateSharedVertexLookup, addr 0x2c3d590, size 0xa8, virtual false, abstract: false, final false
+  inline void InvalidateSharedVertexLookup();
+
+  /// @brief Method IsValidTextureGroup, addr 0x2c4221c, size 0xc, virtual false, abstract: false, final false
+  static inline bool IsValidTextureGroup(int32_t group);
+
+  /// @brief Method MakeUnique, addr 0x2c41708, size 0x74, virtual false, abstract: false, final false
+  inline void MakeUnique();
 
   static inline ::UnityEngine::ProBuilder::ProBuilderMesh* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b5e824, size 0x128, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method OnDestroy, addr 0x2c40934, size 0x210, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  /// @brief Method <set_selectedFacesInternal>b__225_0, addr 0x2b5e9d8, size 0x58, virtual false, abstract: false, final false
-  inline int32_t _set_selectedFacesInternal_b__225_0(::UnityEngine::ProBuilder::Face* x);
+  /// @brief Method Rebuild, addr 0x2c39914, size 0x20, virtual false, abstract: false, final false
+  inline void Rebuild();
 
-  /// @brief Method <SetSelectedFaces>b__239_0, addr 0x2b5ea30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RebuildWithPositionsAndFaces, addr 0x2c40fec, size 0x114, virtual false, abstract: false, final false
+  inline void RebuildWithPositionsAndFaces(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector3>* vertices,
+                                           ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
+
+  /// @brief Method Refresh, addr 0x2c41608, size 0x100, virtual false, abstract: false, final false
+  inline void Refresh(::UnityEngine::ProBuilder::RefreshMask mask);
+
+  /// @brief Method RefreshColors, addr 0x2c41ff4, size 0x30, virtual false, abstract: false, final false
+  inline void RefreshColors();
+
+  /// @brief Method RefreshNormals, addr 0x2c42024, size 0x70, virtual false, abstract: false, final false
+  inline void RefreshNormals();
+
+  /// @brief Method RefreshTangents, addr 0x2c42094, size 0x70, virtual false, abstract: false, final false
+  inline void RefreshTangents();
+
+  /// @brief Method RefreshUV, addr 0x2c41a60, size 0x594, virtual false, abstract: false, final false
+  inline void RefreshUV(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* facesToRefresh);
+
+  /// @brief Method RemoveFromFaceSelectionAtIndex, addr 0x2c45894, size 0x64, virtual false, abstract: false, final false
+  inline void RemoveFromFaceSelectionAtIndex(int32_t index);
+
+  /// @brief Method Reset, addr 0x2c40864, size 0xd0, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method SetFaceColor, addr 0x2c42404, size 0x374, virtual false, abstract: false, final false
+  inline void SetFaceColor(::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Color color);
+
+  /// @brief Method SetGroupUV, addr 0x2c42340, size 0xc4, virtual false, abstract: false, final false
+  inline void SetGroupUV(::UnityEngine::ProBuilder::AutoUnwrapSettings settings, int32_t group);
+
+  /// @brief Method SetMaterial, addr 0x2c42778, size 0x564, virtual false, abstract: false, final false
+  inline void SetMaterial(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::UnityEngine::Material* material);
+
+  /// @brief Method SetSelectedEdges, addr 0x2c4562c, size 0x118, virtual false, abstract: false, final false
+  inline void SetSelectedEdges(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges);
+
+  /// @brief Method SetSelectedFaces, addr 0x2c4556c, size 0xc0, virtual false, abstract: false, final false
+  inline void SetSelectedFaces(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* selected);
+
+  /// @brief Method SetSelectedFaces, addr 0x2c4536c, size 0x200, virtual false, abstract: false, final false
+  inline void SetSelectedFaces(::System::Collections::Generic::IEnumerable_1<int32_t>* selected);
+
+  /// @brief Method SetSelectedVertices, addr 0x2c45744, size 0x150, virtual false, abstract: false, final false
+  inline void SetSelectedVertices(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
+
+  /// @brief Method SetSharedTextures, addr 0x2c3deb4, size 0x74, virtual false, abstract: false, final false
+  inline void SetSharedTextures(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>>* indexes);
+
+  /// @brief Method SetSharedVertices, addr 0x2c3dd90, size 0x74, virtual false, abstract: false, final false
+  inline void SetSharedVertices(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>>* indexes);
+
+  /// @brief Method SetTexturesCoincident, addr 0x2c446c8, size 0x40, virtual false, abstract: false, final false
+  inline void SetTexturesCoincident(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
+
+  /// @brief Method SetUVs, addr 0x2c3f400, size 0x2d8, virtual false, abstract: false, final false
+  inline void SetUVs(int32_t channel, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* uvs);
+
+  /// @brief Method SetVertices, addr 0x2c3e8e0, size 0x2cc, virtual false, abstract: false, final false
+  inline void SetVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, bool applyMesh);
+
+  /// @brief Method SetVerticesCoincident, addr 0x2c44610, size 0xb8, virtual false, abstract: false, final false
+  inline void SetVerticesCoincident(::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
+
+  /// @brief Method ToMesh, addr 0x2c412a0, size 0x368, virtual false, abstract: false, final false
+  inline void ToMesh(::UnityEngine::MeshTopology preferredTopology);
+
+  /// @brief Method UnusedElementGroup, addr 0x2c42228, size 0x110, virtual false, abstract: false, final false
+  inline int32_t UnusedElementGroup(int32_t i);
+
+  /// @brief Method <SetSelectedFaces>b__239_0, addr 0x2c45b04, size 0x58, virtual false, abstract: false, final false
   inline int32_t _SetSelectedFaces_b__239_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method <SetSelectedFaces>b__240_0, addr 0x2b5ea88, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <SetSelectedFaces>b__240_0, addr 0x2c45b5c, size 0x38, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _SetSelectedFaces_b__240_0(int32_t x);
 
-  /// @brief Method <SetSelectedFaces>b__240_1, addr 0x2b5eac0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <SetSelectedFaces>b__240_1, addr 0x2c45b94, size 0x38, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* _SetSelectedFaces_b__240_1(int32_t x);
 
+  constexpr bool const& __cordl_internal_get__userCollisions_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__userCollisions_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get_assetGuid() const;
+
+  constexpr ::StringW& __cordl_internal_get_assetGuid();
+
+  constexpr ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState const& __cordl_internal_get_m_CacheValid() const;
+
+  constexpr ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState& __cordl_internal_get_m_CacheValid();
+
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get_m_Colors() const;
+
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get_m_Colors();
+
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> const& __cordl_internal_get_m_Faces() const;
+
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>& __cordl_internal_get_m_Faces();
+
+  constexpr bool const& __cordl_internal_get_m_IsSelectable() const;
+
+  constexpr bool& __cordl_internal_get_m_IsSelectable();
+
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_Mesh() const;
+
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_m_Mesh();
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_m_MeshFilter() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_m_MeshFilter();
+
+  constexpr int32_t const& __cordl_internal_get_m_MeshFormatVersion() const;
+
+  constexpr int32_t& __cordl_internal_get_m_MeshFormatVersion();
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_m_MeshRenderer() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_m_MeshRenderer();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Normals() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_Normals();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Positions() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_Positions();
+
+  constexpr bool const& __cordl_internal_get_m_PreserveMeshAssetOnDestroy() const;
+
+  constexpr bool& __cordl_internal_get_m_PreserveMeshAssetOnDestroy();
+
+  constexpr bool const& __cordl_internal_get_m_SelectedCacheDirty() const;
+
+  constexpr bool& __cordl_internal_get_m_SelectedCacheDirty();
+
+  constexpr int32_t const& __cordl_internal_get_m_SelectedCoincidentVertexCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_SelectedCoincidentVertexCount();
+
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_SelectedCoincidentVertices();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_SelectedCoincidentVertices() const;
+
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> const& __cordl_internal_get_m_SelectedEdges() const;
+
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>& __cordl_internal_get_m_SelectedEdges();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_SelectedFaces() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_SelectedFaces();
+
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_SelectedSharedVertices();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_SelectedSharedVertices() const;
+
+  constexpr int32_t const& __cordl_internal_get_m_SelectedSharedVerticesCount() const;
+
+  constexpr int32_t& __cordl_internal_get_m_SelectedSharedVerticesCount();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_SelectedVertices() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_SelectedVertices();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_m_SharedTextureLookup();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get_m_SharedTextureLookup() const;
+
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __cordl_internal_get_m_SharedTextures() const;
+
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __cordl_internal_get_m_SharedTextures();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_m_SharedVertexLookup();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get_m_SharedVertexLookup() const;
+
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __cordl_internal_get_m_SharedVertices() const;
+
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __cordl_internal_get_m_SharedVertices();
+
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Tangents() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get_m_Tangents();
+
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get_m_Textures0() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get_m_Textures0();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Textures2();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Textures2() const;
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Textures3();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Textures3() const;
+
+  constexpr ::UnityEngine::ProBuilder::UnwrapParameters*& __cordl_internal_get_m_UnwrapParameters();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::UnwrapParameters*> const& __cordl_internal_get_m_UnwrapParameters() const;
+
+  constexpr uint16_t const& __cordl_internal_get_m_VersionIndex() const;
+
+  constexpr uint16_t& __cordl_internal_get_m_VersionIndex();
+
+  constexpr void __cordl_internal_set__userCollisions_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set_assetGuid(::StringW value);
+
+  constexpr void __cordl_internal_set_m_CacheValid(::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState value);
+
+  constexpr void __cordl_internal_set_m_Colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+
+  constexpr void __cordl_internal_set_m_Faces(::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> value);
+
+  constexpr void __cordl_internal_set_m_IsSelectable(bool value);
+
+  constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::Mesh> value);
+
+  constexpr void __cordl_internal_set_m_MeshFilter(::UnityW<::UnityEngine::MeshFilter> value);
+
+  constexpr void __cordl_internal_set_m_MeshFormatVersion(int32_t value);
+
+  constexpr void __cordl_internal_set_m_MeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
+
+  constexpr void __cordl_internal_set_m_Normals(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  constexpr void __cordl_internal_set_m_Positions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  constexpr void __cordl_internal_set_m_PreserveMeshAssetOnDestroy(bool value);
+
+  constexpr void __cordl_internal_set_m_SelectedCacheDirty(bool value);
+
+  constexpr void __cordl_internal_set_m_SelectedCoincidentVertexCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_SelectedCoincidentVertices(::System::Collections::Generic::List_1<int32_t>* value);
+
+  constexpr void __cordl_internal_set_m_SelectedEdges(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> value);
+
+  constexpr void __cordl_internal_set_m_SelectedFaces(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_m_SelectedSharedVertices(::System::Collections::Generic::HashSet_1<int32_t>* value);
+
+  constexpr void __cordl_internal_set_m_SelectedSharedVerticesCount(int32_t value);
+
+  constexpr void __cordl_internal_set_m_SelectedVertices(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_m_SharedTextureLookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
+
+  constexpr void __cordl_internal_set_m_SharedTextures(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
+
+  constexpr void __cordl_internal_set_m_SharedVertexLookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
+
+  constexpr void __cordl_internal_set_m_SharedVertices(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
+
+  constexpr void __cordl_internal_set_m_Tangents(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+
+  constexpr void __cordl_internal_set_m_Textures0(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
+
+  constexpr void __cordl_internal_set_m_Textures2(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+
+  constexpr void __cordl_internal_set_m_Textures3(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+
+  constexpr void __cordl_internal_set_m_UnwrapParameters(::UnityEngine::ProBuilder::UnwrapParameters* value);
+
+  constexpr void __cordl_internal_set_m_VersionIndex(uint16_t value);
+
+  /// @brief Method .ctor, addr 0x2c458f8, size 0x128, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method <set_selectedFacesInternal>b__225_0, addr 0x2c45aac, size 0x58, virtual false, abstract: false, final false
+  inline int32_t _set_selectedFacesInternal_b__225_0(::UnityEngine::ProBuilder::Face* x);
+
+  /// @brief Method add_componentHasBeenReset, addr 0x2c3ff4c, size 0xf4, virtual false, abstract: false, final false
+  static inline void add_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  /// @brief Method add_componentWillBeDestroyed, addr 0x2c3fd64, size 0xf4, virtual false, abstract: false, final false
+  static inline void add_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  /// @brief Method add_elementSelectionChanged, addr 0x2c40134, size 0xf4, virtual false, abstract: false, final false
+  static inline void add_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  /// @brief Method add_meshWasInitialized, addr 0x2c3fb7c, size 0xf4, virtual false, abstract: false, final false
+  static inline void add_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  /// @brief Method add_meshWillBeDestroyed, addr 0x2c3f99c, size 0xf0, virtual false, abstract: false, final false
+  static inline void add_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_componentHasBeenReset();
+
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_componentWillBeDestroyed();
+
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_elementSelectionChanged();
+
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_meshWasInitialized();
+
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_meshWillBeDestroyed();
+
+  static inline ::System::Collections::Generic::HashSet_1<int32_t>* getStaticF_s_CachedHashSet();
+
+  /// @brief Method get_colors, addr 0x2c3ed70, size 0x88, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::UnityEngine::Color>* get_colors();
+
+  /// @brief Method get_colorsInternal, addr 0x2c3ed60, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> get_colorsInternal();
+
+  /// @brief Method get_edgeCount, addr 0x2c3f6d8, size 0x8c, virtual false, abstract: false, final false
+  inline int32_t get_edgeCount();
+
+  /// @brief Method get_faceCount, addr 0x2c3b990, size 0x18, virtual false, abstract: false, final false
+  inline int32_t get_faceCount();
+
+  /// @brief Method get_faces, addr 0x2c3d470, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* get_faces();
+
+  /// @brief Method get_facesInternal, addr 0x2c3d460, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> get_facesInternal();
+
+  /// @brief Method get_filter, addr 0x2c3d38c, size 0xb8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::MeshFilter> get_filter();
+
+  /// @brief Method get_id, addr 0x2c390c0, size 0x20, virtual false, abstract: false, final false
+  inline int32_t get_id();
+
+  /// @brief Method get_indexCount, addr 0x2c3f764, size 0x114, virtual false, abstract: false, final false
+  inline int32_t get_indexCount();
+
+  /// @brief Method get_mesh, addr 0x2c3a564, size 0xbc, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
+
+  /// @brief Method get_meshFormatVersion, addr 0x2c40448, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_meshFormatVersion();
+
+  /// @brief Method get_meshSyncState, addr 0x2c40324, size 0x124, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::MeshSyncState get_meshSyncState();
+
+  /// @brief Method get_normals, addr 0x2c3ecc8, size 0x88, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* get_normals();
+
+  /// @brief Method get_normalsInternal, addr 0x2c3ed50, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_normalsInternal();
+
+  /// @brief Method get_positions, addr 0x2c3df38, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* get_positions();
+
+  /// @brief Method get_positionsInternal, addr 0x2c3df28, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_positionsInternal();
+
+  /// @brief Method get_preserveMeshAssetOnDestroy, addr 0x2c3d44c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_preserveMeshAssetOnDestroy();
+
+  /// @brief Method get_renderer, addr 0x2c3a388, size 0x74, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::MeshRenderer> get_renderer();
+
+  /// @brief Method get_selectable, addr 0x2c44850, size 0x8, virtual false, abstract: false, final false
+  inline bool get_selectable();
+
+  /// @brief Method get_selectedCoincidentVertexCount, addr 0x2c44e20, size 0x18, virtual false, abstract: false, final false
+  inline int32_t get_selectedCoincidentVertexCount();
+
+  /// @brief Method get_selectedCoincidentVertices, addr 0x2c44e50, size 0x18, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_selectedCoincidentVertices();
+
+  /// @brief Method get_selectedEdgeCount, addr 0x2c4489c, size 0x1c, virtual false, abstract: false, final false
+  inline int32_t get_selectedEdgeCount();
+
+  /// @brief Method get_selectedEdges, addr 0x2c45068, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge>* get_selectedEdges();
+
+  /// @brief Method get_selectedEdgesInternal, addr 0x2c451c0, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> get_selectedEdgesInternal();
+
+  /// @brief Method get_selectedFaceCount, addr 0x2c44864, size 0x1c, virtual false, abstract: false, final false
+  inline int32_t get_selectedFaceCount();
+
+  /// @brief Method get_selectedFaceIndexes, addr 0x2c44f70, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* get_selectedFaceIndexes();
+
+  /// @brief Method get_selectedFaceIndicesInternal, addr 0x2c451b0, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<int32_t, ::Array<int32_t>*> get_selectedFaceIndicesInternal();
+
+  /// @brief Method get_selectedFacesInternal, addr 0x2c450e4, size 0x4, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> get_selectedFacesInternal();
+
+  /// @brief Method get_selectedIndexesInternal, addr 0x2c451d0, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<int32_t, ::Array<int32_t>*> get_selectedIndexesInternal();
+
+  /// @brief Method get_selectedSharedVertices, addr 0x2c44e38, size 0x18, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_selectedSharedVertices();
+
+  /// @brief Method get_selectedSharedVerticesCount, addr 0x2c448b8, size 0x18, virtual false, abstract: false, final false
+  inline int32_t get_selectedSharedVerticesCount();
+
+  /// @brief Method get_selectedVertexCount, addr 0x2c44880, size 0x1c, virtual false, abstract: false, final false
+  inline int32_t get_selectedVertexCount();
+
+  /// @brief Method get_selectedVertices, addr 0x2c44fec, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* get_selectedVertices();
+
+  /// @brief Method get_sharedTextureLookup, addr 0x2c3de14, size 0xa0, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* get_sharedTextureLookup();
+
+  /// @brief Method get_sharedTextures, addr 0x2c3de04, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> get_sharedTextures();
+
+  /// @brief Method get_sharedVertexLookup, addr 0x2c3dcec, size 0xa4, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* get_sharedVertexLookup();
+
+  /// @brief Method get_sharedVertices, addr 0x2c3da2c, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* get_sharedVertices();
+
+  /// @brief Method get_sharedVerticesInternal, addr 0x2c3da1c, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> get_sharedVerticesInternal();
+
+  /// @brief Method get_tangents, addr 0x2c3efa0, size 0xa0, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* get_tangents();
+
+  /// @brief Method get_tangentsInternal, addr 0x2c3f134, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> get_tangentsInternal();
+
+  /// @brief Method get_textures, addr 0x2c3f174, size 0x88, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* get_textures();
+
+  /// @brief Method get_textures2Internal, addr 0x2c3f154, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* get_textures2Internal();
+
+  /// @brief Method get_textures3Internal, addr 0x2c3f164, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* get_textures3Internal();
+
+  /// @brief Method get_texturesInternal, addr 0x2c3f144, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> get_texturesInternal();
+
+  /// @brief Method get_triangleCount, addr 0x2c3f878, size 0x124, virtual false, abstract: false, final false
+  inline int32_t get_triangleCount();
+
+  /// @brief Method get_unwrapParameters, addr 0x2c3d37c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::ProBuilder::UnwrapParameters* get_unwrapParameters();
+
+  /// @brief Method get_userCollisions, addr 0x2c3d368, size 0x8, virtual false, abstract: false, final false
+  inline bool get_userCollisions();
+
+  /// @brief Method get_versionIndex, addr 0x2c3d444, size 0x8, virtual false, abstract: false, final false
+  inline uint16_t get_versionIndex();
+
+  /// @brief Method get_vertexCount, addr 0x2c398fc, size 0x18, virtual false, abstract: false, final false
+  inline int32_t get_vertexCount();
+
+  /// @brief Method remove_componentHasBeenReset, addr 0x2c40040, size 0xf4, virtual false, abstract: false, final false
+  static inline void remove_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  /// @brief Method remove_componentWillBeDestroyed, addr 0x2c3fe58, size 0xf4, virtual false, abstract: false, final false
+  static inline void remove_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  /// @brief Method remove_elementSelectionChanged, addr 0x2c40228, size 0xf4, virtual false, abstract: false, final false
+  static inline void remove_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  /// @brief Method remove_meshWasInitialized, addr 0x2c3fc70, size 0xf4, virtual false, abstract: false, final false
+  static inline void remove_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  /// @brief Method remove_meshWillBeDestroyed, addr 0x2c3fa8c, size 0xf0, virtual false, abstract: false, final false
+  static inline void remove_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  static inline void setStaticF_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  static inline void setStaticF_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  static inline void setStaticF_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  static inline void setStaticF_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  static inline void setStaticF_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
+
+  static inline void setStaticF_s_CachedHashSet(::System::Collections::Generic::HashSet_1<int32_t>* value);
+
+  /// @brief Method set_colors, addr 0x2c3edf8, size 0x104, virtual false, abstract: false, final false
+  inline void set_colors(::System::Collections::Generic::IList_1<::UnityEngine::Color>* value);
+
+  /// @brief Method set_colorsInternal, addr 0x2c3ed68, size 0x8, virtual false, abstract: false, final false
+  inline void set_colorsInternal(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+
+  /// @brief Method set_faces, addr 0x2c3d4ec, size 0xa4, virtual false, abstract: false, final false
+  inline void set_faces(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* value);
+
+  /// @brief Method set_facesInternal, addr 0x2c3d468, size 0x8, virtual false, abstract: false, final false
+  inline void set_facesInternal(::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> value);
+
+  /// @brief Method set_mesh, addr 0x2c4031c, size 0x8, virtual false, abstract: false, final false
+  inline void set_mesh(::UnityEngine::Mesh* value);
+
+  /// @brief Method set_normalsInternal, addr 0x2c3ed58, size 0x8, virtual false, abstract: false, final false
+  inline void set_normalsInternal(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  /// @brief Method set_positions, addr 0x2c3dfb4, size 0xa4, virtual false, abstract: false, final false
+  inline void set_positions(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* value);
+
+  /// @brief Method set_positionsInternal, addr 0x2c3df30, size 0x8, virtual false, abstract: false, final false
+  inline void set_positionsInternal(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  /// @brief Method set_preserveMeshAssetOnDestroy, addr 0x2c3d454, size 0xc, virtual false, abstract: false, final false
+  inline void set_preserveMeshAssetOnDestroy(bool value);
+
+  /// @brief Method set_selectable, addr 0x2c44858, size 0xc, virtual false, abstract: false, final false
+  inline void set_selectable(bool value);
+
+  /// @brief Method set_selectedEdgesInternal, addr 0x2c451c8, size 0x8, virtual false, abstract: false, final false
+  inline void set_selectedEdgesInternal(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> value);
+
+  /// @brief Method set_selectedFaceIndicesInternal, addr 0x2c451b8, size 0x8, virtual false, abstract: false, final false
+  inline void set_selectedFaceIndicesInternal(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  /// @brief Method set_selectedFacesInternal, addr 0x2c450e8, size 0xc8, virtual false, abstract: false, final false
+  inline void set_selectedFacesInternal(::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> value);
+
+  /// @brief Method set_selectedIndexesInternal, addr 0x2c451d8, size 0x8, virtual false, abstract: false, final false
+  inline void set_selectedIndexesInternal(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  /// @brief Method set_sharedTextures, addr 0x2c3de0c, size 0x8, virtual false, abstract: false, final false
+  inline void set_sharedTextures(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
+
+  /// @brief Method set_sharedVertices, addr 0x2c3daa8, size 0x244, virtual false, abstract: false, final false
+  inline void set_sharedVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* value);
+
+  /// @brief Method set_sharedVerticesInternal, addr 0x2c3da24, size 0x8, virtual false, abstract: false, final false
+  inline void set_sharedVerticesInternal(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
+
+  /// @brief Method set_tangents, addr 0x2c3f040, size 0xf4, virtual false, abstract: false, final false
+  inline void set_tangents(::System::Collections::Generic::IList_1<::UnityEngine::Vector4>* value);
+
+  /// @brief Method set_tangentsInternal, addr 0x2c3f13c, size 0x8, virtual false, abstract: false, final false
+  inline void set_tangentsInternal(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+
+  /// @brief Method set_textures, addr 0x2c3f1fc, size 0xe0, virtual false, abstract: false, final false
+  inline void set_textures(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* value);
+
+  /// @brief Method set_textures2Internal, addr 0x2c3f15c, size 0x8, virtual false, abstract: false, final false
+  inline void set_textures2Internal(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+
+  /// @brief Method set_textures3Internal, addr 0x2c3f16c, size 0x8, virtual false, abstract: false, final false
+  inline void set_textures3Internal(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+
+  /// @brief Method set_texturesInternal, addr 0x2c3f14c, size 0x8, virtual false, abstract: false, final false
+  inline void set_texturesInternal(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
+
+  /// @brief Method set_unwrapParameters, addr 0x2c3d384, size 0x8, virtual false, abstract: false, final false
+  inline void set_unwrapParameters(::UnityEngine::ProBuilder::UnwrapParameters* value);
+
+  /// @brief Method set_userCollisions, addr 0x2c3d370, size 0xc, virtual false, abstract: false, final false
+  inline void set_userCollisions(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProBuilderMesh();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ProBuilderMesh", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProBuilderMesh(ProBuilderMesh&&) = delete;
@@ -1365,12 +1364,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProBuilderMesh(ProBuilderMesh const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProBuilderMesh();
-
-public:
   /// @brief Field m_MeshFormatVersion, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_MeshFormatVersion;
 
@@ -1467,17 +1460,17 @@ public:
   /// @brief Field k_MeshFilterHideFlags value: static_cast<int32_t>(0xa)
   static ::UnityEngine::HideFlags const k_MeshFilterHideFlags;
 
-  /// @brief Field k_UVChannelCount offset 0xffffffff size 0x4
-  static constexpr int32_t k_UVChannelCount{ static_cast<int32_t>(0x4) };
-
   /// @brief Field k_MeshFormatVersion offset 0xffffffff size 0x4
   static constexpr int32_t k_MeshFormatVersion{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field k_MeshFormatVersionAutoUVScaleOffset offset 0xffffffff size 0x4
+  static constexpr int32_t k_MeshFormatVersionAutoUVScaleOffset{ static_cast<int32_t>(0x2) };
 
   /// @brief Field k_MeshFormatVersionSubmeshMaterialRefactor offset 0xffffffff size 0x4
   static constexpr int32_t k_MeshFormatVersionSubmeshMaterialRefactor{ static_cast<int32_t>(0x1) };
 
-  /// @brief Field k_MeshFormatVersionAutoUVScaleOffset offset 0xffffffff size 0x4
-  static constexpr int32_t k_MeshFormatVersionAutoUVScaleOffset{ static_cast<int32_t>(0x2) };
+  /// @brief Field k_UVChannelCount offset 0xffffffff size 0x4
+  static constexpr int32_t k_UVChannelCount{ static_cast<int32_t>(0x4) };
 
   /// @brief Field maxVertexCount offset 0xffffffff size 0x4
   static constexpr uint32_t maxVertexCount{ static_cast<uint32_t>(0xffff00c0u) };

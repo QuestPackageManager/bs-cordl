@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::System::Security::SecurityException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2889))
 // CS Name: ::System.Security::SecurityException*
 class CORDL_TYPE SecurityException : public ::System::SystemException {
 public:
@@ -33,38 +31,44 @@ public:
   /// @brief Field permissionState, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_permissionState, put = __cordl_internal_set_permissionState))::StringW permissionState;
 
-  constexpr ::StringW& __cordl_internal_get_permissionState();
-
-  constexpr ::StringW const& __cordl_internal_get_permissionState() const;
-
-  constexpr void __cordl_internal_set_permissionState(::StringW value);
+  /// @brief Method GetObjectData, addr 0x25482fc, size 0x100, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::SecurityException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2475448, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::Security::SecurityException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::SecurityException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24754b0, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
-  static inline ::System::Security::SecurityException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x24754d4, size 0x10c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
   static inline ::System::Security::SecurityException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x24755e0, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* inner);
-
-  /// @brief Method GetObjectData, addr 0x2475604, size 0x100, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method ToString, addr 0x2475704, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25483fc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  constexpr ::StringW const& __cordl_internal_get_permissionState() const;
+
+  constexpr ::StringW& __cordl_internal_get_permissionState();
+
+  constexpr void __cordl_internal_set_permissionState(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2548140, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x25481cc, size 0x10c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method .ctor, addr 0x25481a8, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x25482d8, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* inner);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SecurityException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SecurityException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SecurityException(SecurityException&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SecurityException(SecurityException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecurityException();
-
-public:
   /// @brief Field permissionState, offset: 0x90, size: 0x8, def value: None
   ::StringW ___permissionState;
 

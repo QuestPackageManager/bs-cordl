@@ -19,19 +19,11 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(818))
 // CS Name: ::Org.BouncyCastle.Crypto::IAsymmetricBlockCipher*
 class CORDL_TYPE IAsymmetricBlockCipher {
 public:
   // Declarations
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
-
-  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_AlgorithmName();
-
-  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   /// @brief Method GetInputBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetInputBlockSize();
@@ -39,8 +31,14 @@ public:
   /// @brief Method GetOutputBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetOutputBlockSize();
 
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+
   /// @brief Method ProcessBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
+
+  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_AlgorithmName();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsymmetricBlockCipher", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

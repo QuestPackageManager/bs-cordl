@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ProjectionUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5990))
 // CS Name: ::UnityEngine.UIElements::ProjectionUtils*
 class CORDL_TYPE ProjectionUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Ortho, addr 0x2dbf9b8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Ortho, addr 0x2eae0e0, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 Ortho(float_t left, float_t right, float_t bottom, float_t top, float_t near, float_t far);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ProjectionUtils();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ProjectionUtils", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ProjectionUtils(ProjectionUtils&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProjectionUtils(ProjectionUtils const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProjectionUtils();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

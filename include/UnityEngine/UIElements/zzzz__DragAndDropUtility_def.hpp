@@ -20,29 +20,33 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DragAndDropUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6222))
 // CS Name: ::UnityEngine.UIElements::DragAndDropUtility*
 class CORDL_TYPE DragAndDropUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field s_MakeClientFunc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MakeClientFunc, put = setStaticF_s_MakeClientFunc))::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* s_MakeClientFunc;
-
   /// @brief Field s_DragAndDrop, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_DragAndDrop, put = setStaticF_s_DragAndDrop))::UnityEngine::UIElements::IDragAndDrop* s_DragAndDrop;
 
-  static inline void setStaticF_s_MakeClientFunc(::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* value);
-
-  static inline ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* getStaticF_s_MakeClientFunc();
-
-  static inline void setStaticF_s_DragAndDrop(::UnityEngine::UIElements::IDragAndDrop* value);
+  /// @brief Field s_MakeClientFunc, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_MakeClientFunc, put = setStaticF_s_MakeClientFunc))::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* s_MakeClientFunc;
 
   static inline ::UnityEngine::UIElements::IDragAndDrop* getStaticF_s_DragAndDrop();
 
-  /// @brief Method get_dragAndDrop, addr 0x2e28a14, size 0xac, virtual false, abstract: false, final false
+  static inline ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* getStaticF_s_MakeClientFunc();
+
+  /// @brief Method get_dragAndDrop, addr 0x2f1a13c, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IDragAndDrop* get_dragAndDrop();
 
+  static inline void setStaticF_s_DragAndDrop(::UnityEngine::UIElements::IDragAndDrop* value);
+
+  static inline void setStaticF_s_MakeClientFunc(::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DragAndDropUtility();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DragAndDropUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DragAndDropUtility(DragAndDropUtility&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DragAndDropUtility(DragAndDropUtility const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DragAndDropUtility();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

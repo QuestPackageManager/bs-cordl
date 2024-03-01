@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::System::Resources::ManifestBasedResourceGroveler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3431))
 // CS Name: ::System.Resources::ManifestBasedResourceGroveler*
 class CORDL_TYPE ManifestBasedResourceGroveler : public ::System::Object {
 public:
@@ -44,8 +42,13 @@ public:
   /// @brief Convert operator to "::System::Resources::IResourceGroveler"
   constexpr operator ::System::Resources::IResourceGroveler*() noexcept;
 
-  /// @brief Convert to "::System::Resources::IResourceGroveler"
-  constexpr ::System::Resources::IResourceGroveler* i___System__Resources__IResourceGroveler() noexcept;
+  /// @brief Method GetNeutralResourcesLanguage, addr 0x25d1d20, size 0x320, virtual false, abstract: false, final false
+  static inline ::System::Globalization::CultureInfo* GetNeutralResourcesLanguage(::System::Reflection::Assembly* a, ByRef<::System::Resources::UltimateResourceFallbackLocation> fallbackLocation);
+
+  /// @brief Method GetNeutralResourcesLanguageAttribute, addr 0x25d2040, size 0x74, virtual false, abstract: false, final false
+  static inline bool GetNeutralResourcesLanguageAttribute(::System::Reflection::Assembly* assembly, ByRef<::StringW> cultureName, ByRef<int16_t> fallbackLocation);
+
+  static inline ::System::Resources::ManifestBasedResourceGroveler* New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
   constexpr ::System::Resources::__ResourceManager__ResourceManagerMediator*& __cordl_internal_get__mediator();
 
@@ -53,17 +56,18 @@ public:
 
   constexpr void __cordl_internal_set__mediator(::System::Resources::__ResourceManager__ResourceManagerMediator* value);
 
-  static inline ::System::Resources::ManifestBasedResourceGroveler* New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
-
-  /// @brief Method .ctor, addr 0x24ff648, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d1cf8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
-  /// @brief Method GetNeutralResourcesLanguage, addr 0x24ff670, size 0x320, virtual false, abstract: false, final false
-  static inline ::System::Globalization::CultureInfo* GetNeutralResourcesLanguage(::System::Reflection::Assembly* a, ByRef<::System::Resources::UltimateResourceFallbackLocation> fallbackLocation);
+  /// @brief Convert to "::System::Resources::IResourceGroveler"
+  constexpr ::System::Resources::IResourceGroveler* i___System__Resources__IResourceGroveler() noexcept;
 
-  /// @brief Method GetNeutralResourcesLanguageAttribute, addr 0x24ff990, size 0x74, virtual false, abstract: false, final false
-  static inline bool GetNeutralResourcesLanguageAttribute(::System::Reflection::Assembly* assembly, ByRef<::StringW> cultureName, ByRef<int16_t> fallbackLocation);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ManifestBasedResourceGroveler();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ManifestBasedResourceGroveler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ManifestBasedResourceGroveler(ManifestBasedResourceGroveler&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ManifestBasedResourceGroveler(ManifestBasedResourceGroveler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ManifestBasedResourceGroveler();
-
-public:
   /// @brief Field _mediator, offset: 0x10, size: 0x8, def value: None
   ::System::Resources::__ResourceManager__ResourceManagerMediator* ____mediator;
 

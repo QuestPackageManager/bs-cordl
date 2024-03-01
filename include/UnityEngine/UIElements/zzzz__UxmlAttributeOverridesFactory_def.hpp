@@ -26,9 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeOverridesFactory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6003)), TypeDefinitionIndex(TypeDefinitionIndex(6236)), TypeDefinitionIndex(TypeDefinitionIndex(6256)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6256), inst: 5264 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6235)) CS Name:
-// ::UnityEngine.UIElements::UxmlAttributeOverridesFactory*
+// CS Name: ::UnityEngine.UIElements::UxmlAttributeOverridesFactory*
 class CORDL_TYPE UxmlAttributeOverridesFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlAttributeOverridesTraits*> {
 public:
   // Declarations
@@ -36,20 +34,26 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName))::StringW uxmlQualifiedName;
 
-  /// @brief Method get_uxmlName, addr 0x2e2b8e4, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_uxmlName();
-
-  /// @brief Method get_uxmlQualifiedName, addr 0x2e2b924, size 0x74, virtual true, abstract: false, final false
-  inline ::StringW get_uxmlQualifiedName();
-
-  /// @brief Method Create, addr 0x2e2b998, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x2f1d0c0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlAttributeOverridesFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e2b9a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1d0c8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_uxmlName, addr 0x2f1d00c, size 0x40, virtual true, abstract: false, final false
+  inline ::StringW get_uxmlName();
+
+  /// @brief Method get_uxmlQualifiedName, addr 0x2f1d04c, size 0x74, virtual true, abstract: false, final false
+  inline ::StringW get_uxmlQualifiedName();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UxmlAttributeOverridesFactory();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeOverridesFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UxmlAttributeOverridesFactory(UxmlAttributeOverridesFactory&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UxmlAttributeOverridesFactory(UxmlAttributeOverridesFactory const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlAttributeOverridesFactory();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

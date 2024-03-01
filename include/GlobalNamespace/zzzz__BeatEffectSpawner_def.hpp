@@ -54,8 +54,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatEffectSpawner__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4239))
 // CS Name: ::BeatEffectSpawner::InitData*
 class CORDL_TYPE __BeatEffectSpawner__InitData : public ::System::Object {
 public:
@@ -63,17 +61,23 @@ public:
   /// @brief Field hideNoteSpawnEffect, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_hideNoteSpawnEffect, put = __cordl_internal_set_hideNoteSpawnEffect)) bool hideNoteSpawnEffect;
 
-  constexpr bool& __cordl_internal_get_hideNoteSpawnEffect();
+  static inline ::GlobalNamespace::__BeatEffectSpawner__InitData* New_ctor(bool hideNoteSpawnEffect);
 
   constexpr bool const& __cordl_internal_get_hideNoteSpawnEffect() const;
 
+  constexpr bool& __cordl_internal_get_hideNoteSpawnEffect();
+
   constexpr void __cordl_internal_set_hideNoteSpawnEffect(bool value);
 
-  static inline ::GlobalNamespace::__BeatEffectSpawner__InitData* New_ctor(bool hideNoteSpawnEffect);
-
-  /// @brief Method .ctor, addr 0x2361b28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242fa70, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool hideNoteSpawnEffect);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatEffectSpawner__InitData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatEffectSpawner__InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatEffectSpawner__InitData(__BeatEffectSpawner__InitData&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatEffectSpawner__InitData(__BeatEffectSpawner__InitData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatEffectSpawner__InitData();
-
-public:
   /// @brief Field hideNoteSpawnEffect, offset: 0x10, size: 0x1, def value: None
   bool ___hideNoteSpawnEffect;
 
@@ -103,16 +101,25 @@ static_assert(offsetof(::GlobalNamespace::__BeatEffectSpawner__InitData, ___hide
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4240))
 // CS Name: ::BeatEffectSpawner*
 class CORDL_TYPE BeatEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using InitData = ::GlobalNamespace::__BeatEffectSpawner__InitData;
 
-  /// @brief Field _effectDuration, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__effectDuration, put = __cordl_internal_set__effectDuration)) float_t _effectDuration;
+  /// @brief Field _audioTimeSyncController, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
+
+  /// @brief Field _beatEffectPoolContainer, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatEffectPoolContainer,
+                      put = __cordl_internal_set__beatEffectPoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BeatEffect>>* _beatEffectPoolContainer;
+
+  /// @brief Field _beatmapObjectManager, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+
+  /// @brief Field _bloomFog, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog))::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
 
   /// @brief Field _bombColorEffect, offset 0x1c, size 0x10
   __declspec(property(get = __cordl_internal_get__bombColorEffect, put = __cordl_internal_set__bombColorEffect))::UnityEngine::Color _bombColorEffect;
@@ -120,109 +127,104 @@ public:
   /// @brief Field _colorManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
-  /// @brief Field _beatmapObjectManager, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
-
-  /// @brief Field _audioTimeSyncController, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
-                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
+  /// @brief Field _effectDuration, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__effectDuration, put = __cordl_internal_set__effectDuration)) float_t _effectDuration;
 
   /// @brief Field _initData, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__BeatEffectSpawner__InitData* _initData;
 
-  /// @brief Field _bloomFog, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog))::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
-
   /// @brief Field _songController, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__songController, put = __cordl_internal_set__songController))::UnityW<::GlobalNamespace::SongController> _songController;
-
-  /// @brief Field _beatEffectPoolContainer, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatEffectPoolContainer,
-                      put = __cordl_internal_set__beatEffectPoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BeatEffect>>* _beatEffectPoolContainer;
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IBeatEffectDidFinishEvent*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IBeatEffectDidFinishEvent"
-  constexpr ::GlobalNamespace::IBeatEffectDidFinishEvent* i___GlobalNamespace__IBeatEffectDidFinishEvent() noexcept;
+  /// @brief Method HandleBeatEffectDidFinish, addr 0x242f97c, size 0xd8, virtual true, abstract: false, final true
+  inline void HandleBeatEffectDidFinish(::GlobalNamespace::BeatEffect* beatEffect);
 
-  constexpr float_t& __cordl_internal_get__effectDuration();
+  /// @brief Method HandleNoteDidStartJump, addr 0x242f6bc, size 0x2c0, virtual false, abstract: false, final false
+  inline void HandleNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
 
-  constexpr float_t const& __cordl_internal_get__effectDuration() const;
+  /// @brief Method Init, addr 0x242f390, size 0x84, virtual false, abstract: false, final false
+  inline void Init(::GlobalNamespace::__BeatEffect__Pool* beatEffectPool);
 
-  constexpr void __cordl_internal_set__effectDuration(float_t value);
+  static inline ::GlobalNamespace::BeatEffectSpawner* New_ctor();
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__bombColorEffect();
+  /// @brief Method OnDestroy, addr 0x242f4a0, size 0x98, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__bombColorEffect() const;
+  /// @brief Method Start, addr 0x242f414, size 0x8c, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr void __cordl_internal_set__bombColorEffect(::UnityEngine::Color value);
-
-  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
-
-  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
-
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
-
-  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
-
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
+  /// @brief Method Update, addr 0x242f538, size 0x184, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
-
-  constexpr ::GlobalNamespace::__BeatEffectSpawner__InitData*& __cordl_internal_get__initData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatEffectSpawner__InitData*> const& __cordl_internal_get__initData() const;
-
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__BeatEffectSpawner__InitData* value);
-
-  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
-
-  constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
-
-  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::SongController>& __cordl_internal_get__songController();
-
-  constexpr ::UnityW<::GlobalNamespace::SongController> const& __cordl_internal_get__songController() const;
-
-  constexpr void __cordl_internal_set__songController(::UnityW<::GlobalNamespace::SongController> value);
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
   constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BeatEffect>>*& __cordl_internal_get__beatEffectPoolContainer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BeatEffect>>*> const& __cordl_internal_get__beatEffectPoolContainer() const;
 
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__bombColorEffect() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__bombColorEffect();
+
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
+
+  constexpr float_t const& __cordl_internal_get__effectDuration() const;
+
+  constexpr float_t& __cordl_internal_get__effectDuration();
+
+  constexpr ::GlobalNamespace::__BeatEffectSpawner__InitData*& __cordl_internal_get__initData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatEffectSpawner__InitData*> const& __cordl_internal_get__initData() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SongController> const& __cordl_internal_get__songController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SongController>& __cordl_internal_get__songController();
+
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
+
   constexpr void __cordl_internal_set__beatEffectPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BeatEffect>>* value);
 
-  /// @brief Method Init, addr 0x2361448, size 0x84, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::__BeatEffect__Pool* beatEffectPool);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method Start, addr 0x23614cc, size 0x8c, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
 
-  /// @brief Method OnDestroy, addr 0x2361558, size 0x98, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__bombColorEffect(::UnityEngine::Color value);
 
-  /// @brief Method Update, addr 0x23615f0, size 0x184, virtual false, abstract: false, final false
-  inline void Update();
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x2361774, size 0x2c0, virtual false, abstract: false, final false
-  inline void HandleNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
+  constexpr void __cordl_internal_set__effectDuration(float_t value);
 
-  /// @brief Method HandleBeatEffectDidFinish, addr 0x2361a34, size 0xd8, virtual true, abstract: false, final true
-  inline void HandleBeatEffectDidFinish(::GlobalNamespace::BeatEffect* beatEffect);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__BeatEffectSpawner__InitData* value);
 
-  static inline ::GlobalNamespace::BeatEffectSpawner* New_ctor();
+  constexpr void __cordl_internal_set__songController(::UnityW<::GlobalNamespace::SongController> value);
 
-  /// @brief Method .ctor, addr 0x2361b0c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242fa54, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::GlobalNamespace::IBeatEffectDidFinishEvent"
+  constexpr ::GlobalNamespace::IBeatEffectDidFinishEvent* i___GlobalNamespace__IBeatEffectDidFinishEvent() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatEffectSpawner();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatEffectSpawner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatEffectSpawner(BeatEffectSpawner&&) = delete;
@@ -231,12 +233,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatEffectSpawner(BeatEffectSpawner const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatEffectSpawner();
-
-public:
   /// @brief Field _effectDuration, offset: 0x18, size: 0x4, def value: None
   float_t ____effectDuration;
 

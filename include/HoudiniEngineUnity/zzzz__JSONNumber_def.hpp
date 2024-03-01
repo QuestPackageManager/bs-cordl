@@ -32,80 +32,84 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::JSONNumber);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9661))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9668))
 // CS Name: ::HoudiniEngineUnity::JSONNumber*
 class CORDL_TYPE JSONNumber : public ::HoudiniEngineUnity::JSONNode {
 public:
   // Declarations
-  /// @brief Field m_Data, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Data, put = __cordl_internal_set_m_Data)) double_t m_Data;
-
-  __declspec(property(get = get_Tag))::HoudiniEngineUnity::JSONNodeType Tag;
-
-  __declspec(property(get = get_IsNumber)) bool IsNumber;
-
-  __declspec(property(get = get_Value, put = set_Value))::StringW Value;
-
   __declspec(property(get = get_AsDouble, put = set_AsDouble)) double_t AsDouble;
 
   __declspec(property(get = get_AsLong, put = set_AsLong)) int64_t AsLong;
 
-  constexpr double_t& __cordl_internal_get_m_Data();
+  __declspec(property(get = get_IsNumber)) bool IsNumber;
 
-  constexpr double_t const& __cordl_internal_get_m_Data() const;
+  __declspec(property(get = get_Tag))::HoudiniEngineUnity::JSONNodeType Tag;
 
-  constexpr void __cordl_internal_set_m_Data(double_t value);
+  __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  /// @brief Method get_Tag, addr 0x22702d8, size 0x8, virtual true, abstract: false, final false
-  inline ::HoudiniEngineUnity::JSONNodeType get_Tag();
+  /// @brief Field m_Data, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Data, put = __cordl_internal_set_m_Data)) double_t m_Data;
 
-  /// @brief Method get_IsNumber, addr 0x22702e0, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsNumber();
+  /// @brief Method Equals, addr 0x233cc9c, size 0x100, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x22702e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x233c950, size 0x14, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::__JSONNode__Enumerator GetEnumerator();
 
-  /// @brief Method get_Value, addr 0x22702fc, size 0x68, virtual true, abstract: false, final false
-  inline ::StringW get_Value();
+  /// @brief Method GetHashCode, addr 0x233cd9c, size 0x70, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
-  /// @brief Method set_Value, addr 0x2270364, size 0x8c, virtual true, abstract: false, final false
-  inline void set_Value(::StringW value);
-
-  /// @brief Method get_AsDouble, addr 0x22703f0, size 0x8, virtual true, abstract: false, final false
-  inline double_t get_AsDouble();
-
-  /// @brief Method set_AsDouble, addr 0x22703f8, size 0x8, virtual true, abstract: false, final false
-  inline void set_AsDouble(double_t value);
-
-  /// @brief Method get_AsLong, addr 0x2270400, size 0x20, virtual true, abstract: false, final false
-  inline int64_t get_AsLong();
-
-  /// @brief Method set_AsLong, addr 0x2270420, size 0xc, virtual true, abstract: false, final false
-  inline void set_AsLong(int64_t value);
-
-  static inline ::HoudiniEngineUnity::JSONNumber* New_ctor(double_t aData);
-
-  /// @brief Method .ctor, addr 0x226a454, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(double_t aData);
+  /// @brief Method IsNumeric, addr 0x233cafc, size 0x1a0, virtual false, abstract: false, final false
+  static inline bool IsNumeric(::System::Object* value);
 
   static inline ::HoudiniEngineUnity::JSONNumber* New_ctor(::StringW aData);
 
-  /// @brief Method .ctor, addr 0x227042c, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::StringW aData);
+  static inline ::HoudiniEngineUnity::JSONNumber* New_ctor(double_t aData);
 
-  /// @brief Method WriteToStringBuilder, addr 0x2270460, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x233cac8, size 0x34, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode);
 
-  /// @brief Method IsNumeric, addr 0x2270494, size 0x1a0, virtual false, abstract: false, final false
-  static inline bool IsNumeric(::System::Object* value);
+  constexpr double_t const& __cordl_internal_get_m_Data() const;
 
-  /// @brief Method Equals, addr 0x2270634, size 0x100, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  constexpr double_t& __cordl_internal_get_m_Data();
 
-  /// @brief Method GetHashCode, addr 0x2270734, size 0x70, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  constexpr void __cordl_internal_set_m_Data(double_t value);
 
+  /// @brief Method .ctor, addr 0x233ca94, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(::StringW aData);
+
+  /// @brief Method .ctor, addr 0x2336abc, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(double_t aData);
+
+  /// @brief Method get_AsDouble, addr 0x233ca58, size 0x8, virtual true, abstract: false, final false
+  inline double_t get_AsDouble();
+
+  /// @brief Method get_AsLong, addr 0x233ca68, size 0x20, virtual true, abstract: false, final false
+  inline int64_t get_AsLong();
+
+  /// @brief Method get_IsNumber, addr 0x233c948, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsNumber();
+
+  /// @brief Method get_Tag, addr 0x233c940, size 0x8, virtual true, abstract: false, final false
+  inline ::HoudiniEngineUnity::JSONNodeType get_Tag();
+
+  /// @brief Method get_Value, addr 0x233c964, size 0x68, virtual true, abstract: false, final false
+  inline ::StringW get_Value();
+
+  /// @brief Method set_AsDouble, addr 0x233ca60, size 0x8, virtual true, abstract: false, final false
+  inline void set_AsDouble(double_t value);
+
+  /// @brief Method set_AsLong, addr 0x233ca88, size 0xc, virtual true, abstract: false, final false
+  inline void set_AsLong(int64_t value);
+
+  /// @brief Method set_Value, addr 0x233c9cc, size 0x8c, virtual true, abstract: false, final false
+  inline void set_Value(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JSONNumber();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JSONNumber", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JSONNumber(JSONNumber&&) = delete;
@@ -114,12 +118,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JSONNumber(JSONNumber const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JSONNumber();
-
-public:
   /// @brief Field m_Data, offset: 0x10, size: 0x8, def value: None
   double_t ___m_Data;
 

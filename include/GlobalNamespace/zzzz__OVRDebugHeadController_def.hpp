@@ -18,20 +18,24 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRDebugHeadController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7617))
 // CS Name: ::OVRDebugHeadController*
 class CORDL_TYPE OVRDebugHeadController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field AllowMovement, offset 0x24, size 0x1
+  __declspec(property(get = __cordl_internal_get_AllowMovement, put = __cordl_internal_set_AllowMovement)) bool AllowMovement;
+
   /// @brief Field AllowPitchLook, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_AllowPitchLook, put = __cordl_internal_set_AllowPitchLook)) bool AllowPitchLook;
 
   /// @brief Field AllowYawLook, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_AllowYawLook, put = __cordl_internal_set_AllowYawLook)) bool AllowYawLook;
 
-  /// @brief Field InvertPitch, offset 0x1a, size 0x1
-  __declspec(property(get = __cordl_internal_get_InvertPitch, put = __cordl_internal_set_InvertPitch)) bool InvertPitch;
+  /// @brief Field CameraRig, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_CameraRig, put = __cordl_internal_set_CameraRig))::UnityW<::GlobalNamespace::OVRCameraRig> CameraRig;
+
+  /// @brief Field ForwardSpeed, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_ForwardSpeed, put = __cordl_internal_set_ForwardSpeed)) float_t ForwardSpeed;
 
   /// @brief Field GamePad_PitchDegreesPerSec, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_GamePad_PitchDegreesPerSec, put = __cordl_internal_set_GamePad_PitchDegreesPerSec)) float_t GamePad_PitchDegreesPerSec;
@@ -39,86 +43,86 @@ public:
   /// @brief Field GamePad_YawDegreesPerSec, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_GamePad_YawDegreesPerSec, put = __cordl_internal_set_GamePad_YawDegreesPerSec)) float_t GamePad_YawDegreesPerSec;
 
-  /// @brief Field AllowMovement, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get_AllowMovement, put = __cordl_internal_set_AllowMovement)) bool AllowMovement;
-
-  /// @brief Field ForwardSpeed, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_ForwardSpeed, put = __cordl_internal_set_ForwardSpeed)) float_t ForwardSpeed;
+  /// @brief Field InvertPitch, offset 0x1a, size 0x1
+  __declspec(property(get = __cordl_internal_get_InvertPitch, put = __cordl_internal_set_InvertPitch)) bool InvertPitch;
 
   /// @brief Field StrafeSpeed, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_StrafeSpeed, put = __cordl_internal_set_StrafeSpeed)) float_t StrafeSpeed;
 
-  /// @brief Field CameraRig, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_CameraRig, put = __cordl_internal_set_CameraRig))::UnityW<::GlobalNamespace::OVRCameraRig> CameraRig;
-
-  constexpr bool& __cordl_internal_get_AllowPitchLook();
-
-  constexpr bool const& __cordl_internal_get_AllowPitchLook() const;
-
-  constexpr void __cordl_internal_set_AllowPitchLook(bool value);
-
-  constexpr bool& __cordl_internal_get_AllowYawLook();
-
-  constexpr bool const& __cordl_internal_get_AllowYawLook() const;
-
-  constexpr void __cordl_internal_set_AllowYawLook(bool value);
-
-  constexpr bool& __cordl_internal_get_InvertPitch();
-
-  constexpr bool const& __cordl_internal_get_InvertPitch() const;
-
-  constexpr void __cordl_internal_set_InvertPitch(bool value);
-
-  constexpr float_t& __cordl_internal_get_GamePad_PitchDegreesPerSec();
-
-  constexpr float_t const& __cordl_internal_get_GamePad_PitchDegreesPerSec() const;
-
-  constexpr void __cordl_internal_set_GamePad_PitchDegreesPerSec(float_t value);
-
-  constexpr float_t& __cordl_internal_get_GamePad_YawDegreesPerSec();
-
-  constexpr float_t const& __cordl_internal_get_GamePad_YawDegreesPerSec() const;
-
-  constexpr void __cordl_internal_set_GamePad_YawDegreesPerSec(float_t value);
-
-  constexpr bool& __cordl_internal_get_AllowMovement();
-
-  constexpr bool const& __cordl_internal_get_AllowMovement() const;
-
-  constexpr void __cordl_internal_set_AllowMovement(bool value);
-
-  constexpr float_t& __cordl_internal_get_ForwardSpeed();
-
-  constexpr float_t const& __cordl_internal_get_ForwardSpeed() const;
-
-  constexpr void __cordl_internal_set_ForwardSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get_StrafeSpeed();
-
-  constexpr float_t const& __cordl_internal_get_StrafeSpeed() const;
-
-  constexpr void __cordl_internal_set_StrafeSpeed(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_CameraRig();
-
-  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraRig() const;
-
-  constexpr void __cordl_internal_set_CameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
-
-  /// @brief Method Awake, addr 0x2748110, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x280d880, size 0xf0, virtual false, abstract: false, final false
   inline void Awake();
-
-  /// @brief Method Start, addr 0x2748200, size 0x4, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method Update, addr 0x2748204, size 0x524, virtual false, abstract: false, final false
-  inline void Update();
 
   static inline ::GlobalNamespace::OVRDebugHeadController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2748728, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x280d970, size 0x4, virtual false, abstract: false, final false
+  inline void Start();
+
+  /// @brief Method Update, addr 0x280d974, size 0x524, virtual false, abstract: false, final false
+  inline void Update();
+
+  constexpr bool const& __cordl_internal_get_AllowMovement() const;
+
+  constexpr bool& __cordl_internal_get_AllowMovement();
+
+  constexpr bool const& __cordl_internal_get_AllowPitchLook() const;
+
+  constexpr bool& __cordl_internal_get_AllowPitchLook();
+
+  constexpr bool const& __cordl_internal_get_AllowYawLook() const;
+
+  constexpr bool& __cordl_internal_get_AllowYawLook();
+
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraRig() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_CameraRig();
+
+  constexpr float_t const& __cordl_internal_get_ForwardSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_ForwardSpeed();
+
+  constexpr float_t const& __cordl_internal_get_GamePad_PitchDegreesPerSec() const;
+
+  constexpr float_t& __cordl_internal_get_GamePad_PitchDegreesPerSec();
+
+  constexpr float_t const& __cordl_internal_get_GamePad_YawDegreesPerSec() const;
+
+  constexpr float_t& __cordl_internal_get_GamePad_YawDegreesPerSec();
+
+  constexpr bool const& __cordl_internal_get_InvertPitch() const;
+
+  constexpr bool& __cordl_internal_get_InvertPitch();
+
+  constexpr float_t const& __cordl_internal_get_StrafeSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_StrafeSpeed();
+
+  constexpr void __cordl_internal_set_AllowMovement(bool value);
+
+  constexpr void __cordl_internal_set_AllowPitchLook(bool value);
+
+  constexpr void __cordl_internal_set_AllowYawLook(bool value);
+
+  constexpr void __cordl_internal_set_CameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
+
+  constexpr void __cordl_internal_set_ForwardSpeed(float_t value);
+
+  constexpr void __cordl_internal_set_GamePad_PitchDegreesPerSec(float_t value);
+
+  constexpr void __cordl_internal_set_GamePad_YawDegreesPerSec(float_t value);
+
+  constexpr void __cordl_internal_set_InvertPitch(bool value);
+
+  constexpr void __cordl_internal_set_StrafeSpeed(float_t value);
+
+  /// @brief Method .ctor, addr 0x280de98, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRDebugHeadController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRDebugHeadController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRDebugHeadController(OVRDebugHeadController&&) = delete;
@@ -127,12 +131,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRDebugHeadController(OVRDebugHeadController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRDebugHeadController();
-
-public:
   /// @brief Field AllowPitchLook, offset: 0x18, size: 0x1, def value: None
   bool ___AllowPitchLook;
 

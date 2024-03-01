@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5NetworkPlayerModel);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14846))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14848))
 // CS Name: ::PS5NetworkPlayerModel*
 class CORDL_TYPE PS5NetworkPlayerModel : public ::GlobalNamespace::PlatformNetworkPlayerModel {
 public:
   // Declarations
   static inline ::GlobalNamespace::PS5NetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x265debc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272d608, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PS5NetworkPlayerModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PS5NetworkPlayerModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PS5NetworkPlayerModel(PS5NetworkPlayerModel&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PS5NetworkPlayerModel(PS5NetworkPlayerModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PS5NetworkPlayerModel();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

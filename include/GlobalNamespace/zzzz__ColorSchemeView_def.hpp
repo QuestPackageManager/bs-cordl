@@ -20,18 +20,10 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeView);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16324))
 // CS Name: ::ColorSchemeView*
 class CORDL_TYPE ColorSchemeView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _saberAColorImage, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberAColorImage, put = __cordl_internal_set__saberAColorImage))::UnityW<::UnityEngine::UI::Image> _saberAColorImage;
-
-  /// @brief Field _saberBColorImage, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberBColorImage, put = __cordl_internal_set__saberBColorImage))::UnityW<::UnityEngine::UI::Image> _saberBColorImage;
-
   /// @brief Field _environment0ColorImage, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__environment0ColorImage, put = __cordl_internal_set__environment0ColorImage))::UnityW<::UnityEngine::UI::Image> _environment0ColorImage;
 
@@ -47,57 +39,69 @@ public:
   /// @brief Field _obstacleColorImage, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__obstacleColorImage, put = __cordl_internal_set__obstacleColorImage))::UnityW<::UnityEngine::UI::Image> _obstacleColorImage;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__saberAColorImage();
+  /// @brief Field _saberAColorImage, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberAColorImage, put = __cordl_internal_set__saberAColorImage))::UnityW<::UnityEngine::UI::Image> _saberAColorImage;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__saberAColorImage() const;
-
-  constexpr void __cordl_internal_set__saberAColorImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__saberBColorImage();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__saberBColorImage() const;
-
-  constexpr void __cordl_internal_set__saberBColorImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__environment0ColorImage();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__environment0ColorImage() const;
-
-  constexpr void __cordl_internal_set__environment0ColorImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__environment1ColorImage();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__environment1ColorImage() const;
-
-  constexpr void __cordl_internal_set__environment1ColorImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__environmentColor0BoostImage();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__environmentColor0BoostImage() const;
-
-  constexpr void __cordl_internal_set__environmentColor0BoostImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__environmentColor1BoostImage();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__environmentColor1BoostImage() const;
-
-  constexpr void __cordl_internal_set__environmentColor1BoostImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__obstacleColorImage();
-
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__obstacleColorImage() const;
-
-  constexpr void __cordl_internal_set__obstacleColorImage(::UnityW<::UnityEngine::UI::Image> value);
-
-  /// @brief Method SetColors, addr 0x2402f8c, size 0x1b8, virtual false, abstract: false, final false
-  inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
-                        ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
+  /// @brief Field _saberBColorImage, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberBColorImage, put = __cordl_internal_set__saberBColorImage))::UnityW<::UnityEngine::UI::Image> _saberBColorImage;
 
   static inline ::GlobalNamespace::ColorSchemeView* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2403144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x24d0c84, size 0x1b8, virtual false, abstract: false, final false
+  inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
+                        ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__environment0ColorImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__environment0ColorImage();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__environment1ColorImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__environment1ColorImage();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__environmentColor0BoostImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__environmentColor0BoostImage();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__environmentColor1BoostImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__environmentColor1BoostImage();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__obstacleColorImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__obstacleColorImage();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__saberAColorImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__saberAColorImage();
+
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__saberBColorImage() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__saberBColorImage();
+
+  constexpr void __cordl_internal_set__environment0ColorImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__environment1ColorImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__environmentColor0BoostImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__environmentColor1BoostImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__obstacleColorImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__saberAColorImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  constexpr void __cordl_internal_set__saberBColorImage(::UnityW<::UnityEngine::UI::Image> value);
+
+  /// @brief Method .ctor, addr 0x24d0e3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorSchemeView();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeView", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorSchemeView(ColorSchemeView&&) = delete;
@@ -106,12 +110,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorSchemeView(ColorSchemeView const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorSchemeView();
-
-public:
   /// @brief Field _saberAColorImage, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____saberAColorImage;
 

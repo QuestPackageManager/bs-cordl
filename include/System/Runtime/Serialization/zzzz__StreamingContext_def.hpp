@@ -22,8 +22,6 @@ MARK_VAL_T(::System::Runtime::Serialization::StreamingContext);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3236))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3235))
 // CS Name: ::System.Runtime.Serialization::StreamingContext
 struct CORDL_TYPE StreamingContext {
 public:
@@ -32,31 +30,31 @@ public:
 
   __declspec(property(get = get_State))::System::Runtime::Serialization::StreamingContextStates State;
 
-  /// @brief Method .ctor, addr 0x24e0964, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state);
-
-  /// @brief Method .ctor, addr 0x24e0970, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state, ::System::Object* additional);
-
-  /// @brief Method get_Context, addr 0x24e097c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_Context();
-
-  /// @brief Method Equals, addr 0x24e0984, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25b167c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x24e0a34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25b172c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_State, addr 0x24e0a3c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Runtime::Serialization::StreamingContextStates get_State();
+  /// @brief Method .ctor, addr 0x25b165c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state);
 
-  // Ctor Parameters [CppParam { name: "m_additionalContext", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "m_state", ty:
-  // "::System::Runtime::Serialization::StreamingContextStates", modifiers: "", def_value: None }]
-  constexpr StreamingContext(::System::Object* m_additionalContext, ::System::Runtime::Serialization::StreamingContextStates m_state) noexcept;
+  /// @brief Method .ctor, addr 0x25b1668, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state, ::System::Object* additional);
+
+  /// @brief Method get_Context, addr 0x25b1674, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Object* get_Context();
+
+  /// @brief Method get_State, addr 0x25b1734, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::StreamingContextStates get_State();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr StreamingContext();
+
+  // Ctor Parameters [CppParam { name: "m_additionalContext", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "m_state", ty:
+  // "::System::Runtime::Serialization::StreamingContextStates", modifiers: "", def_value: None }]
+  constexpr StreamingContext(::System::Object* m_additionalContext, ::System::Runtime::Serialization::StreamingContextStates m_state) noexcept;
 
   /// @brief Field m_additionalContext, offset: 0x0, size: 0x8, def value: None
   ::System::Object* m_additionalContext;

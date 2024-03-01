@@ -20,20 +20,24 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T0, typename T1>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9231))
 // CS Name: ::UnityEngine.Events::UnityAction`2<T0,T1>*
 class CORDL_TYPE UnityAction_2 : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Invoke(T0 arg0, T1 arg1);
+
   static inline ::UnityEngine::Events::UnityAction_2<T0, T1>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(T0 arg0, T1 arg1);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityAction_2();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityAction_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityAction_2(UnityAction_2&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityAction_2(UnityAction_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityAction_2();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

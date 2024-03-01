@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BoolSettingsController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16295))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16283))
 // CS Name: ::BoolSettingsController*
 class CORDL_TYPE BoolSettingsController : public ::GlobalNamespace::SwitchSettingsController {
 public:
@@ -26,23 +24,29 @@ public:
   /// @brief Field _settingsValue, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::BoolSO> _settingsValue;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__settingsValue();
-
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__settingsValue() const;
-
-  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::BoolSO> value);
-
-  /// @brief Method GetInitValue, addr 0x2404018, size 0x48, virtual true, abstract: false, final false
-  inline bool GetInitValue();
-
-  /// @brief Method ApplyValue, addr 0x2404060, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x24d1d58, size 0x58, virtual true, abstract: false, final false
   inline void ApplyValue(bool value);
+
+  /// @brief Method GetInitValue, addr 0x24d1d10, size 0x48, virtual true, abstract: false, final false
+  inline bool GetInitValue();
 
   static inline ::GlobalNamespace::BoolSettingsController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24040b8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__settingsValue() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__settingsValue();
+
+  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::BoolSO> value);
+
+  /// @brief Method .ctor, addr 0x24d1db0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BoolSettingsController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BoolSettingsController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoolSettingsController(BoolSettingsController&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BoolSettingsController(BoolSettingsController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BoolSettingsController();
-
-public:
   /// @brief Field _settingsValue, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____settingsValue;
 

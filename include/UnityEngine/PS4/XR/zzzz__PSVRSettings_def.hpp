@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::PS4::XR::PSVRSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::PS4::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16443))
 // CS Name: ::UnityEngine.PS4.XR::PSVRSettings*
 class CORDL_TYPE PSVRSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   static inline ::UnityEngine::PS4::XR::PSVRSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c7a114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d631e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PSVRSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PSVRSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PSVRSettings(PSVRSettings&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PSVRSettings(PSVRSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PSVRSettings();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

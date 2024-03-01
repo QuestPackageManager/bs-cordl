@@ -28,11 +28,14 @@ MARK_VAL_T(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo);
 // SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::U2D {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(8908)), TypeDefinitionIndex(TypeDefinitionIndex(8989)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8995))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9152)) CS Name: ::UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
+// CS Name: ::UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
 struct CORDL_TYPE SpriteIntermediateRendererInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpriteIntermediateRendererInfo();
+
   // Ctor Parameters [CppParam { name: "SpriteID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "TextureID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "MaterialID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "Transform", ty:
   // "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "Bounds", ty: "::UnityEngine::Bounds", modifiers: "", def_value: None }, CppParam { name: "Layer", ty: "int32_t",
@@ -43,10 +46,6 @@ public:
   constexpr SpriteIntermediateRendererInfo(int32_t SpriteID, int32_t TextureID, int32_t MaterialID, ::UnityEngine::Color Color, ::UnityEngine::Matrix4x4 Transform, ::UnityEngine::Bounds Bounds,
                                            int32_t Layer, int32_t SortingLayer, int32_t SortingOrder, uint64_t SceneCullingMask, void* IndexData, void* VertexData, int32_t IndexCount,
                                            int32_t VertexCount, int32_t ShaderChannelMask) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpriteIntermediateRendererInfo();
 
   /// @brief Field SpriteID, offset: 0x0, size: 0x4, def value: None
   int32_t SpriteID;

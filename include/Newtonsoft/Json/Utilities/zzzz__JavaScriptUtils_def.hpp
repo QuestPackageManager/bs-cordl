@@ -27,47 +27,51 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::JavaScriptUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11787))
 // CS Name: ::Newtonsoft.Json.Utilities::JavaScriptUtils*
 class CORDL_TYPE JavaScriptUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field SingleQuoteCharEscapeFlags, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SingleQuoteCharEscapeFlags, put = setStaticF_SingleQuoteCharEscapeFlags))::ArrayW<bool, ::Array<bool>*> SingleQuoteCharEscapeFlags;
-
   /// @brief Field DoubleQuoteCharEscapeFlags, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DoubleQuoteCharEscapeFlags, put = setStaticF_DoubleQuoteCharEscapeFlags))::ArrayW<bool, ::Array<bool>*> DoubleQuoteCharEscapeFlags;
 
   /// @brief Field HtmlCharEscapeFlags, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_HtmlCharEscapeFlags, put = setStaticF_HtmlCharEscapeFlags))::ArrayW<bool, ::Array<bool>*> HtmlCharEscapeFlags;
 
-  static inline void setStaticF_SingleQuoteCharEscapeFlags(::ArrayW<bool, ::Array<bool>*> value);
+  /// @brief Field SingleQuoteCharEscapeFlags, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_SingleQuoteCharEscapeFlags, put = setStaticF_SingleQuoteCharEscapeFlags))::ArrayW<bool, ::Array<bool>*> SingleQuoteCharEscapeFlags;
+
+  /// @brief Method GetCharEscapeFlags, addr 0x27560dc, size 0x98, virtual false, abstract: false, final false
+  static inline ::ArrayW<bool, ::Array<bool>*> GetCharEscapeFlags(::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, char16_t quoteChar);
+
+  /// @brief Method ShouldEscapeJavaScriptString, addr 0x2756174, size 0x88, virtual false, abstract: false, final false
+  static inline bool ShouldEscapeJavaScriptString(::StringW s, ::ArrayW<bool, ::Array<bool>*> charEscapeFlags);
+
+  /// @brief Method ToEscapedJavaScriptString, addr 0x27567a0, size 0x24c, virtual false, abstract: false, final false
+  static inline ::StringW ToEscapedJavaScriptString(::StringW value, char16_t delimiter, bool appendDelimiters, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
+
+  /// @brief Method WriteEscapedJavaScriptString, addr 0x27561fc, size 0x4ec, virtual false, abstract: false, final false
+  static inline void WriteEscapedJavaScriptString(::System::IO::TextWriter* writer, ::StringW s, char16_t delimiter, bool appendDelimiters, ::ArrayW<bool, ::Array<bool>*> charEscapeFlags,
+                                                  ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, ::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool,
+                                                  ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> writeBuffer);
+
+  static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_DoubleQuoteCharEscapeFlags();
+
+  static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_HtmlCharEscapeFlags();
 
   static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_SingleQuoteCharEscapeFlags();
 
   static inline void setStaticF_DoubleQuoteCharEscapeFlags(::ArrayW<bool, ::Array<bool>*> value);
 
-  static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_DoubleQuoteCharEscapeFlags();
-
   static inline void setStaticF_HtmlCharEscapeFlags(::ArrayW<bool, ::Array<bool>*> value);
 
-  static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_HtmlCharEscapeFlags();
+  static inline void setStaticF_SingleQuoteCharEscapeFlags(::ArrayW<bool, ::Array<bool>*> value);
 
-  /// @brief Method GetCharEscapeFlags, addr 0x2686990, size 0x98, virtual false, abstract: false, final false
-  static inline ::ArrayW<bool, ::Array<bool>*> GetCharEscapeFlags(::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, char16_t quoteChar);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JavaScriptUtils();
 
-  /// @brief Method ShouldEscapeJavaScriptString, addr 0x2686a28, size 0x88, virtual false, abstract: false, final false
-  static inline bool ShouldEscapeJavaScriptString(::StringW s, ::ArrayW<bool, ::Array<bool>*> charEscapeFlags);
-
-  /// @brief Method WriteEscapedJavaScriptString, addr 0x2686ab0, size 0x4ec, virtual false, abstract: false, final false
-  static inline void WriteEscapedJavaScriptString(::System::IO::TextWriter* writer, ::StringW s, char16_t delimiter, bool appendDelimiters, ::ArrayW<bool, ::Array<bool>*> charEscapeFlags,
-                                                  ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, ::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool,
-                                                  ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> writeBuffer);
-
-  /// @brief Method ToEscapedJavaScriptString, addr 0x2687054, size 0x24c, virtual false, abstract: false, final false
-  static inline ::StringW ToEscapedJavaScriptString(::StringW value, char16_t delimiter, bool appendDelimiters, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JavaScriptUtils", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JavaScriptUtils(JavaScriptUtils&&) = delete;
@@ -76,17 +80,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JavaScriptUtils(JavaScriptUtils const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JavaScriptUtils();
-
-public:
-  /// @brief Field UnicodeTextLength offset 0xffffffff size 0x4
-  static constexpr int32_t UnicodeTextLength{ static_cast<int32_t>(0x6) };
-
   /// @brief Field EscapedUnicodeText offset 0xffffffff size 0x8
   static constexpr ::ConstString EscapedUnicodeText{ u"!" };
+
+  /// @brief Field UnicodeTextLength offset 0xffffffff size 0x4
+  static constexpr int32_t UnicodeTextLength{ static_cast<int32_t>(0x6) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

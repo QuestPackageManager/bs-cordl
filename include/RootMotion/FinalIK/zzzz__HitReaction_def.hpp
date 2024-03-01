@@ -77,26 +77,12 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__HitReaction__HitPointEffector);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12536))
 // CS Name: ::HitReaction::HitPoint*
 class CORDL_TYPE __HitReaction__HitPoint : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
-
-  /// @brief Field collider, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_collider, put = __cordl_internal_set_collider))::UnityW<::UnityEngine::Collider> collider;
-
-  /// @brief Field crossFadeTime, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_crossFadeTime, put = __cordl_internal_set_crossFadeTime)) float_t crossFadeTime;
-
   /// @brief Field <crossFader>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__crossFader_k__BackingField, put = __cordl_internal_set__crossFader_k__BackingField)) float_t _crossFader_k__BackingField;
-
-  /// @brief Field <timer>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__timer_k__BackingField, put = __cordl_internal_set__timer_k__BackingField)) float_t _timer_k__BackingField;
 
   /// @brief Field <force>k__BackingField, offset 0x2c, size 0xc
   __declspec(property(get = __cordl_internal_get__force_k__BackingField, put = __cordl_internal_set__force_k__BackingField))::UnityEngine::Vector3 _force_k__BackingField;
@@ -104,132 +90,150 @@ public:
   /// @brief Field <point>k__BackingField, offset 0x38, size 0xc
   __declspec(property(get = __cordl_internal_get__point_k__BackingField, put = __cordl_internal_set__point_k__BackingField))::UnityEngine::Vector3 _point_k__BackingField;
 
-  /// @brief Field length, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
+  /// @brief Field <timer>k__BackingField, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__timer_k__BackingField, put = __cordl_internal_set__timer_k__BackingField)) float_t _timer_k__BackingField;
+
+  /// @brief Field collider, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_collider, put = __cordl_internal_set_collider))::UnityW<::UnityEngine::Collider> collider;
 
   /// @brief Field crossFadeSpeed, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_crossFadeSpeed, put = __cordl_internal_set_crossFadeSpeed)) float_t crossFadeSpeed;
 
-  /// @brief Field lastTime, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get_lastTime, put = __cordl_internal_set_lastTime)) float_t lastTime;
-
-  __declspec(property(get = get_inProgress)) bool inProgress;
+  /// @brief Field crossFadeTime, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_crossFadeTime, put = __cordl_internal_set_crossFadeTime)) float_t crossFadeTime;
 
   __declspec(property(get = get_crossFader, put = set_crossFader)) float_t crossFader;
 
-  __declspec(property(get = get_timer, put = set_timer)) float_t timer;
-
   __declspec(property(get = get_force, put = set_force))::UnityEngine::Vector3 force;
+
+  __declspec(property(get = get_inProgress)) bool inProgress;
+
+  /// @brief Field lastTime, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get_lastTime, put = __cordl_internal_set_lastTime)) float_t lastTime;
+
+  /// @brief Field length, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
+
+  /// @brief Field name, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   __declspec(property(get = get_point, put = set_point))::UnityEngine::Vector3 point;
 
-  constexpr ::StringW& __cordl_internal_get_name();
+  __declspec(property(get = get_timer, put = set_timer)) float_t timer;
 
-  constexpr ::StringW const& __cordl_internal_get_name() const;
-
-  constexpr void __cordl_internal_set_name(::StringW value);
-
-  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_collider();
-
-  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_collider() const;
-
-  constexpr void __cordl_internal_set_collider(::UnityW<::UnityEngine::Collider> value);
-
-  constexpr float_t& __cordl_internal_get_crossFadeTime();
-
-  constexpr float_t const& __cordl_internal_get_crossFadeTime() const;
-
-  constexpr void __cordl_internal_set_crossFadeTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get__crossFader_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__crossFader_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__crossFader_k__BackingField(float_t value);
-
-  constexpr float_t& __cordl_internal_get__timer_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__timer_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__timer_k__BackingField(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__force_k__BackingField();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__force_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__force_k__BackingField(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__point_k__BackingField();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__point_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__point_k__BackingField(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get_length();
-
-  constexpr float_t const& __cordl_internal_get_length() const;
-
-  constexpr void __cordl_internal_set_length(float_t value);
-
-  constexpr float_t& __cordl_internal_get_crossFadeSpeed();
-
-  constexpr float_t const& __cordl_internal_get_crossFadeSpeed() const;
-
-  constexpr void __cordl_internal_set_crossFadeSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get_lastTime();
-
-  constexpr float_t const& __cordl_internal_get_lastTime() const;
-
-  constexpr void __cordl_internal_set_lastTime(float_t value);
-
-  /// @brief Method get_inProgress, addr 0x132cff0, size 0x14, virtual false, abstract: false, final false
-  inline bool get_inProgress();
-
-  /// @brief Method get_crossFader, addr 0x132d4f0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_crossFader();
-
-  /// @brief Method set_crossFader, addr 0x132d4f8, size 0x8, virtual false, abstract: false, final false
-  inline void set_crossFader(float_t value);
-
-  /// @brief Method get_timer, addr 0x132d500, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_timer();
-
-  /// @brief Method set_timer, addr 0x132d508, size 0x8, virtual false, abstract: false, final false
-  inline void set_timer(float_t value);
-
-  /// @brief Method get_force, addr 0x132d510, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_force();
-
-  /// @brief Method set_force, addr 0x132d51c, size 0xc, virtual false, abstract: false, final false
-  inline void set_force(::UnityEngine::Vector3 value);
-
-  /// @brief Method get_point, addr 0x132d528, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_point();
-
-  /// @brief Method set_point, addr 0x132d534, size 0xc, virtual false, abstract: false, final false
-  inline void set_point(::UnityEngine::Vector3 value);
-
-  /// @brief Method Hit, addr 0x132d3b8, size 0x128, virtual false, abstract: false, final false
-  inline void Hit(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
-
-  /// @brief Method Apply, addr 0x132d0c4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x136e0b0, size 0xd8, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
-
-  /// @brief Method GetLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline float_t GetLength();
 
   /// @brief Method CrossFadeStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CrossFadeStart();
 
-  /// @brief Method OnApply, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
+  /// @brief Method GetLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t GetLength();
+
+  /// @brief Method Hit, addr 0x136e3a4, size 0x128, virtual false, abstract: false, final false
+  inline void Hit(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
 
   static inline ::RootMotion::FinalIK::__HitReaction__HitPoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x132d540, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnApply, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
+
+  constexpr float_t const& __cordl_internal_get__crossFader_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__crossFader_k__BackingField();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__force_k__BackingField() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__force_k__BackingField();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__point_k__BackingField() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__point_k__BackingField();
+
+  constexpr float_t const& __cordl_internal_get__timer_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__timer_k__BackingField();
+
+  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_collider() const;
+
+  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_collider();
+
+  constexpr float_t const& __cordl_internal_get_crossFadeSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_crossFadeSpeed();
+
+  constexpr float_t const& __cordl_internal_get_crossFadeTime() const;
+
+  constexpr float_t& __cordl_internal_get_crossFadeTime();
+
+  constexpr float_t const& __cordl_internal_get_lastTime() const;
+
+  constexpr float_t& __cordl_internal_get_lastTime();
+
+  constexpr float_t const& __cordl_internal_get_length() const;
+
+  constexpr float_t& __cordl_internal_get_length();
+
+  constexpr ::StringW const& __cordl_internal_get_name() const;
+
+  constexpr ::StringW& __cordl_internal_get_name();
+
+  constexpr void __cordl_internal_set__crossFader_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set__force_k__BackingField(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__point_k__BackingField(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__timer_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set_collider(::UnityW<::UnityEngine::Collider> value);
+
+  constexpr void __cordl_internal_set_crossFadeSpeed(float_t value);
+
+  constexpr void __cordl_internal_set_crossFadeTime(float_t value);
+
+  constexpr void __cordl_internal_set_lastTime(float_t value);
+
+  constexpr void __cordl_internal_set_length(float_t value);
+
+  constexpr void __cordl_internal_set_name(::StringW value);
+
+  /// @brief Method .ctor, addr 0x136e52c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_crossFader, addr 0x136e4dc, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_crossFader();
+
+  /// @brief Method get_force, addr 0x136e4fc, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_force();
+
+  /// @brief Method get_inProgress, addr 0x136dfdc, size 0x14, virtual false, abstract: false, final false
+  inline bool get_inProgress();
+
+  /// @brief Method get_point, addr 0x136e514, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_point();
+
+  /// @brief Method get_timer, addr 0x136e4ec, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_timer();
+
+  /// @brief Method set_crossFader, addr 0x136e4e4, size 0x8, virtual false, abstract: false, final false
+  inline void set_crossFader(float_t value);
+
+  /// @brief Method set_force, addr 0x136e508, size 0xc, virtual false, abstract: false, final false
+  inline void set_force(::UnityEngine::Vector3 value);
+
+  /// @brief Method set_point, addr 0x136e520, size 0xc, virtual false, abstract: false, final false
+  inline void set_point(::UnityEngine::Vector3 value);
+
+  /// @brief Method set_timer, addr 0x136e4f4, size 0x8, virtual false, abstract: false, final false
+  inline void set_timer(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HitReaction__HitPoint();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HitReaction__HitPoint", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HitReaction__HitPoint(__HitReaction__HitPoint&&) = delete;
@@ -238,12 +242,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HitReaction__HitPoint(__HitReaction__HitPoint const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HitReaction__HitPoint();
-
-public:
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 
@@ -304,59 +302,63 @@ static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPoint, ___lastTi
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12469))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12537))
 // CS Name: ::HitReaction::HitPointEffector::EffectorLink*
 class CORDL_TYPE __HitReaction__HitPointEffector__EffectorLink : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field current, offset 0x24, size 0xc
+  __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current))::UnityEngine::Vector3 current;
+
   /// @brief Field effector, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_effector, put = __cordl_internal_set_effector))::RootMotion::FinalIK::FullBodyBipedEffector effector;
-
-  /// @brief Field weight, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
   /// @brief Field lastValue, offset 0x18, size 0xc
   __declspec(property(get = __cordl_internal_get_lastValue, put = __cordl_internal_set_lastValue))::UnityEngine::Vector3 lastValue;
 
-  /// @brief Field current, offset 0x24, size 0xc
-  __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current))::UnityEngine::Vector3 current;
+  /// @brief Field weight, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __cordl_internal_get_effector();
-
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __cordl_internal_get_effector() const;
-
-  constexpr void __cordl_internal_set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value);
-
-  constexpr float_t& __cordl_internal_get_weight();
-
-  constexpr float_t const& __cordl_internal_get_weight() const;
-
-  constexpr void __cordl_internal_set_weight(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastValue();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastValue() const;
-
-  constexpr void __cordl_internal_set_lastValue(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_current();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_current() const;
-
-  constexpr void __cordl_internal_set_current(::UnityEngine::Vector3 value);
-
-  /// @brief Method Apply, addr 0x132d874, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x136e860, size 0x9c, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Vector3 offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart, addr 0x132d6d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x136e6bc, size 0x14, virtual false, abstract: false, final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink* New_ctor();
 
-  /// @brief Method .ctor, addr 0x132d924, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_current() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_current();
+
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __cordl_internal_get_effector() const;
+
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __cordl_internal_get_effector();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastValue() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastValue();
+
+  constexpr float_t const& __cordl_internal_get_weight() const;
+
+  constexpr float_t& __cordl_internal_get_weight();
+
+  constexpr void __cordl_internal_set_current(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value);
+
+  constexpr void __cordl_internal_set_lastValue(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_weight(float_t value);
+
+  /// @brief Method .ctor, addr 0x136e910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HitReaction__HitPointEffector__EffectorLink();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HitReaction__HitPointEffector__EffectorLink", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HitReaction__HitPointEffector__EffectorLink(__HitReaction__HitPointEffector__EffectorLink&&) = delete;
@@ -365,12 +367,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HitReaction__HitPointEffector__EffectorLink(__HitReaction__HitPointEffector__EffectorLink const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HitReaction__HitPointEffector__EffectorLink();
-
-public:
   /// @brief Field effector, offset: 0x10, size: 0x4, def value: None
   ::RootMotion::FinalIK::FullBodyBipedEffector ___effector;
 
@@ -401,13 +397,16 @@ static_assert(offsetof(::GlobalNamespace::__HitReaction__HitPointEffector__Effec
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12536))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12538))
 // CS Name: ::HitReaction::HitPointEffector*
 class CORDL_TYPE __HitReaction__HitPointEffector : public ::RootMotion::FinalIK::__HitReaction__HitPoint {
 public:
   // Declarations
   using EffectorLink = ::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink;
+
+  /// @brief Field effectorLinks, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_effectorLinks,
+                      put = __cordl_internal_set_effectorLinks))::ArrayW<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*,
+                                                                         ::Array<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*>*> effectorLinks;
 
   /// @brief Field offsetInForceDirection, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_offsetInForceDirection, put = __cordl_internal_set_offsetInForceDirection))::UnityEngine::AnimationCurve* offsetInForceDirection;
@@ -415,46 +414,47 @@ public:
   /// @brief Field offsetInUpDirection, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_offsetInUpDirection, put = __cordl_internal_set_offsetInUpDirection))::UnityEngine::AnimationCurve* offsetInUpDirection;
 
-  /// @brief Field effectorLinks, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_effectorLinks,
-                      put = __cordl_internal_set_effectorLinks))::ArrayW<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*,
-                                                                         ::Array<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*>*> effectorLinks;
+  /// @brief Method CrossFadeStart, addr 0x136e65c, size 0x60, virtual true, abstract: false, final false
+  inline void CrossFadeStart();
+
+  /// @brief Method GetLength, addr 0x136e540, size 0x11c, virtual true, abstract: false, final false
+  inline float_t GetLength();
+
+  static inline ::RootMotion::FinalIK::__HitReaction__HitPointEffector* New_ctor();
+
+  /// @brief Method OnApply, addr 0x136e6d0, size 0x190, virtual true, abstract: false, final false
+  inline void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
+
+  constexpr ::ArrayW<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*>*> const&
+  __cordl_internal_get_effectorLinks() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*>*>&
+  __cordl_internal_get_effectorLinks();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_offsetInForceDirection();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_offsetInForceDirection() const;
 
-  constexpr void __cordl_internal_set_offsetInForceDirection(::UnityEngine::AnimationCurve* value);
-
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_offsetInUpDirection();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_offsetInUpDirection() const;
 
-  constexpr void __cordl_internal_set_offsetInUpDirection(::UnityEngine::AnimationCurve* value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*>*>&
-  __cordl_internal_get_effectorLinks();
-
-  constexpr ::ArrayW<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*>*> const&
-  __cordl_internal_get_effectorLinks() const;
-
   constexpr void
   __cordl_internal_set_effectorLinks(::ArrayW<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointEffector__EffectorLink*>*> value);
 
-  /// @brief Method GetLength, addr 0x132d554, size 0x11c, virtual true, abstract: false, final false
-  inline float_t GetLength();
+  constexpr void __cordl_internal_set_offsetInForceDirection(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method CrossFadeStart, addr 0x132d670, size 0x60, virtual true, abstract: false, final false
-  inline void CrossFadeStart();
+  constexpr void __cordl_internal_set_offsetInUpDirection(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method OnApply, addr 0x132d6e4, size 0x190, virtual true, abstract: false, final false
-  inline void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
-
-  static inline ::RootMotion::FinalIK::__HitReaction__HitPointEffector* New_ctor();
-
-  /// @brief Method .ctor, addr 0x132d910, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x136e8fc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HitReaction__HitPointEffector();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HitReaction__HitPointEffector", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HitReaction__HitPointEffector(__HitReaction__HitPointEffector&&) = delete;
@@ -463,12 +463,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HitReaction__HitPointEffector(__HitReaction__HitPointEffector const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HitReaction__HitPointEffector();
-
-public:
   /// @brief Field offsetInForceDirection, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___offsetInForceDirection;
 
@@ -494,8 +488,6 @@ static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPointEffector, _
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12539))
 // CS Name: ::HitReaction::HitPointBone::BoneLink*
 class CORDL_TYPE __HitReaction__HitPointBone__BoneLink : public ::System::Object {
 public:
@@ -503,50 +495,56 @@ public:
   /// @brief Field bone, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bone, put = __cordl_internal_set_bone))::UnityW<::UnityEngine::Transform> bone;
 
-  /// @brief Field weight, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
+  /// @brief Field current, offset 0x2c, size 0x10
+  __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current))::UnityEngine::Quaternion current;
 
   /// @brief Field lastValue, offset 0x1c, size 0x10
   __declspec(property(get = __cordl_internal_get_lastValue, put = __cordl_internal_set_lastValue))::UnityEngine::Quaternion lastValue;
 
-  /// @brief Field current, offset 0x2c, size 0x10
-  __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current))::UnityEngine::Quaternion current;
+  /// @brief Field weight, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone() const;
-
-  constexpr void __cordl_internal_set_bone(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr float_t& __cordl_internal_get_weight();
-
-  constexpr float_t const& __cordl_internal_get_weight() const;
-
-  constexpr void __cordl_internal_set_weight(float_t value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_lastValue();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_lastValue() const;
-
-  constexpr void __cordl_internal_set_lastValue(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_current();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_current() const;
-
-  constexpr void __cordl_internal_set_current(::UnityEngine::Quaternion value);
-
-  /// @brief Method Apply, addr 0x132dbe4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x136ebd0, size 0x18c, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::UnityEngine::Quaternion offset, float_t crossFader);
 
-  /// @brief Method CrossFadeStart, addr 0x132da10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeStart, addr 0x136e9fc, size 0xc, virtual false, abstract: false, final false
   inline void CrossFadeStart();
 
   static inline ::GlobalNamespace::__HitReaction__HitPointBone__BoneLink* New_ctor();
 
-  /// @brief Method .ctor, addr 0x132dd84, size 0x64, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bone() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bone();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_current() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_current();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_lastValue() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_lastValue();
+
+  constexpr float_t const& __cordl_internal_get_weight() const;
+
+  constexpr float_t& __cordl_internal_get_weight();
+
+  constexpr void __cordl_internal_set_bone(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_current(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_lastValue(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_weight(float_t value);
+
+  /// @brief Method .ctor, addr 0x136ed70, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HitReaction__HitPointBone__BoneLink();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HitReaction__HitPointBone__BoneLink", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HitReaction__HitPointBone__BoneLink(__HitReaction__HitPointBone__BoneLink&&) = delete;
@@ -555,12 +553,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HitReaction__HitPointBone__BoneLink(__HitReaction__HitPointBone__BoneLink const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HitReaction__HitPointBone__BoneLink();
-
-public:
   /// @brief Field bone, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___bone;
 
@@ -591,8 +583,6 @@ static_assert(offsetof(::GlobalNamespace::__HitReaction__HitPointBone__BoneLink,
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12536))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12540))
 // CS Name: ::HitReaction::HitPointBone*
 class CORDL_TYPE __HitReaction__HitPointBone : public ::RootMotion::FinalIK::__HitReaction__HitPoint {
 public:
@@ -610,38 +600,44 @@ public:
   /// @brief Field rigidbody, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_rigidbody, put = __cordl_internal_set_rigidbody))::UnityW<::UnityEngine::Rigidbody> rigidbody;
 
+  /// @brief Method CrossFadeStart, addr 0x136e9a4, size 0x58, virtual true, abstract: false, final false
+  inline void CrossFadeStart();
+
+  /// @brief Method GetLength, addr 0x136e918, size 0x8c, virtual true, abstract: false, final false
+  inline float_t GetLength();
+
+  static inline ::RootMotion::FinalIK::__HitReaction__HitPointBone* New_ctor();
+
+  /// @brief Method OnApply, addr 0x136ea08, size 0x1c8, virtual true, abstract: false, final false
+  inline void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
+
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_aroundCenterOfMass();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_aroundCenterOfMass() const;
 
-  constexpr void __cordl_internal_set_aroundCenterOfMass(::UnityEngine::AnimationCurve* value);
+  constexpr ::ArrayW<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*>*> const& __cordl_internal_get_boneLinks() const;
 
   constexpr ::ArrayW<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*>*>& __cordl_internal_get_boneLinks();
 
-  constexpr ::ArrayW<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*>*> const& __cordl_internal_get_boneLinks() const;
-
-  constexpr void __cordl_internal_set_boneLinks(::ArrayW<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*>*> value);
+  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get_rigidbody() const;
 
   constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get_rigidbody();
 
-  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get_rigidbody() const;
+  constexpr void __cordl_internal_set_aroundCenterOfMass(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_boneLinks(::ArrayW<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*, ::Array<::GlobalNamespace::__HitReaction__HitPointBone__BoneLink*>*> value);
 
   constexpr void __cordl_internal_set_rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
 
-  /// @brief Method GetLength, addr 0x132d92c, size 0x8c, virtual true, abstract: false, final false
-  inline float_t GetLength();
-
-  /// @brief Method CrossFadeStart, addr 0x132d9b8, size 0x58, virtual true, abstract: false, final false
-  inline void CrossFadeStart();
-
-  /// @brief Method OnApply, addr 0x132da1c, size 0x1c8, virtual true, abstract: false, final false
-  inline void OnApply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
-
-  static inline ::RootMotion::FinalIK::__HitReaction__HitPointBone* New_ctor();
-
-  /// @brief Method .ctor, addr 0x132dd70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x136ed5c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HitReaction__HitPointBone();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HitReaction__HitPointBone", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HitReaction__HitPointBone(__HitReaction__HitPointBone&&) = delete;
@@ -650,12 +646,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HitReaction__HitPointBone(__HitReaction__HitPointBone const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HitReaction__HitPointBone();
-
-public:
   /// @brief Field aroundCenterOfMass, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___aroundCenterOfMass;
 
@@ -681,56 +671,60 @@ static_assert(offsetof(::RootMotion::FinalIK::__HitReaction__HitPointBone, ___ri
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12554))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12541))
 // CS Name: ::RootMotion.FinalIK::HitReaction*
 class CORDL_TYPE HitReaction : public ::RootMotion::FinalIK::OffsetModifier {
 public:
   // Declarations
+  using HitPoint = ::RootMotion::FinalIK::__HitReaction__HitPoint;
+
   using HitPointBone = ::RootMotion::FinalIK::__HitReaction__HitPointBone;
 
   using HitPointEffector = ::RootMotion::FinalIK::__HitReaction__HitPointEffector;
-
-  using HitPoint = ::RootMotion::FinalIK::__HitReaction__HitPoint;
-
-  /// @brief Field effectorHitPoints, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_effectorHitPoints,
-                      put = __cordl_internal_set_effectorHitPoints))::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointEffector*,
-                                                                             ::Array<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>*> effectorHitPoints;
 
   /// @brief Field boneHitPoints, offset 0x38, size 0x8
   __declspec(
       property(get = __cordl_internal_get_boneHitPoints,
                put = __cordl_internal_set_boneHitPoints))::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointBone*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointBone*>*> boneHitPoints;
 
+  /// @brief Field effectorHitPoints, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_effectorHitPoints,
+                      put = __cordl_internal_set_effectorHitPoints))::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointEffector*,
+                                                                             ::Array<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>*> effectorHitPoints;
+
   __declspec(property(get = get_inProgress)) bool inProgress;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointEffector*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>*>& __cordl_internal_get_effectorHitPoints();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointEffector*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>*> const& __cordl_internal_get_effectorHitPoints() const;
-
-  constexpr void __cordl_internal_set_effectorHitPoints(::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointEffector*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>*> value);
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointBone*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointBone*>*>& __cordl_internal_get_boneHitPoints();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointBone*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointBone*>*> const& __cordl_internal_get_boneHitPoints() const;
-
-  constexpr void __cordl_internal_set_boneHitPoints(::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointBone*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointBone*>*> value);
-
-  /// @brief Method get_inProgress, addr 0x132cf54, size 0x9c, virtual false, abstract: false, final false
-  inline bool get_inProgress();
-
-  /// @brief Method OnModifyOffset, addr 0x132d004, size 0xc0, virtual true, abstract: false, final false
-  inline void OnModifyOffset();
-
-  /// @brief Method Hit, addr 0x132d19c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method Hit, addr 0x136e188, size 0x21c, virtual false, abstract: false, final false
   inline void Hit(::UnityEngine::Collider* collider, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 point);
 
   static inline ::RootMotion::FinalIK::HitReaction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x132d4e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnModifyOffset, addr 0x136dff0, size 0xc0, virtual true, abstract: false, final false
+  inline void OnModifyOffset();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointBone*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointBone*>*> const& __cordl_internal_get_boneHitPoints() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointBone*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointBone*>*>& __cordl_internal_get_boneHitPoints();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointEffector*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>*> const& __cordl_internal_get_effectorHitPoints() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointEffector*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>*>& __cordl_internal_get_effectorHitPoints();
+
+  constexpr void __cordl_internal_set_boneHitPoints(::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointBone*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointBone*>*> value);
+
+  constexpr void __cordl_internal_set_effectorHitPoints(::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointEffector*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>*> value);
+
+  /// @brief Method .ctor, addr 0x136e4cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_inProgress, addr 0x136df40, size 0x9c, virtual false, abstract: false, final false
+  inline bool get_inProgress();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HitReaction();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HitReaction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HitReaction(HitReaction&&) = delete;
@@ -739,12 +733,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HitReaction(HitReaction const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HitReaction();
-
-public:
   /// @brief Field effectorHitPoints, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::RootMotion::FinalIK::__HitReaction__HitPointEffector*, ::Array<::RootMotion::FinalIK::__HitReaction__HitPointEffector*>*> ___effectorHitPoints;
 

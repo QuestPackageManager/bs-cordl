@@ -27,49 +27,53 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Nist::NistNamedCurves);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Nist {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(203))
 // CS Name: ::Org.BouncyCastle.Asn1.Nist::NistNamedCurves*
 class CORDL_TYPE NistNamedCurves : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field objIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds))::System::Collections::IDictionary* objIds;
-
   /// @brief Field names, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_names, put = setStaticF_names))::System::Collections::IDictionary* names;
 
-  static inline void setStaticF_objIds(::System::Collections::IDictionary* value);
+  /// @brief Field objIds, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds))::System::Collections::IDictionary* objIds;
 
-  static inline ::System::Collections::IDictionary* getStaticF_objIds();
+  /// @brief Method DefineCurveAlias, addr 0xfee5ac, size 0x198, virtual false, abstract: false, final false
+  static inline void DefineCurveAlias(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  static inline void setStaticF_names(::System::Collections::IDictionary* value);
+  /// @brief Method GetByName, addr 0xfeea64, size 0x80, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  static inline ::System::Collections::IDictionary* getStaticF_names();
+  /// @brief Method GetByOid, addr 0xfeec38, size 0x58, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+
+  /// @brief Method GetName, addr 0xfeec90, size 0x100, virtual false, abstract: false, final false
+  static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+
+  /// @brief Method GetOid, addr 0xfeeae4, size 0x154, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::Nist::NistNamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfa85d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfee5a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method DefineCurveAlias, addr 0xfa85dc, size 0x198, virtual false, abstract: false, final false
-  static inline void DefineCurveAlias(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+  static inline ::System::Collections::IDictionary* getStaticF_names();
 
-  /// @brief Method GetByName, addr 0xfa8a94, size 0x80, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
+  static inline ::System::Collections::IDictionary* getStaticF_objIds();
 
-  /// @brief Method GetByOid, addr 0xfa8c68, size 0x58, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
-
-  /// @brief Method GetOid, addr 0xfa8b14, size 0x154, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
-
-  /// @brief Method GetName, addr 0xfa8cc0, size 0x100, virtual false, abstract: false, final false
-  static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
-
-  /// @brief Method get_Names, addr 0xfa8dc0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0xfeed90, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
+  static inline void setStaticF_names(::System::Collections::IDictionary* value);
+
+  static inline void setStaticF_objIds(::System::Collections::IDictionary* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NistNamedCurves();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NistNamedCurves", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NistNamedCurves(NistNamedCurves&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NistNamedCurves(NistNamedCurves const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NistNamedCurves();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -23,8 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ScaleVector2Processor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5495)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5495), inst: 413
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5850)) CS Name: ::UnityEngine.InputSystem.Processors::ScaleVector2Processor*
+// CS Name: ::UnityEngine.InputSystem.Processors::ScaleVector2Processor*
 class CORDL_TYPE ScaleVector2Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector2> {
 public:
   // Declarations
@@ -34,29 +33,35 @@ public:
   /// @brief Field y, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) float_t y;
 
-  constexpr float_t& __cordl_internal_get_x();
+  static inline ::UnityEngine::InputSystem::Processors::ScaleVector2Processor* New_ctor();
+
+  /// @brief Method Process, addr 0x2bdf82c, size 0x10, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
+
+  /// @brief Method ToString, addr 0x2bdf83c, size 0xa0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_x() const;
 
-  constexpr void __cordl_internal_set_x(float_t value);
-
-  constexpr float_t& __cordl_internal_get_y();
+  constexpr float_t& __cordl_internal_get_x();
 
   constexpr float_t const& __cordl_internal_get_y() const;
 
+  constexpr float_t& __cordl_internal_get_y();
+
+  constexpr void __cordl_internal_set_x(float_t value);
+
   constexpr void __cordl_internal_set_y(float_t value);
 
-  /// @brief Method Process, addr 0x2afa758, size 0x10, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
-
-  /// @brief Method ToString, addr 0x2afa768, size 0xa0, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  static inline ::UnityEngine::InputSystem::Processors::ScaleVector2Processor* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2afa808, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bdf8dc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScaleVector2Processor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScaleVector2Processor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScaleVector2Processor(ScaleVector2Processor&&) = delete;
@@ -65,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScaleVector2Processor(ScaleVector2Processor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScaleVector2Processor();
-
-public:
   /// @brief Field x, offset: 0x10, size: 0x4, def value: None
   float_t ___x;
 

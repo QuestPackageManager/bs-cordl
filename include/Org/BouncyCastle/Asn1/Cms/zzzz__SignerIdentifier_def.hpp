@@ -32,24 +32,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(95))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::SignerIdentifier*
 class CORDL_TYPE SignerIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field id, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::Org::BouncyCastle::Asn1::Asn1Encodable* id;
-
   __declspec(property(get = get_IsTagged)) bool IsTagged;
 
   __declspec(property(get = get_ID))::Org::BouncyCastle::Asn1::Asn1Encodable* _cordl_ID;
 
+  /// @brief Field id, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::Org::BouncyCastle::Asn1::Asn1Encodable* id;
+
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+  /// @brief Method GetInstance, addr 0xef1748, size 0x230, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* GetInstance(::System::Object* o);
+
+  static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
+
+  static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
+
+  static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
+
+  /// @brief Method ToAsn1Object, addr 0xef1a7c, size 0x20, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_id();
 
@@ -57,33 +64,30 @@ public:
 
   constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
-
-  /// @brief Method .ctor, addr 0xeaa6a4, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
-
-  static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
-
-  /// @brief Method .ctor, addr 0xeaa6cc, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
-
-  static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
-
-  /// @brief Method .ctor, addr 0xeaa750, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xef1720, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
-  /// @brief Method GetInstance, addr 0xeaa778, size 0x230, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* GetInstance(::System::Object* o);
+  /// @brief Method .ctor, addr 0xef169c, size 0x84, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
-  /// @brief Method get_IsTagged, addr 0xeaa9a8, size 0x7c, virtual false, abstract: false, final false
-  inline bool get_IsTagged();
+  /// @brief Method .ctor, addr 0xef1674, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
-  /// @brief Method get_ID, addr 0xeaaa24, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_ID, addr 0xef19f4, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_ID();
 
-  /// @brief Method ToAsn1Object, addr 0xeaaaac, size 0x20, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_IsTagged, addr 0xef1978, size 0x7c, virtual false, abstract: false, final false
+  inline bool get_IsTagged();
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignerIdentifier();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignerIdentifier", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignerIdentifier(SignerIdentifier&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignerIdentifier(SignerIdentifier const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignerIdentifier();
-
-public:
   /// @brief Field id, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Encodable* ___id;
 

@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::Zenject::AnimatorIkHandlerManager);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10442))
 // CS Name: ::Zenject::AnimatorIkHandlerManager*
 class CORDL_TYPE AnimatorIkHandlerManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -36,29 +34,35 @@ public:
   /// @brief Field _handlers, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__handlers, put = __cordl_internal_set__handlers))::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* _handlers;
 
+  /// @brief Method Construct, addr 0x301d92c, size 0x8, virtual false, abstract: false, final false
+  inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers);
+
+  static inline ::Zenject::AnimatorIkHandlerManager* New_ctor();
+
+  /// @brief Method OnAnimatorIk, addr 0x301d934, size 0x1b0, virtual false, abstract: false, final false
+  inline void OnAnimatorIk();
+
   constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*& __cordl_internal_get__handlers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*> const& __cordl_internal_get__handlers() const;
 
   constexpr void __cordl_internal_set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* value);
 
-  /// @brief Method Construct, addr 0x2f2a204, size 0x8, virtual false, abstract: false, final false
-  inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers);
-
-  /// @brief Method OnAnimatorIk, addr 0x2f2a20c, size 0x1b0, virtual false, abstract: false, final false
-  inline void OnAnimatorIk();
-
-  static inline ::Zenject::AnimatorIkHandlerManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2f2a3bc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method __zenInjectMethod0, addr 0x2f2a3c4, size 0xdc, virtual false, abstract: false, final false
-  static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f2a4a0, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x301dbc8, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method __zenInjectMethod0, addr 0x301daec, size 0xdc, virtual false, abstract: false, final false
+  static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
+
+  /// @brief Method .ctor, addr 0x301dae4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimatorIkHandlerManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimatorIkHandlerManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimatorIkHandlerManager(AnimatorIkHandlerManager&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimatorIkHandlerManager(AnimatorIkHandlerManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimatorIkHandlerManager();
-
-public:
   /// @brief Field _handlers, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* ____handlers;
 

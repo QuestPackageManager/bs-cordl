@@ -18,17 +18,15 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15159))
 // CS Name: ::ISortedListItemProcessor`1<T>*
 class CORDL_TYPE ISortedListItemProcessor_1 {
 public:
   // Declarations
-  /// @brief Method ProcessInsertedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<T>* insertedNode);
-
   /// @brief Method ProcessBeforeDeleteData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<T>* nodeToDelete);
+
+  /// @brief Method ProcessInsertedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<T>* insertedNode);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISortedListItemProcessor_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

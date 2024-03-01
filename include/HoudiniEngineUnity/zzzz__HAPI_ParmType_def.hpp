@@ -15,8 +15,6 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9488))
 // CS Name: ::HoudiniEngineUnity::HAPI_ParmType
 struct CORDL_TYPE HAPI_ParmType {
 public:
@@ -64,51 +62,44 @@ public:
     return static_cast<__HAPI_ParmType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_ParmType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__HAPI_ParmType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_ParmType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_ParmType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field HAPI_PARMTYPE_INT value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT;
-
-  /// @brief Field HAPI_PARMTYPE_MULTIPARMLIST value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_MULTIPARMLIST;
-
-  /// @brief Field HAPI_PARMTYPE_TOGGLE value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_TOGGLE;
 
   /// @brief Field HAPI_PARMTYPE_BUTTON value: static_cast<int32_t>(0x3)
   static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_BUTTON;
 
-  /// @brief Field HAPI_PARMTYPE_FLOAT value: static_cast<int32_t>(0x4)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT;
-
   /// @brief Field HAPI_PARMTYPE_COLOR value: static_cast<int32_t>(0x5)
   static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_COLOR;
 
-  /// @brief Field HAPI_PARMTYPE_STRING value: static_cast<int32_t>(0x6)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING;
+  /// @brief Field HAPI_PARMTYPE_CONTAINER_END value: static_cast<int32_t>(0xc)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_CONTAINER_END;
 
-  /// @brief Field HAPI_PARMTYPE_PATH_FILE value: static_cast<int32_t>(0x7)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE;
+  /// @brief Field HAPI_PARMTYPE_CONTAINER_START value: static_cast<int32_t>(0xb)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_CONTAINER_START;
 
-  /// @brief Field HAPI_PARMTYPE_PATH_FILE_GEO value: static_cast<int32_t>(0x8)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_GEO;
+  /// @brief Field HAPI_PARMTYPE_FLOAT value: static_cast<int32_t>(0x4)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT;
 
-  /// @brief Field HAPI_PARMTYPE_PATH_FILE_IMAGE value: static_cast<int32_t>(0x9)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_IMAGE;
+  /// @brief Field HAPI_PARMTYPE_FLOAT_END value: static_cast<int32_t>(0x5)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT_END;
 
-  /// @brief Field HAPI_PARMTYPE_NODE value: static_cast<int32_t>(0xa)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE;
+  /// @brief Field HAPI_PARMTYPE_FLOAT_START value: static_cast<int32_t>(0x4)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT_START;
+
+  /// @brief Field HAPI_PARMTYPE_FOLDER value: static_cast<int32_t>(0xd)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FOLDER;
 
   /// @brief Field HAPI_PARMTYPE_FOLDERLIST value: static_cast<int32_t>(0xb)
   static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FOLDERLIST;
@@ -116,62 +107,74 @@ public:
   /// @brief Field HAPI_PARMTYPE_FOLDERLIST_RADIO value: static_cast<int32_t>(0xc)
   static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FOLDERLIST_RADIO;
 
-  /// @brief Field HAPI_PARMTYPE_FOLDER value: static_cast<int32_t>(0xd)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FOLDER;
-
-  /// @brief Field HAPI_PARMTYPE_LABEL value: static_cast<int32_t>(0xe)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_LABEL;
-
-  /// @brief Field HAPI_PARMTYPE_SEPARATOR value: static_cast<int32_t>(0xf)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_SEPARATOR;
-
-  /// @brief Field HAPI_PARMTYPE_PATH_FILE_DIR value: static_cast<int32_t>(0x10)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_DIR;
-
-  /// @brief Field HAPI_PARMTYPE_MAX value: static_cast<int32_t>(0x11)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_MAX;
-
-  /// @brief Field HAPI_PARMTYPE_INT_START value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT_START;
+  /// @brief Field HAPI_PARMTYPE_INT value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT;
 
   /// @brief Field HAPI_PARMTYPE_INT_END value: static_cast<int32_t>(0x3)
   static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT_END;
 
-  /// @brief Field HAPI_PARMTYPE_FLOAT_START value: static_cast<int32_t>(0x4)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT_START;
+  /// @brief Field HAPI_PARMTYPE_INT_START value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_INT_START;
 
-  /// @brief Field HAPI_PARMTYPE_FLOAT_END value: static_cast<int32_t>(0x5)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_FLOAT_END;
+  /// @brief Field HAPI_PARMTYPE_LABEL value: static_cast<int32_t>(0xe)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_LABEL;
 
-  /// @brief Field HAPI_PARMTYPE_STRING_START value: static_cast<int32_t>(0x6)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING_START;
+  /// @brief Field HAPI_PARMTYPE_MAX value: static_cast<int32_t>(0x11)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_MAX;
 
-  /// @brief Field HAPI_PARMTYPE_STRING_END value: static_cast<int32_t>(0xa)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING_END;
+  /// @brief Field HAPI_PARMTYPE_MULTIPARMLIST value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_MULTIPARMLIST;
 
-  /// @brief Field HAPI_PARMTYPE_PATH_START value: static_cast<int32_t>(0x7)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_START;
-
-  /// @brief Field HAPI_PARMTYPE_PATH_END value: static_cast<int32_t>(0x9)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_END;
-
-  /// @brief Field HAPI_PARMTYPE_NODE_START value: static_cast<int32_t>(0xa)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE_START;
+  /// @brief Field HAPI_PARMTYPE_NODE value: static_cast<int32_t>(0xa)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE;
 
   /// @brief Field HAPI_PARMTYPE_NODE_END value: static_cast<int32_t>(0xa)
   static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE_END;
 
-  /// @brief Field HAPI_PARMTYPE_CONTAINER_START value: static_cast<int32_t>(0xb)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_CONTAINER_START;
+  /// @brief Field HAPI_PARMTYPE_NODE_START value: static_cast<int32_t>(0xa)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NODE_START;
 
-  /// @brief Field HAPI_PARMTYPE_CONTAINER_END value: static_cast<int32_t>(0xc)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_CONTAINER_END;
+  /// @brief Field HAPI_PARMTYPE_NONVALUE_END value: static_cast<int32_t>(0xf)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NONVALUE_END;
 
   /// @brief Field HAPI_PARMTYPE_NONVALUE_START value: static_cast<int32_t>(0xd)
   static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NONVALUE_START;
 
-  /// @brief Field HAPI_PARMTYPE_NONVALUE_END value: static_cast<int32_t>(0xf)
-  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_NONVALUE_END;
+  /// @brief Field HAPI_PARMTYPE_PATH_END value: static_cast<int32_t>(0x9)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_END;
+
+  /// @brief Field HAPI_PARMTYPE_PATH_FILE value: static_cast<int32_t>(0x7)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE;
+
+  /// @brief Field HAPI_PARMTYPE_PATH_FILE_DIR value: static_cast<int32_t>(0x10)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_DIR;
+
+  /// @brief Field HAPI_PARMTYPE_PATH_FILE_GEO value: static_cast<int32_t>(0x8)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_GEO;
+
+  /// @brief Field HAPI_PARMTYPE_PATH_FILE_IMAGE value: static_cast<int32_t>(0x9)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_FILE_IMAGE;
+
+  /// @brief Field HAPI_PARMTYPE_PATH_START value: static_cast<int32_t>(0x7)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_PATH_START;
+
+  /// @brief Field HAPI_PARMTYPE_SEPARATOR value: static_cast<int32_t>(0xf)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_SEPARATOR;
+
+  /// @brief Field HAPI_PARMTYPE_STRING value: static_cast<int32_t>(0x6)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING;
+
+  /// @brief Field HAPI_PARMTYPE_STRING_END value: static_cast<int32_t>(0xa)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING_END;
+
+  /// @brief Field HAPI_PARMTYPE_STRING_START value: static_cast<int32_t>(0x6)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_STRING_START;
+
+  /// @brief Field HAPI_PARMTYPE_TOGGLE value: static_cast<int32_t>(0x2)
+  static ::HoudiniEngineUnity::HAPI_ParmType const HAPI_PARMTYPE_TOGGLE;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroCountdownTextController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4553))
 // CS Name: ::MultiplayerIntroCountdownTextController*
 class CORDL_TYPE MultiplayerIntroCountdownTextController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -29,44 +27,50 @@ public:
   /// @brief Field _texts, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__texts, put = __cordl_internal_set__texts))::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> _texts;
 
-  __declspec(property(put = set_hide)) bool hide;
+  __declspec(property(get = get_alpha, put = set_alpha)) float_t alpha;
 
   __declspec(property(get = get_fontSize, put = set_fontSize)) float_t fontSize;
 
-  __declspec(property(get = get_alpha, put = set_alpha)) float_t alpha;
-
-  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*>& __cordl_internal_get__texts();
-
-  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> const& __cordl_internal_get__texts() const;
-
-  constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> value);
-
-  /// @brief Method SetText, addr 0x23ae060, size 0x70, virtual false, abstract: false, final false
-  inline void SetText(::StringW text);
-
-  /// @brief Method SetDistances, addr 0x23ada44, size 0x88, virtual false, abstract: false, final false
-  inline void SetDistances(float_t distance);
-
-  /// @brief Method set_hide, addr 0x23acfdc, size 0x2c, virtual false, abstract: false, final false
-  inline void set_hide(bool value);
-
-  /// @brief Method set_fontSize, addr 0x23ad8c0, size 0x70, virtual false, abstract: false, final false
-  inline void set_fontSize(float_t value);
-
-  /// @brief Method get_fontSize, addr 0x23ad008, size 0x38, virtual false, abstract: false, final false
-  inline float_t get_fontSize();
-
-  /// @brief Method set_alpha, addr 0x23ad948, size 0x84, virtual false, abstract: false, final false
-  inline void set_alpha(float_t value);
-
-  /// @brief Method get_alpha, addr 0x23ad040, size 0x40, virtual false, abstract: false, final false
-  inline float_t get_alpha();
+  __declspec(property(put = set_hide)) bool hide;
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdownTextController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23ae120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDistances, addr 0x247b98c, size 0x88, virtual false, abstract: false, final false
+  inline void SetDistances(float_t distance);
+
+  /// @brief Method SetText, addr 0x247bfa8, size 0x70, virtual false, abstract: false, final false
+  inline void SetText(::StringW text);
+
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> const& __cordl_internal_get__texts() const;
+
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*>& __cordl_internal_get__texts();
+
+  constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> value);
+
+  /// @brief Method .ctor, addr 0x247c068, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_alpha, addr 0x247af88, size 0x40, virtual false, abstract: false, final false
+  inline float_t get_alpha();
+
+  /// @brief Method get_fontSize, addr 0x247af50, size 0x38, virtual false, abstract: false, final false
+  inline float_t get_fontSize();
+
+  /// @brief Method set_alpha, addr 0x247b890, size 0x84, virtual false, abstract: false, final false
+  inline void set_alpha(float_t value);
+
+  /// @brief Method set_fontSize, addr 0x247b808, size 0x70, virtual false, abstract: false, final false
+  inline void set_fontSize(float_t value);
+
+  /// @brief Method set_hide, addr 0x247af24, size 0x2c, virtual false, abstract: false, final false
+  inline void set_hide(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerIntroCountdownTextController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdownTextController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerIntroCountdownTextController(MultiplayerIntroCountdownTextController&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerIntroCountdownTextController(MultiplayerIntroCountdownTextController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerIntroCountdownTextController();
-
-public:
   /// @brief Field _texts, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> ____texts;
 

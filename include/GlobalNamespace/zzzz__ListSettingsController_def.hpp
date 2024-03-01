@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ListSettingsController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16287))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16289))
 // CS Name: ::ListSettingsController*
 class CORDL_TYPE ListSettingsController : public ::GlobalNamespace::IncDecSettingsController {
 public:
@@ -29,47 +27,53 @@ public:
   /// @brief Field _numberOfElements, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
 
-  constexpr int32_t& __cordl_internal_get__idx();
+  /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ApplyValue(int32_t idx);
 
-  constexpr int32_t const& __cordl_internal_get__idx() const;
-
-  constexpr void __cordl_internal_set__idx(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__numberOfElements();
-
-  constexpr int32_t const& __cordl_internal_get__numberOfElements() const;
-
-  constexpr void __cordl_internal_set__numberOfElements(int32_t value);
+  /// @brief Method DecButtonPressed, addr 0x24d2ce8, size 0x38, virtual true, abstract: false, final false
+  inline void DecButtonPressed();
 
   /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ApplyValue(int32_t idx);
+  /// @brief Method IncButtonPressed, addr 0x24d2ca8, size 0x40, virtual true, abstract: false, final false
+  inline void IncButtonPressed();
+
+  static inline ::GlobalNamespace::ListSettingsController* New_ctor();
+
+  /// @brief Method OnEnable, addr 0x24d2bc4, size 0x34, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method Refresh, addr 0x24d2c4c, size 0x5c, virtual false, abstract: false, final false
+  inline void Refresh(bool applyValue);
+
+  /// @brief Method RefreshUI, addr 0x24d2bf8, size 0x54, virtual false, abstract: false, final false
+  inline void RefreshUI();
 
   /// @brief Method TextForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW TextForValue(int32_t idx);
 
-  /// @brief Method OnEnable, addr 0x2404ecc, size 0x34, virtual false, abstract: false, final false
-  inline void OnEnable();
+  constexpr int32_t const& __cordl_internal_get__idx() const;
 
-  /// @brief Method RefreshUI, addr 0x2404f00, size 0x54, virtual false, abstract: false, final false
-  inline void RefreshUI();
+  constexpr int32_t& __cordl_internal_get__idx();
 
-  /// @brief Method Refresh, addr 0x2404f54, size 0x5c, virtual false, abstract: false, final false
-  inline void Refresh(bool applyValue);
+  constexpr int32_t const& __cordl_internal_get__numberOfElements() const;
 
-  /// @brief Method IncButtonPressed, addr 0x2404fb0, size 0x40, virtual true, abstract: false, final false
-  inline void IncButtonPressed();
+  constexpr int32_t& __cordl_internal_get__numberOfElements();
 
-  /// @brief Method DecButtonPressed, addr 0x2404ff0, size 0x38, virtual true, abstract: false, final false
-  inline void DecButtonPressed();
+  constexpr void __cordl_internal_set__idx(int32_t value);
 
-  static inline ::GlobalNamespace::ListSettingsController* New_ctor();
+  constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2405028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d2d20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ListSettingsController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ListSettingsController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ListSettingsController(ListSettingsController&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ListSettingsController(ListSettingsController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ListSettingsController();
-
-public:
   /// @brief Field _idx, offset: 0x20, size: 0x4, def value: None
   int32_t ____idx;
 

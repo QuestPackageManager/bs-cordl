@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarSyncMessageCounter::*)(::System::TimeSpan)>(
     &::GlobalNamespace::AvatarSyncMessageCounter::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x265a58c;
+  constexpr static std::size_t addrs = 0x2729cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarSyncMessageCounter::*)()>(
     &::GlobalNamespace::AvatarSyncMessageCounter::MessageReceived)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x265a61c;
+  constexpr static std::size_t addrs = 0x2729d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::AvatarSyncMessageCounter::*)()>(
     &::GlobalNamespace::AvatarSyncMessageCounter::CurrentMessages)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x265a7e0;
+  constexpr static std::size_t addrs = 0x2729f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarSyncMessageCounter::*)()>(
     &::GlobalNamespace::AvatarSyncMessageCounter::CleanOldMessages)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x265a6a8;
+  constexpr static std::size_t addrs = 0x2729df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(),

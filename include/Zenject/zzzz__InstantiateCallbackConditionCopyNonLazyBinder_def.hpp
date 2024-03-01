@@ -43,8 +43,6 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10065))
 // CS Name: ::InstantiateCallbackConditionCopyNonLazyBinder::<>c__DisplayClass2_0`1<T>*
 class CORDL_TYPE __InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1 : public ::System::Object {
 public:
@@ -52,19 +50,16 @@ public:
   /// @brief Field callback, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_2<::Zenject::InjectContext*, T>* callback;
 
+  static inline ::Zenject::__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1<T>* New_ctor();
+
+  /// @brief Method <OnInstantiated>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _OnInstantiated_b__0(::Zenject::InjectContext* ctx, ::System::Object* obj);
+
   constexpr ::System::Action_2<::Zenject::InjectContext*, T>*& __cordl_internal_get_callback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::InjectContext*, T>*> const& __cordl_internal_get_callback() const;
 
   constexpr void __cordl_internal_set_callback(::System::Action_2<::Zenject::InjectContext*, T>* value);
-
-  static inline ::Zenject::__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method <OnInstantiated>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _OnInstantiated_b__0(::Zenject::InjectContext* ctx, ::System::Object* obj);
 
   /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
@@ -72,6 +67,15 @@ public:
   /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1(__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1(__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1();
-
-public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<::Zenject::InjectContext*, T>* ___callback;
 
@@ -97,8 +95,6 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9823))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10066))
 // CS Name: ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*
 class CORDL_TYPE InstantiateCallbackConditionCopyNonLazyBinder : public ::Zenject::ConditionCopyNonLazyBinder {
 public:
@@ -107,15 +103,21 @@ public:
 
   static inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x2ef7338, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::BindInfo* bindInfo);
-
-  /// @brief Method OnInstantiated, addr 0x2ef7340, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnInstantiated, addr 0x2feaa68, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* OnInstantiated(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* callback);
 
   /// @brief Method OnInstantiated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::ConditionCopyNonLazyBinder* OnInstantiated(::System::Action_2<::Zenject::InjectContext*, T>* callback);
 
+  /// @brief Method .ctor, addr 0x2feaa60, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::Zenject::BindInfo* bindInfo);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InstantiateCallbackConditionCopyNonLazyBinder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InstantiateCallbackConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InstantiateCallbackConditionCopyNonLazyBinder(InstantiateCallbackConditionCopyNonLazyBinder&&) = delete;
@@ -124,12 +126,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InstantiateCallbackConditionCopyNonLazyBinder(InstantiateCallbackConditionCopyNonLazyBinder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InstantiateCallbackConditionCopyNonLazyBinder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

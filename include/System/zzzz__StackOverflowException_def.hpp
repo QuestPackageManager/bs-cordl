@@ -21,27 +21,31 @@ MARK_REF_PTR_T(::System::StackOverflowException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2473))
 // CS Name: ::System::StackOverflowException*
 class CORDL_TYPE StackOverflowException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::StackOverflowException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25e6c58, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::StackOverflowException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::StackOverflowException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25e6cb0, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+  /// @brief Method .ctor, addr 0x26b733c, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline ::System::StackOverflowException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x25e6cd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b73b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x26b7394, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StackOverflowException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StackOverflowException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StackOverflowException(StackOverflowException&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StackOverflowException(StackOverflowException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StackOverflowException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

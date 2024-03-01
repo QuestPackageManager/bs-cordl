@@ -22,51 +22,55 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonMergeSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11870)), TypeDefinitionIndex(TypeDefinitionIndex(11871))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11869))
 // CS Name: ::Newtonsoft.Json.Linq::JsonMergeSettings*
 class CORDL_TYPE JsonMergeSettings : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_MergeArrayHandling, put = set_MergeArrayHandling))::Newtonsoft::Json::Linq::MergeArrayHandling MergeArrayHandling;
+
+  __declspec(property(get = get_MergeNullValueHandling, put = set_MergeNullValueHandling))::Newtonsoft::Json::Linq::MergeNullValueHandling MergeNullValueHandling;
+
   /// @brief Field _mergeArrayHandling, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__mergeArrayHandling, put = __cordl_internal_set__mergeArrayHandling))::Newtonsoft::Json::Linq::MergeArrayHandling _mergeArrayHandling;
 
   /// @brief Field _mergeNullValueHandling, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__mergeNullValueHandling, put = __cordl_internal_set__mergeNullValueHandling))::Newtonsoft::Json::Linq::MergeNullValueHandling _mergeNullValueHandling;
 
-  __declspec(property(get = get_MergeArrayHandling, put = set_MergeArrayHandling))::Newtonsoft::Json::Linq::MergeArrayHandling MergeArrayHandling;
-
-  __declspec(property(get = get_MergeNullValueHandling, put = set_MergeNullValueHandling))::Newtonsoft::Json::Linq::MergeNullValueHandling MergeNullValueHandling;
-
-  constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling& __cordl_internal_get__mergeArrayHandling();
+  static inline ::Newtonsoft::Json::Linq::JsonMergeSettings* New_ctor();
 
   constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling const& __cordl_internal_get__mergeArrayHandling() const;
 
-  constexpr void __cordl_internal_set__mergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value);
-
-  constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling& __cordl_internal_get__mergeNullValueHandling();
+  constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling& __cordl_internal_get__mergeArrayHandling();
 
   constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling const& __cordl_internal_get__mergeNullValueHandling() const;
 
+  constexpr ::Newtonsoft::Json::Linq::MergeNullValueHandling& __cordl_internal_get__mergeNullValueHandling();
+
+  constexpr void __cordl_internal_set__mergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value);
+
   constexpr void __cordl_internal_set__mergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value);
 
-  /// @brief Method get_MergeArrayHandling, addr 0x26b30fc, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Linq::MergeArrayHandling get_MergeArrayHandling();
-
-  /// @brief Method set_MergeArrayHandling, addr 0x26b3104, size 0x64, virtual false, abstract: false, final false
-  inline void set_MergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value);
-
-  /// @brief Method get_MergeNullValueHandling, addr 0x26b3168, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Linq::MergeNullValueHandling get_MergeNullValueHandling();
-
-  /// @brief Method set_MergeNullValueHandling, addr 0x26b3170, size 0x64, virtual false, abstract: false, final false
-  inline void set_MergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value);
-
-  static inline ::Newtonsoft::Json::Linq::JsonMergeSettings* New_ctor();
-
-  /// @brief Method .ctor, addr 0x26b31d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2781920, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_MergeArrayHandling, addr 0x2781848, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Linq::MergeArrayHandling get_MergeArrayHandling();
+
+  /// @brief Method get_MergeNullValueHandling, addr 0x27818b4, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Linq::MergeNullValueHandling get_MergeNullValueHandling();
+
+  /// @brief Method set_MergeArrayHandling, addr 0x2781850, size 0x64, virtual false, abstract: false, final false
+  inline void set_MergeArrayHandling(::Newtonsoft::Json::Linq::MergeArrayHandling value);
+
+  /// @brief Method set_MergeNullValueHandling, addr 0x27818bc, size 0x64, virtual false, abstract: false, final false
+  inline void set_MergeNullValueHandling(::Newtonsoft::Json::Linq::MergeNullValueHandling value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonMergeSettings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonMergeSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonMergeSettings(JsonMergeSettings&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonMergeSettings(JsonMergeSettings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonMergeSettings();
-
-public:
   /// @brief Field _mergeArrayHandling, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::Linq::MergeArrayHandling ____mergeArrayHandling;
 

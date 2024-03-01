@@ -24,16 +24,27 @@ MARK_REF_PTR_T(::System::ArgumentOutOfRangeException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2346))
 // CS Name: ::System::ArgumentOutOfRangeException*
 class CORDL_TYPE ArgumentOutOfRangeException : public ::System::ArgumentException {
 public:
   // Declarations
+  __declspec(property(get = get_Message))::StringW Message;
+
   /// @brief Field _actualValue, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__actualValue, put = __cordl_internal_set__actualValue))::System::Object* _actualValue;
 
-  __declspec(property(get = get_Message))::StringW Message;
+  /// @brief Method GetObjectData, addr 0x2610ba0, size 0xd8, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::ArgumentOutOfRangeException* New_ctor();
+
+  static inline ::System::ArgumentOutOfRangeException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::ArgumentOutOfRangeException* New_ctor(::StringW paramName);
+
+  static inline ::System::ArgumentOutOfRangeException* New_ctor(::StringW paramName, ::System::Object* actualValue, ::StringW message);
+
+  static inline ::System::ArgumentOutOfRangeException* New_ctor(::StringW paramName, ::StringW message);
 
   constexpr ::System::Object*& __cordl_internal_get__actualValue();
 
@@ -41,37 +52,30 @@ public:
 
   constexpr void __cordl_internal_set__actualValue(::System::Object* value);
 
-  static inline ::System::ArgumentOutOfRangeException* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2542610, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2610a00, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::ArgumentOutOfRangeException* New_ctor(::StringW paramName);
-
-  /// @brief Method .ctor, addr 0x254266c, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW paramName);
-
-  static inline ::System::ArgumentOutOfRangeException* New_ctor(::StringW paramName, ::StringW message);
-
-  /// @brief Method .ctor, addr 0x253e1f4, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::StringW paramName, ::StringW message);
-
-  static inline ::System::ArgumentOutOfRangeException* New_ctor(::StringW paramName, ::System::Object* actualValue, ::StringW message);
-
-  /// @brief Method .ctor, addr 0x253f314, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW paramName, ::System::Object* actualValue, ::StringW message);
-
-  static inline ::System::ArgumentOutOfRangeException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x25426d8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2610ac8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData, addr 0x25427b0, size 0xd8, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  /// @brief Method .ctor, addr 0x2610a5c, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW paramName);
 
-  /// @brief Method get_Message, addr 0x2542888, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260d704, size 0x3c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW paramName, ::System::Object* actualValue, ::StringW message);
+
+  /// @brief Method .ctor, addr 0x260c5e4, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::StringW paramName, ::StringW message);
+
+  /// @brief Method get_Message, addr 0x2610c78, size 0xac, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ArgumentOutOfRangeException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ArgumentOutOfRangeException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ArgumentOutOfRangeException(ArgumentOutOfRangeException&&) = delete;
@@ -80,12 +84,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ArgumentOutOfRangeException(ArgumentOutOfRangeException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ArgumentOutOfRangeException();
-
-public:
   /// @brief Field _actualValue, offset: 0x98, size: 0x8, def value: None
   ::System::Object* ____actualValue;
 

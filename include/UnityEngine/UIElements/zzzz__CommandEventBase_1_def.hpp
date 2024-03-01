@@ -23,34 +23,23 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6439)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6439), inst: 1019 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6488))
 // CS Name: ::UnityEngine.UIElements::CommandEventBase`1<T>*
 class CORDL_TYPE CommandEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
+  __declspec(property(get = get_commandName, put = set_commandName))::StringW commandName;
+
   /// @brief Field m_CommandName, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CommandName, put = __cordl_internal_set_m_CommandName))::StringW m_CommandName;
-
-  __declspec(property(get = get_commandName, put = set_commandName))::StringW commandName;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::ICommandEvent"
   constexpr operator ::UnityEngine::UIElements::ICommandEvent*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::UIElements::ICommandEvent"
-  constexpr ::UnityEngine::UIElements::ICommandEvent* i___UnityEngine__UIElements__ICommandEvent() noexcept;
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline T GetPooled(::StringW commandName);
 
-  constexpr ::StringW& __cordl_internal_get_m_CommandName();
-
-  constexpr ::StringW const& __cordl_internal_get_m_CommandName() const;
-
-  constexpr void __cordl_internal_set_m_CommandName(::StringW value);
-
-  /// @brief Method get_commandName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::StringW get_commandName();
-
-  /// @brief Method set_commandName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_commandName(::StringW value);
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline T GetPooled(::UnityEngine::Event* systemEvent);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
@@ -58,17 +47,32 @@ public:
   /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline T GetPooled(::UnityEngine::Event* systemEvent);
-
-  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline T GetPooled(::StringW commandName);
-
   static inline ::UnityEngine::UIElements::CommandEventBase_1<T>* New_ctor();
+
+  constexpr ::StringW const& __cordl_internal_get_m_CommandName() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_CommandName();
+
+  constexpr void __cordl_internal_set_m_CommandName(::StringW value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_commandName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::StringW get_commandName();
+
+  /// @brief Convert to "::UnityEngine::UIElements::ICommandEvent"
+  constexpr ::UnityEngine::UIElements::ICommandEvent* i___UnityEngine__UIElements__ICommandEvent() noexcept;
+
+  /// @brief Method set_commandName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_commandName(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CommandEventBase_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CommandEventBase_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CommandEventBase_1(CommandEventBase_1&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CommandEventBase_1(CommandEventBase_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CommandEventBase_1();
-
-public:
   /// @brief Field m_CommandName, offset: 0x80, size: 0x8, def value: None
   ::StringW ___m_CommandName;
 

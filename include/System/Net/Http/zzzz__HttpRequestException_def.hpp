@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::System::Net::Http::HttpRequestException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14658))
 // CS Name: ::System.Net.Http::HttpRequestException*
 class CORDL_TYPE HttpRequestException : public ::System::Exception {
 public:
   // Declarations
   static inline ::System::Net::Http::HttpRequestException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28380b0, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::Net::Http::HttpRequestException* New_ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x2837308, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
 
   static inline ::System::Net::Http::HttpRequestException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x2834cb8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291d52c, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x291c784, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x291a134, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpRequestException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpRequestException(HttpRequestException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpRequestException(HttpRequestException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpRequestException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,8 +15,6 @@ MARK_VAL_T(::System::UInt16Enum);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2598))
 // CS Name: ::System::UInt16Enum
 struct CORDL_TYPE UInt16Enum {
 public:
@@ -31,12 +29,17 @@ public:
     return static_cast<__UInt16Enum_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
-  constexpr UInt16Enum(uint16_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint16_t() const noexcept {
+    return static_cast<__UInt16Enum_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr UInt16Enum();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
+  constexpr UInt16Enum(uint16_t value__) noexcept;
 
   /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
   uint16_t value__;

@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGener
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(666))
 // CS Name: ::Org.BouncyCastle.Cms::DefaultAuthenticatedAttributeTableGenerator*
 class CORDL_TYPE DefaultAuthenticatedAttributeTableGenerator : public ::System::Object {
 public:
@@ -35,8 +33,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
-  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* i___Org__BouncyCastle__Cms__CmsAttributeTableGenerator() noexcept;
+  /// @brief Method CreateStandardAttributeTable, addr 0x12711e0, size 0x528, virtual true, abstract: false, final false
+  inline ::System::Collections::IDictionary* CreateStandardAttributeTable(::System::Collections::IDictionary* parameters);
+
+  /// @brief Method GetAttributes, addr 0x1271708, size 0x8c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
+
+  static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor();
+
+  static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_table();
 
@@ -44,22 +49,21 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x122d128, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12710f8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
-
-  /// @brief Method .ctor, addr 0x122d190, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1271160, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
-  /// @brief Method CreateStandardAttributeTable, addr 0x122d210, size 0x528, virtual true, abstract: false, final false
-  inline ::System::Collections::IDictionary* CreateStandardAttributeTable(::System::Collections::IDictionary* parameters);
+  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
+  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* i___Org__BouncyCastle__Cms__CmsAttributeTableGenerator() noexcept;
 
-  /// @brief Method GetAttributes, addr 0x122d738, size 0x8c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultAuthenticatedAttributeTableGenerator();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultAuthenticatedAttributeTableGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultAuthenticatedAttributeTableGenerator(DefaultAuthenticatedAttributeTableGenerator&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultAuthenticatedAttributeTableGenerator(DefaultAuthenticatedAttributeTableGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultAuthenticatedAttributeTableGenerator();
-
-public:
   /// @brief Field table, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___table;
 

@@ -22,37 +22,35 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8652)), TypeDefinitionIndex(TypeDefinitionIndex(8653))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8587))
 // CS Name: ::OVR.OpenVR::VROverlayIntersectionMaskPrimitive_Data_t
 struct CORDL_TYPE VROverlayIntersectionMaskPrimitive_Data_t {
 public:
   // Declarations
-  /// @brief Field m_Rectangle, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Rectangle, put = __cordl_internal_set_m_Rectangle))::OVR::OpenVR::IntersectionMaskRectangle_t m_Rectangle;
-
   /// @brief Field m_Circle, offset 0x0, size 0xc
   __declspec(property(get = __cordl_internal_get_m_Circle, put = __cordl_internal_set_m_Circle))::OVR::OpenVR::IntersectionMaskCircle_t m_Circle;
 
-  constexpr ::OVR::OpenVR::IntersectionMaskRectangle_t& __cordl_internal_get_m_Rectangle();
-
-  constexpr ::OVR::OpenVR::IntersectionMaskRectangle_t const& __cordl_internal_get_m_Rectangle() const;
-
-  constexpr void __cordl_internal_set_m_Rectangle(::OVR::OpenVR::IntersectionMaskRectangle_t value);
-
-  constexpr ::OVR::OpenVR::IntersectionMaskCircle_t& __cordl_internal_get_m_Circle();
+  /// @brief Field m_Rectangle, offset 0x0, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_Rectangle, put = __cordl_internal_set_m_Rectangle))::OVR::OpenVR::IntersectionMaskRectangle_t m_Rectangle;
 
   constexpr ::OVR::OpenVR::IntersectionMaskCircle_t const& __cordl_internal_get_m_Circle() const;
 
+  constexpr ::OVR::OpenVR::IntersectionMaskCircle_t& __cordl_internal_get_m_Circle();
+
+  constexpr ::OVR::OpenVR::IntersectionMaskRectangle_t const& __cordl_internal_get_m_Rectangle() const;
+
+  constexpr ::OVR::OpenVR::IntersectionMaskRectangle_t& __cordl_internal_get_m_Rectangle();
+
   constexpr void __cordl_internal_set_m_Circle(::OVR::OpenVR::IntersectionMaskCircle_t value);
 
-  // Ctor Parameters [CppParam { name: "m_Rectangle", ty: "::OVR::OpenVR::IntersectionMaskRectangle_t", modifiers: "", def_value: None }, CppParam { name: "m_Circle", ty:
-  // "::OVR::OpenVR::IntersectionMaskCircle_t", modifiers: "", def_value: None }]
-  constexpr VROverlayIntersectionMaskPrimitive_Data_t(::OVR::OpenVR::IntersectionMaskRectangle_t m_Rectangle, ::OVR::OpenVR::IntersectionMaskCircle_t m_Circle) noexcept;
+  constexpr void __cordl_internal_set_m_Rectangle(::OVR::OpenVR::IntersectionMaskRectangle_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr VROverlayIntersectionMaskPrimitive_Data_t();
+
+  // Ctor Parameters [CppParam { name: "m_Rectangle", ty: "::OVR::OpenVR::IntersectionMaskRectangle_t", modifiers: "", def_value: None }, CppParam { name: "m_Circle", ty:
+  // "::OVR::OpenVR::IntersectionMaskCircle_t", modifiers: "", def_value: None }]
+  constexpr VROverlayIntersectionMaskPrimitive_Data_t(::OVR::OpenVR::IntersectionMaskRectangle_t m_Rectangle, ::OVR::OpenVR::IntersectionMaskCircle_t m_Circle) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

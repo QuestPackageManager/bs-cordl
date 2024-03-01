@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::Net::HttpListenerBasicIdentity);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2994))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7182))
 // CS Name: ::System.Net::HttpListenerBasicIdentity*
 class CORDL_TYPE HttpListenerBasicIdentity : public ::System::Security::Principal::GenericIdentity {
 public:
@@ -24,17 +22,23 @@ public:
   /// @brief Field password, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::StringW password;
 
-  constexpr ::StringW& __cordl_internal_get_password();
+  static inline ::System::Net::HttpListenerBasicIdentity* New_ctor(::StringW username, ::StringW password);
 
   constexpr ::StringW const& __cordl_internal_get_password() const;
 
+  constexpr ::StringW& __cordl_internal_get_password();
+
   constexpr void __cordl_internal_set_password(::StringW value);
 
-  static inline ::System::Net::HttpListenerBasicIdentity* New_ctor(::StringW username, ::StringW password);
-
-  /// @brief Method .ctor, addr 0x29ccf7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ab5050, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW username, ::StringW password);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpListenerBasicIdentity();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerBasicIdentity", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpListenerBasicIdentity(HttpListenerBasicIdentity&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpListenerBasicIdentity(HttpListenerBasicIdentity const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpListenerBasicIdentity();
-
-public:
   /// @brief Field password, offset: 0x88, size: 0x8, def value: None
   ::StringW ___password;
 

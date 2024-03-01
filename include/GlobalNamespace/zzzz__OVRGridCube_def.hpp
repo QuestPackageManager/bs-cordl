@@ -24,14 +24,12 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGridCube);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8790)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8069))
 // CS Name: ::OVRGridCube*
 class CORDL_TYPE OVRGridCube : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field GridKey, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_GridKey, put = __cordl_internal_set_GridKey))::UnityEngine::KeyCode GridKey;
+  /// @brief Field CameraController, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_CameraController, put = __cordl_internal_set_CameraController))::UnityW<::GlobalNamespace::OVRCameraRig> CameraController;
 
   /// @brief Field CubeGrid, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_CubeGrid, put = __cordl_internal_set_CubeGrid))::UnityW<::UnityEngine::GameObject> CubeGrid;
@@ -39,11 +37,20 @@ public:
   /// @brief Field CubeGridOn, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_CubeGridOn, put = __cordl_internal_set_CubeGridOn)) bool CubeGridOn;
 
+  /// @brief Field CubeSwitchColor, offset 0x2a, size 0x1
+  __declspec(property(get = __cordl_internal_get_CubeSwitchColor, put = __cordl_internal_set_CubeSwitchColor)) bool CubeSwitchColor;
+
   /// @brief Field CubeSwitchColorOld, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get_CubeSwitchColorOld, put = __cordl_internal_set_CubeSwitchColorOld)) bool CubeSwitchColorOld;
 
-  /// @brief Field CubeSwitchColor, offset 0x2a, size 0x1
-  __declspec(property(get = __cordl_internal_get_CubeSwitchColor, put = __cordl_internal_set_CubeSwitchColor)) bool CubeSwitchColor;
+  /// @brief Field GridKey, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_GridKey, put = __cordl_internal_set_GridKey))::UnityEngine::KeyCode GridKey;
+
+  /// @brief Field cubeScale, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_cubeScale, put = __cordl_internal_set_cubeScale)) float_t cubeScale;
+
+  /// @brief Field gridScale, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_gridScale, put = __cordl_internal_set_gridScale)) float_t gridScale;
 
   /// @brief Field gridSizeX, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_gridSizeX, put = __cordl_internal_set_gridSizeX)) int32_t gridSizeX;
@@ -54,101 +61,98 @@ public:
   /// @brief Field gridSizeZ, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_gridSizeZ, put = __cordl_internal_set_gridSizeZ)) int32_t gridSizeZ;
 
-  /// @brief Field gridScale, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_gridScale, put = __cordl_internal_set_gridScale)) float_t gridScale;
-
-  /// @brief Field cubeScale, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_cubeScale, put = __cordl_internal_set_cubeScale)) float_t cubeScale;
-
-  /// @brief Field CameraController, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_CameraController, put = __cordl_internal_set_CameraController))::UnityW<::GlobalNamespace::OVRCameraRig> CameraController;
-
-  constexpr ::UnityEngine::KeyCode& __cordl_internal_get_GridKey();
-
-  constexpr ::UnityEngine::KeyCode const& __cordl_internal_get_GridKey() const;
-
-  constexpr void __cordl_internal_set_GridKey(::UnityEngine::KeyCode value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_CubeGrid();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_CubeGrid() const;
-
-  constexpr void __cordl_internal_set_CubeGrid(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr bool& __cordl_internal_get_CubeGridOn();
-
-  constexpr bool const& __cordl_internal_get_CubeGridOn() const;
-
-  constexpr void __cordl_internal_set_CubeGridOn(bool value);
-
-  constexpr bool& __cordl_internal_get_CubeSwitchColorOld();
-
-  constexpr bool const& __cordl_internal_get_CubeSwitchColorOld() const;
-
-  constexpr void __cordl_internal_set_CubeSwitchColorOld(bool value);
-
-  constexpr bool& __cordl_internal_get_CubeSwitchColor();
-
-  constexpr bool const& __cordl_internal_get_CubeSwitchColor() const;
-
-  constexpr void __cordl_internal_set_CubeSwitchColor(bool value);
-
-  constexpr int32_t& __cordl_internal_get_gridSizeX();
-
-  constexpr int32_t const& __cordl_internal_get_gridSizeX() const;
-
-  constexpr void __cordl_internal_set_gridSizeX(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_gridSizeY();
-
-  constexpr int32_t const& __cordl_internal_get_gridSizeY() const;
-
-  constexpr void __cordl_internal_set_gridSizeY(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_gridSizeZ();
-
-  constexpr int32_t const& __cordl_internal_get_gridSizeZ() const;
-
-  constexpr void __cordl_internal_set_gridSizeZ(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_gridScale();
-
-  constexpr float_t const& __cordl_internal_get_gridScale() const;
-
-  constexpr void __cordl_internal_set_gridScale(float_t value);
-
-  constexpr float_t& __cordl_internal_get_cubeScale();
-
-  constexpr float_t const& __cordl_internal_get_cubeScale() const;
-
-  constexpr void __cordl_internal_set_cubeScale(float_t value);
-
-  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_CameraController();
-
-  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraController() const;
-
-  constexpr void __cordl_internal_set_CameraController(::UnityW<::GlobalNamespace::OVRCameraRig> value);
-
-  /// @brief Method Update, addr 0x27bee50, size 0x4, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method SetOVRCameraController, addr 0x27bf068, size 0xc, virtual false, abstract: false, final false
-  inline void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
-
-  /// @brief Method UpdateCubeGrid, addr 0x27bee54, size 0x214, virtual false, abstract: false, final false
-  inline void UpdateCubeGrid();
-
-  /// @brief Method CreateCubeGrid, addr 0x27bf074, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method CreateCubeGrid, addr 0x289ff00, size 0x3a8, virtual false, abstract: false, final false
   inline void CreateCubeGrid();
 
-  /// @brief Method CubeGridSwitchColor, addr 0x27bf41c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CubeGridSwitchColor, addr 0x28a02a8, size 0x188, virtual false, abstract: false, final false
   inline void CubeGridSwitchColor(bool CubeSwitchColor);
 
   static inline ::GlobalNamespace::OVRGridCube* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27bf5a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetOVRCameraController, addr 0x289fef4, size 0xc, virtual false, abstract: false, final false
+  inline void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
+
+  /// @brief Method Update, addr 0x289fcd8, size 0x4, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdateCubeGrid, addr 0x289fcdc, size 0x218, virtual false, abstract: false, final false
+  inline void UpdateCubeGrid();
+
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_CameraController();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_CubeGrid() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_CubeGrid();
+
+  constexpr bool const& __cordl_internal_get_CubeGridOn() const;
+
+  constexpr bool& __cordl_internal_get_CubeGridOn();
+
+  constexpr bool const& __cordl_internal_get_CubeSwitchColor() const;
+
+  constexpr bool& __cordl_internal_get_CubeSwitchColor();
+
+  constexpr bool const& __cordl_internal_get_CubeSwitchColorOld() const;
+
+  constexpr bool& __cordl_internal_get_CubeSwitchColorOld();
+
+  constexpr ::UnityEngine::KeyCode const& __cordl_internal_get_GridKey() const;
+
+  constexpr ::UnityEngine::KeyCode& __cordl_internal_get_GridKey();
+
+  constexpr float_t const& __cordl_internal_get_cubeScale() const;
+
+  constexpr float_t& __cordl_internal_get_cubeScale();
+
+  constexpr float_t const& __cordl_internal_get_gridScale() const;
+
+  constexpr float_t& __cordl_internal_get_gridScale();
+
+  constexpr int32_t const& __cordl_internal_get_gridSizeX() const;
+
+  constexpr int32_t& __cordl_internal_get_gridSizeX();
+
+  constexpr int32_t const& __cordl_internal_get_gridSizeY() const;
+
+  constexpr int32_t& __cordl_internal_get_gridSizeY();
+
+  constexpr int32_t const& __cordl_internal_get_gridSizeZ() const;
+
+  constexpr int32_t& __cordl_internal_get_gridSizeZ();
+
+  constexpr void __cordl_internal_set_CameraController(::UnityW<::GlobalNamespace::OVRCameraRig> value);
+
+  constexpr void __cordl_internal_set_CubeGrid(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set_CubeGridOn(bool value);
+
+  constexpr void __cordl_internal_set_CubeSwitchColor(bool value);
+
+  constexpr void __cordl_internal_set_CubeSwitchColorOld(bool value);
+
+  constexpr void __cordl_internal_set_GridKey(::UnityEngine::KeyCode value);
+
+  constexpr void __cordl_internal_set_cubeScale(float_t value);
+
+  constexpr void __cordl_internal_set_gridScale(float_t value);
+
+  constexpr void __cordl_internal_set_gridSizeX(int32_t value);
+
+  constexpr void __cordl_internal_set_gridSizeY(int32_t value);
+
+  constexpr void __cordl_internal_set_gridSizeZ(int32_t value);
+
+  /// @brief Method .ctor, addr 0x28a0430, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRGridCube();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRGridCube", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRGridCube(OVRGridCube&&) = delete;
@@ -157,12 +161,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRGridCube(OVRGridCube const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRGridCube();
-
-public:
   /// @brief Field GridKey, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::KeyCode ___GridKey;
 

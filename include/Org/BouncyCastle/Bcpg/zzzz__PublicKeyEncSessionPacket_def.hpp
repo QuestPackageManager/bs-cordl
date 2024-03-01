@@ -26,17 +26,15 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(580))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(581))
 // CS Name: ::Org.BouncyCastle.Bcpg::PublicKeyEncSessionPacket*
 class CORDL_TYPE PublicKeyEncSessionPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
   // Declarations
-  /// @brief Field version, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
+  __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Algorithm;
 
-  /// @brief Field keyId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyId, put = __cordl_internal_set_keyId)) int64_t keyId;
+  __declspec(property(get = get_KeyId)) int64_t KeyId;
+
+  __declspec(property(get = get_Version)) int32_t Version;
 
   /// @brief Field algorithm, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm;
@@ -44,62 +42,68 @@ public:
   /// @brief Field data, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> data;
 
-  __declspec(property(get = get_Version)) int32_t Version;
+  /// @brief Field keyId, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_keyId, put = __cordl_internal_set_keyId)) int64_t keyId;
 
-  __declspec(property(get = get_KeyId)) int64_t KeyId;
+  /// @brief Field version, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Algorithm;
+  /// @brief Method Encode, addr 0x12431e0, size 0x188, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  constexpr int32_t& __cordl_internal_get_version();
-
-  constexpr int32_t const& __cordl_internal_get_version() const;
-
-  constexpr void __cordl_internal_set_version(int32_t value);
-
-  constexpr int64_t& __cordl_internal_get_keyId();
-
-  constexpr int64_t const& __cordl_internal_get_keyId() const;
-
-  constexpr void __cordl_internal_set_keyId(int64_t value);
-
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_algorithm();
-
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_algorithm() const;
-
-  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
-
-  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& __cordl_internal_get_data();
-
-  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get_data() const;
-
-  constexpr void __cordl_internal_set_data(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
+  /// @brief Method GetEncSessionKey, addr 0x12431d8, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> GetEncSessionKey();
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
-
-  /// @brief Method .ctor, addr 0x11fb178, size 0x364, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* New_ctor(int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm,
                                                                                ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> data);
 
-  /// @brief Method .ctor, addr 0x12000ac, size 0x144, virtual false, abstract: false, final false
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_algorithm() const;
+
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_algorithm();
+
+  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get_data() const;
+
+  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& __cordl_internal_get_data();
+
+  constexpr int64_t const& __cordl_internal_get_keyId() const;
+
+  constexpr int64_t& __cordl_internal_get_keyId();
+
+  constexpr int32_t const& __cordl_internal_get_version() const;
+
+  constexpr int32_t& __cordl_internal_get_version();
+
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
+
+  constexpr void __cordl_internal_set_data(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
+
+  constexpr void __cordl_internal_set_keyId(int64_t value);
+
+  constexpr void __cordl_internal_set_version(int32_t value);
+
+  /// @brief Method .ctor, addr 0x123e148, size 0x364, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+
+  /// @brief Method .ctor, addr 0x124307c, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> data);
 
-  /// @brief Method get_Version, addr 0x12001f0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Version();
-
-  /// @brief Method get_KeyId, addr 0x12001f8, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_KeyId();
-
-  /// @brief Method get_Algorithm, addr 0x1200200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x12431d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method GetEncSessionKey, addr 0x1200208, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> GetEncSessionKey();
+  /// @brief Method get_KeyId, addr 0x12431c8, size 0x8, virtual false, abstract: false, final false
+  inline int64_t get_KeyId();
 
-  /// @brief Method Encode, addr 0x1200210, size 0x188, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
+  /// @brief Method get_Version, addr 0x12431c0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Version();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PublicKeyEncSessionPacket();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PublicKeyEncSessionPacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PublicKeyEncSessionPacket(PublicKeyEncSessionPacket&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PublicKeyEncSessionPacket(PublicKeyEncSessionPacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PublicKeyEncSessionPacket();
-
-public:
   /// @brief Field version, offset: 0x10, size: 0x4, def value: None
   int32_t ___version;
 

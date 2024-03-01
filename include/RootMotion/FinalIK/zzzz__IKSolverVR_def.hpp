@@ -126,8 +126,6 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolverVR__VirtualBone);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12481))
 // CS Name: ::IKSolverVR::Arm::ShoulderRotationMode
 struct CORDL_TYPE __IKSolverVR__Arm__ShoulderRotationMode {
 public:
@@ -145,24 +143,29 @@ public:
     return static_cast<____IKSolverVR__Arm__ShoulderRotationMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __IKSolverVR__Arm__ShoulderRotationMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____IKSolverVR__Arm__ShoulderRotationMode_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __IKSolverVR__Arm__ShoulderRotationMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __IKSolverVR__Arm__ShoulderRotationMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field FromTo value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode const FromTo;
 
   /// @brief Field YawPitch value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode const YawPitch;
 
-  /// @brief Field FromTo value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode const FromTo;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -176,24 +179,30 @@ static_assert(offsetof(::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMod
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12483))
 // CS Name: ::IKSolverVR::BodyPart*
 class CORDL_TYPE __IKSolverVR__BodyPart : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <sqrMag>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__sqrMag_k__BackingField, put = __cordl_internal_set__sqrMag_k__BackingField)) float_t _sqrMag_k__BackingField;
+  /// @brief Field LOD, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_LOD, put = __cordl_internal_set_LOD)) int32_t LOD;
 
   /// @brief Field <mag>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__mag_k__BackingField, put = __cordl_internal_set__mag_k__BackingField)) float_t _mag_k__BackingField;
+
+  /// @brief Field <sqrMag>k__BackingField, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__sqrMag_k__BackingField, put = __cordl_internal_set__sqrMag_k__BackingField)) float_t _sqrMag_k__BackingField;
 
   /// @brief Field bones, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_bones,
                       put = __cordl_internal_set_bones))::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones;
 
+  /// @brief Field index, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
+
   /// @brief Field initiated, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
+
+  __declspec(property(get = get_mag, put = set_mag)) float_t mag;
 
   /// @brief Field rootPosition, offset 0x24, size 0xc
   __declspec(property(get = __cordl_internal_get_rootPosition, put = __cordl_internal_set_rootPosition))::UnityEngine::Vector3 rootPosition;
@@ -201,63 +210,18 @@ public:
   /// @brief Field rootRotation, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get_rootRotation, put = __cordl_internal_set_rootRotation))::UnityEngine::Quaternion rootRotation;
 
-  /// @brief Field index, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
-
-  /// @brief Field LOD, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_LOD, put = __cordl_internal_set_LOD)) int32_t LOD;
-
   __declspec(property(get = get_sqrMag, put = set_sqrMag)) float_t sqrMag;
 
-  __declspec(property(get = get_mag, put = set_mag)) float_t mag;
+  /// @brief Method ApplyOffsets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ApplyOffsets();
 
-  constexpr float_t& __cordl_internal_get__sqrMag_k__BackingField();
+  /// @brief Method MovePosition, addr 0x1355390, size 0x88, virtual false, abstract: false, final false
+  inline void MovePosition(::UnityEngine::Vector3 position);
 
-  constexpr float_t const& __cordl_internal_get__sqrMag_k__BackingField() const;
+  /// @brief Method MoveRotation, addr 0x1355418, size 0x98, virtual false, abstract: false, final false
+  inline void MoveRotation(::UnityEngine::Quaternion rotation);
 
-  constexpr void __cordl_internal_set__sqrMag_k__BackingField(float_t value);
-
-  constexpr float_t& __cordl_internal_get__mag_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__mag_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__mag_k__BackingField(float_t value);
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*>& __cordl_internal_get_bones();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> const& __cordl_internal_get_bones() const;
-
-  constexpr void __cordl_internal_set_bones(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> value);
-
-  constexpr bool& __cordl_internal_get_initiated();
-
-  constexpr bool const& __cordl_internal_get_initiated() const;
-
-  constexpr void __cordl_internal_set_initiated(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rootPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rootPosition() const;
-
-  constexpr void __cordl_internal_set_rootPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rootRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rootRotation() const;
-
-  constexpr void __cordl_internal_set_rootRotation(::UnityEngine::Quaternion value);
-
-  constexpr int32_t& __cordl_internal_get_index();
-
-  constexpr int32_t const& __cordl_internal_get_index() const;
-
-  constexpr void __cordl_internal_set_index(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_LOD();
-
-  constexpr int32_t const& __cordl_internal_get_LOD() const;
-
-  constexpr void __cordl_internal_set_LOD(int32_t value);
+  static inline ::RootMotion::FinalIK::__IKSolverVR__BodyPart* New_ctor();
 
   /// @brief Method OnRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
@@ -266,61 +230,104 @@ public:
   /// @brief Method PreSolve, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PreSolve();
 
-  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
-                    ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
-
-  /// @brief Method ApplyOffsets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ApplyOffsets();
+  /// @brief Method Read, addr 0x1346788, size 0xc0, virtual false, abstract: false, final false
+  inline void Read(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
+                   bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
 
   /// @brief Method ResetOffsets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetOffsets();
 
-  /// @brief Method get_sqrMag, addr 0x131337c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_sqrMag();
-
-  /// @brief Method set_sqrMag, addr 0x1313384, size 0x8, virtual false, abstract: false, final false
-  inline void set_sqrMag(float_t value);
-
-  /// @brief Method get_mag, addr 0x131338c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_mag();
-
-  /// @brief Method set_mag, addr 0x1313394, size 0x8, virtual false, abstract: false, final false
-  inline void set_mag(float_t value);
-
-  /// @brief Method SetLOD, addr 0x131339c, size 0x8, virtual false, abstract: false, final false
-  inline void SetLOD(int32_t LOD);
-
-  /// @brief Method Read, addr 0x130479c, size 0xc0, virtual false, abstract: false, final false
-  inline void Read(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
-                   bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
-
-  /// @brief Method MovePosition, addr 0x13133a4, size 0x88, virtual false, abstract: false, final false
-  inline void MovePosition(::UnityEngine::Vector3 position);
-
-  /// @brief Method MoveRotation, addr 0x131342c, size 0x98, virtual false, abstract: false, final false
-  inline void MoveRotation(::UnityEngine::Quaternion rotation);
-
-  /// @brief Method Translate, addr 0x13134c4, size 0x48, virtual false, abstract: false, final false
-  inline void Translate(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
-
-  /// @brief Method TranslateRoot, addr 0x130f66c, size 0x128, virtual false, abstract: false, final false
-  inline void TranslateRoot(::UnityEngine::Vector3 newRootPos, ::UnityEngine::Quaternion newRootRot);
-
-  /// @brief Method RotateTo, addr 0x1312e00, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RotateTo, addr 0x1354dec, size 0x168, virtual false, abstract: false, final false
   inline void RotateTo(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone, ::UnityEngine::Quaternion rotation, float_t weight);
 
-  /// @brief Method Visualize, addr 0x131350c, size 0x124, virtual false, abstract: false, final false
-  inline void Visualize(::UnityEngine::Color color);
+  /// @brief Method SetLOD, addr 0x1355388, size 0x8, virtual false, abstract: false, final false
+  inline void SetLOD(int32_t LOD);
 
-  /// @brief Method Visualize, addr 0x1313630, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x13554b0, size 0x48, virtual false, abstract: false, final false
+  inline void Translate(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+
+  /// @brief Method TranslateRoot, addr 0x1351658, size 0x128, virtual false, abstract: false, final false
+  inline void TranslateRoot(::UnityEngine::Vector3 newRootPos, ::UnityEngine::Quaternion newRootRot);
+
+  /// @brief Method Visualize, addr 0x135561c, size 0x14, virtual false, abstract: false, final false
   inline void Visualize();
 
-  static inline ::RootMotion::FinalIK::__IKSolverVR__BodyPart* New_ctor();
+  /// @brief Method Visualize, addr 0x13554f8, size 0x124, virtual false, abstract: false, final false
+  inline void Visualize(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x13132e4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
+                    ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
+
+  constexpr int32_t const& __cordl_internal_get_LOD() const;
+
+  constexpr int32_t& __cordl_internal_get_LOD();
+
+  constexpr float_t const& __cordl_internal_get__mag_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__mag_k__BackingField();
+
+  constexpr float_t const& __cordl_internal_get__sqrMag_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__sqrMag_k__BackingField();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> const& __cordl_internal_get_bones() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*>& __cordl_internal_get_bones();
+
+  constexpr int32_t const& __cordl_internal_get_index() const;
+
+  constexpr int32_t& __cordl_internal_get_index();
+
+  constexpr bool const& __cordl_internal_get_initiated() const;
+
+  constexpr bool& __cordl_internal_get_initiated();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rootPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rootPosition();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rootRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rootRotation();
+
+  constexpr void __cordl_internal_set_LOD(int32_t value);
+
+  constexpr void __cordl_internal_set__mag_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set__sqrMag_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set_bones(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> value);
+
+  constexpr void __cordl_internal_set_index(int32_t value);
+
+  constexpr void __cordl_internal_set_initiated(bool value);
+
+  constexpr void __cordl_internal_set_rootPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_rootRotation(::UnityEngine::Quaternion value);
+
+  /// @brief Method .ctor, addr 0x13552d0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_mag, addr 0x1355378, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_mag();
+
+  /// @brief Method get_sqrMag, addr 0x1355368, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_sqrMag();
+
+  /// @brief Method set_mag, addr 0x1355380, size 0x8, virtual false, abstract: false, final false
+  inline void set_mag(float_t value);
+
+  /// @brief Method set_sqrMag, addr 0x1355370, size 0x8, virtual false, abstract: false, final false
+  inline void set_sqrMag(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IKSolverVR__BodyPart();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__BodyPart", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IKSolverVR__BodyPart(__IKSolverVR__BodyPart&&) = delete;
@@ -329,12 +336,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IKSolverVR__BodyPart(__IKSolverVR__BodyPart const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IKSolverVR__BodyPart();
-
-public:
   /// @brief Field <sqrMag>k__BackingField, offset: 0x10, size: 0x4, def value: None
   float_t ____sqrMag_k__BackingField;
 
@@ -385,24 +386,78 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__BodyPart, ___LOD) ==
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12481)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12483))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12482)) CS Name: ::IKSolverVR::Arm*
+// CS Name: ::IKSolverVR::Arm*
 class CORDL_TYPE __IKSolverVR__Arm : public ::RootMotion::FinalIK::__IKSolverVR__BodyPart {
 public:
   // Declarations
   using ShoulderRotationMode = ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode;
 
-  /// @brief Field target, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
+  /// @brief Field IKPosition, offset 0x98, size 0xc
+  __declspec(property(get = __cordl_internal_get_IKPosition, put = __cordl_internal_set_IKPosition))::UnityEngine::Vector3 IKPosition;
+
+  /// @brief Field IKRotation, offset 0xa4, size 0x10
+  __declspec(property(get = __cordl_internal_get_IKRotation, put = __cordl_internal_set_IKRotation))::UnityEngine::Quaternion IKRotation;
+
+  /// @brief Field <position>k__BackingField, offset 0xcc, size 0xc
+  __declspec(property(get = __cordl_internal_get__position_k__BackingField, put = __cordl_internal_set__position_k__BackingField))::UnityEngine::Vector3 _position_k__BackingField;
+
+  /// @brief Field <rotation>k__BackingField, offset 0xd8, size 0x10
+  __declspec(property(get = __cordl_internal_get__rotation_k__BackingField, put = __cordl_internal_set__rotation_k__BackingField))::UnityEngine::Quaternion _rotation_k__BackingField;
+
+  /// @brief Field armLengthMlp, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get_armLengthMlp, put = __cordl_internal_set_armLengthMlp)) float_t armLengthMlp;
+
+  /// @brief Field bendDirection, offset 0xb4, size 0xc
+  __declspec(property(get = __cordl_internal_get_bendDirection, put = __cordl_internal_set_bendDirection))::UnityEngine::Vector3 bendDirection;
 
   /// @brief Field bendGoal, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_bendGoal, put = __cordl_internal_set_bendGoal))::UnityW<::UnityEngine::Transform> bendGoal;
 
+  /// @brief Field bendGoalWeight, offset 0x6c, size 0x4
+  __declspec(property(get = __cordl_internal_get_bendGoalWeight, put = __cordl_internal_set_bendGoalWeight)) float_t bendGoalWeight;
+
+  /// @brief Field chestForward, offset 0x114, size 0xc
+  __declspec(property(get = __cordl_internal_get_chestForward, put = __cordl_internal_set_chestForward))::UnityEngine::Vector3 chestForward;
+
+  /// @brief Field chestForwardAxis, offset 0xec, size 0xc
+  __declspec(property(get = __cordl_internal_get_chestForwardAxis, put = __cordl_internal_set_chestForwardAxis))::UnityEngine::Vector3 chestForwardAxis;
+
+  /// @brief Field chestRotation, offset 0x104, size 0x10
+  __declspec(property(get = __cordl_internal_get_chestRotation, put = __cordl_internal_set_chestRotation))::UnityEngine::Quaternion chestRotation;
+
+  /// @brief Field chestUp, offset 0x120, size 0xc
+  __declspec(property(get = __cordl_internal_get_chestUp, put = __cordl_internal_set_chestUp))::UnityEngine::Vector3 chestUp;
+
+  /// @brief Field chestUpAxis, offset 0xf8, size 0xc
+  __declspec(property(get = __cordl_internal_get_chestUpAxis, put = __cordl_internal_set_chestUpAxis))::UnityEngine::Vector3 chestUpAxis;
+
+  __declspec(property(get = get_forearm))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* forearm;
+
+  /// @brief Field forearmRelToUpperArm, offset 0x12c, size 0x10
+  __declspec(property(get = __cordl_internal_get_forearmRelToUpperArm, put = __cordl_internal_set_forearmRelToUpperArm))::UnityEngine::Quaternion forearmRelToUpperArm;
+
+  __declspec(property(get = get_hand))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* hand;
+
+  /// @brief Field handPositionOffset, offset 0xc0, size 0xc
+  __declspec(property(get = __cordl_internal_get_handPositionOffset, put = __cordl_internal_set_handPositionOffset))::UnityEngine::Vector3 handPositionOffset;
+
+  /// @brief Field hasShoulder, offset 0xe8, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasShoulder, put = __cordl_internal_set_hasShoulder)) bool hasShoulder;
+
+  /// @brief Field palmToThumbAxis, offset 0x80, size 0xc
+  __declspec(property(get = __cordl_internal_get_palmToThumbAxis, put = __cordl_internal_set_palmToThumbAxis))::UnityEngine::Vector3 palmToThumbAxis;
+
+  __declspec(property(get = get_position, put = set_position))::UnityEngine::Vector3 position;
+
   /// @brief Field positionWeight, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_positionWeight, put = __cordl_internal_set_positionWeight)) float_t positionWeight;
 
+  __declspec(property(get = get_rotation, put = set_rotation))::UnityEngine::Quaternion rotation;
+
   /// @brief Field rotationWeight, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_rotationWeight, put = __cordl_internal_set_rotationWeight)) float_t rotationWeight;
+
+  __declspec(property(get = get_shoulder))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* shoulder;
 
   /// @brief Field shoulderRotationMode, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_shoulderRotationMode, put = __cordl_internal_set_shoulderRotationMode))::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode shoulderRotationMode;
@@ -413,302 +468,253 @@ public:
   /// @brief Field shoulderTwistWeight, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_shoulderTwistWeight, put = __cordl_internal_set_shoulderTwistWeight)) float_t shoulderTwistWeight;
 
-  /// @brief Field bendGoalWeight, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get_bendGoalWeight, put = __cordl_internal_set_bendGoalWeight)) float_t bendGoalWeight;
+  /// @brief Field stretchCurve, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_stretchCurve, put = __cordl_internal_set_stretchCurve))::UnityEngine::AnimationCurve* stretchCurve;
 
   /// @brief Field swivelOffset, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_swivelOffset, put = __cordl_internal_set_swivelOffset)) float_t swivelOffset;
 
-  /// @brief Field wristToPalmAxis, offset 0x74, size 0xc
-  __declspec(property(get = __cordl_internal_get_wristToPalmAxis, put = __cordl_internal_set_wristToPalmAxis))::UnityEngine::Vector3 wristToPalmAxis;
+  /// @brief Field target, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
 
-  /// @brief Field palmToThumbAxis, offset 0x80, size 0xc
-  __declspec(property(get = __cordl_internal_get_palmToThumbAxis, put = __cordl_internal_set_palmToThumbAxis))::UnityEngine::Vector3 palmToThumbAxis;
-
-  /// @brief Field armLengthMlp, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_armLengthMlp, put = __cordl_internal_set_armLengthMlp)) float_t armLengthMlp;
-
-  /// @brief Field stretchCurve, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_stretchCurve, put = __cordl_internal_set_stretchCurve))::UnityEngine::AnimationCurve* stretchCurve;
-
-  /// @brief Field IKPosition, offset 0x98, size 0xc
-  __declspec(property(get = __cordl_internal_get_IKPosition, put = __cordl_internal_set_IKPosition))::UnityEngine::Vector3 IKPosition;
-
-  /// @brief Field IKRotation, offset 0xa4, size 0x10
-  __declspec(property(get = __cordl_internal_get_IKRotation, put = __cordl_internal_set_IKRotation))::UnityEngine::Quaternion IKRotation;
-
-  /// @brief Field bendDirection, offset 0xb4, size 0xc
-  __declspec(property(get = __cordl_internal_get_bendDirection, put = __cordl_internal_set_bendDirection))::UnityEngine::Vector3 bendDirection;
-
-  /// @brief Field handPositionOffset, offset 0xc0, size 0xc
-  __declspec(property(get = __cordl_internal_get_handPositionOffset, put = __cordl_internal_set_handPositionOffset))::UnityEngine::Vector3 handPositionOffset;
-
-  /// @brief Field <position>k__BackingField, offset 0xcc, size 0xc
-  __declspec(property(get = __cordl_internal_get__position_k__BackingField, put = __cordl_internal_set__position_k__BackingField))::UnityEngine::Vector3 _position_k__BackingField;
-
-  /// @brief Field <rotation>k__BackingField, offset 0xd8, size 0x10
-  __declspec(property(get = __cordl_internal_get__rotation_k__BackingField, put = __cordl_internal_set__rotation_k__BackingField))::UnityEngine::Quaternion _rotation_k__BackingField;
-
-  /// @brief Field hasShoulder, offset 0xe8, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasShoulder, put = __cordl_internal_set_hasShoulder)) bool hasShoulder;
-
-  /// @brief Field chestForwardAxis, offset 0xec, size 0xc
-  __declspec(property(get = __cordl_internal_get_chestForwardAxis, put = __cordl_internal_set_chestForwardAxis))::UnityEngine::Vector3 chestForwardAxis;
-
-  /// @brief Field chestUpAxis, offset 0xf8, size 0xc
-  __declspec(property(get = __cordl_internal_get_chestUpAxis, put = __cordl_internal_set_chestUpAxis))::UnityEngine::Vector3 chestUpAxis;
-
-  /// @brief Field chestRotation, offset 0x104, size 0x10
-  __declspec(property(get = __cordl_internal_get_chestRotation, put = __cordl_internal_set_chestRotation))::UnityEngine::Quaternion chestRotation;
-
-  /// @brief Field chestForward, offset 0x114, size 0xc
-  __declspec(property(get = __cordl_internal_get_chestForward, put = __cordl_internal_set_chestForward))::UnityEngine::Vector3 chestForward;
-
-  /// @brief Field chestUp, offset 0x120, size 0xc
-  __declspec(property(get = __cordl_internal_get_chestUp, put = __cordl_internal_set_chestUp))::UnityEngine::Vector3 chestUp;
-
-  /// @brief Field forearmRelToUpperArm, offset 0x12c, size 0x10
-  __declspec(property(get = __cordl_internal_get_forearmRelToUpperArm, put = __cordl_internal_set_forearmRelToUpperArm))::UnityEngine::Quaternion forearmRelToUpperArm;
+  __declspec(property(get = get_upperArm))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* upperArm;
 
   /// @brief Field upperArmBendAxis, offset 0x13c, size 0xc
   __declspec(property(get = __cordl_internal_get_upperArmBendAxis, put = __cordl_internal_set_upperArmBendAxis))::UnityEngine::Vector3 upperArmBendAxis;
 
-  __declspec(property(get = get_position, put = set_position))::UnityEngine::Vector3 position;
+  /// @brief Field wristToPalmAxis, offset 0x74, size 0xc
+  __declspec(property(get = __cordl_internal_get_wristToPalmAxis, put = __cordl_internal_set_wristToPalmAxis))::UnityEngine::Vector3 wristToPalmAxis;
 
-  __declspec(property(get = get_rotation, put = set_rotation))::UnityEngine::Quaternion rotation;
+  /// @brief Method ApplyOffsets, addr 0x13544fc, size 0x24, virtual true, abstract: false, final false
+  inline void ApplyOffsets();
 
-  __declspec(property(get = get_shoulder))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* shoulder;
+  /// @brief Method DamperValue, addr 0x1354870, size 0x80, virtual false, abstract: false, final false
+  inline float_t DamperValue(float_t value, float_t min, float_t max, float_t weight);
 
-  __declspec(property(get = get_upperArm))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* upperArm;
+  /// @brief Method GetBendNormal, addr 0x13548f0, size 0x4fc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetBendNormal(::UnityEngine::Vector3 dir);
 
-  __declspec(property(get = get_forearm))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* forearm;
+  static inline ::RootMotion::FinalIK::__IKSolverVR__Arm* New_ctor();
 
-  __declspec(property(get = get_hand))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* hand;
+  /// @brief Method OnRead, addr 0x1353a0c, size 0x844, virtual true, abstract: false, final false
+  inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
+                     bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
+  /// @brief Method PreSolve, addr 0x1354250, size 0x2ac, virtual true, abstract: false, final false
+  inline void PreSolve();
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
+  /// @brief Method ResetOffsets, addr 0x1354f54, size 0x58, virtual true, abstract: false, final false
+  inline void ResetOffsets();
 
-  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
+  /// @brief Method Solve, addr 0x1351780, size 0x15e4, virtual false, abstract: false, final false
+  inline void Solve(bool isLeft);
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bendGoal();
+  /// @brief Method Stretching, addr 0x1354520, size 0x350, virtual false, abstract: false, final false
+  inline void Stretching();
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bendGoal() const;
+  /// @brief Method Visualize, addr 0x13551b8, size 0x118, virtual false, abstract: false, final false
+  inline void Visualize(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone1, ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone2, ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone3,
+                        ::UnityEngine::Color color);
 
-  constexpr void __cordl_internal_set_bendGoal(::UnityW<::UnityEngine::Transform> value);
+  /// @brief Method Write, addr 0x1354fac, size 0x20c, virtual true, abstract: false, final false
+  inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
+                    ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
 
-  constexpr float_t& __cordl_internal_get_positionWeight();
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_IKPosition() const;
 
-  constexpr float_t const& __cordl_internal_get_positionWeight() const;
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_IKPosition();
 
-  constexpr void __cordl_internal_set_positionWeight(float_t value);
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotation() const;
 
-  constexpr float_t& __cordl_internal_get_rotationWeight();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotation();
 
-  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position_k__BackingField() const;
 
-  constexpr void __cordl_internal_set_rotationWeight(float_t value);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position_k__BackingField();
 
-  constexpr ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode& __cordl_internal_get_shoulderRotationMode();
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rotation_k__BackingField() const;
 
-  constexpr ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode const& __cordl_internal_get_shoulderRotationMode() const;
-
-  constexpr void __cordl_internal_set_shoulderRotationMode(::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode value);
-
-  constexpr float_t& __cordl_internal_get_shoulderRotationWeight();
-
-  constexpr float_t const& __cordl_internal_get_shoulderRotationWeight() const;
-
-  constexpr void __cordl_internal_set_shoulderRotationWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_shoulderTwistWeight();
-
-  constexpr float_t const& __cordl_internal_get_shoulderTwistWeight() const;
-
-  constexpr void __cordl_internal_set_shoulderTwistWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_bendGoalWeight();
-
-  constexpr float_t const& __cordl_internal_get_bendGoalWeight() const;
-
-  constexpr void __cordl_internal_set_bendGoalWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_swivelOffset();
-
-  constexpr float_t const& __cordl_internal_get_swivelOffset() const;
-
-  constexpr void __cordl_internal_set_swivelOffset(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_wristToPalmAxis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_wristToPalmAxis() const;
-
-  constexpr void __cordl_internal_set_wristToPalmAxis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_palmToThumbAxis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_palmToThumbAxis() const;
-
-  constexpr void __cordl_internal_set_palmToThumbAxis(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get_armLengthMlp();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__rotation_k__BackingField();
 
   constexpr float_t const& __cordl_internal_get_armLengthMlp() const;
 
-  constexpr void __cordl_internal_set_armLengthMlp(float_t value);
+  constexpr float_t& __cordl_internal_get_armLengthMlp();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendDirection() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendDirection();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bendGoal() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bendGoal();
+
+  constexpr float_t const& __cordl_internal_get_bendGoalWeight() const;
+
+  constexpr float_t& __cordl_internal_get_bendGoalWeight();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestForward() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestForward();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestForwardAxis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestForwardAxis();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_chestRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_chestRotation();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestUp() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestUp();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestUpAxis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestUpAxis();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_forearmRelToUpperArm() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_forearmRelToUpperArm();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_handPositionOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_handPositionOffset();
+
+  constexpr bool const& __cordl_internal_get_hasShoulder() const;
+
+  constexpr bool& __cordl_internal_get_hasShoulder();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_palmToThumbAxis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_palmToThumbAxis();
+
+  constexpr float_t const& __cordl_internal_get_positionWeight() const;
+
+  constexpr float_t& __cordl_internal_get_positionWeight();
+
+  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
+
+  constexpr float_t& __cordl_internal_get_rotationWeight();
+
+  constexpr ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode const& __cordl_internal_get_shoulderRotationMode() const;
+
+  constexpr ::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode& __cordl_internal_get_shoulderRotationMode();
+
+  constexpr float_t const& __cordl_internal_get_shoulderRotationWeight() const;
+
+  constexpr float_t& __cordl_internal_get_shoulderRotationWeight();
+
+  constexpr float_t const& __cordl_internal_get_shoulderTwistWeight() const;
+
+  constexpr float_t& __cordl_internal_get_shoulderTwistWeight();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_stretchCurve();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_stretchCurve() const;
 
-  constexpr void __cordl_internal_set_stretchCurve(::UnityEngine::AnimationCurve* value);
+  constexpr float_t const& __cordl_internal_get_swivelOffset() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_IKPosition();
+  constexpr float_t& __cordl_internal_get_swivelOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_IKPosition() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
 
-  constexpr void __cordl_internal_set_IKPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotation() const;
-
-  constexpr void __cordl_internal_set_IKRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendDirection();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendDirection() const;
-
-  constexpr void __cordl_internal_set_bendDirection(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_handPositionOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_handPositionOffset() const;
-
-  constexpr void __cordl_internal_set_handPositionOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position_k__BackingField();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__position_k__BackingField(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__rotation_k__BackingField();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rotation_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__rotation_k__BackingField(::UnityEngine::Quaternion value);
-
-  constexpr bool& __cordl_internal_get_hasShoulder();
-
-  constexpr bool const& __cordl_internal_get_hasShoulder() const;
-
-  constexpr void __cordl_internal_set_hasShoulder(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestForwardAxis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestForwardAxis() const;
-
-  constexpr void __cordl_internal_set_chestForwardAxis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestUpAxis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestUpAxis() const;
-
-  constexpr void __cordl_internal_set_chestUpAxis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_chestRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_chestRotation() const;
-
-  constexpr void __cordl_internal_set_chestRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestForward();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestForward() const;
-
-  constexpr void __cordl_internal_set_chestForward(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestUp();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestUp() const;
-
-  constexpr void __cordl_internal_set_chestUp(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_forearmRelToUpperArm();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_forearmRelToUpperArm() const;
-
-  constexpr void __cordl_internal_set_forearmRelToUpperArm(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_upperArmBendAxis();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_upperArmBendAxis() const;
 
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_upperArmBendAxis();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_wristToPalmAxis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_wristToPalmAxis();
+
+  constexpr void __cordl_internal_set_IKPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_IKRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set__position_k__BackingField(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__rotation_k__BackingField(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_armLengthMlp(float_t value);
+
+  constexpr void __cordl_internal_set_bendDirection(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_bendGoal(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_bendGoalWeight(float_t value);
+
+  constexpr void __cordl_internal_set_chestForward(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_chestForwardAxis(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_chestRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_chestUp(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_chestUpAxis(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_forearmRelToUpperArm(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_handPositionOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_hasShoulder(bool value);
+
+  constexpr void __cordl_internal_set_palmToThumbAxis(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_positionWeight(float_t value);
+
+  constexpr void __cordl_internal_set_rotationWeight(float_t value);
+
+  constexpr void __cordl_internal_set_shoulderRotationMode(::GlobalNamespace::__IKSolverVR__Arm__ShoulderRotationMode value);
+
+  constexpr void __cordl_internal_set_shoulderRotationWeight(float_t value);
+
+  constexpr void __cordl_internal_set_shoulderTwistWeight(float_t value);
+
+  constexpr void __cordl_internal_set_stretchCurve(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_swivelOffset(float_t value);
+
+  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
+
   constexpr void __cordl_internal_set_upperArmBendAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_position, addr 0x1311914, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_position();
+  constexpr void __cordl_internal_set_wristToPalmAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_position, addr 0x1311920, size 0xc, virtual false, abstract: false, final false
-  inline void set_position(::UnityEngine::Vector3 value);
-
-  /// @brief Method get_rotation, addr 0x131192c, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_rotation();
-
-  /// @brief Method set_rotation, addr 0x1311938, size 0xc, virtual false, abstract: false, final false
-  inline void set_rotation(::UnityEngine::Quaternion value);
-
-  /// @brief Method get_shoulder, addr 0x1311944, size 0x28, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_shoulder();
-
-  /// @brief Method get_upperArm, addr 0x131196c, size 0x34, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_upperArm();
-
-  /// @brief Method get_forearm, addr 0x13119a0, size 0x40, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_forearm();
-
-  /// @brief Method get_hand, addr 0x13119e0, size 0x40, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_hand();
-
-  /// @brief Method OnRead, addr 0x1311a20, size 0x844, virtual true, abstract: false, final false
-  inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
-                     bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
-
-  /// @brief Method PreSolve, addr 0x1312264, size 0x2ac, virtual true, abstract: false, final false
-  inline void PreSolve();
-
-  /// @brief Method ApplyOffsets, addr 0x1312510, size 0x24, virtual true, abstract: false, final false
-  inline void ApplyOffsets();
-
-  /// @brief Method Stretching, addr 0x1312534, size 0x350, virtual false, abstract: false, final false
-  inline void Stretching();
-
-  /// @brief Method Solve, addr 0x130f794, size 0x15e4, virtual false, abstract: false, final false
-  inline void Solve(bool isLeft);
-
-  /// @brief Method ResetOffsets, addr 0x1312f68, size 0x58, virtual true, abstract: false, final false
-  inline void ResetOffsets();
-
-  /// @brief Method Write, addr 0x1312fc0, size 0x20c, virtual true, abstract: false, final false
-  inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
-                    ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
-
-  /// @brief Method DamperValue, addr 0x1312884, size 0x80, virtual false, abstract: false, final false
-  inline float_t DamperValue(float_t value, float_t min, float_t max, float_t weight);
-
-  /// @brief Method GetBendNormal, addr 0x1312904, size 0x4fc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetBendNormal(::UnityEngine::Vector3 dir);
-
-  /// @brief Method Visualize, addr 0x13131cc, size 0x118, virtual false, abstract: false, final false
-  inline void Visualize(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone1, ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone2, ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* bone3,
-                        ::UnityEngine::Color color);
-
-  static inline ::RootMotion::FinalIK::__IKSolverVR__Arm* New_ctor();
-
-  /// @brief Method .ctor, addr 0x131169c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1353688, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_forearm, addr 0x135398c, size 0x40, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_forearm();
+
+  /// @brief Method get_hand, addr 0x13539cc, size 0x40, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_hand();
+
+  /// @brief Method get_position, addr 0x1353900, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_position();
+
+  /// @brief Method get_rotation, addr 0x1353918, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_rotation();
+
+  /// @brief Method get_shoulder, addr 0x1353930, size 0x28, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_shoulder();
+
+  /// @brief Method get_upperArm, addr 0x1353958, size 0x34, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_upperArm();
+
+  /// @brief Method set_position, addr 0x135390c, size 0xc, virtual false, abstract: false, final false
+  inline void set_position(::UnityEngine::Vector3 value);
+
+  /// @brief Method set_rotation, addr 0x1353924, size 0xc, virtual false, abstract: false, final false
+  inline void set_rotation(::UnityEngine::Quaternion value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IKSolverVR__Arm();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__Arm", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IKSolverVR__Arm(__IKSolverVR__Arm&&) = delete;
@@ -717,12 +723,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IKSolverVR__Arm(__IKSolverVR__Arm const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IKSolverVR__Arm();
-
-public:
   /// @brief Field target, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___target;
 
@@ -804,11 +804,11 @@ public:
   /// @brief Field upperArmBendAxis, offset: 0x13c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___upperArmBendAxis;
 
-  /// @brief Field yawOffsetAngle offset 0xffffffff size 0x4
-  static constexpr float_t yawOffsetAngle{ 45.0 };
-
   /// @brief Field pitchOffsetAngle offset 0xffffffff size 0x4
   static constexpr float_t pitchOffsetAngle{ -30.0 };
+
+  /// @brief Field yawOffsetAngle offset 0xffffffff size 0x4
+  static constexpr float_t yawOffsetAngle{ 45.0 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -874,17 +874,23 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Arm, ___upperArmBend
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12484))
 // CS Name: ::IKSolverVR::Footstep*
 class CORDL_TYPE __IKSolverVR__Footstep : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field stepSpeed, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_stepSpeed, put = __cordl_internal_set_stepSpeed)) float_t stepSpeed;
+  /// @brief Field <stepProgress>k__BackingField, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get__stepProgress_k__BackingField, put = __cordl_internal_set__stepProgress_k__BackingField)) float_t _stepProgress_k__BackingField;
 
   /// @brief Field characterSpaceOffset, offset 0x14, size 0xc
   __declspec(property(get = __cordl_internal_get_characterSpaceOffset, put = __cordl_internal_set_characterSpaceOffset))::UnityEngine::Vector3 characterSpaceOffset;
+
+  /// @brief Field footRelativeToRoot, offset 0x8c, size 0x10
+  __declspec(property(get = __cordl_internal_get_footRelativeToRoot, put = __cordl_internal_set_footRelativeToRoot))::UnityEngine::Quaternion footRelativeToRoot;
+
+  __declspec(property(get = get_isStepping)) bool isStepping;
+
+  /// @brief Field isSupportLeg, offset 0x4c, size 0x1
+  __declspec(property(get = __cordl_internal_get_isSupportLeg, put = __cordl_internal_set_isSupportLeg)) bool isSupportLeg;
 
   /// @brief Field position, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
@@ -892,29 +898,25 @@ public:
   /// @brief Field rotation, offset 0x2c, size 0x10
   __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation))::UnityEngine::Quaternion rotation;
 
-  /// @brief Field stepToRootRot, offset 0x3c, size 0x10
-  __declspec(property(get = __cordl_internal_get_stepToRootRot, put = __cordl_internal_set_stepToRootRot))::UnityEngine::Quaternion stepToRootRot;
-
-  /// @brief Field isSupportLeg, offset 0x4c, size 0x1
-  __declspec(property(get = __cordl_internal_get_isSupportLeg, put = __cordl_internal_set_isSupportLeg)) bool isSupportLeg;
-
-  /// @brief Field <stepProgress>k__BackingField, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__stepProgress_k__BackingField, put = __cordl_internal_set__stepProgress_k__BackingField)) float_t _stepProgress_k__BackingField;
-
   /// @brief Field stepFrom, offset 0x54, size 0xc
   __declspec(property(get = __cordl_internal_get_stepFrom, put = __cordl_internal_set_stepFrom))::UnityEngine::Vector3 stepFrom;
-
-  /// @brief Field stepTo, offset 0x60, size 0xc
-  __declspec(property(get = __cordl_internal_get_stepTo, put = __cordl_internal_set_stepTo))::UnityEngine::Vector3 stepTo;
 
   /// @brief Field stepFromRot, offset 0x6c, size 0x10
   __declspec(property(get = __cordl_internal_get_stepFromRot, put = __cordl_internal_set_stepFromRot))::UnityEngine::Quaternion stepFromRot;
 
+  __declspec(property(get = get_stepProgress, put = set_stepProgress)) float_t stepProgress;
+
+  /// @brief Field stepSpeed, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_stepSpeed, put = __cordl_internal_set_stepSpeed)) float_t stepSpeed;
+
+  /// @brief Field stepTo, offset 0x60, size 0xc
+  __declspec(property(get = __cordl_internal_get_stepTo, put = __cordl_internal_set_stepTo))::UnityEngine::Vector3 stepTo;
+
+  /// @brief Field stepToRootRot, offset 0x3c, size 0x10
+  __declspec(property(get = __cordl_internal_get_stepToRootRot, put = __cordl_internal_set_stepToRootRot))::UnityEngine::Quaternion stepToRootRot;
+
   /// @brief Field stepToRot, offset 0x7c, size 0x10
   __declspec(property(get = __cordl_internal_get_stepToRot, put = __cordl_internal_set_stepToRot))::UnityEngine::Quaternion stepToRot;
-
-  /// @brief Field footRelativeToRoot, offset 0x8c, size 0x10
-  __declspec(property(get = __cordl_internal_get_footRelativeToRoot, put = __cordl_internal_set_footRelativeToRoot))::UnityEngine::Quaternion footRelativeToRoot;
 
   /// @brief Field supportLegW, offset 0x9c, size 0x4
   __declspec(property(get = __cordl_internal_get_supportLegW, put = __cordl_internal_set_supportLegW)) float_t supportLegW;
@@ -922,124 +924,126 @@ public:
   /// @brief Field supportLegWV, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get_supportLegWV, put = __cordl_internal_set_supportLegWV)) float_t supportLegWV;
 
-  __declspec(property(get = get_isStepping)) bool isStepping;
-
-  __declspec(property(get = get_stepProgress, put = set_stepProgress)) float_t stepProgress;
-
-  constexpr float_t& __cordl_internal_get_stepSpeed();
-
-  constexpr float_t const& __cordl_internal_get_stepSpeed() const;
-
-  constexpr void __cordl_internal_set_stepSpeed(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_characterSpaceOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_characterSpaceOffset() const;
-
-  constexpr void __cordl_internal_set_characterSpaceOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
-
-  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rotation() const;
-
-  constexpr void __cordl_internal_set_rotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_stepToRootRot();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_stepToRootRot() const;
-
-  constexpr void __cordl_internal_set_stepToRootRot(::UnityEngine::Quaternion value);
-
-  constexpr bool& __cordl_internal_get_isSupportLeg();
-
-  constexpr bool const& __cordl_internal_get_isSupportLeg() const;
-
-  constexpr void __cordl_internal_set_isSupportLeg(bool value);
-
-  constexpr float_t& __cordl_internal_get__stepProgress_k__BackingField();
-
-  constexpr float_t const& __cordl_internal_get__stepProgress_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__stepProgress_k__BackingField(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_stepFrom();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_stepFrom() const;
-
-  constexpr void __cordl_internal_set_stepFrom(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_stepTo();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_stepTo() const;
-
-  constexpr void __cordl_internal_set_stepTo(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_stepFromRot();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_stepFromRot() const;
-
-  constexpr void __cordl_internal_set_stepFromRot(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_stepToRot();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_stepToRot() const;
-
-  constexpr void __cordl_internal_set_stepToRot(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_footRelativeToRoot();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_footRelativeToRoot() const;
-
-  constexpr void __cordl_internal_set_footRelativeToRoot(::UnityEngine::Quaternion value);
-
-  constexpr float_t& __cordl_internal_get_supportLegW();
-
-  constexpr float_t const& __cordl_internal_get_supportLegW() const;
-
-  constexpr void __cordl_internal_set_supportLegW(float_t value);
-
-  constexpr float_t& __cordl_internal_get_supportLegWV();
-
-  constexpr float_t const& __cordl_internal_get_supportLegWV() const;
-
-  constexpr void __cordl_internal_set_supportLegWV(float_t value);
-
-  /// @brief Method get_isStepping, addr 0x1313644, size 0x14, virtual false, abstract: false, final false
-  inline bool get_isStepping();
-
-  /// @brief Method get_stepProgress, addr 0x1313658, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_stepProgress();
-
-  /// @brief Method set_stepProgress, addr 0x1313660, size 0x8, virtual false, abstract: false, final false
-  inline void set_stepProgress(float_t value);
-
   static inline ::RootMotion::FinalIK::__IKSolverVR__Footstep* New_ctor(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation,
                                                                         ::UnityEngine::Vector3 characterSpaceOffset);
 
-  /// @brief Method .ctor, addr 0x1313668, size 0x1c4, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation, ::UnityEngine::Vector3 characterSpaceOffset);
-
-  /// @brief Method Reset, addr 0x131382c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x1355818, size 0x48, virtual false, abstract: false, final false
   inline void Reset(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation);
 
-  /// @brief Method StepTo, addr 0x1313874, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method StepTo, addr 0x1355860, size 0x224, virtual false, abstract: false, final false
   inline void StepTo(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float_t stepThreshold);
 
-  /// @brief Method UpdateStepping, addr 0x1313a98, size 0x208, virtual false, abstract: false, final false
-  inline void UpdateStepping(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float_t speed);
-
-  /// @brief Method UpdateStanding, addr 0x1313ca0, size 0x1e4, virtual false, abstract: false, final false
-  inline void UpdateStanding(::UnityEngine::Quaternion rootRotation, float_t minAngle, float_t speed);
-
-  /// @brief Method Update, addr 0x1313e84, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1355e70, size 0x174, virtual false, abstract: false, final false
   inline void Update(::RootMotion::InterpolationMode interpolation, ::UnityEngine::Events::UnityEvent* onStep);
 
+  /// @brief Method UpdateStanding, addr 0x1355c8c, size 0x1e4, virtual false, abstract: false, final false
+  inline void UpdateStanding(::UnityEngine::Quaternion rootRotation, float_t minAngle, float_t speed);
+
+  /// @brief Method UpdateStepping, addr 0x1355a84, size 0x208, virtual false, abstract: false, final false
+  inline void UpdateStepping(::UnityEngine::Vector3 p, ::UnityEngine::Quaternion rootRotation, float_t speed);
+
+  constexpr float_t const& __cordl_internal_get__stepProgress_k__BackingField() const;
+
+  constexpr float_t& __cordl_internal_get__stepProgress_k__BackingField();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_characterSpaceOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_characterSpaceOffset();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_footRelativeToRoot() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_footRelativeToRoot();
+
+  constexpr bool const& __cordl_internal_get_isSupportLeg() const;
+
+  constexpr bool& __cordl_internal_get_isSupportLeg();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rotation();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_stepFrom() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_stepFrom();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_stepFromRot() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_stepFromRot();
+
+  constexpr float_t const& __cordl_internal_get_stepSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_stepSpeed();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_stepTo() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_stepTo();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_stepToRootRot() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_stepToRootRot();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_stepToRot() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_stepToRot();
+
+  constexpr float_t const& __cordl_internal_get_supportLegW() const;
+
+  constexpr float_t& __cordl_internal_get_supportLegW();
+
+  constexpr float_t const& __cordl_internal_get_supportLegWV() const;
+
+  constexpr float_t& __cordl_internal_get_supportLegWV();
+
+  constexpr void __cordl_internal_set__stepProgress_k__BackingField(float_t value);
+
+  constexpr void __cordl_internal_set_characterSpaceOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_footRelativeToRoot(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_isSupportLeg(bool value);
+
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_rotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_stepFrom(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_stepFromRot(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_stepSpeed(float_t value);
+
+  constexpr void __cordl_internal_set_stepTo(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_stepToRootRot(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_stepToRot(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_supportLegW(float_t value);
+
+  constexpr void __cordl_internal_set_supportLegWV(float_t value);
+
+  /// @brief Method .ctor, addr 0x1355654, size 0x1c4, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Quaternion rootRotation, ::UnityEngine::Vector3 footPosition, ::UnityEngine::Quaternion footRotation, ::UnityEngine::Vector3 characterSpaceOffset);
+
+  /// @brief Method get_isStepping, addr 0x1355630, size 0x14, virtual false, abstract: false, final false
+  inline bool get_isStepping();
+
+  /// @brief Method get_stepProgress, addr 0x1355644, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_stepProgress();
+
+  /// @brief Method set_stepProgress, addr 0x135564c, size 0x8, virtual false, abstract: false, final false
+  inline void set_stepProgress(float_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IKSolverVR__Footstep();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__Footstep", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IKSolverVR__Footstep(__IKSolverVR__Footstep&&) = delete;
@@ -1048,12 +1052,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IKSolverVR__Footstep(__IKSolverVR__Footstep const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IKSolverVR__Footstep();
-
-public:
   /// @brief Field stepSpeed, offset: 0x10, size: 0x4, def value: None
   float_t ___stepSpeed;
 
@@ -1134,59 +1132,18 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Footstep, ___support
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12483))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12485))
 // CS Name: ::IKSolverVR::Leg*
 class CORDL_TYPE __IKSolverVR__Leg : public ::RootMotion::FinalIK::__IKSolverVR__BodyPart {
 public:
   // Declarations
-  /// @brief Field target, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
-
-  /// @brief Field bendGoal, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_bendGoal, put = __cordl_internal_set_bendGoal))::UnityW<::UnityEngine::Transform> bendGoal;
-
-  /// @brief Field positionWeight, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_positionWeight, put = __cordl_internal_set_positionWeight)) float_t positionWeight;
-
-  /// @brief Field rotationWeight, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get_rotationWeight, put = __cordl_internal_set_rotationWeight)) float_t rotationWeight;
-
-  /// @brief Field bendGoalWeight, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_bendGoalWeight, put = __cordl_internal_set_bendGoalWeight)) float_t bendGoalWeight;
-
-  /// @brief Field swivelOffset, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_swivelOffset, put = __cordl_internal_set_swivelOffset)) float_t swivelOffset;
-
-  /// @brief Field bendToTargetWeight, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_bendToTargetWeight, put = __cordl_internal_set_bendToTargetWeight)) float_t bendToTargetWeight;
-
-  /// @brief Field legLengthMlp, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get_legLengthMlp, put = __cordl_internal_set_legLengthMlp)) float_t legLengthMlp;
-
-  /// @brief Field stretchCurve, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_stretchCurve, put = __cordl_internal_set_stretchCurve))::UnityEngine::AnimationCurve* stretchCurve;
-
   /// @brief Field IKPosition, offset 0x78, size 0xc
   __declspec(property(get = __cordl_internal_get_IKPosition, put = __cordl_internal_set_IKPosition))::UnityEngine::Vector3 IKPosition;
 
   /// @brief Field IKRotation, offset 0x84, size 0x10
   __declspec(property(get = __cordl_internal_get_IKRotation, put = __cordl_internal_set_IKRotation))::UnityEngine::Quaternion IKRotation;
 
-  /// @brief Field footPositionOffset, offset 0x94, size 0xc
-  __declspec(property(get = __cordl_internal_get_footPositionOffset, put = __cordl_internal_set_footPositionOffset))::UnityEngine::Vector3 footPositionOffset;
-
-  /// @brief Field heelPositionOffset, offset 0xa0, size 0xc
-  __declspec(property(get = __cordl_internal_get_heelPositionOffset, put = __cordl_internal_set_heelPositionOffset))::UnityEngine::Vector3 heelPositionOffset;
-
-  /// @brief Field footRotationOffset, offset 0xac, size 0x10
-  __declspec(property(get = __cordl_internal_get_footRotationOffset, put = __cordl_internal_set_footRotationOffset))::UnityEngine::Quaternion footRotationOffset;
-
-  /// @brief Field currentMag, offset 0xbc, size 0x4
-  __declspec(property(get = __cordl_internal_get_currentMag, put = __cordl_internal_set_currentMag)) float_t currentMag;
-
-  /// @brief Field useAnimatedBendNormal, offset 0xc0, size 0x1
-  __declspec(property(get = __cordl_internal_get_useAnimatedBendNormal, put = __cordl_internal_set_useAnimatedBendNormal)) bool useAnimatedBendNormal;
+  /// @brief Field <hasToes>k__BackingField, offset 0xe0, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasToes_k__BackingField, put = __cordl_internal_set__hasToes_k__BackingField)) bool _hasToes_k__BackingField;
 
   /// @brief Field <position>k__BackingField, offset 0xc4, size 0xc
   __declspec(property(get = __cordl_internal_get__position_k__BackingField, put = __cordl_internal_set__position_k__BackingField))::UnityEngine::Vector3 _position_k__BackingField;
@@ -1194,27 +1151,18 @@ public:
   /// @brief Field <rotation>k__BackingField, offset 0xd0, size 0x10
   __declspec(property(get = __cordl_internal_get__rotation_k__BackingField, put = __cordl_internal_set__rotation_k__BackingField))::UnityEngine::Quaternion _rotation_k__BackingField;
 
-  /// @brief Field <hasToes>k__BackingField, offset 0xe0, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasToes_k__BackingField, put = __cordl_internal_set__hasToes_k__BackingField)) bool _hasToes_k__BackingField;
-
   /// @brief Field <thighRelativeToPelvis>k__BackingField, offset 0xe4, size 0xc
   __declspec(property(get = __cordl_internal_get__thighRelativeToPelvis_k__BackingField,
                       put = __cordl_internal_set__thighRelativeToPelvis_k__BackingField))::UnityEngine::Vector3 _thighRelativeToPelvis_k__BackingField;
 
-  /// @brief Field footPosition, offset 0xf0, size 0xc
-  __declspec(property(get = __cordl_internal_get_footPosition, put = __cordl_internal_set_footPosition))::UnityEngine::Vector3 footPosition;
+  /// @brief Field bendGoal, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_bendGoal, put = __cordl_internal_set_bendGoal))::UnityW<::UnityEngine::Transform> bendGoal;
 
-  /// @brief Field footRotation, offset 0xfc, size 0x10
-  __declspec(property(get = __cordl_internal_get_footRotation, put = __cordl_internal_set_footRotation))::UnityEngine::Quaternion footRotation;
+  /// @brief Field bendGoalWeight, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get_bendGoalWeight, put = __cordl_internal_set_bendGoalWeight)) float_t bendGoalWeight;
 
   /// @brief Field bendNormal, offset 0x10c, size 0xc
   __declspec(property(get = __cordl_internal_get_bendNormal, put = __cordl_internal_set_bendNormal))::UnityEngine::Vector3 bendNormal;
-
-  /// @brief Field calfRelToThigh, offset 0x118, size 0x10
-  __declspec(property(get = __cordl_internal_get_calfRelToThigh, put = __cordl_internal_set_calfRelToThigh))::UnityEngine::Quaternion calfRelToThigh;
-
-  /// @brief Field thighRelToFoot, offset 0x128, size 0x10
-  __declspec(property(get = __cordl_internal_get_thighRelToFoot, put = __cordl_internal_set_thighRelToFoot))::UnityEngine::Quaternion thighRelToFoot;
 
   /// @brief Field bendNormalRelToPelvis, offset 0x138, size 0xc
   __declspec(property(get = __cordl_internal_get_bendNormalRelToPelvis, put = __cordl_internal_set_bendNormalRelToPelvis))::UnityEngine::Vector3 bendNormalRelToPelvis;
@@ -1222,262 +1170,316 @@ public:
   /// @brief Field bendNormalRelToTarget, offset 0x144, size 0xc
   __declspec(property(get = __cordl_internal_get_bendNormalRelToTarget, put = __cordl_internal_set_bendNormalRelToTarget))::UnityEngine::Vector3 bendNormalRelToTarget;
 
-  __declspec(property(get = get_position, put = set_position))::UnityEngine::Vector3 position;
-
-  __declspec(property(get = get_rotation, put = set_rotation))::UnityEngine::Quaternion rotation;
-
-  __declspec(property(get = get_hasToes, put = set_hasToes)) bool hasToes;
-
-  __declspec(property(get = get_thigh))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* thigh;
+  /// @brief Field bendToTargetWeight, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get_bendToTargetWeight, put = __cordl_internal_set_bendToTargetWeight)) float_t bendToTargetWeight;
 
   __declspec(property(get = get_calf))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* calf;
 
+  /// @brief Field calfRelToThigh, offset 0x118, size 0x10
+  __declspec(property(get = __cordl_internal_get_calfRelToThigh, put = __cordl_internal_set_calfRelToThigh))::UnityEngine::Quaternion calfRelToThigh;
+
+  /// @brief Field currentMag, offset 0xbc, size 0x4
+  __declspec(property(get = __cordl_internal_get_currentMag, put = __cordl_internal_set_currentMag)) float_t currentMag;
+
   __declspec(property(get = get_foot))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* foot;
 
-  __declspec(property(get = get_toes))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* toes;
+  /// @brief Field footPosition, offset 0xf0, size 0xc
+  __declspec(property(get = __cordl_internal_get_footPosition, put = __cordl_internal_set_footPosition))::UnityEngine::Vector3 footPosition;
+
+  /// @brief Field footPositionOffset, offset 0x94, size 0xc
+  __declspec(property(get = __cordl_internal_get_footPositionOffset, put = __cordl_internal_set_footPositionOffset))::UnityEngine::Vector3 footPositionOffset;
+
+  /// @brief Field footRotation, offset 0xfc, size 0x10
+  __declspec(property(get = __cordl_internal_get_footRotation, put = __cordl_internal_set_footRotation))::UnityEngine::Quaternion footRotation;
+
+  /// @brief Field footRotationOffset, offset 0xac, size 0x10
+  __declspec(property(get = __cordl_internal_get_footRotationOffset, put = __cordl_internal_set_footRotationOffset))::UnityEngine::Quaternion footRotationOffset;
+
+  __declspec(property(get = get_hasToes, put = set_hasToes)) bool hasToes;
+
+  /// @brief Field heelPositionOffset, offset 0xa0, size 0xc
+  __declspec(property(get = __cordl_internal_get_heelPositionOffset, put = __cordl_internal_set_heelPositionOffset))::UnityEngine::Vector3 heelPositionOffset;
 
   __declspec(property(get = get_lastBone))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* lastBone;
 
+  /// @brief Field legLengthMlp, offset 0x6c, size 0x4
+  __declspec(property(get = __cordl_internal_get_legLengthMlp, put = __cordl_internal_set_legLengthMlp)) float_t legLengthMlp;
+
+  __declspec(property(get = get_position, put = set_position))::UnityEngine::Vector3 position;
+
+  /// @brief Field positionWeight, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_positionWeight, put = __cordl_internal_set_positionWeight)) float_t positionWeight;
+
+  __declspec(property(get = get_rotation, put = set_rotation))::UnityEngine::Quaternion rotation;
+
+  /// @brief Field rotationWeight, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get_rotationWeight, put = __cordl_internal_set_rotationWeight)) float_t rotationWeight;
+
+  /// @brief Field stretchCurve, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_stretchCurve, put = __cordl_internal_set_stretchCurve))::UnityEngine::AnimationCurve* stretchCurve;
+
+  /// @brief Field swivelOffset, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get_swivelOffset, put = __cordl_internal_set_swivelOffset)) float_t swivelOffset;
+
+  /// @brief Field target, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
+
+  __declspec(property(get = get_thigh))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* thigh;
+
+  /// @brief Field thighRelToFoot, offset 0x128, size 0x10
+  __declspec(property(get = __cordl_internal_get_thighRelToFoot, put = __cordl_internal_set_thighRelToFoot))::UnityEngine::Quaternion thighRelToFoot;
+
   __declspec(property(get = get_thighRelativeToPelvis, put = set_thighRelativeToPelvis))::UnityEngine::Vector3 thighRelativeToPelvis;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
+  __declspec(property(get = get_toes))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* toes;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
+  /// @brief Field useAnimatedBendNormal, offset 0xc0, size 0x1
+  __declspec(property(get = __cordl_internal_get_useAnimatedBendNormal, put = __cordl_internal_set_useAnimatedBendNormal)) bool useAnimatedBendNormal;
 
-  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
+  /// @brief Method ApplyOffsets, addr 0x1356dc4, size 0x4dc, virtual true, abstract: false, final false
+  inline void ApplyOffsets();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bendGoal();
+  /// @brief Method ApplyPositionOffset, addr 0x1356d74, size 0x50, virtual false, abstract: false, final false
+  inline void ApplyPositionOffset(::UnityEngine::Vector3 offset, float_t weight);
+
+  /// @brief Method ApplyRotationOffset, addr 0x1356b28, size 0x24c, virtual false, abstract: false, final false
+  inline void ApplyRotationOffset(::UnityEngine::Quaternion offset, float_t weight);
+
+  /// @brief Method FixTwistRotations, addr 0x135767c, size 0x458, virtual false, abstract: false, final false
+  inline void FixTwistRotations();
+
+  static inline ::RootMotion::FinalIK::__IKSolverVR__Leg* New_ctor();
+
+  /// @brief Method OnRead, addr 0x13560ec, size 0x568, virtual true, abstract: false, final false
+  inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
+                     bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
+
+  /// @brief Method PreSolve, addr 0x1356654, size 0x4d4, virtual true, abstract: false, final false
+  inline void PreSolve();
+
+  /// @brief Method ResetOffsets, addr 0x1357cdc, size 0xe0, virtual true, abstract: false, final false
+  inline void ResetOffsets();
+
+  /// @brief Method Solve, addr 0x13465e0, size 0x1a8, virtual false, abstract: false, final false
+  inline void Solve(bool stretch);
+
+  /// @brief Method Stretching, addr 0x13572a0, size 0x3dc, virtual false, abstract: false, final false
+  inline void Stretching();
+
+  /// @brief Method Write, addr 0x1357ad4, size 0x208, virtual true, abstract: false, final false
+  inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
+                    ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_IKPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_IKPosition();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotation();
+
+  constexpr bool const& __cordl_internal_get__hasToes_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__hasToes_k__BackingField();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position_k__BackingField() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position_k__BackingField();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rotation_k__BackingField() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__rotation_k__BackingField();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__thighRelativeToPelvis_k__BackingField() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__thighRelativeToPelvis_k__BackingField();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bendGoal() const;
 
-  constexpr void __cordl_internal_set_bendGoal(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr float_t& __cordl_internal_get_positionWeight();
-
-  constexpr float_t const& __cordl_internal_get_positionWeight() const;
-
-  constexpr void __cordl_internal_set_positionWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_rotationWeight();
-
-  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
-
-  constexpr void __cordl_internal_set_rotationWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_bendGoalWeight();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bendGoal();
 
   constexpr float_t const& __cordl_internal_get_bendGoalWeight() const;
 
-  constexpr void __cordl_internal_set_bendGoalWeight(float_t value);
+  constexpr float_t& __cordl_internal_get_bendGoalWeight();
 
-  constexpr float_t& __cordl_internal_get_swivelOffset();
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendNormal() const;
 
-  constexpr float_t const& __cordl_internal_get_swivelOffset() const;
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendNormal();
 
-  constexpr void __cordl_internal_set_swivelOffset(float_t value);
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendNormalRelToPelvis() const;
 
-  constexpr float_t& __cordl_internal_get_bendToTargetWeight();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendNormalRelToPelvis();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendNormalRelToTarget() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendNormalRelToTarget();
 
   constexpr float_t const& __cordl_internal_get_bendToTargetWeight() const;
 
-  constexpr void __cordl_internal_set_bendToTargetWeight(float_t value);
+  constexpr float_t& __cordl_internal_get_bendToTargetWeight();
 
-  constexpr float_t& __cordl_internal_get_legLengthMlp();
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_calfRelToThigh() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_calfRelToThigh();
+
+  constexpr float_t const& __cordl_internal_get_currentMag() const;
+
+  constexpr float_t& __cordl_internal_get_currentMag();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_footPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_footPosition();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_footPositionOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_footPositionOffset();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_footRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_footRotation();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_footRotationOffset() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_footRotationOffset();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_heelPositionOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_heelPositionOffset();
 
   constexpr float_t const& __cordl_internal_get_legLengthMlp() const;
 
-  constexpr void __cordl_internal_set_legLengthMlp(float_t value);
+  constexpr float_t& __cordl_internal_get_legLengthMlp();
+
+  constexpr float_t const& __cordl_internal_get_positionWeight() const;
+
+  constexpr float_t& __cordl_internal_get_positionWeight();
+
+  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
+
+  constexpr float_t& __cordl_internal_get_rotationWeight();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_stretchCurve();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_stretchCurve() const;
 
-  constexpr void __cordl_internal_set_stretchCurve(::UnityEngine::AnimationCurve* value);
+  constexpr float_t const& __cordl_internal_get_swivelOffset() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_IKPosition();
+  constexpr float_t& __cordl_internal_get_swivelOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_IKPosition() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
 
-  constexpr void __cordl_internal_set_IKPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotation() const;
-
-  constexpr void __cordl_internal_set_IKRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_footPositionOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_footPositionOffset() const;
-
-  constexpr void __cordl_internal_set_footPositionOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_heelPositionOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_heelPositionOffset() const;
-
-  constexpr void __cordl_internal_set_heelPositionOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_footRotationOffset();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_footRotationOffset() const;
-
-  constexpr void __cordl_internal_set_footRotationOffset(::UnityEngine::Quaternion value);
-
-  constexpr float_t& __cordl_internal_get_currentMag();
-
-  constexpr float_t const& __cordl_internal_get_currentMag() const;
-
-  constexpr void __cordl_internal_set_currentMag(float_t value);
-
-  constexpr bool& __cordl_internal_get_useAnimatedBendNormal();
-
-  constexpr bool const& __cordl_internal_get_useAnimatedBendNormal() const;
-
-  constexpr void __cordl_internal_set_useAnimatedBendNormal(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position_k__BackingField();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__position_k__BackingField(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__rotation_k__BackingField();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rotation_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__rotation_k__BackingField(::UnityEngine::Quaternion value);
-
-  constexpr bool& __cordl_internal_get__hasToes_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__hasToes_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__hasToes_k__BackingField(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__thighRelativeToPelvis_k__BackingField();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__thighRelativeToPelvis_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__thighRelativeToPelvis_k__BackingField(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_footPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_footPosition() const;
-
-  constexpr void __cordl_internal_set_footPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_footRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_footRotation() const;
-
-  constexpr void __cordl_internal_set_footRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendNormal();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendNormal() const;
-
-  constexpr void __cordl_internal_set_bendNormal(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_calfRelToThigh();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_calfRelToThigh() const;
-
-  constexpr void __cordl_internal_set_calfRelToThigh(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_thighRelToFoot();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_thighRelToFoot() const;
 
-  constexpr void __cordl_internal_set_thighRelToFoot(::UnityEngine::Quaternion value);
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_thighRelToFoot();
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendNormalRelToPelvis();
+  constexpr bool const& __cordl_internal_get_useAnimatedBendNormal() const;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendNormalRelToPelvis() const;
+  constexpr bool& __cordl_internal_get_useAnimatedBendNormal();
+
+  constexpr void __cordl_internal_set_IKPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_IKRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set__hasToes_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__position_k__BackingField(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__rotation_k__BackingField(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set__thighRelativeToPelvis_k__BackingField(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_bendGoal(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_bendGoalWeight(float_t value);
+
+  constexpr void __cordl_internal_set_bendNormal(::UnityEngine::Vector3 value);
 
   constexpr void __cordl_internal_set_bendNormalRelToPelvis(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendNormalRelToTarget();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendNormalRelToTarget() const;
-
   constexpr void __cordl_internal_set_bendNormalRelToTarget(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_position, addr 0x1313ff8, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_position();
+  constexpr void __cordl_internal_set_bendToTargetWeight(float_t value);
 
-  /// @brief Method set_position, addr 0x1314004, size 0xc, virtual false, abstract: false, final false
-  inline void set_position(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_calfRelToThigh(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_rotation, addr 0x1314010, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_rotation();
+  constexpr void __cordl_internal_set_currentMag(float_t value);
 
-  /// @brief Method set_rotation, addr 0x131401c, size 0xc, virtual false, abstract: false, final false
-  inline void set_rotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_footPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_hasToes, addr 0x1314028, size 0x8, virtual false, abstract: false, final false
-  inline bool get_hasToes();
+  constexpr void __cordl_internal_set_footPositionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_hasToes, addr 0x1314030, size 0xc, virtual false, abstract: false, final false
-  inline void set_hasToes(bool value);
+  constexpr void __cordl_internal_set_footRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_thigh, addr 0x131403c, size 0x28, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_thigh();
+  constexpr void __cordl_internal_set_footRotationOffset(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_calf, addr 0x1314064, size 0x2c, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_calf();
+  constexpr void __cordl_internal_set_heelPositionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_foot, addr 0x1314090, size 0x2c, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_foot();
+  constexpr void __cordl_internal_set_legLengthMlp(float_t value);
 
-  /// @brief Method get_toes, addr 0x13140bc, size 0x2c, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_toes();
+  constexpr void __cordl_internal_set_positionWeight(float_t value);
 
-  /// @brief Method get_lastBone, addr 0x130f638, size 0x34, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_lastBone();
+  constexpr void __cordl_internal_set_rotationWeight(float_t value);
 
-  /// @brief Method get_thighRelativeToPelvis, addr 0x13140e8, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_thighRelativeToPelvis();
+  constexpr void __cordl_internal_set_stretchCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method set_thighRelativeToPelvis, addr 0x13140f4, size 0xc, virtual false, abstract: false, final false
-  inline void set_thighRelativeToPelvis(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_swivelOffset(float_t value);
 
-  /// @brief Method OnRead, addr 0x1314100, size 0x568, virtual true, abstract: false, final false
-  inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
-                     bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
+  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method PreSolve, addr 0x1314668, size 0x4d4, virtual true, abstract: false, final false
-  inline void PreSolve();
+  constexpr void __cordl_internal_set_thighRelToFoot(::UnityEngine::Quaternion value);
 
-  /// @brief Method ApplyOffsets, addr 0x1314dd8, size 0x4dc, virtual true, abstract: false, final false
-  inline void ApplyOffsets();
+  constexpr void __cordl_internal_set_useAnimatedBendNormal(bool value);
 
-  /// @brief Method ApplyPositionOffset, addr 0x1314d88, size 0x50, virtual false, abstract: false, final false
-  inline void ApplyPositionOffset(::UnityEngine::Vector3 offset, float_t weight);
-
-  /// @brief Method ApplyRotationOffset, addr 0x1314b3c, size 0x24c, virtual false, abstract: false, final false
-  inline void ApplyRotationOffset(::UnityEngine::Quaternion offset, float_t weight);
-
-  /// @brief Method Solve, addr 0x13045f4, size 0x1a8, virtual false, abstract: false, final false
-  inline void Solve(bool stretch);
-
-  /// @brief Method FixTwistRotations, addr 0x1315690, size 0x458, virtual false, abstract: false, final false
-  inline void FixTwistRotations();
-
-  /// @brief Method Stretching, addr 0x13152b4, size 0x3dc, virtual false, abstract: false, final false
-  inline void Stretching();
-
-  /// @brief Method Write, addr 0x1315ae8, size 0x208, virtual true, abstract: false, final false
-  inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
-                    ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
-
-  /// @brief Method ResetOffsets, addr 0x1315cf0, size 0xe0, virtual true, abstract: false, final false
-  inline void ResetOffsets();
-
-  static inline ::RootMotion::FinalIK::__IKSolverVR__Leg* New_ctor();
-
-  /// @brief Method .ctor, addr 0x13049f0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13469dc, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_calf, addr 0x1356050, size 0x2c, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_calf();
+
+  /// @brief Method get_foot, addr 0x135607c, size 0x2c, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_foot();
+
+  /// @brief Method get_hasToes, addr 0x1356014, size 0x8, virtual false, abstract: false, final false
+  inline bool get_hasToes();
+
+  /// @brief Method get_lastBone, addr 0x1351624, size 0x34, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_lastBone();
+
+  /// @brief Method get_position, addr 0x1355fe4, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_position();
+
+  /// @brief Method get_rotation, addr 0x1355ffc, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_rotation();
+
+  /// @brief Method get_thigh, addr 0x1356028, size 0x28, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_thigh();
+
+  /// @brief Method get_thighRelativeToPelvis, addr 0x13560d4, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_thighRelativeToPelvis();
+
+  /// @brief Method get_toes, addr 0x13560a8, size 0x2c, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_toes();
+
+  /// @brief Method set_hasToes, addr 0x135601c, size 0xc, virtual false, abstract: false, final false
+  inline void set_hasToes(bool value);
+
+  /// @brief Method set_position, addr 0x1355ff0, size 0xc, virtual false, abstract: false, final false
+  inline void set_position(::UnityEngine::Vector3 value);
+
+  /// @brief Method set_rotation, addr 0x1356008, size 0xc, virtual false, abstract: false, final false
+  inline void set_rotation(::UnityEngine::Quaternion value);
+
+  /// @brief Method set_thighRelativeToPelvis, addr 0x13560e0, size 0xc, virtual false, abstract: false, final false
+  inline void set_thighRelativeToPelvis(::UnityEngine::Vector3 value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IKSolverVR__Leg();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__Leg", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IKSolverVR__Leg(__IKSolverVR__Leg&&) = delete;
@@ -1486,12 +1488,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IKSolverVR__Leg(__IKSolverVR__Leg const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IKSolverVR__Leg();
-
-public:
   /// @brief Field target, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___target;
 
@@ -1637,58 +1633,15 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Leg, ___bendNormalRe
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8948)), TypeDefinitionIndex(TypeDefinitionIndex(8993)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12391))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12486)) CS Name: ::IKSolverVR::Locomotion*
+// CS Name: ::IKSolverVR::Locomotion*
 class CORDL_TYPE __IKSolverVR__Locomotion : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field weight, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
-
-  /// @brief Field footDistance, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_footDistance, put = __cordl_internal_set_footDistance)) float_t footDistance;
-
-  /// @brief Field stepThreshold, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_stepThreshold, put = __cordl_internal_set_stepThreshold)) float_t stepThreshold;
+  /// @brief Field <centerOfMass>k__BackingField, offset 0x80, size 0xc
+  __declspec(property(get = __cordl_internal_get__centerOfMass_k__BackingField, put = __cordl_internal_set__centerOfMass_k__BackingField))::UnityEngine::Vector3 _centerOfMass_k__BackingField;
 
   /// @brief Field angleThreshold, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_angleThreshold, put = __cordl_internal_set_angleThreshold)) float_t angleThreshold;
-
-  /// @brief Field comAngleMlp, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_comAngleMlp, put = __cordl_internal_set_comAngleMlp)) float_t comAngleMlp;
-
-  /// @brief Field maxVelocity, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxVelocity, put = __cordl_internal_set_maxVelocity)) float_t maxVelocity;
-
-  /// @brief Field velocityFactor, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_velocityFactor, put = __cordl_internal_set_velocityFactor)) float_t velocityFactor;
-
-  /// @brief Field maxLegStretch, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxLegStretch, put = __cordl_internal_set_maxLegStretch)) float_t maxLegStretch;
-
-  /// @brief Field rootSpeed, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_rootSpeed, put = __cordl_internal_set_rootSpeed)) float_t rootSpeed;
-
-  /// @brief Field stepSpeed, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_stepSpeed, put = __cordl_internal_set_stepSpeed)) float_t stepSpeed;
-
-  /// @brief Field stepHeight, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_stepHeight, put = __cordl_internal_set_stepHeight))::UnityEngine::AnimationCurve* stepHeight;
-
-  /// @brief Field heelHeight, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_heelHeight, put = __cordl_internal_set_heelHeight))::UnityEngine::AnimationCurve* heelHeight;
-
-  /// @brief Field relaxLegTwistMinAngle, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_relaxLegTwistMinAngle, put = __cordl_internal_set_relaxLegTwistMinAngle)) float_t relaxLegTwistMinAngle;
-
-  /// @brief Field relaxLegTwistSpeed, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get_relaxLegTwistSpeed, put = __cordl_internal_set_relaxLegTwistSpeed)) float_t relaxLegTwistSpeed;
-
-  /// @brief Field stepInterpolation, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_stepInterpolation, put = __cordl_internal_set_stepInterpolation))::RootMotion::InterpolationMode stepInterpolation;
-
-  /// @brief Field offset, offset 0x54, size 0xc
-  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
 
   /// @brief Field blockingEnabled, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_blockingEnabled, put = __cordl_internal_set_blockingEnabled)) bool blockingEnabled;
@@ -1696,11 +1649,42 @@ public:
   /// @brief Field blockingLayers, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_blockingLayers, put = __cordl_internal_set_blockingLayers))::UnityEngine::LayerMask blockingLayers;
 
-  /// @brief Field raycastRadius, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_raycastRadius, put = __cordl_internal_set_raycastRadius)) float_t raycastRadius;
+  __declspec(property(get = get_centerOfMass, put = set_centerOfMass))::UnityEngine::Vector3 centerOfMass;
 
-  /// @brief Field raycastHeight, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get_raycastHeight, put = __cordl_internal_set_raycastHeight)) float_t raycastHeight;
+  /// @brief Field comAngleMlp, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_comAngleMlp, put = __cordl_internal_set_comAngleMlp)) float_t comAngleMlp;
+
+  /// @brief Field comVelocity, offset 0xa4, size 0xc
+  __declspec(property(get = __cordl_internal_get_comVelocity, put = __cordl_internal_set_comVelocity))::UnityEngine::Vector3 comVelocity;
+
+  /// @brief Field footDistance, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_footDistance, put = __cordl_internal_set_footDistance)) float_t footDistance;
+
+  /// @brief Field footsteps, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_footsteps,
+                      put = __cordl_internal_set_footsteps))::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*> footsteps;
+
+  /// @brief Field heelHeight, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_heelHeight, put = __cordl_internal_set_heelHeight))::UnityEngine::AnimationCurve* heelHeight;
+
+  /// @brief Field lastComPosition, offset 0x98, size 0xc
+  __declspec(property(get = __cordl_internal_get_lastComPosition, put = __cordl_internal_set_lastComPosition))::UnityEngine::Vector3 lastComPosition;
+
+  /// @brief Field leftFootIndex, offset 0xb0, size 0x4
+  __declspec(property(get = __cordl_internal_get_leftFootIndex, put = __cordl_internal_set_leftFootIndex)) int32_t leftFootIndex;
+
+  __declspec(property(get = get_leftFootstepPosition))::UnityEngine::Vector3 leftFootstepPosition;
+
+  __declspec(property(get = get_leftFootstepRotation))::UnityEngine::Quaternion leftFootstepRotation;
+
+  /// @brief Field maxLegStretch, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxLegStretch, put = __cordl_internal_set_maxLegStretch)) float_t maxLegStretch;
+
+  /// @brief Field maxVelocity, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxVelocity, put = __cordl_internal_set_maxVelocity)) float_t maxVelocity;
+
+  /// @brief Field offset, offset 0x54, size 0xc
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
 
   /// @brief Field onLeftFootstep, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_onLeftFootstep, put = __cordl_internal_set_onLeftFootstep))::UnityEngine::Events::UnityEvent* onLeftFootstep;
@@ -1708,253 +1692,270 @@ public:
   /// @brief Field onRightFootstep, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_onRightFootstep, put = __cordl_internal_set_onRightFootstep))::UnityEngine::Events::UnityEvent* onRightFootstep;
 
-  /// @brief Field <centerOfMass>k__BackingField, offset 0x80, size 0xc
-  __declspec(property(get = __cordl_internal_get__centerOfMass_k__BackingField, put = __cordl_internal_set__centerOfMass_k__BackingField))::UnityEngine::Vector3 _centerOfMass_k__BackingField;
+  /// @brief Field raycastHeight, offset 0x6c, size 0x4
+  __declspec(property(get = __cordl_internal_get_raycastHeight, put = __cordl_internal_set_raycastHeight)) float_t raycastHeight;
 
-  /// @brief Field footsteps, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_footsteps,
-                      put = __cordl_internal_set_footsteps))::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*> footsteps;
+  /// @brief Field raycastRadius, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get_raycastRadius, put = __cordl_internal_set_raycastRadius)) float_t raycastRadius;
 
-  /// @brief Field lastComPosition, offset 0x98, size 0xc
-  __declspec(property(get = __cordl_internal_get_lastComPosition, put = __cordl_internal_set_lastComPosition))::UnityEngine::Vector3 lastComPosition;
+  /// @brief Field relaxLegTwistMinAngle, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_relaxLegTwistMinAngle, put = __cordl_internal_set_relaxLegTwistMinAngle)) float_t relaxLegTwistMinAngle;
 
-  /// @brief Field comVelocity, offset 0xa4, size 0xc
-  __declspec(property(get = __cordl_internal_get_comVelocity, put = __cordl_internal_set_comVelocity))::UnityEngine::Vector3 comVelocity;
-
-  /// @brief Field leftFootIndex, offset 0xb0, size 0x4
-  __declspec(property(get = __cordl_internal_get_leftFootIndex, put = __cordl_internal_set_leftFootIndex)) int32_t leftFootIndex;
+  /// @brief Field relaxLegTwistSpeed, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get_relaxLegTwistSpeed, put = __cordl_internal_set_relaxLegTwistSpeed)) float_t relaxLegTwistSpeed;
 
   /// @brief Field rightFootIndex, offset 0xb4, size 0x4
   __declspec(property(get = __cordl_internal_get_rightFootIndex, put = __cordl_internal_set_rightFootIndex)) int32_t rightFootIndex;
 
-  __declspec(property(get = get_centerOfMass, put = set_centerOfMass))::UnityEngine::Vector3 centerOfMass;
-
-  __declspec(property(get = get_leftFootstepPosition))::UnityEngine::Vector3 leftFootstepPosition;
-
   __declspec(property(get = get_rightFootstepPosition))::UnityEngine::Vector3 rightFootstepPosition;
-
-  __declspec(property(get = get_leftFootstepRotation))::UnityEngine::Quaternion leftFootstepRotation;
 
   __declspec(property(get = get_rightFootstepRotation))::UnityEngine::Quaternion rightFootstepRotation;
 
-  constexpr float_t& __cordl_internal_get_weight();
+  /// @brief Field rootSpeed, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_rootSpeed, put = __cordl_internal_set_rootSpeed)) float_t rootSpeed;
 
-  constexpr float_t const& __cordl_internal_get_weight() const;
+  /// @brief Field stepHeight, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_stepHeight, put = __cordl_internal_set_stepHeight))::UnityEngine::AnimationCurve* stepHeight;
 
-  constexpr void __cordl_internal_set_weight(float_t value);
+  /// @brief Field stepInterpolation, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_stepInterpolation, put = __cordl_internal_set_stepInterpolation))::RootMotion::InterpolationMode stepInterpolation;
 
-  constexpr float_t& __cordl_internal_get_footDistance();
+  /// @brief Field stepSpeed, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_stepSpeed, put = __cordl_internal_set_stepSpeed)) float_t stepSpeed;
 
-  constexpr float_t const& __cordl_internal_get_footDistance() const;
+  /// @brief Field stepThreshold, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_stepThreshold, put = __cordl_internal_set_stepThreshold)) float_t stepThreshold;
 
-  constexpr void __cordl_internal_set_footDistance(float_t value);
+  /// @brief Field velocityFactor, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_velocityFactor, put = __cordl_internal_set_velocityFactor)) float_t velocityFactor;
 
-  constexpr float_t& __cordl_internal_get_stepThreshold();
+  /// @brief Field weight, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  constexpr float_t const& __cordl_internal_get_stepThreshold() const;
-
-  constexpr void __cordl_internal_set_stepThreshold(float_t value);
-
-  constexpr float_t& __cordl_internal_get_angleThreshold();
-
-  constexpr float_t const& __cordl_internal_get_angleThreshold() const;
-
-  constexpr void __cordl_internal_set_angleThreshold(float_t value);
-
-  constexpr float_t& __cordl_internal_get_comAngleMlp();
-
-  constexpr float_t const& __cordl_internal_get_comAngleMlp() const;
-
-  constexpr void __cordl_internal_set_comAngleMlp(float_t value);
-
-  constexpr float_t& __cordl_internal_get_maxVelocity();
-
-  constexpr float_t const& __cordl_internal_get_maxVelocity() const;
-
-  constexpr void __cordl_internal_set_maxVelocity(float_t value);
-
-  constexpr float_t& __cordl_internal_get_velocityFactor();
-
-  constexpr float_t const& __cordl_internal_get_velocityFactor() const;
-
-  constexpr void __cordl_internal_set_velocityFactor(float_t value);
-
-  constexpr float_t& __cordl_internal_get_maxLegStretch();
-
-  constexpr float_t const& __cordl_internal_get_maxLegStretch() const;
-
-  constexpr void __cordl_internal_set_maxLegStretch(float_t value);
-
-  constexpr float_t& __cordl_internal_get_rootSpeed();
-
-  constexpr float_t const& __cordl_internal_get_rootSpeed() const;
-
-  constexpr void __cordl_internal_set_rootSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get_stepSpeed();
-
-  constexpr float_t const& __cordl_internal_get_stepSpeed() const;
-
-  constexpr void __cordl_internal_set_stepSpeed(float_t value);
-
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_stepHeight();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_stepHeight() const;
-
-  constexpr void __cordl_internal_set_stepHeight(::UnityEngine::AnimationCurve* value);
-
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_heelHeight();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_heelHeight() const;
-
-  constexpr void __cordl_internal_set_heelHeight(::UnityEngine::AnimationCurve* value);
-
-  constexpr float_t& __cordl_internal_get_relaxLegTwistMinAngle();
-
-  constexpr float_t const& __cordl_internal_get_relaxLegTwistMinAngle() const;
-
-  constexpr void __cordl_internal_set_relaxLegTwistMinAngle(float_t value);
-
-  constexpr float_t& __cordl_internal_get_relaxLegTwistSpeed();
-
-  constexpr float_t const& __cordl_internal_get_relaxLegTwistSpeed() const;
-
-  constexpr void __cordl_internal_set_relaxLegTwistSpeed(float_t value);
-
-  constexpr ::RootMotion::InterpolationMode& __cordl_internal_get_stepInterpolation();
-
-  constexpr ::RootMotion::InterpolationMode const& __cordl_internal_get_stepInterpolation() const;
-
-  constexpr void __cordl_internal_set_stepInterpolation(::RootMotion::InterpolationMode value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offset() const;
-
-  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
-
-  constexpr bool& __cordl_internal_get_blockingEnabled();
-
-  constexpr bool const& __cordl_internal_get_blockingEnabled() const;
-
-  constexpr void __cordl_internal_set_blockingEnabled(bool value);
-
-  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_blockingLayers();
-
-  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_blockingLayers() const;
-
-  constexpr void __cordl_internal_set_blockingLayers(::UnityEngine::LayerMask value);
-
-  constexpr float_t& __cordl_internal_get_raycastRadius();
-
-  constexpr float_t const& __cordl_internal_get_raycastRadius() const;
-
-  constexpr void __cordl_internal_set_raycastRadius(float_t value);
-
-  constexpr float_t& __cordl_internal_get_raycastHeight();
-
-  constexpr float_t const& __cordl_internal_get_raycastHeight() const;
-
-  constexpr void __cordl_internal_set_raycastHeight(float_t value);
-
-  constexpr ::UnityEngine::Events::UnityEvent*& __cordl_internal_get_onLeftFootstep();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& __cordl_internal_get_onLeftFootstep() const;
-
-  constexpr void __cordl_internal_set_onLeftFootstep(::UnityEngine::Events::UnityEvent* value);
-
-  constexpr ::UnityEngine::Events::UnityEvent*& __cordl_internal_get_onRightFootstep();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& __cordl_internal_get_onRightFootstep() const;
-
-  constexpr void __cordl_internal_set_onRightFootstep(::UnityEngine::Events::UnityEvent* value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__centerOfMass_k__BackingField();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__centerOfMass_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__centerOfMass_k__BackingField(::UnityEngine::Vector3 value);
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*>& __cordl_internal_get_footsteps();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*> const& __cordl_internal_get_footsteps() const;
-
-  constexpr void __cordl_internal_set_footsteps(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastComPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastComPosition() const;
-
-  constexpr void __cordl_internal_set_lastComPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_comVelocity();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_comVelocity() const;
-
-  constexpr void __cordl_internal_set_comVelocity(::UnityEngine::Vector3 value);
-
-  constexpr int32_t& __cordl_internal_get_leftFootIndex();
-
-  constexpr int32_t const& __cordl_internal_get_leftFootIndex() const;
-
-  constexpr void __cordl_internal_set_leftFootIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_rightFootIndex();
-
-  constexpr int32_t const& __cordl_internal_get_rightFootIndex() const;
-
-  constexpr void __cordl_internal_set_rightFootIndex(int32_t value);
-
-  /// @brief Method get_centerOfMass, addr 0x1315dd0, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_centerOfMass();
-
-  /// @brief Method set_centerOfMass, addr 0x1315ddc, size 0xc, virtual false, abstract: false, final false
-  inline void set_centerOfMass(::UnityEngine::Vector3 value);
-
-  /// @brief Method Initiate, addr 0x130df74, size 0x2f4, virtual false, abstract: false, final false
-  inline void Initiate(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasToes);
-
-  /// @brief Method Reset, addr 0x130ba74, size 0x1e4, virtual false, abstract: false, final false
-  inline void Reset(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations);
-
-  /// @brief Method AddDeltaRotation, addr 0x130af40, size 0x3c8, virtual false, abstract: false, final false
-  inline void AddDeltaRotation(::UnityEngine::Quaternion delta, ::UnityEngine::Vector3 pivot);
-
-  /// @brief Method AddDeltaPosition, addr 0x130ae88, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddDeltaPosition, addr 0x134ce74, size 0xb8, virtual false, abstract: false, final false
   inline void AddDeltaPosition(::UnityEngine::Vector3 delta);
 
-  /// @brief Method Solve, addr 0x130e268, size 0x13d0, virtual false, abstract: false, final false
+  /// @brief Method AddDeltaRotation, addr 0x134cf2c, size 0x3c8, virtual false, abstract: false, final false
+  inline void AddDeltaRotation(::UnityEngine::Quaternion delta, ::UnityEngine::Vector3 pivot);
+
+  /// @brief Method CanStep, addr 0x1357f88, size 0x6c, virtual false, abstract: false, final false
+  inline bool CanStep();
+
+  /// @brief Method GetLineSphereCollision, addr 0x1357ff4, size 0x1b0, virtual false, abstract: false, final false
+  static inline bool GetLineSphereCollision(::UnityEngine::Vector3 lineStart, ::UnityEngine::Vector3 lineEnd, ::UnityEngine::Vector3 sphereCenter, float_t sphereRadius);
+
+  /// @brief Method Initiate, addr 0x134ff60, size 0x2f4, virtual false, abstract: false, final false
+  inline void Initiate(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasToes);
+
+  static inline ::RootMotion::FinalIK::__IKSolverVR__Locomotion* New_ctor();
+
+  /// @brief Method Reset, addr 0x134da60, size 0x1e4, virtual false, abstract: false, final false
+  inline void Reset(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations);
+
+  /// @brief Method Solve, addr 0x1350254, size 0x13d0, virtual false, abstract: false, final false
   inline void Solve(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone, ::RootMotion::FinalIK::__IKSolverVR__Spine* spine, ::RootMotion::FinalIK::__IKSolverVR__Leg* leftLeg,
                     ::RootMotion::FinalIK::__IKSolverVR__Leg* rightLeg, ::RootMotion::FinalIK::__IKSolverVR__Arm* leftArm, ::RootMotion::FinalIK::__IKSolverVR__Arm* rightArm, int32_t supportLegIndex,
                     ByRef<::UnityEngine::Vector3> leftFootPosition, ByRef<::UnityEngine::Vector3> rightFootPosition, ByRef<::UnityEngine::Quaternion> leftFootRotation,
                     ByRef<::UnityEngine::Quaternion> rightFootRotation, ByRef<float_t> leftFootOffset, ByRef<float_t> rightFootOffset, ByRef<float_t> leftHeelOffset, ByRef<float_t> rightHeelOffset);
 
-  /// @brief Method get_leftFootstepPosition, addr 0x13161b8, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_leftFootstepPosition();
-
-  /// @brief Method get_rightFootstepPosition, addr 0x13161ec, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_rightFootstepPosition();
-
-  /// @brief Method get_leftFootstepRotation, addr 0x1316224, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_leftFootstepRotation();
-
-  /// @brief Method get_rightFootstepRotation, addr 0x1316258, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_rightFootstepRotation();
-
-  /// @brief Method StepBlocked, addr 0x1315de8, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method StepBlocked, addr 0x1357dd4, size 0x1b4, virtual false, abstract: false, final false
   inline bool StepBlocked(::UnityEngine::Vector3 fromPosition, ::UnityEngine::Vector3 toPosition, ::UnityEngine::Vector3 rootPosition);
 
-  /// @brief Method CanStep, addr 0x1315f9c, size 0x6c, virtual false, abstract: false, final false
-  inline bool CanStep();
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__centerOfMass_k__BackingField() const;
 
-  /// @brief Method GetLineSphereCollision, addr 0x1316008, size 0x1b0, virtual false, abstract: false, final false
-  static inline bool GetLineSphereCollision(::UnityEngine::Vector3 lineStart, ::UnityEngine::Vector3 lineEnd, ::UnityEngine::Vector3 sphereCenter, float_t sphereRadius);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__centerOfMass_k__BackingField();
 
-  static inline ::RootMotion::FinalIK::__IKSolverVR__Locomotion* New_ctor();
+  constexpr float_t const& __cordl_internal_get_angleThreshold() const;
 
-  /// @brief Method .ctor, addr 0x1311828, size 0xec, virtual false, abstract: false, final false
+  constexpr float_t& __cordl_internal_get_angleThreshold();
+
+  constexpr bool const& __cordl_internal_get_blockingEnabled() const;
+
+  constexpr bool& __cordl_internal_get_blockingEnabled();
+
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_blockingLayers() const;
+
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_blockingLayers();
+
+  constexpr float_t const& __cordl_internal_get_comAngleMlp() const;
+
+  constexpr float_t& __cordl_internal_get_comAngleMlp();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_comVelocity() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_comVelocity();
+
+  constexpr float_t const& __cordl_internal_get_footDistance() const;
+
+  constexpr float_t& __cordl_internal_get_footDistance();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*> const& __cordl_internal_get_footsteps() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*>& __cordl_internal_get_footsteps();
+
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_heelHeight();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_heelHeight() const;
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastComPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastComPosition();
+
+  constexpr int32_t const& __cordl_internal_get_leftFootIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_leftFootIndex();
+
+  constexpr float_t const& __cordl_internal_get_maxLegStretch() const;
+
+  constexpr float_t& __cordl_internal_get_maxLegStretch();
+
+  constexpr float_t const& __cordl_internal_get_maxVelocity() const;
+
+  constexpr float_t& __cordl_internal_get_maxVelocity();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offset();
+
+  constexpr ::UnityEngine::Events::UnityEvent*& __cordl_internal_get_onLeftFootstep();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& __cordl_internal_get_onLeftFootstep() const;
+
+  constexpr ::UnityEngine::Events::UnityEvent*& __cordl_internal_get_onRightFootstep();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& __cordl_internal_get_onRightFootstep() const;
+
+  constexpr float_t const& __cordl_internal_get_raycastHeight() const;
+
+  constexpr float_t& __cordl_internal_get_raycastHeight();
+
+  constexpr float_t const& __cordl_internal_get_raycastRadius() const;
+
+  constexpr float_t& __cordl_internal_get_raycastRadius();
+
+  constexpr float_t const& __cordl_internal_get_relaxLegTwistMinAngle() const;
+
+  constexpr float_t& __cordl_internal_get_relaxLegTwistMinAngle();
+
+  constexpr float_t const& __cordl_internal_get_relaxLegTwistSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_relaxLegTwistSpeed();
+
+  constexpr int32_t const& __cordl_internal_get_rightFootIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_rightFootIndex();
+
+  constexpr float_t const& __cordl_internal_get_rootSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_rootSpeed();
+
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_stepHeight();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_stepHeight() const;
+
+  constexpr ::RootMotion::InterpolationMode const& __cordl_internal_get_stepInterpolation() const;
+
+  constexpr ::RootMotion::InterpolationMode& __cordl_internal_get_stepInterpolation();
+
+  constexpr float_t const& __cordl_internal_get_stepSpeed() const;
+
+  constexpr float_t& __cordl_internal_get_stepSpeed();
+
+  constexpr float_t const& __cordl_internal_get_stepThreshold() const;
+
+  constexpr float_t& __cordl_internal_get_stepThreshold();
+
+  constexpr float_t const& __cordl_internal_get_velocityFactor() const;
+
+  constexpr float_t& __cordl_internal_get_velocityFactor();
+
+  constexpr float_t const& __cordl_internal_get_weight() const;
+
+  constexpr float_t& __cordl_internal_get_weight();
+
+  constexpr void __cordl_internal_set__centerOfMass_k__BackingField(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_angleThreshold(float_t value);
+
+  constexpr void __cordl_internal_set_blockingEnabled(bool value);
+
+  constexpr void __cordl_internal_set_blockingLayers(::UnityEngine::LayerMask value);
+
+  constexpr void __cordl_internal_set_comAngleMlp(float_t value);
+
+  constexpr void __cordl_internal_set_comVelocity(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_footDistance(float_t value);
+
+  constexpr void __cordl_internal_set_footsteps(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Footstep*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Footstep*>*> value);
+
+  constexpr void __cordl_internal_set_heelHeight(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_lastComPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_leftFootIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_maxLegStretch(float_t value);
+
+  constexpr void __cordl_internal_set_maxVelocity(float_t value);
+
+  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_onLeftFootstep(::UnityEngine::Events::UnityEvent* value);
+
+  constexpr void __cordl_internal_set_onRightFootstep(::UnityEngine::Events::UnityEvent* value);
+
+  constexpr void __cordl_internal_set_raycastHeight(float_t value);
+
+  constexpr void __cordl_internal_set_raycastRadius(float_t value);
+
+  constexpr void __cordl_internal_set_relaxLegTwistMinAngle(float_t value);
+
+  constexpr void __cordl_internal_set_relaxLegTwistSpeed(float_t value);
+
+  constexpr void __cordl_internal_set_rightFootIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_rootSpeed(float_t value);
+
+  constexpr void __cordl_internal_set_stepHeight(::UnityEngine::AnimationCurve* value);
+
+  constexpr void __cordl_internal_set_stepInterpolation(::RootMotion::InterpolationMode value);
+
+  constexpr void __cordl_internal_set_stepSpeed(float_t value);
+
+  constexpr void __cordl_internal_set_stepThreshold(float_t value);
+
+  constexpr void __cordl_internal_set_velocityFactor(float_t value);
+
+  constexpr void __cordl_internal_set_weight(float_t value);
+
+  /// @brief Method .ctor, addr 0x1353814, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_centerOfMass, addr 0x1357dbc, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_centerOfMass();
+
+  /// @brief Method get_leftFootstepPosition, addr 0x13581a4, size 0x34, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_leftFootstepPosition();
+
+  /// @brief Method get_leftFootstepRotation, addr 0x1358210, size 0x34, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_leftFootstepRotation();
+
+  /// @brief Method get_rightFootstepPosition, addr 0x13581d8, size 0x38, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_rightFootstepPosition();
+
+  /// @brief Method get_rightFootstepRotation, addr 0x1358244, size 0x38, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_rightFootstepRotation();
+
+  /// @brief Method set_centerOfMass, addr 0x1357dc8, size 0xc, virtual false, abstract: false, final false
+  inline void set_centerOfMass(::UnityEngine::Vector3 value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IKSolverVR__Locomotion();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__Locomotion", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IKSolverVR__Locomotion(__IKSolverVR__Locomotion&&) = delete;
@@ -1963,12 +1964,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IKSolverVR__Locomotion(__IKSolverVR__Locomotion const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IKSolverVR__Locomotion();
-
-public:
   /// @brief Field weight, offset: 0x10, size: 0x4, def value: None
   float_t ___weight;
 
@@ -2119,38 +2114,35 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Locomotion, ___right
 // SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 552, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12483))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12487))
 // CS Name: ::IKSolverVR::Spine*
 class CORDL_TYPE __IKSolverVR__Spine : public ::RootMotion::FinalIK::__IKSolverVR__BodyPart {
 public:
   // Declarations
-  /// @brief Field headTarget, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_headTarget, put = __cordl_internal_set_headTarget))::UnityW<::UnityEngine::Transform> headTarget;
+  /// @brief Field IKPositionHead, offset 0xa0, size 0xc
+  __declspec(property(get = __cordl_internal_get_IKPositionHead, put = __cordl_internal_set_IKPositionHead))::UnityEngine::Vector3 IKPositionHead;
 
-  /// @brief Field pelvisTarget, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_pelvisTarget, put = __cordl_internal_set_pelvisTarget))::UnityW<::UnityEngine::Transform> pelvisTarget;
+  /// @brief Field IKPositionPelvis, offset 0xbc, size 0xc
+  __declspec(property(get = __cordl_internal_get_IKPositionPelvis, put = __cordl_internal_set_IKPositionPelvis))::UnityEngine::Vector3 IKPositionPelvis;
 
-  /// @brief Field positionWeight, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_positionWeight, put = __cordl_internal_set_positionWeight)) float_t positionWeight;
+  /// @brief Field IKRotationHead, offset 0xac, size 0x10
+  __declspec(property(get = __cordl_internal_get_IKRotationHead, put = __cordl_internal_set_IKRotationHead))::UnityEngine::Quaternion IKRotationHead;
 
-  /// @brief Field rotationWeight, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get_rotationWeight, put = __cordl_internal_set_rotationWeight)) float_t rotationWeight;
+  /// @brief Field IKRotationPelvis, offset 0xc8, size 0x10
+  __declspec(property(get = __cordl_internal_get_IKRotationPelvis, put = __cordl_internal_set_IKRotationPelvis))::UnityEngine::Quaternion IKRotationPelvis;
 
-  /// @brief Field pelvisPositionWeight, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_pelvisPositionWeight, put = __cordl_internal_set_pelvisPositionWeight)) float_t pelvisPositionWeight;
+  /// @brief Field <anchorRelativeToHead>k__BackingField, offset 0x16c, size 0x10
+  __declspec(property(get = __cordl_internal_get__anchorRelativeToHead_k__BackingField,
+                      put = __cordl_internal_set__anchorRelativeToHead_k__BackingField))::UnityEngine::Quaternion _anchorRelativeToHead_k__BackingField;
 
-  /// @brief Field pelvisRotationWeight, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_pelvisRotationWeight, put = __cordl_internal_set_pelvisRotationWeight)) float_t pelvisRotationWeight;
+  /// @brief Field <anchorRotation>k__BackingField, offset 0x15c, size 0x10
+  __declspec(property(get = __cordl_internal_get__anchorRotation_k__BackingField, put = __cordl_internal_set__anchorRotation_k__BackingField))::UnityEngine::Quaternion _anchorRotation_k__BackingField;
 
-  /// @brief Field chestGoal, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_chestGoal, put = __cordl_internal_set_chestGoal))::UnityW<::UnityEngine::Transform> chestGoal;
+  __declspec(property(get = get_anchorRelativeToHead, put = set_anchorRelativeToHead))::UnityEngine::Quaternion anchorRelativeToHead;
 
-  /// @brief Field chestGoalWeight, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get_chestGoalWeight, put = __cordl_internal_set_chestGoalWeight)) float_t chestGoalWeight;
+  /// @brief Field anchorRelativeToPelvis, offset 0x19c, size 0x10
+  __declspec(property(get = __cordl_internal_get_anchorRelativeToPelvis, put = __cordl_internal_set_anchorRelativeToPelvis))::UnityEngine::Quaternion anchorRelativeToPelvis;
 
-  /// @brief Field minHeadHeight, offset 0x74, size 0x4
-  __declspec(property(get = __cordl_internal_get_minHeadHeight, put = __cordl_internal_set_minHeadHeight)) float_t minHeadHeight;
+  __declspec(property(get = get_anchorRotation, put = set_anchorRotation))::UnityEngine::Quaternion anchorRotation;
 
   /// @brief Field bodyPosStiffness, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_bodyPosStiffness, put = __cordl_internal_set_bodyPosStiffness)) float_t bodyPosStiffness;
@@ -2158,20 +2150,86 @@ public:
   /// @brief Field bodyRotStiffness, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_bodyRotStiffness, put = __cordl_internal_set_bodyRotStiffness)) float_t bodyRotStiffness;
 
-  /// @brief Field neckStiffness, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get_neckStiffness, put = __cordl_internal_set_neckStiffness)) float_t neckStiffness;
-
-  /// @brief Field rotateChestByHands, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get_rotateChestByHands, put = __cordl_internal_set_rotateChestByHands)) float_t rotateChestByHands;
+  __declspec(property(get = get_chest))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* chest;
 
   /// @brief Field chestClampWeight, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_chestClampWeight, put = __cordl_internal_set_chestClampWeight)) float_t chestClampWeight;
 
+  /// @brief Field chestForward, offset 0x21c, size 0xc
+  __declspec(property(get = __cordl_internal_get_chestForward, put = __cordl_internal_set_chestForward))::UnityEngine::Vector3 chestForward;
+
+  /// @brief Field chestGoal, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_chestGoal, put = __cordl_internal_set_chestGoal))::UnityW<::UnityEngine::Transform> chestGoal;
+
+  /// @brief Field chestGoalWeight, offset 0x70, size 0x4
+  __declspec(property(get = __cordl_internal_get_chestGoalWeight, put = __cordl_internal_set_chestGoalWeight)) float_t chestGoalWeight;
+
+  /// @brief Field chestIndex, offset 0x200, size 0x4
+  __declspec(property(get = __cordl_internal_get_chestIndex, put = __cordl_internal_set_chestIndex)) int32_t chestIndex;
+
+  /// @brief Field chestPositionOffset, offset 0xf0, size 0xc
+  __declspec(property(get = __cordl_internal_get_chestPositionOffset, put = __cordl_internal_set_chestPositionOffset))::UnityEngine::Vector3 chestPositionOffset;
+
+  /// @brief Field chestRelativeRotation, offset 0x1bc, size 0x10
+  __declspec(property(get = __cordl_internal_get_chestRelativeRotation, put = __cordl_internal_set_chestRelativeRotation))::UnityEngine::Quaternion chestRelativeRotation;
+
+  /// @brief Field chestRotationOffset, offset 0x118, size 0x10
+  __declspec(property(get = __cordl_internal_get_chestRotationOffset, put = __cordl_internal_set_chestRotationOffset))::UnityEngine::Quaternion chestRotationOffset;
+
+  /// @brief Field chestTargetRotation, offset 0x1e8, size 0x10
+  __declspec(property(get = __cordl_internal_get_chestTargetRotation, put = __cordl_internal_set_chestTargetRotation))::UnityEngine::Quaternion chestTargetRotation;
+
+  /// @brief Field faceDirection, offset 0x138, size 0xc
+  __declspec(property(get = __cordl_internal_get_faceDirection, put = __cordl_internal_set_faceDirection))::UnityEngine::Vector3 faceDirection;
+
+  __declspec(property(get = get_firstSpineBone))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* firstSpineBone;
+
+  /// @brief Field goalPositionChest, offset 0xd8, size 0xc
+  __declspec(property(get = __cordl_internal_get_goalPositionChest, put = __cordl_internal_set_goalPositionChest))::UnityEngine::Vector3 goalPositionChest;
+
+  /// @brief Field hasChest, offset 0x210, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasChest, put = __cordl_internal_set_hasChest)) bool hasChest;
+
+  /// @brief Field hasLegs, offset 0x212, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasLegs, put = __cordl_internal_set_hasLegs)) bool hasLegs;
+
+  /// @brief Field hasNeck, offset 0x211, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasNeck, put = __cordl_internal_set_hasNeck)) bool hasNeck;
+
+  __declspec(property(get = get_head))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* head;
+
   /// @brief Field headClampWeight, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get_headClampWeight, put = __cordl_internal_set_headClampWeight)) float_t headClampWeight;
 
-  /// @brief Field moveBodyBackWhenCrouching, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get_moveBodyBackWhenCrouching, put = __cordl_internal_set_moveBodyBackWhenCrouching)) float_t moveBodyBackWhenCrouching;
+  /// @brief Field headDeltaPosition, offset 0x1cc, size 0xc
+  __declspec(property(get = __cordl_internal_get_headDeltaPosition, put = __cordl_internal_set_headDeltaPosition))::UnityEngine::Vector3 headDeltaPosition;
+
+  /// @brief Field headHeight, offset 0x214, size 0x4
+  __declspec(property(get = __cordl_internal_get_headHeight, put = __cordl_internal_set_headHeight)) float_t headHeight;
+
+  /// @brief Field headIndex, offset 0x208, size 0x4
+  __declspec(property(get = __cordl_internal_get_headIndex, put = __cordl_internal_set_headIndex)) int32_t headIndex;
+
+  /// @brief Field headPosition, offset 0x150, size 0xc
+  __declspec(property(get = __cordl_internal_get_headPosition, put = __cordl_internal_set_headPosition))::UnityEngine::Vector3 headPosition;
+
+  /// @brief Field headPositionOffset, offset 0xfc, size 0xc
+  __declspec(property(get = __cordl_internal_get_headPositionOffset, put = __cordl_internal_set_headPositionOffset))::UnityEngine::Vector3 headPositionOffset;
+
+  /// @brief Field headRotation, offset 0x17c, size 0x10
+  __declspec(property(get = __cordl_internal_get_headRotation, put = __cordl_internal_set_headRotation))::UnityEngine::Quaternion headRotation;
+
+  /// @brief Field headRotationOffset, offset 0x128, size 0x10
+  __declspec(property(get = __cordl_internal_get_headRotationOffset, put = __cordl_internal_set_headRotationOffset))::UnityEngine::Quaternion headRotationOffset;
+
+  /// @brief Field headTarget, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_headTarget, put = __cordl_internal_set_headTarget))::UnityW<::UnityEngine::Transform> headTarget;
+
+  /// @brief Field length, offset 0x20c, size 0x4
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
+
+  /// @brief Field locomotionHeadPositionOffset, offset 0x144, size 0xc
+  __declspec(property(get = __cordl_internal_get_locomotionHeadPositionOffset, put = __cordl_internal_set_locomotionHeadPositionOffset))::UnityEngine::Vector3 locomotionHeadPositionOffset;
 
   /// @brief Field maintainPelvisPosition, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get_maintainPelvisPosition, put = __cordl_internal_set_maintainPelvisPosition)) float_t maintainPelvisPosition;
@@ -2179,548 +2237,489 @@ public:
   /// @brief Field maxRootAngle, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get_maxRootAngle, put = __cordl_internal_set_maxRootAngle)) float_t maxRootAngle;
 
-  /// @brief Field rootHeadingOffset, offset 0x9c, size 0x4
-  __declspec(property(get = __cordl_internal_get_rootHeadingOffset, put = __cordl_internal_set_rootHeadingOffset)) float_t rootHeadingOffset;
+  /// @brief Field minHeadHeight, offset 0x74, size 0x4
+  __declspec(property(get = __cordl_internal_get_minHeadHeight, put = __cordl_internal_set_minHeadHeight)) float_t minHeadHeight;
 
-  /// @brief Field IKPositionHead, offset 0xa0, size 0xc
-  __declspec(property(get = __cordl_internal_get_IKPositionHead, put = __cordl_internal_set_IKPositionHead))::UnityEngine::Vector3 IKPositionHead;
+  /// @brief Field moveBodyBackWhenCrouching, offset 0x90, size 0x4
+  __declspec(property(get = __cordl_internal_get_moveBodyBackWhenCrouching, put = __cordl_internal_set_moveBodyBackWhenCrouching)) float_t moveBodyBackWhenCrouching;
 
-  /// @brief Field IKRotationHead, offset 0xac, size 0x10
-  __declspec(property(get = __cordl_internal_get_IKRotationHead, put = __cordl_internal_set_IKRotationHead))::UnityEngine::Quaternion IKRotationHead;
-
-  /// @brief Field IKPositionPelvis, offset 0xbc, size 0xc
-  __declspec(property(get = __cordl_internal_get_IKPositionPelvis, put = __cordl_internal_set_IKPositionPelvis))::UnityEngine::Vector3 IKPositionPelvis;
-
-  /// @brief Field IKRotationPelvis, offset 0xc8, size 0x10
-  __declspec(property(get = __cordl_internal_get_IKRotationPelvis, put = __cordl_internal_set_IKRotationPelvis))::UnityEngine::Quaternion IKRotationPelvis;
-
-  /// @brief Field goalPositionChest, offset 0xd8, size 0xc
-  __declspec(property(get = __cordl_internal_get_goalPositionChest, put = __cordl_internal_set_goalPositionChest))::UnityEngine::Vector3 goalPositionChest;
-
-  /// @brief Field pelvisPositionOffset, offset 0xe4, size 0xc
-  __declspec(property(get = __cordl_internal_get_pelvisPositionOffset, put = __cordl_internal_set_pelvisPositionOffset))::UnityEngine::Vector3 pelvisPositionOffset;
-
-  /// @brief Field chestPositionOffset, offset 0xf0, size 0xc
-  __declspec(property(get = __cordl_internal_get_chestPositionOffset, put = __cordl_internal_set_chestPositionOffset))::UnityEngine::Vector3 chestPositionOffset;
-
-  /// @brief Field headPositionOffset, offset 0xfc, size 0xc
-  __declspec(property(get = __cordl_internal_get_headPositionOffset, put = __cordl_internal_set_headPositionOffset))::UnityEngine::Vector3 headPositionOffset;
-
-  /// @brief Field pelvisRotationOffset, offset 0x108, size 0x10
-  __declspec(property(get = __cordl_internal_get_pelvisRotationOffset, put = __cordl_internal_set_pelvisRotationOffset))::UnityEngine::Quaternion pelvisRotationOffset;
-
-  /// @brief Field chestRotationOffset, offset 0x118, size 0x10
-  __declspec(property(get = __cordl_internal_get_chestRotationOffset, put = __cordl_internal_set_chestRotationOffset))::UnityEngine::Quaternion chestRotationOffset;
-
-  /// @brief Field headRotationOffset, offset 0x128, size 0x10
-  __declspec(property(get = __cordl_internal_get_headRotationOffset, put = __cordl_internal_set_headRotationOffset))::UnityEngine::Quaternion headRotationOffset;
-
-  /// @brief Field faceDirection, offset 0x138, size 0xc
-  __declspec(property(get = __cordl_internal_get_faceDirection, put = __cordl_internal_set_faceDirection))::UnityEngine::Vector3 faceDirection;
-
-  /// @brief Field locomotionHeadPositionOffset, offset 0x144, size 0xc
-  __declspec(property(get = __cordl_internal_get_locomotionHeadPositionOffset, put = __cordl_internal_set_locomotionHeadPositionOffset))::UnityEngine::Vector3 locomotionHeadPositionOffset;
-
-  /// @brief Field headPosition, offset 0x150, size 0xc
-  __declspec(property(get = __cordl_internal_get_headPosition, put = __cordl_internal_set_headPosition))::UnityEngine::Vector3 headPosition;
-
-  /// @brief Field <anchorRotation>k__BackingField, offset 0x15c, size 0x10
-  __declspec(property(get = __cordl_internal_get__anchorRotation_k__BackingField, put = __cordl_internal_set__anchorRotation_k__BackingField))::UnityEngine::Quaternion _anchorRotation_k__BackingField;
-
-  /// @brief Field <anchorRelativeToHead>k__BackingField, offset 0x16c, size 0x10
-  __declspec(property(get = __cordl_internal_get__anchorRelativeToHead_k__BackingField,
-                      put = __cordl_internal_set__anchorRelativeToHead_k__BackingField))::UnityEngine::Quaternion _anchorRelativeToHead_k__BackingField;
-
-  /// @brief Field headRotation, offset 0x17c, size 0x10
-  __declspec(property(get = __cordl_internal_get_headRotation, put = __cordl_internal_set_headRotation))::UnityEngine::Quaternion headRotation;
-
-  /// @brief Field pelvisRotation, offset 0x18c, size 0x10
-  __declspec(property(get = __cordl_internal_get_pelvisRotation, put = __cordl_internal_set_pelvisRotation))::UnityEngine::Quaternion pelvisRotation;
-
-  /// @brief Field anchorRelativeToPelvis, offset 0x19c, size 0x10
-  __declspec(property(get = __cordl_internal_get_anchorRelativeToPelvis, put = __cordl_internal_set_anchorRelativeToPelvis))::UnityEngine::Quaternion anchorRelativeToPelvis;
-
-  /// @brief Field pelvisRelativeRotation, offset 0x1ac, size 0x10
-  __declspec(property(get = __cordl_internal_get_pelvisRelativeRotation, put = __cordl_internal_set_pelvisRelativeRotation))::UnityEngine::Quaternion pelvisRelativeRotation;
-
-  /// @brief Field chestRelativeRotation, offset 0x1bc, size 0x10
-  __declspec(property(get = __cordl_internal_get_chestRelativeRotation, put = __cordl_internal_set_chestRelativeRotation))::UnityEngine::Quaternion chestRelativeRotation;
-
-  /// @brief Field headDeltaPosition, offset 0x1cc, size 0xc
-  __declspec(property(get = __cordl_internal_get_headDeltaPosition, put = __cordl_internal_set_headDeltaPosition))::UnityEngine::Vector3 headDeltaPosition;
-
-  /// @brief Field pelvisDeltaRotation, offset 0x1d8, size 0x10
-  __declspec(property(get = __cordl_internal_get_pelvisDeltaRotation, put = __cordl_internal_set_pelvisDeltaRotation))::UnityEngine::Quaternion pelvisDeltaRotation;
-
-  /// @brief Field chestTargetRotation, offset 0x1e8, size 0x10
-  __declspec(property(get = __cordl_internal_get_chestTargetRotation, put = __cordl_internal_set_chestTargetRotation))::UnityEngine::Quaternion chestTargetRotation;
-
-  /// @brief Field pelvisIndex, offset 0x1f8, size 0x4
-  __declspec(property(get = __cordl_internal_get_pelvisIndex, put = __cordl_internal_set_pelvisIndex)) int32_t pelvisIndex;
-
-  /// @brief Field spineIndex, offset 0x1fc, size 0x4
-  __declspec(property(get = __cordl_internal_get_spineIndex, put = __cordl_internal_set_spineIndex)) int32_t spineIndex;
-
-  /// @brief Field chestIndex, offset 0x200, size 0x4
-  __declspec(property(get = __cordl_internal_get_chestIndex, put = __cordl_internal_set_chestIndex)) int32_t chestIndex;
+  __declspec(property(get = get_neck))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* neck;
 
   /// @brief Field neckIndex, offset 0x204, size 0x4
   __declspec(property(get = __cordl_internal_get_neckIndex, put = __cordl_internal_set_neckIndex)) int32_t neckIndex;
 
-  /// @brief Field headIndex, offset 0x208, size 0x4
-  __declspec(property(get = __cordl_internal_get_headIndex, put = __cordl_internal_set_headIndex)) int32_t headIndex;
+  /// @brief Field neckStiffness, offset 0x80, size 0x4
+  __declspec(property(get = __cordl_internal_get_neckStiffness, put = __cordl_internal_set_neckStiffness)) float_t neckStiffness;
 
-  /// @brief Field length, offset 0x20c, size 0x4
-  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
+  __declspec(property(get = get_pelvis))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* pelvis;
 
-  /// @brief Field hasChest, offset 0x210, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasChest, put = __cordl_internal_set_hasChest)) bool hasChest;
+  /// @brief Field pelvisDeltaRotation, offset 0x1d8, size 0x10
+  __declspec(property(get = __cordl_internal_get_pelvisDeltaRotation, put = __cordl_internal_set_pelvisDeltaRotation))::UnityEngine::Quaternion pelvisDeltaRotation;
 
-  /// @brief Field hasNeck, offset 0x211, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasNeck, put = __cordl_internal_set_hasNeck)) bool hasNeck;
+  /// @brief Field pelvisIndex, offset 0x1f8, size 0x4
+  __declspec(property(get = __cordl_internal_get_pelvisIndex, put = __cordl_internal_set_pelvisIndex)) int32_t pelvisIndex;
 
-  /// @brief Field hasLegs, offset 0x212, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasLegs, put = __cordl_internal_set_hasLegs)) bool hasLegs;
+  /// @brief Field pelvisPositionOffset, offset 0xe4, size 0xc
+  __declspec(property(get = __cordl_internal_get_pelvisPositionOffset, put = __cordl_internal_set_pelvisPositionOffset))::UnityEngine::Vector3 pelvisPositionOffset;
 
-  /// @brief Field headHeight, offset 0x214, size 0x4
-  __declspec(property(get = __cordl_internal_get_headHeight, put = __cordl_internal_set_headHeight)) float_t headHeight;
+  /// @brief Field pelvisPositionWeight, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get_pelvisPositionWeight, put = __cordl_internal_set_pelvisPositionWeight)) float_t pelvisPositionWeight;
+
+  /// @brief Field pelvisRelativeRotation, offset 0x1ac, size 0x10
+  __declspec(property(get = __cordl_internal_get_pelvisRelativeRotation, put = __cordl_internal_set_pelvisRelativeRotation))::UnityEngine::Quaternion pelvisRelativeRotation;
+
+  /// @brief Field pelvisRotation, offset 0x18c, size 0x10
+  __declspec(property(get = __cordl_internal_get_pelvisRotation, put = __cordl_internal_set_pelvisRotation))::UnityEngine::Quaternion pelvisRotation;
+
+  /// @brief Field pelvisRotationOffset, offset 0x108, size 0x10
+  __declspec(property(get = __cordl_internal_get_pelvisRotationOffset, put = __cordl_internal_set_pelvisRotationOffset))::UnityEngine::Quaternion pelvisRotationOffset;
+
+  /// @brief Field pelvisRotationWeight, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get_pelvisRotationWeight, put = __cordl_internal_set_pelvisRotationWeight)) float_t pelvisRotationWeight;
+
+  /// @brief Field pelvisTarget, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_pelvisTarget, put = __cordl_internal_set_pelvisTarget))::UnityW<::UnityEngine::Transform> pelvisTarget;
+
+  /// @brief Field positionWeight, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_positionWeight, put = __cordl_internal_set_positionWeight)) float_t positionWeight;
+
+  /// @brief Field rootHeadingOffset, offset 0x9c, size 0x4
+  __declspec(property(get = __cordl_internal_get_rootHeadingOffset, put = __cordl_internal_set_rootHeadingOffset)) float_t rootHeadingOffset;
+
+  /// @brief Field rotateChestByHands, offset 0x84, size 0x4
+  __declspec(property(get = __cordl_internal_get_rotateChestByHands, put = __cordl_internal_set_rotateChestByHands)) float_t rotateChestByHands;
+
+  /// @brief Field rotationWeight, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get_rotationWeight, put = __cordl_internal_set_rotationWeight)) float_t rotationWeight;
 
   /// @brief Field sizeMlp, offset 0x218, size 0x4
   __declspec(property(get = __cordl_internal_get_sizeMlp, put = __cordl_internal_set_sizeMlp)) float_t sizeMlp;
 
-  /// @brief Field chestForward, offset 0x21c, size 0xc
-  __declspec(property(get = __cordl_internal_get_chestForward, put = __cordl_internal_set_chestForward))::UnityEngine::Vector3 chestForward;
+  /// @brief Field spineIndex, offset 0x1fc, size 0x4
+  __declspec(property(get = __cordl_internal_get_spineIndex, put = __cordl_internal_set_spineIndex)) int32_t spineIndex;
 
-  __declspec(property(get = get_pelvis))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* pelvis;
-
-  __declspec(property(get = get_firstSpineBone))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* firstSpineBone;
-
-  __declspec(property(get = get_chest))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* chest;
-
-  __declspec(property(get = get_neck))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* neck;
-
-  __declspec(property(get = get_head))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* head;
-
-  __declspec(property(get = get_anchorRotation, put = set_anchorRotation))::UnityEngine::Quaternion anchorRotation;
-
-  __declspec(property(get = get_anchorRelativeToHead, put = set_anchorRelativeToHead))::UnityEngine::Quaternion anchorRelativeToHead;
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_headTarget();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_headTarget() const;
-
-  constexpr void __cordl_internal_set_headTarget(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_pelvisTarget();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_pelvisTarget() const;
-
-  constexpr void __cordl_internal_set_pelvisTarget(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr float_t& __cordl_internal_get_positionWeight();
-
-  constexpr float_t const& __cordl_internal_get_positionWeight() const;
-
-  constexpr void __cordl_internal_set_positionWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_rotationWeight();
-
-  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
-
-  constexpr void __cordl_internal_set_rotationWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_pelvisPositionWeight();
-
-  constexpr float_t const& __cordl_internal_get_pelvisPositionWeight() const;
-
-  constexpr void __cordl_internal_set_pelvisPositionWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_pelvisRotationWeight();
-
-  constexpr float_t const& __cordl_internal_get_pelvisRotationWeight() const;
-
-  constexpr void __cordl_internal_set_pelvisRotationWeight(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_chestGoal();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_chestGoal() const;
-
-  constexpr void __cordl_internal_set_chestGoal(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr float_t& __cordl_internal_get_chestGoalWeight();
-
-  constexpr float_t const& __cordl_internal_get_chestGoalWeight() const;
-
-  constexpr void __cordl_internal_set_chestGoalWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_minHeadHeight();
-
-  constexpr float_t const& __cordl_internal_get_minHeadHeight() const;
-
-  constexpr void __cordl_internal_set_minHeadHeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_bodyPosStiffness();
-
-  constexpr float_t const& __cordl_internal_get_bodyPosStiffness() const;
-
-  constexpr void __cordl_internal_set_bodyPosStiffness(float_t value);
-
-  constexpr float_t& __cordl_internal_get_bodyRotStiffness();
-
-  constexpr float_t const& __cordl_internal_get_bodyRotStiffness() const;
-
-  constexpr void __cordl_internal_set_bodyRotStiffness(float_t value);
-
-  constexpr float_t& __cordl_internal_get_neckStiffness();
-
-  constexpr float_t const& __cordl_internal_get_neckStiffness() const;
-
-  constexpr void __cordl_internal_set_neckStiffness(float_t value);
-
-  constexpr float_t& __cordl_internal_get_rotateChestByHands();
-
-  constexpr float_t const& __cordl_internal_get_rotateChestByHands() const;
-
-  constexpr void __cordl_internal_set_rotateChestByHands(float_t value);
-
-  constexpr float_t& __cordl_internal_get_chestClampWeight();
-
-  constexpr float_t const& __cordl_internal_get_chestClampWeight() const;
-
-  constexpr void __cordl_internal_set_chestClampWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_headClampWeight();
-
-  constexpr float_t const& __cordl_internal_get_headClampWeight() const;
-
-  constexpr void __cordl_internal_set_headClampWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_moveBodyBackWhenCrouching();
-
-  constexpr float_t const& __cordl_internal_get_moveBodyBackWhenCrouching() const;
-
-  constexpr void __cordl_internal_set_moveBodyBackWhenCrouching(float_t value);
-
-  constexpr float_t& __cordl_internal_get_maintainPelvisPosition();
-
-  constexpr float_t const& __cordl_internal_get_maintainPelvisPosition() const;
-
-  constexpr void __cordl_internal_set_maintainPelvisPosition(float_t value);
-
-  constexpr float_t& __cordl_internal_get_maxRootAngle();
-
-  constexpr float_t const& __cordl_internal_get_maxRootAngle() const;
-
-  constexpr void __cordl_internal_set_maxRootAngle(float_t value);
-
-  constexpr float_t& __cordl_internal_get_rootHeadingOffset();
-
-  constexpr float_t const& __cordl_internal_get_rootHeadingOffset() const;
-
-  constexpr void __cordl_internal_set_rootHeadingOffset(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_IKPositionHead();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_IKPositionHead() const;
-
-  constexpr void __cordl_internal_set_IKPositionHead(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotationHead();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotationHead() const;
-
-  constexpr void __cordl_internal_set_IKRotationHead(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_IKPositionPelvis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_IKPositionPelvis() const;
-
-  constexpr void __cordl_internal_set_IKPositionPelvis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotationPelvis();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotationPelvis() const;
-
-  constexpr void __cordl_internal_set_IKRotationPelvis(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_goalPositionChest();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_goalPositionChest() const;
-
-  constexpr void __cordl_internal_set_goalPositionChest(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pelvisPositionOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pelvisPositionOffset() const;
-
-  constexpr void __cordl_internal_set_pelvisPositionOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestPositionOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestPositionOffset() const;
-
-  constexpr void __cordl_internal_set_chestPositionOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headPositionOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headPositionOffset() const;
-
-  constexpr void __cordl_internal_set_headPositionOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pelvisRotationOffset();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pelvisRotationOffset() const;
-
-  constexpr void __cordl_internal_set_pelvisRotationOffset(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_chestRotationOffset();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_chestRotationOffset() const;
-
-  constexpr void __cordl_internal_set_chestRotationOffset(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_headRotationOffset();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_headRotationOffset() const;
-
-  constexpr void __cordl_internal_set_headRotationOffset(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_faceDirection();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_faceDirection() const;
-
-  constexpr void __cordl_internal_set_faceDirection(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_locomotionHeadPositionOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_locomotionHeadPositionOffset() const;
-
-  constexpr void __cordl_internal_set_locomotionHeadPositionOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headPosition() const;
-
-  constexpr void __cordl_internal_set_headPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__anchorRotation_k__BackingField();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__anchorRotation_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__anchorRotation_k__BackingField(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__anchorRelativeToHead_k__BackingField();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__anchorRelativeToHead_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__anchorRelativeToHead_k__BackingField(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_headRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_headRotation() const;
-
-  constexpr void __cordl_internal_set_headRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pelvisRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pelvisRotation() const;
-
-  constexpr void __cordl_internal_set_pelvisRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_anchorRelativeToPelvis();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_anchorRelativeToPelvis() const;
-
-  constexpr void __cordl_internal_set_anchorRelativeToPelvis(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pelvisRelativeRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pelvisRelativeRotation() const;
-
-  constexpr void __cordl_internal_set_pelvisRelativeRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_chestRelativeRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_chestRelativeRotation() const;
-
-  constexpr void __cordl_internal_set_chestRelativeRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headDeltaPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headDeltaPosition() const;
-
-  constexpr void __cordl_internal_set_headDeltaPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pelvisDeltaRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pelvisDeltaRotation() const;
-
-  constexpr void __cordl_internal_set_pelvisDeltaRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_chestTargetRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_chestTargetRotation() const;
-
-  constexpr void __cordl_internal_set_chestTargetRotation(::UnityEngine::Quaternion value);
-
-  constexpr int32_t& __cordl_internal_get_pelvisIndex();
-
-  constexpr int32_t const& __cordl_internal_get_pelvisIndex() const;
-
-  constexpr void __cordl_internal_set_pelvisIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_spineIndex();
-
-  constexpr int32_t const& __cordl_internal_get_spineIndex() const;
-
-  constexpr void __cordl_internal_set_spineIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_chestIndex();
-
-  constexpr int32_t const& __cordl_internal_get_chestIndex() const;
-
-  constexpr void __cordl_internal_set_chestIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_neckIndex();
-
-  constexpr int32_t const& __cordl_internal_get_neckIndex() const;
-
-  constexpr void __cordl_internal_set_neckIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_headIndex();
-
-  constexpr int32_t const& __cordl_internal_get_headIndex() const;
-
-  constexpr void __cordl_internal_set_headIndex(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_length();
-
-  constexpr float_t const& __cordl_internal_get_length() const;
-
-  constexpr void __cordl_internal_set_length(float_t value);
-
-  constexpr bool& __cordl_internal_get_hasChest();
-
-  constexpr bool const& __cordl_internal_get_hasChest() const;
-
-  constexpr void __cordl_internal_set_hasChest(bool value);
-
-  constexpr bool& __cordl_internal_get_hasNeck();
-
-  constexpr bool const& __cordl_internal_get_hasNeck() const;
-
-  constexpr void __cordl_internal_set_hasNeck(bool value);
-
-  constexpr bool& __cordl_internal_get_hasLegs();
-
-  constexpr bool const& __cordl_internal_get_hasLegs() const;
-
-  constexpr void __cordl_internal_set_hasLegs(bool value);
-
-  constexpr float_t& __cordl_internal_get_headHeight();
-
-  constexpr float_t const& __cordl_internal_get_headHeight() const;
-
-  constexpr void __cordl_internal_set_headHeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_sizeMlp();
-
-  constexpr float_t const& __cordl_internal_get_sizeMlp() const;
-
-  constexpr void __cordl_internal_set_sizeMlp(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestForward();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestForward() const;
-
-  constexpr void __cordl_internal_set_chestForward(::UnityEngine::Vector3 value);
-
-  /// @brief Method get_pelvis, addr 0x1316290, size 0x34, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_pelvis();
-
-  /// @brief Method get_firstSpineBone, addr 0x13162c4, size 0x34, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_firstSpineBone();
-
-  /// @brief Method get_chest, addr 0x13162f8, size 0x48, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_chest();
-
-  /// @brief Method get_neck, addr 0x1316340, size 0x34, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_neck();
-
-  /// @brief Method get_head, addr 0x1316374, size 0x34, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_head();
-
-  /// @brief Method get_anchorRotation, addr 0x13163a8, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_anchorRotation();
-
-  /// @brief Method set_anchorRotation, addr 0x13163bc, size 0x14, virtual false, abstract: false, final false
-  inline void set_anchorRotation(::UnityEngine::Quaternion value);
-
-  /// @brief Method get_anchorRelativeToHead, addr 0x13163d0, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_anchorRelativeToHead();
-
-  /// @brief Method set_anchorRelativeToHead, addr 0x13163e4, size 0x14, virtual false, abstract: false, final false
-  inline void set_anchorRelativeToHead(::UnityEngine::Quaternion value);
-
-  /// @brief Method OnRead, addr 0x13163f8, size 0xc60, virtual true, abstract: false, final false
-  inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
-                     bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
-
-  /// @brief Method PreSolve, addr 0x13170e8, size 0x1e8, virtual true, abstract: false, final false
-  inline void PreSolve();
-
-  /// @brief Method ApplyOffsets, addr 0x13172d0, size 0x794, virtual true, abstract: false, final false
-  inline void ApplyOffsets();
-
-  /// @brief Method CalculateChestTargetRotation, addr 0x1317a64, size 0x244, virtual false, abstract: false, final false
-  inline void CalculateChestTargetRotation(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone,
-                                           ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
-
-  /// @brief Method Solve, addr 0x13180a0, size 0x53c, virtual false, abstract: false, final false
-  inline void Solve(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone, ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs,
-                    ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
-
-  /// @brief Method FABRIKPass, addr 0x13189ec, size 0x260, virtual false, abstract: false, final false
-  inline void FABRIKPass(::UnityEngine::Vector3 animatedPelvisPos, ::UnityEngine::Vector3 rootUp, float_t weight);
-
-  /// @brief Method SolvePelvis, addr 0x1319194, size 0x290, virtual false, abstract: false, final false
-  inline void SolvePelvis();
-
-  /// @brief Method Write, addr 0x1319bd4, size 0x1d0, virtual true, abstract: false, final false
-  inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
-                    ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
-
-  /// @brief Method ResetOffsets, addr 0x1319da4, size 0xd4, virtual true, abstract: false, final false
-  inline void ResetOffsets();
-
-  /// @brief Method AdjustChestByHands, addr 0x1317ca8, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method AdjustChestByHands, addr 0x1359c94, size 0x3f8, virtual false, abstract: false, final false
   inline void AdjustChestByHands(ByRef<::UnityEngine::Quaternion> chestTargetRotation, ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
 
-  /// @brief Method InverseTranslateToHead, addr 0x1318ebc, size 0xdc, virtual false, abstract: false, final false
-  inline void InverseTranslateToHead(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs, bool limited, bool useCurrentLegMag,
-                                     ::UnityEngine::Vector3 offset, float_t w);
+  /// @brief Method ApplyOffsets, addr 0x13592bc, size 0x794, virtual true, abstract: false, final false
+  inline void ApplyOffsets();
 
-  /// @brief Method TranslatePelvis, addr 0x13185dc, size 0x410, virtual false, abstract: false, final false
-  inline void TranslatePelvis(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs, ::UnityEngine::Vector3 deltaPosition,
-                              ::UnityEngine::Quaternion deltaRotation);
-
-  /// @brief Method LimitPelvisPosition, addr 0x1319e78, size 0x2a8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 LimitPelvisPosition(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs,
-                                                    ::UnityEngine::Vector3 pelvisPosition, bool useCurrentLegMag, int32_t it);
-
-  /// @brief Method Bend, addr 0x1318f98, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Bend, addr 0x135af84, size 0x1fc, virtual false, abstract: false, final false
   inline void Bend(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t firstIndex, int32_t lastIndex,
                    ::UnityEngine::Quaternion targetRotation, float_t clampWeight, bool uniformWeight, float_t w);
 
-  /// @brief Method Bend, addr 0x1318c4c, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method Bend, addr 0x135ac38, size 0x270, virtual false, abstract: false, final false
   inline void Bend(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t firstIndex, int32_t lastIndex,
                    ::UnityEngine::Quaternion targetRotation, ::UnityEngine::Quaternion rotationOffset, float_t clampWeight, bool uniformWeight, float_t w);
 
+  /// @brief Method CalculateChestTargetRotation, addr 0x1359a50, size 0x244, virtual false, abstract: false, final false
+  inline void CalculateChestTargetRotation(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone,
+                                           ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
+
+  /// @brief Method FABRIKPass, addr 0x135a9d8, size 0x260, virtual false, abstract: false, final false
+  inline void FABRIKPass(::UnityEngine::Vector3 animatedPelvisPos, ::UnityEngine::Vector3 rootUp, float_t weight);
+
+  /// @brief Method InverseTranslateToHead, addr 0x135aea8, size 0xdc, virtual false, abstract: false, final false
+  inline void InverseTranslateToHead(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs, bool limited, bool useCurrentLegMag,
+                                     ::UnityEngine::Vector3 offset, float_t w);
+
+  /// @brief Method LimitPelvisPosition, addr 0x135be64, size 0x2a8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 LimitPelvisPosition(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs,
+                                                    ::UnityEngine::Vector3 pelvisPosition, bool useCurrentLegMag, int32_t it);
+
   static inline ::RootMotion::FinalIK::__IKSolverVR__Spine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x131a290, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnRead, addr 0x13583e4, size 0xc60, virtual true, abstract: false, final false
+  inline void OnRead(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
+                     bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs, int32_t rootIndex, int32_t index);
+
+  /// @brief Method PreSolve, addr 0x13590d4, size 0x1e8, virtual true, abstract: false, final false
+  inline void PreSolve();
+
+  /// @brief Method ResetOffsets, addr 0x135bd90, size 0xd4, virtual true, abstract: false, final false
+  inline void ResetOffsets();
+
+  /// @brief Method Solve, addr 0x135a08c, size 0x53c, virtual false, abstract: false, final false
+  inline void Solve(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone, ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs,
+                    ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms);
+
+  /// @brief Method SolvePelvis, addr 0x135b180, size 0x290, virtual false, abstract: false, final false
+  inline void SolvePelvis();
+
+  /// @brief Method TranslatePelvis, addr 0x135a5c8, size 0x410, virtual false, abstract: false, final false
+  inline void TranslatePelvis(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs, ::UnityEngine::Vector3 deltaPosition,
+                              ::UnityEngine::Quaternion deltaRotation);
+
+  /// @brief Method Write, addr 0x135bbc0, size 0x1d0, virtual true, abstract: false, final false
+  inline void Write(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> solvedPositions,
+                    ByRef<::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>> solvedRotations);
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_IKPositionHead() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_IKPositionHead();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_IKPositionPelvis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_IKPositionPelvis();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotationHead() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotationHead();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotationPelvis() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotationPelvis();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__anchorRelativeToHead_k__BackingField() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__anchorRelativeToHead_k__BackingField();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__anchorRotation_k__BackingField() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__anchorRotation_k__BackingField();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_anchorRelativeToPelvis() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_anchorRelativeToPelvis();
+
+  constexpr float_t const& __cordl_internal_get_bodyPosStiffness() const;
+
+  constexpr float_t& __cordl_internal_get_bodyPosStiffness();
+
+  constexpr float_t const& __cordl_internal_get_bodyRotStiffness() const;
+
+  constexpr float_t& __cordl_internal_get_bodyRotStiffness();
+
+  constexpr float_t const& __cordl_internal_get_chestClampWeight() const;
+
+  constexpr float_t& __cordl_internal_get_chestClampWeight();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestForward() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestForward();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_chestGoal() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_chestGoal();
+
+  constexpr float_t const& __cordl_internal_get_chestGoalWeight() const;
+
+  constexpr float_t& __cordl_internal_get_chestGoalWeight();
+
+  constexpr int32_t const& __cordl_internal_get_chestIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_chestIndex();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestPositionOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestPositionOffset();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_chestRelativeRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_chestRelativeRotation();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_chestRotationOffset() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_chestRotationOffset();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_chestTargetRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_chestTargetRotation();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_faceDirection() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_faceDirection();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_goalPositionChest() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_goalPositionChest();
+
+  constexpr bool const& __cordl_internal_get_hasChest() const;
+
+  constexpr bool& __cordl_internal_get_hasChest();
+
+  constexpr bool const& __cordl_internal_get_hasLegs() const;
+
+  constexpr bool& __cordl_internal_get_hasLegs();
+
+  constexpr bool const& __cordl_internal_get_hasNeck() const;
+
+  constexpr bool& __cordl_internal_get_hasNeck();
+
+  constexpr float_t const& __cordl_internal_get_headClampWeight() const;
+
+  constexpr float_t& __cordl_internal_get_headClampWeight();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headDeltaPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headDeltaPosition();
+
+  constexpr float_t const& __cordl_internal_get_headHeight() const;
+
+  constexpr float_t& __cordl_internal_get_headHeight();
+
+  constexpr int32_t const& __cordl_internal_get_headIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_headIndex();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headPosition();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headPositionOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headPositionOffset();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_headRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_headRotation();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_headRotationOffset() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_headRotationOffset();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_headTarget() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_headTarget();
+
+  constexpr float_t const& __cordl_internal_get_length() const;
+
+  constexpr float_t& __cordl_internal_get_length();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_locomotionHeadPositionOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_locomotionHeadPositionOffset();
+
+  constexpr float_t const& __cordl_internal_get_maintainPelvisPosition() const;
+
+  constexpr float_t& __cordl_internal_get_maintainPelvisPosition();
+
+  constexpr float_t const& __cordl_internal_get_maxRootAngle() const;
+
+  constexpr float_t& __cordl_internal_get_maxRootAngle();
+
+  constexpr float_t const& __cordl_internal_get_minHeadHeight() const;
+
+  constexpr float_t& __cordl_internal_get_minHeadHeight();
+
+  constexpr float_t const& __cordl_internal_get_moveBodyBackWhenCrouching() const;
+
+  constexpr float_t& __cordl_internal_get_moveBodyBackWhenCrouching();
+
+  constexpr int32_t const& __cordl_internal_get_neckIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_neckIndex();
+
+  constexpr float_t const& __cordl_internal_get_neckStiffness() const;
+
+  constexpr float_t& __cordl_internal_get_neckStiffness();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pelvisDeltaRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pelvisDeltaRotation();
+
+  constexpr int32_t const& __cordl_internal_get_pelvisIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_pelvisIndex();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pelvisPositionOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pelvisPositionOffset();
+
+  constexpr float_t const& __cordl_internal_get_pelvisPositionWeight() const;
+
+  constexpr float_t& __cordl_internal_get_pelvisPositionWeight();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pelvisRelativeRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pelvisRelativeRotation();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pelvisRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pelvisRotation();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_pelvisRotationOffset() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_pelvisRotationOffset();
+
+  constexpr float_t const& __cordl_internal_get_pelvisRotationWeight() const;
+
+  constexpr float_t& __cordl_internal_get_pelvisRotationWeight();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_pelvisTarget() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_pelvisTarget();
+
+  constexpr float_t const& __cordl_internal_get_positionWeight() const;
+
+  constexpr float_t& __cordl_internal_get_positionWeight();
+
+  constexpr float_t const& __cordl_internal_get_rootHeadingOffset() const;
+
+  constexpr float_t& __cordl_internal_get_rootHeadingOffset();
+
+  constexpr float_t const& __cordl_internal_get_rotateChestByHands() const;
+
+  constexpr float_t& __cordl_internal_get_rotateChestByHands();
+
+  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
+
+  constexpr float_t& __cordl_internal_get_rotationWeight();
+
+  constexpr float_t const& __cordl_internal_get_sizeMlp() const;
+
+  constexpr float_t& __cordl_internal_get_sizeMlp();
+
+  constexpr int32_t const& __cordl_internal_get_spineIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_spineIndex();
+
+  constexpr void __cordl_internal_set_IKPositionHead(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_IKPositionPelvis(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_IKRotationHead(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_IKRotationPelvis(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set__anchorRelativeToHead_k__BackingField(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set__anchorRotation_k__BackingField(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_anchorRelativeToPelvis(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_bodyPosStiffness(float_t value);
+
+  constexpr void __cordl_internal_set_bodyRotStiffness(float_t value);
+
+  constexpr void __cordl_internal_set_chestClampWeight(float_t value);
+
+  constexpr void __cordl_internal_set_chestForward(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_chestGoal(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_chestGoalWeight(float_t value);
+
+  constexpr void __cordl_internal_set_chestIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_chestPositionOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_chestRelativeRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_chestRotationOffset(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_chestTargetRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_faceDirection(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_goalPositionChest(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_hasChest(bool value);
+
+  constexpr void __cordl_internal_set_hasLegs(bool value);
+
+  constexpr void __cordl_internal_set_hasNeck(bool value);
+
+  constexpr void __cordl_internal_set_headClampWeight(float_t value);
+
+  constexpr void __cordl_internal_set_headDeltaPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_headHeight(float_t value);
+
+  constexpr void __cordl_internal_set_headIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_headPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_headPositionOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_headRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_headRotationOffset(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_headTarget(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_length(float_t value);
+
+  constexpr void __cordl_internal_set_locomotionHeadPositionOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_maintainPelvisPosition(float_t value);
+
+  constexpr void __cordl_internal_set_maxRootAngle(float_t value);
+
+  constexpr void __cordl_internal_set_minHeadHeight(float_t value);
+
+  constexpr void __cordl_internal_set_moveBodyBackWhenCrouching(float_t value);
+
+  constexpr void __cordl_internal_set_neckIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_neckStiffness(float_t value);
+
+  constexpr void __cordl_internal_set_pelvisDeltaRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_pelvisIndex(int32_t value);
+
+  constexpr void __cordl_internal_set_pelvisPositionOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_pelvisPositionWeight(float_t value);
+
+  constexpr void __cordl_internal_set_pelvisRelativeRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_pelvisRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_pelvisRotationOffset(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_pelvisRotationWeight(float_t value);
+
+  constexpr void __cordl_internal_set_pelvisTarget(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_positionWeight(float_t value);
+
+  constexpr void __cordl_internal_set_rootHeadingOffset(float_t value);
+
+  constexpr void __cordl_internal_set_rotateChestByHands(float_t value);
+
+  constexpr void __cordl_internal_set_rotationWeight(float_t value);
+
+  constexpr void __cordl_internal_set_sizeMlp(float_t value);
+
+  constexpr void __cordl_internal_set_spineIndex(int32_t value);
+
+  /// @brief Method .ctor, addr 0x135c27c, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_anchorRelativeToHead, addr 0x13583bc, size 0x14, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_anchorRelativeToHead();
+
+  /// @brief Method get_anchorRotation, addr 0x1358394, size 0x14, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_anchorRotation();
+
+  /// @brief Method get_chest, addr 0x13582e4, size 0x48, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_chest();
+
+  /// @brief Method get_firstSpineBone, addr 0x13582b0, size 0x34, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_firstSpineBone();
+
+  /// @brief Method get_head, addr 0x1358360, size 0x34, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_head();
+
+  /// @brief Method get_neck, addr 0x135832c, size 0x34, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_neck();
+
+  /// @brief Method get_pelvis, addr 0x135827c, size 0x34, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_pelvis();
+
+  /// @brief Method set_anchorRelativeToHead, addr 0x13583d0, size 0x14, virtual false, abstract: false, final false
+  inline void set_anchorRelativeToHead(::UnityEngine::Quaternion value);
+
+  /// @brief Method set_anchorRotation, addr 0x13583a8, size 0x14, virtual false, abstract: false, final false
+  inline void set_anchorRotation(::UnityEngine::Quaternion value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IKSolverVR__Spine();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__Spine", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IKSolverVR__Spine(__IKSolverVR__Spine&&) = delete;
@@ -2729,12 +2728,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IKSolverVR__Spine(__IKSolverVR__Spine const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IKSolverVR__Spine();
-
-public:
   /// @brief Field headTarget, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___headTarget;
 
@@ -3020,8 +3013,6 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__Spine, ___chestForwa
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12488))
 // CS Name: ::IKSolverVR::PositionOffset
 struct CORDL_TYPE __IKSolverVR__PositionOffset {
 public:
@@ -3046,21 +3037,20 @@ public:
     return static_cast<____IKSolverVR__PositionOffset_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __IKSolverVR__PositionOffset(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____IKSolverVR__PositionOffset_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __IKSolverVR__PositionOffset();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __IKSolverVR__PositionOffset(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Pelvis value: static_cast<int32_t>(0x0)
-  static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const Pelvis;
 
   /// @brief Field Chest value: static_cast<int32_t>(0x1)
   static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const Chest;
@@ -3068,23 +3058,29 @@ public:
   /// @brief Field Head value: static_cast<int32_t>(0x2)
   static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const Head;
 
-  /// @brief Field LeftHand value: static_cast<int32_t>(0x3)
-  static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const LeftHand;
-
-  /// @brief Field RightHand value: static_cast<int32_t>(0x4)
-  static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const RightHand;
-
   /// @brief Field LeftFoot value: static_cast<int32_t>(0x5)
   static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const LeftFoot;
 
-  /// @brief Field RightFoot value: static_cast<int32_t>(0x6)
-  static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const RightFoot;
+  /// @brief Field LeftHand value: static_cast<int32_t>(0x3)
+  static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const LeftHand;
 
   /// @brief Field LeftHeel value: static_cast<int32_t>(0x7)
   static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const LeftHeel;
 
+  /// @brief Field Pelvis value: static_cast<int32_t>(0x0)
+  static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const Pelvis;
+
+  /// @brief Field RightFoot value: static_cast<int32_t>(0x6)
+  static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const RightFoot;
+
+  /// @brief Field RightHand value: static_cast<int32_t>(0x4)
+  static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const RightHand;
+
   /// @brief Field RightHeel value: static_cast<int32_t>(0x8)
   static ::RootMotion::FinalIK::__IKSolverVR__PositionOffset const RightHeel;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -3098,8 +3094,6 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__PositionOffset, valu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12489))
 // CS Name: ::IKSolverVR::RotationOffset
 struct CORDL_TYPE __IKSolverVR__RotationOffset {
 public:
@@ -3118,27 +3112,32 @@ public:
     return static_cast<____IKSolverVR__RotationOffset_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __IKSolverVR__RotationOffset(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____IKSolverVR__RotationOffset_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __IKSolverVR__RotationOffset();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __IKSolverVR__RotationOffset(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Pelvis value: static_cast<int32_t>(0x0)
-  static ::RootMotion::FinalIK::__IKSolverVR__RotationOffset const Pelvis;
 
   /// @brief Field Chest value: static_cast<int32_t>(0x1)
   static ::RootMotion::FinalIK::__IKSolverVR__RotationOffset const Chest;
 
   /// @brief Field Head value: static_cast<int32_t>(0x2)
   static ::RootMotion::FinalIK::__IKSolverVR__RotationOffset const Head;
+
+  /// @brief Field Pelvis value: static_cast<int32_t>(0x0)
+  static ::RootMotion::FinalIK::__IKSolverVR__RotationOffset const Pelvis;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -3152,12 +3151,16 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__RotationOffset, valu
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12490))
 // CS Name: ::IKSolverVR::VirtualBone*
 class CORDL_TYPE __IKSolverVR__VirtualBone : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field axis, offset 0x50, size 0xc
+  __declspec(property(get = __cordl_internal_get_axis, put = __cordl_internal_set_axis))::UnityEngine::Vector3 axis;
+
+  /// @brief Field length, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
+
   /// @brief Field readPosition, offset 0x10, size 0xc
   __declspec(property(get = __cordl_internal_get_readPosition, put = __cordl_internal_set_readPosition))::UnityEngine::Vector3 readPosition;
 
@@ -3170,105 +3173,105 @@ public:
   /// @brief Field solverRotation, offset 0x38, size 0x10
   __declspec(property(get = __cordl_internal_get_solverRotation, put = __cordl_internal_set_solverRotation))::UnityEngine::Quaternion solverRotation;
 
-  /// @brief Field length, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
-
   /// @brief Field sqrMag, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_sqrMag, put = __cordl_internal_set_sqrMag)) float_t sqrMag;
 
-  /// @brief Field axis, offset 0x50, size 0xc
-  __declspec(property(get = __cordl_internal_get_axis, put = __cordl_internal_set_axis))::UnityEngine::Vector3 axis;
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_readPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_readPosition() const;
-
-  constexpr void __cordl_internal_set_readPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_readRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_readRotation() const;
-
-  constexpr void __cordl_internal_set_readRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_solverPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_solverPosition() const;
-
-  constexpr void __cordl_internal_set_solverPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_solverRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_solverRotation() const;
-
-  constexpr void __cordl_internal_set_solverRotation(::UnityEngine::Quaternion value);
-
-  constexpr float_t& __cordl_internal_get_length();
-
-  constexpr float_t const& __cordl_internal_get_length() const;
-
-  constexpr void __cordl_internal_set_length(float_t value);
-
-  constexpr float_t& __cordl_internal_get_sqrMag();
-
-  constexpr float_t const& __cordl_internal_get_sqrMag() const;
-
-  constexpr void __cordl_internal_set_sqrMag(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axis() const;
-
-  constexpr void __cordl_internal_set_axis(::UnityEngine::Vector3 value);
+  /// @brief Method GetDirectionToBendPoint, addr 0x135cacc, size 0x158, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 GetDirectionToBendPoint(::UnityEngine::Vector3 direction, float_t directionMag, ::UnityEngine::Vector3 bendDirection, float_t sqrMag1, float_t sqrMag2);
 
   static inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x1317058, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
-
-  /// @brief Method Read, addr 0x13170c8, size 0x20, virtual false, abstract: false, final false
-  inline void Read(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
-
-  /// @brief Method SwingRotation, addr 0x131a3ac, size 0x200, virtual false, abstract: false, final false
-  static inline void SwingRotation(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
-                                   ::UnityEngine::Vector3 swingTarget, float_t weight);
-
-  /// @brief Method PreSolve, addr 0x131a5ac, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method PreSolve, addr 0x135c598, size 0x160, virtual false, abstract: false, final false
   static inline float_t PreSolve(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*>> bones);
 
-  /// @brief Method RotateAroundPoint, addr 0x131a120, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x13590b4, size 0x20, virtual false, abstract: false, final false
+  inline void Read(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+
+  /// @brief Method RotateAroundPoint, addr 0x135c10c, size 0x170, virtual false, abstract: false, final false
   static inline void RotateAroundPoint(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                                        ::UnityEngine::Vector3 point, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateBy, addr 0x131a70c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method RotateBy, addr 0x135c6f8, size 0x1a8, virtual false, abstract: false, final false
   static inline void RotateBy(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                               ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateBy, addr 0x131a8b4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method RotateBy, addr 0x135c8a0, size 0x188, virtual false, abstract: false, final false
   static inline void RotateBy(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RotateTo, addr 0x131aa3c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RotateTo, addr 0x135ca28, size 0xa4, virtual false, abstract: false, final false
   static inline void RotateTo(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
                               ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SolveTrigonometric, addr 0x13197f0, size 0x3e4, virtual false, abstract: false, final false
-  static inline void SolveTrigonometric(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t first, int32_t second,
-                                        int32_t third, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Vector3 bendNormal, float_t weight);
-
-  /// @brief Method GetDirectionToBendPoint, addr 0x131aae0, size 0x158, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 GetDirectionToBendPoint(::UnityEngine::Vector3 direction, float_t directionMag, ::UnityEngine::Vector3 bendDirection, float_t sqrMag1, float_t sqrMag2);
-
-  /// @brief Method SolveFABRIK, addr 0x1319424, size 0x3cc, virtual false, abstract: false, final false
-  static inline void SolveFABRIK(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, ::UnityEngine::Vector3 startPosition,
-                                 ::UnityEngine::Vector3 targetPosition, float_t weight, float_t minNormalizedTargetDistance, int32_t iterations, float_t length, ::UnityEngine::Vector3 startOffset);
-
-  /// @brief Method SolveFABRIKJoint, addr 0x131ac38, size 0x114, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
-
-  /// @brief Method SolveCCD, addr 0x131ad4c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method SolveCCD, addr 0x135cd38, size 0x1b4, virtual false, abstract: false, final false
   static inline void SolveCCD(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, ::UnityEngine::Vector3 targetPosition,
                               float_t weight, int32_t iterations);
 
+  /// @brief Method SolveFABRIK, addr 0x135b410, size 0x3cc, virtual false, abstract: false, final false
+  static inline void SolveFABRIK(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, ::UnityEngine::Vector3 startPosition,
+                                 ::UnityEngine::Vector3 targetPosition, float_t weight, float_t minNormalizedTargetDistance, int32_t iterations, float_t length, ::UnityEngine::Vector3 startOffset);
+
+  /// @brief Method SolveFABRIKJoint, addr 0x135cc24, size 0x114, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
+
+  /// @brief Method SolveTrigonometric, addr 0x135b7dc, size 0x3e4, virtual false, abstract: false, final false
+  static inline void SolveTrigonometric(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t first, int32_t second,
+                                        int32_t third, ::UnityEngine::Vector3 targetPosition, ::UnityEngine::Vector3 bendNormal, float_t weight);
+
+  /// @brief Method SwingRotation, addr 0x135c398, size 0x200, virtual false, abstract: false, final false
+  static inline void SwingRotation(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*, ::Array<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*>*> bones, int32_t index,
+                                   ::UnityEngine::Vector3 swingTarget, float_t weight);
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axis();
+
+  constexpr float_t const& __cordl_internal_get_length() const;
+
+  constexpr float_t& __cordl_internal_get_length();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_readPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_readPosition();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_readRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_readRotation();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_solverPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_solverPosition();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_solverRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_solverRotation();
+
+  constexpr float_t const& __cordl_internal_get_sqrMag() const;
+
+  constexpr float_t& __cordl_internal_get_sqrMag();
+
+  constexpr void __cordl_internal_set_axis(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_length(float_t value);
+
+  constexpr void __cordl_internal_set_readPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_readRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_solverPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_solverRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_sqrMag(float_t value);
+
+  /// @brief Method .ctor, addr 0x1359044, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __IKSolverVR__VirtualBone();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__IKSolverVR__VirtualBone", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __IKSolverVR__VirtualBone(__IKSolverVR__VirtualBone&&) = delete;
@@ -3277,12 +3280,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IKSolverVR__VirtualBone(__IKSolverVR__VirtualBone const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IKSolverVR__VirtualBone();
-
-public:
   /// @brief Field readPosition, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___readPosition;
 
@@ -3328,129 +3325,40 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverVR__VirtualBone, ___axis
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12462))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12491))
 // CS Name: ::RootMotion.FinalIK::IKSolverVR*
 class CORDL_TYPE IKSolverVR : public ::RootMotion::FinalIK::IKSolver {
 public:
   // Declarations
-  using VirtualBone = ::RootMotion::FinalIK::__IKSolverVR__VirtualBone;
-
-  using RotationOffset = ::RootMotion::FinalIK::__IKSolverVR__RotationOffset;
-
-  using PositionOffset = ::RootMotion::FinalIK::__IKSolverVR__PositionOffset;
-
-  using Spine = ::RootMotion::FinalIK::__IKSolverVR__Spine;
-
-  using Locomotion = ::RootMotion::FinalIK::__IKSolverVR__Locomotion;
-
-  using Leg = ::RootMotion::FinalIK::__IKSolverVR__Leg;
-
-  using Footstep = ::RootMotion::FinalIK::__IKSolverVR__Footstep;
+  using Arm = ::RootMotion::FinalIK::__IKSolverVR__Arm;
 
   using BodyPart = ::RootMotion::FinalIK::__IKSolverVR__BodyPart;
 
-  using Arm = ::RootMotion::FinalIK::__IKSolverVR__Arm;
+  using Footstep = ::RootMotion::FinalIK::__IKSolverVR__Footstep;
 
-  /// @brief Field solverTransforms, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_solverTransforms,
-                      put = __cordl_internal_set_solverTransforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> solverTransforms;
+  using Leg = ::RootMotion::FinalIK::__IKSolverVR__Leg;
 
-  /// @brief Field hasChest, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasChest, put = __cordl_internal_set_hasChest)) bool hasChest;
+  using Locomotion = ::RootMotion::FinalIK::__IKSolverVR__Locomotion;
 
-  /// @brief Field hasNeck, offset 0x61, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasNeck, put = __cordl_internal_set_hasNeck)) bool hasNeck;
+  using PositionOffset = ::RootMotion::FinalIK::__IKSolverVR__PositionOffset;
 
-  /// @brief Field hasShoulders, offset 0x62, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasShoulders, put = __cordl_internal_set_hasShoulders)) bool hasShoulders;
+  using RotationOffset = ::RootMotion::FinalIK::__IKSolverVR__RotationOffset;
 
-  /// @brief Field hasToes, offset 0x63, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasToes, put = __cordl_internal_set_hasToes)) bool hasToes;
+  using Spine = ::RootMotion::FinalIK::__IKSolverVR__Spine;
 
-  /// @brief Field hasLegs, offset 0x64, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasLegs, put = __cordl_internal_set_hasLegs)) bool hasLegs;
-
-  /// @brief Field readPositions, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_readPositions, put = __cordl_internal_set_readPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> readPositions;
-
-  /// @brief Field readRotations, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_readRotations, put = __cordl_internal_set_readRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> readRotations;
-
-  /// @brief Field solvedPositions, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_solvedPositions, put = __cordl_internal_set_solvedPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> solvedPositions;
-
-  /// @brief Field solvedRotations, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_solvedRotations, put = __cordl_internal_set_solvedRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> solvedRotations;
-
-  /// @brief Field defaultLocalRotations, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_defaultLocalRotations,
-                      put = __cordl_internal_set_defaultLocalRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> defaultLocalRotations;
-
-  /// @brief Field defaultLocalPositions, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_defaultLocalPositions,
-                      put = __cordl_internal_set_defaultLocalPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> defaultLocalPositions;
-
-  /// @brief Field rootV, offset 0x98, size 0xc
-  __declspec(property(get = __cordl_internal_get_rootV, put = __cordl_internal_set_rootV))::UnityEngine::Vector3 rootV;
-
-  /// @brief Field rootVelocity, offset 0xa4, size 0xc
-  __declspec(property(get = __cordl_internal_get_rootVelocity, put = __cordl_internal_set_rootVelocity))::UnityEngine::Vector3 rootVelocity;
-
-  /// @brief Field bodyOffset, offset 0xb0, size 0xc
-  __declspec(property(get = __cordl_internal_get_bodyOffset, put = __cordl_internal_set_bodyOffset))::UnityEngine::Vector3 bodyOffset;
-
-  /// @brief Field supportLegIndex, offset 0xbc, size 0x4
-  __declspec(property(get = __cordl_internal_get_supportLegIndex, put = __cordl_internal_set_supportLegIndex)) int32_t supportLegIndex;
-
-  /// @brief Field lastLOD, offset 0xc0, size 0x4
-  __declspec(property(get = __cordl_internal_get_lastLOD, put = __cordl_internal_set_lastLOD)) int32_t lastLOD;
+  using VirtualBone = ::RootMotion::FinalIK::__IKSolverVR__VirtualBone;
 
   /// @brief Field LOD, offset 0xc4, size 0x4
   __declspec(property(get = __cordl_internal_get_LOD, put = __cordl_internal_set_LOD)) int32_t LOD;
-
-  /// @brief Field plantFeet, offset 0xc8, size 0x1
-  __declspec(property(get = __cordl_internal_get_plantFeet, put = __cordl_internal_set_plantFeet)) bool plantFeet;
 
   /// @brief Field <rootBone>k__BackingField, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__rootBone_k__BackingField,
                       put = __cordl_internal_set__rootBone_k__BackingField))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* _rootBone_k__BackingField;
 
-  /// @brief Field spine, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_spine, put = __cordl_internal_set_spine))::RootMotion::FinalIK::__IKSolverVR__Spine* spine;
-
-  /// @brief Field leftArm, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_leftArm, put = __cordl_internal_set_leftArm))::RootMotion::FinalIK::__IKSolverVR__Arm* leftArm;
-
-  /// @brief Field rightArm, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightArm, put = __cordl_internal_set_rightArm))::RootMotion::FinalIK::__IKSolverVR__Arm* rightArm;
-
-  /// @brief Field leftLeg, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_leftLeg, put = __cordl_internal_set_leftLeg))::RootMotion::FinalIK::__IKSolverVR__Leg* leftLeg;
-
-  /// @brief Field rightLeg, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightLeg, put = __cordl_internal_set_rightLeg))::RootMotion::FinalIK::__IKSolverVR__Leg* rightLeg;
-
-  /// @brief Field locomotion, offset 0x100, size 0x8
-  __declspec(property(get = __cordl_internal_get_locomotion, put = __cordl_internal_set_locomotion))::RootMotion::FinalIK::__IKSolverVR__Locomotion* locomotion;
-
-  /// @brief Field legs, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get_legs, put = __cordl_internal_set_legs))::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs;
-
   /// @brief Field arms, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get_arms, put = __cordl_internal_set_arms))::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> arms;
 
-  /// @brief Field headPosition, offset 0x118, size 0xc
-  __declspec(property(get = __cordl_internal_get_headPosition, put = __cordl_internal_set_headPosition))::UnityEngine::Vector3 headPosition;
-
-  /// @brief Field headDeltaPosition, offset 0x124, size 0xc
-  __declspec(property(get = __cordl_internal_get_headDeltaPosition, put = __cordl_internal_set_headDeltaPosition))::UnityEngine::Vector3 headDeltaPosition;
-
-  /// @brief Field raycastOriginPelvis, offset 0x130, size 0xc
-  __declspec(property(get = __cordl_internal_get_raycastOriginPelvis, put = __cordl_internal_set_raycastOriginPelvis))::UnityEngine::Vector3 raycastOriginPelvis;
-
-  /// @brief Field lastOffset, offset 0x13c, size 0xc
-  __declspec(property(get = __cordl_internal_get_lastOffset, put = __cordl_internal_set_lastOffset))::UnityEngine::Vector3 lastOffset;
+  /// @brief Field bodyOffset, offset 0xb0, size 0xc
+  __declspec(property(get = __cordl_internal_get_bodyOffset, put = __cordl_internal_set_bodyOffset))::UnityEngine::Vector3 bodyOffset;
 
   /// @brief Field debugPos1, offset 0x148, size 0xc
   __declspec(property(get = __cordl_internal_get_debugPos1, put = __cordl_internal_set_debugPos1))::UnityEngine::Vector3 debugPos1;
@@ -3464,317 +3372,410 @@ public:
   /// @brief Field debugPos4, offset 0x16c, size 0xc
   __declspec(property(get = __cordl_internal_get_debugPos4, put = __cordl_internal_set_debugPos4))::UnityEngine::Vector3 debugPos4;
 
+  /// @brief Field defaultLocalPositions, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_defaultLocalPositions,
+                      put = __cordl_internal_set_defaultLocalPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> defaultLocalPositions;
+
+  /// @brief Field defaultLocalRotations, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_defaultLocalRotations,
+                      put = __cordl_internal_set_defaultLocalRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> defaultLocalRotations;
+
+  /// @brief Field hasChest, offset 0x60, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasChest, put = __cordl_internal_set_hasChest)) bool hasChest;
+
+  /// @brief Field hasLegs, offset 0x64, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasLegs, put = __cordl_internal_set_hasLegs)) bool hasLegs;
+
+  /// @brief Field hasNeck, offset 0x61, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasNeck, put = __cordl_internal_set_hasNeck)) bool hasNeck;
+
+  /// @brief Field hasShoulders, offset 0x62, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasShoulders, put = __cordl_internal_set_hasShoulders)) bool hasShoulders;
+
+  /// @brief Field hasToes, offset 0x63, size 0x1
+  __declspec(property(get = __cordl_internal_get_hasToes, put = __cordl_internal_set_hasToes)) bool hasToes;
+
+  /// @brief Field headDeltaPosition, offset 0x124, size 0xc
+  __declspec(property(get = __cordl_internal_get_headDeltaPosition, put = __cordl_internal_set_headDeltaPosition))::UnityEngine::Vector3 headDeltaPosition;
+
+  /// @brief Field headPosition, offset 0x118, size 0xc
+  __declspec(property(get = __cordl_internal_get_headPosition, put = __cordl_internal_set_headPosition))::UnityEngine::Vector3 headPosition;
+
+  /// @brief Field lastLOD, offset 0xc0, size 0x4
+  __declspec(property(get = __cordl_internal_get_lastLOD, put = __cordl_internal_set_lastLOD)) int32_t lastLOD;
+
+  /// @brief Field lastOffset, offset 0x13c, size 0xc
+  __declspec(property(get = __cordl_internal_get_lastOffset, put = __cordl_internal_set_lastOffset))::UnityEngine::Vector3 lastOffset;
+
+  /// @brief Field leftArm, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftArm, put = __cordl_internal_set_leftArm))::RootMotion::FinalIK::__IKSolverVR__Arm* leftArm;
+
+  /// @brief Field leftLeg, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftLeg, put = __cordl_internal_set_leftLeg))::RootMotion::FinalIK::__IKSolverVR__Leg* leftLeg;
+
+  /// @brief Field legs, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get_legs, put = __cordl_internal_set_legs))::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> legs;
+
+  /// @brief Field locomotion, offset 0x100, size 0x8
+  __declspec(property(get = __cordl_internal_get_locomotion, put = __cordl_internal_set_locomotion))::RootMotion::FinalIK::__IKSolverVR__Locomotion* locomotion;
+
+  /// @brief Field plantFeet, offset 0xc8, size 0x1
+  __declspec(property(get = __cordl_internal_get_plantFeet, put = __cordl_internal_set_plantFeet)) bool plantFeet;
+
+  /// @brief Field raycastOriginPelvis, offset 0x130, size 0xc
+  __declspec(property(get = __cordl_internal_get_raycastOriginPelvis, put = __cordl_internal_set_raycastOriginPelvis))::UnityEngine::Vector3 raycastOriginPelvis;
+
+  /// @brief Field readPositions, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_readPositions, put = __cordl_internal_set_readPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> readPositions;
+
+  /// @brief Field readRotations, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_readRotations, put = __cordl_internal_set_readRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> readRotations;
+
+  /// @brief Field rightArm, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightArm, put = __cordl_internal_set_rightArm))::RootMotion::FinalIK::__IKSolverVR__Arm* rightArm;
+
+  /// @brief Field rightLeg, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightLeg, put = __cordl_internal_set_rightLeg))::RootMotion::FinalIK::__IKSolverVR__Leg* rightLeg;
+
   __declspec(property(get = get_rootBone, put = set_rootBone))::RootMotion::FinalIK::__IKSolverVR__VirtualBone* rootBone;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_solverTransforms();
+  /// @brief Field rootV, offset 0x98, size 0xc
+  __declspec(property(get = __cordl_internal_get_rootV, put = __cordl_internal_set_rootV))::UnityEngine::Vector3 rootV;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_solverTransforms() const;
+  /// @brief Field rootVelocity, offset 0xa4, size 0xc
+  __declspec(property(get = __cordl_internal_get_rootVelocity, put = __cordl_internal_set_rootVelocity))::UnityEngine::Vector3 rootVelocity;
 
-  constexpr void __cordl_internal_set_solverTransforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+  /// @brief Field solvedPositions, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_solvedPositions, put = __cordl_internal_set_solvedPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> solvedPositions;
 
-  constexpr bool& __cordl_internal_get_hasChest();
+  /// @brief Field solvedRotations, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_solvedRotations, put = __cordl_internal_set_solvedRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> solvedRotations;
 
-  constexpr bool const& __cordl_internal_get_hasChest() const;
+  /// @brief Field solverTransforms, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_solverTransforms,
+                      put = __cordl_internal_set_solverTransforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> solverTransforms;
 
-  constexpr void __cordl_internal_set_hasChest(bool value);
+  /// @brief Field spine, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_spine, put = __cordl_internal_set_spine))::RootMotion::FinalIK::__IKSolverVR__Spine* spine;
 
-  constexpr bool& __cordl_internal_get_hasNeck();
+  /// @brief Field supportLegIndex, offset 0xbc, size 0x4
+  __declspec(property(get = __cordl_internal_get_supportLegIndex, put = __cordl_internal_set_supportLegIndex)) int32_t supportLegIndex;
 
-  constexpr bool const& __cordl_internal_get_hasNeck() const;
+  /// @brief Method AddPlatformMotion, addr 0x134cda0, size 0xd4, virtual false, abstract: false, final false
+  inline void AddPlatformMotion(::UnityEngine::Vector3 deltaPosition, ::UnityEngine::Quaternion deltaRotation, ::UnityEngine::Vector3 platformPivot);
 
-  constexpr void __cordl_internal_set_hasNeck(bool value);
+  /// @brief Method AddPositionOffset, addr 0x134caf8, size 0x144, virtual false, abstract: false, final false
+  inline void AddPositionOffset(::RootMotion::FinalIK::__IKSolverVR__PositionOffset positionOffset, ::UnityEngine::Vector3 value);
 
-  constexpr bool& __cordl_internal_get_hasShoulders();
+  /// @brief Method AddRotationOffset, addr 0x134cc7c, size 0x124, virtual false, abstract: false, final false
+  inline void AddRotationOffset(::RootMotion::FinalIK::__IKSolverVR__RotationOffset rotationOffset, ::UnityEngine::Quaternion value);
 
-  constexpr bool const& __cordl_internal_get_hasShoulders() const;
+  /// @brief Method AddRotationOffset, addr 0x134cc3c, size 0x40, virtual false, abstract: false, final false
+  inline void AddRotationOffset(::RootMotion::FinalIK::__IKSolverVR__RotationOffset rotationOffset, ::UnityEngine::Vector3 value);
 
-  constexpr void __cordl_internal_set_hasShoulders(bool value);
+  /// @brief Method DefaultAnimationCurves, addr 0x134c17c, size 0x14c, virtual false, abstract: false, final false
+  inline void DefaultAnimationCurves();
 
-  constexpr bool& __cordl_internal_get_hasToes();
+  /// @brief Method FixTransforms, addr 0x134dd98, size 0x1ec, virtual true, abstract: false, final false
+  inline void FixTransforms();
 
-  constexpr bool const& __cordl_internal_get_hasToes() const;
+  /// @brief Method GetNormal, addr 0x134e260, size 0x270, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetNormal(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
-  constexpr void __cordl_internal_set_hasToes(bool value);
+  /// @brief Method GetPelvisOffset, addr 0x1352d64, size 0x6ec, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetPelvisOffset();
 
-  constexpr bool& __cordl_internal_get_hasLegs();
+  /// @brief Method GetPoint, addr 0x134dff4, size 0x70, virtual true, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
 
-  constexpr bool const& __cordl_internal_get_hasLegs() const;
+  /// @brief Method GetPoints, addr 0x134df84, size 0x70, virtual true, abstract: false, final false
+  inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
 
-  constexpr void __cordl_internal_set_hasLegs(bool value);
+  /// @brief Method GetPosition, addr 0x134feec, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetPosition(int32_t index);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_readPositions();
+  /// @brief Method GetRotation, addr 0x134ff28, size 0x38, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion GetRotation(int32_t index);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_readPositions() const;
+  /// @brief Method GetSineKeyframes, addr 0x134c9e4, size 0x114, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetSineKeyframes(float_t mag);
 
-  constexpr void __cordl_internal_set_readPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  /// @brief Method GuessHandOrientations, addr 0x134c2c8, size 0x2f0, virtual false, abstract: false, final false
+  inline void GuessHandOrientations(::RootMotion::FinalIK::__VRIK__References* references, bool onlyIfZero);
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_readRotations();
+  /// @brief Method GuessPalmToThumbAxis, addr 0x134c69c, size 0x348, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GuessPalmToThumbAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_readRotations() const;
+  /// @brief Method GuessWristToPalmAxis, addr 0x134c5b8, size 0xe4, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GuessWristToPalmAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
 
-  constexpr void __cordl_internal_set_readRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
+  /// @brief Method IsValid, addr 0x134e064, size 0x1fc, virtual true, abstract: false, final false
+  inline bool IsValid(ByRef<::StringW> message);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_solvedPositions();
+  static inline ::RootMotion::FinalIK::IKSolverVR* New_ctor();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_solvedPositions() const;
+  /// @brief Method OnInitiate, addr 0x134e4d0, size 0x3c, virtual true, abstract: false, final false
+  inline void OnInitiate();
 
-  constexpr void __cordl_internal_set_solvedPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  /// @brief Method OnUpdate, addr 0x134e50c, size 0x408, virtual true, abstract: false, final false
+  inline void OnUpdate();
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_solvedRotations();
+  /// @brief Method Read, addr 0x134d554, size 0x50c, virtual false, abstract: false, final false
+  inline void Read(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
+                   bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs);
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_solvedRotations() const;
+  /// @brief Method Reset, addr 0x134d2f4, size 0x110, virtual false, abstract: false, final false
+  inline void Reset();
 
-  constexpr void __cordl_internal_set_solvedRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
+  /// @brief Method SetToReferences, addr 0x134bea8, size 0x2d4, virtual false, abstract: false, final false
+  inline void SetToReferences(::RootMotion::FinalIK::__VRIK__References* references);
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_defaultLocalRotations();
+  /// @brief Method Solve, addr 0x134e914, size 0x1048, virtual false, abstract: false, final false
+  inline void Solve();
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_defaultLocalRotations() const;
+  /// @brief Method StoreDefaultLocalState, addr 0x134dc44, size 0x154, virtual true, abstract: false, final false
+  inline void StoreDefaultLocalState();
 
-  constexpr void __cordl_internal_set_defaultLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
+  /// @brief Method UpdateSolverTransforms, addr 0x134d404, size 0x150, virtual false, abstract: false, final false
+  inline void UpdateSolverTransforms();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_defaultLocalPositions();
+  /// @brief Method Write, addr 0x134f95c, size 0x13c, virtual false, abstract: false, final false
+  inline void Write();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_defaultLocalPositions() const;
-
-  constexpr void __cordl_internal_set_defaultLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rootV();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rootV() const;
-
-  constexpr void __cordl_internal_set_rootV(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rootVelocity();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rootVelocity() const;
-
-  constexpr void __cordl_internal_set_rootVelocity(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bodyOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bodyOffset() const;
-
-  constexpr void __cordl_internal_set_bodyOffset(::UnityEngine::Vector3 value);
-
-  constexpr int32_t& __cordl_internal_get_supportLegIndex();
-
-  constexpr int32_t const& __cordl_internal_get_supportLegIndex() const;
-
-  constexpr void __cordl_internal_set_supportLegIndex(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_lastLOD();
-
-  constexpr int32_t const& __cordl_internal_get_lastLOD() const;
-
-  constexpr void __cordl_internal_set_lastLOD(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_LOD();
+  /// @brief Method WriteTransforms, addr 0x134fa98, size 0x454, virtual false, abstract: false, final false
+  inline void WriteTransforms();
 
   constexpr int32_t const& __cordl_internal_get_LOD() const;
 
-  constexpr void __cordl_internal_set_LOD(int32_t value);
-
-  constexpr bool& __cordl_internal_get_plantFeet();
-
-  constexpr bool const& __cordl_internal_get_plantFeet() const;
-
-  constexpr void __cordl_internal_set_plantFeet(bool value);
+  constexpr int32_t& __cordl_internal_get_LOD();
 
   constexpr ::RootMotion::FinalIK::__IKSolverVR__VirtualBone*& __cordl_internal_get__rootBone_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__VirtualBone*> const& __cordl_internal_get__rootBone_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__rootBone_k__BackingField(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* value);
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> const& __cordl_internal_get_arms() const;
 
-  constexpr ::RootMotion::FinalIK::__IKSolverVR__Spine*& __cordl_internal_get_spine();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*>& __cordl_internal_get_arms();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Spine*> const& __cordl_internal_get_spine() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bodyOffset() const;
 
-  constexpr void __cordl_internal_set_spine(::RootMotion::FinalIK::__IKSolverVR__Spine* value);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bodyOffset();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_debugPos1() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_debugPos1();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_debugPos2() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_debugPos2();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_debugPos3() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_debugPos3();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_debugPos4() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_debugPos4();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_defaultLocalPositions() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_defaultLocalPositions();
+
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_defaultLocalRotations() const;
+
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_defaultLocalRotations();
+
+  constexpr bool const& __cordl_internal_get_hasChest() const;
+
+  constexpr bool& __cordl_internal_get_hasChest();
+
+  constexpr bool const& __cordl_internal_get_hasLegs() const;
+
+  constexpr bool& __cordl_internal_get_hasLegs();
+
+  constexpr bool const& __cordl_internal_get_hasNeck() const;
+
+  constexpr bool& __cordl_internal_get_hasNeck();
+
+  constexpr bool const& __cordl_internal_get_hasShoulders() const;
+
+  constexpr bool& __cordl_internal_get_hasShoulders();
+
+  constexpr bool const& __cordl_internal_get_hasToes() const;
+
+  constexpr bool& __cordl_internal_get_hasToes();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headDeltaPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headDeltaPosition();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headPosition();
+
+  constexpr int32_t const& __cordl_internal_get_lastLOD() const;
+
+  constexpr int32_t& __cordl_internal_get_lastLOD();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastOffset();
 
   constexpr ::RootMotion::FinalIK::__IKSolverVR__Arm*& __cordl_internal_get_leftArm();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Arm*> const& __cordl_internal_get_leftArm() const;
 
-  constexpr void __cordl_internal_set_leftArm(::RootMotion::FinalIK::__IKSolverVR__Arm* value);
-
-  constexpr ::RootMotion::FinalIK::__IKSolverVR__Arm*& __cordl_internal_get_rightArm();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Arm*> const& __cordl_internal_get_rightArm() const;
-
-  constexpr void __cordl_internal_set_rightArm(::RootMotion::FinalIK::__IKSolverVR__Arm* value);
-
   constexpr ::RootMotion::FinalIK::__IKSolverVR__Leg*& __cordl_internal_get_leftLeg();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Leg*> const& __cordl_internal_get_leftLeg() const;
 
-  constexpr void __cordl_internal_set_leftLeg(::RootMotion::FinalIK::__IKSolverVR__Leg* value);
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> const& __cordl_internal_get_legs() const;
 
-  constexpr ::RootMotion::FinalIK::__IKSolverVR__Leg*& __cordl_internal_get_rightLeg();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Leg*> const& __cordl_internal_get_rightLeg() const;
-
-  constexpr void __cordl_internal_set_rightLeg(::RootMotion::FinalIK::__IKSolverVR__Leg* value);
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*>& __cordl_internal_get_legs();
 
   constexpr ::RootMotion::FinalIK::__IKSolverVR__Locomotion*& __cordl_internal_get_locomotion();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Locomotion*> const& __cordl_internal_get_locomotion() const;
 
-  constexpr void __cordl_internal_set_locomotion(::RootMotion::FinalIK::__IKSolverVR__Locomotion* value);
+  constexpr bool const& __cordl_internal_get_plantFeet() const;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*>& __cordl_internal_get_legs();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> const& __cordl_internal_get_legs() const;
-
-  constexpr void __cordl_internal_set_legs(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> value);
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*>& __cordl_internal_get_arms();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> const& __cordl_internal_get_arms() const;
-
-  constexpr void __cordl_internal_set_arms(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headPosition() const;
-
-  constexpr void __cordl_internal_set_headPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headDeltaPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headDeltaPosition() const;
-
-  constexpr void __cordl_internal_set_headDeltaPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_raycastOriginPelvis();
+  constexpr bool& __cordl_internal_get_plantFeet();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_raycastOriginPelvis() const;
 
-  constexpr void __cordl_internal_set_raycastOriginPelvis(::UnityEngine::Vector3 value);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_raycastOriginPelvis();
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastOffset();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_readPositions() const;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastOffset() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_readPositions();
 
-  constexpr void __cordl_internal_set_lastOffset(::UnityEngine::Vector3 value);
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_readRotations() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_debugPos1();
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_readRotations();
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_debugPos1() const;
+  constexpr ::RootMotion::FinalIK::__IKSolverVR__Arm*& __cordl_internal_get_rightArm();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Arm*> const& __cordl_internal_get_rightArm() const;
+
+  constexpr ::RootMotion::FinalIK::__IKSolverVR__Leg*& __cordl_internal_get_rightLeg();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Leg*> const& __cordl_internal_get_rightLeg() const;
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rootV() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rootV();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rootVelocity() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rootVelocity();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_solvedPositions() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_solvedPositions();
+
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_solvedRotations() const;
+
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_solvedRotations();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_solverTransforms() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_solverTransforms();
+
+  constexpr ::RootMotion::FinalIK::__IKSolverVR__Spine*& __cordl_internal_get_spine();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverVR__Spine*> const& __cordl_internal_get_spine() const;
+
+  constexpr int32_t const& __cordl_internal_get_supportLegIndex() const;
+
+  constexpr int32_t& __cordl_internal_get_supportLegIndex();
+
+  constexpr void __cordl_internal_set_LOD(int32_t value);
+
+  constexpr void __cordl_internal_set__rootBone_k__BackingField(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* value);
+
+  constexpr void __cordl_internal_set_arms(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Arm*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Arm*>*> value);
+
+  constexpr void __cordl_internal_set_bodyOffset(::UnityEngine::Vector3 value);
 
   constexpr void __cordl_internal_set_debugPos1(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_debugPos2();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_debugPos2() const;
-
   constexpr void __cordl_internal_set_debugPos2(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_debugPos3();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_debugPos3() const;
 
   constexpr void __cordl_internal_set_debugPos3(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_debugPos4();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_debugPos4() const;
-
   constexpr void __cordl_internal_set_debugPos4(::UnityEngine::Vector3 value);
 
-  /// @brief Method SetToReferences, addr 0x1309ebc, size 0x2d4, virtual false, abstract: false, final false
-  inline void SetToReferences(::RootMotion::FinalIK::__VRIK__References* references);
+  constexpr void __cordl_internal_set_defaultLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method GuessHandOrientations, addr 0x130a2dc, size 0x2f0, virtual false, abstract: false, final false
-  inline void GuessHandOrientations(::RootMotion::FinalIK::__VRIK__References* references, bool onlyIfZero);
+  constexpr void __cordl_internal_set_defaultLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  /// @brief Method DefaultAnimationCurves, addr 0x130a190, size 0x14c, virtual false, abstract: false, final false
-  inline void DefaultAnimationCurves();
+  constexpr void __cordl_internal_set_hasChest(bool value);
 
-  /// @brief Method AddPositionOffset, addr 0x130ab0c, size 0x144, virtual false, abstract: false, final false
-  inline void AddPositionOffset(::RootMotion::FinalIK::__IKSolverVR__PositionOffset positionOffset, ::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_hasLegs(bool value);
 
-  /// @brief Method AddRotationOffset, addr 0x130ac50, size 0x40, virtual false, abstract: false, final false
-  inline void AddRotationOffset(::RootMotion::FinalIK::__IKSolverVR__RotationOffset rotationOffset, ::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_hasNeck(bool value);
 
-  /// @brief Method AddRotationOffset, addr 0x130ac90, size 0x124, virtual false, abstract: false, final false
-  inline void AddRotationOffset(::RootMotion::FinalIK::__IKSolverVR__RotationOffset rotationOffset, ::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_hasShoulders(bool value);
 
-  /// @brief Method AddPlatformMotion, addr 0x130adb4, size 0xd4, virtual false, abstract: false, final false
-  inline void AddPlatformMotion(::UnityEngine::Vector3 deltaPosition, ::UnityEngine::Quaternion deltaRotation, ::UnityEngine::Vector3 platformPivot);
+  constexpr void __cordl_internal_set_hasToes(bool value);
 
-  /// @brief Method Reset, addr 0x130b308, size 0x110, virtual false, abstract: false, final false
-  inline void Reset();
+  constexpr void __cordl_internal_set_headDeltaPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method StoreDefaultLocalState, addr 0x130bc58, size 0x154, virtual true, abstract: false, final false
-  inline void StoreDefaultLocalState();
+  constexpr void __cordl_internal_set_headPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method FixTransforms, addr 0x130bdac, size 0x1ec, virtual true, abstract: false, final false
-  inline void FixTransforms();
+  constexpr void __cordl_internal_set_lastLOD(int32_t value);
 
-  /// @brief Method GetPoints, addr 0x130bf98, size 0x70, virtual true, abstract: false, final false
-  inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
+  constexpr void __cordl_internal_set_lastOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method GetPoint, addr 0x130c008, size 0x70, virtual true, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
+  constexpr void __cordl_internal_set_leftArm(::RootMotion::FinalIK::__IKSolverVR__Arm* value);
 
-  /// @brief Method IsValid, addr 0x130c078, size 0x1fc, virtual true, abstract: false, final false
-  inline bool IsValid(ByRef<::StringW> message);
+  constexpr void __cordl_internal_set_leftLeg(::RootMotion::FinalIK::__IKSolverVR__Leg* value);
 
-  /// @brief Method GetNormal, addr 0x130c274, size 0x270, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetNormal(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
+  constexpr void __cordl_internal_set_legs(::ArrayW<::RootMotion::FinalIK::__IKSolverVR__Leg*, ::Array<::RootMotion::FinalIK::__IKSolverVR__Leg*>*> value);
 
-  /// @brief Method GuessWristToPalmAxis, addr 0x130a5cc, size 0xe4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GuessWristToPalmAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
+  constexpr void __cordl_internal_set_locomotion(::RootMotion::FinalIK::__IKSolverVR__Locomotion* value);
 
-  /// @brief Method GuessPalmToThumbAxis, addr 0x130a6b0, size 0x348, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GuessPalmToThumbAxis(::UnityEngine::Transform* hand, ::UnityEngine::Transform* forearm);
+  constexpr void __cordl_internal_set_plantFeet(bool value);
 
-  /// @brief Method GetSineKeyframes, addr 0x130a9f8, size 0x114, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Keyframe, ::Array<::UnityEngine::Keyframe>*> GetSineKeyframes(float_t mag);
+  constexpr void __cordl_internal_set_raycastOriginPelvis(::UnityEngine::Vector3 value);
 
-  /// @brief Method UpdateSolverTransforms, addr 0x130b418, size 0x150, virtual false, abstract: false, final false
-  inline void UpdateSolverTransforms();
+  constexpr void __cordl_internal_set_readPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method OnInitiate, addr 0x130c4e4, size 0x3c, virtual true, abstract: false, final false
-  inline void OnInitiate();
+  constexpr void __cordl_internal_set_readRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  /// @brief Method OnUpdate, addr 0x130c520, size 0x408, virtual true, abstract: false, final false
-  inline void OnUpdate();
+  constexpr void __cordl_internal_set_rightArm(::RootMotion::FinalIK::__IKSolverVR__Arm* value);
 
-  /// @brief Method WriteTransforms, addr 0x130daac, size 0x454, virtual false, abstract: false, final false
-  inline void WriteTransforms();
+  constexpr void __cordl_internal_set_rightLeg(::RootMotion::FinalIK::__IKSolverVR__Leg* value);
 
-  /// @brief Method Read, addr 0x130b568, size 0x50c, virtual false, abstract: false, final false
-  inline void Read(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> rotations, bool hasChest,
-                   bool hasNeck, bool hasShoulders, bool hasToes, bool hasLegs);
+  constexpr void __cordl_internal_set_rootV(::UnityEngine::Vector3 value);
 
-  /// @brief Method Solve, addr 0x130c928, size 0x1048, virtual false, abstract: false, final false
-  inline void Solve();
+  constexpr void __cordl_internal_set_rootVelocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method GetPosition, addr 0x130df00, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetPosition(int32_t index);
+  constexpr void __cordl_internal_set_solvedPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method GetRotation, addr 0x130df3c, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion GetRotation(int32_t index);
+  constexpr void __cordl_internal_set_solvedRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  /// @brief Method get_rootBone, addr 0x1311464, size 0x8, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_rootBone();
+  constexpr void __cordl_internal_set_solverTransforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method set_rootBone, addr 0x131146c, size 0x8, virtual false, abstract: false, final false
-  inline void set_rootBone(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* value);
+  constexpr void __cordl_internal_set_spine(::RootMotion::FinalIK::__IKSolverVR__Spine* value);
 
-  /// @brief Method Write, addr 0x130d970, size 0x13c, virtual false, abstract: false, final false
-  inline void Write();
+  constexpr void __cordl_internal_set_supportLegIndex(int32_t value);
 
-  /// @brief Method GetPelvisOffset, addr 0x1310d78, size 0x6ec, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetPelvisOffset();
-
-  static inline ::RootMotion::FinalIK::IKSolverVR* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1311474, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1353460, size 0x228, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_rootBone, addr 0x1353450, size 0x8, virtual false, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolverVR__VirtualBone* get_rootBone();
+
+  /// @brief Method set_rootBone, addr 0x1353458, size 0x8, virtual false, abstract: false, final false
+  inline void set_rootBone(::RootMotion::FinalIK::__IKSolverVR__VirtualBone* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IKSolverVR();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverVR", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IKSolverVR(IKSolverVR&&) = delete;
@@ -3783,12 +3784,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IKSolverVR(IKSolverVR const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IKSolverVR();
-
-public:
   /// @brief Field solverTransforms, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___solverTransforms;
 

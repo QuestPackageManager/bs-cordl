@@ -15,8 +15,6 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PDG_WorkitemState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9516))
 // CS Name: ::HoudiniEngineUnity::HAPI_PDG_WorkitemState
 struct CORDL_TYPE HAPI_PDG_WorkitemState {
 public:
@@ -42,48 +40,53 @@ public:
     return static_cast<__HAPI_PDG_WorkitemState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_PDG_WorkitemState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__HAPI_PDG_WorkitemState_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_PDG_WorkitemState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_PDG_WorkitemState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field HAPI_PDG_WORKITEM_UNDEFINED value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_UNDEFINED;
-
-  /// @brief Field HAPI_PDG_WORKITEM_UNCOOKED value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_UNCOOKED;
-
-  /// @brief Field HAPI_PDG_WORKITEM_WAITING value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_WAITING;
-
-  /// @brief Field HAPI_PDG_WORKITEM_SCHEDULED value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_SCHEDULED;
-
-  /// @brief Field HAPI_PDG_WORKITEM_COOKING value: static_cast<int32_t>(0x4)
-  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKING;
-
-  /// @brief Field HAPI_PDG_WORKITEM_COOKED_SUCCESS value: static_cast<int32_t>(0x5)
-  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_SUCCESS;
 
   /// @brief Field HAPI_PDG_WORKITEM_COOKED_CACHE value: static_cast<int32_t>(0x6)
   static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_CACHE;
 
-  /// @brief Field HAPI_PDG_WORKITEM_COOKED_FAIL value: static_cast<int32_t>(0x7)
-  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_FAIL;
-
   /// @brief Field HAPI_PDG_WORKITEM_COOKED_CANCEL value: static_cast<int32_t>(0x8)
   static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_CANCEL;
 
+  /// @brief Field HAPI_PDG_WORKITEM_COOKED_FAIL value: static_cast<int32_t>(0x7)
+  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_FAIL;
+
+  /// @brief Field HAPI_PDG_WORKITEM_COOKED_SUCCESS value: static_cast<int32_t>(0x5)
+  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKED_SUCCESS;
+
+  /// @brief Field HAPI_PDG_WORKITEM_COOKING value: static_cast<int32_t>(0x4)
+  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_COOKING;
+
   /// @brief Field HAPI_PDG_WORKITEM_DIRTY value: static_cast<int32_t>(0x9)
   static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_DIRTY;
+
+  /// @brief Field HAPI_PDG_WORKITEM_SCHEDULED value: static_cast<int32_t>(0x3)
+  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_SCHEDULED;
+
+  /// @brief Field HAPI_PDG_WORKITEM_UNCOOKED value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_UNCOOKED;
+
+  /// @brief Field HAPI_PDG_WORKITEM_UNDEFINED value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_UNDEFINED;
+
+  /// @brief Field HAPI_PDG_WORKITEM_WAITING value: static_cast<int32_t>(0x2)
+  static ::HoudiniEngineUnity::HAPI_PDG_WorkitemState const HAPI_PDG_WORKITEM_WAITING;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

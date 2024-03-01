@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::INotifyValueChangedExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6387))
 // CS Name: ::UnityEngine.UIElements::INotifyValueChangedExtensions*
 class CORDL_TYPE INotifyValueChangedExtensions : public ::System::Object {
 public:
@@ -39,6 +37,12 @@ public:
   static inline bool UnregisterValueChangedCallback(::UnityEngine::UIElements::INotifyValueChanged_1<T>* control,
                                                     ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<T>*>* callback);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr INotifyValueChangedExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "INotifyValueChangedExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   INotifyValueChangedExtensions(INotifyValueChangedExtensions&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   INotifyValueChangedExtensions(INotifyValueChangedExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr INotifyValueChangedExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

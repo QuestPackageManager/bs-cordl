@@ -23,44 +23,48 @@ MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackState);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14793)), TypeDefinitionIndex(TypeDefinitionIndex(14794))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14796))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackState*
 class CORDL_TYPE AndroidAssetPackState : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field <error>k__BackingField, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__error_k__BackingField, put = __cordl_internal_set__error_k__BackingField))::UnityEngine::Android::AndroidAssetPackError _error_k__BackingField;
+
   /// @brief Field <name>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField))::StringW _name_k__BackingField;
 
   /// @brief Field <status>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__status_k__BackingField, put = __cordl_internal_set__status_k__BackingField))::UnityEngine::Android::AndroidAssetPackStatus _status_k__BackingField;
 
-  /// @brief Field <error>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__error_k__BackingField, put = __cordl_internal_set__error_k__BackingField))::UnityEngine::Android::AndroidAssetPackError _error_k__BackingField;
-
-  constexpr ::StringW& __cordl_internal_get__name_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__name_k__BackingField(::StringW value);
-
-  constexpr ::UnityEngine::Android::AndroidAssetPackStatus& __cordl_internal_get__status_k__BackingField();
-
-  constexpr ::UnityEngine::Android::AndroidAssetPackStatus const& __cordl_internal_get__status_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__status_k__BackingField(::UnityEngine::Android::AndroidAssetPackStatus value);
-
-  constexpr ::UnityEngine::Android::AndroidAssetPackError& __cordl_internal_get__error_k__BackingField();
+  static inline ::UnityEngine::Android::AndroidAssetPackState* New_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error);
 
   constexpr ::UnityEngine::Android::AndroidAssetPackError const& __cordl_internal_get__error_k__BackingField() const;
 
+  constexpr ::UnityEngine::Android::AndroidAssetPackError& __cordl_internal_get__error_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__name_k__BackingField();
+
+  constexpr ::UnityEngine::Android::AndroidAssetPackStatus const& __cordl_internal_get__status_k__BackingField() const;
+
+  constexpr ::UnityEngine::Android::AndroidAssetPackStatus& __cordl_internal_get__status_k__BackingField();
+
   constexpr void __cordl_internal_set__error_k__BackingField(::UnityEngine::Android::AndroidAssetPackError value);
 
-  static inline ::UnityEngine::Android::AndroidAssetPackState* New_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error);
+  constexpr void __cordl_internal_set__name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2c89734, size 0x3c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__status_k__BackingField(::UnityEngine::Android::AndroidAssetPackStatus value);
+
+  /// @brief Method .ctor, addr 0x2d72808, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidAssetPackState();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AndroidAssetPackState(AndroidAssetPackState&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidAssetPackState(AndroidAssetPackState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidAssetPackState();
-
-public:
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
 

@@ -20,21 +20,20 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 // cpp template
 template <typename CommandT, typename ResultT>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8730)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 4671 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(8730), inst: 4675 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8707)) CS Name: ::Unity.Jobs.LowLevel.Unsafe::BatchQueryJob`2<CommandT,ResultT>
+// CS Name: ::Unity.Jobs.LowLevel.Unsafe::BatchQueryJob`2<CommandT,ResultT>
 struct CORDL_TYPE BatchQueryJob_2 {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<CommandT> commands, ::Unity::Collections::NativeArray_1<ResultT> results);
 
-  // Ctor Parameters [CppParam { name: "commands", ty: "::Unity::Collections::NativeArray_1<CommandT>", modifiers: "", def_value: None }, CppParam { name: "results", ty:
-  // "::Unity::Collections::NativeArray_1<ResultT>", modifiers: "", def_value: None }]
-  constexpr BatchQueryJob_2(::Unity::Collections::NativeArray_1<CommandT> commands, ::Unity::Collections::NativeArray_1<ResultT> results) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr BatchQueryJob_2();
+
+  // Ctor Parameters [CppParam { name: "commands", ty: "::Unity::Collections::NativeArray_1<CommandT>", modifiers: "", def_value: None }, CppParam { name: "results", ty:
+  // "::Unity::Collections::NativeArray_1<ResultT>", modifiers: "", def_value: None }]
+  constexpr BatchQueryJob_2(::Unity::Collections::NativeArray_1<CommandT> commands, ::Unity::Collections::NativeArray_1<ResultT> results) noexcept;
 
   /// @brief Field commands, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<CommandT> commands;

@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeAwardData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10906))
 // CS Name: ::MultiplayerBadgeAwardData*
 class CORDL_TYPE MultiplayerBadgeAwardData : public ::System::Object {
 public:
@@ -41,97 +39,103 @@ public:
   /// @brief Field _awardedPlayer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__awardedPlayer, put = __cordl_internal_set__awardedPlayer))::GlobalNamespace::IConnectedPlayer* _awardedPlayer;
 
-  /// @brief Field _weight, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__weight, put = __cordl_internal_set__weight)) float_t _weight;
-
-  /// @brief Field _title, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__title, put = __cordl_internal_set__title))::StringW _title;
-
-  /// @brief Field _subtitle, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__subtitle, put = __cordl_internal_set__subtitle))::StringW _subtitle;
+  /// @brief Field _badgeData, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__badgeData, put = __cordl_internal_set__badgeData))::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO> _badgeData;
 
   /// @brief Field _icon, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon))::UnityW<::UnityEngine::Sprite> _icon;
 
-  /// @brief Field _badgeData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__badgeData, put = __cordl_internal_set__badgeData))::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO> _badgeData;
+  /// @brief Field _subtitle, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__subtitle, put = __cordl_internal_set__subtitle))::StringW _subtitle;
+
+  /// @brief Field _title, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__title, put = __cordl_internal_set__title))::StringW _title;
+
+  /// @brief Field _weight, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__weight, put = __cordl_internal_set__weight)) float_t _weight;
 
   __declspec(property(get = get_awardedPlayer))::GlobalNamespace::IConnectedPlayer* awardedPlayer;
 
-  __declspec(property(get = get_titleLocalizationKey))::StringW titleLocalizationKey;
-
-  __declspec(property(get = get_title))::StringW title;
+  __declspec(property(get = get_icon))::UnityW<::UnityEngine::Sprite> icon;
 
   __declspec(property(get = get_subtitle))::StringW subtitle;
 
-  __declspec(property(get = get_icon))::UnityW<::UnityEngine::Sprite> icon;
+  __declspec(property(get = get_title))::StringW title;
+
+  __declspec(property(get = get_titleLocalizationKey))::StringW titleLocalizationKey;
 
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Convert to "::System::IComparable"
-  constexpr ::System::IComparable* i___System__IComparable() noexcept;
+  /// @brief Method CompareTo, addr 0x12da184, size 0xf0, virtual true, abstract: false, final true
+  inline int32_t CompareTo(::System::Object* obj);
+
+  static inline ::GlobalNamespace::MultiplayerBadgeAwardData* New_ctor(::GlobalNamespace::IConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle,
+                                                                       ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData);
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__awardedPlayer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__awardedPlayer() const;
 
-  constexpr void __cordl_internal_set__awardedPlayer(::GlobalNamespace::IConnectedPlayer* value);
-
-  constexpr float_t& __cordl_internal_get__weight();
-
-  constexpr float_t const& __cordl_internal_get__weight() const;
-
-  constexpr void __cordl_internal_set__weight(float_t value);
-
-  constexpr ::StringW& __cordl_internal_get__title();
-
-  constexpr ::StringW const& __cordl_internal_get__title() const;
-
-  constexpr void __cordl_internal_set__title(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__subtitle();
-
-  constexpr ::StringW const& __cordl_internal_get__subtitle() const;
-
-  constexpr void __cordl_internal_set__subtitle(::StringW value);
-
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__icon();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__icon() const;
-
-  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::Sprite> value);
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO> const& __cordl_internal_get__badgeData() const;
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>& __cordl_internal_get__badgeData();
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO> const& __cordl_internal_get__badgeData() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__icon() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__icon();
+
+  constexpr ::StringW const& __cordl_internal_get__subtitle() const;
+
+  constexpr ::StringW& __cordl_internal_get__subtitle();
+
+  constexpr ::StringW const& __cordl_internal_get__title() const;
+
+  constexpr ::StringW& __cordl_internal_get__title();
+
+  constexpr float_t const& __cordl_internal_get__weight() const;
+
+  constexpr float_t& __cordl_internal_get__weight();
+
+  constexpr void __cordl_internal_set__awardedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
   constexpr void __cordl_internal_set__badgeData(::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO> value);
 
-  /// @brief Method get_awardedPlayer, addr 0x1298178, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IConnectedPlayer* get_awardedPlayer();
+  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method get_titleLocalizationKey, addr 0x1298180, size 0x1c, virtual false, abstract: false, final false
-  inline ::StringW get_titleLocalizationKey();
+  constexpr void __cordl_internal_set__subtitle(::StringW value);
 
-  /// @brief Method get_title, addr 0x129819c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_title();
+  constexpr void __cordl_internal_set__title(::StringW value);
 
-  /// @brief Method get_subtitle, addr 0x12981a4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_subtitle();
+  constexpr void __cordl_internal_set__weight(float_t value);
 
-  /// @brief Method get_icon, addr 0x12981ac, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_icon();
-
-  static inline ::GlobalNamespace::MultiplayerBadgeAwardData* New_ctor(::GlobalNamespace::IConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle,
-                                                                       ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData);
-
-  /// @brief Method .ctor, addr 0x12963cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d839c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData);
 
-  /// @brief Method CompareTo, addr 0x12981b4, size 0xf0, virtual true, abstract: false, final true
-  inline int32_t CompareTo(::System::Object* obj);
+  /// @brief Method get_awardedPlayer, addr 0x12da148, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::IConnectedPlayer* get_awardedPlayer();
 
+  /// @brief Method get_icon, addr 0x12da17c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Sprite> get_icon();
+
+  /// @brief Method get_subtitle, addr 0x12da174, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_subtitle();
+
+  /// @brief Method get_title, addr 0x12da16c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_title();
+
+  /// @brief Method get_titleLocalizationKey, addr 0x12da150, size 0x1c, virtual false, abstract: false, final false
+  inline ::StringW get_titleLocalizationKey();
+
+  /// @brief Convert to "::System::IComparable"
+  constexpr ::System::IComparable* i___System__IComparable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerBadgeAwardData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeAwardData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerBadgeAwardData(MultiplayerBadgeAwardData&&) = delete;
@@ -140,12 +144,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBadgeAwardData(MultiplayerBadgeAwardData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerBadgeAwardData();
-
-public:
   /// @brief Field _awardedPlayer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____awardedPlayer;
 

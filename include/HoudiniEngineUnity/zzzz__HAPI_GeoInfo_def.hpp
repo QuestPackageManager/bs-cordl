@@ -22,14 +22,16 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_GeoInfo);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9501))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9531))
 // CS Name: ::HoudiniEngineUnity::HAPI_GeoInfo
 struct CORDL_TYPE HAPI_GeoInfo {
 public:
   // Declarations
-  /// @brief Method getGroupCountByType, addr 0x2226504, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method getGroupCountByType, addr 0x22f3b6c, size 0x28, virtual false, abstract: false, final false
   inline int32_t getGroupCountByType(::HoudiniEngineUnity::HAPI_GroupType type);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HAPI_GeoInfo();
 
   // Ctor Parameters [CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_GeoType", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "nodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isEditable", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isTemplated", ty:
@@ -39,10 +41,6 @@ public:
   // "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_GeoInfo(::HoudiniEngineUnity::HAPI_GeoType type, int32_t nameSH, int32_t nodeId, bool isEditable, bool isTemplated, bool isDisplayGeo, bool hasGeoChanged, bool hasMaterialChanged,
                          int32_t pointGroupCount, int32_t primitiveGroupCount, int32_t edgeGroupCount, int32_t partCount) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HAPI_GeoInfo();
 
   /// @brief Field type, offset: 0x0, size: 0x4, def value: None
   ::HoudiniEngineUnity::HAPI_GeoType type;

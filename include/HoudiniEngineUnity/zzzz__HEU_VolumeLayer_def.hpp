@@ -30,14 +30,21 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeLayer);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9743))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9744))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeLayer*
 class CORDL_TYPE HEU_VolumeLayer : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _detailPrototype, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__detailPrototype, put = __cordl_internal_set__detailPrototype))::HoudiniEngineUnity::HEU_DetailPrototype* _detailPrototype;
+
+  /// @brief Field _hasLayerAttributes, offset 0x34, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasLayerAttributes, put = __cordl_internal_set__hasLayerAttributes)) bool _hasLayerAttributes;
+
   /// @brief Field _layerName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__layerName, put = __cordl_internal_set__layerName))::StringW _layerName;
+
+  /// @brief Field _layerType, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__layerType, put = __cordl_internal_set__layerType))::HoudiniEngineUnity::HFLayerType _layerType;
 
   /// @brief Field _part, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__part, put = __cordl_internal_set__part))::UnityW<::HoudiniEngineUnity::HEU_PartData> _part;
@@ -45,11 +52,14 @@ public:
   /// @brief Field _strength, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__strength, put = __cordl_internal_set__strength)) float_t _strength;
 
-  /// @brief Field _uiExpanded, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get__uiExpanded, put = __cordl_internal_set__uiExpanded)) bool _uiExpanded;
+  /// @brief Field _terrainLayer, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__terrainLayer, put = __cordl_internal_set__terrainLayer))::UnityW<::UnityEngine::TerrainLayer> _terrainLayer;
 
   /// @brief Field _tile, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__tile, put = __cordl_internal_set__tile)) int32_t _tile;
+
+  /// @brief Field _uiExpanded, offset 0x24, size 0x1
+  __declspec(property(get = __cordl_internal_get__uiExpanded, put = __cordl_internal_set__uiExpanded)) bool _uiExpanded;
 
   /// @brief Field _xLength, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__xLength, put = __cordl_internal_set__xLength)) int32_t _xLength;
@@ -57,98 +67,92 @@ public:
   /// @brief Field _yLength, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__yLength, put = __cordl_internal_set__yLength)) int32_t _yLength;
 
-  /// @brief Field _hasLayerAttributes, offset 0x34, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasLayerAttributes, put = __cordl_internal_set__hasLayerAttributes)) bool _hasLayerAttributes;
-
-  /// @brief Field _terrainLayer, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__terrainLayer, put = __cordl_internal_set__terrainLayer))::UnityW<::UnityEngine::TerrainLayer> _terrainLayer;
-
-  /// @brief Field _layerType, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__layerType, put = __cordl_internal_set__layerType))::HoudiniEngineUnity::HFLayerType _layerType;
-
-  /// @brief Field _detailPrototype, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__detailPrototype, put = __cordl_internal_set__detailPrototype))::HoudiniEngineUnity::HEU_DetailPrototype* _detailPrototype;
-
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeLayer__() noexcept;
+  /// @brief Method IsEquivalentTo, addr 0x234bd0c, size 0x370, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeLayer* other);
 
-  constexpr ::StringW& __cordl_internal_get__layerName();
-
-  constexpr ::StringW const& __cordl_internal_get__layerName() const;
-
-  constexpr void __cordl_internal_set__layerName(::StringW value);
-
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_PartData>& __cordl_internal_get__part();
-
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_PartData> const& __cordl_internal_get__part() const;
-
-  constexpr void __cordl_internal_set__part(::UnityW<::HoudiniEngineUnity::HEU_PartData> value);
-
-  constexpr float_t& __cordl_internal_get__strength();
-
-  constexpr float_t const& __cordl_internal_get__strength() const;
-
-  constexpr void __cordl_internal_set__strength(float_t value);
-
-  constexpr bool& __cordl_internal_get__uiExpanded();
-
-  constexpr bool const& __cordl_internal_get__uiExpanded() const;
-
-  constexpr void __cordl_internal_set__uiExpanded(bool value);
-
-  constexpr int32_t& __cordl_internal_get__tile();
-
-  constexpr int32_t const& __cordl_internal_get__tile() const;
-
-  constexpr void __cordl_internal_set__tile(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__xLength();
-
-  constexpr int32_t const& __cordl_internal_get__xLength() const;
-
-  constexpr void __cordl_internal_set__xLength(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__yLength();
-
-  constexpr int32_t const& __cordl_internal_get__yLength() const;
-
-  constexpr void __cordl_internal_set__yLength(int32_t value);
-
-  constexpr bool& __cordl_internal_get__hasLayerAttributes();
-
-  constexpr bool const& __cordl_internal_get__hasLayerAttributes() const;
-
-  constexpr void __cordl_internal_set__hasLayerAttributes(bool value);
-
-  constexpr ::UnityW<::UnityEngine::TerrainLayer>& __cordl_internal_get__terrainLayer();
-
-  constexpr ::UnityW<::UnityEngine::TerrainLayer> const& __cordl_internal_get__terrainLayer() const;
-
-  constexpr void __cordl_internal_set__terrainLayer(::UnityW<::UnityEngine::TerrainLayer> value);
-
-  constexpr ::HoudiniEngineUnity::HFLayerType& __cordl_internal_get__layerType();
-
-  constexpr ::HoudiniEngineUnity::HFLayerType const& __cordl_internal_get__layerType() const;
-
-  constexpr void __cordl_internal_set__layerType(::HoudiniEngineUnity::HFLayerType value);
+  static inline ::HoudiniEngineUnity::HEU_VolumeLayer* New_ctor();
 
   constexpr ::HoudiniEngineUnity::HEU_DetailPrototype*& __cordl_internal_get__detailPrototype();
 
   constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_DetailPrototype*> const& __cordl_internal_get__detailPrototype() const;
 
+  constexpr bool const& __cordl_internal_get__hasLayerAttributes() const;
+
+  constexpr bool& __cordl_internal_get__hasLayerAttributes();
+
+  constexpr ::StringW const& __cordl_internal_get__layerName() const;
+
+  constexpr ::StringW& __cordl_internal_get__layerName();
+
+  constexpr ::HoudiniEngineUnity::HFLayerType const& __cordl_internal_get__layerType() const;
+
+  constexpr ::HoudiniEngineUnity::HFLayerType& __cordl_internal_get__layerType();
+
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_PartData> const& __cordl_internal_get__part() const;
+
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_PartData>& __cordl_internal_get__part();
+
+  constexpr float_t const& __cordl_internal_get__strength() const;
+
+  constexpr float_t& __cordl_internal_get__strength();
+
+  constexpr ::UnityW<::UnityEngine::TerrainLayer> const& __cordl_internal_get__terrainLayer() const;
+
+  constexpr ::UnityW<::UnityEngine::TerrainLayer>& __cordl_internal_get__terrainLayer();
+
+  constexpr int32_t const& __cordl_internal_get__tile() const;
+
+  constexpr int32_t& __cordl_internal_get__tile();
+
+  constexpr bool const& __cordl_internal_get__uiExpanded() const;
+
+  constexpr bool& __cordl_internal_get__uiExpanded();
+
+  constexpr int32_t const& __cordl_internal_get__xLength() const;
+
+  constexpr int32_t& __cordl_internal_get__xLength();
+
+  constexpr int32_t const& __cordl_internal_get__yLength() const;
+
+  constexpr int32_t& __cordl_internal_get__yLength();
+
   constexpr void __cordl_internal_set__detailPrototype(::HoudiniEngineUnity::HEU_DetailPrototype* value);
 
-  /// @brief Method IsEquivalentTo, addr 0x227f6a4, size 0x370, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeLayer* other);
+  constexpr void __cordl_internal_set__hasLayerAttributes(bool value);
 
-  static inline ::HoudiniEngineUnity::HEU_VolumeLayer* New_ctor();
+  constexpr void __cordl_internal_set__layerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x227fa14, size 0x10, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__layerType(::HoudiniEngineUnity::HFLayerType value);
+
+  constexpr void __cordl_internal_set__part(::UnityW<::HoudiniEngineUnity::HEU_PartData> value);
+
+  constexpr void __cordl_internal_set__strength(float_t value);
+
+  constexpr void __cordl_internal_set__terrainLayer(::UnityW<::UnityEngine::TerrainLayer> value);
+
+  constexpr void __cordl_internal_set__tile(int32_t value);
+
+  constexpr void __cordl_internal_set__uiExpanded(bool value);
+
+  constexpr void __cordl_internal_set__xLength(int32_t value);
+
+  constexpr void __cordl_internal_set__yLength(int32_t value);
+
+  /// @brief Method .ctor, addr 0x234c07c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeLayer*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeLayer__() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_VolumeLayer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeLayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_VolumeLayer(HEU_VolumeLayer&&) = delete;
@@ -157,12 +161,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_VolumeLayer(HEU_VolumeLayer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_VolumeLayer();
-
-public:
   /// @brief Field _layerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____layerName;
 

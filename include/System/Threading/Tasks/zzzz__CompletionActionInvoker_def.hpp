@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::System::Threading::Tasks::CompletionActionInvoker);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2788))
 // CS Name: ::System.Threading.Tasks::CompletionActionInvoker*
 class CORDL_TYPE CompletionActionInvoker : public ::System::Object {
 public:
@@ -41,32 +39,38 @@ public:
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
-  /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
-  constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
+  /// @brief Method MarkAborted, addr 0x271fc08, size 0x4, virtual true, abstract: false, final true
+  inline void MarkAborted(::System::Threading::ThreadAbortException* e);
+
+  static inline ::System::Threading::Tasks::CompletionActionInvoker* New_ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
+
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x271fb60, size 0xa8, virtual true, abstract: false, final true
+  inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
   constexpr ::System::Threading::Tasks::ITaskCompletionAction*& __cordl_internal_get_m_action();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::ITaskCompletionAction*> const& __cordl_internal_get_m_action() const;
 
-  constexpr void __cordl_internal_set_m_action(::System::Threading::Tasks::ITaskCompletionAction* value);
-
   constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_m_completingTask();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_m_completingTask() const;
 
+  constexpr void __cordl_internal_set_m_action(::System::Threading::Tasks::ITaskCompletionAction* value);
+
   constexpr void __cordl_internal_set_m_completingTask(::System::Threading::Tasks::Task* value);
 
-  static inline ::System::Threading::Tasks::CompletionActionInvoker* New_ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
-
-  /// @brief Method .ctor, addr 0x264dd18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271c464, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x2651414, size 0xa8, virtual true, abstract: false, final true
-  inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
+  /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+  constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
-  /// @brief Method MarkAborted, addr 0x26514bc, size 0x4, virtual true, abstract: false, final true
-  inline void MarkAborted(::System::Threading::ThreadAbortException* e);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CompletionActionInvoker();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CompletionActionInvoker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CompletionActionInvoker(CompletionActionInvoker&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CompletionActionInvoker(CompletionActionInvoker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CompletionActionInvoker();
-
-public:
   /// @brief Field m_action, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::ITaskCompletionAction* ___m_action;
 

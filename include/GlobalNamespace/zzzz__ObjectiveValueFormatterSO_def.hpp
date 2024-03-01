@@ -16,20 +16,24 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectiveValueFormatterSO);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10875))
 // CS Name: ::ObjectiveValueFormatterSO*
 class CORDL_TYPE ObjectiveValueFormatterSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Method FormatValue, addr 0x129456c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method FormatValue, addr 0x12d653c, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW FormatValue(int32_t value);
 
   static inline ::GlobalNamespace::ObjectiveValueFormatterSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1294134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d6104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObjectiveValueFormatterSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObjectiveValueFormatterSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectiveValueFormatterSO(ObjectiveValueFormatterSO&&) = delete;
@@ -38,12 +42,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectiveValueFormatterSO(ObjectiveValueFormatterSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectiveValueFormatterSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

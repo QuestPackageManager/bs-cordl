@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Collections::Generic::NodeColor);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7552))
 // CS Name: ::System.Collections.Generic::NodeColor
 struct CORDL_TYPE NodeColor {
 public:
@@ -34,24 +32,29 @@ public:
     return static_cast<__NodeColor_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr NodeColor(uint8_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint8_t() const noexcept {
+    return static_cast<__NodeColor_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr NodeColor();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr NodeColor(uint8_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
   uint8_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   /// @brief Field Black value: static_cast<uint8_t>(0x0u)
   static ::System::Collections::Generic::NodeColor const Black;
 
   /// @brief Field Red value: static_cast<uint8_t>(0x1u)
   static ::System::Collections::Generic::NodeColor const Red;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -16,26 +16,30 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerPrefsStorage);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16280))
 // CS Name: ::PlayerPrefsStorage*
 class CORDL_TYPE PlayerPrefsStorage : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0xe49de4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0xe8fe38, size 0xc, virtual false, abstract: false, final false
+  inline bool FileExists(::StringW filePath);
+
+  /// @brief Method Initialize, addr 0xe8fdb4, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method LoadFile, addr 0xe49de8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LoadFile, addr 0xe8fdb8, size 0x80, virtual false, abstract: false, final false
   inline bool LoadFile(::StringW filePath, ByRef<::StringW> value);
-
-  /// @brief Method FileExists, addr 0xe49e68, size 0xc, virtual false, abstract: false, final false
-  inline bool FileExists(::StringW filePath);
 
   static inline ::GlobalNamespace::PlayerPrefsStorage* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe49e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8fe44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PlayerPrefsStorage();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerPrefsStorage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PlayerPrefsStorage(PlayerPrefsStorage&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerPrefsStorage(PlayerPrefsStorage const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerPrefsStorage();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

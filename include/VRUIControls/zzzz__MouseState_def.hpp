@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::VRUIControls::MouseState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15828))
 // CS Name: ::VRUIControls::MouseState*
 class CORDL_TYPE MouseState : public ::System::Object {
 public:
@@ -38,30 +36,36 @@ public:
   /// @brief Field _trackedButtons, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__trackedButtons, put = __cordl_internal_set__trackedButtons))::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* _trackedButtons;
 
+  /// @brief Method AnyPressesThisFrame, addr 0x2fc3a40, size 0xa4, virtual false, abstract: false, final false
+  inline bool AnyPressesThisFrame();
+
+  /// @brief Method AnyReleasesThisFrame, addr 0x2fc3ae4, size 0xa8, virtual false, abstract: false, final false
+  inline bool AnyReleasesThisFrame();
+
+  /// @brief Method GetButtonState, addr 0x2fc3b8c, size 0x19c, virtual false, abstract: false, final false
+  inline ::VRUIControls::ButtonState* GetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button);
+
+  static inline ::VRUIControls::MouseState* New_ctor();
+
+  /// @brief Method SetButtonState, addr 0x2fc3d28, size 0x38, virtual false, abstract: false, final false
+  inline void SetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button, ::UnityEngine::EventSystems::__PointerEventData__FramePressState stateForMouseButton,
+                             ::UnityEngine::EventSystems::PointerEventData* data);
+
   constexpr ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*& __cordl_internal_get__trackedButtons();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*> const& __cordl_internal_get__trackedButtons() const;
 
   constexpr void __cordl_internal_set__trackedButtons(::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* value);
 
-  /// @brief Method AnyPressesThisFrame, addr 0x2ed0318, size 0xa4, virtual false, abstract: false, final false
-  inline bool AnyPressesThisFrame();
-
-  /// @brief Method AnyReleasesThisFrame, addr 0x2ed03bc, size 0xa8, virtual false, abstract: false, final false
-  inline bool AnyReleasesThisFrame();
-
-  /// @brief Method GetButtonState, addr 0x2ed0464, size 0x19c, virtual false, abstract: false, final false
-  inline ::VRUIControls::ButtonState* GetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button);
-
-  /// @brief Method SetButtonState, addr 0x2ed0600, size 0x38, virtual false, abstract: false, final false
-  inline void SetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button, ::UnityEngine::EventSystems::__PointerEventData__FramePressState stateForMouseButton,
-                             ::UnityEngine::EventSystems::PointerEventData* data);
-
-  static inline ::VRUIControls::MouseState* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2ed0638, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc3d60, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MouseState();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MouseState(MouseState&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MouseState(MouseState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseState();
-
-public:
   /// @brief Field _trackedButtons, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* ____trackedButtons;
 

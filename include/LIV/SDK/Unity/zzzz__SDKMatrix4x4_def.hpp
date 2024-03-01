@@ -25,44 +25,46 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKMatrix4x4);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14984))
 // CS Name: ::LIV.SDK.Unity::SDKMatrix4x4
 struct CORDL_TYPE SDKMatrix4x4 {
 public:
   // Declarations
-  /// @brief Method get_identity, addr 0x22a9c64, size 0x2c, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKMatrix4x4 get_identity();
-
-  /// @brief Method op_Implicit, addr 0x22a7a44, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Matrix4x4 op_Implicit___UnityEngine__Matrix4x4(::LIV::SDK::Unity::SDKMatrix4x4 v);
-
-  /// @brief Method op_Implicit, addr 0x22a8d50, size 0x44, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKMatrix4x4 op_Implicit___LIV__SDK__Unity__SDKMatrix4x4(::UnityEngine::Matrix4x4 v);
-
-  /// @brief Method Perspective, addr 0x22a9c90, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Perspective, addr 0x23762f8, size 0xac, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Perspective(float_t vFov, float_t aspect, float_t zNear, float_t zFar);
 
-  /// @brief Method op_Multiply, addr 0x22a9d3c, size 0x10c, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKMatrix4x4 op_Multiply(::LIV::SDK::Unity::SDKMatrix4x4 lhs, ::LIV::SDK::Unity::SDKMatrix4x4 rhs);
-
-  /// @brief Method op_Multiply, addr 0x22a9e48, size 0x58, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKMatrix4x4 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
-
-  /// @brief Method Translate, addr 0x22a9ea0, size 0x3c, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKMatrix4x4 Translate(::LIV::SDK::Unity::SDKVector3 value);
-
-  /// @brief Method Rotate, addr 0x22a9edc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x2376544, size 0x94, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Rotate(::LIV::SDK::Unity::SDKQuaternion value);
 
-  /// @brief Method Scale, addr 0x22a9f70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Scale, addr 0x23765d8, size 0x2c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Scale(::LIV::SDK::Unity::SDKVector3 value);
 
-  /// @brief Method TRS, addr 0x22a9f9c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method TRS, addr 0x2376604, size 0xe4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 TRS(::LIV::SDK::Unity::SDKVector3 translation, ::LIV::SDK::Unity::SDKQuaternion rotation, ::LIV::SDK::Unity::SDKVector3 scale);
 
-  /// @brief Method ToString, addr 0x22aa080, size 0x4ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x23766e8, size 0x4ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  /// @brief Method Translate, addr 0x2376508, size 0x3c, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKMatrix4x4 Translate(::LIV::SDK::Unity::SDKVector3 value);
+
+  /// @brief Method get_identity, addr 0x23762cc, size 0x2c, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKMatrix4x4 get_identity();
+
+  /// @brief Method op_Implicit, addr 0x23753b8, size 0x44, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKMatrix4x4 op_Implicit___LIV__SDK__Unity__SDKMatrix4x4(::UnityEngine::Matrix4x4 v);
+
+  /// @brief Method op_Implicit, addr 0x23740ac, size 0x44, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Matrix4x4 op_Implicit___UnityEngine__Matrix4x4(::LIV::SDK::Unity::SDKMatrix4x4 v);
+
+  /// @brief Method op_Multiply, addr 0x23763a4, size 0x10c, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKMatrix4x4 op_Multiply(::LIV::SDK::Unity::SDKMatrix4x4 lhs, ::LIV::SDK::Unity::SDKMatrix4x4 rhs);
+
+  /// @brief Method op_Multiply, addr 0x23764b0, size 0x58, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKMatrix4x4 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SDKMatrix4x4();
 
   // Ctor Parameters [CppParam { name: "m00", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m01", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m02", ty:
   // "float_t", modifiers: "", def_value: None }, CppParam { name: "m03", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m10", ty: "float_t", modifiers: "", def_value: None },
@@ -73,10 +75,6 @@ public:
   // "", def_value: None }]
   constexpr SDKMatrix4x4(float_t m00, float_t m01, float_t m02, float_t m03, float_t m10, float_t m11, float_t m12, float_t m13, float_t m20, float_t m21, float_t m22, float_t m23, float_t m30,
                          float_t m31, float_t m32, float_t m33) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SDKMatrix4x4();
 
   /// @brief Field m00, offset: 0x0, size: 0x4, def value: None
   float_t m00;

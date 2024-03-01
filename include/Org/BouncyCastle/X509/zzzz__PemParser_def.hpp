@@ -21,59 +21,63 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::PemParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1855))
 // CS Name: ::Org.BouncyCastle.X509::PemParser*
 class CORDL_TYPE PemParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _header1, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__header1, put = __cordl_internal_set__header1))::StringW _header1;
-
-  /// @brief Field _header2, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__header2, put = __cordl_internal_set__header2))::StringW _header2;
-
   /// @brief Field _footer1, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__footer1, put = __cordl_internal_set__footer1))::StringW _footer1;
 
   /// @brief Field _footer2, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__footer2, put = __cordl_internal_set__footer2))::StringW _footer2;
 
-  constexpr ::StringW& __cordl_internal_get__header1();
+  /// @brief Field _header1, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__header1, put = __cordl_internal_set__header1))::StringW _header1;
 
-  constexpr ::StringW const& __cordl_internal_get__header1() const;
-
-  constexpr void __cordl_internal_set__header1(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__header2();
-
-  constexpr ::StringW const& __cordl_internal_get__header2() const;
-
-  constexpr void __cordl_internal_set__header2(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__footer1();
-
-  constexpr ::StringW const& __cordl_internal_get__footer1() const;
-
-  constexpr void __cordl_internal_set__footer1(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__footer2();
-
-  constexpr ::StringW const& __cordl_internal_get__footer2() const;
-
-  constexpr void __cordl_internal_set__footer2(::StringW value);
+  /// @brief Field _header2, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__header2, put = __cordl_internal_set__header2))::StringW _header2;
 
   static inline ::Org::BouncyCastle::X509::PemParser* New_ctor(::StringW type);
 
-  /// @brief Method .ctor, addr 0x11a3918, size 0x118, virtual false, abstract: false, final false
-  inline void _ctor(::StringW type);
-
-  /// @brief Method ReadLine, addr 0x11a3a30, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x11e5a00, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW ReadLine(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadPemObject, addr 0x11a3b00, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ReadPemObject, addr 0x11e5ad0, size 0x214, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(::System::IO::Stream* inStream);
 
+  constexpr ::StringW const& __cordl_internal_get__footer1() const;
+
+  constexpr ::StringW& __cordl_internal_get__footer1();
+
+  constexpr ::StringW const& __cordl_internal_get__footer2() const;
+
+  constexpr ::StringW& __cordl_internal_get__footer2();
+
+  constexpr ::StringW const& __cordl_internal_get__header1() const;
+
+  constexpr ::StringW& __cordl_internal_get__header1();
+
+  constexpr ::StringW const& __cordl_internal_get__header2() const;
+
+  constexpr ::StringW& __cordl_internal_get__header2();
+
+  constexpr void __cordl_internal_set__footer1(::StringW value);
+
+  constexpr void __cordl_internal_set__footer2(::StringW value);
+
+  constexpr void __cordl_internal_set__header1(::StringW value);
+
+  constexpr void __cordl_internal_set__header2(::StringW value);
+
+  /// @brief Method .ctor, addr 0x11e58e8, size 0x118, virtual false, abstract: false, final false
+  inline void _ctor(::StringW type);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PemParser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PemParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PemParser(PemParser&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PemParser(PemParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PemParser();
-
-public:
   /// @brief Field _header1, offset: 0x10, size: 0x8, def value: None
   ::StringW ____header1;
 

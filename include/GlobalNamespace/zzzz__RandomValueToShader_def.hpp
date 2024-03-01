@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::GlobalNamespace::RandomValueToShader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14389))
 // CS Name: ::RandomValueToShader*
 class CORDL_TYPE RandomValueToShader : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -27,24 +25,30 @@ public:
   /// @brief Field _randomValueID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__randomValueID, put = setStaticF__randomValueID)) int32_t _randomValueID;
 
-  constexpr int32_t& __cordl_internal_get__lastFrameNum();
+  static inline ::GlobalNamespace::RandomValueToShader* New_ctor();
+
+  /// @brief Method SetRandomValueToShaders, addr 0x226df98, size 0x8c, virtual false, abstract: false, final false
+  inline void SetRandomValueToShaders();
 
   constexpr int32_t const& __cordl_internal_get__lastFrameNum() const;
 
+  constexpr int32_t& __cordl_internal_get__lastFrameNum();
+
   constexpr void __cordl_internal_set__lastFrameNum(int32_t value);
 
-  static inline void setStaticF__randomValueID(int32_t value);
+  /// @brief Method .ctor, addr 0x226e02c, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline int32_t getStaticF__randomValueID();
 
-  /// @brief Method SetRandomValueToShaders, addr 0x219f930, size 0x8c, virtual false, abstract: false, final false
-  inline void SetRandomValueToShaders();
+  static inline void setStaticF__randomValueID(int32_t value);
 
-  static inline ::GlobalNamespace::RandomValueToShader* New_ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RandomValueToShader();
 
-  /// @brief Method .ctor, addr 0x219f9c4, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RandomValueToShader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RandomValueToShader(RandomValueToShader&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RandomValueToShader(RandomValueToShader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RandomValueToShader();
-
-public:
   /// @brief Field _lastFrameNum, offset: 0x18, size: 0x4, def value: None
   int32_t ____lastFrameNum;
 

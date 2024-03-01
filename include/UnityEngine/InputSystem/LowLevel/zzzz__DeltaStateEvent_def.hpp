@@ -47,19 +47,17 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5779))
 // CS Name: ::DeltaStateEvent::<stateData>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __DeltaStateEvent___stateData_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __DeltaStateEvent___stateData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __DeltaStateEvent___stateData_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __DeltaStateEvent___stateData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
   uint8_t FixedElementField;
@@ -80,8 +78,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent__
 // SizeInfo { instance_size: 29, native_size: 29, calculated_instance_size: 29, calculated_native_size: 45, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5779)), TypeDefinitionIndex(TypeDefinitionIndex(5789)), TypeDefinitionIndex(TypeDefinitionIndex(5926))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5780))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DeltaStateEvent
 #pragma pack(push, 1)
 struct CORDL_TYPE DeltaStateEvent {
@@ -92,82 +88,82 @@ public:
   /// @brief Field baseEvent, offset 0x0, size 0x14
   __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
 
+  __declspec(property(get = get_deltaState))::cordl_internals::Ptr<void> deltaState;
+
+  __declspec(property(get = get_deltaStateSizeInBytes)) uint32_t deltaStateSizeInBytes;
+
+  /// @brief Field stateData, offset 0x1c, size 0x1
+  __declspec(property(get = __cordl_internal_get_stateData, put = __cordl_internal_set_stateData))::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer stateData;
+
   /// @brief Field stateFormat, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_stateFormat, put = __cordl_internal_set_stateFormat))::UnityEngine::InputSystem::Utilities::FourCC stateFormat;
 
   /// @brief Field stateOffset, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_stateOffset, put = __cordl_internal_set_stateOffset)) uint32_t stateOffset;
 
-  /// @brief Field stateData, offset 0x1c, size 0x1
-  __declspec(property(get = __cordl_internal_get_stateData, put = __cordl_internal_set_stateData))::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer stateData;
-
-  __declspec(property(get = get_deltaStateSizeInBytes)) uint32_t deltaStateSizeInBytes;
-
-  __declspec(property(get = get_deltaState))::cordl_internals::Ptr<void> deltaState;
-
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
+  /// @brief Method From, addr 0x2bd031c, size 0x318, virtual false, abstract: false, final false
+  static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputControl* control, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
+                                                                  ::Unity::Collections::Allocator allocator);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
+  /// @brief Method From, addr 0x2bd01e8, size 0x130, virtual false, abstract: false, final false
+  static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
+
+  /// @brief Method FromUnchecked, addr 0x2bd0318, size 0x4, virtual false, abstract: false, final false
+  static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
+
+  /// @brief Method ToEventPtr, addr 0x2bd01e4, size 0x4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
 
-  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
-
-  constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __cordl_internal_get_stateFormat();
-
-  constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __cordl_internal_get_stateFormat() const;
-
-  constexpr void __cordl_internal_set_stateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
-
-  constexpr uint32_t& __cordl_internal_get_stateOffset();
-
-  constexpr uint32_t const& __cordl_internal_get_stateOffset() const;
-
-  constexpr void __cordl_internal_set_stateOffset(uint32_t value);
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer& __cordl_internal_get_stateData();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer const& __cordl_internal_get_stateData() const;
 
+  constexpr ::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer& __cordl_internal_get_stateData();
+
+  constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __cordl_internal_get_stateFormat() const;
+
+  constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __cordl_internal_get_stateFormat();
+
+  constexpr uint32_t const& __cordl_internal_get_stateOffset() const;
+
+  constexpr uint32_t& __cordl_internal_get_stateOffset();
+
+  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
+
   constexpr void __cordl_internal_set_stateData(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer value);
 
-  /// @brief Method get_deltaStateSizeInBytes, addr 0x2aeb0dc, size 0xc, virtual false, abstract: false, final false
-  inline uint32_t get_deltaStateSizeInBytes();
+  constexpr void __cordl_internal_set_stateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method get_deltaState, addr 0x2aeb0e8, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_stateOffset(uint32_t value);
+
+  /// @brief Method get_deltaState, addr 0x2bd01bc, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_deltaState();
 
-  /// @brief Method get_typeStatic, addr 0x2aeb0f0, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_deltaStateSizeInBytes, addr 0x2bd01b0, size 0xc, virtual false, abstract: false, final false
+  inline uint32_t get_deltaStateSizeInBytes();
+
+  /// @brief Method get_typeStatic, addr 0x2bd01c4, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method ToEventPtr, addr 0x2aeb110, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
-  /// @brief Method From, addr 0x2aeb114, size 0x130, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
-
-  /// @brief Method FromUnchecked, addr 0x2aeb244, size 0x4, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
-
-  /// @brief Method From, addr 0x2aeb248, size 0x318, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputControl* control, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
-                                                                  ::Unity::Collections::Allocator allocator);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DeltaStateEvent();
 
   // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "stateFormat", ty:
   // "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "stateOffset", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "stateData",
   // ty: "::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer", modifiers: "", def_value: None }]
   constexpr DeltaStateEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent, ::UnityEngine::InputSystem::Utilities::FourCC stateFormat, uint32_t stateOffset,
                             ::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer stateData) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeltaStateEvent();
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -231,11 +227,11 @@ private:
   };
 
 public:
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1d };
-
   /// @brief Field Type offset 0xffffffff size 0x4
   static constexpr int32_t Type{ static_cast<int32_t>(0x444c5441) };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1d };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

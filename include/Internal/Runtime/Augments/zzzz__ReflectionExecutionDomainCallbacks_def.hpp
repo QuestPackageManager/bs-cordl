@@ -20,20 +20,24 @@ MARK_REF_PTR_T(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Internal::Runtime::Augments {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2307))
 // CS Name: ::Internal.Runtime.Augments::ReflectionExecutionDomainCallbacks*
 class CORDL_TYPE ReflectionExecutionDomainCallbacks : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateMissingMetadataException, addr 0x244c530, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateMissingMetadataException, addr 0x251e228, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Exception* CreateMissingMetadataException(::System::Type* attributeType);
 
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* New_ctor();
 
-  /// @brief Method .ctor, addr 0x244c528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251e220, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ReflectionExecutionDomainCallbacks();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionExecutionDomainCallbacks", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionExecutionDomainCallbacks(ReflectionExecutionDomainCallbacks&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReflectionExecutionDomainCallbacks(ReflectionExecutionDomainCallbacks const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReflectionExecutionDomainCallbacks();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

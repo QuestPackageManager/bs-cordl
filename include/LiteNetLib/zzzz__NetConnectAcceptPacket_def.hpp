@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::LiteNetLib::NetConnectAcceptPacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14184))
 // CS Name: ::LiteNetLib::NetConnectAcceptPacket*
 class CORDL_TYPE NetConnectAcceptPacket : public ::System::Object {
 public:
@@ -33,35 +31,41 @@ public:
   /// @brief Field IsReusedPeer, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_IsReusedPeer, put = __cordl_internal_set_IsReusedPeer)) bool IsReusedPeer;
 
-  constexpr int64_t& __cordl_internal_get_ConnectionId();
+  /// @brief Method FromData, addr 0x2361ec0, size 0x108, virtual false, abstract: false, final false
+  static inline ::LiteNetLib::NetConnectAcceptPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
-
-  constexpr void __cordl_internal_set_ConnectionId(int64_t value);
-
-  constexpr uint8_t& __cordl_internal_get_ConnectionNumber();
-
-  constexpr uint8_t const& __cordl_internal_get_ConnectionNumber() const;
-
-  constexpr void __cordl_internal_set_ConnectionNumber(uint8_t value);
-
-  constexpr bool& __cordl_internal_get_IsReusedPeer();
-
-  constexpr bool const& __cordl_internal_get_IsReusedPeer() const;
-
-  constexpr void __cordl_internal_set_IsReusedPeer(bool value);
+  /// @brief Method Make, addr 0x2365178, size 0xbc, virtual false, abstract: false, final false
+  static inline ::LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
 
   static inline ::LiteNetLib::NetConnectAcceptPacket* New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
 
-  /// @brief Method .ctor, addr 0x2298ad0, size 0x40, virtual false, abstract: false, final false
+  constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
+
+  constexpr int64_t& __cordl_internal_get_ConnectionId();
+
+  constexpr uint8_t const& __cordl_internal_get_ConnectionNumber() const;
+
+  constexpr uint8_t& __cordl_internal_get_ConnectionNumber();
+
+  constexpr bool const& __cordl_internal_get_IsReusedPeer() const;
+
+  constexpr bool& __cordl_internal_get_IsReusedPeer();
+
+  constexpr void __cordl_internal_set_ConnectionId(int64_t value);
+
+  constexpr void __cordl_internal_set_ConnectionNumber(uint8_t value);
+
+  constexpr void __cordl_internal_set_IsReusedPeer(bool value);
+
+  /// @brief Method .ctor, addr 0x2365138, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer);
 
-  /// @brief Method FromData, addr 0x2295858, size 0x108, virtual false, abstract: false, final false
-  static inline ::LiteNetLib::NetConnectAcceptPacket* FromData(::LiteNetLib::NetPacket* packet);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetConnectAcceptPacket();
 
-  /// @brief Method Make, addr 0x2298b10, size 0xbc, virtual false, abstract: false, final false
-  static inline ::LiteNetLib::NetPacket* Make(int64_t connectId, uint8_t connectNum, bool reusedPeer);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetConnectAcceptPacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetConnectAcceptPacket(NetConnectAcceptPacket&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetConnectAcceptPacket(NetConnectAcceptPacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetConnectAcceptPacket();
-
-public:
   /// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionId;
 

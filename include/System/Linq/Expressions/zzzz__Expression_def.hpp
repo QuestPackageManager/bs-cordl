@@ -58,12 +58,16 @@ MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__UnaryExpressionProxy);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14309))
 // CS Name: ::Expression::LambdaExpressionProxy*
 class CORDL_TYPE __Expression__LambdaExpressionProxy : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Expression__LambdaExpressionProxy();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Expression__LambdaExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Expression__LambdaExpressionProxy(__Expression__LambdaExpressionProxy&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Expression__LambdaExpressionProxy(__Expression__LambdaExpressionProxy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Expression__LambdaExpressionProxy();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -88,12 +86,16 @@ static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Exp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14310))
 // CS Name: ::Expression::MemberExpressionProxy*
 class CORDL_TYPE __Expression__MemberExpressionProxy : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Expression__MemberExpressionProxy();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Expression__MemberExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Expression__MemberExpressionProxy(__Expression__MemberExpressionProxy&&) = delete;
@@ -102,12 +104,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Expression__MemberExpressionProxy(__Expression__MemberExpressionProxy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Expression__MemberExpressionProxy();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -118,12 +114,16 @@ static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Exp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14311))
 // CS Name: ::Expression::UnaryExpressionProxy*
 class CORDL_TYPE __Expression__UnaryExpressionProxy : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Expression__UnaryExpressionProxy();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Expression__UnaryExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Expression__UnaryExpressionProxy(__Expression__UnaryExpressionProxy&&) = delete;
@@ -132,12 +132,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Expression__UnaryExpressionProxy(__Expression__UnaryExpressionProxy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Expression__UnaryExpressionProxy();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -148,8 +142,6 @@ static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Exp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14315))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14312))
 // CS Name: ::Expression::ExtensionInfo*
 class CORDL_TYPE __Expression__ExtensionInfo : public ::System::Object {
 public:
@@ -157,12 +149,18 @@ public:
   /// @brief Field NodeType, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_NodeType, put = __cordl_internal_set_NodeType))::System::Linq::Expressions::ExpressionType NodeType;
 
-  constexpr ::System::Linq::Expressions::ExpressionType& __cordl_internal_get_NodeType();
-
   constexpr ::System::Linq::Expressions::ExpressionType const& __cordl_internal_get_NodeType() const;
+
+  constexpr ::System::Linq::Expressions::ExpressionType& __cordl_internal_get_NodeType();
 
   constexpr void __cordl_internal_set_NodeType(::System::Linq::Expressions::ExpressionType value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Expression__ExtensionInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Expression__ExtensionInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Expression__ExtensionInfo(__Expression__ExtensionInfo&&) = delete;
@@ -171,12 +169,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Expression__ExtensionInfo(__Expression__ExtensionInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Expression__ExtensionInfo();
-
-public:
   /// @brief Field NodeType, offset: 0x10, size: 0x4, def value: None
   ::System::Linq::Expressions::ExpressionType ___NodeType;
 
@@ -192,19 +184,19 @@ static_assert(offsetof(::System::Linq::Expressions::__Expression__ExtensionInfo,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14313))
 // CS Name: ::System.Linq.Expressions::Expression*
 class CORDL_TYPE Expression : public ::System::Object {
 public:
   // Declarations
   using ExtensionInfo = ::System::Linq::Expressions::__Expression__ExtensionInfo;
 
-  using UnaryExpressionProxy = ::System::Linq::Expressions::__Expression__UnaryExpressionProxy;
+  using LambdaExpressionProxy = ::System::Linq::Expressions::__Expression__LambdaExpressionProxy;
 
   using MemberExpressionProxy = ::System::Linq::Expressions::__Expression__MemberExpressionProxy;
 
-  using LambdaExpressionProxy = ::System::Linq::Expressions::__Expression__LambdaExpressionProxy;
+  using UnaryExpressionProxy = ::System::Linq::Expressions::__Expression__UnaryExpressionProxy;
+
+  __declspec(property(get = get_NodeType))::System::Linq::Expressions::ExpressionType NodeType;
 
   /// @brief Field s_lambdaDelegateCache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_lambdaDelegateCache,
@@ -214,21 +206,25 @@ public:
   static __declspec(property(get = getStaticF_s_legacyCtorSupportTable, put = setStaticF_s_legacyCtorSupportTable))::System::Runtime::CompilerServices::ConditionalWeakTable_2<
       ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::__Expression__ExtensionInfo*>* s_legacyCtorSupportTable;
 
-  __declspec(property(get = get_NodeType))::System::Linq::Expressions::ExpressionType NodeType;
-
-  static inline void setStaticF_s_lambdaDelegateCache(::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Reflection::MethodInfo*>* value);
-
   static inline ::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Reflection::MethodInfo*>* getStaticF_s_lambdaDelegateCache();
-
-  static inline void setStaticF_s_legacyCtorSupportTable(
-      ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::__Expression__ExtensionInfo*>* value);
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::__Expression__ExtensionInfo*>*
   getStaticF_s_legacyCtorSupportTable();
 
-  /// @brief Method get_NodeType, addr 0x2818304, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x28fc780, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
+  static inline void setStaticF_s_lambdaDelegateCache(::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Reflection::MethodInfo*>* value);
+
+  static inline void setStaticF_s_legacyCtorSupportTable(
+      ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::__Expression__ExtensionInfo*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Expression();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Expression", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Expression(Expression&&) = delete;
@@ -237,12 +233,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Expression(Expression const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Expression();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

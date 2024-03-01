@@ -28,8 +28,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15587))
 // CS Name: ::SyncBackgroundCommand`1<T>*
 class CORDL_TYPE SyncBackgroundCommand_1 : public ::System::Object {
 public:
@@ -42,18 +40,6 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBackgroundCommand"
   constexpr operator ::GlobalNamespace::IBackgroundCommand*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IBackgroundCommand"
-  constexpr ::GlobalNamespace::IBackgroundCommand* i___GlobalNamespace__IBackgroundCommand() noexcept;
-
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& __cordl_internal_get__taskCompletionSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& __cordl_internal_get__taskCompletionSource() const;
-
-  constexpr void __cordl_internal_set__taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
-
-  /// @brief Method get_resultTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<T>* get_resultTask();
-
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* Execute();
 
@@ -62,9 +48,27 @@ public:
 
   static inline ::GlobalNamespace::SyncBackgroundCommand_1<T>* New_ctor();
 
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& __cordl_internal_get__taskCompletionSource();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& __cordl_internal_get__taskCompletionSource() const;
+
+  constexpr void __cordl_internal_set__taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_resultTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<T>* get_resultTask();
+
+  /// @brief Convert to "::GlobalNamespace::IBackgroundCommand"
+  constexpr ::GlobalNamespace::IBackgroundCommand* i___GlobalNamespace__IBackgroundCommand() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SyncBackgroundCommand_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SyncBackgroundCommand_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SyncBackgroundCommand_1(SyncBackgroundCommand_1&&) = delete;
@@ -73,12 +77,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SyncBackgroundCommand_1(SyncBackgroundCommand_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SyncBackgroundCommand_1();
-
-public:
   /// @brief Field _taskCompletionSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ____taskCompletionSource;
 

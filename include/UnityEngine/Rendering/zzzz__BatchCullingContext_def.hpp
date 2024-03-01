@@ -36,17 +36,18 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchCullingContext);
 // SizeInfo { instance_size: 160, native_size: 160, calculated_instance_size: 160, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8730)), TypeDefinitionIndex(TypeDefinitionIndex(8907)), TypeDefinitionIndex(TypeDefinitionIndex(8989)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9112)), TypeDefinitionIndex(TypeDefinitionIndex(9131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 103 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 732 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8730), inst: 744 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9132)) CS Name: ::UnityEngine.Rendering::BatchCullingContext
+// CS Name: ::UnityEngine.Rendering::BatchCullingContext
 struct CORDL_TYPE BatchCullingContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2cfa43c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2de5b64, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> inCullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility,
                     ::Unity::Collections::NativeArray_1<int32_t> outVisibleIndices, ::Unity::Collections::NativeArray_1<int32_t> outVisibleIndicesY,
                     ::UnityEngine::Rendering::LODParameters inLodParameters, ::UnityEngine::Matrix4x4 inCullingMatrix, float_t inNearPlane);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BatchCullingContext();
 
   // Ctor Parameters [CppParam { name: "cullingPlanes", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Plane>", modifiers: "", def_value: None }, CppParam { name: "batchVisibility", ty:
   // "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility>", modifiers: "", def_value: None }, CppParam { name: "visibleIndices", ty:
@@ -56,10 +57,6 @@ public:
   constexpr BatchCullingContext(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> cullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility> batchVisibility,
                                 ::Unity::Collections::NativeArray_1<int32_t> visibleIndices, ::Unity::Collections::NativeArray_1<int32_t> visibleIndicesY,
                                 ::UnityEngine::Rendering::LODParameters lodParameters, ::UnityEngine::Matrix4x4 cullingMatrix, float_t nearPlane) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BatchCullingContext();
 
   /// @brief Field cullingPlanes, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> cullingPlanes;

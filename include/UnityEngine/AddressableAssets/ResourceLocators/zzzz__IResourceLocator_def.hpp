@@ -30,24 +30,22 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLoca
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14125))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::IResourceLocator*
 class CORDL_TYPE IResourceLocator {
 public:
   // Declarations
-  __declspec(property(get = get_LocatorId))::StringW LocatorId;
-
   __declspec(property(get = get_Keys))::System::Collections::Generic::IEnumerable_1<::System::Object*>* Keys;
 
-  /// @brief Method get_LocatorId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_LocatorId();
+  __declspec(property(get = get_LocatorId))::StringW LocatorId;
+
+  /// @brief Method Locate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
   /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method Locate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
+  /// @brief Method get_LocatorId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_LocatorId();
 
   // Ctor Parameters [CppParam { name: "", ty: "IResourceLocator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

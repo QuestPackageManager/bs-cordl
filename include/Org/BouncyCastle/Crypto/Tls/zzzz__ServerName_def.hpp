@@ -22,57 +22,61 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ServerName);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1267))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ServerName*
 class CORDL_TYPE ServerName : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field mNameType, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_mNameType, put = __cordl_internal_set_mNameType)) uint8_t mNameType;
+  __declspec(property(get = get_Name))::System::Object* Name;
+
+  __declspec(property(get = get_NameType)) uint8_t NameType;
 
   /// @brief Field mName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mName, put = __cordl_internal_set_mName))::System::Object* mName;
 
-  __declspec(property(get = get_NameType)) uint8_t NameType;
+  /// @brief Field mNameType, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_mNameType, put = __cordl_internal_set_mNameType)) uint8_t mNameType;
 
-  __declspec(property(get = get_Name))::System::Object* Name;
+  /// @brief Method Encode, addr 0x1005e40, size 0x124, virtual true, abstract: false, final false
+  inline void Encode(::System::IO::Stream* output);
 
-  constexpr uint8_t& __cordl_internal_get_mNameType();
+  /// @brief Method GetHostName, addr 0x1005d64, size 0xdc, virtual true, abstract: false, final false
+  inline ::StringW GetHostName();
 
-  constexpr uint8_t const& __cordl_internal_get_mNameType() const;
+  /// @brief Method IsCorrectType, addr 0x1005c8c, size 0xc8, virtual false, abstract: false, final false
+  static inline bool IsCorrectType(uint8_t nameType, ::System::Object* name);
 
-  constexpr void __cordl_internal_set_mNameType(uint8_t value);
+  static inline ::Org::BouncyCastle::Crypto::Tls::ServerName* New_ctor(uint8_t nameType, ::System::Object* name);
+
+  /// @brief Method Parse, addr 0x1005f64, size 0x118, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Crypto::Tls::ServerName* Parse(::System::IO::Stream* input);
 
   constexpr ::System::Object*& __cordl_internal_get_mName();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_mName() const;
 
+  constexpr uint8_t const& __cordl_internal_get_mNameType() const;
+
+  constexpr uint8_t& __cordl_internal_get_mNameType();
+
   constexpr void __cordl_internal_set_mName(::System::Object* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::ServerName* New_ctor(uint8_t nameType, ::System::Object* name);
+  constexpr void __cordl_internal_set_mNameType(uint8_t value);
 
-  /// @brief Method .ctor, addr 0xfc0c1c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1005bec, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(uint8_t nameType, ::System::Object* name);
 
-  /// @brief Method get_NameType, addr 0xfc0d84, size 0x8, virtual true, abstract: false, final false
-  inline uint8_t get_NameType();
-
-  /// @brief Method get_Name, addr 0xfc0d8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x1005d5c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Name();
 
-  /// @brief Method GetHostName, addr 0xfc0d94, size 0xdc, virtual true, abstract: false, final false
-  inline ::StringW GetHostName();
+  /// @brief Method get_NameType, addr 0x1005d54, size 0x8, virtual true, abstract: false, final false
+  inline uint8_t get_NameType();
 
-  /// @brief Method Encode, addr 0xfc0e70, size 0x124, virtual true, abstract: false, final false
-  inline void Encode(::System::IO::Stream* output);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ServerName();
 
-  /// @brief Method Parse, addr 0xfc0f94, size 0x118, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Tls::ServerName* Parse(::System::IO::Stream* input);
-
-  /// @brief Method IsCorrectType, addr 0xfc0cbc, size 0xc8, virtual false, abstract: false, final false
-  static inline bool IsCorrectType(uint8_t nameType, ::System::Object* name);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ServerName", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerName(ServerName&&) = delete;
@@ -81,12 +85,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ServerName(ServerName const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServerName();
-
-public:
   /// @brief Field mNameType, offset: 0x10, size: 0x1, def value: None
   uint8_t ___mNameType;
 

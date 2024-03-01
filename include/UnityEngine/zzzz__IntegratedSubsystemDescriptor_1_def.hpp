@@ -19,23 +19,27 @@ namespace UnityEngine {
 // cpp template
 template <typename TSubsystem>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16082))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16083))
 // CS Name: ::UnityEngine::IntegratedSubsystemDescriptor`1<TSubsystem>*
 class CORDL_TYPE IntegratedSubsystemDescriptor_1 : public ::UnityEngine::IntegratedSubsystemDescriptor {
 public:
   // Declarations
-  /// @brief Method CreateImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::ISubsystem* CreateImpl();
-
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TSubsystem Create();
+
+  /// @brief Method CreateImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::ISubsystem* CreateImpl();
 
   static inline ::UnityEngine::IntegratedSubsystemDescriptor_1<TSubsystem>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IntegratedSubsystemDescriptor_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystemDescriptor_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IntegratedSubsystemDescriptor_1(IntegratedSubsystemDescriptor_1&&) = delete;
@@ -44,12 +48,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IntegratedSubsystemDescriptor_1(IntegratedSubsystemDescriptor_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegratedSubsystemDescriptor_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

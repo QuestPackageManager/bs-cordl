@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::System::Security::Cryptography::CryptoConfigForwarder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2988))
 // CS Name: ::System.Security.Cryptography::CryptoConfigForwarder*
 class CORDL_TYPE CryptoConfigForwarder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateFromName, addr 0x2496b04, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x25687fc, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CryptoConfigForwarder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CryptoConfigForwarder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CryptoConfigForwarder(CryptoConfigForwarder&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CryptoConfigForwarder(CryptoConfigForwarder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CryptoConfigForwarder();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

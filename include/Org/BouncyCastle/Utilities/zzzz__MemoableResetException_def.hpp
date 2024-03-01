@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::MemoableResetException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2426))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1835))
 // CS Name: ::Org.BouncyCastle.Utilities::MemoableResetException*
 class CORDL_TYPE MemoableResetException : public ::System::InvalidCastException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::MemoableResetException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x119cacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11dea9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MemoableResetException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MemoableResetException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MemoableResetException(MemoableResetException&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoableResetException(MemoableResetException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoableResetException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,34 +15,38 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyChangingEventArgs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11690))
 // CS Name: ::System.ComponentModel::PropertyChangingEventArgs*
 class CORDL_TYPE PropertyChangingEventArgs : public ::System::EventArgs {
 public:
   // Declarations
+  __declspec(property(get = get_PropertyName, put = set_PropertyName))::StringW PropertyName;
+
   /// @brief Field <PropertyName>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__PropertyName_k__BackingField, put = __cordl_internal_set__PropertyName_k__BackingField))::StringW _PropertyName_k__BackingField;
 
-  __declspec(property(get = get_PropertyName, put = set_PropertyName))::StringW PropertyName;
-
-  constexpr ::StringW& __cordl_internal_get__PropertyName_k__BackingField();
+  static inline ::System::ComponentModel::PropertyChangingEventArgs* New_ctor(::StringW propertyName);
 
   constexpr ::StringW const& __cordl_internal_get__PropertyName_k__BackingField() const;
 
+  constexpr ::StringW& __cordl_internal_get__PropertyName_k__BackingField();
+
   constexpr void __cordl_internal_set__PropertyName_k__BackingField(::StringW value);
 
-  static inline ::System::ComponentModel::PropertyChangingEventArgs* New_ctor(::StringW propertyName);
-
-  /// @brief Method .ctor, addr 0x2662370, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2731abc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName);
 
-  /// @brief Method get_PropertyName, addr 0x26623e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyName, addr 0x2731b34, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method set_PropertyName, addr 0x26623f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_PropertyName, addr 0x2731b3c, size 0x8, virtual true, abstract: false, final false
   inline void set_PropertyName(::StringW value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PropertyChangingEventArgs();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PropertyChangingEventArgs", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PropertyChangingEventArgs(PropertyChangingEventArgs&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PropertyChangingEventArgs(PropertyChangingEventArgs const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyChangingEventArgs();
-
-public:
   /// @brief Field <PropertyName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____PropertyName_k__BackingField;
 

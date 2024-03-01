@@ -20,23 +20,27 @@ MARK_REF_PTR_T(::LiteNetLib::Layers::Crc32cLayer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Layers {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14254))
 // CS Name: ::LiteNetLib.Layers::Crc32cLayer*
 class CORDL_TYPE Crc32cLayer : public ::LiteNetLib::Layers::PacketLayerBase {
 public:
   // Declarations
   static inline ::LiteNetLib::Layers::Crc32cLayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22a2ad4, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method ProcessInboundPacket, addr 0x22a2b1c, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method ProcessInboundPacket, addr 0x236f184, size 0x194, virtual true, abstract: false, final false
   inline void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
-  /// @brief Method ProcessOutBoundPacket, addr 0x22a2cb0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ProcessOutBoundPacket, addr 0x236f318, size 0xa0, virtual true, abstract: false, final false
   inline void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
+  /// @brief Method .ctor, addr 0x236f13c, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Crc32cLayer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Crc32cLayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Crc32cLayer(Crc32cLayer&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Crc32cLayer(Crc32cLayer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Crc32cLayer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

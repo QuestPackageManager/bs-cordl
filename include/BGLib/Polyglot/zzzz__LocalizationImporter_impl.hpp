@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::BGLib::Polyglot::LocalizationImporter::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0xe4cb50;
+  constexpr static std::size_t addrs = 0xe92b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationImporter*>::get(),
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGLib::Polyglot::LocalizationModel*)>(&::BGLib::Polyglot::LocalizationImporter::Initialize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0xe4cc38;
+  constexpr static std::size_t addrs = 0xe92c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::BGLib::Polyglot::GoogleDriveDownloadFormat)>(
     &::BGLib::Polyglot::LocalizationImporter::Import)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0xe4cd84;
+  constexpr static std::size_t addrs = 0xe92d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGLib::Polyglot::LocalizationModel*)>(&::BGLib::Polyglot::LocalizationImporter::ImportFromFiles)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0xe4ccbc;
+  constexpr static std::size_t addrs = 0xe92c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::BGLib::Polyglot::LocalizationImporter::ImportInputFiles)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0xe4d488;
+  constexpr static std::size_t addrs = 0xe93458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationImporter*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::BGLib::Polyglot::GoogleDriveDownloadFormat)>(
     &::BGLib::Polyglot::LocalizationImporter::ImportTextFile)> {
   constexpr static std::size_t size = 0x6a0;
-  constexpr static std::size_t addrs = 0xe4cde8;
+  constexpr static std::size_t addrs = 0xe92db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::BGLib::Polyglot::LocalizationImporter::IsLineBreak)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0xe4d6a0;
+  constexpr static std::size_t addrs = 0xe93670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::StringW)>(
     &::BGLib::Polyglot::LocalizationImporter::GetLanguages)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0xe4d730;
+  constexpr static std::size_t addrs = 0xe93700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::StringW, ::System::Collections::Generic::IReadOnlyList_1<::BGLib::Polyglot::Language>*)>(
         &::BGLib::Polyglot::LocalizationImporter::GetLanguages)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0xe4d7e0;
+  constexpr static std::size_t addrs = 0xe937b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(&::BGLib::Polyglot::LocalizationImporter::GetLanguagesStartsWith)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0xe4dc20;
+  constexpr static std::size_t addrs = 0xe93bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* (*)(::StringW)>(&::BGLib::Polyglot::LocalizationImporter::GetLanguagesContains)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0xe4dee0;
+  constexpr static std::size_t addrs = 0xe93eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)()>(&::BGLib::Polyglot::LocalizationImporter::GetKeys)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0xe4c4d0;
+  constexpr static std::size_t addrs = 0xe924a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationImporter*>::get(), "GetKeys",

@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MoveAndRotateWithMainCamera);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5173))
 // CS Name: ::MoveAndRotateWithMainCamera*
 class CORDL_TYPE MoveAndRotateWithMainCamera : public ::UnityEngine::MonoBehaviour {
 public:
@@ -31,50 +29,56 @@ public:
   /// @brief Field _mainCamera, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__mainCamera, put = __cordl_internal_set__mainCamera))::UnityW<::GlobalNamespace::MainCamera> _mainCamera;
 
-  /// @brief Field _rotationOffset, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset))::UnityEngine::Quaternion _rotationOffset;
-
   /// @brief Field _positionOffset, offset 0x30, size 0xc
   __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset))::UnityEngine::Vector3 _positionOffset;
+
+  /// @brief Field _rotationOffset, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset))::UnityEngine::Quaternion _rotationOffset;
 
   /// @brief Field _transform, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr ::UnityW<::GlobalNamespace::MainCamera>& __cordl_internal_get__mainCamera();
-
-  constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
-
-  constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__rotationOffset();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rotationOffset() const;
-
-  constexpr void __cordl_internal_set__rotationOffset(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__positionOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__positionOffset() const;
-
-  constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
-
-  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
-
-  /// @brief Method Awake, addr 0x2326c80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23f597c, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x2326ccc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x23f59c8, size 0x10c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MoveAndRotateWithMainCamera* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2326dd8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MainCamera>& __cordl_internal_get__mainCamera();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__positionOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__positionOffset();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rotationOffset() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__rotationOffset();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+
+  constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
+
+  constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__rotationOffset(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x23f5ad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MoveAndRotateWithMainCamera();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MoveAndRotateWithMainCamera", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MoveAndRotateWithMainCamera(MoveAndRotateWithMainCamera&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MoveAndRotateWithMainCamera(MoveAndRotateWithMainCamera const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MoveAndRotateWithMainCamera();
-
-public:
   /// @brief Field _mainCamera, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 

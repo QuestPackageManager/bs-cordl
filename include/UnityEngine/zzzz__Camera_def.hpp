@@ -173,8 +173,6 @@ MARK_VAL_T(::UnityEngine::__Camera__RenderRequest);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8891))
 // CS Name: ::Camera::ProjectionMatrixMode
 struct CORDL_TYPE __Camera__ProjectionMatrixMode {
 public:
@@ -193,18 +191,20 @@ public:
     return static_cast<____Camera__ProjectionMatrixMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Camera__ProjectionMatrixMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____Camera__ProjectionMatrixMode_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Camera__ProjectionMatrixMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Camera__ProjectionMatrixMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Explicit value: static_cast<int32_t>(0x0)
   static ::UnityEngine::__Camera__ProjectionMatrixMode const Explicit;
@@ -214,6 +214,9 @@ public:
 
   /// @brief Field PhysicalPropertiesBased value: static_cast<int32_t>(0x2)
   static ::UnityEngine::__Camera__ProjectionMatrixMode const PhysicalPropertiesBased;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -227,8 +230,6 @@ static_assert(offsetof(::UnityEngine::__Camera__ProjectionMatrixMode, value__) =
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8892))
 // CS Name: ::Camera::GateFitMode
 struct CORDL_TYPE __Camera__GateFitMode {
 public:
@@ -249,33 +250,38 @@ public:
     return static_cast<____Camera__GateFitMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Camera__GateFitMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____Camera__GateFitMode_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Camera__GateFitMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Camera__GateFitMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Vertical value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::__Camera__GateFitMode const Vertical;
-
-  /// @brief Field Horizontal value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::__Camera__GateFitMode const Horizontal;
 
   /// @brief Field Fill value: static_cast<int32_t>(0x3)
   static ::UnityEngine::__Camera__GateFitMode const Fill;
 
-  /// @brief Field Overscan value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::__Camera__GateFitMode const Overscan;
+  /// @brief Field Horizontal value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::__Camera__GateFitMode const Horizontal;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::__Camera__GateFitMode const None;
+
+  /// @brief Field Overscan value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::__Camera__GateFitMode const Overscan;
+
+  /// @brief Field Vertical value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::__Camera__GateFitMode const Vertical;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -289,29 +295,27 @@ static_assert(offsetof(::UnityEngine::__Camera__GateFitMode, value__) == 0x0, "O
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8892))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8893))
 // CS Name: ::Camera::GateFitParameters
 struct CORDL_TYPE __Camera__GateFitParameters {
 public:
   // Declarations
-  __declspec(property(get = get_mode))::UnityEngine::__Camera__GateFitMode mode;
-
   __declspec(property(get = get_aspect)) float_t aspect;
 
-  /// @brief Method get_mode, addr 0x2ccf65c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::__Camera__GateFitMode get_mode();
+  __declspec(property(get = get_mode))::UnityEngine::__Camera__GateFitMode mode;
 
-  /// @brief Method get_aspect, addr 0x2ccf664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_aspect, addr 0x2dbabc8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_aspect();
 
-  // Ctor Parameters [CppParam { name: "_mode_k__BackingField", ty: "::UnityEngine::__Camera__GateFitMode", modifiers: "", def_value: None }, CppParam { name: "_aspect_k__BackingField", ty: "float_t",
-  // modifiers: "", def_value: None }]
-  constexpr __Camera__GateFitParameters(::UnityEngine::__Camera__GateFitMode _mode_k__BackingField, float_t _aspect_k__BackingField) noexcept;
+  /// @brief Method get_mode, addr 0x2dbabc0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::__Camera__GateFitMode get_mode();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Camera__GateFitParameters();
+
+  // Ctor Parameters [CppParam { name: "_mode_k__BackingField", ty: "::UnityEngine::__Camera__GateFitMode", modifiers: "", def_value: None }, CppParam { name: "_aspect_k__BackingField", ty: "float_t",
+  // modifiers: "", def_value: None }]
+  constexpr __Camera__GateFitParameters(::UnityEngine::__Camera__GateFitMode _mode_k__BackingField, float_t _aspect_k__BackingField) noexcept;
 
   /// @brief Field <mode>k__BackingField, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::__Camera__GateFitMode _mode_k__BackingField;
@@ -336,8 +340,6 @@ static_assert(offsetof(::UnityEngine::__Camera__GateFitParameters, _aspect_k__Ba
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8894))
 // CS Name: ::Camera::StereoscopicEye
 struct CORDL_TYPE __Camera__StereoscopicEye {
 public:
@@ -355,24 +357,29 @@ public:
     return static_cast<____Camera__StereoscopicEye_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Camera__StereoscopicEye(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____Camera__StereoscopicEye_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Camera__StereoscopicEye();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Camera__StereoscopicEye(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Left value: static_cast<int32_t>(0x0)
   static ::UnityEngine::__Camera__StereoscopicEye const Left;
 
   /// @brief Field Right value: static_cast<int32_t>(0x1)
   static ::UnityEngine::__Camera__StereoscopicEye const Right;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -386,8 +393,6 @@ static_assert(offsetof(::UnityEngine::__Camera__StereoscopicEye, value__) == 0x0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8895))
 // CS Name: ::Camera::MonoOrStereoscopicEye
 struct CORDL_TYPE __Camera__MonoOrStereoscopicEye {
 public:
@@ -406,27 +411,32 @@ public:
     return static_cast<____Camera__MonoOrStereoscopicEye_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Camera__MonoOrStereoscopicEye(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____Camera__MonoOrStereoscopicEye_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Camera__MonoOrStereoscopicEye();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Camera__MonoOrStereoscopicEye(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Left value: static_cast<int32_t>(0x0)
   static ::UnityEngine::__Camera__MonoOrStereoscopicEye const Left;
 
+  /// @brief Field Mono value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::__Camera__MonoOrStereoscopicEye const Mono;
+
   /// @brief Field Right value: static_cast<int32_t>(0x1)
   static ::UnityEngine::__Camera__MonoOrStereoscopicEye const Right;
 
-  /// @brief Field Mono value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::__Camera__MonoOrStereoscopicEye const Mono;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -440,8 +450,6 @@ static_assert(offsetof(::UnityEngine::__Camera__MonoOrStereoscopicEye, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8896))
 // CS Name: ::Camera::SceneViewFilterMode
 struct CORDL_TYPE __Camera__SceneViewFilterMode {
 public:
@@ -459,24 +467,29 @@ public:
     return static_cast<____Camera__SceneViewFilterMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Camera__SceneViewFilterMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____Camera__SceneViewFilterMode_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Camera__SceneViewFilterMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Camera__SceneViewFilterMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Off value: static_cast<int32_t>(0x0)
   static ::UnityEngine::__Camera__SceneViewFilterMode const Off;
 
   /// @brief Field ShowFiltered value: static_cast<int32_t>(0x1)
   static ::UnityEngine::__Camera__SceneViewFilterMode const ShowFiltered;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -490,8 +503,6 @@ static_assert(offsetof(::UnityEngine::__Camera__SceneViewFilterMode, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8897))
 // CS Name: ::Camera::RenderRequestMode
 struct CORDL_TYPE __Camera__RenderRequestMode {
 public:
@@ -521,27 +532,56 @@ public:
     return static_cast<____Camera__RenderRequestMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Camera__RenderRequestMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____Camera__RenderRequestMode_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Camera__RenderRequestMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Camera__RenderRequestMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field BaseColor value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::__Camera__RenderRequestMode const BaseColor;
+
+  /// @brief Field Depth value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::__Camera__RenderRequestMode const Depth;
+
+  /// @brief Field DiffuseColor value: static_cast<int32_t>(0xd)
+  static ::UnityEngine::__Camera__RenderRequestMode const DiffuseColor;
+
+  /// @brief Field Emission value: static_cast<int32_t>(0x9)
+  static ::UnityEngine::__Camera__RenderRequestMode const Emission;
+
+  /// @brief Field EntityId value: static_cast<int32_t>(0x5)
+  static ::UnityEngine::__Camera__RenderRequestMode const EntityId;
+
+  /// @brief Field Metallic value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::__Camera__RenderRequestMode const Metallic;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::__Camera__RenderRequestMode const None;
 
+  /// @brief Field Normal value: static_cast<int32_t>(0xa)
+  static ::UnityEngine::__Camera__RenderRequestMode const Normal;
+
   /// @brief Field ObjectId value: static_cast<int32_t>(0x1)
   static ::UnityEngine::__Camera__RenderRequestMode const ObjectId;
 
-  /// @brief Field Depth value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::__Camera__RenderRequestMode const Depth;
+  /// @brief Field Occlusion value: static_cast<int32_t>(0xc)
+  static ::UnityEngine::__Camera__RenderRequestMode const Occlusion;
+
+  /// @brief Field Smoothness value: static_cast<int32_t>(0xb)
+  static ::UnityEngine::__Camera__RenderRequestMode const Smoothness;
+
+  /// @brief Field SpecularColor value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::__Camera__RenderRequestMode const SpecularColor;
 
   /// @brief Field VertexNormal value: static_cast<int32_t>(0x3)
   static ::UnityEngine::__Camera__RenderRequestMode const VertexNormal;
@@ -549,32 +589,8 @@ public:
   /// @brief Field WorldPosition value: static_cast<int32_t>(0x4)
   static ::UnityEngine::__Camera__RenderRequestMode const WorldPosition;
 
-  /// @brief Field EntityId value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::__Camera__RenderRequestMode const EntityId;
-
-  /// @brief Field BaseColor value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::__Camera__RenderRequestMode const BaseColor;
-
-  /// @brief Field SpecularColor value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::__Camera__RenderRequestMode const SpecularColor;
-
-  /// @brief Field Metallic value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::__Camera__RenderRequestMode const Metallic;
-
-  /// @brief Field Emission value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::__Camera__RenderRequestMode const Emission;
-
-  /// @brief Field Normal value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::__Camera__RenderRequestMode const Normal;
-
-  /// @brief Field Smoothness value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::__Camera__RenderRequestMode const Smoothness;
-
-  /// @brief Field Occlusion value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::__Camera__RenderRequestMode const Occlusion;
-
-  /// @brief Field DiffuseColor value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::__Camera__RenderRequestMode const DiffuseColor;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -588,8 +604,6 @@ static_assert(offsetof(::UnityEngine::__Camera__RenderRequestMode, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8898))
 // CS Name: ::Camera::RenderRequestOutputSpace
 struct CORDL_TYPE __Camera__RenderRequestOutputSpace {
 public:
@@ -615,18 +629,20 @@ public:
     return static_cast<____Camera__RenderRequestOutputSpace_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Camera__RenderRequestOutputSpace(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____Camera__RenderRequestOutputSpace_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Camera__RenderRequestOutputSpace();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Camera__RenderRequestOutputSpace(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field ScreenSpace value: static_cast<int32_t>(0xffffffff)
   static ::UnityEngine::__Camera__RenderRequestOutputSpace const ScreenSpace;
@@ -658,6 +674,9 @@ public:
   /// @brief Field UV8 value: static_cast<int32_t>(0x8)
   static ::UnityEngine::__Camera__RenderRequestOutputSpace const UV8;
 
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -670,21 +689,19 @@ static_assert(offsetof(::UnityEngine::__Camera__RenderRequestOutputSpace, value_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8897)), TypeDefinitionIndex(TypeDefinitionIndex(8898))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8899))
 // CS Name: ::Camera::RenderRequest
 struct CORDL_TYPE __Camera__RenderRequest {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Camera__RenderRequest();
+
   // Ctor Parameters [CppParam { name: "m_CameraRenderMode", ty: "::UnityEngine::__Camera__RenderRequestMode", modifiers: "", def_value: None }, CppParam { name: "m_ResultRT", ty:
   // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "m_OutputSpace", ty: "::UnityEngine::__Camera__RenderRequestOutputSpace", modifiers: "", def_value:
   // None }]
   constexpr __Camera__RenderRequest(::UnityEngine::__Camera__RenderRequestMode m_CameraRenderMode, ::UnityW<::UnityEngine::RenderTexture> m_ResultRT,
                                     ::UnityEngine::__Camera__RenderRequestOutputSpace m_OutputSpace) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Camera__RenderRequest();
 
   /// @brief Field m_CameraRenderMode, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::__Camera__RenderRequestMode m_CameraRenderMode;
@@ -714,20 +731,24 @@ static_assert(offsetof(::UnityEngine::__Camera__RenderRequest, m_OutputSpace) ==
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8900))
 // CS Name: ::Camera::CameraCallback*
 class CORDL_TYPE __Camera__CameraCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::UnityEngine::__Camera__CameraCallback* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2ccf66c, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2ccf740, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2dbaca4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Camera* cam);
 
+  static inline ::UnityEngine::__Camera__CameraCallback* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2dbabd0, size 0xd4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Camera__CameraCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Camera__CameraCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Camera__CameraCallback(__Camera__CameraCallback&&) = delete;
@@ -736,12 +757,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Camera__CameraCallback(__Camera__CameraCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Camera__CameraCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -752,31 +767,88 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Camera__CameraCal
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8931))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8901))
 // CS Name: ::UnityEngine::Camera*
 class CORDL_TYPE Camera : public ::UnityEngine::Behaviour {
 public:
   // Declarations
   using CameraCallback = ::UnityEngine::__Camera__CameraCallback;
 
-  using RenderRequest = ::UnityEngine::__Camera__RenderRequest;
-
-  using RenderRequestOutputSpace = ::UnityEngine::__Camera__RenderRequestOutputSpace;
-
-  using RenderRequestMode = ::UnityEngine::__Camera__RenderRequestMode;
-
-  using SceneViewFilterMode = ::UnityEngine::__Camera__SceneViewFilterMode;
-
-  using MonoOrStereoscopicEye = ::UnityEngine::__Camera__MonoOrStereoscopicEye;
-
-  using StereoscopicEye = ::UnityEngine::__Camera__StereoscopicEye;
+  using GateFitMode = ::UnityEngine::__Camera__GateFitMode;
 
   using GateFitParameters = ::UnityEngine::__Camera__GateFitParameters;
 
-  using GateFitMode = ::UnityEngine::__Camera__GateFitMode;
+  using MonoOrStereoscopicEye = ::UnityEngine::__Camera__MonoOrStereoscopicEye;
 
   using ProjectionMatrixMode = ::UnityEngine::__Camera__ProjectionMatrixMode;
+
+  using RenderRequest = ::UnityEngine::__Camera__RenderRequest;
+
+  using RenderRequestMode = ::UnityEngine::__Camera__RenderRequestMode;
+
+  using RenderRequestOutputSpace = ::UnityEngine::__Camera__RenderRequestOutputSpace;
+
+  using SceneViewFilterMode = ::UnityEngine::__Camera__SceneViewFilterMode;
+
+  using StereoscopicEye = ::UnityEngine::__Camera__StereoscopicEye;
+
+  __declspec(property(get = get_activeTexture))::UnityW<::UnityEngine::RenderTexture> activeTexture;
+
+  __declspec(property(get = get_actualRenderingPath))::UnityEngine::RenderingPath actualRenderingPath;
+
+  __declspec(property(get = get_allowDynamicResolution, put = set_allowDynamicResolution)) bool allowDynamicResolution;
+
+  __declspec(property(get = get_allowHDR, put = set_allowHDR)) bool allowHDR;
+
+  __declspec(property(get = get_allowMSAA, put = set_allowMSAA)) bool allowMSAA;
+
+  __declspec(property(get = get_areVRStereoViewMatricesWithinSingleCullTolerance)) bool areVRStereoViewMatricesWithinSingleCullTolerance;
+
+  __declspec(property(get = get_aspect, put = set_aspect)) float_t aspect;
+
+  __declspec(property(get = get_backgroundColor, put = set_backgroundColor))::UnityEngine::Color backgroundColor;
+
+  __declspec(property(get = get_cameraToWorldMatrix))::UnityEngine::Matrix4x4 cameraToWorldMatrix;
+
+  __declspec(property(get = get_cameraType, put = set_cameraType))::UnityEngine::CameraType cameraType;
+
+  __declspec(property(get = get_clearFlags, put = set_clearFlags))::UnityEngine::CameraClearFlags clearFlags;
+
+  __declspec(property(get = get_clearStencilAfterLightingPass, put = set_clearStencilAfterLightingPass)) bool clearStencilAfterLightingPass;
+
+  __declspec(property(get = get_commandBufferCount)) int32_t commandBufferCount;
+
+  __declspec(property(get = get_cullingMask, put = set_cullingMask)) int32_t cullingMask;
+
+  __declspec(property(get = get_cullingMatrix, put = set_cullingMatrix))::UnityEngine::Matrix4x4 cullingMatrix;
+
+  __declspec(property(get = get_depth, put = set_depth)) float_t depth;
+
+  __declspec(property(get = get_depthTextureMode, put = set_depthTextureMode))::UnityEngine::DepthTextureMode depthTextureMode;
+
+  __declspec(property(get = get_eventMask, put = set_eventMask)) int32_t eventMask;
+
+  __declspec(property(get = get_farClipPlane, put = set_farClipPlane)) float_t farClipPlane;
+
+  __declspec(property(get = get_fieldOfView, put = set_fieldOfView)) float_t fieldOfView;
+
+  __declspec(property(get = get_focalLength, put = set_focalLength)) float_t focalLength;
+
+  __declspec(property(get = get_forceIntoRenderTexture, put = set_forceIntoRenderTexture)) bool forceIntoRenderTexture;
+
+  __declspec(property(get = get_gateFit, put = set_gateFit))::UnityEngine::__Camera__GateFitMode gateFit;
+
+  __declspec(property(get = get_layerCullDistances, put = set_layerCullDistances))::ArrayW<float_t, ::Array<float_t>*> layerCullDistances;
+
+  __declspec(property(get = get_layerCullSpherical, put = set_layerCullSpherical)) bool layerCullSpherical;
+
+  __declspec(property(get = get_lensShift, put = set_lensShift))::UnityEngine::Vector2 lensShift;
+
+  __declspec(property(get = get_nearClipPlane, put = set_nearClipPlane)) float_t nearClipPlane;
+
+  __declspec(property(get = get_nonJitteredProjectionMatrix, put = set_nonJitteredProjectionMatrix))::UnityEngine::Matrix4x4 nonJitteredProjectionMatrix;
+
+  /// @brief Field onPostRender, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_onPostRender, put = setStaticF_onPostRender))::UnityEngine::__Camera__CameraCallback* onPostRender;
 
   /// @brief Field onPreCull, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_onPreCull, put = setStaticF_onPreCull))::UnityEngine::__Camera__CameraCallback* onPreCull;
@@ -784,887 +856,834 @@ public:
   /// @brief Field onPreRender, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_onPreRender, put = setStaticF_onPreRender))::UnityEngine::__Camera__CameraCallback* onPreRender;
 
-  /// @brief Field onPostRender, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_onPostRender, put = setStaticF_onPostRender))::UnityEngine::__Camera__CameraCallback* onPostRender;
-
-  __declspec(property(get = get_nearClipPlane, put = set_nearClipPlane)) float_t nearClipPlane;
-
-  __declspec(property(get = get_farClipPlane, put = set_farClipPlane)) float_t farClipPlane;
-
-  __declspec(property(get = get_fieldOfView, put = set_fieldOfView)) float_t fieldOfView;
-
-  __declspec(property(get = get_renderingPath, put = set_renderingPath))::UnityEngine::RenderingPath renderingPath;
-
-  __declspec(property(get = get_actualRenderingPath))::UnityEngine::RenderingPath actualRenderingPath;
-
-  __declspec(property(get = get_allowHDR, put = set_allowHDR)) bool allowHDR;
-
-  __declspec(property(get = get_allowMSAA, put = set_allowMSAA)) bool allowMSAA;
-
-  __declspec(property(get = get_allowDynamicResolution, put = set_allowDynamicResolution)) bool allowDynamicResolution;
-
-  __declspec(property(get = get_forceIntoRenderTexture, put = set_forceIntoRenderTexture)) bool forceIntoRenderTexture;
-
-  __declspec(property(get = get_orthographicSize, put = set_orthographicSize)) float_t orthographicSize;
+  __declspec(property(get = get_opaqueSortMode, put = set_opaqueSortMode))::UnityEngine::Rendering::OpaqueSortMode opaqueSortMode;
 
   __declspec(property(get = get_orthographic, put = set_orthographic)) bool orthographic;
 
-  __declspec(property(get = get_opaqueSortMode, put = set_opaqueSortMode))::UnityEngine::Rendering::OpaqueSortMode opaqueSortMode;
-
-  __declspec(property(get = get_transparencySortMode, put = set_transparencySortMode))::UnityEngine::TransparencySortMode transparencySortMode;
-
-  __declspec(property(get = get_transparencySortAxis, put = set_transparencySortAxis))::UnityEngine::Vector3 transparencySortAxis;
-
-  __declspec(property(get = get_depth, put = set_depth)) float_t depth;
-
-  __declspec(property(get = get_aspect, put = set_aspect)) float_t aspect;
-
-  __declspec(property(get = get_velocity))::UnityEngine::Vector3 velocity;
-
-  __declspec(property(get = get_cullingMask, put = set_cullingMask)) int32_t cullingMask;
-
-  __declspec(property(get = get_eventMask, put = set_eventMask)) int32_t eventMask;
-
-  __declspec(property(get = get_layerCullSpherical, put = set_layerCullSpherical)) bool layerCullSpherical;
-
-  __declspec(property(get = get_cameraType, put = set_cameraType))::UnityEngine::CameraType cameraType;
-
-  __declspec(property(get = get_skyboxMaterial))::UnityW<::UnityEngine::Material> skyboxMaterial;
+  __declspec(property(get = get_orthographicSize, put = set_orthographicSize)) float_t orthographicSize;
 
   __declspec(property(get = get_overrideSceneCullingMask, put = set_overrideSceneCullingMask)) uint64_t overrideSceneCullingMask;
 
-  __declspec(property(get = get_sceneCullingMask)) uint64_t sceneCullingMask;
-
-  __declspec(property(get = get_layerCullDistances, put = set_layerCullDistances))::ArrayW<float_t, ::Array<float_t>*> layerCullDistances;
-
-  __declspec(property(get = get_useOcclusionCulling, put = set_useOcclusionCulling)) bool useOcclusionCulling;
-
-  __declspec(property(get = get_cullingMatrix, put = set_cullingMatrix))::UnityEngine::Matrix4x4 cullingMatrix;
-
-  __declspec(property(get = get_backgroundColor, put = set_backgroundColor))::UnityEngine::Color backgroundColor;
-
-  __declspec(property(get = get_clearFlags, put = set_clearFlags))::UnityEngine::CameraClearFlags clearFlags;
-
-  __declspec(property(get = get_depthTextureMode, put = set_depthTextureMode))::UnityEngine::DepthTextureMode depthTextureMode;
-
-  __declspec(property(get = get_clearStencilAfterLightingPass, put = set_clearStencilAfterLightingPass)) bool clearStencilAfterLightingPass;
-
-  __declspec(property(get = get_projectionMatrixMode))::UnityEngine::__Camera__ProjectionMatrixMode projectionMatrixMode;
-
-  __declspec(property(get = get_usePhysicalProperties, put = set_usePhysicalProperties)) bool usePhysicalProperties;
-
-  __declspec(property(get = get_sensorSize, put = set_sensorSize))::UnityEngine::Vector2 sensorSize;
-
-  __declspec(property(get = get_lensShift, put = set_lensShift))::UnityEngine::Vector2 lensShift;
-
-  __declspec(property(get = get_focalLength, put = set_focalLength)) float_t focalLength;
-
-  __declspec(property(get = get_gateFit, put = set_gateFit))::UnityEngine::__Camera__GateFitMode gateFit;
-
-  __declspec(property(get = get_rect, put = set_rect))::UnityEngine::Rect rect;
+  __declspec(property(get = get_pixelHeight)) int32_t pixelHeight;
 
   __declspec(property(get = get_pixelRect, put = set_pixelRect))::UnityEngine::Rect pixelRect;
 
   __declspec(property(get = get_pixelWidth)) int32_t pixelWidth;
 
-  __declspec(property(get = get_pixelHeight)) int32_t pixelHeight;
-
-  __declspec(property(get = get_scaledPixelWidth)) int32_t scaledPixelWidth;
-
-  __declspec(property(get = get_scaledPixelHeight)) int32_t scaledPixelHeight;
-
-  __declspec(property(get = get_targetTexture, put = set_targetTexture))::UnityW<::UnityEngine::RenderTexture> targetTexture;
-
-  __declspec(property(get = get_activeTexture))::UnityW<::UnityEngine::RenderTexture> activeTexture;
-
-  __declspec(property(get = get_targetDisplay, put = set_targetDisplay)) int32_t targetDisplay;
-
-  __declspec(property(get = get_cameraToWorldMatrix))::UnityEngine::Matrix4x4 cameraToWorldMatrix;
-
-  __declspec(property(get = get_worldToCameraMatrix, put = set_worldToCameraMatrix))::UnityEngine::Matrix4x4 worldToCameraMatrix;
+  __declspec(property(get = get_previousViewProjectionMatrix))::UnityEngine::Matrix4x4 previousViewProjectionMatrix;
 
   __declspec(property(get = get_projectionMatrix, put = set_projectionMatrix))::UnityEngine::Matrix4x4 projectionMatrix;
 
-  __declspec(property(get = get_nonJitteredProjectionMatrix, put = set_nonJitteredProjectionMatrix))::UnityEngine::Matrix4x4 nonJitteredProjectionMatrix;
+  __declspec(property(get = get_projectionMatrixMode))::UnityEngine::__Camera__ProjectionMatrixMode projectionMatrixMode;
 
-  __declspec(property(get = get_useJitteredProjectionMatrixForTransparentRendering,
-                      put = set_useJitteredProjectionMatrixForTransparentRendering)) bool useJitteredProjectionMatrixForTransparentRendering;
+  __declspec(property(get = get_rect, put = set_rect))::UnityEngine::Rect rect;
 
-  __declspec(property(get = get_previousViewProjectionMatrix))::UnityEngine::Matrix4x4 previousViewProjectionMatrix;
+  __declspec(property(get = get_renderingPath, put = set_renderingPath))::UnityEngine::RenderingPath renderingPath;
+
+  __declspec(property(get = get_scaledPixelHeight)) int32_t scaledPixelHeight;
+
+  __declspec(property(get = get_scaledPixelWidth)) int32_t scaledPixelWidth;
 
   __declspec(property(get = get_scene, put = set_scene))::UnityEngine::SceneManagement::Scene scene;
+
+  __declspec(property(get = get_sceneCullingMask)) uint64_t sceneCullingMask;
+
+  __declspec(property(get = get_sceneViewFilterMode))::UnityEngine::__Camera__SceneViewFilterMode sceneViewFilterMode;
+
+  __declspec(property(get = get_sensorSize, put = set_sensorSize))::UnityEngine::Vector2 sensorSize;
+
+  __declspec(property(get = get_skyboxMaterial))::UnityW<::UnityEngine::Material> skyboxMaterial;
+
+  __declspec(property(get = get_stereoActiveEye))::UnityEngine::__Camera__MonoOrStereoscopicEye stereoActiveEye;
+
+  __declspec(property(get = get_stereoConvergence, put = set_stereoConvergence)) float_t stereoConvergence;
 
   __declspec(property(get = get_stereoEnabled)) bool stereoEnabled;
 
   __declspec(property(get = get_stereoSeparation, put = set_stereoSeparation)) float_t stereoSeparation;
 
-  __declspec(property(get = get_stereoConvergence, put = set_stereoConvergence)) float_t stereoConvergence;
-
-  __declspec(property(get = get_areVRStereoViewMatricesWithinSingleCullTolerance)) bool areVRStereoViewMatricesWithinSingleCullTolerance;
-
   __declspec(property(get = get_stereoTargetEye, put = set_stereoTargetEye))::UnityEngine::StereoTargetEyeMask stereoTargetEye;
 
-  __declspec(property(get = get_stereoActiveEye))::UnityEngine::__Camera__MonoOrStereoscopicEye stereoActiveEye;
+  __declspec(property(get = get_targetDisplay, put = set_targetDisplay)) int32_t targetDisplay;
 
-  __declspec(property(get = get_sceneViewFilterMode))::UnityEngine::__Camera__SceneViewFilterMode sceneViewFilterMode;
+  __declspec(property(get = get_targetTexture, put = set_targetTexture))::UnityW<::UnityEngine::RenderTexture> targetTexture;
 
-  __declspec(property(get = get_commandBufferCount)) int32_t commandBufferCount;
+  __declspec(property(get = get_transparencySortAxis, put = set_transparencySortAxis))::UnityEngine::Vector3 transparencySortAxis;
 
-  static inline void setStaticF_onPreCull(::UnityEngine::__Camera__CameraCallback* value);
+  __declspec(property(get = get_transparencySortMode, put = set_transparencySortMode))::UnityEngine::TransparencySortMode transparencySortMode;
 
-  static inline ::UnityEngine::__Camera__CameraCallback* getStaticF_onPreCull();
+  __declspec(property(get = get_useJitteredProjectionMatrixForTransparentRendering,
+                      put = set_useJitteredProjectionMatrixForTransparentRendering)) bool useJitteredProjectionMatrixForTransparentRendering;
 
-  static inline void setStaticF_onPreRender(::UnityEngine::__Camera__CameraCallback* value);
+  __declspec(property(get = get_useOcclusionCulling, put = set_useOcclusionCulling)) bool useOcclusionCulling;
 
-  static inline ::UnityEngine::__Camera__CameraCallback* getStaticF_onPreRender();
+  __declspec(property(get = get_usePhysicalProperties, put = set_usePhysicalProperties)) bool usePhysicalProperties;
 
-  static inline void setStaticF_onPostRender(::UnityEngine::__Camera__CameraCallback* value);
+  __declspec(property(get = get_velocity))::UnityEngine::Vector3 velocity;
 
-  static inline ::UnityEngine::__Camera__CameraCallback* getStaticF_onPostRender();
+  __declspec(property(get = get_worldToCameraMatrix, put = set_worldToCameraMatrix))::UnityEngine::Matrix4x4 worldToCameraMatrix;
 
-  static inline ::UnityEngine::Camera* New_ctor();
+  /// @brief Method AddCommandBuffer, addr 0x2dba56c, size 0x13c, virtual false, abstract: false, final false
+  inline void AddCommandBuffer(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
 
-  /// @brief Method .ctor, addr 0x2ccaba8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method AddCommandBufferAsync, addr 0x2dba6a8, size 0x14c, virtual false, abstract: false, final false
+  inline void AddCommandBufferAsync(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer, ::UnityEngine::Rendering::ComputeQueueType queueType);
 
-  /// @brief Method get_nearClipPlane, addr 0x2ccabac, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_nearClipPlane();
+  /// @brief Method AddCommandBufferAsyncImpl, addr 0x2dba4bc, size 0x5c, virtual false, abstract: false, final false
+  inline void AddCommandBufferAsyncImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer, ::UnityEngine::Rendering::ComputeQueueType queueType);
 
-  /// @brief Method set_nearClipPlane, addr 0x2ccabe8, size 0x4c, virtual false, abstract: false, final false
-  inline void set_nearClipPlane(float_t value);
+  /// @brief Method AddCommandBufferImpl, addr 0x2dba468, size 0x54, virtual false, abstract: false, final false
+  inline void AddCommandBufferImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
 
-  /// @brief Method get_farClipPlane, addr 0x2ccac34, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_farClipPlane();
-
-  /// @brief Method set_farClipPlane, addr 0x2ccac70, size 0x4c, virtual false, abstract: false, final false
-  inline void set_farClipPlane(float_t value);
-
-  /// @brief Method get_fieldOfView, addr 0x2ccacbc, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_fieldOfView();
-
-  /// @brief Method set_fieldOfView, addr 0x2ccacf8, size 0x4c, virtual false, abstract: false, final false
-  inline void set_fieldOfView(float_t value);
-
-  /// @brief Method get_renderingPath, addr 0x2ccad44, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::RenderingPath get_renderingPath();
-
-  /// @brief Method set_renderingPath, addr 0x2ccad80, size 0x44, virtual false, abstract: false, final false
-  inline void set_renderingPath(::UnityEngine::RenderingPath value);
-
-  /// @brief Method get_actualRenderingPath, addr 0x2ccadc4, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::RenderingPath get_actualRenderingPath();
-
-  /// @brief Method Reset, addr 0x2ccae00, size 0x3c, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method get_allowHDR, addr 0x2ccae3c, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_allowHDR();
-
-  /// @brief Method set_allowHDR, addr 0x2ccae78, size 0x44, virtual false, abstract: false, final false
-  inline void set_allowHDR(bool value);
-
-  /// @brief Method get_allowMSAA, addr 0x2ccaebc, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_allowMSAA();
-
-  /// @brief Method set_allowMSAA, addr 0x2ccaef8, size 0x44, virtual false, abstract: false, final false
-  inline void set_allowMSAA(bool value);
-
-  /// @brief Method get_allowDynamicResolution, addr 0x2ccaf3c, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_allowDynamicResolution();
-
-  /// @brief Method set_allowDynamicResolution, addr 0x2ccaf78, size 0x44, virtual false, abstract: false, final false
-  inline void set_allowDynamicResolution(bool value);
-
-  /// @brief Method get_forceIntoRenderTexture, addr 0x2ccafbc, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_forceIntoRenderTexture();
-
-  /// @brief Method set_forceIntoRenderTexture, addr 0x2ccaff8, size 0x44, virtual false, abstract: false, final false
-  inline void set_forceIntoRenderTexture(bool value);
-
-  /// @brief Method get_orthographicSize, addr 0x2ccb03c, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_orthographicSize();
-
-  /// @brief Method set_orthographicSize, addr 0x2ccb078, size 0x4c, virtual false, abstract: false, final false
-  inline void set_orthographicSize(float_t value);
-
-  /// @brief Method get_orthographic, addr 0x2ccb0c4, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_orthographic();
-
-  /// @brief Method set_orthographic, addr 0x2ccb100, size 0x44, virtual false, abstract: false, final false
-  inline void set_orthographic(bool value);
-
-  /// @brief Method get_opaqueSortMode, addr 0x2ccb144, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rendering::OpaqueSortMode get_opaqueSortMode();
-
-  /// @brief Method set_opaqueSortMode, addr 0x2ccb180, size 0x44, virtual false, abstract: false, final false
-  inline void set_opaqueSortMode(::UnityEngine::Rendering::OpaqueSortMode value);
-
-  /// @brief Method get_transparencySortMode, addr 0x2ccb1c4, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::TransparencySortMode get_transparencySortMode();
-
-  /// @brief Method set_transparencySortMode, addr 0x2ccb200, size 0x44, virtual false, abstract: false, final false
-  inline void set_transparencySortMode(::UnityEngine::TransparencySortMode value);
-
-  /// @brief Method get_transparencySortAxis, addr 0x2ccb244, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_transparencySortAxis();
-
-  /// @brief Method set_transparencySortAxis, addr 0x2ccb2e4, size 0x54, virtual false, abstract: false, final false
-  inline void set_transparencySortAxis(::UnityEngine::Vector3 value);
-
-  /// @brief Method ResetTransparencySortSettings, addr 0x2ccb37c, size 0x3c, virtual false, abstract: false, final false
-  inline void ResetTransparencySortSettings();
-
-  /// @brief Method get_depth, addr 0x2ccb3b8, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_depth();
-
-  /// @brief Method set_depth, addr 0x2ccb3f4, size 0x4c, virtual false, abstract: false, final false
-  inline void set_depth(float_t value);
-
-  /// @brief Method get_aspect, addr 0x2ccb440, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_aspect();
-
-  /// @brief Method set_aspect, addr 0x2ccb47c, size 0x4c, virtual false, abstract: false, final false
-  inline void set_aspect(float_t value);
-
-  /// @brief Method ResetAspect, addr 0x2ccb4c8, size 0x3c, virtual false, abstract: false, final false
-  inline void ResetAspect();
-
-  /// @brief Method get_velocity, addr 0x2ccb504, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_velocity();
-
-  /// @brief Method get_cullingMask, addr 0x2ccb5a4, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_cullingMask();
-
-  /// @brief Method set_cullingMask, addr 0x2ccb5e0, size 0x44, virtual false, abstract: false, final false
-  inline void set_cullingMask(int32_t value);
-
-  /// @brief Method get_eventMask, addr 0x2ccb624, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_eventMask();
-
-  /// @brief Method set_eventMask, addr 0x2ccb660, size 0x44, virtual false, abstract: false, final false
-  inline void set_eventMask(int32_t value);
-
-  /// @brief Method get_layerCullSpherical, addr 0x2ccb6a4, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_layerCullSpherical();
-
-  /// @brief Method set_layerCullSpherical, addr 0x2ccb6e0, size 0x44, virtual false, abstract: false, final false
-  inline void set_layerCullSpherical(bool value);
-
-  /// @brief Method get_cameraType, addr 0x2ccb724, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::CameraType get_cameraType();
-
-  /// @brief Method set_cameraType, addr 0x2ccb760, size 0x44, virtual false, abstract: false, final false
-  inline void set_cameraType(::UnityEngine::CameraType value);
-
-  /// @brief Method get_skyboxMaterial, addr 0x2ccb7a4, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_skyboxMaterial();
-
-  /// @brief Method get_overrideSceneCullingMask, addr 0x2ccb7e0, size 0x3c, virtual false, abstract: false, final false
-  inline uint64_t get_overrideSceneCullingMask();
-
-  /// @brief Method set_overrideSceneCullingMask, addr 0x2ccb81c, size 0x44, virtual false, abstract: false, final false
-  inline void set_overrideSceneCullingMask(uint64_t value);
-
-  /// @brief Method get_sceneCullingMask, addr 0x2ccb860, size 0x3c, virtual false, abstract: false, final false
-  inline uint64_t get_sceneCullingMask();
-
-  /// @brief Method GetLayerCullDistances, addr 0x2ccb89c, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<float_t, ::Array<float_t>*> GetLayerCullDistances();
-
-  /// @brief Method SetLayerCullDistances, addr 0x2ccb8d8, size 0x44, virtual false, abstract: false, final false
-  inline void SetLayerCullDistances(::ArrayW<float_t, ::Array<float_t>*> d);
-
-  /// @brief Method get_layerCullDistances, addr 0x2ccb91c, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<float_t, ::Array<float_t>*> get_layerCullDistances();
-
-  /// @brief Method set_layerCullDistances, addr 0x2ccb958, size 0xa0, virtual false, abstract: false, final false
-  inline void set_layerCullDistances(::ArrayW<float_t, ::Array<float_t>*> value);
-
-  /// @brief Method get_PreviewCullingLayer, addr 0x2ccba70, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t get_PreviewCullingLayer();
-
-  /// @brief Method get_useOcclusionCulling, addr 0x2ccba78, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_useOcclusionCulling();
-
-  /// @brief Method set_useOcclusionCulling, addr 0x2ccbab4, size 0x44, virtual false, abstract: false, final false
-  inline void set_useOcclusionCulling(bool value);
-
-  /// @brief Method get_cullingMatrix, addr 0x2ccbaf8, size 0x6c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 get_cullingMatrix();
-
-  /// @brief Method set_cullingMatrix, addr 0x2ccbba8, size 0x44, virtual false, abstract: false, final false
-  inline void set_cullingMatrix(::UnityEngine::Matrix4x4 value);
-
-  /// @brief Method ResetCullingMatrix, addr 0x2ccbc30, size 0x3c, virtual false, abstract: false, final false
-  inline void ResetCullingMatrix();
-
-  /// @brief Method get_backgroundColor, addr 0x2ccbc6c, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_backgroundColor();
-
-  /// @brief Method set_backgroundColor, addr 0x2ccbd08, size 0x54, virtual false, abstract: false, final false
-  inline void set_backgroundColor(::UnityEngine::Color value);
-
-  /// @brief Method get_clearFlags, addr 0x2ccbda0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::CameraClearFlags get_clearFlags();
-
-  /// @brief Method set_clearFlags, addr 0x2ccbddc, size 0x44, virtual false, abstract: false, final false
-  inline void set_clearFlags(::UnityEngine::CameraClearFlags value);
-
-  /// @brief Method get_depthTextureMode, addr 0x2ccbe20, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::DepthTextureMode get_depthTextureMode();
-
-  /// @brief Method set_depthTextureMode, addr 0x2ccbe5c, size 0x44, virtual false, abstract: false, final false
-  inline void set_depthTextureMode(::UnityEngine::DepthTextureMode value);
-
-  /// @brief Method get_clearStencilAfterLightingPass, addr 0x2ccbea0, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_clearStencilAfterLightingPass();
-
-  /// @brief Method set_clearStencilAfterLightingPass, addr 0x2ccbedc, size 0x44, virtual false, abstract: false, final false
-  inline void set_clearStencilAfterLightingPass(bool value);
-
-  /// @brief Method SetReplacementShader, addr 0x2ccbf20, size 0x54, virtual false, abstract: false, final false
-  inline void SetReplacementShader(::UnityEngine::Shader* shader, ::StringW replacementTag);
-
-  /// @brief Method ResetReplacementShader, addr 0x2ccbf74, size 0x3c, virtual false, abstract: false, final false
-  inline void ResetReplacementShader();
-
-  /// @brief Method get_projectionMatrixMode, addr 0x2ccbfb0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::__Camera__ProjectionMatrixMode get_projectionMatrixMode();
-
-  /// @brief Method get_usePhysicalProperties, addr 0x2ccbfec, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_usePhysicalProperties();
-
-  /// @brief Method set_usePhysicalProperties, addr 0x2ccc028, size 0x44, virtual false, abstract: false, final false
-  inline void set_usePhysicalProperties(bool value);
-
-  /// @brief Method get_sensorSize, addr 0x2ccc06c, size 0x4c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_sensorSize();
-
-  /// @brief Method set_sensorSize, addr 0x2ccc0fc, size 0x48, virtual false, abstract: false, final false
-  inline void set_sensorSize(::UnityEngine::Vector2 value);
-
-  /// @brief Method get_lensShift, addr 0x2ccc188, size 0x4c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_lensShift();
-
-  /// @brief Method set_lensShift, addr 0x2ccc218, size 0x48, virtual false, abstract: false, final false
-  inline void set_lensShift(::UnityEngine::Vector2 value);
-
-  /// @brief Method get_focalLength, addr 0x2ccc2a4, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_focalLength();
-
-  /// @brief Method set_focalLength, addr 0x2ccc2e0, size 0x4c, virtual false, abstract: false, final false
-  inline void set_focalLength(float_t value);
-
-  /// @brief Method get_gateFit, addr 0x2ccc32c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::__Camera__GateFitMode get_gateFit();
-
-  /// @brief Method set_gateFit, addr 0x2ccc368, size 0x44, virtual false, abstract: false, final false
-  inline void set_gateFit(::UnityEngine::__Camera__GateFitMode value);
-
-  /// @brief Method GetGateFittedFieldOfView, addr 0x2ccc3ac, size 0x3c, virtual false, abstract: false, final false
-  inline float_t GetGateFittedFieldOfView();
-
-  /// @brief Method GetGateFittedLensShift, addr 0x2ccc3e8, size 0x4c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 GetGateFittedLensShift();
-
-  /// @brief Method GetLocalSpaceAim, addr 0x2ccc478, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetLocalSpaceAim();
-
-  /// @brief Method get_rect, addr 0x2ccc518, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rect get_rect();
-
-  /// @brief Method set_rect, addr 0x2ccc5b4, size 0x54, virtual false, abstract: false, final false
-  inline void set_rect(::UnityEngine::Rect value);
-
-  /// @brief Method get_pixelRect, addr 0x2ccc64c, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rect get_pixelRect();
-
-  /// @brief Method set_pixelRect, addr 0x2ccc6e8, size 0x54, virtual false, abstract: false, final false
-  inline void set_pixelRect(::UnityEngine::Rect value);
-
-  /// @brief Method get_pixelWidth, addr 0x2ccc780, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_pixelWidth();
-
-  /// @brief Method get_pixelHeight, addr 0x2ccc7bc, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_pixelHeight();
-
-  /// @brief Method get_scaledPixelWidth, addr 0x2ccc7f8, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_scaledPixelWidth();
-
-  /// @brief Method get_scaledPixelHeight, addr 0x2ccc834, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_scaledPixelHeight();
-
-  /// @brief Method get_targetTexture, addr 0x2ccc870, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RenderTexture> get_targetTexture();
-
-  /// @brief Method set_targetTexture, addr 0x2ccc8ac, size 0x44, virtual false, abstract: false, final false
-  inline void set_targetTexture(::UnityEngine::RenderTexture* value);
-
-  /// @brief Method get_activeTexture, addr 0x2ccc8f0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RenderTexture> get_activeTexture();
-
-  /// @brief Method get_targetDisplay, addr 0x2ccc92c, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_targetDisplay();
-
-  /// @brief Method set_targetDisplay, addr 0x2ccc968, size 0x44, virtual false, abstract: false, final false
-  inline void set_targetDisplay(int32_t value);
-
-  /// @brief Method SetTargetBuffersImpl, addr 0x2ccc9ac, size 0x58, virtual false, abstract: false, final false
-  inline void SetTargetBuffersImpl(::UnityEngine::RenderBuffer color, ::UnityEngine::RenderBuffer depth);
-
-  /// @brief Method SetTargetBuffers, addr 0x2ccca58, size 0x4, virtual false, abstract: false, final false
-  inline void SetTargetBuffers(::UnityEngine::RenderBuffer colorBuffer, ::UnityEngine::RenderBuffer depthBuffer);
-
-  /// @brief Method SetTargetBuffersMRTImpl, addr 0x2ccca5c, size 0x58, virtual false, abstract: false, final false
-  inline void SetTargetBuffersMRTImpl(::ArrayW<::UnityEngine::RenderBuffer, ::Array<::UnityEngine::RenderBuffer>*> color, ::UnityEngine::RenderBuffer depth);
-
-  /// @brief Method SetTargetBuffers, addr 0x2cccb08, size 0x4, virtual false, abstract: false, final false
-  inline void SetTargetBuffers(::ArrayW<::UnityEngine::RenderBuffer, ::Array<::UnityEngine::RenderBuffer>*> colorBuffer, ::UnityEngine::RenderBuffer depthBuffer);
-
-  /// @brief Method GetCameraBufferWarnings, addr 0x2cccb0c, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCameraBufferWarnings();
-
-  /// @brief Method get_cameraToWorldMatrix, addr 0x2cccb48, size 0x6c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 get_cameraToWorldMatrix();
-
-  /// @brief Method get_worldToCameraMatrix, addr 0x2cccbf8, size 0x6c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 get_worldToCameraMatrix();
-
-  /// @brief Method set_worldToCameraMatrix, addr 0x2cccca8, size 0x44, virtual false, abstract: false, final false
-  inline void set_worldToCameraMatrix(::UnityEngine::Matrix4x4 value);
-
-  /// @brief Method get_projectionMatrix, addr 0x2cccd30, size 0x6c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 get_projectionMatrix();
-
-  /// @brief Method set_projectionMatrix, addr 0x2cccde0, size 0x44, virtual false, abstract: false, final false
-  inline void set_projectionMatrix(::UnityEngine::Matrix4x4 value);
-
-  /// @brief Method get_nonJitteredProjectionMatrix, addr 0x2ccce68, size 0x6c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 get_nonJitteredProjectionMatrix();
-
-  /// @brief Method set_nonJitteredProjectionMatrix, addr 0x2cccf18, size 0x44, virtual false, abstract: false, final false
-  inline void set_nonJitteredProjectionMatrix(::UnityEngine::Matrix4x4 value);
-
-  /// @brief Method get_useJitteredProjectionMatrixForTransparentRendering, addr 0x2cccfa0, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_useJitteredProjectionMatrixForTransparentRendering();
-
-  /// @brief Method set_useJitteredProjectionMatrixForTransparentRendering, addr 0x2cccfdc, size 0x44, virtual false, abstract: false, final false
-  inline void set_useJitteredProjectionMatrixForTransparentRendering(bool value);
-
-  /// @brief Method get_previousViewProjectionMatrix, addr 0x2ccd020, size 0x6c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 get_previousViewProjectionMatrix();
-
-  /// @brief Method ResetWorldToCameraMatrix, addr 0x2ccd0d0, size 0x3c, virtual false, abstract: false, final false
-  inline void ResetWorldToCameraMatrix();
-
-  /// @brief Method ResetProjectionMatrix, addr 0x2ccd10c, size 0x3c, virtual false, abstract: false, final false
-  inline void ResetProjectionMatrix();
-
-  /// @brief Method CalculateObliqueMatrix, addr 0x2ccd148, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 CalculateObliqueMatrix(::UnityEngine::Vector4 clipPlane);
-
-  /// @brief Method WorldToScreenPoint, addr 0x2ccd214, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 WorldToScreenPoint(::UnityEngine::Vector3 position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
-
-  /// @brief Method WorldToViewportPoint, addr 0x2ccd2e0, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 WorldToViewportPoint(::UnityEngine::Vector3 position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
-
-  /// @brief Method ViewportToWorldPoint, addr 0x2ccd3ac, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 ViewportToWorldPoint(::UnityEngine::Vector3 position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
-
-  /// @brief Method ScreenToWorldPoint, addr 0x2ccd478, size 0x70, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 ScreenToWorldPoint(::UnityEngine::Vector3 position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
-
-  /// @brief Method WorldToScreenPoint, addr 0x2ccd544, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 WorldToScreenPoint(::UnityEngine::Vector3 position);
-
-  /// @brief Method WorldToViewportPoint, addr 0x2ccd54c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 WorldToViewportPoint(::UnityEngine::Vector3 position);
-
-  /// @brief Method ViewportToWorldPoint, addr 0x2ccd554, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 ViewportToWorldPoint(::UnityEngine::Vector3 position);
-
-  /// @brief Method ScreenToWorldPoint, addr 0x2ccd55c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 ScreenToWorldPoint(::UnityEngine::Vector3 position);
-
-  /// @brief Method ScreenToViewportPoint, addr 0x2ccd564, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 ScreenToViewportPoint(::UnityEngine::Vector3 position);
-
-  /// @brief Method ViewportToScreenPoint, addr 0x2ccd620, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 ViewportToScreenPoint(::UnityEngine::Vector3 position);
-
-  /// @brief Method GetFrustumPlaneSizeAt, addr 0x2ccd6dc, size 0x64, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 GetFrustumPlaneSizeAt(float_t distance);
-
-  /// @brief Method ViewportPointToRay, addr 0x2ccd794, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::Ray ViewportPointToRay(::UnityEngine::Vector2 pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
-
-  /// @brief Method ViewportPointToRay, addr 0x2ccd868, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::Ray ViewportPointToRay(::UnityEngine::Vector3 pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
-
-  /// @brief Method ViewportPointToRay, addr 0x2ccd8a0, size 0x4c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Ray ViewportPointToRay(::UnityEngine::Vector3 pos);
-
-  /// @brief Method ScreenPointToRay, addr 0x2ccd8ec, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Vector2 pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
-
-  /// @brief Method ScreenPointToRay, addr 0x2ccd9c0, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Vector3 pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
-
-  /// @brief Method ScreenPointToRay, addr 0x2ccd9f8, size 0x4c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Vector3 pos);
-
-  /// @brief Method CalculateFrustumCornersInternal, addr 0x2ccda44, size 0x7c, virtual false, abstract: false, final false
-  inline void CalculateFrustumCornersInternal(::UnityEngine::Rect viewport, float_t z, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye,
-                                              ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> outCorners);
-
-  /// @brief Method CalculateFrustumCorners, addr 0x2ccdb2c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CalculateFrustumCorners, addr 0x2db9090, size 0xbc, virtual false, abstract: false, final false
   inline void CalculateFrustumCorners(::UnityEngine::Rect viewport, float_t z, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye,
                                       ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> outCorners);
 
-  /// @brief Method CalculateProjectionMatrixFromPhysicalPropertiesInternal, addr 0x2ccdbe8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CalculateFrustumCornersInternal, addr 0x2db8fa8, size 0x7c, virtual false, abstract: false, final false
+  inline void CalculateFrustumCornersInternal(::UnityEngine::Rect viewport, float_t z, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye,
+                                              ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> outCorners);
+
+  /// @brief Method CalculateFrustumCornersInternal_Injected, addr 0x2db9024, size 0x6c, virtual false, abstract: false, final false
+  inline void CalculateFrustumCornersInternal_Injected(ByRef<::UnityEngine::Rect> viewport, float_t z, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye,
+                                                       ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> outCorners);
+
+  /// @brief Method CalculateObliqueMatrix, addr 0x2db86ac, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 CalculateObliqueMatrix(::UnityEngine::Vector4 clipPlane);
+
+  /// @brief Method CalculateObliqueMatrix_Injected, addr 0x2db8724, size 0x54, virtual false, abstract: false, final false
+  inline void CalculateObliqueMatrix_Injected(ByRef<::UnityEngine::Vector4> clipPlane, ByRef<::UnityEngine::Matrix4x4> ret);
+
+  /// @brief Method CalculateProjectionMatrixFromPhysicalProperties, addr 0x2db9268, size 0xc, virtual false, abstract: false, final false
+  static inline void CalculateProjectionMatrixFromPhysicalProperties(ByRef<::UnityEngine::Matrix4x4> output, float_t focalLength, ::UnityEngine::Vector2 sensorSize, ::UnityEngine::Vector2 lensShift,
+                                                                     float_t nearClip, float_t farClip, ::UnityEngine::__Camera__GateFitParameters gateFitParameters);
+
+  /// @brief Method CalculateProjectionMatrixFromPhysicalPropertiesInternal, addr 0x2db914c, size 0x90, virtual false, abstract: false, final false
   static inline void CalculateProjectionMatrixFromPhysicalPropertiesInternal(ByRef<::UnityEngine::Matrix4x4> output, float_t focalLength, ::UnityEngine::Vector2 sensorSize,
                                                                              ::UnityEngine::Vector2 lensShift, float_t nearClip, float_t farClip, float_t gateAspect,
                                                                              ::UnityEngine::__Camera__GateFitMode gateFitMode);
 
-  /// @brief Method CalculateProjectionMatrixFromPhysicalProperties, addr 0x2ccdd04, size 0xc, virtual false, abstract: false, final false
-  static inline void CalculateProjectionMatrixFromPhysicalProperties(ByRef<::UnityEngine::Matrix4x4> output, float_t focalLength, ::UnityEngine::Vector2 sensorSize, ::UnityEngine::Vector2 lensShift,
-                                                                     float_t nearClip, float_t farClip, ::UnityEngine::__Camera__GateFitParameters gateFitParameters);
-
-  /// @brief Method FocalLengthToFieldOfView, addr 0x2ccdd10, size 0x40, virtual false, abstract: false, final false
-  static inline float_t FocalLengthToFieldOfView(float_t focalLength, float_t sensorSize);
-
-  /// @brief Method FieldOfViewToFocalLength, addr 0x2ccdd50, size 0x40, virtual false, abstract: false, final false
-  static inline float_t FieldOfViewToFocalLength(float_t fieldOfView, float_t sensorSize);
-
-  /// @brief Method HorizontalToVerticalFieldOfView, addr 0x2ccdd90, size 0x40, virtual false, abstract: false, final false
-  static inline float_t HorizontalToVerticalFieldOfView(float_t horizontalFieldOfView, float_t aspectRatio);
-
-  /// @brief Method VerticalToHorizontalFieldOfView, addr 0x2ccddd0, size 0x40, virtual false, abstract: false, final false
-  static inline float_t VerticalToHorizontalFieldOfView(float_t verticalFieldOfView, float_t aspectRatio);
-
-  /// @brief Method get_main, addr 0x2ccde10, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Camera> get_main();
-
-  /// @brief Method get_current, addr 0x2ccde38, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Camera> get_current();
-
-  /// @brief Method get_scene, addr 0x2ccde60, size 0x4c, virtual false, abstract: false, final false
-  inline ::UnityEngine::SceneManagement::Scene get_scene();
-
-  /// @brief Method set_scene, addr 0x2ccdef0, size 0x48, virtual false, abstract: false, final false
-  inline void set_scene(::UnityEngine::SceneManagement::Scene value);
-
-  /// @brief Method get_stereoEnabled, addr 0x2ccdf7c, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_stereoEnabled();
-
-  /// @brief Method get_stereoSeparation, addr 0x2ccdfb8, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_stereoSeparation();
-
-  /// @brief Method set_stereoSeparation, addr 0x2ccdff4, size 0x4c, virtual false, abstract: false, final false
-  inline void set_stereoSeparation(float_t value);
-
-  /// @brief Method get_stereoConvergence, addr 0x2cce040, size 0x3c, virtual false, abstract: false, final false
-  inline float_t get_stereoConvergence();
-
-  /// @brief Method set_stereoConvergence, addr 0x2cce07c, size 0x4c, virtual false, abstract: false, final false
-  inline void set_stereoConvergence(float_t value);
-
-  /// @brief Method get_areVRStereoViewMatricesWithinSingleCullTolerance, addr 0x2cce0c8, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_areVRStereoViewMatricesWithinSingleCullTolerance();
-
-  /// @brief Method get_stereoTargetEye, addr 0x2cce104, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::StereoTargetEyeMask get_stereoTargetEye();
-
-  /// @brief Method set_stereoTargetEye, addr 0x2cce140, size 0x44, virtual false, abstract: false, final false
-  inline void set_stereoTargetEye(::UnityEngine::StereoTargetEyeMask value);
-
-  /// @brief Method get_stereoActiveEye, addr 0x2cce184, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::__Camera__MonoOrStereoscopicEye get_stereoActiveEye();
-
-  /// @brief Method GetStereoNonJitteredProjectionMatrix, addr 0x2cce1c0, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 GetStereoNonJitteredProjectionMatrix(::UnityEngine::__Camera__StereoscopicEye eye);
-
-  /// @brief Method GetStereoViewMatrix, addr 0x2cce290, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 GetStereoViewMatrix(::UnityEngine::__Camera__StereoscopicEye eye);
-
-  /// @brief Method CopyStereoDeviceProjectionMatrixToNonJittered, addr 0x2cce360, size 0x44, virtual false, abstract: false, final false
-  inline void CopyStereoDeviceProjectionMatrixToNonJittered(::UnityEngine::__Camera__StereoscopicEye eye);
-
-  /// @brief Method GetStereoProjectionMatrix, addr 0x2cce3a4, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 GetStereoProjectionMatrix(::UnityEngine::__Camera__StereoscopicEye eye);
-
-  /// @brief Method SetStereoProjectionMatrix, addr 0x2cce474, size 0x54, virtual false, abstract: false, final false
-  inline void SetStereoProjectionMatrix(::UnityEngine::__Camera__StereoscopicEye eye, ::UnityEngine::Matrix4x4 matrix);
-
-  /// @brief Method ResetStereoProjectionMatrices, addr 0x2cce51c, size 0x3c, virtual false, abstract: false, final false
-  inline void ResetStereoProjectionMatrices();
-
-  /// @brief Method SetStereoViewMatrix, addr 0x2cce558, size 0x54, virtual false, abstract: false, final false
-  inline void SetStereoViewMatrix(::UnityEngine::__Camera__StereoscopicEye eye, ::UnityEngine::Matrix4x4 matrix);
-
-  /// @brief Method ResetStereoViewMatrices, addr 0x2cce600, size 0x3c, virtual false, abstract: false, final false
-  inline void ResetStereoViewMatrices();
-
-  /// @brief Method GetAllCamerasCount, addr 0x2cce63c, size 0x28, virtual false, abstract: false, final false
-  static inline int32_t GetAllCamerasCount();
-
-  /// @brief Method GetAllCamerasImpl, addr 0x2cce664, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t GetAllCamerasImpl(ByRef<::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*>> cam);
-
-  /// @brief Method get_allCamerasCount, addr 0x2cce6a0, size 0x28, virtual false, abstract: false, final false
-  static inline int32_t get_allCamerasCount();
-
-  /// @brief Method get_allCameras, addr 0x2cce6c8, size 0xa0, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> get_allCameras();
-
-  /// @brief Method GetAllCameras, addr 0x2cce768, size 0xe4, virtual false, abstract: false, final false
-  static inline int32_t GetAllCameras(::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> cameras);
-
-  /// @brief Method RenderToCubemapImpl, addr 0x2cce84c, size 0x54, virtual false, abstract: false, final false
-  inline bool RenderToCubemapImpl(::UnityEngine::Texture* tex, int32_t faceMask);
-
-  /// @brief Method RenderToCubemap, addr 0x2cce8a0, size 0x54, virtual false, abstract: false, final false
-  inline bool RenderToCubemap(::UnityEngine::Cubemap* cubemap, int32_t faceMask);
-
-  /// @brief Method RenderToCubemap, addr 0x2cce8f4, size 0x48, virtual false, abstract: false, final false
-  inline bool RenderToCubemap(::UnityEngine::Cubemap* cubemap);
-
-  /// @brief Method RenderToCubemap, addr 0x2cce93c, size 0x54, virtual false, abstract: false, final false
-  inline bool RenderToCubemap(::UnityEngine::RenderTexture* cubemap, int32_t faceMask);
-
-  /// @brief Method RenderToCubemap, addr 0x2cce990, size 0x48, virtual false, abstract: false, final false
-  inline bool RenderToCubemap(::UnityEngine::RenderTexture* cubemap);
-
-  /// @brief Method GetFilterMode, addr 0x2cce9d8, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t GetFilterMode();
-
-  /// @brief Method get_sceneViewFilterMode, addr 0x2ccea14, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::__Camera__SceneViewFilterMode get_sceneViewFilterMode();
-
-  /// @brief Method RenderToCubemapEyeImpl, addr 0x2ccea50, size 0x5c, virtual false, abstract: false, final false
-  inline bool RenderToCubemapEyeImpl(::UnityEngine::RenderTexture* cubemap, int32_t faceMask, ::UnityEngine::__Camera__MonoOrStereoscopicEye stereoEye);
-
-  /// @brief Method RenderToCubemap, addr 0x2cceaac, size 0x5c, virtual false, abstract: false, final false
-  inline bool RenderToCubemap(::UnityEngine::RenderTexture* cubemap, int32_t faceMask, ::UnityEngine::__Camera__MonoOrStereoscopicEye stereoEye);
-
-  /// @brief Method Render, addr 0x2cceb08, size 0x3c, virtual false, abstract: false, final false
-  inline void Render();
-
-  /// @brief Method RenderWithShader, addr 0x2cceb44, size 0x54, virtual false, abstract: false, final false
-  inline void RenderWithShader(::UnityEngine::Shader* shader, ::StringW replacementTag);
-
-  /// @brief Method RenderDontRestore, addr 0x2cceb98, size 0x3c, virtual false, abstract: false, final false
-  inline void RenderDontRestore();
-
-  /// @brief Method SubmitRenderRequests, addr 0x2ccebd4, size 0x14c, virtual false, abstract: false, final false
-  inline void SubmitRenderRequests(::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
-
-  /// @brief Method SubmitRenderRequestsInternal, addr 0x2cced84, size 0x44, virtual false, abstract: false, final false
-  inline void SubmitRenderRequestsInternal(::System::Object* requests);
-
-  /// @brief Method SetupCurrent, addr 0x2ccedc8, size 0x3c, virtual false, abstract: false, final false
-  static inline void SetupCurrent(::UnityEngine::Camera* cur);
-
-  /// @brief Method CopyFrom, addr 0x2ccee04, size 0x44, virtual false, abstract: false, final false
-  inline void CopyFrom(::UnityEngine::Camera* other);
-
-  /// @brief Method get_commandBufferCount, addr 0x2ccee48, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_commandBufferCount();
-
-  /// @brief Method RemoveCommandBuffers, addr 0x2ccee84, size 0x44, virtual false, abstract: false, final false
-  inline void RemoveCommandBuffers(::UnityEngine::Rendering::CameraEvent evt);
-
-  /// @brief Method RemoveAllCommandBuffers, addr 0x2cceec8, size 0x3c, virtual false, abstract: false, final false
-  inline void RemoveAllCommandBuffers();
-
-  /// @brief Method AddCommandBufferImpl, addr 0x2ccef04, size 0x54, virtual false, abstract: false, final false
-  inline void AddCommandBufferImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
-
-  /// @brief Method AddCommandBufferAsyncImpl, addr 0x2ccef58, size 0x5c, virtual false, abstract: false, final false
-  inline void AddCommandBufferAsyncImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer, ::UnityEngine::Rendering::ComputeQueueType queueType);
-
-  /// @brief Method RemoveCommandBufferImpl, addr 0x2ccefb4, size 0x54, virtual false, abstract: false, final false
-  inline void RemoveCommandBufferImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
-
-  /// @brief Method AddCommandBuffer, addr 0x2ccf008, size 0x13c, virtual false, abstract: false, final false
-  inline void AddCommandBuffer(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
-
-  /// @brief Method AddCommandBufferAsync, addr 0x2ccf144, size 0x14c, virtual false, abstract: false, final false
-  inline void AddCommandBufferAsync(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer, ::UnityEngine::Rendering::ComputeQueueType queueType);
-
-  /// @brief Method RemoveCommandBuffer, addr 0x2ccf290, size 0x13c, virtual false, abstract: false, final false
-  inline void RemoveCommandBuffer(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
-
-  /// @brief Method GetCommandBuffers, addr 0x2ccf3cc, size 0x44, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Rendering::CommandBuffer*, ::Array<::UnityEngine::Rendering::CommandBuffer*>*> GetCommandBuffers(::UnityEngine::Rendering::CameraEvent evt);
-
-  /// @brief Method FireOnPreCull, addr 0x2ccf410, size 0x6c, virtual false, abstract: false, final false
-  static inline void FireOnPreCull(::UnityEngine::Camera* cam);
-
-  /// @brief Method FireOnPreRender, addr 0x2ccf47c, size 0x6c, virtual false, abstract: false, final false
-  static inline void FireOnPreRender(::UnityEngine::Camera* cam);
-
-  /// @brief Method FireOnPostRender, addr 0x2ccf4e8, size 0x6c, virtual false, abstract: false, final false
-  static inline void FireOnPostRender(::UnityEngine::Camera* cam);
-
-  /// @brief Method OnlyUsedForTesting1, addr 0x2ccf554, size 0x4, virtual false, abstract: false, final false
-  inline void OnlyUsedForTesting1();
-
-  /// @brief Method OnlyUsedForTesting2, addr 0x2ccf558, size 0x4, virtual false, abstract: false, final false
-  inline void OnlyUsedForTesting2();
-
-  /// @brief Method TryGetCullingParameters, addr 0x2ccf55c, size 0x4c, virtual false, abstract: false, final false
-  inline bool TryGetCullingParameters(ByRef<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParameters);
-
-  /// @brief Method TryGetCullingParameters, addr 0x2ccf604, size 0x58, virtual false, abstract: false, final false
-  inline bool TryGetCullingParameters(bool stereoAware, ByRef<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParameters);
-
-  /// @brief Method GetCullingParameters_Internal, addr 0x2ccf5a8, size 0x5c, virtual false, abstract: false, final false
-  static inline bool GetCullingParameters_Internal(::UnityEngine::Camera* camera, bool stereoAware, ByRef<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParameters,
-                                                   int32_t managedCullingParametersSize);
-
-  /// @brief Method get_transparencySortAxis_Injected, addr 0x2ccb2a0, size 0x44, virtual false, abstract: false, final false
-  inline void get_transparencySortAxis_Injected(ByRef<::UnityEngine::Vector3> ret);
-
-  /// @brief Method set_transparencySortAxis_Injected, addr 0x2ccb338, size 0x44, virtual false, abstract: false, final false
-  inline void set_transparencySortAxis_Injected(ByRef<::UnityEngine::Vector3> value);
-
-  /// @brief Method get_velocity_Injected, addr 0x2ccb560, size 0x44, virtual false, abstract: false, final false
-  inline void get_velocity_Injected(ByRef<::UnityEngine::Vector3> ret);
-
-  /// @brief Method get_cullingMatrix_Injected, addr 0x2ccbb64, size 0x44, virtual false, abstract: false, final false
-  inline void get_cullingMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
-
-  /// @brief Method set_cullingMatrix_Injected, addr 0x2ccbbec, size 0x44, virtual false, abstract: false, final false
-  inline void set_cullingMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
-
-  /// @brief Method get_backgroundColor_Injected, addr 0x2ccbcc4, size 0x44, virtual false, abstract: false, final false
-  inline void get_backgroundColor_Injected(ByRef<::UnityEngine::Color> ret);
-
-  /// @brief Method set_backgroundColor_Injected, addr 0x2ccbd5c, size 0x44, virtual false, abstract: false, final false
-  inline void set_backgroundColor_Injected(ByRef<::UnityEngine::Color> value);
-
-  /// @brief Method get_sensorSize_Injected, addr 0x2ccc0b8, size 0x44, virtual false, abstract: false, final false
-  inline void get_sensorSize_Injected(ByRef<::UnityEngine::Vector2> ret);
-
-  /// @brief Method set_sensorSize_Injected, addr 0x2ccc144, size 0x44, virtual false, abstract: false, final false
-  inline void set_sensorSize_Injected(ByRef<::UnityEngine::Vector2> value);
-
-  /// @brief Method get_lensShift_Injected, addr 0x2ccc1d4, size 0x44, virtual false, abstract: false, final false
-  inline void get_lensShift_Injected(ByRef<::UnityEngine::Vector2> ret);
-
-  /// @brief Method set_lensShift_Injected, addr 0x2ccc260, size 0x44, virtual false, abstract: false, final false
-  inline void set_lensShift_Injected(ByRef<::UnityEngine::Vector2> value);
-
-  /// @brief Method GetGateFittedLensShift_Injected, addr 0x2ccc434, size 0x44, virtual false, abstract: false, final false
-  inline void GetGateFittedLensShift_Injected(ByRef<::UnityEngine::Vector2> ret);
-
-  /// @brief Method GetLocalSpaceAim_Injected, addr 0x2ccc4d4, size 0x44, virtual false, abstract: false, final false
-  inline void GetLocalSpaceAim_Injected(ByRef<::UnityEngine::Vector3> ret);
-
-  /// @brief Method get_rect_Injected, addr 0x2ccc570, size 0x44, virtual false, abstract: false, final false
-  inline void get_rect_Injected(ByRef<::UnityEngine::Rect> ret);
-
-  /// @brief Method set_rect_Injected, addr 0x2ccc608, size 0x44, virtual false, abstract: false, final false
-  inline void set_rect_Injected(ByRef<::UnityEngine::Rect> value);
-
-  /// @brief Method get_pixelRect_Injected, addr 0x2ccc6a4, size 0x44, virtual false, abstract: false, final false
-  inline void get_pixelRect_Injected(ByRef<::UnityEngine::Rect> ret);
-
-  /// @brief Method set_pixelRect_Injected, addr 0x2ccc73c, size 0x44, virtual false, abstract: false, final false
-  inline void set_pixelRect_Injected(ByRef<::UnityEngine::Rect> value);
-
-  /// @brief Method SetTargetBuffersImpl_Injected, addr 0x2ccca04, size 0x54, virtual false, abstract: false, final false
-  inline void SetTargetBuffersImpl_Injected(ByRef<::UnityEngine::RenderBuffer> color, ByRef<::UnityEngine::RenderBuffer> depth);
-
-  /// @brief Method SetTargetBuffersMRTImpl_Injected, addr 0x2cccab4, size 0x54, virtual false, abstract: false, final false
-  inline void SetTargetBuffersMRTImpl_Injected(::ArrayW<::UnityEngine::RenderBuffer, ::Array<::UnityEngine::RenderBuffer>*> color, ByRef<::UnityEngine::RenderBuffer> depth);
-
-  /// @brief Method get_cameraToWorldMatrix_Injected, addr 0x2cccbb4, size 0x44, virtual false, abstract: false, final false
-  inline void get_cameraToWorldMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
-
-  /// @brief Method get_worldToCameraMatrix_Injected, addr 0x2cccc64, size 0x44, virtual false, abstract: false, final false
-  inline void get_worldToCameraMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
-
-  /// @brief Method set_worldToCameraMatrix_Injected, addr 0x2ccccec, size 0x44, virtual false, abstract: false, final false
-  inline void set_worldToCameraMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
-
-  /// @brief Method get_projectionMatrix_Injected, addr 0x2cccd9c, size 0x44, virtual false, abstract: false, final false
-  inline void get_projectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
-
-  /// @brief Method set_projectionMatrix_Injected, addr 0x2ccce24, size 0x44, virtual false, abstract: false, final false
-  inline void set_projectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
-
-  /// @brief Method get_nonJitteredProjectionMatrix_Injected, addr 0x2ccced4, size 0x44, virtual false, abstract: false, final false
-  inline void get_nonJitteredProjectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
-
-  /// @brief Method set_nonJitteredProjectionMatrix_Injected, addr 0x2cccf5c, size 0x44, virtual false, abstract: false, final false
-  inline void set_nonJitteredProjectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
-
-  /// @brief Method get_previousViewProjectionMatrix_Injected, addr 0x2ccd08c, size 0x44, virtual false, abstract: false, final false
-  inline void get_previousViewProjectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
-
-  /// @brief Method CalculateObliqueMatrix_Injected, addr 0x2ccd1c0, size 0x54, virtual false, abstract: false, final false
-  inline void CalculateObliqueMatrix_Injected(ByRef<::UnityEngine::Vector4> clipPlane, ByRef<::UnityEngine::Matrix4x4> ret);
-
-  /// @brief Method WorldToScreenPoint_Injected, addr 0x2ccd284, size 0x5c, virtual false, abstract: false, final false
-  inline void WorldToScreenPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
-
-  /// @brief Method WorldToViewportPoint_Injected, addr 0x2ccd350, size 0x5c, virtual false, abstract: false, final false
-  inline void WorldToViewportPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
-
-  /// @brief Method ViewportToWorldPoint_Injected, addr 0x2ccd41c, size 0x5c, virtual false, abstract: false, final false
-  inline void ViewportToWorldPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
-
-  /// @brief Method ScreenToWorldPoint_Injected, addr 0x2ccd4e8, size 0x5c, virtual false, abstract: false, final false
-  inline void ScreenToWorldPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
-
-  /// @brief Method ScreenToViewportPoint_Injected, addr 0x2ccd5cc, size 0x54, virtual false, abstract: false, final false
-  inline void ScreenToViewportPoint_Injected(ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> ret);
-
-  /// @brief Method ViewportToScreenPoint_Injected, addr 0x2ccd688, size 0x54, virtual false, abstract: false, final false
-  inline void ViewportToScreenPoint_Injected(ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> ret);
-
-  /// @brief Method GetFrustumPlaneSizeAt_Injected, addr 0x2ccd740, size 0x54, virtual false, abstract: false, final false
-  inline void GetFrustumPlaneSizeAt_Injected(float_t distance, ByRef<::UnityEngine::Vector2> ret);
-
-  /// @brief Method ViewportPointToRay_Injected, addr 0x2ccd80c, size 0x5c, virtual false, abstract: false, final false
-  inline void ViewportPointToRay_Injected(ByRef<::UnityEngine::Vector2> pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Ray> ret);
-
-  /// @brief Method ScreenPointToRay_Injected, addr 0x2ccd964, size 0x5c, virtual false, abstract: false, final false
-  inline void ScreenPointToRay_Injected(ByRef<::UnityEngine::Vector2> pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Ray> ret);
-
-  /// @brief Method CalculateFrustumCornersInternal_Injected, addr 0x2ccdac0, size 0x6c, virtual false, abstract: false, final false
-  inline void CalculateFrustumCornersInternal_Injected(ByRef<::UnityEngine::Rect> viewport, float_t z, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye,
-                                                       ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> outCorners);
-
-  /// @brief Method CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected, addr 0x2ccdc78, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected, addr 0x2db91dc, size 0x8c, virtual false, abstract: false, final false
   static inline void CalculateProjectionMatrixFromPhysicalPropertiesInternal_Injected(ByRef<::UnityEngine::Matrix4x4> output, float_t focalLength, ByRef<::UnityEngine::Vector2> sensorSize,
                                                                                       ByRef<::UnityEngine::Vector2> lensShift, float_t nearClip, float_t farClip, float_t gateAspect,
                                                                                       ::UnityEngine::__Camera__GateFitMode gateFitMode);
 
-  /// @brief Method get_scene_Injected, addr 0x2ccdeac, size 0x44, virtual false, abstract: false, final false
-  inline void get_scene_Injected(ByRef<::UnityEngine::SceneManagement::Scene> ret);
+  /// @brief Method CopyFrom, addr 0x2dba368, size 0x44, virtual false, abstract: false, final false
+  inline void CopyFrom(::UnityEngine::Camera* other);
 
-  /// @brief Method set_scene_Injected, addr 0x2ccdf38, size 0x44, virtual false, abstract: false, final false
-  inline void set_scene_Injected(ByRef<::UnityEngine::SceneManagement::Scene> value);
+  /// @brief Method CopyStereoDeviceProjectionMatrixToNonJittered, addr 0x2db98c4, size 0x44, virtual false, abstract: false, final false
+  inline void CopyStereoDeviceProjectionMatrixToNonJittered(::UnityEngine::__Camera__StereoscopicEye eye);
 
-  /// @brief Method GetStereoNonJitteredProjectionMatrix_Injected, addr 0x2cce23c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FieldOfViewToFocalLength, addr 0x2db92b4, size 0x40, virtual false, abstract: false, final false
+  static inline float_t FieldOfViewToFocalLength(float_t fieldOfView, float_t sensorSize);
+
+  /// @brief Method FireOnPostRender, addr 0x2dbaa4c, size 0x6c, virtual false, abstract: false, final false
+  static inline void FireOnPostRender(::UnityEngine::Camera* cam);
+
+  /// @brief Method FireOnPreCull, addr 0x2dba974, size 0x6c, virtual false, abstract: false, final false
+  static inline void FireOnPreCull(::UnityEngine::Camera* cam);
+
+  /// @brief Method FireOnPreRender, addr 0x2dba9e0, size 0x6c, virtual false, abstract: false, final false
+  static inline void FireOnPreRender(::UnityEngine::Camera* cam);
+
+  /// @brief Method FocalLengthToFieldOfView, addr 0x2db9274, size 0x40, virtual false, abstract: false, final false
+  static inline float_t FocalLengthToFieldOfView(float_t focalLength, float_t sensorSize);
+
+  /// @brief Method GetAllCameras, addr 0x2db9ccc, size 0xe4, virtual false, abstract: false, final false
+  static inline int32_t GetAllCameras(::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*> cameras);
+
+  /// @brief Method GetAllCamerasCount, addr 0x2db9ba0, size 0x28, virtual false, abstract: false, final false
+  static inline int32_t GetAllCamerasCount();
+
+  /// @brief Method GetAllCamerasImpl, addr 0x2db9bc8, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t GetAllCamerasImpl(ByRef<::ArrayW<::UnityEngine::Camera*, ::Array<::UnityEngine::Camera*>*>> cam);
+
+  /// @brief Method GetCameraBufferWarnings, addr 0x2db8070, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCameraBufferWarnings();
+
+  /// @brief Method GetCommandBuffers, addr 0x2dba930, size 0x44, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Rendering::CommandBuffer*, ::Array<::UnityEngine::Rendering::CommandBuffer*>*> GetCommandBuffers(::UnityEngine::Rendering::CameraEvent evt);
+
+  /// @brief Method GetCullingParameters_Internal, addr 0x2dbab0c, size 0x5c, virtual false, abstract: false, final false
+  static inline bool GetCullingParameters_Internal(::UnityEngine::Camera* camera, bool stereoAware, ByRef<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParameters,
+                                                   int32_t managedCullingParametersSize);
+
+  /// @brief Method GetFilterMode, addr 0x2db9f3c, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t GetFilterMode();
+
+  /// @brief Method GetFrustumPlaneSizeAt, addr 0x2db8c40, size 0x64, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 GetFrustumPlaneSizeAt(float_t distance);
+
+  /// @brief Method GetFrustumPlaneSizeAt_Injected, addr 0x2db8ca4, size 0x54, virtual false, abstract: false, final false
+  inline void GetFrustumPlaneSizeAt_Injected(float_t distance, ByRef<::UnityEngine::Vector2> ret);
+
+  /// @brief Method GetGateFittedFieldOfView, addr 0x2db7910, size 0x3c, virtual false, abstract: false, final false
+  inline float_t GetGateFittedFieldOfView();
+
+  /// @brief Method GetGateFittedLensShift, addr 0x2db794c, size 0x4c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 GetGateFittedLensShift();
+
+  /// @brief Method GetGateFittedLensShift_Injected, addr 0x2db7998, size 0x44, virtual false, abstract: false, final false
+  inline void GetGateFittedLensShift_Injected(ByRef<::UnityEngine::Vector2> ret);
+
+  /// @brief Method GetLayerCullDistances, addr 0x2db6e00, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<float_t, ::Array<float_t>*> GetLayerCullDistances();
+
+  /// @brief Method GetLocalSpaceAim, addr 0x2db79dc, size 0x5c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetLocalSpaceAim();
+
+  /// @brief Method GetLocalSpaceAim_Injected, addr 0x2db7a38, size 0x44, virtual false, abstract: false, final false
+  inline void GetLocalSpaceAim_Injected(ByRef<::UnityEngine::Vector3> ret);
+
+  /// @brief Method GetStereoNonJitteredProjectionMatrix, addr 0x2db9724, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 GetStereoNonJitteredProjectionMatrix(::UnityEngine::__Camera__StereoscopicEye eye);
+
+  /// @brief Method GetStereoNonJitteredProjectionMatrix_Injected, addr 0x2db97a0, size 0x54, virtual false, abstract: false, final false
   inline void GetStereoNonJitteredProjectionMatrix_Injected(::UnityEngine::__Camera__StereoscopicEye eye, ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method GetStereoViewMatrix_Injected, addr 0x2cce30c, size 0x54, virtual false, abstract: false, final false
-  inline void GetStereoViewMatrix_Injected(::UnityEngine::__Camera__StereoscopicEye eye, ByRef<::UnityEngine::Matrix4x4> ret);
+  /// @brief Method GetStereoProjectionMatrix, addr 0x2db9908, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 GetStereoProjectionMatrix(::UnityEngine::__Camera__StereoscopicEye eye);
 
-  /// @brief Method GetStereoProjectionMatrix_Injected, addr 0x2cce420, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetStereoProjectionMatrix_Injected, addr 0x2db9984, size 0x54, virtual false, abstract: false, final false
   inline void GetStereoProjectionMatrix_Injected(::UnityEngine::__Camera__StereoscopicEye eye, ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method SetStereoProjectionMatrix_Injected, addr 0x2cce4c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetStereoViewMatrix, addr 0x2db97f4, size 0x7c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 GetStereoViewMatrix(::UnityEngine::__Camera__StereoscopicEye eye);
+
+  /// @brief Method GetStereoViewMatrix_Injected, addr 0x2db9870, size 0x54, virtual false, abstract: false, final false
+  inline void GetStereoViewMatrix_Injected(::UnityEngine::__Camera__StereoscopicEye eye, ByRef<::UnityEngine::Matrix4x4> ret);
+
+  /// @brief Method HorizontalToVerticalFieldOfView, addr 0x2db92f4, size 0x40, virtual false, abstract: false, final false
+  static inline float_t HorizontalToVerticalFieldOfView(float_t horizontalFieldOfView, float_t aspectRatio);
+
+  static inline ::UnityEngine::Camera* New_ctor();
+
+  /// @brief Method OnlyUsedForTesting1, addr 0x2dbaab8, size 0x4, virtual false, abstract: false, final false
+  inline void OnlyUsedForTesting1();
+
+  /// @brief Method OnlyUsedForTesting2, addr 0x2dbaabc, size 0x4, virtual false, abstract: false, final false
+  inline void OnlyUsedForTesting2();
+
+  /// @brief Method RemoveAllCommandBuffers, addr 0x2dba42c, size 0x3c, virtual false, abstract: false, final false
+  inline void RemoveAllCommandBuffers();
+
+  /// @brief Method RemoveCommandBuffer, addr 0x2dba7f4, size 0x13c, virtual false, abstract: false, final false
+  inline void RemoveCommandBuffer(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
+
+  /// @brief Method RemoveCommandBufferImpl, addr 0x2dba518, size 0x54, virtual false, abstract: false, final false
+  inline void RemoveCommandBufferImpl(::UnityEngine::Rendering::CameraEvent evt, ::UnityEngine::Rendering::CommandBuffer* buffer);
+
+  /// @brief Method RemoveCommandBuffers, addr 0x2dba3e8, size 0x44, virtual false, abstract: false, final false
+  inline void RemoveCommandBuffers(::UnityEngine::Rendering::CameraEvent evt);
+
+  /// @brief Method Render, addr 0x2dba06c, size 0x3c, virtual false, abstract: false, final false
+  inline void Render();
+
+  /// @brief Method RenderDontRestore, addr 0x2dba0fc, size 0x3c, virtual false, abstract: false, final false
+  inline void RenderDontRestore();
+
+  /// @brief Method RenderToCubemap, addr 0x2db9e58, size 0x48, virtual false, abstract: false, final false
+  inline bool RenderToCubemap(::UnityEngine::Cubemap* cubemap);
+
+  /// @brief Method RenderToCubemap, addr 0x2db9e04, size 0x54, virtual false, abstract: false, final false
+  inline bool RenderToCubemap(::UnityEngine::Cubemap* cubemap, int32_t faceMask);
+
+  /// @brief Method RenderToCubemap, addr 0x2db9ef4, size 0x48, virtual false, abstract: false, final false
+  inline bool RenderToCubemap(::UnityEngine::RenderTexture* cubemap);
+
+  /// @brief Method RenderToCubemap, addr 0x2db9ea0, size 0x54, virtual false, abstract: false, final false
+  inline bool RenderToCubemap(::UnityEngine::RenderTexture* cubemap, int32_t faceMask);
+
+  /// @brief Method RenderToCubemap, addr 0x2dba010, size 0x5c, virtual false, abstract: false, final false
+  inline bool RenderToCubemap(::UnityEngine::RenderTexture* cubemap, int32_t faceMask, ::UnityEngine::__Camera__MonoOrStereoscopicEye stereoEye);
+
+  /// @brief Method RenderToCubemapEyeImpl, addr 0x2db9fb4, size 0x5c, virtual false, abstract: false, final false
+  inline bool RenderToCubemapEyeImpl(::UnityEngine::RenderTexture* cubemap, int32_t faceMask, ::UnityEngine::__Camera__MonoOrStereoscopicEye stereoEye);
+
+  /// @brief Method RenderToCubemapImpl, addr 0x2db9db0, size 0x54, virtual false, abstract: false, final false
+  inline bool RenderToCubemapImpl(::UnityEngine::Texture* tex, int32_t faceMask);
+
+  /// @brief Method RenderWithShader, addr 0x2dba0a8, size 0x54, virtual false, abstract: false, final false
+  inline void RenderWithShader(::UnityEngine::Shader* shader, ::StringW replacementTag);
+
+  /// @brief Method Reset, addr 0x2db6364, size 0x3c, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method ResetAspect, addr 0x2db6a2c, size 0x3c, virtual false, abstract: false, final false
+  inline void ResetAspect();
+
+  /// @brief Method ResetCullingMatrix, addr 0x2db7194, size 0x3c, virtual false, abstract: false, final false
+  inline void ResetCullingMatrix();
+
+  /// @brief Method ResetProjectionMatrix, addr 0x2db8670, size 0x3c, virtual false, abstract: false, final false
+  inline void ResetProjectionMatrix();
+
+  /// @brief Method ResetReplacementShader, addr 0x2db74d8, size 0x3c, virtual false, abstract: false, final false
+  inline void ResetReplacementShader();
+
+  /// @brief Method ResetStereoProjectionMatrices, addr 0x2db9a80, size 0x3c, virtual false, abstract: false, final false
+  inline void ResetStereoProjectionMatrices();
+
+  /// @brief Method ResetStereoViewMatrices, addr 0x2db9b64, size 0x3c, virtual false, abstract: false, final false
+  inline void ResetStereoViewMatrices();
+
+  /// @brief Method ResetTransparencySortSettings, addr 0x2db68e0, size 0x3c, virtual false, abstract: false, final false
+  inline void ResetTransparencySortSettings();
+
+  /// @brief Method ResetWorldToCameraMatrix, addr 0x2db8634, size 0x3c, virtual false, abstract: false, final false
+  inline void ResetWorldToCameraMatrix();
+
+  /// @brief Method ScreenPointToRay, addr 0x2db8e50, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Vector2 pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
+
+  /// @brief Method ScreenPointToRay, addr 0x2db8f5c, size 0x4c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Vector3 pos);
+
+  /// @brief Method ScreenPointToRay, addr 0x2db8f24, size 0x38, virtual false, abstract: false, final false
+  inline ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Vector3 pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
+
+  /// @brief Method ScreenPointToRay_Injected, addr 0x2db8ec8, size 0x5c, virtual false, abstract: false, final false
+  inline void ScreenPointToRay_Injected(ByRef<::UnityEngine::Vector2> pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Ray> ret);
+
+  /// @brief Method ScreenToViewportPoint, addr 0x2db8ac8, size 0x68, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 ScreenToViewportPoint(::UnityEngine::Vector3 position);
+
+  /// @brief Method ScreenToViewportPoint_Injected, addr 0x2db8b30, size 0x54, virtual false, abstract: false, final false
+  inline void ScreenToViewportPoint_Injected(ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> ret);
+
+  /// @brief Method ScreenToWorldPoint, addr 0x2db8ac0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 ScreenToWorldPoint(::UnityEngine::Vector3 position);
+
+  /// @brief Method ScreenToWorldPoint, addr 0x2db89dc, size 0x70, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 ScreenToWorldPoint(::UnityEngine::Vector3 position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
+
+  /// @brief Method ScreenToWorldPoint_Injected, addr 0x2db8a4c, size 0x5c, virtual false, abstract: false, final false
+  inline void ScreenToWorldPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
+
+  /// @brief Method SetLayerCullDistances, addr 0x2db6e3c, size 0x44, virtual false, abstract: false, final false
+  inline void SetLayerCullDistances(::ArrayW<float_t, ::Array<float_t>*> d);
+
+  /// @brief Method SetReplacementShader, addr 0x2db7484, size 0x54, virtual false, abstract: false, final false
+  inline void SetReplacementShader(::UnityEngine::Shader* shader, ::StringW replacementTag);
+
+  /// @brief Method SetStereoProjectionMatrix, addr 0x2db99d8, size 0x54, virtual false, abstract: false, final false
+  inline void SetStereoProjectionMatrix(::UnityEngine::__Camera__StereoscopicEye eye, ::UnityEngine::Matrix4x4 matrix);
+
+  /// @brief Method SetStereoProjectionMatrix_Injected, addr 0x2db9a2c, size 0x54, virtual false, abstract: false, final false
   inline void SetStereoProjectionMatrix_Injected(::UnityEngine::__Camera__StereoscopicEye eye, ByRef<::UnityEngine::Matrix4x4> matrix);
 
-  /// @brief Method SetStereoViewMatrix_Injected, addr 0x2cce5ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetStereoViewMatrix, addr 0x2db9abc, size 0x54, virtual false, abstract: false, final false
+  inline void SetStereoViewMatrix(::UnityEngine::__Camera__StereoscopicEye eye, ::UnityEngine::Matrix4x4 matrix);
+
+  /// @brief Method SetStereoViewMatrix_Injected, addr 0x2db9b10, size 0x54, virtual false, abstract: false, final false
   inline void SetStereoViewMatrix_Injected(::UnityEngine::__Camera__StereoscopicEye eye, ByRef<::UnityEngine::Matrix4x4> matrix);
 
+  /// @brief Method SetTargetBuffers, addr 0x2db806c, size 0x4, virtual false, abstract: false, final false
+  inline void SetTargetBuffers(::ArrayW<::UnityEngine::RenderBuffer, ::Array<::UnityEngine::RenderBuffer>*> colorBuffer, ::UnityEngine::RenderBuffer depthBuffer);
+
+  /// @brief Method SetTargetBuffers, addr 0x2db7fbc, size 0x4, virtual false, abstract: false, final false
+  inline void SetTargetBuffers(::UnityEngine::RenderBuffer colorBuffer, ::UnityEngine::RenderBuffer depthBuffer);
+
+  /// @brief Method SetTargetBuffersImpl, addr 0x2db7f10, size 0x58, virtual false, abstract: false, final false
+  inline void SetTargetBuffersImpl(::UnityEngine::RenderBuffer color, ::UnityEngine::RenderBuffer depth);
+
+  /// @brief Method SetTargetBuffersImpl_Injected, addr 0x2db7f68, size 0x54, virtual false, abstract: false, final false
+  inline void SetTargetBuffersImpl_Injected(ByRef<::UnityEngine::RenderBuffer> color, ByRef<::UnityEngine::RenderBuffer> depth);
+
+  /// @brief Method SetTargetBuffersMRTImpl, addr 0x2db7fc0, size 0x58, virtual false, abstract: false, final false
+  inline void SetTargetBuffersMRTImpl(::ArrayW<::UnityEngine::RenderBuffer, ::Array<::UnityEngine::RenderBuffer>*> color, ::UnityEngine::RenderBuffer depth);
+
+  /// @brief Method SetTargetBuffersMRTImpl_Injected, addr 0x2db8018, size 0x54, virtual false, abstract: false, final false
+  inline void SetTargetBuffersMRTImpl_Injected(::ArrayW<::UnityEngine::RenderBuffer, ::Array<::UnityEngine::RenderBuffer>*> color, ByRef<::UnityEngine::RenderBuffer> depth);
+
+  /// @brief Method SetupCurrent, addr 0x2dba32c, size 0x3c, virtual false, abstract: false, final false
+  static inline void SetupCurrent(::UnityEngine::Camera* cur);
+
+  /// @brief Method SubmitRenderRequests, addr 0x2dba138, size 0x14c, virtual false, abstract: false, final false
+  inline void SubmitRenderRequests(::System::Collections::Generic::List_1<::UnityEngine::__Camera__RenderRequest>* renderRequests);
+
+  /// @brief Method SubmitRenderRequestsInternal, addr 0x2dba2e8, size 0x44, virtual false, abstract: false, final false
+  inline void SubmitRenderRequestsInternal(::System::Object* requests);
+
+  /// @brief Method TryGetCullingParameters, addr 0x2dbaac0, size 0x4c, virtual false, abstract: false, final false
+  inline bool TryGetCullingParameters(ByRef<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParameters);
+
+  /// @brief Method TryGetCullingParameters, addr 0x2dbab68, size 0x58, virtual false, abstract: false, final false
+  inline bool TryGetCullingParameters(bool stereoAware, ByRef<::UnityEngine::Rendering::ScriptableCullingParameters> cullingParameters);
+
+  /// @brief Method VerticalToHorizontalFieldOfView, addr 0x2db9334, size 0x40, virtual false, abstract: false, final false
+  static inline float_t VerticalToHorizontalFieldOfView(float_t verticalFieldOfView, float_t aspectRatio);
+
+  /// @brief Method ViewportPointToRay, addr 0x2db8cf8, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityEngine::Ray ViewportPointToRay(::UnityEngine::Vector2 pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
+
+  /// @brief Method ViewportPointToRay, addr 0x2db8e04, size 0x4c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Ray ViewportPointToRay(::UnityEngine::Vector3 pos);
+
+  /// @brief Method ViewportPointToRay, addr 0x2db8dcc, size 0x38, virtual false, abstract: false, final false
+  inline ::UnityEngine::Ray ViewportPointToRay(::UnityEngine::Vector3 pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
+
+  /// @brief Method ViewportPointToRay_Injected, addr 0x2db8d70, size 0x5c, virtual false, abstract: false, final false
+  inline void ViewportPointToRay_Injected(ByRef<::UnityEngine::Vector2> pos, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Ray> ret);
+
+  /// @brief Method ViewportToScreenPoint, addr 0x2db8b84, size 0x68, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 ViewportToScreenPoint(::UnityEngine::Vector3 position);
+
+  /// @brief Method ViewportToScreenPoint_Injected, addr 0x2db8bec, size 0x54, virtual false, abstract: false, final false
+  inline void ViewportToScreenPoint_Injected(ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> ret);
+
+  /// @brief Method ViewportToWorldPoint, addr 0x2db8ab8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 ViewportToWorldPoint(::UnityEngine::Vector3 position);
+
+  /// @brief Method ViewportToWorldPoint, addr 0x2db8910, size 0x70, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 ViewportToWorldPoint(::UnityEngine::Vector3 position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
+
+  /// @brief Method ViewportToWorldPoint_Injected, addr 0x2db8980, size 0x5c, virtual false, abstract: false, final false
+  inline void ViewportToWorldPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
+
+  /// @brief Method WorldToScreenPoint, addr 0x2db8aa8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 WorldToScreenPoint(::UnityEngine::Vector3 position);
+
+  /// @brief Method WorldToScreenPoint, addr 0x2db8778, size 0x70, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 WorldToScreenPoint(::UnityEngine::Vector3 position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
+
+  /// @brief Method WorldToScreenPoint_Injected, addr 0x2db87e8, size 0x5c, virtual false, abstract: false, final false
+  inline void WorldToScreenPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
+
+  /// @brief Method WorldToViewportPoint, addr 0x2db8ab0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 WorldToViewportPoint(::UnityEngine::Vector3 position);
+
+  /// @brief Method WorldToViewportPoint, addr 0x2db8844, size 0x70, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 WorldToViewportPoint(::UnityEngine::Vector3 position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye);
+
+  /// @brief Method WorldToViewportPoint_Injected, addr 0x2db88b4, size 0x5c, virtual false, abstract: false, final false
+  inline void WorldToViewportPoint_Injected(ByRef<::UnityEngine::Vector3> position, ::UnityEngine::__Camera__MonoOrStereoscopicEye eye, ByRef<::UnityEngine::Vector3> ret);
+
+  /// @brief Method .ctor, addr 0x2db610c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::__Camera__CameraCallback* getStaticF_onPostRender();
+
+  static inline ::UnityEngine::__Camera__CameraCallback* getStaticF_onPreCull();
+
+  static inline ::UnityEngine::__Camera__CameraCallback* getStaticF_onPreRender();
+
+  /// @brief Method get_PreviewCullingLayer, addr 0x2db6fd4, size 0x8, virtual false, abstract: false, final false
+  static inline int32_t get_PreviewCullingLayer();
+
+  /// @brief Method get_activeTexture, addr 0x2db7e54, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::RenderTexture> get_activeTexture();
+
+  /// @brief Method get_actualRenderingPath, addr 0x2db6328, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::RenderingPath get_actualRenderingPath();
+
+  /// @brief Method get_allCameras, addr 0x2db9c2c, size 0xa0, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> get_allCameras();
+
+  /// @brief Method get_allCamerasCount, addr 0x2db9c04, size 0x28, virtual false, abstract: false, final false
+  static inline int32_t get_allCamerasCount();
+
+  /// @brief Method get_allowDynamicResolution, addr 0x2db64a0, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_allowDynamicResolution();
+
+  /// @brief Method get_allowHDR, addr 0x2db63a0, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_allowHDR();
+
+  /// @brief Method get_allowMSAA, addr 0x2db6420, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_allowMSAA();
+
+  /// @brief Method get_areVRStereoViewMatricesWithinSingleCullTolerance, addr 0x2db962c, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_areVRStereoViewMatricesWithinSingleCullTolerance();
+
+  /// @brief Method get_aspect, addr 0x2db69a4, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_aspect();
+
+  /// @brief Method get_backgroundColor, addr 0x2db71d0, size 0x58, virtual false, abstract: false, final false
+  inline ::UnityEngine::Color get_backgroundColor();
+
+  /// @brief Method get_backgroundColor_Injected, addr 0x2db7228, size 0x44, virtual false, abstract: false, final false
+  inline void get_backgroundColor_Injected(ByRef<::UnityEngine::Color> ret);
+
+  /// @brief Method get_cameraToWorldMatrix, addr 0x2db80ac, size 0x6c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 get_cameraToWorldMatrix();
+
+  /// @brief Method get_cameraToWorldMatrix_Injected, addr 0x2db8118, size 0x44, virtual false, abstract: false, final false
+  inline void get_cameraToWorldMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
+
+  /// @brief Method get_cameraType, addr 0x2db6c88, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::CameraType get_cameraType();
+
+  /// @brief Method get_clearFlags, addr 0x2db7304, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::CameraClearFlags get_clearFlags();
+
+  /// @brief Method get_clearStencilAfterLightingPass, addr 0x2db7404, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_clearStencilAfterLightingPass();
+
+  /// @brief Method get_commandBufferCount, addr 0x2dba3ac, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_commandBufferCount();
+
+  /// @brief Method get_cullingMask, addr 0x2db6b08, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_cullingMask();
+
+  /// @brief Method get_cullingMatrix, addr 0x2db705c, size 0x6c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 get_cullingMatrix();
+
+  /// @brief Method get_cullingMatrix_Injected, addr 0x2db70c8, size 0x44, virtual false, abstract: false, final false
+  inline void get_cullingMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
+
+  /// @brief Method get_current, addr 0x2db939c, size 0x28, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Camera> get_current();
+
+  /// @brief Method get_depth, addr 0x2db691c, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_depth();
+
+  /// @brief Method get_depthTextureMode, addr 0x2db7384, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::DepthTextureMode get_depthTextureMode();
+
+  /// @brief Method get_eventMask, addr 0x2db6b88, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_eventMask();
+
+  /// @brief Method get_farClipPlane, addr 0x2db6198, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_farClipPlane();
+
+  /// @brief Method get_fieldOfView, addr 0x2db6220, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_fieldOfView();
+
+  /// @brief Method get_focalLength, addr 0x2db7808, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_focalLength();
+
+  /// @brief Method get_forceIntoRenderTexture, addr 0x2db6520, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_forceIntoRenderTexture();
+
+  /// @brief Method get_gateFit, addr 0x2db7890, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::__Camera__GateFitMode get_gateFit();
+
+  /// @brief Method get_layerCullDistances, addr 0x2db6e80, size 0x3c, virtual false, abstract: false, final false
+  inline ::ArrayW<float_t, ::Array<float_t>*> get_layerCullDistances();
+
+  /// @brief Method get_layerCullSpherical, addr 0x2db6c08, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_layerCullSpherical();
+
+  /// @brief Method get_lensShift, addr 0x2db76ec, size 0x4c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_lensShift();
+
+  /// @brief Method get_lensShift_Injected, addr 0x2db7738, size 0x44, virtual false, abstract: false, final false
+  inline void get_lensShift_Injected(ByRef<::UnityEngine::Vector2> ret);
+
+  /// @brief Method get_main, addr 0x2db9374, size 0x28, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Camera> get_main();
+
+  /// @brief Method get_nearClipPlane, addr 0x2db6110, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_nearClipPlane();
+
+  /// @brief Method get_nonJitteredProjectionMatrix, addr 0x2db83cc, size 0x6c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 get_nonJitteredProjectionMatrix();
+
+  /// @brief Method get_nonJitteredProjectionMatrix_Injected, addr 0x2db8438, size 0x44, virtual false, abstract: false, final false
+  inline void get_nonJitteredProjectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
+
+  /// @brief Method get_opaqueSortMode, addr 0x2db66a8, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rendering::OpaqueSortMode get_opaqueSortMode();
+
+  /// @brief Method get_orthographic, addr 0x2db6628, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_orthographic();
+
+  /// @brief Method get_orthographicSize, addr 0x2db65a0, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_orthographicSize();
+
+  /// @brief Method get_overrideSceneCullingMask, addr 0x2db6d44, size 0x3c, virtual false, abstract: false, final false
+  inline uint64_t get_overrideSceneCullingMask();
+
+  /// @brief Method get_pixelHeight, addr 0x2db7d20, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_pixelHeight();
+
+  /// @brief Method get_pixelRect, addr 0x2db7bb0, size 0x58, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rect get_pixelRect();
+
+  /// @brief Method get_pixelRect_Injected, addr 0x2db7c08, size 0x44, virtual false, abstract: false, final false
+  inline void get_pixelRect_Injected(ByRef<::UnityEngine::Rect> ret);
+
+  /// @brief Method get_pixelWidth, addr 0x2db7ce4, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_pixelWidth();
+
+  /// @brief Method get_previousViewProjectionMatrix, addr 0x2db8584, size 0x6c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 get_previousViewProjectionMatrix();
+
+  /// @brief Method get_previousViewProjectionMatrix_Injected, addr 0x2db85f0, size 0x44, virtual false, abstract: false, final false
+  inline void get_previousViewProjectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
+
+  /// @brief Method get_projectionMatrix, addr 0x2db8294, size 0x6c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 get_projectionMatrix();
+
+  /// @brief Method get_projectionMatrixMode, addr 0x2db7514, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::__Camera__ProjectionMatrixMode get_projectionMatrixMode();
+
+  /// @brief Method get_projectionMatrix_Injected, addr 0x2db8300, size 0x44, virtual false, abstract: false, final false
+  inline void get_projectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
+
+  /// @brief Method get_rect, addr 0x2db7a7c, size 0x58, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rect get_rect();
+
+  /// @brief Method get_rect_Injected, addr 0x2db7ad4, size 0x44, virtual false, abstract: false, final false
+  inline void get_rect_Injected(ByRef<::UnityEngine::Rect> ret);
+
+  /// @brief Method get_renderingPath, addr 0x2db62a8, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::RenderingPath get_renderingPath();
+
+  /// @brief Method get_scaledPixelHeight, addr 0x2db7d98, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_scaledPixelHeight();
+
+  /// @brief Method get_scaledPixelWidth, addr 0x2db7d5c, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_scaledPixelWidth();
+
+  /// @brief Method get_scene, addr 0x2db93c4, size 0x4c, virtual false, abstract: false, final false
+  inline ::UnityEngine::SceneManagement::Scene get_scene();
+
+  /// @brief Method get_sceneCullingMask, addr 0x2db6dc4, size 0x3c, virtual false, abstract: false, final false
+  inline uint64_t get_sceneCullingMask();
+
+  /// @brief Method get_sceneViewFilterMode, addr 0x2db9f78, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::__Camera__SceneViewFilterMode get_sceneViewFilterMode();
+
+  /// @brief Method get_scene_Injected, addr 0x2db9410, size 0x44, virtual false, abstract: false, final false
+  inline void get_scene_Injected(ByRef<::UnityEngine::SceneManagement::Scene> ret);
+
+  /// @brief Method get_sensorSize, addr 0x2db75d0, size 0x4c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_sensorSize();
+
+  /// @brief Method get_sensorSize_Injected, addr 0x2db761c, size 0x44, virtual false, abstract: false, final false
+  inline void get_sensorSize_Injected(ByRef<::UnityEngine::Vector2> ret);
+
+  /// @brief Method get_skyboxMaterial, addr 0x2db6d08, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Material> get_skyboxMaterial();
+
+  /// @brief Method get_stereoActiveEye, addr 0x2db96e8, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::__Camera__MonoOrStereoscopicEye get_stereoActiveEye();
+
+  /// @brief Method get_stereoConvergence, addr 0x2db95a4, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_stereoConvergence();
+
+  /// @brief Method get_stereoEnabled, addr 0x2db94e0, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_stereoEnabled();
+
+  /// @brief Method get_stereoSeparation, addr 0x2db951c, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_stereoSeparation();
+
+  /// @brief Method get_stereoTargetEye, addr 0x2db9668, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::StereoTargetEyeMask get_stereoTargetEye();
+
+  /// @brief Method get_targetDisplay, addr 0x2db7e90, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_targetDisplay();
+
+  /// @brief Method get_targetTexture, addr 0x2db7dd4, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::RenderTexture> get_targetTexture();
+
+  /// @brief Method get_transparencySortAxis, addr 0x2db67a8, size 0x5c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_transparencySortAxis();
+
+  /// @brief Method get_transparencySortAxis_Injected, addr 0x2db6804, size 0x44, virtual false, abstract: false, final false
+  inline void get_transparencySortAxis_Injected(ByRef<::UnityEngine::Vector3> ret);
+
+  /// @brief Method get_transparencySortMode, addr 0x2db6728, size 0x3c, virtual false, abstract: false, final false
+  inline ::UnityEngine::TransparencySortMode get_transparencySortMode();
+
+  /// @brief Method get_useJitteredProjectionMatrixForTransparentRendering, addr 0x2db8504, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_useJitteredProjectionMatrixForTransparentRendering();
+
+  /// @brief Method get_useOcclusionCulling, addr 0x2db6fdc, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_useOcclusionCulling();
+
+  /// @brief Method get_usePhysicalProperties, addr 0x2db7550, size 0x3c, virtual false, abstract: false, final false
+  inline bool get_usePhysicalProperties();
+
+  /// @brief Method get_velocity, addr 0x2db6a68, size 0x5c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_velocity();
+
+  /// @brief Method get_velocity_Injected, addr 0x2db6ac4, size 0x44, virtual false, abstract: false, final false
+  inline void get_velocity_Injected(ByRef<::UnityEngine::Vector3> ret);
+
+  /// @brief Method get_worldToCameraMatrix, addr 0x2db815c, size 0x6c, virtual false, abstract: false, final false
+  inline ::UnityEngine::Matrix4x4 get_worldToCameraMatrix();
+
+  /// @brief Method get_worldToCameraMatrix_Injected, addr 0x2db81c8, size 0x44, virtual false, abstract: false, final false
+  inline void get_worldToCameraMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
+
+  static inline void setStaticF_onPostRender(::UnityEngine::__Camera__CameraCallback* value);
+
+  static inline void setStaticF_onPreCull(::UnityEngine::__Camera__CameraCallback* value);
+
+  static inline void setStaticF_onPreRender(::UnityEngine::__Camera__CameraCallback* value);
+
+  /// @brief Method set_allowDynamicResolution, addr 0x2db64dc, size 0x44, virtual false, abstract: false, final false
+  inline void set_allowDynamicResolution(bool value);
+
+  /// @brief Method set_allowHDR, addr 0x2db63dc, size 0x44, virtual false, abstract: false, final false
+  inline void set_allowHDR(bool value);
+
+  /// @brief Method set_allowMSAA, addr 0x2db645c, size 0x44, virtual false, abstract: false, final false
+  inline void set_allowMSAA(bool value);
+
+  /// @brief Method set_aspect, addr 0x2db69e0, size 0x4c, virtual false, abstract: false, final false
+  inline void set_aspect(float_t value);
+
+  /// @brief Method set_backgroundColor, addr 0x2db726c, size 0x54, virtual false, abstract: false, final false
+  inline void set_backgroundColor(::UnityEngine::Color value);
+
+  /// @brief Method set_backgroundColor_Injected, addr 0x2db72c0, size 0x44, virtual false, abstract: false, final false
+  inline void set_backgroundColor_Injected(ByRef<::UnityEngine::Color> value);
+
+  /// @brief Method set_cameraType, addr 0x2db6cc4, size 0x44, virtual false, abstract: false, final false
+  inline void set_cameraType(::UnityEngine::CameraType value);
+
+  /// @brief Method set_clearFlags, addr 0x2db7340, size 0x44, virtual false, abstract: false, final false
+  inline void set_clearFlags(::UnityEngine::CameraClearFlags value);
+
+  /// @brief Method set_clearStencilAfterLightingPass, addr 0x2db7440, size 0x44, virtual false, abstract: false, final false
+  inline void set_clearStencilAfterLightingPass(bool value);
+
+  /// @brief Method set_cullingMask, addr 0x2db6b44, size 0x44, virtual false, abstract: false, final false
+  inline void set_cullingMask(int32_t value);
+
+  /// @brief Method set_cullingMatrix, addr 0x2db710c, size 0x44, virtual false, abstract: false, final false
+  inline void set_cullingMatrix(::UnityEngine::Matrix4x4 value);
+
+  /// @brief Method set_cullingMatrix_Injected, addr 0x2db7150, size 0x44, virtual false, abstract: false, final false
+  inline void set_cullingMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
+
+  /// @brief Method set_depth, addr 0x2db6958, size 0x4c, virtual false, abstract: false, final false
+  inline void set_depth(float_t value);
+
+  /// @brief Method set_depthTextureMode, addr 0x2db73c0, size 0x44, virtual false, abstract: false, final false
+  inline void set_depthTextureMode(::UnityEngine::DepthTextureMode value);
+
+  /// @brief Method set_eventMask, addr 0x2db6bc4, size 0x44, virtual false, abstract: false, final false
+  inline void set_eventMask(int32_t value);
+
+  /// @brief Method set_farClipPlane, addr 0x2db61d4, size 0x4c, virtual false, abstract: false, final false
+  inline void set_farClipPlane(float_t value);
+
+  /// @brief Method set_fieldOfView, addr 0x2db625c, size 0x4c, virtual false, abstract: false, final false
+  inline void set_fieldOfView(float_t value);
+
+  /// @brief Method set_focalLength, addr 0x2db7844, size 0x4c, virtual false, abstract: false, final false
+  inline void set_focalLength(float_t value);
+
+  /// @brief Method set_forceIntoRenderTexture, addr 0x2db655c, size 0x44, virtual false, abstract: false, final false
+  inline void set_forceIntoRenderTexture(bool value);
+
+  /// @brief Method set_gateFit, addr 0x2db78cc, size 0x44, virtual false, abstract: false, final false
+  inline void set_gateFit(::UnityEngine::__Camera__GateFitMode value);
+
+  /// @brief Method set_layerCullDistances, addr 0x2db6ebc, size 0xa0, virtual false, abstract: false, final false
+  inline void set_layerCullDistances(::ArrayW<float_t, ::Array<float_t>*> value);
+
+  /// @brief Method set_layerCullSpherical, addr 0x2db6c44, size 0x44, virtual false, abstract: false, final false
+  inline void set_layerCullSpherical(bool value);
+
+  /// @brief Method set_lensShift, addr 0x2db777c, size 0x48, virtual false, abstract: false, final false
+  inline void set_lensShift(::UnityEngine::Vector2 value);
+
+  /// @brief Method set_lensShift_Injected, addr 0x2db77c4, size 0x44, virtual false, abstract: false, final false
+  inline void set_lensShift_Injected(ByRef<::UnityEngine::Vector2> value);
+
+  /// @brief Method set_nearClipPlane, addr 0x2db614c, size 0x4c, virtual false, abstract: false, final false
+  inline void set_nearClipPlane(float_t value);
+
+  /// @brief Method set_nonJitteredProjectionMatrix, addr 0x2db847c, size 0x44, virtual false, abstract: false, final false
+  inline void set_nonJitteredProjectionMatrix(::UnityEngine::Matrix4x4 value);
+
+  /// @brief Method set_nonJitteredProjectionMatrix_Injected, addr 0x2db84c0, size 0x44, virtual false, abstract: false, final false
+  inline void set_nonJitteredProjectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
+
+  /// @brief Method set_opaqueSortMode, addr 0x2db66e4, size 0x44, virtual false, abstract: false, final false
+  inline void set_opaqueSortMode(::UnityEngine::Rendering::OpaqueSortMode value);
+
+  /// @brief Method set_orthographic, addr 0x2db6664, size 0x44, virtual false, abstract: false, final false
+  inline void set_orthographic(bool value);
+
+  /// @brief Method set_orthographicSize, addr 0x2db65dc, size 0x4c, virtual false, abstract: false, final false
+  inline void set_orthographicSize(float_t value);
+
+  /// @brief Method set_overrideSceneCullingMask, addr 0x2db6d80, size 0x44, virtual false, abstract: false, final false
+  inline void set_overrideSceneCullingMask(uint64_t value);
+
+  /// @brief Method set_pixelRect, addr 0x2db7c4c, size 0x54, virtual false, abstract: false, final false
+  inline void set_pixelRect(::UnityEngine::Rect value);
+
+  /// @brief Method set_pixelRect_Injected, addr 0x2db7ca0, size 0x44, virtual false, abstract: false, final false
+  inline void set_pixelRect_Injected(ByRef<::UnityEngine::Rect> value);
+
+  /// @brief Method set_projectionMatrix, addr 0x2db8344, size 0x44, virtual false, abstract: false, final false
+  inline void set_projectionMatrix(::UnityEngine::Matrix4x4 value);
+
+  /// @brief Method set_projectionMatrix_Injected, addr 0x2db8388, size 0x44, virtual false, abstract: false, final false
+  inline void set_projectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
+
+  /// @brief Method set_rect, addr 0x2db7b18, size 0x54, virtual false, abstract: false, final false
+  inline void set_rect(::UnityEngine::Rect value);
+
+  /// @brief Method set_rect_Injected, addr 0x2db7b6c, size 0x44, virtual false, abstract: false, final false
+  inline void set_rect_Injected(ByRef<::UnityEngine::Rect> value);
+
+  /// @brief Method set_renderingPath, addr 0x2db62e4, size 0x44, virtual false, abstract: false, final false
+  inline void set_renderingPath(::UnityEngine::RenderingPath value);
+
+  /// @brief Method set_scene, addr 0x2db9454, size 0x48, virtual false, abstract: false, final false
+  inline void set_scene(::UnityEngine::SceneManagement::Scene value);
+
+  /// @brief Method set_scene_Injected, addr 0x2db949c, size 0x44, virtual false, abstract: false, final false
+  inline void set_scene_Injected(ByRef<::UnityEngine::SceneManagement::Scene> value);
+
+  /// @brief Method set_sensorSize, addr 0x2db7660, size 0x48, virtual false, abstract: false, final false
+  inline void set_sensorSize(::UnityEngine::Vector2 value);
+
+  /// @brief Method set_sensorSize_Injected, addr 0x2db76a8, size 0x44, virtual false, abstract: false, final false
+  inline void set_sensorSize_Injected(ByRef<::UnityEngine::Vector2> value);
+
+  /// @brief Method set_stereoConvergence, addr 0x2db95e0, size 0x4c, virtual false, abstract: false, final false
+  inline void set_stereoConvergence(float_t value);
+
+  /// @brief Method set_stereoSeparation, addr 0x2db9558, size 0x4c, virtual false, abstract: false, final false
+  inline void set_stereoSeparation(float_t value);
+
+  /// @brief Method set_stereoTargetEye, addr 0x2db96a4, size 0x44, virtual false, abstract: false, final false
+  inline void set_stereoTargetEye(::UnityEngine::StereoTargetEyeMask value);
+
+  /// @brief Method set_targetDisplay, addr 0x2db7ecc, size 0x44, virtual false, abstract: false, final false
+  inline void set_targetDisplay(int32_t value);
+
+  /// @brief Method set_targetTexture, addr 0x2db7e10, size 0x44, virtual false, abstract: false, final false
+  inline void set_targetTexture(::UnityEngine::RenderTexture* value);
+
+  /// @brief Method set_transparencySortAxis, addr 0x2db6848, size 0x54, virtual false, abstract: false, final false
+  inline void set_transparencySortAxis(::UnityEngine::Vector3 value);
+
+  /// @brief Method set_transparencySortAxis_Injected, addr 0x2db689c, size 0x44, virtual false, abstract: false, final false
+  inline void set_transparencySortAxis_Injected(ByRef<::UnityEngine::Vector3> value);
+
+  /// @brief Method set_transparencySortMode, addr 0x2db6764, size 0x44, virtual false, abstract: false, final false
+  inline void set_transparencySortMode(::UnityEngine::TransparencySortMode value);
+
+  /// @brief Method set_useJitteredProjectionMatrixForTransparentRendering, addr 0x2db8540, size 0x44, virtual false, abstract: false, final false
+  inline void set_useJitteredProjectionMatrixForTransparentRendering(bool value);
+
+  /// @brief Method set_useOcclusionCulling, addr 0x2db7018, size 0x44, virtual false, abstract: false, final false
+  inline void set_useOcclusionCulling(bool value);
+
+  /// @brief Method set_usePhysicalProperties, addr 0x2db758c, size 0x44, virtual false, abstract: false, final false
+  inline void set_usePhysicalProperties(bool value);
+
+  /// @brief Method set_worldToCameraMatrix, addr 0x2db820c, size 0x44, virtual false, abstract: false, final false
+  inline void set_worldToCameraMatrix(::UnityEngine::Matrix4x4 value);
+
+  /// @brief Method set_worldToCameraMatrix_Injected, addr 0x2db8250, size 0x44, virtual false, abstract: false, final false
+  inline void set_worldToCameraMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Camera();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Camera", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Camera(Camera&&) = delete;
@@ -1673,12 +1692,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Camera(Camera const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Camera();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

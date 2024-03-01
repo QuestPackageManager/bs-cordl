@@ -24,21 +24,19 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::FxEventBox);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11207)), TypeDefinitionIndex(TypeDefinitionIndex(11208))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11136))
 // CS Name: ::BeatmapSaveDataVersion4::FxEventBox
 struct CORDL_TYPE FxEventBox {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FxEventBox();
+
   // Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None
   // }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::BeatmapSaveDataCommon::DistributionParamType", modifiers: "", def_value: None }, CppParam {
   // name: "b", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }]
   constexpr FxEventBox(float_t w, ::BeatmapSaveDataCommon::DistributionParamType d, float_t s, ::BeatmapSaveDataCommon::DistributionParamType t, int32_t b,
                        ::BeatmapSaveDataCommon::EaseType e) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FxEventBox();
 
   /// @brief Field w, offset: 0x0, size: 0x4, def value: None
   float_t w;

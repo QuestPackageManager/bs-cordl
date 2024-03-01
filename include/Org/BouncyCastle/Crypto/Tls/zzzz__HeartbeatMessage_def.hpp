@@ -30,20 +30,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuff
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3562))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1248))
 // CS Name: ::HeartbeatMessage::PayloadBuffer*
 class CORDL_TYPE __HeartbeatMessage__PayloadBuffer : public ::System::IO::MemoryStream {
 public:
   // Declarations
-  /// @brief Method ToTruncatedByteArray, addr 0xfbdc7c, size 0xa8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToTruncatedByteArray(int32_t payloadLength);
-
   static inline ::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfbdc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToTruncatedByteArray, addr 0x1002c4c, size 0xa8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToTruncatedByteArray(int32_t payloadLength);
+
+  /// @brief Method .ctor, addr 0x1002c44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HeartbeatMessage__PayloadBuffer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HeartbeatMessage__PayloadBuffer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HeartbeatMessage__PayloadBuffer(__HeartbeatMessage__PayloadBuffer&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HeartbeatMessage__PayloadBuffer(__HeartbeatMessage__PayloadBuffer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HeartbeatMessage__PayloadBuffer();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -68,52 +66,56 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1249))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::HeartbeatMessage*
 class CORDL_TYPE HeartbeatMessage : public ::System::Object {
 public:
   // Declarations
   using PayloadBuffer = ::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer;
 
-  /// @brief Field mType, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_mType, put = __cordl_internal_set_mType)) uint8_t mType;
+  /// @brief Field mPaddingLength, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_mPaddingLength, put = __cordl_internal_set_mPaddingLength)) int32_t mPaddingLength;
 
   /// @brief Field mPayload, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mPayload, put = __cordl_internal_set_mPayload))::ArrayW<uint8_t, ::Array<uint8_t>*> mPayload;
 
-  /// @brief Field mPaddingLength, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_mPaddingLength, put = __cordl_internal_set_mPaddingLength)) int32_t mPaddingLength;
+  /// @brief Field mType, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_mType, put = __cordl_internal_set_mType)) uint8_t mType;
 
-  constexpr uint8_t& __cordl_internal_get_mType();
-
-  constexpr uint8_t const& __cordl_internal_get_mType() const;
-
-  constexpr void __cordl_internal_set_mType(uint8_t value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPayload();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPayload() const;
-
-  constexpr void __cordl_internal_set_mPayload(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_mPaddingLength();
-
-  constexpr int32_t const& __cordl_internal_get_mPaddingLength() const;
-
-  constexpr void __cordl_internal_set_mPaddingLength(int32_t value);
+  /// @brief Method Encode, addr 0x1002880, size 0x1fc, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage* New_ctor(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload, int32_t paddingLength);
 
-  /// @brief Method .ctor, addr 0xfbd76c, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload, int32_t paddingLength);
-
-  /// @brief Method Encode, addr 0xfbd8b0, size 0x1fc, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* output);
-
-  /// @brief Method Parse, addr 0xfbdaac, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x1002a7c, size 0x1c8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage* Parse(::System::IO::Stream* input);
 
+  constexpr int32_t const& __cordl_internal_get_mPaddingLength() const;
+
+  constexpr int32_t& __cordl_internal_get_mPaddingLength();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPayload() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPayload();
+
+  constexpr uint8_t const& __cordl_internal_get_mType() const;
+
+  constexpr uint8_t& __cordl_internal_get_mType();
+
+  constexpr void __cordl_internal_set_mPaddingLength(int32_t value);
+
+  constexpr void __cordl_internal_set_mPayload(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_mType(uint8_t value);
+
+  /// @brief Method .ctor, addr 0x100273c, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload, int32_t paddingLength);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HeartbeatMessage();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HeartbeatMessage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HeartbeatMessage(HeartbeatMessage&&) = delete;
@@ -122,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HeartbeatMessage(HeartbeatMessage const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HeartbeatMessage();
-
-public:
   /// @brief Field mType, offset: 0x10, size: 0x1, def value: None
   uint8_t ___mType;
 

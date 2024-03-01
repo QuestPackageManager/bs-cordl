@@ -26,29 +26,33 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundle
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14026))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14007))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetBundleProvider*
 class CORDL_TYPE AssetBundleProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
   // Declarations
-  /// @brief Method WaitForAllUnloadingBundlesToComplete, addr 0x2bd341c, size 0x4, virtual false, abstract: false, final false
-  static inline void WaitForAllUnloadingBundlesToComplete();
-
-  /// @brief Method Provide, addr 0x2bd3420, size 0x80, virtual true, abstract: false, final false
-  inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
-
-  /// @brief Method GetDefaultType, addr 0x2bd34a0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultType, addr 0x2cbc574, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
-
-  /// @brief Method Release, addr 0x2bd350c, size 0x184, virtual true, abstract: false, final false
-  inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2bd3690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Provide, addr 0x2cbc4f4, size 0x80, virtual true, abstract: false, final false
+  inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
+
+  /// @brief Method Release, addr 0x2cbc5e0, size 0x184, virtual true, abstract: false, final false
+  inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
+
+  /// @brief Method WaitForAllUnloadingBundlesToComplete, addr 0x2cbc4f0, size 0x4, virtual false, abstract: false, final false
+  static inline void WaitForAllUnloadingBundlesToComplete();
+
+  /// @brief Method .ctor, addr 0x2cbc764, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetBundleProvider();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AssetBundleProvider(AssetBundleProvider&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetBundleProvider(AssetBundleProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetBundleProvider();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

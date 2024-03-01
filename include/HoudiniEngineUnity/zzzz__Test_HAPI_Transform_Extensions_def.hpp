@@ -20,15 +20,19 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_Transform_Extensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9687))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_Transform_Extensions*
 class CORDL_TYPE Test_HAPI_Transform_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x22789d0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x2345038, size 0x88, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_Transform* ToTestObject(::HoudiniEngineUnity::HAPI_Transform self);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_HAPI_Transform_Extensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_Transform_Extensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_HAPI_Transform_Extensions(Test_HAPI_Transform_Extensions&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_HAPI_Transform_Extensions(Test_HAPI_Transform_Extensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_HAPI_Transform_Extensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

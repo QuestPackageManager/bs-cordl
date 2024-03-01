@@ -27,18 +27,18 @@ namespace BeatmapSaveDataVersion3 {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11156))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11157))
 // CS Name: ::BeatmapSaveDataVersion3::EventBoxGroup`1<T>*
 class CORDL_TYPE EventBoxGroup_1 : public ::BeatmapSaveDataVersion3::EventBoxGroup {
 public:
   // Declarations
+  __declspec(property(get = get_baseEventBoxes))::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* baseEventBoxes;
+
   /// @brief Field e, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::System::Collections::Generic::List_1<T>* e;
 
-  __declspec(property(get = get_baseEventBoxes))::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* baseEventBoxes;
-
   __declspec(property(get = get_eventBoxes))::System::Collections::Generic::IReadOnlyList_1<T>* eventBoxes;
+
+  static inline ::BeatmapSaveDataVersion3::EventBoxGroup_1<T>* New_ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<T>* eventBoxes);
 
   constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_e();
 
@@ -46,17 +46,21 @@ public:
 
   constexpr void __cordl_internal_set_e(::System::Collections::Generic::List_1<T>* value);
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<T>* eventBoxes);
+
   /// @brief Method get_baseEventBoxes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* get_baseEventBoxes();
 
   /// @brief Method get_eventBoxes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<T>* get_eventBoxes();
 
-  static inline ::BeatmapSaveDataVersion3::EventBoxGroup_1<T>* New_ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<T>* eventBoxes);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventBoxGroup_1();
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<T>* eventBoxes);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventBoxGroup_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventBoxGroup_1(EventBoxGroup_1&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventBoxGroup_1(EventBoxGroup_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventBoxGroup_1();
-
-public:
   /// @brief Field e, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ___e;
 

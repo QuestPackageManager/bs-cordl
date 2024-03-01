@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleColorSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(16376))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16379))
 // CS Name: ::SimpleColorSO*
 class CORDL_TYPE SimpleColorSO : public ::GlobalNamespace::ColorSO {
 public:
@@ -29,23 +27,29 @@ public:
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+  static inline ::GlobalNamespace::SimpleColorSO* New_ctor();
+
+  /// @brief Method SetColor, addr 0x129e804, size 0xc, virtual false, abstract: false, final false
+  inline void SetColor(::UnityEngine::Color c);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method get_color, addr 0x125b828, size 0xc, virtual true, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
-
-  /// @brief Method SetColor, addr 0x125b834, size 0xc, virtual false, abstract: false, final false
-  inline void SetColor(::UnityEngine::Color c);
-
-  static inline ::GlobalNamespace::SimpleColorSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x125b840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x129e810, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_color, addr 0x129e7f8, size 0xc, virtual true, abstract: false, final false
+  inline ::UnityEngine::Color get_color();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SimpleColorSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SimpleColorSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SimpleColorSO(SimpleColorSO&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SimpleColorSO(SimpleColorSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SimpleColorSO();
-
-public:
   /// @brief Field _color, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 

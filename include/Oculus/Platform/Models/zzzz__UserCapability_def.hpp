@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::UserCapability);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13443))
 // CS Name: ::Oculus.Platform.Models::UserCapability*
 class CORDL_TYPE UserCapability : public ::System::Object {
 public:
@@ -34,35 +32,41 @@ public:
   /// @brief Field ReasonCode, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_ReasonCode, put = __cordl_internal_set_ReasonCode))::StringW ReasonCode;
 
-  constexpr ::StringW& __cordl_internal_get_Description();
+  static inline ::Oculus::Platform::Models::UserCapability* New_ctor(void* o);
 
   constexpr ::StringW const& __cordl_internal_get_Description() const;
 
-  constexpr void __cordl_internal_set_Description(::StringW value);
-
-  constexpr bool& __cordl_internal_get_IsEnabled();
+  constexpr ::StringW& __cordl_internal_get_Description();
 
   constexpr bool const& __cordl_internal_get_IsEnabled() const;
 
-  constexpr void __cordl_internal_set_IsEnabled(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_Name();
+  constexpr bool& __cordl_internal_get_IsEnabled();
 
   constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __cordl_internal_set_Name(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_ReasonCode();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
   constexpr ::StringW const& __cordl_internal_get_ReasonCode() const;
 
+  constexpr ::StringW& __cordl_internal_get_ReasonCode();
+
+  constexpr void __cordl_internal_set_Description(::StringW value);
+
+  constexpr void __cordl_internal_set_IsEnabled(bool value);
+
+  constexpr void __cordl_internal_set_Name(::StringW value);
+
   constexpr void __cordl_internal_set_ReasonCode(::StringW value);
 
-  static inline ::Oculus::Platform::Models::UserCapability* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x273da64, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fa940, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UserCapability();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UserCapability", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserCapability(UserCapability&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UserCapability(UserCapability const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UserCapability();
-
-public:
   /// @brief Field Description, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Description;
 

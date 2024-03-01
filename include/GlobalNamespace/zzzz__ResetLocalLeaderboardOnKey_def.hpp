@@ -21,47 +21,51 @@ MARK_REF_PTR_T(::GlobalNamespace::ResetLocalLeaderboardOnKey);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8790)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11071))
 // CS Name: ::ResetLocalLeaderboardOnKey*
 class CORDL_TYPE ResetLocalLeaderboardOnKey : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _keyCode, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__keyCode, put = __cordl_internal_set__keyCode))::UnityEngine::KeyCode _keyCode;
-
   /// @brief Field _fileStorage, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage))::GlobalNamespace::IFileStorage* _fileStorage;
+
+  /// @brief Field _keyCode, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__keyCode, put = __cordl_internal_set__keyCode))::UnityEngine::KeyCode _keyCode;
 
   /// @brief Field _localLeaderboardsModel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__localLeaderboardsModel, put = __cordl_internal_set__localLeaderboardsModel))::GlobalNamespace::LocalLeaderboardsModel* _localLeaderboardsModel;
 
-  constexpr ::UnityEngine::KeyCode& __cordl_internal_get__keyCode();
+  static inline ::GlobalNamespace::ResetLocalLeaderboardOnKey* New_ctor();
 
-  constexpr ::UnityEngine::KeyCode const& __cordl_internal_get__keyCode() const;
-
-  constexpr void __cordl_internal_set__keyCode(::UnityEngine::KeyCode value);
+  /// @brief Method Update, addr 0x12f98d0, size 0xb8, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get__fileStorage() const;
 
-  constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
+  constexpr ::UnityEngine::KeyCode const& __cordl_internal_get__keyCode() const;
+
+  constexpr ::UnityEngine::KeyCode& __cordl_internal_get__keyCode();
 
   constexpr ::GlobalNamespace::LocalLeaderboardsModel*& __cordl_internal_get__localLeaderboardsModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalLeaderboardsModel*> const& __cordl_internal_get__localLeaderboardsModel() const;
 
+  constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
+
+  constexpr void __cordl_internal_set__keyCode(::UnityEngine::KeyCode value);
+
   constexpr void __cordl_internal_set__localLeaderboardsModel(::GlobalNamespace::LocalLeaderboardsModel* value);
 
-  /// @brief Method Update, addr 0x12b8900, size 0xb8, virtual false, abstract: false, final false
-  inline void Update();
-
-  static inline ::GlobalNamespace::ResetLocalLeaderboardOnKey* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12b89b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12f9988, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResetLocalLeaderboardOnKey();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResetLocalLeaderboardOnKey", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResetLocalLeaderboardOnKey(ResetLocalLeaderboardOnKey&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResetLocalLeaderboardOnKey(ResetLocalLeaderboardOnKey const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResetLocalLeaderboardOnKey();
-
-public:
   /// @brief Field _keyCode, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode;
 

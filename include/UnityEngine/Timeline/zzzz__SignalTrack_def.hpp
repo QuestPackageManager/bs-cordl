@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::SignalTrack);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13843))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13849))
 // CS Name: ::UnityEngine.Timeline::SignalTrack*
 class CORDL_TYPE SignalTrack : public ::UnityEngine::Timeline::MarkerTrack {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::SignalTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c679dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d51ab0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignalTrack();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignalTrack", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignalTrack(SignalTrack&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignalTrack(SignalTrack const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignalTrack();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

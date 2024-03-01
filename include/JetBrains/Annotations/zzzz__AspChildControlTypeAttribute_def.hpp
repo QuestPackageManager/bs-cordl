@@ -18,51 +18,55 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspChildControlTypeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15945))
 // CS Name: ::JetBrains.Annotations::AspChildControlTypeAttribute*
 class CORDL_TYPE AspChildControlTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field <TagName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__TagName_k__BackingField, put = __cordl_internal_set__TagName_k__BackingField))::StringW _TagName_k__BackingField;
+  __declspec(property(get = get_ControlType, put = set_ControlType))::System::Type* ControlType;
+
+  __declspec(property(get = get_TagName, put = set_TagName))::StringW TagName;
 
   /// @brief Field <ControlType>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__ControlType_k__BackingField, put = __cordl_internal_set__ControlType_k__BackingField))::System::Type* _ControlType_k__BackingField;
 
-  __declspec(property(get = get_TagName, put = set_TagName))::StringW TagName;
+  /// @brief Field <TagName>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__TagName_k__BackingField, put = __cordl_internal_set__TagName_k__BackingField))::StringW _TagName_k__BackingField;
 
-  __declspec(property(get = get_ControlType, put = set_ControlType))::System::Type* ControlType;
-
-  constexpr ::StringW& __cordl_internal_get__TagName_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__TagName_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__TagName_k__BackingField(::StringW value);
+  static inline ::JetBrains::Annotations::AspChildControlTypeAttribute* New_ctor(::StringW tagName, ::System::Type* controlType);
 
   constexpr ::System::Type*& __cordl_internal_get__ControlType_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__ControlType_k__BackingField() const;
 
+  constexpr ::StringW const& __cordl_internal_get__TagName_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__TagName_k__BackingField();
+
   constexpr void __cordl_internal_set__ControlType_k__BackingField(::System::Type* value);
 
-  static inline ::JetBrains::Annotations::AspChildControlTypeAttribute* New_ctor(::StringW tagName, ::System::Type* controlType);
+  constexpr void __cordl_internal_set__TagName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ed68d4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc9ffc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW tagName, ::System::Type* controlType);
 
-  /// @brief Method get_TagName, addr 0x2ed6900, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_TagName();
-
-  /// @brief Method set_TagName, addr 0x2ed6908, size 0x8, virtual false, abstract: false, final false
-  inline void set_TagName(::StringW value);
-
-  /// @brief Method get_ControlType, addr 0x2ed6910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ControlType, addr 0x2fca038, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ControlType();
 
-  /// @brief Method set_ControlType, addr 0x2ed6918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TagName, addr 0x2fca028, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_TagName();
+
+  /// @brief Method set_ControlType, addr 0x2fca040, size 0x8, virtual false, abstract: false, final false
   inline void set_ControlType(::System::Type* value);
 
+  /// @brief Method set_TagName, addr 0x2fca030, size 0x8, virtual false, abstract: false, final false
+  inline void set_TagName(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AspChildControlTypeAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AspChildControlTypeAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AspChildControlTypeAttribute(AspChildControlTypeAttribute&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AspChildControlTypeAttribute(AspChildControlTypeAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AspChildControlTypeAttribute();
-
-public:
   /// @brief Field <TagName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____TagName_k__BackingField;
 

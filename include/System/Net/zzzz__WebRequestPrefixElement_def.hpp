@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::System::Net::WebRequestPrefixElement);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7087))
 // CS Name: ::System.Net::WebRequestPrefixElement*
 class CORDL_TYPE WebRequestPrefixElement : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Creator, put = set_Creator))::System::Net::IWebRequestCreate* Creator;
+
   /// @brief Field Prefix, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Prefix, put = __cordl_internal_set_Prefix))::StringW Prefix;
 
@@ -36,37 +36,41 @@ public:
   /// @brief Field creatorType, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_creatorType, put = __cordl_internal_set_creatorType))::System::Type* creatorType;
 
-  __declspec(property(get = get_Creator, put = set_Creator))::System::Net::IWebRequestCreate* Creator;
-
-  constexpr ::StringW& __cordl_internal_get_Prefix();
+  static inline ::System::Net::WebRequestPrefixElement* New_ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
   constexpr ::StringW const& __cordl_internal_get_Prefix() const;
 
-  constexpr void __cordl_internal_set_Prefix(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_Prefix();
 
   constexpr ::System::Net::IWebRequestCreate*& __cordl_internal_get_creator();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebRequestCreate*> const& __cordl_internal_get_creator() const;
 
-  constexpr void __cordl_internal_set_creator(::System::Net::IWebRequestCreate* value);
-
   constexpr ::System::Type*& __cordl_internal_get_creatorType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_creatorType() const;
 
+  constexpr void __cordl_internal_set_Prefix(::StringW value);
+
+  constexpr void __cordl_internal_set_creator(::System::Net::IWebRequestCreate* value);
+
   constexpr void __cordl_internal_set_creatorType(::System::Type* value);
 
-  /// @brief Method get_Creator, addr 0x29a2d5c, size 0x1fc, virtual false, abstract: false, final false
-  inline ::System::Net::IWebRequestCreate* get_Creator();
-
-  /// @brief Method set_Creator, addr 0x29a2f58, size 0x8, virtual false, abstract: false, final false
-  inline void set_Creator(::System::Net::IWebRequestCreate* value);
-
-  static inline ::System::Net::WebRequestPrefixElement* New_ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
-
-  /// @brief Method .ctor, addr 0x29a2f60, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8a034, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
+  /// @brief Method get_Creator, addr 0x2a89e30, size 0x1fc, virtual false, abstract: false, final false
+  inline ::System::Net::IWebRequestCreate* get_Creator();
+
+  /// @brief Method set_Creator, addr 0x2a8a02c, size 0x8, virtual false, abstract: false, final false
+  inline void set_Creator(::System::Net::IWebRequestCreate* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WebRequestPrefixElement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WebRequestPrefixElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WebRequestPrefixElement(WebRequestPrefixElement&&) = delete;
@@ -75,12 +79,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WebRequestPrefixElement(WebRequestPrefixElement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebRequestPrefixElement();
-
-public:
   /// @brief Field Prefix, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Prefix;
 

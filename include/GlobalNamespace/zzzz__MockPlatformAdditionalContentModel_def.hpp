@@ -61,23 +61,25 @@ MARK_VAL_T(::GlobalNamespace::__MockPlatformAdditionalContentModel___OpenLevelPr
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(3405)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 896 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10561)) CS
-// Name: ::MockPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__8
+// CS Name: ::MockPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__8
 struct CORDL_TYPE __MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a119c, size 0x274, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a1410, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x125e1cc, size 0x274, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x125e440, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }, CppParam { name: "token", ty:
@@ -87,10 +89,6 @@ public:
   constexpr __MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder, ::System::Threading::CancellationToken token,
       ::StringW levelId, ::GlobalNamespace::MockPlatformAdditionalContentModel* __4__this, ::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -135,71 +133,75 @@ static_assert(offsetof(::GlobalNamespace::__MockPlatformAdditionalContentModel__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10560))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10562))
 // CS Name: ::MockPlatformAdditionalContentModel*
 class CORDL_TYPE MockPlatformAdditionalContentModel : public ::GlobalNamespace::AdditionalContentModel {
 public:
   // Declarations
   using _OpenLevelProductStoreAsync_d__8 = ::GlobalNamespace::__MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8;
 
-  /// @brief Field _levelsEntitlements, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelsEntitlements,
-                      put = __cordl_internal_set__levelsEntitlements))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* _levelsEntitlements;
-
   /// @brief Field _levelPacksEntitlements, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levelPacksEntitlements,
                       put = __cordl_internal_set__levelPacksEntitlements))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* _levelPacksEntitlements;
 
+  /// @brief Field _levelsEntitlements, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelsEntitlements,
+                      put = __cordl_internal_set__levelsEntitlements))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* _levelsEntitlements;
+
   /// @brief Field _packBetterBuyThanLevel, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__packBetterBuyThanLevel, put = __cordl_internal_set__packBetterBuyThanLevel)) bool _packBetterBuyThanLevel;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*& __cordl_internal_get__levelsEntitlements();
+  /// @brief Method BuyLevel, addr 0x12a0f90, size 0xec, virtual false, abstract: false, final false
+  inline void BuyLevel(::StringW levelId);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*> const&
-  __cordl_internal_get__levelsEntitlements() const;
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x12a0c4c, size 0xd8, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  constexpr void __cordl_internal_set__levelsEntitlements(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* value);
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x12a0d24, size 0xd8, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
+
+  /// @brief Method InvalidateDataInternal, addr 0x12a0c48, size 0x4, virtual true, abstract: false, final false
+  inline void InvalidateDataInternal();
+
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x12a0dfc, size 0x90, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
+
+  static inline ::GlobalNamespace::MockPlatformAdditionalContentModel* New_ctor(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
+
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x12a10b8, size 0xe4, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
+
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x12a0e8c, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*& __cordl_internal_get__levelPacksEntitlements();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*> const&
   __cordl_internal_get__levelPacksEntitlements() const;
 
-  constexpr void __cordl_internal_set__levelPacksEntitlements(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* value);
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*& __cordl_internal_get__levelsEntitlements();
 
-  constexpr bool& __cordl_internal_get__packBetterBuyThanLevel();
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*> const&
+  __cordl_internal_get__levelsEntitlements() const;
 
   constexpr bool const& __cordl_internal_get__packBetterBuyThanLevel() const;
 
+  constexpr bool& __cordl_internal_get__packBetterBuyThanLevel();
+
+  constexpr void __cordl_internal_set__levelPacksEntitlements(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* value);
+
+  constexpr void __cordl_internal_set__levelsEntitlements(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* value);
+
   constexpr void __cordl_internal_set__packBetterBuyThanLevel(bool value);
 
-  static inline ::GlobalNamespace::MockPlatformAdditionalContentModel* New_ctor(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
-
-  /// @brief Method .ctor, addr 0x125d668, size 0x610, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a0638, size 0x610, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
 
-  /// @brief Method InvalidateDataInternal, addr 0x125dc78, size 0x4, virtual true, abstract: false, final false
-  inline void InvalidateDataInternal();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MockPlatformAdditionalContentModel();
 
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x125dc7c, size 0xd8, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
-
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x125dd54, size 0xd8, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
-
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x125de2c, size 0x90, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
-
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x125debc, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken token);
-
-  /// @brief Method BuyLevel, addr 0x125dfc0, size 0xec, virtual false, abstract: false, final false
-  inline void BuyLevel(::StringW levelId);
-
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x125e0e8, size 0xe4, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MockPlatformAdditionalContentModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MockPlatformAdditionalContentModel(MockPlatformAdditionalContentModel&&) = delete;
@@ -208,12 +210,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlatformAdditionalContentModel(MockPlatformAdditionalContentModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockPlatformAdditionalContentModel();
-
-public:
   /// @brief Field _levelsEntitlements, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* ____levelsEntitlements;
 

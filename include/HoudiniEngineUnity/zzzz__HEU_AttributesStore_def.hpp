@@ -90,27 +90,31 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_AttributesStore__SetAttributeValueFun
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9456))
 // CS Name: ::HEU_AttributesStore::SetAttributeValueFunc*
 class CORDL_TYPE __HEU_AttributesStore__SetAttributeValueFunc : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::HoudiniEngineUnity::__HEU_AttributesStore__SetAttributeValueFunc* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x22180e4, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x22181bc, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex, float_t factor);
-
-  /// @brief Method BeginInvoke, addr 0x22181d0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x22e5838, size 0xe0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
                                              float_t factor, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x22182b0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x22e5918, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x22e5824, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex, float_t factor);
+
+  static inline ::HoudiniEngineUnity::__HEU_AttributesStore__SetAttributeValueFunc* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x22e574c, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HEU_AttributesStore__SetAttributeValueFunc();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_AttributesStore__SetAttributeValueFunc", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HEU_AttributesStore__SetAttributeValueFunc(__HEU_AttributesStore__SetAttributeValueFunc&&) = delete;
@@ -119,12 +123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_AttributesStore__SetAttributeValueFunc(__HEU_AttributesStore__SetAttributeValueFunc const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HEU_AttributesStore__SetAttributeValueFunc();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -135,26 +133,31 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Attrib
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 146, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9457))
 // CS Name: ::HoudiniEngineUnity::HEU_AttributesStore*
 class CORDL_TYPE HEU_AttributesStore : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   using SetAttributeValueFunc = ::HoudiniEngineUnity::__HEU_AttributesStore__SetAttributeValueFunc;
 
-  /// @brief Field _geoID, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__geoID, put = __cordl_internal_set__geoID)) int32_t _geoID;
+  __declspec(property(get = get_GeoID)) int32_t GeoID;
 
-  /// @brief Field _partID, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__partID, put = __cordl_internal_set__partID)) int32_t _partID;
+  __declspec(property(get = get_GeoName))::StringW GeoName;
 
-  /// @brief Field _geoName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__geoName, put = __cordl_internal_set__geoName))::StringW _geoName;
+  __declspec(property(get = get_OutputMesh))::UnityW<::UnityEngine::Mesh> OutputMesh;
+
+  __declspec(property(get = get_OutputTransform))::UnityW<::UnityEngine::Transform> OutputTransform;
+
+  __declspec(property(get = get_PartID)) int32_t PartID;
 
   /// @brief Field _attributeDatas, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__attributeDatas,
                       put = __cordl_internal_set__attributeDatas))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* _attributeDatas;
+
+  /// @brief Field _geoID, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__geoID, put = __cordl_internal_set__geoID)) int32_t _geoID;
+
+  /// @brief Field _geoName, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__geoName, put = __cordl_internal_set__geoName))::StringW _geoName;
 
   /// @brief Field _hasColorAttribute, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__hasColorAttribute, put = __cordl_internal_set__hasColorAttribute)) bool _hasColorAttribute;
@@ -162,8 +165,39 @@ public:
   /// @brief Field _localMaterial, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__localMaterial, put = __cordl_internal_set__localMaterial))::UnityW<::UnityEngine::Material> _localMaterial;
 
+  /// @brief Field _localMeshCollider, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__localMeshCollider, put = __cordl_internal_set__localMeshCollider))::UnityW<::UnityEngine::MeshCollider> _localMeshCollider;
+
+  /// @brief Field _outputCollider, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__outputCollider, put = __cordl_internal_set__outputCollider))::UnityW<::UnityEngine::MeshCollider> _outputCollider;
+
+  /// @brief Field _outputColliderMesh, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__outputColliderMesh, put = __cordl_internal_set__outputColliderMesh))::UnityW<::UnityEngine::Mesh> _outputColliderMesh;
+
+  /// @brief Field _outputGameObject, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__outputGameObject, put = __cordl_internal_set__outputGameObject))::UnityW<::UnityEngine::GameObject> _outputGameObject;
+
+  /// @brief Field _outputMaterials, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__outputMaterials,
+                      put = __cordl_internal_set__outputMaterials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> _outputMaterials;
+
+  /// @brief Field _outputMesh, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__outputMesh, put = __cordl_internal_set__outputMesh))::UnityW<::UnityEngine::Mesh> _outputMesh;
+
+  /// @brief Field _outputMeshCollider, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__outputMeshCollider, put = __cordl_internal_set__outputMeshCollider))::UnityW<::UnityEngine::MeshCollider> _outputMeshCollider;
+
+  /// @brief Field _outputMeshColliderInitiallyEnabled, offset 0x91, size 0x1
+  __declspec(property(get = __cordl_internal_get__outputMeshColliderInitiallyEnabled, put = __cordl_internal_set__outputMeshColliderInitiallyEnabled)) bool _outputMeshColliderInitiallyEnabled;
+
+  /// @brief Field _outputMeshRendererInitiallyEnabled, offset 0x90, size 0x1
+  __declspec(property(get = __cordl_internal_get__outputMeshRendererInitiallyEnabled, put = __cordl_internal_set__outputMeshRendererInitiallyEnabled)) bool _outputMeshRendererInitiallyEnabled;
+
   /// @brief Field _outputTransform, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__outputTransform, put = __cordl_internal_set__outputTransform))::UnityW<::UnityEngine::Transform> _outputTransform;
+
+  /// @brief Field _partID, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__partID, put = __cordl_internal_set__partID)) int32_t _partID;
 
   /// @brief Field _positionAttributeValues, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__positionAttributeValues,
@@ -172,330 +206,298 @@ public:
   /// @brief Field _vertexIndices, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__vertexIndices, put = __cordl_internal_set__vertexIndices))::ArrayW<int32_t, ::Array<int32_t>*> _vertexIndices;
 
-  /// @brief Field _outputGameObject, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__outputGameObject, put = __cordl_internal_set__outputGameObject))::UnityW<::UnityEngine::GameObject> _outputGameObject;
-
-  /// @brief Field _outputMesh, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__outputMesh, put = __cordl_internal_set__outputMesh))::UnityW<::UnityEngine::Mesh> _outputMesh;
-
-  /// @brief Field _outputMaterials, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__outputMaterials,
-                      put = __cordl_internal_set__outputMaterials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> _outputMaterials;
-
-  /// @brief Field _outputCollider, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__outputCollider, put = __cordl_internal_set__outputCollider))::UnityW<::UnityEngine::MeshCollider> _outputCollider;
-
-  /// @brief Field _outputColliderMesh, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__outputColliderMesh, put = __cordl_internal_set__outputColliderMesh))::UnityW<::UnityEngine::Mesh> _outputColliderMesh;
-
-  /// @brief Field _outputMeshCollider, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__outputMeshCollider, put = __cordl_internal_set__outputMeshCollider))::UnityW<::UnityEngine::MeshCollider> _outputMeshCollider;
-
-  /// @brief Field _localMeshCollider, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__localMeshCollider, put = __cordl_internal_set__localMeshCollider))::UnityW<::UnityEngine::MeshCollider> _localMeshCollider;
-
-  /// @brief Field _outputMeshRendererInitiallyEnabled, offset 0x90, size 0x1
-  __declspec(property(get = __cordl_internal_get__outputMeshRendererInitiallyEnabled, put = __cordl_internal_set__outputMeshRendererInitiallyEnabled)) bool _outputMeshRendererInitiallyEnabled;
-
-  /// @brief Field _outputMeshColliderInitiallyEnabled, offset 0x91, size 0x1
-  __declspec(property(get = __cordl_internal_get__outputMeshColliderInitiallyEnabled, put = __cordl_internal_set__outputMeshColliderInitiallyEnabled)) bool _outputMeshColliderInitiallyEnabled;
-
-  __declspec(property(get = get_GeoID)) int32_t GeoID;
-
-  __declspec(property(get = get_PartID)) int32_t PartID;
-
-  __declspec(property(get = get_GeoName))::StringW GeoName;
-
-  __declspec(property(get = get_OutputTransform))::UnityW<::UnityEngine::Transform> OutputTransform;
-
-  __declspec(property(get = get_OutputMesh))::UnityW<::UnityEngine::Mesh> OutputMesh;
-
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>*
-  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_AttributesStore__() noexcept;
+  /// @brief Method AddAttributeValueFloat, addr 0x22e37c0, size 0xa0, virtual false, abstract: false, final false
+  static inline void AddAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
+                                            float_t factor);
 
-  constexpr int32_t& __cordl_internal_get__geoID();
+  /// @brief Method AddAttributeValueInt, addr 0x22e31c8, size 0x1b4, virtual false, abstract: false, final false
+  static inline void AddAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
+                                          float_t factor);
 
-  constexpr int32_t const& __cordl_internal_get__geoID() const;
+  /// @brief Method AreAttributesDirty, addr 0x22e3d40, size 0x174, virtual false, abstract: false, final false
+  inline bool AreAttributesDirty();
 
-  constexpr void __cordl_internal_set__geoID(int32_t value);
+  /// @brief Method CopyAttributeValuesTo, addr 0x22e3ecc, size 0x1d8, virtual false, abstract: false, final false
+  inline void CopyAttributeValuesTo(::HoudiniEngineUnity::HEU_AttributesStore* destAttrStore);
 
-  constexpr int32_t& __cordl_internal_get__partID();
+  /// @brief Method CreateAttribute, addr 0x22e0d94, size 0xb4, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_AttributeData* CreateAttribute(::StringW attributeName, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
 
-  constexpr int32_t const& __cordl_internal_get__partID() const;
+  /// @brief Method DestroyAllData, addr 0x22df8b0, size 0xcc, virtual false, abstract: false, final false
+  inline void DestroyAllData(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  constexpr void __cordl_internal_set__partID(int32_t value);
+  /// @brief Method DisablePaintCollider, addr 0x22e29e0, size 0x118, virtual false, abstract: false, final false
+  inline void DisablePaintCollider();
 
-  constexpr ::StringW& __cordl_internal_get__geoName();
+  /// @brief Method EnablePaintCollider, addr 0x22e283c, size 0x1a4, virtual false, abstract: false, final false
+  inline void EnablePaintCollider();
 
-  constexpr ::StringW const& __cordl_internal_get__geoName() const;
+  /// @brief Method FillAttribute, addr 0x22e3a94, size 0xa0, virtual false, abstract: false, final false
+  inline void FillAttribute(::HoudiniEngineUnity::HEU_AttributeData* attributeData, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools);
 
-  constexpr void __cordl_internal_set__geoName(::StringW value);
+  /// @brief Method GetAttributeData, addr 0x22e25b4, size 0x84, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_AttributeData* GetAttributeData(int32_t index);
+
+  /// @brief Method GetAttributeData, addr 0x22e0c04, size 0x190, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_AttributeData* GetAttributeData(::StringW name);
+
+  /// @brief Method GetAttributeNames, addr 0x22e2638, size 0x204, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::StringW>* GetAttributeNames();
+
+  /// @brief Method GetAttributeSetValueFunction, addr 0x22e3b34, size 0x20c, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::__HEU_AttributesStore__SetAttributeValueFunc* GetAttributeSetValueFunction(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType attrType,
+                                                                                                                 ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode paintMergeMode);
+
+  /// @brief Method GetAttributesList, addr 0x22e1ca8, size 0x268, virtual false, abstract: false, final false
+  inline void GetAttributesList(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID,
+                                ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* attributesList, ::HoudiniEngineUnity::HAPI_AttributeOwner ownerType,
+                                int32_t attributeCount);
+
+  /// @brief Method GetPaintMeshCollider, addr 0x22e2d64, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::MeshCollider> GetPaintMeshCollider();
+
+  /// @brief Method GetPositionAttributeValues, addr 0x22e3eb4, size 0xc, virtual false, abstract: false, final false
+  inline void GetPositionAttributeValues(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> positionArray);
+
+  /// @brief Method GetVertexIndices, addr 0x22e3ec0, size 0xc, virtual false, abstract: false, final false
+  inline void GetVertexIndices(ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> indices);
+
+  /// @brief Method HasColorAttribute, addr 0x22e0bec, size 0x8, virtual false, abstract: false, final false
+  inline bool HasColorAttribute();
+
+  /// @brief Method HasDirtyAttributes, addr 0x22e15a4, size 0x184, virtual false, abstract: false, final false
+  inline bool HasDirtyAttributes();
+
+  /// @brief Method HasMeshForPainting, addr 0x22e2d04, size 0x60, virtual false, abstract: false, final false
+  inline bool HasMeshForPainting();
+
+  /// @brief Method HidePaintMesh, addr 0x22e2c1c, size 0xe8, virtual false, abstract: false, final false
+  inline void HidePaintMesh();
+
+  /// @brief Method IsEquivalentTo, addr 0x22e4108, size 0x578, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributesStore* other);
+
+  /// @brief Method IsValidStore, addr 0x22e40a4, size 0x64, virtual false, abstract: false, final false
+  inline bool IsValidStore(::HoudiniEngineUnity::HEU_SessionBase* session);
+
+  /// @brief Method MultiplyAttributeValueFloat, addr 0x22e3900, size 0xb8, virtual false, abstract: false, final false
+  static inline void MultiplyAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
+                                                 float_t factor);
+
+  /// @brief Method MultiplyAttributeValueInt, addr 0x22e3530, size 0x1e8, virtual false, abstract: false, final false
+  static inline void MultiplyAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
+                                               float_t factor);
+
+  static inline ::HoudiniEngineUnity::HEU_AttributesStore* New_ctor();
+
+  /// @brief Method PaintAttribute, addr 0x22e2ddc, size 0x54, virtual false, abstract: false, final false
+  inline void PaintAttribute(::HoudiniEngineUnity::HEU_AttributeData* attributeData, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t attributeIndex, float_t paintFactor,
+                             ::HoudiniEngineUnity::__HEU_AttributesStore__SetAttributeValueFunc* setAttrFunc);
+
+  /// @brief Method PopulateAttributeData, addr 0x22e0e48, size 0x75c, virtual false, abstract: false, final false
+  inline void PopulateAttributeData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::HoudiniEngineUnity::HEU_AttributeData* attributeData,
+                                    ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
+
+  /// @brief Method RefreshUpstreamInputs, addr 0x22e2520, size 0x78, virtual false, abstract: false, final false
+  inline void RefreshUpstreamInputs(::HoudiniEngineUnity::HEU_SessionBase* session);
+
+  /// @brief Method ReplaceAttributeValueFloat, addr 0x22e3718, size 0xa8, virtual false, abstract: false, final false
+  static inline void ReplaceAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
+                                                float_t factor);
+
+  /// @brief Method ReplaceAttributeValueInt, addr 0x22e2fe4, size 0x1e4, virtual false, abstract: false, final false
+  static inline void ReplaceAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
+                                              float_t factor);
+
+  /// @brief Method SetAttributeDataDirty, addr 0x22e2598, size 0x1c, virtual false, abstract: false, final false
+  static inline void SetAttributeDataDirty(::HoudiniEngineUnity::HEU_AttributeData* attributeData);
+
+  /// @brief Method SetAttributeDataSyncd, addr 0x22e1c8c, size 0x1c, virtual false, abstract: false, final false
+  static inline void SetAttributeDataSyncd(::HoudiniEngineUnity::HEU_AttributeData* attributeData);
+
+  /// @brief Method SetAttributeEditValueFloat, addr 0x22e2e9c, size 0x6c, virtual false, abstract: false, final false
+  static inline void SetAttributeEditValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t startIndex, ::ArrayW<float_t, ::Array<float_t>*> values);
+
+  /// @brief Method SetAttributeEditValueInt, addr 0x22e2e30, size 0x6c, virtual false, abstract: false, final false
+  static inline void SetAttributeEditValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t startIndex, ::ArrayW<int32_t, ::Array<int32_t>*> values);
+
+  /// @brief Method SetAttributeEditValueString, addr 0x22e2f08, size 0xdc, virtual false, abstract: false, final false
+  static inline void SetAttributeEditValueString(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t startIndex, ::ArrayW<::StringW, ::Array<::StringW>*> values);
+
+  /// @brief Method SetAttributeValueString, addr 0x22e39b8, size 0xdc, virtual false, abstract: false, final false
+  static inline void SetAttributeValueString(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
+                                             float_t factor);
+
+  /// @brief Method SetupMeshAndMaterials, addr 0x22df50c, size 0x3a4, virtual false, abstract: false, final false
+  inline void SetupMeshAndMaterials(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HAPI_PartType partType, ::UnityEngine::GameObject* outputGameObject);
+
+  /// @brief Method ShowPaintMesh, addr 0x22e2af8, size 0x124, virtual false, abstract: false, final false
+  inline void ShowPaintMesh();
+
+  /// @brief Method SubtractAttributeValueFloat, addr 0x22e3860, size 0xa0, virtual false, abstract: false, final false
+  static inline void SubtractAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
+                                                 float_t factor);
+
+  /// @brief Method SubtractAttributeValueInt, addr 0x22e337c, size 0x1b4, virtual false, abstract: false, final false
+  static inline void SubtractAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
+                                               float_t factor);
+
+  /// @brief Method SyncAllAttributesFrom, addr 0x22dee74, size 0x698, virtual false, abstract: false, final false
+  inline void SyncAllAttributesFrom(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* asset, int32_t geoID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo,
+                                    ::UnityEngine::GameObject* outputGameObject);
+
+  /// @brief Method SyncDirtyAttributesToHoudini, addr 0x22e1728, size 0x6c, virtual false, abstract: false, final false
+  inline void SyncDirtyAttributesToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
+
+  /// @brief Method UpdateAttribute, addr 0x22e1f10, size 0x4bc, virtual false, abstract: false, final false
+  inline void UpdateAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::HoudiniEngineUnity::HEU_AttributeData* attributeData);
+
+  /// @brief Method UpdateAttributeList, addr 0x22e23cc, size 0x154, virtual false, abstract: false, final false
+  inline void UpdateAttributeList(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID,
+                                  ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* attributeDataList);
+
+  /// @brief Method UploadAttributeViaMeshInput, addr 0x22e1794, size 0x4f8, virtual false, abstract: false, final false
+  inline bool UploadAttributeViaMeshInput(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID);
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>*& __cordl_internal_get__attributeDatas();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>*> const& __cordl_internal_get__attributeDatas() const;
 
-  constexpr void __cordl_internal_set__attributeDatas(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* value);
+  constexpr int32_t const& __cordl_internal_get__geoID() const;
 
-  constexpr bool& __cordl_internal_get__hasColorAttribute();
+  constexpr int32_t& __cordl_internal_get__geoID();
+
+  constexpr ::StringW const& __cordl_internal_get__geoName() const;
+
+  constexpr ::StringW& __cordl_internal_get__geoName();
 
   constexpr bool const& __cordl_internal_get__hasColorAttribute() const;
 
-  constexpr void __cordl_internal_set__hasColorAttribute(bool value);
-
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__localMaterial();
+  constexpr bool& __cordl_internal_get__hasColorAttribute();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__localMaterial() const;
 
-  constexpr void __cordl_internal_set__localMaterial(::UnityW<::UnityEngine::Material> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__outputTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__outputTransform() const;
-
-  constexpr void __cordl_internal_set__outputTransform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__positionAttributeValues();
-
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__positionAttributeValues() const;
-
-  constexpr void __cordl_internal_set__positionAttributeValues(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__vertexIndices();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__vertexIndices() const;
-
-  constexpr void __cordl_internal_set__vertexIndices(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__outputGameObject();
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__outputGameObject() const;
-
-  constexpr void __cordl_internal_set__outputGameObject(::UnityW<::UnityEngine::GameObject> value);
-
-  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__outputMesh();
-
-  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__outputMesh() const;
-
-  constexpr void __cordl_internal_set__outputMesh(::UnityW<::UnityEngine::Mesh> value);
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>& __cordl_internal_get__outputMaterials();
-
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get__outputMaterials() const;
-
-  constexpr void __cordl_internal_set__outputMaterials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__outputCollider();
-
-  constexpr ::UnityW<::UnityEngine::MeshCollider> const& __cordl_internal_get__outputCollider() const;
-
-  constexpr void __cordl_internal_set__outputCollider(::UnityW<::UnityEngine::MeshCollider> value);
-
-  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__outputColliderMesh();
-
-  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__outputColliderMesh() const;
-
-  constexpr void __cordl_internal_set__outputColliderMesh(::UnityW<::UnityEngine::Mesh> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__outputMeshCollider();
-
-  constexpr ::UnityW<::UnityEngine::MeshCollider> const& __cordl_internal_get__outputMeshCollider() const;
-
-  constexpr void __cordl_internal_set__outputMeshCollider(::UnityW<::UnityEngine::MeshCollider> value);
-
-  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__localMeshCollider();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__localMaterial();
 
   constexpr ::UnityW<::UnityEngine::MeshCollider> const& __cordl_internal_get__localMeshCollider() const;
 
-  constexpr void __cordl_internal_set__localMeshCollider(::UnityW<::UnityEngine::MeshCollider> value);
+  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__localMeshCollider();
 
-  constexpr bool& __cordl_internal_get__outputMeshRendererInitiallyEnabled();
+  constexpr ::UnityW<::UnityEngine::MeshCollider> const& __cordl_internal_get__outputCollider() const;
 
-  constexpr bool const& __cordl_internal_get__outputMeshRendererInitiallyEnabled() const;
+  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__outputCollider();
 
-  constexpr void __cordl_internal_set__outputMeshRendererInitiallyEnabled(bool value);
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__outputColliderMesh() const;
 
-  constexpr bool& __cordl_internal_get__outputMeshColliderInitiallyEnabled();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__outputColliderMesh();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__outputGameObject() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__outputGameObject();
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get__outputMaterials() const;
+
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>& __cordl_internal_get__outputMaterials();
+
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__outputMesh() const;
+
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__outputMesh();
+
+  constexpr ::UnityW<::UnityEngine::MeshCollider> const& __cordl_internal_get__outputMeshCollider() const;
+
+  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__outputMeshCollider();
 
   constexpr bool const& __cordl_internal_get__outputMeshColliderInitiallyEnabled() const;
 
+  constexpr bool& __cordl_internal_get__outputMeshColliderInitiallyEnabled();
+
+  constexpr bool const& __cordl_internal_get__outputMeshRendererInitiallyEnabled() const;
+
+  constexpr bool& __cordl_internal_get__outputMeshRendererInitiallyEnabled();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__outputTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__outputTransform();
+
+  constexpr int32_t const& __cordl_internal_get__partID() const;
+
+  constexpr int32_t& __cordl_internal_get__partID();
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__positionAttributeValues() const;
+
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__positionAttributeValues();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__vertexIndices() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__vertexIndices();
+
+  constexpr void __cordl_internal_set__attributeDatas(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* value);
+
+  constexpr void __cordl_internal_set__geoID(int32_t value);
+
+  constexpr void __cordl_internal_set__geoName(::StringW value);
+
+  constexpr void __cordl_internal_set__hasColorAttribute(bool value);
+
+  constexpr void __cordl_internal_set__localMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__localMeshCollider(::UnityW<::UnityEngine::MeshCollider> value);
+
+  constexpr void __cordl_internal_set__outputCollider(::UnityW<::UnityEngine::MeshCollider> value);
+
+  constexpr void __cordl_internal_set__outputColliderMesh(::UnityW<::UnityEngine::Mesh> value);
+
+  constexpr void __cordl_internal_set__outputGameObject(::UnityW<::UnityEngine::GameObject> value);
+
+  constexpr void __cordl_internal_set__outputMaterials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
+
+  constexpr void __cordl_internal_set__outputMesh(::UnityW<::UnityEngine::Mesh> value);
+
+  constexpr void __cordl_internal_set__outputMeshCollider(::UnityW<::UnityEngine::MeshCollider> value);
+
   constexpr void __cordl_internal_set__outputMeshColliderInitiallyEnabled(bool value);
 
-  /// @brief Method get_GeoID, addr 0x221456c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_GeoID();
+  constexpr void __cordl_internal_set__outputMeshRendererInitiallyEnabled(bool value);
 
-  /// @brief Method get_PartID, addr 0x2214574, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_PartID();
+  constexpr void __cordl_internal_set__outputTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method get_GeoName, addr 0x221457c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_GeoName();
+  constexpr void __cordl_internal_set__partID(int32_t value);
 
-  /// @brief Method HasColorAttribute, addr 0x2214584, size 0x8, virtual false, abstract: false, final false
-  inline bool HasColorAttribute();
+  constexpr void __cordl_internal_set__positionAttributeValues(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method get_OutputTransform, addr 0x221458c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> get_OutputTransform();
+  constexpr void __cordl_internal_set__vertexIndices(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method get_OutputMesh, addr 0x2214594, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Mesh> get_OutputMesh();
-
-  /// @brief Method DestroyAllData, addr 0x2213248, size 0xcc, virtual false, abstract: false, final false
-  inline void DestroyAllData(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
-
-  /// @brief Method SyncAllAttributesFrom, addr 0x221280c, size 0x698, virtual false, abstract: false, final false
-  inline void SyncAllAttributesFrom(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_HoudiniAsset* asset, int32_t geoID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo,
-                                    ::UnityEngine::GameObject* outputGameObject);
-
-  /// @brief Method SetupMeshAndMaterials, addr 0x2212ea4, size 0x3a4, virtual false, abstract: false, final false
-  inline void SetupMeshAndMaterials(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HAPI_PartType partType, ::UnityEngine::GameObject* outputGameObject);
-
-  /// @brief Method HasDirtyAttributes, addr 0x2214f3c, size 0x184, virtual false, abstract: false, final false
-  inline bool HasDirtyAttributes();
-
-  /// @brief Method SyncDirtyAttributesToHoudini, addr 0x22150c0, size 0x6c, virtual false, abstract: false, final false
-  inline void SyncDirtyAttributesToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
-
-  /// @brief Method PopulateAttributeData, addr 0x22147e0, size 0x75c, virtual false, abstract: false, final false
-  inline void PopulateAttributeData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::HoudiniEngineUnity::HEU_AttributeData* attributeData,
-                                    ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
-
-  /// @brief Method GetAttributesList, addr 0x2215640, size 0x268, virtual false, abstract: false, final false
-  inline void GetAttributesList(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID,
-                                ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* attributesList, ::HoudiniEngineUnity::HAPI_AttributeOwner ownerType,
-                                int32_t attributeCount);
-
-  /// @brief Method UpdateAttribute, addr 0x22158a8, size 0x4bc, virtual false, abstract: false, final false
-  inline void UpdateAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::HoudiniEngineUnity::HEU_AttributeData* attributeData);
-
-  /// @brief Method UpdateAttributeList, addr 0x2215d64, size 0x154, virtual false, abstract: false, final false
-  inline void UpdateAttributeList(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID,
-                                  ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* attributeDataList);
-
-  /// @brief Method RefreshUpstreamInputs, addr 0x2215eb8, size 0x78, virtual false, abstract: false, final false
-  inline void RefreshUpstreamInputs(::HoudiniEngineUnity::HEU_SessionBase* session);
-
-  /// @brief Method UploadAttributeViaMeshInput, addr 0x221512c, size 0x4f8, virtual false, abstract: false, final false
-  inline bool UploadAttributeViaMeshInput(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID);
-
-  /// @brief Method SetAttributeDataSyncd, addr 0x2215624, size 0x1c, virtual false, abstract: false, final false
-  static inline void SetAttributeDataSyncd(::HoudiniEngineUnity::HEU_AttributeData* attributeData);
-
-  /// @brief Method SetAttributeDataDirty, addr 0x2215f30, size 0x1c, virtual false, abstract: false, final false
-  static inline void SetAttributeDataDirty(::HoudiniEngineUnity::HEU_AttributeData* attributeData);
-
-  /// @brief Method CreateAttribute, addr 0x221472c, size 0xb4, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_AttributeData* CreateAttribute(::StringW attributeName, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
-
-  /// @brief Method GetAttributeData, addr 0x221459c, size 0x190, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_AttributeData* GetAttributeData(::StringW name);
-
-  /// @brief Method GetAttributeData, addr 0x2215f4c, size 0x84, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_AttributeData* GetAttributeData(int32_t index);
-
-  /// @brief Method GetAttributeNames, addr 0x2215fd0, size 0x204, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::StringW>* GetAttributeNames();
-
-  /// @brief Method EnablePaintCollider, addr 0x22161d4, size 0x1a4, virtual false, abstract: false, final false
-  inline void EnablePaintCollider();
-
-  /// @brief Method DisablePaintCollider, addr 0x2216378, size 0x118, virtual false, abstract: false, final false
-  inline void DisablePaintCollider();
-
-  /// @brief Method ShowPaintMesh, addr 0x2216490, size 0x124, virtual false, abstract: false, final false
-  inline void ShowPaintMesh();
-
-  /// @brief Method HidePaintMesh, addr 0x22165b4, size 0xe8, virtual false, abstract: false, final false
-  inline void HidePaintMesh();
-
-  /// @brief Method HasMeshForPainting, addr 0x221669c, size 0x60, virtual false, abstract: false, final false
-  inline bool HasMeshForPainting();
-
-  /// @brief Method GetPaintMeshCollider, addr 0x22166fc, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::MeshCollider> GetPaintMeshCollider();
-
-  /// @brief Method PaintAttribute, addr 0x2216774, size 0x54, virtual false, abstract: false, final false
-  inline void PaintAttribute(::HoudiniEngineUnity::HEU_AttributeData* attributeData, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t attributeIndex, float_t paintFactor,
-                             ::HoudiniEngineUnity::__HEU_AttributesStore__SetAttributeValueFunc* setAttrFunc);
-
-  /// @brief Method SetAttributeEditValueInt, addr 0x22167c8, size 0x6c, virtual false, abstract: false, final false
-  static inline void SetAttributeEditValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t startIndex, ::ArrayW<int32_t, ::Array<int32_t>*> values);
-
-  /// @brief Method SetAttributeEditValueFloat, addr 0x2216834, size 0x6c, virtual false, abstract: false, final false
-  static inline void SetAttributeEditValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t startIndex, ::ArrayW<float_t, ::Array<float_t>*> values);
-
-  /// @brief Method SetAttributeEditValueString, addr 0x22168a0, size 0xdc, virtual false, abstract: false, final false
-  static inline void SetAttributeEditValueString(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t startIndex, ::ArrayW<::StringW, ::Array<::StringW>*> values);
-
-  /// @brief Method ReplaceAttributeValueInt, addr 0x221697c, size 0x1e4, virtual false, abstract: false, final false
-  static inline void ReplaceAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
-                                              float_t factor);
-
-  /// @brief Method AddAttributeValueInt, addr 0x2216b60, size 0x1b4, virtual false, abstract: false, final false
-  static inline void AddAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
-                                          float_t factor);
-
-  /// @brief Method SubtractAttributeValueInt, addr 0x2216d14, size 0x1b4, virtual false, abstract: false, final false
-  static inline void SubtractAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
-                                               float_t factor);
-
-  /// @brief Method MultiplyAttributeValueInt, addr 0x2216ec8, size 0x1e8, virtual false, abstract: false, final false
-  static inline void MultiplyAttributeValueInt(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
-                                               float_t factor);
-
-  /// @brief Method ReplaceAttributeValueFloat, addr 0x22170b0, size 0xa8, virtual false, abstract: false, final false
-  static inline void ReplaceAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
-                                                float_t factor);
-
-  /// @brief Method AddAttributeValueFloat, addr 0x2217158, size 0xa0, virtual false, abstract: false, final false
-  static inline void AddAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
-                                            float_t factor);
-
-  /// @brief Method SubtractAttributeValueFloat, addr 0x22171f8, size 0xa0, virtual false, abstract: false, final false
-  static inline void SubtractAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
-                                                 float_t factor);
-
-  /// @brief Method MultiplyAttributeValueFloat, addr 0x2217298, size 0xb8, virtual false, abstract: false, final false
-  static inline void MultiplyAttributeValueFloat(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
-                                                 float_t factor);
-
-  /// @brief Method SetAttributeValueString, addr 0x2217350, size 0xdc, virtual false, abstract: false, final false
-  static inline void SetAttributeValueString(::HoudiniEngineUnity::HEU_AttributeData* attributeData, int32_t targetIndex, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t sourceIndex,
-                                             float_t factor);
-
-  /// @brief Method FillAttribute, addr 0x221742c, size 0xa0, virtual false, abstract: false, final false
-  inline void FillAttribute(::HoudiniEngineUnity::HEU_AttributeData* attributeData, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools);
-
-  /// @brief Method AreAttributesDirty, addr 0x22176d8, size 0x174, virtual false, abstract: false, final false
-  inline bool AreAttributesDirty();
-
-  /// @brief Method GetPositionAttributeValues, addr 0x221784c, size 0xc, virtual false, abstract: false, final false
-  inline void GetPositionAttributeValues(ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> positionArray);
-
-  /// @brief Method GetVertexIndices, addr 0x2217858, size 0xc, virtual false, abstract: false, final false
-  inline void GetVertexIndices(ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> indices);
-
-  /// @brief Method GetAttributeSetValueFunction, addr 0x22174cc, size 0x20c, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::__HEU_AttributesStore__SetAttributeValueFunc* GetAttributeSetValueFunction(::HoudiniEngineUnity::__HEU_AttributeData__AttributeType attrType,
-                                                                                                                 ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode paintMergeMode);
-
-  /// @brief Method CopyAttributeValuesTo, addr 0x2217864, size 0x1d8, virtual false, abstract: false, final false
-  inline void CopyAttributeValuesTo(::HoudiniEngineUnity::HEU_AttributesStore* destAttrStore);
-
-  /// @brief Method IsValidStore, addr 0x2217a3c, size 0x64, virtual false, abstract: false, final false
-  inline bool IsValidStore(::HoudiniEngineUnity::HEU_SessionBase* session);
-
-  /// @brief Method IsEquivalentTo, addr 0x2217aa0, size 0x578, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_AttributesStore* other);
-
-  static inline ::HoudiniEngineUnity::HEU_AttributesStore* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2218018, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e4680, size 0x10cc, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_GeoID, addr 0x22e0bd4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_GeoID();
+
+  /// @brief Method get_GeoName, addr 0x22e0be4, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_GeoName();
+
+  /// @brief Method get_OutputMesh, addr 0x22e0bfc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Mesh> get_OutputMesh();
+
+  /// @brief Method get_OutputTransform, addr 0x22e0bf4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Transform> get_OutputTransform();
+
+  /// @brief Method get_PartID, addr 0x22e0bdc, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_PartID();
+
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>*
+  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_AttributesStore__() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_AttributesStore();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AttributesStore", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_AttributesStore(HEU_AttributesStore&&) = delete;
@@ -504,12 +506,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_AttributesStore(HEU_AttributesStore const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_AttributesStore();
-
-public:
   /// @brief Field _geoID, offset: 0x18, size: 0x4, def value: None
   int32_t ____geoID;
 

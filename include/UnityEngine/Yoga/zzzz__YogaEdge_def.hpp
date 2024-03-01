@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaEdge);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15525))
 // CS Name: ::UnityEngine.Yoga::YogaEdge
 struct CORDL_TYPE YogaEdge {
 public:
@@ -41,33 +39,26 @@ public:
     return static_cast<__YogaEdge_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr YogaEdge(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__YogaEdge_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr YogaEdge();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr YogaEdge(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Left value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Yoga::YogaEdge const Left;
-
-  /// @brief Field Top value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::Yoga::YogaEdge const Top;
-
-  /// @brief Field Right value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::Yoga::YogaEdge const Right;
+  /// @brief Field All value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::Yoga::YogaEdge const All;
 
   /// @brief Field Bottom value: static_cast<int32_t>(0x3)
   static ::UnityEngine::Yoga::YogaEdge const Bottom;
-
-  /// @brief Field Start value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::Yoga::YogaEdge const Start;
 
   /// @brief Field End value: static_cast<int32_t>(0x5)
   static ::UnityEngine::Yoga::YogaEdge const End;
@@ -75,11 +66,23 @@ public:
   /// @brief Field Horizontal value: static_cast<int32_t>(0x6)
   static ::UnityEngine::Yoga::YogaEdge const Horizontal;
 
+  /// @brief Field Left value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::Yoga::YogaEdge const Left;
+
+  /// @brief Field Right value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::Yoga::YogaEdge const Right;
+
+  /// @brief Field Start value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::Yoga::YogaEdge const Start;
+
+  /// @brief Field Top value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::Yoga::YogaEdge const Top;
+
   /// @brief Field Vertical value: static_cast<int32_t>(0x7)
   static ::UnityEngine::Yoga::YogaEdge const Vertical;
 
-  /// @brief Field All value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::Yoga::YogaEdge const All;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

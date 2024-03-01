@@ -21,16 +21,25 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1020))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1047))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ElGamalKeyParameters*
 class CORDL_TYPE ElGamalKeyParameters : public ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
 public:
   // Declarations
+  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* Parameters;
+
   /// @brief Field parameters, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters;
 
-  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* Parameters;
+  /// @brief Method Equals, addr 0xfa54ec, size 0x9c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0xfa5588, size 0x50, virtual false, abstract: false, final false
+  inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* other);
+
+  /// @brief Method GetHashCode, addr 0xfa55d8, size 0x50, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*& __cordl_internal_get_parameters();
 
@@ -38,23 +47,18 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
-
-  /// @brief Method .ctor, addr 0xf604e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa54b4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_Parameters, addr 0xf60514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xfa54e4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* get_Parameters();
 
-  /// @brief Method Equals, addr 0xf6051c, size 0x9c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ElGamalKeyParameters();
 
-  /// @brief Method Equals, addr 0xf605b8, size 0x50, virtual false, abstract: false, final false
-  inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters* other);
-
-  /// @brief Method GetHashCode, addr 0xf60608, size 0x50, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalKeyParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElGamalKeyParameters(ElGamalKeyParameters&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ElGamalKeyParameters(ElGamalKeyParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ElGamalKeyParameters();
-
-public:
   /// @brief Field parameters, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* ___parameters;
 

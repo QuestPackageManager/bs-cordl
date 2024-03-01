@@ -18,8 +18,6 @@ MARK_VAL_T(::GlobalNamespace::OVRProfilerScope);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8105))
 // CS Name: ::OVRProfilerScope
 #pragma pack(push, 0)
 struct CORDL_TYPE OVRProfilerScope {
@@ -28,14 +26,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+  /// @brief Method System.IDisposable.Dispose, addr 0x28aaa00, size 0x4, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
-  /// @brief Method .ctor, addr 0x27caac8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28aa9fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27caacc, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor

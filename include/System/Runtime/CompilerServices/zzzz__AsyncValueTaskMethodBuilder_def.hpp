@@ -28,42 +28,40 @@ MARK_VAL_T(::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3354))
 // CS Name: ::System.Runtime.CompilerServices::AsyncValueTaskMethodBuilder
 struct CORDL_TYPE AsyncValueTaskMethodBuilder {
 public:
   // Declarations
   __declspec(property(get = get_Task))::System::Threading::Tasks::ValueTask Task;
 
-  /// @brief Method Create, addr 0x24facc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine);
+
+  /// @brief Method Create, addr 0x25cb500, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder Create();
+
+  /// @brief Method SetException, addr 0x25cb5f8, size 0x4, virtual false, abstract: false, final false
+  inline void SetException(::System::Exception* exception);
+
+  /// @brief Method SetResult, addr 0x25cb568, size 0x18, virtual false, abstract: false, final false
+  inline void SetResult();
+
+  /// @brief Method SetStateMachine, addr 0x25cb50c, size 0x4, virtual false, abstract: false, final false
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStateMachine> inline void Start(ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method SetStateMachine, addr 0x24facd0, size 0x4, virtual false, abstract: false, final false
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Method SetResult, addr 0x24fad2c, size 0x18, virtual false, abstract: false, final false
-  inline void SetResult();
-
-  /// @brief Method SetException, addr 0x24fadbc, size 0x4, virtual false, abstract: false, final false
-  inline void SetException(::System::Exception* exception);
-
-  /// @brief Method get_Task, addr 0x24fae18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x25cb654, size 0x48, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask get_Task();
-
-  /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine);
-
-  // Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "_haveResult", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: None }]
-  constexpr AsyncValueTaskMethodBuilder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder _methodBuilder, bool _haveResult, bool _useBuilder) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AsyncValueTaskMethodBuilder();
+
+  // Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "_haveResult", ty:
+  // "bool", modifiers: "", def_value: None }, CppParam { name: "_useBuilder", ty: "bool", modifiers: "", def_value: None }]
+  constexpr AsyncValueTaskMethodBuilder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder _methodBuilder, bool _haveResult, bool _useBuilder) noexcept;
 
   /// @brief Field _methodBuilder, offset: 0x0, size: 0x18, def value: None
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder _methodBuilder;

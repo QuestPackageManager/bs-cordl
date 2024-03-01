@@ -19,24 +19,22 @@ MARK_VAL_T(::TMPro::Mesh_Extents);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12221))
 // CS Name: ::TMPro::Mesh_Extents
 struct CORDL_TYPE Mesh_Extents {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2bfdf68, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
-
-  /// @brief Method ToString, addr 0x2bfdf74, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ce8048, size 0x2ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  // Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-  constexpr Mesh_Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
+  /// @brief Method .ctor, addr 0x2ce803c, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Mesh_Extents();
+
+  // Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+  constexpr Mesh_Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
 
   /// @brief Field min, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 min;

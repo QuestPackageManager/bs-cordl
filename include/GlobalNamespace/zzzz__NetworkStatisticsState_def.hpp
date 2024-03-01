@@ -36,26 +36,30 @@ MARK_VAL_T(::GlobalNamespace::NetworkStatisticsState);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12797))
 // CS Name: ::NetworkStatisticsState::NetworkStatisticsUpdateDelegate*
 class CORDL_TYPE __NetworkStatisticsState__NetworkStatisticsUpdateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0xe77efc, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0xe77fd0, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState);
-
-  /// @brief Method BeginInvoke, addr 0xe77fe4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0xebefb4, size 0x8c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0xe78070, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0xebf040, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0xebefa0, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState);
+
+  static inline ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0xebeecc, size 0xd4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NetworkStatisticsState__NetworkStatisticsUpdateDelegate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkStatisticsState__NetworkStatisticsUpdateDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __NetworkStatisticsState__NetworkStatisticsUpdateDelegate(__NetworkStatisticsState__NetworkStatisticsUpdateDelegate&&) = delete;
@@ -64,12 +68,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetworkStatisticsState__NetworkStatisticsUpdateDelegate(__NetworkStatisticsState__NetworkStatisticsUpdateDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NetworkStatisticsState__NetworkStatisticsUpdateDelegate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -80,21 +78,23 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NetworkStatis
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12798))
 // CS Name: ::NetworkStatisticsState
 struct CORDL_TYPE NetworkStatisticsState {
 public:
   // Declarations
   using NetworkStatisticsUpdateDelegate = ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
 
-  /// @brief Method .ctor, addr 0xe77e5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xebee2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted, int64_t packetsSentPlaintext,
                     int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime,
                     int64_t decryptionProcessingTime);
 
-  /// @brief Method op_Subtraction, addr 0xe77e84, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0xebee54, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(ByRef<::GlobalNamespace::NetworkStatisticsState> a, ByRef<::GlobalNamespace::NetworkStatisticsState> b);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetworkStatisticsState();
 
   // Ctor Parameters [CppParam { name: "packetsSent", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceived", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
   // name: "bytesSent", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "bytesReceived", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsLost", ty:
@@ -106,10 +106,6 @@ public:
   constexpr NetworkStatisticsState(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted,
                                    int64_t packetsSentPlaintext, int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected,
                                    int64_t encryptionProcessingTime, int64_t decryptionProcessingTime) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetworkStatisticsState();
 
   /// @brief Field packetsSent, offset: 0x0, size: 0x8, def value: None
   int64_t packetsSent;

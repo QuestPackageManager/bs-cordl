@@ -33,8 +33,6 @@ MARK_VAL_T(::UnityEngine::Rendering::ScriptableRenderContext);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(9113))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9118))
 // CS Name: ::UnityEngine.Rendering::ScriptableRenderContext
 struct CORDL_TYPE ScriptableRenderContext {
 public:
@@ -45,40 +43,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>*();
 
+  /// @brief Method Equals, addr 0x2de1c1c, size 0x78, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2de1bac, size 0x70, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Rendering::ScriptableRenderContext other);
+
+  /// @brief Method GetCameras, addr 0x2de1a94, size 0x8c, virtual false, abstract: false, final false
+  inline void GetCameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* results);
+
+  /// @brief Method GetCameras_Internal, addr 0x2de1b20, size 0x8c, virtual false, abstract: false, final false
+  inline void GetCameras_Internal(::System::Type* listType, ::System::Object* resultList);
+
+  /// @brief Method GetCameras_Internal_Injected, addr 0x2de1c9c, size 0x54, virtual false, abstract: false, final false
+  static inline void GetCameras_Internal_Injected(ByRef<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::Type* listType, ::System::Object* resultList);
+
+  /// @brief Method GetHashCode, addr 0x2de1c94, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method .ctor, addr 0x2de1a8c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(void* ptr);
+
+  static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_kRenderTypeTag();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>* i___System__IEquatable_1___UnityEngine__Rendering__ScriptableRenderContext_();
 
   static inline void setStaticF_kRenderTypeTag(::UnityEngine::Rendering::ShaderTagId value);
 
-  static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_kRenderTypeTag();
-
-  /// @brief Method .ctor, addr 0x2cf6364, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(void* ptr);
-
-  /// @brief Method GetCameras, addr 0x2cf636c, size 0x8c, virtual false, abstract: false, final false
-  inline void GetCameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* results);
-
-  /// @brief Method Equals, addr 0x2cf6484, size 0x70, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Rendering::ScriptableRenderContext other);
-
-  /// @brief Method Equals, addr 0x2cf64f4, size 0x78, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2cf656c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method GetCameras_Internal, addr 0x2cf63f8, size 0x8c, virtual false, abstract: false, final false
-  inline void GetCameras_Internal(::System::Type* listType, ::System::Object* resultList);
-
-  /// @brief Method GetCameras_Internal_Injected, addr 0x2cf6574, size 0x54, virtual false, abstract: false, final false
-  static inline void GetCameras_Internal_Injected(ByRef<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::Type* listType, ::System::Object* resultList);
-
-  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]
-  constexpr ScriptableRenderContext(void* m_Ptr) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ScriptableRenderContext();
+
+  // Ctor Parameters [CppParam { name: "m_Ptr", ty: "void*", modifiers: "", def_value: None }]
+  constexpr ScriptableRenderContext(void* m_Ptr) noexcept;
 
   /// @brief Field m_Ptr, offset: 0x0, size: 0x8, def value: None
   void* m_Ptr;

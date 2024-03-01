@@ -20,20 +20,22 @@ MARK_VAL_T(::TMPro::TMP_LinkInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12217))
 // CS Name: ::TMPro::TMP_LinkInfo
 struct CORDL_TYPE TMP_LinkInfo {
 public:
   // Declarations
-  /// @brief Method SetLinkID, addr 0x2bfd8e8, size 0xd4, virtual false, abstract: false, final false
-  inline void SetLinkID(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
+  /// @brief Method GetLinkID, addr 0x2ce7b6c, size 0xa8, virtual false, abstract: false, final false
+  inline ::StringW GetLinkID();
 
-  /// @brief Method GetLinkText, addr 0x2bfd9bc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetLinkText, addr 0x2ce7a90, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetLinkText();
 
-  /// @brief Method GetLinkID, addr 0x2bfda98, size 0xa8, virtual false, abstract: false, final false
-  inline ::StringW GetLinkID();
+  /// @brief Method SetLinkID, addr 0x2ce79bc, size 0xd4, virtual false, abstract: false, final false
+  inline void SetLinkID(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_LinkInfo();
 
   // Ctor Parameters [CppParam { name: "textComponent", ty: "::UnityW<::TMPro::TMP_Text>", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None
   // }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
@@ -41,10 +43,6 @@ public:
   // "linkID", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }]
   constexpr TMP_LinkInfo(::UnityW<::TMPro::TMP_Text> textComponent, int32_t hashCode, int32_t linkIdFirstCharacterIndex, int32_t linkIdLength, int32_t linkTextfirstCharacterIndex,
                          int32_t linkTextLength, ::ArrayW<char16_t, ::Array<char16_t>*> linkID) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_LinkInfo();
 
   /// @brief Field textComponent, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> textComponent;

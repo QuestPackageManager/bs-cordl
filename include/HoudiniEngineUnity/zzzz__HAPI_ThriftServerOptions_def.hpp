@@ -15,18 +15,16 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ThriftServerOptions);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9521))
 // CS Name: ::HoudiniEngineUnity::HAPI_ThriftServerOptions
 struct CORDL_TYPE HAPI_ThriftServerOptions {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "autoClose", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "timeoutMs", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr HAPI_ThriftServerOptions(bool autoClose, float_t timeoutMs) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_ThriftServerOptions();
+
+  // Ctor Parameters [CppParam { name: "autoClose", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "timeoutMs", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr HAPI_ThriftServerOptions(bool autoClose, float_t timeoutMs) noexcept;
 
   /// @brief Field autoClose, offset: 0x0, size: 0x1, def value: None
   bool autoClose;

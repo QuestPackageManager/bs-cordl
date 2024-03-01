@@ -15,35 +15,39 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Integers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1834))
 // CS Name: ::Org.BouncyCastle.Utilities::Integers*
 class CORDL_TYPE Integers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfLeadingZeros, addr 0x119c9c4, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t NumberOfLeadingZeros(int32_t i);
-
-  /// @brief Method NumberOfTrailingZeros, addr 0x119ca40, size 0x34, virtual false, abstract: false, final false
-  static inline int32_t NumberOfTrailingZeros(int32_t i);
-
-  /// @brief Method RotateLeft, addr 0x119ca74, size 0x14, virtual false, abstract: false, final false
-  static inline int32_t RotateLeft(int32_t i, int32_t distance);
-
-  /// @brief Method RotateLeft, addr 0x119ca88, size 0x14, virtual false, abstract: false, final false
-  static inline uint32_t RotateLeft(uint32_t i, int32_t distance);
-
-  /// @brief Method RotateRight, addr 0x119ca9c, size 0x14, virtual false, abstract: false, final false
-  static inline int32_t RotateRight(int32_t i, int32_t distance);
-
-  /// @brief Method RotateRight, addr 0x119cab0, size 0x14, virtual false, abstract: false, final false
-  static inline uint32_t RotateRight(uint32_t i, int32_t distance);
-
   static inline ::Org::BouncyCastle::Utilities::Integers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x119cac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method NumberOfLeadingZeros, addr 0x11de994, size 0x7c, virtual false, abstract: false, final false
+  static inline int32_t NumberOfLeadingZeros(int32_t i);
+
+  /// @brief Method NumberOfTrailingZeros, addr 0x11dea10, size 0x34, virtual false, abstract: false, final false
+  static inline int32_t NumberOfTrailingZeros(int32_t i);
+
+  /// @brief Method RotateLeft, addr 0x11dea44, size 0x14, virtual false, abstract: false, final false
+  static inline int32_t RotateLeft(int32_t i, int32_t distance);
+
+  /// @brief Method RotateLeft, addr 0x11dea58, size 0x14, virtual false, abstract: false, final false
+  static inline uint32_t RotateLeft(uint32_t i, int32_t distance);
+
+  /// @brief Method RotateRight, addr 0x11dea6c, size 0x14, virtual false, abstract: false, final false
+  static inline int32_t RotateRight(int32_t i, int32_t distance);
+
+  /// @brief Method RotateRight, addr 0x11dea80, size 0x14, virtual false, abstract: false, final false
+  static inline uint32_t RotateRight(uint32_t i, int32_t distance);
+
+  /// @brief Method .ctor, addr 0x11dea94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Integers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Integers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Integers(Integers&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Integers(Integers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Integers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

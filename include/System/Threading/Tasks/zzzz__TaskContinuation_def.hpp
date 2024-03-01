@@ -17,23 +17,27 @@ MARK_REF_PTR_T(::System::Threading::Tasks::TaskContinuation);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2801))
 // CS Name: ::System.Threading.Tasks::TaskContinuation*
 class CORDL_TYPE TaskContinuation : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
-
-  /// @brief Method InlineIfPossibleOrElseQueue, addr 0x26515e4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InlineIfPossibleOrElseQueue, addr 0x271fd30, size 0x144, virtual false, abstract: false, final false
   static inline void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* task, bool needsProtection);
 
   static inline ::System::Threading::Tasks::TaskContinuation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2651728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
+
+  /// @brief Method .ctor, addr 0x271fe74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TaskContinuation();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TaskContinuation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TaskContinuation(TaskContinuation&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TaskContinuation(TaskContinuation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskContinuation();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

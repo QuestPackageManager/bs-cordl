@@ -16,18 +16,16 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationHumanStream);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14769))
 // CS Name: ::UnityEngine.Animations::AnimationHumanStream
 struct CORDL_TYPE AnimationHumanStream {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "stream", ty: "void*", modifiers: "", def_value: None }]
-  constexpr AnimationHumanStream(void* stream) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr AnimationHumanStream();
+
+  // Ctor Parameters [CppParam { name: "stream", ty: "void*", modifiers: "", def_value: None }]
+  constexpr AnimationHumanStream(void* stream) noexcept;
 
   /// @brief Field stream, offset: 0x0, size: 0x8, def value: None
   void* stream;

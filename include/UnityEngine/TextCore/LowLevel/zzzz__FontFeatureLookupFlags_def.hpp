@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15725))
 // CS Name: ::UnityEngine.TextCore.LowLevel::FontFeatureLookupFlags
 struct CORDL_TYPE FontFeatureLookupFlags {
 public:
@@ -35,27 +33,32 @@ public:
     return static_cast<__FontFeatureLookupFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr FontFeatureLookupFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__FontFeatureLookupFlags_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FontFeatureLookupFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr FontFeatureLookupFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags const None;
 
   /// @brief Field IgnoreLigatures value: static_cast<int32_t>(0x4)
   static ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags const IgnoreLigatures;
 
   /// @brief Field IgnoreSpacingAdjustments value: static_cast<int32_t>(0x100)
   static ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags const IgnoreSpacingAdjustments;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags const None;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

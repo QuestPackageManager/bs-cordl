@@ -19,19 +19,17 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_ComponentState_t);
 // SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8588))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8655))
 // CS Name: ::OVR.OpenVR::RenderModel_ComponentState_t
 struct CORDL_TYPE RenderModel_ComponentState_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "mTrackingToComponentRenderModel", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "mTrackingToComponentLocal", ty:
-  // "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "uProperties", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr RenderModel_ComponentState_t(::OVR::OpenVR::HmdMatrix34_t mTrackingToComponentRenderModel, ::OVR::OpenVR::HmdMatrix34_t mTrackingToComponentLocal, uint32_t uProperties) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderModel_ComponentState_t();
+
+  // Ctor Parameters [CppParam { name: "mTrackingToComponentRenderModel", ty: "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "mTrackingToComponentLocal", ty:
+  // "::OVR::OpenVR::HmdMatrix34_t", modifiers: "", def_value: None }, CppParam { name: "uProperties", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr RenderModel_ComponentState_t(::OVR::OpenVR::HmdMatrix34_t mTrackingToComponentRenderModel, ::OVR::OpenVR::HmdMatrix34_t mTrackingToComponentLocal, uint32_t uProperties) noexcept;
 
   /// @brief Field mTrackingToComponentRenderModel, offset: 0x0, size: 0x30, def value: None
   ::OVR::OpenVR::HmdMatrix34_t mTrackingToComponentRenderModel;

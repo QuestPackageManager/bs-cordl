@@ -22,27 +22,25 @@ MARK_VAL_T(::GlobalNamespace::PublicServerInfo);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12832))
 // CS Name: ::PublicServerInfo
 struct CORDL_TYPE PublicServerInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xe7f1a0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW code, int32_t currentPlayerCount);
-
-  /// @brief Method Serialize, addr 0xe7f1ac, size 0x40, virtual false, abstract: false, final false
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-
-  /// @brief Method Deserialize, addr 0xe7f1ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0xec61bc, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PublicServerInfo Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  // Ctor Parameters [CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "currentPlayerCount", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PublicServerInfo(::StringW code, int32_t currentPlayerCount) noexcept;
+  /// @brief Method Serialize, addr 0xec617c, size 0x40, virtual false, abstract: false, final false
+  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  /// @brief Method .ctor, addr 0xec6170, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW code, int32_t currentPlayerCount);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PublicServerInfo();
+
+  // Ctor Parameters [CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "currentPlayerCount", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PublicServerInfo(::StringW code, int32_t currentPlayerCount) noexcept;
 
   /// @brief Field code, offset: 0x0, size: 0x8, def value: None
   ::StringW code;

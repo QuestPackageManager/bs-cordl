@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14359))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14361))
 // CS Name: ::BloomPrePassBackgroundSpriteRenderer*
 class CORDL_TYPE BloomPrePassBackgroundSpriteRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
@@ -31,20 +29,26 @@ public:
 
   __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
-  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__spriteRenderer();
+  static inline ::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer* New_ctor();
 
   constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__spriteRenderer() const;
 
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__spriteRenderer();
+
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method get_renderer, addr 0x219a998, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
-
-  static inline ::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer* New_ctor();
-
-  /// @brief Method .ctor, addr 0x219a9a0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2269008, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_renderer, addr 0x2269000, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BloomPrePassBackgroundSpriteRenderer();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundSpriteRenderer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BloomPrePassBackgroundSpriteRenderer(BloomPrePassBackgroundSpriteRenderer&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundSpriteRenderer(BloomPrePassBackgroundSpriteRenderer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassBackgroundSpriteRenderer();
-
-public:
   /// @brief Field _spriteRenderer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 

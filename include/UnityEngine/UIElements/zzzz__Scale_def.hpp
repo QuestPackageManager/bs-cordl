@@ -26,8 +26,6 @@ MARK_VAL_T(::UnityEngine::UIElements::Scale);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 29, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6577))
 // CS Name: ::UnityEngine.UIElements::Scale
 struct CORDL_TYPE Scale {
 public:
@@ -37,45 +35,45 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Scale>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Scale>*();
 
+  /// @brief Method Equals, addr 0x2f83808, size 0xbc, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2f837bc, size 0x4c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::Scale other);
+
+  /// @brief Method GetHashCode, addr 0x2f7a7f4, size 0x50, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method Initial, addr 0x2f83718, size 0x44, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Scale Initial();
+
+  /// @brief Method None, addr 0x2f7ee6c, size 0x18, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::Scale None();
+
+  /// @brief Method ToString, addr 0x2f838c4, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x2f83704, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Vector3 scale);
+
+  /// @brief Method get_value, addr 0x2f8375c, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_value();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Scale>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Scale>* i___System__IEquatable_1___UnityEngine__UIElements__Scale_();
 
-  /// @brief Method .ctor, addr 0x2e8ffdc, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector3 scale);
-
-  /// @brief Method Initial, addr 0x2e8fff0, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Scale Initial();
-
-  /// @brief Method None, addr 0x2e8b744, size 0x18, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Scale None();
-
-  /// @brief Method get_value, addr 0x2e90034, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_value();
-
-  /// @brief Method op_Equality, addr 0x2e86f04, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2f7a62c, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Scale lhs, ::UnityEngine::UIElements::Scale rhs);
 
-  /// @brief Method op_Inequality, addr 0x2e90040, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2f83768, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Scale lhs, ::UnityEngine::UIElements::Scale rhs);
-
-  /// @brief Method Equals, addr 0x2e90094, size 0x4c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::Scale other);
-
-  /// @brief Method Equals, addr 0x2e900e0, size 0xbc, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2e870cc, size 0x50, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method ToString, addr 0x2e9019c, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "m_Scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_IsNone", ty: "bool", modifiers: "", def_value: None }]
-  constexpr Scale(::UnityEngine::Vector3 m_Scale, bool m_IsNone) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Scale();
+
+  // Ctor Parameters [CppParam { name: "m_Scale", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_IsNone", ty: "bool", modifiers: "", def_value: None }]
+  constexpr Scale(::UnityEngine::Vector3 m_Scale, bool m_IsNone) noexcept;
 
   /// @brief Field m_Scale, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_Scale;

@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackMediaType);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(13805))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13867))
 // CS Name: ::UnityEngine.Timeline::TrackMediaType*
 class CORDL_TYPE TrackMediaType : public ::System::Attribute {
 public:
@@ -27,17 +25,23 @@ public:
   /// @brief Field m_MediaType, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MediaType, put = __cordl_internal_set_m_MediaType))::UnityEngine::Timeline::__TimelineAsset__MediaType m_MediaType;
 
-  constexpr ::UnityEngine::Timeline::__TimelineAsset__MediaType& __cordl_internal_get_m_MediaType();
+  static inline ::UnityEngine::Timeline::TrackMediaType* New_ctor(::UnityEngine::Timeline::__TimelineAsset__MediaType mt);
 
   constexpr ::UnityEngine::Timeline::__TimelineAsset__MediaType const& __cordl_internal_get_m_MediaType() const;
 
+  constexpr ::UnityEngine::Timeline::__TimelineAsset__MediaType& __cordl_internal_get_m_MediaType();
+
   constexpr void __cordl_internal_set_m_MediaType(::UnityEngine::Timeline::__TimelineAsset__MediaType value);
 
-  static inline ::UnityEngine::Timeline::TrackMediaType* New_ctor(::UnityEngine::Timeline::__TimelineAsset__MediaType mt);
-
-  /// @brief Method .ctor, addr 0x2c6b1ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d55280, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::__TimelineAsset__MediaType mt);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TrackMediaType();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TrackMediaType", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TrackMediaType(TrackMediaType&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TrackMediaType(TrackMediaType const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrackMediaType();
-
-public:
   /// @brief Field m_MediaType, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Timeline::__TimelineAsset__MediaType ___m_MediaType;
 

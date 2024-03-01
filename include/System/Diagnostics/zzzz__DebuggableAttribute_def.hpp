@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggableAttribute);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3730))
 // CS Name: ::DebuggableAttribute::DebuggingModes
 struct CORDL_TYPE __DebuggableAttribute__DebuggingModes {
 public:
@@ -46,21 +44,20 @@ public:
     return static_cast<____DebuggableAttribute__DebuggingModes_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __DebuggableAttribute__DebuggingModes(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____DebuggableAttribute__DebuggingModes_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __DebuggableAttribute__DebuggingModes();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __DebuggableAttribute__DebuggingModes(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const None;
 
   /// @brief Field Default value: static_cast<int32_t>(0x1)
   static ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const Default;
@@ -68,11 +65,17 @@ public:
   /// @brief Field DisableOptimizations value: static_cast<int32_t>(0x100)
   static ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const DisableOptimizations;
 
+  /// @brief Field EnableEditAndContinue value: static_cast<int32_t>(0x4)
+  static ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const EnableEditAndContinue;
+
   /// @brief Field IgnoreSymbolStoreSequencePoints value: static_cast<int32_t>(0x2)
   static ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const IgnoreSymbolStoreSequencePoints;
 
-  /// @brief Field EnableEditAndContinue value: static_cast<int32_t>(0x4)
-  static ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const EnableEditAndContinue;
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const None;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -86,8 +89,6 @@ static_assert(offsetof(::System::Diagnostics::__DebuggableAttribute__DebuggingMo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3730))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3731))
 // CS Name: ::System.Diagnostics::DebuggableAttribute*
 class CORDL_TYPE DebuggableAttribute : public ::System::Attribute {
 public:
@@ -97,17 +98,23 @@ public:
   /// @brief Field m_debuggingModes, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_debuggingModes, put = __cordl_internal_set_m_debuggingModes))::System::Diagnostics::__DebuggableAttribute__DebuggingModes m_debuggingModes;
 
-  constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes& __cordl_internal_get_m_debuggingModes();
+  static inline ::System::Diagnostics::DebuggableAttribute* New_ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes);
 
   constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const& __cordl_internal_get_m_debuggingModes() const;
 
+  constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes& __cordl_internal_get_m_debuggingModes();
+
   constexpr void __cordl_internal_set_m_debuggingModes(::System::Diagnostics::__DebuggableAttribute__DebuggingModes value);
 
-  static inline ::System::Diagnostics::DebuggableAttribute* New_ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes);
-
-  /// @brief Method .ctor, addr 0x259cb10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266d1f4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DebuggableAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DebuggableAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DebuggableAttribute(DebuggableAttribute&&) = delete;
@@ -116,12 +123,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DebuggableAttribute(DebuggableAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebuggableAttribute();
-
-public:
   /// @brief Field m_debuggingModes, offset: 0x10, size: 0x4, def value: None
   ::System::Diagnostics::__DebuggableAttribute__DebuggingModes ___m_debuggingModes;
 

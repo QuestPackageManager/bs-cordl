@@ -20,19 +20,17 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::FloatFxEvent);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11208))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11140))
 // CS Name: ::BeatmapSaveDataVersion4::FloatFxEvent
 struct CORDL_TYPE FloatFxEvent {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }, CppParam {
-  // name: "v", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr FloatFxEvent(int32_t p, ::BeatmapSaveDataCommon::EaseType e, float_t v) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr FloatFxEvent();
+
+  // Ctor Parameters [CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "e", ty: "::BeatmapSaveDataCommon::EaseType", modifiers: "", def_value: None }, CppParam {
+  // name: "v", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr FloatFxEvent(int32_t p, ::BeatmapSaveDataCommon::EaseType e, float_t v) noexcept;
 
   /// @brief Field p, offset: 0x0, size: 0x4, def value: None
   int32_t p;

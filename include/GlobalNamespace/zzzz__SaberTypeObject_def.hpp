@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTypeObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14909))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4641))
 // CS Name: ::SaberTypeObject*
 class CORDL_TYPE SaberTypeObject : public ::UnityEngine::MonoBehaviour {
 public:
@@ -29,20 +27,26 @@ public:
 
   __declspec(property(get = get_saberType))::GlobalNamespace::SaberType saberType;
 
-  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
+  static inline ::GlobalNamespace::SaberTypeObject* New_ctor();
 
   constexpr ::GlobalNamespace::SaberType const& __cordl_internal_get__saberType() const;
 
+  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
+
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method get_saberType, addr 0x23c3600, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::SaberType get_saberType();
-
-  static inline ::GlobalNamespace::SaberTypeObject* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23c3608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2492550, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_saberType, addr 0x2492548, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::SaberType get_saberType();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SaberTypeObject();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SaberTypeObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SaberTypeObject(SaberTypeObject&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SaberTypeObject(SaberTypeObject const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SaberTypeObject();
-
-public:
   /// @brief Field _saberType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::SaberType ____saberType;
 

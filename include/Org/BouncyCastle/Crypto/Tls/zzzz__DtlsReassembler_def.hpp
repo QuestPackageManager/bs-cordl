@@ -26,51 +26,55 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1227))
 // CS Name: ::DtlsReassembler::Range*
 class CORDL_TYPE __DtlsReassembler__Range : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field mStart, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_mStart, put = __cordl_internal_set_mStart)) int32_t mStart;
+  __declspec(property(get = get_End, put = set_End)) int32_t End;
+
+  __declspec(property(get = get_Start, put = set_Start)) int32_t Start;
 
   /// @brief Field mEnd, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_mEnd, put = __cordl_internal_set_mEnd)) int32_t mEnd;
 
-  __declspec(property(get = get_Start, put = set_Start)) int32_t Start;
-
-  __declspec(property(get = get_End, put = set_End)) int32_t End;
-
-  constexpr int32_t& __cordl_internal_get_mStart();
-
-  constexpr int32_t const& __cordl_internal_get_mStart() const;
-
-  constexpr void __cordl_internal_set_mStart(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_mEnd();
-
-  constexpr int32_t const& __cordl_internal_get_mEnd() const;
-
-  constexpr void __cordl_internal_set_mEnd(int32_t value);
+  /// @brief Field mStart, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_mStart, put = __cordl_internal_set_mStart)) int32_t mStart;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range* New_ctor(int32_t start, int32_t end);
 
-  /// @brief Method .ctor, addr 0xf9765c, size 0x2c, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get_mEnd() const;
+
+  constexpr int32_t& __cordl_internal_get_mEnd();
+
+  constexpr int32_t const& __cordl_internal_get_mStart() const;
+
+  constexpr int32_t& __cordl_internal_get_mStart();
+
+  constexpr void __cordl_internal_set_mEnd(int32_t value);
+
+  constexpr void __cordl_internal_set_mStart(int32_t value);
+
+  /// @brief Method .ctor, addr 0xfdd62c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end);
 
-  /// @brief Method get_Start, addr 0xf97e4c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Start();
-
-  /// @brief Method set_Start, addr 0xf97e54, size 0x8, virtual false, abstract: false, final false
-  inline void set_Start(int32_t value);
-
-  /// @brief Method get_End, addr 0xf97e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0xfdde2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_End();
 
-  /// @brief Method set_End, addr 0xf97e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0xfdde1c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Start();
+
+  /// @brief Method set_End, addr 0xfdde34, size 0x8, virtual false, abstract: false, final false
   inline void set_End(int32_t value);
 
+  /// @brief Method set_Start, addr 0xfdde24, size 0x8, virtual false, abstract: false, final false
+  inline void set_Start(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __DtlsReassembler__Range();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__DtlsReassembler__Range", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __DtlsReassembler__Range(__DtlsReassembler__Range&&) = delete;
@@ -79,12 +83,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DtlsReassembler__Range(__DtlsReassembler__Range const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DtlsReassembler__Range();
-
-public:
   /// @brief Field mStart, offset: 0x10, size: 0x4, def value: None
   int32_t ___mStart;
 
@@ -105,16 +103,13 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Rang
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1228))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsReassembler*
 class CORDL_TYPE DtlsReassembler : public ::System::Object {
 public:
   // Declarations
   using Range = ::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range;
 
-  /// @brief Field mMsgType, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_mMsgType, put = __cordl_internal_set_mMsgType)) uint8_t mMsgType;
+  __declspec(property(get = get_MsgType)) uint8_t MsgType;
 
   /// @brief Field mBody, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mBody, put = __cordl_internal_set_mBody))::ArrayW<uint8_t, ::Array<uint8_t>*> mBody;
@@ -122,43 +117,50 @@ public:
   /// @brief Field mMissing, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_mMissing, put = __cordl_internal_set_mMissing))::System::Collections::IList* mMissing;
 
-  __declspec(property(get = get_MsgType)) uint8_t MsgType;
+  /// @brief Field mMsgType, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_mMsgType, put = __cordl_internal_set_mMsgType)) uint8_t mMsgType;
 
-  constexpr uint8_t& __cordl_internal_get_mMsgType();
+  /// @brief Method ContributeFragment, addr 0xfdd718, size 0x5b4, virtual false, abstract: false, final false
+  inline void ContributeFragment(uint8_t msg_type, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t fragment_offset, int32_t fragment_length);
 
-  constexpr uint8_t const& __cordl_internal_get_mMsgType() const;
+  /// @brief Method GetBodyIfComplete, addr 0xfdd660, size 0xb8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBodyIfComplete();
 
-  constexpr void __cordl_internal_set_mMsgType(uint8_t value);
+  static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReassembler* New_ctor(uint8_t msg_type, int32_t length);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mBody();
+  /// @brief Method Reset, addr 0xfddccc, size 0x150, virtual false, abstract: false, final false
+  inline void Reset();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mBody() const;
 
-  constexpr void __cordl_internal_set_mBody(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mBody();
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_mMissing();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mMissing() const;
 
+  constexpr uint8_t const& __cordl_internal_get_mMsgType() const;
+
+  constexpr uint8_t& __cordl_internal_get_mMsgType();
+
+  constexpr void __cordl_internal_set_mBody(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
   constexpr void __cordl_internal_set_mMissing(::System::Collections::IList* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReassembler* New_ctor(uint8_t msg_type, int32_t length);
+  constexpr void __cordl_internal_set_mMsgType(uint8_t value);
 
-  /// @brief Method .ctor, addr 0xf97510, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfdd4e0, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t msg_type, int32_t length);
 
-  /// @brief Method get_MsgType, addr 0xf97688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MsgType, addr 0xfdd658, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_MsgType();
 
-  /// @brief Method GetBodyIfComplete, addr 0xf97690, size 0xb8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBodyIfComplete();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DtlsReassembler();
 
-  /// @brief Method ContributeFragment, addr 0xf97748, size 0x5b4, virtual false, abstract: false, final false
-  inline void ContributeFragment(uint8_t msg_type, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t fragment_offset, int32_t fragment_length);
-
-  /// @brief Method Reset, addr 0xf97cfc, size 0x150, virtual false, abstract: false, final false
-  inline void Reset();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReassembler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DtlsReassembler(DtlsReassembler&&) = delete;
@@ -167,12 +169,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DtlsReassembler(DtlsReassembler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DtlsReassembler();
-
-public:
   /// @brief Field mMsgType, offset: 0x10, size: 0x1, def value: None
   uint8_t ___mMsgType;
 

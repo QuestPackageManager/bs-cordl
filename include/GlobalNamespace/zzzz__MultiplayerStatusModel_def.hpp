@@ -65,8 +65,6 @@ MARK_VAL_T(::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsy
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10883))
 // CS Name: ::MultiplayerStatusModel::MultiplayerStatusDataFB*
 class CORDL_TYPE __MultiplayerStatusModel__MultiplayerStatusDataFB : public ::System::Object {
 public:
@@ -74,17 +72,23 @@ public:
   /// @brief Field data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> data;
 
-  constexpr ::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*>& __cordl_internal_get_data();
+  static inline ::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB* New_ctor();
 
   constexpr ::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> const& __cordl_internal_get_data() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*>& __cordl_internal_get_data();
+
   constexpr void __cordl_internal_set_data(::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> value);
 
-  static inline ::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12948bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d688c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerStatusModel__MultiplayerStatusDataFB();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerStatusModel__MultiplayerStatusDataFB", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultiplayerStatusModel__MultiplayerStatusDataFB(__MultiplayerStatusModel__MultiplayerStatusDataFB&&) = delete;
@@ -93,12 +97,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerStatusModel__MultiplayerStatusDataFB(__MultiplayerStatusModel__MultiplayerStatusDataFB const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerStatusModel__MultiplayerStatusDataFB();
-
-public:
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> ___data;
 
@@ -114,23 +112,25 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusModel__MultiplayerS
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(10882)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 398 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 895 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(10884)) CS Name: ::MultiplayerStatusModel::<GetMultiplayerStatusAsyncInternal>d__9
+// CS Name: ::MultiplayerStatusModel::<GetMultiplayerStatusAsyncInternal>d__9
 struct CORDL_TYPE __MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12d6894, size 0x824, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12d70b8, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x12948c4, size 0x824, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x12950e8, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -140,10 +140,6 @@ public:
                                                                               ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*> __t__builder,
                                                                               ::GlobalNamespace::MultiplayerStatusModel* __4__this, ::System::UriBuilder* _uriBuilder_5__2,
                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -183,21 +179,19 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusModel___GetMultipla
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10885))
 // CS Name: ::MultiplayerStatusModel*
 class CORDL_TYPE MultiplayerStatusModel : public ::System::Object {
 public:
   // Declarations
-  using _GetMultiplayerStatusAsyncInternal_d__9 = ::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9;
-
   using MultiplayerStatusDataFB = ::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB;
 
-  /// @brief Field _networkConfig, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
+  using _GetMultiplayerStatusAsyncInternal_d__9 = ::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9;
 
   /// @brief Field _client, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__client, put = __cordl_internal_set__client))::System::Net::Http::HttpClient* _client;
+
+  /// @brief Field _networkConfig, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
 
   /// @brief Field _request, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__request, put = __cordl_internal_set__request))::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* _request;
@@ -205,47 +199,53 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerStatusModel"
   constexpr operator ::GlobalNamespace::IMultiplayerStatusModel*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"
-  constexpr ::GlobalNamespace::IMultiplayerStatusModel* i___GlobalNamespace__IMultiplayerStatusModel() noexcept;
+  /// @brief Method GetMultiplayerStatusAsync, addr 0x12d6668, size 0x6c, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
+  /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x12d6730, size 0xf4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
+  /// @brief Method Init, addr 0x12d6638, size 0x18, virtual false, abstract: false, final false
+  inline void Init();
 
-  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+  /// @brief Method IsAvailabilityTaskValid, addr 0x12d66d4, size 0x5c, virtual false, abstract: false, final false
+  inline bool IsAvailabilityTaskValid();
+
+  static inline ::GlobalNamespace::MultiplayerStatusModel* New_ctor();
+
+  /// @brief Method StartRequest, addr 0x12d6650, size 0x18, virtual false, abstract: false, final false
+  inline void StartRequest();
 
   constexpr ::System::Net::Http::HttpClient*& __cordl_internal_get__client();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpClient*> const& __cordl_internal_get__client() const;
 
-  constexpr void __cordl_internal_set__client(::System::Net::Http::HttpClient* value);
+  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
 
   constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>*& __cordl_internal_get__request();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>*> const& __cordl_internal_get__request() const;
 
+  constexpr void __cordl_internal_set__client(::System::Net::Http::HttpClient* value);
+
+  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+
   constexpr void __cordl_internal_set__request(::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* value);
 
-  /// @brief Method Init, addr 0x1294668, size 0x18, virtual false, abstract: false, final false
-  inline void Init();
-
-  /// @brief Method GetMultiplayerStatusAsync, addr 0x1294698, size 0x6c, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method IsAvailabilityTaskValid, addr 0x1294704, size 0x5c, virtual false, abstract: false, final false
-  inline bool IsAvailabilityTaskValid();
-
-  /// @brief Method StartRequest, addr 0x1294680, size 0x18, virtual false, abstract: false, final false
-  inline void StartRequest();
-
-  /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x1294760, size 0xf4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
-
-  static inline ::GlobalNamespace::MultiplayerStatusModel* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1294854, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12d6824, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"
+  constexpr ::GlobalNamespace::IMultiplayerStatusModel* i___GlobalNamespace__IMultiplayerStatusModel() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerStatusModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerStatusModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerStatusModel(MultiplayerStatusModel&&) = delete;
@@ -254,12 +254,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerStatusModel(MultiplayerStatusModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerStatusModel();
-
-public:
   /// @brief Field _networkConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 

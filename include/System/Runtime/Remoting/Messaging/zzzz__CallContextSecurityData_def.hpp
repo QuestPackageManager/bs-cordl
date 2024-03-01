@@ -23,22 +23,22 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CallContextSecurityData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3147))
 // CS Name: ::System.Runtime.Remoting.Messaging::CallContextSecurityData*
 class CORDL_TYPE CallContextSecurityData : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_HasInfo)) bool HasInfo;
+
   /// @brief Field _principal, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__principal, put = __cordl_internal_set__principal))::System::Security::Principal::IPrincipal* _principal;
-
-  __declspec(property(get = get_HasInfo)) bool HasInfo;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+  /// @brief Method Clone, addr 0x259a10c, size 0x68, virtual true, abstract: false, final true
+  inline ::System::Object* Clone();
+
+  static inline ::System::Runtime::Remoting::Messaging::CallContextSecurityData* New_ctor();
 
   constexpr ::System::Security::Principal::IPrincipal*& __cordl_internal_get__principal();
 
@@ -46,17 +46,21 @@ public:
 
   constexpr void __cordl_internal_set__principal(::System::Security::Principal::IPrincipal* value);
 
-  /// @brief Method get_HasInfo, addr 0x24c948c, size 0x10, virtual false, abstract: false, final false
-  inline bool get_HasInfo();
-
-  /// @brief Method Clone, addr 0x24c9414, size 0x68, virtual true, abstract: false, final true
-  inline ::System::Object* Clone();
-
-  static inline ::System::Runtime::Remoting::Messaging::CallContextSecurityData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24c95e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259a2e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_HasInfo, addr 0x259a184, size 0x10, virtual false, abstract: false, final false
+  inline bool get_HasInfo();
+
+  /// @brief Convert to "::System::ICloneable"
+  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CallContextSecurityData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CallContextSecurityData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallContextSecurityData(CallContextSecurityData&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CallContextSecurityData(CallContextSecurityData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CallContextSecurityData();
-
-public:
   /// @brief Field _principal, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Principal::IPrincipal* ____principal;
 

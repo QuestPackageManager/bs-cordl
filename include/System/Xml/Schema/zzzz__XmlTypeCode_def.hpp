@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Xml::Schema::XmlTypeCode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11644))
 // CS Name: ::System.Xml.Schema::XmlTypeCode
 struct CORDL_TYPE XmlTypeCode {
 public:
@@ -87,66 +85,56 @@ public:
     return static_cast<__XmlTypeCode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr XmlTypeCode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__XmlTypeCode_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr XmlTypeCode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr XmlTypeCode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Xml::Schema::XmlTypeCode const None;
-
-  /// @brief Field Item value: static_cast<int32_t>(0x1)
-  static ::System::Xml::Schema::XmlTypeCode const Item;
-
-  /// @brief Field Node value: static_cast<int32_t>(0x2)
-  static ::System::Xml::Schema::XmlTypeCode const Node;
-
-  /// @brief Field Document value: static_cast<int32_t>(0x3)
-  static ::System::Xml::Schema::XmlTypeCode const Document;
-
-  /// @brief Field Element value: static_cast<int32_t>(0x4)
-  static ::System::Xml::Schema::XmlTypeCode const Element;
-
-  /// @brief Field Attribute value: static_cast<int32_t>(0x5)
-  static ::System::Xml::Schema::XmlTypeCode const Attribute;
-
-  /// @brief Field Namespace value: static_cast<int32_t>(0x6)
-  static ::System::Xml::Schema::XmlTypeCode const Namespace;
-
-  /// @brief Field ProcessingInstruction value: static_cast<int32_t>(0x7)
-  static ::System::Xml::Schema::XmlTypeCode const ProcessingInstruction;
-
-  /// @brief Field Comment value: static_cast<int32_t>(0x8)
-  static ::System::Xml::Schema::XmlTypeCode const Comment;
-
-  /// @brief Field Text value: static_cast<int32_t>(0x9)
-  static ::System::Xml::Schema::XmlTypeCode const Text;
 
   /// @brief Field AnyAtomicType value: static_cast<int32_t>(0xa)
   static ::System::Xml::Schema::XmlTypeCode const AnyAtomicType;
 
-  /// @brief Field UntypedAtomic value: static_cast<int32_t>(0xb)
-  static ::System::Xml::Schema::XmlTypeCode const UntypedAtomic;
+  /// @brief Field AnyUri value: static_cast<int32_t>(0x1c)
+  static ::System::Xml::Schema::XmlTypeCode const AnyUri;
 
-  /// @brief Field String value: static_cast<int32_t>(0xc)
-  static ::System::Xml::Schema::XmlTypeCode const String;
+  /// @brief Field Attribute value: static_cast<int32_t>(0x5)
+  static ::System::Xml::Schema::XmlTypeCode const Attribute;
+
+  /// @brief Field Base64Binary value: static_cast<int32_t>(0x1b)
+  static ::System::Xml::Schema::XmlTypeCode const Base64Binary;
 
   /// @brief Field Boolean value: static_cast<int32_t>(0xd)
   static ::System::Xml::Schema::XmlTypeCode const Boolean;
 
+  /// @brief Field Byte value: static_cast<int32_t>(0x2e)
+  static ::System::Xml::Schema::XmlTypeCode const Byte;
+
+  /// @brief Field Comment value: static_cast<int32_t>(0x8)
+  static ::System::Xml::Schema::XmlTypeCode const Comment;
+
+  /// @brief Field Date value: static_cast<int32_t>(0x14)
+  static ::System::Xml::Schema::XmlTypeCode const Date;
+
+  /// @brief Field DateTime value: static_cast<int32_t>(0x12)
+  static ::System::Xml::Schema::XmlTypeCode const DateTime;
+
+  /// @brief Field DayTimeDuration value: static_cast<int32_t>(0x36)
+  static ::System::Xml::Schema::XmlTypeCode const DayTimeDuration;
+
   /// @brief Field Decimal value: static_cast<int32_t>(0xe)
   static ::System::Xml::Schema::XmlTypeCode const Decimal;
 
-  /// @brief Field Float value: static_cast<int32_t>(0xf)
-  static ::System::Xml::Schema::XmlTypeCode const Float;
+  /// @brief Field Document value: static_cast<int32_t>(0x3)
+  static ::System::Xml::Schema::XmlTypeCode const Document;
 
   /// @brief Field Double value: static_cast<int32_t>(0x10)
   static ::System::Xml::Schema::XmlTypeCode const Double;
@@ -154,23 +142,14 @@ public:
   /// @brief Field Duration value: static_cast<int32_t>(0x11)
   static ::System::Xml::Schema::XmlTypeCode const Duration;
 
-  /// @brief Field DateTime value: static_cast<int32_t>(0x12)
-  static ::System::Xml::Schema::XmlTypeCode const DateTime;
+  /// @brief Field Element value: static_cast<int32_t>(0x4)
+  static ::System::Xml::Schema::XmlTypeCode const Element;
 
-  /// @brief Field Time value: static_cast<int32_t>(0x13)
-  static ::System::Xml::Schema::XmlTypeCode const Time;
+  /// @brief Field Entity value: static_cast<int32_t>(0x27)
+  static ::System::Xml::Schema::XmlTypeCode const Entity;
 
-  /// @brief Field Date value: static_cast<int32_t>(0x14)
-  static ::System::Xml::Schema::XmlTypeCode const Date;
-
-  /// @brief Field GYearMonth value: static_cast<int32_t>(0x15)
-  static ::System::Xml::Schema::XmlTypeCode const GYearMonth;
-
-  /// @brief Field GYear value: static_cast<int32_t>(0x16)
-  static ::System::Xml::Schema::XmlTypeCode const GYear;
-
-  /// @brief Field GMonthDay value: static_cast<int32_t>(0x17)
-  static ::System::Xml::Schema::XmlTypeCode const GMonthDay;
+  /// @brief Field Float value: static_cast<int32_t>(0xf)
+  static ::System::Xml::Schema::XmlTypeCode const Float;
 
   /// @brief Field GDay value: static_cast<int32_t>(0x18)
   static ::System::Xml::Schema::XmlTypeCode const GDay;
@@ -178,38 +157,17 @@ public:
   /// @brief Field GMonth value: static_cast<int32_t>(0x19)
   static ::System::Xml::Schema::XmlTypeCode const GMonth;
 
+  /// @brief Field GMonthDay value: static_cast<int32_t>(0x17)
+  static ::System::Xml::Schema::XmlTypeCode const GMonthDay;
+
+  /// @brief Field GYear value: static_cast<int32_t>(0x16)
+  static ::System::Xml::Schema::XmlTypeCode const GYear;
+
+  /// @brief Field GYearMonth value: static_cast<int32_t>(0x15)
+  static ::System::Xml::Schema::XmlTypeCode const GYearMonth;
+
   /// @brief Field HexBinary value: static_cast<int32_t>(0x1a)
   static ::System::Xml::Schema::XmlTypeCode const HexBinary;
-
-  /// @brief Field Base64Binary value: static_cast<int32_t>(0x1b)
-  static ::System::Xml::Schema::XmlTypeCode const Base64Binary;
-
-  /// @brief Field AnyUri value: static_cast<int32_t>(0x1c)
-  static ::System::Xml::Schema::XmlTypeCode const AnyUri;
-
-  /// @brief Field QName value: static_cast<int32_t>(0x1d)
-  static ::System::Xml::Schema::XmlTypeCode const QName;
-
-  /// @brief Field Notation value: static_cast<int32_t>(0x1e)
-  static ::System::Xml::Schema::XmlTypeCode const Notation;
-
-  /// @brief Field NormalizedString value: static_cast<int32_t>(0x1f)
-  static ::System::Xml::Schema::XmlTypeCode const NormalizedString;
-
-  /// @brief Field Token value: static_cast<int32_t>(0x20)
-  static ::System::Xml::Schema::XmlTypeCode const Token;
-
-  /// @brief Field Language value: static_cast<int32_t>(0x21)
-  static ::System::Xml::Schema::XmlTypeCode const Language;
-
-  /// @brief Field NmToken value: static_cast<int32_t>(0x22)
-  static ::System::Xml::Schema::XmlTypeCode const NmToken;
-
-  /// @brief Field Name value: static_cast<int32_t>(0x23)
-  static ::System::Xml::Schema::XmlTypeCode const Name;
-
-  /// @brief Field NCName value: static_cast<int32_t>(0x24)
-  static ::System::Xml::Schema::XmlTypeCode const NCName;
 
   /// @brief Field Id value: static_cast<int32_t>(0x25)
   static ::System::Xml::Schema::XmlTypeCode const Id;
@@ -217,53 +175,98 @@ public:
   /// @brief Field Idref value: static_cast<int32_t>(0x26)
   static ::System::Xml::Schema::XmlTypeCode const Idref;
 
-  /// @brief Field Entity value: static_cast<int32_t>(0x27)
-  static ::System::Xml::Schema::XmlTypeCode const Entity;
+  /// @brief Field Int value: static_cast<int32_t>(0x2c)
+  static ::System::Xml::Schema::XmlTypeCode const Int;
 
   /// @brief Field Integer value: static_cast<int32_t>(0x28)
   static ::System::Xml::Schema::XmlTypeCode const Integer;
 
-  /// @brief Field NonPositiveInteger value: static_cast<int32_t>(0x29)
-  static ::System::Xml::Schema::XmlTypeCode const NonPositiveInteger;
+  /// @brief Field Item value: static_cast<int32_t>(0x1)
+  static ::System::Xml::Schema::XmlTypeCode const Item;
 
-  /// @brief Field NegativeInteger value: static_cast<int32_t>(0x2a)
-  static ::System::Xml::Schema::XmlTypeCode const NegativeInteger;
+  /// @brief Field Language value: static_cast<int32_t>(0x21)
+  static ::System::Xml::Schema::XmlTypeCode const Language;
 
   /// @brief Field Long value: static_cast<int32_t>(0x2b)
   static ::System::Xml::Schema::XmlTypeCode const Long;
 
-  /// @brief Field Int value: static_cast<int32_t>(0x2c)
-  static ::System::Xml::Schema::XmlTypeCode const Int;
+  /// @brief Field NCName value: static_cast<int32_t>(0x24)
+  static ::System::Xml::Schema::XmlTypeCode const NCName;
 
-  /// @brief Field Short value: static_cast<int32_t>(0x2d)
-  static ::System::Xml::Schema::XmlTypeCode const Short;
+  /// @brief Field Name value: static_cast<int32_t>(0x23)
+  static ::System::Xml::Schema::XmlTypeCode const Name;
 
-  /// @brief Field Byte value: static_cast<int32_t>(0x2e)
-  static ::System::Xml::Schema::XmlTypeCode const Byte;
+  /// @brief Field Namespace value: static_cast<int32_t>(0x6)
+  static ::System::Xml::Schema::XmlTypeCode const Namespace;
+
+  /// @brief Field NegativeInteger value: static_cast<int32_t>(0x2a)
+  static ::System::Xml::Schema::XmlTypeCode const NegativeInteger;
+
+  /// @brief Field NmToken value: static_cast<int32_t>(0x22)
+  static ::System::Xml::Schema::XmlTypeCode const NmToken;
+
+  /// @brief Field Node value: static_cast<int32_t>(0x2)
+  static ::System::Xml::Schema::XmlTypeCode const Node;
 
   /// @brief Field NonNegativeInteger value: static_cast<int32_t>(0x2f)
   static ::System::Xml::Schema::XmlTypeCode const NonNegativeInteger;
 
-  /// @brief Field UnsignedLong value: static_cast<int32_t>(0x30)
-  static ::System::Xml::Schema::XmlTypeCode const UnsignedLong;
+  /// @brief Field NonPositiveInteger value: static_cast<int32_t>(0x29)
+  static ::System::Xml::Schema::XmlTypeCode const NonPositiveInteger;
 
-  /// @brief Field UnsignedInt value: static_cast<int32_t>(0x31)
-  static ::System::Xml::Schema::XmlTypeCode const UnsignedInt;
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Xml::Schema::XmlTypeCode const None;
 
-  /// @brief Field UnsignedShort value: static_cast<int32_t>(0x32)
-  static ::System::Xml::Schema::XmlTypeCode const UnsignedShort;
+  /// @brief Field NormalizedString value: static_cast<int32_t>(0x1f)
+  static ::System::Xml::Schema::XmlTypeCode const NormalizedString;
 
-  /// @brief Field UnsignedByte value: static_cast<int32_t>(0x33)
-  static ::System::Xml::Schema::XmlTypeCode const UnsignedByte;
+  /// @brief Field Notation value: static_cast<int32_t>(0x1e)
+  static ::System::Xml::Schema::XmlTypeCode const Notation;
 
   /// @brief Field PositiveInteger value: static_cast<int32_t>(0x34)
   static ::System::Xml::Schema::XmlTypeCode const PositiveInteger;
 
+  /// @brief Field ProcessingInstruction value: static_cast<int32_t>(0x7)
+  static ::System::Xml::Schema::XmlTypeCode const ProcessingInstruction;
+
+  /// @brief Field QName value: static_cast<int32_t>(0x1d)
+  static ::System::Xml::Schema::XmlTypeCode const QName;
+
+  /// @brief Field Short value: static_cast<int32_t>(0x2d)
+  static ::System::Xml::Schema::XmlTypeCode const Short;
+
+  /// @brief Field String value: static_cast<int32_t>(0xc)
+  static ::System::Xml::Schema::XmlTypeCode const String;
+
+  /// @brief Field Text value: static_cast<int32_t>(0x9)
+  static ::System::Xml::Schema::XmlTypeCode const Text;
+
+  /// @brief Field Time value: static_cast<int32_t>(0x13)
+  static ::System::Xml::Schema::XmlTypeCode const Time;
+
+  /// @brief Field Token value: static_cast<int32_t>(0x20)
+  static ::System::Xml::Schema::XmlTypeCode const Token;
+
+  /// @brief Field UnsignedByte value: static_cast<int32_t>(0x33)
+  static ::System::Xml::Schema::XmlTypeCode const UnsignedByte;
+
+  /// @brief Field UnsignedInt value: static_cast<int32_t>(0x31)
+  static ::System::Xml::Schema::XmlTypeCode const UnsignedInt;
+
+  /// @brief Field UnsignedLong value: static_cast<int32_t>(0x30)
+  static ::System::Xml::Schema::XmlTypeCode const UnsignedLong;
+
+  /// @brief Field UnsignedShort value: static_cast<int32_t>(0x32)
+  static ::System::Xml::Schema::XmlTypeCode const UnsignedShort;
+
+  /// @brief Field UntypedAtomic value: static_cast<int32_t>(0xb)
+  static ::System::Xml::Schema::XmlTypeCode const UntypedAtomic;
+
   /// @brief Field YearMonthDuration value: static_cast<int32_t>(0x35)
   static ::System::Xml::Schema::XmlTypeCode const YearMonthDuration;
 
-  /// @brief Field DayTimeDuration value: static_cast<int32_t>(0x36)
-  static ::System::Xml::Schema::XmlTypeCode const DayTimeDuration;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

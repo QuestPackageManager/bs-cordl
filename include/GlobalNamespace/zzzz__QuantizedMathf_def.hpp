@@ -26,30 +26,34 @@ MARK_REF_PTR_T(::GlobalNamespace::QuantizedMathf);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14911))
 // CS Name: ::QuantizedMathf*
 class CORDL_TYPE QuantizedMathf : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Approximately, addr 0x133c690, size 0xd4, virtual false, abstract: false, final false
-  static inline bool Approximately(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
-
-  /// @brief Method Approximately, addr 0x133c764, size 0x10, virtual false, abstract: false, final false
-  static inline bool Approximately(float_t a, float_t b, float_t epsilon);
-
-  /// @brief Method Approximately, addr 0x133c774, size 0x74, virtual false, abstract: false, final false
-  static inline bool Approximately(int32_t a, int32_t b, int32_t epsilon);
-
-  /// @brief Method Approximately, addr 0x133c7e8, size 0x38, virtual false, abstract: false, final false
-  static inline bool Approximately(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
-
-  /// @brief Method Approximately, addr 0x133c820, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x137d80c, size 0x60, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Pose a, ::UnityEngine::Pose b);
 
-  /// @brief Method QuantizedVectorComponentToString, addr 0x133c880, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x137d67c, size 0xd4, virtual false, abstract: false, final false
+  static inline bool Approximately(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
+
+  /// @brief Method Approximately, addr 0x137d7d4, size 0x38, virtual false, abstract: false, final false
+  static inline bool Approximately(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
+
+  /// @brief Method Approximately, addr 0x137d750, size 0x10, virtual false, abstract: false, final false
+  static inline bool Approximately(float_t a, float_t b, float_t epsilon);
+
+  /// @brief Method Approximately, addr 0x137d760, size 0x74, virtual false, abstract: false, final false
+  static inline bool Approximately(int32_t a, int32_t b, int32_t epsilon);
+
+  /// @brief Method QuantizedVectorComponentToString, addr 0x137d86c, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW QuantizedVectorComponentToString(int32_t v);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr QuantizedMathf();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "QuantizedMathf", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   QuantizedMathf(QuantizedMathf&&) = delete;
@@ -58,26 +62,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   QuantizedMathf(QuantizedMathf const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QuantizedMathf();
-
-public:
-  /// @brief Field kQuaternionSerializableScaleFactor offset 0xffffffff size 0x4
-  static constexpr int32_t kQuaternionSerializableScaleFactor{ static_cast<int32_t>(0x3fff) };
-
   /// @brief Field kQuaternionSerializableEpsilon offset 0xffffffff size 0x4
   static constexpr float_t kQuaternionSerializableEpsilon{ 0.00006103888 };
 
-  /// @brief Field kVectorSerializableScaleInt offset 0xffffffff size 0x4
-  static constexpr int32_t kVectorSerializableScaleInt{ static_cast<int32_t>(0x3e8) };
+  /// @brief Field kQuaternionSerializableScaleFactor offset 0xffffffff size 0x4
+  static constexpr int32_t kQuaternionSerializableScaleFactor{ static_cast<int32_t>(0x3fff) };
+
+  /// @brief Field kVectorSerializableEpsilon offset 0xffffffff size 0x4
+  static constexpr float_t kVectorSerializableEpsilon{ 0.001 };
 
   /// @brief Field kVectorSerializableScale offset 0xffffffff size 0x4
   static constexpr float_t kVectorSerializableScale{ 1000.0 };
 
-  /// @brief Field kVectorSerializableEpsilon offset 0xffffffff size 0x4
-  static constexpr float_t kVectorSerializableEpsilon{ 0.001 };
+  /// @brief Field kVectorSerializableScaleInt offset 0xffffffff size 0x4
+  static constexpr int32_t kVectorSerializableScaleInt{ static_cast<int32_t>(0x3e8) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

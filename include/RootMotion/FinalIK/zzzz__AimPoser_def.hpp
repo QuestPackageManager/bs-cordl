@@ -29,77 +29,81 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__AimPoser__Pose);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12529))
 // CS Name: ::AimPoser::Pose*
 class CORDL_TYPE __AimPoser__Pose : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field visualize, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_visualize, put = __cordl_internal_set_visualize)) bool visualize;
-
-  /// @brief Field name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  /// @brief Field angleBuffer, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_angleBuffer, put = __cordl_internal_set_angleBuffer)) float_t angleBuffer;
 
   /// @brief Field direction, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_direction, put = __cordl_internal_set_direction))::UnityEngine::Vector3 direction;
 
-  /// @brief Field yaw, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_yaw, put = __cordl_internal_set_yaw)) float_t yaw;
+  /// @brief Field name, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field pitch, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_pitch, put = __cordl_internal_set_pitch)) float_t pitch;
 
-  /// @brief Field angleBuffer, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_angleBuffer, put = __cordl_internal_set_angleBuffer)) float_t angleBuffer;
+  /// @brief Field visualize, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_visualize, put = __cordl_internal_set_visualize)) bool visualize;
 
-  constexpr bool& __cordl_internal_get_visualize();
+  /// @brief Field yaw, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_yaw, put = __cordl_internal_set_yaw)) float_t yaw;
 
-  constexpr bool const& __cordl_internal_get_visualize() const;
-
-  constexpr void __cordl_internal_set_visualize(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_name();
-
-  constexpr ::StringW const& __cordl_internal_get_name() const;
-
-  constexpr void __cordl_internal_set_name(::StringW value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_direction();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_direction() const;
-
-  constexpr void __cordl_internal_set_direction(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get_yaw();
-
-  constexpr float_t const& __cordl_internal_get_yaw() const;
-
-  constexpr void __cordl_internal_set_yaw(float_t value);
-
-  constexpr float_t& __cordl_internal_get_pitch();
-
-  constexpr float_t const& __cordl_internal_get_pitch() const;
-
-  constexpr void __cordl_internal_set_pitch(float_t value);
-
-  constexpr float_t& __cordl_internal_get_angleBuffer();
-
-  constexpr float_t const& __cordl_internal_get_angleBuffer() const;
-
-  constexpr void __cordl_internal_set_angleBuffer(float_t value);
-
-  /// @brief Method IsInDirection, addr 0x132c098, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method IsInDirection, addr 0x136d084, size 0x4b0, virtual false, abstract: false, final false
   inline bool IsInDirection(::UnityEngine::Vector3 d);
-
-  /// @brief Method SetAngleBuffer, addr 0x132c608, size 0x8, virtual false, abstract: false, final false
-  inline void SetAngleBuffer(float_t value);
 
   static inline ::RootMotion::FinalIK::__AimPoser__Pose* New_ctor();
 
-  /// @brief Method .ctor, addr 0x132c610, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetAngleBuffer, addr 0x136d5f4, size 0x8, virtual false, abstract: false, final false
+  inline void SetAngleBuffer(float_t value);
+
+  constexpr float_t const& __cordl_internal_get_angleBuffer() const;
+
+  constexpr float_t& __cordl_internal_get_angleBuffer();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_direction() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_direction();
+
+  constexpr ::StringW const& __cordl_internal_get_name() const;
+
+  constexpr ::StringW& __cordl_internal_get_name();
+
+  constexpr float_t const& __cordl_internal_get_pitch() const;
+
+  constexpr float_t& __cordl_internal_get_pitch();
+
+  constexpr bool const& __cordl_internal_get_visualize() const;
+
+  constexpr bool& __cordl_internal_get_visualize();
+
+  constexpr float_t const& __cordl_internal_get_yaw() const;
+
+  constexpr float_t& __cordl_internal_get_yaw();
+
+  constexpr void __cordl_internal_set_angleBuffer(float_t value);
+
+  constexpr void __cordl_internal_set_direction(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_name(::StringW value);
+
+  constexpr void __cordl_internal_set_pitch(float_t value);
+
+  constexpr void __cordl_internal_set_visualize(bool value);
+
+  constexpr void __cordl_internal_set_yaw(float_t value);
+
+  /// @brief Method .ctor, addr 0x136d5fc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AimPoser__Pose();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__AimPoser__Pose", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __AimPoser__Pose(__AimPoser__Pose&&) = delete;
@@ -108,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AimPoser__Pose(__AimPoser__Pose const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AimPoser__Pose();
-
-public:
   /// @brief Field visualize, offset: 0x10, size: 0x1, def value: None
   bool ___visualize;
 
@@ -154,8 +152,6 @@ static_assert(offsetof(::RootMotion::FinalIK::__AimPoser__Pose, ___angleBuffer) 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12530))
 // CS Name: ::RootMotion.FinalIK::AimPoser*
 class CORDL_TYPE AimPoser : public ::UnityEngine::MonoBehaviour {
 public:
@@ -168,29 +164,35 @@ public:
   /// @brief Field poses, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_poses, put = __cordl_internal_set_poses))::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> poses;
 
-  constexpr float_t& __cordl_internal_get_angleBuffer();
-
-  constexpr float_t const& __cordl_internal_get_angleBuffer() const;
-
-  constexpr void __cordl_internal_set_angleBuffer(float_t value);
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*>& __cordl_internal_get_poses();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> const& __cordl_internal_get_poses() const;
-
-  constexpr void __cordl_internal_set_poses(::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> value);
-
-  /// @brief Method GetPose, addr 0x132bfc8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetPose, addr 0x136cfb4, size 0xd0, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__AimPoser__Pose* GetPose(::UnityEngine::Vector3 localDirection);
-
-  /// @brief Method SetPoseActive, addr 0x132c548, size 0x60, virtual false, abstract: false, final false
-  inline void SetPoseActive(::RootMotion::FinalIK::__AimPoser__Pose* pose);
 
   static inline ::RootMotion::FinalIK::AimPoser* New_ctor();
 
-  /// @brief Method .ctor, addr 0x132c5a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetPoseActive, addr 0x136d534, size 0x60, virtual false, abstract: false, final false
+  inline void SetPoseActive(::RootMotion::FinalIK::__AimPoser__Pose* pose);
+
+  constexpr float_t const& __cordl_internal_get_angleBuffer() const;
+
+  constexpr float_t& __cordl_internal_get_angleBuffer();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> const& __cordl_internal_get_poses() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*>& __cordl_internal_get_poses();
+
+  constexpr void __cordl_internal_set_angleBuffer(float_t value);
+
+  constexpr void __cordl_internal_set_poses(::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> value);
+
+  /// @brief Method .ctor, addr 0x136d594, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AimPoser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AimPoser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AimPoser(AimPoser&&) = delete;
@@ -199,12 +201,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AimPoser(AimPoser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AimPoser();
-
-public:
   /// @brief Field angleBuffer, offset: 0x18, size: 0x4, def value: None
   float_t ___angleBuffer;
 

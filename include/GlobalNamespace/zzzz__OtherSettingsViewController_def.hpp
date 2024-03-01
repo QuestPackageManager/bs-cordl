@@ -20,44 +20,48 @@ MARK_REF_PTR_T(::GlobalNamespace::OtherSettingsViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5056))
 // CS Name: ::OtherSettingsViewController*
 class CORDL_TYPE OtherSettingsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _playerDataModel, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
-
   /// @brief Field _hideExplicitToggle, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__hideExplicitToggle, put = __cordl_internal_set__hideExplicitToggle))::UnityW<::UnityEngine::UI::Toggle> _hideExplicitToggle;
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
+  /// @brief Field _playerDataModel, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
-
-  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__hideExplicitToggle();
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__hideExplicitToggle() const;
-
-  constexpr void __cordl_internal_set__hideExplicitToggle(::UnityW<::UnityEngine::UI::Toggle> value);
-
-  /// @brief Method DidActivate, addr 0x230ad04, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x23d8b40, size 0x15c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x230ae10, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x23d8c9c, size 0xa8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleHideExplicitChanged, addr 0x230aeb8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleHideExplicitChanged, addr 0x23d8d44, size 0xa4, virtual false, abstract: false, final false
   inline void HandleHideExplicitChanged(bool newValue);
 
   static inline ::GlobalNamespace::OtherSettingsViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x230af5c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__hideExplicitToggle() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__hideExplicitToggle();
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
+
+  constexpr void __cordl_internal_set__hideExplicitToggle(::UnityW<::UnityEngine::UI::Toggle> value);
+
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
+
+  /// @brief Method .ctor, addr 0x23d8de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OtherSettingsViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OtherSettingsViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OtherSettingsViewController(OtherSettingsViewController&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OtherSettingsViewController(OtherSettingsViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OtherSettingsViewController();
-
-public:
   /// @brief Field _playerDataModel, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 

@@ -15,8 +15,6 @@ MARK_VAL_T(::LIV::SDK::Unity::RENDERING_PIPELINE);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14980))
 // CS Name: ::LIV.SDK.Unity::RENDERING_PIPELINE
 struct CORDL_TYPE RENDERING_PIPELINE {
 public:
@@ -38,36 +36,41 @@ public:
     return static_cast<__RENDERING_PIPELINE_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr RENDERING_PIPELINE(uint32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator uint32_t() const noexcept {
+    return static_cast<__RENDERING_PIPELINE_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RENDERING_PIPELINE();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr RENDERING_PIPELINE(uint32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   uint32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x3020100u)
-  static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNDEFINED;
-
-  /// @brief Field FORWARD value: static_cast<uint32_t>(0x4030201u)
-  static ::LIV::SDK::Unity::RENDERING_PIPELINE const FORWARD;
 
   /// @brief Field DEFERRED value: static_cast<uint32_t>(0x5040302u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const DEFERRED;
 
-  /// @brief Field VERTEX_LIT value: static_cast<uint32_t>(0xcd050403u)
-  static ::LIV::SDK::Unity::RENDERING_PIPELINE const VERTEX_LIT;
+  /// @brief Field FORWARD value: static_cast<uint32_t>(0x4030201u)
+  static ::LIV::SDK::Unity::RENDERING_PIPELINE const FORWARD;
+
+  /// @brief Field HIGH_DEFINITION value: static_cast<uint32_t>(0x4ccccd05u)
+  static ::LIV::SDK::Unity::RENDERING_PIPELINE const HIGH_DEFINITION;
+
+  /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x3020100u)
+  static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNDEFINED;
 
   /// @brief Field UNIVERSAL value: static_cast<uint32_t>(0xcccd0504u)
   static ::LIV::SDK::Unity::RENDERING_PIPELINE const UNIVERSAL;
 
-  /// @brief Field HIGH_DEFINITION value: static_cast<uint32_t>(0x4ccccd05u)
-  static ::LIV::SDK::Unity::RENDERING_PIPELINE const HIGH_DEFINITION;
+  /// @brief Field VERTEX_LIT value: static_cast<uint32_t>(0xcd050403u)
+  static ::LIV::SDK::Unity::RENDERING_PIPELINE const VERTEX_LIT;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -21,66 +21,70 @@ MARK_REF_PTR_T(::GlobalNamespace::DateConditionalSpriteSwitcher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16176))
 // CS Name: ::DateConditionalSpriteSwitcher*
 class CORDL_TYPE DateConditionalSpriteSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _day, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__day, put = __cordl_internal_set__day)) int32_t _day;
-
-  /// @brief Field _month, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__month, put = __cordl_internal_set__month)) int32_t _month;
-
-  /// @brief Field _falseSprite, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__falseSprite, put = __cordl_internal_set__falseSprite))::UnityW<::UnityEngine::Sprite> _falseSprite;
-
-  /// @brief Field _trueSprite, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__trueSprite, put = __cordl_internal_set__trueSprite))::UnityW<::UnityEngine::Sprite> _trueSprite;
-
   /// @brief Field _conditionalSpriteSwitcher, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__conditionalSpriteSwitcher,
                       put = __cordl_internal_set__conditionalSpriteSwitcher))::UnityW<::GlobalNamespace::ConditionalSpriteSwitcher> _conditionalSpriteSwitcher;
 
-  constexpr int32_t& __cordl_internal_get__day();
+  /// @brief Field _day, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__day, put = __cordl_internal_set__day)) int32_t _day;
 
-  constexpr int32_t const& __cordl_internal_get__day() const;
+  /// @brief Field _falseSprite, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__falseSprite, put = __cordl_internal_set__falseSprite))::UnityW<::UnityEngine::Sprite> _falseSprite;
 
-  constexpr void __cordl_internal_set__day(int32_t value);
+  /// @brief Field _month, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__month, put = __cordl_internal_set__month)) int32_t _month;
 
-  constexpr int32_t& __cordl_internal_get__month();
+  /// @brief Field _trueSprite, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__trueSprite, put = __cordl_internal_set__trueSprite))::UnityW<::UnityEngine::Sprite> _trueSprite;
 
-  constexpr int32_t const& __cordl_internal_get__month() const;
-
-  constexpr void __cordl_internal_set__month(int32_t value);
-
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__falseSprite();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__falseSprite() const;
-
-  constexpr void __cordl_internal_set__falseSprite(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__trueSprite();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__trueSprite() const;
-
-  constexpr void __cordl_internal_set__trueSprite(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ConditionalSpriteSwitcher>& __cordl_internal_get__conditionalSpriteSwitcher();
-
-  constexpr ::UnityW<::GlobalNamespace::ConditionalSpriteSwitcher> const& __cordl_internal_get__conditionalSpriteSwitcher() const;
-
-  constexpr void __cordl_internal_set__conditionalSpriteSwitcher(::UnityW<::GlobalNamespace::ConditionalSpriteSwitcher> value);
-
-  /// @brief Method Awake, addr 0x21817b4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x224fe58, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DateConditionalSpriteSwitcher* New_ctor();
 
-  /// @brief Method .ctor, addr 0x218186c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::ConditionalSpriteSwitcher> const& __cordl_internal_get__conditionalSpriteSwitcher() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ConditionalSpriteSwitcher>& __cordl_internal_get__conditionalSpriteSwitcher();
+
+  constexpr int32_t const& __cordl_internal_get__day() const;
+
+  constexpr int32_t& __cordl_internal_get__day();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__falseSprite() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__falseSprite();
+
+  constexpr int32_t const& __cordl_internal_get__month() const;
+
+  constexpr int32_t& __cordl_internal_get__month();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__trueSprite() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__trueSprite();
+
+  constexpr void __cordl_internal_set__conditionalSpriteSwitcher(::UnityW<::GlobalNamespace::ConditionalSpriteSwitcher> value);
+
+  constexpr void __cordl_internal_set__day(int32_t value);
+
+  constexpr void __cordl_internal_set__falseSprite(::UnityW<::UnityEngine::Sprite> value);
+
+  constexpr void __cordl_internal_set__month(int32_t value);
+
+  constexpr void __cordl_internal_set__trueSprite(::UnityW<::UnityEngine::Sprite> value);
+
+  /// @brief Method .ctor, addr 0x224ff10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DateConditionalSpriteSwitcher();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DateConditionalSpriteSwitcher", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateConditionalSpriteSwitcher(DateConditionalSpriteSwitcher&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DateConditionalSpriteSwitcher(DateConditionalSpriteSwitcher const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateConditionalSpriteSwitcher();
-
-public:
   /// @brief Field _day, offset: 0x18, size: 0x4, def value: None
   int32_t ____day;
 

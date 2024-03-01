@@ -20,38 +20,42 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolLoggingViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5040))
 // CS Name: ::RecordingToolLoggingViewController*
 class CORDL_TYPE RecordingToolLoggingViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _textPageScrollView, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView))::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
-
   /// @brief Field _listLogger, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__listLogger, put = __cordl_internal_set__listLogger))::GlobalNamespace::ListLogger* _listLogger;
 
-  constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView();
+  /// @brief Field _textPageScrollView, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView))::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
 
-  constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
+  /// @brief Method DidActivate, addr 0x23d41e0, size 0x9c, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
+  static inline ::GlobalNamespace::RecordingToolLoggingViewController* New_ctor();
 
   constexpr ::GlobalNamespace::ListLogger*& __cordl_internal_get__listLogger();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ListLogger*> const& __cordl_internal_get__listLogger() const;
 
+  constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
+
+  constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView();
+
   constexpr void __cordl_internal_set__listLogger(::GlobalNamespace::ListLogger* value);
 
-  /// @brief Method DidActivate, addr 0x23063a4, size 0x9c, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+  constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
 
-  static inline ::GlobalNamespace::RecordingToolLoggingViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2306440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d427c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RecordingToolLoggingViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolLoggingViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RecordingToolLoggingViewController(RecordingToolLoggingViewController&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RecordingToolLoggingViewController(RecordingToolLoggingViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingToolLoggingViewController();
-
-public:
   /// @brief Field _textPageScrollView, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
 

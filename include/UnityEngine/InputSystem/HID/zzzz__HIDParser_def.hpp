@@ -63,23 +63,21 @@ MARK_VAL_T(::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5652))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5665))
 // CS Name: ::HIDParser::HIDReportData
 struct CORDL_TYPE __HIDParser__HIDReportData {
 public:
   // Declarations
-  /// @brief Method FindOrAddReport, addr 0x2ae0670, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method FindOrAddReport, addr 0x2bc6744, size 0x18c, virtual false, abstract: false, final false
   static inline int32_t FindOrAddReport(::System::Nullable_1<int32_t> reportId, ::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType,
                                         ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData>* reports);
-
-  // Ctor Parameters [CppParam { name: "reportId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportType", ty: "::UnityEngine::InputSystem::HID::__HID__HIDReportType",
-  // modifiers: "", def_value: None }, CppParam { name: "currentBitOffset", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HIDParser__HIDReportData(int32_t reportId, ::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType, int32_t currentBitOffset) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HIDParser__HIDReportData();
+
+  // Ctor Parameters [CppParam { name: "reportId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "reportType", ty: "::UnityEngine::InputSystem::HID::__HID__HIDReportType",
+  // modifiers: "", def_value: None }, CppParam { name: "currentBitOffset", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HIDParser__HIDReportData(int32_t reportId, ::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType, int32_t currentBitOffset) noexcept;
 
   /// @brief Field reportId, offset: 0x0, size: 0x4, def value: None
   int32_t reportId;
@@ -109,8 +107,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDReportDa
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5666))
 // CS Name: ::HIDParser::HIDItemTypeAndTag
 struct CORDL_TYPE __HIDParser__HIDItemTypeAndTag {
 public:
@@ -153,99 +149,104 @@ public:
     return static_cast<____HIDParser__HIDItemTypeAndTag_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HIDParser__HIDItemTypeAndTag(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____HIDParser__HIDItemTypeAndTag_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HIDParser__HIDItemTypeAndTag();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HIDParser__HIDItemTypeAndTag(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Input value: static_cast<int32_t>(0x80)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Input;
-
-  /// @brief Field Output value: static_cast<int32_t>(0x90)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Output;
-
-  /// @brief Field Feature value: static_cast<int32_t>(0xb0)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Feature;
 
   /// @brief Field Collection value: static_cast<int32_t>(0xa0)
   static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Collection;
 
-  /// @brief Field EndCollection value: static_cast<int32_t>(0xc0)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const EndCollection;
-
-  /// @brief Field UsagePage value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const UsagePage;
-
-  /// @brief Field LogicalMinimum value: static_cast<int32_t>(0x14)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const LogicalMinimum;
-
-  /// @brief Field LogicalMaximum value: static_cast<int32_t>(0x24)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const LogicalMaximum;
-
-  /// @brief Field PhysicalMinimum value: static_cast<int32_t>(0x34)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const PhysicalMinimum;
-
-  /// @brief Field PhysicalMaximum value: static_cast<int32_t>(0x44)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const PhysicalMaximum;
-
-  /// @brief Field UnitExponent value: static_cast<int32_t>(0x54)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const UnitExponent;
-
-  /// @brief Field Unit value: static_cast<int32_t>(0x64)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Unit;
-
-  /// @brief Field ReportSize value: static_cast<int32_t>(0x74)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const ReportSize;
-
-  /// @brief Field ReportID value: static_cast<int32_t>(0x84)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const ReportID;
-
-  /// @brief Field ReportCount value: static_cast<int32_t>(0x94)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const ReportCount;
-
-  /// @brief Field Push value: static_cast<int32_t>(0xa4)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Push;
-
-  /// @brief Field Pop value: static_cast<int32_t>(0xb4)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Pop;
-
-  /// @brief Field Usage value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Usage;
-
-  /// @brief Field UsageMinimum value: static_cast<int32_t>(0x18)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const UsageMinimum;
-
-  /// @brief Field UsageMaximum value: static_cast<int32_t>(0x28)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const UsageMaximum;
+  /// @brief Field Delimiter value: static_cast<int32_t>(0xa8)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Delimiter;
 
   /// @brief Field DesignatorIndex value: static_cast<int32_t>(0x38)
   static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const DesignatorIndex;
 
+  /// @brief Field DesignatorMaximum value: static_cast<int32_t>(0x58)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const DesignatorMaximum;
+
   /// @brief Field DesignatorMinimum value: static_cast<int32_t>(0x48)
   static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const DesignatorMinimum;
 
-  /// @brief Field DesignatorMaximum value: static_cast<int32_t>(0x58)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const DesignatorMaximum;
+  /// @brief Field EndCollection value: static_cast<int32_t>(0xc0)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const EndCollection;
+
+  /// @brief Field Feature value: static_cast<int32_t>(0xb0)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Feature;
+
+  /// @brief Field Input value: static_cast<int32_t>(0x80)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Input;
+
+  /// @brief Field LogicalMaximum value: static_cast<int32_t>(0x24)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const LogicalMaximum;
+
+  /// @brief Field LogicalMinimum value: static_cast<int32_t>(0x14)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const LogicalMinimum;
+
+  /// @brief Field Output value: static_cast<int32_t>(0x90)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Output;
+
+  /// @brief Field PhysicalMaximum value: static_cast<int32_t>(0x44)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const PhysicalMaximum;
+
+  /// @brief Field PhysicalMinimum value: static_cast<int32_t>(0x34)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const PhysicalMinimum;
+
+  /// @brief Field Pop value: static_cast<int32_t>(0xb4)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Pop;
+
+  /// @brief Field Push value: static_cast<int32_t>(0xa4)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Push;
+
+  /// @brief Field ReportCount value: static_cast<int32_t>(0x94)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const ReportCount;
+
+  /// @brief Field ReportID value: static_cast<int32_t>(0x84)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const ReportID;
+
+  /// @brief Field ReportSize value: static_cast<int32_t>(0x74)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const ReportSize;
 
   /// @brief Field StringIndex value: static_cast<int32_t>(0x78)
   static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const StringIndex;
 
-  /// @brief Field StringMinimum value: static_cast<int32_t>(0x88)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const StringMinimum;
-
   /// @brief Field StringMaximum value: static_cast<int32_t>(0x98)
   static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const StringMaximum;
 
-  /// @brief Field Delimiter value: static_cast<int32_t>(0xa8)
-  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Delimiter;
+  /// @brief Field StringMinimum value: static_cast<int32_t>(0x88)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const StringMinimum;
+
+  /// @brief Field Unit value: static_cast<int32_t>(0x64)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Unit;
+
+  /// @brief Field UnitExponent value: static_cast<int32_t>(0x54)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const UnitExponent;
+
+  /// @brief Field Usage value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const Usage;
+
+  /// @brief Field UsageMaximum value: static_cast<int32_t>(0x28)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const UsageMaximum;
+
+  /// @brief Field UsageMinimum value: static_cast<int32_t>(0x18)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const UsageMinimum;
+
+  /// @brief Field UsagePage value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const UsagePage;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -259,20 +260,22 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemType
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 103 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5667))
 // CS Name: ::HIDParser::HIDItemStateLocal
 struct CORDL_TYPE __HIDParser__HIDItemStateLocal {
 public:
   // Declarations
-  /// @brief Method Reset, addr 0x2ae0610, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetUsage, addr 0x2bc65cc, size 0x118, virtual false, abstract: false, final false
+  inline int32_t GetUsage(int32_t index);
+
+  /// @brief Method Reset, addr 0x2bc66e4, size 0x60, virtual false, abstract: false, final false
   static inline void Reset(ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> state);
 
-  /// @brief Method SetUsage, addr 0x2ae0314, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetUsage, addr 0x2bc63e8, size 0x158, virtual false, abstract: false, final false
   inline void SetUsage(int32_t value);
 
-  /// @brief Method GetUsage, addr 0x2ae04f8, size 0x118, virtual false, abstract: false, final false
-  inline int32_t GetUsage(int32_t index);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HIDParser__HIDItemStateLocal();
 
   // Ctor Parameters [CppParam { name: "usage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "usageMinimum", ty: "::System::Nullable_1<int32_t>", modifiers:
   // "", def_value: None }, CppParam { name: "usageMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "designatorIndex", ty:
@@ -284,10 +287,6 @@ public:
                                            ::System::Nullable_1<int32_t> designatorIndex, ::System::Nullable_1<int32_t> designatorMinimum, ::System::Nullable_1<int32_t> designatorMaximum,
                                            ::System::Nullable_1<int32_t> stringIndex, ::System::Nullable_1<int32_t> stringMinimum, ::System::Nullable_1<int32_t> stringMaximum,
                                            ::System::Collections::Generic::List_1<int32_t>* usageList) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HIDParser__HIDItemStateLocal();
 
   /// @brief Field usage, offset: 0x0, size: 0x8, def value: None
   ::System::Nullable_1<int32_t> usage;
@@ -352,20 +351,22 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStat
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 103 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5668))
 // CS Name: ::HIDParser::HIDItemStateGlobal
 struct CORDL_TYPE __HIDParser__HIDItemStateGlobal {
 public:
   // Declarations
-  /// @brief Method GetUsagePage, addr 0x2ae046c, size 0x8c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::HID::__HID__UsagePage GetUsagePage(int32_t index, ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> localItemState);
+  /// @brief Method GetPhysicalMax, addr 0x2bc6994, size 0xb4, virtual false, abstract: false, final false
+  inline int32_t GetPhysicalMax();
 
-  /// @brief Method GetPhysicalMin, addr 0x2ae07fc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicalMin, addr 0x2bc68d0, size 0xc4, virtual false, abstract: false, final false
   inline int32_t GetPhysicalMin();
 
-  /// @brief Method GetPhysicalMax, addr 0x2ae08c0, size 0xb4, virtual false, abstract: false, final false
-  inline int32_t GetPhysicalMax();
+  /// @brief Method GetUsagePage, addr 0x2bc6540, size 0x8c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::HID::__HID__UsagePage GetUsagePage(int32_t index, ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> localItemState);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HIDParser__HIDItemStateGlobal();
 
   // Ctor Parameters [CppParam { name: "usagePage", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "logicalMinimum", ty: "::System::Nullable_1<int32_t>",
   // modifiers: "", def_value: None }, CppParam { name: "logicalMaximum", ty: "::System::Nullable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "physicalMinimum", ty:
@@ -377,10 +378,6 @@ public:
                                             ::System::Nullable_1<int32_t> physicalMinimum, ::System::Nullable_1<int32_t> physicalMaximum, ::System::Nullable_1<int32_t> unitExponent,
                                             ::System::Nullable_1<int32_t> unit, ::System::Nullable_1<int32_t> reportSize, ::System::Nullable_1<int32_t> reportCount,
                                             ::System::Nullable_1<int32_t> reportId) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HIDParser__HIDItemStateGlobal();
 
   /// @brief Field usagePage, offset: 0x0, size: 0x8, def value: None
   ::System::Nullable_1<int32_t> usagePage;
@@ -445,8 +442,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStat
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5669))
 // CS Name: ::UnityEngine.InputSystem.HID::HIDParser*
 class CORDL_TYPE HIDParser : public ::System::Object {
 public:
@@ -459,15 +454,21 @@ public:
 
   using HIDReportData = ::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData;
 
-  /// @brief Method ParseReportDescriptor, addr 0x2ae022c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ParseReportDescriptor, addr 0x2bc6300, size 0x70, virtual false, abstract: false, final false
   static inline bool ParseReportDescriptor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor> deviceDescriptor);
 
-  /// @brief Method ParseReportDescriptor, addr 0x2adcb68, size 0xc44, virtual false, abstract: false, final false
+  /// @brief Method ParseReportDescriptor, addr 0x2bc2c3c, size 0xc44, virtual false, abstract: false, final false
   static inline bool ParseReportDescriptor(::cordl_internals::Ptr<uint8_t> bufferPtr, int32_t bufferLength, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor> deviceDescriptor);
 
-  /// @brief Method ReadData, addr 0x2ae029c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x2bc6370, size 0x78, virtual false, abstract: false, final false
   static inline int32_t ReadData(int32_t itemSize, ::cordl_internals::Ptr<uint8_t> currentPtr, ::cordl_internals::Ptr<uint8_t> endPtr);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HIDParser();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HIDParser", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HIDParser(HIDParser&&) = delete;
@@ -476,12 +477,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HIDParser(HIDParser const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HIDParser();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -31,8 +31,6 @@ MARK_REF_PTR_T(::BeatSaber::TrackDefinitions::EventTrackDefinitionSO);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16138))
 // CS Name: ::EventTrackDefinitionSO::DataTransformationType
 struct CORDL_TYPE __EventTrackDefinitionSO__DataTransformationType {
 public:
@@ -54,27 +52,29 @@ public:
     return static_cast<____EventTrackDefinitionSO__DataTransformationType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __EventTrackDefinitionSO__DataTransformationType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____EventTrackDefinitionSO__DataTransformationType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __EventTrackDefinitionSO__DataTransformationType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __EventTrackDefinitionSO__DataTransformationType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field NoTransformation value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const NoTransformation;
+  /// @brief Field DeltaRotation value: static_cast<int32_t>(0x2)
+  static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const DeltaRotation;
 
   /// @brief Field Light value: static_cast<int32_t>(0x1)
   static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const Light;
 
-  /// @brief Field DeltaRotation value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const DeltaRotation;
+  /// @brief Field NoTransformation value: static_cast<int32_t>(0x0)
+  static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const NoTransformation;
 
   /// @brief Field Switch value: static_cast<int32_t>(0x3)
   static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const Switch;
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field ValueDuration value: static_cast<int32_t>(0x5)
   static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const ValueDuration;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -97,8 +100,6 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16139))
 // CS Name: ::EventTrackDefinitionSO::MarkerType
 struct CORDL_TYPE __EventTrackDefinitionSO__MarkerType {
 public:
@@ -119,18 +120,20 @@ public:
     return static_cast<____EventTrackDefinitionSO__MarkerType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __EventTrackDefinitionSO__MarkerType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____EventTrackDefinitionSO__MarkerType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __EventTrackDefinitionSO__MarkerType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __EventTrackDefinitionSO__MarkerType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field BasicMarker value: static_cast<int32_t>(0x0)
   static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType const BasicMarker;
@@ -147,6 +150,9 @@ public:
   /// @brief Field TooltipMarker value: static_cast<int32_t>(0x4)
   static ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType const TooltipMarker;
 
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -159,15 +165,13 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602)), TypeDefinitionIndex(TypeDefinitionIndex(16138)), TypeDefinitionIndex(TypeDefinitionIndex(16139))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16140))
 // CS Name: ::BeatSaber.TrackDefinitions::EventTrackDefinitionSO*
 class CORDL_TYPE EventTrackDefinitionSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  using MarkerType = ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType;
-
   using DataTransformationType = ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType;
+
+  using MarkerType = ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType;
 
   /// @brief Field _dataTransformationType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__dataTransformationType,
@@ -176,13 +180,11 @@ public:
   /// @brief Field _markerType, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__markerType, put = __cordl_internal_set__markerType))::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType _markerType;
 
-  /// @brief Field _visible, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__visible, put = __cordl_internal_set__visible)) bool _visible;
-
   /// @brief Field _needsFiltering, offset 0x21, size 0x1
   __declspec(property(get = __cordl_internal_get__needsFiltering, put = __cordl_internal_set__needsFiltering)) bool _needsFiltering;
 
-  __declspec(property(get = get_visible)) bool visible;
+  /// @brief Field _visible, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__visible, put = __cordl_internal_set__visible)) bool _visible;
 
   __declspec(property(get = get_dataTransformation))::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType dataTransformation;
 
@@ -190,47 +192,55 @@ public:
 
   __declspec(property(get = get_needsFiltering)) bool needsFiltering;
 
-  constexpr ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType& __cordl_internal_get__dataTransformationType();
-
-  constexpr ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const& __cordl_internal_get__dataTransformationType() const;
-
-  constexpr void __cordl_internal_set__dataTransformationType(::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType value);
-
-  constexpr ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType& __cordl_internal_get__markerType();
-
-  constexpr ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType const& __cordl_internal_get__markerType() const;
-
-  constexpr void __cordl_internal_set__markerType(::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType value);
-
-  constexpr bool& __cordl_internal_get__visible();
-
-  constexpr bool const& __cordl_internal_get__visible() const;
-
-  constexpr void __cordl_internal_set__visible(bool value);
-
-  constexpr bool& __cordl_internal_get__needsFiltering();
-
-  constexpr bool const& __cordl_internal_get__needsFiltering() const;
-
-  constexpr void __cordl_internal_set__needsFiltering(bool value);
-
-  /// @brief Method get_visible, addr 0xe3d60c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_visible();
-
-  /// @brief Method get_dataTransformation, addr 0xe3d614, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType get_dataTransformation();
-
-  /// @brief Method get_markerType, addr 0xe3d61c, size 0x8, virtual false, abstract: false, final false
-  inline ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType get_markerType();
-
-  /// @brief Method get_needsFiltering, addr 0xe3d624, size 0x8, virtual false, abstract: false, final false
-  inline bool get_needsFiltering();
+  __declspec(property(get = get_visible)) bool visible;
 
   static inline ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe3d62c, size 0x8, virtual false, abstract: false, final false
+  constexpr ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const& __cordl_internal_get__dataTransformationType() const;
+
+  constexpr ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType& __cordl_internal_get__dataTransformationType();
+
+  constexpr ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType const& __cordl_internal_get__markerType() const;
+
+  constexpr ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType& __cordl_internal_get__markerType();
+
+  constexpr bool const& __cordl_internal_get__needsFiltering() const;
+
+  constexpr bool& __cordl_internal_get__needsFiltering();
+
+  constexpr bool const& __cordl_internal_get__visible() const;
+
+  constexpr bool& __cordl_internal_get__visible();
+
+  constexpr void __cordl_internal_set__dataTransformationType(::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType value);
+
+  constexpr void __cordl_internal_set__markerType(::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType value);
+
+  constexpr void __cordl_internal_set__needsFiltering(bool value);
+
+  constexpr void __cordl_internal_set__visible(bool value);
+
+  /// @brief Method .ctor, addr 0xe835fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_dataTransformation, addr 0xe835e4, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType get_dataTransformation();
+
+  /// @brief Method get_markerType, addr 0xe835ec, size 0x8, virtual false, abstract: false, final false
+  inline ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType get_markerType();
+
+  /// @brief Method get_needsFiltering, addr 0xe835f4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_needsFiltering();
+
+  /// @brief Method get_visible, addr 0xe835dc, size 0x8, virtual false, abstract: false, final false
+  inline bool get_visible();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventTrackDefinitionSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventTrackDefinitionSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventTrackDefinitionSO(EventTrackDefinitionSO&&) = delete;
@@ -239,12 +249,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventTrackDefinitionSO(EventTrackDefinitionSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventTrackDefinitionSO();
-
-public:
   /// @brief Field _dataTransformationType, offset: 0x18, size: 0x4, def value: None
   ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType ____dataTransformationType;
 

@@ -15,18 +15,16 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Screenshot_t);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8624))
 // CS Name: ::OVR.OpenVR::VREvent_Screenshot_t
 struct CORDL_TYPE VREvent_Screenshot_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "handle", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr VREvent_Screenshot_t(uint32_t handle, uint32_t type) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VREvent_Screenshot_t();
+
+  // Ctor Parameters [CppParam { name: "handle", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr VREvent_Screenshot_t(uint32_t handle, uint32_t type) noexcept;
 
   /// @brief Field handle, offset: 0x0, size: 0x4, def value: None
   uint32_t handle;

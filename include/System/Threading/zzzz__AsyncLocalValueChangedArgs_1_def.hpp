@@ -16,27 +16,25 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2659))
 // CS Name: ::System.Threading::AsyncLocalValueChangedArgs`1<T>
 struct CORDL_TYPE AsyncLocalValueChangedArgs_1 {
 public:
   // Declarations
   __declspec(property(get = get_CurrentValue)) T CurrentValue;
 
-  /// @brief Method get_CurrentValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T get_CurrentValue();
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T previousValue, T currentValue, bool contextChanged);
 
-  // Ctor Parameters [CppParam { name: "_PreviousValue_k__BackingField", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_CurrentValue_k__BackingField", ty: "T", modifiers: "", def_value:
-  // None }, CppParam { name: "_ThreadContextChanged_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
-  constexpr AsyncLocalValueChangedArgs_1(T _PreviousValue_k__BackingField, T _CurrentValue_k__BackingField, bool _ThreadContextChanged_k__BackingField) noexcept;
+  /// @brief Method get_CurrentValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_CurrentValue();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AsyncLocalValueChangedArgs_1();
+
+  // Ctor Parameters [CppParam { name: "_PreviousValue_k__BackingField", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_CurrentValue_k__BackingField", ty: "T", modifiers: "", def_value:
+  // None }, CppParam { name: "_ThreadContextChanged_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
+  constexpr AsyncLocalValueChangedArgs_1(T _PreviousValue_k__BackingField, T _CurrentValue_k__BackingField, bool _ThreadContextChanged_k__BackingField) noexcept;
 
   /// @brief Field <PreviousValue>k__BackingField, offset: 0x0, size: 0x8, def value: None
   T _PreviousValue_k__BackingField;

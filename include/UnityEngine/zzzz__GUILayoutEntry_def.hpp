@@ -25,46 +25,25 @@ MARK_REF_PTR_T(::UnityEngine::GUILayoutEntry);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8909))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14597))
 // CS Name: ::UnityEngine::GUILayoutEntry*
 class CORDL_TYPE GUILayoutEntry : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field minWidth, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_minWidth, put = __cordl_internal_set_minWidth)) float_t minWidth;
-
-  /// @brief Field maxWidth, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxWidth, put = __cordl_internal_set_maxWidth)) float_t maxWidth;
-
-  /// @brief Field minHeight, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_minHeight, put = __cordl_internal_set_minHeight)) float_t minHeight;
-
-  /// @brief Field maxHeight, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxHeight, put = __cordl_internal_set_maxHeight)) float_t maxHeight;
-
-  /// @brief Field rect, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect))::UnityEngine::Rect rect;
-
-  /// @brief Field stretchWidth, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_stretchWidth, put = __cordl_internal_set_stretchWidth)) int32_t stretchWidth;
-
-  /// @brief Field stretchHeight, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_stretchHeight, put = __cordl_internal_set_stretchHeight)) int32_t stretchHeight;
-
   /// @brief Field consideredForMargin, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_consideredForMargin, put = __cordl_internal_set_consideredForMargin)) bool consideredForMargin;
-
-  /// @brief Field m_Style, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Style, put = __cordl_internal_set_m_Style))::UnityEngine::GUIStyle* m_Style;
-
-  /// @brief Field kDummyRect, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_kDummyRect, put = setStaticF_kDummyRect))::UnityEngine::Rect kDummyRect;
 
   /// @brief Field indent, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_indent, put = setStaticF_indent)) int32_t indent;
 
-  __declspec(property(get = get_style, put = set_style))::UnityEngine::GUIStyle* style;
+  /// @brief Field kDummyRect, offset 0xffffffff, size 0x10
+  static __declspec(property(get = getStaticF_kDummyRect, put = setStaticF_kDummyRect))::UnityEngine::Rect kDummyRect;
+
+  /// @brief Field m_Style, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Style, put = __cordl_internal_set_m_Style))::UnityEngine::GUIStyle* m_Style;
+
+  __declspec(property(get = get_marginBottom)) int32_t marginBottom;
+
+  __declspec(property(get = get_marginHorizontal)) int32_t marginHorizontal;
 
   __declspec(property(get = get_marginLeft)) int32_t marginLeft;
 
@@ -72,131 +51,156 @@ public:
 
   __declspec(property(get = get_marginTop)) int32_t marginTop;
 
-  __declspec(property(get = get_marginBottom)) int32_t marginBottom;
-
-  __declspec(property(get = get_marginHorizontal)) int32_t marginHorizontal;
-
   __declspec(property(get = get_marginVertical)) int32_t marginVertical;
 
-  constexpr float_t& __cordl_internal_get_minWidth();
+  /// @brief Field maxHeight, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxHeight, put = __cordl_internal_set_maxHeight)) float_t maxHeight;
 
-  constexpr float_t const& __cordl_internal_get_minWidth() const;
+  /// @brief Field maxWidth, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_maxWidth, put = __cordl_internal_set_maxWidth)) float_t maxWidth;
 
-  constexpr void __cordl_internal_set_minWidth(float_t value);
+  /// @brief Field minHeight, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_minHeight, put = __cordl_internal_set_minHeight)) float_t minHeight;
 
-  constexpr float_t& __cordl_internal_get_maxWidth();
+  /// @brief Field minWidth, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_minWidth, put = __cordl_internal_set_minWidth)) float_t minWidth;
 
-  constexpr float_t const& __cordl_internal_get_maxWidth() const;
+  /// @brief Field rect, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect))::UnityEngine::Rect rect;
 
-  constexpr void __cordl_internal_set_maxWidth(float_t value);
+  /// @brief Field stretchHeight, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_stretchHeight, put = __cordl_internal_set_stretchHeight)) int32_t stretchHeight;
 
-  constexpr float_t& __cordl_internal_get_minHeight();
+  /// @brief Field stretchWidth, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_stretchWidth, put = __cordl_internal_set_stretchWidth)) int32_t stretchWidth;
 
-  constexpr float_t const& __cordl_internal_get_minHeight() const;
+  __declspec(property(get = get_style, put = set_style))::UnityEngine::GUIStyle* style;
 
-  constexpr void __cordl_internal_set_minHeight(float_t value);
+  /// @brief Method ApplyOptions, addr 0x2df36ec, size 0x2d4, virtual true, abstract: false, final false
+  inline void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  constexpr float_t& __cordl_internal_get_maxHeight();
+  /// @brief Method ApplyStyleSettings, addr 0x2df3660, size 0x8c, virtual true, abstract: false, final false
+  inline void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
 
-  constexpr float_t const& __cordl_internal_get_maxHeight() const;
+  /// @brief Method CalcHeight, addr 0x2df35f4, size 0x4, virtual true, abstract: false, final false
+  inline void CalcHeight();
 
-  constexpr void __cordl_internal_set_maxHeight(float_t value);
+  /// @brief Method CalcWidth, addr 0x2df35f0, size 0x4, virtual true, abstract: false, final false
+  inline void CalcWidth();
 
-  constexpr ::UnityEngine::Rect& __cordl_internal_get_rect();
+  static inline ::UnityEngine::GUILayoutEntry* New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style);
 
-  constexpr ::UnityEngine::Rect const& __cordl_internal_get_rect() const;
+  static inline ::UnityEngine::GUILayoutEntry* New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style,
+                                                        ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  constexpr void __cordl_internal_set_rect(::UnityEngine::Rect value);
+  /// @brief Method SetHorizontal, addr 0x2df35f8, size 0x34, virtual true, abstract: false, final false
+  inline void SetHorizontal(float_t x, float_t width);
 
-  constexpr int32_t& __cordl_internal_get_stretchWidth();
+  /// @brief Method SetVertical, addr 0x2df362c, size 0x34, virtual true, abstract: false, final false
+  inline void SetVertical(float_t y, float_t height);
 
-  constexpr int32_t const& __cordl_internal_get_stretchWidth() const;
-
-  constexpr void __cordl_internal_set_stretchWidth(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_stretchHeight();
-
-  constexpr int32_t const& __cordl_internal_get_stretchHeight() const;
-
-  constexpr void __cordl_internal_set_stretchHeight(int32_t value);
-
-  constexpr bool& __cordl_internal_get_consideredForMargin();
+  /// @brief Method ToString, addr 0x2df39c0, size 0x5e0, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_consideredForMargin() const;
 
-  constexpr void __cordl_internal_set_consideredForMargin(bool value);
+  constexpr bool& __cordl_internal_get_consideredForMargin();
 
   constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_Style();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_Style() const;
 
+  constexpr float_t const& __cordl_internal_get_maxHeight() const;
+
+  constexpr float_t& __cordl_internal_get_maxHeight();
+
+  constexpr float_t const& __cordl_internal_get_maxWidth() const;
+
+  constexpr float_t& __cordl_internal_get_maxWidth();
+
+  constexpr float_t const& __cordl_internal_get_minHeight() const;
+
+  constexpr float_t& __cordl_internal_get_minHeight();
+
+  constexpr float_t const& __cordl_internal_get_minWidth() const;
+
+  constexpr float_t& __cordl_internal_get_minWidth();
+
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_rect() const;
+
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_rect();
+
+  constexpr int32_t const& __cordl_internal_get_stretchHeight() const;
+
+  constexpr int32_t& __cordl_internal_get_stretchHeight();
+
+  constexpr int32_t const& __cordl_internal_get_stretchWidth() const;
+
+  constexpr int32_t& __cordl_internal_get_stretchWidth();
+
+  constexpr void __cordl_internal_set_consideredForMargin(bool value);
+
   constexpr void __cordl_internal_set_m_Style(::UnityEngine::GUIStyle* value);
 
-  static inline void setStaticF_kDummyRect(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_maxHeight(float_t value);
 
-  static inline ::UnityEngine::Rect getStaticF_kDummyRect();
+  constexpr void __cordl_internal_set_maxWidth(float_t value);
 
-  static inline void setStaticF_indent(int32_t value);
+  constexpr void __cordl_internal_set_minHeight(float_t value);
 
-  static inline int32_t getStaticF_indent();
+  constexpr void __cordl_internal_set_minWidth(float_t value);
 
-  /// @brief Method get_style, addr 0x2d06b84, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GUIStyle* get_style();
+  constexpr void __cordl_internal_set_rect(::UnityEngine::Rect value);
 
-  /// @brief Method set_style, addr 0x2d06b8c, size 0x10, virtual false, abstract: false, final false
-  inline void set_style(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_stretchHeight(int32_t value);
 
-  /// @brief Method get_marginLeft, addr 0x2d06b9c, size 0x28, virtual true, abstract: false, final false
-  inline int32_t get_marginLeft();
+  constexpr void __cordl_internal_set_stretchWidth(int32_t value);
 
-  /// @brief Method get_marginRight, addr 0x2d06bc4, size 0x28, virtual true, abstract: false, final false
-  inline int32_t get_marginRight();
-
-  /// @brief Method get_marginTop, addr 0x2d06bec, size 0x28, virtual true, abstract: false, final false
-  inline int32_t get_marginTop();
-
-  /// @brief Method get_marginBottom, addr 0x2d06c14, size 0x28, virtual true, abstract: false, final false
-  inline int32_t get_marginBottom();
-
-  /// @brief Method get_marginHorizontal, addr 0x2d06c3c, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_marginHorizontal();
-
-  /// @brief Method get_marginVertical, addr 0x2d06c78, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_marginVertical();
-
-  static inline ::UnityEngine::GUILayoutEntry* New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style);
-
-  /// @brief Method .ctor, addr 0x2d06cb4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df33dc, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style);
 
-  static inline ::UnityEngine::GUILayoutEntry* New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style,
-                                                        ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
-
-  /// @brief Method .ctor, addr 0x2d06dc0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2df34e8, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style,
                     ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method CalcWidth, addr 0x2d06ec8, size 0x4, virtual true, abstract: false, final false
-  inline void CalcWidth();
+  static inline int32_t getStaticF_indent();
 
-  /// @brief Method CalcHeight, addr 0x2d06ecc, size 0x4, virtual true, abstract: false, final false
-  inline void CalcHeight();
+  static inline ::UnityEngine::Rect getStaticF_kDummyRect();
 
-  /// @brief Method SetHorizontal, addr 0x2d06ed0, size 0x34, virtual true, abstract: false, final false
-  inline void SetHorizontal(float_t x, float_t width);
+  /// @brief Method get_marginBottom, addr 0x2df333c, size 0x28, virtual true, abstract: false, final false
+  inline int32_t get_marginBottom();
 
-  /// @brief Method SetVertical, addr 0x2d06f04, size 0x34, virtual true, abstract: false, final false
-  inline void SetVertical(float_t y, float_t height);
+  /// @brief Method get_marginHorizontal, addr 0x2df3364, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_marginHorizontal();
 
-  /// @brief Method ApplyStyleSettings, addr 0x2d06f38, size 0x8c, virtual true, abstract: false, final false
-  inline void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
+  /// @brief Method get_marginLeft, addr 0x2df32c4, size 0x28, virtual true, abstract: false, final false
+  inline int32_t get_marginLeft();
 
-  /// @brief Method ApplyOptions, addr 0x2d06fc4, size 0x2d4, virtual true, abstract: false, final false
-  inline void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
+  /// @brief Method get_marginRight, addr 0x2df32ec, size 0x28, virtual true, abstract: false, final false
+  inline int32_t get_marginRight();
 
-  /// @brief Method ToString, addr 0x2d07298, size 0x5e0, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  /// @brief Method get_marginTop, addr 0x2df3314, size 0x28, virtual true, abstract: false, final false
+  inline int32_t get_marginTop();
 
+  /// @brief Method get_marginVertical, addr 0x2df33a0, size 0x3c, virtual false, abstract: false, final false
+  inline int32_t get_marginVertical();
+
+  /// @brief Method get_style, addr 0x2df32ac, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::GUIStyle* get_style();
+
+  static inline void setStaticF_indent(int32_t value);
+
+  static inline void setStaticF_kDummyRect(::UnityEngine::Rect value);
+
+  /// @brief Method set_style, addr 0x2df32b4, size 0x10, virtual false, abstract: false, final false
+  inline void set_style(::UnityEngine::GUIStyle* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GUILayoutEntry();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GUILayoutEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUILayoutEntry(GUILayoutEntry&&) = delete;
@@ -205,12 +209,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GUILayoutEntry(GUILayoutEntry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUILayoutEntry();
-
-public:
   /// @brief Field minWidth, offset: 0x10, size: 0x4, def value: None
   float_t ___minWidth;
 

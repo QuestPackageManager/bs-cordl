@@ -26,21 +26,19 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::State);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6598))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6700))
 // CS Name: ::UnityEngine.UIElements.UIR::State
 struct CORDL_TYPE State {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr State();
+
   // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "font", ty: "::UnityW<::UnityEngine::Texture>",
   // modifiers: "", def_value: None }, CppParam { name: "fontTexSDFScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityEngine::UIElements::TextureId",
   // modifiers: "", def_value: None }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr State(::UnityW<::UnityEngine::Material> material, ::UnityW<::UnityEngine::Texture> font, float_t fontTexSDFScale, ::UnityEngine::UIElements::TextureId texture,
                   int32_t stencilRef) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr State();
 
   /// @brief Field material, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> material;

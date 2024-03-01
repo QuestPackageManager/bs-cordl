@@ -23,19 +23,17 @@ MARK_VAL_T(::System::DateTimeToken);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2387)), TypeDefinitionIndex(TypeDefinitionIndex(2401))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2395))
 // CS Name: ::System::DateTimeToken
 struct CORDL_TYPE DateTimeToken {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "dtt", ty: "::System::__DateTimeParse__DTT", modifiers: "", def_value: None }, CppParam { name: "suffix", ty: "::System::TokenType", modifiers: "", def_value:
-  // None }, CppParam { name: "num", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr DateTimeToken(::System::__DateTimeParse__DTT dtt, ::System::TokenType suffix, int32_t num) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr DateTimeToken();
+
+  // Ctor Parameters [CppParam { name: "dtt", ty: "::System::__DateTimeParse__DTT", modifiers: "", def_value: None }, CppParam { name: "suffix", ty: "::System::TokenType", modifiers: "", def_value:
+  // None }, CppParam { name: "num", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr DateTimeToken(::System::__DateTimeParse__DTT dtt, ::System::TokenType suffix, int32_t num) noexcept;
 
   /// @brief Field dtt, offset: 0x0, size: 0x4, def value: None
   ::System::__DateTimeParse__DTT dtt;

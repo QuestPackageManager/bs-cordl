@@ -15,34 +15,32 @@ MARK_VAL_T(::UnityEngine::SoftJointLimitSpring);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13946))
 // CS Name: ::UnityEngine::SoftJointLimitSpring
 struct CORDL_TYPE SoftJointLimitSpring {
 public:
   // Declarations
-  __declspec(property(get = get_spring, put = set_spring)) float_t spring;
-
   __declspec(property(get = get_damper, put = set_damper)) float_t damper;
 
-  /// @brief Method get_spring, addr 0x2d3884c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_spring();
+  __declspec(property(get = get_spring, put = set_spring)) float_t spring;
 
-  /// @brief Method set_spring, addr 0x2d38854, size 0x8, virtual false, abstract: false, final false
-  inline void set_spring(float_t value);
-
-  /// @brief Method get_damper, addr 0x2d3885c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_damper, addr 0x2e24f84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_damper();
 
-  /// @brief Method set_damper, addr 0x2d38864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x2e24f74, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_spring();
+
+  /// @brief Method set_damper, addr 0x2e24f8c, size 0x8, virtual false, abstract: false, final false
   inline void set_damper(float_t value);
 
-  // Ctor Parameters [CppParam { name: "m_Spring", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Damper", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr SoftJointLimitSpring(float_t m_Spring, float_t m_Damper) noexcept;
+  /// @brief Method set_spring, addr 0x2e24f7c, size 0x8, virtual false, abstract: false, final false
+  inline void set_spring(float_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SoftJointLimitSpring();
+
+  // Ctor Parameters [CppParam { name: "m_Spring", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Damper", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr SoftJointLimitSpring(float_t m_Spring, float_t m_Damper) noexcept;
 
   /// @brief Field m_Spring, offset: 0x0, size: 0x4, def value: None
   float_t m_Spring;

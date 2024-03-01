@@ -18,56 +18,60 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonToken);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11972))
 // CS Name: ::Newtonsoft.Json.Bson::BsonToken*
 class CORDL_TYPE BsonToken : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <Parent>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Parent_k__BackingField, put = __cordl_internal_set__Parent_k__BackingField))::Newtonsoft::Json::Bson::BsonToken* _Parent_k__BackingField;
+  __declspec(property(get = get_CalculatedSize, put = set_CalculatedSize)) int32_t CalculatedSize;
+
+  __declspec(property(get = get_Parent, put = set_Parent))::Newtonsoft::Json::Bson::BsonToken* Parent;
+
+  __declspec(property(get = get_Type))::Newtonsoft::Json::Bson::BsonType Type;
 
   /// @brief Field <CalculatedSize>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__CalculatedSize_k__BackingField, put = __cordl_internal_set__CalculatedSize_k__BackingField)) int32_t _CalculatedSize_k__BackingField;
 
-  __declspec(property(get = get_Type))::Newtonsoft::Json::Bson::BsonType Type;
+  /// @brief Field <Parent>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Parent_k__BackingField, put = __cordl_internal_set__Parent_k__BackingField))::Newtonsoft::Json::Bson::BsonToken* _Parent_k__BackingField;
 
-  __declspec(property(get = get_Parent, put = set_Parent))::Newtonsoft::Json::Bson::BsonToken* Parent;
+  static inline ::Newtonsoft::Json::Bson::BsonToken* New_ctor();
 
-  __declspec(property(get = get_CalculatedSize, put = set_CalculatedSize)) int32_t CalculatedSize;
+  constexpr int32_t const& __cordl_internal_get__CalculatedSize_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__CalculatedSize_k__BackingField();
 
   constexpr ::Newtonsoft::Json::Bson::BsonToken*& __cordl_internal_get__Parent_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonToken*> const& __cordl_internal_get__Parent_k__BackingField() const;
 
+  constexpr void __cordl_internal_set__CalculatedSize_k__BackingField(int32_t value);
+
   constexpr void __cordl_internal_set__Parent_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  constexpr int32_t& __cordl_internal_get__CalculatedSize_k__BackingField();
+  /// @brief Method .ctor, addr 0x27b9990, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  constexpr int32_t const& __cordl_internal_get__CalculatedSize_k__BackingField() const;
+  /// @brief Method get_CalculatedSize, addr 0x27b9980, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_CalculatedSize();
 
-  constexpr void __cordl_internal_set__CalculatedSize_k__BackingField(int32_t value);
+  /// @brief Method get_Parent, addr 0x27b9970, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Bson::BsonToken* get_Parent();
 
   /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method get_Parent, addr 0x26ea224, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Bson::BsonToken* get_Parent();
-
-  /// @brief Method set_Parent, addr 0x26ea22c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
-
-  /// @brief Method get_CalculatedSize, addr 0x26ea234, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_CalculatedSize();
-
-  /// @brief Method set_CalculatedSize, addr 0x26ea23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CalculatedSize, addr 0x27b9988, size 0x8, virtual false, abstract: false, final false
   inline void set_CalculatedSize(int32_t value);
 
-  static inline ::Newtonsoft::Json::Bson::BsonToken* New_ctor();
+  /// @brief Method set_Parent, addr 0x27b9978, size 0x8, virtual false, abstract: false, final false
+  inline void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method .ctor, addr 0x26ea244, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BsonToken();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BsonToken", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BsonToken(BsonToken&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BsonToken(BsonToken const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BsonToken();
-
-public:
   /// @brief Field <Parent>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Bson::BsonToken* ____Parent_k__BackingField;
 

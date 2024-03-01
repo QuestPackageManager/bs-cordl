@@ -21,22 +21,20 @@ MARK_VAL_T(::UnityEngine::UIElements::RuleMatcher);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6178))
 // CS Name: ::UnityEngine.UIElements::RuleMatcher
 struct CORDL_TYPE RuleMatcher {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2e21a6c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2f13194, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty:
-  // "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value: None }]
-  constexpr RuleMatcher(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuleMatcher();
+
+  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty:
+  // "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value: None }]
+  constexpr RuleMatcher(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector) noexcept;
 
   /// @brief Field sheet, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::StyleSheet> sheet;

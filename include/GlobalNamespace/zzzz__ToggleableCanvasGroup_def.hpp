@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ToggleableCanvasGroup);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13458))
 // CS Name: ::ToggleableCanvasGroup*
 class CORDL_TYPE ToggleableCanvasGroup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -29,47 +27,53 @@ public:
   /// @brief Field _canvasGroup, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup))::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
-  /// @brief Field _toggle, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle))::UnityW<::UnityEngine::UI::Toggle> _toggle;
-
   /// @brief Field _invertToggle, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__invertToggle, put = __cordl_internal_set__invertToggle)) bool _invertToggle;
 
-  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
+  /// @brief Field _toggle, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle))::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
-  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
-
-  constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__toggle();
-
-  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
-
-  constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
-
-  constexpr bool& __cordl_internal_get__invertToggle();
-
-  constexpr bool const& __cordl_internal_get__invertToggle() const;
-
-  constexpr void __cordl_internal_set__invertToggle(bool value);
-
-  /// @brief Method OnEnable, addr 0x21ab400, size 0xbc, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method OnDisable, addr 0x21ab4ec, size 0xa8, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method HandleToggleValueChanged, addr 0x21ab594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleValueChanged, addr 0x2278bfc, size 0x8, virtual false, abstract: false, final false
   inline void HandleToggleValueChanged(bool isOn);
-
-  /// @brief Method SetCanvasGroupData, addr 0x21ab4bc, size 0x30, virtual false, abstract: false, final false
-  inline void SetCanvasGroupData(bool isOn);
 
   static inline ::GlobalNamespace::ToggleableCanvasGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21ab59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2278b54, size 0xa8, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method OnEnable, addr 0x2278a68, size 0xbc, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method SetCanvasGroupData, addr 0x2278b24, size 0x30, virtual false, abstract: false, final false
+  inline void SetCanvasGroupData(bool isOn);
+
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
+
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
+
+  constexpr bool const& __cordl_internal_get__invertToggle() const;
+
+  constexpr bool& __cordl_internal_get__invertToggle();
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__toggle();
+
+  constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
+
+  constexpr void __cordl_internal_set__invertToggle(bool value);
+
+  constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
+
+  /// @brief Method .ctor, addr 0x2278c04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ToggleableCanvasGroup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ToggleableCanvasGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ToggleableCanvasGroup(ToggleableCanvasGroup&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ToggleableCanvasGroup(ToggleableCanvasGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ToggleableCanvasGroup();
-
-public:
   /// @brief Field _canvasGroup, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 

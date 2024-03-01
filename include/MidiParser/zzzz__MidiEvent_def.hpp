@@ -18,45 +18,43 @@ MARK_VAL_T(::MidiParser::MidiEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace MidiParser {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16396))
 // CS Name: ::MidiParser::MidiEvent
 struct CORDL_TYPE MidiEvent {
 public:
   // Declarations
-  __declspec(property(get = get_MetaEventType))::MidiParser::MetaEventType MetaEventType;
-
   __declspec(property(get = get_Channel)) int32_t Channel;
+
+  __declspec(property(get = get_MetaEventType))::MidiParser::MetaEventType MetaEventType;
 
   __declspec(property(get = get_Note)) int32_t Note;
 
-  __declspec(property(get = get_Velocity)) int32_t Velocity;
-
   __declspec(property(get = get_Value)) int32_t Value;
 
-  /// @brief Method get_MetaEventType, addr 0x2406594, size 0x8, virtual false, abstract: false, final false
-  inline ::MidiParser::MetaEventType get_MetaEventType();
+  __declspec(property(get = get_Velocity)) int32_t Velocity;
 
-  /// @brief Method get_Channel, addr 0x240659c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Channel, addr 0x24d4294, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Channel();
 
-  /// @brief Method get_Note, addr 0x24065a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MetaEventType, addr 0x24d428c, size 0x8, virtual false, abstract: false, final false
+  inline ::MidiParser::MetaEventType get_MetaEventType();
+
+  /// @brief Method get_Note, addr 0x24d429c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Note();
 
-  /// @brief Method get_Velocity, addr 0x24065ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x24d42ac, size 0x1008, virtual false, abstract: false, final false
+  inline int32_t get_Value();
+
+  /// @brief Method get_Velocity, addr 0x24d42a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Velocity();
 
-  /// @brief Method get_Value, addr 0x24065b4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Value();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MidiEvent();
 
   // Ctor Parameters [CppParam { name: "AbsoluteTicksTime", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Type", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
   // "Arg1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Arg2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Arg3", ty: "int32_t", modifiers: "",
   // def_value: None }]
   constexpr MidiEvent(int32_t AbsoluteTicksTime, uint8_t Type, int32_t Arg1, int32_t Arg2, int32_t Arg3) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MidiEvent();
 
   /// @brief Field AbsoluteTicksTime, offset: 0x0, size: 0x4, def value: None
   int32_t AbsoluteTicksTime;

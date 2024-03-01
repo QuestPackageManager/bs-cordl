@@ -58,56 +58,26 @@ MARK_REF_PTR_T(::Zenject::Internal::ZenPools);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10526))
 // CS Name: ::Zenject.Internal::ZenPools*
 class CORDL_TYPE ZenPools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _contextPool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__contextPool, put = setStaticF__contextPool))::Zenject::StaticMemoryPool_1<::Zenject::InjectContext*>* _contextPool;
-
-  /// @brief Field _lookupIdPool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__lookupIdPool, put = setStaticF__lookupIdPool))::Zenject::StaticMemoryPool_1<::Zenject::Internal::LookupId*>* _lookupIdPool;
-
   /// @brief Field _bindInfoPool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__bindInfoPool, put = setStaticF__bindInfoPool))::Zenject::StaticMemoryPool_1<::Zenject::BindInfo*>* _bindInfoPool;
 
   /// @brief Field _bindStatementPool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__bindStatementPool, put = setStaticF__bindStatementPool))::Zenject::StaticMemoryPool_1<::Zenject::BindStatement*>* _bindStatementPool;
 
-  static inline void setStaticF__contextPool(::Zenject::StaticMemoryPool_1<::Zenject::InjectContext*>* value);
+  /// @brief Field _contextPool, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__contextPool, put = setStaticF__contextPool))::Zenject::StaticMemoryPool_1<::Zenject::InjectContext*>* _contextPool;
 
-  static inline ::Zenject::StaticMemoryPool_1<::Zenject::InjectContext*>* getStaticF__contextPool();
+  /// @brief Field _lookupIdPool, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__lookupIdPool, put = setStaticF__lookupIdPool))::Zenject::StaticMemoryPool_1<::Zenject::Internal::LookupId*>* _lookupIdPool;
 
-  static inline void setStaticF__lookupIdPool(::Zenject::StaticMemoryPool_1<::Zenject::Internal::LookupId*>* value);
+  /// @brief Method DespawnArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void DespawnArray(::ArrayW<T, ::Array<T>*> arr);
 
-  static inline ::Zenject::StaticMemoryPool_1<::Zenject::Internal::LookupId*>* getStaticF__lookupIdPool();
-
-  static inline void setStaticF__bindInfoPool(::Zenject::StaticMemoryPool_1<::Zenject::BindInfo*>* value);
-
-  static inline ::Zenject::StaticMemoryPool_1<::Zenject::BindInfo*>* getStaticF__bindInfoPool();
-
-  static inline void setStaticF__bindStatementPool(::Zenject::StaticMemoryPool_1<::Zenject::BindStatement*>* value);
-
-  static inline ::Zenject::StaticMemoryPool_1<::Zenject::BindStatement*>* getStaticF__bindStatementPool();
-
-  /// @brief Method SpawnHashSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::HashSet_1<T>* SpawnHashSet();
-
-  /// @brief Method SpawnDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TKey, typename TValue> static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* SpawnDictionary();
-
-  /// @brief Method SpawnStatement, addr 0x2f3f5d4, size 0x78, virtual false, abstract: false, final false
-  static inline ::Zenject::BindStatement* SpawnStatement();
-
-  /// @brief Method DespawnStatement, addr 0x2f3f64c, size 0x90, virtual false, abstract: false, final false
-  static inline void DespawnStatement(::Zenject::BindStatement* statement);
-
-  /// @brief Method SpawnBindInfo, addr 0x2f3f6dc, size 0x78, virtual false, abstract: false, final false
-  static inline ::Zenject::BindInfo* SpawnBindInfo();
-
-  /// @brief Method DespawnBindInfo, addr 0x2f3f754, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DespawnBindInfo, addr 0x3032e7c, size 0x90, virtual false, abstract: false, final false
   static inline void DespawnBindInfo(::Zenject::BindInfo* bindInfo);
 
   /// @brief Method DespawnDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -116,34 +86,68 @@ public:
   /// @brief Method DespawnHashSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DespawnHashSet(::System::Collections::Generic::HashSet_1<T>* set);
 
-  /// @brief Method SpawnLookupId, addr 0x2f3f7e4, size 0x9c, virtual false, abstract: false, final false
-  static inline ::Zenject::Internal::LookupId* SpawnLookupId(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
-
-  /// @brief Method DespawnLookupId, addr 0x2f3f880, size 0x80, virtual false, abstract: false, final false
-  static inline void DespawnLookupId(::Zenject::Internal::LookupId* lookupId);
-
-  /// @brief Method SpawnList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::List_1<T>* SpawnList();
+  /// @brief Method DespawnInjectContext, addr 0x30330d0, size 0x90, virtual false, abstract: false, final false
+  static inline void DespawnInjectContext(::Zenject::InjectContext* context);
 
   /// @brief Method DespawnList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DespawnList(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method DespawnArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void DespawnArray(::ArrayW<T, ::Array<T>*> arr);
+  /// @brief Method DespawnLookupId, addr 0x3032fa8, size 0x80, virtual false, abstract: false, final false
+  static inline void DespawnLookupId(::Zenject::Internal::LookupId* lookupId);
+
+  /// @brief Method DespawnStatement, addr 0x3032d74, size 0x90, virtual false, abstract: false, final false
+  static inline void DespawnStatement(::Zenject::BindStatement* statement);
 
   /// @brief Method SpawnArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> SpawnArray(int32_t length);
 
-  /// @brief Method SpawnInjectContext, addr 0x2f3f900, size 0xa8, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectContext* SpawnInjectContext(::Zenject::DiContainer* container, ::System::Type* memberType);
+  /// @brief Method SpawnBindInfo, addr 0x3032e04, size 0x78, virtual false, abstract: false, final false
+  static inline ::Zenject::BindInfo* SpawnBindInfo();
 
-  /// @brief Method DespawnInjectContext, addr 0x2f3f9a8, size 0x90, virtual false, abstract: false, final false
-  static inline void DespawnInjectContext(::Zenject::InjectContext* context);
+  /// @brief Method SpawnDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TKey, typename TValue> static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* SpawnDictionary();
 
-  /// @brief Method SpawnInjectContext, addr 0x2f3fa38, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SpawnHashSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::Collections::Generic::HashSet_1<T>* SpawnHashSet();
+
+  /// @brief Method SpawnInjectContext, addr 0x3033160, size 0xcc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectContext* SpawnInjectContext(::Zenject::DiContainer* container, ::Zenject::InjectableInfo* injectableInfo, ::Zenject::InjectContext* currentContext,
                                                              ::System::Object* targetInstance, ::System::Type* targetType, ::System::Object* concreteIdentifier);
 
+  /// @brief Method SpawnInjectContext, addr 0x3033028, size 0xa8, virtual false, abstract: false, final false
+  static inline ::Zenject::InjectContext* SpawnInjectContext(::Zenject::DiContainer* container, ::System::Type* memberType);
+
+  /// @brief Method SpawnList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::Collections::Generic::List_1<T>* SpawnList();
+
+  /// @brief Method SpawnLookupId, addr 0x3032f0c, size 0x9c, virtual false, abstract: false, final false
+  static inline ::Zenject::Internal::LookupId* SpawnLookupId(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
+
+  /// @brief Method SpawnStatement, addr 0x3032cfc, size 0x78, virtual false, abstract: false, final false
+  static inline ::Zenject::BindStatement* SpawnStatement();
+
+  static inline ::Zenject::StaticMemoryPool_1<::Zenject::BindInfo*>* getStaticF__bindInfoPool();
+
+  static inline ::Zenject::StaticMemoryPool_1<::Zenject::BindStatement*>* getStaticF__bindStatementPool();
+
+  static inline ::Zenject::StaticMemoryPool_1<::Zenject::InjectContext*>* getStaticF__contextPool();
+
+  static inline ::Zenject::StaticMemoryPool_1<::Zenject::Internal::LookupId*>* getStaticF__lookupIdPool();
+
+  static inline void setStaticF__bindInfoPool(::Zenject::StaticMemoryPool_1<::Zenject::BindInfo*>* value);
+
+  static inline void setStaticF__bindStatementPool(::Zenject::StaticMemoryPool_1<::Zenject::BindStatement*>* value);
+
+  static inline void setStaticF__contextPool(::Zenject::StaticMemoryPool_1<::Zenject::InjectContext*>* value);
+
+  static inline void setStaticF__lookupIdPool(::Zenject::StaticMemoryPool_1<::Zenject::Internal::LookupId*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ZenPools();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ZenPools", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ZenPools(ZenPools&&) = delete;
@@ -152,12 +156,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ZenPools(ZenPools const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenPools();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

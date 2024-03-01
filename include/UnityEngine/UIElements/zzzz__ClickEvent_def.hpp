@@ -18,26 +18,30 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ClickEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 234, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6457)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6457), inst: 4806 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6463))
 // CS Name: ::UnityEngine.UIElements::ClickEvent*
 class CORDL_TYPE ClickEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::ClickEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e6b9c4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x2f5e1a0, size 0x70, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::ClickEvent* GetPooled(::UnityEngine::UIElements::PointerUpEvent* pointerEvent, int32_t clickCount);
+
+  /// @brief Method Init, addr 0x2f5e0ec, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e6ba18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f5e140, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::ClickEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6ba24, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5e14c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetPooled, addr 0x2e6ba78, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::ClickEvent* GetPooled(::UnityEngine::UIElements::PointerUpEvent* pointerEvent, int32_t clickCount);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ClickEvent();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ClickEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClickEvent(ClickEvent&&) = delete;
@@ -46,12 +50,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClickEvent(ClickEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClickEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

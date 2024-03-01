@@ -15,32 +15,37 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::OculusUsages);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15751)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15751), inst: 77
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15191)) CS Name: ::Unity.XR.Oculus::OculusUsages*
+// CS Name: ::Unity.XR.Oculus::OculusUsages*
 class CORDL_TYPE OculusUsages : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field thumbrest, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_thumbrest, put = setStaticF_thumbrest))::UnityEngine::XR::InputFeatureUsage_1<bool> thumbrest;
-
   /// @brief Field indexTouch, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_indexTouch, put = setStaticF_indexTouch))::UnityEngine::XR::InputFeatureUsage_1<bool> indexTouch;
 
   /// @brief Field thumbTouch, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_thumbTouch, put = setStaticF_thumbTouch))::UnityEngine::XR::InputFeatureUsage_1<bool> thumbTouch;
 
-  static inline void setStaticF_thumbrest(::UnityEngine::XR::InputFeatureUsage_1<bool> value);
+  /// @brief Field thumbrest, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_thumbrest, put = setStaticF_thumbrest))::UnityEngine::XR::InputFeatureUsage_1<bool> thumbrest;
+
+  static inline ::UnityEngine::XR::InputFeatureUsage_1<bool> getStaticF_indexTouch();
+
+  static inline ::UnityEngine::XR::InputFeatureUsage_1<bool> getStaticF_thumbTouch();
 
   static inline ::UnityEngine::XR::InputFeatureUsage_1<bool> getStaticF_thumbrest();
 
   static inline void setStaticF_indexTouch(::UnityEngine::XR::InputFeatureUsage_1<bool> value);
 
-  static inline ::UnityEngine::XR::InputFeatureUsage_1<bool> getStaticF_indexTouch();
-
   static inline void setStaticF_thumbTouch(::UnityEngine::XR::InputFeatureUsage_1<bool> value);
 
-  static inline ::UnityEngine::XR::InputFeatureUsage_1<bool> getStaticF_thumbTouch();
+  static inline void setStaticF_thumbrest(::UnityEngine::XR::InputFeatureUsage_1<bool> value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OculusUsages();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OculusUsages", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OculusUsages(OculusUsages&&) = delete;
@@ -49,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OculusUsages(OculusUsages const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusUsages();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,19 +15,17 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::sockaddr_in);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7318))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::sockaddr_in
 struct CORDL_TYPE sockaddr_in {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "sin_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sin_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sin_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin_addr", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr sockaddr_in(uint8_t sin_len, uint8_t sin_family, uint16_t sin_port, uint32_t sin_addr) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr sockaddr_in();
+
+  // Ctor Parameters [CppParam { name: "sin_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sin_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
+  // "sin_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin_addr", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr sockaddr_in(uint8_t sin_len, uint8_t sin_family, uint16_t sin_port, uint32_t sin_addr) noexcept;
 
   /// @brief Field sin_len, offset: 0x0, size: 0x1, def value: None
   uint8_t sin_len;

@@ -33,64 +33,12 @@ MARK_REF_PTR_T(::GlobalNamespace::WaypointsTestGameplayManager);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8948)), TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15032))
 // CS Name: ::WaypointsTestGameplayManager*
 class CORDL_TYPE WaypointsTestGameplayManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _outerCapsuleStart, offset 0x18, size 0xc
-  __declspec(property(get = __cordl_internal_get__outerCapsuleStart, put = __cordl_internal_set__outerCapsuleStart))::UnityEngine::Vector3 _outerCapsuleStart;
-
-  /// @brief Field _outerCapsuleEnd, offset 0x24, size 0xc
-  __declspec(property(get = __cordl_internal_get__outerCapsuleEnd, put = __cordl_internal_set__outerCapsuleEnd))::UnityEngine::Vector3 _outerCapsuleEnd;
-
-  /// @brief Field _outerCapsuleRadius, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__outerCapsuleRadius, put = __cordl_internal_set__outerCapsuleRadius)) float_t _outerCapsuleRadius;
-
-  /// @brief Field _innerSphereOffset, offset 0x34, size 0xc
-  __declspec(property(get = __cordl_internal_get__innerSphereOffset, put = __cordl_internal_set__innerSphereOffset))::UnityEngine::Vector3 _innerSphereOffset;
-
-  /// @brief Field _innerSphereRadius, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__innerSphereRadius, put = __cordl_internal_set__innerSphereRadius)) float_t _innerSphereRadius;
-
-  /// @brief Field _layersToColliderWith, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__layersToColliderWith, put = __cordl_internal_set__layersToColliderWith))::UnityEngine::LayerMask _layersToColliderWith;
-
-  /// @brief Field _characterSpawnController, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__characterSpawnController,
-                      put = __cordl_internal_set__characterSpawnController))::UnityW<::GlobalNamespace::BTSCharacterSpawnController> _characterSpawnController;
-
   /// @brief Field _audioTimeSource, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
-
-  /// @brief Field _standardSceneSetupData, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__standardSceneSetupData,
-                      put = __cordl_internal_set__standardSceneSetupData))::GlobalNamespace::StandardGameplaySceneSetupData* _standardSceneSetupData;
-
-  /// @brief Field _levelSceneSetupData, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelSceneSetupData, put = __cordl_internal_set__levelSceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _levelSceneSetupData;
-
-  /// @brief Field _target, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target))::UnityW<::UnityEngine::Transform> _target;
-
-  /// @brief Field _firstPosSaved, offset 0x70, size 0x1
-  __declspec(property(get = __cordl_internal_get__firstPosSaved, put = __cordl_internal_set__firstPosSaved)) bool _firstPosSaved;
-
-  /// @brief Field _speedSaved, offset 0x71, size 0x1
-  __declspec(property(get = __cordl_internal_get__speedSaved, put = __cordl_internal_set__speedSaved)) bool _speedSaved;
-
-  /// @brief Field _lastFramePos, offset 0x74, size 0xc
-  __declspec(property(get = __cordl_internal_get__lastFramePos, put = __cordl_internal_set__lastFramePos))::UnityEngine::Vector3 _lastFramePos;
-
-  /// @brief Field _lastFrameSpeed, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get__lastFrameSpeed, put = __cordl_internal_set__lastFrameSpeed)) float_t _lastFrameSpeed;
-
-  /// @brief Field _biggestFrameSpeed, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get__biggestFrameSpeed, put = __cordl_internal_set__biggestFrameSpeed)) float_t _biggestFrameSpeed;
-
-  /// @brief Field _biggestFrameSpeedSongTime, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__biggestFrameSpeedSongTime, put = __cordl_internal_set__biggestFrameSpeedSongTime)) float_t _biggestFrameSpeedSongTime;
 
   /// @brief Field _biggestAcceleration, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get__biggestAcceleration, put = __cordl_internal_set__biggestAcceleration)) float_t _biggestAcceleration;
@@ -98,140 +46,196 @@ public:
   /// @brief Field _biggestAccelerationSongTime, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__biggestAccelerationSongTime, put = __cordl_internal_set__biggestAccelerationSongTime)) float_t _biggestAccelerationSongTime;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__outerCapsuleStart();
+  /// @brief Field _biggestFrameSpeed, offset 0x84, size 0x4
+  __declspec(property(get = __cordl_internal_get__biggestFrameSpeed, put = __cordl_internal_set__biggestFrameSpeed)) float_t _biggestFrameSpeed;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__outerCapsuleStart() const;
+  /// @brief Field _biggestFrameSpeedSongTime, offset 0x88, size 0x4
+  __declspec(property(get = __cordl_internal_get__biggestFrameSpeedSongTime, put = __cordl_internal_set__biggestFrameSpeedSongTime)) float_t _biggestFrameSpeedSongTime;
 
-  constexpr void __cordl_internal_set__outerCapsuleStart(::UnityEngine::Vector3 value);
+  /// @brief Field _characterSpawnController, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__characterSpawnController,
+                      put = __cordl_internal_set__characterSpawnController))::UnityW<::GlobalNamespace::BTSCharacterSpawnController> _characterSpawnController;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__outerCapsuleEnd();
+  /// @brief Field _firstPosSaved, offset 0x70, size 0x1
+  __declspec(property(get = __cordl_internal_get__firstPosSaved, put = __cordl_internal_set__firstPosSaved)) bool _firstPosSaved;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__outerCapsuleEnd() const;
+  /// @brief Field _innerSphereOffset, offset 0x34, size 0xc
+  __declspec(property(get = __cordl_internal_get__innerSphereOffset, put = __cordl_internal_set__innerSphereOffset))::UnityEngine::Vector3 _innerSphereOffset;
 
-  constexpr void __cordl_internal_set__outerCapsuleEnd(::UnityEngine::Vector3 value);
+  /// @brief Field _innerSphereRadius, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__innerSphereRadius, put = __cordl_internal_set__innerSphereRadius)) float_t _innerSphereRadius;
 
-  constexpr float_t& __cordl_internal_get__outerCapsuleRadius();
+  /// @brief Field _lastFramePos, offset 0x74, size 0xc
+  __declspec(property(get = __cordl_internal_get__lastFramePos, put = __cordl_internal_set__lastFramePos))::UnityEngine::Vector3 _lastFramePos;
 
-  constexpr float_t const& __cordl_internal_get__outerCapsuleRadius() const;
+  /// @brief Field _lastFrameSpeed, offset 0x80, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastFrameSpeed, put = __cordl_internal_set__lastFrameSpeed)) float_t _lastFrameSpeed;
 
-  constexpr void __cordl_internal_set__outerCapsuleRadius(float_t value);
+  /// @brief Field _layersToColliderWith, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__layersToColliderWith, put = __cordl_internal_set__layersToColliderWith))::UnityEngine::LayerMask _layersToColliderWith;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__innerSphereOffset();
+  /// @brief Field _levelSceneSetupData, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelSceneSetupData, put = __cordl_internal_set__levelSceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _levelSceneSetupData;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__innerSphereOffset() const;
+  /// @brief Field _outerCapsuleEnd, offset 0x24, size 0xc
+  __declspec(property(get = __cordl_internal_get__outerCapsuleEnd, put = __cordl_internal_set__outerCapsuleEnd))::UnityEngine::Vector3 _outerCapsuleEnd;
 
-  constexpr void __cordl_internal_set__innerSphereOffset(::UnityEngine::Vector3 value);
+  /// @brief Field _outerCapsuleRadius, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__outerCapsuleRadius, put = __cordl_internal_set__outerCapsuleRadius)) float_t _outerCapsuleRadius;
 
-  constexpr float_t& __cordl_internal_get__innerSphereRadius();
+  /// @brief Field _outerCapsuleStart, offset 0x18, size 0xc
+  __declspec(property(get = __cordl_internal_get__outerCapsuleStart, put = __cordl_internal_set__outerCapsuleStart))::UnityEngine::Vector3 _outerCapsuleStart;
 
-  constexpr float_t const& __cordl_internal_get__innerSphereRadius() const;
+  /// @brief Field _speedSaved, offset 0x71, size 0x1
+  __declspec(property(get = __cordl_internal_get__speedSaved, put = __cordl_internal_set__speedSaved)) bool _speedSaved;
 
-  constexpr void __cordl_internal_set__innerSphereRadius(float_t value);
+  /// @brief Field _standardSceneSetupData, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__standardSceneSetupData,
+                      put = __cordl_internal_set__standardSceneSetupData))::GlobalNamespace::StandardGameplaySceneSetupData* _standardSceneSetupData;
 
-  constexpr ::UnityEngine::LayerMask& __cordl_internal_get__layersToColliderWith();
+  /// @brief Field _target, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target))::UnityW<::UnityEngine::Transform> _target;
 
-  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__layersToColliderWith() const;
+  /// @brief Method GetBar, addr 0xe760e8, size 0x1b0, virtual false, abstract: false, final false
+  inline ::StringW GetBar(float_t songTime);
 
-  constexpr void __cordl_internal_set__layersToColliderWith(::UnityEngine::LayerMask value);
+  /// @brief Method LateUpdate, addr 0xe755a8, size 0xb40, virtual false, abstract: false, final false
+  inline void LateUpdate();
 
-  constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnController>& __cordl_internal_get__characterSpawnController();
+  static inline ::GlobalNamespace::WaypointsTestGameplayManager* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnController> const& __cordl_internal_get__characterSpawnController() const;
+  /// @brief Method OnDestroy, addr 0xe76298, size 0x320, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr void __cordl_internal_set__characterSpawnController(::UnityW<::GlobalNamespace::BTSCharacterSpawnController> value);
+  /// @brief Method OnDrawGizmos, addr 0xe765b8, size 0x1d8, virtual false, abstract: false, final false
+  inline void OnDrawGizmos();
+
+  /// @brief Method Start, addr 0xe75574, size 0x34, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr float_t const& __cordl_internal_get__biggestAcceleration() const;
 
-  constexpr ::GlobalNamespace::StandardGameplaySceneSetupData*& __cordl_internal_get__standardSceneSetupData();
+  constexpr float_t& __cordl_internal_get__biggestAcceleration();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardGameplaySceneSetupData*> const& __cordl_internal_get__standardSceneSetupData() const;
+  constexpr float_t const& __cordl_internal_get__biggestAccelerationSongTime() const;
 
-  constexpr void __cordl_internal_set__standardSceneSetupData(::GlobalNamespace::StandardGameplaySceneSetupData* value);
+  constexpr float_t& __cordl_internal_get__biggestAccelerationSongTime();
+
+  constexpr float_t const& __cordl_internal_get__biggestFrameSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__biggestFrameSpeed();
+
+  constexpr float_t const& __cordl_internal_get__biggestFrameSpeedSongTime() const;
+
+  constexpr float_t& __cordl_internal_get__biggestFrameSpeedSongTime();
+
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnController> const& __cordl_internal_get__characterSpawnController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnController>& __cordl_internal_get__characterSpawnController();
+
+  constexpr bool const& __cordl_internal_get__firstPosSaved() const;
+
+  constexpr bool& __cordl_internal_get__firstPosSaved();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__innerSphereOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__innerSphereOffset();
+
+  constexpr float_t const& __cordl_internal_get__innerSphereRadius() const;
+
+  constexpr float_t& __cordl_internal_get__innerSphereRadius();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__lastFramePos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__lastFramePos();
+
+  constexpr float_t const& __cordl_internal_get__lastFrameSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__lastFrameSpeed();
+
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__layersToColliderWith() const;
+
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get__layersToColliderWith();
 
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__levelSceneSetupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__levelSceneSetupData() const;
 
-  constexpr void __cordl_internal_set__levelSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__outerCapsuleEnd() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__target();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__outerCapsuleEnd();
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__target() const;
+  constexpr float_t const& __cordl_internal_get__outerCapsuleRadius() const;
 
-  constexpr void __cordl_internal_set__target(::UnityW<::UnityEngine::Transform> value);
+  constexpr float_t& __cordl_internal_get__outerCapsuleRadius();
 
-  constexpr bool& __cordl_internal_get__firstPosSaved();
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__outerCapsuleStart() const;
 
-  constexpr bool const& __cordl_internal_get__firstPosSaved() const;
-
-  constexpr void __cordl_internal_set__firstPosSaved(bool value);
-
-  constexpr bool& __cordl_internal_get__speedSaved();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__outerCapsuleStart();
 
   constexpr bool const& __cordl_internal_get__speedSaved() const;
 
-  constexpr void __cordl_internal_set__speedSaved(bool value);
+  constexpr bool& __cordl_internal_get__speedSaved();
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__lastFramePos();
+  constexpr ::GlobalNamespace::StandardGameplaySceneSetupData*& __cordl_internal_get__standardSceneSetupData();
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__lastFramePos() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardGameplaySceneSetupData*> const& __cordl_internal_get__standardSceneSetupData() const;
 
-  constexpr void __cordl_internal_set__lastFramePos(::UnityEngine::Vector3 value);
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__target() const;
 
-  constexpr float_t& __cordl_internal_get__lastFrameSpeed();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__target();
 
-  constexpr float_t const& __cordl_internal_get__lastFrameSpeed() const;
-
-  constexpr void __cordl_internal_set__lastFrameSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get__biggestFrameSpeed();
-
-  constexpr float_t const& __cordl_internal_get__biggestFrameSpeed() const;
-
-  constexpr void __cordl_internal_set__biggestFrameSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get__biggestFrameSpeedSongTime();
-
-  constexpr float_t const& __cordl_internal_get__biggestFrameSpeedSongTime() const;
-
-  constexpr void __cordl_internal_set__biggestFrameSpeedSongTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get__biggestAcceleration();
-
-  constexpr float_t const& __cordl_internal_get__biggestAcceleration() const;
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
   constexpr void __cordl_internal_set__biggestAcceleration(float_t value);
 
-  constexpr float_t& __cordl_internal_get__biggestAccelerationSongTime();
-
-  constexpr float_t const& __cordl_internal_get__biggestAccelerationSongTime() const;
-
   constexpr void __cordl_internal_set__biggestAccelerationSongTime(float_t value);
 
-  /// @brief Method Start, addr 0xe2fa10, size 0x34, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__biggestFrameSpeed(float_t value);
 
-  /// @brief Method LateUpdate, addr 0xe2fa44, size 0xb40, virtual false, abstract: false, final false
-  inline void LateUpdate();
+  constexpr void __cordl_internal_set__biggestFrameSpeedSongTime(float_t value);
 
-  /// @brief Method OnDestroy, addr 0xe30734, size 0x320, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__characterSpawnController(::UnityW<::GlobalNamespace::BTSCharacterSpawnController> value);
 
-  /// @brief Method GetBar, addr 0xe30584, size 0x1b0, virtual false, abstract: false, final false
-  inline ::StringW GetBar(float_t songTime);
+  constexpr void __cordl_internal_set__firstPosSaved(bool value);
 
-  /// @brief Method OnDrawGizmos, addr 0xe30a54, size 0x1d8, virtual false, abstract: false, final false
-  inline void OnDrawGizmos();
+  constexpr void __cordl_internal_set__innerSphereOffset(::UnityEngine::Vector3 value);
 
-  static inline ::GlobalNamespace::WaypointsTestGameplayManager* New_ctor();
+  constexpr void __cordl_internal_set__innerSphereRadius(float_t value);
 
-  /// @brief Method .ctor, addr 0xe30c2c, size 0x20, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__lastFramePos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__lastFrameSpeed(float_t value);
+
+  constexpr void __cordl_internal_set__layersToColliderWith(::UnityEngine::LayerMask value);
+
+  constexpr void __cordl_internal_set__levelSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+
+  constexpr void __cordl_internal_set__outerCapsuleEnd(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__outerCapsuleRadius(float_t value);
+
+  constexpr void __cordl_internal_set__outerCapsuleStart(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__speedSaved(bool value);
+
+  constexpr void __cordl_internal_set__standardSceneSetupData(::GlobalNamespace::StandardGameplaySceneSetupData* value);
+
+  constexpr void __cordl_internal_set__target(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0xe76790, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WaypointsTestGameplayManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WaypointsTestGameplayManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WaypointsTestGameplayManager(WaypointsTestGameplayManager&&) = delete;
@@ -240,12 +244,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WaypointsTestGameplayManager(WaypointsTestGameplayManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WaypointsTestGameplayManager();
-
-public:
   /// @brief Field _outerCapsuleStart, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____outerCapsuleStart;
 

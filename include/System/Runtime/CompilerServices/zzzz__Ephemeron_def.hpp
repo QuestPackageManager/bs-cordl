@@ -17,18 +17,16 @@ MARK_VAL_T(::System::Runtime::CompilerServices::Ephemeron);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3415))
 // CS Name: ::System.Runtime.CompilerServices::Ephemeron
 struct CORDL_TYPE Ephemeron {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "key", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Object*", modifiers: "", def_value: None }]
-  constexpr Ephemeron(::System::Object* key, ::System::Object* value) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr Ephemeron();
+
+  // Ctor Parameters [CppParam { name: "key", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Object*", modifiers: "", def_value: None }]
+  constexpr Ephemeron(::System::Object* key, ::System::Object* value) noexcept;
 
   /// @brief Field key, offset: 0x0, size: 0x8, def value: None
   ::System::Object* key;

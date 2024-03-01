@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::Diagnostics::DiagnosticsConfigurationHandler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7594))
 // CS Name: ::System.Diagnostics::DiagnosticsConfigurationHandler*
 class CORDL_TYPE DiagnosticsConfigurationHandler : public ::System::Object {
 public:
@@ -32,17 +30,23 @@ public:
   /// @brief Convert operator to "::System::Configuration::IConfigurationSectionHandler"
   constexpr operator ::System::Configuration::IConfigurationSectionHandler*() noexcept;
 
-  /// @brief Convert to "::System::Configuration::IConfigurationSectionHandler"
-  constexpr ::System::Configuration::IConfigurationSectionHandler* i___System__Configuration__IConfigurationSectionHandler() noexcept;
+  /// @brief Method Create, addr 0x2a2ee0c, size 0x38, virtual true, abstract: false, final false
+  inline ::System::Object* Create(::System::Object* parent, ::System::Object* configContext, ::System::Xml::XmlNode* section);
 
   static inline ::System::Diagnostics::DiagnosticsConfigurationHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2949958, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2edd4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create, addr 0x2949990, size 0x38, virtual true, abstract: false, final false
-  inline ::System::Object* Create(::System::Object* parent, ::System::Object* configContext, ::System::Xml::XmlNode* section);
+  /// @brief Convert to "::System::Configuration::IConfigurationSectionHandler"
+  constexpr ::System::Configuration::IConfigurationSectionHandler* i___System__Configuration__IConfigurationSectionHandler() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DiagnosticsConfigurationHandler();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsConfigurationHandler", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DiagnosticsConfigurationHandler(DiagnosticsConfigurationHandler&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DiagnosticsConfigurationHandler(DiagnosticsConfigurationHandler const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DiagnosticsConfigurationHandler();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

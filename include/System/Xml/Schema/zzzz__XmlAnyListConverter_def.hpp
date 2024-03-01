@@ -29,34 +29,38 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlAnyListConverter);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11656))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11655))
 // CS Name: ::System.Xml.Schema::XmlAnyListConverter*
 class CORDL_TYPE XmlAnyListConverter : public ::System::Xml::Schema::XmlListConverter {
 public:
   // Declarations
-  /// @brief Field ItemList, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ItemList, put = setStaticF_ItemList))::System::Xml::Schema::XmlValueConverter* ItemList;
-
   /// @brief Field AnyAtomicList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_AnyAtomicList, put = setStaticF_AnyAtomicList))::System::Xml::Schema::XmlValueConverter* AnyAtomicList;
 
-  static inline void setStaticF_ItemList(::System::Xml::Schema::XmlValueConverter* value);
+  /// @brief Field ItemList, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_ItemList, put = setStaticF_ItemList))::System::Xml::Schema::XmlValueConverter* ItemList;
+
+  /// @brief Method ChangeType, addr 0x29cee48, size 0x258, virtual true, abstract: false, final false
+  inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
+
+  static inline ::System::Xml::Schema::XmlAnyListConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
+
+  /// @brief Method .ctor, addr 0x29cedd4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
+
+  static inline ::System::Xml::Schema::XmlValueConverter* getStaticF_AnyAtomicList();
 
   static inline ::System::Xml::Schema::XmlValueConverter* getStaticF_ItemList();
 
   static inline void setStaticF_AnyAtomicList(::System::Xml::Schema::XmlValueConverter* value);
 
-  static inline ::System::Xml::Schema::XmlValueConverter* getStaticF_AnyAtomicList();
+  static inline void setStaticF_ItemList(::System::Xml::Schema::XmlValueConverter* value);
 
-  static inline ::System::Xml::Schema::XmlAnyListConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlAnyListConverter();
 
-  /// @brief Method .ctor, addr 0x28e7958, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
-
-  /// @brief Method ChangeType, addr 0x28e79cc, size 0x258, virtual true, abstract: false, final false
-  inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlAnyListConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlAnyListConverter(XmlAnyListConverter&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlAnyListConverter(XmlAnyListConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlAnyListConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -40,52 +40,56 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlyingTextEffect__Pool);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4206)), TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4212))
 // CS Name: ::FlyingTextEffect*
 class CORDL_TYPE FlyingTextEffect : public ::GlobalNamespace::FlyingObjectEffect {
 public:
   // Declarations
   using Pool = ::GlobalNamespace::__FlyingTextEffect__Pool;
 
-  /// @brief Field _text, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshPro> _text;
+  /// @brief Field _color, offset 0x90, size 0x10
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _fadeAnimationCurve, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeAnimationCurve, put = __cordl_internal_set__fadeAnimationCurve))::UnityEngine::AnimationCurve* _fadeAnimationCurve;
 
-  /// @brief Field _color, offset 0x90, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
+  /// @brief Field _text, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshPro> _text;
 
-  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__text();
+  /// @brief Method InitAndPresent, addr 0x24281d8, size 0x78, virtual false, abstract: false, final false
+  inline void InitAndPresent(::StringW text, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Color color, float_t fontSize, bool shake);
 
-  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__text() const;
+  /// @brief Method ManualUpdate, addr 0x2428250, size 0x64, virtual true, abstract: false, final false
+  inline void ManualUpdate(float_t t);
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
+  static inline ::GlobalNamespace::FlyingTextEffect* New_ctor();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeAnimationCurve();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__fadeAnimationCurve() const;
 
-  constexpr void __cordl_internal_set__fadeAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__text() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__text();
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method InitAndPresent, addr 0x235a290, size 0x78, virtual false, abstract: false, final false
-  inline void InitAndPresent(::StringW text, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Color color, float_t fontSize, bool shake);
+  constexpr void __cordl_internal_set__fadeAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method ManualUpdate, addr 0x235a308, size 0x64, virtual true, abstract: false, final false
-  inline void ManualUpdate(float_t t);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  static inline ::GlobalNamespace::FlyingTextEffect* New_ctor();
-
-  /// @brief Method .ctor, addr 0x235a36c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24282b4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FlyingTextEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FlyingTextEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FlyingTextEffect(FlyingTextEffect&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingTextEffect(FlyingTextEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FlyingTextEffect();
-
-public:
   /// @brief Field _text, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____text;
 
@@ -125,16 +123,21 @@ static_assert(offsetof(::GlobalNamespace::FlyingTextEffect, ____color) == 0x90, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4212)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
-// 2783 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4211)) CS Name: ::FlyingTextEffect::Pool*
+// CS Name: ::FlyingTextEffect::Pool*
 class CORDL_TYPE __FlyingTextEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingTextEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__FlyingTextEffect__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x235a39c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24282e4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __FlyingTextEffect__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__FlyingTextEffect__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __FlyingTextEffect__Pool(__FlyingTextEffect__Pool&&) = delete;
@@ -143,12 +146,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FlyingTextEffect__Pool(__FlyingTextEffect__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __FlyingTextEffect__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

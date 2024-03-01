@@ -17,20 +17,24 @@ MARK_REF_PTR_T(::Zenject::DefaultGameObjectKernel);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10463))
 // CS Name: ::Zenject::DefaultGameObjectKernel*
 class CORDL_TYPE DefaultGameObjectKernel : public ::Zenject::MonoKernel {
 public:
   // Declarations
   static inline ::Zenject::DefaultGameObjectKernel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f30b5c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f30b6c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3024294, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x3024284, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultGameObjectKernel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultGameObjectKernel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultGameObjectKernel(DefaultGameObjectKernel&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultGameObjectKernel(DefaultGameObjectKernel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultGameObjectKernel();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

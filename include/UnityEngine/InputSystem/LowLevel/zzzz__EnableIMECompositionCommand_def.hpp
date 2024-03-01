@@ -25,8 +25,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::EnableIMECompositionCommand);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 9, calculated_native_size: 25, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5730))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5724))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::EnableIMECompositionCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE EnableIMECompositionCommand {
@@ -35,50 +33,50 @@ public:
   /// @brief Field baseCommand, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
+  __declspec(property(get = get_imeEnabled)) bool imeEnabled;
+
   /// @brief Field m_ImeEnabled, offset 0x8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ImeEnabled, put = __cordl_internal_set_m_ImeEnabled)) uint8_t m_ImeEnabled;
-
-  __declspec(property(get = get_imeEnabled)) bool imeEnabled;
 
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
-
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
+  /// @brief Method Create, addr 0x2bce218, size 0x58, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::EnableIMECompositionCommand Create(bool enabled);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
-
-  constexpr uint8_t& __cordl_internal_get_m_ImeEnabled();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
   constexpr uint8_t const& __cordl_internal_get_m_ImeEnabled() const;
 
+  constexpr uint8_t& __cordl_internal_get_m_ImeEnabled();
+
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+
   constexpr void __cordl_internal_set_m_ImeEnabled(uint8_t value);
 
-  /// @brief Method get_Type, addr 0x2ae90d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2bce1a8, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_imeEnabled, addr 0x2ae9104, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_imeEnabled, addr 0x2bce1d8, size 0x10, virtual false, abstract: false, final false
   inline bool get_imeEnabled();
 
-  /// @brief Method get_typeStatic, addr 0x2ae9114, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x2bce1e8, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create, addr 0x2ae9144, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::LowLevel::EnableIMECompositionCommand Create(bool enabled);
-
-  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "m_ImeEnabled", ty: "uint8_t",
-  // modifiers: "", def_value: None }]
-  constexpr EnableIMECompositionCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint8_t m_ImeEnabled) noexcept;
+  /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+  constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EnableIMECompositionCommand();
+
+  // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "m_ImeEnabled", ty: "uint8_t",
+  // modifiers: "", def_value: None }]
+  constexpr EnableIMECompositionCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, uint8_t m_ImeEnabled) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateForCyclicalReference);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3214))
 // CS Name: ::System.Runtime.Serialization::SurrogateForCyclicalReference*
 class CORDL_TYPE SurrogateForCyclicalReference : public ::System::Object {
 public:
@@ -41,8 +39,12 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
-  constexpr ::System::Runtime::Serialization::ISerializationSurrogate* i___System__Runtime__Serialization__ISerializationSurrogate() noexcept;
+  /// @brief Method GetObjectData, addr 0x25aa0a4, size 0xd0, virtual true, abstract: false, final true
+  inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method SetObjectData, addr 0x25aa174, size 0xdc, virtual true, abstract: false, final true
+  inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
+                                         ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
   constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& __cordl_internal_get_innerSurrogate();
 
@@ -50,13 +52,15 @@ public:
 
   constexpr void __cordl_internal_set_innerSurrogate(::System::Runtime::Serialization::ISerializationSurrogate* value);
 
-  /// @brief Method GetObjectData, addr 0x24d93ac, size 0xd0, virtual true, abstract: false, final true
-  inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
+  constexpr ::System::Runtime::Serialization::ISerializationSurrogate* i___System__Runtime__Serialization__ISerializationSurrogate() noexcept;
 
-  /// @brief Method SetObjectData, addr 0x24d947c, size 0xdc, virtual true, abstract: false, final true
-  inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
-                                         ::System::Runtime::Serialization::ISurrogateSelector* selector);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SurrogateForCyclicalReference();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SurrogateForCyclicalReference", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SurrogateForCyclicalReference(SurrogateForCyclicalReference&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SurrogateForCyclicalReference(SurrogateForCyclicalReference const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SurrogateForCyclicalReference();
-
-public:
   /// @brief Field innerSurrogate, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::ISerializationSurrogate* ___innerSurrogate;
 

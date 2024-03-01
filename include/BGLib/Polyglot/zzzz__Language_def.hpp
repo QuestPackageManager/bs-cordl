@@ -15,8 +15,6 @@ MARK_VAL_T(::BGLib::Polyglot::Language);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15672))
 // CS Name: ::BGLib.Polyglot::Language
 struct CORDL_TYPE Language {
 public:
@@ -63,96 +61,20 @@ public:
     return static_cast<__Language_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr Language(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__Language_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Language();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr Language(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field English value: static_cast<int32_t>(0x0)
-  static ::BGLib::Polyglot::Language const English;
-
-  /// @brief Field French value: static_cast<int32_t>(0x1)
-  static ::BGLib::Polyglot::Language const French;
-
-  /// @brief Field Spanish value: static_cast<int32_t>(0x2)
-  static ::BGLib::Polyglot::Language const Spanish;
-
-  /// @brief Field German value: static_cast<int32_t>(0x3)
-  static ::BGLib::Polyglot::Language const German;
-
-  /// @brief Field Italian value: static_cast<int32_t>(0x4)
-  static ::BGLib::Polyglot::Language const Italian;
-
-  /// @brief Field Portuguese_Brazil value: static_cast<int32_t>(0x5)
-  static ::BGLib::Polyglot::Language const Portuguese_Brazil;
-
-  /// @brief Field Portuguese value: static_cast<int32_t>(0x6)
-  static ::BGLib::Polyglot::Language const Portuguese;
-
-  /// @brief Field Russian value: static_cast<int32_t>(0x7)
-  static ::BGLib::Polyglot::Language const Russian;
-
-  /// @brief Field Greek value: static_cast<int32_t>(0x8)
-  static ::BGLib::Polyglot::Language const Greek;
-
-  /// @brief Field Turkish value: static_cast<int32_t>(0x9)
-  static ::BGLib::Polyglot::Language const Turkish;
-
-  /// @brief Field Danish value: static_cast<int32_t>(0xa)
-  static ::BGLib::Polyglot::Language const Danish;
-
-  /// @brief Field Norwegian value: static_cast<int32_t>(0xb)
-  static ::BGLib::Polyglot::Language const Norwegian;
-
-  /// @brief Field Swedish value: static_cast<int32_t>(0xc)
-  static ::BGLib::Polyglot::Language const Swedish;
-
-  /// @brief Field Dutch value: static_cast<int32_t>(0xd)
-  static ::BGLib::Polyglot::Language const Dutch;
-
-  /// @brief Field Polish value: static_cast<int32_t>(0xe)
-  static ::BGLib::Polyglot::Language const Polish;
-
-  /// @brief Field Finnish value: static_cast<int32_t>(0xf)
-  static ::BGLib::Polyglot::Language const Finnish;
-
-  /// @brief Field Japanese value: static_cast<int32_t>(0x10)
-  static ::BGLib::Polyglot::Language const Japanese;
-
-  /// @brief Field Simplified_Chinese value: static_cast<int32_t>(0x11)
-  static ::BGLib::Polyglot::Language const Simplified_Chinese;
-
-  /// @brief Field Traditional_Chinese value: static_cast<int32_t>(0x12)
-  static ::BGLib::Polyglot::Language const Traditional_Chinese;
-
-  /// @brief Field Korean value: static_cast<int32_t>(0x13)
-  static ::BGLib::Polyglot::Language const Korean;
-
-  /// @brief Field Czech value: static_cast<int32_t>(0x14)
-  static ::BGLib::Polyglot::Language const Czech;
-
-  /// @brief Field Hungarian value: static_cast<int32_t>(0x15)
-  static ::BGLib::Polyglot::Language const Hungarian;
-
-  /// @brief Field Romanian value: static_cast<int32_t>(0x16)
-  static ::BGLib::Polyglot::Language const Romanian;
-
-  /// @brief Field Thai value: static_cast<int32_t>(0x17)
-  static ::BGLib::Polyglot::Language const Thai;
-
-  /// @brief Field Bulgarian value: static_cast<int32_t>(0x18)
-  static ::BGLib::Polyglot::Language const Bulgarian;
-
-  /// @brief Field Hebrew value: static_cast<int32_t>(0x19)
-  static ::BGLib::Polyglot::Language const Hebrew;
 
   /// @brief Field Arabic value: static_cast<int32_t>(0x1a)
   static ::BGLib::Polyglot::Language const Arabic;
@@ -160,14 +82,95 @@ public:
   /// @brief Field Bosnian value: static_cast<int32_t>(0x1b)
   static ::BGLib::Polyglot::Language const Bosnian;
 
-  /// @brief Field Debug_Keys value: static_cast<int32_t>(0x1c)
-  static ::BGLib::Polyglot::Language const Debug_Keys;
+  /// @brief Field Bulgarian value: static_cast<int32_t>(0x18)
+  static ::BGLib::Polyglot::Language const Bulgarian;
+
+  /// @brief Field Czech value: static_cast<int32_t>(0x14)
+  static ::BGLib::Polyglot::Language const Czech;
+
+  /// @brief Field Danish value: static_cast<int32_t>(0xa)
+  static ::BGLib::Polyglot::Language const Danish;
 
   /// @brief Field Debug_English_Reverted value: static_cast<int32_t>(0x1d)
   static ::BGLib::Polyglot::Language const Debug_English_Reverted;
 
+  /// @brief Field Debug_Keys value: static_cast<int32_t>(0x1c)
+  static ::BGLib::Polyglot::Language const Debug_Keys;
+
   /// @brief Field Debug_Word_With_Max_Lenght value: static_cast<int32_t>(0x1e)
   static ::BGLib::Polyglot::Language const Debug_Word_With_Max_Lenght;
+
+  /// @brief Field Dutch value: static_cast<int32_t>(0xd)
+  static ::BGLib::Polyglot::Language const Dutch;
+
+  /// @brief Field English value: static_cast<int32_t>(0x0)
+  static ::BGLib::Polyglot::Language const English;
+
+  /// @brief Field Finnish value: static_cast<int32_t>(0xf)
+  static ::BGLib::Polyglot::Language const Finnish;
+
+  /// @brief Field French value: static_cast<int32_t>(0x1)
+  static ::BGLib::Polyglot::Language const French;
+
+  /// @brief Field German value: static_cast<int32_t>(0x3)
+  static ::BGLib::Polyglot::Language const German;
+
+  /// @brief Field Greek value: static_cast<int32_t>(0x8)
+  static ::BGLib::Polyglot::Language const Greek;
+
+  /// @brief Field Hebrew value: static_cast<int32_t>(0x19)
+  static ::BGLib::Polyglot::Language const Hebrew;
+
+  /// @brief Field Hungarian value: static_cast<int32_t>(0x15)
+  static ::BGLib::Polyglot::Language const Hungarian;
+
+  /// @brief Field Italian value: static_cast<int32_t>(0x4)
+  static ::BGLib::Polyglot::Language const Italian;
+
+  /// @brief Field Japanese value: static_cast<int32_t>(0x10)
+  static ::BGLib::Polyglot::Language const Japanese;
+
+  /// @brief Field Korean value: static_cast<int32_t>(0x13)
+  static ::BGLib::Polyglot::Language const Korean;
+
+  /// @brief Field Norwegian value: static_cast<int32_t>(0xb)
+  static ::BGLib::Polyglot::Language const Norwegian;
+
+  /// @brief Field Polish value: static_cast<int32_t>(0xe)
+  static ::BGLib::Polyglot::Language const Polish;
+
+  /// @brief Field Portuguese value: static_cast<int32_t>(0x6)
+  static ::BGLib::Polyglot::Language const Portuguese;
+
+  /// @brief Field Portuguese_Brazil value: static_cast<int32_t>(0x5)
+  static ::BGLib::Polyglot::Language const Portuguese_Brazil;
+
+  /// @brief Field Romanian value: static_cast<int32_t>(0x16)
+  static ::BGLib::Polyglot::Language const Romanian;
+
+  /// @brief Field Russian value: static_cast<int32_t>(0x7)
+  static ::BGLib::Polyglot::Language const Russian;
+
+  /// @brief Field Simplified_Chinese value: static_cast<int32_t>(0x11)
+  static ::BGLib::Polyglot::Language const Simplified_Chinese;
+
+  /// @brief Field Spanish value: static_cast<int32_t>(0x2)
+  static ::BGLib::Polyglot::Language const Spanish;
+
+  /// @brief Field Swedish value: static_cast<int32_t>(0xc)
+  static ::BGLib::Polyglot::Language const Swedish;
+
+  /// @brief Field Thai value: static_cast<int32_t>(0x17)
+  static ::BGLib::Polyglot::Language const Thai;
+
+  /// @brief Field Traditional_Chinese value: static_cast<int32_t>(0x12)
+  static ::BGLib::Polyglot::Language const Traditional_Chinese;
+
+  /// @brief Field Turkish value: static_cast<int32_t>(0x9)
+  static ::BGLib::Polyglot::Language const Turkish;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

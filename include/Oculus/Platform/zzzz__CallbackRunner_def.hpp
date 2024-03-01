@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::Oculus::Platform::CallbackRunner);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13128))
 // CS Name: ::Oculus.Platform::CallbackRunner*
 class CORDL_TYPE CallbackRunner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -23,32 +21,38 @@ public:
   /// @brief Field IsPersistantBetweenSceneLoads, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_IsPersistantBetweenSceneLoads, put = __cordl_internal_set_IsPersistantBetweenSceneLoads)) bool IsPersistantBetweenSceneLoads;
 
-  constexpr bool& __cordl_internal_get_IsPersistantBetweenSceneLoads();
-
-  constexpr bool const& __cordl_internal_get_IsPersistantBetweenSceneLoads() const;
-
-  constexpr void __cordl_internal_set_IsPersistantBetweenSceneLoads(bool value);
-
-  /// @brief Method ovr_UnityResetTestPlatform, addr 0x26ee810, size 0x64, virtual false, abstract: false, final false
-  static inline void ovr_UnityResetTestPlatform();
-
-  /// @brief Method Awake, addr 0x26ee874, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x27c145c, size 0x100, virtual false, abstract: false, final false
   inline void Awake();
-
-  /// @brief Method Update, addr 0x26ee974, size 0xc, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method OnDestroy, addr 0x26ee980, size 0x4, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method OnApplicationQuit, addr 0x26ee984, size 0x4c, virtual false, abstract: false, final false
-  inline void OnApplicationQuit();
 
   static inline ::Oculus::Platform::CallbackRunner* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26ee9d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x27c15d0, size 0x4c, virtual false, abstract: false, final false
+  inline void OnApplicationQuit();
+
+  /// @brief Method OnDestroy, addr 0x27c15cc, size 0x4, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Update, addr 0x27c155c, size 0x8, virtual false, abstract: false, final false
+  inline void Update();
+
+  constexpr bool const& __cordl_internal_get_IsPersistantBetweenSceneLoads() const;
+
+  constexpr bool& __cordl_internal_get_IsPersistantBetweenSceneLoads();
+
+  constexpr void __cordl_internal_set_IsPersistantBetweenSceneLoads(bool value);
+
+  /// @brief Method .ctor, addr 0x27c161c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method ovr_UnityResetTestPlatform, addr 0x27c13f8, size 0x64, virtual false, abstract: false, final false
+  static inline void ovr_UnityResetTestPlatform();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CallbackRunner();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CallbackRunner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CallbackRunner(CallbackRunner&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CallbackRunner(CallbackRunner const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CallbackRunner();
-
-public:
   /// @brief Field IsPersistantBetweenSceneLoads, offset: 0x18, size: 0x1, def value: None
   bool ___IsPersistantBetweenSceneLoads;
 

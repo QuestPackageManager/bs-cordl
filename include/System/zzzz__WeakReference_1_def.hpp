@@ -27,8 +27,6 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3333))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2643))
 // CS Name: ::System::WeakReference`1<T>*
 class CORDL_TYPE WeakReference_1 : public ::System::Object {
 public:
@@ -42,38 +40,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
-
-  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get_handle();
-
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_handle() const;
-
-  constexpr void __cordl_internal_set_handle(::System::Runtime::InteropServices::GCHandle value);
-
-  constexpr bool& __cordl_internal_get_trackResurrection();
-
-  constexpr bool const& __cordl_internal_get_trackResurrection() const;
-
-  constexpr void __cordl_internal_set_trackResurrection(bool value);
-
-  static inline ::System::WeakReference_1<T>* New_ctor(T target);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(T target);
-
-  static inline ::System::WeakReference_1<T>* New_ctor(T target, bool trackResurrection);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(T target, bool trackResurrection);
-
-  static inline ::System::WeakReference_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Finalize();
 
   /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::WeakReference_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::WeakReference_1<T>* New_ctor(T target);
+
+  static inline ::System::WeakReference_1<T>* New_ctor(T target, bool trackResurrection);
 
   /// @brief Method SetTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetTarget(T target);
@@ -81,9 +58,36 @@ public:
   /// @brief Method TryGetTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetTarget(ByRef<T> target);
 
-  /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Finalize();
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_handle() const;
 
+  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get_handle();
+
+  constexpr bool const& __cordl_internal_get_trackResurrection() const;
+
+  constexpr bool& __cordl_internal_get_trackResurrection();
+
+  constexpr void __cordl_internal_set_handle(::System::Runtime::InteropServices::GCHandle value);
+
+  constexpr void __cordl_internal_set_trackResurrection(bool value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(T target);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(T target, bool trackResurrection);
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WeakReference_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WeakReference_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WeakReference_1(WeakReference_1&&) = delete;
@@ -92,12 +96,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WeakReference_1(WeakReference_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WeakReference_1();
-
-public:
   /// @brief Field handle, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::InteropServices::GCHandle ___handle;
 

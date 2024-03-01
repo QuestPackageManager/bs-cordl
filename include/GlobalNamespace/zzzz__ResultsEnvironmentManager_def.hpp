@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ResultsEnvironmentManager);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4048))
 // CS Name: ::ResultsEnvironmentManager*
 class CORDL_TYPE ResultsEnvironmentManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -33,6 +31,20 @@ public:
   /// @brief Field _preloadedResultsEnvironmentControllers, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__preloadedResultsEnvironmentControllers, put = __cordl_internal_set__preloadedResultsEnvironmentControllers))::System::Collections::Generic::
       Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* _preloadedResultsEnvironmentControllers;
+
+  /// @brief Method GetResultEnvironmentControllerForKeyword, addr 0x2389958, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> GetResultEnvironmentControllerForKeyword(::StringW keyword);
+
+  /// @brief Method HideResultForKeyword, addr 0x2389a54, size 0x84, virtual false, abstract: false, final false
+  inline void HideResultForKeyword(::StringW keyword);
+
+  /// @brief Method Init, addr 0x2389548, size 0x410, virtual false, abstract: false, final false
+  inline void Init(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* resultsEnvironmentControllers);
+
+  static inline ::GlobalNamespace::ResultsEnvironmentManager* New_ctor();
+
+  /// @brief Method ShowResultForKeyword, addr 0x23899d0, size 0x84, virtual false, abstract: false, final false
+  inline void ShowResultForKeyword(::StringW keyword);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*& __cordl_internal_get__preloadedResultsEnvironmentControllers();
 
@@ -42,23 +54,15 @@ public:
   constexpr void
   __cordl_internal_set__preloadedResultsEnvironmentControllers(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* value);
 
-  /// @brief Method Init, addr 0x22bcee0, size 0x410, virtual false, abstract: false, final false
-  inline void Init(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* resultsEnvironmentControllers);
-
-  /// @brief Method GetResultEnvironmentControllerForKeyword, addr 0x22bd2f0, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> GetResultEnvironmentControllerForKeyword(::StringW keyword);
-
-  /// @brief Method ShowResultForKeyword, addr 0x22bd368, size 0x84, virtual false, abstract: false, final false
-  inline void ShowResultForKeyword(::StringW keyword);
-
-  /// @brief Method HideResultForKeyword, addr 0x22bd3ec, size 0x84, virtual false, abstract: false, final false
-  inline void HideResultForKeyword(::StringW keyword);
-
-  static inline ::GlobalNamespace::ResultsEnvironmentManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22bd470, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2389ad8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResultsEnvironmentManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResultsEnvironmentManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResultsEnvironmentManager(ResultsEnvironmentManager&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResultsEnvironmentManager(ResultsEnvironmentManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResultsEnvironmentManager();
-
-public:
   /// @brief Field _preloadedResultsEnvironmentControllers, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* ____preloadedResultsEnvironmentControllers;
 

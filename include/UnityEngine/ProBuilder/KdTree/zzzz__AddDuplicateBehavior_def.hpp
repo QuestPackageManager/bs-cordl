@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::KdTree {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16037))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::AddDuplicateBehavior
 struct CORDL_TYPE AddDuplicateBehavior {
 public:
@@ -36,30 +34,35 @@ public:
     return static_cast<__AddDuplicateBehavior_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AddDuplicateBehavior(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__AddDuplicateBehavior_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AddDuplicateBehavior();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AddDuplicateBehavior(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Skip value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Skip;
+  /// @brief Field Collect value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Collect;
 
   /// @brief Field Error value: static_cast<int32_t>(0x1)
   static ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Error;
 
+  /// @brief Field Skip value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Skip;
+
   /// @brief Field Update value: static_cast<int32_t>(0x2)
   static ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Update;
 
-  /// @brief Field Collect value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const Collect;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

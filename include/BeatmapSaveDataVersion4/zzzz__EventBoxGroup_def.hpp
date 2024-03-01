@@ -27,70 +27,74 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion4::EventBoxGroup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11137))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11139))
 // CS Name: ::BeatmapSaveDataVersion4::EventBoxGroup*
 class CORDL_TYPE EventBoxGroup : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field t, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::BeatmapSaveDataVersion4::EventBoxGroupType t;
-
-  /// @brief Field g, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) int32_t g;
-
   /// @brief Field b, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
+
+  __declspec(property(get = get_beat)) float_t beat;
 
   /// @brief Field e, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::ArrayW<::BeatmapSaveDataVersion4::EventBox, ::Array<::BeatmapSaveDataVersion4::EventBox>*> e;
 
-  __declspec(property(get = get_beat)) float_t beat;
+  /// @brief Field g, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) int32_t g;
+
+  /// @brief Field t, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::BeatmapSaveDataVersion4::EventBoxGroupType t;
 
   /// @brief Convert operator to "::BeatmapSaveDataCommon::IBeat"
   constexpr operator ::BeatmapSaveDataCommon::IBeat*() noexcept;
 
-  /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
-  constexpr ::BeatmapSaveDataCommon::IBeat* i___BeatmapSaveDataCommon__IBeat() noexcept;
-
   /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
+
+  static inline ::BeatmapSaveDataVersion4::EventBoxGroup* New_ctor();
+
+  constexpr float_t const& __cordl_internal_get_b() const;
+
+  constexpr float_t& __cordl_internal_get_b();
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::EventBox, ::Array<::BeatmapSaveDataVersion4::EventBox>*> const& __cordl_internal_get_e() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::EventBox, ::Array<::BeatmapSaveDataVersion4::EventBox>*>& __cordl_internal_get_e();
+
+  constexpr int32_t const& __cordl_internal_get_g() const;
+
+  constexpr int32_t& __cordl_internal_get_g();
+
+  constexpr ::BeatmapSaveDataVersion4::EventBoxGroupType const& __cordl_internal_get_t() const;
+
+  constexpr ::BeatmapSaveDataVersion4::EventBoxGroupType& __cordl_internal_get_t();
+
+  constexpr void __cordl_internal_set_b(float_t value);
+
+  constexpr void __cordl_internal_set_e(::ArrayW<::BeatmapSaveDataVersion4::EventBox, ::Array<::BeatmapSaveDataVersion4::EventBox>*> value);
+
+  constexpr void __cordl_internal_set_g(int32_t value);
+
+  constexpr void __cordl_internal_set_t(::BeatmapSaveDataVersion4::EventBoxGroupType value);
+
+  /// @brief Method .ctor, addr 0x12fbd84, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_beat, addr 0x12fbd7c, size 0x8, virtual true, abstract: false, final true
+  inline float_t get_beat();
+
+  /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
+  constexpr ::BeatmapSaveDataCommon::IBeat* i___BeatmapSaveDataCommon__IBeat() noexcept;
 
   /// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept;
 
-  constexpr ::BeatmapSaveDataVersion4::EventBoxGroupType& __cordl_internal_get_t();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventBoxGroup();
 
-  constexpr ::BeatmapSaveDataVersion4::EventBoxGroupType const& __cordl_internal_get_t() const;
-
-  constexpr void __cordl_internal_set_t(::BeatmapSaveDataVersion4::EventBoxGroupType value);
-
-  constexpr int32_t& __cordl_internal_get_g();
-
-  constexpr int32_t const& __cordl_internal_get_g() const;
-
-  constexpr void __cordl_internal_set_g(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_b();
-
-  constexpr float_t const& __cordl_internal_get_b() const;
-
-  constexpr void __cordl_internal_set_b(float_t value);
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::EventBox, ::Array<::BeatmapSaveDataVersion4::EventBox>*>& __cordl_internal_get_e();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::EventBox, ::Array<::BeatmapSaveDataVersion4::EventBox>*> const& __cordl_internal_get_e() const;
-
-  constexpr void __cordl_internal_set_e(::ArrayW<::BeatmapSaveDataVersion4::EventBox, ::Array<::BeatmapSaveDataVersion4::EventBox>*> value);
-
-  /// @brief Method get_beat, addr 0x12badac, size 0x8, virtual true, abstract: false, final true
-  inline float_t get_beat();
-
-  static inline ::BeatmapSaveDataVersion4::EventBoxGroup* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12badb4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventBoxGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventBoxGroup(EventBoxGroup&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventBoxGroup(EventBoxGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventBoxGroup();
-
-public:
   /// @brief Field t, offset: 0x10, size: 0x4, def value: None
   ::BeatmapSaveDataVersion4::EventBoxGroupType ___t;
 

@@ -15,8 +15,6 @@ MARK_VAL_T(::System::PlatformID);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2614))
 // CS Name: ::System::PlatformID
 struct CORDL_TYPE PlatformID {
 public:
@@ -39,18 +37,29 @@ public:
     return static_cast<__PlatformID_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PlatformID(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__PlatformID_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr PlatformID();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr PlatformID(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field MacOSX value: static_cast<int32_t>(0x6)
+  static ::System::PlatformID const MacOSX;
+
+  /// @brief Field Unix value: static_cast<int32_t>(0x4)
+  static ::System::PlatformID const Unix;
+
+  /// @brief Field Win32NT value: static_cast<int32_t>(0x2)
+  static ::System::PlatformID const Win32NT;
 
   /// @brief Field Win32S value: static_cast<int32_t>(0x0)
   static ::System::PlatformID const Win32S;
@@ -58,20 +67,14 @@ public:
   /// @brief Field Win32Windows value: static_cast<int32_t>(0x1)
   static ::System::PlatformID const Win32Windows;
 
-  /// @brief Field Win32NT value: static_cast<int32_t>(0x2)
-  static ::System::PlatformID const Win32NT;
-
   /// @brief Field WinCE value: static_cast<int32_t>(0x3)
   static ::System::PlatformID const WinCE;
-
-  /// @brief Field Unix value: static_cast<int32_t>(0x4)
-  static ::System::PlatformID const Unix;
 
   /// @brief Field Xbox value: static_cast<int32_t>(0x5)
   static ::System::PlatformID const Xbox;
 
-  /// @brief Field MacOSX value: static_cast<int32_t>(0x6)
-  static ::System::PlatformID const MacOSX;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

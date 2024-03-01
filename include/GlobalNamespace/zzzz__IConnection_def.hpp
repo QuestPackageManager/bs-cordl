@@ -20,32 +20,30 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnection);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12679))
 // CS Name: ::IConnection*
 class CORDL_TYPE IConnection {
 public:
   // Declarations
+  __declspec(property(get = get_isConnectionOwner)) bool isConnectionOwner;
+
   __declspec(property(get = get_userId))::StringW userId;
 
   __declspec(property(get = get_userName))::StringW userName;
 
-  __declspec(property(get = get_isConnectionOwner)) bool isConnectionOwner;
+  /// @brief Method Disconnect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Disconnect();
+
+  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
+
+  /// @brief Method get_isConnectionOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_isConnectionOwner();
 
   /// @brief Method get_userId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userId();
 
   /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userName();
-
-  /// @brief Method get_isConnectionOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_isConnectionOwner();
-
-  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
-
-  /// @brief Method Disconnect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Disconnect();
 
   // Ctor Parameters [CppParam { name: "", ty: "IConnection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

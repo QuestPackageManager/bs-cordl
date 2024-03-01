@@ -17,21 +17,19 @@ MARK_REF_PTR_T(::GlobalNamespace::IMissionNode);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10865))
 // CS Name: ::IMissionNode*
 class CORDL_TYPE IMissionNode {
 public:
   // Declarations
-  __declspec(property(get = get_missionId))::StringW missionId;
-
   __declspec(property(get = get_missionData))::UnityW<::GlobalNamespace::MissionDataSO> missionData;
 
-  /// @brief Method get_missionId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_missionId();
+  __declspec(property(get = get_missionId))::StringW missionId;
 
   /// @brief Method get_missionData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::GlobalNamespace::MissionDataSO> get_missionData();
+
+  /// @brief Method get_missionId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::StringW get_missionId();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMissionNode", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

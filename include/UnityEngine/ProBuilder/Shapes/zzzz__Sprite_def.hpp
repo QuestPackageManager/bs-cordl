@@ -29,23 +29,27 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Sprite);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12131))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12134))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Sprite*
 class CORDL_TYPE Sprite : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
-  /// @brief Method CopyShape, addr 0x2b8d9e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x2c75abc, size 0x4, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
-
-  /// @brief Method RebuildMesh, addr 0x2b8d9ec, size 0x32c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Sprite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b8dd18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x2c75ac0, size 0x32c, virtual true, abstract: false, final false
+  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
+
+  /// @brief Method .ctor, addr 0x2c75dec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Sprite();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Sprite", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Sprite(Sprite&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Sprite(Sprite const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Sprite();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

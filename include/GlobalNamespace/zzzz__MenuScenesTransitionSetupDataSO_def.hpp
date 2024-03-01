@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::GlobalNamespace::MenuScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15462))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15461))
 // CS Name: ::MenuScenesTransitionSetupDataSO*
 class CORDL_TYPE MenuScenesTransitionSetupDataSO : public ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
   static inline ::GlobalNamespace::MenuScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe45278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe8b248, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MenuScenesTransitionSetupDataSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MenuScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MenuScenesTransitionSetupDataSO(MenuScenesTransitionSetupDataSO&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MenuScenesTransitionSetupDataSO(MenuScenesTransitionSetupDataSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MenuScenesTransitionSetupDataSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

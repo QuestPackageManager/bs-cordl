@@ -16,30 +16,34 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(531))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(547))
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::SignatureExpirationTime*
 class CORDL_TYPE SignatureExpirationTime : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
   __declspec(property(get = get_Time)) int64_t Time;
 
-  /// @brief Method TimeToBytes, addr 0x11f6ce4, size 0x94, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TimeToBytes(int64_t t);
-
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
-
-  /// @brief Method .ctor, addr 0x11f6d78, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime* New_ctor(bool critical, int64_t seconds);
 
-  /// @brief Method .ctor, addr 0x11f6dc0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method TimeToBytes, addr 0x1239cb4, size 0x94, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TimeToBytes(int64_t t);
+
+  /// @brief Method .ctor, addr 0x1239d48, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+
+  /// @brief Method .ctor, addr 0x1239d90, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int64_t seconds);
 
-  /// @brief Method get_Time, addr 0x11f6e0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x1239ddc, size 0x5c, virtual false, abstract: false, final false
   inline int64_t get_Time();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SignatureExpirationTime();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SignatureExpirationTime", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SignatureExpirationTime(SignatureExpirationTime&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignatureExpirationTime(SignatureExpirationTime const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignatureExpirationTime();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

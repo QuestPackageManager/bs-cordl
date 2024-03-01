@@ -22,19 +22,17 @@ MARK_VAL_T(::OVR::OpenVR::VRBoneTransform_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8592)), TypeDefinitionIndex(TypeDefinitionIndex(8596))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8643))
 // CS Name: ::OVR.OpenVR::VRBoneTransform_t
 struct CORDL_TYPE VRBoneTransform_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "position", ty: "::OVR::OpenVR::HmdVector4_t", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::OVR::OpenVR::HmdQuaternionf_t",
-  // modifiers: "", def_value: None }]
-  constexpr VRBoneTransform_t(::OVR::OpenVR::HmdVector4_t position, ::OVR::OpenVR::HmdQuaternionf_t orientation) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VRBoneTransform_t();
+
+  // Ctor Parameters [CppParam { name: "position", ty: "::OVR::OpenVR::HmdVector4_t", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::OVR::OpenVR::HmdQuaternionf_t",
+  // modifiers: "", def_value: None }]
+  constexpr VRBoneTransform_t(::OVR::OpenVR::HmdVector4_t position, ::OVR::OpenVR::HmdQuaternionf_t orientation) noexcept;
 
   /// @brief Field position, offset: 0x0, size: 0x10, def value: None
   ::OVR::OpenVR::HmdVector4_t position;

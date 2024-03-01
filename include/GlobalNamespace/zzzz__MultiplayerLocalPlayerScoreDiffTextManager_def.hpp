@@ -34,26 +34,25 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 70, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(8969)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 77
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4569)) CS Name: ::MultiplayerLocalPlayerScoreDiffTextManager*
+// CS Name: ::MultiplayerLocalPlayerScoreDiffTextManager*
 class CORDL_TYPE MultiplayerLocalPlayerScoreDiffTextManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _scoreDiffText, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreDiffText, put = __cordl_internal_set__scoreDiffText))::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> _scoreDiffText;
+  /// @brief Field _hudInitData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__hudInitData, put = __cordl_internal_set__hudInitData))::GlobalNamespace::__CoreGameHUDController__InitData* _hudInitData;
 
   /// @brief Field _multiplayerController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController))::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
-  /// @brief Field _scoreProvider, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
-
-  /// @brief Field _hudInitData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__hudInitData, put = __cordl_internal_set__hudInitData))::GlobalNamespace::__CoreGameHUDController__InitData* _hudInitData;
-
   /// @brief Field _multiplayerSessionManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
                       put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+
+  /// @brief Field _scoreDiffText, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__scoreDiffText, put = __cordl_internal_set__scoreDiffText))::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> _scoreDiffText;
+
+  /// @brief Field _scoreProvider, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
   /// @brief Field _timeToNextUpdate, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__timeToNextUpdate, put = __cordl_internal_set__timeToNextUpdate)) float_t _timeToNextUpdate;
@@ -61,65 +60,71 @@ public:
   /// @brief Field _wasLocalPlayerLeader, offset 0x44, size 0x2
   __declspec(property(get = __cordl_internal_get__wasLocalPlayerLeader, put = __cordl_internal_set__wasLocalPlayerLeader))::System::Nullable_1<bool> _wasLocalPlayerLeader;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText>& __cordl_internal_get__scoreDiffText();
+  /// @brief Method HandleStateChanged, addr 0x2480894, size 0x4c, virtual false, abstract: false, final false
+  inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> const& __cordl_internal_get__scoreDiffText() const;
+  static inline ::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager* New_ctor();
 
-  constexpr void __cordl_internal_set__scoreDiffText(::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> value);
+  /// @brief Method OnDestroy, addr 0x24803d4, size 0xd0, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
+  /// @brief Method Start, addr 0x2480324, size 0xb0, virtual false, abstract: false, final false
+  inline void Start();
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
-
-  constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
-
-  constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
+  /// @brief Method Update, addr 0x24804a4, size 0x33c, virtual false, abstract: false, final false
+  inline void Update();
 
   constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& __cordl_internal_get__hudInitData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CoreGameHUDController__InitData*> const& __cordl_internal_get__hudInitData() const;
 
-  constexpr void __cordl_internal_set__hudInitData(::GlobalNamespace::__CoreGameHUDController__InitData* value);
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> const& __cordl_internal_get__scoreDiffText() const;
 
-  constexpr float_t& __cordl_internal_get__timeToNextUpdate();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText>& __cordl_internal_get__scoreDiffText();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
 
   constexpr float_t const& __cordl_internal_get__timeToNextUpdate() const;
 
-  constexpr void __cordl_internal_set__timeToNextUpdate(float_t value);
-
-  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__wasLocalPlayerLeader();
+  constexpr float_t& __cordl_internal_get__timeToNextUpdate();
 
   constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__wasLocalPlayerLeader() const;
 
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__wasLocalPlayerLeader();
+
+  constexpr void __cordl_internal_set__hudInitData(::GlobalNamespace::__CoreGameHUDController__InitData* value);
+
+  constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
+
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+
+  constexpr void __cordl_internal_set__scoreDiffText(::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> value);
+
+  constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
+
+  constexpr void __cordl_internal_set__timeToNextUpdate(float_t value);
+
   constexpr void __cordl_internal_set__wasLocalPlayerLeader(::System::Nullable_1<bool> value);
 
-  /// @brief Method Start, addr 0x23b23dc, size 0xb0, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x23b248c, size 0xd0, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method Update, addr 0x23b255c, size 0x33c, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method HandleStateChanged, addr 0x23b294c, size 0x4c, virtual false, abstract: false, final false
-  inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
-
-  static inline ::GlobalNamespace::MultiplayerLocalPlayerScoreDiffTextManager* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23b2998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24808e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerLocalPlayerScoreDiffTextManager();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalPlayerScoreDiffTextManager", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerLocalPlayerScoreDiffTextManager(MultiplayerLocalPlayerScoreDiffTextManager&&) = delete;
@@ -128,12 +133,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalPlayerScoreDiffTextManager(MultiplayerLocalPlayerScoreDiffTextManager const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerLocalPlayerScoreDiffTextManager();
-
-public:
   /// @brief Field _scoreDiffText, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> ____scoreDiffText;
 

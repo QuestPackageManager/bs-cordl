@@ -43,41 +43,24 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::RemotingConfiguration);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3055))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3064))
 // CS Name: ::System.Runtime.Remoting::RemotingConfiguration*
 class CORDL_TYPE RemotingConfiguration : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _errorMode, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF__errorMode, put = setStaticF__errorMode))::System::Runtime::Remoting::CustomErrorsModes _errorMode;
+
+  /// @brief Field activatedClientEntries, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_activatedClientEntries, put = setStaticF_activatedClientEntries))::System::Collections::Hashtable* activatedClientEntries;
+
+  /// @brief Field activatedServiceEntries, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_activatedServiceEntries, put = setStaticF_activatedServiceEntries))::System::Collections::Hashtable* activatedServiceEntries;
+
   /// @brief Field applicationID, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_applicationID, put = setStaticF_applicationID))::StringW applicationID;
 
   /// @brief Field applicationName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_applicationName, put = setStaticF_applicationName))::StringW applicationName;
-
-  /// @brief Field processGuid, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_processGuid, put = setStaticF_processGuid))::StringW processGuid;
-
-  /// @brief Field defaultConfigRead, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_defaultConfigRead, put = setStaticF_defaultConfigRead)) bool defaultConfigRead;
-
-  /// @brief Field defaultDelayedConfigRead, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_defaultDelayedConfigRead, put = setStaticF_defaultDelayedConfigRead)) bool defaultDelayedConfigRead;
-
-  /// @brief Field _errorMode, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__errorMode, put = setStaticF__errorMode))::System::Runtime::Remoting::CustomErrorsModes _errorMode;
-
-  /// @brief Field wellKnownClientEntries, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_wellKnownClientEntries, put = setStaticF_wellKnownClientEntries))::System::Collections::Hashtable* wellKnownClientEntries;
-
-  /// @brief Field activatedClientEntries, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_activatedClientEntries, put = setStaticF_activatedClientEntries))::System::Collections::Hashtable* activatedClientEntries;
-
-  /// @brief Field wellKnownServiceEntries, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_wellKnownServiceEntries, put = setStaticF_wellKnownServiceEntries))::System::Collections::Hashtable* wellKnownServiceEntries;
-
-  /// @brief Field activatedServiceEntries, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_activatedServiceEntries, put = setStaticF_activatedServiceEntries))::System::Collections::Hashtable* activatedServiceEntries;
 
   /// @brief Field channelTemplates, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_channelTemplates, put = setStaticF_channelTemplates))::System::Collections::Hashtable* channelTemplates;
@@ -85,115 +68,136 @@ public:
   /// @brief Field clientProviderTemplates, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_clientProviderTemplates, put = setStaticF_clientProviderTemplates))::System::Collections::Hashtable* clientProviderTemplates;
 
+  /// @brief Field defaultConfigRead, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_defaultConfigRead, put = setStaticF_defaultConfigRead)) bool defaultConfigRead;
+
+  /// @brief Field defaultDelayedConfigRead, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_defaultDelayedConfigRead, put = setStaticF_defaultDelayedConfigRead)) bool defaultDelayedConfigRead;
+
+  /// @brief Field processGuid, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_processGuid, put = setStaticF_processGuid))::StringW processGuid;
+
   /// @brief Field serverProviderTemplates, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_serverProviderTemplates, put = setStaticF_serverProviderTemplates))::System::Collections::Hashtable* serverProviderTemplates;
 
-  static inline void setStaticF_applicationID(::StringW value);
+  /// @brief Field wellKnownClientEntries, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_wellKnownClientEntries, put = setStaticF_wellKnownClientEntries))::System::Collections::Hashtable* wellKnownClientEntries;
 
-  static inline ::StringW getStaticF_applicationID();
+  /// @brief Field wellKnownServiceEntries, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_wellKnownServiceEntries, put = setStaticF_wellKnownServiceEntries))::System::Collections::Hashtable* wellKnownServiceEntries;
 
-  static inline void setStaticF_applicationName(::StringW value);
+  /// @brief Method CustomErrorsEnabled, addr 0x257dc44, size 0x94, virtual false, abstract: false, final false
+  static inline bool CustomErrorsEnabled(bool isLocalRequest);
 
-  static inline ::StringW getStaticF_applicationName();
+  /// @brief Method IsActivationAllowed, addr 0x257aaa8, size 0x144, virtual false, abstract: false, final false
+  static inline bool IsActivationAllowed(::System::Type* svrType);
 
-  static inline void setStaticF_processGuid(::StringW value);
+  /// @brief Method IsRemotelyActivatedClientType, addr 0x257abec, size 0x18c, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* IsRemotelyActivatedClientType(::System::Type* svrType);
 
-  static inline ::StringW getStaticF_processGuid();
+  /// @brief Method IsWellKnownClientType, addr 0x257ad78, size 0x18c, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* IsWellKnownClientType(::System::Type* svrType);
 
-  static inline void setStaticF_defaultConfigRead(bool value);
+  /// @brief Method LoadDefaultDelayedChannels, addr 0x257a684, size 0x36c, virtual false, abstract: false, final false
+  static inline void LoadDefaultDelayedChannels();
 
-  static inline bool getStaticF_defaultConfigRead();
+  /// @brief Method RegisterActivatedClientType, addr 0x257af04, size 0x28c, virtual false, abstract: false, final false
+  static inline void RegisterActivatedClientType(::System::Runtime::Remoting::ActivatedClientTypeEntry* entry);
 
-  static inline void setStaticF_defaultDelayedConfigRead(bool value);
+  /// @brief Method RegisterActivatedServiceType, addr 0x257b190, size 0x144, virtual false, abstract: false, final false
+  static inline void RegisterActivatedServiceType(::System::Runtime::Remoting::ActivatedServiceTypeEntry* entry);
 
-  static inline bool getStaticF_defaultDelayedConfigRead();
+  /// @brief Method RegisterChannelTemplate, addr 0x257b804, size 0x7c, virtual false, abstract: false, final false
+  static inline void RegisterChannelTemplate(::System::Runtime::Remoting::ChannelData* channel);
 
-  static inline void setStaticF__errorMode(::System::Runtime::Remoting::CustomErrorsModes value);
+  /// @brief Method RegisterChannels, addr 0x257b978, size 0xc90, virtual false, abstract: false, final false
+  static inline void RegisterChannels(::System::Collections::ArrayList* channels, bool onlyDelayed);
+
+  /// @brief Method RegisterClientProviderTemplate, addr 0x257b880, size 0x7c, virtual false, abstract: false, final false
+  static inline void RegisterClientProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
+
+  /// @brief Method RegisterServerProviderTemplate, addr 0x257b8fc, size 0x7c, virtual false, abstract: false, final false
+  static inline void RegisterServerProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
+
+  /// @brief Method RegisterTypes, addr 0x257d724, size 0x520, virtual false, abstract: false, final false
+  static inline void RegisterTypes(::System::Collections::ArrayList* types);
+
+  /// @brief Method RegisterWellKnownClientType, addr 0x257b2d4, size 0x28c, virtual false, abstract: false, final false
+  static inline void RegisterWellKnownClientType(::System::Runtime::Remoting::WellKnownClientTypeEntry* entry);
+
+  /// @brief Method RegisterWellKnownServiceType, addr 0x257b560, size 0x188, virtual false, abstract: false, final false
+  static inline void RegisterWellKnownServiceType(::System::Runtime::Remoting::WellKnownServiceTypeEntry* entry);
+
+  /// @brief Method SetCustomErrorsMode, addr 0x257dcd8, size 0x260, virtual false, abstract: false, final false
+  static inline void SetCustomErrorsMode(::StringW mode);
 
   static inline ::System::Runtime::Remoting::CustomErrorsModes getStaticF__errorMode();
 
-  static inline void setStaticF_wellKnownClientEntries(::System::Collections::Hashtable* value);
-
-  static inline ::System::Collections::Hashtable* getStaticF_wellKnownClientEntries();
-
-  static inline void setStaticF_activatedClientEntries(::System::Collections::Hashtable* value);
-
   static inline ::System::Collections::Hashtable* getStaticF_activatedClientEntries();
-
-  static inline void setStaticF_wellKnownServiceEntries(::System::Collections::Hashtable* value);
-
-  static inline ::System::Collections::Hashtable* getStaticF_wellKnownServiceEntries();
-
-  static inline void setStaticF_activatedServiceEntries(::System::Collections::Hashtable* value);
 
   static inline ::System::Collections::Hashtable* getStaticF_activatedServiceEntries();
 
-  static inline void setStaticF_channelTemplates(::System::Collections::Hashtable* value);
+  static inline ::StringW getStaticF_applicationID();
+
+  static inline ::StringW getStaticF_applicationName();
 
   static inline ::System::Collections::Hashtable* getStaticF_channelTemplates();
 
-  static inline void setStaticF_clientProviderTemplates(::System::Collections::Hashtable* value);
-
   static inline ::System::Collections::Hashtable* getStaticF_clientProviderTemplates();
 
-  static inline void setStaticF_serverProviderTemplates(::System::Collections::Hashtable* value);
+  static inline bool getStaticF_defaultConfigRead();
+
+  static inline bool getStaticF_defaultDelayedConfigRead();
+
+  static inline ::StringW getStaticF_processGuid();
 
   static inline ::System::Collections::Hashtable* getStaticF_serverProviderTemplates();
 
-  /// @brief Method get_ApplicationName, addr 0x24a8830, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::Collections::Hashtable* getStaticF_wellKnownClientEntries();
+
+  static inline ::System::Collections::Hashtable* getStaticF_wellKnownServiceEntries();
+
+  /// @brief Method get_ApplicationName, addr 0x257a528, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW get_ApplicationName();
 
-  /// @brief Method set_ApplicationName, addr 0x24a8888, size 0x5c, virtual false, abstract: false, final false
-  static inline void set_ApplicationName(::StringW value);
-
-  /// @brief Method get_ProcessId, addr 0x24a88e4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessId, addr 0x257a5dc, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW get_ProcessId();
 
-  /// @brief Method LoadDefaultDelayedChannels, addr 0x24a898c, size 0x36c, virtual false, abstract: false, final false
-  static inline void LoadDefaultDelayedChannels();
+  static inline void setStaticF__errorMode(::System::Runtime::Remoting::CustomErrorsModes value);
 
-  /// @brief Method IsActivationAllowed, addr 0x24a8db0, size 0x144, virtual false, abstract: false, final false
-  static inline bool IsActivationAllowed(::System::Type* svrType);
+  static inline void setStaticF_activatedClientEntries(::System::Collections::Hashtable* value);
 
-  /// @brief Method IsRemotelyActivatedClientType, addr 0x24a8ef4, size 0x18c, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* IsRemotelyActivatedClientType(::System::Type* svrType);
+  static inline void setStaticF_activatedServiceEntries(::System::Collections::Hashtable* value);
 
-  /// @brief Method IsWellKnownClientType, addr 0x24a9080, size 0x18c, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* IsWellKnownClientType(::System::Type* svrType);
+  static inline void setStaticF_applicationID(::StringW value);
 
-  /// @brief Method RegisterActivatedClientType, addr 0x24a920c, size 0x28c, virtual false, abstract: false, final false
-  static inline void RegisterActivatedClientType(::System::Runtime::Remoting::ActivatedClientTypeEntry* entry);
+  static inline void setStaticF_applicationName(::StringW value);
 
-  /// @brief Method RegisterActivatedServiceType, addr 0x24a9498, size 0x144, virtual false, abstract: false, final false
-  static inline void RegisterActivatedServiceType(::System::Runtime::Remoting::ActivatedServiceTypeEntry* entry);
+  static inline void setStaticF_channelTemplates(::System::Collections::Hashtable* value);
 
-  /// @brief Method RegisterWellKnownClientType, addr 0x24a95dc, size 0x28c, virtual false, abstract: false, final false
-  static inline void RegisterWellKnownClientType(::System::Runtime::Remoting::WellKnownClientTypeEntry* entry);
+  static inline void setStaticF_clientProviderTemplates(::System::Collections::Hashtable* value);
 
-  /// @brief Method RegisterWellKnownServiceType, addr 0x24a9868, size 0x188, virtual false, abstract: false, final false
-  static inline void RegisterWellKnownServiceType(::System::Runtime::Remoting::WellKnownServiceTypeEntry* entry);
+  static inline void setStaticF_defaultConfigRead(bool value);
 
-  /// @brief Method RegisterChannelTemplate, addr 0x24a9b0c, size 0x7c, virtual false, abstract: false, final false
-  static inline void RegisterChannelTemplate(::System::Runtime::Remoting::ChannelData* channel);
+  static inline void setStaticF_defaultDelayedConfigRead(bool value);
 
-  /// @brief Method RegisterClientProviderTemplate, addr 0x24a9b88, size 0x7c, virtual false, abstract: false, final false
-  static inline void RegisterClientProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
+  static inline void setStaticF_processGuid(::StringW value);
 
-  /// @brief Method RegisterServerProviderTemplate, addr 0x24a9c04, size 0x7c, virtual false, abstract: false, final false
-  static inline void RegisterServerProviderTemplate(::System::Runtime::Remoting::ProviderData* prov);
+  static inline void setStaticF_serverProviderTemplates(::System::Collections::Hashtable* value);
 
-  /// @brief Method RegisterChannels, addr 0x24a9c80, size 0xc90, virtual false, abstract: false, final false
-  static inline void RegisterChannels(::System::Collections::ArrayList* channels, bool onlyDelayed);
+  static inline void setStaticF_wellKnownClientEntries(::System::Collections::Hashtable* value);
 
-  /// @brief Method RegisterTypes, addr 0x24aba2c, size 0x520, virtual false, abstract: false, final false
-  static inline void RegisterTypes(::System::Collections::ArrayList* types);
+  static inline void setStaticF_wellKnownServiceEntries(::System::Collections::Hashtable* value);
 
-  /// @brief Method CustomErrorsEnabled, addr 0x24abf4c, size 0x94, virtual false, abstract: false, final false
-  static inline bool CustomErrorsEnabled(bool isLocalRequest);
+  /// @brief Method set_ApplicationName, addr 0x257a580, size 0x5c, virtual false, abstract: false, final false
+  static inline void set_ApplicationName(::StringW value);
 
-  /// @brief Method SetCustomErrorsMode, addr 0x24abfe0, size 0x260, virtual false, abstract: false, final false
-  static inline void SetCustomErrorsMode(::StringW mode);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RemotingConfiguration();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RemotingConfiguration", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RemotingConfiguration(RemotingConfiguration&&) = delete;
@@ -202,12 +206,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RemotingConfiguration(RemotingConfiguration const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RemotingConfiguration();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

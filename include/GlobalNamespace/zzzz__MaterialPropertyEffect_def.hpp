@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyEffect);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4263))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4264))
 // CS Name: ::MaterialPropertyEffect*
 class CORDL_TYPE MaterialPropertyEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
@@ -30,44 +28,50 @@ public:
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
                       put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
-  /// @brief Field _propertyName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
-
   /// @brief Field _propertyId, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__propertyId, put = __cordl_internal_set__propertyId)) int32_t _propertyId;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
+  /// @brief Field _propertyName, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
-
-  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
-
-  constexpr ::StringW& __cordl_internal_get__propertyName();
-
-  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
-
-  constexpr void __cordl_internal_set__propertyName(::StringW value);
-
-  constexpr int32_t& __cordl_internal_get__propertyId();
-
-  constexpr int32_t const& __cordl_internal_get__propertyId() const;
-
-  constexpr void __cordl_internal_set__propertyId(int32_t value);
-
-  /// @brief Method Awake, addr 0x2366708, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2434650, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
-
-  /// @brief Method SetValue, addr 0x2366728, size 0xc8, virtual true, abstract: false, final false
-  inline void SetValue(float_t value);
-
-  /// @brief Method TriggerValue, addr 0x23667f0, size 0xc8, virtual true, abstract: false, final false
-  inline void TriggerValue(float_t value);
 
   static inline ::GlobalNamespace::MaterialPropertyEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23668b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2434670, size 0xc8, virtual true, abstract: false, final false
+  inline void SetValue(float_t value);
+
+  /// @brief Method TriggerValue, addr 0x2434738, size 0xc8, virtual true, abstract: false, final false
+  inline void TriggerValue(float_t value);
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
+
+  constexpr int32_t const& __cordl_internal_get__propertyId() const;
+
+  constexpr int32_t& __cordl_internal_get__propertyId();
+
+  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
+
+  constexpr ::StringW& __cordl_internal_get__propertyName();
+
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
+
+  constexpr void __cordl_internal_set__propertyId(int32_t value);
+
+  constexpr void __cordl_internal_set__propertyName(::StringW value);
+
+  /// @brief Method .ctor, addr 0x2434800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MaterialPropertyEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MaterialPropertyEffect(MaterialPropertyEffect&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyEffect(MaterialPropertyEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaterialPropertyEffect();
-
-public:
   /// @brief Field _materialPropertyBlockController, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 

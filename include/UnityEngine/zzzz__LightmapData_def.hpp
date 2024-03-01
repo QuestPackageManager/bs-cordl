@@ -17,44 +17,48 @@ MARK_REF_PTR_T(::UnityEngine::LightmapData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8872))
 // CS Name: ::UnityEngine::LightmapData*
 class CORDL_TYPE LightmapData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Light, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Light, put = __cordl_internal_set_m_Light))::UnityW<::UnityEngine::Texture2D> m_Light;
-
   /// @brief Field m_Dir, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Dir, put = __cordl_internal_set_m_Dir))::UnityW<::UnityEngine::Texture2D> m_Dir;
+
+  /// @brief Field m_Light, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Light, put = __cordl_internal_set_m_Light))::UnityW<::UnityEngine::Texture2D> m_Light;
 
   /// @brief Field m_ShadowMask, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShadowMask, put = __cordl_internal_set_m_ShadowMask))::UnityW<::UnityEngine::Texture2D> m_ShadowMask;
 
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_Light();
-
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_Light() const;
-
-  constexpr void __cordl_internal_set_m_Light(::UnityW<::UnityEngine::Texture2D> value);
-
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_Dir();
+  static inline ::UnityEngine::LightmapData* New_ctor();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_Dir() const;
 
-  constexpr void __cordl_internal_set_m_Dir(::UnityW<::UnityEngine::Texture2D> value);
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_Dir();
 
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_ShadowMask();
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_Light() const;
+
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_Light();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_m_ShadowMask() const;
 
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_m_ShadowMask();
+
+  constexpr void __cordl_internal_set_m_Dir(::UnityW<::UnityEngine::Texture2D> value);
+
+  constexpr void __cordl_internal_set_m_Light(::UnityW<::UnityEngine::Texture2D> value);
+
   constexpr void __cordl_internal_set_m_ShadowMask(::UnityW<::UnityEngine::Texture2D> value);
 
-  static inline ::UnityEngine::LightmapData* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2cc6a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db1ffc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightmapData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightmapData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightmapData(LightmapData&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightmapData(LightmapData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightmapData();
-
-public:
   /// @brief Field m_Light, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_Light;
 

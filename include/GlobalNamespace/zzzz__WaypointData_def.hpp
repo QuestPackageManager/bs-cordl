@@ -27,78 +27,82 @@ MARK_REF_PTR_T(::GlobalNamespace::WaypointData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15135)), TypeDefinitionIndex(TypeDefinitionIndex(15144)), TypeDefinitionIndex(TypeDefinitionIndex(15146))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15152))
 // CS Name: ::WaypointData*
 class CORDL_TYPE WaypointData : public ::GlobalNamespace::BeatmapObjectData {
 public:
   // Declarations
-  /// @brief Field <offsetDirection>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__offsetDirection_k__BackingField,
-                      put = __cordl_internal_set__offsetDirection_k__BackingField))::GlobalNamespace::OffsetDirection _offsetDirection_k__BackingField;
-
   /// @brief Field <lineIndex>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__lineIndex_k__BackingField, put = __cordl_internal_set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
 
   /// @brief Field <lineLayer>k__BackingField, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__lineLayer_k__BackingField, put = __cordl_internal_set__lineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _lineLayer_k__BackingField;
 
-  __declspec(property(get = get_offsetDirection, put = set_offsetDirection))::GlobalNamespace::OffsetDirection offsetDirection;
+  /// @brief Field <offsetDirection>k__BackingField, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__offsetDirection_k__BackingField,
+                      put = __cordl_internal_set__offsetDirection_k__BackingField))::GlobalNamespace::OffsetDirection _offsetDirection_k__BackingField;
 
   __declspec(property(get = get_lineIndex, put = set_lineIndex)) int32_t lineIndex;
 
   __declspec(property(get = get_lineLayer, put = set_lineLayer))::GlobalNamespace::NoteLineLayer lineLayer;
 
-  constexpr ::GlobalNamespace::OffsetDirection& __cordl_internal_get__offsetDirection_k__BackingField();
+  __declspec(property(get = get_offsetDirection, put = set_offsetDirection))::GlobalNamespace::OffsetDirection offsetDirection;
 
-  constexpr ::GlobalNamespace::OffsetDirection const& __cordl_internal_get__offsetDirection_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__offsetDirection_k__BackingField(::GlobalNamespace::OffsetDirection value);
-
-  constexpr int32_t& __cordl_internal_get__lineIndex_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__lineIndex_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__lineIndex_k__BackingField(int32_t value);
-
-  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__lineLayer_k__BackingField();
-
-  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__lineLayer_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
-
-  /// @brief Method get_offsetDirection, addr 0xe1218c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OffsetDirection get_offsetDirection();
-
-  /// @brief Method set_offsetDirection, addr 0xe12194, size 0x8, virtual false, abstract: false, final false
-  inline void set_offsetDirection(::GlobalNamespace::OffsetDirection value);
-
-  /// @brief Method get_lineIndex, addr 0xe1219c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_lineIndex();
-
-  /// @brief Method set_lineIndex, addr 0xe121a4, size 0x8, virtual false, abstract: false, final false
-  inline void set_lineIndex(int32_t value);
-
-  /// @brief Method get_lineLayer, addr 0xe121ac, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
-
-  /// @brief Method set_lineLayer, addr 0xe121b4, size 0x8, virtual false, abstract: false, final false
-  inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
-
-  /// @brief Method GetCopy, addr 0xe121bc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetCopy, addr 0xe57d20, size 0x90, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
+
+  /// @brief Method Mirror, addr 0xe57e08, size 0x14, virtual true, abstract: false, final false
+  inline void Mirror(int32_t lineCount);
+
+  /// @brief Method MirrorTransformOffsetDirection, addr 0xe57e1c, size 0x24, virtual false, abstract: false, final false
+  inline void MirrorTransformOffsetDirection();
 
   static inline ::GlobalNamespace::WaypointData* New_ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method .ctor, addr 0xe1224c, size 0x58, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get__lineIndex_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__lineIndex_k__BackingField();
+
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__lineLayer_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__lineLayer_k__BackingField();
+
+  constexpr ::GlobalNamespace::OffsetDirection const& __cordl_internal_get__offsetDirection_k__BackingField() const;
+
+  constexpr ::GlobalNamespace::OffsetDirection& __cordl_internal_get__offsetDirection_k__BackingField();
+
+  constexpr void __cordl_internal_set__lineIndex_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+
+  constexpr void __cordl_internal_set__offsetDirection_k__BackingField(::GlobalNamespace::OffsetDirection value);
+
+  /// @brief Method .ctor, addr 0xe57db0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method Mirror, addr 0xe122a4, size 0x14, virtual true, abstract: false, final false
-  inline void Mirror(int32_t lineCount);
+  /// @brief Method get_lineIndex, addr 0xe57d00, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_lineIndex();
 
-  /// @brief Method MirrorTransformOffsetDirection, addr 0xe122b8, size 0x24, virtual false, abstract: false, final false
-  inline void MirrorTransformOffsetDirection();
+  /// @brief Method get_lineLayer, addr 0xe57d10, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
+  /// @brief Method get_offsetDirection, addr 0xe57cf0, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OffsetDirection get_offsetDirection();
+
+  /// @brief Method set_lineIndex, addr 0xe57d08, size 0x8, virtual false, abstract: false, final false
+  inline void set_lineIndex(int32_t value);
+
+  /// @brief Method set_lineLayer, addr 0xe57d18, size 0x8, virtual false, abstract: false, final false
+  inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
+
+  /// @brief Method set_offsetDirection, addr 0xe57cf8, size 0x8, virtual false, abstract: false, final false
+  inline void set_offsetDirection(::GlobalNamespace::OffsetDirection value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WaypointData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WaypointData(WaypointData&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WaypointData(WaypointData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WaypointData();
-
-public:
   /// @brief Field <offsetDirection>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OffsetDirection ____offsetDirection_k__BackingField;
 

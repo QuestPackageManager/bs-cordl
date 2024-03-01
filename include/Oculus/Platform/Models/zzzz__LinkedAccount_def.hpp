@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LinkedAccount);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13318))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13390))
 // CS Name: ::Oculus.Platform.Models::LinkedAccount*
 class CORDL_TYPE LinkedAccount : public ::System::Object {
 public:
@@ -32,29 +30,35 @@ public:
   /// @brief Field UserId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId))::StringW UserId;
 
-  constexpr ::StringW& __cordl_internal_get_AccessToken();
+  static inline ::Oculus::Platform::Models::LinkedAccount* New_ctor(void* o);
 
   constexpr ::StringW const& __cordl_internal_get_AccessToken() const;
 
-  constexpr void __cordl_internal_set_AccessToken(::StringW value);
-
-  constexpr ::Oculus::Platform::ServiceProvider& __cordl_internal_get_ServiceProvider();
+  constexpr ::StringW& __cordl_internal_get_AccessToken();
 
   constexpr ::Oculus::Platform::ServiceProvider const& __cordl_internal_get_ServiceProvider() const;
 
-  constexpr void __cordl_internal_set_ServiceProvider(::Oculus::Platform::ServiceProvider value);
-
-  constexpr ::StringW& __cordl_internal_get_UserId();
+  constexpr ::Oculus::Platform::ServiceProvider& __cordl_internal_get_ServiceProvider();
 
   constexpr ::StringW const& __cordl_internal_get_UserId() const;
 
+  constexpr ::StringW& __cordl_internal_get_UserId();
+
+  constexpr void __cordl_internal_set_AccessToken(::StringW value);
+
+  constexpr void __cordl_internal_set_ServiceProvider(::Oculus::Platform::ServiceProvider value);
+
   constexpr void __cordl_internal_set_UserId(::StringW value);
 
-  static inline ::Oculus::Platform::Models::LinkedAccount* New_ctor(void* o);
-
-  /// @brief Method .ctor, addr 0x2739e28, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f8844, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LinkedAccount();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LinkedAccount", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LinkedAccount(LinkedAccount&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LinkedAccount(LinkedAccount const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LinkedAccount();
-
-public:
   /// @brief Field AccessToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___AccessToken;
 

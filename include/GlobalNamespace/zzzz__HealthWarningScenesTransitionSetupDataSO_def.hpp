@@ -17,20 +17,24 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15464))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5340))
 // CS Name: ::HealthWarningScenesTransitionSetupDataSO*
 class CORDL_TYPE HealthWarningScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2346de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2414d2c, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::HealthWarningSceneSetupData* healthWarningSceneSetupData);
 
   static inline ::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2349e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2417dc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HealthWarningScenesTransitionSetupDataSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HealthWarningScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HealthWarningScenesTransitionSetupDataSO(HealthWarningScenesTransitionSetupDataSO&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HealthWarningScenesTransitionSetupDataSO(HealthWarningScenesTransitionSetupDataSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HealthWarningScenesTransitionSetupDataSO();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

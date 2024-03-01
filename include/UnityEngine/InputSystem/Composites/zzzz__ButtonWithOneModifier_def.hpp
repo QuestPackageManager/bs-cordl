@@ -20,56 +20,60 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5449)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5449), inst: 391 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5974))
 // CS Name: ::UnityEngine.InputSystem.Composites::ButtonWithOneModifier*
 class CORDL_TYPE ButtonWithOneModifier : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
   // Declarations
-  /// @brief Field modifier, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_modifier, put = __cordl_internal_set_modifier)) int32_t modifier;
-
   /// @brief Field button, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_button, put = __cordl_internal_set_button)) int32_t button;
+
+  /// @brief Field modifier, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_modifier, put = __cordl_internal_set_modifier)) int32_t modifier;
 
   /// @brief Field overrideModifiersNeedToBePressedFirst, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideModifiersNeedToBePressedFirst, put = __cordl_internal_set_overrideModifiersNeedToBePressedFirst)) bool overrideModifiersNeedToBePressedFirst;
 
-  constexpr int32_t& __cordl_internal_get_modifier();
-
-  constexpr int32_t const& __cordl_internal_get_modifier() const;
-
-  constexpr void __cordl_internal_set_modifier(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_button();
-
-  constexpr int32_t const& __cordl_internal_get_button() const;
-
-  constexpr void __cordl_internal_set_button(int32_t value);
-
-  constexpr bool& __cordl_internal_get_overrideModifiersNeedToBePressedFirst();
-
-  constexpr bool const& __cordl_internal_get_overrideModifiersNeedToBePressedFirst() const;
-
-  constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
-
-  /// @brief Method ReadValue, addr 0x2a5d7fc, size 0x70, virtual true, abstract: false, final false
-  inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
-
-  /// @brief Method ModifierIsPressed, addr 0x2a5d86c, size 0x80, virtual false, abstract: false, final false
-  inline bool ModifierIsPressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
-
-  /// @brief Method EvaluateMagnitude, addr 0x2a5d8ec, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x2b449c0, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x2a5d8f8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x2b449cc, size 0x90, virtual true, abstract: false, final false
   inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+
+  /// @brief Method ModifierIsPressed, addr 0x2b44940, size 0x80, virtual false, abstract: false, final false
+  inline bool ModifierIsPressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a5d988, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x2b448d0, size 0x70, virtual true, abstract: false, final false
+  inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+
+  constexpr int32_t const& __cordl_internal_get_button() const;
+
+  constexpr int32_t& __cordl_internal_get_button();
+
+  constexpr int32_t const& __cordl_internal_get_modifier() const;
+
+  constexpr int32_t& __cordl_internal_get_modifier();
+
+  constexpr bool const& __cordl_internal_get_overrideModifiersNeedToBePressedFirst() const;
+
+  constexpr bool& __cordl_internal_get_overrideModifiersNeedToBePressedFirst();
+
+  constexpr void __cordl_internal_set_button(int32_t value);
+
+  constexpr void __cordl_internal_set_modifier(int32_t value);
+
+  constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
+
+  /// @brief Method .ctor, addr 0x2b44a5c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ButtonWithOneModifier();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ButtonWithOneModifier", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ButtonWithOneModifier(ButtonWithOneModifier&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ButtonWithOneModifier(ButtonWithOneModifier const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ButtonWithOneModifier();
-
-public:
   /// @brief Field modifier, offset: 0x10, size: 0x4, def value: None
   int32_t ___modifier;
 

@@ -27,21 +27,16 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyPlayerPermissionsModel);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10928))
 // CS Name: ::LobbyPlayerPermissionsModel*
 class CORDL_TYPE LobbyPlayerPermissionsModel : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _menuRpcManager, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuRpcManager, put = __cordl_internal_set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
+  /// @brief Field <hasInvitePermission>k__BackingField, offset 0x24, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasInvitePermission_k__BackingField, put = __cordl_internal_set__hasInvitePermission_k__BackingField)) bool _hasInvitePermission_k__BackingField;
 
-  /// @brief Field _multiplayerSessionManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
-
-  /// @brief Field <isPartyOwner>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__isPartyOwner_k__BackingField, put = __cordl_internal_set__isPartyOwner_k__BackingField)) bool _isPartyOwner_k__BackingField;
+  /// @brief Field <hasKickVotePermission>k__BackingField, offset 0x23, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasKickVotePermission_k__BackingField,
+                      put = __cordl_internal_set__hasKickVotePermission_k__BackingField)) bool _hasKickVotePermission_k__BackingField;
 
   /// @brief Field <hasRecommendBeatmapPermission>k__BackingField, offset 0x21, size 0x1
   __declspec(property(get = __cordl_internal_get__hasRecommendBeatmapPermission_k__BackingField,
@@ -51,127 +46,136 @@ public:
   __declspec(property(get = __cordl_internal_get__hasRecommendModifiersPermission_k__BackingField,
                       put = __cordl_internal_set__hasRecommendModifiersPermission_k__BackingField)) bool _hasRecommendModifiersPermission_k__BackingField;
 
-  /// @brief Field <hasKickVotePermission>k__BackingField, offset 0x23, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasKickVotePermission_k__BackingField,
-                      put = __cordl_internal_set__hasKickVotePermission_k__BackingField)) bool _hasKickVotePermission_k__BackingField;
+  /// @brief Field <isPartyOwner>k__BackingField, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get__isPartyOwner_k__BackingField, put = __cordl_internal_set__isPartyOwner_k__BackingField)) bool _isPartyOwner_k__BackingField;
 
-  /// @brief Field <hasInvitePermission>k__BackingField, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasInvitePermission_k__BackingField, put = __cordl_internal_set__hasInvitePermission_k__BackingField)) bool _hasInvitePermission_k__BackingField;
+  /// @brief Field _menuRpcManager, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__menuRpcManager, put = __cordl_internal_set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
 
-  /// @brief Field permissionsChangedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_permissionsChangedEvent, put = __cordl_internal_set_permissionsChangedEvent))::System::Action* permissionsChangedEvent;
+  /// @brief Field _multiplayerSessionManager, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  __declspec(property(get = get_isPartyOwner, put = set_isPartyOwner)) bool isPartyOwner;
+  __declspec(property(get = get_hasInvitePermission, put = set_hasInvitePermission)) bool hasInvitePermission;
+
+  __declspec(property(get = get_hasKickVotePermission, put = set_hasKickVotePermission)) bool hasKickVotePermission;
 
   __declspec(property(get = get_hasRecommendBeatmapPermission, put = set_hasRecommendBeatmapPermission)) bool hasRecommendBeatmapPermission;
 
   __declspec(property(get = get_hasRecommendModifiersPermission, put = set_hasRecommendModifiersPermission)) bool hasRecommendModifiersPermission;
 
-  __declspec(property(get = get_hasKickVotePermission, put = set_hasKickVotePermission)) bool hasKickVotePermission;
+  __declspec(property(get = get_isPartyOwner, put = set_isPartyOwner)) bool isPartyOwner;
 
-  __declspec(property(get = get_hasInvitePermission, put = set_hasInvitePermission)) bool hasInvitePermission;
+  /// @brief Field permissionsChangedEvent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_permissionsChangedEvent, put = __cordl_internal_set_permissionsChangedEvent))::System::Action* permissionsChangedEvent;
+
+  /// @brief Method Activate, addr 0x12dc118, size 0xf0, virtual false, abstract: false, final false
+  inline void Activate();
+
+  /// @brief Method Deactivate, addr 0x12dc3a8, size 0xf0, virtual false, abstract: false, final false
+  inline void Deactivate();
+
+  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x12dca48, size 0x2ac, virtual false, abstract: false, final false
+  inline void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
+
+  static inline ::GlobalNamespace::LobbyPlayerPermissionsModel* New_ctor();
+
+  /// @brief Method SetPlayerPermissions, addr 0x12dca04, size 0x44, virtual false, abstract: false, final false
+  inline void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
+
+  constexpr bool const& __cordl_internal_get__hasInvitePermission_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__hasInvitePermission_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__hasKickVotePermission_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__hasKickVotePermission_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__hasRecommendBeatmapPermission_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__hasRecommendBeatmapPermission_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__hasRecommendModifiersPermission_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__hasRecommendModifiersPermission_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__isPartyOwner_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__isPartyOwner_k__BackingField();
 
   constexpr ::GlobalNamespace::IMenuRpcManager*& __cordl_internal_get__menuRpcManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __cordl_internal_get__menuRpcManager() const;
 
-  constexpr void __cordl_internal_set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
-
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
-
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
-
-  constexpr bool& __cordl_internal_get__isPartyOwner_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__isPartyOwner_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__isPartyOwner_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__hasRecommendBeatmapPermission_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__hasRecommendBeatmapPermission_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__hasRecommendBeatmapPermission_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__hasRecommendModifiersPermission_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__hasRecommendModifiersPermission_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__hasRecommendModifiersPermission_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__hasKickVotePermission_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__hasKickVotePermission_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__hasKickVotePermission_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__hasInvitePermission_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__hasInvitePermission_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__hasInvitePermission_k__BackingField(bool value);
 
   constexpr ::System::Action*& __cordl_internal_get_permissionsChangedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_permissionsChangedEvent() const;
 
+  constexpr void __cordl_internal_set__hasInvitePermission_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__hasKickVotePermission_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__hasRecommendBeatmapPermission_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__hasRecommendModifiersPermission_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__isPartyOwner_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
+
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+
   constexpr void __cordl_internal_set_permissionsChangedEvent(::System::Action* value);
 
-  /// @brief Method get_isPartyOwner, addr 0x129a898, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isPartyOwner();
-
-  /// @brief Method set_isPartyOwner, addr 0x129a8a0, size 0xc, virtual false, abstract: false, final false
-  inline void set_isPartyOwner(bool value);
-
-  /// @brief Method get_hasRecommendBeatmapPermission, addr 0x129a8ac, size 0x8, virtual false, abstract: false, final false
-  inline bool get_hasRecommendBeatmapPermission();
-
-  /// @brief Method set_hasRecommendBeatmapPermission, addr 0x129a8b4, size 0xc, virtual false, abstract: false, final false
-  inline void set_hasRecommendBeatmapPermission(bool value);
-
-  /// @brief Method get_hasRecommendModifiersPermission, addr 0x129a8c0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_hasRecommendModifiersPermission();
-
-  /// @brief Method set_hasRecommendModifiersPermission, addr 0x129a8c8, size 0xc, virtual false, abstract: false, final false
-  inline void set_hasRecommendModifiersPermission(bool value);
-
-  /// @brief Method get_hasKickVotePermission, addr 0x129a8d4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_hasKickVotePermission();
-
-  /// @brief Method set_hasKickVotePermission, addr 0x129a8dc, size 0xc, virtual false, abstract: false, final false
-  inline void set_hasKickVotePermission(bool value);
-
-  /// @brief Method get_hasInvitePermission, addr 0x129a8e8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_hasInvitePermission();
-
-  /// @brief Method set_hasInvitePermission, addr 0x129a8f0, size 0xc, virtual false, abstract: false, final false
-  inline void set_hasInvitePermission(bool value);
-
-  /// @brief Method add_permissionsChangedEvent, addr 0x129a8fc, size 0x9c, virtual false, abstract: false, final false
-  inline void add_permissionsChangedEvent(::System::Action* value);
-
-  /// @brief Method remove_permissionsChangedEvent, addr 0x129a998, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_permissionsChangedEvent(::System::Action* value);
-
-  /// @brief Method Activate, addr 0x129a148, size 0xf0, virtual false, abstract: false, final false
-  inline void Activate();
-
-  /// @brief Method Deactivate, addr 0x129a3d8, size 0xf0, virtual false, abstract: false, final false
-  inline void Deactivate();
-
-  /// @brief Method SetPlayerPermissions, addr 0x129aa34, size 0x44, virtual false, abstract: false, final false
-  inline void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
-
-  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x129aa78, size 0x2ac, virtual false, abstract: false, final false
-  inline void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
-
-  static inline ::GlobalNamespace::LobbyPlayerPermissionsModel* New_ctor();
-
-  /// @brief Method .ctor, addr 0x129ad24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12dccf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_permissionsChangedEvent, addr 0x12dc8cc, size 0x9c, virtual false, abstract: false, final false
+  inline void add_permissionsChangedEvent(::System::Action* value);
+
+  /// @brief Method get_hasInvitePermission, addr 0x12dc8b8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_hasInvitePermission();
+
+  /// @brief Method get_hasKickVotePermission, addr 0x12dc8a4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_hasKickVotePermission();
+
+  /// @brief Method get_hasRecommendBeatmapPermission, addr 0x12dc87c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_hasRecommendBeatmapPermission();
+
+  /// @brief Method get_hasRecommendModifiersPermission, addr 0x12dc890, size 0x8, virtual false, abstract: false, final false
+  inline bool get_hasRecommendModifiersPermission();
+
+  /// @brief Method get_isPartyOwner, addr 0x12dc868, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isPartyOwner();
+
+  /// @brief Method remove_permissionsChangedEvent, addr 0x12dc968, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_permissionsChangedEvent(::System::Action* value);
+
+  /// @brief Method set_hasInvitePermission, addr 0x12dc8c0, size 0xc, virtual false, abstract: false, final false
+  inline void set_hasInvitePermission(bool value);
+
+  /// @brief Method set_hasKickVotePermission, addr 0x12dc8ac, size 0xc, virtual false, abstract: false, final false
+  inline void set_hasKickVotePermission(bool value);
+
+  /// @brief Method set_hasRecommendBeatmapPermission, addr 0x12dc884, size 0xc, virtual false, abstract: false, final false
+  inline void set_hasRecommendBeatmapPermission(bool value);
+
+  /// @brief Method set_hasRecommendModifiersPermission, addr 0x12dc898, size 0xc, virtual false, abstract: false, final false
+  inline void set_hasRecommendModifiersPermission(bool value);
+
+  /// @brief Method set_isPartyOwner, addr 0x12dc870, size 0xc, virtual false, abstract: false, final false
+  inline void set_isPartyOwner(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LobbyPlayerPermissionsModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LobbyPlayerPermissionsModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LobbyPlayerPermissionsModel(LobbyPlayerPermissionsModel&&) = delete;
@@ -180,12 +184,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LobbyPlayerPermissionsModel(LobbyPlayerPermissionsModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LobbyPlayerPermissionsModel();
-
-public:
   /// @brief Field _menuRpcManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMenuRpcManager* ____menuRpcManager;
 

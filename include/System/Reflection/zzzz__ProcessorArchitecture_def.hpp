@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Reflection::ProcessorArchitecture);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3482))
 // CS Name: ::System.Reflection::ProcessorArchitecture
 struct CORDL_TYPE ProcessorArchitecture {
 public:
@@ -38,36 +36,41 @@ public:
     return static_cast<__ProcessorArchitecture_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ProcessorArchitecture(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__ProcessorArchitecture_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ProcessorArchitecture();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ProcessorArchitecture(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Reflection::ProcessorArchitecture const None;
-
-  /// @brief Field MSIL value: static_cast<int32_t>(0x1)
-  static ::System::Reflection::ProcessorArchitecture const MSIL;
-
-  /// @brief Field X86 value: static_cast<int32_t>(0x2)
-  static ::System::Reflection::ProcessorArchitecture const X86;
-
-  /// @brief Field IA64 value: static_cast<int32_t>(0x3)
-  static ::System::Reflection::ProcessorArchitecture const IA64;
 
   /// @brief Field Amd64 value: static_cast<int32_t>(0x4)
   static ::System::Reflection::ProcessorArchitecture const Amd64;
 
   /// @brief Field Arm value: static_cast<int32_t>(0x5)
   static ::System::Reflection::ProcessorArchitecture const Arm;
+
+  /// @brief Field IA64 value: static_cast<int32_t>(0x3)
+  static ::System::Reflection::ProcessorArchitecture const IA64;
+
+  /// @brief Field MSIL value: static_cast<int32_t>(0x1)
+  static ::System::Reflection::ProcessorArchitecture const MSIL;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Reflection::ProcessorArchitecture const None;
+
+  /// @brief Field X86 value: static_cast<int32_t>(0x2)
+  static ::System::Reflection::ProcessorArchitecture const X86;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

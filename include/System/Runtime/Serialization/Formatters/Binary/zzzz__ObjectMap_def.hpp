@@ -42,124 +42,61 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectMap);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3275))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectMap*
 class CORDL_TYPE ObjectMap : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field objectName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectName, put = __cordl_internal_set_objectName))::StringW objectName;
-
-  /// @brief Field objectType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectType, put = __cordl_internal_set_objectType))::System::Type* objectType;
+  /// @brief Field assemblyInfo, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_assemblyInfo, put = __cordl_internal_set_assemblyInfo))::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo;
 
   /// @brief Field binaryTypeEnumA, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_binaryTypeEnumA,
                       put = __cordl_internal_set_binaryTypeEnumA))::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum,
                                                                            ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> binaryTypeEnumA;
 
-  /// @brief Field typeInformationA, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_typeInformationA, put = __cordl_internal_set_typeInformationA))::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA;
-
-  /// @brief Field memberTypes, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberTypes, put = __cordl_internal_set_memberTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes;
+  /// @brief Field isInitObjectInfo, offset 0x48, size 0x1
+  __declspec(property(get = __cordl_internal_get_isInitObjectInfo, put = __cordl_internal_set_isInitObjectInfo)) bool isInitObjectInfo;
 
   /// @brief Field memberNames, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_memberNames, put = __cordl_internal_set_memberNames))::ArrayW<::StringW, ::Array<::StringW>*> memberNames;
 
-  /// @brief Field objectInfo, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectInfo, put = __cordl_internal_set_objectInfo))::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo;
-
-  /// @brief Field isInitObjectInfo, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get_isInitObjectInfo, put = __cordl_internal_set_isInitObjectInfo)) bool isInitObjectInfo;
-
-  /// @brief Field objectReader, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectReader, put = __cordl_internal_set_objectReader))::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader;
+  /// @brief Field memberTypes, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_memberTypes, put = __cordl_internal_set_memberTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes;
 
   /// @brief Field objectId, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
 
-  /// @brief Field assemblyInfo, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_assemblyInfo, put = __cordl_internal_set_assemblyInfo))::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo;
+  /// @brief Field objectInfo, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_objectInfo, put = __cordl_internal_set_objectInfo))::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo;
 
-  constexpr ::StringW& __cordl_internal_get_objectName();
+  /// @brief Field objectName, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_objectName, put = __cordl_internal_set_objectName))::StringW objectName;
 
-  constexpr ::StringW const& __cordl_internal_get_objectName() const;
+  /// @brief Field objectReader, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_objectReader, put = __cordl_internal_set_objectReader))::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader;
 
-  constexpr void __cordl_internal_set_objectName(::StringW value);
+  /// @brief Field objectType, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_objectType, put = __cordl_internal_set_objectType))::System::Type* objectType;
 
-  constexpr ::System::Type*& __cordl_internal_get_objectType();
+  /// @brief Field typeInformationA, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_typeInformationA, put = __cordl_internal_set_typeInformationA))::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_objectType() const;
+  /// @brief Method Create, addr 0x25b5de0, size 0xc4, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap*
+  Create(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
+         ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> binaryTypeEnumA,
+         ::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA, ::ArrayW<int32_t, ::Array<int32_t>*> memberAssemIds,
+         ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo,
+         ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
 
-  constexpr void __cordl_internal_set_objectType(::System::Type* value);
+  /// @brief Method Create, addr 0x25b5d40, size 0xa0, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create(::StringW name, ::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
+                                                                                        ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
+                                                                                        ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
 
-  constexpr ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*>&
-  __cordl_internal_get_binaryTypeEnumA();
-
-  constexpr ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> const&
-  __cordl_internal_get_binaryTypeEnumA() const;
-
-  constexpr void __cordl_internal_set_binaryTypeEnumA(
-      ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> value);
-
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_typeInformationA();
-
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_typeInformationA() const;
-
-  constexpr void __cordl_internal_set_typeInformationA(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
-
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_memberTypes();
-
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_memberTypes() const;
-
-  constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_memberNames();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_memberNames() const;
-
-  constexpr void __cordl_internal_set_memberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& __cordl_internal_get_objectInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*> const& __cordl_internal_get_objectInfo() const;
-
-  constexpr void __cordl_internal_set_objectInfo(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* value);
-
-  constexpr bool& __cordl_internal_get_isInitObjectInfo();
-
-  constexpr bool const& __cordl_internal_get_isInitObjectInfo() const;
-
-  constexpr void __cordl_internal_set_isInitObjectInfo(bool value);
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*& __cordl_internal_get_objectReader();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectReader*> const& __cordl_internal_get_objectReader() const;
-
-  constexpr void __cordl_internal_set_objectReader(::System::Runtime::Serialization::Formatters::Binary::ObjectReader* value);
-
-  constexpr int32_t& __cordl_internal_get_objectId();
-
-  constexpr int32_t const& __cordl_internal_get_objectId() const;
-
-  constexpr void __cordl_internal_set_objectId(int32_t value);
-
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*& __cordl_internal_get_assemblyInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*> const& __cordl_internal_get_assemblyInfo() const;
-
-  constexpr void __cordl_internal_set_assemblyInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* value);
-
-  static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* New_ctor(::StringW objectName, ::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
-                                                                                          ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
-                                                                                          ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
-
-  /// @brief Method .ctor, addr 0x24e45cc, size 0x1b4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW objectName, ::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
-                    ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
-                    ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
+  /// @brief Method CreateObjectInfo, addr 0x25b5c28, size 0x40, virtual false, abstract: false, final false
+  inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateObjectInfo(ByRef<::System::Runtime::Serialization::SerializationInfo*> si,
+                                                                                                ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> memberData);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap*
   New_ctor(::StringW objectName, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
@@ -168,30 +105,97 @@ public:
            ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo,
            ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
 
-  /// @brief Method .ctor, addr 0x24e4c4c, size 0x2e4, virtual false, abstract: false, final false
+  static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* New_ctor(::StringW objectName, ::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
+                                                                                          ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
+                                                                                          ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
+
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*& __cordl_internal_get_assemblyInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*> const& __cordl_internal_get_assemblyInfo() const;
+
+  constexpr ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> const&
+  __cordl_internal_get_binaryTypeEnumA() const;
+
+  constexpr ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*>&
+  __cordl_internal_get_binaryTypeEnumA();
+
+  constexpr bool const& __cordl_internal_get_isInitObjectInfo() const;
+
+  constexpr bool& __cordl_internal_get_isInitObjectInfo();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_memberNames() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_memberNames();
+
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_memberTypes() const;
+
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_memberTypes();
+
+  constexpr int32_t const& __cordl_internal_get_objectId() const;
+
+  constexpr int32_t& __cordl_internal_get_objectId();
+
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& __cordl_internal_get_objectInfo();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*> const& __cordl_internal_get_objectInfo() const;
+
+  constexpr ::StringW const& __cordl_internal_get_objectName() const;
+
+  constexpr ::StringW& __cordl_internal_get_objectName();
+
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectReader*& __cordl_internal_get_objectReader();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectReader*> const& __cordl_internal_get_objectReader() const;
+
+  constexpr ::System::Type*& __cordl_internal_get_objectType();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_objectType() const;
+
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_typeInformationA() const;
+
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_typeInformationA();
+
+  constexpr void __cordl_internal_set_assemblyInfo(::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* value);
+
+  constexpr void __cordl_internal_set_binaryTypeEnumA(
+      ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> value);
+
+  constexpr void __cordl_internal_set_isInitObjectInfo(bool value);
+
+  constexpr void __cordl_internal_set_memberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+
+  constexpr void __cordl_internal_set_objectId(int32_t value);
+
+  constexpr void __cordl_internal_set_objectInfo(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* value);
+
+  constexpr void __cordl_internal_set_objectName(::StringW value);
+
+  constexpr void __cordl_internal_set_objectReader(::System::Runtime::Serialization::Formatters::Binary::ObjectReader* value);
+
+  constexpr void __cordl_internal_set_objectType(::System::Type* value);
+
+  constexpr void __cordl_internal_set_typeInformationA(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+
+  /// @brief Method .ctor, addr 0x25b5944, size 0x2e4, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                     ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> binaryTypeEnumA,
                     ::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA, ::ArrayW<int32_t, ::Array<int32_t>*> memberAssemIds,
                     ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
                     ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo, ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
 
-  /// @brief Method CreateObjectInfo, addr 0x24e4f30, size 0x40, virtual false, abstract: false, final false
-  inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateObjectInfo(ByRef<::System::Runtime::Serialization::SerializationInfo*> si,
-                                                                                                ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> memberData);
+  /// @brief Method .ctor, addr 0x25b52c4, size 0x1b4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW objectName, ::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
+                    ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
+                    ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
 
-  /// @brief Method Create, addr 0x24e5048, size 0xa0, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap* Create(::StringW name, ::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
-                                                                                        ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId,
-                                                                                        ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObjectMap();
 
-  /// @brief Method Create, addr 0x24e50e8, size 0xc4, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMap*
-  Create(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
-         ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> binaryTypeEnumA,
-         ::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA, ::ArrayW<int32_t, ::Array<int32_t>*> memberAssemIds,
-         ::System::Runtime::Serialization::Formatters::Binary::ObjectReader* objectReader, int32_t objectId, ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* assemblyInfo,
-         ::System::Runtime::Serialization::Formatters::Binary::SizedArray* assemIdToAssemblyTable);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObjectMap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectMap(ObjectMap&&) = delete;
@@ -200,12 +204,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectMap(ObjectMap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectMap();
-
-public:
   /// @brief Field objectName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___objectName;
 

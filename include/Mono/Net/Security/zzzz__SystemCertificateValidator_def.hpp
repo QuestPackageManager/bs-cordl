@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::Mono::Net::Security::SystemCertificateValidator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6994))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6856))
 // CS Name: ::Mono.Net.Security::SystemCertificateValidator*
 class CORDL_TYPE SystemCertificateValidator : public ::System::Object {
 public:
@@ -30,17 +28,23 @@ public:
   /// @brief Field s_flags, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_flags, put = setStaticF_s_flags))::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags s_flags;
 
-  static inline void setStaticF_is_macosx(bool value);
+  /// @brief Method NeedsChain, addr 0x290a91c, size 0x8, virtual false, abstract: false, final false
+  static inline bool NeedsChain(::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline bool getStaticF_is_macosx();
 
-  static inline void setStaticF_s_flags(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value);
-
   static inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags getStaticF_s_flags();
 
-  /// @brief Method NeedsChain, addr 0x28254a0, size 0x8, virtual false, abstract: false, final false
-  static inline bool NeedsChain(::Mono::Security::Interface::MonoTlsSettings* settings);
+  static inline void setStaticF_is_macosx(bool value);
 
+  static inline void setStaticF_s_flags(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SystemCertificateValidator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SystemCertificateValidator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemCertificateValidator(SystemCertificateValidator&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SystemCertificateValidator(SystemCertificateValidator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SystemCertificateValidator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

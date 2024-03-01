@@ -25,12 +25,16 @@ namespace System::Dynamic::Utils {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14321))
 // CS Name: ::CacheDict`2::Entry<TKey,TValue>*
 class CORDL_TYPE __CacheDict_2__Entry : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CacheDict_2__Entry();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CacheDict_2__Entry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CacheDict_2__Entry(__CacheDict_2__Entry&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CacheDict_2__Entry(__CacheDict_2__Entry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CacheDict_2__Entry();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -55,43 +53,47 @@ namespace System::Dynamic::Utils {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14322))
 // CS Name: ::System.Dynamic.Utils::CacheDict`2<TKey,TValue>*
 class CORDL_TYPE CacheDict_2 : public ::System::Object {
 public:
   // Declarations
   using Entry = ::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>;
 
-  /// @brief Field _mask, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
-
   /// @brief Field _entries, offset 0x18, size 0x8
   __declspec(property(
       get = __cordl_internal_get__entries,
       put = __cordl_internal_set__entries))::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> _entries;
 
-  constexpr int32_t& __cordl_internal_get__mask();
-
-  constexpr int32_t const& __cordl_internal_get__mask() const;
-
-  constexpr void __cordl_internal_set__mask(int32_t value);
-
-  constexpr ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*>& __cordl_internal_get__entries();
-
-  constexpr ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> const&
-  __cordl_internal_get__entries() const;
-
-  constexpr void __cordl_internal_set__entries(::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> value);
-
-  static inline ::System::Dynamic::Utils::CacheDict_2<TKey, TValue>* New_ctor(int32_t size);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t size);
+  /// @brief Field _mask, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
 
   /// @brief Method AlignSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t AlignSize(int32_t size);
 
+  static inline ::System::Dynamic::Utils::CacheDict_2<TKey, TValue>* New_ctor(int32_t size);
+
+  constexpr ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> const&
+  __cordl_internal_get__entries() const;
+
+  constexpr ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*>& __cordl_internal_get__entries();
+
+  constexpr int32_t const& __cordl_internal_get__mask() const;
+
+  constexpr int32_t& __cordl_internal_get__mask();
+
+  constexpr void __cordl_internal_set__entries(::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> value);
+
+  constexpr void __cordl_internal_set__mask(int32_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t size);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CacheDict_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CacheDict_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CacheDict_2(CacheDict_2&&) = delete;
@@ -100,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CacheDict_2(CacheDict_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CacheDict_2();
-
-public:
   /// @brief Field _mask, offset: 0x10, size: 0x4, def value: None
   int32_t ____mask;
 

@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Rendering::ShaderPropertyFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9140))
 // CS Name: ::UnityEngine.Rendering::ShaderPropertyFlags
 struct CORDL_TYPE ShaderPropertyFlags {
 public:
@@ -42,48 +40,53 @@ public:
     return static_cast<__ShaderPropertyFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ShaderPropertyFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__ShaderPropertyFlags_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ShaderPropertyFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ShaderPropertyFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Rendering::ShaderPropertyFlags const None;
-
-  /// @brief Field HideInInspector value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::Rendering::ShaderPropertyFlags const HideInInspector;
-
-  /// @brief Field PerRendererData value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::Rendering::ShaderPropertyFlags const PerRendererData;
-
-  /// @brief Field NoScaleOffset value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::Rendering::ShaderPropertyFlags const NoScaleOffset;
-
-  /// @brief Field Normal value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::Rendering::ShaderPropertyFlags const Normal;
-
-  /// @brief Field HDR value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::Rendering::ShaderPropertyFlags const HDR;
 
   /// @brief Field Gamma value: static_cast<int32_t>(0x20)
   static ::UnityEngine::Rendering::ShaderPropertyFlags const Gamma;
 
-  /// @brief Field NonModifiableTextureData value: static_cast<int32_t>(0x40)
-  static ::UnityEngine::Rendering::ShaderPropertyFlags const NonModifiableTextureData;
+  /// @brief Field HDR value: static_cast<int32_t>(0x10)
+  static ::UnityEngine::Rendering::ShaderPropertyFlags const HDR;
+
+  /// @brief Field HideInInspector value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::Rendering::ShaderPropertyFlags const HideInInspector;
+
+  /// @brief Field MainColor value: static_cast<int32_t>(0x100)
+  static ::UnityEngine::Rendering::ShaderPropertyFlags const MainColor;
 
   /// @brief Field MainTexture value: static_cast<int32_t>(0x80)
   static ::UnityEngine::Rendering::ShaderPropertyFlags const MainTexture;
 
-  /// @brief Field MainColor value: static_cast<int32_t>(0x100)
-  static ::UnityEngine::Rendering::ShaderPropertyFlags const MainColor;
+  /// @brief Field NoScaleOffset value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::Rendering::ShaderPropertyFlags const NoScaleOffset;
+
+  /// @brief Field NonModifiableTextureData value: static_cast<int32_t>(0x40)
+  static ::UnityEngine::Rendering::ShaderPropertyFlags const NonModifiableTextureData;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::Rendering::ShaderPropertyFlags const None;
+
+  /// @brief Field Normal value: static_cast<int32_t>(0x8)
+  static ::UnityEngine::Rendering::ShaderPropertyFlags const Normal;
+
+  /// @brief Field PerRendererData value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::Rendering::ShaderPropertyFlags const PerRendererData;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

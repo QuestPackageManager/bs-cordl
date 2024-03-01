@@ -15,22 +15,20 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Keyframe);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9537))
 // CS Name: ::HoudiniEngineUnity::HAPI_Keyframe
 struct CORDL_TYPE HAPI_Keyframe {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2226788, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f3df0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t t, float_t v, float_t in_tangent, float_t out_tangent);
-
-  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "inTangent",
-  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "outTangent", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr HAPI_Keyframe(float_t time, float_t value, float_t inTangent, float_t outTangent) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_Keyframe();
+
+  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "inTangent",
+  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "outTangent", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr HAPI_Keyframe(float_t time, float_t value, float_t inTangent, float_t outTangent) noexcept;
 
   /// @brief Field time, offset: 0x0, size: 0x4, def value: None
   float_t time;

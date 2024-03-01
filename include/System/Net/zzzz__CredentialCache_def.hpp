@@ -20,18 +20,22 @@ MARK_REF_PTR_T(::System::Net::CredentialCache);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7069))
 // CS Name: ::System.Net::CredentialCache*
 class CORDL_TYPE CredentialCache : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_DefaultCredentials, addr 0x299f00c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultCredentials, addr 0x2a860e0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::ICredentials* get_DefaultCredentials();
 
-  /// @brief Method get_DefaultNetworkCredentials, addr 0x299f064, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultNetworkCredentials, addr 0x2a86138, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkCredential* get_DefaultNetworkCredentials();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CredentialCache();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CredentialCache", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CredentialCache(CredentialCache&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CredentialCache(CredentialCache const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CredentialCache();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

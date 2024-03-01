@@ -16,24 +16,22 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14049))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::DownloadStatus
 struct CORDL_TYPE DownloadStatus {
 public:
   // Declarations
   __declspec(property(get = get_Percent)) float_t Percent;
 
-  /// @brief Method get_Percent, addr 0x2bdb224, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_Percent, addr 0x2cc42f8, size 0x38, virtual false, abstract: false, final false
   inline float_t get_Percent();
-
-  // Ctor Parameters [CppParam { name: "TotalBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "DownloadedBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
-  // name: "IsDone", ty: "bool", modifiers: "", def_value: None }]
-  constexpr DownloadStatus(int64_t TotalBytes, int64_t DownloadedBytes, bool IsDone) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr DownloadStatus();
+
+  // Ctor Parameters [CppParam { name: "TotalBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "DownloadedBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
+  // name: "IsDone", ty: "bool", modifiers: "", def_value: None }]
+  constexpr DownloadStatus(int64_t TotalBytes, int64_t DownloadedBytes, bool IsDone) noexcept;
 
   /// @brief Field TotalBytes, offset: 0x0, size: 0x8, def value: None
   int64_t TotalBytes;

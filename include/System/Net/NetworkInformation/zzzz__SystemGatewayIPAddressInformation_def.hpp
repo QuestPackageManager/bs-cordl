@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::SystemGatewayIPAddressInformat
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7255))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7265))
 // CS Name: ::System.Net.NetworkInformation::SystemGatewayIPAddressInformation*
 class CORDL_TYPE SystemGatewayIPAddressInformation : public ::System::Net::NetworkInformation::GatewayIPAddressInformation {
 public:
@@ -32,20 +30,26 @@ public:
   /// @brief Field address, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_address, put = __cordl_internal_set_address))::System::Net::IPAddress* address;
 
+  static inline ::System::Net::NetworkInformation::SystemGatewayIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
+
+  /// @brief Method ToGatewayIpAddressInformationCollection, addr 0x2ad8578, size 0x2f0, virtual false, abstract: false, final false
+  static inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(::System::Net::NetworkInformation::IPAddressCollection* addresses);
+
   constexpr ::System::Net::IPAddress*& __cordl_internal_get_address();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::IPAddress*> const& __cordl_internal_get_address() const;
 
   constexpr void __cordl_internal_set_address(::System::Net::IPAddress* value);
 
-  static inline ::System::Net::NetworkInformation::SystemGatewayIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
-
-  /// @brief Method .ctor, addr 0x29f047c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad8550, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method ToGatewayIpAddressInformationCollection, addr 0x29f04a4, size 0x2f0, virtual false, abstract: false, final false
-  static inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(::System::Net::NetworkInformation::IPAddressCollection* addresses);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SystemGatewayIPAddressInformation();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SystemGatewayIPAddressInformation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SystemGatewayIPAddressInformation(SystemGatewayIPAddressInformation&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SystemGatewayIPAddressInformation(SystemGatewayIPAddressInformation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SystemGatewayIPAddressInformation();
-
-public:
   /// @brief Field address, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPAddress* ___address;
 

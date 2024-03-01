@@ -25,34 +25,39 @@ MARK_REF_PTR_T(::Zenject::AnimatorInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10274)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10274), inst:
-// 3889 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10443)) CS Name: ::Zenject::AnimatorInstaller*
+// CS Name: ::Zenject::AnimatorInstaller*
 class CORDL_TYPE AnimatorInstaller : public ::Zenject::Installer_2<::UnityW<::UnityEngine::Animator>, ::Zenject::AnimatorInstaller*> {
 public:
   // Declarations
   /// @brief Field _animator, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
 
-  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
-
-  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
-
-  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
+  /// @brief Method InstallBindings, addr 0x301df1c, size 0xb8, virtual true, abstract: false, final false
+  inline void InstallBindings();
 
   static inline ::Zenject::AnimatorInstaller* New_ctor(::UnityEngine::Animator* animator);
 
-  /// @brief Method .ctor, addr 0x2f2a798, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Animator* animator);
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
-  /// @brief Method InstallBindings, addr 0x2f2a7f4, size 0xb8, virtual true, abstract: false, final false
-  inline void InstallBindings();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
-  /// @brief Method __zenCreate, addr 0x2f2a8ac, size 0xc4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
+
+  /// @brief Method __zenCreate, addr 0x301dfd4, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f2a970, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x301e098, size 0x274, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
+  /// @brief Method .ctor, addr 0x301dec0, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Animator* animator);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AnimatorInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimatorInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AnimatorInstaller(AnimatorInstaller&&) = delete;
@@ -61,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimatorInstaller(AnimatorInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimatorInstaller();
-
-public:
   /// @brief Field _animator, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 

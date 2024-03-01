@@ -23,22 +23,20 @@ MARK_REF_PTR_T(::System::Xml::IDtdAttributeListInfo);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11320))
 // CS Name: ::System.Xml::IDtdAttributeListInfo*
 class CORDL_TYPE IDtdAttributeListInfo {
 public:
   // Declarations
   __declspec(property(get = get_HasNonCDataAttributes)) bool HasNonCDataAttributes;
 
-  /// @brief Method get_HasNonCDataAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool get_HasNonCDataAttributes();
-
   /// @brief Method LookupAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IDtdAttributeInfo* LookupAttribute(::StringW prefix, ::StringW localName);
 
   /// @brief Method LookupDefaultAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::IDtdDefaultAttributeInfo*>* LookupDefaultAttributes();
+
+  /// @brief Method get_HasNonCDataAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_HasNonCDataAttributes();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdAttributeListInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

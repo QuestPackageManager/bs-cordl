@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Timeline::NotificationFlags);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13859))
 // CS Name: ::UnityEngine.Timeline::NotificationFlags
 struct CORDL_TYPE NotificationFlags {
 public:
@@ -35,27 +33,32 @@ public:
     return static_cast<__NotificationFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: None }]
-  constexpr NotificationFlags(int16_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int16_t() const noexcept {
+    return static_cast<__NotificationFlags_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr NotificationFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: None }]
+  constexpr NotificationFlags(int16_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
   int16_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
-
-  /// @brief Field TriggerInEditMode value: static_cast<int16_t>(0x1)
-  static ::UnityEngine::Timeline::NotificationFlags const TriggerInEditMode;
 
   /// @brief Field Retroactive value: static_cast<int16_t>(0x2)
   static ::UnityEngine::Timeline::NotificationFlags const Retroactive;
 
+  /// @brief Field TriggerInEditMode value: static_cast<int16_t>(0x1)
+  static ::UnityEngine::Timeline::NotificationFlags const TriggerInEditMode;
+
   /// @brief Field TriggerOnce value: static_cast<int16_t>(0x4)
   static ::UnityEngine::Timeline::NotificationFlags const TriggerOnce;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

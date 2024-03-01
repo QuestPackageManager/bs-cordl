@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Rendering::MeshUpdateFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9076))
 // CS Name: ::UnityEngine.Rendering::MeshUpdateFlags
 struct CORDL_TYPE MeshUpdateFlags {
 public:
@@ -37,33 +35,38 @@ public:
     return static_cast<__MeshUpdateFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr MeshUpdateFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__MeshUpdateFlags_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr MeshUpdateFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr MeshUpdateFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
   /// @brief Field Default value: static_cast<int32_t>(0x0)
   static ::UnityEngine::Rendering::MeshUpdateFlags const Default;
-
-  /// @brief Field DontValidateIndices value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::Rendering::MeshUpdateFlags const DontValidateIndices;
-
-  /// @brief Field DontResetBoneBounds value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::Rendering::MeshUpdateFlags const DontResetBoneBounds;
 
   /// @brief Field DontNotifyMeshUsers value: static_cast<int32_t>(0x4)
   static ::UnityEngine::Rendering::MeshUpdateFlags const DontNotifyMeshUsers;
 
   /// @brief Field DontRecalculateBounds value: static_cast<int32_t>(0x8)
   static ::UnityEngine::Rendering::MeshUpdateFlags const DontRecalculateBounds;
+
+  /// @brief Field DontResetBoneBounds value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::Rendering::MeshUpdateFlags const DontResetBoneBounds;
+
+  /// @brief Field DontValidateIndices value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::Rendering::MeshUpdateFlags const DontValidateIndices;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5591))
 // CS Name: ::UnityEngine.InputSystem.XR::XRUtilities*
 class CORDL_TYPE XRUtilities : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XRUtilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XRUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XRUtilities(XRUtilities&&) = delete;
@@ -28,20 +32,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XRUtilities(XRUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRUtilities();
+  /// @brief Field InterfaceCurrent offset 0xffffffff size 0x8
+  static constexpr ::ConstString InterfaceCurrent{ u"XRInputV1" };
 
-public:
   /// @brief Field InterfaceMatchAnyVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString InterfaceMatchAnyVersion{ u"^(XRInput)" };
 
   /// @brief Field InterfaceV1 offset 0xffffffff size 0x8
   static constexpr ::ConstString InterfaceV1{ u"XRInput" };
-
-  /// @brief Field InterfaceCurrent offset 0xffffffff size 0x8
-  static constexpr ::ConstString InterfaceCurrent{ u"XRInputV1" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

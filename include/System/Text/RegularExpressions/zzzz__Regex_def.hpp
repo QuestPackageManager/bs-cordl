@@ -84,8 +84,6 @@ MARK_VAL_T(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6935))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6921))
 // CS Name: ::Regex::CachedCodeEntryKey
 struct CORDL_TYPE __Regex__CachedCodeEntryKey {
 public:
@@ -93,31 +91,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>"
   constexpr operator ::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>*();
 
+  /// @brief Method Equals, addr 0x2a3d814, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2a3d8a4, size 0x68, virtual true, abstract: false, final true
+  inline bool Equals(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey other);
+
+  /// @brief Method GetHashCode, addr 0x2a3d90c, size 0x58, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method .ctor, addr 0x2a3d6e8, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Text::RegularExpressions::RegexOptions options, ::StringW cultureKey, ::StringW pattern);
+
   /// @brief Convert to "::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>"
   constexpr ::System::IEquatable_1<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey>* i___System__IEquatable_1___System__Text__RegularExpressions____Regex__CachedCodeEntryKey_();
 
-  /// @brief Method .ctor, addr 0x2957a84, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Text::RegularExpressions::RegexOptions options, ::StringW cultureKey, ::StringW pattern);
-
-  /// @brief Method Equals, addr 0x2957bbc, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method Equals, addr 0x2957c4c, size 0x68, virtual true, abstract: false, final true
-  inline bool Equals(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey other);
-
-  /// @brief Method op_Equality, addr 0x2955efc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2a3b378, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey left, ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey right);
-
-  /// @brief Method GetHashCode, addr 0x2957cb4, size 0x58, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  // Ctor Parameters [CppParam { name: "_options", ty: "::System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "_cultureKey", ty: "::StringW", modifiers:
-  // "", def_value: None }, CppParam { name: "_pattern", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr __Regex__CachedCodeEntryKey(::System::Text::RegularExpressions::RegexOptions _options, ::StringW _cultureKey, ::StringW _pattern) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Regex__CachedCodeEntryKey();
+
+  // Ctor Parameters [CppParam { name: "_options", ty: "::System::Text::RegularExpressions::RegexOptions", modifiers: "", def_value: None }, CppParam { name: "_cultureKey", ty: "::StringW", modifiers:
+  // "", def_value: None }, CppParam { name: "_pattern", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr __Regex__CachedCodeEntryKey(::System::Text::RegularExpressions::RegexOptions _options, ::StringW _cultureKey, ::StringW _pattern) noexcept;
 
   /// @brief Field _options, offset: 0x0, size: 0x4, def value: None
   ::System::Text::RegularExpressions::RegexOptions _options;
@@ -147,101 +145,39 @@ static_assert(offsetof(::System::Text::RegularExpressions::__Regex__CachedCodeEn
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6921))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6922))
 // CS Name: ::Regex::CachedCodeEntry*
 class CORDL_TYPE __Regex__CachedCodeEntry : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field Capnames, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_Capnames, put = __cordl_internal_set_Capnames))::System::Collections::Hashtable* Capnames;
+
+  /// @brief Field Caps, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_Caps, put = __cordl_internal_set_Caps))::System::Collections::Hashtable* Caps;
+
+  /// @brief Field Capsize, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_Capsize, put = __cordl_internal_set_Capsize)) int32_t Capsize;
+
+  /// @brief Field Capslist, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_Capslist, put = __cordl_internal_set_Capslist))::ArrayW<::StringW, ::Array<::StringW>*> Capslist;
+
+  /// @brief Field Code, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_Code, put = __cordl_internal_set_Code))::System::Text::RegularExpressions::RegexCode* Code;
+
+  /// @brief Field Key, offset 0x20, size 0x18
+  __declspec(property(get = __cordl_internal_get_Key, put = __cordl_internal_set_Key))::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey Key;
+
   /// @brief Field Next, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::System::Text::RegularExpressions::__Regex__CachedCodeEntry* Next;
 
   /// @brief Field Previous, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Previous, put = __cordl_internal_set_Previous))::System::Text::RegularExpressions::__Regex__CachedCodeEntry* Previous;
 
-  /// @brief Field Key, offset 0x20, size 0x18
-  __declspec(property(get = __cordl_internal_get_Key, put = __cordl_internal_set_Key))::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey Key;
-
-  /// @brief Field Code, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_Code, put = __cordl_internal_set_Code))::System::Text::RegularExpressions::RegexCode* Code;
-
-  /// @brief Field Caps, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_Caps, put = __cordl_internal_set_Caps))::System::Collections::Hashtable* Caps;
-
-  /// @brief Field Capnames, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_Capnames, put = __cordl_internal_set_Capnames))::System::Collections::Hashtable* Capnames;
-
-  /// @brief Field Capslist, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_Capslist, put = __cordl_internal_set_Capslist))::ArrayW<::StringW, ::Array<::StringW>*> Capslist;
-
-  /// @brief Field Capsize, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_Capsize, put = __cordl_internal_set_Capsize)) int32_t Capsize;
-
-  /// @brief Field Runnerref, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_Runnerref, put = __cordl_internal_set_Runnerref))::System::Text::RegularExpressions::ExclusiveReference* Runnerref;
-
   /// @brief Field ReplRef, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_ReplRef, put = __cordl_internal_set_ReplRef))::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* ReplRef;
 
-  constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*& __cordl_internal_get_Next();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> const& __cordl_internal_get_Next() const;
-
-  constexpr void __cordl_internal_set_Next(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value);
-
-  constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*& __cordl_internal_get_Previous();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> const& __cordl_internal_get_Previous() const;
-
-  constexpr void __cordl_internal_set_Previous(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value);
-
-  constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey& __cordl_internal_get_Key();
-
-  constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey const& __cordl_internal_get_Key() const;
-
-  constexpr void __cordl_internal_set_Key(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey value);
-
-  constexpr ::System::Text::RegularExpressions::RegexCode*& __cordl_internal_get_Code();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCode*> const& __cordl_internal_get_Code() const;
-
-  constexpr void __cordl_internal_set_Code(::System::Text::RegularExpressions::RegexCode* value);
-
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Caps();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Caps() const;
-
-  constexpr void __cordl_internal_set_Caps(::System::Collections::Hashtable* value);
-
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Capnames();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Capnames() const;
-
-  constexpr void __cordl_internal_set_Capnames(::System::Collections::Hashtable* value);
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_Capslist();
-
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_Capslist() const;
-
-  constexpr void __cordl_internal_set_Capslist(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
-  constexpr int32_t& __cordl_internal_get_Capsize();
-
-  constexpr int32_t const& __cordl_internal_get_Capsize() const;
-
-  constexpr void __cordl_internal_set_Capsize(int32_t value);
-
-  constexpr ::System::Text::RegularExpressions::ExclusiveReference*& __cordl_internal_get_Runnerref();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::ExclusiveReference*> const& __cordl_internal_get_Runnerref() const;
-
-  constexpr void __cordl_internal_set_Runnerref(::System::Text::RegularExpressions::ExclusiveReference* value);
-
-  constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*& __cordl_internal_get_ReplRef();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*> const& __cordl_internal_get_ReplRef() const;
-
-  constexpr void __cordl_internal_set_ReplRef(::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* value);
+  /// @brief Field Runnerref, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_Runnerref, put = __cordl_internal_set_Runnerref))::System::Text::RegularExpressions::ExclusiveReference* Runnerref;
 
   static inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* New_ctor(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ::System::Collections::Hashtable* capnames,
                                                                                        ::ArrayW<::StringW, ::Array<::StringW>*> capslist, ::System::Text::RegularExpressions::RegexCode* code,
@@ -249,11 +185,77 @@ public:
                                                                                        ::System::Text::RegularExpressions::ExclusiveReference* runner,
                                                                                        ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* replref);
 
-  /// @brief Method .ctor, addr 0x2956680, size 0x78, virtual false, abstract: false, final false
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Capnames();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Capnames() const;
+
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Caps();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Caps() const;
+
+  constexpr int32_t const& __cordl_internal_get_Capsize() const;
+
+  constexpr int32_t& __cordl_internal_get_Capsize();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_Capslist() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_Capslist();
+
+  constexpr ::System::Text::RegularExpressions::RegexCode*& __cordl_internal_get_Code();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCode*> const& __cordl_internal_get_Code() const;
+
+  constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey const& __cordl_internal_get_Key() const;
+
+  constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey& __cordl_internal_get_Key();
+
+  constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*& __cordl_internal_get_Next();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> const& __cordl_internal_get_Next() const;
+
+  constexpr ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*& __cordl_internal_get_Previous();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> const& __cordl_internal_get_Previous() const;
+
+  constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*& __cordl_internal_get_ReplRef();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*> const& __cordl_internal_get_ReplRef() const;
+
+  constexpr ::System::Text::RegularExpressions::ExclusiveReference*& __cordl_internal_get_Runnerref();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::ExclusiveReference*> const& __cordl_internal_get_Runnerref() const;
+
+  constexpr void __cordl_internal_set_Capnames(::System::Collections::Hashtable* value);
+
+  constexpr void __cordl_internal_set_Caps(::System::Collections::Hashtable* value);
+
+  constexpr void __cordl_internal_set_Capsize(int32_t value);
+
+  constexpr void __cordl_internal_set_Capslist(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set_Code(::System::Text::RegularExpressions::RegexCode* value);
+
+  constexpr void __cordl_internal_set_Key(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey value);
+
+  constexpr void __cordl_internal_set_Next(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value);
+
+  constexpr void __cordl_internal_set_Previous(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value);
+
+  constexpr void __cordl_internal_set_ReplRef(::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* value);
+
+  constexpr void __cordl_internal_set_Runnerref(::System::Text::RegularExpressions::ExclusiveReference* value);
+
+  /// @brief Method .ctor, addr 0x2a3bafc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ::System::Collections::Hashtable* capnames, ::ArrayW<::StringW, ::Array<::StringW>*> capslist,
                     ::System::Text::RegularExpressions::RegexCode* code, ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::ExclusiveReference* runner,
                     ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* replref);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Regex__CachedCodeEntry();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Regex__CachedCodeEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Regex__CachedCodeEntry(__Regex__CachedCodeEntry&&) = delete;
@@ -262,12 +264,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Regex__CachedCodeEntry(__Regex__CachedCodeEntry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Regex__CachedCodeEntry();
-
-public:
   /// @brief Field Next, offset: 0x10, size: 0x8, def value: None
   ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* ___Next;
 
@@ -328,8 +324,6 @@ static_assert(offsetof(::System::Text::RegularExpressions::__Regex__CachedCodeEn
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6935))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6923))
 // CS Name: ::System.Text.RegularExpressions::Regex*
 class CORDL_TYPE Regex : public ::System::Object {
 public:
@@ -337,6 +331,40 @@ public:
   using CachedCodeEntry = ::System::Text::RegularExpressions::__Regex__CachedCodeEntry;
 
   using CachedCodeEntryKey = ::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey;
+
+  /// @brief Field InfiniteMatchTimeout, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_InfiniteMatchTimeout, put = setStaticF_InfiniteMatchTimeout))::System::TimeSpan InfiniteMatchTimeout;
+
+  __declspec(property(get = get_Options))::System::Text::RegularExpressions::RegexOptions Options;
+
+  __declspec(property(get = get_RightToLeft)) bool RightToLeft;
+
+  /// @brief Field _code, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__code, put = __cordl_internal_set__code))::System::Text::RegularExpressions::RegexCode* _code;
+
+  /// @brief Field _refsInitialized, offset 0x68, size 0x1
+  __declspec(property(get = __cordl_internal_get__refsInitialized, put = __cordl_internal_set__refsInitialized)) bool _refsInitialized;
+
+  /// @brief Field _replref, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__replref, put = __cordl_internal_set__replref))::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* _replref;
+
+  /// @brief Field _runnerref, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__runnerref, put = __cordl_internal_set__runnerref))::System::Text::RegularExpressions::ExclusiveReference* _runnerref;
+
+  /// @brief Field capnames, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_capnames, put = __cordl_internal_set_capnames))::System::Collections::Hashtable* capnames;
+
+  /// @brief Field caps, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_caps, put = __cordl_internal_set_caps))::System::Collections::Hashtable* caps;
+
+  /// @brief Field capsize, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_capsize, put = __cordl_internal_set_capsize)) int32_t capsize;
+
+  /// @brief Field capslist, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_capslist, put = __cordl_internal_set_capslist))::ArrayW<::StringW, ::Array<::StringW>*> capslist;
+
+  /// @brief Field factory, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_factory, put = __cordl_internal_set_factory))::System::Text::RegularExpressions::RegexRunnerFactory* factory;
 
   /// @brief Field internalMatchTimeout, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_internalMatchTimeout, put = __cordl_internal_set_internalMatchTimeout))::System::TimeSpan internalMatchTimeout;
@@ -346,36 +374,6 @@ public:
 
   /// @brief Field roptions, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_roptions, put = __cordl_internal_set_roptions))::System::Text::RegularExpressions::RegexOptions roptions;
-
-  /// @brief Field factory, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_factory, put = __cordl_internal_set_factory))::System::Text::RegularExpressions::RegexRunnerFactory* factory;
-
-  /// @brief Field caps, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_caps, put = __cordl_internal_set_caps))::System::Collections::Hashtable* caps;
-
-  /// @brief Field capnames, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_capnames, put = __cordl_internal_set_capnames))::System::Collections::Hashtable* capnames;
-
-  /// @brief Field capslist, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_capslist, put = __cordl_internal_set_capslist))::ArrayW<::StringW, ::Array<::StringW>*> capslist;
-
-  /// @brief Field capsize, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_capsize, put = __cordl_internal_set_capsize)) int32_t capsize;
-
-  /// @brief Field _runnerref, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__runnerref, put = __cordl_internal_set__runnerref))::System::Text::RegularExpressions::ExclusiveReference* _runnerref;
-
-  /// @brief Field _replref, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__replref, put = __cordl_internal_set__replref))::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* _replref;
-
-  /// @brief Field _code, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__code, put = __cordl_internal_set__code))::System::Text::RegularExpressions::RegexCode* _code;
-
-  /// @brief Field _refsInitialized, offset 0x68, size 0x1
-  __declspec(property(get = __cordl_internal_get__refsInitialized, put = __cordl_internal_set__refsInitialized)) bool _refsInitialized;
-
-  /// @brief Field s_cacheSize, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_cacheSize, put = setStaticF_s_cacheSize)) int32_t s_cacheSize;
 
   /// @brief Field s_cache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cache, put = setStaticF_s_cache))::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey,
@@ -390,239 +388,253 @@ public:
   /// @brief Field s_cacheLast, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cacheLast, put = setStaticF_s_cacheLast))::System::Text::RegularExpressions::__Regex__CachedCodeEntry* s_cacheLast;
 
-  /// @brief Field s_maximumMatchTimeout, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_maximumMatchTimeout, put = setStaticF_s_maximumMatchTimeout))::System::TimeSpan s_maximumMatchTimeout;
+  /// @brief Field s_cacheSize, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_s_cacheSize, put = setStaticF_s_cacheSize)) int32_t s_cacheSize;
 
   /// @brief Field s_defaultMatchTimeout, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_defaultMatchTimeout, put = setStaticF_s_defaultMatchTimeout))::System::TimeSpan s_defaultMatchTimeout;
 
-  /// @brief Field InfiniteMatchTimeout, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InfiniteMatchTimeout, put = setStaticF_InfiniteMatchTimeout))::System::TimeSpan InfiniteMatchTimeout;
-
-  __declspec(property(get = get_Options))::System::Text::RegularExpressions::RegexOptions Options;
-
-  __declspec(property(get = get_RightToLeft)) bool RightToLeft;
+  /// @brief Field s_maximumMatchTimeout, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_maximumMatchTimeout, put = setStaticF_s_maximumMatchTimeout))::System::TimeSpan s_maximumMatchTimeout;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Method FillCacheDictionary, addr 0x2a3bb74, size 0x104, virtual false, abstract: false, final false
+  inline void FillCacheDictionary();
 
-  constexpr ::System::TimeSpan& __cordl_internal_get_internalMatchTimeout();
+  /// @brief Method GetCachedCode, addr 0x2a3b280, size 0xf8, virtual false, abstract: false, final false
+  inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* GetCachedCode(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, bool isToAdd);
 
-  constexpr ::System::TimeSpan const& __cordl_internal_get_internalMatchTimeout() const;
+  /// @brief Method GetCachedCodeEntryInternal, addr 0x2a3b3a8, size 0x4b8, virtual false, abstract: false, final false
+  inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* GetCachedCodeEntryInternal(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, bool isToAdd);
 
-  constexpr void __cordl_internal_set_internalMatchTimeout(::System::TimeSpan value);
+  /// @brief Method GroupNameFromNumber, addr 0x2a388b0, size 0x148, virtual false, abstract: false, final false
+  inline ::StringW GroupNameFromNumber(int32_t i);
 
-  constexpr ::StringW& __cordl_internal_get_pattern();
+  /// @brief Method GroupNumberFromName, addr 0x2a3847c, size 0x14c, virtual false, abstract: false, final false
+  inline int32_t GroupNumberFromName(::StringW name);
 
-  constexpr ::StringW const& __cordl_internal_get_pattern() const;
+  /// @brief Method InitDefaultMatchTimeout, addr 0x2a3d218, size 0x240, virtual false, abstract: false, final false
+  static inline ::System::TimeSpan InitDefaultMatchTimeout();
 
-  constexpr void __cordl_internal_set_pattern(::StringW value);
+  /// @brief Method InitializeReferences, addr 0x2a3d6f4, size 0x104, virtual false, abstract: false, final false
+  inline void InitializeReferences();
 
-  constexpr ::System::Text::RegularExpressions::RegexOptions& __cordl_internal_get_roptions();
+  /// @brief Method IsMatch, addr 0x2a3c2e0, size 0x70, virtual false, abstract: false, final false
+  inline bool IsMatch(::StringW input);
 
-  constexpr ::System::Text::RegularExpressions::RegexOptions const& __cordl_internal_get_roptions() const;
+  /// @brief Method IsMatch, addr 0x2a3be68, size 0x74, virtual false, abstract: false, final false
+  static inline bool IsMatch(::StringW input, ::StringW pattern);
 
-  constexpr void __cordl_internal_set_roptions(::System::Text::RegularExpressions::RegexOptions value);
+  /// @brief Method IsMatch, addr 0x2a3bedc, size 0x8c, virtual false, abstract: false, final false
+  static inline bool IsMatch(::StringW input, ::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout);
 
-  constexpr ::System::Text::RegularExpressions::RegexRunnerFactory*& __cordl_internal_get_factory();
+  /// @brief Method IsMatch, addr 0x2a3c35c, size 0x80, virtual false, abstract: false, final false
+  inline bool IsMatch(::StringW input, int32_t startat);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexRunnerFactory*> const& __cordl_internal_get_factory() const;
+  /// @brief Method LookupCachedAndPromote, addr 0x2a3b860, size 0x29c, virtual false, abstract: false, final false
+  static inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* LookupCachedAndPromote(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key);
 
-  constexpr void __cordl_internal_set_factory(::System::Text::RegularExpressions::RegexRunnerFactory* value);
+  /// @brief Method Match, addr 0x2a3c4dc, size 0x70, virtual false, abstract: false, final false
+  inline ::System::Text::RegularExpressions::Match* Match(::StringW input);
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_caps();
+  /// @brief Method Match, addr 0x2a3c3dc, size 0x74, virtual false, abstract: false, final false
+  static inline ::System::Text::RegularExpressions::Match* Match(::StringW input, ::StringW pattern);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_caps() const;
+  /// @brief Method Match, addr 0x2a3c450, size 0x8c, virtual false, abstract: false, final false
+  static inline ::System::Text::RegularExpressions::Match* Match(::StringW input, ::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout);
 
-  constexpr void __cordl_internal_set_caps(::System::Collections::Hashtable* value);
+  /// @brief Method Match, addr 0x2a3c54c, size 0x74, virtual false, abstract: false, final false
+  inline ::System::Text::RegularExpressions::Match* Match(::StringW input, int32_t startat);
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_capnames();
+  /// @brief Method Matches, addr 0x2a3c5c0, size 0xd4, virtual false, abstract: false, final false
+  inline ::System::Text::RegularExpressions::MatchCollection* Matches(::StringW input, int32_t startat);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_capnames() const;
+  static inline ::System::Text::RegularExpressions::Regex* New_ctor(::StringW pattern);
 
-  constexpr void __cordl_internal_set_capnames(::System::Collections::Hashtable* value);
+  static inline ::System::Text::RegularExpressions::Regex* New_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_capslist();
+  static inline ::System::Text::RegularExpressions::Regex* New_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout, bool addToCache);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_capslist() const;
+  /// @brief Method Replace, addr 0x2a3c694, size 0x7c, virtual false, abstract: false, final false
+  static inline ::StringW Replace(::StringW input, ::StringW pattern, ::StringW replacement);
 
-  constexpr void __cordl_internal_set_capslist(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  /// @brief Method Replace, addr 0x2a3c7a4, size 0x88, virtual false, abstract: false, final false
+  static inline ::StringW Replace(::StringW input, ::StringW pattern, ::StringW replacement, ::System::Text::RegularExpressions::RegexOptions options);
 
-  constexpr int32_t& __cordl_internal_get_capsize();
+  /// @brief Method Replace, addr 0x2a3c710, size 0x94, virtual false, abstract: false, final false
+  static inline ::StringW Replace(::StringW input, ::StringW pattern, ::StringW replacement, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout);
 
-  constexpr int32_t const& __cordl_internal_get_capsize() const;
+  /// @brief Method Replace, addr 0x2a3c82c, size 0x74, virtual false, abstract: false, final false
+  inline ::StringW Replace(::StringW input, ::StringW replacement);
 
-  constexpr void __cordl_internal_set_capsize(int32_t value);
+  /// @brief Method Replace, addr 0x2a3c8a0, size 0xe0, virtual false, abstract: false, final false
+  inline ::StringW Replace(::StringW input, ::StringW replacement, int32_t count, int32_t startat);
 
-  constexpr ::System::Text::RegularExpressions::ExclusiveReference*& __cordl_internal_get__runnerref();
+  /// @brief Method Run, addr 0x2a3975c, size 0x290, virtual false, abstract: false, final false
+  inline ::System::Text::RegularExpressions::Match* Run(bool quick, int32_t prevlen, ::StringW input, int32_t beginning, int32_t length, int32_t startat);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::ExclusiveReference*> const& __cordl_internal_get__runnerref() const;
+  /// @brief Method Split, addr 0x2a3c980, size 0x74, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::StringW input);
 
-  constexpr void __cordl_internal_set__runnerref(::System::Text::RegularExpressions::ExclusiveReference* value);
+  /// @brief Method Split, addr 0x2a3c9f4, size 0xc4, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::StringW input, int32_t count, int32_t startat);
 
-  constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*& __cordl_internal_get__replref();
+  /// @brief Method Split, addr 0x2a3cab8, size 0x61c, virtual false, abstract: false, final false
+  static inline ::ArrayW<::StringW, ::Array<::StringW>*> Split(::System::Text::RegularExpressions::Regex* regex, ::StringW input, int32_t count, int32_t startat);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*> const& __cordl_internal_get__replref() const;
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2a3d6a8, size 0x40, virtual true, abstract: false, final true
+  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext context);
 
-  constexpr void __cordl_internal_set__replref(::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* value);
+  /// @brief Method ToString, addr 0x2a3d800, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method TryGetCacheValue, addr 0x2a3bc78, size 0x11c, virtual false, abstract: false, final false
+  static inline bool TryGetCacheValue(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> entry);
+
+  /// @brief Method TryGetCacheValueSmall, addr 0x2a3bd94, size 0xd4, virtual false, abstract: false, final false
+  static inline bool TryGetCacheValueSmall(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> entry);
+
+  /// @brief Method UseOptionInvariant, addr 0x2a3d808, size 0xc, virtual false, abstract: false, final false
+  inline bool UseOptionInvariant();
+
+  /// @brief Method UseOptionR, addr 0x2a3c350, size 0xc, virtual false, abstract: false, final false
+  inline bool UseOptionR();
+
+  /// @brief Method ValidateMatchTimeout, addr 0x2a3d458, size 0x15c, virtual false, abstract: false, final false
+  static inline void ValidateMatchTimeout(::System::TimeSpan matchTimeout);
 
   constexpr ::System::Text::RegularExpressions::RegexCode*& __cordl_internal_get__code();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCode*> const& __cordl_internal_get__code() const;
 
-  constexpr void __cordl_internal_set__code(::System::Text::RegularExpressions::RegexCode* value);
+  constexpr bool const& __cordl_internal_get__refsInitialized() const;
 
   constexpr bool& __cordl_internal_get__refsInitialized();
 
-  constexpr bool const& __cordl_internal_get__refsInitialized() const;
+  constexpr ::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*& __cordl_internal_get__replref();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>*> const& __cordl_internal_get__replref() const;
+
+  constexpr ::System::Text::RegularExpressions::ExclusiveReference*& __cordl_internal_get__runnerref();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::ExclusiveReference*> const& __cordl_internal_get__runnerref() const;
+
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_capnames();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_capnames() const;
+
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_caps();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_caps() const;
+
+  constexpr int32_t const& __cordl_internal_get_capsize() const;
+
+  constexpr int32_t& __cordl_internal_get_capsize();
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_capslist() const;
+
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_capslist();
+
+  constexpr ::System::Text::RegularExpressions::RegexRunnerFactory*& __cordl_internal_get_factory();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexRunnerFactory*> const& __cordl_internal_get_factory() const;
+
+  constexpr ::System::TimeSpan const& __cordl_internal_get_internalMatchTimeout() const;
+
+  constexpr ::System::TimeSpan& __cordl_internal_get_internalMatchTimeout();
+
+  constexpr ::StringW const& __cordl_internal_get_pattern() const;
+
+  constexpr ::StringW& __cordl_internal_get_pattern();
+
+  constexpr ::System::Text::RegularExpressions::RegexOptions const& __cordl_internal_get_roptions() const;
+
+  constexpr ::System::Text::RegularExpressions::RegexOptions& __cordl_internal_get_roptions();
+
+  constexpr void __cordl_internal_set__code(::System::Text::RegularExpressions::RegexCode* value);
 
   constexpr void __cordl_internal_set__refsInitialized(bool value);
 
-  static inline void setStaticF_s_cacheSize(int32_t value);
+  constexpr void __cordl_internal_set__replref(::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* value);
 
-  static inline int32_t getStaticF_s_cacheSize();
+  constexpr void __cordl_internal_set__runnerref(::System::Text::RegularExpressions::ExclusiveReference* value);
 
-  static inline void setStaticF_s_cache(
-      ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>* value);
+  constexpr void __cordl_internal_set_capnames(::System::Collections::Hashtable* value);
+
+  constexpr void __cordl_internal_set_caps(::System::Collections::Hashtable* value);
+
+  constexpr void __cordl_internal_set_capsize(int32_t value);
+
+  constexpr void __cordl_internal_set_capslist(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  constexpr void __cordl_internal_set_factory(::System::Text::RegularExpressions::RegexRunnerFactory* value);
+
+  constexpr void __cordl_internal_set_internalMatchTimeout(::System::TimeSpan value);
+
+  constexpr void __cordl_internal_set_pattern(::StringW value);
+
+  constexpr void __cordl_internal_set_roptions(::System::Text::RegularExpressions::RegexOptions value);
+
+  /// @brief Method .ctor, addr 0x2a3d5b4, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::StringW pattern);
+
+  /// @brief Method .ctor, addr 0x2a3d62c, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options);
+
+  /// @brief Method .ctor, addr 0x2a3bf68, size 0x378, virtual false, abstract: false, final false
+  inline void _ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout, bool addToCache);
+
+  static inline ::System::TimeSpan getStaticF_InfiniteMatchTimeout();
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>*
   getStaticF_s_cache();
 
-  static inline void setStaticF_s_cacheCount(int32_t value);
-
   static inline int32_t getStaticF_s_cacheCount();
-
-  static inline void setStaticF_s_cacheFirst(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value);
 
   static inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* getStaticF_s_cacheFirst();
 
-  static inline void setStaticF_s_cacheLast(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value);
-
   static inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* getStaticF_s_cacheLast();
 
-  static inline void setStaticF_s_maximumMatchTimeout(::System::TimeSpan value);
-
-  static inline ::System::TimeSpan getStaticF_s_maximumMatchTimeout();
-
-  static inline void setStaticF_s_defaultMatchTimeout(::System::TimeSpan value);
+  static inline int32_t getStaticF_s_cacheSize();
 
   static inline ::System::TimeSpan getStaticF_s_defaultMatchTimeout();
 
-  static inline void setStaticF_InfiniteMatchTimeout(::System::TimeSpan value);
+  static inline ::System::TimeSpan getStaticF_s_maximumMatchTimeout();
 
-  static inline ::System::TimeSpan getStaticF_InfiniteMatchTimeout();
-
-  /// @brief Method GetCachedCode, addr 0x2955e04, size 0xf8, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* GetCachedCode(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, bool isToAdd);
-
-  /// @brief Method GetCachedCodeEntryInternal, addr 0x2955f2c, size 0x4b8, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* GetCachedCodeEntryInternal(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, bool isToAdd);
-
-  /// @brief Method FillCacheDictionary, addr 0x29566f8, size 0x104, virtual false, abstract: false, final false
-  inline void FillCacheDictionary();
-
-  /// @brief Method TryGetCacheValue, addr 0x29567fc, size 0x11c, virtual false, abstract: false, final false
-  static inline bool TryGetCacheValue(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> entry);
-
-  /// @brief Method TryGetCacheValueSmall, addr 0x2956918, size 0xd4, virtual false, abstract: false, final false
-  static inline bool TryGetCacheValueSmall(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key, ByRef<::System::Text::RegularExpressions::__Regex__CachedCodeEntry*> entry);
-
-  /// @brief Method LookupCachedAndPromote, addr 0x29563e4, size 0x29c, virtual false, abstract: false, final false
-  static inline ::System::Text::RegularExpressions::__Regex__CachedCodeEntry* LookupCachedAndPromote(::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey key);
-
-  /// @brief Method IsMatch, addr 0x29569ec, size 0x74, virtual false, abstract: false, final false
-  static inline bool IsMatch(::StringW input, ::StringW pattern);
-
-  /// @brief Method IsMatch, addr 0x2956a60, size 0x8c, virtual false, abstract: false, final false
-  static inline bool IsMatch(::StringW input, ::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout);
-
-  /// @brief Method IsMatch, addr 0x2956e64, size 0x70, virtual false, abstract: false, final false
-  inline bool IsMatch(::StringW input);
-
-  /// @brief Method IsMatch, addr 0x2956ee0, size 0x80, virtual false, abstract: false, final false
-  inline bool IsMatch(::StringW input, int32_t startat);
-
-  /// @brief Method Match, addr 0x2956f60, size 0x74, virtual false, abstract: false, final false
-  static inline ::System::Text::RegularExpressions::Match* Match(::StringW input, ::StringW pattern);
-
-  /// @brief Method Match, addr 0x2956fd4, size 0x8c, virtual false, abstract: false, final false
-  static inline ::System::Text::RegularExpressions::Match* Match(::StringW input, ::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout);
-
-  /// @brief Method Match, addr 0x2957060, size 0x70, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::Match* Match(::StringW input);
-
-  /// @brief Method Match, addr 0x29570d0, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::Match* Match(::StringW input, int32_t startat);
-
-  /// @brief Method Matches, addr 0x2957144, size 0xd4, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::MatchCollection* Matches(::StringW input, int32_t startat);
-
-  /// @brief Method Replace, addr 0x2957218, size 0x7c, virtual false, abstract: false, final false
-  static inline ::StringW Replace(::StringW input, ::StringW pattern, ::StringW replacement);
-
-  /// @brief Method Replace, addr 0x2957294, size 0x94, virtual false, abstract: false, final false
-  static inline ::StringW Replace(::StringW input, ::StringW pattern, ::StringW replacement, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout);
-
-  /// @brief Method Replace, addr 0x2957328, size 0x74, virtual false, abstract: false, final false
-  inline ::StringW Replace(::StringW input, ::StringW replacement);
-
-  /// @brief Method Replace, addr 0x295739c, size 0xe0, virtual false, abstract: false, final false
-  inline ::StringW Replace(::StringW input, ::StringW replacement, int32_t count, int32_t startat);
-
-  /// @brief Method ValidateMatchTimeout, addr 0x29577f4, size 0x15c, virtual false, abstract: false, final false
-  static inline void ValidateMatchTimeout(::System::TimeSpan matchTimeout);
-
-  /// @brief Method InitDefaultMatchTimeout, addr 0x29575b4, size 0x240, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan InitDefaultMatchTimeout();
-
-  static inline ::System::Text::RegularExpressions::Regex* New_ctor(::StringW pattern);
-
-  /// @brief Method .ctor, addr 0x2957950, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::StringW pattern);
-
-  static inline ::System::Text::RegularExpressions::Regex* New_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options);
-
-  /// @brief Method .ctor, addr 0x29579c8, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options);
-
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2957a44, size 0x40, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext context);
-
-  static inline ::System::Text::RegularExpressions::Regex* New_ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout, bool addToCache);
-
-  /// @brief Method .ctor, addr 0x2956aec, size 0x378, virtual false, abstract: false, final false
-  inline void _ctor(::StringW pattern, ::System::Text::RegularExpressions::RegexOptions options, ::System::TimeSpan matchTimeout, bool addToCache);
-
-  /// @brief Method get_Options, addr 0x2957b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x2a3d7f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexOptions get_Options();
 
-  /// @brief Method get_RightToLeft, addr 0x2957b9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_RightToLeft, addr 0x2a3d0d4, size 0xc, virtual false, abstract: false, final false
   inline bool get_RightToLeft();
 
-  /// @brief Method ToString, addr 0x2957ba8, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method GroupNameFromNumber, addr 0x2953434, size 0x148, virtual false, abstract: false, final false
-  inline ::StringW GroupNameFromNumber(int32_t i);
+  static inline void setStaticF_InfiniteMatchTimeout(::System::TimeSpan value);
 
-  /// @brief Method GroupNumberFromName, addr 0x2953000, size 0x14c, virtual false, abstract: false, final false
-  inline int32_t GroupNumberFromName(::StringW name);
+  static inline void setStaticF_s_cache(
+      ::System::Collections::Generic::Dictionary_2<::System::Text::RegularExpressions::__Regex__CachedCodeEntryKey, ::System::Text::RegularExpressions::__Regex__CachedCodeEntry*>* value);
 
-  /// @brief Method InitializeReferences, addr 0x2957a90, size 0x104, virtual false, abstract: false, final false
-  inline void InitializeReferences();
+  static inline void setStaticF_s_cacheCount(int32_t value);
 
-  /// @brief Method Run, addr 0x29542e0, size 0x290, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::Match* Run(bool quick, int32_t prevlen, ::StringW input, int32_t beginning, int32_t length, int32_t startat);
+  static inline void setStaticF_s_cacheFirst(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value);
 
-  /// @brief Method UseOptionR, addr 0x2956ed4, size 0xc, virtual false, abstract: false, final false
-  inline bool UseOptionR();
+  static inline void setStaticF_s_cacheLast(::System::Text::RegularExpressions::__Regex__CachedCodeEntry* value);
 
-  /// @brief Method UseOptionInvariant, addr 0x2957bb0, size 0xc, virtual false, abstract: false, final false
-  inline bool UseOptionInvariant();
+  static inline void setStaticF_s_cacheSize(int32_t value);
 
+  static inline void setStaticF_s_defaultMatchTimeout(::System::TimeSpan value);
+
+  static inline void setStaticF_s_maximumMatchTimeout(::System::TimeSpan value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Regex();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Regex", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Regex(Regex&&) = delete;
@@ -631,12 +643,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Regex(Regex const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Regex();
-
-public:
   /// @brief Field internalMatchTimeout, offset: 0x10, size: 0x8, def value: None
   ::System::TimeSpan ___internalMatchTimeout;
 

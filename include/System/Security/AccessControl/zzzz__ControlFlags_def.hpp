@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Security::AccessControl::ControlFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3028))
 // CS Name: ::System.Security.AccessControl::ControlFlags
 struct CORDL_TYPE ControlFlags {
 public:
@@ -49,18 +47,41 @@ public:
     return static_cast<__ControlFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ControlFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__ControlFlags_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ControlFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ControlFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field DiscretionaryAclAutoInheritRequired value: static_cast<int32_t>(0x100)
+  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclAutoInheritRequired;
+
+  /// @brief Field DiscretionaryAclAutoInherited value: static_cast<int32_t>(0x400)
+  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclAutoInherited;
+
+  /// @brief Field DiscretionaryAclDefaulted value: static_cast<int32_t>(0x8)
+  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclDefaulted;
+
+  /// @brief Field DiscretionaryAclPresent value: static_cast<int32_t>(0x4)
+  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclPresent;
+
+  /// @brief Field DiscretionaryAclProtected value: static_cast<int32_t>(0x1000)
+  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclProtected;
+
+  /// @brief Field DiscretionaryAclUntrusted value: static_cast<int32_t>(0x40)
+  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclUntrusted;
+
+  /// @brief Field GroupDefaulted value: static_cast<int32_t>(0x2)
+  static ::System::Security::AccessControl::ControlFlags const GroupDefaulted;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::System::Security::AccessControl::ControlFlags const None;
@@ -68,50 +89,32 @@ public:
   /// @brief Field OwnerDefaulted value: static_cast<int32_t>(0x1)
   static ::System::Security::AccessControl::ControlFlags const OwnerDefaulted;
 
-  /// @brief Field GroupDefaulted value: static_cast<int32_t>(0x2)
-  static ::System::Security::AccessControl::ControlFlags const GroupDefaulted;
-
-  /// @brief Field DiscretionaryAclPresent value: static_cast<int32_t>(0x4)
-  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclPresent;
-
-  /// @brief Field DiscretionaryAclDefaulted value: static_cast<int32_t>(0x8)
-  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclDefaulted;
-
-  /// @brief Field SystemAclPresent value: static_cast<int32_t>(0x10)
-  static ::System::Security::AccessControl::ControlFlags const SystemAclPresent;
-
-  /// @brief Field SystemAclDefaulted value: static_cast<int32_t>(0x20)
-  static ::System::Security::AccessControl::ControlFlags const SystemAclDefaulted;
-
-  /// @brief Field DiscretionaryAclUntrusted value: static_cast<int32_t>(0x40)
-  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclUntrusted;
-
-  /// @brief Field ServerSecurity value: static_cast<int32_t>(0x80)
-  static ::System::Security::AccessControl::ControlFlags const ServerSecurity;
-
-  /// @brief Field DiscretionaryAclAutoInheritRequired value: static_cast<int32_t>(0x100)
-  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclAutoInheritRequired;
-
-  /// @brief Field SystemAclAutoInheritRequired value: static_cast<int32_t>(0x200)
-  static ::System::Security::AccessControl::ControlFlags const SystemAclAutoInheritRequired;
-
-  /// @brief Field DiscretionaryAclAutoInherited value: static_cast<int32_t>(0x400)
-  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclAutoInherited;
-
-  /// @brief Field SystemAclAutoInherited value: static_cast<int32_t>(0x800)
-  static ::System::Security::AccessControl::ControlFlags const SystemAclAutoInherited;
-
-  /// @brief Field DiscretionaryAclProtected value: static_cast<int32_t>(0x1000)
-  static ::System::Security::AccessControl::ControlFlags const DiscretionaryAclProtected;
-
-  /// @brief Field SystemAclProtected value: static_cast<int32_t>(0x2000)
-  static ::System::Security::AccessControl::ControlFlags const SystemAclProtected;
-
   /// @brief Field RMControlValid value: static_cast<int32_t>(0x4000)
   static ::System::Security::AccessControl::ControlFlags const RMControlValid;
 
   /// @brief Field SelfRelative value: static_cast<int32_t>(0x8000)
   static ::System::Security::AccessControl::ControlFlags const SelfRelative;
+
+  /// @brief Field ServerSecurity value: static_cast<int32_t>(0x80)
+  static ::System::Security::AccessControl::ControlFlags const ServerSecurity;
+
+  /// @brief Field SystemAclAutoInheritRequired value: static_cast<int32_t>(0x200)
+  static ::System::Security::AccessControl::ControlFlags const SystemAclAutoInheritRequired;
+
+  /// @brief Field SystemAclAutoInherited value: static_cast<int32_t>(0x800)
+  static ::System::Security::AccessControl::ControlFlags const SystemAclAutoInherited;
+
+  /// @brief Field SystemAclDefaulted value: static_cast<int32_t>(0x20)
+  static ::System::Security::AccessControl::ControlFlags const SystemAclDefaulted;
+
+  /// @brief Field SystemAclPresent value: static_cast<int32_t>(0x10)
+  static ::System::Security::AccessControl::ControlFlags const SystemAclPresent;
+
+  /// @brief Field SystemAclProtected value: static_cast<int32_t>(0x2000)
+  static ::System::Security::AccessControl::ControlFlags const SystemAclProtected;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

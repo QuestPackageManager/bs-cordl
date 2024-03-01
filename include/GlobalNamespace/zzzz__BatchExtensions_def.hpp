@@ -45,137 +45,67 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12582))
 // CS Name: ::BatchExtensions::<Batch>d__0`1<T>*
 class CORDL_TYPE __BatchExtensions___Batch_d__0_1 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___get_Current))::System::Collections::Generic::List_1<
+      T>* System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Collections::Generic::List_1<T>* __2__current;
 
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
-
-  /// @brief Field enumerable, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_enumerable, put = __cordl_internal_set_enumerable))::System::Collections::Generic::IEnumerable_1<T>* enumerable;
+  /// @brief Field <>3__batchSize, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get___3__batchSize, put = __cordl_internal_set___3__batchSize)) int32_t __3__batchSize;
 
   /// @brief Field <>3__enumerable, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get___3__enumerable, put = __cordl_internal_set___3__enumerable))::System::Collections::Generic::IEnumerable_1<T>* __3__enumerable;
 
-  /// @brief Field batchSize, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_batchSize, put = __cordl_internal_set_batchSize)) int32_t batchSize;
-
-  /// @brief Field <>3__batchSize, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get___3__batchSize, put = __cordl_internal_set___3__batchSize)) int32_t __3__batchSize;
-
   /// @brief Field <>7__wrap1, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<T>* __7__wrap1;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___get_Current))::System::Collections::Generic::List_1<
-      T>* System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___Current;
+  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  /// @brief Field batchSize, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get_batchSize, put = __cordl_internal_set_batchSize)) int32_t batchSize;
+
+  /// @brief Field enumerable, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_enumerable, put = __cordl_internal_set_enumerable))::System::Collections::Generic::IEnumerable_1<T>* enumerable;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>*
-  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__List_1_T___() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>*() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>*
-  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__List_1_T___() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get___2__current();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get___2__current() const;
-
-  constexpr void __cordl_internal_set___2__current(::System::Collections::Generic::List_1<T>* value);
-
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
-
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
-
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_enumerable();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get_enumerable() const;
-
-  constexpr void __cordl_internal_set_enumerable(::System::Collections::Generic::IEnumerable_1<T>* value);
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get___3__enumerable();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get___3__enumerable() const;
-
-  constexpr void __cordl_internal_set___3__enumerable(::System::Collections::Generic::IEnumerable_1<T>* value);
-
-  constexpr int32_t& __cordl_internal_get_batchSize();
-
-  constexpr int32_t const& __cordl_internal_get_batchSize() const;
-
-  constexpr void __cordl_internal_set_batchSize(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get___3__batchSize();
-
-  constexpr int32_t const& __cordl_internal_get___3__batchSize() const;
-
-  constexpr void __cordl_internal_set___3__batchSize(int32_t value);
-
-  constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __cordl_internal_get___7__wrap1();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __cordl_internal_get___7__wrap1() const;
-
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<T>* value);
-
-  static inline ::GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void __m__Finally1();
+  static inline ::GlobalNamespace::__BatchExtensions___Batch_d__0_1<T>* New_ctor(int32_t __1__state);
+
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.List<T>>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>* System_Collections_Generic_IEnumerable_System_Collections_Generic_List_T___GetEnumerator();
 
   /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.List<T>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<T>* System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___get_Current();
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
@@ -183,12 +113,86 @@ public:
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.List<T>>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>* System_Collections_Generic_IEnumerable_System_Collections_Generic_List_T___GetEnumerator();
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
+  constexpr int32_t& __cordl_internal_get___1__state();
+
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get___2__current();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get___2__current() const;
+
+  constexpr int32_t const& __cordl_internal_get___3__batchSize() const;
+
+  constexpr int32_t& __cordl_internal_get___3__batchSize();
+
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get___3__enumerable();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get___3__enumerable() const;
+
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __cordl_internal_get___7__wrap1();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __cordl_internal_get___7__wrap1() const;
+
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
+
+  constexpr int32_t const& __cordl_internal_get_batchSize() const;
+
+  constexpr int32_t& __cordl_internal_get_batchSize();
+
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_enumerable();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get_enumerable() const;
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::Collections::Generic::List_1<T>* value);
+
+  constexpr void __cordl_internal_set___3__batchSize(int32_t value);
+
+  constexpr void __cordl_internal_set___3__enumerable(::System::Collections::Generic::IEnumerable_1<T>* value);
+
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<T>* value);
+
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
+
+  constexpr void __cordl_internal_set_batchSize(int32_t value);
+
+  constexpr void __cordl_internal_set_enumerable(::System::Collections::Generic::IEnumerable_1<T>* value);
+
+  /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void __m__Finally1();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t __1__state);
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__List_1_T___() noexcept;
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::List_1<T>*>*
+  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__List_1_T___() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BatchExtensions___Batch_d__0_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BatchExtensions___Batch_d__0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BatchExtensions___Batch_d__0_1(__BatchExtensions___Batch_d__0_1&&) = delete;
@@ -197,12 +201,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BatchExtensions___Batch_d__0_1(__BatchExtensions___Batch_d__0_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BatchExtensions___Batch_d__0_1();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -235,8 +233,6 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12583))
 // CS Name: ::BatchExtensions*
 class CORDL_TYPE BatchExtensions : public ::System::Object {
 public:
@@ -247,6 +243,12 @@ public:
   template <typename T>
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>* Batch(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int32_t batchSize);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BatchExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BatchExtensions(BatchExtensions&&) = delete;
@@ -255,12 +257,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BatchExtensions(BatchExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BatchExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

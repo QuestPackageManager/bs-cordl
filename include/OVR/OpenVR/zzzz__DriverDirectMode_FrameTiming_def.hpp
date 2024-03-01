@@ -15,20 +15,18 @@ MARK_VAL_T(::OVR::OpenVR::DriverDirectMode_FrameTiming);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8645))
 // CS Name: ::OVR.OpenVR::DriverDirectMode_FrameTiming
 struct CORDL_TYPE DriverDirectMode_FrameTiming {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DriverDirectMode_FrameTiming();
+
   // Ctor Parameters [CppParam { name: "m_nSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumFramePresents", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
   // name: "m_nNumMisPresented", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumDroppedFrames", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_nReprojectionFlags", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr DriverDirectMode_FrameTiming(uint32_t m_nSize, uint32_t m_nNumFramePresents, uint32_t m_nNumMisPresented, uint32_t m_nNumDroppedFrames, uint32_t m_nReprojectionFlags) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DriverDirectMode_FrameTiming();
 
   /// @brief Field m_nSize, offset: 0x0, size: 0x4, def value: None
   uint32_t m_nSize;

@@ -50,32 +50,24 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__VRIKCalibrator__Settings);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12567))
 // CS Name: ::VRIKCalibrator::Settings*
 class CORDL_TYPE __VRIKCalibrator__Settings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field scaleMlp, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_scaleMlp, put = __cordl_internal_set_scaleMlp)) float_t scaleMlp;
-
-  /// @brief Field headTrackerForward, offset 0x14, size 0xc
-  __declspec(property(get = __cordl_internal_get_headTrackerForward, put = __cordl_internal_set_headTrackerForward))::UnityEngine::Vector3 headTrackerForward;
-
-  /// @brief Field headTrackerUp, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get_headTrackerUp, put = __cordl_internal_set_headTrackerUp))::UnityEngine::Vector3 headTrackerUp;
-
   /// @brief Field bodyTrackerForward, offset 0x2c, size 0xc
   __declspec(property(get = __cordl_internal_get_bodyTrackerForward, put = __cordl_internal_set_bodyTrackerForward))::UnityEngine::Vector3 bodyTrackerForward;
 
   /// @brief Field bodyTrackerUp, offset 0x38, size 0xc
   __declspec(property(get = __cordl_internal_get_bodyTrackerUp, put = __cordl_internal_set_bodyTrackerUp))::UnityEngine::Vector3 bodyTrackerUp;
 
-  /// @brief Field handTrackerForward, offset 0x44, size 0xc
-  __declspec(property(get = __cordl_internal_get_handTrackerForward, put = __cordl_internal_set_handTrackerForward))::UnityEngine::Vector3 handTrackerForward;
+  /// @brief Field footForwardOffset, offset 0x8c, size 0x4
+  __declspec(property(get = __cordl_internal_get_footForwardOffset, put = __cordl_internal_set_footForwardOffset)) float_t footForwardOffset;
 
-  /// @brief Field handTrackerUp, offset 0x50, size 0xc
-  __declspec(property(get = __cordl_internal_get_handTrackerUp, put = __cordl_internal_set_handTrackerUp))::UnityEngine::Vector3 handTrackerUp;
+  /// @brief Field footHeadingOffset, offset 0x94, size 0x4
+  __declspec(property(get = __cordl_internal_get_footHeadingOffset, put = __cordl_internal_set_footHeadingOffset)) float_t footHeadingOffset;
+
+  /// @brief Field footInwardOffset, offset 0x90, size 0x4
+  __declspec(property(get = __cordl_internal_get_footInwardOffset, put = __cordl_internal_set_footInwardOffset)) float_t footInwardOffset;
 
   /// @brief Field footTrackerForward, offset 0x5c, size 0xc
   __declspec(property(get = __cordl_internal_get_footTrackerForward, put = __cordl_internal_set_footTrackerForward))::UnityEngine::Vector3 footTrackerForward;
@@ -83,20 +75,23 @@ public:
   /// @brief Field footTrackerUp, offset 0x68, size 0xc
   __declspec(property(get = __cordl_internal_get_footTrackerUp, put = __cordl_internal_set_footTrackerUp))::UnityEngine::Vector3 footTrackerUp;
 
-  /// @brief Field headOffset, offset 0x74, size 0xc
-  __declspec(property(get = __cordl_internal_get_headOffset, put = __cordl_internal_set_headOffset))::UnityEngine::Vector3 headOffset;
-
   /// @brief Field handOffset, offset 0x80, size 0xc
   __declspec(property(get = __cordl_internal_get_handOffset, put = __cordl_internal_set_handOffset))::UnityEngine::Vector3 handOffset;
 
-  /// @brief Field footForwardOffset, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_footForwardOffset, put = __cordl_internal_set_footForwardOffset)) float_t footForwardOffset;
+  /// @brief Field handTrackerForward, offset 0x44, size 0xc
+  __declspec(property(get = __cordl_internal_get_handTrackerForward, put = __cordl_internal_set_handTrackerForward))::UnityEngine::Vector3 handTrackerForward;
 
-  /// @brief Field footInwardOffset, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get_footInwardOffset, put = __cordl_internal_set_footInwardOffset)) float_t footInwardOffset;
+  /// @brief Field handTrackerUp, offset 0x50, size 0xc
+  __declspec(property(get = __cordl_internal_get_handTrackerUp, put = __cordl_internal_set_handTrackerUp))::UnityEngine::Vector3 handTrackerUp;
 
-  /// @brief Field footHeadingOffset, offset 0x94, size 0x4
-  __declspec(property(get = __cordl_internal_get_footHeadingOffset, put = __cordl_internal_set_footHeadingOffset)) float_t footHeadingOffset;
+  /// @brief Field headOffset, offset 0x74, size 0xc
+  __declspec(property(get = __cordl_internal_get_headOffset, put = __cordl_internal_set_headOffset))::UnityEngine::Vector3 headOffset;
+
+  /// @brief Field headTrackerForward, offset 0x14, size 0xc
+  __declspec(property(get = __cordl_internal_get_headTrackerForward, put = __cordl_internal_set_headTrackerForward))::UnityEngine::Vector3 headTrackerForward;
+
+  /// @brief Field headTrackerUp, offset 0x20, size 0xc
+  __declspec(property(get = __cordl_internal_get_headTrackerUp, put = __cordl_internal_set_headTrackerUp))::UnityEngine::Vector3 headTrackerUp;
 
   /// @brief Field pelvisPositionWeight, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get_pelvisPositionWeight, put = __cordl_internal_set_pelvisPositionWeight)) float_t pelvisPositionWeight;
@@ -104,107 +99,116 @@ public:
   /// @brief Field pelvisRotationWeight, offset 0x9c, size 0x4
   __declspec(property(get = __cordl_internal_get_pelvisRotationWeight, put = __cordl_internal_set_pelvisRotationWeight)) float_t pelvisRotationWeight;
 
-  constexpr float_t& __cordl_internal_get_scaleMlp();
-
-  constexpr float_t const& __cordl_internal_get_scaleMlp() const;
-
-  constexpr void __cordl_internal_set_scaleMlp(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headTrackerForward();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headTrackerForward() const;
-
-  constexpr void __cordl_internal_set_headTrackerForward(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headTrackerUp();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headTrackerUp() const;
-
-  constexpr void __cordl_internal_set_headTrackerUp(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bodyTrackerForward();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bodyTrackerForward() const;
-
-  constexpr void __cordl_internal_set_bodyTrackerForward(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bodyTrackerUp();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bodyTrackerUp() const;
-
-  constexpr void __cordl_internal_set_bodyTrackerUp(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_handTrackerForward();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_handTrackerForward() const;
-
-  constexpr void __cordl_internal_set_handTrackerForward(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_handTrackerUp();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_handTrackerUp() const;
-
-  constexpr void __cordl_internal_set_handTrackerUp(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_footTrackerForward();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_footTrackerForward() const;
-
-  constexpr void __cordl_internal_set_footTrackerForward(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_footTrackerUp();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_footTrackerUp() const;
-
-  constexpr void __cordl_internal_set_footTrackerUp(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headOffset() const;
-
-  constexpr void __cordl_internal_set_headOffset(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_handOffset();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_handOffset() const;
-
-  constexpr void __cordl_internal_set_handOffset(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get_footForwardOffset();
-
-  constexpr float_t const& __cordl_internal_get_footForwardOffset() const;
-
-  constexpr void __cordl_internal_set_footForwardOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get_footInwardOffset();
-
-  constexpr float_t const& __cordl_internal_get_footInwardOffset() const;
-
-  constexpr void __cordl_internal_set_footInwardOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get_footHeadingOffset();
-
-  constexpr float_t const& __cordl_internal_get_footHeadingOffset() const;
-
-  constexpr void __cordl_internal_set_footHeadingOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get_pelvisPositionWeight();
-
-  constexpr float_t const& __cordl_internal_get_pelvisPositionWeight() const;
-
-  constexpr void __cordl_internal_set_pelvisPositionWeight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_pelvisRotationWeight();
-
-  constexpr float_t const& __cordl_internal_get_pelvisRotationWeight() const;
-
-  constexpr void __cordl_internal_set_pelvisRotationWeight(float_t value);
+  /// @brief Field scaleMlp, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_scaleMlp, put = __cordl_internal_set_scaleMlp)) float_t scaleMlp;
 
   static inline ::RootMotion::FinalIK::__VRIKCalibrator__Settings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13354a8, size 0x204, virtual false, abstract: false, final false
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bodyTrackerForward() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bodyTrackerForward();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bodyTrackerUp() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bodyTrackerUp();
+
+  constexpr float_t const& __cordl_internal_get_footForwardOffset() const;
+
+  constexpr float_t& __cordl_internal_get_footForwardOffset();
+
+  constexpr float_t const& __cordl_internal_get_footHeadingOffset() const;
+
+  constexpr float_t& __cordl_internal_get_footHeadingOffset();
+
+  constexpr float_t const& __cordl_internal_get_footInwardOffset() const;
+
+  constexpr float_t& __cordl_internal_get_footInwardOffset();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_footTrackerForward() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_footTrackerForward();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_footTrackerUp() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_footTrackerUp();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_handOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_handOffset();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_handTrackerForward() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_handTrackerForward();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_handTrackerUp() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_handTrackerUp();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headOffset() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headOffset();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headTrackerForward() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headTrackerForward();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headTrackerUp() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headTrackerUp();
+
+  constexpr float_t const& __cordl_internal_get_pelvisPositionWeight() const;
+
+  constexpr float_t& __cordl_internal_get_pelvisPositionWeight();
+
+  constexpr float_t const& __cordl_internal_get_pelvisRotationWeight() const;
+
+  constexpr float_t& __cordl_internal_get_pelvisRotationWeight();
+
+  constexpr float_t const& __cordl_internal_get_scaleMlp() const;
+
+  constexpr float_t& __cordl_internal_get_scaleMlp();
+
+  constexpr void __cordl_internal_set_bodyTrackerForward(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_bodyTrackerUp(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_footForwardOffset(float_t value);
+
+  constexpr void __cordl_internal_set_footHeadingOffset(float_t value);
+
+  constexpr void __cordl_internal_set_footInwardOffset(float_t value);
+
+  constexpr void __cordl_internal_set_footTrackerForward(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_footTrackerUp(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_handOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_handTrackerForward(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_handTrackerUp(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_headOffset(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_headTrackerForward(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_headTrackerUp(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_pelvisPositionWeight(float_t value);
+
+  constexpr void __cordl_internal_set_pelvisRotationWeight(float_t value);
+
+  constexpr void __cordl_internal_set_scaleMlp(float_t value);
+
+  /// @brief Method .ctor, addr 0x1376494, size 0x204, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VRIKCalibrator__Settings();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VRIKCalibrator__Settings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VRIKCalibrator__Settings(__VRIKCalibrator__Settings&&) = delete;
@@ -213,12 +217,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VRIKCalibrator__Settings(__VRIKCalibrator__Settings const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VRIKCalibrator__Settings();
-
-public:
   /// @brief Field scaleMlp, offset: 0x10, size: 0x4, def value: None
   float_t ___scaleMlp;
 
@@ -309,47 +307,51 @@ static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__Settings, ___pel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12568))
 // CS Name: ::VRIKCalibrator::CalibrationData::Target*
 class CORDL_TYPE __VRIKCalibrator__CalibrationData__Target : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field used, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_used, put = __cordl_internal_set_used)) bool used;
-
   /// @brief Field localPosition, offset 0x14, size 0xc
   __declspec(property(get = __cordl_internal_get_localPosition, put = __cordl_internal_set_localPosition))::UnityEngine::Vector3 localPosition;
 
   /// @brief Field localRotation, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get_localRotation, put = __cordl_internal_set_localRotation))::UnityEngine::Quaternion localRotation;
 
-  constexpr bool& __cordl_internal_get_used();
-
-  constexpr bool const& __cordl_internal_get_used() const;
-
-  constexpr void __cordl_internal_set_used(bool value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_localPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_localPosition() const;
-
-  constexpr void __cordl_internal_set_localPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_localRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_localRotation() const;
-
-  constexpr void __cordl_internal_set_localRotation(::UnityEngine::Quaternion value);
+  /// @brief Field used, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_used, put = __cordl_internal_set_used)) bool used;
 
   static inline ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* New_ctor(::UnityEngine::Transform* t);
 
-  /// @brief Method .ctor, addr 0x1334700, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Transform* t);
-
-  /// @brief Method SetTo, addr 0x13350a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetTo, addr 0x1376094, size 0x5c, virtual false, abstract: false, final false
   inline void SetTo(::UnityEngine::Transform* t);
 
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_localPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_localPosition();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_localRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_localRotation();
+
+  constexpr bool const& __cordl_internal_get_used() const;
+
+  constexpr bool& __cordl_internal_get_used();
+
+  constexpr void __cordl_internal_set_localPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_localRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_used(bool value);
+
+  /// @brief Method .ctor, addr 0x13756ec, size 0xb4, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Transform* t);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VRIKCalibrator__CalibrationData__Target();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VRIKCalibrator__CalibrationData__Target", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VRIKCalibrator__CalibrationData__Target(__VRIKCalibrator__CalibrationData__Target&&) = delete;
@@ -358,12 +360,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VRIKCalibrator__CalibrationData__Target(__VRIKCalibrator__CalibrationData__Target const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VRIKCalibrator__CalibrationData__Target();
-
-public:
   /// @brief Field used, offset: 0x10, size: 0x1, def value: None
   bool ___used;
 
@@ -389,43 +385,26 @@ static_assert(offsetof(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Tar
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12569))
 // CS Name: ::VRIKCalibrator::CalibrationData*
 class CORDL_TYPE __VRIKCalibrator__CalibrationData : public ::System::Object {
 public:
   // Declarations
   using Target = ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target;
 
-  /// @brief Field scale, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) float_t scale;
-
   /// @brief Field head, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* head;
-
-  /// @brief Field leftHand, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_leftHand, put = __cordl_internal_set_leftHand))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* leftHand;
-
-  /// @brief Field rightHand, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightHand, put = __cordl_internal_set_rightHand))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* rightHand;
-
-  /// @brief Field pelvis, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_pelvis, put = __cordl_internal_set_pelvis))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* pelvis;
 
   /// @brief Field leftFoot, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_leftFoot, put = __cordl_internal_set_leftFoot))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* leftFoot;
 
-  /// @brief Field rightFoot, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightFoot, put = __cordl_internal_set_rightFoot))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* rightFoot;
+  /// @brief Field leftHand, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_leftHand, put = __cordl_internal_set_leftHand))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* leftHand;
 
   /// @brief Field leftLegGoal, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_leftLegGoal, put = __cordl_internal_set_leftLegGoal))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* leftLegGoal;
 
-  /// @brief Field rightLegGoal, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightLegGoal, put = __cordl_internal_set_rightLegGoal))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* rightLegGoal;
-
-  /// @brief Field pelvisTargetRight, offset 0x58, size 0xc
-  __declspec(property(get = __cordl_internal_get_pelvisTargetRight, put = __cordl_internal_set_pelvisTargetRight))::UnityEngine::Vector3 pelvisTargetRight;
+  /// @brief Field pelvis, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_pelvis, put = __cordl_internal_set_pelvis))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* pelvis;
 
   /// @brief Field pelvisPositionWeight, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_pelvisPositionWeight, put = __cordl_internal_set_pelvisPositionWeight)) float_t pelvisPositionWeight;
@@ -433,83 +412,104 @@ public:
   /// @brief Field pelvisRotationWeight, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_pelvisRotationWeight, put = __cordl_internal_set_pelvisRotationWeight)) float_t pelvisRotationWeight;
 
-  constexpr float_t& __cordl_internal_get_scale();
+  /// @brief Field pelvisTargetRight, offset 0x58, size 0xc
+  __declspec(property(get = __cordl_internal_get_pelvisTargetRight, put = __cordl_internal_set_pelvisTargetRight))::UnityEngine::Vector3 pelvisTargetRight;
 
-  constexpr float_t const& __cordl_internal_get_scale() const;
+  /// @brief Field rightFoot, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightFoot, put = __cordl_internal_set_rightFoot))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* rightFoot;
 
-  constexpr void __cordl_internal_set_scale(float_t value);
+  /// @brief Field rightHand, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightHand, put = __cordl_internal_set_rightHand))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* rightHand;
+
+  /// @brief Field rightLegGoal, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightLegGoal, put = __cordl_internal_set_rightLegGoal))::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* rightLegGoal;
+
+  /// @brief Field scale, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) float_t scale;
+
+  static inline ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* New_ctor();
 
   constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_head();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_head() const;
 
-  constexpr void __cordl_internal_set_head(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+  constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_leftFoot();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_leftFoot() const;
 
   constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_leftHand();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_leftHand() const;
 
-  constexpr void __cordl_internal_set_leftHand(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+  constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_leftLegGoal();
 
-  constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_rightHand();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_rightHand() const;
-
-  constexpr void __cordl_internal_set_rightHand(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_leftLegGoal() const;
 
   constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_pelvis();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_pelvis() const;
 
-  constexpr void __cordl_internal_set_pelvis(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+  constexpr float_t const& __cordl_internal_get_pelvisPositionWeight() const;
 
-  constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_leftFoot();
+  constexpr float_t& __cordl_internal_get_pelvisPositionWeight();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_leftFoot() const;
+  constexpr float_t const& __cordl_internal_get_pelvisRotationWeight() const;
 
-  constexpr void __cordl_internal_set_leftFoot(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+  constexpr float_t& __cordl_internal_get_pelvisRotationWeight();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pelvisTargetRight() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pelvisTargetRight();
 
   constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_rightFoot();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_rightFoot() const;
 
-  constexpr void __cordl_internal_set_rightFoot(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+  constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_rightHand();
 
-  constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_leftLegGoal();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_leftLegGoal() const;
-
-  constexpr void __cordl_internal_set_leftLegGoal(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_rightHand() const;
 
   constexpr ::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*& __cordl_internal_get_rightLegGoal();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target*> const& __cordl_internal_get_rightLegGoal() const;
 
-  constexpr void __cordl_internal_set_rightLegGoal(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+  constexpr float_t const& __cordl_internal_get_scale() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pelvisTargetRight();
+  constexpr float_t& __cordl_internal_get_scale();
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pelvisTargetRight() const;
+  constexpr void __cordl_internal_set_head(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
 
-  constexpr void __cordl_internal_set_pelvisTargetRight(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_leftFoot(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
 
-  constexpr float_t& __cordl_internal_get_pelvisPositionWeight();
+  constexpr void __cordl_internal_set_leftHand(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
 
-  constexpr float_t const& __cordl_internal_get_pelvisPositionWeight() const;
+  constexpr void __cordl_internal_set_leftLegGoal(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+
+  constexpr void __cordl_internal_set_pelvis(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
 
   constexpr void __cordl_internal_set_pelvisPositionWeight(float_t value);
 
-  constexpr float_t& __cordl_internal_get_pelvisRotationWeight();
-
-  constexpr float_t const& __cordl_internal_get_pelvisRotationWeight() const;
-
   constexpr void __cordl_internal_set_pelvisRotationWeight(float_t value);
 
-  static inline ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* New_ctor();
+  constexpr void __cordl_internal_set_pelvisTargetRight(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x1333e80, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_rightFoot(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+
+  constexpr void __cordl_internal_set_rightHand(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+
+  constexpr void __cordl_internal_set_rightLegGoal(::GlobalNamespace::__VRIKCalibrator__CalibrationData__Target* value);
+
+  constexpr void __cordl_internal_set_scale(float_t value);
+
+  /// @brief Method .ctor, addr 0x1374e6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __VRIKCalibrator__CalibrationData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__VRIKCalibrator__CalibrationData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __VRIKCalibrator__CalibrationData(__VRIKCalibrator__CalibrationData&&) = delete;
@@ -518,12 +518,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VRIKCalibrator__CalibrationData(__VRIKCalibrator__CalibrationData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __VRIKCalibrator__CalibrationData();
-
-public:
   /// @brief Field scale, offset: 0x10, size: 0x4, def value: None
   float_t ___scale;
 
@@ -594,8 +588,6 @@ static_assert(offsetof(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12570))
 // CS Name: ::RootMotion.FinalIK::VRIKCalibrator*
 class CORDL_TYPE VRIKCalibrator : public ::System::Object {
 public:
@@ -604,28 +596,34 @@ public:
 
   using Settings = ::RootMotion::FinalIK::__VRIKCalibrator__Settings;
 
-  /// @brief Method RecalibrateScale, addr 0x1332b50, size 0xf4, virtual false, abstract: false, final false
-  static inline void RecalibrateScale(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings);
-
-  /// @brief Method Calibrate, addr 0x1332c44, size 0x123c, virtual false, abstract: false, final false
+  /// @brief Method Calibrate, addr 0x1373c30, size 0x123c, virtual false, abstract: false, final false
   static inline ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* Calibrate(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings,
                                                                                     ::UnityEngine::Transform* headTracker, ::UnityEngine::Transform* bodyTracker,
                                                                                     ::UnityEngine::Transform* leftHandTracker, ::UnityEngine::Transform* rightHandTracker,
                                                                                     ::UnityEngine::Transform* leftFootTracker, ::UnityEngine::Transform* rightFootTracker);
 
-  /// @brief Method CalibrateLeg, addr 0x1333e88, size 0x6b8, virtual false, abstract: false, final false
-  static inline void CalibrateLeg(::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::__IKSolverVR__Leg* leg,
-                                  ::UnityEngine::Transform* lastBone, ::UnityEngine::Vector3 rootForward, bool isLeft);
-
-  /// @brief Method Calibrate, addr 0x13347b4, size 0x8f4, virtual false, abstract: false, final false
+  /// @brief Method Calibrate, addr 0x13757a0, size 0x8f4, virtual false, abstract: false, final false
   static inline void Calibrate(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data, ::UnityEngine::Transform* headTracker,
                                ::UnityEngine::Transform* bodyTracker, ::UnityEngine::Transform* leftHandTracker, ::UnityEngine::Transform* rightHandTracker, ::UnityEngine::Transform* leftFootTracker,
                                ::UnityEngine::Transform* rightFootTracker);
 
-  /// @brief Method CalibrateLeg, addr 0x1335104, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method CalibrateLeg, addr 0x13760f0, size 0x24c, virtual false, abstract: false, final false
   static inline void CalibrateLeg(::RootMotion::FinalIK::__VRIKCalibrator__CalibrationData* data, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::__IKSolverVR__Leg* leg,
                                   ::UnityEngine::Transform* lastBone, ::UnityEngine::Vector3 rootForward, bool isLeft);
 
+  /// @brief Method CalibrateLeg, addr 0x1374e74, size 0x6b8, virtual false, abstract: false, final false
+  static inline void CalibrateLeg(::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings, ::UnityEngine::Transform* tracker, ::RootMotion::FinalIK::__IKSolverVR__Leg* leg,
+                                  ::UnityEngine::Transform* lastBone, ::UnityEngine::Vector3 rootForward, bool isLeft);
+
+  /// @brief Method RecalibrateScale, addr 0x1373b3c, size 0xf4, virtual false, abstract: false, final false
+  static inline void RecalibrateScale(::RootMotion::FinalIK::VRIK* ik, ::RootMotion::FinalIK::__VRIKCalibrator__Settings* settings);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VRIKCalibrator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "VRIKCalibrator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   VRIKCalibrator(VRIKCalibrator&&) = delete;
@@ -634,12 +632,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VRIKCalibrator(VRIKCalibrator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VRIKCalibrator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

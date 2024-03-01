@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Date::DateTimeUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Date {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1792))
 // CS Name: ::Org.BouncyCastle.Utilities.Date::DateTimeUtilities*
 class CORDL_TYPE DateTimeUtilities : public ::System::Object {
 public:
@@ -28,24 +26,30 @@ public:
   /// @brief Field UnixEpoch, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UnixEpoch, put = setStaticF_UnixEpoch))::System::DateTime UnixEpoch;
 
-  static inline void setStaticF_UnixEpoch(::System::DateTime value);
+  /// @brief Method CurrentUnixMs, addr 0x11cb794, size 0x84, virtual false, abstract: false, final false
+  static inline int64_t CurrentUnixMs();
 
-  static inline ::System::DateTime getStaticF_UnixEpoch();
+  /// @brief Method DateTimeToUnixMs, addr 0x11cb5a4, size 0x15c, virtual false, abstract: false, final false
+  static inline int64_t DateTimeToUnixMs(::System::DateTime dateTime);
 
   static inline ::Org::BouncyCastle::Utilities::Date::DateTimeUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11895cc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method DateTimeToUnixMs, addr 0x11895d4, size 0x15c, virtual false, abstract: false, final false
-  static inline int64_t DateTimeToUnixMs(::System::DateTime dateTime);
-
-  /// @brief Method UnixMsToDateTime, addr 0x1189730, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UnixMsToDateTime, addr 0x11cb700, size 0x94, virtual false, abstract: false, final false
   static inline ::System::DateTime UnixMsToDateTime(int64_t unixMs);
 
-  /// @brief Method CurrentUnixMs, addr 0x11897c4, size 0x84, virtual false, abstract: false, final false
-  static inline int64_t CurrentUnixMs();
+  /// @brief Method .ctor, addr 0x11cb59c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
+  static inline ::System::DateTime getStaticF_UnixEpoch();
+
+  static inline void setStaticF_UnixEpoch(::System::DateTime value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DateTimeUtilities();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeUtilities", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DateTimeUtilities(DateTimeUtilities&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DateTimeUtilities(DateTimeUtilities const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeUtilities();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

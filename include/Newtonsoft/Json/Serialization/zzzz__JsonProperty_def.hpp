@@ -71,53 +71,69 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonProperty);
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 244, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11709)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(11720)), TypeDefinitionIndex(TypeDefinitionIndex(11736)), TypeDefinitionIndex(TypeDefinitionIndex(11737)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11738)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 103 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4717 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4733 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4735 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4737 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4739 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4745 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11843)) CS Name: ::Newtonsoft.Json.Serialization::JsonProperty*
+// CS Name: ::Newtonsoft.Json.Serialization::JsonProperty*
 class CORDL_TYPE JsonProperty : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _required, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__required, put = __cordl_internal_set__required))::System::Nullable_1<::Newtonsoft::Json::Required> _required;
+  __declspec(property(get = get_AttributeProvider, put = set_AttributeProvider))::Newtonsoft::Json::Serialization::IAttributeProvider* AttributeProvider;
 
-  /// @brief Field _hasExplicitDefaultValue, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasExplicitDefaultValue, put = __cordl_internal_set__hasExplicitDefaultValue)) bool _hasExplicitDefaultValue;
+  __declspec(property(get = get_Converter, put = set_Converter))::Newtonsoft::Json::JsonConverter* Converter;
 
-  /// @brief Field _defaultValue, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue))::System::Object* _defaultValue;
+  __declspec(property(get = get_DeclaringType, put = set_DeclaringType))::System::Type* DeclaringType;
 
-  /// @brief Field _hasGeneratedDefaultValue, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasGeneratedDefaultValue, put = __cordl_internal_set__hasGeneratedDefaultValue)) bool _hasGeneratedDefaultValue;
+  __declspec(property(get = get_DefaultValue, put = set_DefaultValue))::System::Object* DefaultValue;
 
-  /// @brief Field _propertyName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
+  __declspec(property(get = get_DefaultValueHandling, put = set_DefaultValueHandling))::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> DefaultValueHandling;
 
-  /// @brief Field _skipPropertyNameEscape, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__skipPropertyNameEscape, put = __cordl_internal_set__skipPropertyNameEscape)) bool _skipPropertyNameEscape;
+  __declspec(property(get = get_GetIsSpecified, put = set_GetIsSpecified))::System::Predicate_1<::System::Object*>* GetIsSpecified;
 
-  /// @brief Field _propertyType, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__propertyType, put = __cordl_internal_set__propertyType))::System::Type* _propertyType;
+  __declspec(property(get = get_HasMemberAttribute, put = set_HasMemberAttribute)) bool HasMemberAttribute;
 
-  /// @brief Field <PropertyContract>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__PropertyContract_k__BackingField,
-                      put = __cordl_internal_set__PropertyContract_k__BackingField))::Newtonsoft::Json::Serialization::JsonContract* _PropertyContract_k__BackingField;
+  __declspec(property(get = get_Ignored, put = set_Ignored)) bool Ignored;
 
-  /// @brief Field <DeclaringType>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__DeclaringType_k__BackingField, put = __cordl_internal_set__DeclaringType_k__BackingField))::System::Type* _DeclaringType_k__BackingField;
+  __declspec(property(get = get_IsReference, put = set_IsReference))::System::Nullable_1<bool> IsReference;
 
-  /// @brief Field <Order>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__Order_k__BackingField, put = __cordl_internal_set__Order_k__BackingField))::System::Nullable_1<int32_t> _Order_k__BackingField;
+  __declspec(property(get = get_ItemConverter, put = set_ItemConverter))::Newtonsoft::Json::JsonConverter* ItemConverter;
 
-  /// @brief Field <UnderlyingName>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__UnderlyingName_k__BackingField, put = __cordl_internal_set__UnderlyingName_k__BackingField))::StringW _UnderlyingName_k__BackingField;
+  __declspec(property(get = get_ItemIsReference, put = set_ItemIsReference))::System::Nullable_1<bool> ItemIsReference;
 
-  /// @brief Field <ValueProvider>k__BackingField, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__ValueProvider_k__BackingField,
-                      put = __cordl_internal_set__ValueProvider_k__BackingField))::Newtonsoft::Json::Serialization::IValueProvider* _ValueProvider_k__BackingField;
+  __declspec(property(get = get_ItemReferenceLoopHandling, put = set_ItemReferenceLoopHandling))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> ItemReferenceLoopHandling;
+
+  __declspec(property(get = get_ItemTypeNameHandling, put = set_ItemTypeNameHandling))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ItemTypeNameHandling;
+
+  __declspec(property(get = get_MemberConverter, put = set_MemberConverter))::Newtonsoft::Json::JsonConverter* MemberConverter;
+
+  __declspec(property(get = get_NullValueHandling, put = set_NullValueHandling))::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> NullValueHandling;
+
+  __declspec(property(get = get_ObjectCreationHandling, put = set_ObjectCreationHandling))::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> ObjectCreationHandling;
+
+  __declspec(property(get = get_Order, put = set_Order))::System::Nullable_1<int32_t> Order;
+
+  __declspec(property(get = get_PropertyContract, put = set_PropertyContract))::Newtonsoft::Json::Serialization::JsonContract* PropertyContract;
+
+  __declspec(property(get = get_PropertyName, put = set_PropertyName))::StringW PropertyName;
+
+  __declspec(property(get = get_PropertyType, put = set_PropertyType))::System::Type* PropertyType;
+
+  __declspec(property(get = get_Readable, put = set_Readable)) bool Readable;
+
+  __declspec(property(get = get_ReferenceLoopHandling, put = set_ReferenceLoopHandling))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> ReferenceLoopHandling;
+
+  __declspec(property(get = get_Required, put = set_Required))::Newtonsoft::Json::Required Required;
+
+  __declspec(property(get = get_SetIsSpecified, put = set_SetIsSpecified))::System::Action_2<::System::Object*, ::System::Object*>* SetIsSpecified;
+
+  __declspec(property(get = get_ShouldDeserialize, put = set_ShouldDeserialize))::System::Predicate_1<::System::Object*>* ShouldDeserialize;
+
+  __declspec(property(get = get_ShouldSerialize, put = set_ShouldSerialize))::System::Predicate_1<::System::Object*>* ShouldSerialize;
+
+  __declspec(property(get = get_TypeNameHandling, put = set_TypeNameHandling))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> TypeNameHandling;
+
+  __declspec(property(get = get_UnderlyingName, put = set_UnderlyingName))::StringW UnderlyingName;
+
+  __declspec(property(get = get_ValueProvider, put = set_ValueProvider))::Newtonsoft::Json::Serialization::IValueProvider* ValueProvider;
+
+  __declspec(property(get = get_Writable, put = set_Writable)) bool Writable;
 
   /// @brief Field <AttributeProvider>k__BackingField, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__AttributeProvider_k__BackingField,
@@ -126,60 +142,25 @@ public:
   /// @brief Field <Converter>k__BackingField, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__Converter_k__BackingField, put = __cordl_internal_set__Converter_k__BackingField))::Newtonsoft::Json::JsonConverter* _Converter_k__BackingField;
 
-  /// @brief Field <MemberConverter>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__MemberConverter_k__BackingField,
-                      put = __cordl_internal_set__MemberConverter_k__BackingField))::Newtonsoft::Json::JsonConverter* _MemberConverter_k__BackingField;
-
-  /// @brief Field <Ignored>k__BackingField, offset 0x88, size 0x1
-  __declspec(property(get = __cordl_internal_get__Ignored_k__BackingField, put = __cordl_internal_set__Ignored_k__BackingField)) bool _Ignored_k__BackingField;
-
-  /// @brief Field <Readable>k__BackingField, offset 0x89, size 0x1
-  __declspec(property(get = __cordl_internal_get__Readable_k__BackingField, put = __cordl_internal_set__Readable_k__BackingField)) bool _Readable_k__BackingField;
-
-  /// @brief Field <Writable>k__BackingField, offset 0x8a, size 0x1
-  __declspec(property(get = __cordl_internal_get__Writable_k__BackingField, put = __cordl_internal_set__Writable_k__BackingField)) bool _Writable_k__BackingField;
-
-  /// @brief Field <HasMemberAttribute>k__BackingField, offset 0x8b, size 0x1
-  __declspec(property(get = __cordl_internal_get__HasMemberAttribute_k__BackingField, put = __cordl_internal_set__HasMemberAttribute_k__BackingField)) bool _HasMemberAttribute_k__BackingField;
-
-  /// @brief Field <IsReference>k__BackingField, offset 0x8c, size 0x2
-  __declspec(property(get = __cordl_internal_get__IsReference_k__BackingField, put = __cordl_internal_set__IsReference_k__BackingField))::System::Nullable_1<bool> _IsReference_k__BackingField;
-
-  /// @brief Field <NullValueHandling>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__NullValueHandling_k__BackingField,
-                      put = __cordl_internal_set__NullValueHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _NullValueHandling_k__BackingField;
+  /// @brief Field <DeclaringType>k__BackingField, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__DeclaringType_k__BackingField, put = __cordl_internal_set__DeclaringType_k__BackingField))::System::Type* _DeclaringType_k__BackingField;
 
   /// @brief Field <DefaultValueHandling>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__DefaultValueHandling_k__BackingField,
                       put = __cordl_internal_set__DefaultValueHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> _DefaultValueHandling_k__BackingField;
 
-  /// @brief Field <ReferenceLoopHandling>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__ReferenceLoopHandling_k__BackingField,
-                      put = __cordl_internal_set__ReferenceLoopHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _ReferenceLoopHandling_k__BackingField;
-
-  /// @brief Field <ObjectCreationHandling>k__BackingField, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__ObjectCreationHandling_k__BackingField,
-                      put = __cordl_internal_set__ObjectCreationHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _ObjectCreationHandling_k__BackingField;
-
-  /// @brief Field <TypeNameHandling>k__BackingField, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__TypeNameHandling_k__BackingField,
-                      put = __cordl_internal_set__TypeNameHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _TypeNameHandling_k__BackingField;
-
-  /// @brief Field <ShouldSerialize>k__BackingField, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__ShouldSerialize_k__BackingField,
-                      put = __cordl_internal_set__ShouldSerialize_k__BackingField))::System::Predicate_1<::System::Object*>* _ShouldSerialize_k__BackingField;
-
-  /// @brief Field <ShouldDeserialize>k__BackingField, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__ShouldDeserialize_k__BackingField,
-                      put = __cordl_internal_set__ShouldDeserialize_k__BackingField))::System::Predicate_1<::System::Object*>* _ShouldDeserialize_k__BackingField;
-
   /// @brief Field <GetIsSpecified>k__BackingField, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__GetIsSpecified_k__BackingField,
                       put = __cordl_internal_set__GetIsSpecified_k__BackingField))::System::Predicate_1<::System::Object*>* _GetIsSpecified_k__BackingField;
 
-  /// @brief Field <SetIsSpecified>k__BackingField, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__SetIsSpecified_k__BackingField,
-                      put = __cordl_internal_set__SetIsSpecified_k__BackingField))::System::Action_2<::System::Object*, ::System::Object*>* _SetIsSpecified_k__BackingField;
+  /// @brief Field <HasMemberAttribute>k__BackingField, offset 0x8b, size 0x1
+  __declspec(property(get = __cordl_internal_get__HasMemberAttribute_k__BackingField, put = __cordl_internal_set__HasMemberAttribute_k__BackingField)) bool _HasMemberAttribute_k__BackingField;
+
+  /// @brief Field <Ignored>k__BackingField, offset 0x88, size 0x1
+  __declspec(property(get = __cordl_internal_get__Ignored_k__BackingField, put = __cordl_internal_set__Ignored_k__BackingField)) bool _Ignored_k__BackingField;
+
+  /// @brief Field <IsReference>k__BackingField, offset 0x8c, size 0x2
+  __declspec(property(get = __cordl_internal_get__IsReference_k__BackingField, put = __cordl_internal_set__IsReference_k__BackingField))::System::Nullable_1<bool> _IsReference_k__BackingField;
 
   /// @brief Field <ItemConverter>k__BackingField, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__ItemConverter_k__BackingField,
@@ -189,466 +170,485 @@ public:
   __declspec(property(get = __cordl_internal_get__ItemIsReference_k__BackingField,
                       put = __cordl_internal_set__ItemIsReference_k__BackingField))::System::Nullable_1<bool> _ItemIsReference_k__BackingField;
 
-  /// @brief Field <ItemTypeNameHandling>k__BackingField, offset 0xe4, size 0x8
-  __declspec(property(get = __cordl_internal_get__ItemTypeNameHandling_k__BackingField,
-                      put = __cordl_internal_set__ItemTypeNameHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _ItemTypeNameHandling_k__BackingField;
-
   /// @brief Field <ItemReferenceLoopHandling>k__BackingField, offset 0xec, size 0x8
   __declspec(property(get = __cordl_internal_get__ItemReferenceLoopHandling_k__BackingField,
                       put = __cordl_internal_set__ItemReferenceLoopHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _ItemReferenceLoopHandling_k__BackingField;
 
-  __declspec(property(get = get_PropertyContract, put = set_PropertyContract))::Newtonsoft::Json::Serialization::JsonContract* PropertyContract;
+  /// @brief Field <ItemTypeNameHandling>k__BackingField, offset 0xe4, size 0x8
+  __declspec(property(get = __cordl_internal_get__ItemTypeNameHandling_k__BackingField,
+                      put = __cordl_internal_set__ItemTypeNameHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _ItemTypeNameHandling_k__BackingField;
 
-  __declspec(property(get = get_PropertyName, put = set_PropertyName))::StringW PropertyName;
+  /// @brief Field <MemberConverter>k__BackingField, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__MemberConverter_k__BackingField,
+                      put = __cordl_internal_set__MemberConverter_k__BackingField))::Newtonsoft::Json::JsonConverter* _MemberConverter_k__BackingField;
 
-  __declspec(property(get = get_DeclaringType, put = set_DeclaringType))::System::Type* DeclaringType;
+  /// @brief Field <NullValueHandling>k__BackingField, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__NullValueHandling_k__BackingField,
+                      put = __cordl_internal_set__NullValueHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _NullValueHandling_k__BackingField;
 
-  __declspec(property(get = get_Order, put = set_Order))::System::Nullable_1<int32_t> Order;
+  /// @brief Field <ObjectCreationHandling>k__BackingField, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__ObjectCreationHandling_k__BackingField,
+                      put = __cordl_internal_set__ObjectCreationHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _ObjectCreationHandling_k__BackingField;
 
-  __declspec(property(get = get_UnderlyingName, put = set_UnderlyingName))::StringW UnderlyingName;
+  /// @brief Field <Order>k__BackingField, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__Order_k__BackingField, put = __cordl_internal_set__Order_k__BackingField))::System::Nullable_1<int32_t> _Order_k__BackingField;
 
-  __declspec(property(get = get_ValueProvider, put = set_ValueProvider))::Newtonsoft::Json::Serialization::IValueProvider* ValueProvider;
+  /// @brief Field <PropertyContract>k__BackingField, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__PropertyContract_k__BackingField,
+                      put = __cordl_internal_set__PropertyContract_k__BackingField))::Newtonsoft::Json::Serialization::JsonContract* _PropertyContract_k__BackingField;
 
-  __declspec(property(get = get_AttributeProvider, put = set_AttributeProvider))::Newtonsoft::Json::Serialization::IAttributeProvider* AttributeProvider;
+  /// @brief Field <Readable>k__BackingField, offset 0x89, size 0x1
+  __declspec(property(get = __cordl_internal_get__Readable_k__BackingField, put = __cordl_internal_set__Readable_k__BackingField)) bool _Readable_k__BackingField;
 
-  __declspec(property(get = get_PropertyType, put = set_PropertyType))::System::Type* PropertyType;
+  /// @brief Field <ReferenceLoopHandling>k__BackingField, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__ReferenceLoopHandling_k__BackingField,
+                      put = __cordl_internal_set__ReferenceLoopHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _ReferenceLoopHandling_k__BackingField;
 
-  __declspec(property(get = get_Converter, put = set_Converter))::Newtonsoft::Json::JsonConverter* Converter;
+  /// @brief Field <SetIsSpecified>k__BackingField, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__SetIsSpecified_k__BackingField,
+                      put = __cordl_internal_set__SetIsSpecified_k__BackingField))::System::Action_2<::System::Object*, ::System::Object*>* _SetIsSpecified_k__BackingField;
 
-  __declspec(property(get = get_MemberConverter, put = set_MemberConverter))::Newtonsoft::Json::JsonConverter* MemberConverter;
+  /// @brief Field <ShouldDeserialize>k__BackingField, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__ShouldDeserialize_k__BackingField,
+                      put = __cordl_internal_set__ShouldDeserialize_k__BackingField))::System::Predicate_1<::System::Object*>* _ShouldDeserialize_k__BackingField;
 
-  __declspec(property(get = get_Ignored, put = set_Ignored)) bool Ignored;
+  /// @brief Field <ShouldSerialize>k__BackingField, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__ShouldSerialize_k__BackingField,
+                      put = __cordl_internal_set__ShouldSerialize_k__BackingField))::System::Predicate_1<::System::Object*>* _ShouldSerialize_k__BackingField;
 
-  __declspec(property(get = get_Readable, put = set_Readable)) bool Readable;
+  /// @brief Field <TypeNameHandling>k__BackingField, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__TypeNameHandling_k__BackingField,
+                      put = __cordl_internal_set__TypeNameHandling_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _TypeNameHandling_k__BackingField;
 
-  __declspec(property(get = get_Writable, put = set_Writable)) bool Writable;
+  /// @brief Field <UnderlyingName>k__BackingField, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__UnderlyingName_k__BackingField, put = __cordl_internal_set__UnderlyingName_k__BackingField))::StringW _UnderlyingName_k__BackingField;
 
-  __declspec(property(get = get_HasMemberAttribute, put = set_HasMemberAttribute)) bool HasMemberAttribute;
+  /// @brief Field <ValueProvider>k__BackingField, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__ValueProvider_k__BackingField,
+                      put = __cordl_internal_set__ValueProvider_k__BackingField))::Newtonsoft::Json::Serialization::IValueProvider* _ValueProvider_k__BackingField;
 
-  __declspec(property(get = get_DefaultValue, put = set_DefaultValue))::System::Object* DefaultValue;
+  /// @brief Field <Writable>k__BackingField, offset 0x8a, size 0x1
+  __declspec(property(get = __cordl_internal_get__Writable_k__BackingField, put = __cordl_internal_set__Writable_k__BackingField)) bool _Writable_k__BackingField;
 
-  __declspec(property(get = get_Required, put = set_Required))::Newtonsoft::Json::Required Required;
+  /// @brief Field _defaultValue, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue))::System::Object* _defaultValue;
 
-  __declspec(property(get = get_IsReference, put = set_IsReference))::System::Nullable_1<bool> IsReference;
+  /// @brief Field _hasExplicitDefaultValue, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasExplicitDefaultValue, put = __cordl_internal_set__hasExplicitDefaultValue)) bool _hasExplicitDefaultValue;
 
-  __declspec(property(get = get_NullValueHandling, put = set_NullValueHandling))::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> NullValueHandling;
+  /// @brief Field _hasGeneratedDefaultValue, offset 0x28, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasGeneratedDefaultValue, put = __cordl_internal_set__hasGeneratedDefaultValue)) bool _hasGeneratedDefaultValue;
 
-  __declspec(property(get = get_DefaultValueHandling, put = set_DefaultValueHandling))::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> DefaultValueHandling;
+  /// @brief Field _propertyName, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
 
-  __declspec(property(get = get_ReferenceLoopHandling, put = set_ReferenceLoopHandling))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> ReferenceLoopHandling;
+  /// @brief Field _propertyType, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__propertyType, put = __cordl_internal_set__propertyType))::System::Type* _propertyType;
 
-  __declspec(property(get = get_ObjectCreationHandling, put = set_ObjectCreationHandling))::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> ObjectCreationHandling;
+  /// @brief Field _required, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__required, put = __cordl_internal_set__required))::System::Nullable_1<::Newtonsoft::Json::Required> _required;
 
-  __declspec(property(get = get_TypeNameHandling, put = set_TypeNameHandling))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> TypeNameHandling;
+  /// @brief Field _skipPropertyNameEscape, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get__skipPropertyNameEscape, put = __cordl_internal_set__skipPropertyNameEscape)) bool _skipPropertyNameEscape;
 
-  __declspec(property(get = get_ShouldSerialize, put = set_ShouldSerialize))::System::Predicate_1<::System::Object*>* ShouldSerialize;
+  /// @brief Method GetResolvedDefaultValue, addr 0x276c1a8, size 0x8c, virtual false, abstract: false, final false
+  inline ::System::Object* GetResolvedDefaultValue();
 
-  __declspec(property(get = get_ShouldDeserialize, put = set_ShouldDeserialize))::System::Predicate_1<::System::Object*>* ShouldDeserialize;
+  static inline ::Newtonsoft::Json::Serialization::JsonProperty* New_ctor();
 
-  __declspec(property(get = get_GetIsSpecified, put = set_GetIsSpecified))::System::Predicate_1<::System::Object*>* GetIsSpecified;
+  /// @brief Method ToString, addr 0x276c38c, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
-  __declspec(property(get = get_SetIsSpecified, put = set_SetIsSpecified))::System::Action_2<::System::Object*, ::System::Object*>* SetIsSpecified;
-
-  __declspec(property(get = get_ItemConverter, put = set_ItemConverter))::Newtonsoft::Json::JsonConverter* ItemConverter;
-
-  __declspec(property(get = get_ItemIsReference, put = set_ItemIsReference))::System::Nullable_1<bool> ItemIsReference;
-
-  __declspec(property(get = get_ItemTypeNameHandling, put = set_ItemTypeNameHandling))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ItemTypeNameHandling;
-
-  __declspec(property(get = get_ItemReferenceLoopHandling, put = set_ItemReferenceLoopHandling))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> ItemReferenceLoopHandling;
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& __cordl_internal_get__required();
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required> const& __cordl_internal_get__required() const;
-
-  constexpr void __cordl_internal_set__required(::System::Nullable_1<::Newtonsoft::Json::Required> value);
-
-  constexpr bool& __cordl_internal_get__hasExplicitDefaultValue();
-
-  constexpr bool const& __cordl_internal_get__hasExplicitDefaultValue() const;
-
-  constexpr void __cordl_internal_set__hasExplicitDefaultValue(bool value);
-
-  constexpr ::System::Object*& __cordl_internal_get__defaultValue();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__defaultValue() const;
-
-  constexpr void __cordl_internal_set__defaultValue(::System::Object* value);
-
-  constexpr bool& __cordl_internal_get__hasGeneratedDefaultValue();
-
-  constexpr bool const& __cordl_internal_get__hasGeneratedDefaultValue() const;
-
-  constexpr void __cordl_internal_set__hasGeneratedDefaultValue(bool value);
-
-  constexpr ::StringW& __cordl_internal_get__propertyName();
-
-  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
-
-  constexpr void __cordl_internal_set__propertyName(::StringW value);
-
-  constexpr bool& __cordl_internal_get__skipPropertyNameEscape();
-
-  constexpr bool const& __cordl_internal_get__skipPropertyNameEscape() const;
-
-  constexpr void __cordl_internal_set__skipPropertyNameEscape(bool value);
-
-  constexpr ::System::Type*& __cordl_internal_get__propertyType();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__propertyType() const;
-
-  constexpr void __cordl_internal_set__propertyType(::System::Type* value);
-
-  constexpr ::Newtonsoft::Json::Serialization::JsonContract*& __cordl_internal_get__PropertyContract_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonContract*> const& __cordl_internal_get__PropertyContract_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__PropertyContract_k__BackingField(::Newtonsoft::Json::Serialization::JsonContract* value);
-
-  constexpr ::System::Type*& __cordl_internal_get__DeclaringType_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__DeclaringType_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__DeclaringType_k__BackingField(::System::Type* value);
-
-  constexpr ::System::Nullable_1<int32_t>& __cordl_internal_get__Order_k__BackingField();
-
-  constexpr ::System::Nullable_1<int32_t> const& __cordl_internal_get__Order_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Order_k__BackingField(::System::Nullable_1<int32_t> value);
-
-  constexpr ::StringW& __cordl_internal_get__UnderlyingName_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__UnderlyingName_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__UnderlyingName_k__BackingField(::StringW value);
-
-  constexpr ::Newtonsoft::Json::Serialization::IValueProvider*& __cordl_internal_get__ValueProvider_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IValueProvider*> const& __cordl_internal_get__ValueProvider_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ValueProvider_k__BackingField(::Newtonsoft::Json::Serialization::IValueProvider* value);
+  /// @brief Method WritePropertyName, addr 0x276c3d4, size 0x4c, virtual false, abstract: false, final false
+  inline void WritePropertyName(::Newtonsoft::Json::JsonWriter* writer);
 
   constexpr ::Newtonsoft::Json::Serialization::IAttributeProvider*& __cordl_internal_get__AttributeProvider_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IAttributeProvider*> const& __cordl_internal_get__AttributeProvider_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__AttributeProvider_k__BackingField(::Newtonsoft::Json::Serialization::IAttributeProvider* value);
-
   constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__Converter_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __cordl_internal_get__Converter_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__Converter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
+  constexpr ::System::Type*& __cordl_internal_get__DeclaringType_k__BackingField();
 
-  constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__MemberConverter_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __cordl_internal_get__MemberConverter_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__MemberConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
-
-  constexpr bool& __cordl_internal_get__Ignored_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__Ignored_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Ignored_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__Readable_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__Readable_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Readable_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__Writable_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__Writable_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Writable_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__HasMemberAttribute_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__HasMemberAttribute_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__HasMemberAttribute_k__BackingField(bool value);
-
-  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__IsReference_k__BackingField();
-
-  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__IsReference_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__IsReference_k__BackingField(::System::Nullable_1<bool> value);
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>& __cordl_internal_get__NullValueHandling_k__BackingField();
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> const& __cordl_internal_get__NullValueHandling_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__NullValueHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>& __cordl_internal_get__DefaultValueHandling_k__BackingField();
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__DeclaringType_k__BackingField() const;
 
   constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> const& __cordl_internal_get__DefaultValueHandling_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__DefaultValueHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value);
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __cordl_internal_get__ReferenceLoopHandling_k__BackingField();
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __cordl_internal_get__ReferenceLoopHandling_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ReferenceLoopHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>& __cordl_internal_get__ObjectCreationHandling_k__BackingField();
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> const& __cordl_internal_get__ObjectCreationHandling_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ObjectCreationHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value);
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __cordl_internal_get__TypeNameHandling_k__BackingField();
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __cordl_internal_get__TypeNameHandling_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__TypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
-
-  constexpr ::System::Predicate_1<::System::Object*>*& __cordl_internal_get__ShouldSerialize_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __cordl_internal_get__ShouldSerialize_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ShouldSerialize_k__BackingField(::System::Predicate_1<::System::Object*>* value);
-
-  constexpr ::System::Predicate_1<::System::Object*>*& __cordl_internal_get__ShouldDeserialize_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __cordl_internal_get__ShouldDeserialize_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ShouldDeserialize_k__BackingField(::System::Predicate_1<::System::Object*>* value);
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>& __cordl_internal_get__DefaultValueHandling_k__BackingField();
 
   constexpr ::System::Predicate_1<::System::Object*>*& __cordl_internal_get__GetIsSpecified_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __cordl_internal_get__GetIsSpecified_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__GetIsSpecified_k__BackingField(::System::Predicate_1<::System::Object*>* value);
+  constexpr bool const& __cordl_internal_get__HasMemberAttribute_k__BackingField() const;
 
-  constexpr ::System::Action_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__SetIsSpecified_k__BackingField();
+  constexpr bool& __cordl_internal_get__HasMemberAttribute_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get__SetIsSpecified_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Ignored_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__SetIsSpecified_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
+  constexpr bool& __cordl_internal_get__Ignored_k__BackingField();
+
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__IsReference_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__IsReference_k__BackingField();
 
   constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__ItemConverter_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __cordl_internal_get__ItemConverter_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__ItemConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__ItemIsReference_k__BackingField() const;
 
   constexpr ::System::Nullable_1<bool>& __cordl_internal_get__ItemIsReference_k__BackingField();
 
-  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__ItemIsReference_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ItemIsReference_k__BackingField(::System::Nullable_1<bool> value);
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __cordl_internal_get__ItemTypeNameHandling_k__BackingField();
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __cordl_internal_get__ItemTypeNameHandling_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ItemTypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __cordl_internal_get__ItemReferenceLoopHandling_k__BackingField() const;
 
   constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __cordl_internal_get__ItemReferenceLoopHandling_k__BackingField();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __cordl_internal_get__ItemReferenceLoopHandling_k__BackingField() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __cordl_internal_get__ItemTypeNameHandling_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __cordl_internal_get__ItemTypeNameHandling_k__BackingField();
+
+  constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__MemberConverter_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __cordl_internal_get__MemberConverter_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> const& __cordl_internal_get__NullValueHandling_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>& __cordl_internal_get__NullValueHandling_k__BackingField();
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> const& __cordl_internal_get__ObjectCreationHandling_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>& __cordl_internal_get__ObjectCreationHandling_k__BackingField();
+
+  constexpr ::System::Nullable_1<int32_t> const& __cordl_internal_get__Order_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<int32_t>& __cordl_internal_get__Order_k__BackingField();
+
+  constexpr ::Newtonsoft::Json::Serialization::JsonContract*& __cordl_internal_get__PropertyContract_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonContract*> const& __cordl_internal_get__PropertyContract_k__BackingField() const;
+
+  constexpr bool const& __cordl_internal_get__Readable_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__Readable_k__BackingField();
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __cordl_internal_get__ReferenceLoopHandling_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __cordl_internal_get__ReferenceLoopHandling_k__BackingField();
+
+  constexpr ::System::Action_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__SetIsSpecified_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get__SetIsSpecified_k__BackingField() const;
+
+  constexpr ::System::Predicate_1<::System::Object*>*& __cordl_internal_get__ShouldDeserialize_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __cordl_internal_get__ShouldDeserialize_k__BackingField() const;
+
+  constexpr ::System::Predicate_1<::System::Object*>*& __cordl_internal_get__ShouldSerialize_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::System::Object*>*> const& __cordl_internal_get__ShouldSerialize_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __cordl_internal_get__TypeNameHandling_k__BackingField() const;
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __cordl_internal_get__TypeNameHandling_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__UnderlyingName_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__UnderlyingName_k__BackingField();
+
+  constexpr ::Newtonsoft::Json::Serialization::IValueProvider*& __cordl_internal_get__ValueProvider_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IValueProvider*> const& __cordl_internal_get__ValueProvider_k__BackingField() const;
+
+  constexpr bool const& __cordl_internal_get__Writable_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__Writable_k__BackingField();
+
+  constexpr ::System::Object*& __cordl_internal_get__defaultValue();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__defaultValue() const;
+
+  constexpr bool const& __cordl_internal_get__hasExplicitDefaultValue() const;
+
+  constexpr bool& __cordl_internal_get__hasExplicitDefaultValue();
+
+  constexpr bool const& __cordl_internal_get__hasGeneratedDefaultValue() const;
+
+  constexpr bool& __cordl_internal_get__hasGeneratedDefaultValue();
+
+  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
+
+  constexpr ::StringW& __cordl_internal_get__propertyName();
+
+  constexpr ::System::Type*& __cordl_internal_get__propertyType();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__propertyType() const;
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required> const& __cordl_internal_get__required() const;
+
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& __cordl_internal_get__required();
+
+  constexpr bool const& __cordl_internal_get__skipPropertyNameEscape() const;
+
+  constexpr bool& __cordl_internal_get__skipPropertyNameEscape();
+
+  constexpr void __cordl_internal_set__AttributeProvider_k__BackingField(::Newtonsoft::Json::Serialization::IAttributeProvider* value);
+
+  constexpr void __cordl_internal_set__Converter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
+
+  constexpr void __cordl_internal_set__DeclaringType_k__BackingField(::System::Type* value);
+
+  constexpr void __cordl_internal_set__DefaultValueHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value);
+
+  constexpr void __cordl_internal_set__GetIsSpecified_k__BackingField(::System::Predicate_1<::System::Object*>* value);
+
+  constexpr void __cordl_internal_set__HasMemberAttribute_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__Ignored_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__IsReference_k__BackingField(::System::Nullable_1<bool> value);
+
+  constexpr void __cordl_internal_set__ItemConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
+
+  constexpr void __cordl_internal_set__ItemIsReference_k__BackingField(::System::Nullable_1<bool> value);
 
   constexpr void __cordl_internal_set__ItemReferenceLoopHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
-  /// @brief Method get_PropertyContract, addr 0x269d97c, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::JsonContract* get_PropertyContract();
+  constexpr void __cordl_internal_set__ItemTypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
-  /// @brief Method set_PropertyContract, addr 0x269d984, size 0x8, virtual false, abstract: false, final false
-  inline void set_PropertyContract(::Newtonsoft::Json::Serialization::JsonContract* value);
+  constexpr void __cordl_internal_set__MemberConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
 
-  /// @brief Method get_PropertyName, addr 0x269d98c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_PropertyName();
+  constexpr void __cordl_internal_set__NullValueHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
 
-  /// @brief Method set_PropertyName, addr 0x2695520, size 0x84, virtual false, abstract: false, final false
-  inline void set_PropertyName(::StringW value);
+  constexpr void __cordl_internal_set__ObjectCreationHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value);
 
-  /// @brief Method get_DeclaringType, addr 0x269d994, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_DeclaringType();
+  constexpr void __cordl_internal_set__Order_k__BackingField(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_DeclaringType, addr 0x269d99c, size 0x8, virtual false, abstract: false, final false
-  inline void set_DeclaringType(::System::Type* value);
+  constexpr void __cordl_internal_set__PropertyContract_k__BackingField(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method get_Order, addr 0x269d9a4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<int32_t> get_Order();
+  constexpr void __cordl_internal_set__Readable_k__BackingField(bool value);
 
-  /// @brief Method set_Order, addr 0x269d9ac, size 0x8, virtual false, abstract: false, final false
-  inline void set_Order(::System::Nullable_1<int32_t> value);
+  constexpr void __cordl_internal_set__ReferenceLoopHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
-  /// @brief Method get_UnderlyingName, addr 0x269d9b4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_UnderlyingName();
+  constexpr void __cordl_internal_set__SetIsSpecified_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_UnderlyingName, addr 0x269d9bc, size 0x8, virtual false, abstract: false, final false
-  inline void set_UnderlyingName(::StringW value);
+  constexpr void __cordl_internal_set__ShouldDeserialize_k__BackingField(::System::Predicate_1<::System::Object*>* value);
 
-  /// @brief Method get_ValueProvider, addr 0x269d9c4, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::IValueProvider* get_ValueProvider();
+  constexpr void __cordl_internal_set__ShouldSerialize_k__BackingField(::System::Predicate_1<::System::Object*>* value);
 
-  /// @brief Method set_ValueProvider, addr 0x269d9cc, size 0x8, virtual false, abstract: false, final false
-  inline void set_ValueProvider(::Newtonsoft::Json::Serialization::IValueProvider* value);
+  constexpr void __cordl_internal_set__TypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
-  /// @brief Method get_AttributeProvider, addr 0x269d9d4, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::IAttributeProvider* get_AttributeProvider();
+  constexpr void __cordl_internal_set__UnderlyingName_k__BackingField(::StringW value);
 
-  /// @brief Method set_AttributeProvider, addr 0x269d9dc, size 0x8, virtual false, abstract: false, final false
-  inline void set_AttributeProvider(::Newtonsoft::Json::Serialization::IAttributeProvider* value);
+  constexpr void __cordl_internal_set__ValueProvider_k__BackingField(::Newtonsoft::Json::Serialization::IValueProvider* value);
 
-  /// @brief Method get_PropertyType, addr 0x269d9e4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_PropertyType();
+  constexpr void __cordl_internal_set__Writable_k__BackingField(bool value);
 
-  /// @brief Method set_PropertyType, addr 0x2695064, size 0x18, virtual false, abstract: false, final false
-  inline void set_PropertyType(::System::Type* value);
+  constexpr void __cordl_internal_set__defaultValue(::System::Object* value);
 
-  /// @brief Method get_Converter, addr 0x269d9ec, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonConverter* get_Converter();
+  constexpr void __cordl_internal_set__hasExplicitDefaultValue(bool value);
 
-  /// @brief Method set_Converter, addr 0x269d9f4, size 0x8, virtual false, abstract: false, final false
-  inline void set_Converter(::Newtonsoft::Json::JsonConverter* value);
+  constexpr void __cordl_internal_set__hasGeneratedDefaultValue(bool value);
 
-  /// @brief Method get_MemberConverter, addr 0x269d9fc, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonConverter* get_MemberConverter();
+  constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method set_MemberConverter, addr 0x269da04, size 0x8, virtual false, abstract: false, final false
-  inline void set_MemberConverter(::Newtonsoft::Json::JsonConverter* value);
+  constexpr void __cordl_internal_set__propertyType(::System::Type* value);
 
-  /// @brief Method get_Ignored, addr 0x269da0c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_Ignored();
+  constexpr void __cordl_internal_set__required(::System::Nullable_1<::Newtonsoft::Json::Required> value);
 
-  /// @brief Method set_Ignored, addr 0x269da14, size 0xc, virtual false, abstract: false, final false
-  inline void set_Ignored(bool value);
+  constexpr void __cordl_internal_set__skipPropertyNameEscape(bool value);
 
-  /// @brief Method get_Readable, addr 0x269da20, size 0x8, virtual false, abstract: false, final false
-  inline bool get_Readable();
-
-  /// @brief Method set_Readable, addr 0x269da28, size 0xc, virtual false, abstract: false, final false
-  inline void set_Readable(bool value);
-
-  /// @brief Method get_Writable, addr 0x269da34, size 0x8, virtual false, abstract: false, final false
-  inline bool get_Writable();
-
-  /// @brief Method set_Writable, addr 0x269da3c, size 0xc, virtual false, abstract: false, final false
-  inline void set_Writable(bool value);
-
-  /// @brief Method get_HasMemberAttribute, addr 0x269da48, size 0x8, virtual false, abstract: false, final false
-  inline bool get_HasMemberAttribute();
-
-  /// @brief Method set_HasMemberAttribute, addr 0x269da50, size 0xc, virtual false, abstract: false, final false
-  inline void set_HasMemberAttribute(bool value);
-
-  /// @brief Method get_DefaultValue, addr 0x26955a4, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Object* get_DefaultValue();
-
-  /// @brief Method set_DefaultValue, addr 0x26955bc, size 0x10, virtual false, abstract: false, final false
-  inline void set_DefaultValue(::System::Object* value);
-
-  /// @brief Method GetResolvedDefaultValue, addr 0x269da5c, size 0x8c, virtual false, abstract: false, final false
-  inline ::System::Object* GetResolvedDefaultValue();
-
-  /// @brief Method get_Required, addr 0x269dae8, size 0x50, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Required get_Required();
-
-  /// @brief Method set_Required, addr 0x269db38, size 0x68, virtual false, abstract: false, final false
-  inline void set_Required(::Newtonsoft::Json::Required value);
-
-  /// @brief Method get_IsReference, addr 0x269dba0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<bool> get_IsReference();
-
-  /// @brief Method set_IsReference, addr 0x269dba8, size 0x8, virtual false, abstract: false, final false
-  inline void set_IsReference(::System::Nullable_1<bool> value);
-
-  /// @brief Method get_NullValueHandling, addr 0x269dbb0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> get_NullValueHandling();
-
-  /// @brief Method set_NullValueHandling, addr 0x269dbb8, size 0x8, virtual false, abstract: false, final false
-  inline void set_NullValueHandling(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
-
-  /// @brief Method get_DefaultValueHandling, addr 0x269dbc0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> get_DefaultValueHandling();
-
-  /// @brief Method set_DefaultValueHandling, addr 0x269dbc8, size 0x8, virtual false, abstract: false, final false
-  inline void set_DefaultValueHandling(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value);
-
-  /// @brief Method get_ReferenceLoopHandling, addr 0x269dbd0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ReferenceLoopHandling();
-
-  /// @brief Method set_ReferenceLoopHandling, addr 0x269dbd8, size 0x8, virtual false, abstract: false, final false
-  inline void set_ReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
-
-  /// @brief Method get_ObjectCreationHandling, addr 0x269dbe0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> get_ObjectCreationHandling();
-
-  /// @brief Method set_ObjectCreationHandling, addr 0x269dbe8, size 0x8, virtual false, abstract: false, final false
-  inline void set_ObjectCreationHandling(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value);
-
-  /// @brief Method get_TypeNameHandling, addr 0x269dbf0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_TypeNameHandling();
-
-  /// @brief Method set_TypeNameHandling, addr 0x269dbf8, size 0x8, virtual false, abstract: false, final false
-  inline void set_TypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
-
-  /// @brief Method get_ShouldSerialize, addr 0x269dc00, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Predicate_1<::System::Object*>* get_ShouldSerialize();
-
-  /// @brief Method set_ShouldSerialize, addr 0x269dc08, size 0x8, virtual false, abstract: false, final false
-  inline void set_ShouldSerialize(::System::Predicate_1<::System::Object*>* value);
-
-  /// @brief Method get_ShouldDeserialize, addr 0x269dc10, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Predicate_1<::System::Object*>* get_ShouldDeserialize();
-
-  /// @brief Method set_ShouldDeserialize, addr 0x269dc18, size 0x8, virtual false, abstract: false, final false
-  inline void set_ShouldDeserialize(::System::Predicate_1<::System::Object*>* value);
-
-  /// @brief Method get_GetIsSpecified, addr 0x269dc20, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Predicate_1<::System::Object*>* get_GetIsSpecified();
-
-  /// @brief Method set_GetIsSpecified, addr 0x269dc28, size 0x8, virtual false, abstract: false, final false
-  inline void set_GetIsSpecified(::System::Predicate_1<::System::Object*>* value);
-
-  /// @brief Method get_SetIsSpecified, addr 0x269dc30, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Action_2<::System::Object*, ::System::Object*>* get_SetIsSpecified();
-
-  /// @brief Method set_SetIsSpecified, addr 0x269dc38, size 0x8, virtual false, abstract: false, final false
-  inline void set_SetIsSpecified(::System::Action_2<::System::Object*, ::System::Object*>* value);
-
-  /// @brief Method ToString, addr 0x269dc40, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method get_ItemConverter, addr 0x269dc48, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
-
-  /// @brief Method set_ItemConverter, addr 0x269dc50, size 0x8, virtual false, abstract: false, final false
-  inline void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
-
-  /// @brief Method get_ItemIsReference, addr 0x269dc58, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<bool> get_ItemIsReference();
-
-  /// @brief Method set_ItemIsReference, addr 0x269dc60, size 0x8, virtual false, abstract: false, final false
-  inline void set_ItemIsReference(::System::Nullable_1<bool> value);
-
-  /// @brief Method get_ItemTypeNameHandling, addr 0x269dc68, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
-
-  /// @brief Method set_ItemTypeNameHandling, addr 0x269dc70, size 0x8, virtual false, abstract: false, final false
-  inline void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
-
-  /// @brief Method get_ItemReferenceLoopHandling, addr 0x269dc78, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
-
-  /// @brief Method set_ItemReferenceLoopHandling, addr 0x269dc80, size 0x8, virtual false, abstract: false, final false
-  inline void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
-
-  /// @brief Method WritePropertyName, addr 0x269dc88, size 0x4c, virtual false, abstract: false, final false
-  inline void WritePropertyName(::Newtonsoft::Json::JsonWriter* writer);
-
-  static inline ::Newtonsoft::Json::Serialization::JsonProperty* New_ctor();
-
-  /// @brief Method .ctor, addr 0x269505c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27637a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_AttributeProvider, addr 0x276c120, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::IAttributeProvider* get_AttributeProvider();
+
+  /// @brief Method get_Converter, addr 0x276c138, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonConverter* get_Converter();
+
+  /// @brief Method get_DeclaringType, addr 0x276c0e0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Type* get_DeclaringType();
+
+  /// @brief Method get_DefaultValue, addr 0x2763cf0, size 0x18, virtual false, abstract: false, final false
+  inline ::System::Object* get_DefaultValue();
+
+  /// @brief Method get_DefaultValueHandling, addr 0x276c30c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> get_DefaultValueHandling();
+
+  /// @brief Method get_GetIsSpecified, addr 0x276c36c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Predicate_1<::System::Object*>* get_GetIsSpecified();
+
+  /// @brief Method get_HasMemberAttribute, addr 0x276c194, size 0x8, virtual false, abstract: false, final false
+  inline bool get_HasMemberAttribute();
+
+  /// @brief Method get_Ignored, addr 0x276c158, size 0x8, virtual false, abstract: false, final false
+  inline bool get_Ignored();
+
+  /// @brief Method get_IsReference, addr 0x276c2ec, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<bool> get_IsReference();
+
+  /// @brief Method get_ItemConverter, addr 0x276c394, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
+
+  /// @brief Method get_ItemIsReference, addr 0x276c3a4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<bool> get_ItemIsReference();
+
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x276c3c4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
+
+  /// @brief Method get_ItemTypeNameHandling, addr 0x276c3b4, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
+
+  /// @brief Method get_MemberConverter, addr 0x276c148, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonConverter* get_MemberConverter();
+
+  /// @brief Method get_NullValueHandling, addr 0x276c2fc, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> get_NullValueHandling();
+
+  /// @brief Method get_ObjectCreationHandling, addr 0x276c32c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> get_ObjectCreationHandling();
+
+  /// @brief Method get_Order, addr 0x276c0f0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<int32_t> get_Order();
+
+  /// @brief Method get_PropertyContract, addr 0x276c0c8, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::JsonContract* get_PropertyContract();
+
+  /// @brief Method get_PropertyName, addr 0x276c0d8, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_PropertyName();
+
+  /// @brief Method get_PropertyType, addr 0x276c130, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Type* get_PropertyType();
+
+  /// @brief Method get_Readable, addr 0x276c16c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_Readable();
+
+  /// @brief Method get_ReferenceLoopHandling, addr 0x276c31c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ReferenceLoopHandling();
+
+  /// @brief Method get_Required, addr 0x276c234, size 0x50, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Required get_Required();
+
+  /// @brief Method get_SetIsSpecified, addr 0x276c37c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Action_2<::System::Object*, ::System::Object*>* get_SetIsSpecified();
+
+  /// @brief Method get_ShouldDeserialize, addr 0x276c35c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Predicate_1<::System::Object*>* get_ShouldDeserialize();
+
+  /// @brief Method get_ShouldSerialize, addr 0x276c34c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Predicate_1<::System::Object*>* get_ShouldSerialize();
+
+  /// @brief Method get_TypeNameHandling, addr 0x276c33c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_TypeNameHandling();
+
+  /// @brief Method get_UnderlyingName, addr 0x276c100, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_UnderlyingName();
+
+  /// @brief Method get_ValueProvider, addr 0x276c110, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::IValueProvider* get_ValueProvider();
+
+  /// @brief Method get_Writable, addr 0x276c180, size 0x8, virtual false, abstract: false, final false
+  inline bool get_Writable();
+
+  /// @brief Method set_AttributeProvider, addr 0x276c128, size 0x8, virtual false, abstract: false, final false
+  inline void set_AttributeProvider(::Newtonsoft::Json::Serialization::IAttributeProvider* value);
+
+  /// @brief Method set_Converter, addr 0x276c140, size 0x8, virtual false, abstract: false, final false
+  inline void set_Converter(::Newtonsoft::Json::JsonConverter* value);
+
+  /// @brief Method set_DeclaringType, addr 0x276c0e8, size 0x8, virtual false, abstract: false, final false
+  inline void set_DeclaringType(::System::Type* value);
+
+  /// @brief Method set_DefaultValue, addr 0x2763d08, size 0x10, virtual false, abstract: false, final false
+  inline void set_DefaultValue(::System::Object* value);
+
+  /// @brief Method set_DefaultValueHandling, addr 0x276c314, size 0x8, virtual false, abstract: false, final false
+  inline void set_DefaultValueHandling(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value);
+
+  /// @brief Method set_GetIsSpecified, addr 0x276c374, size 0x8, virtual false, abstract: false, final false
+  inline void set_GetIsSpecified(::System::Predicate_1<::System::Object*>* value);
+
+  /// @brief Method set_HasMemberAttribute, addr 0x276c19c, size 0xc, virtual false, abstract: false, final false
+  inline void set_HasMemberAttribute(bool value);
+
+  /// @brief Method set_Ignored, addr 0x276c160, size 0xc, virtual false, abstract: false, final false
+  inline void set_Ignored(bool value);
+
+  /// @brief Method set_IsReference, addr 0x276c2f4, size 0x8, virtual false, abstract: false, final false
+  inline void set_IsReference(::System::Nullable_1<bool> value);
+
+  /// @brief Method set_ItemConverter, addr 0x276c39c, size 0x8, virtual false, abstract: false, final false
+  inline void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
+
+  /// @brief Method set_ItemIsReference, addr 0x276c3ac, size 0x8, virtual false, abstract: false, final false
+  inline void set_ItemIsReference(::System::Nullable_1<bool> value);
+
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x276c3cc, size 0x8, virtual false, abstract: false, final false
+  inline void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
+
+  /// @brief Method set_ItemTypeNameHandling, addr 0x276c3bc, size 0x8, virtual false, abstract: false, final false
+  inline void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
+
+  /// @brief Method set_MemberConverter, addr 0x276c150, size 0x8, virtual false, abstract: false, final false
+  inline void set_MemberConverter(::Newtonsoft::Json::JsonConverter* value);
+
+  /// @brief Method set_NullValueHandling, addr 0x276c304, size 0x8, virtual false, abstract: false, final false
+  inline void set_NullValueHandling(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
+
+  /// @brief Method set_ObjectCreationHandling, addr 0x276c334, size 0x8, virtual false, abstract: false, final false
+  inline void set_ObjectCreationHandling(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value);
+
+  /// @brief Method set_Order, addr 0x276c0f8, size 0x8, virtual false, abstract: false, final false
+  inline void set_Order(::System::Nullable_1<int32_t> value);
+
+  /// @brief Method set_PropertyContract, addr 0x276c0d0, size 0x8, virtual false, abstract: false, final false
+  inline void set_PropertyContract(::Newtonsoft::Json::Serialization::JsonContract* value);
+
+  /// @brief Method set_PropertyName, addr 0x2763c6c, size 0x84, virtual false, abstract: false, final false
+  inline void set_PropertyName(::StringW value);
+
+  /// @brief Method set_PropertyType, addr 0x27637b0, size 0x18, virtual false, abstract: false, final false
+  inline void set_PropertyType(::System::Type* value);
+
+  /// @brief Method set_Readable, addr 0x276c174, size 0xc, virtual false, abstract: false, final false
+  inline void set_Readable(bool value);
+
+  /// @brief Method set_ReferenceLoopHandling, addr 0x276c324, size 0x8, virtual false, abstract: false, final false
+  inline void set_ReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
+
+  /// @brief Method set_Required, addr 0x276c284, size 0x68, virtual false, abstract: false, final false
+  inline void set_Required(::Newtonsoft::Json::Required value);
+
+  /// @brief Method set_SetIsSpecified, addr 0x276c384, size 0x8, virtual false, abstract: false, final false
+  inline void set_SetIsSpecified(::System::Action_2<::System::Object*, ::System::Object*>* value);
+
+  /// @brief Method set_ShouldDeserialize, addr 0x276c364, size 0x8, virtual false, abstract: false, final false
+  inline void set_ShouldDeserialize(::System::Predicate_1<::System::Object*>* value);
+
+  /// @brief Method set_ShouldSerialize, addr 0x276c354, size 0x8, virtual false, abstract: false, final false
+  inline void set_ShouldSerialize(::System::Predicate_1<::System::Object*>* value);
+
+  /// @brief Method set_TypeNameHandling, addr 0x276c344, size 0x8, virtual false, abstract: false, final false
+  inline void set_TypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
+
+  /// @brief Method set_UnderlyingName, addr 0x276c108, size 0x8, virtual false, abstract: false, final false
+  inline void set_UnderlyingName(::StringW value);
+
+  /// @brief Method set_ValueProvider, addr 0x276c118, size 0x8, virtual false, abstract: false, final false
+  inline void set_ValueProvider(::Newtonsoft::Json::Serialization::IValueProvider* value);
+
+  /// @brief Method set_Writable, addr 0x276c188, size 0xc, virtual false, abstract: false, final false
+  inline void set_Writable(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonProperty();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonProperty", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonProperty(JsonProperty&&) = delete;
@@ -657,12 +657,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonProperty(JsonProperty const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonProperty();
-
-public:
   /// @brief Field _required, offset: 0x10, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::Required> ____required;
 

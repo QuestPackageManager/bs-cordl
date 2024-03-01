@@ -21,8 +21,6 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10171))
 // CS Name: ::Zenject::IMemoryPool`1<TValue>*
 class CORDL_TYPE IMemoryPool_1 {
 public:
@@ -30,17 +28,17 @@ public:
   /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
   constexpr operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept;
 
-  /// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
-  constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept;
-
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
 
-  /// @brief Convert to "::Zenject::IMemoryPool"
-  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
-
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Spawn();
+
+  /// @brief Convert to "::Zenject::IDespawnableMemoryPool_1<TValue>"
+  constexpr ::Zenject::IDespawnableMemoryPool_1<TValue>* i___Zenject__IDespawnableMemoryPool_1_TValue_() noexcept;
+
+  /// @brief Convert to "::Zenject::IMemoryPool"
+  constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IMemoryPool_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

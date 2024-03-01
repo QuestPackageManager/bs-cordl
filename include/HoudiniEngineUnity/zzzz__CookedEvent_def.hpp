@@ -17,18 +17,22 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::CookedEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(8940)), TypeDefinitionIndex(TypeDefinitionIndex(9236)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9431)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 313 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(9236), inst: 5213 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9394)) CS Name: ::HoudiniEngineUnity::CookedEvent*
+// CS Name: ::HoudiniEngineUnity::CookedEvent*
 class CORDL_TYPE CookedEvent
     : public ::UnityEngine::Events::UnityEvent_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::CookedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21e3d2c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22af394, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CookedEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CookedEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CookedEvent(CookedEvent&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CookedEvent(CookedEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CookedEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

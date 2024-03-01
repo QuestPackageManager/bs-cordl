@@ -23,25 +23,23 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKOutputFrame);
 // SizeInfo { instance_size: 172, native_size: 172, calculated_instance_size: 172, calculated_native_size: 188, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14980)), TypeDefinitionIndex(TypeDefinitionIndex(14990))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14989))
 // CS Name: ::LIV.SDK.Unity::SDKOutputFrame
 struct CORDL_TYPE SDKOutputFrame {
 public:
   // Declarations
-  /// @brief Method get_empty, addr 0x22a583c, size 0x60, virtual false, abstract: false, final false
-  static inline ::LIV::SDK::Unity::SDKOutputFrame get_empty();
-
-  /// @brief Method ToString, addr 0x22aaefc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2377564, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  // Ctor Parameters [CppParam { name: "renderingPipeline", ty: "::LIV::SDK::Unity::RENDERING_PIPELINE", modifiers: "", def_value: None }, CppParam { name: "trackedSpace", ty:
-  // "::LIV::SDK::Unity::SDKTrackedSpace", modifiers: "", def_value: None }]
-  constexpr SDKOutputFrame(::LIV::SDK::Unity::RENDERING_PIPELINE renderingPipeline, ::LIV::SDK::Unity::SDKTrackedSpace trackedSpace) noexcept;
+  /// @brief Method get_empty, addr 0x2371ea4, size 0x60, virtual false, abstract: false, final false
+  static inline ::LIV::SDK::Unity::SDKOutputFrame get_empty();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SDKOutputFrame();
+
+  // Ctor Parameters [CppParam { name: "renderingPipeline", ty: "::LIV::SDK::Unity::RENDERING_PIPELINE", modifiers: "", def_value: None }, CppParam { name: "trackedSpace", ty:
+  // "::LIV::SDK::Unity::SDKTrackedSpace", modifiers: "", def_value: None }]
+  constexpr SDKOutputFrame(::LIV::SDK::Unity::RENDERING_PIPELINE renderingPipeline, ::LIV::SDK::Unity::SDKTrackedSpace trackedSpace) noexcept;
 
   /// @brief Field renderingPipeline, offset: 0x0, size: 0x4, def value: None
   ::LIV::SDK::Unity::RENDERING_PIPELINE renderingPipeline;

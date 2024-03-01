@@ -16,22 +16,20 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerAvatarData);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14893))
 // CS Name: ::MultiplayerAvatarData
 struct CORDL_TYPE MultiplayerAvatarData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x13392f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x137a2e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t avatarTypeIdentifierHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
-
-  // Ctor Parameters [CppParam { name: "avatarTypeIdentifierHash", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "",
-  // def_value: None }]
-  constexpr MultiplayerAvatarData(uint32_t avatarTypeIdentifierHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr MultiplayerAvatarData();
+
+  // Ctor Parameters [CppParam { name: "avatarTypeIdentifierHash", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "",
+  // def_value: None }]
+  constexpr MultiplayerAvatarData(uint32_t avatarTypeIdentifierHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) noexcept;
 
   /// @brief Field avatarTypeIdentifierHash, offset: 0x0, size: 0x4, def value: None
   uint32_t avatarTypeIdentifierHash;

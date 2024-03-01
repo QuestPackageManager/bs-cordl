@@ -23,19 +23,17 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifreq_mtu);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7315))
 // CS Name: ::ifreq_mtu::<ifr_name>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __ifreq_mtu___ifr_name_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __ifreq_mtu___ifr_name_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ifreq_mtu___ifr_name_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __ifreq_mtu___ifr_name_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
   uint8_t FixedElementField;
@@ -59,8 +57,6 @@ static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::__ifreq_mt
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7315))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7316))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifreq_mtu
 #pragma pack(push, 0)
 struct CORDL_TYPE ifreq_mtu {
@@ -74,25 +70,25 @@ public:
   /// @brief Field ifru_mtu, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_ifru_mtu, put = __cordl_internal_set_ifru_mtu)) int32_t ifru_mtu;
 
-  constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer& __cordl_internal_get_ifr_name();
-
   constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer const& __cordl_internal_get_ifr_name() const;
 
-  constexpr void __cordl_internal_set_ifr_name(::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer value);
-
-  constexpr int32_t& __cordl_internal_get_ifru_mtu();
+  constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer& __cordl_internal_get_ifr_name();
 
   constexpr int32_t const& __cordl_internal_get_ifru_mtu() const;
 
-  constexpr void __cordl_internal_set_ifru_mtu(int32_t value);
+  constexpr int32_t& __cordl_internal_get_ifru_mtu();
 
-  // Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
-  // "ifru_mtu", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ifreq_mtu(::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer ifr_name, int32_t ifru_mtu) noexcept;
+  constexpr void __cordl_internal_set_ifr_name(::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer value);
+
+  constexpr void __cordl_internal_set_ifru_mtu(int32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ifreq_mtu();
+
+  // Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
+  // "ifru_mtu", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ifreq_mtu(::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer ifr_name, int32_t ifru_mtu) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets

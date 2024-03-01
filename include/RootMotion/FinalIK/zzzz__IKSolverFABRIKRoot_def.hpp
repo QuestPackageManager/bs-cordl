@@ -32,101 +32,105 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverFABRIKRoot);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12462))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12467))
 // CS Name: ::RootMotion.FinalIK::IKSolverFABRIKRoot*
 class CORDL_TYPE IKSolverFABRIKRoot : public ::RootMotion::FinalIK::IKSolver {
 public:
   // Declarations
-  /// @brief Field iterations, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_iterations, put = __cordl_internal_set_iterations)) int32_t iterations;
-
-  /// @brief Field rootPin, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get_rootPin, put = __cordl_internal_set_rootPin)) float_t rootPin;
-
   /// @brief Field chains, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_chains, put = __cordl_internal_set_chains))::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chains;
-
-  /// @brief Field zeroWeightApplied, offset 0x68, size 0x1
-  __declspec(property(get = __cordl_internal_get_zeroWeightApplied, put = __cordl_internal_set_zeroWeightApplied)) bool zeroWeightApplied;
 
   /// @brief Field isRoot, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_isRoot, put = __cordl_internal_set_isRoot))::ArrayW<bool, ::Array<bool>*> isRoot;
 
+  /// @brief Field iterations, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_iterations, put = __cordl_internal_set_iterations)) int32_t iterations;
+
   /// @brief Field rootDefaultPosition, offset 0x78, size 0xc
   __declspec(property(get = __cordl_internal_get_rootDefaultPosition, put = __cordl_internal_set_rootDefaultPosition))::UnityEngine::Vector3 rootDefaultPosition;
 
-  constexpr int32_t& __cordl_internal_get_iterations();
+  /// @brief Field rootPin, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get_rootPin, put = __cordl_internal_set_rootPin)) float_t rootPin;
 
-  constexpr int32_t const& __cordl_internal_get_iterations() const;
+  /// @brief Field zeroWeightApplied, offset 0x68, size 0x1
+  __declspec(property(get = __cordl_internal_get_zeroWeightApplied, put = __cordl_internal_set_zeroWeightApplied)) bool zeroWeightApplied;
 
-  constexpr void __cordl_internal_set_iterations(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_rootPin();
-
-  constexpr float_t const& __cordl_internal_get_rootPin() const;
-
-  constexpr void __cordl_internal_set_rootPin(float_t value);
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*>& __cordl_internal_get_chains();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> const& __cordl_internal_get_chains() const;
-
-  constexpr void __cordl_internal_set_chains(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> value);
-
-  constexpr bool& __cordl_internal_get_zeroWeightApplied();
-
-  constexpr bool const& __cordl_internal_get_zeroWeightApplied() const;
-
-  constexpr void __cordl_internal_set_zeroWeightApplied(bool value);
-
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_isRoot();
-
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_isRoot() const;
-
-  constexpr void __cordl_internal_set_isRoot(::ArrayW<bool, ::Array<bool>*> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rootDefaultPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rootDefaultPosition() const;
-
-  constexpr void __cordl_internal_set_rootDefaultPosition(::UnityEngine::Vector3 value);
-
-  /// @brief Method IsValid, addr 0x12fe23c, size 0x654, virtual true, abstract: false, final false
-  inline bool IsValid(ByRef<::StringW> message);
-
-  /// @brief Method StoreDefaultLocalState, addr 0x12fe890, size 0x8c, virtual true, abstract: false, final false
-  inline void StoreDefaultLocalState();
-
-  /// @brief Method FixTransforms, addr 0x12fe91c, size 0x94, virtual true, abstract: false, final false
-  inline void FixTransforms();
-
-  /// @brief Method OnInitiate, addr 0x12fe9b0, size 0xe8, virtual true, abstract: false, final false
-  inline void OnInitiate();
-
-  /// @brief Method IsRoot, addr 0x12fea98, size 0x90, virtual false, abstract: false, final false
-  inline bool IsRoot(int32_t index);
-
-  /// @brief Method OnUpdate, addr 0x12feb28, size 0x1d8, virtual true, abstract: false, final false
-  inline void OnUpdate();
-
-  /// @brief Method GetPoints, addr 0x12fef28, size 0xa0, virtual true, abstract: false, final false
-  inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
-
-  /// @brief Method GetPoint, addr 0x12ff100, size 0x84, virtual true, abstract: false, final false
-  inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
-
-  /// @brief Method AddPointsToArray, addr 0x12fefc8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method AddPointsToArray, addr 0x1340fb4, size 0x138, virtual false, abstract: false, final false
   inline void AddPointsToArray(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*>> array, ::RootMotion::FinalIK::FABRIKChain* chain);
 
-  /// @brief Method GetCentroid, addr 0x12fed00, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method FixTransforms, addr 0x1340908, size 0x94, virtual true, abstract: false, final false
+  inline void FixTransforms();
+
+  /// @brief Method GetCentroid, addr 0x1340cec, size 0x228, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCentroid();
+
+  /// @brief Method GetPoint, addr 0x13410ec, size 0x84, virtual true, abstract: false, final false
+  inline ::RootMotion::FinalIK::__IKSolver__Point* GetPoint(::UnityEngine::Transform* transform);
+
+  /// @brief Method GetPoints, addr 0x1340f14, size 0xa0, virtual true, abstract: false, final false
+  inline ::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*> GetPoints();
+
+  /// @brief Method IsRoot, addr 0x1340a84, size 0x90, virtual false, abstract: false, final false
+  inline bool IsRoot(int32_t index);
+
+  /// @brief Method IsValid, addr 0x1340228, size 0x654, virtual true, abstract: false, final false
+  inline bool IsValid(ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKSolverFABRIKRoot* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12ff184, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OnInitiate, addr 0x134099c, size 0xe8, virtual true, abstract: false, final false
+  inline void OnInitiate();
+
+  /// @brief Method OnUpdate, addr 0x1340b14, size 0x1d8, virtual true, abstract: false, final false
+  inline void OnUpdate();
+
+  /// @brief Method StoreDefaultLocalState, addr 0x134087c, size 0x8c, virtual true, abstract: false, final false
+  inline void StoreDefaultLocalState();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> const& __cordl_internal_get_chains() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*>& __cordl_internal_get_chains();
+
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_isRoot() const;
+
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_isRoot();
+
+  constexpr int32_t const& __cordl_internal_get_iterations() const;
+
+  constexpr int32_t& __cordl_internal_get_iterations();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rootDefaultPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rootDefaultPosition();
+
+  constexpr float_t const& __cordl_internal_get_rootPin() const;
+
+  constexpr float_t& __cordl_internal_get_rootPin();
+
+  constexpr bool const& __cordl_internal_get_zeroWeightApplied() const;
+
+  constexpr bool& __cordl_internal_get_zeroWeightApplied();
+
+  constexpr void __cordl_internal_set_chains(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> value);
+
+  constexpr void __cordl_internal_set_isRoot(::ArrayW<bool, ::Array<bool>*> value);
+
+  constexpr void __cordl_internal_set_iterations(int32_t value);
+
+  constexpr void __cordl_internal_set_rootDefaultPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_rootPin(float_t value);
+
+  constexpr void __cordl_internal_set_zeroWeightApplied(bool value);
+
+  /// @brief Method .ctor, addr 0x1341170, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IKSolverFABRIKRoot();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverFABRIKRoot", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IKSolverFABRIKRoot(IKSolverFABRIKRoot&&) = delete;
@@ -135,12 +139,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IKSolverFABRIKRoot(IKSolverFABRIKRoot const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IKSolverFABRIKRoot();
-
-public:
   /// @brief Field iterations, offset: 0x58, size: 0x4, def value: None
   int32_t ___iterations;
 

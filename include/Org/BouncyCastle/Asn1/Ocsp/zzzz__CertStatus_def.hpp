@@ -33,72 +33,76 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::CertStatus);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(208))
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::CertStatus*
 class CORDL_TYPE CertStatus : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
+  __declspec(property(get = get_Status))::Org::BouncyCastle::Asn1::Asn1Encodable* Status;
+
+  __declspec(property(get = get_TagNo)) int32_t TagNo;
+
   /// @brief Field tagNo, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_tagNo, put = __cordl_internal_set_tagNo)) int32_t tagNo;
 
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::Org::BouncyCastle::Asn1::Asn1Encodable* value;
 
-  __declspec(property(get = get_TagNo)) int32_t TagNo;
-
-  __declspec(property(get = get_Status))::Org::BouncyCastle::Asn1::Asn1Encodable* Status;
-
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+  /// @brief Method GetInstance, addr 0xff0f84, size 0x188, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* GetInstance(::System::Object* obj);
 
-  constexpr int32_t& __cordl_internal_get_tagNo();
+  static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor();
+
+  static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* choice);
+
+  static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
+
+  static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+
+  /// @brief Method ToAsn1Object, addr 0xff111c, size 0x74, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr int32_t const& __cordl_internal_get_tagNo() const;
 
-  constexpr void __cordl_internal_set_tagNo(int32_t value);
+  constexpr int32_t& __cordl_internal_get_tagNo();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_value();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_value() const;
 
+  constexpr void __cordl_internal_set_tagNo(int32_t value);
+
   constexpr void __cordl_internal_set_value(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor();
-
-  /// @brief Method .ctor, addr 0xfaad94, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff0d64, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
-
-  /// @brief Method .ctor, addr 0xfaae04, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
-
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
-
-  /// @brief Method .ctor, addr 0xfaae34, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
-
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* choice);
-
-  /// @brief Method .ctor, addr 0xfaae64, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff0e34, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* choice);
 
-  /// @brief Method GetInstance, addr 0xfaafb4, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* GetInstance(::System::Object* obj);
+  /// @brief Method .ctor, addr 0xff0dd4, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
-  /// @brief Method get_TagNo, addr 0xfab13c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_TagNo();
+  /// @brief Method .ctor, addr 0xff0e04, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method get_Status, addr 0xfab144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0xff1114, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Status();
 
-  /// @brief Method ToAsn1Object, addr 0xfab14c, size 0x74, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_TagNo, addr 0xff110c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_TagNo();
 
+  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertStatus();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CertStatus", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertStatus(CertStatus&&) = delete;
@@ -107,12 +111,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertStatus(CertStatus const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertStatus();
-
-public:
   /// @brief Field tagNo, offset: 0x10, size: 0x4, def value: None
   int32_t ___tagNo;
 

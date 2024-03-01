@@ -32,6 +32,7 @@ module;
 #include "System/Runtime/CompilerServices/FriendAccessAllowedAttribute.hpp"
 #include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 #include "System/Runtime/CompilerServices/ICriticalNotifyCompletion.hpp"
+#include "System/Runtime/CompilerServices/INotifyCompletion.hpp"
 #include "System/Runtime/CompilerServices/ITuple.hpp"
 #include "System/Runtime/CompilerServices/InternalsVisibleToAttribute.hpp"
 #include "System/Runtime/CompilerServices/IntrinsicAttribute.hpp"

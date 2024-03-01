@@ -15,8 +15,6 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8717))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::AssetLoadingSubsystem
 struct CORDL_TYPE AssetLoadingSubsystem {
 public:
@@ -41,36 +39,23 @@ public:
     return static_cast<__AssetLoadingSubsystem_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AssetLoadingSubsystem(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__AssetLoadingSubsystem_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AssetLoadingSubsystem();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AssetLoadingSubsystem(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Other value: static_cast<int32_t>(0x0)
-  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Other;
-
-  /// @brief Field Texture value: static_cast<int32_t>(0x1)
-  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Texture;
-
-  /// @brief Field VirtualTexture value: static_cast<int32_t>(0x2)
-  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const VirtualTexture;
-
-  /// @brief Field Mesh value: static_cast<int32_t>(0x3)
-  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Mesh;
-
   /// @brief Field Audio value: static_cast<int32_t>(0x4)
   static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Audio;
-
-  /// @brief Field Scripts value: static_cast<int32_t>(0x5)
-  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Scripts;
 
   /// @brief Field EntitiesScene value: static_cast<int32_t>(0x6)
   static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const EntitiesScene;
@@ -80,6 +65,24 @@ public:
 
   /// @brief Field FileInfo value: static_cast<int32_t>(0x8)
   static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const FileInfo;
+
+  /// @brief Field Mesh value: static_cast<int32_t>(0x3)
+  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Mesh;
+
+  /// @brief Field Other value: static_cast<int32_t>(0x0)
+  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Other;
+
+  /// @brief Field Scripts value: static_cast<int32_t>(0x5)
+  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Scripts;
+
+  /// @brief Field Texture value: static_cast<int32_t>(0x1)
+  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const Texture;
+
+  /// @brief Field VirtualTexture value: static_cast<int32_t>(0x2)
+  static ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem const VirtualTexture;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

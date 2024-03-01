@@ -26,8 +26,6 @@ MARK_VAL_T(::UnityEngine::UIVertex);
 // SizeInfo { instance_size: 108, native_size: 108, calculated_instance_size: 108, calculated_native_size: 124, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8990)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8994))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15850))
 // CS Name: ::UnityEngine::UIVertex
 struct CORDL_TYPE UIVertex {
 public:
@@ -41,17 +39,21 @@ public:
   /// @brief Field simpleVert, offset 0xffffffff, size 0x6c
   static __declspec(property(get = getStaticF_simpleVert, put = setStaticF_simpleVert))::UnityEngine::UIVertex simpleVert;
 
-  static inline void setStaticF_s_DefaultColor(::UnityEngine::Color32 value);
-
   static inline ::UnityEngine::Color32 getStaticF_s_DefaultColor();
-
-  static inline void setStaticF_s_DefaultTangent(::UnityEngine::Vector4 value);
 
   static inline ::UnityEngine::Vector4 getStaticF_s_DefaultTangent();
 
+  static inline ::UnityEngine::UIVertex getStaticF_simpleVert();
+
+  static inline void setStaticF_s_DefaultColor(::UnityEngine::Color32 value);
+
+  static inline void setStaticF_s_DefaultTangent(::UnityEngine::Vector4 value);
+
   static inline void setStaticF_simpleVert(::UnityEngine::UIVertex value);
 
-  static inline ::UnityEngine::UIVertex getStaticF_simpleVert();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UIVertex();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
   // None }, CppParam { name: "tangent", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None },
@@ -59,10 +61,6 @@ public:
   // "uv2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
   constexpr UIVertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0,
                      ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector4 uv2, ::UnityEngine::Vector4 uv3) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIVertex();
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;

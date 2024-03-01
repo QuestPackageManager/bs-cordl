@@ -41,37 +41,40 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14128))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ResourceLocationMap*
 class CORDL_TYPE ResourceLocationMap : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <LocatorId>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__LocatorId_k__BackingField, put = __cordl_internal_set__LocatorId_k__BackingField))::StringW _LocatorId_k__BackingField;
+  __declspec(property(get = get_Keys))::System::Collections::Generic::IEnumerable_1<::System::Object*>* Keys;
+
+  __declspec(property(get = get_Locations, put = set_Locations))::System::Collections::Generic::Dictionary_2<
+      ::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* Locations;
+
+  __declspec(property(get = get_LocatorId, put = set_LocatorId))::StringW LocatorId;
 
   /// @brief Field <Locations>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Locations_k__BackingField, put = __cordl_internal_set__Locations_k__BackingField))::System::Collections::Generic::Dictionary_2<
       ::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* _Locations_k__BackingField;
 
-  __declspec(property(get = get_LocatorId, put = set_LocatorId))::StringW LocatorId;
-
-  __declspec(property(get = get_Locations, put = set_Locations))::System::Collections::Generic::Dictionary_2<
-      ::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* Locations;
-
-  __declspec(property(get = get_Keys))::System::Collections::Generic::IEnumerable_1<::System::Object*>* Keys;
+  /// @brief Field <LocatorId>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__LocatorId_k__BackingField, put = __cordl_internal_set__LocatorId_k__BackingField))::StringW _LocatorId_k__BackingField;
 
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
-  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
+  /// @brief Method Add, addr 0x2b1a164, size 0x164, virtual false, abstract: false, final false
+  inline void Add(::System::Object* key, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  constexpr ::StringW& __cordl_internal_get__LocatorId_k__BackingField();
+  /// @brief Method Add, addr 0x2b1882c, size 0x68, virtual false, abstract: false, final false
+  inline void Add(::System::Object* key, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
 
-  constexpr ::StringW const& __cordl_internal_get__LocatorId_k__BackingField() const;
+  /// @brief Method Locate, addr 0x2b189d4, size 0x86c, virtual true, abstract: false, final true
+  inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
-  constexpr void __cordl_internal_set__LocatorId_k__BackingField(::StringW value);
+  static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* New_ctor(::StringW id, int32_t capacity);
+
+  static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*
+  New_ctor(::StringW id, ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* locations);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*&
   __cordl_internal_get__Locations_k__BackingField();
@@ -80,46 +83,47 @@ public:
       ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*> const&
   __cordl_internal_get__Locations_k__BackingField() const;
 
+  constexpr ::StringW const& __cordl_internal_get__LocatorId_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__LocatorId_k__BackingField();
+
   constexpr void __cordl_internal_set__Locations_k__BackingField(
       ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
 
-  static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* New_ctor(::StringW id, int32_t capacity);
+  constexpr void __cordl_internal_set__LocatorId_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a304c4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b18598, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, int32_t capacity);
 
-  /// @brief Method get_LocatorId, addr 0x2a31714, size 0x8, virtual true, abstract: false, final true
-  inline ::StringW get_LocatorId();
-
-  /// @brief Method set_LocatorId, addr 0x2a3171c, size 0x8, virtual false, abstract: false, final false
-  inline void set_LocatorId(::StringW value);
-
-  static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*
-  New_ctor(::StringW id, ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* locations);
-
-  /// @brief Method .ctor, addr 0x2a31724, size 0x96c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b197f8, size 0x96c, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* locations);
 
-  /// @brief Method get_Locations, addr 0x2a321f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x2b1a2d8, size 0x50, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
+
+  /// @brief Method get_Locations, addr 0x2b1a2c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*
   get_Locations();
 
-  /// @brief Method set_Locations, addr 0x2a321fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocatorId, addr 0x2b197e8, size 0x8, virtual true, abstract: false, final true
+  inline ::StringW get_LocatorId();
+
+  /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
+  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
+
+  /// @brief Method set_Locations, addr 0x2b1a2d0, size 0x8, virtual false, abstract: false, final false
   inline void set_Locations(
       ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
 
-  /// @brief Method get_Keys, addr 0x2a32204, size 0x50, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
+  /// @brief Method set_LocatorId, addr 0x2b197f0, size 0x8, virtual false, abstract: false, final false
+  inline void set_LocatorId(::StringW value);
 
-  /// @brief Method Locate, addr 0x2a30900, size 0x86c, virtual true, abstract: false, final true
-  inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ResourceLocationMap();
 
-  /// @brief Method Add, addr 0x2a32090, size 0x164, virtual false, abstract: false, final false
-  inline void Add(::System::Object* key, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
-
-  /// @brief Method Add, addr 0x2a30758, size 0x68, virtual false, abstract: false, final false
-  inline void Add(::System::Object* key, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationMap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ResourceLocationMap(ResourceLocationMap&&) = delete;
@@ -128,12 +132,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceLocationMap(ResourceLocationMap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourceLocationMap();
-
-public:
   /// @brief Field <LocatorId>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____LocatorId_k__BackingField;
 

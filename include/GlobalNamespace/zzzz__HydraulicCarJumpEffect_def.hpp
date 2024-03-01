@@ -34,127 +34,131 @@ MARK_REF_PTR_T(::GlobalNamespace::HydraulicCarJumpEffect);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16390))
 // CS Name: ::HydraulicCarJumpEffect*
 class CORDL_TYPE HydraulicCarJumpEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  /// @brief Field _beatmapCallbacksController, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+
   /// @brief Field _event, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::GlobalNamespace::BasicBeatmapEventType _event;
 
   /// @brief Field _eventValues, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__eventValues, put = __cordl_internal_set__eventValues))::ArrayW<int32_t, ::Array<int32_t>*> _eventValues;
 
+  /// @brief Field _eventValuesHashSet, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__eventValuesHashSet, put = __cordl_internal_set__eventValuesHashSet))::System::Collections::Generic::HashSet_1<int32_t>* _eventValuesHashSet;
+
   /// @brief Field _impulse, offset 0x28, size 0xc
   __declspec(property(get = __cordl_internal_get__impulse, put = __cordl_internal_set__impulse))::UnityEngine::Vector3 _impulse;
-
-  /// @brief Field _randomness, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__randomness, put = __cordl_internal_set__randomness)) float_t _randomness;
-
-  /// @brief Field _position, offset 0x38, size 0xc
-  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position))::UnityEngine::Vector3 _position;
-
-  /// @brief Field _minDelayBetweenEvents, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__minDelayBetweenEvents, put = __cordl_internal_set__minDelayBetweenEvents)) float_t _minDelayBetweenEvents;
-
-  /// @brief Field _rigidbody, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__rigidbody, put = __cordl_internal_set__rigidbody))::UnityW<::UnityEngine::Rigidbody> _rigidbody;
-
-  /// @brief Field _beatmapCallbacksController, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _lastEventTime, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__lastEventTime, put = __cordl_internal_set__lastEventTime)) float_t _lastEventTime;
 
-  /// @brief Field _eventValuesHashSet, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__eventValuesHashSet, put = __cordl_internal_set__eventValuesHashSet))::System::Collections::Generic::HashSet_1<int32_t>* _eventValuesHashSet;
+  /// @brief Field _minDelayBetweenEvents, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__minDelayBetweenEvents, put = __cordl_internal_set__minDelayBetweenEvents)) float_t _minDelayBetweenEvents;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+  /// @brief Field _position, offset 0x38, size 0xc
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position))::UnityEngine::Vector3 _position;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
+  /// @brief Field _randomness, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__randomness, put = __cordl_internal_set__randomness)) float_t _randomness;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
+  /// @brief Field _rigidbody, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__rigidbody, put = __cordl_internal_set__rigidbody))::UnityW<::UnityEngine::Rigidbody> _rigidbody;
 
-  constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
+  /// @brief Method HandleBeatmapEvent, addr 0xe78ea0, size 0x11c, virtual false, abstract: false, final false
+  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__eventValues();
+  static inline ::GlobalNamespace::HydraulicCarJumpEffect* New_ctor();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__eventValues() const;
+  /// @brief Method OnDestroy, addr 0xe78e84, size 0x1c, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr void __cordl_internal_set__eventValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__impulse();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__impulse() const;
-
-  constexpr void __cordl_internal_set__impulse(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get__randomness();
-
-  constexpr float_t const& __cordl_internal_get__randomness() const;
-
-  constexpr void __cordl_internal_set__randomness(float_t value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position() const;
-
-  constexpr void __cordl_internal_set__position(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get__minDelayBetweenEvents();
-
-  constexpr float_t const& __cordl_internal_get__minDelayBetweenEvents() const;
-
-  constexpr void __cordl_internal_set__minDelayBetweenEvents(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get__rigidbody();
-
-  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get__rigidbody() const;
-
-  constexpr void __cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
+  /// @brief Method Start, addr 0xe78d14, size 0x170, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
-  constexpr float_t& __cordl_internal_get__lastEventTime();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
-  constexpr float_t const& __cordl_internal_get__lastEventTime() const;
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
 
-  constexpr void __cordl_internal_set__lastEventTime(float_t value);
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__eventValues() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__eventValues();
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__eventValuesHashSet();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get__eventValuesHashSet() const;
 
-  constexpr void __cordl_internal_set__eventValuesHashSet(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__impulse() const;
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__impulse();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
+  constexpr float_t const& __cordl_internal_get__lastEventTime() const;
+
+  constexpr float_t& __cordl_internal_get__lastEventTime();
+
+  constexpr float_t const& __cordl_internal_get__minDelayBetweenEvents() const;
+
+  constexpr float_t& __cordl_internal_get__minDelayBetweenEvents();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position();
+
+  constexpr float_t const& __cordl_internal_get__randomness() const;
+
+  constexpr float_t& __cordl_internal_get__randomness();
+
+  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get__rigidbody() const;
+
+  constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get__rigidbody();
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start, addr 0xe331b0, size 0x170, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
 
-  /// @brief Method OnDestroy, addr 0xe33320, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__eventValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method HandleBeatmapEvent, addr 0xe3333c, size 0x11c, virtual false, abstract: false, final false
-  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+  constexpr void __cordl_internal_set__eventValuesHashSet(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  static inline ::GlobalNamespace::HydraulicCarJumpEffect* New_ctor();
+  constexpr void __cordl_internal_set__impulse(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0xe33458, size 0x1c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__lastEventTime(float_t value);
+
+  constexpr void __cordl_internal_set__minDelayBetweenEvents(float_t value);
+
+  constexpr void __cordl_internal_set__position(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__randomness(float_t value);
+
+  constexpr void __cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
+
+  /// @brief Method .ctor, addr 0xe78fbc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HydraulicCarJumpEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarJumpEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HydraulicCarJumpEffect(HydraulicCarJumpEffect&&) = delete;
@@ -163,12 +167,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HydraulicCarJumpEffect(HydraulicCarJumpEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HydraulicCarJumpEffect();
-
-public:
   /// @brief Field _event, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;
 

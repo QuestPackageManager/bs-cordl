@@ -18,15 +18,19 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ValidationUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11800))
 // CS Name: ::Newtonsoft.Json.Utilities::ValidationUtils*
 class CORDL_TYPE ValidationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ArgumentNotNull, addr 0x26789dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ArgumentNotNull, addr 0x2748128, size 0x54, virtual false, abstract: false, final false
   static inline void ArgumentNotNull(::System::Object* value, ::StringW parameterName);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ValidationUtils();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ValidationUtils", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ValidationUtils(ValidationUtils&&) = delete;
@@ -35,12 +39,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValidationUtils(ValidationUtils const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValidationUtils();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

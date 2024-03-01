@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::RenderingPath);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8834))
 // CS Name: ::UnityEngine::RenderingPath
 struct CORDL_TYPE RenderingPath {
 public:
@@ -37,18 +35,29 @@ public:
     return static_cast<__RenderingPath_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RenderingPath(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__RenderingPath_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderingPath();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RenderingPath(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field DeferredLighting value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::RenderingPath const DeferredLighting;
+
+  /// @brief Field DeferredShading value: static_cast<int32_t>(0x3)
+  static ::UnityEngine::RenderingPath const DeferredShading;
+
+  /// @brief Field Forward value: static_cast<int32_t>(0x1)
+  static ::UnityEngine::RenderingPath const Forward;
 
   /// @brief Field UsePlayerSettings value: static_cast<int32_t>(0xffffffff)
   static ::UnityEngine::RenderingPath const UsePlayerSettings;
@@ -56,14 +65,8 @@ public:
   /// @brief Field VertexLit value: static_cast<int32_t>(0x0)
   static ::UnityEngine::RenderingPath const VertexLit;
 
-  /// @brief Field Forward value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::RenderingPath const Forward;
-
-  /// @brief Field DeferredLighting value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::RenderingPath const DeferredLighting;
-
-  /// @brief Field DeferredShading value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::RenderingPath const DeferredShading;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

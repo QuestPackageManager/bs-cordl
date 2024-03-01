@@ -52,8 +52,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_Task__TaskCallback);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9589))
 // CS Name: ::HEU_Task::TaskStatus
 struct CORDL_TYPE __HEU_Task__TaskStatus {
 public:
@@ -76,39 +74,44 @@ public:
     return static_cast<____HEU_Task__TaskStatus_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_Task__TaskStatus(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____HEU_Task__TaskStatus_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HEU_Task__TaskStatus();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HEU_Task__TaskStatus(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field NONE value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const NONE;
-
-  /// @brief Field PENDING_START value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const PENDING_START;
-
-  /// @brief Field STARTED value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const STARTED;
-
-  /// @brief Field REQUIRE_UPDATE value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const REQUIRE_UPDATE;
-
-  /// @brief Field PENDING_COMPLETE value: static_cast<int32_t>(0x4)
-  static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const PENDING_COMPLETE;
 
   /// @brief Field COMPLETED value: static_cast<int32_t>(0x5)
   static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const COMPLETED;
 
+  /// @brief Field NONE value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const NONE;
+
+  /// @brief Field PENDING_COMPLETE value: static_cast<int32_t>(0x4)
+  static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const PENDING_COMPLETE;
+
+  /// @brief Field PENDING_START value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const PENDING_START;
+
+  /// @brief Field REQUIRE_UPDATE value: static_cast<int32_t>(0x3)
+  static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const REQUIRE_UPDATE;
+
+  /// @brief Field STARTED value: static_cast<int32_t>(0x2)
+  static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const STARTED;
+
   /// @brief Field UNUSED value: static_cast<int32_t>(0x6)
   static ::HoudiniEngineUnity::__HEU_Task__TaskStatus const UNUSED;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -122,8 +125,6 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Task__TaskStatus, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9590))
 // CS Name: ::HEU_Task::TaskResult
 struct CORDL_TYPE __HEU_Task__TaskResult {
 public:
@@ -143,18 +144,26 @@ public:
     return static_cast<____HEU_Task__TaskResult_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_Task__TaskResult(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____HEU_Task__TaskResult_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HEU_Task__TaskResult();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HEU_Task__TaskResult(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field FAILED value: static_cast<int32_t>(0x2)
+  static ::HoudiniEngineUnity::__HEU_Task__TaskResult const FAILED;
+
+  /// @brief Field KILLED value: static_cast<int32_t>(0x3)
+  static ::HoudiniEngineUnity::__HEU_Task__TaskResult const KILLED;
 
   /// @brief Field NONE value: static_cast<int32_t>(0x0)
   static ::HoudiniEngineUnity::__HEU_Task__TaskResult const NONE;
@@ -162,11 +171,8 @@ public:
   /// @brief Field SUCCESS value: static_cast<int32_t>(0x1)
   static ::HoudiniEngineUnity::__HEU_Task__TaskResult const SUCCESS;
 
-  /// @brief Field FAILED value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_Task__TaskResult const FAILED;
-
-  /// @brief Field KILLED value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_Task__TaskResult const KILLED;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -180,26 +186,30 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Task__TaskResult, value__) ==
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9591))
 // CS Name: ::HEU_Task::TaskCallback*
 class CORDL_TYPE __HEU_Task__TaskCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::HoudiniEngineUnity::__HEU_Task__TaskCallback* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x223ffc0, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x22400ec, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::HoudiniEngineUnity::HEU_Task* task);
-
-  /// @brief Method BeginInvoke, addr 0x2240100, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x230c768, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_Task* task, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2240120, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x230c788, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x230c754, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::HoudiniEngineUnity::HEU_Task* task);
+
+  static inline ::HoudiniEngineUnity::__HEU_Task__TaskCallback* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x230c628, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HEU_Task__TaskCallback();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_Task__TaskCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HEU_Task__TaskCallback(__HEU_Task__TaskCallback&&) = delete;
@@ -208,12 +218,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HEU_Task__TaskCallback(__HEU_Task__TaskCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HEU_Task__TaskCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -224,8 +228,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Task__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9589)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9590))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9592)) CS Name: ::HoudiniEngineUnity::HEU_Task*
+// CS Name: ::HoudiniEngineUnity::HEU_Task*
 class CORDL_TYPE HEU_Task : public ::System::Object {
 public:
   // Declarations
@@ -235,64 +238,70 @@ public:
 
   using TaskStatus = ::HoudiniEngineUnity::__HEU_Task__TaskStatus;
 
-  /// @brief Field _status, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status))::HoudiniEngineUnity::__HEU_Task__TaskStatus _status;
-
-  /// @brief Field _result, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__result, put = __cordl_internal_set__result))::HoudiniEngineUnity::__HEU_Task__TaskResult _result;
+  __declspec(property(get = get_TaskGuid))::System::Guid TaskGuid;
 
   /// @brief Field _guid, offset 0x18, size 0x10
   __declspec(property(get = __cordl_internal_get__guid, put = __cordl_internal_set__guid))::System::Guid _guid;
 
+  /// @brief Field _result, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get__result, put = __cordl_internal_set__result))::HoudiniEngineUnity::__HEU_Task__TaskResult _result;
+
+  /// @brief Field _status, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status))::HoudiniEngineUnity::__HEU_Task__TaskStatus _status;
+
   /// @brief Field _taskCompletedDelegate, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__taskCompletedDelegate, put = __cordl_internal_set__taskCompletedDelegate))::HoudiniEngineUnity::__HEU_Task__TaskCallback* _taskCompletedDelegate;
 
-  __declspec(property(get = get_TaskGuid))::System::Guid TaskGuid;
+  /// @brief Method CompleteTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void CompleteTask(::HoudiniEngineUnity::__HEU_Task__TaskResult result);
 
-  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus& __cordl_internal_get__status();
+  /// @brief Method DoTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void DoTask();
 
-  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus const& __cordl_internal_get__status() const;
+  /// @brief Method KillTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void KillTask();
 
-  constexpr void __cordl_internal_set__status(::HoudiniEngineUnity::__HEU_Task__TaskStatus value);
+  static inline ::HoudiniEngineUnity::HEU_Task* New_ctor();
 
-  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskResult& __cordl_internal_get__result();
-
-  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskResult const& __cordl_internal_get__result() const;
-
-  constexpr void __cordl_internal_set__result(::HoudiniEngineUnity::__HEU_Task__TaskResult value);
-
-  constexpr ::System::Guid& __cordl_internal_get__guid();
+  /// @brief Method UpdateTask, addr 0x230c624, size 0x4, virtual true, abstract: false, final false
+  inline void UpdateTask();
 
   constexpr ::System::Guid const& __cordl_internal_get__guid() const;
 
-  constexpr void __cordl_internal_set__guid(::System::Guid value);
+  constexpr ::System::Guid& __cordl_internal_get__guid();
+
+  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskResult const& __cordl_internal_get__result() const;
+
+  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskResult& __cordl_internal_get__result();
+
+  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus const& __cordl_internal_get__status() const;
+
+  constexpr ::HoudiniEngineUnity::__HEU_Task__TaskStatus& __cordl_internal_get__status();
 
   constexpr ::HoudiniEngineUnity::__HEU_Task__TaskCallback*& __cordl_internal_get__taskCompletedDelegate();
 
   constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_Task__TaskCallback*> const& __cordl_internal_get__taskCompletedDelegate() const;
 
+  constexpr void __cordl_internal_set__guid(::System::Guid value);
+
+  constexpr void __cordl_internal_set__result(::HoudiniEngineUnity::__HEU_Task__TaskResult value);
+
+  constexpr void __cordl_internal_set__status(::HoudiniEngineUnity::__HEU_Task__TaskStatus value);
+
   constexpr void __cordl_internal_set__taskCompletedDelegate(::HoudiniEngineUnity::__HEU_Task__TaskCallback* value);
 
-  /// @brief Method get_TaskGuid, addr 0x223ff8c, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Guid get_TaskGuid();
-
-  static inline ::HoudiniEngineUnity::HEU_Task* New_ctor();
-
-  /// @brief Method .ctor, addr 0x223ff98, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230c600, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method DoTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void DoTask();
+  /// @brief Method get_TaskGuid, addr 0x230c5f4, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Guid get_TaskGuid();
 
-  /// @brief Method UpdateTask, addr 0x223ffbc, size 0x4, virtual true, abstract: false, final false
-  inline void UpdateTask();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HEU_Task();
 
-  /// @brief Method KillTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void KillTask();
-
-  /// @brief Method CompleteTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void CompleteTask(::HoudiniEngineUnity::__HEU_Task__TaskResult result);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Task", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HEU_Task(HEU_Task&&) = delete;
@@ -301,12 +310,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_Task(HEU_Task const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_Task();
-
-public:
   /// @brief Field _status, offset: 0x10, size: 0x4, def value: None
   ::HoudiniEngineUnity::__HEU_Task__TaskStatus ____status;
 

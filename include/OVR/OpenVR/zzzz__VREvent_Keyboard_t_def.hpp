@@ -16,16 +16,18 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Keyboard_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8618))
 // CS Name: ::OVR.OpenVR::VREvent_Keyboard_t
 struct CORDL_TYPE VREvent_Keyboard_t {
 public:
   // Declarations
   __declspec(property(get = get_cNewInput))::StringW cNewInput;
 
-  /// @brief Method get_cNewInput, addr 0x2803e18, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_cNewInput, addr 0x28e7f70, size 0xec, virtual false, abstract: false, final false
   inline ::StringW get_cNewInput();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr VREvent_Keyboard_t();
 
   // Ctor Parameters [CppParam { name: "cNewInput0", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "cNewInput1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
   // "cNewInput2", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "cNewInput3", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "cNewInput4", ty: "uint8_t",
@@ -33,10 +35,6 @@ public:
   // CppParam { name: "cNewInput7", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "uUserValue", ty: "uint64_t", modifiers: "", def_value: None }]
   constexpr VREvent_Keyboard_t(uint8_t cNewInput0, uint8_t cNewInput1, uint8_t cNewInput2, uint8_t cNewInput3, uint8_t cNewInput4, uint8_t cNewInput5, uint8_t cNewInput6, uint8_t cNewInput7,
                                uint64_t uUserValue) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VREvent_Keyboard_t();
 
   /// @brief Field cNewInput0, offset: 0x0, size: 0x1, def value: None
   uint8_t cNewInput0;

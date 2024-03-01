@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::GlobalNamespace::ConnectionFailedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(12606))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12605))
 // CS Name: ::ConnectionFailedException*
 class CORDL_TYPE ConnectionFailedException : public ::System::Exception {
 public:
@@ -28,22 +26,28 @@ public:
   /// @brief Field reason, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason))::GlobalNamespace::ConnectionFailedReason reason;
 
-  constexpr ::GlobalNamespace::ConnectionFailedReason& __cordl_internal_get_reason();
-
-  constexpr ::GlobalNamespace::ConnectionFailedReason const& __cordl_internal_get_reason() const;
-
-  constexpr void __cordl_internal_set_reason(::GlobalNamespace::ConnectionFailedReason value);
-
   static inline ::GlobalNamespace::ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason);
-
-  /// @brief Method .ctor, addr 0xe5d098, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason);
 
   static inline ::GlobalNamespace::ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
 
-  /// @brief Method .ctor, addr 0xe5d104, size 0x74, virtual false, abstract: false, final false
+  constexpr ::GlobalNamespace::ConnectionFailedReason const& __cordl_internal_get_reason() const;
+
+  constexpr ::GlobalNamespace::ConnectionFailedReason& __cordl_internal_get_reason();
+
+  constexpr void __cordl_internal_set_reason(::GlobalNamespace::ConnectionFailedReason value);
+
+  /// @brief Method .ctor, addr 0xea3068, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason);
+
+  /// @brief Method .ctor, addr 0xea30d4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConnectionFailedException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConnectionFailedException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConnectionFailedException(ConnectionFailedException&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConnectionFailedException(ConnectionFailedException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConnectionFailedException();
-
-public:
   /// @brief Field reason, offset: 0x8c, size: 0x4, def value: None
   ::GlobalNamespace::ConnectionFailedReason ___reason;
 

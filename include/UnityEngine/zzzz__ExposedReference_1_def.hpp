@@ -26,8 +26,6 @@ namespace UnityEngine {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8903))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8778))
 // CS Name: ::UnityEngine::ExposedReference`1<T>
 struct CORDL_TYPE ExposedReference_1 {
 public:
@@ -35,13 +33,13 @@ public:
   /// @brief Method Resolve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Resolve(::UnityEngine::IExposedPropertyTable* resolver);
 
-  // Ctor Parameters [CppParam { name: "exposedName", ty: "::UnityEngine::PropertyName", modifiers: "", def_value: None }, CppParam { name: "defaultValue", ty: "::UnityW<::UnityEngine::Object>",
-  // modifiers: "", def_value: None }]
-  constexpr ExposedReference_1(::UnityEngine::PropertyName exposedName, ::UnityW<::UnityEngine::Object> defaultValue) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr ExposedReference_1();
+
+  // Ctor Parameters [CppParam { name: "exposedName", ty: "::UnityEngine::PropertyName", modifiers: "", def_value: None }, CppParam { name: "defaultValue", ty: "::UnityW<::UnityEngine::Object>",
+  // modifiers: "", def_value: None }]
+  constexpr ExposedReference_1(::UnityEngine::PropertyName exposedName, ::UnityW<::UnityEngine::Object> defaultValue) noexcept;
 
   /// @brief Field exposedName, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::PropertyName exposedName;

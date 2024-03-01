@@ -66,22 +66,17 @@ MARK_REF_PTR_T(::ModestTree::ReflectionUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9766))
 // CS Name: ::ModestTree::ReflectionUtil*
 class CORDL_TYPE ReflectionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArray, addr 0x2eda6d0, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method CreateArray, addr 0x2fcddf8, size 0x308, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArray(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method CreateGenericList, addr 0x2eda9d8, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method CreateGenericList, addr 0x2fce100, size 0x458, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateGenericList(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method ToDebugString, addr 0x2edae30, size 0x130, virtual false, abstract: false, final false
-  static inline ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
-
-  /// @brief Method ToDebugString, addr 0x2edaf60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x2fce688, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Action* action);
 
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -116,6 +111,15 @@ public:
   /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4> static inline ::StringW ToDebugString(::System::Func_4<TParam1, TParam2, TParam3, TParam4>* func);
 
+  /// @brief Method ToDebugString, addr 0x2fce558, size 0x130, virtual false, abstract: false, final false
+  static inline ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ReflectionUtil();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtil", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ReflectionUtil(ReflectionUtil&&) = delete;
@@ -124,12 +128,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReflectionUtil(ReflectionUtil const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReflectionUtil();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

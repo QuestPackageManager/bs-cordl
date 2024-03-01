@@ -60,20 +60,24 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3416))
 // CS Name: ::ConditionalWeakTable`2::CreateValueCallback<TKey,TValue>*
 class CORDL_TYPE __ConditionalWeakTable_2__CreateValueCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TValue Invoke(TKey key);
+
   static inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TValue Invoke(TKey key);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ConditionalWeakTable_2__CreateValueCallback();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ConditionalWeakTable_2__CreateValueCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ConditionalWeakTable_2__CreateValueCallback(__ConditionalWeakTable_2__CreateValueCallback&&) = delete;
@@ -82,12 +86,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ConditionalWeakTable_2__CreateValueCallback(__ConditionalWeakTable_2__CreateValueCallback const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ConditionalWeakTable_2__CreateValueCallback();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -98,84 +96,89 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3840), inst: 1104
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3417)) CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
+// CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
 class CORDL_TYPE __ConditionalWeakTable_2__Enumerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _table, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table))::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* _table;
-
-  /// @brief Field _currentIndex, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__currentIndex, put = __cordl_internal_set__currentIndex)) int32_t _currentIndex;
-
-  /// @brief Field _current, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current;
-
   __declspec(property(get = get_Current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> Current;
 
   __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
 
+  /// @brief Field _current, offset 0x20, size 0x10
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current;
+
+  /// @brief Field _currentIndex, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__currentIndex, put = __cordl_internal_set__currentIndex)) int32_t _currentIndex;
+
+  /// @brief Field _table, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table))::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* _table;
+
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
-  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool MoveNext();
+
+  static inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>* New_ctor(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* table);
+
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Reset();
+
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+
+  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> const& __cordl_internal_get__current() const;
+
+  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>& __cordl_internal_get__current();
+
+  constexpr int32_t const& __cordl_internal_get__currentIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__currentIndex();
 
   constexpr ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*& __cordl_internal_get__table();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*> const& __cordl_internal_get__table() const;
 
-  constexpr void __cordl_internal_set__table(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* value);
-
-  constexpr int32_t& __cordl_internal_get__currentIndex();
-
-  constexpr int32_t const& __cordl_internal_get__currentIndex() const;
+  constexpr void __cordl_internal_set__current(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value);
 
   constexpr void __cordl_internal_set__currentIndex(int32_t value);
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>& __cordl_internal_get__current();
-
-  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> const& __cordl_internal_get__current() const;
-
-  constexpr void __cordl_internal_set__current(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value);
-
-  static inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>* New_ctor(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* table);
+  constexpr void __cordl_internal_set__table(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* table);
 
-  /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
   /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IEnumerator_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
 
-  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Reset();
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ConditionalWeakTable_2__Enumerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__ConditionalWeakTable_2__Enumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __ConditionalWeakTable_2__Enumerator(__ConditionalWeakTable_2__Enumerator&&) = delete;
@@ -184,12 +187,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ConditionalWeakTable_2__Enumerator(__ConditionalWeakTable_2__Enumerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ConditionalWeakTable_2__Enumerator();
-
-public:
   /// @brief Field _table, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* ____table;
 
@@ -209,22 +206,20 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3418))
 // CS Name: ::System.Runtime.CompilerServices::ConditionalWeakTable`2<TKey,TValue>*
 class CORDL_TYPE ConditionalWeakTable_2 : public ::System::Object {
 public:
   // Declarations
+  using CreateValueCallback = ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>;
+
   using Enumerator = ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>;
 
-  using CreateValueCallback = ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>;
+  /// @brief Field _lock, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
 
   /// @brief Field data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_data,
                       put = __cordl_internal_set_data))::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> data;
-
-  /// @brief Field _lock, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
 
   /// @brief Field size, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
@@ -232,44 +227,19 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
-  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
-
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*>& __cordl_internal_get_data();
-
-  constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> const& __cordl_internal_get_data() const;
-
-  constexpr void __cordl_internal_set_data(::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> value);
-
-  constexpr ::System::Object*& __cordl_internal_get__lock();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lock() const;
-
-  constexpr void __cordl_internal_set__lock(::System::Object* value);
-
-  constexpr int32_t& __cordl_internal_get_size();
-
-  constexpr int32_t const& __cordl_internal_get_size() const;
-
-  constexpr void __cordl_internal_set_size(int32_t value);
-
-  static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Add(TKey key, TValue value);
 
   /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method RehashWithoutResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void RehashWithoutResize();
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TValue GetValue(TKey key, ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>* createValueCallback);
+
+  static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* New_ctor();
 
   /// @brief Method RecomputeSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RecomputeSize();
@@ -277,17 +247,11 @@ public:
   /// @brief Method Rehash, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Rehash();
 
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(TKey key, TValue value);
+  /// @brief Method RehashWithoutResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void RehashWithoutResize();
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Remove(TKey key);
-
-  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetValue(TKey key, ByRef<TValue> value);
-
-  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TValue GetValue(TKey key, ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>* createValueCallback);
 
   /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final
   /// true
@@ -297,6 +261,43 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryGetValue(TKey key, ByRef<TValue> value);
+
+  constexpr ::System::Object*& __cordl_internal_get__lock();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lock() const;
+
+  constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> const& __cordl_internal_get_data() const;
+
+  constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*>& __cordl_internal_get_data();
+
+  constexpr int32_t const& __cordl_internal_get_size() const;
+
+  constexpr int32_t& __cordl_internal_get_size();
+
+  constexpr void __cordl_internal_set__lock(::System::Object* value);
+
+  constexpr void __cordl_internal_set_data(::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> value);
+
+  constexpr void __cordl_internal_set_size(int32_t value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+  i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConditionalWeakTable_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConditionalWeakTable_2(ConditionalWeakTable_2&&) = delete;
@@ -305,12 +306,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConditionalWeakTable_2(ConditionalWeakTable_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConditionalWeakTable_2();
-
-public:
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> ___data;
 
@@ -320,17 +315,17 @@ public:
   /// @brief Field size, offset: 0x20, size: 0x4, def value: None
   int32_t ___size;
 
-  /// @brief Field INITIAL_SIZE offset 0xffffffff size 0x4
-  static constexpr int32_t INITIAL_SIZE{ static_cast<int32_t>(0xd) };
-
-  /// @brief Field LOAD_FACTOR offset 0xffffffff size 0x4
-  static constexpr float_t LOAD_FACTOR{ 0.7 };
-
   /// @brief Field COMPACT_FACTOR offset 0xffffffff size 0x4
   static constexpr float_t COMPACT_FACTOR{ 0.5 };
 
   /// @brief Field EXPAND_FACTOR offset 0xffffffff size 0x4
   static constexpr float_t EXPAND_FACTOR{ 1.1 };
+
+  /// @brief Field INITIAL_SIZE offset 0xffffffff size 0x4
+  static constexpr int32_t INITIAL_SIZE{ static_cast<int32_t>(0xd) };
+
+  /// @brief Field LOAD_FACTOR offset 0xffffffff size 0x4
+  static constexpr float_t LOAD_FACTOR{ 0.7 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

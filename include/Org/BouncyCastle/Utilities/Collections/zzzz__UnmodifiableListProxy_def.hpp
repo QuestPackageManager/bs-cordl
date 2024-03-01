@@ -27,15 +27,10 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProx
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1787))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1788))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::UnmodifiableListProxy*
 class CORDL_TYPE UnmodifiableListProxy : public ::Org::BouncyCastle::Utilities::Collections::UnmodifiableList {
 public:
   // Declarations
-  /// @brief Field l, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l))::System::Collections::IList* l;
-
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_IsFixedSize)) bool IsFixedSize;
@@ -44,44 +39,53 @@ public:
 
   __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
 
+  /// @brief Field l, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l))::System::Collections::IList* l;
+
+  /// @brief Method Contains, addr 0x11ca904, size 0xac, virtual true, abstract: false, final false
+  inline bool Contains(::System::Object* o);
+
+  /// @brief Method CopyTo, addr 0x11ca9b0, size 0xb8, virtual true, abstract: false, final false
+  inline void CopyTo(::System::Array* array, int32_t index);
+
+  /// @brief Method GetEnumerator, addr 0x11cab0c, size 0xa0, virtual true, abstract: false, final false
+  inline ::System::Collections::IEnumerator* GetEnumerator();
+
+  /// @brief Method GetValue, addr 0x11cae44, size 0xa8, virtual true, abstract: false, final false
+  inline ::System::Object* GetValue(int32_t i);
+
+  /// @brief Method IndexOf, addr 0x11cabac, size 0xac, virtual true, abstract: false, final false
+  inline int32_t IndexOf(::System::Object* o);
+
+  static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy* New_ctor(::System::Collections::IList* l);
+
   constexpr ::System::Collections::IList*& __cordl_internal_get_l();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_l() const;
 
   constexpr void __cordl_internal_set_l(::System::Collections::IList* value);
 
-  static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy* New_ctor(::System::Collections::IList* l);
-
-  /// @brief Method .ctor, addr 0x11853e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11c73b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* l);
 
-  /// @brief Method Contains, addr 0x1188934, size 0xac, virtual true, abstract: false, final false
-  inline bool Contains(::System::Object* o);
-
-  /// @brief Method CopyTo, addr 0x11889e0, size 0xb8, virtual true, abstract: false, final false
-  inline void CopyTo(::System::Array* array, int32_t index);
-
-  /// @brief Method get_Count, addr 0x1188a98, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x11caa68, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method GetEnumerator, addr 0x1188b3c, size 0xa0, virtual true, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetEnumerator();
-
-  /// @brief Method IndexOf, addr 0x1188bdc, size 0xac, virtual true, abstract: false, final false
-  inline int32_t IndexOf(::System::Object* o);
-
-  /// @brief Method get_IsFixedSize, addr 0x1188c88, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixedSize, addr 0x11cac58, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsSynchronized, addr 0x1188d2c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x11cacfc, size 0xa4, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x1188dd0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x11cada0, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method GetValue, addr 0x1188e74, size 0xa8, virtual true, abstract: false, final false
-  inline ::System::Object* GetValue(int32_t i);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnmodifiableListProxy();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnmodifiableListProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnmodifiableListProxy(UnmodifiableListProxy&&) = delete;
@@ -90,12 +94,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnmodifiableListProxy(UnmodifiableListProxy const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnmodifiableListProxy();
-
-public:
   /// @brief Field l, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___l;
 

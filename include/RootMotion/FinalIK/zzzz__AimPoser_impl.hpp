@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::RootMotion::FinalIK::__AimPoser__Pose::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::__AimPoser__Pose::IsInDirection)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x132c098;
+  constexpr static std::size_t addrs = 0x136d084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__AimPoser__Pose::*)(float_t)>(
     &::RootMotion::FinalIK::__AimPoser__Pose::SetAngleBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x132c608;
+  constexpr static std::size_t addrs = 0x136d5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::__AimPoser__Pose::*)()>(&::RootMotion::FinalIK::__AimPoser__Pose::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x132c610;
+  constexpr static std::size_t addrs = 0x136d5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::__AimPoser__Pose*>::get(), ".ctor",
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::RootMotion::FinalIK::__AimPoser__Pose* (::RootMotion::FinalIK::AimPoser::*)(::UnityEngine::Vector3)>(
     &::RootMotion::FinalIK::AimPoser::GetPose)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x132bfc8;
+  constexpr static std::size_t addrs = 0x136cfb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::AimPoser::*)(::RootMotion::FinalIK::__AimPoser__Pose*)>(
     &::RootMotion::FinalIK::AimPoser::SetPoseActive)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x132c548;
+  constexpr static std::size_t addrs = 0x136d534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::FinalIK::AimPoser::*)()>(&::RootMotion::FinalIK::AimPoser::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x132c5a8;
+  constexpr static std::size_t addrs = 0x136d594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::AimPoser*>::get(), ".ctor",

@@ -52,8 +52,6 @@ MARK_VAL_T(::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlemen
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10598))
 // CS Name: ::ISonyCommerceHelper::DisplayProductBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayProductBrowseDialogResult {
 public:
@@ -71,24 +69,29 @@ public:
     return static_cast<____ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ISonyCommerceHelper__DisplayProductBrowseDialogResult(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ISonyCommerceHelper__DisplayProductBrowseDialogResult();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ISonyCommerceHelper__DisplayProductBrowseDialogResult(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Failed value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult const Failed;
 
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult const OK;
 
-  /// @brief Field Failed value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult const Failed;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -102,8 +105,6 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayProductB
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10599))
 // CS Name: ::ISonyCommerceHelper::DisplayCategoryBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult {
 public:
@@ -121,24 +122,29 @@ public:
     return static_cast<____ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Failed value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult const Failed;
 
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult const OK;
 
-  /// @brief Field Failed value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult const Failed;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -152,8 +158,6 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayCategory
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10600))
 // CS Name: ::ISonyCommerceHelper::GetAdditionalContentEntitlementsResult
 struct CORDL_TYPE __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult {
 public:
@@ -171,24 +175,29 @@ public:
     return static_cast<____ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Failed value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult const Failed;
 
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult const OK;
 
-  /// @brief Field Failed value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult const Failed;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -202,20 +211,18 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalCo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10600))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10601))
 // CS Name: ::ISonyCommerceHelper::AdditionalContentEntitlementsAsyncResult
 struct CORDL_TYPE __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult();
+
   // Ctor Parameters [CppParam { name: "result", ty: "::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult", modifiers: "", def_value: None }, CppParam { name:
   // "entitlementsLabels", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }]
   constexpr __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult result,
                                                                             ::ArrayW<::StringW, ::Array<::StringW>*> entitlementsLabels) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult();
 
   /// @brief Field result, offset: 0x0, size: 0x4, def value: None
   ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult result;
@@ -240,31 +247,29 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__AdditionalConte
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10602))
 // CS Name: ::ISonyCommerceHelper*
 class CORDL_TYPE ISonyCommerceHelper {
 public:
   // Declarations
   using AdditionalContentEntitlementsAsyncResult = ::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
 
-  using GetAdditionalContentEntitlementsResult = ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
-
   using DisplayCategoryBrowseDialogResult = ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult;
 
   using DisplayProductBrowseDialogResult = ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult;
 
-  /// @brief Method GetAdditionalContentEntitlementsAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult>*
-  GetAdditionalContentEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
+  using GetAdditionalContentEntitlementsResult = ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
+
+  /// @brief Method DisplayCategoryBrowseDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult>*
+  DisplayCategoryBrowseDialogAsync(::StringW categoryLabel, ::System::Threading::CancellationToken token);
 
   /// @brief Method DisplayProductBrowseDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult>* DisplayProductBrowseDialogAsync(::StringW productLabel,
                                                                                                                                                          ::System::Threading::CancellationToken token);
 
-  /// @brief Method DisplayCategoryBrowseDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult>*
-  DisplayCategoryBrowseDialogAsync(::StringW categoryLabel, ::System::Threading::CancellationToken token);
+  /// @brief Method GetAdditionalContentEntitlementsAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult>*
+  GetAdditionalContentEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISonyCommerceHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

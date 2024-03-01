@@ -36,32 +36,34 @@ MARK_REF_PTR_T(::System::Collections::Comparer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3751))
 // CS Name: ::System.Collections::Comparer*
 class CORDL_TYPE Comparer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _compareInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
-
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::Collections::Comparer* Default;
 
   /// @brief Field DefaultInvariant, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DefaultInvariant, put = setStaticF_DefaultInvariant))::System::Collections::Comparer* DefaultInvariant;
 
+  /// @brief Field _compareInfo, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
+
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
-
-  /// @brief Convert to "::System::Collections::IComparer"
-  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Method Compare, addr 0x266f7d8, size 0x210, virtual true, abstract: false, final true
+  inline int32_t Compare(::System::Object* a, ::System::Object* b);
+
+  /// @brief Method GetObjectData, addr 0x266f734, size 0xa4, virtual true, abstract: false, final true
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::Collections::Comparer* New_ctor(::System::Globalization::CultureInfo* culture);
+
+  static inline ::System::Collections::Comparer* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo();
 
@@ -69,30 +71,32 @@ public:
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  static inline void setStaticF_Default(::System::Collections::Comparer* value);
+  /// @brief Method .ctor, addr 0x266f538, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::System::Globalization::CultureInfo* culture);
+
+  /// @brief Method .ctor, addr 0x266f5c0, size 0x174, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Collections::Comparer* getStaticF_Default();
 
-  static inline void setStaticF_DefaultInvariant(::System::Collections::Comparer* value);
-
   static inline ::System::Collections::Comparer* getStaticF_DefaultInvariant();
 
-  static inline ::System::Collections::Comparer* New_ctor(::System::Globalization::CultureInfo* culture);
+  /// @brief Convert to "::System::Collections::IComparer"
+  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
-  /// @brief Method .ctor, addr 0x259ee54, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(::System::Globalization::CultureInfo* culture);
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  static inline ::System::Collections::Comparer* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  static inline void setStaticF_Default(::System::Collections::Comparer* value);
 
-  /// @brief Method .ctor, addr 0x259eedc, size 0x174, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+  static inline void setStaticF_DefaultInvariant(::System::Collections::Comparer* value);
 
-  /// @brief Method GetObjectData, addr 0x259f050, size 0xa4, virtual true, abstract: false, final true
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Comparer();
 
-  /// @brief Method Compare, addr 0x259f0f4, size 0x210, virtual true, abstract: false, final true
-  inline int32_t Compare(::System::Object* a, ::System::Object* b);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Comparer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Comparer(Comparer&&) = delete;
@@ -101,12 +105,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Comparer(Comparer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Comparer();
-
-public:
   /// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Globalization::CompareInfo* ____compareInfo;
 

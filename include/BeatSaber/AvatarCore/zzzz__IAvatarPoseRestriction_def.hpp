@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::IAvatarPoseRestriction);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15272))
 // CS Name: ::BeatSaber.AvatarCore::IAvatarPoseRestriction*
 class CORDL_TYPE IAvatarPoseRestriction {
 public:

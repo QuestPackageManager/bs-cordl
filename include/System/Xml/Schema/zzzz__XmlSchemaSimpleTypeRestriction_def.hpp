@@ -20,40 +20,44 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleTypeRestriction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11636))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11638))
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleTypeRestriction*
 class CORDL_TYPE XmlSchemaSimpleTypeRestriction : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
   // Declarations
+  __declspec(property(put = set_BaseTypeName))::System::Xml::XmlQualifiedName* BaseTypeName;
+
   /// @brief Field baseTypeName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_baseTypeName, put = __cordl_internal_set_baseTypeName))::System::Xml::XmlQualifiedName* baseTypeName;
 
   /// @brief Field facets, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_facets, put = __cordl_internal_set_facets))::System::Xml::Schema::XmlSchemaObjectCollection* facets;
 
-  __declspec(property(put = set_BaseTypeName))::System::Xml::XmlQualifiedName* BaseTypeName;
+  static inline ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction* New_ctor();
 
   constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_baseTypeName();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_baseTypeName() const;
 
-  constexpr void __cordl_internal_set_baseTypeName(::System::Xml::XmlQualifiedName* value);
-
   constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_facets();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& __cordl_internal_get_facets() const;
 
+  constexpr void __cordl_internal_set_baseTypeName(::System::Xml::XmlQualifiedName* value);
+
   constexpr void __cordl_internal_set_facets(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method set_BaseTypeName, addr 0x28cb7e4, size 0x98, virtual false, abstract: false, final false
-  inline void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
-
-  static inline ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction* New_ctor();
-
-  /// @brief Method .ctor, addr 0x28cb87c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b2cf8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method set_BaseTypeName, addr 0x29b2c60, size 0x98, virtual false, abstract: false, final false
+  inline void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlSchemaSimpleTypeRestriction();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleTypeRestriction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlSchemaSimpleTypeRestriction(XmlSchemaSimpleTypeRestriction&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaSimpleTypeRestriction(XmlSchemaSimpleTypeRestriction const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaSimpleTypeRestriction();
-
-public:
   /// @brief Field baseTypeName, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___baseTypeName;
 

@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::SpawnRotationItemConverter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10726))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11239))
 // CS Name: ::BeatmapDataLoaderVersion4::SpawnRotationItemConverter*
 class CORDL_TYPE SpawnRotationItemConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
 public:
@@ -37,21 +35,27 @@ public:
   __declspec(property(get = __cordl_internal_get__spawnRotations,
                       put = __cordl_internal_set__spawnRotations))::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> _spawnRotations;
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*>& __cordl_internal_get__spawnRotations();
-
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> const& __cordl_internal_get__spawnRotations() const;
-
-  constexpr void __cordl_internal_set__spawnRotations(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> value);
+  /// @brief Method Convert, addr 0x1300370, size 0xcc, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::SpawnRotationItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> spawnRotations,
                                                                                   ::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
-  /// @brief Method .ctor, addr 0x12bf374, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> const& __cordl_internal_get__spawnRotations() const;
+
+  constexpr ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*>& __cordl_internal_get__spawnRotations();
+
+  constexpr void __cordl_internal_set__spawnRotations(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> value);
+
+  /// @brief Method .ctor, addr 0x1300344, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> spawnRotations, ::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
-  /// @brief Method Convert, addr 0x12bf3a0, size 0xcc, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpawnRotationItemConverter();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationItemConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnRotationItemConverter(SpawnRotationItemConverter&&) = delete;
@@ -60,12 +64,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpawnRotationItemConverter(SpawnRotationItemConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpawnRotationItemConverter();
-
-public:
   /// @brief Field _spawnRotations, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> ____spawnRotations;
 

@@ -18,19 +18,17 @@ MARK_VAL_T(::GlobalNamespace::OVRBinaryChunk);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7641))
 // CS Name: ::OVRBinaryChunk
 struct CORDL_TYPE OVRBinaryChunk {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "chunkStream", ty: "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "chunkLength", ty: "uint32_t", modifiers: "", def_value: None },
-  // CppParam { name: "chunkStart", ty: "int64_t", modifiers: "", def_value: None }]
-  constexpr OVRBinaryChunk(::System::IO::Stream* chunkStream, uint32_t chunkLength, int64_t chunkStart) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr OVRBinaryChunk();
+
+  // Ctor Parameters [CppParam { name: "chunkStream", ty: "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "chunkLength", ty: "uint32_t", modifiers: "", def_value: None },
+  // CppParam { name: "chunkStart", ty: "int64_t", modifiers: "", def_value: None }]
+  constexpr OVRBinaryChunk(::System::IO::Stream* chunkStream, uint32_t chunkLength, int64_t chunkStart) noexcept;
 
   /// @brief Field chunkStream, offset: 0x0, size: 0x8, def value: None
   ::System::IO::Stream* chunkStream;

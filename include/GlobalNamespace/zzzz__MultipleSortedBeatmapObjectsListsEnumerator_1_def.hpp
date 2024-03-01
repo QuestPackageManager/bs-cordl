@@ -58,8 +58,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15235))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10728))
 // CS Name: ::MultipleSortedBeatmapObjectsListsEnumerator`1::BeatmapObjectListNode<T>*
 class CORDL_TYPE __MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode : public ::Priority_Queue::StablePriorityQueueNode {
 public:
@@ -67,48 +65,54 @@ public:
   /// @brief Field _dataList, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__dataList, put = __cordl_internal_set__dataList))::System::Collections::Generic::IReadOnlyList_1<T>* _dataList;
 
-  /// @brief Field _typeId, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__typeId, put = __cordl_internal_set__typeId)) int32_t _typeId;
-
   /// @brief Field _idx, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__idx, put = __cordl_internal_set__idx)) int32_t _idx;
 
-  __declspec(property(get = get_value)) T value;
+  /// @brief Field _typeId, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__typeId, put = __cordl_internal_set__typeId)) int32_t _typeId;
 
   __declspec(property(get = get_typeId)) int32_t typeId;
+
+  __declspec(property(get = get_value)) T value;
+
+  /// @brief Method MoveToNextItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool MoveToNextItem();
+
+  static inline ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>* New_ctor(::System::Collections::Generic::IReadOnlyList_1<T>* dataList, int32_t typeId);
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<T>*& __cordl_internal_get__dataList();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<T>*> const& __cordl_internal_get__dataList() const;
 
-  constexpr void __cordl_internal_set__dataList(::System::Collections::Generic::IReadOnlyList_1<T>* value);
-
-  constexpr int32_t& __cordl_internal_get__typeId();
-
-  constexpr int32_t const& __cordl_internal_get__typeId() const;
-
-  constexpr void __cordl_internal_set__typeId(int32_t value);
+  constexpr int32_t const& __cordl_internal_get__idx() const;
 
   constexpr int32_t& __cordl_internal_get__idx();
 
-  constexpr int32_t const& __cordl_internal_get__idx() const;
+  constexpr int32_t const& __cordl_internal_get__typeId() const;
+
+  constexpr int32_t& __cordl_internal_get__typeId();
+
+  constexpr void __cordl_internal_set__dataList(::System::Collections::Generic::IReadOnlyList_1<T>* value);
 
   constexpr void __cordl_internal_set__idx(int32_t value);
 
-  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T get_value();
-
-  /// @brief Method get_typeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_typeId();
-
-  static inline ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>* New_ctor(::System::Collections::Generic::IReadOnlyList_1<T>* dataList, int32_t typeId);
+  constexpr void __cordl_internal_set__typeId(int32_t value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<T>* dataList, int32_t typeId);
 
-  /// @brief Method MoveToNextItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool MoveToNextItem();
+  /// @brief Method get_typeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_typeId();
 
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_value();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode(__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode&&) = delete;
@@ -117,12 +121,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode(__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode();
-
-public:
   /// @brief Field _dataList, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<T>* ____dataList;
 
@@ -142,11 +140,16 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5286
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10729)) CS Name: ::MultipleSortedBeatmapObjectsListsEnumerator`1::<GetEnumerator>d__4<T>*
+// CS Name: ::MultipleSortedBeatmapObjectsListsEnumerator`1::<GetEnumerator>d__4<T>*
 class CORDL_TYPE __MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(
+      get =
+          System_Collections_Generic_IEnumerator__Titem_System_Int32typeId___get_Current))::System::ValueTuple_2<T, int32_t> System_Collections_Generic_IEnumerator__Titem_System_Int32typeId___Current;
+
+  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
@@ -160,64 +163,19 @@ public:
   __declspec(property(get = __cordl_internal_get__node_5__2,
                       put = __cordl_internal_set__node_5__2))::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>* _node_5__2;
 
-  __declspec(property(
-      get =
-          System_Collections_Generic_IEnumerator__Titem_System_Int32typeId___get_Current))::System::ValueTuple_2<T, int32_t> System_Collections_Generic_IEnumerator__Titem_System_Int32typeId___Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T,int32_t>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T, int32_t>>*() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T,int32_t>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T, int32_t>>* i___System__Collections__Generic__IEnumerator_1___System__ValueTuple_2_T_int32_t__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr ::System::ValueTuple_2<T, int32_t>& __cordl_internal_get___2__current();
-
-  constexpr ::System::ValueTuple_2<T, int32_t> const& __cordl_internal_get___2__current() const;
-
-  constexpr void __cordl_internal_set___2__current(::System::ValueTuple_2<T, int32_t> value);
-
-  constexpr ::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>*& __cordl_internal_get___4__this();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>*> const& __cordl_internal_get___4__this() const;
-
-  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>* value);
-
-  constexpr ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*& __cordl_internal_get__node_5__2();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*> const& __cordl_internal_get__node_5__2() const;
-
-  constexpr void __cordl_internal_set__node_5__2(::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>* value);
-
-  static inline ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4<T>* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
+
+  static inline ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4<T>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerator<(Titem,System.Int32typeId)>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::ValueTuple_2<T, int32_t> System_Collections_Generic_IEnumerator__Titem_System_Int32typeId___get_Current();
@@ -228,6 +186,51 @@ public:
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void System_IDisposable_Dispose();
+
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+  constexpr int32_t& __cordl_internal_get___1__state();
+
+  constexpr ::System::ValueTuple_2<T, int32_t> const& __cordl_internal_get___2__current() const;
+
+  constexpr ::System::ValueTuple_2<T, int32_t>& __cordl_internal_get___2__current();
+
+  constexpr ::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>*& __cordl_internal_get___4__this();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>*> const& __cordl_internal_get___4__this() const;
+
+  constexpr ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*& __cordl_internal_get__node_5__2();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*> const& __cordl_internal_get__node_5__2() const;
+
+  constexpr void __cordl_internal_set___1__state(int32_t value);
+
+  constexpr void __cordl_internal_set___2__current(::System::ValueTuple_2<T, int32_t> value);
+
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>* value);
+
+  constexpr void __cordl_internal_set__node_5__2(::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t __1__state);
+
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T,int32_t>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T, int32_t>>* i___System__Collections__Generic__IEnumerator_1___System__ValueTuple_2_T_int32_t__() noexcept;
+
+  /// @brief Convert to "::System::Collections::IEnumerator"
+  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4(__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4&&) = delete;
@@ -236,12 +239,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4(__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4();
-
-public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
 
@@ -264,15 +261,13 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10730))
 // CS Name: ::MultipleSortedBeatmapObjectsListsEnumerator`1<T>*
 class CORDL_TYPE MultipleSortedBeatmapObjectsListsEnumerator_1 : public ::System::Object {
 public:
   // Declarations
-  using _GetEnumerator_d__4 = ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4<T>;
-
   using BeatmapObjectListNode = ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>;
+
+  using _GetEnumerator_d__4 = ::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1___GetEnumerator_d__4<T>;
 
   /// @brief Field _priorityQueue, offset 0x10, size 0x8
   __declspec(property(
@@ -282,8 +277,15 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T, int32_t>>* GetEnumerator();
+
+  static inline ::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>* New_ctor(
+      ::ArrayW<::System::ValueTuple_2<::System::Collections::Generic::IReadOnlyList_1<T>*, int32_t>, ::Array<::System::ValueTuple_2<::System::Collections::Generic::IReadOnlyList_1<T>*, int32_t>>*>
+          dataList);
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::Priority_Queue::StablePriorityQueue_1<::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*>*& __cordl_internal_get__priorityQueue();
 
@@ -292,21 +294,20 @@ public:
 
   constexpr void __cordl_internal_set__priorityQueue(::Priority_Queue::StablePriorityQueue_1<::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*>* value);
 
-  static inline ::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>* New_ctor(
-      ::ArrayW<::System::ValueTuple_2<::System::Collections::Generic::IReadOnlyList_1<T>*, int32_t>, ::Array<::System::ValueTuple_2<::System::Collections::Generic::IReadOnlyList_1<T>*, int32_t>>*>
-          dataList);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void
   _ctor(::ArrayW<::System::ValueTuple_2<::System::Collections::Generic::IReadOnlyList_1<T>*, int32_t>, ::Array<::System::ValueTuple_2<::System::Collections::Generic::IReadOnlyList_1<T>*, int32_t>>*>
             dataList);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<T, int32_t>>* GetEnumerator();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultipleSortedBeatmapObjectsListsEnumerator_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultipleSortedBeatmapObjectsListsEnumerator_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultipleSortedBeatmapObjectsListsEnumerator_1(MultipleSortedBeatmapObjectsListsEnumerator_1&&) = delete;
@@ -315,12 +316,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultipleSortedBeatmapObjectsListsEnumerator_1(MultipleSortedBeatmapObjectsListsEnumerator_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultipleSortedBeatmapObjectsListsEnumerator_1();
-
-public:
   /// @brief Field _priorityQueue, offset: 0x10, size: 0x8, def value: None
   ::Priority_Queue::StablePriorityQueue_1<::GlobalNamespace::__MultipleSortedBeatmapObjectsListsEnumerator_1__BeatmapObjectListNode<T>*>* ____priorityQueue;
 

@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3163))
 // CS Name: ::System.Runtime.Remoting.Messaging::EnvoyTerminatorSink*
 class CORDL_TYPE EnvoyTerminatorSink : public ::System::Object {
 public:
@@ -35,25 +33,31 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
-
-  static inline void setStaticF_Instance(::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* value);
-
-  static inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* getStaticF_Instance();
-
-  /// @brief Method SyncProcessMessage, addr 0x24cf45c, size 0xb4, virtual true, abstract: false, final true
-  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
-
-  /// @brief Method AsyncProcessMessage, addr 0x24cf510, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x25a0208, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24cf5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SyncProcessMessage, addr 0x25a0154, size 0xb4, virtual true, abstract: false, final true
+  inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
+
+  /// @brief Method .ctor, addr 0x25a02c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* getStaticF_Instance();
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
+
+  static inline void setStaticF_Instance(::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EnvoyTerminatorSink();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EnvoyTerminatorSink", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EnvoyTerminatorSink(EnvoyTerminatorSink&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvoyTerminatorSink(EnvoyTerminatorSink const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvoyTerminatorSink();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

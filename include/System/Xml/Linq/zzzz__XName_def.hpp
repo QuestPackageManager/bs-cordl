@@ -34,103 +34,107 @@ MARK_REF_PTR_T(::System::Xml::Linq::XName);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15565))
 // CS Name: ::System.Xml.Linq::XName*
 class CORDL_TYPE XName : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _ns, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ns, put = __cordl_internal_set__ns))::System::Xml::Linq::XNamespace* _ns;
-
-  /// @brief Field _localName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__localName, put = __cordl_internal_set__localName))::StringW _localName;
-
-  /// @brief Field _hashCode, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__hashCode, put = __cordl_internal_set__hashCode)) int32_t _hashCode;
-
   __declspec(property(get = get_LocalName))::StringW LocalName;
 
   __declspec(property(get = get_Namespace))::System::Xml::Linq::XNamespace* Namespace;
 
   __declspec(property(get = get_NamespaceName))::StringW NamespaceName;
 
+  /// @brief Field _hashCode, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__hashCode, put = __cordl_internal_set__hashCode)) int32_t _hashCode;
+
+  /// @brief Field _localName, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__localName, put = __cordl_internal_set__localName))::StringW _localName;
+
+  /// @brief Field _ns, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__ns, put = __cordl_internal_set__ns))::System::Xml::Linq::XNamespace* _ns;
+
   /// @brief Convert operator to "::System::IEquatable_1<::System::Xml::Linq::XName*>"
   constexpr operator ::System::IEquatable_1<::System::Xml::Linq::XName*>*() noexcept;
-
-  /// @brief Convert to "::System::IEquatable_1<::System::Xml::Linq::XName*>"
-  constexpr ::System::IEquatable_1<::System::Xml::Linq::XName*>* i___System__IEquatable_1___System__Xml__Linq__XName__() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+  /// @brief Method Equals, addr 0x29492c4, size 0xc, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Get, addr 0x2948c80, size 0x154, virtual false, abstract: false, final false
+  static inline ::System::Xml::Linq::XName* Get(::StringW expandedName);
+
+  /// @brief Method Get, addr 0x2949294, size 0x24, virtual false, abstract: false, final false
+  static inline ::System::Xml::Linq::XName* Get(::StringW localName, ::StringW namespaceName);
+
+  /// @brief Method GetHashCode, addr 0x29492d0, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::System::Xml::Linq::XName* New_ctor();
+
+  static inline ::System::Xml::Linq::XName* New_ctor(::System::Xml::Linq::XNamespace* ns, ::StringW localName);
+
+  /// @brief Method System.IEquatable<System.Xml.Linq.XName>.Equals, addr 0x29492d8, size 0xc, virtual true, abstract: false, final true
+  inline bool System_IEquatable_System_Xml_Linq_XName__Equals(::System::Xml::Linq::XName* other);
+
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29492e4, size 0x40, virtual true, abstract: false, final true
+  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method ToString, addr 0x2948bf0, size 0x90, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  constexpr int32_t const& __cordl_internal_get__hashCode() const;
+
+  constexpr int32_t& __cordl_internal_get__hashCode();
+
+  constexpr ::StringW const& __cordl_internal_get__localName() const;
+
+  constexpr ::StringW& __cordl_internal_get__localName();
 
   constexpr ::System::Xml::Linq::XNamespace*& __cordl_internal_get__ns();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNamespace*> const& __cordl_internal_get__ns() const;
 
-  constexpr void __cordl_internal_set__ns(::System::Xml::Linq::XNamespace* value);
-
-  constexpr ::StringW& __cordl_internal_get__localName();
-
-  constexpr ::StringW const& __cordl_internal_get__localName() const;
+  constexpr void __cordl_internal_set__hashCode(int32_t value);
 
   constexpr void __cordl_internal_set__localName(::StringW value);
 
-  constexpr int32_t& __cordl_internal_get__hashCode();
+  constexpr void __cordl_internal_set__ns(::System::Xml::Linq::XNamespace* value);
 
-  constexpr int32_t const& __cordl_internal_get__hashCode() const;
-
-  constexpr void __cordl_internal_set__hashCode(int32_t value);
-
-  static inline ::System::Xml::Linq::XName* New_ctor(::System::Xml::Linq::XNamespace* ns, ::StringW localName);
-
-  /// @brief Method .ctor, addr 0x28636ac, size 0xb8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Linq::XNamespace* ns, ::StringW localName);
-
-  /// @brief Method get_LocalName, addr 0x2863764, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_LocalName();
-
-  /// @brief Method get_Namespace, addr 0x286376c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Linq::XNamespace* get_Namespace();
-
-  /// @brief Method get_NamespaceName, addr 0x285e868, size 0x1c, virtual false, abstract: false, final false
-  inline ::StringW get_NamespaceName();
-
-  /// @brief Method ToString, addr 0x2863774, size 0x90, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  /// @brief Method Get, addr 0x2863804, size 0x154, virtual false, abstract: false, final false
-  static inline ::System::Xml::Linq::XName* Get(::StringW expandedName);
-
-  /// @brief Method Get, addr 0x2863e18, size 0x24, virtual false, abstract: false, final false
-  static inline ::System::Xml::Linq::XName* Get(::StringW localName, ::StringW namespaceName);
-
-  /// @brief Method op_Implicit, addr 0x2863e3c, size 0xc, virtual false, abstract: false, final false
-  static inline ::System::Xml::Linq::XName* op_Implicit___System__Xml__Linq__XName_(::StringW expandedName);
-
-  /// @brief Method Equals, addr 0x2863e48, size 0xc, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2863e54, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method op_Equality, addr 0x285e114, size 0xc, virtual false, abstract: false, final false
-  static inline bool op_Equality(::System::Xml::Linq::XName* left, ::System::Xml::Linq::XName* right);
-
-  /// @brief Method System.IEquatable<System.Xml.Linq.XName>.Equals, addr 0x2863e5c, size 0xc, virtual true, abstract: false, final true
-  inline bool System_IEquatable_System_Xml_Linq_XName__Equals(::System::Xml::Linq::XName* other);
-
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2863e68, size 0x40, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  static inline ::System::Xml::Linq::XName* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2863ea8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2949324, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method .ctor, addr 0x2948b28, size 0xb8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Xml::Linq::XNamespace* ns, ::StringW localName);
+
+  /// @brief Method get_LocalName, addr 0x2948be0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_LocalName();
+
+  /// @brief Method get_Namespace, addr 0x2948be8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::Linq::XNamespace* get_Namespace();
+
+  /// @brief Method get_NamespaceName, addr 0x2943ce4, size 0x1c, virtual false, abstract: false, final false
+  inline ::StringW get_NamespaceName();
+
+  /// @brief Convert to "::System::IEquatable_1<::System::Xml::Linq::XName*>"
+  constexpr ::System::IEquatable_1<::System::Xml::Linq::XName*>* i___System__IEquatable_1___System__Xml__Linq__XName__() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+
+  /// @brief Method op_Equality, addr 0x2943590, size 0xc, virtual false, abstract: false, final false
+  static inline bool op_Equality(::System::Xml::Linq::XName* left, ::System::Xml::Linq::XName* right);
+
+  /// @brief Method op_Implicit, addr 0x29492b8, size 0xc, virtual false, abstract: false, final false
+  static inline ::System::Xml::Linq::XName* op_Implicit___System__Xml__Linq__XName_(::StringW expandedName);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XName();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XName", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XName(XName&&) = delete;
@@ -139,12 +143,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XName(XName const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XName();
-
-public:
   /// @brief Field _ns, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Linq::XNamespace* ____ns;
 

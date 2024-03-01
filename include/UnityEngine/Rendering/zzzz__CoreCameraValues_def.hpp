@@ -21,8 +21,6 @@ MARK_VAL_T(::UnityEngine::Rendering::CoreCameraValues);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9122))
 // CS Name: ::UnityEngine.Rendering::CoreCameraValues
 struct CORDL_TYPE CoreCameraValues {
 public:
@@ -30,25 +28,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>*();
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"
-  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>* i___System__IEquatable_1___UnityEngine__Rendering__CoreCameraValues_();
-
-  /// @brief Method Equals, addr 0x2cf6f18, size 0x34, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Rendering::CoreCameraValues other);
-
-  /// @brief Method Equals, addr 0x2cf6f4c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2de2674, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2cf6fe4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2de2640, size 0x34, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Rendering::CoreCameraValues other);
+
+  /// @brief Method GetHashCode, addr 0x2de270c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  // Ctor Parameters [CppParam { name: "filterMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cullingMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "instanceID", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr CoreCameraValues(int32_t filterMode, uint32_t cullingMask, int32_t instanceID) noexcept;
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>* i___System__IEquatable_1___UnityEngine__Rendering__CoreCameraValues_();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr CoreCameraValues();
+
+  // Ctor Parameters [CppParam { name: "filterMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cullingMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "instanceID", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr CoreCameraValues(int32_t filterMode, uint32_t cullingMask, int32_t instanceID) noexcept;
 
   /// @brief Field filterMode, offset: 0x0, size: 0x4, def value: None
   int32_t filterMode;

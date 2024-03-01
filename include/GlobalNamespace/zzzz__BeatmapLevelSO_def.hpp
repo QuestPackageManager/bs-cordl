@@ -60,8 +60,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10800))
 // CS Name: ::BeatmapLevelSO::PreviewDifficultyBeatmapSet*
 class CORDL_TYPE __BeatmapLevelSO__PreviewDifficultyBeatmapSet : public ::System::Object {
 public:
@@ -78,35 +76,41 @@ public:
 
   __declspec(property(get = get_difficultyBeatmaps))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>* difficultyBeatmaps;
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
-
-  constexpr void __cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>*>&
-  __cordl_internal_get__previewDifficultyBeatmaps();
-
-  constexpr ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>*> const&
-  __cordl_internal_get__previewDifficultyBeatmaps() const;
-
-  constexpr void __cordl_internal_set__previewDifficultyBeatmaps(
-      ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>*> value);
-
-  /// @brief Method get_beatmapCharacteristic, addr 0x1288a7c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
-
-  /// @brief Method get_difficultyBeatmaps, addr 0x1288a84, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>* get_difficultyBeatmaps();
-
   static inline ::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*
   New_ctor(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
            ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>*> previewDifficultyBeatmaps);
 
-  /// @brief Method .ctor, addr 0x1288a8c, size 0x2c, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
+
+  constexpr ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>*> const&
+  __cordl_internal_get__previewDifficultyBeatmaps() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>*>&
+  __cordl_internal_get__previewDifficultyBeatmaps();
+
+  constexpr void __cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
+
+  constexpr void __cordl_internal_set__previewDifficultyBeatmaps(
+      ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>*> value);
+
+  /// @brief Method .ctor, addr 0x12cba5c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                     ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>*> previewDifficultyBeatmaps);
 
+  /// @brief Method get_beatmapCharacteristic, addr 0x12cba4c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
+
+  /// @brief Method get_difficultyBeatmaps, addr 0x12cba54, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap*>* get_difficultyBeatmaps();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapLevelSO__PreviewDifficultyBeatmapSet();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelSO__PreviewDifficultyBeatmapSet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapLevelSO__PreviewDifficultyBeatmapSet(__BeatmapLevelSO__PreviewDifficultyBeatmapSet&&) = delete;
@@ -115,12 +119,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapLevelSO__PreviewDifficultyBeatmapSet(__BeatmapLevelSO__PreviewDifficultyBeatmapSet const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapLevelSO__PreviewDifficultyBeatmapSet();
-
-public:
   /// @brief Field _beatmapCharacteristic, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____beatmapCharacteristic;
 
@@ -141,20 +139,24 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBea
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15101))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10801))
 // CS Name: ::BeatmapLevelSO::PreviewDifficultyBeatmap*
 class CORDL_TYPE __BeatmapLevelSO__PreviewDifficultyBeatmap : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _beatmapColorSchemeIdx, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__beatmapColorSchemeIdx, put = __cordl_internal_set__beatmapColorSchemeIdx)) int32_t _beatmapColorSchemeIdx;
+
+  /// @brief Field _bombsCount, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__bombsCount, put = __cordl_internal_set__bombsCount)) int32_t _bombsCount;
+
+  /// @brief Field _cuttableBeatmapObjectsCount, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__cuttableBeatmapObjectsCount, put = __cordl_internal_set__cuttableBeatmapObjectsCount)) int32_t _cuttableBeatmapObjectsCount;
+
   /// @brief Field _difficulty, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__difficulty, put = __cordl_internal_set__difficulty))::GlobalNamespace::BeatmapDifficulty _difficulty;
 
   /// @brief Field _environmentNameIdx, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__environmentNameIdx, put = __cordl_internal_set__environmentNameIdx)) int32_t _environmentNameIdx;
-
-  /// @brief Field _beatmapColorSchemeIdx, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__beatmapColorSchemeIdx, put = __cordl_internal_set__beatmapColorSchemeIdx)) int32_t _beatmapColorSchemeIdx;
 
   /// @brief Field _noteJumpMovementSpeed, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__noteJumpMovementSpeed, put = __cordl_internal_set__noteJumpMovementSpeed)) float_t _noteJumpMovementSpeed;
@@ -168,119 +170,119 @@ public:
   /// @brief Field _obstaclesCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__obstaclesCount, put = __cordl_internal_set__obstaclesCount)) int32_t _obstaclesCount;
 
-  /// @brief Field _bombsCount, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__bombsCount, put = __cordl_internal_set__bombsCount)) int32_t _bombsCount;
-
-  /// @brief Field _cuttableBeatmapObjectsCount, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__cuttableBeatmapObjectsCount, put = __cordl_internal_set__cuttableBeatmapObjectsCount)) int32_t _cuttableBeatmapObjectsCount;
-
-  __declspec(property(get = get_difficulty))::GlobalNamespace::BeatmapDifficulty difficulty;
-
-  __declspec(property(get = get_noteJumpMovementSpeed)) float_t noteJumpMovementSpeed;
-
-  __declspec(property(get = get_noteJumpStartBeatOffset)) float_t noteJumpStartBeatOffset;
-
-  __declspec(property(get = get_environmentNameIdx)) int32_t environmentNameIdx;
-
   __declspec(property(get = get_beatmapColorSchemeIdx)) int32_t beatmapColorSchemeIdx;
-
-  __declspec(property(get = get_notesCount)) int32_t notesCount;
-
-  __declspec(property(get = get_obstaclesCount)) int32_t obstaclesCount;
 
   __declspec(property(get = get_bombsCount)) int32_t bombsCount;
 
   __declspec(property(get = get_cuttableBeatmapObjectsCount)) int32_t cuttableBeatmapObjectsCount;
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__difficulty();
+  __declspec(property(get = get_difficulty))::GlobalNamespace::BeatmapDifficulty difficulty;
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__difficulty() const;
+  __declspec(property(get = get_environmentNameIdx)) int32_t environmentNameIdx;
 
-  constexpr void __cordl_internal_set__difficulty(::GlobalNamespace::BeatmapDifficulty value);
+  __declspec(property(get = get_noteJumpMovementSpeed)) float_t noteJumpMovementSpeed;
 
-  constexpr int32_t& __cordl_internal_get__environmentNameIdx();
+  __declspec(property(get = get_noteJumpStartBeatOffset)) float_t noteJumpStartBeatOffset;
 
-  constexpr int32_t const& __cordl_internal_get__environmentNameIdx() const;
+  __declspec(property(get = get_notesCount)) int32_t notesCount;
 
-  constexpr void __cordl_internal_set__environmentNameIdx(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__beatmapColorSchemeIdx();
-
-  constexpr int32_t const& __cordl_internal_get__beatmapColorSchemeIdx() const;
-
-  constexpr void __cordl_internal_set__beatmapColorSchemeIdx(int32_t value);
-
-  constexpr float_t& __cordl_internal_get__noteJumpMovementSpeed();
-
-  constexpr float_t const& __cordl_internal_get__noteJumpMovementSpeed() const;
-
-  constexpr void __cordl_internal_set__noteJumpMovementSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get__noteJumpStartBeatOffset();
-
-  constexpr float_t const& __cordl_internal_get__noteJumpStartBeatOffset() const;
-
-  constexpr void __cordl_internal_set__noteJumpStartBeatOffset(float_t value);
-
-  constexpr int32_t& __cordl_internal_get__notesCount();
-
-  constexpr int32_t const& __cordl_internal_get__notesCount() const;
-
-  constexpr void __cordl_internal_set__notesCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__obstaclesCount();
-
-  constexpr int32_t const& __cordl_internal_get__obstaclesCount() const;
-
-  constexpr void __cordl_internal_set__obstaclesCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__bombsCount();
-
-  constexpr int32_t const& __cordl_internal_get__bombsCount() const;
-
-  constexpr void __cordl_internal_set__bombsCount(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__cuttableBeatmapObjectsCount();
-
-  constexpr int32_t const& __cordl_internal_get__cuttableBeatmapObjectsCount() const;
-
-  constexpr void __cordl_internal_set__cuttableBeatmapObjectsCount(int32_t value);
-
-  /// @brief Method get_difficulty, addr 0x1288ab8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDifficulty get_difficulty();
-
-  /// @brief Method get_noteJumpMovementSpeed, addr 0x1288ac0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_noteJumpMovementSpeed();
-
-  /// @brief Method get_noteJumpStartBeatOffset, addr 0x1288ac8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_noteJumpStartBeatOffset();
-
-  /// @brief Method get_environmentNameIdx, addr 0x1288ad0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_environmentNameIdx();
-
-  /// @brief Method get_beatmapColorSchemeIdx, addr 0x1288ad8, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_beatmapColorSchemeIdx();
-
-  /// @brief Method get_notesCount, addr 0x1288ae0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_notesCount();
-
-  /// @brief Method get_obstaclesCount, addr 0x1288ae8, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_obstaclesCount();
-
-  /// @brief Method get_bombsCount, addr 0x1288af0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_bombsCount();
-
-  /// @brief Method get_cuttableBeatmapObjectsCount, addr 0x1288af8, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_cuttableBeatmapObjectsCount();
+  __declspec(property(get = get_obstaclesCount)) int32_t obstaclesCount;
 
   static inline ::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmap* New_ctor(::GlobalNamespace::BeatmapDifficulty difficulty, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset,
                                                                                         int32_t environmentNameIdx, int32_t beatmapColorSchemeIdx, int32_t notesCount, int32_t obstaclesCount,
                                                                                         int32_t bombsCount);
 
-  /// @brief Method .ctor, addr 0x1288b00, size 0x6c, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get__beatmapColorSchemeIdx() const;
+
+  constexpr int32_t& __cordl_internal_get__beatmapColorSchemeIdx();
+
+  constexpr int32_t const& __cordl_internal_get__bombsCount() const;
+
+  constexpr int32_t& __cordl_internal_get__bombsCount();
+
+  constexpr int32_t const& __cordl_internal_get__cuttableBeatmapObjectsCount() const;
+
+  constexpr int32_t& __cordl_internal_get__cuttableBeatmapObjectsCount();
+
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__difficulty() const;
+
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__difficulty();
+
+  constexpr int32_t const& __cordl_internal_get__environmentNameIdx() const;
+
+  constexpr int32_t& __cordl_internal_get__environmentNameIdx();
+
+  constexpr float_t const& __cordl_internal_get__noteJumpMovementSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__noteJumpMovementSpeed();
+
+  constexpr float_t const& __cordl_internal_get__noteJumpStartBeatOffset() const;
+
+  constexpr float_t& __cordl_internal_get__noteJumpStartBeatOffset();
+
+  constexpr int32_t const& __cordl_internal_get__notesCount() const;
+
+  constexpr int32_t& __cordl_internal_get__notesCount();
+
+  constexpr int32_t const& __cordl_internal_get__obstaclesCount() const;
+
+  constexpr int32_t& __cordl_internal_get__obstaclesCount();
+
+  constexpr void __cordl_internal_set__beatmapColorSchemeIdx(int32_t value);
+
+  constexpr void __cordl_internal_set__bombsCount(int32_t value);
+
+  constexpr void __cordl_internal_set__cuttableBeatmapObjectsCount(int32_t value);
+
+  constexpr void __cordl_internal_set__difficulty(::GlobalNamespace::BeatmapDifficulty value);
+
+  constexpr void __cordl_internal_set__environmentNameIdx(int32_t value);
+
+  constexpr void __cordl_internal_set__noteJumpMovementSpeed(float_t value);
+
+  constexpr void __cordl_internal_set__noteJumpStartBeatOffset(float_t value);
+
+  constexpr void __cordl_internal_set__notesCount(int32_t value);
+
+  constexpr void __cordl_internal_set__obstaclesCount(int32_t value);
+
+  /// @brief Method .ctor, addr 0x12cbad0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapDifficulty difficulty, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, int32_t environmentNameIdx, int32_t beatmapColorSchemeIdx,
                     int32_t notesCount, int32_t obstaclesCount, int32_t bombsCount);
 
+  /// @brief Method get_beatmapColorSchemeIdx, addr 0x12cbaa8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_beatmapColorSchemeIdx();
+
+  /// @brief Method get_bombsCount, addr 0x12cbac0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_bombsCount();
+
+  /// @brief Method get_cuttableBeatmapObjectsCount, addr 0x12cbac8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_cuttableBeatmapObjectsCount();
+
+  /// @brief Method get_difficulty, addr 0x12cba88, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapDifficulty get_difficulty();
+
+  /// @brief Method get_environmentNameIdx, addr 0x12cbaa0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_environmentNameIdx();
+
+  /// @brief Method get_noteJumpMovementSpeed, addr 0x12cba90, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_noteJumpMovementSpeed();
+
+  /// @brief Method get_noteJumpStartBeatOffset, addr 0x12cba98, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_noteJumpStartBeatOffset();
+
+  /// @brief Method get_notesCount, addr 0x12cbab0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_notesCount();
+
+  /// @brief Method get_obstaclesCount, addr 0x12cbab8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_obstaclesCount();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapLevelSO__PreviewDifficultyBeatmap();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelSO__PreviewDifficultyBeatmap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapLevelSO__PreviewDifficultyBeatmap(__BeatmapLevelSO__PreviewDifficultyBeatmap&&) = delete;
@@ -289,12 +291,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapLevelSO__PreviewDifficultyBeatmap(__BeatmapLevelSO__PreviewDifficultyBeatmap const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapLevelSO__PreviewDifficultyBeatmap();
-
-public:
   /// @brief Field _difficulty, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____difficulty;
 
@@ -350,8 +346,6 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBea
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10628)), TypeDefinitionIndex(TypeDefinitionIndex(11052)), TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10802))
 // CS Name: ::BeatmapLevelSO*
 class CORDL_TYPE BeatmapLevelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -360,47 +354,15 @@ public:
 
   using PreviewDifficultyBeatmapSet = ::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet;
 
-  /// @brief Field _levelID, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelID, put = __cordl_internal_set__levelID))::StringW _levelID;
-
-  /// @brief Field _songName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__songName, put = __cordl_internal_set__songName))::StringW _songName;
-
-  /// @brief Field _songSubName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__songSubName, put = __cordl_internal_set__songSubName))::StringW _songSubName;
-
-  /// @brief Field _songAuthorName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__songAuthorName, put = __cordl_internal_set__songAuthorName))::StringW _songAuthorName;
-
-  /// @brief Field _levelAuthorName, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelAuthorName, put = __cordl_internal_set__levelAuthorName))::StringW _levelAuthorName;
-
-  /// @brief Field _previewAudioClip, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__previewAudioClip, put = __cordl_internal_set__previewAudioClip))::UnityW<::UnityEngine::AudioClip> _previewAudioClip;
+  /// @brief Field _allDirectionsEnvironmentName, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__allDirectionsEnvironmentName,
+                      put = __cordl_internal_set__allDirectionsEnvironmentName))::GlobalNamespace::EnvironmentName _allDirectionsEnvironmentName;
 
   /// @brief Field _beatsPerMinute, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__beatsPerMinute, put = __cordl_internal_set__beatsPerMinute)) float_t _beatsPerMinute;
 
-  /// @brief Field _integratedLufs, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__integratedLufs, put = __cordl_internal_set__integratedLufs)) float_t _integratedLufs;
-
-  /// @brief Field _songTimeOffset, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__songTimeOffset, put = __cordl_internal_set__songTimeOffset)) float_t _songTimeOffset;
-
-  /// @brief Field _shuffle, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get__shuffle, put = __cordl_internal_set__shuffle)) float_t _shuffle;
-
-  /// @brief Field _shufflePeriod, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__shufflePeriod, put = __cordl_internal_set__shufflePeriod)) float_t _shufflePeriod;
-
-  /// @brief Field _previewStartTime, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__previewStartTime, put = __cordl_internal_set__previewStartTime)) float_t _previewStartTime;
-
-  /// @brief Field _previewDuration, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__previewDuration, put = __cordl_internal_set__previewDuration)) float_t _previewDuration;
-
-  /// @brief Field _songDuration, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get__songDuration, put = __cordl_internal_set__songDuration)) float_t _songDuration;
+  /// @brief Field _contentRating, offset 0x90, size 0x4
+  __declspec(property(get = __cordl_internal_get__contentRating, put = __cordl_internal_set__contentRating))::GlobalNamespace::PlayerSensitivityFlag _contentRating;
 
   /// @brief Field _coverImage, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__coverImage, put = __cordl_internal_set__coverImage))::UnityW<::UnityEngine::Sprite> _coverImage;
@@ -408,265 +370,303 @@ public:
   /// @brief Field _environmentName, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentName, put = __cordl_internal_set__environmentName))::GlobalNamespace::EnvironmentName _environmentName;
 
-  /// @brief Field _allDirectionsEnvironmentName, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__allDirectionsEnvironmentName,
-                      put = __cordl_internal_set__allDirectionsEnvironmentName))::GlobalNamespace::EnvironmentName _allDirectionsEnvironmentName;
-
   /// @brief Field _environmentNames, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentNames,
                       put = __cordl_internal_set__environmentNames))::ArrayW<::GlobalNamespace::EnvironmentName, ::Array<::GlobalNamespace::EnvironmentName>*> _environmentNames;
+
+  /// @brief Field _integratedLufs, offset 0x4c, size 0x4
+  __declspec(property(get = __cordl_internal_get__integratedLufs, put = __cordl_internal_set__integratedLufs)) float_t _integratedLufs;
+
+  /// @brief Field _levelAuthorName, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelAuthorName, put = __cordl_internal_set__levelAuthorName))::StringW _levelAuthorName;
+
+  /// @brief Field _levelID, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__levelID, put = __cordl_internal_set__levelID))::StringW _levelID;
+
+  /// @brief Field _previewAudioClip, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__previewAudioClip, put = __cordl_internal_set__previewAudioClip))::UnityW<::UnityEngine::AudioClip> _previewAudioClip;
 
   /// @brief Field _previewDifficultyBeatmapSets, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__previewDifficultyBeatmapSets,
                       put = __cordl_internal_set__previewDifficultyBeatmapSets))::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*,
                                                                                          ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*>*> _previewDifficultyBeatmapSets;
 
-  /// @brief Field _contentRating, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get__contentRating, put = __cordl_internal_set__contentRating))::GlobalNamespace::PlayerSensitivityFlag _contentRating;
+  /// @brief Field _previewDuration, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get__previewDuration, put = __cordl_internal_set__previewDuration)) float_t _previewDuration;
 
-  __declspec(property(get = get_hasPrecalculatedData)) bool hasPrecalculatedData;
+  /// @brief Field _previewStartTime, offset 0x5c, size 0x4
+  __declspec(property(get = __cordl_internal_get__previewStartTime, put = __cordl_internal_set__previewStartTime)) float_t _previewStartTime;
 
-  __declspec(property(get = get_levelID))::StringW levelID;
+  /// @brief Field _shuffle, offset 0x54, size 0x4
+  __declspec(property(get = __cordl_internal_get__shuffle, put = __cordl_internal_set__shuffle)) float_t _shuffle;
 
-  __declspec(property(get = get_songName))::StringW songName;
+  /// @brief Field _shufflePeriod, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get__shufflePeriod, put = __cordl_internal_set__shufflePeriod)) float_t _shufflePeriod;
 
-  __declspec(property(get = get_songSubName))::StringW songSubName;
+  /// @brief Field _songAuthorName, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__songAuthorName, put = __cordl_internal_set__songAuthorName))::StringW _songAuthorName;
 
-  __declspec(property(get = get_songAuthorName))::StringW songAuthorName;
+  /// @brief Field _songDuration, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get__songDuration, put = __cordl_internal_set__songDuration)) float_t _songDuration;
 
-  __declspec(property(get = get_levelAuthorName))::StringW levelAuthorName;
+  /// @brief Field _songName, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__songName, put = __cordl_internal_set__songName))::StringW _songName;
+
+  /// @brief Field _songSubName, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__songSubName, put = __cordl_internal_set__songSubName))::StringW _songSubName;
+
+  /// @brief Field _songTimeOffset, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get__songTimeOffset, put = __cordl_internal_set__songTimeOffset)) float_t _songTimeOffset;
+
+  __declspec(property(get = get_allDirectionsEnvironmentName))::GlobalNamespace::EnvironmentName allDirectionsEnvironmentName;
 
   __declspec(property(get = get_beatsPerMinute)) float_t beatsPerMinute;
 
+  __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
+
+  __declspec(property(get = get_coverImage))::UnityW<::UnityEngine::Sprite> coverImage;
+
+  __declspec(property(get = get_environmentName))::GlobalNamespace::EnvironmentName environmentName;
+
+  __declspec(property(get = get_environmentNames))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::EnvironmentName>* environmentNames;
+
+  __declspec(property(get = get_hasPrecalculatedData)) bool hasPrecalculatedData;
+
   __declspec(property(get = get_integratedLufs)) float_t integratedLufs;
 
-  __declspec(property(get = get_songTimeOffset)) float_t songTimeOffset;
+  __declspec(property(get = get_levelAuthorName))::StringW levelAuthorName;
 
-  __declspec(property(get = get_songDuration)) float_t songDuration;
+  __declspec(property(get = get_levelID))::StringW levelID;
+
+  __declspec(
+      property(get = get_previewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
+
+  __declspec(property(get = get_previewDuration)) float_t previewDuration;
+
+  __declspec(property(get = get_previewStartTime)) float_t previewStartTime;
 
   __declspec(property(get = get_shuffle)) float_t shuffle;
 
   __declspec(property(get = get_shufflePeriod)) float_t shufflePeriod;
 
-  __declspec(property(get = get_previewStartTime)) float_t previewStartTime;
+  __declspec(property(get = get_songAuthorName))::StringW songAuthorName;
 
-  __declspec(property(get = get_previewDuration)) float_t previewDuration;
+  __declspec(property(get = get_songDuration)) float_t songDuration;
 
-  __declspec(property(get = get_environmentName))::GlobalNamespace::EnvironmentName environmentName;
-
-  __declspec(property(get = get_allDirectionsEnvironmentName))::GlobalNamespace::EnvironmentName allDirectionsEnvironmentName;
-
-  __declspec(property(get = get_environmentNames))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::EnvironmentName>* environmentNames;
-
-  __declspec(property(get = get_coverImage))::UnityW<::UnityEngine::Sprite> coverImage;
+  __declspec(property(get = get_songName))::StringW songName;
 
   __declspec(property(get = get_songPreviewAudioClip))::UnityW<::UnityEngine::AudioClip> songPreviewAudioClip;
 
-  __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
+  __declspec(property(get = get_songSubName))::StringW songSubName;
 
-  __declspec(
-      property(get = get_previewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
+  __declspec(property(get = get_songTimeOffset)) float_t songTimeOffset;
 
   /// @brief Convert operator to "::GlobalNamespace::IAssetSongPreviewAudioClipProvider"
   constexpr operator ::GlobalNamespace::IAssetSongPreviewAudioClipProvider*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IAssetSongPreviewAudioClipProvider"
-  constexpr ::GlobalNamespace::IAssetSongPreviewAudioClipProvider* i___GlobalNamespace__IAssetSongPreviewAudioClipProvider() noexcept;
+  static inline ::GlobalNamespace::BeatmapLevelSO* New_ctor();
 
-  constexpr ::StringW& __cordl_internal_get__levelID();
-
-  constexpr ::StringW const& __cordl_internal_get__levelID() const;
-
-  constexpr void __cordl_internal_set__levelID(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__songName();
-
-  constexpr ::StringW const& __cordl_internal_get__songName() const;
-
-  constexpr void __cordl_internal_set__songName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__songSubName();
-
-  constexpr ::StringW const& __cordl_internal_get__songSubName() const;
-
-  constexpr void __cordl_internal_set__songSubName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__songAuthorName();
-
-  constexpr ::StringW const& __cordl_internal_get__songAuthorName() const;
-
-  constexpr void __cordl_internal_set__songAuthorName(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__levelAuthorName();
-
-  constexpr ::StringW const& __cordl_internal_get__levelAuthorName() const;
-
-  constexpr void __cordl_internal_set__levelAuthorName(::StringW value);
-
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__previewAudioClip();
-
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__previewAudioClip() const;
-
-  constexpr void __cordl_internal_set__previewAudioClip(::UnityW<::UnityEngine::AudioClip> value);
-
-  constexpr float_t& __cordl_internal_get__beatsPerMinute();
-
-  constexpr float_t const& __cordl_internal_get__beatsPerMinute() const;
-
-  constexpr void __cordl_internal_set__beatsPerMinute(float_t value);
-
-  constexpr float_t& __cordl_internal_get__integratedLufs();
-
-  constexpr float_t const& __cordl_internal_get__integratedLufs() const;
-
-  constexpr void __cordl_internal_set__integratedLufs(float_t value);
-
-  constexpr float_t& __cordl_internal_get__songTimeOffset();
-
-  constexpr float_t const& __cordl_internal_get__songTimeOffset() const;
-
-  constexpr void __cordl_internal_set__songTimeOffset(float_t value);
-
-  constexpr float_t& __cordl_internal_get__shuffle();
-
-  constexpr float_t const& __cordl_internal_get__shuffle() const;
-
-  constexpr void __cordl_internal_set__shuffle(float_t value);
-
-  constexpr float_t& __cordl_internal_get__shufflePeriod();
-
-  constexpr float_t const& __cordl_internal_get__shufflePeriod() const;
-
-  constexpr void __cordl_internal_set__shufflePeriod(float_t value);
-
-  constexpr float_t& __cordl_internal_get__previewStartTime();
-
-  constexpr float_t const& __cordl_internal_get__previewStartTime() const;
-
-  constexpr void __cordl_internal_set__previewStartTime(float_t value);
-
-  constexpr float_t& __cordl_internal_get__previewDuration();
-
-  constexpr float_t const& __cordl_internal_get__previewDuration() const;
-
-  constexpr void __cordl_internal_set__previewDuration(float_t value);
-
-  constexpr float_t& __cordl_internal_get__songDuration();
-
-  constexpr float_t const& __cordl_internal_get__songDuration() const;
-
-  constexpr void __cordl_internal_set__songDuration(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__coverImage();
-
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__coverImage() const;
-
-  constexpr void __cordl_internal_set__coverImage(::UnityW<::UnityEngine::Sprite> value);
-
-  constexpr ::GlobalNamespace::EnvironmentName& __cordl_internal_get__environmentName();
-
-  constexpr ::GlobalNamespace::EnvironmentName const& __cordl_internal_get__environmentName() const;
-
-  constexpr void __cordl_internal_set__environmentName(::GlobalNamespace::EnvironmentName value);
-
-  constexpr ::GlobalNamespace::EnvironmentName& __cordl_internal_get__allDirectionsEnvironmentName();
+  /// @brief Method __SetEnvironmentName, addr 0x12cba34, size 0x8, virtual false, abstract: false, final false
+  inline void __SetEnvironmentName(::GlobalNamespace::EnvironmentName targetEnvironmentName);
 
   constexpr ::GlobalNamespace::EnvironmentName const& __cordl_internal_get__allDirectionsEnvironmentName() const;
 
-  constexpr void __cordl_internal_set__allDirectionsEnvironmentName(::GlobalNamespace::EnvironmentName value);
+  constexpr ::GlobalNamespace::EnvironmentName& __cordl_internal_get__allDirectionsEnvironmentName();
 
-  constexpr ::ArrayW<::GlobalNamespace::EnvironmentName, ::Array<::GlobalNamespace::EnvironmentName>*>& __cordl_internal_get__environmentNames();
+  constexpr float_t const& __cordl_internal_get__beatsPerMinute() const;
+
+  constexpr float_t& __cordl_internal_get__beatsPerMinute();
+
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get__contentRating() const;
+
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __cordl_internal_get__contentRating();
+
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__coverImage() const;
+
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__coverImage();
+
+  constexpr ::GlobalNamespace::EnvironmentName const& __cordl_internal_get__environmentName() const;
+
+  constexpr ::GlobalNamespace::EnvironmentName& __cordl_internal_get__environmentName();
 
   constexpr ::ArrayW<::GlobalNamespace::EnvironmentName, ::Array<::GlobalNamespace::EnvironmentName>*> const& __cordl_internal_get__environmentNames() const;
 
-  constexpr void __cordl_internal_set__environmentNames(::ArrayW<::GlobalNamespace::EnvironmentName, ::Array<::GlobalNamespace::EnvironmentName>*> value);
+  constexpr ::ArrayW<::GlobalNamespace::EnvironmentName, ::Array<::GlobalNamespace::EnvironmentName>*>& __cordl_internal_get__environmentNames();
 
-  constexpr ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*>*>&
-  __cordl_internal_get__previewDifficultyBeatmapSets();
+  constexpr float_t const& __cordl_internal_get__integratedLufs() const;
+
+  constexpr float_t& __cordl_internal_get__integratedLufs();
+
+  constexpr ::StringW const& __cordl_internal_get__levelAuthorName() const;
+
+  constexpr ::StringW& __cordl_internal_get__levelAuthorName();
+
+  constexpr ::StringW const& __cordl_internal_get__levelID() const;
+
+  constexpr ::StringW& __cordl_internal_get__levelID();
+
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__previewAudioClip() const;
+
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__previewAudioClip();
 
   constexpr ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*>*> const&
   __cordl_internal_get__previewDifficultyBeatmapSets() const;
 
-  constexpr void __cordl_internal_set__previewDifficultyBeatmapSets(
-      ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*>*> value);
+  constexpr ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*>*>&
+  __cordl_internal_get__previewDifficultyBeatmapSets();
 
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __cordl_internal_get__contentRating();
+  constexpr float_t const& __cordl_internal_get__previewDuration() const;
 
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get__contentRating() const;
+  constexpr float_t& __cordl_internal_get__previewDuration();
+
+  constexpr float_t const& __cordl_internal_get__previewStartTime() const;
+
+  constexpr float_t& __cordl_internal_get__previewStartTime();
+
+  constexpr float_t const& __cordl_internal_get__shuffle() const;
+
+  constexpr float_t& __cordl_internal_get__shuffle();
+
+  constexpr float_t const& __cordl_internal_get__shufflePeriod() const;
+
+  constexpr float_t& __cordl_internal_get__shufflePeriod();
+
+  constexpr ::StringW const& __cordl_internal_get__songAuthorName() const;
+
+  constexpr ::StringW& __cordl_internal_get__songAuthorName();
+
+  constexpr float_t const& __cordl_internal_get__songDuration() const;
+
+  constexpr float_t& __cordl_internal_get__songDuration();
+
+  constexpr ::StringW const& __cordl_internal_get__songName() const;
+
+  constexpr ::StringW& __cordl_internal_get__songName();
+
+  constexpr ::StringW const& __cordl_internal_get__songSubName() const;
+
+  constexpr ::StringW& __cordl_internal_get__songSubName();
+
+  constexpr float_t const& __cordl_internal_get__songTimeOffset() const;
+
+  constexpr float_t& __cordl_internal_get__songTimeOffset();
+
+  constexpr void __cordl_internal_set__allDirectionsEnvironmentName(::GlobalNamespace::EnvironmentName value);
+
+  constexpr void __cordl_internal_set__beatsPerMinute(float_t value);
 
   constexpr void __cordl_internal_set__contentRating(::GlobalNamespace::PlayerSensitivityFlag value);
 
-  /// @brief Method get_hasPrecalculatedData, addr 0x1285be8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_hasPrecalculatedData();
+  constexpr void __cordl_internal_set__coverImage(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method get_levelID, addr 0x12889cc, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_levelID();
+  constexpr void __cordl_internal_set__environmentName(::GlobalNamespace::EnvironmentName value);
 
-  /// @brief Method get_songName, addr 0x12889d4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_songName();
+  constexpr void __cordl_internal_set__environmentNames(::ArrayW<::GlobalNamespace::EnvironmentName, ::Array<::GlobalNamespace::EnvironmentName>*> value);
 
-  /// @brief Method get_songSubName, addr 0x12889dc, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_songSubName();
+  constexpr void __cordl_internal_set__integratedLufs(float_t value);
 
-  /// @brief Method get_songAuthorName, addr 0x12889e4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_songAuthorName();
+  constexpr void __cordl_internal_set__levelAuthorName(::StringW value);
 
-  /// @brief Method get_levelAuthorName, addr 0x12889ec, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_levelAuthorName();
+  constexpr void __cordl_internal_set__levelID(::StringW value);
 
-  /// @brief Method get_beatsPerMinute, addr 0x12889f4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_beatsPerMinute();
+  constexpr void __cordl_internal_set__previewAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method get_integratedLufs, addr 0x12889fc, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_integratedLufs();
+  constexpr void __cordl_internal_set__previewDifficultyBeatmapSets(
+      ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*>*> value);
 
-  /// @brief Method get_songTimeOffset, addr 0x1288a04, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_songTimeOffset();
+  constexpr void __cordl_internal_set__previewDuration(float_t value);
 
-  /// @brief Method get_songDuration, addr 0x1288a0c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_songDuration();
+  constexpr void __cordl_internal_set__previewStartTime(float_t value);
 
-  /// @brief Method get_shuffle, addr 0x1288a14, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_shuffle();
+  constexpr void __cordl_internal_set__shuffle(float_t value);
 
-  /// @brief Method get_shufflePeriod, addr 0x1288a1c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_shufflePeriod();
+  constexpr void __cordl_internal_set__shufflePeriod(float_t value);
 
-  /// @brief Method get_previewStartTime, addr 0x1288a24, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_previewStartTime();
+  constexpr void __cordl_internal_set__songAuthorName(::StringW value);
 
-  /// @brief Method get_previewDuration, addr 0x1288a2c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_previewDuration();
+  constexpr void __cordl_internal_set__songDuration(float_t value);
 
-  /// @brief Method get_environmentName, addr 0x1288a34, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EnvironmentName get_environmentName();
+  constexpr void __cordl_internal_set__songName(::StringW value);
 
-  /// @brief Method get_allDirectionsEnvironmentName, addr 0x1288a3c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EnvironmentName get_allDirectionsEnvironmentName();
+  constexpr void __cordl_internal_set__songSubName(::StringW value);
 
-  /// @brief Method get_environmentNames, addr 0x1285b60, size 0x88, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::EnvironmentName>* get_environmentNames();
+  constexpr void __cordl_internal_set__songTimeOffset(float_t value);
 
-  /// @brief Method get_coverImage, addr 0x1288a44, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_coverImage();
-
-  /// @brief Method get_songPreviewAudioClip, addr 0x1288a4c, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::UnityEngine::AudioClip> get_songPreviewAudioClip();
-
-  /// @brief Method get_contentRating, addr 0x1288a54, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
-
-  /// @brief Method get_previewDifficultyBeatmapSets, addr 0x1288a5c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
-
-  /// @brief Method __SetEnvironmentName, addr 0x1288a64, size 0x8, virtual false, abstract: false, final false
-  inline void __SetEnvironmentName(::GlobalNamespace::EnvironmentName targetEnvironmentName);
-
-  static inline ::GlobalNamespace::BeatmapLevelSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1288a6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12cba3c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_allDirectionsEnvironmentName, addr 0x12cba0c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::EnvironmentName get_allDirectionsEnvironmentName();
+
+  /// @brief Method get_beatsPerMinute, addr 0x12cb9c4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_beatsPerMinute();
+
+  /// @brief Method get_contentRating, addr 0x12cba24, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
+
+  /// @brief Method get_coverImage, addr 0x12cba14, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::Sprite> get_coverImage();
+
+  /// @brief Method get_environmentName, addr 0x12cba04, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::EnvironmentName get_environmentName();
+
+  /// @brief Method get_environmentNames, addr 0x12c8b30, size 0x88, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::EnvironmentName>* get_environmentNames();
+
+  /// @brief Method get_hasPrecalculatedData, addr 0x12c8bb8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_hasPrecalculatedData();
+
+  /// @brief Method get_integratedLufs, addr 0x12cb9cc, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_integratedLufs();
+
+  /// @brief Method get_levelAuthorName, addr 0x12cb9bc, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_levelAuthorName();
+
+  /// @brief Method get_levelID, addr 0x12cb99c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_levelID();
+
+  /// @brief Method get_previewDifficultyBeatmapSets, addr 0x12cba2c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__BeatmapLevelSO__PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
+
+  /// @brief Method get_previewDuration, addr 0x12cb9fc, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_previewDuration();
+
+  /// @brief Method get_previewStartTime, addr 0x12cb9f4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_previewStartTime();
+
+  /// @brief Method get_shuffle, addr 0x12cb9e4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_shuffle();
+
+  /// @brief Method get_shufflePeriod, addr 0x12cb9ec, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_shufflePeriod();
+
+  /// @brief Method get_songAuthorName, addr 0x12cb9b4, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_songAuthorName();
+
+  /// @brief Method get_songDuration, addr 0x12cb9dc, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_songDuration();
+
+  /// @brief Method get_songName, addr 0x12cb9a4, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_songName();
+
+  /// @brief Method get_songPreviewAudioClip, addr 0x12cba1c, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityW<::UnityEngine::AudioClip> get_songPreviewAudioClip();
+
+  /// @brief Method get_songSubName, addr 0x12cb9ac, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_songSubName();
+
+  /// @brief Method get_songTimeOffset, addr 0x12cb9d4, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_songTimeOffset();
+
+  /// @brief Convert to "::GlobalNamespace::IAssetSongPreviewAudioClipProvider"
+  constexpr ::GlobalNamespace::IAssetSongPreviewAudioClipProvider* i___GlobalNamespace__IAssetSongPreviewAudioClipProvider() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapLevelSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapLevelSO(BeatmapLevelSO&&) = delete;
@@ -675,12 +675,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapLevelSO(BeatmapLevelSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelSO();
-
-public:
   /// @brief Field _levelID, offset: 0x18, size: 0x8, def value: None
   ::StringW ____levelID;
 

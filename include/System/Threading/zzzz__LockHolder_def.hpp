@@ -20,8 +20,6 @@ MARK_VAL_T(::System::Threading::LockHolder);
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2695))
 // CS Name: ::System.Threading::LockHolder
 struct CORDL_TYPE LockHolder {
 public:
@@ -29,21 +27,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
-
-  /// @brief Method Hold, addr 0x2639060, size 0x24, virtual false, abstract: false, final false
-  static inline ::System::Threading::LockHolder Hold(::System::Threading::Lock* l);
-
-  /// @brief Method Dispose, addr 0x263908c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2708780, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  // Ctor Parameters [CppParam { name: "_lock", ty: "::System::Threading::Lock*", modifiers: "", def_value: None }]
-  constexpr LockHolder(::System::Threading::Lock* _lock) noexcept;
+  /// @brief Method Hold, addr 0x2708754, size 0x24, virtual false, abstract: false, final false
+  static inline ::System::Threading::LockHolder Hold(::System::Threading::Lock* l);
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LockHolder();
+
+  // Ctor Parameters [CppParam { name: "_lock", ty: "::System::Threading::Lock*", modifiers: "", def_value: None }]
+  constexpr LockHolder(::System::Threading::Lock* _lock) noexcept;
 
   /// @brief Field _lock, offset: 0x0, size: 0x8, def value: None
   ::System::Threading::Lock* _lock;

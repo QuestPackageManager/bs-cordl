@@ -18,19 +18,17 @@ MARK_VAL_T(::TMPro::TMP_MaterialReference);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12201))
 // CS Name: ::TMPro::TMP_MaterialReference
 struct CORDL_TYPE TMP_MaterialReference {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "referenceCount", ty: "int32_t", modifiers: "",
-  // def_value: None }]
-  constexpr TMP_MaterialReference(::UnityW<::UnityEngine::Material> material, int32_t referenceCount) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr TMP_MaterialReference();
+
+  // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "referenceCount", ty: "int32_t", modifiers: "",
+  // def_value: None }]
+  constexpr TMP_MaterialReference(::UnityW<::UnityEngine::Material> material, int32_t referenceCount) noexcept;
 
   /// @brief Field material, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> material;

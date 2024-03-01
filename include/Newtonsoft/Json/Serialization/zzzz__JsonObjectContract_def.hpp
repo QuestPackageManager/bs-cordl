@@ -47,41 +47,68 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonObjectContract);
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11709)), TypeDefinitionIndex(TypeDefinitionIndex(11719)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11805)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4739 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11846)) CS Name: ::Newtonsoft.Json.Serialization::JsonObjectContract*
+// CS Name: ::Newtonsoft.Json.Serialization::JsonObjectContract*
 class CORDL_TYPE JsonObjectContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
   // Declarations
-  /// @brief Field <MemberSerialization>k__BackingField, offset 0xbc, size 0x4
-  __declspec(property(get = __cordl_internal_get__MemberSerialization_k__BackingField,
-                      put = __cordl_internal_set__MemberSerialization_k__BackingField))::Newtonsoft::Json::MemberSerialization _MemberSerialization_k__BackingField;
+  __declspec(property(get = get_ConstructorParameters))::Newtonsoft::Json::Serialization::JsonPropertyCollection* ConstructorParameters;
 
-  /// @brief Field <ItemRequired>k__BackingField, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__ItemRequired_k__BackingField,
-                      put = __cordl_internal_set__ItemRequired_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::Required> _ItemRequired_k__BackingField;
+  __declspec(property(get = get_CreatorParameters))::Newtonsoft::Json::Serialization::JsonPropertyCollection* CreatorParameters;
 
-  /// @brief Field <Properties>k__BackingField, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__Properties_k__BackingField,
-                      put = __cordl_internal_set__Properties_k__BackingField))::Newtonsoft::Json::Serialization::JsonPropertyCollection* _Properties_k__BackingField;
+  __declspec(property(get = get_ExtensionDataGetter, put = set_ExtensionDataGetter))::Newtonsoft::Json::Serialization::ExtensionDataGetter* ExtensionDataGetter;
 
-  /// @brief Field <ExtensionDataSetter>k__BackingField, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__ExtensionDataSetter_k__BackingField,
-                      put = __cordl_internal_set__ExtensionDataSetter_k__BackingField))::Newtonsoft::Json::Serialization::ExtensionDataSetter* _ExtensionDataSetter_k__BackingField;
+  /// @brief Field ExtensionDataIsJToken, offset 0xe0, size 0x1
+  __declspec(property(get = __cordl_internal_get_ExtensionDataIsJToken, put = __cordl_internal_set_ExtensionDataIsJToken)) bool ExtensionDataIsJToken;
+
+  __declspec(property(get = get_ExtensionDataSetter, put = set_ExtensionDataSetter))::Newtonsoft::Json::Serialization::ExtensionDataSetter* ExtensionDataSetter;
+
+  __declspec(property(get = get_ExtensionDataValueType, put = set_ExtensionDataValueType))::System::Type* ExtensionDataValueType;
+
+  __declspec(property(get = get_HasRequiredOrDefaultValueProperties)) bool HasRequiredOrDefaultValueProperties;
+
+  __declspec(property(get = get_ItemRequired, put = set_ItemRequired))::System::Nullable_1<::Newtonsoft::Json::Required> ItemRequired;
+
+  __declspec(property(get = get_MemberSerialization, put = set_MemberSerialization))::Newtonsoft::Json::MemberSerialization MemberSerialization;
+
+  __declspec(property(get = get_OverrideConstructor, put = set_OverrideConstructor))::System::Reflection::ConstructorInfo* OverrideConstructor;
+
+  __declspec(property(get = get_OverrideCreator, put = set_OverrideCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* OverrideCreator;
+
+  __declspec(property(get = get_ParameterizedCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ParameterizedCreator;
+
+  __declspec(property(get = get_ParametrizedConstructor, put = set_ParametrizedConstructor))::System::Reflection::ConstructorInfo* ParametrizedConstructor;
+
+  __declspec(property(get = get_Properties, put = set_Properties))::Newtonsoft::Json::Serialization::JsonPropertyCollection* Properties;
 
   /// @brief Field <ExtensionDataGetter>k__BackingField, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__ExtensionDataGetter_k__BackingField,
                       put = __cordl_internal_set__ExtensionDataGetter_k__BackingField))::Newtonsoft::Json::Serialization::ExtensionDataGetter* _ExtensionDataGetter_k__BackingField;
 
-  /// @brief Field ExtensionDataIsJToken, offset 0xe0, size 0x1
-  __declspec(property(get = __cordl_internal_get_ExtensionDataIsJToken, put = __cordl_internal_set_ExtensionDataIsJToken)) bool ExtensionDataIsJToken;
+  /// @brief Field <ExtensionDataSetter>k__BackingField, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__ExtensionDataSetter_k__BackingField,
+                      put = __cordl_internal_set__ExtensionDataSetter_k__BackingField))::Newtonsoft::Json::Serialization::ExtensionDataSetter* _ExtensionDataSetter_k__BackingField;
+
+  /// @brief Field <ItemRequired>k__BackingField, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__ItemRequired_k__BackingField,
+                      put = __cordl_internal_set__ItemRequired_k__BackingField))::System::Nullable_1<::Newtonsoft::Json::Required> _ItemRequired_k__BackingField;
+
+  /// @brief Field <MemberSerialization>k__BackingField, offset 0xbc, size 0x4
+  __declspec(property(get = __cordl_internal_get__MemberSerialization_k__BackingField,
+                      put = __cordl_internal_set__MemberSerialization_k__BackingField))::Newtonsoft::Json::MemberSerialization _MemberSerialization_k__BackingField;
+
+  /// @brief Field <Properties>k__BackingField, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get__Properties_k__BackingField,
+                      put = __cordl_internal_set__Properties_k__BackingField))::Newtonsoft::Json::Serialization::JsonPropertyCollection* _Properties_k__BackingField;
+
+  /// @brief Field _creatorParameters, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get__creatorParameters, put = __cordl_internal_set__creatorParameters))::Newtonsoft::Json::Serialization::JsonPropertyCollection* _creatorParameters;
+
+  /// @brief Field _extensionDataValueType, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get__extensionDataValueType, put = __cordl_internal_set__extensionDataValueType))::System::Type* _extensionDataValueType;
 
   /// @brief Field _hasRequiredOrDefaultValueProperties, offset 0xe1, size 0x2
   __declspec(property(get = __cordl_internal_get__hasRequiredOrDefaultValueProperties,
                       put = __cordl_internal_set__hasRequiredOrDefaultValueProperties))::System::Nullable_1<bool> _hasRequiredOrDefaultValueProperties;
-
-  /// @brief Field _parametrizedConstructor, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get__parametrizedConstructor, put = __cordl_internal_set__parametrizedConstructor))::System::Reflection::ConstructorInfo* _parametrizedConstructor;
 
   /// @brief Field _overrideConstructor, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__overrideConstructor, put = __cordl_internal_set__overrideConstructor))::System::Reflection::ConstructorInfo* _overrideConstructor;
@@ -94,190 +121,167 @@ public:
   __declspec(property(get = __cordl_internal_get__parameterizedCreator,
                       put = __cordl_internal_set__parameterizedCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _parameterizedCreator;
 
-  /// @brief Field _creatorParameters, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get__creatorParameters, put = __cordl_internal_set__creatorParameters))::Newtonsoft::Json::Serialization::JsonPropertyCollection* _creatorParameters;
+  /// @brief Field _parametrizedConstructor, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get__parametrizedConstructor, put = __cordl_internal_set__parametrizedConstructor))::System::Reflection::ConstructorInfo* _parametrizedConstructor;
 
-  /// @brief Field _extensionDataValueType, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get__extensionDataValueType, put = __cordl_internal_set__extensionDataValueType))::System::Type* _extensionDataValueType;
+  /// @brief Method GetUninitializedObject, addr 0x276ca78, size 0x10c, virtual false, abstract: false, final false
+  inline ::System::Object* GetUninitializedObject();
 
-  __declspec(property(get = get_MemberSerialization, put = set_MemberSerialization))::Newtonsoft::Json::MemberSerialization MemberSerialization;
+  static inline ::Newtonsoft::Json::Serialization::JsonObjectContract* New_ctor(::System::Type* underlyingType);
 
-  __declspec(property(get = get_ItemRequired, put = set_ItemRequired))::System::Nullable_1<::Newtonsoft::Json::Required> ItemRequired;
+  constexpr bool const& __cordl_internal_get_ExtensionDataIsJToken() const;
 
-  __declspec(property(get = get_Properties, put = set_Properties))::Newtonsoft::Json::Serialization::JsonPropertyCollection* Properties;
-
-  __declspec(property(get = get_ConstructorParameters))::Newtonsoft::Json::Serialization::JsonPropertyCollection* ConstructorParameters;
-
-  __declspec(property(get = get_CreatorParameters))::Newtonsoft::Json::Serialization::JsonPropertyCollection* CreatorParameters;
-
-  __declspec(property(get = get_OverrideConstructor, put = set_OverrideConstructor))::System::Reflection::ConstructorInfo* OverrideConstructor;
-
-  __declspec(property(get = get_ParametrizedConstructor, put = set_ParametrizedConstructor))::System::Reflection::ConstructorInfo* ParametrizedConstructor;
-
-  __declspec(property(get = get_OverrideCreator, put = set_OverrideCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* OverrideCreator;
-
-  __declspec(property(get = get_ParameterizedCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ParameterizedCreator;
-
-  __declspec(property(get = get_ExtensionDataSetter, put = set_ExtensionDataSetter))::Newtonsoft::Json::Serialization::ExtensionDataSetter* ExtensionDataSetter;
-
-  __declspec(property(get = get_ExtensionDataGetter, put = set_ExtensionDataGetter))::Newtonsoft::Json::Serialization::ExtensionDataGetter* ExtensionDataGetter;
-
-  __declspec(property(get = get_ExtensionDataValueType, put = set_ExtensionDataValueType))::System::Type* ExtensionDataValueType;
-
-  __declspec(property(get = get_HasRequiredOrDefaultValueProperties)) bool HasRequiredOrDefaultValueProperties;
-
-  constexpr ::Newtonsoft::Json::MemberSerialization& __cordl_internal_get__MemberSerialization_k__BackingField();
-
-  constexpr ::Newtonsoft::Json::MemberSerialization const& __cordl_internal_get__MemberSerialization_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__MemberSerialization_k__BackingField(::Newtonsoft::Json::MemberSerialization value);
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& __cordl_internal_get__ItemRequired_k__BackingField();
-
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required> const& __cordl_internal_get__ItemRequired_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ItemRequired_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::Required> value);
-
-  constexpr ::Newtonsoft::Json::Serialization::JsonPropertyCollection*& __cordl_internal_get__Properties_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonPropertyCollection*> const& __cordl_internal_get__Properties_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Properties_k__BackingField(::Newtonsoft::Json::Serialization::JsonPropertyCollection* value);
-
-  constexpr ::Newtonsoft::Json::Serialization::ExtensionDataSetter*& __cordl_internal_get__ExtensionDataSetter_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ExtensionDataSetter*> const& __cordl_internal_get__ExtensionDataSetter_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ExtensionDataSetter_k__BackingField(::Newtonsoft::Json::Serialization::ExtensionDataSetter* value);
+  constexpr bool& __cordl_internal_get_ExtensionDataIsJToken();
 
   constexpr ::Newtonsoft::Json::Serialization::ExtensionDataGetter*& __cordl_internal_get__ExtensionDataGetter_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ExtensionDataGetter*> const& __cordl_internal_get__ExtensionDataGetter_k__BackingField() const;
 
-  constexpr void __cordl_internal_set__ExtensionDataGetter_k__BackingField(::Newtonsoft::Json::Serialization::ExtensionDataGetter* value);
+  constexpr ::Newtonsoft::Json::Serialization::ExtensionDataSetter*& __cordl_internal_get__ExtensionDataSetter_k__BackingField();
 
-  constexpr bool& __cordl_internal_get_ExtensionDataIsJToken();
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ExtensionDataSetter*> const& __cordl_internal_get__ExtensionDataSetter_k__BackingField() const;
 
-  constexpr bool const& __cordl_internal_get_ExtensionDataIsJToken() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required> const& __cordl_internal_get__ItemRequired_k__BackingField() const;
 
-  constexpr void __cordl_internal_set_ExtensionDataIsJToken(bool value);
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& __cordl_internal_get__ItemRequired_k__BackingField();
 
-  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__hasRequiredOrDefaultValueProperties();
+  constexpr ::Newtonsoft::Json::MemberSerialization const& __cordl_internal_get__MemberSerialization_k__BackingField() const;
 
-  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__hasRequiredOrDefaultValueProperties() const;
+  constexpr ::Newtonsoft::Json::MemberSerialization& __cordl_internal_get__MemberSerialization_k__BackingField();
 
-  constexpr void __cordl_internal_set__hasRequiredOrDefaultValueProperties(::System::Nullable_1<bool> value);
+  constexpr ::Newtonsoft::Json::Serialization::JsonPropertyCollection*& __cordl_internal_get__Properties_k__BackingField();
 
-  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__parametrizedConstructor();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get__parametrizedConstructor() const;
-
-  constexpr void __cordl_internal_set__parametrizedConstructor(::System::Reflection::ConstructorInfo* value);
-
-  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__overrideConstructor();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get__overrideConstructor() const;
-
-  constexpr void __cordl_internal_set__overrideConstructor(::System::Reflection::ConstructorInfo* value);
-
-  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__overrideCreator();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__overrideCreator() const;
-
-  constexpr void __cordl_internal_set__overrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
-
-  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__parameterizedCreator();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__parameterizedCreator() const;
-
-  constexpr void __cordl_internal_set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonPropertyCollection*> const& __cordl_internal_get__Properties_k__BackingField() const;
 
   constexpr ::Newtonsoft::Json::Serialization::JsonPropertyCollection*& __cordl_internal_get__creatorParameters();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonPropertyCollection*> const& __cordl_internal_get__creatorParameters() const;
 
-  constexpr void __cordl_internal_set__creatorParameters(::Newtonsoft::Json::Serialization::JsonPropertyCollection* value);
-
   constexpr ::System::Type*& __cordl_internal_get__extensionDataValueType();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__extensionDataValueType() const;
 
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__hasRequiredOrDefaultValueProperties() const;
+
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__hasRequiredOrDefaultValueProperties();
+
+  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__overrideConstructor();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get__overrideConstructor() const;
+
+  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__overrideCreator();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__overrideCreator() const;
+
+  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__parameterizedCreator();
+
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__parameterizedCreator() const;
+
+  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__parametrizedConstructor();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get__parametrizedConstructor() const;
+
+  constexpr void __cordl_internal_set_ExtensionDataIsJToken(bool value);
+
+  constexpr void __cordl_internal_set__ExtensionDataGetter_k__BackingField(::Newtonsoft::Json::Serialization::ExtensionDataGetter* value);
+
+  constexpr void __cordl_internal_set__ExtensionDataSetter_k__BackingField(::Newtonsoft::Json::Serialization::ExtensionDataSetter* value);
+
+  constexpr void __cordl_internal_set__ItemRequired_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::Required> value);
+
+  constexpr void __cordl_internal_set__MemberSerialization_k__BackingField(::Newtonsoft::Json::MemberSerialization value);
+
+  constexpr void __cordl_internal_set__Properties_k__BackingField(::Newtonsoft::Json::Serialization::JsonPropertyCollection* value);
+
+  constexpr void __cordl_internal_set__creatorParameters(::Newtonsoft::Json::Serialization::JsonPropertyCollection* value);
+
   constexpr void __cordl_internal_set__extensionDataValueType(::System::Type* value);
 
-  /// @brief Method get_MemberSerialization, addr 0x269deb4, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::MemberSerialization get_MemberSerialization();
+  constexpr void __cordl_internal_set__hasRequiredOrDefaultValueProperties(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_MemberSerialization, addr 0x269debc, size 0x8, virtual false, abstract: false, final false
-  inline void set_MemberSerialization(::Newtonsoft::Json::MemberSerialization value);
+  constexpr void __cordl_internal_set__overrideConstructor(::System::Reflection::ConstructorInfo* value);
 
-  /// @brief Method get_ItemRequired, addr 0x269dec4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::Newtonsoft::Json::Required> get_ItemRequired();
+  constexpr void __cordl_internal_set__overrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method set_ItemRequired, addr 0x269decc, size 0x8, virtual false, abstract: false, final false
-  inline void set_ItemRequired(::System::Nullable_1<::Newtonsoft::Json::Required> value);
+  constexpr void __cordl_internal_set__parameterizedCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method get_Properties, addr 0x269ded4, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
+  constexpr void __cordl_internal_set__parametrizedConstructor(::System::Reflection::ConstructorInfo* value);
 
-  /// @brief Method set_Properties, addr 0x269dedc, size 0x8, virtual false, abstract: false, final false
-  inline void set_Properties(::Newtonsoft::Json::Serialization::JsonPropertyCollection* value);
-
-  /// @brief Method get_ConstructorParameters, addr 0x269dee4, size 0x4, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_ConstructorParameters();
-
-  /// @brief Method get_CreatorParameters, addr 0x2693890, size 0x70, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_CreatorParameters();
-
-  /// @brief Method get_OverrideConstructor, addr 0x269dee8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Reflection::ConstructorInfo* get_OverrideConstructor();
-
-  /// @brief Method set_OverrideConstructor, addr 0x2693808, size 0x88, virtual false, abstract: false, final false
-  inline void set_OverrideConstructor(::System::Reflection::ConstructorInfo* value);
-
-  /// @brief Method get_ParametrizedConstructor, addr 0x269def0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Reflection::ConstructorInfo* get_ParametrizedConstructor();
-
-  /// @brief Method set_ParametrizedConstructor, addr 0x2693a60, size 0x88, virtual false, abstract: false, final false
-  inline void set_ParametrizedConstructor(::System::Reflection::ConstructorInfo* value);
-
-  /// @brief Method get_OverrideCreator, addr 0x269def8, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_OverrideCreator();
-
-  /// @brief Method set_OverrideCreator, addr 0x269df00, size 0x8, virtual false, abstract: false, final false
-  inline void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
-
-  /// @brief Method get_ParameterizedCreator, addr 0x269df08, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ParameterizedCreator();
-
-  /// @brief Method get_ExtensionDataSetter, addr 0x269df10, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::ExtensionDataSetter* get_ExtensionDataSetter();
-
-  /// @brief Method set_ExtensionDataSetter, addr 0x269df18, size 0x8, virtual false, abstract: false, final false
-  inline void set_ExtensionDataSetter(::Newtonsoft::Json::Serialization::ExtensionDataSetter* value);
-
-  /// @brief Method get_ExtensionDataGetter, addr 0x269df20, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Serialization::ExtensionDataGetter* get_ExtensionDataGetter();
-
-  /// @brief Method set_ExtensionDataGetter, addr 0x269df28, size 0x8, virtual false, abstract: false, final false
-  inline void set_ExtensionDataGetter(::Newtonsoft::Json::Serialization::ExtensionDataGetter* value);
-
-  /// @brief Method get_ExtensionDataValueType, addr 0x269df30, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_ExtensionDataValueType();
-
-  /// @brief Method set_ExtensionDataValueType, addr 0x26947ac, size 0xac, virtual false, abstract: false, final false
-  inline void set_ExtensionDataValueType(::System::Type* value);
-
-  /// @brief Method get_HasRequiredOrDefaultValueProperties, addr 0x269df38, size 0x3f4, virtual false, abstract: false, final false
-  inline bool get_HasRequiredOrDefaultValueProperties();
-
-  static inline ::Newtonsoft::Json::Serialization::JsonObjectContract* New_ctor(::System::Type* underlyingType);
-
-  /// @brief Method .ctor, addr 0x26930e4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2761830, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method GetUninitializedObject, addr 0x269e32c, size 0x10c, virtual false, abstract: false, final false
-  inline ::System::Object* GetUninitializedObject();
+  /// @brief Method get_ConstructorParameters, addr 0x276c630, size 0x4, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_ConstructorParameters();
 
+  /// @brief Method get_CreatorParameters, addr 0x2761fdc, size 0x70, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_CreatorParameters();
+
+  /// @brief Method get_ExtensionDataGetter, addr 0x276c66c, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::ExtensionDataGetter* get_ExtensionDataGetter();
+
+  /// @brief Method get_ExtensionDataSetter, addr 0x276c65c, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::ExtensionDataSetter* get_ExtensionDataSetter();
+
+  /// @brief Method get_ExtensionDataValueType, addr 0x276c67c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Type* get_ExtensionDataValueType();
+
+  /// @brief Method get_HasRequiredOrDefaultValueProperties, addr 0x276c684, size 0x3f4, virtual false, abstract: false, final false
+  inline bool get_HasRequiredOrDefaultValueProperties();
+
+  /// @brief Method get_ItemRequired, addr 0x276c610, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::Newtonsoft::Json::Required> get_ItemRequired();
+
+  /// @brief Method get_MemberSerialization, addr 0x276c600, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::MemberSerialization get_MemberSerialization();
+
+  /// @brief Method get_OverrideConstructor, addr 0x276c634, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Reflection::ConstructorInfo* get_OverrideConstructor();
+
+  /// @brief Method get_OverrideCreator, addr 0x276c644, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_OverrideCreator();
+
+  /// @brief Method get_ParameterizedCreator, addr 0x276c654, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ParameterizedCreator();
+
+  /// @brief Method get_ParametrizedConstructor, addr 0x276c63c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Reflection::ConstructorInfo* get_ParametrizedConstructor();
+
+  /// @brief Method get_Properties, addr 0x276c620, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
+
+  /// @brief Method set_ExtensionDataGetter, addr 0x276c674, size 0x8, virtual false, abstract: false, final false
+  inline void set_ExtensionDataGetter(::Newtonsoft::Json::Serialization::ExtensionDataGetter* value);
+
+  /// @brief Method set_ExtensionDataSetter, addr 0x276c664, size 0x8, virtual false, abstract: false, final false
+  inline void set_ExtensionDataSetter(::Newtonsoft::Json::Serialization::ExtensionDataSetter* value);
+
+  /// @brief Method set_ExtensionDataValueType, addr 0x2762ef8, size 0xac, virtual false, abstract: false, final false
+  inline void set_ExtensionDataValueType(::System::Type* value);
+
+  /// @brief Method set_ItemRequired, addr 0x276c618, size 0x8, virtual false, abstract: false, final false
+  inline void set_ItemRequired(::System::Nullable_1<::Newtonsoft::Json::Required> value);
+
+  /// @brief Method set_MemberSerialization, addr 0x276c608, size 0x8, virtual false, abstract: false, final false
+  inline void set_MemberSerialization(::Newtonsoft::Json::MemberSerialization value);
+
+  /// @brief Method set_OverrideConstructor, addr 0x2761f54, size 0x88, virtual false, abstract: false, final false
+  inline void set_OverrideConstructor(::System::Reflection::ConstructorInfo* value);
+
+  /// @brief Method set_OverrideCreator, addr 0x276c64c, size 0x8, virtual false, abstract: false, final false
+  inline void set_OverrideCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
+
+  /// @brief Method set_ParametrizedConstructor, addr 0x27621ac, size 0x88, virtual false, abstract: false, final false
+  inline void set_ParametrizedConstructor(::System::Reflection::ConstructorInfo* value);
+
+  /// @brief Method set_Properties, addr 0x276c628, size 0x8, virtual false, abstract: false, final false
+  inline void set_Properties(::Newtonsoft::Json::Serialization::JsonPropertyCollection* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonObjectContract();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonObjectContract", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonObjectContract(JsonObjectContract&&) = delete;
@@ -286,12 +290,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonObjectContract(JsonObjectContract const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonObjectContract();
-
-public:
   /// @brief Field <MemberSerialization>k__BackingField, offset: 0xbc, size: 0x4, def value: None
   ::Newtonsoft::Json::MemberSerialization ____MemberSerialization_k__BackingField;
 

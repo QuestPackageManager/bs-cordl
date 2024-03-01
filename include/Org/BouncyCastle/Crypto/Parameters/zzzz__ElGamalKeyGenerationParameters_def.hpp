@@ -21,16 +21,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationPara
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1018))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1046))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ElGamalKeyGenerationParameters*
 class CORDL_TYPE ElGamalKeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
   // Declarations
+  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* Parameters;
+
   /// @brief Field parameters, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters;
 
-  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* Parameters;
+  /// @brief Method GetStrength, addr 0xfa5478, size 0x34, virtual false, abstract: false, final false
+  static inline int32_t GetStrength(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
+
+  static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
+                                                                                                  ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*& __cordl_internal_get_parameters();
 
@@ -38,18 +42,18 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
-                                                                                                  ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
-
-  /// @brief Method .ctor, addr 0xf6046c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xfa543c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_Parameters, addr 0xf604dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0xfa54ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* get_Parameters();
 
-  /// @brief Method GetStrength, addr 0xf604a8, size 0x34, virtual false, abstract: false, final false
-  static inline int32_t GetStrength(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ElGamalKeyGenerationParameters();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalKeyGenerationParameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ElGamalKeyGenerationParameters(ElGamalKeyGenerationParameters&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ElGamalKeyGenerationParameters(ElGamalKeyGenerationParameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ElGamalKeyGenerationParameters();
-
-public:
   /// @brief Field parameters, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* ___parameters;
 

@@ -27,27 +27,31 @@ MARK_REF_PTR_T(::UnityEngine::Cursor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8793))
 // CS Name: ::UnityEngine::Cursor*
 class CORDL_TYPE Cursor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetCursor, addr 0x2ca2b7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetCursor, addr 0x2d8cc58, size 0x58, virtual false, abstract: false, final false
   static inline void SetCursor(::UnityEngine::Texture2D* texture, ::UnityEngine::Vector2 hotspot, ::UnityEngine::CursorMode cursorMode);
 
-  /// @brief Method set_visible, addr 0x2ca2c28, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_visible(bool value);
-
-  /// @brief Method get_lockState, addr 0x2ca2c64, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::CursorLockMode get_lockState();
-
-  /// @brief Method set_lockState, addr 0x2ca2c8c, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_lockState(::UnityEngine::CursorLockMode value);
-
-  /// @brief Method SetCursor_Injected, addr 0x2ca2bd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetCursor_Injected, addr 0x2d8ccb0, size 0x54, virtual false, abstract: false, final false
   static inline void SetCursor_Injected(::UnityEngine::Texture2D* texture, ByRef<::UnityEngine::Vector2> hotspot, ::UnityEngine::CursorMode cursorMode);
 
+  /// @brief Method get_lockState, addr 0x2d8cd40, size 0x28, virtual false, abstract: false, final false
+  static inline ::UnityEngine::CursorLockMode get_lockState();
+
+  /// @brief Method set_lockState, addr 0x2d8cd68, size 0x3c, virtual false, abstract: false, final false
+  static inline void set_lockState(::UnityEngine::CursorLockMode value);
+
+  /// @brief Method set_visible, addr 0x2d8cd04, size 0x3c, virtual false, abstract: false, final false
+  static inline void set_visible(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Cursor();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Cursor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Cursor(Cursor&&) = delete;
@@ -56,12 +60,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Cursor(Cursor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Cursor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

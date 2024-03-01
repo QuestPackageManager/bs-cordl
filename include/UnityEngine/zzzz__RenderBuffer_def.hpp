@@ -16,18 +16,16 @@ MARK_VAL_T(::UnityEngine::RenderBuffer);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8816))
 // CS Name: ::UnityEngine::RenderBuffer
 struct CORDL_TYPE RenderBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "m_RenderTextureInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BufferPtr", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RenderBuffer(int32_t m_RenderTextureInstanceID, void* m_BufferPtr) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderBuffer();
+
+  // Ctor Parameters [CppParam { name: "m_RenderTextureInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BufferPtr", ty: "void*", modifiers: "", def_value: None }]
+  constexpr RenderBuffer(int32_t m_RenderTextureInstanceID, void* m_BufferPtr) noexcept;
 
   /// @brief Field m_RenderTextureInstanceID, offset: 0x0, size: 0x4, def value: None
   int32_t m_RenderTextureInstanceID;

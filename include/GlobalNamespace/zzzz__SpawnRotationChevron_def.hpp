@@ -31,17 +31,11 @@ MARK_REF_PTR_T(::GlobalNamespace::__SpawnRotationChevron__Pool);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995)), TypeDefinitionIndex(TypeDefinitionIndex(14436))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4349))
 // CS Name: ::SpawnRotationChevron*
 class CORDL_TYPE SpawnRotationChevron : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
   using Pool = ::GlobalNamespace::__SpawnRotationChevron__Pool;
-
-  /// @brief Field _lights, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__lights,
-                      put = __cordl_internal_set__lights))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> _lights;
 
   /// @brief Field _color, offset 0x38, size 0x10
   __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
@@ -49,38 +43,48 @@ public:
   /// @brief Field _lightAmount, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__lightAmount, put = __cordl_internal_set__lightAmount)) float_t _lightAmount;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__lights();
+  /// @brief Field _lights, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__lights,
+                      put = __cordl_internal_set__lights))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> _lights;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__lights() const;
-
-  constexpr void __cordl_internal_set__lights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
-
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
-
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
-
-  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
-
-  constexpr float_t& __cordl_internal_get__lightAmount();
-
-  constexpr float_t const& __cordl_internal_get__lightAmount() const;
-
-  constexpr void __cordl_internal_set__lightAmount(float_t value);
-
-  /// @brief Method ColorWasSet, addr 0x2374794, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x24426dc, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
-
-  /// @brief Method SetLightAmount, addr 0x2374810, size 0x8, virtual false, abstract: false, final false
-  inline void SetLightAmount(float_t amount);
-
-  /// @brief Method UpdateLights, addr 0x23747a0, size 0x70, virtual false, abstract: false, final false
-  inline void UpdateLights();
 
   static inline ::GlobalNamespace::SpawnRotationChevron* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2374818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLightAmount, addr 0x2442758, size 0x8, virtual false, abstract: false, final false
+  inline void SetLightAmount(float_t amount);
+
+  /// @brief Method UpdateLights, addr 0x24426e8, size 0x70, virtual false, abstract: false, final false
+  inline void UpdateLights();
+
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+
+  constexpr float_t const& __cordl_internal_get__lightAmount() const;
+
+  constexpr float_t& __cordl_internal_get__lightAmount();
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> const& __cordl_internal_get__lights() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>& __cordl_internal_get__lights();
+
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
+
+  constexpr void __cordl_internal_set__lightAmount(float_t value);
+
+  constexpr void __cordl_internal_set__lights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
+
+  /// @brief Method .ctor, addr 0x2442760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpawnRotationChevron();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevron", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SpawnRotationChevron(SpawnRotationChevron&&) = delete;
@@ -89,12 +93,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpawnRotationChevron(SpawnRotationChevron const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpawnRotationChevron();
-
-public:
   /// @brief Field _lights, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> ____lights;
 
@@ -120,16 +118,21 @@ static_assert(offsetof(::GlobalNamespace::SpawnRotationChevron, ____lightAmount)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4349)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
-// 2797 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4348)) CS Name: ::SpawnRotationChevron::Pool*
+// CS Name: ::SpawnRotationChevron::Pool*
 class CORDL_TYPE __SpawnRotationChevron__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SpawnRotationChevron>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__SpawnRotationChevron__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2374820, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2442768, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SpawnRotationChevron__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__SpawnRotationChevron__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __SpawnRotationChevron__Pool(__SpawnRotationChevron__Pool&&) = delete;
@@ -138,12 +141,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SpawnRotationChevron__Pool(__SpawnRotationChevron__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SpawnRotationChevron__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

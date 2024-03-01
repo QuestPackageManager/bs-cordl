@@ -28,8 +28,6 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9989))
 // CS Name: ::Zenject::DecoratorToChoiceFromBinder`1<TContract>*
 class CORDL_TYPE DecoratorToChoiceFromBinder_1 : public ::System::Object {
 public:
@@ -43,32 +41,38 @@ public:
   /// @brief Field _factoryBindInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo))::Zenject::FactoryBindInfo* _factoryBindInfo;
 
+  static inline ::Zenject::DecoratorToChoiceFromBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
+
+  /// @brief Method With, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TConcrete> inline ::Zenject::FactoryFromBinder_2<TContract, TConcrete>* With();
+
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__bindContainer();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__bindContainer() const;
-
-  constexpr void __cordl_internal_set__bindContainer(::Zenject::DiContainer* value);
 
   constexpr ::Zenject::BindInfo*& __cordl_internal_get__bindInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& __cordl_internal_get__bindInfo() const;
 
-  constexpr void __cordl_internal_set__bindInfo(::Zenject::BindInfo* value);
-
   constexpr ::Zenject::FactoryBindInfo*& __cordl_internal_get__factoryBindInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const& __cordl_internal_get__factoryBindInfo() const;
 
-  constexpr void __cordl_internal_set__factoryBindInfo(::Zenject::FactoryBindInfo* value);
+  constexpr void __cordl_internal_set__bindContainer(::Zenject::DiContainer* value);
 
-  static inline ::Zenject::DecoratorToChoiceFromBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
+  constexpr void __cordl_internal_set__bindInfo(::Zenject::BindInfo* value);
+
+  constexpr void __cordl_internal_set__factoryBindInfo(::Zenject::FactoryBindInfo* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method With, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TConcrete> inline ::Zenject::FactoryFromBinder_2<TContract, TConcrete>* With();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DecoratorToChoiceFromBinder_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DecoratorToChoiceFromBinder_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DecoratorToChoiceFromBinder_1(DecoratorToChoiceFromBinder_1&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DecoratorToChoiceFromBinder_1(DecoratorToChoiceFromBinder_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DecoratorToChoiceFromBinder_1();
-
-public:
   /// @brief Field _bindContainer, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____bindContainer;
 

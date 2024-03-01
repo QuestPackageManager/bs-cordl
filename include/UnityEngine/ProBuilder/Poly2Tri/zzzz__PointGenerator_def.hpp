@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PointGenerator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15506))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PointGenerator*
 class CORDL_TYPE PointGenerator : public ::System::Object {
 public:
@@ -34,21 +32,27 @@ public:
   /// @brief Field RNG, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_RNG, put = setStaticF_RNG))::System::Random* RNG;
 
-  static inline void setStaticF_RNG(::System::Random* value);
+  static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor();
+
+  /// @brief Method UniformDistribution, addr 0x2c1b55c, size 0x1c8, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t n, double_t scale);
+
+  /// @brief Method UniformGrid, addr 0x2c1b724, size 0x18c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t n, double_t scale);
+
+  /// @brief Method .ctor, addr 0x2c1b8b0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Random* getStaticF_RNG();
 
-  /// @brief Method UniformDistribution, addr 0x2b34488, size 0x1c8, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t n, double_t scale);
+  static inline void setStaticF_RNG(::System::Random* value);
 
-  /// @brief Method UniformGrid, addr 0x2b34650, size 0x18c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t n, double_t scale);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointGenerator();
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2b347dc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointGenerator(PointGenerator&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointGenerator(PointGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointGenerator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

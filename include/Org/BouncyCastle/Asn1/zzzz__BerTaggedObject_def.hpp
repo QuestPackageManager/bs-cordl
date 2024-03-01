@@ -21,30 +21,34 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerTaggedObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(495))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(496))
 // CS Name: ::Org.BouncyCastle.Asn1::BerTaggedObject*
 class CORDL_TYPE BerTaggedObject : public ::Org::BouncyCastle::Asn1::DerTaggedObject {
 public:
   // Declarations
-  static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
-
-  /// @brief Method .ctor, addr 0x11ec03c, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
+  /// @brief Method Encode, addr 0x122f0c4, size 0x5bc, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor, addr 0x11e7464, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
-
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(int32_t tagNo);
 
-  /// @brief Method .ctor, addr 0x11ec080, size 0x74, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::BerTaggedObject* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
+
+  /// @brief Method .ctor, addr 0x122a434, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
+
+  /// @brief Method .ctor, addr 0x122f050, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo);
 
-  /// @brief Method Encode, addr 0x11ec0f4, size 0x5bc, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
+  /// @brief Method .ctor, addr 0x122f00c, size 0x44, virtual false, abstract: false, final false
+  inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BerTaggedObject();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BerTaggedObject", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BerTaggedObject(BerTaggedObject&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BerTaggedObject(BerTaggedObject const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerTaggedObject();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

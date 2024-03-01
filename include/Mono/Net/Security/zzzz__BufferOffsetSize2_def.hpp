@@ -16,8 +16,6 @@ MARK_REF_PTR_T(::Mono::Net::Security::BufferOffsetSize2);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6825))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6826))
 // CS Name: ::Mono.Net.Security::BufferOffsetSize2*
 class CORDL_TYPE BufferOffsetSize2 : public ::Mono::Net::Security::BufferOffsetSize {
 public:
@@ -25,26 +23,32 @@ public:
   /// @brief Field InitialSize, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_InitialSize, put = __cordl_internal_set_InitialSize)) int32_t InitialSize;
 
-  constexpr int32_t& __cordl_internal_get_InitialSize();
+  /// @brief Method AppendData, addr 0x2907d64, size 0x60, virtual false, abstract: false, final false
+  inline void AppendData(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  constexpr int32_t const& __cordl_internal_get_InitialSize() const;
-
-  constexpr void __cordl_internal_set_InitialSize(int32_t value);
+  /// @brief Method MakeRoom, addr 0x2907cb0, size 0xb4, virtual false, abstract: false, final false
+  inline void MakeRoom(int32_t size);
 
   static inline ::Mono::Net::Security::BufferOffsetSize2* New_ctor(int32_t size);
 
-  /// @brief Method .ctor, addr 0x2822768, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(int32_t size);
-
-  /// @brief Method Reset, addr 0x28227d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2907c54, size 0x5c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method MakeRoom, addr 0x2822834, size 0xb4, virtual false, abstract: false, final false
-  inline void MakeRoom(int32_t size);
+  constexpr int32_t const& __cordl_internal_get_InitialSize() const;
 
-  /// @brief Method AppendData, addr 0x28228e8, size 0x60, virtual false, abstract: false, final false
-  inline void AppendData(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
+  constexpr int32_t& __cordl_internal_get_InitialSize();
 
+  constexpr void __cordl_internal_set_InitialSize(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2907be4, size 0x70, virtual false, abstract: false, final false
+  inline void _ctor(int32_t size);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BufferOffsetSize2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BufferOffsetSize2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BufferOffsetSize2(BufferOffsetSize2&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BufferOffsetSize2(BufferOffsetSize2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferOffsetSize2();
-
-public:
   /// @brief Field InitialSize, offset: 0x28, size: 0x4, def value: None
   int32_t ___InitialSize;
 

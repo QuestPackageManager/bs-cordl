@@ -21,49 +21,53 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5ActivityIdsModelSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10989))
 // CS Name: ::PS5ActivityIdsModelSO*
 class CORDL_TYPE PS5ActivityIdsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Field _progressActivities, offset 0x18, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__progressActivities,
-               put = __cordl_internal_set__progressActivities))::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> _progressActivities;
-
   /// @brief Field _competetiveActivities, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__competetiveActivities,
                       put = __cordl_internal_set__competetiveActivities))::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>,
                                                                                   ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> _competetiveActivities;
 
-  __declspec(property(get = get_progressActivities))::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> progressActivities;
+  /// @brief Field _progressActivities, offset 0x18, size 0x8
+  __declspec(
+      property(get = __cordl_internal_get__progressActivities,
+               put = __cordl_internal_set__progressActivities))::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> _progressActivities;
 
   __declspec(property(get = get_competetiveActivities))::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> competetiveActivities;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*>& __cordl_internal_get__progressActivities();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> const& __cordl_internal_get__progressActivities() const;
-
-  constexpr void __cordl_internal_set__progressActivities(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> value);
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*>& __cordl_internal_get__competetiveActivities();
-
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> const& __cordl_internal_get__competetiveActivities() const;
-
-  constexpr void __cordl_internal_set__competetiveActivities(::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> value);
-
-  /// @brief Method get_progressActivities, addr 0x12a88ec, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> get_progressActivities();
-
-  /// @brief Method get_competetiveActivities, addr 0x12a88f4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> get_competetiveActivities();
+  __declspec(property(get = get_progressActivities))::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> progressActivities;
 
   static inline ::GlobalNamespace::PS5ActivityIdsModelSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12a88fc, size 0x8, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> const& __cordl_internal_get__competetiveActivities() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*>& __cordl_internal_get__competetiveActivities();
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> const& __cordl_internal_get__progressActivities() const;
+
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*>& __cordl_internal_get__progressActivities();
+
+  constexpr void __cordl_internal_set__competetiveActivities(::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> value);
+
+  constexpr void __cordl_internal_set__progressActivities(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> value);
+
+  /// @brief Method .ctor, addr 0x12e98cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_competetiveActivities, addr 0x12e98c4, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::GlobalNamespace::CompetetiveActivitySO>, ::Array<::UnityW<::GlobalNamespace::CompetetiveActivitySO>>*> get_competetiveActivities();
+
+  /// @brief Method get_progressActivities, addr 0x12e98bc, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> get_progressActivities();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PS5ActivityIdsModelSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PS5ActivityIdsModelSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PS5ActivityIdsModelSO(PS5ActivityIdsModelSO&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PS5ActivityIdsModelSO(PS5ActivityIdsModelSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PS5ActivityIdsModelSO();
-
-public:
   /// @brief Field _progressActivities, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySO>>*> ____progressActivities;
 

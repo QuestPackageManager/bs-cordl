@@ -25,19 +25,17 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StyleValueManaged);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6559)), TypeDefinitionIndex(TypeDefinitionIndex(6746))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6726))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleValueManaged
 struct CORDL_TYPE StyleValueManaged {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "keyword", ty:
-  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Object*", modifiers: "", def_value: None }]
-  constexpr StyleValueManaged(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleKeyword keyword, ::System::Object* value) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr StyleValueManaged();
+
+  // Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: None }, CppParam { name: "keyword", ty:
+  // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::System::Object*", modifiers: "", def_value: None }]
+  constexpr StyleValueManaged(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleKeyword keyword, ::System::Object* value) noexcept;
 
   /// @brief Field id, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleSheets::StylePropertyId id;

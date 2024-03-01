@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Net::NetworkInformation::OperationalStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7264))
 // CS Name: ::System.Net.NetworkInformation::OperationalStatus
 struct CORDL_TYPE OperationalStatus {
 public:
@@ -39,24 +37,32 @@ public:
     return static_cast<__OperationalStatus_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr OperationalStatus(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__OperationalStatus_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr OperationalStatus();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr OperationalStatus(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Up value: static_cast<int32_t>(0x1)
-  static ::System::Net::NetworkInformation::OperationalStatus const Up;
+  /// @brief Field Dormant value: static_cast<int32_t>(0x5)
+  static ::System::Net::NetworkInformation::OperationalStatus const Dormant;
 
   /// @brief Field Down value: static_cast<int32_t>(0x2)
   static ::System::Net::NetworkInformation::OperationalStatus const Down;
+
+  /// @brief Field LowerLayerDown value: static_cast<int32_t>(0x7)
+  static ::System::Net::NetworkInformation::OperationalStatus const LowerLayerDown;
+
+  /// @brief Field NotPresent value: static_cast<int32_t>(0x6)
+  static ::System::Net::NetworkInformation::OperationalStatus const NotPresent;
 
   /// @brief Field Testing value: static_cast<int32_t>(0x3)
   static ::System::Net::NetworkInformation::OperationalStatus const Testing;
@@ -64,14 +70,11 @@ public:
   /// @brief Field Unknown value: static_cast<int32_t>(0x4)
   static ::System::Net::NetworkInformation::OperationalStatus const Unknown;
 
-  /// @brief Field Dormant value: static_cast<int32_t>(0x5)
-  static ::System::Net::NetworkInformation::OperationalStatus const Dormant;
+  /// @brief Field Up value: static_cast<int32_t>(0x1)
+  static ::System::Net::NetworkInformation::OperationalStatus const Up;
 
-  /// @brief Field NotPresent value: static_cast<int32_t>(0x6)
-  static ::System::Net::NetworkInformation::OperationalStatus const NotPresent;
-
-  /// @brief Field LowerLayerDown value: static_cast<int32_t>(0x7)
-  static ::System::Net::NetworkInformation::OperationalStatus const LowerLayerDown;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

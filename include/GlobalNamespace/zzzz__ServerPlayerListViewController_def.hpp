@@ -57,24 +57,33 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerPlayerListViewController);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5026))
 // CS Name: ::ServerPlayerListViewController*
 class CORDL_TYPE ServerPlayerListViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _gameServerPlayersTableView, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameServerPlayersTableView,
-                      put = __cordl_internal_set__gameServerPlayersTableView))::UnityW<::GlobalNamespace::GameServerPlayersTableView> _gameServerPlayersTableView;
-
-  /// @brief Field _invitePlayerButton, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__invitePlayerButton, put = __cordl_internal_set__invitePlayerButton))::UnityW<::UnityEngine::UI::Button> _invitePlayerButton;
+  /// @brief Field _buttonBinder, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _cantInvitePlayerHoverHint, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__cantInvitePlayerHoverHint, put = __cordl_internal_set__cantInvitePlayerHoverHint))::UnityW<::HMUI::HoverHint> _cantInvitePlayerHoverHint;
 
+  /// @brief Field _gameServerPlayersTableView, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameServerPlayersTableView,
+                      put = __cordl_internal_set__gameServerPlayersTableView))::UnityW<::GlobalNamespace::GameServerPlayersTableView> _gameServerPlayersTableView;
+
   /// @brief Field _invitePlatformHandler, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__invitePlatformHandler, put = __cordl_internal_set__invitePlatformHandler))::GlobalNamespace::IInvitePlatformHandler* _invitePlatformHandler;
+
+  /// @brief Field _invitePlayerButton, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__invitePlayerButton, put = __cordl_internal_set__invitePlayerButton))::UnityW<::UnityEngine::UI::Button> _invitePlayerButton;
+
+  /// @brief Field _lobbyGameStateController, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__lobbyGameStateController,
+                      put = __cordl_internal_set__lobbyGameStateController))::GlobalNamespace::ILobbyGameStateController* _lobbyGameStateController;
+
+  /// @brief Field _lobbyPlayerPermissionsModel, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__lobbyPlayerPermissionsModel,
+                      put = __cordl_internal_set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
 
   /// @brief Field _lobbyPlayersDataModel, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__lobbyPlayersDataModel, put = __cordl_internal_set__lobbyPlayersDataModel))::GlobalNamespace::ILobbyPlayersDataModel* _lobbyPlayersDataModel;
@@ -82,13 +91,11 @@ public:
   /// @brief Field _lobbyStateDataModel, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__lobbyStateDataModel, put = __cordl_internal_set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
 
-  /// @brief Field _lobbyPlayerPermissionsModel, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyPlayerPermissionsModel,
-                      put = __cordl_internal_set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
+  /// @brief Field didOpenInvitePanelEvent, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_didOpenInvitePanelEvent, put = __cordl_internal_set_didOpenInvitePanelEvent))::System::Action* didOpenInvitePanelEvent;
 
-  /// @brief Field _lobbyGameStateController, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyGameStateController,
-                      put = __cordl_internal_set__lobbyGameStateController))::GlobalNamespace::ILobbyGameStateController* _lobbyGameStateController;
+  /// @brief Field kickPlayerEvent, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get_kickPlayerEvent, put = __cordl_internal_set_kickPlayerEvent))::System::Action_1<::StringW>* kickPlayerEvent;
 
   /// @brief Field selectSuggestedBeatmapEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_selectSuggestedBeatmapEvent,
@@ -98,155 +105,152 @@ public:
   __declspec(property(get = __cordl_internal_get_selectSuggestedGameplayModifiersEvent,
                       put = __cordl_internal_set_selectSuggestedGameplayModifiersEvent))::System::Action_1<::GlobalNamespace::GameplayModifiers*>* selectSuggestedGameplayModifiersEvent;
 
-  /// @brief Field kickPlayerEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_kickPlayerEvent, put = __cordl_internal_set_kickPlayerEvent))::System::Action_1<::StringW>* kickPlayerEvent;
+  /// @brief Method DidActivate, addr 0x23cf3d4, size 0x390, virtual true, abstract: false, final false
+  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Field didOpenInvitePanelEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_didOpenInvitePanelEvent, put = __cordl_internal_set_didOpenInvitePanelEvent))::System::Action* didOpenInvitePanelEvent;
+  /// @brief Method DidDeactivate, addr 0x23cfc60, size 0x338, virtual true, abstract: false, final false
+  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Field _buttonBinder, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  /// @brief Method HandleKickPlayer, addr 0x23d0008, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleKickPlayer(::StringW userId);
 
-  constexpr ::UnityW<::GlobalNamespace::GameServerPlayersTableView>& __cordl_internal_get__gameServerPlayersTableView();
+  /// @brief Method HandleLobbyGameStateControllerLobbyStateChanged, addr 0x23cff9c, size 0x4, virtual false, abstract: false, final false
+  inline void HandleLobbyGameStateControllerLobbyStateChanged(::GlobalNamespace::MultiplayerLobbyState _);
 
-  constexpr ::UnityW<::GlobalNamespace::GameServerPlayersTableView> const& __cordl_internal_get__gameServerPlayersTableView() const;
+  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x23cffa0, size 0x4, virtual false, abstract: false, final false
+  inline void HandleLobbyPlayerPermissionChanged();
 
-  constexpr void __cordl_internal_set__gameServerPlayersTableView(::UnityW<::GlobalNamespace::GameServerPlayersTableView> value);
+  /// @brief Method HandleLobbyPlayersDataDidChange, addr 0x23cff98, size 0x4, virtual false, abstract: false, final false
+  inline void HandleLobbyPlayersDataDidChange(::StringW userId);
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__invitePlayerButton();
+  /// @brief Method HandleOpenPlatformInvitePanel, addr 0x23d0024, size 0xc8, virtual false, abstract: false, final false
+  inline void HandleOpenPlatformInvitePanel();
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__invitePlayerButton() const;
+  /// @brief Method HandleSelectSuggestedGameplayModifiers, addr 0x23cffec, size 0x1c, virtual false, abstract: false, final false
+  inline void HandleSelectSuggestedGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  constexpr void __cordl_internal_set__invitePlayerButton(::UnityW<::UnityEngine::UI::Button> value);
+  /// @brief Method HandleSelectSuggestedLevel, addr 0x23cffa4, size 0x48, virtual false, abstract: false, final false
+  inline void HandleSelectSuggestedLevel(::GlobalNamespace::BeatmapKey beatmapKey);
 
-  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__cantInvitePlayerHoverHint();
+  static inline ::GlobalNamespace::ServerPlayerListViewController* New_ctor();
 
-  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__cantInvitePlayerHoverHint() const;
+  /// @brief Method SetDataToTable, addr 0x23cfa5c, size 0x204, virtual false, abstract: false, final false
+  inline void SetDataToTable();
 
-  constexpr void __cordl_internal_set__cantInvitePlayerHoverHint(::UnityW<::HMUI::HoverHint> value);
-
-  constexpr ::GlobalNamespace::IInvitePlatformHandler*& __cordl_internal_get__invitePlatformHandler();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IInvitePlatformHandler*> const& __cordl_internal_get__invitePlatformHandler() const;
-
-  constexpr void __cordl_internal_set__invitePlatformHandler(::GlobalNamespace::IInvitePlatformHandler* value);
-
-  constexpr ::GlobalNamespace::ILobbyPlayersDataModel*& __cordl_internal_get__lobbyPlayersDataModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayersDataModel*> const& __cordl_internal_get__lobbyPlayersDataModel() const;
-
-  constexpr void __cordl_internal_set__lobbyPlayersDataModel(::GlobalNamespace::ILobbyPlayersDataModel* value);
-
-  constexpr ::GlobalNamespace::ILobbyStateDataModel*& __cordl_internal_get__lobbyStateDataModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __cordl_internal_get__lobbyStateDataModel() const;
-
-  constexpr void __cordl_internal_set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
-
-  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
-
-  constexpr void __cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
-
-  constexpr ::GlobalNamespace::ILobbyGameStateController*& __cordl_internal_get__lobbyGameStateController();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateController*> const& __cordl_internal_get__lobbyGameStateController() const;
-
-  constexpr void __cordl_internal_set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value);
-
-  constexpr ::System::Action_1<::GlobalNamespace::BeatmapKey>*& __cordl_internal_get_selectSuggestedBeatmapEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::BeatmapKey>*> const& __cordl_internal_get_selectSuggestedBeatmapEvent() const;
-
-  constexpr void __cordl_internal_set_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
-
-  constexpr ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*& __cordl_internal_get_selectSuggestedGameplayModifiersEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::GameplayModifiers*>*> const& __cordl_internal_get_selectSuggestedGameplayModifiersEvent() const;
-
-  constexpr void __cordl_internal_set_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
-
-  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_kickPlayerEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_kickPlayerEvent() const;
-
-  constexpr void __cordl_internal_set_kickPlayerEvent(::System::Action_1<::StringW>* value);
-
-  constexpr ::System::Action*& __cordl_internal_get_didOpenInvitePanelEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didOpenInvitePanelEvent() const;
-
-  constexpr void __cordl_internal_set_didOpenInvitePanelEvent(::System::Action* value);
+  /// @brief Method TrySetInviteButtonEnabled, addr 0x23cf764, size 0x2f8, virtual false, abstract: false, final false
+  inline void TrySetInviteButtonEnabled();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
+  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__cantInvitePlayerHoverHint() const;
+
+  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__cantInvitePlayerHoverHint();
+
+  constexpr ::UnityW<::GlobalNamespace::GameServerPlayersTableView> const& __cordl_internal_get__gameServerPlayersTableView() const;
+
+  constexpr ::UnityW<::GlobalNamespace::GameServerPlayersTableView>& __cordl_internal_get__gameServerPlayersTableView();
+
+  constexpr ::GlobalNamespace::IInvitePlatformHandler*& __cordl_internal_get__invitePlatformHandler();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IInvitePlatformHandler*> const& __cordl_internal_get__invitePlatformHandler() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__invitePlayerButton() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__invitePlayerButton();
+
+  constexpr ::GlobalNamespace::ILobbyGameStateController*& __cordl_internal_get__lobbyGameStateController();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateController*> const& __cordl_internal_get__lobbyGameStateController() const;
+
+  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
+
+  constexpr ::GlobalNamespace::ILobbyPlayersDataModel*& __cordl_internal_get__lobbyPlayersDataModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayersDataModel*> const& __cordl_internal_get__lobbyPlayersDataModel() const;
+
+  constexpr ::GlobalNamespace::ILobbyStateDataModel*& __cordl_internal_get__lobbyStateDataModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __cordl_internal_get__lobbyStateDataModel() const;
+
+  constexpr ::System::Action*& __cordl_internal_get_didOpenInvitePanelEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didOpenInvitePanelEvent() const;
+
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_kickPlayerEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_kickPlayerEvent() const;
+
+  constexpr ::System::Action_1<::GlobalNamespace::BeatmapKey>*& __cordl_internal_get_selectSuggestedBeatmapEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::BeatmapKey>*> const& __cordl_internal_get_selectSuggestedBeatmapEvent() const;
+
+  constexpr ::System::Action_1<::GlobalNamespace::GameplayModifiers*>*& __cordl_internal_get_selectSuggestedGameplayModifiersEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::GameplayModifiers*>*> const& __cordl_internal_get_selectSuggestedGameplayModifiersEvent() const;
+
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method add_selectSuggestedBeatmapEvent, addr 0x23001d4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
+  constexpr void __cordl_internal_set__cantInvitePlayerHoverHint(::UnityW<::HMUI::HoverHint> value);
 
-  /// @brief Method remove_selectSuggestedBeatmapEvent, addr 0x2300284, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
+  constexpr void __cordl_internal_set__gameServerPlayersTableView(::UnityW<::GlobalNamespace::GameServerPlayersTableView> value);
 
-  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x2300334, size 0xb0, virtual false, abstract: false, final false
-  inline void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
+  constexpr void __cordl_internal_set__invitePlatformHandler(::GlobalNamespace::IInvitePlatformHandler* value);
 
-  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x23003e4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
+  constexpr void __cordl_internal_set__invitePlayerButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method add_kickPlayerEvent, addr 0x2300494, size 0xb0, virtual false, abstract: false, final false
-  inline void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value);
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x2300544, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
 
-  /// @brief Method add_didOpenInvitePanelEvent, addr 0x23005f4, size 0x9c, virtual false, abstract: false, final false
-  inline void add_didOpenInvitePanelEvent(::System::Action* value);
+  constexpr void __cordl_internal_set__lobbyPlayersDataModel(::GlobalNamespace::ILobbyPlayersDataModel* value);
 
-  /// @brief Method remove_didOpenInvitePanelEvent, addr 0x2300690, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_didOpenInvitePanelEvent(::System::Action* value);
+  constexpr void __cordl_internal_set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
 
-  /// @brief Method DidActivate, addr 0x230072c, size 0x390, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+  constexpr void __cordl_internal_set_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method DidDeactivate, addr 0x2300fb8, size 0x338, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+  constexpr void __cordl_internal_set_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method HandleLobbyPlayersDataDidChange, addr 0x23012f0, size 0x4, virtual false, abstract: false, final false
-  inline void HandleLobbyPlayersDataDidChange(::StringW userId);
+  constexpr void __cordl_internal_set_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
-  /// @brief Method HandleLobbyGameStateControllerLobbyStateChanged, addr 0x23012f4, size 0x4, virtual false, abstract: false, final false
-  inline void HandleLobbyGameStateControllerLobbyStateChanged(::GlobalNamespace::MultiplayerLobbyState _);
+  constexpr void __cordl_internal_set_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x23012f8, size 0x4, virtual false, abstract: false, final false
-  inline void HandleLobbyPlayerPermissionChanged();
-
-  /// @brief Method SetDataToTable, addr 0x2300db4, size 0x204, virtual false, abstract: false, final false
-  inline void SetDataToTable();
-
-  /// @brief Method HandleSelectSuggestedLevel, addr 0x23012fc, size 0x48, virtual false, abstract: false, final false
-  inline void HandleSelectSuggestedLevel(::GlobalNamespace::BeatmapKey beatmapKey);
-
-  /// @brief Method HandleSelectSuggestedGameplayModifiers, addr 0x2301344, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleSelectSuggestedGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
-
-  /// @brief Method HandleKickPlayer, addr 0x2301360, size 0x1c, virtual false, abstract: false, final false
-  inline void HandleKickPlayer(::StringW userId);
-
-  /// @brief Method HandleOpenPlatformInvitePanel, addr 0x230137c, size 0xc8, virtual false, abstract: false, final false
-  inline void HandleOpenPlatformInvitePanel();
-
-  /// @brief Method TrySetInviteButtonEnabled, addr 0x2300abc, size 0x2f8, virtual false, abstract: false, final false
-  inline void TrySetInviteButtonEnabled();
-
-  static inline ::GlobalNamespace::ServerPlayerListViewController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2301444, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d00ec, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method add_didOpenInvitePanelEvent, addr 0x23cf29c, size 0x9c, virtual false, abstract: false, final false
+  inline void add_didOpenInvitePanelEvent(::System::Action* value);
+
+  /// @brief Method add_kickPlayerEvent, addr 0x23cf13c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
+
+  /// @brief Method add_selectSuggestedBeatmapEvent, addr 0x23cee7c, size 0xb0, virtual false, abstract: false, final false
+  inline void add_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
+
+  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x23cefdc, size 0xb0, virtual false, abstract: false, final false
+  inline void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
+
+  /// @brief Method remove_didOpenInvitePanelEvent, addr 0x23cf338, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_didOpenInvitePanelEvent(::System::Action* value);
+
+  /// @brief Method remove_kickPlayerEvent, addr 0x23cf1ec, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
+
+  /// @brief Method remove_selectSuggestedBeatmapEvent, addr 0x23cef2c, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
+
+  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x23cf08c, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ServerPlayerListViewController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ServerPlayerListViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ServerPlayerListViewController(ServerPlayerListViewController&&) = delete;
@@ -255,12 +259,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ServerPlayerListViewController(ServerPlayerListViewController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServerPlayerListViewController();
-
-public:
   /// @brief Field _gameServerPlayersTableView, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServerPlayersTableView> ____gameServerPlayersTableView;
 

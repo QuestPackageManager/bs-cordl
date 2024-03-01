@@ -19,44 +19,48 @@ MARK_REF_PTR_T(::System::ComponentModel::DefaultEventAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7427))
 // CS Name: ::System.ComponentModel::DefaultEventAttribute*
 class CORDL_TYPE DefaultEventAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
-
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::ComponentModel::DefaultEventAttribute* Default;
 
   __declspec(property(get = get_Name))::StringW Name;
 
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+  /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
-  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+  /// @brief Method Equals, addr 0x29f7f74, size 0x80, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
-
-  static inline void setStaticF_Default(::System::ComponentModel::DefaultEventAttribute* value);
-
-  static inline ::System::ComponentModel::DefaultEventAttribute* getStaticF_Default();
+  /// @brief Method GetHashCode, addr 0x29f7ff4, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::DefaultEventAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2912ac8, size 0x28, virtual false, abstract: false, final false
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x29f7f44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x2912af0, size 0x8, virtual false, abstract: false, final false
+  static inline ::System::ComponentModel::DefaultEventAttribute* getStaticF_Default();
+
+  /// @brief Method get_Name, addr 0x29f7f6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method Equals, addr 0x2912af8, size 0x80, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  static inline void setStaticF_Default(::System::ComponentModel::DefaultEventAttribute* value);
 
-  /// @brief Method GetHashCode, addr 0x2912b78, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DefaultEventAttribute();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEventAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DefaultEventAttribute(DefaultEventAttribute&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultEventAttribute(DefaultEventAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultEventAttribute();
-
-public:
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 

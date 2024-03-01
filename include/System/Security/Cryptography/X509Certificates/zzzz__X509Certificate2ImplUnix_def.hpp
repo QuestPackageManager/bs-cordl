@@ -36,122 +36,126 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6868)), TypeDefinitionIndex(TypeDefinitionIndex(7006))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7008))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2ImplUnix*
 class CORDL_TYPE X509Certificate2ImplUnix : public ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl {
 public:
   // Declarations
-  /// @brief Field readCertData, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_readCertData, put = __cordl_internal_set_readCertData)) bool readCertData;
+  __declspec(property(get = get_Extensions))::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* Extensions;
 
-  /// @brief Field certData, offset 0x18, size 0x98
-  __declspec(property(get = __cordl_internal_get_certData, put = __cordl_internal_set_certData))::Internal::Cryptography::Pal::CertificateData certData;
+  __declspec(property(get = get_Issuer))::StringW Issuer;
+
+  __declspec(property(get = get_IssuerName))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* IssuerName;
 
   __declspec(property(get = get_KeyAlgorithm))::StringW KeyAlgorithm;
 
   __declspec(property(get = get_KeyAlgorithmParameters))::ArrayW<uint8_t, ::Array<uint8_t>*> KeyAlgorithmParameters;
 
+  __declspec(property(get = get_NotAfter))::System::DateTime NotAfter;
+
+  __declspec(property(get = get_NotBefore))::System::DateTime NotBefore;
+
   __declspec(property(get = get_PublicKeyValue))::ArrayW<uint8_t, ::Array<uint8_t>*> PublicKeyValue;
+
+  __declspec(property(get = get_RawData))::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
 
   __declspec(property(get = get_SerialNumber))::ArrayW<uint8_t, ::Array<uint8_t>*> SerialNumber;
 
   __declspec(property(get = get_SignatureAlgorithm))::StringW SignatureAlgorithm;
 
-  __declspec(property(get = get_Version)) int32_t Version;
+  __declspec(property(get = get_Subject))::StringW Subject;
 
   __declspec(property(get = get_SubjectName))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* SubjectName;
 
-  __declspec(property(get = get_IssuerName))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* IssuerName;
-
-  __declspec(property(get = get_Subject))::StringW Subject;
-
-  __declspec(property(get = get_Issuer))::StringW Issuer;
-
-  __declspec(property(get = get_RawData))::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
-
   __declspec(property(get = get_Thumbprint))::ArrayW<uint8_t, ::Array<uint8_t>*> Thumbprint;
 
-  __declspec(property(get = get_Extensions))::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* Extensions;
+  __declspec(property(get = get_Version)) int32_t Version;
 
-  __declspec(property(get = get_NotAfter))::System::DateTime NotAfter;
+  /// @brief Field certData, offset 0x18, size 0x98
+  __declspec(property(get = __cordl_internal_get_certData, put = __cordl_internal_set_certData))::Internal::Cryptography::Pal::CertificateData certData;
 
-  __declspec(property(get = get_NotBefore))::System::DateTime NotBefore;
+  /// @brief Field readCertData, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_readCertData, put = __cordl_internal_set_readCertData)) bool readCertData;
 
-  constexpr bool& __cordl_internal_get_readCertData();
+  /// @brief Method AppendPrivateKeyInfo, addr 0x2a68794, size 0x94, virtual true, abstract: false, final true
+  inline void AppendPrivateKeyInfo(::System::Text::StringBuilder* sb);
 
-  constexpr bool const& __cordl_internal_get_readCertData() const;
-
-  constexpr void __cordl_internal_set_readCertData(bool value);
-
-  constexpr ::Internal::Cryptography::Pal::CertificateData& __cordl_internal_get_certData();
-
-  constexpr ::Internal::Cryptography::Pal::CertificateData const& __cordl_internal_get_certData() const;
-
-  constexpr void __cordl_internal_set_certData(::Internal::Cryptography::Pal::CertificateData value);
-
-  /// @brief Method EnsureCertData, addr 0x29822fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EnsureCertData, addr 0x2a683d0, size 0x80, virtual false, abstract: false, final false
   inline void EnsureCertData();
+
+  /// @brief Method GetNameInfo, addr 0x2a68710, size 0x34, virtual true, abstract: false, final true
+  inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
 
   /// @brief Method GetRawCertData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawCertData();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x298237c, size 0x18, virtual true, abstract: false, final true
-  inline ::StringW get_KeyAlgorithm();
-
-  /// @brief Method get_KeyAlgorithmParameters, addr 0x2982394, size 0x18, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyAlgorithmParameters();
-
-  /// @brief Method get_PublicKeyValue, addr 0x29823ac, size 0x18, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PublicKeyValue();
-
-  /// @brief Method get_SerialNumber, addr 0x29823c4, size 0x18, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
-
-  /// @brief Method get_SignatureAlgorithm, addr 0x29823dc, size 0x18, virtual true, abstract: false, final true
-  inline ::StringW get_SignatureAlgorithm();
-
-  /// @brief Method get_Version, addr 0x29823f4, size 0x1c, virtual true, abstract: false, final true
-  inline int32_t get_Version();
-
-  /// @brief Method get_SubjectName, addr 0x2982410, size 0x18, virtual true, abstract: false, final true
-  inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_SubjectName();
-
-  /// @brief Method get_IssuerName, addr 0x2982428, size 0x18, virtual true, abstract: false, final true
-  inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_IssuerName();
-
-  /// @brief Method get_Subject, addr 0x2982440, size 0x28, virtual true, abstract: false, final true
-  inline ::StringW get_Subject();
-
-  /// @brief Method get_Issuer, addr 0x2982468, size 0x28, virtual true, abstract: false, final true
-  inline ::StringW get_Issuer();
-
-  /// @brief Method get_RawData, addr 0x2982490, size 0x18, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();
-
-  /// @brief Method get_Thumbprint, addr 0x29824a8, size 0x194, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Thumbprint();
-
-  /// @brief Method GetNameInfo, addr 0x298263c, size 0x34, virtual true, abstract: false, final true
-  inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
-
-  /// @brief Method get_Extensions, addr 0x2982670, size 0x18, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* get_Extensions();
-
-  /// @brief Method get_NotAfter, addr 0x2982688, size 0x1c, virtual true, abstract: false, final true
-  inline ::System::DateTime get_NotAfter();
-
-  /// @brief Method get_NotBefore, addr 0x29826a4, size 0x1c, virtual true, abstract: false, final true
-  inline ::System::DateTime get_NotBefore();
-
-  /// @brief Method AppendPrivateKeyInfo, addr 0x29826c0, size 0x94, virtual true, abstract: false, final true
-  inline void AppendPrivateKeyInfo(::System::Text::StringBuilder* sb);
-
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2980db8, size 0x8, virtual false, abstract: false, final false
+  constexpr ::Internal::Cryptography::Pal::CertificateData const& __cordl_internal_get_certData() const;
+
+  constexpr ::Internal::Cryptography::Pal::CertificateData& __cordl_internal_get_certData();
+
+  constexpr bool const& __cordl_internal_get_readCertData() const;
+
+  constexpr bool& __cordl_internal_get_readCertData();
+
+  constexpr void __cordl_internal_set_certData(::Internal::Cryptography::Pal::CertificateData value);
+
+  constexpr void __cordl_internal_set_readCertData(bool value);
+
+  /// @brief Method .ctor, addr 0x2a66e8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Extensions, addr 0x2a68744, size 0x18, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension*>* get_Extensions();
+
+  /// @brief Method get_Issuer, addr 0x2a6853c, size 0x28, virtual true, abstract: false, final true
+  inline ::StringW get_Issuer();
+
+  /// @brief Method get_IssuerName, addr 0x2a684fc, size 0x18, virtual true, abstract: false, final true
+  inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_IssuerName();
+
+  /// @brief Method get_KeyAlgorithm, addr 0x2a68450, size 0x18, virtual true, abstract: false, final true
+  inline ::StringW get_KeyAlgorithm();
+
+  /// @brief Method get_KeyAlgorithmParameters, addr 0x2a68468, size 0x18, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyAlgorithmParameters();
+
+  /// @brief Method get_NotAfter, addr 0x2a6875c, size 0x1c, virtual true, abstract: false, final true
+  inline ::System::DateTime get_NotAfter();
+
+  /// @brief Method get_NotBefore, addr 0x2a68778, size 0x1c, virtual true, abstract: false, final true
+  inline ::System::DateTime get_NotBefore();
+
+  /// @brief Method get_PublicKeyValue, addr 0x2a68480, size 0x18, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PublicKeyValue();
+
+  /// @brief Method get_RawData, addr 0x2a68564, size 0x18, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();
+
+  /// @brief Method get_SerialNumber, addr 0x2a68498, size 0x18, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
+
+  /// @brief Method get_SignatureAlgorithm, addr 0x2a684b0, size 0x18, virtual true, abstract: false, final true
+  inline ::StringW get_SignatureAlgorithm();
+
+  /// @brief Method get_Subject, addr 0x2a68514, size 0x28, virtual true, abstract: false, final true
+  inline ::StringW get_Subject();
+
+  /// @brief Method get_SubjectName, addr 0x2a684e4, size 0x18, virtual true, abstract: false, final true
+  inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* get_SubjectName();
+
+  /// @brief Method get_Thumbprint, addr 0x2a6857c, size 0x194, virtual true, abstract: false, final true
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Thumbprint();
+
+  /// @brief Method get_Version, addr 0x2a684c8, size 0x1c, virtual true, abstract: false, final true
+  inline int32_t get_Version();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509Certificate2ImplUnix();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509Certificate2ImplUnix", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Certificate2ImplUnix(X509Certificate2ImplUnix&&) = delete;
@@ -160,12 +164,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Certificate2ImplUnix(X509Certificate2ImplUnix const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509Certificate2ImplUnix();
-
-public:
   /// @brief Field readCertData, offset: 0x10, size: 0x1, def value: None
   bool ___readCertData;
 

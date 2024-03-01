@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::UserAttributePacket);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(560))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(597))
 // CS Name: ::Org.BouncyCastle.Bcpg::UserAttributePacket*
 class CORDL_TYPE UserAttributePacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
@@ -34,29 +32,35 @@ public:
   __declspec(property(get = __cordl_internal_get_subpackets,
                       put = __cordl_internal_set_subpackets))::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> subpackets;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*>& __cordl_internal_get_subpackets();
+  /// @brief Method Encode, addr 0x1245d9c, size 0xd8, virtual true, abstract: false, final false
+  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> const& __cordl_internal_get_subpackets() const;
-
-  constexpr void __cordl_internal_set_subpackets(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> value);
+  /// @brief Method GetSubpackets, addr 0x1245d94, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> GetSubpackets();
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
-
-  /// @brief Method .ctor, addr 0x11fcd00, size 0x324, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributePacket*
   New_ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> subpackets);
 
-  /// @brief Method .ctor, addr 0x1202d9c, size 0x28, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> const& __cordl_internal_get_subpackets() const;
+
+  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*>& __cordl_internal_get_subpackets();
+
+  constexpr void __cordl_internal_set_subpackets(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> value);
+
+  /// @brief Method .ctor, addr 0x123fcd0, size 0x324, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+
+  /// @brief Method .ctor, addr 0x1245d6c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> subpackets);
 
-  /// @brief Method GetSubpackets, addr 0x1202dc4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> GetSubpackets();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UserAttributePacket();
 
-  /// @brief Method Encode, addr 0x1202dcc, size 0xd8, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UserAttributePacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UserAttributePacket(UserAttributePacket&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UserAttributePacket(UserAttributePacket const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UserAttributePacket();
-
-public:
   /// @brief Field subpackets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> ___subpackets;
 

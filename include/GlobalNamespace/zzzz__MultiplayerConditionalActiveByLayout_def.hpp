@@ -31,8 +31,6 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConditionalActiveByLayout);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4534))
 // CS Name: ::MultiplayerConditionalActiveByLayout::Condition
 struct CORDL_TYPE __MultiplayerConditionalActiveByLayout__Condition {
 public:
@@ -50,24 +48,29 @@ public:
     return static_cast<____MultiplayerConditionalActiveByLayout__Condition_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MultiplayerConditionalActiveByLayout__Condition(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____MultiplayerConditionalActiveByLayout__Condition_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __MultiplayerConditionalActiveByLayout__Condition();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __MultiplayerConditionalActiveByLayout__Condition(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field HideIf value: static_cast<int32_t>(0x1)
+  static ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const HideIf;
 
   /// @brief Field ShowIf value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const ShowIf;
 
-  /// @brief Field HideIf value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const HideIf;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -81,8 +84,6 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerConditionalActiveByLayout
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4534)), TypeDefinitionIndex(TypeDefinitionIndex(4575)), TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4535))
 // CS Name: ::MultiplayerConditionalActiveByLayout*
 class CORDL_TYPE MultiplayerConditionalActiveByLayout : public ::UnityEngine::MonoBehaviour {
 public:
@@ -98,35 +99,41 @@ public:
   /// @brief Field _layoutProvider, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
-  constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition& __cordl_internal_get__condition();
+  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x2472b50, size 0x58, virtual false, abstract: false, final false
+  inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t playersCount);
+
+  static inline ::GlobalNamespace::MultiplayerConditionalActiveByLayout* New_ctor();
+
+  /// @brief Method Start, addr 0x2472ab0, size 0xa0, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const& __cordl_internal_get__condition() const;
 
-  constexpr void __cordl_internal_set__condition(::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition value);
-
-  constexpr ::GlobalNamespace::MultiplayerPlayerLayout& __cordl_internal_get__layout();
+  constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition& __cordl_internal_get__condition();
 
   constexpr ::GlobalNamespace::MultiplayerPlayerLayout const& __cordl_internal_get__layout() const;
 
-  constexpr void __cordl_internal_set__layout(::GlobalNamespace::MultiplayerPlayerLayout value);
+  constexpr ::GlobalNamespace::MultiplayerPlayerLayout& __cordl_internal_get__layout();
 
   constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__layoutProvider() const;
 
+  constexpr void __cordl_internal_set__condition(::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition value);
+
+  constexpr void __cordl_internal_set__layout(::GlobalNamespace::MultiplayerPlayerLayout value);
+
   constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
-  /// @brief Method Start, addr 0x23a4b68, size 0xa0, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x23a4c08, size 0x58, virtual false, abstract: false, final false
-  inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t playersCount);
-
-  static inline ::GlobalNamespace::MultiplayerConditionalActiveByLayout* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23a4d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2472c58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerConditionalActiveByLayout();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConditionalActiveByLayout", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerConditionalActiveByLayout(MultiplayerConditionalActiveByLayout&&) = delete;
@@ -135,12 +142,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConditionalActiveByLayout(MultiplayerConditionalActiveByLayout const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerConditionalActiveByLayout();
-
-public:
   /// @brief Field _condition, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition ____condition;
 

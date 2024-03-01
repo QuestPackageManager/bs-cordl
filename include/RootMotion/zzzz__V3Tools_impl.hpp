@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::RootMotion::V3Tools::Lerp)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x12daad0;
+  constexpr static std::size_t addrs = 0x131babc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::RootMotion::V3Tools::Slerp)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x12dab2c;
+  constexpr static std::size_t addrs = 0x131bb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::RootMotion::V3Tools::ExtractVertical)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x12dab64;
+  constexpr static std::size_t addrs = 0x131bb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::RootMotion::V3Tools::ExtractHorizontal)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x12dacb4;
+  constexpr static std::size_t addrs = 0x131bca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, int32_t)>(
     &::RootMotion::V3Tools::ClampDirection)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x12dae30;
+  constexpr static std::size_t addrs = 0x131be1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, int32_t, ByRef<bool>)>(
     &::RootMotion::V3Tools::ClampDirection)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x12db060;
+  constexpr static std::size_t addrs = 0x131c04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, int32_t, ByRef<float_t>)>(
     &::RootMotion::V3Tools::ClampDirection)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x12db2b0;
+  constexpr static std::size_t addrs = 0x131c29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::RootMotion::V3Tools::LineToPlane)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x12db508;
+  constexpr static std::size_t addrs = 0x131c4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::RootMotion::V3Tools::PointToPlane)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x12db6b4;
+  constexpr static std::size_t addrs = 0x131c6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3)>(
     &::RootMotion::V3Tools::TransformPointUnscaled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x12db8ac;
+  constexpr static std::size_t addrs = 0x131c898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3)>(
     &::RootMotion::V3Tools::InverseTransformPointUnscaled)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x12db928;
+  constexpr static std::size_t addrs = 0x131c914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

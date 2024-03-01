@@ -15,8 +15,6 @@ MARK_VAL_T(::TMPro::MarkupTag);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12306))
 // CS Name: ::TMPro::MarkupTag
 struct CORDL_TYPE MarkupTag {
 public:
@@ -158,198 +156,131 @@ public:
     return static_cast<__MarkupTag_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr MarkupTag(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__MarkupTag_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr MarkupTag();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr MarkupTag(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field BOLD value: static_cast<int32_t>(0x42)
-  static ::TMPro::MarkupTag const BOLD;
-
-  /// @brief Field SLASH_BOLD value: static_cast<int32_t>(0x64d)
-  static ::TMPro::MarkupTag const SLASH_BOLD;
-
-  /// @brief Field ITALIC value: static_cast<int32_t>(0x49)
-  static ::TMPro::MarkupTag const ITALIC;
-
-  /// @brief Field SLASH_ITALIC value: static_cast<int32_t>(0x646)
-  static ::TMPro::MarkupTag const SLASH_ITALIC;
-
-  /// @brief Field UNDERLINE value: static_cast<int32_t>(0x55)
-  static ::TMPro::MarkupTag const UNDERLINE;
-
-  /// @brief Field SLASH_UNDERLINE value: static_cast<int32_t>(0x65a)
-  static ::TMPro::MarkupTag const SLASH_UNDERLINE;
-
-  /// @brief Field STRIKETHROUGH value: static_cast<int32_t>(0x53)
-  static ::TMPro::MarkupTag const STRIKETHROUGH;
-
-  /// @brief Field SLASH_STRIKETHROUGH value: static_cast<int32_t>(0x65c)
-  static ::TMPro::MarkupTag const SLASH_STRIKETHROUGH;
-
-  /// @brief Field MARK value: static_cast<int32_t>(0x292f75)
-  static ::TMPro::MarkupTag const MARK;
-
-  /// @brief Field SLASH_MARK value: static_cast<int32_t>(0x36f95da)
-  static ::TMPro::MarkupTag const SLASH_MARK;
-
-  /// @brief Field SUBSCRIPT value: static_cast<int32_t>(0x167e4)
-  static ::TMPro::MarkupTag const SUBSCRIPT;
-
-  /// @brief Field SLASH_SUBSCRIPT value: static_cast<int32_t>(0x1b02eb)
-  static ::TMPro::MarkupTag const SLASH_SUBSCRIPT;
-
-  /// @brief Field SUPERSCRIPT value: static_cast<int32_t>(0x167f6)
-  static ::TMPro::MarkupTag const SUPERSCRIPT;
-
-  /// @brief Field SLASH_SUPERSCRIPT value: static_cast<int32_t>(0x1b02f9)
-  static ::TMPro::MarkupTag const SLASH_SUPERSCRIPT;
-
-  /// @brief Field COLOR value: static_cast<int32_t>(0x4e3381d)
-  static ::TMPro::MarkupTag const COLOR;
-
-  /// @brief Field SLASH_COLOR value: static_cast<int32_t>(0x71c96d92)
-  static ::TMPro::MarkupTag const SLASH_COLOR;
-
-  /// @brief Field ALPHA value: static_cast<int32_t>(0x47af054)
-  static ::TMPro::MarkupTag const ALPHA;
 
   /// @brief Field A value: static_cast<int32_t>(0x41)
   static ::TMPro::MarkupTag const A;
 
-  /// @brief Field SLASH_A value: static_cast<int32_t>(0x64e)
-  static ::TMPro::MarkupTag const SLASH_A;
-
-  /// @brief Field SIZE value: static_cast<int32_t>(0x2eb625)
-  static ::TMPro::MarkupTag const SIZE;
-
-  /// @brief Field SLASH_SIZE value: static_cast<int32_t>(0x37b920a)
-  static ::TMPro::MarkupTag const SLASH_SIZE;
-
-  /// @brief Field SPRITE value: static_cast<int32_t>(0xc4e67de9)
-  static ::TMPro::MarkupTag const SPRITE;
-
-  /// @brief Field NO_BREAK value: static_cast<int32_t>(0x2b96d1)
-  static ::TMPro::MarkupTag const NO_BREAK;
-
-  /// @brief Field SLASH_NO_BREAK value: static_cast<int32_t>(0x36d097e)
-  static ::TMPro::MarkupTag const SLASH_NO_BREAK;
-
-  /// @brief Field STYLE value: static_cast<int32_t>(0x5f9bd17)
-  static ::TMPro::MarkupTag const STYLE;
-
-  /// @brief Field SLASH_STYLE value: static_cast<int32_t>(0x72e6f418)
-  static ::TMPro::MarkupTag const SLASH_STYLE;
-
-  /// @brief Field FONT value: static_cast<int32_t>(0x277753)
-  static ::TMPro::MarkupTag const FONT;
-
-  /// @brief Field SLASH_FONT value: static_cast<int32_t>(0x37128fc)
-  static ::TMPro::MarkupTag const SLASH_FONT;
-
-  /// @brief Field SLASH_MATERIAL value: static_cast<int32_t>(0xbe648664)
-  static ::TMPro::MarkupTag const SLASH_MATERIAL;
-
-  /// @brief Field LINK value: static_cast<int32_t>(0x288780)
-  static ::TMPro::MarkupTag const LINK;
-
-  /// @brief Field SLASH_LINK value: static_cast<int32_t>(0x37038af)
-  static ::TMPro::MarkupTag const SLASH_LINK;
-
-  /// @brief Field FONT_WEIGHT value: static_cast<int32_t>(0x8f5a791e)
-  static ::TMPro::MarkupTag const FONT_WEIGHT;
-
-  /// @brief Field SLASH_FONT_WEIGHT value: static_cast<int32_t>(0xd2d23291)
-  static ::TMPro::MarkupTag const SLASH_FONT_WEIGHT;
-
-  /// @brief Field NO_PARSE value: static_cast<int32_t>(0xe7ae3cb4)
-  static ::TMPro::MarkupTag const NO_PARSE;
-
-  /// @brief Field SLASH_NO_PARSE value: static_cast<int32_t>(0xee78743b)
-  static ::TMPro::MarkupTag const SLASH_NO_PARSE;
-
-  /// @brief Field POSITION value: static_cast<int32_t>(0x14dac)
-  static ::TMPro::MarkupTag const POSITION;
-
-  /// @brief Field SLASH_POSITION value: static_cast<int32_t>(0x1b2023)
-  static ::TMPro::MarkupTag const SLASH_POSITION;
-
-  /// @brief Field VERTICAL_OFFSET value: static_cast<int32_t>(0x745ef45b)
-  static ::TMPro::MarkupTag const VERTICAL_OFFSET;
-
-  /// @brief Field SLASH_VERTICAL_OFFSET value: static_cast<int32_t>(0xff568194)
-  static ::TMPro::MarkupTag const SLASH_VERTICAL_OFFSET;
-
-  /// @brief Field SPACE value: static_cast<int32_t>(0x5f72764)
-  static ::TMPro::MarkupTag const SPACE;
-
-  /// @brief Field SLASH_SPACE value: static_cast<int32_t>(0x72e9022b)
-  static ::TMPro::MarkupTag const SLASH_SPACE;
-
-  /// @brief Field PAGE value: static_cast<int32_t>(0x2adb73)
-  static ::TMPro::MarkupTag const PAGE;
-
-  /// @brief Field SLASH_PAGE value: static_cast<int32_t>(0x37f71dc)
-  static ::TMPro::MarkupTag const SLASH_PAGE;
+  /// @brief Field ACTION value: static_cast<int32_t>(0x9312449e)
+  static ::TMPro::MarkupTag const ACTION;
 
   /// @brief Field ALIGN value: static_cast<int32_t>(0x47a86ed)
   static ::TMPro::MarkupTag const ALIGN;
 
-  /// @brief Field SLASH_ALIGN value: static_cast<int32_t>(0x72343fa2)
-  static ::TMPro::MarkupTag const SLASH_ALIGN;
+  /// @brief Field ALLCAPS value: static_cast<int32_t>(0xd0298a0)
+  static ::TMPro::MarkupTag const ALLCAPS;
 
-  /// @brief Field WIDTH value: static_cast<int32_t>(0x64e48e6)
-  static ::TMPro::MarkupTag const WIDTH;
+  /// @brief Field ALPHA value: static_cast<int32_t>(0x47af054)
+  static ::TMPro::MarkupTag const ALPHA;
 
-  /// @brief Field SLASH_WIDTH value: static_cast<int32_t>(0x72a5aa29)
-  static ::TMPro::MarkupTag const SLASH_WIDTH;
+  /// @brief Field ANGLE value: static_cast<int32_t>(0x47db7c1)
+  static ::TMPro::MarkupTag const ANGLE;
 
-  /// @brief Field GRADIENT value: static_cast<int32_t>(0x88ce15e6)
-  static ::TMPro::MarkupTag const GRADIENT;
+  /// @brief Field ANIM value: static_cast<int32_t>(0x22d74b)
+  static ::TMPro::MarkupTag const ANIM;
 
-  /// @brief Field SLASH_GRADIENT value: static_cast<int32_t>(0x9176b2c9)
-  static ::TMPro::MarkupTag const SLASH_GRADIENT;
+  /// @brief Field BLACK value: static_cast<int32_t>(0x4d51a27)
+  static ::TMPro::MarkupTag const BLACK;
+
+  /// @brief Field BLUE value: static_cast<int32_t>(0x257e7e)
+  static ::TMPro::MarkupTag const BLUE;
+
+  /// @brief Field BOLD value: static_cast<int32_t>(0x42)
+  static ::TMPro::MarkupTag const BOLD;
+
+  /// @brief Field BR value: static_cast<int32_t>(0x8d0)
+  static ::TMPro::MarkupTag const BR;
+
+  /// @brief Field CENTER value: static_cast<int32_t>(0xa12989cb)
+  static ::TMPro::MarkupTag const CENTER;
 
   /// @brief Field CHARACTER_SPACE value: static_cast<int32_t>(0xa1903fc7)
   static ::TMPro::MarkupTag const CHARACTER_SPACE;
 
-  /// @brief Field SLASH_CHARACTER_SPACE value: static_cast<int32_t>(0xace2bca8)
-  static ::TMPro::MarkupTag const SLASH_CHARACTER_SPACE;
-
-  /// @brief Field MONOSPACE value: static_cast<int32_t>(0xb01dd609)
-  static ::TMPro::MarkupTag const MONOSPACE;
-
-  /// @brief Field SLASH_MONOSPACE value: static_cast<int32_t>(0x9e50e566)
-  static ::TMPro::MarkupTag const SLASH_MONOSPACE;
-
   /// @brief Field CLASS value: static_cast<int32_t>(0x4e4fbee)
   static ::TMPro::MarkupTag const CLASS;
+
+  /// @brief Field COLOR value: static_cast<int32_t>(0x4e3381d)
+  static ::TMPro::MarkupTag const COLOR;
+
+  /// @brief Field DEFAULT value: static_cast<int32_t>(0xdafcb04b)
+  static ::TMPro::MarkupTag const DEFAULT;
+
+  /// @brief Field EM value: static_cast<int32_t>(0x8a8)
+  static ::TMPro::MarkupTag const EM;
+
+  /// @brief Field FALSE value: static_cast<int32_t>(0x51772dd)
+  static ::TMPro::MarkupTag const FALSE;
+
+  /// @brief Field FLUSH value: static_cast<int32_t>(0x5196c24)
+  static ::TMPro::MarkupTag const FLUSH;
+
+  /// @brief Field FONT value: static_cast<int32_t>(0x277753)
+  static ::TMPro::MarkupTag const FONT;
+
+  /// @brief Field FONT_WEIGHT value: static_cast<int32_t>(0x8f5a791e)
+  static ::TMPro::MarkupTag const FONT_WEIGHT;
+
+  /// @brief Field FRAC value: static_cast<int32_t>(0x27a676)
+  static ::TMPro::MarkupTag const FRAC;
+
+  /// @brief Field GRADIENT value: static_cast<int32_t>(0x88ce15e6)
+  static ::TMPro::MarkupTag const GRADIENT;
+
+  /// @brief Field GREEN value: static_cast<int32_t>(0x53084fb)
+  static ::TMPro::MarkupTag const GREEN;
+
+  /// @brief Field HREF value: static_cast<int32_t>(0x26afb9)
+  static ::TMPro::MarkupTag const HREF;
 
   /// @brief Field INDENT value: static_cast<int32_t>(0xa5c050bc)
   static ::TMPro::MarkupTag const INDENT;
 
-  /// @brief Field SLASH_INDENT value: static_cast<int32_t>(0xa6c747d3)
-  static ::TMPro::MarkupTag const SLASH_INDENT;
+  /// @brief Field INDEX value: static_cast<int32_t>(0x505d3fe)
+  static ::TMPro::MarkupTag const INDEX;
+
+  /// @brief Field INVALID value: static_cast<int32_t>(0x5e7f8411)
+  static ::TMPro::MarkupTag const INVALID;
+
+  /// @brief Field ITALIC value: static_cast<int32_t>(0x49)
+  static ::TMPro::MarkupTag const ITALIC;
+
+  /// @brief Field JUSTIFIED value: static_cast<int32_t>(0x30b3d31f)
+  static ::TMPro::MarkupTag const JUSTIFIED;
+
+  /// @brief Field LEFT value: static_cast<int32_t>(0x28989b)
+  static ::TMPro::MarkupTag const LEFT;
+
+  /// @brief Field LIGA value: static_cast<int32_t>(0x2886e3)
+  static ::TMPro::MarkupTag const LIGA;
+
+  /// @brief Field LINE_HEIGHT value: static_cast<int32_t>(0xd05efa5c)
+  static ::TMPro::MarkupTag const LINE_HEIGHT;
 
   /// @brief Field LINE_INDENT value: static_cast<int32_t>(0xcdaced1f)
   static ::TMPro::MarkupTag const LINE_INDENT;
 
-  /// @brief Field SLASH_LINE_INDENT value: static_cast<int32_t>(0x5989790)
-  static ::TMPro::MarkupTag const SLASH_LINE_INDENT;
+  /// @brief Field LINK value: static_cast<int32_t>(0x288780)
+  static ::TMPro::MarkupTag const LINK;
+
+  /// @brief Field LOWERCASE value: static_cast<int32_t>(0xa62e8917)
+  static ::TMPro::MarkupTag const LOWERCASE;
 
   /// @brief Field MARGIN value: static_cast<int32_t>(0xaf32f89e)
   static ::TMPro::MarkupTag const MARGIN;
-
-  /// @brief Field SLASH_MARGIN value: static_cast<int32_t>(0x9dac6cf1)
-  static ::TMPro::MarkupTag const SLASH_MARGIN;
 
   /// @brief Field MARGIN_LEFT value: static_cast<int32_t>(0xefbb5ce8)
   static ::TMPro::MarkupTag const MARGIN_LEFT;
@@ -357,197 +288,269 @@ public:
   /// @brief Field MARGIN_RIGHT value: static_cast<int32_t>(0xe554f6f3)
   static ::TMPro::MarkupTag const MARGIN_RIGHT;
 
-  /// @brief Field LINE_HEIGHT value: static_cast<int32_t>(0xd05efa5c)
-  static ::TMPro::MarkupTag const LINE_HEIGHT;
-
-  /// @brief Field SLASH_LINE_HEIGHT value: static_cast<int32_t>(0xbf2aad3)
-  static ::TMPro::MarkupTag const SLASH_LINE_HEIGHT;
-
-  /// @brief Field ACTION value: static_cast<int32_t>(0x9312449e)
-  static ::TMPro::MarkupTag const ACTION;
-
-  /// @brief Field SLASH_ACTION value: static_cast<int32_t>(0xb93c7ef1)
-  static ::TMPro::MarkupTag const SLASH_ACTION;
-
-  /// @brief Field SCALE value: static_cast<int32_t>(0x5fe5278)
-  static ::TMPro::MarkupTag const SCALE;
-
-  /// @brief Field SLASH_SCALE value: static_cast<int32_t>(0x72f142b7)
-  static ::TMPro::MarkupTag const SLASH_SCALE;
-
-  /// @brief Field ROTATE value: static_cast<int32_t>(0xc4651799)
-  static ::TMPro::MarkupTag const ROTATE;
-
-  /// @brief Field SLASH_ROTATE value: static_cast<int32_t>(0xd26babf6)
-  static ::TMPro::MarkupTag const SLASH_ROTATE;
-
-  /// @brief Field LOWERCASE value: static_cast<int32_t>(0xa62e8917)
-  static ::TMPro::MarkupTag const LOWERCASE;
-
-  /// @brief Field SLASH_LOWERCASE value: static_cast<int32_t>(0xa97f2798)
-  static ::TMPro::MarkupTag const SLASH_LOWERCASE;
-
-  /// @brief Field ALLCAPS value: static_cast<int32_t>(0xd0298a0)
-  static ::TMPro::MarkupTag const ALLCAPS;
-
-  /// @brief Field SLASH_ALLCAPS value: static_cast<int32_t>(0xd078112f)
-  static ::TMPro::MarkupTag const SLASH_ALLCAPS;
-
-  /// @brief Field UPPERCASE value: static_cast<int32_t>(0xedcbd276)
-  static ::TMPro::MarkupTag const UPPERCASE;
-
-  /// @brief Field SLASH_UPPERCASE value: static_cast<int32_t>(0xdd49c439)
-  static ::TMPro::MarkupTag const SLASH_UPPERCASE;
-
-  /// @brief Field SMALLCAPS value: static_cast<int32_t>(0xd256d1de)
-  static ::TMPro::MarkupTag const SMALLCAPS;
-
-  /// @brief Field SLASH_SMALLCAPS value: static_cast<int32_t>(0xbea90d1)
-  static ::TMPro::MarkupTag const SLASH_SMALLCAPS;
-
-  /// @brief Field LIGA value: static_cast<int32_t>(0x2886e3)
-  static ::TMPro::MarkupTag const LIGA;
-
-  /// @brief Field SLASH_LIGA value: static_cast<int32_t>(0x3703a4c)
-  static ::TMPro::MarkupTag const SLASH_LIGA;
-
-  /// @brief Field FRAC value: static_cast<int32_t>(0x27a676)
-  static ::TMPro::MarkupTag const FRAC;
-
-  /// @brief Field SLASH_FRAC value: static_cast<int32_t>(0x3719259)
-  static ::TMPro::MarkupTag const SLASH_FRAC;
-
-  /// @brief Field NAME value: static_cast<int32_t>(0x2be0e7)
-  static ::TMPro::MarkupTag const NAME;
-
-  /// @brief Field INDEX value: static_cast<int32_t>(0x505d3fe)
-  static ::TMPro::MarkupTag const INDEX;
-
-  /// @brief Field TINT value: static_cast<int32_t>(0x2d2c87)
-  static ::TMPro::MarkupTag const TINT;
-
-  /// @brief Field ANIM value: static_cast<int32_t>(0x22d74b)
-  static ::TMPro::MarkupTag const ANIM;
+  /// @brief Field MARK value: static_cast<int32_t>(0x292f75)
+  static ::TMPro::MarkupTag const MARK;
 
   /// @brief Field MATERIAL value: static_cast<int32_t>(0x313400cb)
   static ::TMPro::MarkupTag const MATERIAL;
 
-  /// @brief Field HREF value: static_cast<int32_t>(0x26afb9)
-  static ::TMPro::MarkupTag const HREF;
-
-  /// @brief Field ANGLE value: static_cast<int32_t>(0x47db7c1)
-  static ::TMPro::MarkupTag const ANGLE;
-
-  /// @brief Field RED value: static_cast<int32_t>(0x165f3)
-  static ::TMPro::MarkupTag const RED;
-
-  /// @brief Field GREEN value: static_cast<int32_t>(0x53084fb)
-  static ::TMPro::MarkupTag const GREEN;
-
-  /// @brief Field BLUE value: static_cast<int32_t>(0x257e7e)
-  static ::TMPro::MarkupTag const BLUE;
-
-  /// @brief Field YELLOW value: static_cast<int32_t>(0xcb66f684)
-  static ::TMPro::MarkupTag const YELLOW;
-
-  /// @brief Field ORANGE value: static_cast<int32_t>(0xbdec4a70)
-  static ::TMPro::MarkupTag const ORANGE;
-
-  /// @brief Field BLACK value: static_cast<int32_t>(0x4d51a27)
-  static ::TMPro::MarkupTag const BLACK;
-
-  /// @brief Field WHITE value: static_cast<int32_t>(0x64c8d87)
-  static ::TMPro::MarkupTag const WHITE;
-
-  /// @brief Field PURPLE value: static_cast<int32_t>(0xb57b1fce)
-  static ::TMPro::MarkupTag const PURPLE;
-
-  /// @brief Field BR value: static_cast<int32_t>(0x8d0)
-  static ::TMPro::MarkupTag const BR;
-
-  /// @brief Field ZWSP value: static_cast<int32_t>(0x322cae)
-  static ::TMPro::MarkupTag const ZWSP;
-
-  /// @brief Field NBSP value: static_cast<int32_t>(0x2bc72f)
-  static ::TMPro::MarkupTag const NBSP;
-
-  /// @brief Field SHY value: static_cast<int32_t>(0x16a02)
-  static ::TMPro::MarkupTag const SHY;
-
-  /// @brief Field LEFT value: static_cast<int32_t>(0x28989b)
-  static ::TMPro::MarkupTag const LEFT;
-
-  /// @brief Field RIGHT value: static_cast<int32_t>(0x5f4ec60)
-  static ::TMPro::MarkupTag const RIGHT;
-
-  /// @brief Field CENTER value: static_cast<int32_t>(0xa12989cb)
-  static ::TMPro::MarkupTag const CENTER;
-
-  /// @brief Field JUSTIFIED value: static_cast<int32_t>(0x30b3d31f)
-  static ::TMPro::MarkupTag const JUSTIFIED;
-
-  /// @brief Field FLUSH value: static_cast<int32_t>(0x5196c24)
-  static ::TMPro::MarkupTag const FLUSH;
-
-  /// @brief Field NONE value: static_cast<int32_t>(0x2b984a)
-  static ::TMPro::MarkupTag const NONE;
-
-  /// @brief Field PLUS value: static_cast<int32_t>(0x2b)
-  static ::TMPro::MarkupTag const PLUS;
-
   /// @brief Field MINUS value: static_cast<int32_t>(0x2d)
   static ::TMPro::MarkupTag const MINUS;
-
-  /// @brief Field PX value: static_cast<int32_t>(0xa08)
-  static ::TMPro::MarkupTag const PX;
-
-  /// @brief Field PLUS_PX value: static_cast<int32_t>(0xc163)
-  static ::TMPro::MarkupTag const PLUS_PX;
-
-  /// @brief Field MINUS_PX value: static_cast<int32_t>(0xb965)
-  static ::TMPro::MarkupTag const MINUS_PX;
-
-  /// @brief Field EM value: static_cast<int32_t>(0x8a8)
-  static ::TMPro::MarkupTag const EM;
-
-  /// @brief Field PLUS_EM value: static_cast<int32_t>(0xbfc3)
-  static ::TMPro::MarkupTag const PLUS_EM;
 
   /// @brief Field MINUS_EM value: static_cast<int32_t>(0xb6c5)
   static ::TMPro::MarkupTag const MINUS_EM;
 
-  /// @brief Field PCT value: static_cast<int32_t>(0x14c27)
-  static ::TMPro::MarkupTag const PCT;
-
-  /// @brief Field PLUS_PCT value: static_cast<int32_t>(0x18f02c)
-  static ::TMPro::MarkupTag const PLUS_PCT;
-
   /// @brief Field MINUS_PCT value: static_cast<int32_t>(0x17e96a)
   static ::TMPro::MarkupTag const MINUS_PCT;
-
-  /// @brief Field PERCENTAGE value: static_cast<int32_t>(0x25)
-  static ::TMPro::MarkupTag const PERCENTAGE;
-
-  /// @brief Field PLUS_PERCENTAGE value: static_cast<int32_t>(0x5ae)
-  static ::TMPro::MarkupTag const PLUS_PERCENTAGE;
 
   /// @brief Field MINUS_PERCENTAGE value: static_cast<int32_t>(0x5e8)
   static ::TMPro::MarkupTag const MINUS_PERCENTAGE;
 
-  /// @brief Field TRUE value: static_cast<int32_t>(0x2cbd36)
-  static ::TMPro::MarkupTag const TRUE;
+  /// @brief Field MINUS_PX value: static_cast<int32_t>(0xb965)
+  static ::TMPro::MarkupTag const MINUS_PX;
 
-  /// @brief Field FALSE value: static_cast<int32_t>(0x51772dd)
-  static ::TMPro::MarkupTag const FALSE;
+  /// @brief Field MONOSPACE value: static_cast<int32_t>(0xb01dd609)
+  static ::TMPro::MarkupTag const MONOSPACE;
 
-  /// @brief Field INVALID value: static_cast<int32_t>(0x5e7f8411)
-  static ::TMPro::MarkupTag const INVALID;
+  /// @brief Field NAME value: static_cast<int32_t>(0x2be0e7)
+  static ::TMPro::MarkupTag const NAME;
+
+  /// @brief Field NBSP value: static_cast<int32_t>(0x2bc72f)
+  static ::TMPro::MarkupTag const NBSP;
+
+  /// @brief Field NONE value: static_cast<int32_t>(0x2b984a)
+  static ::TMPro::MarkupTag const NONE;
 
   /// @brief Field NORMAL value: static_cast<int32_t>(0xb97550f3)
   static ::TMPro::MarkupTag const NORMAL;
 
-  /// @brief Field DEFAULT value: static_cast<int32_t>(0xdafcb04b)
-  static ::TMPro::MarkupTag const DEFAULT;
+  /// @brief Field NO_BREAK value: static_cast<int32_t>(0x2b96d1)
+  static ::TMPro::MarkupTag const NO_BREAK;
+
+  /// @brief Field NO_PARSE value: static_cast<int32_t>(0xe7ae3cb4)
+  static ::TMPro::MarkupTag const NO_PARSE;
+
+  /// @brief Field ORANGE value: static_cast<int32_t>(0xbdec4a70)
+  static ::TMPro::MarkupTag const ORANGE;
+
+  /// @brief Field PAGE value: static_cast<int32_t>(0x2adb73)
+  static ::TMPro::MarkupTag const PAGE;
+
+  /// @brief Field PCT value: static_cast<int32_t>(0x14c27)
+  static ::TMPro::MarkupTag const PCT;
+
+  /// @brief Field PERCENTAGE value: static_cast<int32_t>(0x25)
+  static ::TMPro::MarkupTag const PERCENTAGE;
+
+  /// @brief Field PLUS value: static_cast<int32_t>(0x2b)
+  static ::TMPro::MarkupTag const PLUS;
+
+  /// @brief Field PLUS_EM value: static_cast<int32_t>(0xbfc3)
+  static ::TMPro::MarkupTag const PLUS_EM;
+
+  /// @brief Field PLUS_PCT value: static_cast<int32_t>(0x18f02c)
+  static ::TMPro::MarkupTag const PLUS_PCT;
+
+  /// @brief Field PLUS_PERCENTAGE value: static_cast<int32_t>(0x5ae)
+  static ::TMPro::MarkupTag const PLUS_PERCENTAGE;
+
+  /// @brief Field PLUS_PX value: static_cast<int32_t>(0xc163)
+  static ::TMPro::MarkupTag const PLUS_PX;
+
+  /// @brief Field POSITION value: static_cast<int32_t>(0x14dac)
+  static ::TMPro::MarkupTag const POSITION;
+
+  /// @brief Field PURPLE value: static_cast<int32_t>(0xb57b1fce)
+  static ::TMPro::MarkupTag const PURPLE;
+
+  /// @brief Field PX value: static_cast<int32_t>(0xa08)
+  static ::TMPro::MarkupTag const PX;
+
+  /// @brief Field RED value: static_cast<int32_t>(0x165f3)
+  static ::TMPro::MarkupTag const RED;
+
+  /// @brief Field RIGHT value: static_cast<int32_t>(0x5f4ec60)
+  static ::TMPro::MarkupTag const RIGHT;
+
+  /// @brief Field ROTATE value: static_cast<int32_t>(0xc4651799)
+  static ::TMPro::MarkupTag const ROTATE;
+
+  /// @brief Field SCALE value: static_cast<int32_t>(0x5fe5278)
+  static ::TMPro::MarkupTag const SCALE;
+
+  /// @brief Field SHY value: static_cast<int32_t>(0x16a02)
+  static ::TMPro::MarkupTag const SHY;
+
+  /// @brief Field SIZE value: static_cast<int32_t>(0x2eb625)
+  static ::TMPro::MarkupTag const SIZE;
+
+  /// @brief Field SLASH_A value: static_cast<int32_t>(0x64e)
+  static ::TMPro::MarkupTag const SLASH_A;
+
+  /// @brief Field SLASH_ACTION value: static_cast<int32_t>(0xb93c7ef1)
+  static ::TMPro::MarkupTag const SLASH_ACTION;
+
+  /// @brief Field SLASH_ALIGN value: static_cast<int32_t>(0x72343fa2)
+  static ::TMPro::MarkupTag const SLASH_ALIGN;
+
+  /// @brief Field SLASH_ALLCAPS value: static_cast<int32_t>(0xd078112f)
+  static ::TMPro::MarkupTag const SLASH_ALLCAPS;
+
+  /// @brief Field SLASH_BOLD value: static_cast<int32_t>(0x64d)
+  static ::TMPro::MarkupTag const SLASH_BOLD;
+
+  /// @brief Field SLASH_CHARACTER_SPACE value: static_cast<int32_t>(0xace2bca8)
+  static ::TMPro::MarkupTag const SLASH_CHARACTER_SPACE;
+
+  /// @brief Field SLASH_COLOR value: static_cast<int32_t>(0x71c96d92)
+  static ::TMPro::MarkupTag const SLASH_COLOR;
+
+  /// @brief Field SLASH_FONT value: static_cast<int32_t>(0x37128fc)
+  static ::TMPro::MarkupTag const SLASH_FONT;
+
+  /// @brief Field SLASH_FONT_WEIGHT value: static_cast<int32_t>(0xd2d23291)
+  static ::TMPro::MarkupTag const SLASH_FONT_WEIGHT;
+
+  /// @brief Field SLASH_FRAC value: static_cast<int32_t>(0x3719259)
+  static ::TMPro::MarkupTag const SLASH_FRAC;
+
+  /// @brief Field SLASH_GRADIENT value: static_cast<int32_t>(0x9176b2c9)
+  static ::TMPro::MarkupTag const SLASH_GRADIENT;
+
+  /// @brief Field SLASH_INDENT value: static_cast<int32_t>(0xa6c747d3)
+  static ::TMPro::MarkupTag const SLASH_INDENT;
+
+  /// @brief Field SLASH_ITALIC value: static_cast<int32_t>(0x646)
+  static ::TMPro::MarkupTag const SLASH_ITALIC;
+
+  /// @brief Field SLASH_LIGA value: static_cast<int32_t>(0x3703a4c)
+  static ::TMPro::MarkupTag const SLASH_LIGA;
+
+  /// @brief Field SLASH_LINE_HEIGHT value: static_cast<int32_t>(0xbf2aad3)
+  static ::TMPro::MarkupTag const SLASH_LINE_HEIGHT;
+
+  /// @brief Field SLASH_LINE_INDENT value: static_cast<int32_t>(0x5989790)
+  static ::TMPro::MarkupTag const SLASH_LINE_INDENT;
+
+  /// @brief Field SLASH_LINK value: static_cast<int32_t>(0x37038af)
+  static ::TMPro::MarkupTag const SLASH_LINK;
+
+  /// @brief Field SLASH_LOWERCASE value: static_cast<int32_t>(0xa97f2798)
+  static ::TMPro::MarkupTag const SLASH_LOWERCASE;
+
+  /// @brief Field SLASH_MARGIN value: static_cast<int32_t>(0x9dac6cf1)
+  static ::TMPro::MarkupTag const SLASH_MARGIN;
+
+  /// @brief Field SLASH_MARK value: static_cast<int32_t>(0x36f95da)
+  static ::TMPro::MarkupTag const SLASH_MARK;
+
+  /// @brief Field SLASH_MATERIAL value: static_cast<int32_t>(0xbe648664)
+  static ::TMPro::MarkupTag const SLASH_MATERIAL;
+
+  /// @brief Field SLASH_MONOSPACE value: static_cast<int32_t>(0x9e50e566)
+  static ::TMPro::MarkupTag const SLASH_MONOSPACE;
+
+  /// @brief Field SLASH_NO_BREAK value: static_cast<int32_t>(0x36d097e)
+  static ::TMPro::MarkupTag const SLASH_NO_BREAK;
+
+  /// @brief Field SLASH_NO_PARSE value: static_cast<int32_t>(0xee78743b)
+  static ::TMPro::MarkupTag const SLASH_NO_PARSE;
+
+  /// @brief Field SLASH_PAGE value: static_cast<int32_t>(0x37f71dc)
+  static ::TMPro::MarkupTag const SLASH_PAGE;
+
+  /// @brief Field SLASH_POSITION value: static_cast<int32_t>(0x1b2023)
+  static ::TMPro::MarkupTag const SLASH_POSITION;
+
+  /// @brief Field SLASH_ROTATE value: static_cast<int32_t>(0xd26babf6)
+  static ::TMPro::MarkupTag const SLASH_ROTATE;
+
+  /// @brief Field SLASH_SCALE value: static_cast<int32_t>(0x72f142b7)
+  static ::TMPro::MarkupTag const SLASH_SCALE;
+
+  /// @brief Field SLASH_SIZE value: static_cast<int32_t>(0x37b920a)
+  static ::TMPro::MarkupTag const SLASH_SIZE;
+
+  /// @brief Field SLASH_SMALLCAPS value: static_cast<int32_t>(0xbea90d1)
+  static ::TMPro::MarkupTag const SLASH_SMALLCAPS;
+
+  /// @brief Field SLASH_SPACE value: static_cast<int32_t>(0x72e9022b)
+  static ::TMPro::MarkupTag const SLASH_SPACE;
+
+  /// @brief Field SLASH_STRIKETHROUGH value: static_cast<int32_t>(0x65c)
+  static ::TMPro::MarkupTag const SLASH_STRIKETHROUGH;
+
+  /// @brief Field SLASH_STYLE value: static_cast<int32_t>(0x72e6f418)
+  static ::TMPro::MarkupTag const SLASH_STYLE;
+
+  /// @brief Field SLASH_SUBSCRIPT value: static_cast<int32_t>(0x1b02eb)
+  static ::TMPro::MarkupTag const SLASH_SUBSCRIPT;
+
+  /// @brief Field SLASH_SUPERSCRIPT value: static_cast<int32_t>(0x1b02f9)
+  static ::TMPro::MarkupTag const SLASH_SUPERSCRIPT;
+
+  /// @brief Field SLASH_UNDERLINE value: static_cast<int32_t>(0x65a)
+  static ::TMPro::MarkupTag const SLASH_UNDERLINE;
+
+  /// @brief Field SLASH_UPPERCASE value: static_cast<int32_t>(0xdd49c439)
+  static ::TMPro::MarkupTag const SLASH_UPPERCASE;
+
+  /// @brief Field SLASH_VERTICAL_OFFSET value: static_cast<int32_t>(0xff568194)
+  static ::TMPro::MarkupTag const SLASH_VERTICAL_OFFSET;
+
+  /// @brief Field SLASH_WIDTH value: static_cast<int32_t>(0x72a5aa29)
+  static ::TMPro::MarkupTag const SLASH_WIDTH;
+
+  /// @brief Field SMALLCAPS value: static_cast<int32_t>(0xd256d1de)
+  static ::TMPro::MarkupTag const SMALLCAPS;
+
+  /// @brief Field SPACE value: static_cast<int32_t>(0x5f72764)
+  static ::TMPro::MarkupTag const SPACE;
+
+  /// @brief Field SPRITE value: static_cast<int32_t>(0xc4e67de9)
+  static ::TMPro::MarkupTag const SPRITE;
+
+  /// @brief Field STRIKETHROUGH value: static_cast<int32_t>(0x53)
+  static ::TMPro::MarkupTag const STRIKETHROUGH;
+
+  /// @brief Field STYLE value: static_cast<int32_t>(0x5f9bd17)
+  static ::TMPro::MarkupTag const STYLE;
+
+  /// @brief Field SUBSCRIPT value: static_cast<int32_t>(0x167e4)
+  static ::TMPro::MarkupTag const SUBSCRIPT;
+
+  /// @brief Field SUPERSCRIPT value: static_cast<int32_t>(0x167f6)
+  static ::TMPro::MarkupTag const SUPERSCRIPT;
+
+  /// @brief Field TINT value: static_cast<int32_t>(0x2d2c87)
+  static ::TMPro::MarkupTag const TINT;
+
+  /// @brief Field TRUE value: static_cast<int32_t>(0x2cbd36)
+  static ::TMPro::MarkupTag const TRUE;
+
+  /// @brief Field UNDERLINE value: static_cast<int32_t>(0x55)
+  static ::TMPro::MarkupTag const UNDERLINE;
+
+  /// @brief Field UPPERCASE value: static_cast<int32_t>(0xedcbd276)
+  static ::TMPro::MarkupTag const UPPERCASE;
+
+  /// @brief Field VERTICAL_OFFSET value: static_cast<int32_t>(0x745ef45b)
+  static ::TMPro::MarkupTag const VERTICAL_OFFSET;
+
+  /// @brief Field WHITE value: static_cast<int32_t>(0x64c8d87)
+  static ::TMPro::MarkupTag const WHITE;
+
+  /// @brief Field WIDTH value: static_cast<int32_t>(0x64e48e6)
+  static ::TMPro::MarkupTag const WIDTH;
+
+  /// @brief Field YELLOW value: static_cast<int32_t>(0xcb66f684)
+  static ::TMPro::MarkupTag const YELLOW;
+
+  /// @brief Field ZWSP value: static_cast<int32_t>(0x322cae)
+  static ::TMPro::MarkupTag const ZWSP;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

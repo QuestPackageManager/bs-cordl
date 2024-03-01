@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::System::Net::HttpListenerException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7502))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7073))
 // CS Name: ::System.Net::HttpListenerException*
 class CORDL_TYPE HttpListenerException : public ::System::ComponentModel::Win32Exception {
 public:
@@ -32,23 +30,29 @@ public:
 
   static inline ::System::Net::HttpListenerException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x299f1f0, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::Net::HttpListenerException* New_ctor(int32_t errorCode, ::StringW message);
-
-  /// @brief Method .ctor, addr 0x299f254, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t errorCode, ::StringW message);
 
   static inline ::System::Net::HttpListenerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x299f25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a862c4, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2a86328, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t errorCode, ::StringW message);
+
+  /// @brief Method .ctor, addr 0x2a86330, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x299f264, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x2a86338, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpListenerException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpListenerException(HttpListenerException&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpListenerException(HttpListenerException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpListenerException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

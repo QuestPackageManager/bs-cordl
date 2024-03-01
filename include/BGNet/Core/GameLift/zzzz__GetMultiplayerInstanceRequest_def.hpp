@@ -35,16 +35,19 @@ MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12579)), TypeDefinitionIndex(TypeDefinitionIndex(12584)), TypeDefinitionIndex(TypeDefinitionIndex(12638)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12656))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12908)) CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceRequest
+// CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceRequest
 struct CORDL_TYPE GetMultiplayerInstanceRequest {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xe8b49c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed246c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                     ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::GlobalNamespace::__AuthenticationToken__Platform platform, ::StringW authUserId,
                     ::StringW singleUseAuthToken, ::StringW privateGameSecret, ::StringW privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies,
                     ::StringW ticketId, ::StringW placementId);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GetMultiplayerInstanceRequest();
 
   // Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "serviceEnvironment", ty: "::GlobalNamespace::ServiceEnvironment", modifiers: "",
   // def_value: None }, CppParam { name: "singleUseAuthToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "beatmapLevelSelectionMask", ty:
@@ -58,10 +61,6 @@ public:
                                           ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration,
                                           ::StringW userId, ::StringW privateGameSecret, ::StringW privateGameCode, ::GlobalNamespace::__AuthenticationToken__Platform platform, ::StringW authUserId,
                                           ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies, ::StringW ticketId, ::StringW placementId) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetMultiplayerInstanceRequest();
 
   /// @brief Field version, offset: 0x0, size: 0x8, def value: None
   ::StringW version;

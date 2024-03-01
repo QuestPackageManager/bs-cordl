@@ -29,26 +29,30 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioClipAsyncLoaderExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10769))
 // CS Name: ::AudioClipAsyncLoaderExtensions*
 class CORDL_TYPE AudioClipAsyncLoaderExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LoadPreview, addr 0x1281840, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method LoadPreview, addr 0x12c4810, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadPreview(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
                                                                                                     ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method UnloadPreview, addr 0x128191c, size 0xa8, virtual false, abstract: false, final false
-  static inline void UnloadPreview(::GlobalNamespace::AudioClipAsyncLoader* _, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
-
-  /// @brief Method LoadSong, addr 0x12819c4, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method LoadSong, addr 0x12c4994, size 0x208, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
                                                                                                  ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
-  /// @brief Method UnloadSong, addr 0x1280204, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method UnloadPreview, addr 0x12c48ec, size 0xa8, virtual false, abstract: false, final false
+  static inline void UnloadPreview(::GlobalNamespace::AudioClipAsyncLoader* _, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+
+  /// @brief Method UnloadSong, addr 0x12c31d4, size 0x1c8, virtual false, abstract: false, final false
   static inline void UnloadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AudioClipAsyncLoaderExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoaderExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensions&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioClipAsyncLoaderExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

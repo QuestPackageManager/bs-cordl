@@ -43,26 +43,30 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Grounder__GrounderDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12415))
 // CS Name: ::Grounder::GrounderDelegate*
 class CORDL_TYPE __Grounder__GrounderDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::RootMotion::FinalIK::__Grounder__GrounderDelegate* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x12df864, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x12df920, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke();
-
-  /// @brief Method BeginInvoke, addr 0x12df934, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x1320920, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x12df954, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x1320940, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
+  /// @brief Method Invoke, addr 0x132090c, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke();
+
+  static inline ::RootMotion::FinalIK::__Grounder__GrounderDelegate* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x1320850, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __Grounder__GrounderDelegate();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__Grounder__GrounderDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __Grounder__GrounderDelegate(__Grounder__GrounderDelegate&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Grounder__GrounderDelegate(__Grounder__GrounderDelegate const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Grounder__GrounderDelegate();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -87,93 +85,97 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__Grounder_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12416))
 // CS Name: ::RootMotion.FinalIK::Grounder*
 class CORDL_TYPE Grounder : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using GrounderDelegate = ::RootMotion::FinalIK::__Grounder__GrounderDelegate;
 
-  /// @brief Field weight, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
-
-  /// @brief Field solver, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::Grounding* solver;
+  /// @brief Field OnPostGrounder, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_OnPostGrounder, put = __cordl_internal_set_OnPostGrounder))::RootMotion::FinalIK::__Grounder__GrounderDelegate* OnPostGrounder;
 
   /// @brief Field OnPreGrounder, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_OnPreGrounder, put = __cordl_internal_set_OnPreGrounder))::RootMotion::FinalIK::__Grounder__GrounderDelegate* OnPreGrounder;
-
-  /// @brief Field OnPostGrounder, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnPostGrounder, put = __cordl_internal_set_OnPostGrounder))::RootMotion::FinalIK::__Grounder__GrounderDelegate* OnPostGrounder;
 
   /// @brief Field <initiated>k__BackingField, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__initiated_k__BackingField, put = __cordl_internal_set__initiated_k__BackingField)) bool _initiated_k__BackingField;
 
   __declspec(property(get = get_initiated, put = set_initiated)) bool initiated;
 
-  constexpr float_t& __cordl_internal_get_weight();
+  /// @brief Field solver, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::Grounding* solver;
 
-  constexpr float_t const& __cordl_internal_get_weight() const;
+  /// @brief Field weight, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  constexpr void __cordl_internal_set_weight(float_t value);
+  /// @brief Method GetLegSpineBendVector, addr 0x132045c, size 0x1ec, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetLegSpineBendVector(::RootMotion::FinalIK::__Grounding__Leg* leg);
 
-  constexpr ::RootMotion::FinalIK::Grounding*& __cordl_internal_get_solver();
+  /// @brief Method GetLegSpineTangent, addr 0x132066c, size 0x174, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetLegSpineTangent(::RootMotion::FinalIK::__Grounding__Leg* leg);
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Grounding*> const& __cordl_internal_get_solver() const;
+  /// @brief Method GetSpineOffsetTarget, addr 0x1320398, size 0xc4, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetSpineOffsetTarget();
 
-  constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::Grounding* value);
+  /// @brief Method LogWarning, addr 0x1320648, size 0x24, virtual false, abstract: false, final false
+  inline void LogWarning(::StringW message);
 
-  constexpr ::RootMotion::FinalIK::__Grounder__GrounderDelegate*& __cordl_internal_get_OnPreGrounder();
+  static inline ::RootMotion::FinalIK::Grounder* New_ctor();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__Grounder__GrounderDelegate*> const& __cordl_internal_get_OnPreGrounder() const;
+  /// @brief Method OpenScriptReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OpenScriptReference();
 
-  constexpr void __cordl_internal_set_OnPreGrounder(::RootMotion::FinalIK::__Grounder__GrounderDelegate* value);
+  /// @brief Method OpenUserManual, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void OpenUserManual();
+
+  /// @brief Method ResetPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ResetPosition();
 
   constexpr ::RootMotion::FinalIK::__Grounder__GrounderDelegate*& __cordl_internal_get_OnPostGrounder();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__Grounder__GrounderDelegate*> const& __cordl_internal_get_OnPostGrounder() const;
 
-  constexpr void __cordl_internal_set_OnPostGrounder(::RootMotion::FinalIK::__Grounder__GrounderDelegate* value);
+  constexpr ::RootMotion::FinalIK::__Grounder__GrounderDelegate*& __cordl_internal_get_OnPreGrounder();
 
-  constexpr bool& __cordl_internal_get__initiated_k__BackingField();
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__Grounder__GrounderDelegate*> const& __cordl_internal_get_OnPreGrounder() const;
 
   constexpr bool const& __cordl_internal_get__initiated_k__BackingField() const;
 
+  constexpr bool& __cordl_internal_get__initiated_k__BackingField();
+
+  constexpr ::RootMotion::FinalIK::Grounding*& __cordl_internal_get_solver();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Grounding*> const& __cordl_internal_get_solver() const;
+
+  constexpr float_t const& __cordl_internal_get_weight() const;
+
+  constexpr float_t& __cordl_internal_get_weight();
+
+  constexpr void __cordl_internal_set_OnPostGrounder(::RootMotion::FinalIK::__Grounder__GrounderDelegate* value);
+
+  constexpr void __cordl_internal_set_OnPreGrounder(::RootMotion::FinalIK::__Grounder__GrounderDelegate* value);
+
   constexpr void __cordl_internal_set__initiated_k__BackingField(bool value);
 
-  /// @brief Method ResetPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ResetPosition();
+  constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::Grounding* value);
 
-  /// @brief Method get_initiated, addr 0x12df398, size 0x8, virtual false, abstract: false, final false
-  inline bool get_initiated();
+  constexpr void __cordl_internal_set_weight(float_t value);
 
-  /// @brief Method set_initiated, addr 0x12df3a0, size 0xc, virtual false, abstract: false, final false
-  inline void set_initiated(bool value);
-
-  /// @brief Method GetSpineOffsetTarget, addr 0x12df3ac, size 0xc4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetSpineOffsetTarget();
-
-  /// @brief Method LogWarning, addr 0x12df65c, size 0x24, virtual false, abstract: false, final false
-  inline void LogWarning(::StringW message);
-
-  /// @brief Method GetLegSpineBendVector, addr 0x12df470, size 0x1ec, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetLegSpineBendVector(::RootMotion::FinalIK::__Grounding__Leg* leg);
-
-  /// @brief Method GetLegSpineTangent, addr 0x12df680, size 0x174, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetLegSpineTangent(::RootMotion::FinalIK::__Grounding__Leg* leg);
-
-  /// @brief Method OpenUserManual, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OpenUserManual();
-
-  /// @brief Method OpenScriptReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void OpenScriptReference();
-
-  static inline ::RootMotion::FinalIK::Grounder* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12df7f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13207e0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_initiated, addr 0x1320384, size 0x8, virtual false, abstract: false, final false
+  inline bool get_initiated();
+
+  /// @brief Method set_initiated, addr 0x132038c, size 0xc, virtual false, abstract: false, final false
+  inline void set_initiated(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Grounder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Grounder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Grounder(Grounder&&) = delete;
@@ -182,12 +184,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Grounder(Grounder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Grounder();
-
-public:
   /// @brief Field weight, offset: 0x18, size: 0x4, def value: None
   float_t ___weight;
 

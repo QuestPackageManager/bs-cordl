@@ -22,43 +22,47 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::AixNetworkInterface);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7302))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7271))
 // CS Name: ::System.Net.NetworkInformation::AixNetworkInterface*
 class CORDL_TYPE AixNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
   // Declarations
+  __declspec(property(get = get_OperationalStatus))::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
+
   /// @brief Field _ifa_flags, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__ifa_flags, put = __cordl_internal_set__ifa_flags)) uint32_t _ifa_flags;
 
   /// @brief Field _ifru_mtu, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__ifru_mtu, put = __cordl_internal_set__ifru_mtu)) int32_t _ifru_mtu;
 
-  __declspec(property(get = get_OperationalStatus))::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
-
-  constexpr uint32_t& __cordl_internal_get__ifa_flags();
-
-  constexpr uint32_t const& __cordl_internal_get__ifa_flags() const;
-
-  constexpr void __cordl_internal_set__ifa_flags(uint32_t value);
-
-  constexpr int32_t& __cordl_internal_get__ifru_mtu();
-
-  constexpr int32_t const& __cordl_internal_get__ifru_mtu() const;
-
-  constexpr void __cordl_internal_set__ifru_mtu(int32_t value);
+  /// @brief Method GetIPProperties, addr 0x2ada46c, size 0x84, virtual true, abstract: false, final false
+  inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::AixNetworkInterface* New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
 
-  /// @brief Method .ctor, addr 0x29f221c, size 0x28, virtual false, abstract: false, final false
+  constexpr uint32_t const& __cordl_internal_get__ifa_flags() const;
+
+  constexpr uint32_t& __cordl_internal_get__ifa_flags();
+
+  constexpr int32_t const& __cordl_internal_get__ifru_mtu() const;
+
+  constexpr int32_t& __cordl_internal_get__ifru_mtu();
+
+  constexpr void __cordl_internal_set__ifa_flags(uint32_t value);
+
+  constexpr void __cordl_internal_set__ifru_mtu(int32_t value);
+
+  /// @brief Method .ctor, addr 0x2ada2f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
 
-  /// @brief Method GetIPProperties, addr 0x29f2398, size 0x84, virtual true, abstract: false, final false
-  inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
-
-  /// @brief Method get_OperationalStatus, addr 0x29f241c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x2ada4f0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AixNetworkInterface();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AixNetworkInterface", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AixNetworkInterface(AixNetworkInterface&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AixNetworkInterface(AixNetworkInterface const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AixNetworkInterface();
-
-public:
   /// @brief Field _ifa_flags, offset: 0x34, size: 0x4, def value: None
   uint32_t ____ifa_flags;
 

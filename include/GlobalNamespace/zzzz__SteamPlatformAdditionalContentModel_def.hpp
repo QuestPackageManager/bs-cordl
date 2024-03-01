@@ -113,23 +113,25 @@ MARK_VAL_T(::GlobalNamespace::__SteamPlatformAdditionalContentModel___OpenLevelP
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 884 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10574)) CS Name: ::SteamPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__7
+// CS Name: ::SteamPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__7
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a4eb8, size 0x210, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a50c8, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x1261ee8, size 0x210, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x12620f8, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -140,10 +142,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::SteamPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW levelId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -188,23 +186,25 @@ static_assert(offsetof(::GlobalNamespace::__SteamPlatformAdditionalContentModel_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 77 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 884 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10575)) CS Name: ::SteamPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__8
+// CS Name: ::SteamPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__8
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a5120, size 0x210, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a5330, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x1262150, size 0x210, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x1262360, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SteamPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -215,10 +215,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::SteamPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW packId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SteamPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -263,24 +259,25 @@ static_assert(offsetof(::GlobalNamespace::__SteamPlatformAdditionalContentModel_
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 752 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 884 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 871 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(10576)) CS Name: ::SteamPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__9
+// CS Name: ::SteamPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__9
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__9 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a5388, size 0x388, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a5710, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x12623b8, size 0x388, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x1262740, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SteamPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__9();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Nullable_1<uint32_t>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -294,10 +291,6 @@ public:
       ::StringW packId, ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* _originalPack_5__2,
       ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData* _levelPackRedirectionData_5__3,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SteamPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__9();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -352,24 +345,25 @@ static_assert(offsetof(::GlobalNamespace::__SteamPlatformAdditionalContentModel_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(10559)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 906 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 77 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10577)) CS Name:
-// ::SteamPlatformAdditionalContentModel::<IsDataValidAsync>d__10
+// CS Name: ::SteamPlatformAdditionalContentModel::<IsDataValidAsync>d__10
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___IsDataValidAsync_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a5768, size 0x3b0, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a5b18, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x1262798, size 0x3b0, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x1262b48, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SteamPlatformAdditionalContentModel___IsDataValidAsync_d__10();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -380,10 +374,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::SteamPlatformAdditionalContentModel* __4__this,
       ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult> __u__2) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SteamPlatformAdditionalContentModel___IsDataValidAsync_d__10();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -428,24 +418,25 @@ static_assert(offsetof(::GlobalNamespace::__SteamPlatformAdditionalContentModel_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3390)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(16446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 752 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 871 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 896 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(10578)) CS Name: ::SteamPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__12
+// CS Name: ::SteamPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__12
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__12 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x12a5b70, size 0x260, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x12a5dd0, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x1262ba0, size 0x260, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x1262e00, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __SteamPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__12();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -456,10 +447,6 @@ public:
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
       ::GlobalNamespace::SteamPlatformAdditionalContentModel* __4__this, ::StringW levelPackId, ::System::Threading::CancellationToken token,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Nullable_1<uint32_t>> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SteamPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__12();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -504,117 +491,121 @@ static_assert(offsetof(::GlobalNamespace::__SteamPlatformAdditionalContentModel_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10560))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10579))
 // CS Name: ::SteamPlatformAdditionalContentModel*
 class CORDL_TYPE SteamPlatformAdditionalContentModel : public ::GlobalNamespace::AdditionalContentModel {
 public:
   // Declarations
-  using _OpenLevelPackProductStoreAsync_d__12 = ::GlobalNamespace::__SteamPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__12;
-
-  using _IsDataValidAsync_d__10 = ::GlobalNamespace::__SteamPlatformAdditionalContentModel___IsDataValidAsync_d__10;
-
-  using _GetRedirectedLevelPackProductData_d__9 = ::GlobalNamespace::__SteamPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__9;
+  using _GetLevelEntitlementStatusInternalAsync_d__7 = ::GlobalNamespace::__SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7;
 
   using _GetPackEntitlementStatusInternalAsync_d__8 = ::GlobalNamespace::__SteamPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__8;
 
-  using _GetLevelEntitlementStatusInternalAsync_d__7 = ::GlobalNamespace::__SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__7;
+  using _GetRedirectedLevelPackProductData_d__9 = ::GlobalNamespace::__SteamPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__9;
 
-  /// @brief Field _steamLevelProductCollectionModel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__steamLevelProductCollectionModel,
-                      put = __cordl_internal_set__steamLevelProductCollectionModel))::GlobalNamespace::SteamLevelProductCollectionModel* _steamLevelProductCollectionModel;
+  using _IsDataValidAsync_d__10 = ::GlobalNamespace::__SteamPlatformAdditionalContentModel___IsDataValidAsync_d__10;
 
-  /// @brief Field _entitlementsAppIds, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__entitlementsAppIds, put = __cordl_internal_set__entitlementsAppIds))::System::Collections::Generic::HashSet_1<uint32_t>* _entitlementsAppIds;
+  using _OpenLevelPackProductStoreAsync_d__12 = ::GlobalNamespace::__SteamPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__12;
 
   /// @brief Field _dataIsValidTaskCompletionSource, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__dataIsValidTaskCompletionSource,
                       put = __cordl_internal_set__dataIsValidTaskCompletionSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* _dataIsValidTaskCompletionSource;
 
-  /// @brief Field _semaphoreSlim, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
+  /// @brief Field _entitlementsAppIds, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__entitlementsAppIds, put = __cordl_internal_set__entitlementsAppIds))::System::Collections::Generic::HashSet_1<uint32_t>* _entitlementsAppIds;
 
   /// @brief Field _isDataValid, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__isDataValid, put = __cordl_internal_set__isDataValid)) bool _isDataValid;
 
-  constexpr ::GlobalNamespace::SteamLevelProductCollectionModel*& __cordl_internal_get__steamLevelProductCollectionModel();
+  /// @brief Field _semaphoreSlim, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SteamLevelProductCollectionModel*> const& __cordl_internal_get__steamLevelProductCollectionModel() const;
+  /// @brief Field _steamLevelProductCollectionModel, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__steamLevelProductCollectionModel,
+                      put = __cordl_internal_set__steamLevelProductCollectionModel))::GlobalNamespace::SteamLevelProductCollectionModel* _steamLevelProductCollectionModel;
 
-  constexpr void __cordl_internal_set__steamLevelProductCollectionModel(::GlobalNamespace::SteamLevelProductCollectionModel* value);
+  /// @brief Method CheckForNewEntitlementsAsync, addr 0x12a49d0, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>*
+  CheckForNewEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get__entitlementsAppIds();
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x12a4308, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __cordl_internal_get__entitlementsAppIds() const;
+  /// @brief Method GetLevelProductData, addr 0x12a42ec, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* GetLevelProductData(::StringW levelId);
 
-  constexpr void __cordl_internal_set__entitlementsAppIds(::System::Collections::Generic::HashSet_1<uint32_t>* value);
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x12a440c, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method GetRedirectedLevelPackProductData, addr 0x12a4510, size 0x110, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<uint32_t>>* GetRedirectedLevelPackProductData(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method HasLevelEntitlement, addr 0x12a4a38, size 0x80, virtual false, abstract: false, final false
+  inline bool HasLevelEntitlement(::StringW levelId);
+
+  /// @brief Method HasLevelPackEntitlement, addr 0x12a4ab8, size 0x350, virtual false, abstract: false, final false
+  inline bool HasLevelPackEntitlement(::StringW levelPackId);
+
+  /// @brief Method InvalidateDataInternal, addr 0x12a42e4, size 0x8, virtual true, abstract: false, final false
+  inline void InvalidateDataInternal();
+
+  /// @brief Method IsDataValidAsync, addr 0x12a4620, size 0x100, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<bool>* IsDataValidAsync(::System::Threading::CancellationToken cancellationToken);
+
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x12a4968, size 0x68, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
+
+  static inline ::GlobalNamespace::SteamPlatformAdditionalContentModel* New_ctor();
+
+  /// @brief Method OpenBundleUrl, addr 0x12a4930, size 0x38, virtual false, abstract: false, final false
+  inline void OpenBundleUrl(uint32_t bundleId);
+
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x12a482c, size 0x104, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
+
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x12a4720, size 0xd4, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken token);
+
+  /// @brief Method OpenProductStore, addr 0x12a47f4, size 0x38, virtual false, abstract: false, final false
+  inline void OpenProductStore(uint32_t appId);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get__dataIsValidTaskCompletionSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get__dataIsValidTaskCompletionSource() const;
 
-  constexpr void __cordl_internal_set__dataIsValidTaskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get__entitlementsAppIds();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __cordl_internal_get__entitlementsAppIds() const;
+
+  constexpr bool const& __cordl_internal_get__isDataValid() const;
+
+  constexpr bool& __cordl_internal_get__isDataValid();
 
   constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__semaphoreSlim();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__semaphoreSlim() const;
 
-  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
+  constexpr ::GlobalNamespace::SteamLevelProductCollectionModel*& __cordl_internal_get__steamLevelProductCollectionModel();
 
-  constexpr bool& __cordl_internal_get__isDataValid();
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SteamLevelProductCollectionModel*> const& __cordl_internal_get__steamLevelProductCollectionModel() const;
 
-  constexpr bool const& __cordl_internal_get__isDataValid() const;
+  constexpr void __cordl_internal_set__dataIsValidTaskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+
+  constexpr void __cordl_internal_set__entitlementsAppIds(::System::Collections::Generic::HashSet_1<uint32_t>* value);
 
   constexpr void __cordl_internal_set__isDataValid(bool value);
 
-  /// @brief Method InvalidateDataInternal, addr 0x1261314, size 0x8, virtual true, abstract: false, final false
-  inline void InvalidateDataInternal();
+  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
 
-  /// @brief Method GetLevelProductData, addr 0x126131c, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* GetLevelProductData(::StringW levelId);
+  constexpr void __cordl_internal_set__steamLevelProductCollectionModel(::GlobalNamespace::SteamLevelProductCollectionModel* value);
 
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x1261338, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x126143c, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method GetRedirectedLevelPackProductData, addr 0x1261540, size 0x110, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<uint32_t>>* GetRedirectedLevelPackProductData(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method IsDataValidAsync, addr 0x1261650, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* IsDataValidAsync(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x1261750, size 0xd4, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken token);
-
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x126185c, size 0x104, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
-
-  /// @brief Method OpenProductStore, addr 0x1261824, size 0x38, virtual false, abstract: false, final false
-  inline void OpenProductStore(uint32_t appId);
-
-  /// @brief Method OpenBundleUrl, addr 0x1261960, size 0x38, virtual false, abstract: false, final false
-  inline void OpenBundleUrl(uint32_t bundleId);
-
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x1261998, size 0x68, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
-
-  /// @brief Method CheckForNewEntitlementsAsync, addr 0x1261a00, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>*
-  CheckForNewEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method HasLevelEntitlement, addr 0x1261a68, size 0x80, virtual false, abstract: false, final false
-  inline bool HasLevelEntitlement(::StringW levelId);
-
-  /// @brief Method HasLevelPackEntitlement, addr 0x1261ae8, size 0x350, virtual false, abstract: false, final false
-  inline bool HasLevelPackEntitlement(::StringW levelPackId);
-
-  static inline ::GlobalNamespace::SteamPlatformAdditionalContentModel* New_ctor();
-
-  /// @brief Method .ctor, addr 0x1261e38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a4e08, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SteamPlatformAdditionalContentModel();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SteamPlatformAdditionalContentModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SteamPlatformAdditionalContentModel(SteamPlatformAdditionalContentModel&&) = delete;
@@ -623,12 +614,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SteamPlatformAdditionalContentModel(SteamPlatformAdditionalContentModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SteamPlatformAdditionalContentModel();
-
-public:
   /// @brief Field _steamLevelProductCollectionModel, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::SteamLevelProductCollectionModel* ____steamLevelProductCollectionModel;
 

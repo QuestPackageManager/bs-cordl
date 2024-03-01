@@ -24,8 +24,6 @@ MARK_REF_PTR_T(::GlobalNamespace::LightColorBaseData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15138)), TypeDefinitionIndex(TypeDefinitionIndex(16199))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10750))
 // CS Name: ::LightColorBaseData*
 class CORDL_TYPE LightColorBaseData : public ::System::Object {
 public:
@@ -33,17 +31,14 @@ public:
   /// @brief Field beat, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_beat, put = __cordl_internal_set_beat)) float_t beat;
 
-  /// @brief Field usePreviousValue, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get_usePreviousValue, put = __cordl_internal_set_usePreviousValue)) bool usePreviousValue;
-
-  /// @brief Field easeType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
+  /// @brief Field brightness, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_brightness, put = __cordl_internal_set_brightness)) float_t brightness;
 
   /// @brief Field colorType, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_colorType, put = __cordl_internal_set_colorType))::GlobalNamespace::EnvironmentColorType colorType;
 
-  /// @brief Field brightness, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_brightness, put = __cordl_internal_set_brightness)) float_t brightness;
+  /// @brief Field easeType, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
 
   /// @brief Field strobeBeatFrequency, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_strobeBeatFrequency, put = __cordl_internal_set_strobeBeatFrequency)) int32_t strobeBeatFrequency;
@@ -54,61 +49,70 @@ public:
   /// @brief Field strobeFade, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get_strobeFade, put = __cordl_internal_set_strobeFade)) bool strobeFade;
 
-  constexpr float_t& __cordl_internal_get_beat();
-
-  constexpr float_t const& __cordl_internal_get_beat() const;
-
-  constexpr void __cordl_internal_set_beat(float_t value);
-
-  constexpr bool& __cordl_internal_get_usePreviousValue();
-
-  constexpr bool const& __cordl_internal_get_usePreviousValue() const;
-
-  constexpr void __cordl_internal_set_usePreviousValue(bool value);
-
-  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
-
-  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
-
-  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
-
-  constexpr ::GlobalNamespace::EnvironmentColorType& __cordl_internal_get_colorType();
-
-  constexpr ::GlobalNamespace::EnvironmentColorType const& __cordl_internal_get_colorType() const;
-
-  constexpr void __cordl_internal_set_colorType(::GlobalNamespace::EnvironmentColorType value);
-
-  constexpr float_t& __cordl_internal_get_brightness();
-
-  constexpr float_t const& __cordl_internal_get_brightness() const;
-
-  constexpr void __cordl_internal_set_brightness(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_strobeBeatFrequency();
-
-  constexpr int32_t const& __cordl_internal_get_strobeBeatFrequency() const;
-
-  constexpr void __cordl_internal_set_strobeBeatFrequency(int32_t value);
-
-  constexpr float_t& __cordl_internal_get_strobeBrightness();
-
-  constexpr float_t const& __cordl_internal_get_strobeBrightness() const;
-
-  constexpr void __cordl_internal_set_strobeBrightness(float_t value);
-
-  constexpr bool& __cordl_internal_get_strobeFade();
-
-  constexpr bool const& __cordl_internal_get_strobeFade() const;
-
-  constexpr void __cordl_internal_set_strobeFade(bool value);
+  /// @brief Field usePreviousValue, offset 0x14, size 0x1
+  __declspec(property(get = __cordl_internal_get_usePreviousValue, put = __cordl_internal_set_usePreviousValue)) bool usePreviousValue;
 
   static inline ::GlobalNamespace::LightColorBaseData* New_ctor(float_t beat, bool usePreviousValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::EnvironmentColorType colorType,
                                                                 float_t brightness, int32_t strobeBeatFrequency, float_t strobeBrightness, bool strobeFade);
 
-  /// @brief Method .ctor, addr 0x127d20c, size 0x7c, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get_beat() const;
+
+  constexpr float_t& __cordl_internal_get_beat();
+
+  constexpr float_t const& __cordl_internal_get_brightness() const;
+
+  constexpr float_t& __cordl_internal_get_brightness();
+
+  constexpr ::GlobalNamespace::EnvironmentColorType const& __cordl_internal_get_colorType() const;
+
+  constexpr ::GlobalNamespace::EnvironmentColorType& __cordl_internal_get_colorType();
+
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
+
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
+
+  constexpr int32_t const& __cordl_internal_get_strobeBeatFrequency() const;
+
+  constexpr int32_t& __cordl_internal_get_strobeBeatFrequency();
+
+  constexpr float_t const& __cordl_internal_get_strobeBrightness() const;
+
+  constexpr float_t& __cordl_internal_get_strobeBrightness();
+
+  constexpr bool const& __cordl_internal_get_strobeFade() const;
+
+  constexpr bool& __cordl_internal_get_strobeFade();
+
+  constexpr bool const& __cordl_internal_get_usePreviousValue() const;
+
+  constexpr bool& __cordl_internal_get_usePreviousValue();
+
+  constexpr void __cordl_internal_set_beat(float_t value);
+
+  constexpr void __cordl_internal_set_brightness(float_t value);
+
+  constexpr void __cordl_internal_set_colorType(::GlobalNamespace::EnvironmentColorType value);
+
+  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
+
+  constexpr void __cordl_internal_set_strobeBeatFrequency(int32_t value);
+
+  constexpr void __cordl_internal_set_strobeBrightness(float_t value);
+
+  constexpr void __cordl_internal_set_strobeFade(bool value);
+
+  constexpr void __cordl_internal_set_usePreviousValue(bool value);
+
+  /// @brief Method .ctor, addr 0x12c01dc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency,
                     float_t strobeBrightness, bool strobeFade);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightColorBaseData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightColorBaseData(LightColorBaseData&&) = delete;
@@ -117,12 +121,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightColorBaseData(LightColorBaseData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightColorBaseData();
-
-public:
   /// @brief Field beat, offset: 0x10, size: 0x4, def value: None
   float_t ___beat;
 

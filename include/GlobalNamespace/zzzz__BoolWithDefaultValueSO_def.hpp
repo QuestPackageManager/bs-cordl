@@ -14,8 +14,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BoolWithDefaultValueSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15614))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15615))
 // CS Name: ::BoolWithDefaultValueSO*
 class CORDL_TYPE BoolWithDefaultValueSO : public ::GlobalNamespace::BoolSO {
 public:
@@ -23,20 +21,26 @@ public:
   /// @brief Field _defaultValue, offset 0x21, size 0x1
   __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue)) bool _defaultValue;
 
-  constexpr bool& __cordl_internal_get__defaultValue();
+  static inline ::GlobalNamespace::BoolWithDefaultValueSO* New_ctor();
+
+  /// @brief Method OnEnable, addr 0xe98bb0, size 0x68, virtual true, abstract: false, final false
+  inline void OnEnable();
 
   constexpr bool const& __cordl_internal_get__defaultValue() const;
 
+  constexpr bool& __cordl_internal_get__defaultValue();
+
   constexpr void __cordl_internal_set__defaultValue(bool value);
 
-  /// @brief Method OnEnable, addr 0xe52be0, size 0x68, virtual true, abstract: false, final false
-  inline void OnEnable();
-
-  static inline ::GlobalNamespace::BoolWithDefaultValueSO* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe52c48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe98c18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BoolWithDefaultValueSO();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BoolWithDefaultValueSO", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BoolWithDefaultValueSO(BoolWithDefaultValueSO&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BoolWithDefaultValueSO(BoolWithDefaultValueSO const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BoolWithDefaultValueSO();
-
-public:
   /// @brief Field _defaultValue, offset: 0x21, size: 0x1, def value: None
   bool ____defaultValue;
 

@@ -47,8 +47,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapCharacteristicSegmentedControlControl
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4918))
 // CS Name: ::BeatmapCharacteristicSegmentedControlController::<>c*
 class CORDL_TYPE __BeatmapCharacteristicSegmentedControlController____c : public ::System::Object {
 public:
@@ -59,22 +57,28 @@ public:
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0))::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* __9__10_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c* value);
+  static inline ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c* New_ctor();
+
+  /// @brief Method <SetData>b__10_0, addr 0x23af83c, size 0x34, virtual false, abstract: false, final false
+  inline int32_t _SetData_b__10_0(::GlobalNamespace::BeatmapCharacteristicSO* a, ::GlobalNamespace::BeatmapCharacteristicSO* b);
+
+  /// @brief Method .ctor, addr 0x23af834, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c* getStaticF___9();
 
-  static inline void setStaticF___9__10_0(::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
-
   static inline ::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* getStaticF___9__10_0();
 
-  static inline ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c* value);
 
-  /// @brief Method .ctor, addr 0x22e0b80, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__10_0(::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method <SetData>b__10_0, addr 0x22e0b88, size 0x34, virtual false, abstract: false, final false
-  inline int32_t _SetData_b__10_0(::GlobalNamespace::BeatmapCharacteristicSO* a, ::GlobalNamespace::BeatmapCharacteristicSO* b);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __BeatmapCharacteristicSegmentedControlController____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapCharacteristicSegmentedControlController____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __BeatmapCharacteristicSegmentedControlController____c(__BeatmapCharacteristicSegmentedControlController____c&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapCharacteristicSegmentedControlController____c(__BeatmapCharacteristicSegmentedControlController____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapCharacteristicSegmentedControlController____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -99,37 +97,58 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapCharac
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4919))
 // CS Name: ::BeatmapCharacteristicSegmentedControlController*
 class CORDL_TYPE BeatmapCharacteristicSegmentedControlController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c;
 
+  /// @brief Field _beatmapCharacteristics, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristics,
+                      put = __cordl_internal_set__beatmapCharacteristics))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* _beatmapCharacteristics;
+
   /// @brief Field _segmentedControl, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__segmentedControl, put = __cordl_internal_set__segmentedControl))::UnityW<::HMUI::IconSegmentedControl> _segmentedControl;
+
+  /// @brief Field _selectedBeatmapCharacteristic, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__selectedBeatmapCharacteristic,
+                      put = __cordl_internal_set__selectedBeatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _selectedBeatmapCharacteristic;
 
   /// @brief Field didSelectBeatmapCharacteristicEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectBeatmapCharacteristicEvent,
                       put = __cordl_internal_set_didSelectBeatmapCharacteristicEvent))::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>,
                                                                                                          ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* didSelectBeatmapCharacteristicEvent;
 
-  /// @brief Field _selectedBeatmapCharacteristic, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedBeatmapCharacteristic,
-                      put = __cordl_internal_set__selectedBeatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _selectedBeatmapCharacteristic;
-
-  /// @brief Field _beatmapCharacteristics, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCharacteristics,
-                      put = __cordl_internal_set__beatmapCharacteristics))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* _beatmapCharacteristics;
-
   __declspec(property(get = get_selectedBeatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> selectedBeatmapCharacteristic;
 
-  constexpr ::UnityW<::HMUI::IconSegmentedControl>& __cordl_internal_get__segmentedControl();
+  /// @brief Method Awake, addr 0x23aee44, size 0x8c, virtual false, abstract: false, final false
+  inline void Awake();
+
+  /// @brief Method HandleBeatmapCharacteristicSegmentedControlDidSelectCell, addr 0x23af6c8, size 0x88, virtual false, abstract: false, final false
+  inline void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
+
+  static inline ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x23aeed0, size 0xd4, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method SetData, addr 0x23aefa4, size 0x724, virtual false, abstract: false, final false
+  inline void SetData(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* beatmapCharacteristics,
+                      ::GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic,
+                      ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics);
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get__beatmapCharacteristics();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const&
+  __cordl_internal_get__beatmapCharacteristics() const;
 
   constexpr ::UnityW<::HMUI::IconSegmentedControl> const& __cordl_internal_get__segmentedControl() const;
 
-  constexpr void __cordl_internal_set__segmentedControl(::UnityW<::HMUI::IconSegmentedControl> value);
+  constexpr ::UnityW<::HMUI::IconSegmentedControl>& __cordl_internal_get__segmentedControl();
+
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__selectedBeatmapCharacteristic() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__selectedBeatmapCharacteristic();
 
   constexpr ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*&
   __cordl_internal_get_didSelectBeatmapCharacteristicEvent();
@@ -138,52 +157,35 @@ public:
       ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const&
   __cordl_internal_get_didSelectBeatmapCharacteristicEvent() const;
 
-  constexpr void __cordl_internal_set_didSelectBeatmapCharacteristicEvent(
-      ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristics(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__selectedBeatmapCharacteristic();
-
-  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__selectedBeatmapCharacteristic() const;
+  constexpr void __cordl_internal_set__segmentedControl(::UnityW<::HMUI::IconSegmentedControl> value);
 
   constexpr void __cordl_internal_set__selectedBeatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get__beatmapCharacteristics();
+  constexpr void __cordl_internal_set_didSelectBeatmapCharacteristicEvent(
+      ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const&
-  __cordl_internal_get__beatmapCharacteristics() const;
+  /// @brief Method .ctor, addr 0x23af750, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  constexpr void __cordl_internal_set__beatmapCharacteristics(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
-
-  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x22e0028, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectBeatmapCharacteristicEvent, addr 0x23aecdc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectBeatmapCharacteristicEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x22e00d8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x23aee3c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_selectedBeatmapCharacteristic();
+
+  /// @brief Method remove_didSelectBeatmapCharacteristicEvent, addr 0x23aed8c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectBeatmapCharacteristicEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  /// @brief Method get_selectedBeatmapCharacteristic, addr 0x22e0188, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_selectedBeatmapCharacteristic();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapCharacteristicSegmentedControlController();
 
-  /// @brief Method Awake, addr 0x22e0190, size 0x8c, virtual false, abstract: false, final false
-  inline void Awake();
-
-  /// @brief Method OnDestroy, addr 0x22e021c, size 0xd4, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method SetData, addr 0x22e02f0, size 0x724, virtual false, abstract: false, final false
-  inline void SetData(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* beatmapCharacteristics,
-                      ::GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic,
-                      ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics);
-
-  /// @brief Method HandleBeatmapCharacteristicSegmentedControlDidSelectCell, addr 0x22e0a14, size 0x88, virtual false, abstract: false, final false
-  inline void HandleBeatmapCharacteristicSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
-
-  static inline ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* New_ctor();
-
-  /// @brief Method .ctor, addr 0x22e0a9c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSegmentedControlController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapCharacteristicSegmentedControlController(BeatmapCharacteristicSegmentedControlController&&) = delete;
@@ -192,12 +194,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapCharacteristicSegmentedControlController(BeatmapCharacteristicSegmentedControlController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapCharacteristicSegmentedControlController();
-
-public:
   /// @brief Field _segmentedControl, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::HMUI::IconSegmentedControl> ____segmentedControl;
 

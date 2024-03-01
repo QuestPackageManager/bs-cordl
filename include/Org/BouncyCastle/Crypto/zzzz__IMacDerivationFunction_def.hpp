@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IMacDerivationFunction);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(909))
 // CS Name: ::Org.BouncyCastle.Crypto::IMacDerivationFunction*
 class CORDL_TYPE IMacDerivationFunction {
 public:
@@ -28,11 +26,11 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
-  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
-
   /// @brief Method GetMac, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IMacDerivationFunction", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

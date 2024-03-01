@@ -32,8 +32,6 @@ MARK_VAL_T(::GlobalNamespace::BeatmapKey);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15101))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10773))
 // CS Name: ::BeatmapKey
 struct CORDL_TYPE BeatmapKey {
 public:
@@ -41,43 +39,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapKey>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapKey>*();
 
+  /// @brief Method Equals, addr 0x12c5010, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x12b96c8, size 0x74, virtual true, abstract: false, final true
+  inline bool Equals(::GlobalNamespace::BeatmapKey other);
+
+  /// @brief Method GetHashCode, addr 0x12c50a0, size 0xb4, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method GetIdentifier, addr 0x12c4f84, size 0x8c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BeatmapKeyNetSerializable* GetIdentifier();
+
+  /// @brief Method IsValid, addr 0x12c4f04, size 0x80, virtual false, abstract: false, final false
+  inline bool IsValid();
+
+  /// @brief Method SerializedName, addr 0x12b66c4, size 0x44, virtual false, abstract: false, final false
+  inline ::StringW SerializedName();
+
+  /// @brief Method .ctor, addr 0x12c4e0c, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::StringW levelId, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty difficulty);
+
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapKey>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapKey>* i___System__IEquatable_1___GlobalNamespace__BeatmapKey_();
 
-  /// @brief Method .ctor, addr 0x1281e3c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::StringW levelId, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty difficulty);
-
-  /// @brief Method IsValid, addr 0x1281f34, size 0x80, virtual false, abstract: false, final false
-  inline bool IsValid();
-
-  /// @brief Method SerializedName, addr 0x12736f4, size 0x44, virtual false, abstract: false, final false
-  inline ::StringW SerializedName();
-
-  /// @brief Method GetIdentifier, addr 0x1281fb4, size 0x8c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapKeyNetSerializable* GetIdentifier();
-
-  /// @brief Method Equals, addr 0x12766f8, size 0x74, virtual true, abstract: false, final true
-  inline bool Equals(::GlobalNamespace::BeatmapKey other);
-
-  /// @brief Method Equals, addr 0x1282040, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x12820d0, size 0xb4, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method op_Equality, addr 0x1281f04, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x12c4ed4, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::BeatmapKey a, ::GlobalNamespace::BeatmapKey b);
 
-  /// @brief Method op_Inequality, addr 0x1282184, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x12c5154, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::BeatmapKey a, ::GlobalNamespace::BeatmapKey b);
-
-  // Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty:
-  // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr BeatmapKey(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, ::StringW levelId) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BeatmapKey();
+
+  // Ctor Parameters [CppParam { name: "beatmapCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty:
+  // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr BeatmapKey(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, ::StringW levelId) noexcept;
 
   /// @brief Field beatmapCharacteristic, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;

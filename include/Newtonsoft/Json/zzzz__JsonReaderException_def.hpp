@@ -31,12 +31,16 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonReaderException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11702))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11727))
 // CS Name: ::Newtonsoft.Json::JsonReaderException*
 class CORDL_TYPE JsonReaderException : public ::Newtonsoft::Json::JsonException {
 public:
   // Declarations
+  __declspec(property(get = get_LineNumber, put = set_LineNumber)) int32_t LineNumber;
+
+  __declspec(property(get = get_LinePosition, put = set_LinePosition)) int32_t LinePosition;
+
+  __declspec(property(get = get_Path, put = set_Path))::StringW Path;
+
   /// @brief Field <LineNumber>k__BackingField, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get__LineNumber_k__BackingField, put = __cordl_internal_set__LineNumber_k__BackingField)) int32_t _LineNumber_k__BackingField;
 
@@ -46,82 +50,82 @@ public:
   /// @brief Field <Path>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField))::StringW _Path_k__BackingField;
 
-  __declspec(property(get = get_LineNumber, put = set_LineNumber)) int32_t LineNumber;
+  /// @brief Method Create, addr 0x273dc1c, size 0x200, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message, ::System::Exception* ex);
 
-  __declspec(property(get = get_LinePosition, put = set_LinePosition)) int32_t LinePosition;
+  /// @brief Method Create, addr 0x2735f20, size 0x8, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message);
 
-  __declspec(property(get = get_Path, put = set_Path))::StringW Path;
-
-  constexpr int32_t& __cordl_internal_get__LineNumber_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__LineNumber_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__LineNumber_k__BackingField(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__LinePosition_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__LinePosition_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__LinePosition_k__BackingField(int32_t value);
-
-  constexpr ::StringW& __cordl_internal_get__Path_k__BackingField();
-
-  constexpr ::StringW const& __cordl_internal_get__Path_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
-
-  /// @brief Method get_LineNumber, addr 0x266e458, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_LineNumber();
-
-  /// @brief Method set_LineNumber, addr 0x266e460, size 0x8, virtual false, abstract: false, final false
-  inline void set_LineNumber(int32_t value);
-
-  /// @brief Method get_LinePosition, addr 0x266e468, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_LinePosition();
-
-  /// @brief Method set_LinePosition, addr 0x266e470, size 0x8, virtual false, abstract: false, final false
-  inline void set_LinePosition(int32_t value);
-
-  /// @brief Method get_Path, addr 0x266e478, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Path();
-
-  /// @brief Method set_Path, addr 0x266e480, size 0x8, virtual false, abstract: false, final false
-  inline void set_Path(::StringW value);
+  /// @brief Method Create, addr 0x273af6c, size 0x84, virtual false, abstract: false, final false
+  static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message, ::System::Exception* ex);
 
   static inline ::Newtonsoft::Json::JsonReaderException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266e488, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::Newtonsoft::Json::JsonReaderException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::Newtonsoft::Json::JsonReaderException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x266e48c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
   static inline ::Newtonsoft::Json::JsonReaderException* New_ctor(::StringW message, ::System::Exception* innerException);
-
-  /// @brief Method .ctor, addr 0x266e490, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
-
-  static inline ::Newtonsoft::Json::JsonReaderException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x266e494, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::Newtonsoft::Json::JsonReaderException* New_ctor(::StringW message, ::System::Exception* innerException, ::StringW path, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x266e498, size 0x38, virtual false, abstract: false, final false
+  constexpr int32_t const& __cordl_internal_get__LineNumber_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__LineNumber_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__LinePosition_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__LinePosition_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__Path_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__Path_k__BackingField();
+
+  constexpr void __cordl_internal_set__LineNumber_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__LinePosition_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x273dbd4, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x273dbe0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method .ctor, addr 0x273dbd8, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x273dbdc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
+
+  /// @brief Method .ctor, addr 0x273dbe4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::StringW path, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method Create, addr 0x26667d4, size 0x8, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message);
+  /// @brief Method get_LineNumber, addr 0x273dba4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_LineNumber();
 
-  /// @brief Method Create, addr 0x266b820, size 0x84, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::JsonReader* reader, ::StringW message, ::System::Exception* ex);
+  /// @brief Method get_LinePosition, addr 0x273dbb4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_LinePosition();
 
-  /// @brief Method Create, addr 0x266e4d0, size 0x200, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::JsonReaderException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message, ::System::Exception* ex);
+  /// @brief Method get_Path, addr 0x273dbc4, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Path();
 
+  /// @brief Method set_LineNumber, addr 0x273dbac, size 0x8, virtual false, abstract: false, final false
+  inline void set_LineNumber(int32_t value);
+
+  /// @brief Method set_LinePosition, addr 0x273dbbc, size 0x8, virtual false, abstract: false, final false
+  inline void set_LinePosition(int32_t value);
+
+  /// @brief Method set_Path, addr 0x273dbcc, size 0x8, virtual false, abstract: false, final false
+  inline void set_Path(::StringW value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonReaderException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonReaderException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonReaderException(JsonReaderException&&) = delete;
@@ -130,12 +134,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonReaderException(JsonReaderException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonReaderException();
-
-public:
   /// @brief Field <LineNumber>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   int32_t ____LineNumber_k__BackingField;
 

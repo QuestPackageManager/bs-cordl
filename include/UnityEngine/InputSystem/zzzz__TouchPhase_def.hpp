@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::TouchPhase);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5546))
 // CS Name: ::UnityEngine.InputSystem::TouchPhase
 struct CORDL_TYPE TouchPhase {
 public:
@@ -38,36 +36,41 @@ public:
     return static_cast<__TouchPhase_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TouchPhase(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__TouchPhase_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TouchPhase();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TouchPhase(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::InputSystem::TouchPhase const None;
 
   /// @brief Field Began value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::TouchPhase const Began;
 
-  /// @brief Field Moved value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::TouchPhase const Moved;
+  /// @brief Field Canceled value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::InputSystem::TouchPhase const Canceled;
 
   /// @brief Field Ended value: static_cast<int32_t>(0x3)
   static ::UnityEngine::InputSystem::TouchPhase const Ended;
 
-  /// @brief Field Canceled value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::TouchPhase const Canceled;
+  /// @brief Field Moved value: static_cast<int32_t>(0x2)
+  static ::UnityEngine::InputSystem::TouchPhase const Moved;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::InputSystem::TouchPhase const None;
 
   /// @brief Field Stationary value: static_cast<int32_t>(0x5)
   static ::UnityEngine::InputSystem::TouchPhase const Stationary;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

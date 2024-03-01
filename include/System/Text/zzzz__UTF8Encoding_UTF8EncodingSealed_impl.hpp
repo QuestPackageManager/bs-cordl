@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::__UTF8Encoding__UTF8EncodingSealed::*)(bool)>(
     &::System::Text::__UTF8Encoding__UTF8EncodingSealed::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2465294;
+  constexpr static std::size_t addrs = 0x2537f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ReadOnlySpan_1<uint8_t> (::System::Text::__UTF8Encoding__UTF8EncodingSealed::*)()>(
     &::System::Text::__UTF8Encoding__UTF8EncodingSealed::get_Preamble)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x246530c;
+  constexpr static std::size_t addrs = 0x2538004;
 
   inline static ::MethodInfo const* methodInfo() {
 

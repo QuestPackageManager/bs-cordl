@@ -25,8 +25,6 @@ MARK_REF_PTR_T(::TMPro::TMP_StyleSheet);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8954))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12323))
 // CS Name: ::TMPro::TMP_StyleSheet*
 class CORDL_TYPE TMP_StyleSheet : public ::UnityEngine::ScriptableObject {
 public:
@@ -40,41 +38,47 @@ public:
 
   __declspec(property(get = get_styles))::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* styles;
 
+  /// @brief Method GetStyle, addr 0x2d2cf10, size 0x88, virtual false, abstract: false, final false
+  inline ::TMPro::TMP_Style* GetStyle(int32_t hashCode);
+
+  /// @brief Method GetStyle, addr 0x2d2cf98, size 0xb8, virtual false, abstract: false, final false
+  inline ::TMPro::TMP_Style* GetStyle(::StringW name);
+
+  /// @brief Method LoadStyleDictionaryInternal, addr 0x2d2cbf8, size 0x318, virtual false, abstract: false, final false
+  inline void LoadStyleDictionaryInternal();
+
+  static inline ::TMPro::TMP_StyleSheet* New_ctor();
+
+  /// @brief Method RefreshStyles, addr 0x2d2d050, size 0x4, virtual false, abstract: false, final false
+  inline void RefreshStyles();
+
+  /// @brief Method Reset, addr 0x2d2cbf4, size 0x4, virtual false, abstract: false, final false
+  inline void Reset();
+
   constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*& __cordl_internal_get_m_StyleList();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*> const& __cordl_internal_get_m_StyleList() const;
-
-  constexpr void __cordl_internal_set_m_StyleList(::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>*& __cordl_internal_get_m_StyleLookupDictionary();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>*> const& __cordl_internal_get_m_StyleLookupDictionary() const;
 
+  constexpr void __cordl_internal_set_m_StyleList(::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* value);
+
   constexpr void __cordl_internal_set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* value);
 
-  /// @brief Method get_styles, addr 0x2c42b18, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* get_styles();
-
-  /// @brief Method Reset, addr 0x2c42b20, size 0x4, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method GetStyle, addr 0x2c42e3c, size 0x88, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_Style* GetStyle(int32_t hashCode);
-
-  /// @brief Method GetStyle, addr 0x2c42ec4, size 0xb8, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_Style* GetStyle(::StringW name);
-
-  /// @brief Method RefreshStyles, addr 0x2c42f7c, size 0x4, virtual false, abstract: false, final false
-  inline void RefreshStyles();
-
-  /// @brief Method LoadStyleDictionaryInternal, addr 0x2c42b24, size 0x318, virtual false, abstract: false, final false
-  inline void LoadStyleDictionaryInternal();
-
-  static inline ::TMPro::TMP_StyleSheet* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2c42f80, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d2d054, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_styles, addr 0x2d2cbec, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* get_styles();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_StyleSheet();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_StyleSheet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_StyleSheet(TMP_StyleSheet&&) = delete;
@@ -83,12 +87,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_StyleSheet(TMP_StyleSheet const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_StyleSheet();
-
-public:
   /// @brief Field m_StyleList, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* ___m_StyleList;
 

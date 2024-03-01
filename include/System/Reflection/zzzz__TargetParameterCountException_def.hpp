@@ -21,27 +21,31 @@ MARK_REF_PTR_T(::System::Reflection::TargetParameterCountException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2343))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3495))
 // CS Name: ::System.Reflection::TargetParameterCountException*
 class CORDL_TYPE TargetParameterCountException : public ::System::ApplicationException {
 public:
   // Declarations
   static inline ::System::Reflection::TargetParameterCountException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x250b8d8, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::Reflection::TargetParameterCountException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Reflection::TargetParameterCountException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x250b934, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+  /// @brief Method .ctor, addr 0x25dd4ec, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline ::System::Reflection::TargetParameterCountException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x250b958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dd56c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x25dd548, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TargetParameterCountException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TargetParameterCountException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TargetParameterCountException(TargetParameterCountException&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TargetParameterCountException(TargetParameterCountException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TargetParameterCountException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

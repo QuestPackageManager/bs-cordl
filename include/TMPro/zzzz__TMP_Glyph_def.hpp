@@ -14,20 +14,24 @@ MARK_REF_PTR_T(::TMPro::TMP_Glyph);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12347))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12256))
 // CS Name: ::TMPro::TMP_Glyph*
 class CORDL_TYPE TMP_Glyph : public ::TMPro::TMP_TextElement_Legacy {
 public:
   // Declarations
-  /// @brief Method Clone, addr 0x2c0ccfc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x2cf6dd0, size 0x7c, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Glyph* Clone(::TMPro::TMP_Glyph* source);
 
   static inline ::TMPro::TMP_Glyph* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c0cd78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf6e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TMP_Glyph();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Glyph", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TMP_Glyph(TMP_Glyph&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_Glyph(TMP_Glyph const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_Glyph();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

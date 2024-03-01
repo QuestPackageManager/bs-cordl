@@ -47,136 +47,140 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::RenderChainCommand);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6658)), TypeDefinitionIndex(TypeDefinitionIndex(6700)), TypeDefinitionIndex(TypeDefinitionIndex(6701)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8695)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6658), inst: 383 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6703)) CS
-// Name: ::UnityEngine.UIElements.UIR::RenderChainCommand*
+// CS Name: ::UnityEngine.UIElements.UIR::RenderChainCommand*
 class CORDL_TYPE RenderChainCommand : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::RenderChainCommand*> {
 public:
   // Declarations
+  /// @brief Field callback, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action* callback;
+
+  /// @brief Field closing, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_closing, put = __cordl_internal_set_closing)) bool closing;
+
+  /// @brief Field indexCount, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get_indexCount, put = __cordl_internal_set_indexCount)) int32_t indexCount;
+
+  /// @brief Field indexOffset, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get_indexOffset, put = __cordl_internal_set_indexOffset)) int32_t indexOffset;
+
+  /// @brief Field k_ID_MainTex, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_k_ID_MainTex, put = setStaticF_k_ID_MainTex)) int32_t k_ID_MainTex;
+
+  /// @brief Field mesh, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_mesh, put = __cordl_internal_set_mesh))::UnityEngine::UIElements::UIR::MeshHandle* mesh;
+
+  /// @brief Field next, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::UIR::RenderChainCommand* next;
+
   /// @brief Field owner, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner))::UnityEngine::UIElements::VisualElement* owner;
 
   /// @brief Field prev, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev))::UnityEngine::UIElements::UIR::RenderChainCommand* prev;
 
-  /// @brief Field next, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::UIR::RenderChainCommand* next;
-
-  /// @brief Field closing, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_closing, put = __cordl_internal_set_closing)) bool closing;
-
-  /// @brief Field type, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::UnityEngine::UIElements::UIR::CommandType type;
+  /// @brief Field s_ImmediateOverheadMarker, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_ImmediateOverheadMarker, put = setStaticF_s_ImmediateOverheadMarker))::Unity::Profiling::ProfilerMarker s_ImmediateOverheadMarker;
 
   /// @brief Field state, offset 0x38, size 0x20
   __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::UnityEngine::UIElements::UIR::State state;
 
-  /// @brief Field mesh, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_mesh, put = __cordl_internal_set_mesh))::UnityEngine::UIElements::UIR::MeshHandle* mesh;
+  /// @brief Field type, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::UnityEngine::UIElements::UIR::CommandType type;
 
-  /// @brief Field indexOffset, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_indexOffset, put = __cordl_internal_set_indexOffset)) int32_t indexOffset;
+  /// @brief Method Blit, addr 0x2ee45e8, size 0x170, virtual false, abstract: false, final false
+  inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* destination, float_t depth);
 
-  /// @brief Field indexCount, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_indexCount, put = __cordl_internal_set_indexCount)) int32_t indexCount;
+  /// @brief Method CombineScissorRects, addr 0x2ee4430, size 0x1b8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rect CombineScissorRects(::UnityEngine::Rect r0, ::UnityEngine::Rect r1);
 
-  /// @brief Field callback, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action* callback;
+  /// @brief Method ExecuteNonDrawMesh, addr 0x2ee2794, size 0xbbc, virtual false, abstract: false, final false
+  inline void ExecuteNonDrawMesh(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint, ByRef<::System::Exception*> immediateException);
 
-  /// @brief Field k_ID_MainTex, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_k_ID_MainTex, put = setStaticF_k_ID_MainTex)) int32_t k_ID_MainTex;
+  static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* New_ctor();
 
-  /// @brief Field s_ImmediateOverheadMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ImmediateOverheadMarker, put = setStaticF_s_ImmediateOverheadMarker))::Unity::Profiling::ProfilerMarker s_ImmediateOverheadMarker;
+  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x2ee402c, size 0x404, virtual false, abstract: false, final false
+  static inline ::UnityEngine::RectInt RectPointsToPixelsAndFlipYAxis(::UnityEngine::Rect rect, float_t pixelsPerPoint);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_owner();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_owner() const;
-
-  constexpr void __cordl_internal_set_owner(::UnityEngine::UIElements::VisualElement* value);
-
-  constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& __cordl_internal_get_prev();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChainCommand*> const& __cordl_internal_get_prev() const;
-
-  constexpr void __cordl_internal_set_prev(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
-
-  constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& __cordl_internal_get_next();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChainCommand*> const& __cordl_internal_get_next() const;
-
-  constexpr void __cordl_internal_set_next(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
-
-  constexpr bool& __cordl_internal_get_closing();
-
-  constexpr bool const& __cordl_internal_get_closing() const;
-
-  constexpr void __cordl_internal_set_closing(bool value);
-
-  constexpr ::UnityEngine::UIElements::UIR::CommandType& __cordl_internal_get_type();
-
-  constexpr ::UnityEngine::UIElements::UIR::CommandType const& __cordl_internal_get_type() const;
-
-  constexpr void __cordl_internal_set_type(::UnityEngine::UIElements::UIR::CommandType value);
-
-  constexpr ::UnityEngine::UIElements::UIR::State& __cordl_internal_get_state();
-
-  constexpr ::UnityEngine::UIElements::UIR::State const& __cordl_internal_get_state() const;
-
-  constexpr void __cordl_internal_set_state(::UnityEngine::UIElements::UIR::State value);
-
-  constexpr ::UnityEngine::UIElements::UIR::MeshHandle*& __cordl_internal_get_mesh();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::MeshHandle*> const& __cordl_internal_get_mesh() const;
-
-  constexpr void __cordl_internal_set_mesh(::UnityEngine::UIElements::UIR::MeshHandle* value);
-
-  constexpr int32_t& __cordl_internal_get_indexOffset();
-
-  constexpr int32_t const& __cordl_internal_get_indexOffset() const;
-
-  constexpr void __cordl_internal_set_indexOffset(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_indexCount();
-
-  constexpr int32_t const& __cordl_internal_get_indexCount() const;
-
-  constexpr void __cordl_internal_set_indexCount(int32_t value);
+  /// @brief Method Reset, addr 0x2ee4008, size 0x24, virtual false, abstract: false, final false
+  inline void Reset();
 
   constexpr ::System::Action*& __cordl_internal_get_callback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_callback() const;
 
+  constexpr bool const& __cordl_internal_get_closing() const;
+
+  constexpr bool& __cordl_internal_get_closing();
+
+  constexpr int32_t const& __cordl_internal_get_indexCount() const;
+
+  constexpr int32_t& __cordl_internal_get_indexCount();
+
+  constexpr int32_t const& __cordl_internal_get_indexOffset() const;
+
+  constexpr int32_t& __cordl_internal_get_indexOffset();
+
+  constexpr ::UnityEngine::UIElements::UIR::MeshHandle*& __cordl_internal_get_mesh();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::MeshHandle*> const& __cordl_internal_get_mesh() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& __cordl_internal_get_next();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChainCommand*> const& __cordl_internal_get_next() const;
+
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_owner();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_owner() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& __cordl_internal_get_prev();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChainCommand*> const& __cordl_internal_get_prev() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::State const& __cordl_internal_get_state() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::State& __cordl_internal_get_state();
+
+  constexpr ::UnityEngine::UIElements::UIR::CommandType const& __cordl_internal_get_type() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::CommandType& __cordl_internal_get_type();
+
   constexpr void __cordl_internal_set_callback(::System::Action* value);
 
-  static inline void setStaticF_k_ID_MainTex(int32_t value);
+  constexpr void __cordl_internal_set_closing(bool value);
+
+  constexpr void __cordl_internal_set_indexCount(int32_t value);
+
+  constexpr void __cordl_internal_set_indexOffset(int32_t value);
+
+  constexpr void __cordl_internal_set_mesh(::UnityEngine::UIElements::UIR::MeshHandle* value);
+
+  constexpr void __cordl_internal_set_next(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
+
+  constexpr void __cordl_internal_set_owner(::UnityEngine::UIElements::VisualElement* value);
+
+  constexpr void __cordl_internal_set_prev(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
+
+  constexpr void __cordl_internal_set_state(::UnityEngine::UIElements::UIR::State value);
+
+  constexpr void __cordl_internal_set_type(::UnityEngine::UIElements::UIR::CommandType value);
+
+  /// @brief Method .ctor, addr 0x2ee4758, size 0x48, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline int32_t getStaticF_k_ID_MainTex();
 
-  static inline void setStaticF_s_ImmediateOverheadMarker(::Unity::Profiling::ProfilerMarker value);
-
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ImmediateOverheadMarker();
 
-  /// @brief Method Reset, addr 0x2df38e0, size 0x24, virtual false, abstract: false, final false
-  inline void Reset();
+  static inline void setStaticF_k_ID_MainTex(int32_t value);
 
-  /// @brief Method ExecuteNonDrawMesh, addr 0x2df206c, size 0xbbc, virtual false, abstract: false, final false
-  inline void ExecuteNonDrawMesh(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint, ByRef<::System::Exception*> immediateException);
+  static inline void setStaticF_s_ImmediateOverheadMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method Blit, addr 0x2df3ec0, size 0x170, virtual false, abstract: false, final false
-  inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* destination, float_t depth);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RenderChainCommand();
 
-  /// @brief Method CombineScissorRects, addr 0x2df3d08, size 0x1b8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect CombineScissorRects(::UnityEngine::Rect r0, ::UnityEngine::Rect r1);
-
-  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x2df3904, size 0x404, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RectInt RectPointsToPixelsAndFlipYAxis(::UnityEngine::Rect rect, float_t pixelsPerPoint);
-
-  static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2df4030, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RenderChainCommand", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RenderChainCommand(RenderChainCommand&&) = delete;
@@ -185,12 +189,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RenderChainCommand(RenderChainCommand const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RenderChainCommand();
-
-public:
   /// @brief Field owner, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___owner;
 

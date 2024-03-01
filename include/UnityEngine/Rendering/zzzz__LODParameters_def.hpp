@@ -26,8 +26,6 @@ MARK_VAL_T(::UnityEngine::Rendering::LODParameters);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9112))
 // CS Name: ::UnityEngine.Rendering::LODParameters
 struct CORDL_TYPE LODParameters {
 public:
@@ -35,26 +33,26 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*();
 
+  /// @brief Method Equals, addr 0x2de0374, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2de02d8, size 0x9c, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Rendering::LODParameters other);
+
+  /// @brief Method GetHashCode, addr 0x2de0404, size 0x94, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>* i___System__IEquatable_1___UnityEngine__Rendering__LODParameters_();
 
-  /// @brief Method Equals, addr 0x2cf4bb0, size 0x9c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Rendering::LODParameters other);
-
-  /// @brief Method Equals, addr 0x2cf4c4c, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2cf4cdc, size 0x94, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LODParameters();
 
   // Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_CameraPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
   // None }, CppParam { name: "m_FieldOfView", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_OrthoSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_CameraPixelHeight", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr LODParameters(int32_t m_IsOrthographic, ::UnityEngine::Vector3 m_CameraPosition, float_t m_FieldOfView, float_t m_OrthoSize, int32_t m_CameraPixelHeight) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LODParameters();
 
   /// @brief Field m_IsOrthographic, offset: 0x0, size: 0x4, def value: None
   int32_t m_IsOrthographic;

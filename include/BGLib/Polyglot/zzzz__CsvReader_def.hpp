@@ -27,8 +27,6 @@ MARK_REF_PTR_T(::BGLib::Polyglot::CsvReader);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15666))
 // CS Name: ::CsvReader::ParsingMode
 struct CORDL_TYPE __CsvReader__ParsingMode {
 public:
@@ -47,18 +45,23 @@ public:
     return static_cast<____CsvReader__ParsingMode_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CsvReader__ParsingMode(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____CsvReader__ParsingMode_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __CsvReader__ParsingMode();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __CsvReader__ParsingMode(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field InQuote value: static_cast<int32_t>(0x2)
+  static ::BGLib::Polyglot::__CsvReader__ParsingMode const InQuote;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::BGLib::Polyglot::__CsvReader__ParsingMode const None;
@@ -66,8 +69,8 @@ public:
   /// @brief Field OutQuote value: static_cast<int32_t>(0x1)
   static ::BGLib::Polyglot::__CsvReader__ParsingMode const OutQuote;
 
-  /// @brief Field InQuote value: static_cast<int32_t>(0x2)
-  static ::BGLib::Polyglot::__CsvReader__ParsingMode const InQuote;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -81,22 +84,26 @@ static_assert(offsetof(::BGLib::Polyglot::__CsvReader__ParsingMode, value__) == 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15667))
 // CS Name: ::BGLib.Polyglot::CsvReader*
 class CORDL_TYPE CsvReader : public ::System::Object {
 public:
   // Declarations
   using ParsingMode = ::BGLib::Polyglot::__CsvReader__ParsingMode;
 
-  /// @brief Method Parse, addr 0xe49f9c, size 0x7e8, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
-
   static inline ::BGLib::Polyglot::CsvReader* New_ctor();
 
-  /// @brief Method .ctor, addr 0xe4a784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0xe8ff6c, size 0x7e8, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
+
+  /// @brief Method .ctor, addr 0xe90754, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CsvReader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CsvReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CsvReader(CsvReader&&) = delete;
@@ -105,12 +112,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CsvReader(CsvReader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CsvReader();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -29,23 +29,27 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11930))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11945))
 // CS Name: ::Newtonsoft.Json.Converters::JavaScriptDateTimeConverter*
 class CORDL_TYPE JavaScriptDateTimeConverter : public ::Newtonsoft::Json::Converters::DateTimeConverterBase {
 public:
   // Declarations
-  /// @brief Method WriteJson, addr 0x26db358, size 0x1bc, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
-
-  /// @brief Method ReadJson, addr 0x26db514, size 0x46c, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
-
   static inline ::Newtonsoft::Json::Converters::JavaScriptDateTimeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26db980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x27a9c60, size 0x46c, virtual true, abstract: false, final false
+  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+
+  /// @brief Method WriteJson, addr 0x27a9aa4, size 0x1bc, virtual true, abstract: false, final false
+  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+
+  /// @brief Method .ctor, addr 0x27aa0cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JavaScriptDateTimeConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JavaScriptDateTimeConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JavaScriptDateTimeConverter(JavaScriptDateTimeConverter&&) = delete;
@@ -54,12 +58,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JavaScriptDateTimeConverter(JavaScriptDateTimeConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JavaScriptDateTimeConverter();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -15,20 +15,24 @@ MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeWaitHandle);
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2301))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2300))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeWaitHandle*
 class CORDL_TYPE SafeWaitHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
   // Declarations
   static inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* New_ctor(void* existingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x244c088, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(void* existingHandle, bool ownsHandle);
-
-  /// @brief Method ReleaseHandle, addr 0x244c0b0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x251dda8, size 0x1c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
+  /// @brief Method .ctor, addr 0x251dd80, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(void* existingHandle, bool ownsHandle);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SafeWaitHandle();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeWaitHandle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SafeWaitHandle(SafeWaitHandle&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SafeWaitHandle(SafeWaitHandle const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SafeWaitHandle();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

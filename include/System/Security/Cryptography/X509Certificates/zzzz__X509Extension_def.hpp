@@ -20,45 +20,49 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Extension
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7021))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Extension*
 class CORDL_TYPE X509Extension : public ::System::Security::Cryptography::AsnEncodedData {
 public:
   // Declarations
+  __declspec(property(get = get_Critical, put = set_Critical)) bool Critical;
+
   /// @brief Field _critical, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__critical, put = __cordl_internal_set__critical)) bool _critical;
 
-  __declspec(property(get = get_Critical, put = set_Critical)) bool Critical;
+  /// @brief Method CopyFrom, addr 0x2a6f16c, size 0x130, virtual true, abstract: false, final false
+  inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  constexpr bool& __cordl_internal_get__critical();
-
-  constexpr bool const& __cordl_internal_get__critical() const;
-
-  constexpr void __cordl_internal_set__critical(bool value);
+  /// @brief Method FormatUnkownData, addr 0x2a6f29c, size 0x114, virtual false, abstract: false, final false
+  inline ::StringW FormatUnkownData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Extension* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2988054, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::Security::Cryptography::X509Certificates::X509Extension* New_ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, bool critical);
 
-  /// @brief Method .ctor, addr 0x298805c, size 0x28, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__critical() const;
+
+  constexpr bool& __cordl_internal_get__critical();
+
+  constexpr void __cordl_internal_set__critical(bool value);
+
+  /// @brief Method .ctor, addr 0x2a6f128, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2a6f130, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, bool critical);
 
-  /// @brief Method get_Critical, addr 0x2988084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Critical, addr 0x2a6f158, size 0x8, virtual false, abstract: false, final false
   inline bool get_Critical();
 
-  /// @brief Method set_Critical, addr 0x298808c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Critical, addr 0x2a6f160, size 0xc, virtual false, abstract: false, final false
   inline void set_Critical(bool value);
 
-  /// @brief Method CopyFrom, addr 0x2988098, size 0x130, virtual true, abstract: false, final false
-  inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509Extension();
 
-  /// @brief Method FormatUnkownData, addr 0x29881c8, size 0x114, virtual false, abstract: false, final false
-  inline ::StringW FormatUnkownData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509Extension", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509Extension(X509Extension&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Extension(X509Extension const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509Extension();
-
-public:
   /// @brief Field _critical, offset: 0x20, size: 0x1, def value: None
   bool ____critical;
 

@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4707))
 // CS Name: ::TutorialBeatmapObjectPoolsInstaller*
 class CORDL_TYPE TutorialBeatmapObjectPoolsInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -38,45 +36,51 @@ public:
   /// @brief Field _bombNotePrefab, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__bombNotePrefab, put = __cordl_internal_set__bombNotePrefab))::UnityW<::GlobalNamespace::BombNoteController> _bombNotePrefab;
 
-  /// @brief Field _obstaclePrefab, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__obstaclePrefab, put = __cordl_internal_set__obstaclePrefab))::UnityW<::GlobalNamespace::ObstacleController> _obstaclePrefab;
-
   /// @brief Field _noteLineConnectionControllerPrefab, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__noteLineConnectionControllerPrefab,
                       put = __cordl_internal_set__noteLineConnectionControllerPrefab))::UnityW<::GlobalNamespace::NoteLineConnectionController> _noteLineConnectionControllerPrefab;
 
-  constexpr ::UnityW<::GlobalNamespace::TutorialNoteController>& __cordl_internal_get__basicNotePrefab();
+  /// @brief Field _obstaclePrefab, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__obstaclePrefab, put = __cordl_internal_set__obstaclePrefab))::UnityW<::GlobalNamespace::ObstacleController> _obstaclePrefab;
 
-  constexpr ::UnityW<::GlobalNamespace::TutorialNoteController> const& __cordl_internal_get__basicNotePrefab() const;
-
-  constexpr void __cordl_internal_set__basicNotePrefab(::UnityW<::GlobalNamespace::TutorialNoteController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BombNoteController>& __cordl_internal_get__bombNotePrefab();
-
-  constexpr ::UnityW<::GlobalNamespace::BombNoteController> const& __cordl_internal_get__bombNotePrefab() const;
-
-  constexpr void __cordl_internal_set__bombNotePrefab(::UnityW<::GlobalNamespace::BombNoteController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ObstacleController>& __cordl_internal_get__obstaclePrefab();
-
-  constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__obstaclePrefab() const;
-
-  constexpr void __cordl_internal_set__obstaclePrefab(::UnityW<::GlobalNamespace::ObstacleController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::NoteLineConnectionController>& __cordl_internal_get__noteLineConnectionControllerPrefab();
-
-  constexpr ::UnityW<::GlobalNamespace::NoteLineConnectionController> const& __cordl_internal_get__noteLineConnectionControllerPrefab() const;
-
-  constexpr void __cordl_internal_set__noteLineConnectionControllerPrefab(::UnityW<::GlobalNamespace::NoteLineConnectionController> value);
-
-  /// @brief Method InstallBindings, addr 0x23cec38, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x249db80, size 0x18c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cedc4, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::TutorialNoteController> const& __cordl_internal_get__basicNotePrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TutorialNoteController>& __cordl_internal_get__basicNotePrefab();
+
+  constexpr ::UnityW<::GlobalNamespace::BombNoteController> const& __cordl_internal_get__bombNotePrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BombNoteController>& __cordl_internal_get__bombNotePrefab();
+
+  constexpr ::UnityW<::GlobalNamespace::NoteLineConnectionController> const& __cordl_internal_get__noteLineConnectionControllerPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::NoteLineConnectionController>& __cordl_internal_get__noteLineConnectionControllerPrefab();
+
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__obstaclePrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController>& __cordl_internal_get__obstaclePrefab();
+
+  constexpr void __cordl_internal_set__basicNotePrefab(::UnityW<::GlobalNamespace::TutorialNoteController> value);
+
+  constexpr void __cordl_internal_set__bombNotePrefab(::UnityW<::GlobalNamespace::BombNoteController> value);
+
+  constexpr void __cordl_internal_set__noteLineConnectionControllerPrefab(::UnityW<::GlobalNamespace::NoteLineConnectionController> value);
+
+  constexpr void __cordl_internal_set__obstaclePrefab(::UnityW<::GlobalNamespace::ObstacleController> value);
+
+  /// @brief Method .ctor, addr 0x249dd0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TutorialBeatmapObjectPoolsInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectPoolsInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TutorialBeatmapObjectPoolsInstaller(TutorialBeatmapObjectPoolsInstaller&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TutorialBeatmapObjectPoolsInstaller(TutorialBeatmapObjectPoolsInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TutorialBeatmapObjectPoolsInstaller();
-
-public:
   /// @brief Field _basicNotePrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TutorialNoteController> ____basicNotePrefab;
 

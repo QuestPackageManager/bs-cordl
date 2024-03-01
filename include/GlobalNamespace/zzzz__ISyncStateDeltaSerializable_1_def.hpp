@@ -19,35 +19,33 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12868))
 // CS Name: ::ISyncStateDeltaSerializable`1<T>*
 class CORDL_TYPE ISyncStateDeltaSerializable_1 {
 public:
   // Declarations
   __declspec(property(get = get_baseId, put = set_baseId))::GlobalNamespace::SyncStateId baseId;
 
-  __declspec(property(get = get_timeOffsetMs, put = set_timeOffsetMs)) int32_t timeOffsetMs;
-
   __declspec(property(get = get_delta, put = set_delta)) T delta;
+
+  __declspec(property(get = get_timeOffsetMs, put = set_timeOffsetMs)) int32_t timeOffsetMs;
 
   /// @brief Method get_baseId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::SyncStateId get_baseId();
 
-  /// @brief Method set_baseId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_baseId(::GlobalNamespace::SyncStateId value);
+  /// @brief Method get_delta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline T get_delta();
 
   /// @brief Method get_timeOffsetMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_timeOffsetMs();
 
-  /// @brief Method set_timeOffsetMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void set_timeOffsetMs(int32_t value);
-
-  /// @brief Method get_delta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline T get_delta();
+  /// @brief Method set_baseId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
   /// @brief Method set_delta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_delta(T value);
+
+  /// @brief Method set_timeOffsetMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_timeOffsetMs(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISyncStateDeltaSerializable_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

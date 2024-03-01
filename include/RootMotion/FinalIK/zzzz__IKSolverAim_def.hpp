@@ -32,17 +32,31 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverAim);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(12472))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12463))
 // CS Name: ::RootMotion.FinalIK::IKSolverAim*
 class CORDL_TYPE IKSolverAim : public ::RootMotion::FinalIK::IKSolverHeuristic {
 public:
   // Declarations
-  /// @brief Field transform, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
+  /// @brief Field OnPreIteration, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_OnPreIteration, put = __cordl_internal_set_OnPreIteration))::RootMotion::FinalIK::__IKSolver__IterationDelegate* OnPreIteration;
 
   /// @brief Field axis, offset 0x90, size 0xc
   __declspec(property(get = __cordl_internal_get_axis, put = __cordl_internal_set_axis))::UnityEngine::Vector3 axis;
+
+  /// @brief Field clampSmoothing, offset 0xc4, size 0x4
+  __declspec(property(get = __cordl_internal_get_clampSmoothing, put = __cordl_internal_set_clampSmoothing)) int32_t clampSmoothing;
+
+  /// @brief Field clampWeight, offset 0xc0, size 0x4
+  __declspec(property(get = __cordl_internal_get_clampWeight, put = __cordl_internal_set_clampWeight)) float_t clampWeight;
+
+  /// @brief Field clampedIKPosition, offset 0xd4, size 0xc
+  __declspec(property(get = __cordl_internal_get_clampedIKPosition, put = __cordl_internal_set_clampedIKPosition))::UnityEngine::Vector3 clampedIKPosition;
+
+  /// @brief Field lastTransform, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get_lastTransform, put = __cordl_internal_set_lastTransform))::UnityW<::UnityEngine::Transform> lastTransform;
+
+  __declspec(property(get = get_localDirection))::UnityEngine::Vector3 localDirection;
+
+  __declspec(property(get = get_minBones)) int32_t minBones;
 
   /// @brief Field poleAxis, offset 0x9c, size 0xc
   __declspec(property(get = __cordl_internal_get_poleAxis, put = __cordl_internal_set_poleAxis))::UnityEngine::Vector3 poleAxis;
@@ -50,154 +64,144 @@ public:
   /// @brief Field polePosition, offset 0xa8, size 0xc
   __declspec(property(get = __cordl_internal_get_polePosition, put = __cordl_internal_set_polePosition))::UnityEngine::Vector3 polePosition;
 
-  /// @brief Field poleWeight, offset 0xb4, size 0x4
-  __declspec(property(get = __cordl_internal_get_poleWeight, put = __cordl_internal_set_poleWeight)) float_t poleWeight;
-
   /// @brief Field poleTarget, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_poleTarget, put = __cordl_internal_set_poleTarget))::UnityW<::UnityEngine::Transform> poleTarget;
 
-  /// @brief Field clampWeight, offset 0xc0, size 0x4
-  __declspec(property(get = __cordl_internal_get_clampWeight, put = __cordl_internal_set_clampWeight)) float_t clampWeight;
-
-  /// @brief Field clampSmoothing, offset 0xc4, size 0x4
-  __declspec(property(get = __cordl_internal_get_clampSmoothing, put = __cordl_internal_set_clampSmoothing)) int32_t clampSmoothing;
-
-  /// @brief Field OnPreIteration, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_OnPreIteration, put = __cordl_internal_set_OnPreIteration))::RootMotion::FinalIK::__IKSolver__IterationDelegate* OnPreIteration;
+  /// @brief Field poleWeight, offset 0xb4, size 0x4
+  __declspec(property(get = __cordl_internal_get_poleWeight, put = __cordl_internal_set_poleWeight)) float_t poleWeight;
 
   /// @brief Field step, offset 0xd0, size 0x4
   __declspec(property(get = __cordl_internal_get_step, put = __cordl_internal_set_step)) float_t step;
 
-  /// @brief Field clampedIKPosition, offset 0xd4, size 0xc
-  __declspec(property(get = __cordl_internal_get_clampedIKPosition, put = __cordl_internal_set_clampedIKPosition))::UnityEngine::Vector3 clampedIKPosition;
+  /// @brief Field transform, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
+
+  __declspec(property(get = get_transformAxis))::UnityEngine::Vector3 transformAxis;
 
   /// @brief Field transformLimit, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get_transformLimit, put = __cordl_internal_set_transformLimit))::UnityW<::RootMotion::FinalIK::RotationLimit> transformLimit;
 
-  /// @brief Field lastTransform, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get_lastTransform, put = __cordl_internal_set_lastTransform))::UnityW<::UnityEngine::Transform> lastTransform;
-
-  __declspec(property(get = get_transformAxis))::UnityEngine::Vector3 transformAxis;
-
   __declspec(property(get = get_transformPoleAxis))::UnityEngine::Vector3 transformPoleAxis;
 
-  __declspec(property(get = get_minBones)) int32_t minBones;
+  /// @brief Method GetAngle, addr 0x133ac1c, size 0x138, virtual false, abstract: false, final false
+  inline float_t GetAngle();
 
-  __declspec(property(get = get_localDirection))::UnityEngine::Vector3 localDirection;
+  /// @brief Method GetClampedIKPosition, addr 0x133b5ac, size 0x364, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetClampedIKPosition();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
+  static inline ::RootMotion::FinalIK::IKSolverAim* New_ctor();
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
+  /// @brief Method OnInitiate, addr 0x133adb4, size 0x28c, virtual true, abstract: false, final false
+  inline void OnInitiate();
 
-  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
+  /// @brief Method OnUpdate, addr 0x133b040, size 0x56c, virtual true, abstract: false, final false
+  inline void OnUpdate();
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axis();
+  /// @brief Method RotateToTarget, addr 0x133b9c0, size 0x538, virtual false, abstract: false, final false
+  inline void RotateToTarget(::UnityEngine::Vector3 targetPosition, ::RootMotion::FinalIK::__IKSolver__Bone* bone, float_t weight);
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axis() const;
-
-  constexpr void __cordl_internal_set_axis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_poleAxis();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_poleAxis() const;
-
-  constexpr void __cordl_internal_set_poleAxis(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_polePosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_polePosition() const;
-
-  constexpr void __cordl_internal_set_polePosition(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get_poleWeight();
-
-  constexpr float_t const& __cordl_internal_get_poleWeight() const;
-
-  constexpr void __cordl_internal_set_poleWeight(float_t value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_poleTarget();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_poleTarget() const;
-
-  constexpr void __cordl_internal_set_poleTarget(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr float_t& __cordl_internal_get_clampWeight();
-
-  constexpr float_t const& __cordl_internal_get_clampWeight() const;
-
-  constexpr void __cordl_internal_set_clampWeight(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_clampSmoothing();
-
-  constexpr int32_t const& __cordl_internal_get_clampSmoothing() const;
-
-  constexpr void __cordl_internal_set_clampSmoothing(int32_t value);
+  /// @brief Method Solve, addr 0x133b910, size 0xa8, virtual false, abstract: false, final false
+  inline void Solve();
 
   constexpr ::RootMotion::FinalIK::__IKSolver__IterationDelegate*& __cordl_internal_get_OnPreIteration();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__IterationDelegate*> const& __cordl_internal_get_OnPreIteration() const;
 
-  constexpr void __cordl_internal_set_OnPreIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axis() const;
 
-  constexpr float_t& __cordl_internal_get_step();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axis();
 
-  constexpr float_t const& __cordl_internal_get_step() const;
+  constexpr int32_t const& __cordl_internal_get_clampSmoothing() const;
 
-  constexpr void __cordl_internal_set_step(float_t value);
+  constexpr int32_t& __cordl_internal_get_clampSmoothing();
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_clampedIKPosition();
+  constexpr float_t const& __cordl_internal_get_clampWeight() const;
+
+  constexpr float_t& __cordl_internal_get_clampWeight();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_clampedIKPosition() const;
 
-  constexpr void __cordl_internal_set_clampedIKPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityW<::RootMotion::FinalIK::RotationLimit>& __cordl_internal_get_transformLimit();
-
-  constexpr ::UnityW<::RootMotion::FinalIK::RotationLimit> const& __cordl_internal_get_transformLimit() const;
-
-  constexpr void __cordl_internal_set_transformLimit(::UnityW<::RootMotion::FinalIK::RotationLimit> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_lastTransform();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_clampedIKPosition();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_lastTransform() const;
 
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_lastTransform();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_poleAxis() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_poleAxis();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_polePosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_polePosition();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_poleTarget() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_poleTarget();
+
+  constexpr float_t const& __cordl_internal_get_poleWeight() const;
+
+  constexpr float_t& __cordl_internal_get_poleWeight();
+
+  constexpr float_t const& __cordl_internal_get_step() const;
+
+  constexpr float_t& __cordl_internal_get_step();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::RotationLimit> const& __cordl_internal_get_transformLimit() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::RotationLimit>& __cordl_internal_get_transformLimit();
+
+  constexpr void __cordl_internal_set_OnPreIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
+
+  constexpr void __cordl_internal_set_axis(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_clampSmoothing(int32_t value);
+
+  constexpr void __cordl_internal_set_clampWeight(float_t value);
+
+  constexpr void __cordl_internal_set_clampedIKPosition(::UnityEngine::Vector3 value);
+
   constexpr void __cordl_internal_set_lastTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method GetAngle, addr 0x12f8c30, size 0x138, virtual false, abstract: false, final false
-  inline float_t GetAngle();
+  constexpr void __cordl_internal_set_poleAxis(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_transformAxis, addr 0x12f8d68, size 0x30, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_transformAxis();
+  constexpr void __cordl_internal_set_polePosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_transformPoleAxis, addr 0x12f8d98, size 0x30, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_transformPoleAxis();
+  constexpr void __cordl_internal_set_poleTarget(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method OnInitiate, addr 0x12f8dc8, size 0x28c, virtual true, abstract: false, final false
-  inline void OnInitiate();
+  constexpr void __cordl_internal_set_poleWeight(float_t value);
 
-  /// @brief Method OnUpdate, addr 0x12f9054, size 0x56c, virtual true, abstract: false, final false
-  inline void OnUpdate();
+  constexpr void __cordl_internal_set_step(float_t value);
 
-  /// @brief Method get_minBones, addr 0x12f99cc, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_minBones();
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method Solve, addr 0x12f9924, size 0xa8, virtual false, abstract: false, final false
-  inline void Solve();
+  constexpr void __cordl_internal_set_transformLimit(::UnityW<::RootMotion::FinalIK::RotationLimit> value);
 
-  /// @brief Method GetClampedIKPosition, addr 0x12f95c0, size 0x364, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetClampedIKPosition();
-
-  /// @brief Method RotateToTarget, addr 0x12f99d4, size 0x538, virtual false, abstract: false, final false
-  inline void RotateToTarget(::UnityEngine::Vector3 targetPosition, ::RootMotion::FinalIK::__IKSolver__Bone* bone, float_t weight);
-
-  /// @brief Method get_localDirection, addr 0x12f9f0c, size 0x60, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_localDirection();
-
-  static inline ::RootMotion::FinalIK::IKSolverAim* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12f9f6c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133bf58, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_localDirection, addr 0x133bef8, size 0x60, virtual true, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_localDirection();
+
+  /// @brief Method get_minBones, addr 0x133b9b8, size 0x8, virtual true, abstract: false, final false
+  inline int32_t get_minBones();
+
+  /// @brief Method get_transformAxis, addr 0x133ad54, size 0x30, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_transformAxis();
+
+  /// @brief Method get_transformPoleAxis, addr 0x133ad84, size 0x30, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_transformPoleAxis();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IKSolverAim();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverAim", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IKSolverAim(IKSolverAim&&) = delete;
@@ -206,12 +210,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IKSolverAim(IKSolverAim const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IKSolverAim();
-
-public:
   /// @brief Field transform, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___transform;
 

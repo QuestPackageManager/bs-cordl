@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::GlobalNamespace::EventsTestSceneSetup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5307))
 // CS Name: ::EventsTestSceneSetup*
 class CORDL_TYPE EventsTestSceneSetup : public ::Zenject::MonoInstaller {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _sceneSetupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
+  /// @brief Method InstallBindings, addr 0x2412b68, size 0xc48, virtual true, abstract: false, final false
+  inline void InstallBindings();
+
+  static inline ::GlobalNamespace::EventsTestSceneSetup* New_ctor();
+
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method InstallBindings, addr 0x2343c20, size 0xc48, virtual true, abstract: false, final false
-  inline void InstallBindings();
-
-  static inline ::GlobalNamespace::EventsTestSceneSetup* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2344868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24137b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventsTestSceneSetup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventsTestSceneSetup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventsTestSceneSetup(EventsTestSceneSetup&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventsTestSceneSetup(EventsTestSceneSetup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventsTestSceneSetup();
-
-public:
   /// @brief Field _sceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 

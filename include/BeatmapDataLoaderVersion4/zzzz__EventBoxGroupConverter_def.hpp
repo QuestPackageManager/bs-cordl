@@ -35,41 +35,45 @@ MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::EventBoxGroupConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10726))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11244))
 // CS Name: ::BeatmapDataLoaderVersion4::EventBoxGroupConverter*
 class CORDL_TYPE EventBoxGroupConverter : public ::GlobalNamespace::BeatToTimeConverterProvider {
 public:
   // Declarations
-  /// @brief Field lightshowSaveData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_lightshowSaveData, put = __cordl_internal_set_lightshowSaveData))::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData;
-
   /// @brief Field _lightGroups, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__lightGroups, put = __cordl_internal_set__lightGroups))::GlobalNamespace::IEnvironmentLightGroups* _lightGroups;
 
-  constexpr ::BeatmapSaveDataVersion4::LightshowSaveData*& __cordl_internal_get_lightshowSaveData();
+  /// @brief Field lightshowSaveData, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_lightshowSaveData, put = __cordl_internal_set_lightshowSaveData))::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion4::LightshowSaveData*> const& __cordl_internal_get_lightshowSaveData() const;
-
-  constexpr void __cordl_internal_set_lightshowSaveData(::BeatmapSaveDataVersion4::LightshowSaveData* value);
-
-  constexpr ::GlobalNamespace::IEnvironmentLightGroups*& __cordl_internal_get__lightGroups();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IEnvironmentLightGroups*> const& __cordl_internal_get__lightGroups() const;
-
-  constexpr void __cordl_internal_set__lightGroups(::GlobalNamespace::IEnvironmentLightGroups* value);
-
-  static inline ::BeatmapDataLoaderVersion4::EventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
-
-  /// @brief Method .ctor, addr 0x12bfd8c, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
-
-  /// @brief Method Convert, addr 0x12bfa24, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x13009f4, size 0x2c0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBoxGroup* Convert(::BeatmapSaveDataVersion4::EventBoxGroup* eventBoxGroup);
 
   /// @brief Method ConvertEvents, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
+  static inline ::BeatmapDataLoaderVersion4::EventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
+
+  constexpr ::GlobalNamespace::IEnvironmentLightGroups*& __cordl_internal_get__lightGroups();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IEnvironmentLightGroups*> const& __cordl_internal_get__lightGroups() const;
+
+  constexpr ::BeatmapSaveDataVersion4::LightshowSaveData*& __cordl_internal_get_lightshowSaveData();
+
+  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion4::LightshowSaveData*> const& __cordl_internal_get_lightshowSaveData() const;
+
+  constexpr void __cordl_internal_set__lightGroups(::GlobalNamespace::IEnvironmentLightGroups* value);
+
+  constexpr void __cordl_internal_set_lightshowSaveData(::BeatmapSaveDataVersion4::LightshowSaveData* value);
+
+  /// @brief Method .ctor, addr 0x1300d5c, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr EventBoxGroupConverter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "EventBoxGroupConverter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   EventBoxGroupConverter(EventBoxGroupConverter&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventBoxGroupConverter(EventBoxGroupConverter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventBoxGroupConverter();
-
-public:
   /// @brief Field lightshowSaveData, offset: 0x18, size: 0x8, def value: None
   ::BeatmapSaveDataVersion4::LightshowSaveData* ___lightshowSaveData;
 

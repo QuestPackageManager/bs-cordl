@@ -15,18 +15,16 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Notification_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8614))
 // CS Name: ::OVR.OpenVR::VREvent_Notification_t
 struct CORDL_TYPE VREvent_Notification_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "ulUserValue", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "notificationId", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr VREvent_Notification_t(uint64_t ulUserValue, uint32_t notificationId) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VREvent_Notification_t();
+
+  // Ctor Parameters [CppParam { name: "ulUserValue", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "notificationId", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr VREvent_Notification_t(uint64_t ulUserValue, uint32_t notificationId) noexcept;
 
   /// @brief Field ulUserValue, offset: 0x0, size: 0x8, def value: None
   uint64_t ulUserValue;

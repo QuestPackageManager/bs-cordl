@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::GlobalNamespace::IAdditionalContentEntitlementModel);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10558))
 // CS Name: ::IAdditionalContentEntitlementModel*
 class CORDL_TYPE IAdditionalContentEntitlementModel {
 public:
@@ -35,14 +33,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAdditionalContentModel"
   constexpr operator ::GlobalNamespace::IAdditionalContentModel*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IAdditionalContentModel"
-  constexpr ::GlobalNamespace::IAdditionalContentModel* i___GlobalNamespace__IAdditionalContentModel() noexcept;
-
   /// @brief Method GetLevelEntitlementStatusAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
   /// @brief Method GetPackEntitlementStatusAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
+
+  /// @brief Convert to "::GlobalNamespace::IAdditionalContentModel"
+  constexpr ::GlobalNamespace::IAdditionalContentModel* i___GlobalNamespace__IAdditionalContentModel() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IAdditionalContentEntitlementModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

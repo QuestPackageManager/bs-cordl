@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Diagnostics::Tracing::EventKeywords);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3742))
 // CS Name: ::System.Diagnostics.Tracing::EventKeywords
 struct CORDL_TYPE EventKeywords {
 public:
@@ -42,36 +40,23 @@ public:
     return static_cast<__EventKeywords_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
-  constexpr EventKeywords(int64_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int64_t() const noexcept {
+    return static_cast<__EventKeywords_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EventKeywords();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: None }]
+  constexpr EventKeywords(int64_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x8, def value: None
   int64_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
-
-  /// @brief Field None value: static_cast<int64_t>(0x0)
-  static ::System::Diagnostics::Tracing::EventKeywords const None;
-
   /// @brief Field All value: static_cast<int64_t>(0xffffffffffffffff)
   static ::System::Diagnostics::Tracing::EventKeywords const All;
-
-  /// @brief Field MicrosoftTelemetry value: static_cast<int64_t>(0x2000000000000)
-  static ::System::Diagnostics::Tracing::EventKeywords const MicrosoftTelemetry;
-
-  /// @brief Field WdiContext value: static_cast<int64_t>(0x2000000000000)
-  static ::System::Diagnostics::Tracing::EventKeywords const WdiContext;
-
-  /// @brief Field WdiDiagnostic value: static_cast<int64_t>(0x4000000000000)
-  static ::System::Diagnostics::Tracing::EventKeywords const WdiDiagnostic;
-
-  /// @brief Field Sqm value: static_cast<int64_t>(0x8000000000000)
-  static ::System::Diagnostics::Tracing::EventKeywords const Sqm;
 
   /// @brief Field AuditFailure value: static_cast<int64_t>(0x10000000000000)
   static ::System::Diagnostics::Tracing::EventKeywords const AuditFailure;
@@ -84,6 +69,24 @@ public:
 
   /// @brief Field EventLogClassic value: static_cast<int64_t>(0x80000000000000)
   static ::System::Diagnostics::Tracing::EventKeywords const EventLogClassic;
+
+  /// @brief Field MicrosoftTelemetry value: static_cast<int64_t>(0x2000000000000)
+  static ::System::Diagnostics::Tracing::EventKeywords const MicrosoftTelemetry;
+
+  /// @brief Field None value: static_cast<int64_t>(0x0)
+  static ::System::Diagnostics::Tracing::EventKeywords const None;
+
+  /// @brief Field Sqm value: static_cast<int64_t>(0x8000000000000)
+  static ::System::Diagnostics::Tracing::EventKeywords const Sqm;
+
+  /// @brief Field WdiContext value: static_cast<int64_t>(0x2000000000000)
+  static ::System::Diagnostics::Tracing::EventKeywords const WdiContext;
+
+  /// @brief Field WdiDiagnostic value: static_cast<int64_t>(0x4000000000000)
+  static ::System::Diagnostics::Tracing::EventKeywords const WdiDiagnostic;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

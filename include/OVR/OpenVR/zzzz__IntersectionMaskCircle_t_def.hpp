@@ -15,19 +15,17 @@ MARK_VAL_T(::OVR::OpenVR::IntersectionMaskCircle_t);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8653))
 // CS Name: ::OVR.OpenVR::IntersectionMaskCircle_t
 struct CORDL_TYPE IntersectionMaskCircle_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "m_flCenterX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCenterY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_flRadius", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr IntersectionMaskCircle_t(float_t m_flCenterX, float_t m_flCenterY, float_t m_flRadius) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr IntersectionMaskCircle_t();
+
+  // Ctor Parameters [CppParam { name: "m_flCenterX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCenterY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // "m_flRadius", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr IntersectionMaskCircle_t(float_t m_flCenterX, float_t m_flCenterY, float_t m_flRadius) noexcept;
 
   /// @brief Field m_flCenterX, offset: 0x0, size: 0x4, def value: None
   float_t m_flCenterX;

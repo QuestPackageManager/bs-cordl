@@ -41,18 +41,16 @@ MARK_VAL_T(::System::Threading::__Volatile__VolatileObject);
 // SizeInfo { instance_size: 1, native_size: 4, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2752))
 // CS Name: ::Volatile::VolatileBoolean
 struct CORDL_TYPE __Volatile__VolatileBoolean {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Value", ty: "bool", modifiers: "", def_value: None }]
-  constexpr __Volatile__VolatileBoolean(bool Value) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Volatile__VolatileBoolean();
+
+  // Ctor Parameters [CppParam { name: "Value", ty: "bool", modifiers: "", def_value: None }]
+  constexpr __Volatile__VolatileBoolean(bool Value) noexcept;
 
   /// @brief Field Value, offset: 0x0, size: 0x1, def value: None
   bool Value;
@@ -72,18 +70,16 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileBoolean, Value) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2753))
 // CS Name: ::Volatile::VolatileInt32
 struct CORDL_TYPE __Volatile__VolatileInt32 {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Value", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Volatile__VolatileInt32(int32_t Value) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Volatile__VolatileInt32();
+
+  // Ctor Parameters [CppParam { name: "Value", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __Volatile__VolatileInt32(int32_t Value) noexcept;
 
   /// @brief Field Value, offset: 0x0, size: 0x4, def value: None
   int32_t Value;
@@ -103,18 +99,16 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileInt32, Value) ==
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2754))
 // CS Name: ::Volatile::VolatileObject
 struct CORDL_TYPE __Volatile__VolatileObject {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: None }]
-  constexpr __Volatile__VolatileObject(::System::Object* Value) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __Volatile__VolatileObject();
+
+  // Ctor Parameters [CppParam { name: "Value", ty: "::System::Object*", modifiers: "", def_value: None }]
+  constexpr __Volatile__VolatileObject(::System::Object* Value) noexcept;
 
   /// @brief Field Value, offset: 0x0, size: 0x8, def value: None
   ::System::Object* Value;
@@ -134,36 +128,40 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileObject, Value) =
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2755))
 // CS Name: ::System.Threading::Volatile*
 class CORDL_TYPE Volatile : public ::System::Object {
 public:
   // Declarations
-  using VolatileObject = ::System::Threading::__Volatile__VolatileObject;
+  using VolatileBoolean = ::System::Threading::__Volatile__VolatileBoolean;
 
   using VolatileInt32 = ::System::Threading::__Volatile__VolatileInt32;
 
-  using VolatileBoolean = ::System::Threading::__Volatile__VolatileBoolean;
-
-  /// @brief Method Read, addr 0x2646d00, size 0x18, virtual false, abstract: false, final false
-  static inline bool Read(ByRef<bool> location);
-
-  /// @brief Method Write, addr 0x2646d18, size 0x24, virtual false, abstract: false, final false
-  static inline void Write(ByRef<bool> location, bool value);
-
-  /// @brief Method Read, addr 0x2646d3c, size 0x18, virtual false, abstract: false, final false
-  static inline int32_t Read(ByRef<int32_t> location);
-
-  /// @brief Method Write, addr 0x2646d54, size 0x24, virtual false, abstract: false, final false
-  static inline void Write(ByRef<int32_t> location, int32_t value);
+  using VolatileObject = ::System::Threading::__Volatile__VolatileObject;
 
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Read(ByRef<T> location);
 
+  /// @brief Method Read, addr 0x27153f4, size 0x18, virtual false, abstract: false, final false
+  static inline bool Read(ByRef<bool> location);
+
+  /// @brief Method Read, addr 0x2715430, size 0x18, virtual false, abstract: false, final false
+  static inline int32_t Read(ByRef<int32_t> location);
+
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Write(ByRef<T> location, T value);
 
+  /// @brief Method Write, addr 0x271540c, size 0x24, virtual false, abstract: false, final false
+  static inline void Write(ByRef<bool> location, bool value);
+
+  /// @brief Method Write, addr 0x2715448, size 0x24, virtual false, abstract: false, final false
+  static inline void Write(ByRef<int32_t> location, int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Volatile();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Volatile(Volatile&&) = delete;
@@ -172,12 +170,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Volatile(Volatile const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Volatile();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

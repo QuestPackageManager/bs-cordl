@@ -18,12 +18,16 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2694))
 // CS Name: ::System.Threading::SparselyPopulatedArrayFragment`1<T>*
 class CORDL_TYPE SparselyPopulatedArrayFragment_1 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Item)) T Item[];
+
+  __declspec(property(get = get_Length)) int32_t Length;
+
+  __declspec(property(get = get_Prev))::System::Threading::SparselyPopulatedArrayFragment_1<T>* Prev;
+
   /// @brief Field _elements, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements))::ArrayW<T, ::Array<T>*> _elements;
 
@@ -36,42 +40,39 @@ public:
   /// @brief Field _prev, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__prev, put = __cordl_internal_set__prev))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _prev;
 
-  __declspec(property(get = get_Item)) T Item[];
+  static inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* New_ctor(int32_t size);
 
-  __declspec(property(get = get_Length)) int32_t Length;
+  static inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* New_ctor(int32_t size, ::System::Threading::SparselyPopulatedArrayFragment_1<T>* prev);
 
-  __declspec(property(get = get_Prev))::System::Threading::SparselyPopulatedArrayFragment_1<T>* Prev;
-
-  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__elements();
+  /// @brief Method SafeAtomicRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T SafeAtomicRemove(int32_t index, T expectedElement);
 
   constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__elements() const;
 
-  constexpr void __cordl_internal_set__elements(::ArrayW<T, ::Array<T>*> value);
-
-  constexpr int32_t& __cordl_internal_get__freeCount();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__elements();
 
   constexpr int32_t const& __cordl_internal_get__freeCount() const;
 
-  constexpr void __cordl_internal_set__freeCount(int32_t value);
+  constexpr int32_t& __cordl_internal_get__freeCount();
 
   constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __cordl_internal_get__next();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __cordl_internal_get__next() const;
 
-  constexpr void __cordl_internal_set__next(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
-
   constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __cordl_internal_get__prev();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __cordl_internal_get__prev() const;
 
-  constexpr void __cordl_internal_set__prev(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
+  constexpr void __cordl_internal_set__elements(::ArrayW<T, ::Array<T>*> value);
 
-  static inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* New_ctor(int32_t size);
+  constexpr void __cordl_internal_set__freeCount(int32_t value);
+
+  constexpr void __cordl_internal_set__next(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
+
+  constexpr void __cordl_internal_set__prev(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
-
-  static inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* New_ctor(int32_t size, ::System::Threading::SparselyPopulatedArrayFragment_1<T>* prev);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, ::System::Threading::SparselyPopulatedArrayFragment_1<T>* prev);
@@ -85,9 +86,12 @@ public:
   /// @brief Method get_Prev, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Prev();
 
-  /// @brief Method SafeAtomicRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T SafeAtomicRemove(int32_t index, T expectedElement);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SparselyPopulatedArrayFragment_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SparselyPopulatedArrayFragment_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SparselyPopulatedArrayFragment_1(SparselyPopulatedArrayFragment_1&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SparselyPopulatedArrayFragment_1(SparselyPopulatedArrayFragment_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SparselyPopulatedArrayFragment_1();
-
-public:
   /// @brief Field _elements, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____elements;
 

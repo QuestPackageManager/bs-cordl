@@ -31,24 +31,28 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataAddTestSlidersTransform);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10581))
 // CS Name: ::BeatmapDataAddTestSlidersTransform*
 class CORDL_TYPE BeatmapDataAddTestSlidersTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData, addr 0x1262e60, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x12a5e30, size 0x320, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method FindNextSameColorTypeNote, addr 0x1263180, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method FindNextSameColorTypeNote, addr 0x12a6150, size 0x1ec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteData* FindNextSameColorTypeNote(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>* beatmapDataItems, int32_t startIndex,
                                                                        ::GlobalNamespace::ColorType colorType);
 
   static inline ::GlobalNamespace::BeatmapDataAddTestSlidersTransform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x126336c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a633c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapDataAddTestSlidersTransform();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataAddTestSlidersTransform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapDataAddTestSlidersTransform(BeatmapDataAddTestSlidersTransform&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapDataAddTestSlidersTransform(BeatmapDataAddTestSlidersTransform const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataAddTestSlidersTransform();
-
-public:
   /// @brief Field kMaxTimeDiff offset 0xffffffff size 0x4
   static constexpr float_t kMaxTimeDiff{ 2.0 };
 

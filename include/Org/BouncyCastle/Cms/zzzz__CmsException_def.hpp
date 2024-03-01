@@ -18,27 +18,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(612))
 // CS Name: ::Org.BouncyCastle.Cms::CmsException*
 class CORDL_TYPE CmsException : public ::System::Exception {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12060c0, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::Org::BouncyCastle::Cms::CmsException* New_ctor(::StringW msg);
-
-  /// @brief Method .ctor, addr 0x1206118, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW msg);
 
   static inline ::Org::BouncyCastle::Cms::CmsException* New_ctor(::StringW msg, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x1206180, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1249090, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x12490e8, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::StringW msg);
+
+  /// @brief Method .ctor, addr 0x1249150, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, ::System::Exception* e);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsException(CmsException&&) = delete;
@@ -47,12 +51,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsException(CmsException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

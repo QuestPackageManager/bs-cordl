@@ -18,19 +18,17 @@ MARK_VAL_T(::UnityEngine::UIElements::PanelClearSettings);
 // SizeInfo { instance_size: 20, native_size: 24, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8995))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6125))
 // CS Name: ::UnityEngine.UIElements::PanelClearSettings
 struct CORDL_TYPE PanelClearSettings {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "clearDepthStencil", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clearColor", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
-  constexpr PanelClearSettings(bool clearDepthStencil, bool clearColor, ::UnityEngine::Color color) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr PanelClearSettings();
+
+  // Ctor Parameters [CppParam { name: "clearDepthStencil", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clearColor", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
+  // "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
+  constexpr PanelClearSettings(bool clearDepthStencil, bool clearColor, ::UnityEngine::Color color) noexcept;
 
   /// @brief Field clearDepthStencil, offset: 0x0, size: 0x1, def value: None
   bool clearDepthStencil;

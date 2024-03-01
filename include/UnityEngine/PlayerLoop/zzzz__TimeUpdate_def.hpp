@@ -21,8 +21,6 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__TimeUpdate__WaitForLastPresentationAndUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9244))
 // CS Name: ::TimeUpdate::WaitForLastPresentationAndUpdateTime
 #pragma pack(push, 0)
 struct CORDL_TYPE __TimeUpdate__WaitForLastPresentationAndUpdateTime {
@@ -49,8 +47,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__TimeU
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9245))
 // CS Name: ::UnityEngine.PlayerLoop::TimeUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE TimeUpdate {

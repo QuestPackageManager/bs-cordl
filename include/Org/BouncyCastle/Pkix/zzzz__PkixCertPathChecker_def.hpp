@@ -23,16 +23,18 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1721))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathChecker*
 class CORDL_TYPE PkixCertPathChecker : public ::System::Object {
 public:
   // Declarations
-  static inline ::Org::BouncyCastle::Pkix::PkixCertPathChecker* New_ctor();
+  /// @brief Method Check, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Check(::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::Utilities::Collections::ISet* unresolvedCritExts);
 
-  /// @brief Method .ctor, addr 0x112229c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method Clone, addr 0x1165274, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Object* Clone();
+
+  /// @brief Method GetSupportedExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetSupportedExtensions();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(bool forward);
@@ -40,15 +42,17 @@ public:
   /// @brief Method IsForwardCheckingSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsForwardCheckingSupported();
 
-  /// @brief Method GetSupportedExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetSupportedExtensions();
+  static inline ::Org::BouncyCastle::Pkix::PkixCertPathChecker* New_ctor();
 
-  /// @brief Method Check, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Check(::Org::BouncyCastle::X509::X509Certificate* cert, ::Org::BouncyCastle::Utilities::Collections::ISet* unresolvedCritExts);
+  /// @brief Method .ctor, addr 0x116526c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  /// @brief Method Clone, addr 0x11222a4, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Object* Clone();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PkixCertPathChecker();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathChecker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkixCertPathChecker(PkixCertPathChecker&&) = delete;
@@ -57,12 +61,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkixCertPathChecker(PkixCertPathChecker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkixCertPathChecker();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

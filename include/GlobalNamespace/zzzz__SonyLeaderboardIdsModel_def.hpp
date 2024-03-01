@@ -29,8 +29,6 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyLeaderboardIdsModel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10700))
 // CS Name: ::SonyLeaderboardIdsModel*
 class CORDL_TYPE SonyLeaderboardIdsModel : public ::System::Object {
 public:
@@ -38,23 +36,29 @@ public:
   /// @brief Field _leaderboardIds, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__leaderboardIds, put = __cordl_internal_set__leaderboardIds))::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* _leaderboardIds;
 
+  /// @brief Method GetMaxId, addr 0x12b6708, size 0x6c, virtual false, abstract: false, final false
+  inline uint32_t GetMaxId();
+
+  static inline ::GlobalNamespace::SonyLeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* idsMaps);
+
+  /// @brief Method TryGetSonyLeaderboardId, addr 0x12b6650, size 0x74, virtual false, abstract: false, final false
+  inline bool TryGetSonyLeaderboardId(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ByRef<uint32_t> sonyLeaderboardId);
+
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>*& __cordl_internal_get__leaderboardIds();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>*> const& __cordl_internal_get__leaderboardIds() const;
 
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* value);
 
-  static inline ::GlobalNamespace::SonyLeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* idsMaps);
-
-  /// @brief Method .ctor, addr 0x1273080, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b6050, size 0x600, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* idsMaps);
 
-  /// @brief Method TryGetSonyLeaderboardId, addr 0x1273680, size 0x74, virtual false, abstract: false, final false
-  inline bool TryGetSonyLeaderboardId(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ByRef<uint32_t> sonyLeaderboardId);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SonyLeaderboardIdsModel();
 
-  /// @brief Method GetMaxId, addr 0x1273738, size 0x6c, virtual false, abstract: false, final false
-  inline uint32_t GetMaxId();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SonyLeaderboardIdsModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SonyLeaderboardIdsModel(SonyLeaderboardIdsModel&&) = delete;
@@ -63,12 +67,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SonyLeaderboardIdsModel(SonyLeaderboardIdsModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SonyLeaderboardIdsModel();
-
-public:
   /// @brief Field _leaderboardIds, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* ____leaderboardIds;
 

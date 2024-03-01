@@ -18,17 +18,15 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupLinearLayouter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4289)), TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4285))
 // CS Name: ::LightGroupLinearLayouter*
 class CORDL_TYPE LightGroupLinearLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
   // Declarations
-  /// @brief Field _movementStep, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get__movementStep, put = __cordl_internal_set__movementStep))::UnityEngine::Vector3 _movementStep;
-
   /// @brief Field _defaultRotation, offset 0x2c, size 0xc
   __declspec(property(get = __cordl_internal_get__defaultRotation, put = __cordl_internal_set__defaultRotation))::UnityEngine::Vector3 _defaultRotation;
+
+  /// @brief Field _movementStep, offset 0x20, size 0xc
+  __declspec(property(get = __cordl_internal_get__movementStep, put = __cordl_internal_set__movementStep))::UnityEngine::Vector3 _movementStep;
 
   /// @brief Field _startFromCenter, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__startFromCenter, put = __cordl_internal_set__startFromCenter)) bool _startFromCenter;
@@ -36,32 +34,38 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEditTimeValidated"
   constexpr operator ::GlobalNamespace::IEditTimeValidated*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
-  constexpr ::GlobalNamespace::IEditTimeValidated* i___GlobalNamespace__IEditTimeValidated() noexcept;
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__movementStep();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__movementStep() const;
-
-  constexpr void __cordl_internal_set__movementStep(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__defaultRotation();
+  static inline ::GlobalNamespace::LightGroupLinearLayouter* New_ctor();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__defaultRotation() const;
 
-  constexpr void __cordl_internal_set__defaultRotation(::UnityEngine::Vector3 value);
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__defaultRotation();
 
-  constexpr bool& __cordl_internal_get__startFromCenter();
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__movementStep() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__movementStep();
 
   constexpr bool const& __cordl_internal_get__startFromCenter() const;
 
+  constexpr bool& __cordl_internal_get__startFromCenter();
+
+  constexpr void __cordl_internal_set__defaultRotation(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__movementStep(::UnityEngine::Vector3 value);
+
   constexpr void __cordl_internal_set__startFromCenter(bool value);
 
-  static inline ::GlobalNamespace::LightGroupLinearLayouter* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2369a54, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x243799c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
+  constexpr ::GlobalNamespace::IEditTimeValidated* i___GlobalNamespace__IEditTimeValidated() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LightGroupLinearLayouter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupLinearLayouter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LightGroupLinearLayouter(LightGroupLinearLayouter&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroupLinearLayouter(LightGroupLinearLayouter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightGroupLinearLayouter();
-
-public:
   /// @brief Field _movementStep, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____movementStep;
 

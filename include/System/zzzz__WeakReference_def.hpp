@@ -27,83 +27,87 @@ MARK_REF_PTR_T(::System::WeakReference);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3333))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2642))
 // CS Name: ::System::WeakReference*
 class CORDL_TYPE WeakReference : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field isLongReference, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_isLongReference, put = __cordl_internal_set_isLongReference)) bool isLongReference;
-
-  /// @brief Field gcHandle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_gcHandle, put = __cordl_internal_set_gcHandle))::System::Runtime::InteropServices::GCHandle gcHandle;
-
   __declspec(property(get = get_IsAlive)) bool IsAlive;
 
   __declspec(property(get = get_Target, put = set_Target))::System::Object* Target;
 
   __declspec(property(get = get_TrackResurrection)) bool TrackResurrection;
 
+  /// @brief Field gcHandle, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_gcHandle, put = __cordl_internal_set_gcHandle))::System::Runtime::InteropServices::GCHandle gcHandle;
+
+  /// @brief Field isLongReference, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_isLongReference, put = __cordl_internal_set_isLongReference)) bool isLongReference;
+
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+
+  /// @brief Method AllocateHandle, addr 0x26fd6fc, size 0x28, virtual false, abstract: false, final false
+  inline void AllocateHandle(::System::Object* target);
+
+  /// @brief Method Finalize, addr 0x26fd930, size 0x9c, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  /// @brief Method GetObjectData, addr 0x26fd9cc, size 0x184, virtual true, abstract: false, final false
+  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::WeakReference* New_ctor();
+
+  static inline ::System::WeakReference* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  static inline ::System::WeakReference* New_ctor(::System::Object* target);
+
+  static inline ::System::WeakReference* New_ctor(::System::Object* target, bool trackResurrection);
+
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_gcHandle() const;
+
+  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get_gcHandle();
+
+  constexpr bool const& __cordl_internal_get_isLongReference() const;
+
+  constexpr bool& __cordl_internal_get_isLongReference();
+
+  constexpr void __cordl_internal_set_gcHandle(::System::Runtime::InteropServices::GCHandle value);
+
+  constexpr void __cordl_internal_set_isLongReference(bool value);
+
+  /// @brief Method .ctor, addr 0x26fd724, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x26fd790, size 0x138, virtual false, abstract: false, final false
+  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method .ctor, addr 0x26fd72c, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* target);
+
+  /// @brief Method .ctor, addr 0x26fd75c, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* target, bool trackResurrection);
+
+  /// @brief Method get_IsAlive, addr 0x26fd8c8, size 0x20, virtual true, abstract: false, final false
+  inline bool get_IsAlive();
+
+  /// @brief Method get_Target, addr 0x26fd8e8, size 0x34, virtual true, abstract: false, final false
+  inline ::System::Object* get_Target();
+
+  /// @brief Method get_TrackResurrection, addr 0x26fd928, size 0x8, virtual true, abstract: false, final false
+  inline bool get_TrackResurrection();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr bool& __cordl_internal_get_isLongReference();
-
-  constexpr bool const& __cordl_internal_get_isLongReference() const;
-
-  constexpr void __cordl_internal_set_isLongReference(bool value);
-
-  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get_gcHandle();
-
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_gcHandle() const;
-
-  constexpr void __cordl_internal_set_gcHandle(::System::Runtime::InteropServices::GCHandle value);
-
-  /// @brief Method AllocateHandle, addr 0x262e008, size 0x28, virtual false, abstract: false, final false
-  inline void AllocateHandle(::System::Object* target);
-
-  static inline ::System::WeakReference* New_ctor();
-
-  /// @brief Method .ctor, addr 0x262e030, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::System::WeakReference* New_ctor(::System::Object* target);
-
-  /// @brief Method .ctor, addr 0x262e038, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* target);
-
-  static inline ::System::WeakReference* New_ctor(::System::Object* target, bool trackResurrection);
-
-  /// @brief Method .ctor, addr 0x262e068, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* target, bool trackResurrection);
-
-  static inline ::System::WeakReference* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x262e09c, size 0x138, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method get_IsAlive, addr 0x262e1d4, size 0x20, virtual true, abstract: false, final false
-  inline bool get_IsAlive();
-
-  /// @brief Method get_Target, addr 0x262e1f4, size 0x34, virtual true, abstract: false, final false
-  inline ::System::Object* get_Target();
-
-  /// @brief Method set_Target, addr 0x262e228, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_Target, addr 0x26fd91c, size 0xc, virtual true, abstract: false, final false
   inline void set_Target(::System::Object* value);
 
-  /// @brief Method get_TrackResurrection, addr 0x262e234, size 0x8, virtual true, abstract: false, final false
-  inline bool get_TrackResurrection();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WeakReference();
 
-  /// @brief Method Finalize, addr 0x262e23c, size 0x9c, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method GetObjectData, addr 0x262e2d8, size 0x184, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WeakReference", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WeakReference(WeakReference&&) = delete;
@@ -112,12 +116,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WeakReference(WeakReference const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WeakReference();
-
-public:
   /// @brief Field isLongReference, offset: 0x10, size: 0x1, def value: None
   bool ___isLongReference;
 

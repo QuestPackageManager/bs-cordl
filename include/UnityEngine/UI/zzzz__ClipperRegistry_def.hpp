@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::UnityEngine::UI::ClipperRegistry);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12922))
 // CS Name: ::UnityEngine.UI::ClipperRegistry*
 class CORDL_TYPE ClipperRegistry : public ::System::Object {
 public:
@@ -32,36 +30,42 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::UI::ClipperRegistry* s_Instance;
 
+  /// @brief Method Cull, addr 0x2e5cb64, size 0x10c, virtual false, abstract: false, final false
+  inline void Cull();
+
+  /// @brief Method Disable, addr 0x2e5de0c, size 0x5c, virtual false, abstract: false, final false
+  static inline void Disable(::UnityEngine::UI::IClipper* c);
+
+  static inline ::UnityEngine::UI::ClipperRegistry* New_ctor();
+
+  /// @brief Method Register, addr 0x2e5dd40, size 0x70, virtual false, abstract: false, final false
+  static inline void Register(::UnityEngine::UI::IClipper* c);
+
+  /// @brief Method Unregister, addr 0x2e5ddb0, size 0x5c, virtual false, abstract: false, final false
+  static inline void Unregister(::UnityEngine::UI::IClipper* c);
+
   constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*& __cordl_internal_get_m_Clippers();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>*> const& __cordl_internal_get_m_Clippers() const;
 
   constexpr void __cordl_internal_set_m_Clippers(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* value);
 
-  static inline void setStaticF_s_Instance(::UnityEngine::UI::ClipperRegistry* value);
+  /// @brief Method .ctor, addr 0x2e5dcc4, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::UI::ClipperRegistry* getStaticF_s_Instance();
 
-  static inline ::UnityEngine::UI::ClipperRegistry* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2d7159c, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_instance, addr 0x2d703c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x2e5cae8, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::ClipperRegistry* get_instance();
 
-  /// @brief Method Cull, addr 0x2d7043c, size 0x10c, virtual false, abstract: false, final false
-  inline void Cull();
+  static inline void setStaticF_s_Instance(::UnityEngine::UI::ClipperRegistry* value);
 
-  /// @brief Method Register, addr 0x2d71618, size 0x70, virtual false, abstract: false, final false
-  static inline void Register(::UnityEngine::UI::IClipper* c);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ClipperRegistry();
 
-  /// @brief Method Unregister, addr 0x2d71688, size 0x5c, virtual false, abstract: false, final false
-  static inline void Unregister(::UnityEngine::UI::IClipper* c);
-
-  /// @brief Method Disable, addr 0x2d716e4, size 0x5c, virtual false, abstract: false, final false
-  static inline void Disable(::UnityEngine::UI::IClipper* c);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ClipperRegistry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ClipperRegistry(ClipperRegistry&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClipperRegistry(ClipperRegistry const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClipperRegistry();
-
-public:
   /// @brief Field m_Clippers, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::IClipper*>* ___m_Clippers;
 

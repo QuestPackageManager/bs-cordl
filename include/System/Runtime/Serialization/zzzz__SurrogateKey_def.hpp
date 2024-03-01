@@ -22,38 +22,42 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3238))
 // CS Name: ::System.Runtime.Serialization::SurrogateKey*
 class CORDL_TYPE SurrogateKey : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field m_context, offset 0x18, size 0x10
+  __declspec(property(get = __cordl_internal_get_m_context, put = __cordl_internal_set_m_context))::System::Runtime::Serialization::StreamingContext m_context;
+
   /// @brief Field m_type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_type, put = __cordl_internal_set_m_type))::System::Type* m_type;
 
-  /// @brief Field m_context, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_context, put = __cordl_internal_set_m_context))::System::Runtime::Serialization::StreamingContext m_context;
+  /// @brief Method GetHashCode, addr 0x25b1b38, size 0x20, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  static inline ::System::Runtime::Serialization::SurrogateKey* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context);
+
+  constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_m_context() const;
+
+  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get_m_context();
 
   constexpr ::System::Type*& __cordl_internal_get_m_type();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_type() const;
 
-  constexpr void __cordl_internal_set_m_type(::System::Type* value);
-
-  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get_m_context();
-
-  constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_m_context() const;
-
   constexpr void __cordl_internal_set_m_context(::System::Runtime::Serialization::StreamingContext value);
 
-  static inline ::System::Runtime::Serialization::SurrogateKey* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context);
+  constexpr void __cordl_internal_set_m_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x24e0c08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b1900, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetHashCode, addr 0x24e0e40, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SurrogateKey();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SurrogateKey", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SurrogateKey(SurrogateKey&&) = delete;
@@ -62,12 +66,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SurrogateKey(SurrogateKey const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SurrogateKey();
-
-public:
   /// @brief Field m_type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___m_type;
 

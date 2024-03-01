@@ -26,12 +26,14 @@ MARK_VAL_T(::System::Reflection::MonoEventInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3460))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3514))
 // CS Name: ::System.Reflection::MonoEventInfo
 struct CORDL_TYPE MonoEventInfo {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MonoEventInfo();
+
   // Ctor Parameters [CppParam { name: "declaring_type", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "reflected_type", ty: "::System::Type*", modifiers: "", def_value:
   // None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "add_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None },
   // CppParam { name: "remove_method", ty: "::System::Reflection::MethodInfo*", modifiers: "", def_value: None }, CppParam { name: "raise_method", ty: "::System::Reflection::MethodInfo*", modifiers:
@@ -40,10 +42,6 @@ public:
   constexpr MonoEventInfo(::System::Type* declaring_type, ::System::Type* reflected_type, ::StringW name, ::System::Reflection::MethodInfo* add_method, ::System::Reflection::MethodInfo* remove_method,
                           ::System::Reflection::MethodInfo* raise_method, ::System::Reflection::EventAttributes attrs,
                           ::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> other_methods) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoEventInfo();
 
   /// @brief Field declaring_type, offset: 0x0, size: 0x8, def value: None
   ::System::Type* declaring_type;

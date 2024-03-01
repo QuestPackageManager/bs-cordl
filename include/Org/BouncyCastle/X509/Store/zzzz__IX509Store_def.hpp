@@ -19,8 +19,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::IX509Store);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1842))
 // CS Name: ::Org.BouncyCastle.X509.Store::IX509Store*
 class CORDL_TYPE IX509Store {
 public:

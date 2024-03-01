@@ -15,8 +15,6 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_SessionType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9483))
 // CS Name: ::HoudiniEngineUnity::HAPI_SessionType
 struct CORDL_TYPE HAPI_SessionType {
 public:
@@ -38,24 +36,20 @@ public:
     return static_cast<__HAPI_SessionType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr HAPI_SessionType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__HAPI_SessionType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HAPI_SessionType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr HAPI_SessionType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field HAPI_SESSION_INPROCESS value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::HAPI_SessionType const HAPI_SESSION_INPROCESS;
-
-  /// @brief Field HAPI_SESSION_THRIFT value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::HAPI_SessionType const HAPI_SESSION_THRIFT;
 
   /// @brief Field HAPI_SESSION_CUSTOM1 value: static_cast<int32_t>(0x2)
   static ::HoudiniEngineUnity::HAPI_SessionType const HAPI_SESSION_CUSTOM1;
@@ -66,8 +60,17 @@ public:
   /// @brief Field HAPI_SESSION_CUSTOM3 value: static_cast<int32_t>(0x4)
   static ::HoudiniEngineUnity::HAPI_SessionType const HAPI_SESSION_CUSTOM3;
 
+  /// @brief Field HAPI_SESSION_INPROCESS value: static_cast<int32_t>(0x0)
+  static ::HoudiniEngineUnity::HAPI_SessionType const HAPI_SESSION_INPROCESS;
+
   /// @brief Field HAPI_SESSION_MAX value: static_cast<int32_t>(0x5)
   static ::HoudiniEngineUnity::HAPI_SessionType const HAPI_SESSION_MAX;
+
+  /// @brief Field HAPI_SESSION_THRIFT value: static_cast<int32_t>(0x1)
+  static ::HoudiniEngineUnity::HAPI_SessionType const HAPI_SESSION_THRIFT;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

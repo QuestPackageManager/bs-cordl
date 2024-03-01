@@ -21,8 +21,6 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_Transform);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9518))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9686))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_Transform*
 class CORDL_TYPE Test_HAPI_Transform : public ::System::Object {
 public:
@@ -33,23 +31,29 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_Transform__() noexcept;
-
-  constexpr ::HoudiniEngineUnity::HAPI_Transform& __cordl_internal_get_self();
-
-  constexpr ::HoudiniEngineUnity::HAPI_Transform const& __cordl_internal_get_self() const;
-
-  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_Transform value);
+  /// @brief Method IsEquivalentTo, addr 0x2344e38, size 0x200, virtual true, abstract: false, final true
+  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_Transform* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_Transform* New_ctor(::HoudiniEngineUnity::HAPI_Transform self);
 
-  /// @brief Method .ctor, addr 0x227879c, size 0x34, virtual false, abstract: false, final false
+  constexpr ::HoudiniEngineUnity::HAPI_Transform const& __cordl_internal_get_self() const;
+
+  constexpr ::HoudiniEngineUnity::HAPI_Transform& __cordl_internal_get_self();
+
+  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_Transform value);
+
+  /// @brief Method .ctor, addr 0x2344e04, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_Transform self);
 
-  /// @brief Method IsEquivalentTo, addr 0x22787d0, size 0x200, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_Transform* other);
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_Transform*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_Transform__() noexcept;
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Test_HAPI_Transform();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_Transform", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Test_HAPI_Transform(Test_HAPI_Transform&&) = delete;
@@ -58,12 +62,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_HAPI_Transform(Test_HAPI_Transform const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_HAPI_Transform();
-
-public:
   /// @brief Field self, offset: 0x10, size: 0x28, def value: None
   ::HoudiniEngineUnity::HAPI_Transform ___self;
 

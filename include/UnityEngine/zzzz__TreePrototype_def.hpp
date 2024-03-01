@@ -22,14 +22,11 @@ MARK_REF_PTR_T(::UnityEngine::TreePrototype);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15645))
 // CS Name: ::UnityEngine::TreePrototype*
 class CORDL_TYPE TreePrototype : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field m_Prefab, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Prefab, put = __cordl_internal_set_m_Prefab))::UnityW<::UnityEngine::GameObject> m_Prefab;
+  __declspec(property(get = get_bendFactor, put = set_bendFactor)) float_t bendFactor;
 
   /// @brief Field m_BendFactor, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_BendFactor, put = __cordl_internal_set_m_BendFactor)) float_t m_BendFactor;
@@ -37,59 +34,66 @@ public:
   /// @brief Field m_NavMeshLod, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_NavMeshLod, put = __cordl_internal_set_m_NavMeshLod)) int32_t m_NavMeshLod;
 
-  __declspec(property(get = get_prefab, put = set_prefab))::UnityW<::UnityEngine::GameObject> prefab;
-
-  __declspec(property(get = get_bendFactor, put = set_bendFactor)) float_t bendFactor;
+  /// @brief Field m_Prefab, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Prefab, put = __cordl_internal_set_m_Prefab))::UnityW<::UnityEngine::GameObject> m_Prefab;
 
   __declspec(property(get = get_navMeshLod)) int32_t navMeshLod;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_Prefab();
+  __declspec(property(get = get_prefab, put = set_prefab))::UnityW<::UnityEngine::GameObject> prefab;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_Prefab() const;
+  /// @brief Method Equals, addr 0x2e294ac, size 0x64, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
 
-  constexpr void __cordl_internal_set_m_Prefab(::UnityW<::UnityEngine::GameObject> value);
+  /// @brief Method Equals, addr 0x2e29510, size 0xd8, virtual false, abstract: false, final false
+  inline bool Equals(::UnityEngine::TreePrototype* other);
 
-  constexpr float_t& __cordl_internal_get_m_BendFactor();
-
-  constexpr float_t const& __cordl_internal_get_m_BendFactor() const;
-
-  constexpr void __cordl_internal_set_m_BendFactor(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_m_NavMeshLod();
-
-  constexpr int32_t const& __cordl_internal_get_m_NavMeshLod() const;
-
-  constexpr void __cordl_internal_set_m_NavMeshLod(int32_t value);
-
-  /// @brief Method get_prefab, addr 0x2d3cd54, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> get_prefab();
-
-  /// @brief Method set_prefab, addr 0x2d3cd5c, size 0x8, virtual false, abstract: false, final false
-  inline void set_prefab(::UnityEngine::GameObject* value);
-
-  /// @brief Method get_bendFactor, addr 0x2d3cd64, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_bendFactor();
-
-  /// @brief Method set_bendFactor, addr 0x2d3cd6c, size 0x8, virtual false, abstract: false, final false
-  inline void set_bendFactor(float_t value);
-
-  /// @brief Method get_navMeshLod, addr 0x2d3cd74, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_navMeshLod();
+  /// @brief Method GetHashCode, addr 0x2e295e8, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TreePrototype* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d3cd7c, size 0x8, virtual false, abstract: false, final false
+  constexpr float_t const& __cordl_internal_get_m_BendFactor() const;
+
+  constexpr float_t& __cordl_internal_get_m_BendFactor();
+
+  constexpr int32_t const& __cordl_internal_get_m_NavMeshLod() const;
+
+  constexpr int32_t& __cordl_internal_get_m_NavMeshLod();
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_Prefab() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_Prefab();
+
+  constexpr void __cordl_internal_set_m_BendFactor(float_t value);
+
+  constexpr void __cordl_internal_set_m_NavMeshLod(int32_t value);
+
+  constexpr void __cordl_internal_set_m_Prefab(::UnityW<::UnityEngine::GameObject> value);
+
+  /// @brief Method .ctor, addr 0x2e294a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Equals, addr 0x2d3cd84, size 0x64, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+  /// @brief Method get_bendFactor, addr 0x2e2948c, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_bendFactor();
 
-  /// @brief Method GetHashCode, addr 0x2d3cec0, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+  /// @brief Method get_navMeshLod, addr 0x2e2949c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_navMeshLod();
 
-  /// @brief Method Equals, addr 0x2d3cde8, size 0xd8, virtual false, abstract: false, final false
-  inline bool Equals(::UnityEngine::TreePrototype* other);
+  /// @brief Method get_prefab, addr 0x2e2947c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> get_prefab();
 
+  /// @brief Method set_bendFactor, addr 0x2e29494, size 0x8, virtual false, abstract: false, final false
+  inline void set_bendFactor(float_t value);
+
+  /// @brief Method set_prefab, addr 0x2e29484, size 0x8, virtual false, abstract: false, final false
+  inline void set_prefab(::UnityEngine::GameObject* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TreePrototype();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TreePrototype", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TreePrototype(TreePrototype&&) = delete;
@@ -98,12 +102,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TreePrototype(TreePrototype const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TreePrototype();
-
-public:
   /// @brief Field m_Prefab, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_Prefab;
 

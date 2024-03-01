@@ -28,220 +28,224 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::InfBlocks);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1820))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::InfBlocks*
 class CORDL_TYPE InfBlocks : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field mode, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode)) int32_t mode;
-
-  /// @brief Field left, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_left, put = __cordl_internal_set_left)) int32_t left;
-
-  /// @brief Field table, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table)) int32_t table;
-
-  /// @brief Field index, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
-
-  /// @brief Field blens, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_blens, put = __cordl_internal_set_blens))::ArrayW<int32_t, ::Array<int32_t>*> blens;
-
   /// @brief Field bb, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_bb, put = __cordl_internal_set_bb))::ArrayW<int32_t, ::Array<int32_t>*> bb;
-
-  /// @brief Field tb, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_tb, put = __cordl_internal_set_tb))::ArrayW<int32_t, ::Array<int32_t>*> tb;
-
-  /// @brief Field codes, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_codes, put = __cordl_internal_set_codes))::Org::BouncyCastle::Utilities::Zlib::InfCodes* codes;
-
-  /// @brief Field last, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_last, put = __cordl_internal_set_last)) int32_t last;
-
-  /// @brief Field bitk, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_bitk, put = __cordl_internal_set_bitk)) int32_t bitk;
 
   /// @brief Field bitb, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_bitb, put = __cordl_internal_set_bitb)) int32_t bitb;
 
-  /// @brief Field hufts, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_hufts, put = __cordl_internal_set_hufts))::ArrayW<int32_t, ::Array<int32_t>*> hufts;
+  /// @brief Field bitk, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get_bitk, put = __cordl_internal_set_bitk)) int32_t bitk;
 
-  /// @brief Field window, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_window, put = __cordl_internal_set_window))::ArrayW<uint8_t, ::Array<uint8_t>*> window;
-
-  /// @brief Field end, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_end, put = __cordl_internal_set_end)) int32_t end;
-
-  /// @brief Field read, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_read, put = __cordl_internal_set_read)) int32_t read;
-
-  /// @brief Field write, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_write, put = __cordl_internal_set_write)) int32_t write;
-
-  /// @brief Field checkfn, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_checkfn, put = __cordl_internal_set_checkfn))::System::Object* checkfn;
-
-  /// @brief Field check, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_check, put = __cordl_internal_set_check)) int64_t check;
-
-  /// @brief Field inftree, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_inftree, put = __cordl_internal_set_inftree))::Org::BouncyCastle::Utilities::Zlib::InfTree* inftree;
-
-  /// @brief Field inflate_mask, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_inflate_mask, put = setStaticF_inflate_mask))::ArrayW<int32_t, ::Array<int32_t>*> inflate_mask;
+  /// @brief Field blens, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_blens, put = __cordl_internal_set_blens))::ArrayW<int32_t, ::Array<int32_t>*> blens;
 
   /// @brief Field border, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_border, put = setStaticF_border))::ArrayW<int32_t, ::Array<int32_t>*> border;
 
-  constexpr int32_t& __cordl_internal_get_mode();
+  /// @brief Field check, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_check, put = __cordl_internal_set_check)) int64_t check;
 
-  constexpr int32_t const& __cordl_internal_get_mode() const;
+  /// @brief Field checkfn, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_checkfn, put = __cordl_internal_set_checkfn))::System::Object* checkfn;
 
-  constexpr void __cordl_internal_set_mode(int32_t value);
+  /// @brief Field codes, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_codes, put = __cordl_internal_set_codes))::Org::BouncyCastle::Utilities::Zlib::InfCodes* codes;
 
-  constexpr int32_t& __cordl_internal_get_left();
+  /// @brief Field end, offset 0x60, size 0x4
+  __declspec(property(get = __cordl_internal_get_end, put = __cordl_internal_set_end)) int32_t end;
 
-  constexpr int32_t const& __cordl_internal_get_left() const;
+  /// @brief Field hufts, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_hufts, put = __cordl_internal_set_hufts))::ArrayW<int32_t, ::Array<int32_t>*> hufts;
 
-  constexpr void __cordl_internal_set_left(int32_t value);
+  /// @brief Field index, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
-  constexpr int32_t& __cordl_internal_get_table();
+  /// @brief Field inflate_mask, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_inflate_mask, put = setStaticF_inflate_mask))::ArrayW<int32_t, ::Array<int32_t>*> inflate_mask;
 
-  constexpr int32_t const& __cordl_internal_get_table() const;
+  /// @brief Field inftree, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_inftree, put = __cordl_internal_set_inftree))::Org::BouncyCastle::Utilities::Zlib::InfTree* inftree;
 
-  constexpr void __cordl_internal_set_table(int32_t value);
+  /// @brief Field last, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get_last, put = __cordl_internal_set_last)) int32_t last;
 
-  constexpr int32_t& __cordl_internal_get_index();
+  /// @brief Field left, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_left, put = __cordl_internal_set_left)) int32_t left;
 
-  constexpr int32_t const& __cordl_internal_get_index() const;
+  /// @brief Field mode, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode)) int32_t mode;
 
-  constexpr void __cordl_internal_set_index(int32_t value);
+  /// @brief Field read, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get_read, put = __cordl_internal_set_read)) int32_t read;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_blens();
+  /// @brief Field table, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table)) int32_t table;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_blens() const;
+  /// @brief Field tb, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_tb, put = __cordl_internal_set_tb))::ArrayW<int32_t, ::Array<int32_t>*> tb;
 
-  constexpr void __cordl_internal_set_blens(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  /// @brief Field window, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_window, put = __cordl_internal_set_window))::ArrayW<uint8_t, ::Array<uint8_t>*> window;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_bb();
+  /// @brief Field write, offset 0x68, size 0x4
+  __declspec(property(get = __cordl_internal_get_write, put = __cordl_internal_set_write)) int32_t write;
+
+  static inline ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* New_ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_bb() const;
 
-  constexpr void __cordl_internal_set_bb(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_tb();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_tb() const;
-
-  constexpr void __cordl_internal_set_tb(::ArrayW<int32_t, ::Array<int32_t>*> value);
-
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::InfCodes*& __cordl_internal_get_codes();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::InfCodes*> const& __cordl_internal_get_codes() const;
-
-  constexpr void __cordl_internal_set_codes(::Org::BouncyCastle::Utilities::Zlib::InfCodes* value);
-
-  constexpr int32_t& __cordl_internal_get_last();
-
-  constexpr int32_t const& __cordl_internal_get_last() const;
-
-  constexpr void __cordl_internal_set_last(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_bitk();
-
-  constexpr int32_t const& __cordl_internal_get_bitk() const;
-
-  constexpr void __cordl_internal_set_bitk(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_bitb();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_bb();
 
   constexpr int32_t const& __cordl_internal_get_bitb() const;
 
-  constexpr void __cordl_internal_set_bitb(int32_t value);
+  constexpr int32_t& __cordl_internal_get_bitb();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_hufts();
+  constexpr int32_t const& __cordl_internal_get_bitk() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_hufts() const;
+  constexpr int32_t& __cordl_internal_get_bitk();
 
-  constexpr void __cordl_internal_set_hufts(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_blens() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_window();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_blens();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_window() const;
+  constexpr int64_t const& __cordl_internal_get_check() const;
 
-  constexpr void __cordl_internal_set_window(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr int32_t& __cordl_internal_get_end();
-
-  constexpr int32_t const& __cordl_internal_get_end() const;
-
-  constexpr void __cordl_internal_set_end(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_read();
-
-  constexpr int32_t const& __cordl_internal_get_read() const;
-
-  constexpr void __cordl_internal_set_read(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get_write();
-
-  constexpr int32_t const& __cordl_internal_get_write() const;
-
-  constexpr void __cordl_internal_set_write(int32_t value);
+  constexpr int64_t& __cordl_internal_get_check();
 
   constexpr ::System::Object*& __cordl_internal_get_checkfn();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_checkfn() const;
 
-  constexpr void __cordl_internal_set_checkfn(::System::Object* value);
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::InfCodes*& __cordl_internal_get_codes();
 
-  constexpr int64_t& __cordl_internal_get_check();
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::InfCodes*> const& __cordl_internal_get_codes() const;
 
-  constexpr int64_t const& __cordl_internal_get_check() const;
+  constexpr int32_t const& __cordl_internal_get_end() const;
 
-  constexpr void __cordl_internal_set_check(int64_t value);
+  constexpr int32_t& __cordl_internal_get_end();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_hufts() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_hufts();
+
+  constexpr int32_t const& __cordl_internal_get_index() const;
+
+  constexpr int32_t& __cordl_internal_get_index();
 
   constexpr ::Org::BouncyCastle::Utilities::Zlib::InfTree*& __cordl_internal_get_inftree();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::InfTree*> const& __cordl_internal_get_inftree() const;
 
+  constexpr int32_t const& __cordl_internal_get_last() const;
+
+  constexpr int32_t& __cordl_internal_get_last();
+
+  constexpr int32_t const& __cordl_internal_get_left() const;
+
+  constexpr int32_t& __cordl_internal_get_left();
+
+  constexpr int32_t const& __cordl_internal_get_mode() const;
+
+  constexpr int32_t& __cordl_internal_get_mode();
+
+  constexpr int32_t const& __cordl_internal_get_read() const;
+
+  constexpr int32_t& __cordl_internal_get_read();
+
+  constexpr int32_t const& __cordl_internal_get_table() const;
+
+  constexpr int32_t& __cordl_internal_get_table();
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_tb() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_tb();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_window() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_window();
+
+  constexpr int32_t const& __cordl_internal_get_write() const;
+
+  constexpr int32_t& __cordl_internal_get_write();
+
+  constexpr void __cordl_internal_set_bb(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_bitb(int32_t value);
+
+  constexpr void __cordl_internal_set_bitk(int32_t value);
+
+  constexpr void __cordl_internal_set_blens(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_check(int64_t value);
+
+  constexpr void __cordl_internal_set_checkfn(::System::Object* value);
+
+  constexpr void __cordl_internal_set_codes(::Org::BouncyCastle::Utilities::Zlib::InfCodes* value);
+
+  constexpr void __cordl_internal_set_end(int32_t value);
+
+  constexpr void __cordl_internal_set_hufts(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_index(int32_t value);
+
   constexpr void __cordl_internal_set_inftree(::Org::BouncyCastle::Utilities::Zlib::InfTree* value);
 
-  static inline void setStaticF_inflate_mask(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_last(int32_t value);
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_inflate_mask();
+  constexpr void __cordl_internal_set_left(int32_t value);
 
-  static inline void setStaticF_border(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_mode(int32_t value);
+
+  constexpr void __cordl_internal_set_read(int32_t value);
+
+  constexpr void __cordl_internal_set_table(int32_t value);
+
+  constexpr void __cordl_internal_set_tb(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_window(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_write(int32_t value);
+
+  /// @brief Method .ctor, addr 0x11d53b4, size 0x148, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w);
+
+  /// @brief Method free, addr 0x11d763c, size 0x1c, virtual false, abstract: false, final false
+  inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_border();
 
-  static inline ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* New_ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w);
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_inflate_mask();
 
-  /// @brief Method .ctor, addr 0x11933e4, size 0x148, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w);
-
-  /// @brief Method reset, addr 0x119354c, size 0x90, virtual false, abstract: false, final false
-  inline void reset(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::ArrayW<int64_t, ::Array<int64_t>*> c);
-
-  /// @brief Method proc, addr 0x11935e0, size 0x10b0, virtual false, abstract: false, final false
-  inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
-
-  /// @brief Method free, addr 0x119566c, size 0x1c, virtual false, abstract: false, final false
-  inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
-
-  /// @brief Method set_dictionary, addr 0x1195688, size 0x40, virtual false, abstract: false, final false
-  inline void set_dictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> d, int32_t start, int32_t n);
-
-  /// @brief Method sync_point, addr 0x11956c8, size 0x10, virtual false, abstract: false, final false
-  inline int32_t sync_point();
-
-  /// @brief Method inflate_flush, addr 0x1194690, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method inflate_flush, addr 0x11d6660, size 0x180, virtual false, abstract: false, final false
   inline int32_t inflate_flush(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
+  /// @brief Method proc, addr 0x11d55b0, size 0x10b0, virtual false, abstract: false, final false
+  inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
+
+  /// @brief Method reset, addr 0x11d551c, size 0x90, virtual false, abstract: false, final false
+  inline void reset(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::ArrayW<int64_t, ::Array<int64_t>*> c);
+
+  static inline void setStaticF_border(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  static inline void setStaticF_inflate_mask(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  /// @brief Method set_dictionary, addr 0x11d7658, size 0x40, virtual false, abstract: false, final false
+  inline void set_dictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> d, int32_t start, int32_t n);
+
+  /// @brief Method sync_point, addr 0x11d7698, size 0x10, virtual false, abstract: false, final false
+  inline int32_t sync_point();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InfBlocks();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InfBlocks", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InfBlocks(InfBlocks&&) = delete;
@@ -250,12 +254,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InfBlocks(InfBlocks const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InfBlocks();
-
-public:
   /// @brief Field mode, offset: 0x10, size: 0x4, def value: None
   int32_t ___mode;
 
@@ -313,41 +311,29 @@ public:
   /// @brief Field inftree, offset: 0x80, size: 0x8, def value: None
   ::Org::BouncyCastle::Utilities::Zlib::InfTree* ___inftree;
 
-  /// @brief Field MANY offset 0xffffffff size 0x4
-  static constexpr int32_t MANY{ static_cast<int32_t>(0x5a0) };
+  /// @brief Field BAD offset 0xffffffff size 0x4
+  static constexpr int32_t BAD{ static_cast<int32_t>(0x9) };
 
-  /// @brief Field Z_OK offset 0xffffffff size 0x4
-  static constexpr int32_t Z_OK{ static_cast<int32_t>(0x0) };
+  /// @brief Field BTREE offset 0xffffffff size 0x4
+  static constexpr int32_t BTREE{ static_cast<int32_t>(0x4) };
 
-  /// @brief Field Z_STREAM_END offset 0xffffffff size 0x4
-  static constexpr int32_t Z_STREAM_END{ static_cast<int32_t>(0x1) };
+  /// @brief Field CODES offset 0xffffffff size 0x4
+  static constexpr int32_t CODES{ static_cast<int32_t>(0x6) };
 
-  /// @brief Field Z_NEED_DICT offset 0xffffffff size 0x4
-  static constexpr int32_t Z_NEED_DICT{ static_cast<int32_t>(0x2) };
+  /// @brief Field DONE offset 0xffffffff size 0x4
+  static constexpr int32_t DONE{ static_cast<int32_t>(0x8) };
 
-  /// @brief Field Z_ERRNO offset 0xffffffff size 0x4
-  static constexpr int32_t Z_ERRNO{ static_cast<int32_t>(0xffffffff) };
+  /// @brief Field DRY offset 0xffffffff size 0x4
+  static constexpr int32_t DRY{ static_cast<int32_t>(0x7) };
 
-  /// @brief Field Z_STREAM_ERROR offset 0xffffffff size 0x4
-  static constexpr int32_t Z_STREAM_ERROR{ static_cast<int32_t>(0xfffffffe) };
-
-  /// @brief Field Z_DATA_ERROR offset 0xffffffff size 0x4
-  static constexpr int32_t Z_DATA_ERROR{ static_cast<int32_t>(0xfffffffd) };
-
-  /// @brief Field Z_MEM_ERROR offset 0xffffffff size 0x4
-  static constexpr int32_t Z_MEM_ERROR{ static_cast<int32_t>(0xfffffffc) };
-
-  /// @brief Field Z_BUF_ERROR offset 0xffffffff size 0x4
-  static constexpr int32_t Z_BUF_ERROR{ static_cast<int32_t>(0xfffffffb) };
-
-  /// @brief Field Z_VERSION_ERROR offset 0xffffffff size 0x4
-  static constexpr int32_t Z_VERSION_ERROR{ static_cast<int32_t>(0xfffffffa) };
-
-  /// @brief Field TYPE offset 0xffffffff size 0x4
-  static constexpr int32_t TYPE{ static_cast<int32_t>(0x0) };
+  /// @brief Field DTREE offset 0xffffffff size 0x4
+  static constexpr int32_t DTREE{ static_cast<int32_t>(0x5) };
 
   /// @brief Field LENS offset 0xffffffff size 0x4
   static constexpr int32_t LENS{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field MANY offset 0xffffffff size 0x4
+  static constexpr int32_t MANY{ static_cast<int32_t>(0x5a0) };
 
   /// @brief Field STORED offset 0xffffffff size 0x4
   static constexpr int32_t STORED{ static_cast<int32_t>(0x2) };
@@ -355,23 +341,35 @@ public:
   /// @brief Field TABLE offset 0xffffffff size 0x4
   static constexpr int32_t TABLE{ static_cast<int32_t>(0x3) };
 
-  /// @brief Field BTREE offset 0xffffffff size 0x4
-  static constexpr int32_t BTREE{ static_cast<int32_t>(0x4) };
+  /// @brief Field TYPE offset 0xffffffff size 0x4
+  static constexpr int32_t TYPE{ static_cast<int32_t>(0x0) };
 
-  /// @brief Field DTREE offset 0xffffffff size 0x4
-  static constexpr int32_t DTREE{ static_cast<int32_t>(0x5) };
+  /// @brief Field Z_BUF_ERROR offset 0xffffffff size 0x4
+  static constexpr int32_t Z_BUF_ERROR{ static_cast<int32_t>(0xfffffffb) };
 
-  /// @brief Field CODES offset 0xffffffff size 0x4
-  static constexpr int32_t CODES{ static_cast<int32_t>(0x6) };
+  /// @brief Field Z_DATA_ERROR offset 0xffffffff size 0x4
+  static constexpr int32_t Z_DATA_ERROR{ static_cast<int32_t>(0xfffffffd) };
 
-  /// @brief Field DRY offset 0xffffffff size 0x4
-  static constexpr int32_t DRY{ static_cast<int32_t>(0x7) };
+  /// @brief Field Z_ERRNO offset 0xffffffff size 0x4
+  static constexpr int32_t Z_ERRNO{ static_cast<int32_t>(0xffffffff) };
 
-  /// @brief Field DONE offset 0xffffffff size 0x4
-  static constexpr int32_t DONE{ static_cast<int32_t>(0x8) };
+  /// @brief Field Z_MEM_ERROR offset 0xffffffff size 0x4
+  static constexpr int32_t Z_MEM_ERROR{ static_cast<int32_t>(0xfffffffc) };
 
-  /// @brief Field BAD offset 0xffffffff size 0x4
-  static constexpr int32_t BAD{ static_cast<int32_t>(0x9) };
+  /// @brief Field Z_NEED_DICT offset 0xffffffff size 0x4
+  static constexpr int32_t Z_NEED_DICT{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field Z_OK offset 0xffffffff size 0x4
+  static constexpr int32_t Z_OK{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field Z_STREAM_END offset 0xffffffff size 0x4
+  static constexpr int32_t Z_STREAM_END{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field Z_STREAM_ERROR offset 0xffffffff size 0x4
+  static constexpr int32_t Z_STREAM_ERROR{ static_cast<int32_t>(0xfffffffe) };
+
+  /// @brief Field Z_VERSION_ERROR offset 0xffffffff size 0x4
+  static constexpr int32_t Z_VERSION_ERROR{ static_cast<int32_t>(0xfffffffa) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

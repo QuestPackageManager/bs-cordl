@@ -53,19 +53,17 @@ MARK_VAL_T(::GlobalNamespace::__OVRDisplay__LatencyData);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7618))
 // CS Name: ::OVRDisplay::EyeFov
 struct CORDL_TYPE __OVRDisplay__EyeFov {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "UpFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "DownFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "LeftFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "RightFov", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __OVRDisplay__EyeFov(float_t UpFov, float_t DownFov, float_t LeftFov, float_t RightFov) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRDisplay__EyeFov();
+
+  // Ctor Parameters [CppParam { name: "UpFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "DownFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // "LeftFov", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "RightFov", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr __OVRDisplay__EyeFov(float_t UpFov, float_t DownFov, float_t LeftFov, float_t RightFov) noexcept;
 
   /// @brief Field UpFov, offset: 0x0, size: 0x4, def value: None
   float_t UpFov;
@@ -100,19 +98,17 @@ static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeFov, RightFov) == 0xc
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7618)), TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7619))
 // CS Name: ::OVRDisplay::EyeRenderDesc
 struct CORDL_TYPE __OVRDisplay__EyeRenderDesc {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
-  // None }, CppParam { name: "fullFov", ty: "::GlobalNamespace::__OVRDisplay__EyeFov", modifiers: "", def_value: None }]
-  constexpr __OVRDisplay__EyeRenderDesc(::UnityEngine::Vector2 resolution, ::UnityEngine::Vector2 fov, ::GlobalNamespace::__OVRDisplay__EyeFov fullFov) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRDisplay__EyeRenderDesc();
+
+  // Ctor Parameters [CppParam { name: "resolution", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "fov", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
+  // None }, CppParam { name: "fullFov", ty: "::GlobalNamespace::__OVRDisplay__EyeFov", modifiers: "", def_value: None }]
+  constexpr __OVRDisplay__EyeRenderDesc(::UnityEngine::Vector2 resolution, ::UnityEngine::Vector2 fov, ::GlobalNamespace::__OVRDisplay__EyeFov fullFov) noexcept;
 
   /// @brief Field resolution, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 resolution;
@@ -142,20 +138,18 @@ static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeRenderDesc, fullFov) 
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7620))
 // CS Name: ::OVRDisplay::LatencyData
 struct CORDL_TYPE __OVRDisplay__LatencyData {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRDisplay__LatencyData();
+
   // Ctor Parameters [CppParam { name: "render", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeWarp", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "postPresent", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderError", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "timeWarpError", ty: "float_t",
   // modifiers: "", def_value: None }]
   constexpr __OVRDisplay__LatencyData(float_t render, float_t timeWarp, float_t postPresent, float_t renderError, float_t timeWarpError) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRDisplay__LatencyData();
 
   /// @brief Field render, offset: 0x0, size: 0x4, def value: None
   float_t render;
@@ -195,33 +189,15 @@ static_assert(offsetof(::GlobalNamespace::__OVRDisplay__LatencyData, timeWarpErr
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7621))
 // CS Name: ::OVRDisplay*
 class CORDL_TYPE OVRDisplay : public ::System::Object {
 public:
   // Declarations
-  using LatencyData = ::GlobalNamespace::__OVRDisplay__LatencyData;
+  using EyeFov = ::GlobalNamespace::__OVRDisplay__EyeFov;
 
   using EyeRenderDesc = ::GlobalNamespace::__OVRDisplay__EyeRenderDesc;
 
-  using EyeFov = ::GlobalNamespace::__OVRDisplay__EyeFov;
-
-  /// @brief Field needsConfigureTexture, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_needsConfigureTexture, put = __cordl_internal_set_needsConfigureTexture)) bool needsConfigureTexture;
-
-  /// @brief Field eyeDescs, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_eyeDescs,
-                      put = __cordl_internal_set_eyeDescs))::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> eyeDescs;
-
-  /// @brief Field recenterRequested, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_recenterRequested, put = __cordl_internal_set_recenterRequested)) bool recenterRequested;
-
-  /// @brief Field recenterRequestedFrameCount, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_recenterRequestedFrameCount, put = __cordl_internal_set_recenterRequestedFrameCount)) int32_t recenterRequestedFrameCount;
-
-  /// @brief Field localTrackingSpaceRecenterCount, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_localTrackingSpaceRecenterCount, put = __cordl_internal_set_localTrackingSpaceRecenterCount)) int32_t localTrackingSpaceRecenterCount;
+  using LatencyData = ::GlobalNamespace::__OVRDisplay__LatencyData;
 
   /// @brief Field RecenteredPose, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_RecenteredPose, put = __cordl_internal_set_RecenteredPose))::System::Action* RecenteredPose;
@@ -230,112 +206,134 @@ public:
 
   __declspec(property(get = get_angularAcceleration))::UnityEngine::Vector3 angularAcceleration;
 
-  __declspec(property(get = get_velocity))::UnityEngine::Vector3 velocity;
-
   __declspec(property(get = get_angularVelocity))::UnityEngine::Vector3 angularVelocity;
 
-  __declspec(property(get = get_latency))::GlobalNamespace::__OVRDisplay__LatencyData latency;
-
   __declspec(property(get = get_appFramerate)) float_t appFramerate;
-
-  __declspec(property(get = get_recommendedMSAALevel)) int32_t recommendedMSAALevel;
 
   __declspec(property(get = get_displayFrequenciesAvailable))::ArrayW<float_t, ::Array<float_t>*> displayFrequenciesAvailable;
 
   __declspec(property(get = get_displayFrequency, put = set_displayFrequency)) float_t displayFrequency;
 
-  constexpr bool& __cordl_internal_get_needsConfigureTexture();
+  /// @brief Field eyeDescs, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_eyeDescs,
+                      put = __cordl_internal_set_eyeDescs))::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> eyeDescs;
 
-  constexpr bool const& __cordl_internal_get_needsConfigureTexture() const;
+  __declspec(property(get = get_latency))::GlobalNamespace::__OVRDisplay__LatencyData latency;
 
-  constexpr void __cordl_internal_set_needsConfigureTexture(bool value);
+  /// @brief Field localTrackingSpaceRecenterCount, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_localTrackingSpaceRecenterCount, put = __cordl_internal_set_localTrackingSpaceRecenterCount)) int32_t localTrackingSpaceRecenterCount;
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*>& __cordl_internal_get_eyeDescs();
+  /// @brief Field needsConfigureTexture, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get_needsConfigureTexture, put = __cordl_internal_set_needsConfigureTexture)) bool needsConfigureTexture;
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> const& __cordl_internal_get_eyeDescs() const;
+  /// @brief Field recenterRequested, offset 0x20, size 0x1
+  __declspec(property(get = __cordl_internal_get_recenterRequested, put = __cordl_internal_set_recenterRequested)) bool recenterRequested;
 
-  constexpr void __cordl_internal_set_eyeDescs(::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> value);
+  /// @brief Field recenterRequestedFrameCount, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_recenterRequestedFrameCount, put = __cordl_internal_set_recenterRequestedFrameCount)) int32_t recenterRequestedFrameCount;
 
-  constexpr bool& __cordl_internal_get_recenterRequested();
+  __declspec(property(get = get_recommendedMSAALevel)) int32_t recommendedMSAALevel;
 
-  constexpr bool const& __cordl_internal_get_recenterRequested() const;
+  __declspec(property(get = get_velocity))::UnityEngine::Vector3 velocity;
 
-  constexpr void __cordl_internal_set_recenterRequested(bool value);
+  /// @brief Method ConfigureEyeDesc, addr 0x280eabc, size 0x254, virtual false, abstract: false, final false
+  inline void ConfigureEyeDesc(::UnityEngine::XR::XRNode eye);
 
-  constexpr int32_t& __cordl_internal_get_recenterRequestedFrameCount();
+  /// @brief Method GetEyeRenderDesc, addr 0x280e718, size 0x38, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRDisplay__EyeRenderDesc GetEyeRenderDesc(::UnityEngine::XR::XRNode eye);
 
-  constexpr int32_t const& __cordl_internal_get_recenterRequestedFrameCount() const;
+  static inline ::GlobalNamespace::OVRDisplay* New_ctor();
 
-  constexpr void __cordl_internal_set_recenterRequestedFrameCount(int32_t value);
+  /// @brief Method RecenterPose, addr 0x280e210, size 0x78, virtual false, abstract: false, final false
+  inline void RecenterPose();
 
-  constexpr int32_t& __cordl_internal_get_localTrackingSpaceRecenterCount();
+  /// @brief Method Update, addr 0x280df54, size 0x184, virtual false, abstract: false, final false
+  inline void Update();
 
-  constexpr int32_t const& __cordl_internal_get_localTrackingSpaceRecenterCount() const;
-
-  constexpr void __cordl_internal_set_localTrackingSpaceRecenterCount(int32_t value);
+  /// @brief Method UpdateTextures, addr 0x280df34, size 0x20, virtual false, abstract: false, final false
+  inline void UpdateTextures();
 
   constexpr ::System::Action*& __cordl_internal_get_RecenteredPose();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_RecenteredPose() const;
 
+  constexpr ::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> const& __cordl_internal_get_eyeDescs() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*>& __cordl_internal_get_eyeDescs();
+
+  constexpr int32_t const& __cordl_internal_get_localTrackingSpaceRecenterCount() const;
+
+  constexpr int32_t& __cordl_internal_get_localTrackingSpaceRecenterCount();
+
+  constexpr bool const& __cordl_internal_get_needsConfigureTexture() const;
+
+  constexpr bool& __cordl_internal_get_needsConfigureTexture();
+
+  constexpr bool const& __cordl_internal_get_recenterRequested() const;
+
+  constexpr bool& __cordl_internal_get_recenterRequested();
+
+  constexpr int32_t const& __cordl_internal_get_recenterRequestedFrameCount() const;
+
+  constexpr int32_t& __cordl_internal_get_recenterRequestedFrameCount();
+
   constexpr void __cordl_internal_set_RecenteredPose(::System::Action* value);
 
-  static inline ::GlobalNamespace::OVRDisplay* New_ctor();
+  constexpr void __cordl_internal_set_eyeDescs(::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> value);
 
-  /// @brief Method .ctor, addr 0x274874c, size 0x78, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_localTrackingSpaceRecenterCount(int32_t value);
+
+  constexpr void __cordl_internal_set_needsConfigureTexture(bool value);
+
+  constexpr void __cordl_internal_set_recenterRequested(bool value);
+
+  constexpr void __cordl_internal_set_recenterRequestedFrameCount(int32_t value);
+
+  /// @brief Method .ctor, addr 0x280debc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Update, addr 0x27487e4, size 0x184, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method add_RecenteredPose, addr 0x2748968, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_RecenteredPose, addr 0x280e0d8, size 0x9c, virtual false, abstract: false, final false
   inline void add_RecenteredPose(::System::Action* value);
 
-  /// @brief Method remove_RecenteredPose, addr 0x2748a04, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_RecenteredPose(::System::Action* value);
-
-  /// @brief Method RecenterPose, addr 0x2748aa0, size 0x78, virtual false, abstract: false, final false
-  inline void RecenterPose();
-
-  /// @brief Method get_acceleration, addr 0x2748b18, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_acceleration, addr 0x280e288, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_acceleration();
 
-  /// @brief Method get_angularAcceleration, addr 0x2748c3c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_angularAcceleration, addr 0x280e3ac, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_angularAcceleration();
 
-  /// @brief Method get_velocity, addr 0x2748d60, size 0x124, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_velocity();
-
-  /// @brief Method get_angularVelocity, addr 0x2748e84, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_angularVelocity, addr 0x280e5f4, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_angularVelocity();
 
-  /// @brief Method GetEyeRenderDesc, addr 0x2748fa8, size 0x38, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRDisplay__EyeRenderDesc GetEyeRenderDesc(::UnityEngine::XR::XRNode eye);
-
-  /// @brief Method get_latency, addr 0x2748fe0, size 0x1d0, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRDisplay__LatencyData get_latency();
-
-  /// @brief Method get_appFramerate, addr 0x27491b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_appFramerate, addr 0x280e920, size 0x90, virtual false, abstract: false, final false
   inline float_t get_appFramerate();
 
-  /// @brief Method get_recommendedMSAALevel, addr 0x2749240, size 0x5c, virtual false, abstract: false, final false
-  inline int32_t get_recommendedMSAALevel();
-
-  /// @brief Method get_displayFrequenciesAvailable, addr 0x274929c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_displayFrequenciesAvailable, addr 0x280ea0c, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_displayFrequenciesAvailable();
 
-  /// @brief Method get_displayFrequency, addr 0x27492ec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_displayFrequency, addr 0x2800dc0, size 0x50, virtual false, abstract: false, final false
   inline float_t get_displayFrequency();
 
-  /// @brief Method set_displayFrequency, addr 0x274933c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_latency, addr 0x280e750, size 0x1d0, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__OVRDisplay__LatencyData get_latency();
+
+  /// @brief Method get_recommendedMSAALevel, addr 0x280e9b0, size 0x5c, virtual false, abstract: false, final false
+  inline int32_t get_recommendedMSAALevel();
+
+  /// @brief Method get_velocity, addr 0x280e4d0, size 0x124, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_velocity();
+
+  /// @brief Method remove_RecenteredPose, addr 0x280e174, size 0x9c, virtual false, abstract: false, final false
+  inline void remove_RecenteredPose(::System::Action* value);
+
+  /// @brief Method set_displayFrequency, addr 0x280ea5c, size 0x60, virtual false, abstract: false, final false
   inline void set_displayFrequency(float_t value);
 
-  /// @brief Method UpdateTextures, addr 0x27487c4, size 0x20, virtual false, abstract: false, final false
-  inline void UpdateTextures();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRDisplay();
 
-  /// @brief Method ConfigureEyeDesc, addr 0x274939c, size 0x254, virtual false, abstract: false, final false
-  inline void ConfigureEyeDesc(::UnityEngine::XR::XRNode eye);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRDisplay", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRDisplay(OVRDisplay&&) = delete;
@@ -344,12 +342,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRDisplay(OVRDisplay const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRDisplay();
-
-public:
   /// @brief Field needsConfigureTexture, offset: 0x10, size: 0x1, def value: None
   bool ___needsConfigureTexture;
 

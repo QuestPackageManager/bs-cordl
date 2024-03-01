@@ -16,22 +16,20 @@ MARK_VAL_T(::SFB::ExtensionFilter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace SFB {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5364))
 // CS Name: ::SFB::ExtensionFilter
 struct CORDL_TYPE ExtensionFilter {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x234e23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241c184, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW filterName, ::ArrayW<::StringW, ::Array<::StringW>*> filterExtensions);
-
-  // Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_extensions", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "",
-  // def_value: None }]
-  constexpr ExtensionFilter(::StringW _name, ::ArrayW<::StringW, ::Array<::StringW>*> _extensions) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ExtensionFilter();
+
+  // Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_extensions", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "",
+  // def_value: None }]
+  constexpr ExtensionFilter(::StringW _name, ::ArrayW<::StringW, ::Array<::StringW>*> _extensions) noexcept;
 
   /// @brief Field _name, offset: 0x0, size: 0x8, def value: None
   ::StringW _name;

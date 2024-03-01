@@ -23,8 +23,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::BufferedRumble);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5604))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5601))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::BufferedRumble
 struct CORDL_TYPE BufferedRumble {
 public:
@@ -33,31 +31,31 @@ public:
 
   __declspec(property(get = get_device, put = set_device))::UnityEngine::InputSystem::InputDevice* device;
 
-  /// @brief Method get_capabilities, addr 0x2ac9f98, size 0x10, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
-
-  /// @brief Method set_capabilities, addr 0x2ac9fa8, size 0xc, virtual false, abstract: false, final false
-  inline void set_capabilities(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities value);
-
-  /// @brief Method get_device, addr 0x2ac9fb4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* get_device();
-
-  /// @brief Method set_device, addr 0x2ac9fbc, size 0x8, virtual false, abstract: false, final false
-  inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
-
-  /// @brief Method .ctor, addr 0x2ac9fc4, size 0xf8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::InputSystem::InputDevice* device);
-
-  /// @brief Method EnqueueRumble, addr 0x2aca124, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EnqueueRumble, addr 0x2bb11f8, size 0xa8, virtual false, abstract: false, final false
   inline void EnqueueRumble(::ArrayW<uint8_t, ::Array<uint8_t>*> samples);
 
-  // Ctor Parameters [CppParam { name: "_capabilities_k__BackingField", ty: "::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities", modifiers: "", def_value: None }, CppParam { name:
-  // "_device_k__BackingField", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }]
-  constexpr BufferedRumble(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities _capabilities_k__BackingField, ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField) noexcept;
+  /// @brief Method .ctor, addr 0x2bb1098, size 0xf8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::InputSystem::InputDevice* device);
+
+  /// @brief Method get_capabilities, addr 0x2bb106c, size 0x10, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
+
+  /// @brief Method get_device, addr 0x2bb1088, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputDevice* get_device();
+
+  /// @brief Method set_capabilities, addr 0x2bb107c, size 0xc, virtual false, abstract: false, final false
+  inline void set_capabilities(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities value);
+
+  /// @brief Method set_device, addr 0x2bb1090, size 0x8, virtual false, abstract: false, final false
+  inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BufferedRumble();
+
+  // Ctor Parameters [CppParam { name: "_capabilities_k__BackingField", ty: "::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities", modifiers: "", def_value: None }, CppParam { name:
+  // "_device_k__BackingField", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }]
+  constexpr BufferedRumble(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities _capabilities_k__BackingField, ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField) noexcept;
 
   /// @brief Field <capabilities>k__BackingField, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities _capabilities_k__BackingField;

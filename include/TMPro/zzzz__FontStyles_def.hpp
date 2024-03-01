@@ -15,8 +15,6 @@ MARK_VAL_T(::TMPro::FontStyles);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12336))
 // CS Name: ::TMPro::FontStyles
 struct CORDL_TYPE FontStyles {
 public:
@@ -43,36 +41,35 @@ public:
     return static_cast<__FontStyles_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr FontStyles(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__FontStyles_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FontStyles();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr FontStyles(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Normal value: static_cast<int32_t>(0x0)
-  static ::TMPro::FontStyles const Normal;
 
   /// @brief Field Bold value: static_cast<int32_t>(0x1)
   static ::TMPro::FontStyles const Bold;
 
+  /// @brief Field Highlight value: static_cast<int32_t>(0x200)
+  static ::TMPro::FontStyles const Highlight;
+
   /// @brief Field Italic value: static_cast<int32_t>(0x2)
   static ::TMPro::FontStyles const Italic;
-
-  /// @brief Field Underline value: static_cast<int32_t>(0x4)
-  static ::TMPro::FontStyles const Underline;
 
   /// @brief Field LowerCase value: static_cast<int32_t>(0x8)
   static ::TMPro::FontStyles const LowerCase;
 
-  /// @brief Field UpperCase value: static_cast<int32_t>(0x10)
-  static ::TMPro::FontStyles const UpperCase;
+  /// @brief Field Normal value: static_cast<int32_t>(0x0)
+  static ::TMPro::FontStyles const Normal;
 
   /// @brief Field SmallCaps value: static_cast<int32_t>(0x20)
   static ::TMPro::FontStyles const SmallCaps;
@@ -80,14 +77,20 @@ public:
   /// @brief Field Strikethrough value: static_cast<int32_t>(0x40)
   static ::TMPro::FontStyles const Strikethrough;
 
-  /// @brief Field Superscript value: static_cast<int32_t>(0x80)
-  static ::TMPro::FontStyles const Superscript;
-
   /// @brief Field Subscript value: static_cast<int32_t>(0x100)
   static ::TMPro::FontStyles const Subscript;
 
-  /// @brief Field Highlight value: static_cast<int32_t>(0x200)
-  static ::TMPro::FontStyles const Highlight;
+  /// @brief Field Superscript value: static_cast<int32_t>(0x80)
+  static ::TMPro::FontStyles const Superscript;
+
+  /// @brief Field Underline value: static_cast<int32_t>(0x4)
+  static ::TMPro::FontStyles const Underline;
+
+  /// @brief Field UpperCase value: static_cast<int32_t>(0x10)
+  static ::TMPro::FontStyles const UpperCase;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

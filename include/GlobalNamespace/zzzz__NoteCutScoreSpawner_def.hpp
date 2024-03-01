@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutScoreSpawner);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4248))
 // CS Name: ::NoteCutScoreSpawner*
 class CORDL_TYPE NoteCutScoreSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,32 +33,38 @@ public:
   /// @brief Field _scoreController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingScoreSpawner>& __cordl_internal_get__flyingScoreSpawner();
+  /// @brief Method HandleScoringForNoteStarted, addr 0x243191c, size 0xac, virtual false, abstract: false, final false
+  inline void HandleScoringForNoteStarted(::GlobalNamespace::ScoringElement* scoringElement);
+
+  static inline ::GlobalNamespace::NoteCutScoreSpawner* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x2431814, size 0x108, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x2431724, size 0xf0, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FlyingScoreSpawner> const& __cordl_internal_get__flyingScoreSpawner() const;
 
-  constexpr void __cordl_internal_set__flyingScoreSpawner(::UnityW<::GlobalNamespace::FlyingScoreSpawner> value);
+  constexpr ::UnityW<::GlobalNamespace::FlyingScoreSpawner>& __cordl_internal_get__flyingScoreSpawner();
 
   constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
+  constexpr void __cordl_internal_set__flyingScoreSpawner(::UnityW<::GlobalNamespace::FlyingScoreSpawner> value);
+
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method Start, addr 0x23637dc, size 0xf0, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x23638cc, size 0x108, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleScoringForNoteStarted, addr 0x23639d4, size 0xac, virtual false, abstract: false, final false
-  inline void HandleScoringForNoteStarted(::GlobalNamespace::ScoringElement* scoringElement);
-
-  static inline ::GlobalNamespace::NoteCutScoreSpawner* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2363a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24319c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NoteCutScoreSpawner();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutScoreSpawner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NoteCutScoreSpawner(NoteCutScoreSpawner&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutScoreSpawner(NoteCutScoreSpawner const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteCutScoreSpawner();
-
-public:
   /// @brief Field _flyingScoreSpawner, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingScoreSpawner> ____flyingScoreSpawner;
 

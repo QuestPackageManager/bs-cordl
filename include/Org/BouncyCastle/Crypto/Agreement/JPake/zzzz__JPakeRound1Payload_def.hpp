@@ -19,14 +19,19 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(717))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound1Payload*
 class CORDL_TYPE JPakeRound1Payload : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field participantId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_participantId, put = __cordl_internal_set_participantId))::StringW participantId;
+  __declspec(property(get = get_Gx1))::Org::BouncyCastle::Math::BigInteger* Gx1;
+
+  __declspec(property(get = get_Gx2))::Org::BouncyCastle::Math::BigInteger* Gx2;
+
+  __declspec(property(get = get_KnowledgeProofForX1))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> KnowledgeProofForX1;
+
+  __declspec(property(get = get_KnowledgeProofForX2))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> KnowledgeProofForX2;
+
+  __declspec(property(get = get_ParticipantId))::StringW ParticipantId;
 
   /// @brief Field gx1, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_gx1, put = __cordl_internal_set_gx1))::Org::BouncyCastle::Math::BigInteger* gx1;
@@ -42,71 +47,70 @@ public:
   __declspec(property(get = __cordl_internal_get_knowledgeProofForX2,
                       put = __cordl_internal_set_knowledgeProofForX2))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2;
 
-  __declspec(property(get = get_ParticipantId))::StringW ParticipantId;
-
-  __declspec(property(get = get_Gx1))::Org::BouncyCastle::Math::BigInteger* Gx1;
-
-  __declspec(property(get = get_Gx2))::Org::BouncyCastle::Math::BigInteger* Gx2;
-
-  __declspec(property(get = get_KnowledgeProofForX1))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> KnowledgeProofForX1;
-
-  __declspec(property(get = get_KnowledgeProofForX2))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> KnowledgeProofForX2;
-
-  constexpr ::StringW& __cordl_internal_get_participantId();
-
-  constexpr ::StringW const& __cordl_internal_get_participantId() const;
-
-  constexpr void __cordl_internal_set_participantId(::StringW value);
-
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_gx1();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_gx1() const;
-
-  constexpr void __cordl_internal_set_gx1(::Org::BouncyCastle::Math::BigInteger* value);
-
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_gx2();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_gx2() const;
-
-  constexpr void __cordl_internal_set_gx2(::Org::BouncyCastle::Math::BigInteger* value);
-
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>& __cordl_internal_get_knowledgeProofForX1();
-
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> const& __cordl_internal_get_knowledgeProofForX1() const;
-
-  constexpr void __cordl_internal_set_knowledgeProofForX1(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> value);
-
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>& __cordl_internal_get_knowledgeProofForX2();
-
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> const& __cordl_internal_get_knowledgeProofForX2() const;
-
-  constexpr void __cordl_internal_set_knowledgeProofForX2(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> value);
+  /// @brief Field participantId, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_participantId, put = __cordl_internal_set_participantId))::StringW participantId;
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload*
   New_ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* gx1, ::Org::BouncyCastle::Math::BigInteger* gx2,
            ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX1,
            ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2);
 
-  /// @brief Method .ctor, addr 0x124089c, size 0x19c, virtual false, abstract: false, final false
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_gx1();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_gx1() const;
+
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_gx2();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_gx2() const;
+
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> const& __cordl_internal_get_knowledgeProofForX1() const;
+
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>& __cordl_internal_get_knowledgeProofForX1();
+
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> const& __cordl_internal_get_knowledgeProofForX2() const;
+
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>& __cordl_internal_get_knowledgeProofForX2();
+
+  constexpr ::StringW const& __cordl_internal_get_participantId() const;
+
+  constexpr ::StringW& __cordl_internal_get_participantId();
+
+  constexpr void __cordl_internal_set_gx1(::Org::BouncyCastle::Math::BigInteger* value);
+
+  constexpr void __cordl_internal_set_gx2(::Org::BouncyCastle::Math::BigInteger* value);
+
+  constexpr void __cordl_internal_set_knowledgeProofForX1(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> value);
+
+  constexpr void __cordl_internal_set_knowledgeProofForX2(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> value);
+
+  constexpr void __cordl_internal_set_participantId(::StringW value);
+
+  /// @brief Method .ctor, addr 0x128486c, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* gx1, ::Org::BouncyCastle::Math::BigInteger* gx2,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX1,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2);
 
-  /// @brief Method get_ParticipantId, addr 0x124290c, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_ParticipantId();
-
-  /// @brief Method get_Gx1, addr 0x1242914, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Gx1, addr 0x12868e4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx1();
 
-  /// @brief Method get_Gx2, addr 0x124291c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Gx2, addr 0x12868ec, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx2();
 
-  /// @brief Method get_KnowledgeProofForX1, addr 0x1242924, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX1, addr 0x12868f4, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX1();
 
-  /// @brief Method get_KnowledgeProofForX2, addr 0x12429a0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX2, addr 0x1286970, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX2();
 
+  /// @brief Method get_ParticipantId, addr 0x12868dc, size 0x8, virtual true, abstract: false, final false
+  inline ::StringW get_ParticipantId();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JPakeRound1Payload();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JPakeRound1Payload", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JPakeRound1Payload(JPakeRound1Payload&&) = delete;
@@ -115,12 +119,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JPakeRound1Payload(JPakeRound1Payload const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JPakeRound1Payload();
-
-public:
   /// @brief Field participantId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___participantId;
 

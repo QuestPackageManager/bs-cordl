@@ -17,16 +17,14 @@ MARK_REF_PTR_T(::System::ComponentModel::AmbientValueAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7411))
 // CS Name: ::System.ComponentModel::AmbientValueAttribute*
 class CORDL_TYPE AmbientValueAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_Value))::System::Object* Value;
+
   /// @brief Field <Value>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField))::System::Object* _Value_k__BackingField;
-
-  __declspec(property(get = get_Value))::System::Object* Value;
 
   constexpr ::System::Object*& __cordl_internal_get__Value_k__BackingField();
 
@@ -34,9 +32,15 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Object* value);
 
-  /// @brief Method get_Value, addr 0x29097cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x29eec48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AmbientValueAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AmbientValueAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AmbientValueAttribute(AmbientValueAttribute&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AmbientValueAttribute(AmbientValueAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AmbientValueAttribute();
-
-public:
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____Value_k__BackingField;
 

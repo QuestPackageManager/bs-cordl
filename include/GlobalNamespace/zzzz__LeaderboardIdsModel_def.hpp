@@ -28,8 +28,6 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardIdsModel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10659))
 // CS Name: ::LeaderboardIdsModel*
 class CORDL_TYPE LeaderboardIdsModel : public ::System::Object {
 public:
@@ -37,20 +35,26 @@ public:
   /// @brief Field _leaderboardIds, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__leaderboardIds, put = __cordl_internal_set__leaderboardIds))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _leaderboardIds;
 
+  static inline ::GlobalNamespace::LeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
+
+  /// @brief Method TryGetPlatformLeaderboardId, addr 0x12ae938, size 0x78, virtual false, abstract: false, final false
+  inline bool TryGetPlatformLeaderboardId(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ByRef<::StringW> platformLeaderboardId);
+
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__leaderboardIds();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __cordl_internal_get__leaderboardIds() const;
 
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
-  static inline ::GlobalNamespace::LeaderboardIdsModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
-
-  /// @brief Method .ctor, addr 0x126b36c, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ae33c, size 0x5fc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* idsMaps);
 
-  /// @brief Method TryGetPlatformLeaderboardId, addr 0x126b968, size 0x78, virtual false, abstract: false, final false
-  inline bool TryGetPlatformLeaderboardId(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ByRef<::StringW> platformLeaderboardId);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LeaderboardIdsModel();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardIdsModel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LeaderboardIdsModel(LeaderboardIdsModel&&) = delete;
@@ -59,12 +63,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LeaderboardIdsModel(LeaderboardIdsModel const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LeaderboardIdsModel();
-
-public:
   /// @brief Field _leaderboardIds, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* ____leaderboardIds;
 

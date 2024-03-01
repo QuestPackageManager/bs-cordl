@@ -33,65 +33,63 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleTextShadow);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6049)), TypeDefinitionIndex(TypeDefinitionIndex(6559))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6578))
 // CS Name: ::UnityEngine.UIElements::StyleTextShadow
 struct CORDL_TYPE StyleTextShadow {
 public:
   // Declarations
-  __declspec(property(get = get_value))::UnityEngine::UIElements::TextShadow value;
-
   __declspec(property(get = get_keyword))::UnityEngine::UIElements::StyleKeyword keyword;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>"
-  constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>*();
-
-  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>"
-  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__TextShadow_();
+  __declspec(property(get = get_value))::UnityEngine::UIElements::TextShadow value;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>*();
 
+  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>"
+  constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>*();
+
+  /// @brief Method Equals, addr 0x2f839a0, size 0x90, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* obj);
+
+  /// @brief Method Equals, addr 0x2f8396c, size 0x34, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::UIElements::StyleTextShadow other);
+
+  /// @brief Method GetHashCode, addr 0x2f83a30, size 0x48, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method ToString, addr 0x2f83a78, size 0x80, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  /// @brief Method .ctor, addr 0x2f838cc, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method .ctor, addr 0x2f838e4, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::TextShadow v, ::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method get_keyword, addr 0x2f80ae0, size 0x8, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
+
+  /// @brief Method get_value, addr 0x2f80ae8, size 0x4c, virtual true, abstract: false, final true
+  inline ::UnityEngine::UIElements::TextShadow get_value();
+
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleTextShadow>* i___System__IEquatable_1___UnityEngine__UIElements__StyleTextShadow_();
 
-  /// @brief Method get_value, addr 0x2e8d3c0, size 0x4c, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::TextShadow get_value();
+  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>"
+  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::TextShadow>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__TextShadow_();
 
-  /// @brief Method get_keyword, addr 0x2e8d3b8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
-
-  /// @brief Method .ctor, addr 0x2e901a4, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method .ctor, addr 0x2e901bc, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::TextShadow v, ::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method op_Equality, addr 0x2e901dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2f83904, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleTextShadow lhs, ::UnityEngine::UIElements::StyleTextShadow rhs);
 
-  /// @brief Method op_Implicit, addr 0x2e8d580, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2f80ca8, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleTextShadow op_Implicit___UnityEngine__UIElements__StyleTextShadow(::UnityEngine::UIElements::StyleKeyword keyword);
-
-  /// @brief Method Equals, addr 0x2e90244, size 0x34, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::StyleTextShadow other);
-
-  /// @brief Method Equals, addr 0x2e90278, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
-
-  /// @brief Method GetHashCode, addr 0x2e90308, size 0x48, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
-
-  /// @brief Method ToString, addr 0x2e90350, size 0x80, virtual true, abstract: false, final false
-  inline ::StringW ToString();
-
-  // Ctor Parameters [CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }, CppParam { name: "m_Value", ty:
-  // "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: None }]
-  constexpr StyleTextShadow(::UnityEngine::UIElements::StyleKeyword m_Keyword, ::UnityEngine::UIElements::TextShadow m_Value) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr StyleTextShadow();
+
+  // Ctor Parameters [CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }, CppParam { name: "m_Value", ty:
+  // "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: None }]
+  constexpr StyleTextShadow(::UnityEngine::UIElements::StyleKeyword m_Keyword, ::UnityEngine::UIElements::TextShadow m_Value) noexcept;
 
   /// @brief Field m_Keyword, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleKeyword m_Keyword;

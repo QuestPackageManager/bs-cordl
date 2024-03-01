@@ -18,20 +18,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Misc {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(199))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(200))
 // CS Name: ::Org.BouncyCastle.Asn1.Misc::NetscapeRevocationUrl*
 class CORDL_TYPE NetscapeRevocationUrl : public ::Org::BouncyCastle::Asn1::DerIA5String {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-  /// @brief Method .ctor, addr 0xfa8290, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
-
-  /// @brief Method ToString, addr 0xfa82c8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0xfee298, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// @brief Method .ctor, addr 0xfee260, size 0x38, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetscapeRevocationUrl();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetscapeRevocationUrl", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetscapeRevocationUrl(NetscapeRevocationUrl&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetscapeRevocationUrl(NetscapeRevocationUrl const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetscapeRevocationUrl();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

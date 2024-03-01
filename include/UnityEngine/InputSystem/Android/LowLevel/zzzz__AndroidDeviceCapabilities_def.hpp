@@ -35,8 +35,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilit
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5710))
 // CS Name: ::AndroidDeviceCapabilities::<>c*
 class CORDL_TYPE __AndroidDeviceCapabilities____c : public ::System::Object {
 public:
@@ -47,22 +45,28 @@ public:
   /// @brief Field <>9__8_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0))::System::Func_2<::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, ::StringW>* __9__8_0;
 
-  static inline void setStaticF___9(::UnityEngine::InputSystem::Android::LowLevel::__AndroidDeviceCapabilities____c* value);
+  static inline ::UnityEngine::InputSystem::Android::LowLevel::__AndroidDeviceCapabilities____c* New_ctor();
+
+  /// @brief Method <ToString>b__8_0, addr 0x2bcd7ec, size 0x64, virtual false, abstract: false, final false
+  inline ::StringW _ToString_b__8_0(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis i);
+
+  /// @brief Method .ctor, addr 0x2bcd7e4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Android::LowLevel::__AndroidDeviceCapabilities____c* getStaticF___9();
 
-  static inline void setStaticF___9__8_0(::System::Func_2<::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, ::StringW>* value);
-
   static inline ::System::Func_2<::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, ::StringW>* getStaticF___9__8_0();
 
-  static inline ::UnityEngine::InputSystem::Android::LowLevel::__AndroidDeviceCapabilities____c* New_ctor();
+  static inline void setStaticF___9(::UnityEngine::InputSystem::Android::LowLevel::__AndroidDeviceCapabilities____c* value);
 
-  /// @brief Method .ctor, addr 0x2ae8710, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__8_0(::System::Func_2<::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, ::StringW>* value);
 
-  /// @brief Method <ToString>b__8_0, addr 0x2ae8718, size 0x64, virtual false, abstract: false, final false
-  inline ::StringW _ToString_b__8_0(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis i);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __AndroidDeviceCapabilities____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__AndroidDeviceCapabilities____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __AndroidDeviceCapabilities____c(__AndroidDeviceCapabilities____c&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AndroidDeviceCapabilities____c(__AndroidDeviceCapabilities____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AndroidDeviceCapabilities____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -87,22 +85,24 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Androi
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5709))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5711))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidDeviceCapabilities
 struct CORDL_TYPE AndroidDeviceCapabilities {
 public:
   // Declarations
   using __c = ::UnityEngine::InputSystem::Android::LowLevel::__AndroidDeviceCapabilities____c;
 
-  /// @brief Method ToJson, addr 0x2ae82d0, size 0x6c, virtual false, abstract: false, final false
-  inline ::StringW ToJson();
-
-  /// @brief Method FromJson, addr 0x2ae80dc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x2bcd1b0, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidDeviceCapabilities FromJson(::StringW json);
 
-  /// @brief Method ToString, addr 0x2ae833c, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method ToJson, addr 0x2bcd3a4, size 0x6c, virtual false, abstract: false, final false
+  inline ::StringW ToJson();
+
+  /// @brief Method ToString, addr 0x2bcd410, size 0x370, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AndroidDeviceCapabilities();
 
   // Ctor Parameters [CppParam { name: "deviceDescriptor", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "productId", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
   // name: "vendorId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isVirtual", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "motionAxes", ty:
@@ -111,10 +111,6 @@ public:
   constexpr AndroidDeviceCapabilities(::StringW deviceDescriptor, int32_t productId, int32_t vendorId, bool isVirtual,
                                       ::ArrayW<::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, ::Array<::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis>*> motionAxes,
                                       ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource inputSources) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidDeviceCapabilities();
 
   /// @brief Field deviceDescriptor, offset: 0x0, size: 0x8, def value: None
   ::StringW deviceDescriptor;

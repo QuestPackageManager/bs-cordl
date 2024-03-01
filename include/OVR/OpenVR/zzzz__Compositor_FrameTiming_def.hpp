@@ -20,12 +20,14 @@ MARK_VAL_T(::OVR::OpenVR::Compositor_FrameTiming);
 // SizeInfo { instance_size: 176, native_size: 176, calculated_instance_size: 176, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8602))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8648))
 // CS Name: ::OVR.OpenVR::Compositor_FrameTiming
 struct CORDL_TYPE Compositor_FrameTiming {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Compositor_FrameTiming();
+
   // Ctor Parameters [CppParam { name: "m_nSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nFrameIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_nNumFramePresents", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nNumMisPresented", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_nNumDroppedFrames", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nReprojectionFlags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
@@ -43,10 +45,6 @@ public:
                                    float_t m_flCompositorRenderCpuMs, float_t m_flCompositorIdleCpuMs, float_t m_flClientFrameIntervalMs, float_t m_flPresentCallCpuMs, float_t m_flWaitForPresentCpuMs,
                                    float_t m_flSubmitFrameMs, float_t m_flWaitGetPosesCalledMs, float_t m_flNewPosesReadyMs, float_t m_flNewFrameReadyMs, float_t m_flCompositorUpdateStartMs,
                                    float_t m_flCompositorUpdateEndMs, float_t m_flCompositorRenderStartMs, ::OVR::OpenVR::TrackedDevicePose_t m_HmdPose) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Compositor_FrameTiming();
 
   /// @brief Field m_nSize, offset: 0x0, size: 0x4, def value: None
   uint32_t m_nSize;

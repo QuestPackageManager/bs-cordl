@@ -16,22 +16,26 @@ MARK_REF_PTR_T(::System::Security::Cryptography::HMACMD5);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2934))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2935))
 // CS Name: ::System.Security.Cryptography::HMACMD5*
 class CORDL_TYPE HMACMD5 : public ::System::Security::Cryptography::HMAC {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::HMACMD5* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2480a04, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::System::Security::Cryptography::HMACMD5* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x2480a28, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25526fc, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x2552720, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HMACMD5();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HMACMD5", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HMACMD5(HMACMD5&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HMACMD5(HMACMD5 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HMACMD5();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

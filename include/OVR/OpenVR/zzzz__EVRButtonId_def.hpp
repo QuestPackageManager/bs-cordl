@@ -15,8 +15,6 @@ MARK_VAL_T(::OVR::OpenVR::EVRButtonId);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8537))
 // CS Name: ::OVR.OpenVR::EVRButtonId
 struct CORDL_TYPE EVRButtonId {
 public:
@@ -53,12 +51,17 @@ public:
     return static_cast<__EVRButtonId_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EVRButtonId(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__EVRButtonId_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EVRButtonId();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr EVRButtonId(int32_t value__) noexcept;
 
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
@@ -66,32 +69,11 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field k_EButton_System value: static_cast<int32_t>(0x0)
-  static ::OVR::OpenVR::EVRButtonId const k_EButton_System;
-
-  /// @brief Field k_EButton_ApplicationMenu value: static_cast<int32_t>(0x1)
-  static ::OVR::OpenVR::EVRButtonId const k_EButton_ApplicationMenu;
-
-  /// @brief Field k_EButton_Grip value: static_cast<int32_t>(0x2)
-  static ::OVR::OpenVR::EVRButtonId const k_EButton_Grip;
-
-  /// @brief Field k_EButton_DPad_Left value: static_cast<int32_t>(0x3)
-  static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Left;
-
-  /// @brief Field k_EButton_DPad_Up value: static_cast<int32_t>(0x4)
-  static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Up;
-
-  /// @brief Field k_EButton_DPad_Right value: static_cast<int32_t>(0x5)
-  static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Right;
-
-  /// @brief Field k_EButton_DPad_Down value: static_cast<int32_t>(0x6)
-  static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Down;
-
   /// @brief Field k_EButton_A value: static_cast<int32_t>(0x7)
   static ::OVR::OpenVR::EVRButtonId const k_EButton_A;
 
-  /// @brief Field k_EButton_ProximitySensor value: static_cast<int32_t>(0x1f)
-  static ::OVR::OpenVR::EVRButtonId const k_EButton_ProximitySensor;
+  /// @brief Field k_EButton_ApplicationMenu value: static_cast<int32_t>(0x1)
+  static ::OVR::OpenVR::EVRButtonId const k_EButton_ApplicationMenu;
 
   /// @brief Field k_EButton_Axis0 value: static_cast<int32_t>(0x20)
   static ::OVR::OpenVR::EVRButtonId const k_EButton_Axis0;
@@ -108,14 +90,23 @@ public:
   /// @brief Field k_EButton_Axis4 value: static_cast<int32_t>(0x24)
   static ::OVR::OpenVR::EVRButtonId const k_EButton_Axis4;
 
-  /// @brief Field k_EButton_SteamVR_Touchpad value: static_cast<int32_t>(0x20)
-  static ::OVR::OpenVR::EVRButtonId const k_EButton_SteamVR_Touchpad;
+  /// @brief Field k_EButton_DPad_Down value: static_cast<int32_t>(0x6)
+  static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Down;
 
-  /// @brief Field k_EButton_SteamVR_Trigger value: static_cast<int32_t>(0x21)
-  static ::OVR::OpenVR::EVRButtonId const k_EButton_SteamVR_Trigger;
+  /// @brief Field k_EButton_DPad_Left value: static_cast<int32_t>(0x3)
+  static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Left;
+
+  /// @brief Field k_EButton_DPad_Right value: static_cast<int32_t>(0x5)
+  static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Right;
+
+  /// @brief Field k_EButton_DPad_Up value: static_cast<int32_t>(0x4)
+  static ::OVR::OpenVR::EVRButtonId const k_EButton_DPad_Up;
 
   /// @brief Field k_EButton_Dashboard_Back value: static_cast<int32_t>(0x2)
   static ::OVR::OpenVR::EVRButtonId const k_EButton_Dashboard_Back;
+
+  /// @brief Field k_EButton_Grip value: static_cast<int32_t>(0x2)
+  static ::OVR::OpenVR::EVRButtonId const k_EButton_Grip;
 
   /// @brief Field k_EButton_Knuckles_A value: static_cast<int32_t>(0x2)
   static ::OVR::OpenVR::EVRButtonId const k_EButton_Knuckles_A;
@@ -128,6 +119,18 @@ public:
 
   /// @brief Field k_EButton_Max value: static_cast<int32_t>(0x40)
   static ::OVR::OpenVR::EVRButtonId const k_EButton_Max;
+
+  /// @brief Field k_EButton_ProximitySensor value: static_cast<int32_t>(0x1f)
+  static ::OVR::OpenVR::EVRButtonId const k_EButton_ProximitySensor;
+
+  /// @brief Field k_EButton_SteamVR_Touchpad value: static_cast<int32_t>(0x20)
+  static ::OVR::OpenVR::EVRButtonId const k_EButton_SteamVR_Touchpad;
+
+  /// @brief Field k_EButton_SteamVR_Trigger value: static_cast<int32_t>(0x21)
+  static ::OVR::OpenVR::EVRButtonId const k_EButton_SteamVR_Trigger;
+
+  /// @brief Field k_EButton_System value: static_cast<int32_t>(0x0)
+  static ::OVR::OpenVR::EVRButtonId const k_EButton_System;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -8,6 +8,9 @@ CORDL_MODULE_EXPORT(ValueTaskAwaiter_1)
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> struct ValueTask_1;
 }
@@ -26,8 +29,6 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 5281 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3387))
 // CS Name: ::System.Runtime.CompilerServices::ValueTaskAwaiter`1<TResult>
 struct CORDL_TYPE ValueTaskAwaiter_1 {
 public:
@@ -37,8 +38,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TResult GetResult();
+
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void OnCompleted(::System::Action* continuation);
+
+  /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void UnsafeOnCompleted(::System::Action* continuation);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask_1<TResult> value);
@@ -46,18 +56,18 @@ public:
   /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TResult GetResult();
+  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
 
-  /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void UnsafeOnCompleted(::System::Action* continuation);
-
-  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None }]
-  constexpr ValueTaskAwaiter_1(::System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept;
+  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ValueTaskAwaiter_1();
+
+  // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask_1<TResult>", modifiers: "", def_value: None }]
+  constexpr ValueTaskAwaiter_1(::System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept;
 
   /// @brief Field _value, offset: 0x0, size: 0x18, def value: None
   ::System::Threading::Tasks::ValueTask_1<TResult> _value;

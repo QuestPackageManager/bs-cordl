@@ -47,8 +47,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__CreditsData__Text);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4776))
 // CS Name: ::CreditsData::TextStyle
 struct CORDL_TYPE __CreditsData__TextStyle {
 public:
@@ -67,18 +65,23 @@ public:
     return static_cast<____CreditsData__TextStyle_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CreditsData__TextStyle(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____CreditsData__TextStyle_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __CreditsData__TextStyle();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __CreditsData__TextStyle(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Header value: static_cast<int32_t>(0x2)
+  static ::GlobalNamespace::__CreditsData__TextStyle const Header;
 
   /// @brief Field Normal value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__CreditsData__TextStyle const Normal;
@@ -86,8 +89,8 @@ public:
   /// @brief Field Title value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__CreditsData__TextStyle const Title;
 
-  /// @brief Field Header value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__CreditsData__TextStyle const Header;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -101,50 +104,54 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__TextStyle, value__) == 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4776))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4777))
 // CS Name: ::CreditsData::Text*
 class CORDL_TYPE __CreditsData__Text : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field text, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
-
   /// @brief Field localized, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_localized, put = __cordl_internal_set_localized)) bool localized;
 
   /// @brief Field style, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_style, put = __cordl_internal_set_style))::GlobalNamespace::__CreditsData__TextStyle style;
 
-  constexpr ::StringW& __cordl_internal_get_text();
+  /// @brief Field text, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
-  constexpr ::StringW const& __cordl_internal_get_text() const;
-
-  constexpr void __cordl_internal_set_text(::StringW value);
-
-  constexpr bool& __cordl_internal_get_localized();
-
-  constexpr bool const& __cordl_internal_get_localized() const;
-
-  constexpr void __cordl_internal_set_localized(bool value);
-
-  constexpr ::GlobalNamespace::__CreditsData__TextStyle& __cordl_internal_get_style();
-
-  constexpr ::GlobalNamespace::__CreditsData__TextStyle const& __cordl_internal_get_style() const;
-
-  constexpr void __cordl_internal_set_style(::GlobalNamespace::__CreditsData__TextStyle value);
-
-  /// @brief Method IsEmpty, addr 0x23df1ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x24ad134, size 0x20, virtual false, abstract: false, final false
   inline bool IsEmpty();
-
-  /// @brief Method ToString, addr 0x23df20c, size 0xc4, virtual true, abstract: false, final false
-  inline ::StringW ToString();
 
   static inline ::GlobalNamespace::__CreditsData__Text* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23df2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x24ad154, size 0xc4, virtual true, abstract: false, final false
+  inline ::StringW ToString();
+
+  constexpr bool const& __cordl_internal_get_localized() const;
+
+  constexpr bool& __cordl_internal_get_localized();
+
+  constexpr ::GlobalNamespace::__CreditsData__TextStyle const& __cordl_internal_get_style() const;
+
+  constexpr ::GlobalNamespace::__CreditsData__TextStyle& __cordl_internal_get_style();
+
+  constexpr ::StringW const& __cordl_internal_get_text() const;
+
+  constexpr ::StringW& __cordl_internal_get_text();
+
+  constexpr void __cordl_internal_set_localized(bool value);
+
+  constexpr void __cordl_internal_set_style(::GlobalNamespace::__CreditsData__TextStyle value);
+
+  constexpr void __cordl_internal_set_text(::StringW value);
+
+  /// @brief Method .ctor, addr 0x24ad218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CreditsData__Text();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CreditsData__Text", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CreditsData__Text(__CreditsData__Text&&) = delete;
@@ -153,12 +160,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CreditsData__Text(__CreditsData__Text const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CreditsData__Text();
-
-public:
   /// @brief Field text, offset: 0x10, size: 0x8, def value: None
   ::StringW ___text;
 
@@ -184,64 +185,68 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__Text, ___style) == 0x1c
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4778))
 // CS Name: ::CreditsData::RootCreditsItem*
 class CORDL_TYPE __CreditsData__RootCreditsItem : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::GlobalNamespace::__CreditsData__Text* title;
-
-  /// @brief Field text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::GlobalNamespace::__CreditsData__Text* text;
-
-  /// @brief Field rowCountOverride, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_rowCountOverride, put = __cordl_internal_set_rowCountOverride)) int32_t rowCountOverride;
-
   /// @brief Field creditsItems, offset 0x28, size 0x8
   __declspec(
       property(get = __cordl_internal_get_creditsItems,
                put = __cordl_internal_set_creditsItems))::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> creditsItems;
 
-  constexpr ::GlobalNamespace::__CreditsData__Text*& __cordl_internal_get_title();
+  /// @brief Field rowCountOverride, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_rowCountOverride, put = __cordl_internal_set_rowCountOverride)) int32_t rowCountOverride;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __cordl_internal_get_title() const;
+  /// @brief Field text, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::GlobalNamespace::__CreditsData__Text* text;
 
-  constexpr void __cordl_internal_set_title(::GlobalNamespace::__CreditsData__Text* value);
+  /// @brief Field title, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::GlobalNamespace::__CreditsData__Text* title;
+
+  /// @brief Method HasRowItems, addr 0x24ad240, size 0x20, virtual false, abstract: false, final false
+  inline bool HasRowItems();
+
+  /// @brief Method HasText, addr 0x24ad230, size 0x10, virtual false, abstract: false, final false
+  inline bool HasText();
+
+  /// @brief Method HasTitle, addr 0x24ad220, size 0x10, virtual false, abstract: false, final false
+  inline bool HasTitle();
+
+  static inline ::GlobalNamespace::__CreditsData__RootCreditsItem* New_ctor();
+
+  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> const& __cordl_internal_get_creditsItems() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*>& __cordl_internal_get_creditsItems();
+
+  constexpr int32_t const& __cordl_internal_get_rowCountOverride() const;
+
+  constexpr int32_t& __cordl_internal_get_rowCountOverride();
 
   constexpr ::GlobalNamespace::__CreditsData__Text*& __cordl_internal_get_text();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __cordl_internal_get_text() const;
 
-  constexpr void __cordl_internal_set_text(::GlobalNamespace::__CreditsData__Text* value);
+  constexpr ::GlobalNamespace::__CreditsData__Text*& __cordl_internal_get_title();
 
-  constexpr int32_t& __cordl_internal_get_rowCountOverride();
-
-  constexpr int32_t const& __cordl_internal_get_rowCountOverride() const;
-
-  constexpr void __cordl_internal_set_rowCountOverride(int32_t value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*>& __cordl_internal_get_creditsItems();
-
-  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> const& __cordl_internal_get_creditsItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __cordl_internal_get_title() const;
 
   constexpr void __cordl_internal_set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> value);
 
-  /// @brief Method HasTitle, addr 0x23df2d8, size 0x10, virtual false, abstract: false, final false
-  inline bool HasTitle();
+  constexpr void __cordl_internal_set_rowCountOverride(int32_t value);
 
-  /// @brief Method HasText, addr 0x23df2e8, size 0x10, virtual false, abstract: false, final false
-  inline bool HasText();
+  constexpr void __cordl_internal_set_text(::GlobalNamespace::__CreditsData__Text* value);
 
-  /// @brief Method HasRowItems, addr 0x23df2f8, size 0x20, virtual false, abstract: false, final false
-  inline bool HasRowItems();
+  constexpr void __cordl_internal_set_title(::GlobalNamespace::__CreditsData__Text* value);
 
-  static inline ::GlobalNamespace::__CreditsData__RootCreditsItem* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23df318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ad260, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CreditsData__RootCreditsItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CreditsData__RootCreditsItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CreditsData__RootCreditsItem(__CreditsData__RootCreditsItem&&) = delete;
@@ -250,12 +255,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CreditsData__RootCreditsItem(__CreditsData__RootCreditsItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CreditsData__RootCreditsItem();
-
-public:
   /// @brief Field title, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::__CreditsData__Text* ___title;
 
@@ -286,41 +285,45 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__RootCreditsItem, ___cre
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4779))
 // CS Name: ::CreditsData::ChildCreditsItem*
 class CORDL_TYPE __CreditsData__ChildCreditsItem : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::GlobalNamespace::__CreditsData__Text* title;
-
   /// @brief Field text, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::GlobalNamespace::__CreditsData__Text* text;
 
-  constexpr ::GlobalNamespace::__CreditsData__Text*& __cordl_internal_get_title();
+  /// @brief Field title, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::GlobalNamespace::__CreditsData__Text* title;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __cordl_internal_get_title() const;
+  /// @brief Method HasText, addr 0x24ad278, size 0x10, virtual false, abstract: false, final false
+  inline bool HasText();
 
-  constexpr void __cordl_internal_set_title(::GlobalNamespace::__CreditsData__Text* value);
+  /// @brief Method HasTitle, addr 0x24ad268, size 0x10, virtual false, abstract: false, final false
+  inline bool HasTitle();
+
+  static inline ::GlobalNamespace::__CreditsData__ChildCreditsItem* New_ctor();
 
   constexpr ::GlobalNamespace::__CreditsData__Text*& __cordl_internal_get_text();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __cordl_internal_get_text() const;
 
+  constexpr ::GlobalNamespace::__CreditsData__Text*& __cordl_internal_get_title();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CreditsData__Text*> const& __cordl_internal_get_title() const;
+
   constexpr void __cordl_internal_set_text(::GlobalNamespace::__CreditsData__Text* value);
 
-  /// @brief Method HasTitle, addr 0x23df320, size 0x10, virtual false, abstract: false, final false
-  inline bool HasTitle();
+  constexpr void __cordl_internal_set_title(::GlobalNamespace::__CreditsData__Text* value);
 
-  /// @brief Method HasText, addr 0x23df330, size 0x10, virtual false, abstract: false, final false
-  inline bool HasText();
-
-  static inline ::GlobalNamespace::__CreditsData__ChildCreditsItem* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23df340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ad288, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CreditsData__ChildCreditsItem();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__CreditsData__ChildCreditsItem", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __CreditsData__ChildCreditsItem(__CreditsData__ChildCreditsItem&&) = delete;
@@ -329,12 +332,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CreditsData__ChildCreditsItem(__CreditsData__ChildCreditsItem const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CreditsData__ChildCreditsItem();
-
-public:
   /// @brief Field title, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::__CreditsData__Text* ___title;
 
@@ -355,8 +352,6 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__ChildCreditsItem, ___te
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4780))
 // CS Name: ::CreditsData*
 class CORDL_TYPE CreditsData : public ::System::Object {
 public:
@@ -373,20 +368,26 @@ public:
   __declspec(property(get = __cordl_internal_get_creditsItems,
                       put = __cordl_internal_set_creditsItems))::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> creditsItems;
 
-  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*>& __cordl_internal_get_creditsItems();
-
-  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> const& __cordl_internal_get_creditsItems() const;
-
-  constexpr void __cordl_internal_set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> value);
-
-  /// @brief Method Deserialize, addr 0x23df0e0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x24ad028, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CreditsData* Deserialize(::StringW text);
 
   static inline ::GlobalNamespace::CreditsData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23df1e4, size 0x8, virtual false, abstract: false, final false
+  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> const& __cordl_internal_get_creditsItems() const;
+
+  constexpr ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*>& __cordl_internal_get_creditsItems();
+
+  constexpr void __cordl_internal_set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> value);
+
+  /// @brief Method .ctor, addr 0x24ad12c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CreditsData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CreditsData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CreditsData(CreditsData&&) = delete;
@@ -395,12 +396,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CreditsData(CreditsData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CreditsData();
-
-public:
   /// @brief Field creditsItems, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> ___creditsItems;
 

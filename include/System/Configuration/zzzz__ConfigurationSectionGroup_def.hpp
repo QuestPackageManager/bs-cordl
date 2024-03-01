@@ -14,12 +14,16 @@ MARK_REF_PTR_T(::System::Configuration::ConfigurationSectionGroup);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16438))
 // CS Name: ::System.Configuration::ConfigurationSectionGroup*
 class CORDL_TYPE ConfigurationSectionGroup : public ::System::Object {
 public:
   // Declarations
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ConfigurationSectionGroup();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ConfigurationSectionGroup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ConfigurationSectionGroup(ConfigurationSectionGroup&&) = delete;
@@ -28,12 +32,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConfigurationSectionGroup(ConfigurationSectionGroup const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConfigurationSectionGroup();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

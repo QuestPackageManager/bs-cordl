@@ -16,12 +16,14 @@ MARK_VAL_T(::System::Security::Cryptography::DSAParameters);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2930))
 // CS Name: ::System.Security.Cryptography::DSAParameters
 struct CORDL_TYPE DSAParameters {
 public:
   // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DSAParameters();
+
   // Ctor Parameters [CppParam { name: "P", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Q", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "",
   // def_value: None }, CppParam { name: "G", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Y", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers:
   // "", def_value: None }, CppParam { name: "J", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "X", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>",
@@ -29,10 +31,6 @@ public:
   // def_value: None }]
   constexpr DSAParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> P, ::ArrayW<uint8_t, ::Array<uint8_t>*> Q, ::ArrayW<uint8_t, ::Array<uint8_t>*> G, ::ArrayW<uint8_t, ::Array<uint8_t>*> Y,
                           ::ArrayW<uint8_t, ::Array<uint8_t>*> J, ::ArrayW<uint8_t, ::Array<uint8_t>*> X, ::ArrayW<uint8_t, ::Array<uint8_t>*> Seed, int32_t Counter) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DSAParameters();
 
   /// @brief Field P, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> P;

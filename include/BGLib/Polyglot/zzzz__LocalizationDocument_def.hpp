@@ -22,73 +22,77 @@ MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationDocument);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15670))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15680))
 // CS Name: ::BGLib.Polyglot::LocalizationDocument*
 class CORDL_TYPE LocalizationDocument : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_DocsId))::StringW DocsId;
+
+  __declspec(property(get = get_Format))::BGLib::Polyglot::GoogleDriveDownloadFormat Format;
+
+  __declspec(property(get = get_SheetId))::StringW SheetId;
+
+  __declspec(property(get = get_TextAsset))::UnityW<::UnityEngine::TextAsset> TextAsset;
+
   /// @brief Field docsId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_docsId, put = __cordl_internal_set_docsId))::StringW docsId;
-
-  /// @brief Field sheetId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_sheetId, put = __cordl_internal_set_sheetId))::StringW sheetId;
 
   /// @brief Field format, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format))::BGLib::Polyglot::GoogleDriveDownloadFormat format;
 
+  /// @brief Field sheetId, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_sheetId, put = __cordl_internal_set_sheetId))::StringW sheetId;
+
   /// @brief Field textAsset, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_textAsset, put = __cordl_internal_set_textAsset))::UnityW<::UnityEngine::TextAsset> textAsset;
 
-  __declspec(property(get = get_TextAsset))::UnityW<::UnityEngine::TextAsset> TextAsset;
-
-  __declspec(property(get = get_DocsId))::StringW DocsId;
-
-  __declspec(property(get = get_SheetId))::StringW SheetId;
-
-  __declspec(property(get = get_Format))::BGLib::Polyglot::GoogleDriveDownloadFormat Format;
-
-  constexpr ::StringW& __cordl_internal_get_docsId();
+  static inline ::BGLib::Polyglot::LocalizationDocument* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_docsId() const;
 
-  constexpr void __cordl_internal_set_docsId(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_sheetId();
-
-  constexpr ::StringW const& __cordl_internal_get_sheetId() const;
-
-  constexpr void __cordl_internal_set_sheetId(::StringW value);
-
-  constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat& __cordl_internal_get_format();
+  constexpr ::StringW& __cordl_internal_get_docsId();
 
   constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat const& __cordl_internal_get_format() const;
 
-  constexpr void __cordl_internal_set_format(::BGLib::Polyglot::GoogleDriveDownloadFormat value);
+  constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat& __cordl_internal_get_format();
 
-  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_textAsset();
+  constexpr ::StringW const& __cordl_internal_get_sheetId() const;
+
+  constexpr ::StringW& __cordl_internal_get_sheetId();
 
   constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_textAsset() const;
 
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_textAsset();
+
+  constexpr void __cordl_internal_set_docsId(::StringW value);
+
+  constexpr void __cordl_internal_set_format(::BGLib::Polyglot::GoogleDriveDownloadFormat value);
+
+  constexpr void __cordl_internal_set_sheetId(::StringW value);
+
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method get_TextAsset, addr 0xe4cad8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
-
-  /// @brief Method get_DocsId, addr 0xe4cae0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_DocsId();
-
-  /// @brief Method get_SheetId, addr 0xe4cae8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_SheetId();
-
-  /// @brief Method get_Format, addr 0xe4caf0, size 0x8, virtual false, abstract: false, final false
-  inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
-
-  static inline ::BGLib::Polyglot::LocalizationDocument* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe4caf8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe92ac8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_DocsId, addr 0xe92ab0, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_DocsId();
+
+  /// @brief Method get_Format, addr 0xe92ac0, size 0x8, virtual false, abstract: false, final false
+  inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
+
+  /// @brief Method get_SheetId, addr 0xe92ab8, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_SheetId();
+
+  /// @brief Method get_TextAsset, addr 0xe92aa8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalizationDocument();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationDocument", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalizationDocument(LocalizationDocument&&) = delete;
@@ -97,12 +101,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizationDocument(LocalizationDocument const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalizationDocument();
-
-public:
   /// @brief Field docsId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___docsId;
 

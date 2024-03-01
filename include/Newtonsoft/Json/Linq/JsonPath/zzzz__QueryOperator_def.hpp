@@ -15,8 +15,6 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::JsonPath::QueryOperator);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11919))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::QueryOperator
 struct CORDL_TYPE QueryOperator {
 public:
@@ -42,36 +40,29 @@ public:
     return static_cast<__QueryOperator_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr QueryOperator(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__QueryOperator_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr QueryOperator();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr QueryOperator(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const None;
+  /// @brief Field And value: static_cast<int32_t>(0x8)
+  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const And;
 
   /// @brief Field Equals value: static_cast<int32_t>(0x1)
   static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const Equals;
 
-  /// @brief Field NotEquals value: static_cast<int32_t>(0x2)
-  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const NotEquals;
-
   /// @brief Field Exists value: static_cast<int32_t>(0x3)
   static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const Exists;
-
-  /// @brief Field LessThan value: static_cast<int32_t>(0x4)
-  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const LessThan;
-
-  /// @brief Field LessThanOrEquals value: static_cast<int32_t>(0x5)
-  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const LessThanOrEquals;
 
   /// @brief Field GreaterThan value: static_cast<int32_t>(0x6)
   static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const GreaterThan;
@@ -79,11 +70,23 @@ public:
   /// @brief Field GreaterThanOrEquals value: static_cast<int32_t>(0x7)
   static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const GreaterThanOrEquals;
 
-  /// @brief Field And value: static_cast<int32_t>(0x8)
-  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const And;
+  /// @brief Field LessThan value: static_cast<int32_t>(0x4)
+  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const LessThan;
+
+  /// @brief Field LessThanOrEquals value: static_cast<int32_t>(0x5)
+  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const LessThanOrEquals;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const None;
+
+  /// @brief Field NotEquals value: static_cast<int32_t>(0x2)
+  static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const NotEquals;
 
   /// @brief Field Or value: static_cast<int32_t>(0x9)
   static ::Newtonsoft::Json::Linq::JsonPath::QueryOperator const Or;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

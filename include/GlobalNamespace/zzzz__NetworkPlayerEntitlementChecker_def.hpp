@@ -66,23 +66,25 @@ MARK_VAL_T(::GlobalNamespace::__NetworkPlayerEntitlementChecker___HandleGetIsEnt
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(12625)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 885 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14836)) CS Name:
-// ::NetworkPlayerEntitlementChecker::<HandleGetIsEntitledToLevel>d__6
+// CS Name: ::NetworkPlayerEntitlementChecker::<HandleGetIsEntitledToLevel>d__6
 struct CORDL_TYPE __NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__6 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x272bf5c, size 0x260, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x272c1bc, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x265c810, size 0x260, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x265ca70, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__6();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker>",
@@ -91,10 +93,6 @@ public:
   constexpr __NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__6(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                 ::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker> __4__this, ::StringW levelId,
                                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementsStatus> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__6();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -134,23 +132,25 @@ static_assert(offsetof(::GlobalNamespace::__NetworkPlayerEntitlementChecker___Ha
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(12625)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16445)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 884 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 885 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14837)) CS Name: ::NetworkPlayerEntitlementChecker::<GetEntitlementStatus>d__7
+// CS Name: ::NetworkPlayerEntitlementChecker::<GetEntitlementStatus>d__7
 struct CORDL_TYPE __NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__7 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x272c1c8, size 0x278, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x272c440, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x265ca7c, size 0x278, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x265ccf4, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__7();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementsStatus>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -160,10 +160,6 @@ public:
                                                                           ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementsStatus> __t__builder,
                                                                           ::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker> __4__this, ::StringW levelId,
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NetworkPlayerEntitlementChecker___GetEntitlementStatus_d__7();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -203,8 +199,6 @@ static_assert(offsetof(::GlobalNamespace::__NetworkPlayerEntitlementChecker___Ge
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14838))
 // CS Name: ::NetworkPlayerEntitlementChecker*
 class CORDL_TYPE NetworkPlayerEntitlementChecker : public ::UnityEngine::MonoBehaviour {
 public:
@@ -213,53 +207,59 @@ public:
 
   using _HandleGetIsEntitledToLevel_d__6 = ::GlobalNamespace::__NetworkPlayerEntitlementChecker___HandleGetIsEntitledToLevel_d__6;
 
-  /// @brief Field _rpcManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager))::GlobalNamespace::IMenuRpcManager* _rpcManager;
-
   /// @brief Field _additionalContentModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
   /// @brief Field _beatmapLevelsModel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::IBeatmapLevelsModel* _beatmapLevelsModel;
 
-  constexpr ::GlobalNamespace::IMenuRpcManager*& __cordl_internal_get__rpcManager();
+  /// @brief Field _rpcManager, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager))::GlobalNamespace::IMenuRpcManager* _rpcManager;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __cordl_internal_get__rpcManager() const;
+  /// @brief Method GetEntitlementStatus, addr 0x272be58, size 0xfc, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
 
-  constexpr void __cordl_internal_set__rpcManager(::GlobalNamespace::IMenuRpcManager* value);
+  /// @brief Method HandleDataInvalidated, addr 0x272bd18, size 0xa4, virtual false, abstract: false, final false
+  inline void HandleDataInvalidated();
+
+  /// @brief Method HandleGetIsEntitledToLevel, addr 0x272bdbc, size 0x9c, virtual false, abstract: false, final false
+  inline void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
+
+  static inline ::GlobalNamespace::NetworkPlayerEntitlementChecker* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x272bb4c, size 0x1cc, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x272ba5c, size 0xf0, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __cordl_internal_get__additionalContentModel() const;
 
-  constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
-
   constexpr ::GlobalNamespace::IBeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
 
+  constexpr ::GlobalNamespace::IMenuRpcManager*& __cordl_internal_get__rpcManager();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __cordl_internal_get__rpcManager() const;
+
+  constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
+
   constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::IBeatmapLevelsModel* value);
 
-  /// @brief Method Start, addr 0x265c310, size 0xf0, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__rpcManager(::GlobalNamespace::IMenuRpcManager* value);
 
-  /// @brief Method OnDestroy, addr 0x265c400, size 0x1cc, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleDataInvalidated, addr 0x265c5cc, size 0xa4, virtual false, abstract: false, final false
-  inline void HandleDataInvalidated();
-
-  /// @brief Method HandleGetIsEntitledToLevel, addr 0x265c670, size 0x9c, virtual false, abstract: false, final false
-  inline void HandleGetIsEntitledToLevel(::StringW userId, ::StringW levelId);
-
-  /// @brief Method GetEntitlementStatus, addr 0x265c70c, size 0xfc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetEntitlementStatus(::StringW levelId);
-
-  static inline ::GlobalNamespace::NetworkPlayerEntitlementChecker* New_ctor();
-
-  /// @brief Method .ctor, addr 0x265c808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272bf54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NetworkPlayerEntitlementChecker();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerEntitlementChecker", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NetworkPlayerEntitlementChecker(NetworkPlayerEntitlementChecker&&) = delete;
@@ -268,12 +268,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkPlayerEntitlementChecker(NetworkPlayerEntitlementChecker const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetworkPlayerEntitlementChecker();
-
-public:
   /// @brief Field _rpcManager, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IMenuRpcManager* ____rpcManager;
 

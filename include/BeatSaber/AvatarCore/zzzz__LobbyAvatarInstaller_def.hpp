@@ -17,8 +17,6 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::LobbyAvatarInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15278))
 // CS Name: ::BeatSaber.AvatarCore::LobbyAvatarInstaller*
 class CORDL_TYPE LobbyAvatarInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -26,20 +24,26 @@ public:
   /// @brief Field _connectedPlayer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
+  /// @brief Method InstallBindings, addr 0xe60c7c, size 0x264, virtual true, abstract: false, final false
+  inline void InstallBindings();
+
+  static inline ::BeatSaber::AvatarCore::LobbyAvatarInstaller* New_ctor();
+
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method InstallBindings, addr 0xe1b118, size 0x264, virtual true, abstract: false, final false
-  inline void InstallBindings();
-
-  static inline ::BeatSaber::AvatarCore::LobbyAvatarInstaller* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe1b37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe60ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LobbyAvatarInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LobbyAvatarInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LobbyAvatarInstaller(LobbyAvatarInstaller&&) = delete;
@@ -48,12 +52,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LobbyAvatarInstaller(LobbyAvatarInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LobbyAvatarInstaller();
-
-public:
   /// @brief Field _connectedPlayer, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 

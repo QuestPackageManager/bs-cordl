@@ -31,25 +31,27 @@ MARK_VAL_T(::GlobalNamespace::LastUsedBeatmapDataCache);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10773))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10718))
 // CS Name: ::LastUsedBeatmapDataCache
 struct CORDL_TYPE LastUsedBeatmapDataCache {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x1276618, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
-                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+  /// @brief Method AreRequiredGameplayModifiersSame, addr 0x12b973c, size 0x1c, virtual false, abstract: false, final false
+  static inline bool AreRequiredGameplayModifiersSame(::GlobalNamespace::GameplayModifiers* first, ::GlobalNamespace::GameplayModifiers* second);
 
-  /// @brief Method AreSameBeatmapDataCached, addr 0x1276634, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AreRequiredPlayerSettingsSame, addr 0x12b9758, size 0x1c, virtual false, abstract: false, final false
+  static inline bool AreRequiredPlayerSettingsSame(::GlobalNamespace::PlayerSpecificSettings* first, ::GlobalNamespace::PlayerSpecificSettings* second);
+
+  /// @brief Method AreSameBeatmapDataCached, addr 0x12b9604, size 0xc4, virtual false, abstract: false, final false
   inline bool AreSameBeatmapDataCached(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                        ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method AreRequiredGameplayModifiersSame, addr 0x127676c, size 0x1c, virtual false, abstract: false, final false
-  static inline bool AreRequiredGameplayModifiersSame(::GlobalNamespace::GameplayModifiers* first, ::GlobalNamespace::GameplayModifiers* second);
+  /// @brief Method .ctor, addr 0x12b95e8, size 0x1c, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
+                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method AreRequiredPlayerSettingsSame, addr 0x1276788, size 0x1c, virtual false, abstract: false, final false
-  static inline bool AreRequiredPlayerSettingsSame(::GlobalNamespace::PlayerSpecificSettings* first, ::GlobalNamespace::PlayerSpecificSettings* second);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LastUsedBeatmapDataCache();
 
   // Ctor Parameters [CppParam { name: "cachedReadonlyBeatmapData", ty: "::GlobalNamespace::IReadonlyBeatmapData*", modifiers: "", def_value: None }, CppParam { name: "_beatmapKey", ty:
   // "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name: "_environmentInfo", ty: "::GlobalNamespace::IEnvironmentInfo*", modifiers: "", def_value: None }, CppParam {
@@ -58,10 +60,6 @@ public:
   constexpr LastUsedBeatmapDataCache(::GlobalNamespace::IReadonlyBeatmapData* cachedReadonlyBeatmapData, ::GlobalNamespace::BeatmapKey _beatmapKey,
                                      ::GlobalNamespace::IEnvironmentInfo* _environmentInfo, ::GlobalNamespace::GameplayModifiers* _gameplayModifiers,
                                      ::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LastUsedBeatmapDataCache();
 
   /// @brief Field cachedReadonlyBeatmapData, offset: 0x0, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* cachedReadonlyBeatmapData;

@@ -32,29 +32,23 @@ MARK_REF_PTR_T(::System::Security::Claims::Claim);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Claims {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3008))
 // CS Name: ::System.Security.Claims::Claim*
 class CORDL_TYPE Claim : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Properties))::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* Properties;
+
+  __declspec(property(get = get_Subject, put = set_Subject))::System::Security::Claims::ClaimsIdentity* Subject;
+
+  __declspec(property(get = get_Type))::StringW Type;
+
+  __declspec(property(get = get_Value))::StringW Value;
+
   /// @brief Field m_issuer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_issuer, put = __cordl_internal_set_m_issuer))::StringW m_issuer;
 
   /// @brief Field m_originalIssuer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_originalIssuer, put = __cordl_internal_set_m_originalIssuer))::StringW m_originalIssuer;
-
-  /// @brief Field m_type, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_type, put = __cordl_internal_set_m_type))::StringW m_type;
-
-  /// @brief Field m_value, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value))::StringW m_value;
-
-  /// @brief Field m_valueType, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_valueType, put = __cordl_internal_set_m_valueType))::StringW m_valueType;
-
-  /// @brief Field m_userSerializationData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_userSerializationData, put = __cordl_internal_set_m_userSerializationData))::ArrayW<uint8_t, ::Array<uint8_t>*> m_userSerializationData;
 
   /// @brief Field m_properties, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_properties, put = __cordl_internal_set_m_properties))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* m_properties;
@@ -65,110 +59,120 @@ public:
   /// @brief Field m_subject, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_subject, put = __cordl_internal_set_m_subject))::System::Security::Claims::ClaimsIdentity* m_subject;
 
-  __declspec(property(get = get_Properties))::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* Properties;
+  /// @brief Field m_type, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_type, put = __cordl_internal_set_m_type))::StringW m_type;
 
-  __declspec(property(get = get_Subject, put = set_Subject))::System::Security::Claims::ClaimsIdentity* Subject;
+  /// @brief Field m_userSerializationData, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_userSerializationData, put = __cordl_internal_set_m_userSerializationData))::ArrayW<uint8_t, ::Array<uint8_t>*> m_userSerializationData;
 
-  __declspec(property(get = get_Type))::StringW Type;
+  /// @brief Field m_value, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value))::StringW m_value;
 
-  __declspec(property(get = get_Value))::StringW Value;
+  /// @brief Field m_valueType, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_valueType, put = __cordl_internal_set_m_valueType))::StringW m_valueType;
 
-  constexpr ::StringW& __cordl_internal_get_m_issuer();
+  /// @brief Method Clone, addr 0x256fc04, size 0x70, virtual true, abstract: false, final false
+  inline ::System::Security::Claims::Claim* Clone(::System::Security::Claims::ClaimsIdentity* identity);
+
+  static inline ::System::Security::Claims::Claim* New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
+
+  static inline ::System::Security::Claims::Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
+                                                            ::System::Security::Claims::ClaimsIdentity* subject);
+
+  static inline ::System::Security::Claims::Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
+                                                            ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue);
+
+  /// @brief Method OnDeserializedMethod, addr 0x256fb84, size 0x60, virtual false, abstract: false, final false
+  inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method ToString, addr 0x256fc74, size 0x78, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_m_issuer() const;
 
-  constexpr void __cordl_internal_set_m_issuer(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_m_originalIssuer();
+  constexpr ::StringW& __cordl_internal_get_m_issuer();
 
   constexpr ::StringW const& __cordl_internal_get_m_originalIssuer() const;
 
-  constexpr void __cordl_internal_set_m_originalIssuer(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_m_type();
-
-  constexpr ::StringW const& __cordl_internal_get_m_type() const;
-
-  constexpr void __cordl_internal_set_m_type(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_m_value();
-
-  constexpr ::StringW const& __cordl_internal_get_m_value() const;
-
-  constexpr void __cordl_internal_set_m_value(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get_m_valueType();
-
-  constexpr ::StringW const& __cordl_internal_get_m_valueType() const;
-
-  constexpr void __cordl_internal_set_m_valueType(::StringW value);
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_userSerializationData();
-
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_userSerializationData() const;
-
-  constexpr void __cordl_internal_set_m_userSerializationData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr ::StringW& __cordl_internal_get_m_originalIssuer();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get_m_properties();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __cordl_internal_get_m_properties() const;
 
-  constexpr void __cordl_internal_set_m_properties(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
-
   constexpr ::System::Object*& __cordl_internal_get_m_propertyLock();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_propertyLock() const;
-
-  constexpr void __cordl_internal_set_m_propertyLock(::System::Object* value);
 
   constexpr ::System::Security::Claims::ClaimsIdentity*& __cordl_internal_get_m_subject();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Security::Claims::ClaimsIdentity*> const& __cordl_internal_get_m_subject() const;
 
+  constexpr ::StringW const& __cordl_internal_get_m_type() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_type();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_userSerializationData() const;
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_userSerializationData();
+
+  constexpr ::StringW const& __cordl_internal_get_m_value() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_value();
+
+  constexpr ::StringW const& __cordl_internal_get_m_valueType() const;
+
+  constexpr ::StringW& __cordl_internal_get_m_valueType();
+
+  constexpr void __cordl_internal_set_m_issuer(::StringW value);
+
+  constexpr void __cordl_internal_set_m_originalIssuer(::StringW value);
+
+  constexpr void __cordl_internal_set_m_properties(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+
+  constexpr void __cordl_internal_set_m_propertyLock(::System::Object* value);
+
   constexpr void __cordl_internal_set_m_subject(::System::Security::Claims::ClaimsIdentity* value);
 
-  static inline ::System::Security::Claims::Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
-                                                            ::System::Security::Claims::ClaimsIdentity* subject);
+  constexpr void __cordl_internal_set_m_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2498a94, size 0x20, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_userSerializationData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_m_value(::StringW value);
+
+  constexpr void __cordl_internal_set_m_valueType(::StringW value);
+
+  /// @brief Method .ctor, addr 0x256f870, size 0x314, virtual false, abstract: false, final false
+  inline void _ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
+
+  /// @brief Method .ctor, addr 0x256a78c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject);
 
-  static inline ::System::Security::Claims::Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
-                                                            ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue);
-
-  /// @brief Method .ctor, addr 0x249d7e8, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256f4e0, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey,
                     ::StringW propertyValue);
 
-  static inline ::System::Security::Claims::Claim* New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
-
-  /// @brief Method .ctor, addr 0x249db78, size 0x314, virtual false, abstract: false, final false
-  inline void _ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
-
-  /// @brief Method OnDeserializedMethod, addr 0x249de8c, size 0x60, virtual false, abstract: false, final false
-  inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method get_Properties, addr 0x249da40, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x256f738, size 0x138, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_Properties();
 
-  /// @brief Method get_Subject, addr 0x249deec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x256fbe4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* get_Subject();
 
-  /// @brief Method set_Subject, addr 0x249def4, size 0x8, virtual false, abstract: false, final false
-  inline void set_Subject(::System::Security::Claims::ClaimsIdentity* value);
-
-  /// @brief Method get_Type, addr 0x249defc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x256fbf4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
-  /// @brief Method get_Value, addr 0x249df04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x256fbfc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method Clone, addr 0x249df0c, size 0x70, virtual true, abstract: false, final false
-  inline ::System::Security::Claims::Claim* Clone(::System::Security::Claims::ClaimsIdentity* identity);
+  /// @brief Method set_Subject, addr 0x256fbec, size 0x8, virtual false, abstract: false, final false
+  inline void set_Subject(::System::Security::Claims::ClaimsIdentity* value);
 
-  /// @brief Method ToString, addr 0x249df7c, size 0x78, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Claim();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Claim", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Claim(Claim&&) = delete;
@@ -177,12 +181,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Claim(Claim const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Claim();
-
-public:
   /// @brief Field m_issuer, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_issuer;
 

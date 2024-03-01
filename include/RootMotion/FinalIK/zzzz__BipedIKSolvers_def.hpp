@@ -36,20 +36,37 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::BipedIKSolvers);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12405))
 // CS Name: ::RootMotion.FinalIK::BipedIKSolvers*
 class CORDL_TYPE BipedIKSolvers : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _ikSolvers, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__ikSolvers, put = __cordl_internal_set__ikSolvers))::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> _ikSolvers;
+
+  /// @brief Field _limbs, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__limbs, put = __cordl_internal_set__limbs))::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> _limbs;
+
+  /// @brief Field aim, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_aim, put = __cordl_internal_set_aim))::RootMotion::FinalIK::IKSolverAim* aim;
+
+  __declspec(property(get = get_ikSolvers))::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> ikSolvers;
+
   /// @brief Field leftFoot, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_leftFoot, put = __cordl_internal_set_leftFoot))::RootMotion::FinalIK::IKSolverLimb* leftFoot;
 
-  /// @brief Field rightFoot, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightFoot, put = __cordl_internal_set_rightFoot))::RootMotion::FinalIK::IKSolverLimb* rightFoot;
-
   /// @brief Field leftHand, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_leftHand, put = __cordl_internal_set_leftHand))::RootMotion::FinalIK::IKSolverLimb* leftHand;
+
+  __declspec(property(get = get_limbs))::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> limbs;
+
+  /// @brief Field lookAt, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_lookAt, put = __cordl_internal_set_lookAt))::RootMotion::FinalIK::IKSolverLookAt* lookAt;
+
+  /// @brief Field pelvis, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_pelvis, put = __cordl_internal_set_pelvis))::RootMotion::FinalIK::Constraints* pelvis;
+
+  /// @brief Field rightFoot, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_rightFoot, put = __cordl_internal_set_rightFoot))::RootMotion::FinalIK::IKSolverLimb* rightFoot;
 
   /// @brief Field rightHand, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_rightHand, put = __cordl_internal_set_rightHand))::RootMotion::FinalIK::IKSolverLimb* rightHand;
@@ -57,99 +74,86 @@ public:
   /// @brief Field spine, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_spine, put = __cordl_internal_set_spine))::RootMotion::FinalIK::IKSolverFABRIK* spine;
 
-  /// @brief Field lookAt, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_lookAt, put = __cordl_internal_set_lookAt))::RootMotion::FinalIK::IKSolverLookAt* lookAt;
+  /// @brief Method AssignReferences, addr 0x131dd48, size 0x120, virtual false, abstract: false, final false
+  inline void AssignReferences(::RootMotion::BipedReferences* references);
 
-  /// @brief Field aim, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_aim, put = __cordl_internal_set_aim))::RootMotion::FinalIK::IKSolverAim* aim;
+  static inline ::RootMotion::FinalIK::BipedIKSolvers* New_ctor();
 
-  /// @brief Field pelvis, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_pelvis, put = __cordl_internal_set_pelvis))::RootMotion::FinalIK::Constraints* pelvis;
+  constexpr ::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> const& __cordl_internal_get__ikSolvers() const;
 
-  /// @brief Field _limbs, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__limbs, put = __cordl_internal_set__limbs))::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> _limbs;
+  constexpr ::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*>& __cordl_internal_get__ikSolvers();
 
-  /// @brief Field _ikSolvers, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__ikSolvers, put = __cordl_internal_set__ikSolvers))::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> _ikSolvers;
+  constexpr ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> const& __cordl_internal_get__limbs() const;
 
-  __declspec(property(get = get_limbs))::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> limbs;
-
-  __declspec(property(get = get_ikSolvers))::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> ikSolvers;
-
-  constexpr ::RootMotion::FinalIK::IKSolverLimb*& __cordl_internal_get_leftFoot();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLimb*> const& __cordl_internal_get_leftFoot() const;
-
-  constexpr void __cordl_internal_set_leftFoot(::RootMotion::FinalIK::IKSolverLimb* value);
-
-  constexpr ::RootMotion::FinalIK::IKSolverLimb*& __cordl_internal_get_rightFoot();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLimb*> const& __cordl_internal_get_rightFoot() const;
-
-  constexpr void __cordl_internal_set_rightFoot(::RootMotion::FinalIK::IKSolverLimb* value);
-
-  constexpr ::RootMotion::FinalIK::IKSolverLimb*& __cordl_internal_get_leftHand();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLimb*> const& __cordl_internal_get_leftHand() const;
-
-  constexpr void __cordl_internal_set_leftHand(::RootMotion::FinalIK::IKSolverLimb* value);
-
-  constexpr ::RootMotion::FinalIK::IKSolverLimb*& __cordl_internal_get_rightHand();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLimb*> const& __cordl_internal_get_rightHand() const;
-
-  constexpr void __cordl_internal_set_rightHand(::RootMotion::FinalIK::IKSolverLimb* value);
-
-  constexpr ::RootMotion::FinalIK::IKSolverFABRIK*& __cordl_internal_get_spine();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverFABRIK*> const& __cordl_internal_get_spine() const;
-
-  constexpr void __cordl_internal_set_spine(::RootMotion::FinalIK::IKSolverFABRIK* value);
-
-  constexpr ::RootMotion::FinalIK::IKSolverLookAt*& __cordl_internal_get_lookAt();
-
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLookAt*> const& __cordl_internal_get_lookAt() const;
-
-  constexpr void __cordl_internal_set_lookAt(::RootMotion::FinalIK::IKSolverLookAt* value);
+  constexpr ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*>& __cordl_internal_get__limbs();
 
   constexpr ::RootMotion::FinalIK::IKSolverAim*& __cordl_internal_get_aim();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverAim*> const& __cordl_internal_get_aim() const;
 
-  constexpr void __cordl_internal_set_aim(::RootMotion::FinalIK::IKSolverAim* value);
+  constexpr ::RootMotion::FinalIK::IKSolverLimb*& __cordl_internal_get_leftFoot();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLimb*> const& __cordl_internal_get_leftFoot() const;
+
+  constexpr ::RootMotion::FinalIK::IKSolverLimb*& __cordl_internal_get_leftHand();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLimb*> const& __cordl_internal_get_leftHand() const;
+
+  constexpr ::RootMotion::FinalIK::IKSolverLookAt*& __cordl_internal_get_lookAt();
+
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLookAt*> const& __cordl_internal_get_lookAt() const;
 
   constexpr ::RootMotion::FinalIK::Constraints*& __cordl_internal_get_pelvis();
 
   constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Constraints*> const& __cordl_internal_get_pelvis() const;
 
-  constexpr void __cordl_internal_set_pelvis(::RootMotion::FinalIK::Constraints* value);
+  constexpr ::RootMotion::FinalIK::IKSolverLimb*& __cordl_internal_get_rightFoot();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*>& __cordl_internal_get__limbs();
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLimb*> const& __cordl_internal_get_rightFoot() const;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> const& __cordl_internal_get__limbs() const;
+  constexpr ::RootMotion::FinalIK::IKSolverLimb*& __cordl_internal_get_rightHand();
 
-  constexpr void __cordl_internal_set__limbs(::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> value);
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLimb*> const& __cordl_internal_get_rightHand() const;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*>& __cordl_internal_get__ikSolvers();
+  constexpr ::RootMotion::FinalIK::IKSolverFABRIK*& __cordl_internal_get_spine();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> const& __cordl_internal_get__ikSolvers() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverFABRIK*> const& __cordl_internal_get_spine() const;
 
   constexpr void __cordl_internal_set__ikSolvers(::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> value);
 
-  /// @brief Method get_limbs, addr 0x12dc9e0, size 0x130, virtual false, abstract: false, final false
-  inline ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> get_limbs();
+  constexpr void __cordl_internal_set__limbs(::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> value);
 
-  /// @brief Method get_ikSolvers, addr 0x12dd580, size 0x1b4, virtual false, abstract: false, final false
-  inline ::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> get_ikSolvers();
+  constexpr void __cordl_internal_set_aim(::RootMotion::FinalIK::IKSolverAim* value);
 
-  /// @brief Method AssignReferences, addr 0x12dcd5c, size 0x120, virtual false, abstract: false, final false
-  inline void AssignReferences(::RootMotion::BipedReferences* references);
+  constexpr void __cordl_internal_set_leftFoot(::RootMotion::FinalIK::IKSolverLimb* value);
 
-  static inline ::RootMotion::FinalIK::BipedIKSolvers* New_ctor();
+  constexpr void __cordl_internal_set_leftHand(::RootMotion::FinalIK::IKSolverLimb* value);
 
-  /// @brief Method .ctor, addr 0x12dd3f4, size 0x18c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_lookAt(::RootMotion::FinalIK::IKSolverLookAt* value);
+
+  constexpr void __cordl_internal_set_pelvis(::RootMotion::FinalIK::Constraints* value);
+
+  constexpr void __cordl_internal_set_rightFoot(::RootMotion::FinalIK::IKSolverLimb* value);
+
+  constexpr void __cordl_internal_set_rightHand(::RootMotion::FinalIK::IKSolverLimb* value);
+
+  constexpr void __cordl_internal_set_spine(::RootMotion::FinalIK::IKSolverFABRIK* value);
+
+  /// @brief Method .ctor, addr 0x131e3e0, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_ikSolvers, addr 0x131e56c, size 0x1b4, virtual false, abstract: false, final false
+  inline ::ArrayW<::RootMotion::FinalIK::IKSolver*, ::Array<::RootMotion::FinalIK::IKSolver*>*> get_ikSolvers();
+
+  /// @brief Method get_limbs, addr 0x131d9cc, size 0x130, virtual false, abstract: false, final false
+  inline ::ArrayW<::RootMotion::FinalIK::IKSolverLimb*, ::Array<::RootMotion::FinalIK::IKSolverLimb*>*> get_limbs();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BipedIKSolvers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BipedIKSolvers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BipedIKSolvers(BipedIKSolvers&&) = delete;
@@ -158,12 +162,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BipedIKSolvers(BipedIKSolvers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BipedIKSolvers();
-
-public:
   /// @brief Field leftFoot, offset: 0x10, size: 0x8, def value: None
   ::RootMotion::FinalIK::IKSolverLimb* ___leftFoot;
 

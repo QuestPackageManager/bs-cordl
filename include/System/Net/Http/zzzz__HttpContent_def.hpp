@@ -80,8 +80,6 @@ MARK_VAL_T(::System::Net::Http::__HttpContent___ReadAsStringAsync_d__20);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3562))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14651))
 // CS Name: ::HttpContent::FixedMemoryStream*
 class CORDL_TYPE __HttpContent__FixedMemoryStream : public ::System::IO::MemoryStream {
 public:
@@ -89,26 +87,32 @@ public:
   /// @brief Field maxSize, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_maxSize, put = __cordl_internal_set_maxSize)) int64_t maxSize;
 
-  constexpr int64_t& __cordl_internal_get_maxSize();
-
-  constexpr int64_t const& __cordl_internal_get_maxSize() const;
-
-  constexpr void __cordl_internal_set_maxSize(int64_t value);
+  /// @brief Method CheckOverflow, addr 0x291c6d4, size 0xb0, virtual false, abstract: false, final false
+  inline void CheckOverflow(int32_t count);
 
   static inline ::System::Net::Http::__HttpContent__FixedMemoryStream* New_ctor(int64_t maxSize);
 
-  /// @brief Method .ctor, addr 0x2837000, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(int64_t maxSize);
-
-  /// @brief Method CheckOverflow, addr 0x2837258, size 0xb0, virtual false, abstract: false, final false
-  inline void CheckOverflow(int32_t count);
-
-  /// @brief Method WriteByte, addr 0x2837370, size 0x30, virtual true, abstract: false, final false
-  inline void WriteByte(uint8_t value);
-
-  /// @brief Method Write, addr 0x28373a0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x291c81c, size 0x48, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
+  /// @brief Method WriteByte, addr 0x291c7ec, size 0x30, virtual true, abstract: false, final false
+  inline void WriteByte(uint8_t value);
+
+  constexpr int64_t const& __cordl_internal_get_maxSize() const;
+
+  constexpr int64_t& __cordl_internal_get_maxSize();
+
+  constexpr void __cordl_internal_set_maxSize(int64_t value);
+
+  /// @brief Method .ctor, addr 0x291c47c, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(int64_t maxSize);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HttpContent__FixedMemoryStream();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__HttpContent__FixedMemoryStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __HttpContent__FixedMemoryStream(__HttpContent__FixedMemoryStream&&) = delete;
@@ -117,12 +121,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __HttpContent__FixedMemoryStream(__HttpContent__FixedMemoryStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HttpContent__FixedMemoryStream();
-
-public:
   /// @brief Field maxSize, offset: 0x50, size: 0x8, def value: None
   int64_t ___maxSize;
 
@@ -138,8 +136,6 @@ static_assert(offsetof(::System::Net::Http::__HttpContent__FixedMemoryStream, __
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3397))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14652))
 // CS Name: ::HttpContent::<LoadIntoBufferAsync>d__17
 struct CORDL_TYPE __HttpContent___LoadIntoBufferAsync_d__17 {
 public:
@@ -147,14 +143,18 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x291c864, size 0x264, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x291cac8, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x28373e8, size 0x264, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x283764c, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HttpContent___LoadIntoBufferAsync_d__17();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*", modifiers: "", def_value:
@@ -162,10 +162,6 @@ public:
   // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
   constexpr __HttpContent___LoadIntoBufferAsync_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::Http::HttpContent* __4__this,
                                                       int64_t maxBufferSize, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HttpContent___LoadIntoBufferAsync_d__17();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -205,32 +201,31 @@ static_assert(offsetof(::System::Net::Http::__HttpContent___LoadIntoBufferAsync_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3391)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 398
-// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14653)) CS Name: ::HttpContent::<ReadAsStringAsync>d__20
+// CS Name: ::HttpContent::<ReadAsStringAsync>d__20
 struct CORDL_TYPE __HttpContent___ReadAsStringAsync_d__20 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x291cad4, size 0x370, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x291cfc0, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x2837658, size 0x370, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2837b44, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __HttpContent___ReadAsStringAsync_d__20();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
   constexpr __HttpContent___ReadAsStringAsync_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
                                                     ::System::Net::Http::HttpContent* __4__this, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HttpContent___ReadAsStringAsync_d__20();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -265,17 +260,19 @@ static_assert(offsetof(::System::Net::Http::__HttpContent___ReadAsStringAsync_d_
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14654))
 // CS Name: ::System.Net.Http::HttpContent*
 class CORDL_TYPE HttpContent : public ::System::Object {
 public:
   // Declarations
-  using _ReadAsStringAsync_d__20 = ::System::Net::Http::__HttpContent___ReadAsStringAsync_d__20;
+  using FixedMemoryStream = ::System::Net::Http::__HttpContent__FixedMemoryStream;
 
   using _LoadIntoBufferAsync_d__17 = ::System::Net::Http::__HttpContent___LoadIntoBufferAsync_d__17;
 
-  using FixedMemoryStream = ::System::Net::Http::__HttpContent__FixedMemoryStream;
+  using _ReadAsStringAsync_d__20 = ::System::Net::Http::__HttpContent___ReadAsStringAsync_d__20;
+
+  __declspec(property(get = get_Headers))::System::Net::Http::Headers::HttpContentHeaders* Headers;
+
+  __declspec(property(get = get_LoadedBufferLength))::System::Nullable_1<int64_t> LoadedBufferLength;
 
   /// @brief Field buffer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::System::Net::Http::__HttpContent__FixedMemoryStream* buffer;
@@ -286,81 +283,83 @@ public:
   /// @brief Field headers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::Http::Headers::HttpContentHeaders* headers;
 
-  __declspec(property(get = get_Headers))::System::Net::Http::Headers::HttpContentHeaders* Headers;
-
-  __declspec(property(get = get_LoadedBufferLength))::System::Nullable_1<int64_t> LoadedBufferLength;
-
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+  /// @brief Method CopyToAsync, addr 0x291a12c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream);
+
+  /// @brief Method CopyToAsync, addr 0x291c39c, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
+
+  /// @brief Method CreateFixedMemoryStream, addr 0x291c418, size 0x64, virtual false, abstract: false, final false
+  static inline ::System::Net::Http::__HttpContent__FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
+
+  /// @brief Method Dispose, addr 0x291c4a4, size 0x10, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method Dispose, addr 0x291c4b4, size 0x2c, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method GetEncodingFromBuffer, addr 0x291c4e8, size 0x178, virtual false, abstract: false, final false
+  static inline ::System::Text::Encoding* GetEncodingFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t length, ByRef<int32_t> preambleLength);
+
+  /// @brief Method LoadIntoBufferAsync, addr 0x291c4e0, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync();
+
+  /// @brief Method LoadIntoBufferAsync, addr 0x291a054, size 0xd8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
+
+  static inline ::System::Net::Http::HttpContent* New_ctor();
+
+  /// @brief Method ReadAsStringAsync, addr 0x291c168, size 0xf0, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync();
+
+  /// @brief Method SerializeToStreamAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
+
+  /// @brief Method StartsWith, addr 0x291c660, size 0x74, virtual false, abstract: false, final false
+  static inline int32_t StartsWith(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  /// @brief Method TryComputeLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool TryComputeLength(ByRef<int64_t> length);
 
   constexpr ::System::Net::Http::__HttpContent__FixedMemoryStream*& __cordl_internal_get_buffer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::__HttpContent__FixedMemoryStream*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __cordl_internal_set_buffer(::System::Net::Http::__HttpContent__FixedMemoryStream* value);
-
-  constexpr bool& __cordl_internal_get_disposed();
-
   constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __cordl_internal_set_disposed(bool value);
+  constexpr bool& __cordl_internal_get_disposed();
 
   constexpr ::System::Net::Http::Headers::HttpContentHeaders*& __cordl_internal_get_headers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpContentHeaders*> const& __cordl_internal_get_headers() const;
 
+  constexpr void __cordl_internal_set_buffer(::System::Net::Http::__HttpContent__FixedMemoryStream* value);
+
+  constexpr void __cordl_internal_set_disposed(bool value);
+
   constexpr void __cordl_internal_set_headers(::System::Net::Http::Headers::HttpContentHeaders* value);
 
-  /// @brief Method get_Headers, addr 0x2832b9c, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Net::Http::Headers::HttpContentHeaders* get_Headers();
-
-  /// @brief Method get_LoadedBufferLength, addr 0x2836ea4, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<int64_t> get_LoadedBufferLength();
-
-  /// @brief Method CopyToAsync, addr 0x2834cb0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream);
-
-  /// @brief Method CopyToAsync, addr 0x2836f20, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
-
-  /// @brief Method CreateFixedMemoryStream, addr 0x2836f9c, size 0x64, virtual false, abstract: false, final false
-  static inline ::System::Net::Http::__HttpContent__FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
-
-  /// @brief Method Dispose, addr 0x2837028, size 0x10, virtual true, abstract: false, final true
-  inline void Dispose();
-
-  /// @brief Method Dispose, addr 0x2837038, size 0x2c, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
-  /// @brief Method LoadIntoBufferAsync, addr 0x2837064, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync();
-
-  /// @brief Method LoadIntoBufferAsync, addr 0x2834bd8, size 0xd8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
-
-  /// @brief Method ReadAsStringAsync, addr 0x2836cec, size 0xf0, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync();
-
-  /// @brief Method GetEncodingFromBuffer, addr 0x283706c, size 0x178, virtual false, abstract: false, final false
-  static inline ::System::Text::Encoding* GetEncodingFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t length, ByRef<int32_t> preambleLength);
-
-  /// @brief Method StartsWith, addr 0x28371e4, size 0x74, virtual false, abstract: false, final false
-  static inline int32_t StartsWith(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  /// @brief Method SerializeToStreamAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
-
-  /// @brief Method TryComputeLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool TryComputeLength(ByRef<int64_t> length);
-
-  static inline ::System::Net::Http::HttpContent* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2835384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291a800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Headers, addr 0x2918018, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Net::Http::Headers::HttpContentHeaders* get_Headers();
+
+  /// @brief Method get_LoadedBufferLength, addr 0x291c320, size 0x7c, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<int64_t> get_LoadedBufferLength();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpContent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpContent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpContent(HttpContent&&) = delete;
@@ -369,12 +368,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpContent(HttpContent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpContent();
-
-public:
   /// @brief Field buffer, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Http::__HttpContent__FixedMemoryStream* ___buffer;
 

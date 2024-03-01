@@ -30,18 +30,22 @@ MARK_REF_PTR_T(::UnityEngine::Playables::ScriptPlayableBinding);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9200))
 // CS Name: ::UnityEngine.Playables::ScriptPlayableBinding*
 class CORDL_TYPE ScriptPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2d00e1c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2dec544, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key, ::System::Type* type);
 
-  /// @brief Method CreateScriptOutput, addr 0x2d00ed8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptOutput, addr 0x2dec600, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateScriptOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ScriptPlayableBinding();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ScriptPlayableBinding", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ScriptPlayableBinding(ScriptPlayableBinding&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScriptPlayableBinding(ScriptPlayableBinding const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScriptPlayableBinding();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

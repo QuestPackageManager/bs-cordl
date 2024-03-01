@@ -27,14 +27,15 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::DHParameter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(232))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::DHParameter*
 class CORDL_TYPE DHParameter : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Field p, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Asn1::DerInteger* p;
+  __declspec(property(get = get_G))::Org::BouncyCastle::Math::BigInteger* G;
+
+  __declspec(property(get = get_L))::Org::BouncyCastle::Math::BigInteger* L;
+
+  __declspec(property(get = get_P))::Org::BouncyCastle::Math::BigInteger* P;
 
   /// @brief Field g, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Asn1::DerInteger* g;
@@ -42,52 +43,55 @@ public:
   /// @brief Field l, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l))::Org::BouncyCastle::Asn1::DerInteger* l;
 
-  __declspec(property(get = get_P))::Org::BouncyCastle::Math::BigInteger* P;
+  /// @brief Field p, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Asn1::DerInteger* p;
 
-  __declspec(property(get = get_G))::Org::BouncyCastle::Math::BigInteger* G;
+  static inline ::Org::BouncyCastle::Asn1::Pkcs::DHParameter* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, int32_t l);
 
-  __declspec(property(get = get_L))::Org::BouncyCastle::Math::BigInteger* L;
+  static inline ::Org::BouncyCastle::Asn1::Pkcs::DHParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_p();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_p() const;
-
-  constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Asn1::DerInteger* value);
+  /// @brief Method ToAsn1Object, addr 0xff83dc, size 0x174, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_g();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_g() const;
 
-  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Asn1::DerInteger* value);
-
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_l();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_l() const;
 
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_p();
+
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_p() const;
+
+  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Asn1::DerInteger* value);
+
   constexpr void __cordl_internal_set_l(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::DHParameter* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, int32_t l);
+  constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0xfb1f30, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff7f00, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, int32_t l);
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::DHParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xfb2000, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xff7fd0, size 0x3c0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_P, addr 0xfb23c0, size 0x1c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_P();
-
-  /// @brief Method get_G, addr 0xfb23dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0xff83ac, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_L, addr 0xfb23f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_L, addr 0xff83c8, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_L();
 
-  /// @brief Method ToAsn1Object, addr 0xfb240c, size 0x174, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+  /// @brief Method get_P, addr 0xff8390, size 0x1c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DHParameter();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "DHParameter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   DHParameter(DHParameter&&) = delete;
@@ -96,12 +100,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DHParameter(DHParameter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DHParameter();
-
-public:
   /// @brief Field p, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___p;
 

@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreemen
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(739))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(740))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::ECMqvWithKdfBasicAgreement*
 class CORDL_TYPE ECMqvWithKdfBasicAgreement : public ::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement {
 public:
@@ -38,29 +36,35 @@ public:
   /// @brief Field kdf, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_kdf, put = __cordl_internal_set_kdf))::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
 
-  constexpr ::StringW& __cordl_internal_get_algorithm();
+  /// @brief Method BigIntToBytes, addr 0x128c5a4, size 0x4c, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BigIntToBytes(::Org::BouncyCastle::Math::BigInteger* r);
+
+  /// @brief Method CalculateAgreement, addr 0x128c338, size 0x26c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
+
+  static inline ::Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
 
   constexpr ::StringW const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __cordl_internal_set_algorithm(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_algorithm();
 
   constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction*& __cordl_internal_get_kdf();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDerivationFunction*> const& __cordl_internal_get_kdf() const;
 
+  constexpr void __cordl_internal_set_algorithm(::StringW value);
+
   constexpr void __cordl_internal_set_kdf(::Org::BouncyCastle::Crypto::IDerivationFunction* value);
 
-  static inline ::Org::BouncyCastle::Crypto::Agreement::ECMqvWithKdfBasicAgreement* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
-
-  /// @brief Method .ctor, addr 0x12482c4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x128c294, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
 
-  /// @brief Method CalculateAgreement, addr 0x1248368, size 0x26c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ECMqvWithKdfBasicAgreement();
 
-  /// @brief Method BigIntToBytes, addr 0x12485d4, size 0x4c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BigIntToBytes(::Org::BouncyCastle::Math::BigInteger* r);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ECMqvWithKdfBasicAgreement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ECMqvWithKdfBasicAgreement(ECMqvWithKdfBasicAgreement&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ECMqvWithKdfBasicAgreement(ECMqvWithKdfBasicAgreement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ECMqvWithKdfBasicAgreement();
-
-public:
   /// @brief Field algorithm, offset: 0x18, size: 0x8, def value: None
   ::StringW ___algorithm;
 

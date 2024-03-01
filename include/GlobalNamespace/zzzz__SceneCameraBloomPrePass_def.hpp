@@ -23,15 +23,10 @@ MARK_REF_PTR_T(::GlobalNamespace::SceneCameraBloomPrePass);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14383))
 // CS Name: ::SceneCameraBloomPrePass*
 class CORDL_TYPE SceneCameraBloomPrePass : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _bloomPrepassRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrepassRenderer, put = __cordl_internal_set__bloomPrepassRenderer))::UnityW<::GlobalNamespace::BloomPrePassRendererSO> _bloomPrepassRenderer;
-
   /// @brief Field _bloomPrePassEffectContainer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__bloomPrePassEffectContainer,
                       put = __cordl_internal_set__bloomPrePassEffectContainer))::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> _bloomPrePassEffectContainer;
@@ -39,29 +34,38 @@ public:
   /// @brief Field _bloomPrepassRenderTexture, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__bloomPrepassRenderTexture, put = __cordl_internal_set__bloomPrepassRenderTexture))::UnityW<::UnityEngine::RenderTexture> _bloomPrepassRenderTexture;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>& __cordl_internal_get__bloomPrepassRenderer();
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> const& __cordl_internal_get__bloomPrepassRenderer() const;
-
-  constexpr void __cordl_internal_set__bloomPrepassRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value);
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>& __cordl_internal_get__bloomPrePassEffectContainer();
-
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& __cordl_internal_get__bloomPrePassEffectContainer() const;
-
-  constexpr void __cordl_internal_set__bloomPrePassEffectContainer(::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> value);
-
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__bloomPrepassRenderTexture();
-
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__bloomPrepassRenderTexture() const;
-
-  constexpr void __cordl_internal_set__bloomPrepassRenderTexture(::UnityW<::UnityEngine::RenderTexture> value);
+  /// @brief Field _bloomPrepassRenderer, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomPrepassRenderer, put = __cordl_internal_set__bloomPrepassRenderer))::UnityW<::GlobalNamespace::BloomPrePassRendererSO> _bloomPrepassRenderer;
 
   static inline ::GlobalNamespace::SceneCameraBloomPrePass* New_ctor();
 
-  /// @brief Method .ctor, addr 0x219dff0, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& __cordl_internal_get__bloomPrePassEffectContainer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>& __cordl_internal_get__bloomPrePassEffectContainer();
+
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__bloomPrepassRenderTexture() const;
+
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__bloomPrepassRenderTexture();
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> const& __cordl_internal_get__bloomPrepassRenderer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>& __cordl_internal_get__bloomPrepassRenderer();
+
+  constexpr void __cordl_internal_set__bloomPrePassEffectContainer(::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> value);
+
+  constexpr void __cordl_internal_set__bloomPrepassRenderTexture(::UnityW<::UnityEngine::RenderTexture> value);
+
+  constexpr void __cordl_internal_set__bloomPrepassRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value);
+
+  /// @brief Method .ctor, addr 0x226c658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SceneCameraBloomPrePass();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SceneCameraBloomPrePass", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SceneCameraBloomPrePass(SceneCameraBloomPrePass&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SceneCameraBloomPrePass(SceneCameraBloomPrePass const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SceneCameraBloomPrePass();
-
-public:
   /// @brief Field _bloomPrepassRenderer, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> ____bloomPrepassRenderer;
 

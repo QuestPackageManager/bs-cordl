@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Diagnostics::TraceEventType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6949))
 // CS Name: ::System.Diagnostics::TraceEventType
 struct CORDL_TYPE TraceEventType {
 public:
@@ -42,18 +40,20 @@ public:
     return static_cast<__TraceEventType_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TraceEventType(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__TraceEventType_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TraceEventType();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr TraceEventType(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   /// @brief Field Critical value: static_cast<int32_t>(0x1)
   static ::System::Diagnostics::TraceEventType const Critical;
@@ -61,14 +61,11 @@ public:
   /// @brief Field Error value: static_cast<int32_t>(0x2)
   static ::System::Diagnostics::TraceEventType const Error;
 
-  /// @brief Field Warning value: static_cast<int32_t>(0x4)
-  static ::System::Diagnostics::TraceEventType const Warning;
-
   /// @brief Field Information value: static_cast<int32_t>(0x8)
   static ::System::Diagnostics::TraceEventType const Information;
 
-  /// @brief Field Verbose value: static_cast<int32_t>(0x10)
-  static ::System::Diagnostics::TraceEventType const Verbose;
+  /// @brief Field Resume value: static_cast<int32_t>(0x800)
+  static ::System::Diagnostics::TraceEventType const Resume;
 
   /// @brief Field Start value: static_cast<int32_t>(0x100)
   static ::System::Diagnostics::TraceEventType const Start;
@@ -79,11 +76,17 @@ public:
   /// @brief Field Suspend value: static_cast<int32_t>(0x400)
   static ::System::Diagnostics::TraceEventType const Suspend;
 
-  /// @brief Field Resume value: static_cast<int32_t>(0x800)
-  static ::System::Diagnostics::TraceEventType const Resume;
-
   /// @brief Field Transfer value: static_cast<int32_t>(0x1000)
   static ::System::Diagnostics::TraceEventType const Transfer;
+
+  /// @brief Field Verbose value: static_cast<int32_t>(0x10)
+  static ::System::Diagnostics::TraceEventType const Verbose;
+
+  /// @brief Field Warning value: static_cast<int32_t>(0x4)
+  static ::System::Diagnostics::TraceEventType const Warning;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -18,51 +18,55 @@ MARK_REF_PTR_T(::Mono::Net::Security::AsyncProtocolResult);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6828))
 // CS Name: ::Mono.Net.Security::AsyncProtocolResult*
 class CORDL_TYPE AsyncProtocolResult : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <UserResult>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__UserResult_k__BackingField, put = __cordl_internal_set__UserResult_k__BackingField)) int32_t _UserResult_k__BackingField;
+  __declspec(property(get = get_Error))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
+
+  __declspec(property(get = get_UserResult)) int32_t UserResult;
 
   /// @brief Field <Error>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Error_k__BackingField,
                       put = __cordl_internal_set__Error_k__BackingField))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _Error_k__BackingField;
 
-  __declspec(property(get = get_UserResult)) int32_t UserResult;
+  /// @brief Field <UserResult>k__BackingField, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__UserResult_k__BackingField, put = __cordl_internal_set__UserResult_k__BackingField)) int32_t _UserResult_k__BackingField;
 
-  __declspec(property(get = get_Error))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
+  static inline ::Mono::Net::Security::AsyncProtocolResult* New_ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
-  constexpr int32_t& __cordl_internal_get__UserResult_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__UserResult_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__UserResult_k__BackingField(int32_t value);
+  static inline ::Mono::Net::Security::AsyncProtocolResult* New_ctor(int32_t result);
 
   constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get__Error_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get__Error_k__BackingField() const;
 
+  constexpr int32_t const& __cordl_internal_get__UserResult_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__UserResult_k__BackingField();
+
   constexpr void __cordl_internal_set__Error_k__BackingField(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-  /// @brief Method get_UserResult, addr 0x2822948, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_UserResult();
+  constexpr void __cordl_internal_set__UserResult_k__BackingField(int32_t value);
 
-  /// @brief Method get_Error, addr 0x2822950, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
-
-  static inline ::Mono::Net::Security::AsyncProtocolResult* New_ctor(int32_t result);
-
-  /// @brief Method .ctor, addr 0x2822958, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(int32_t result);
-
-  static inline ::Mono::Net::Security::AsyncProtocolResult* New_ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
-
-  /// @brief Method .ctor, addr 0x2822980, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2907dfc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
+  /// @brief Method .ctor, addr 0x2907dd4, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(int32_t result);
+
+  /// @brief Method get_Error, addr 0x2907dcc, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
+
+  /// @brief Method get_UserResult, addr 0x2907dc4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_UserResult();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncProtocolResult();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncProtocolResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AsyncProtocolResult(AsyncProtocolResult&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncProtocolResult(AsyncProtocolResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsyncProtocolResult();
-
-public:
   /// @brief Field <UserResult>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____UserResult_k__BackingField;
 

@@ -18,33 +18,37 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15589))
 // CS Name: ::ColorExtensions*
 class CORDL_TYPE ColorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SaturatedColor, addr 0xe50800, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color SaturatedColor(::UnityEngine::Color color, float_t saturation);
-
-  /// @brief Method ColorWithAlpha, addr 0xe50858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColorWithAlpha, addr 0xe96828, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithAlpha(::UnityEngine::Color color, float_t alpha);
 
-  /// @brief Method ColorWithR, addr 0xe50860, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color ColorWithR(::UnityEngine::Color color, float_t r);
-
-  /// @brief Method ColorWithG, addr 0xe50868, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color ColorWithG(::UnityEngine::Color color, float_t g);
-
-  /// @brief Method ColorWithB, addr 0xe50870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColorWithB, addr 0xe96840, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithB(::UnityEngine::Color color, float_t b);
 
-  /// @brief Method ColorWithValue, addr 0xe50878, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ColorWithG, addr 0xe96838, size 0x8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Color ColorWithG(::UnityEngine::Color color, float_t g);
+
+  /// @brief Method ColorWithR, addr 0xe96830, size 0x8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Color ColorWithR(::UnityEngine::Color color, float_t r);
+
+  /// @brief Method ColorWithValue, addr 0xe96848, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorWithValue(::UnityEngine::Color color, float_t value);
 
-  /// @brief Method LerpRGBUnclamped, addr 0xe508cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LerpRGBUnclamped, addr 0xe9689c, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color LerpRGBUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t);
 
+  /// @brief Method SaturatedColor, addr 0xe967d0, size 0x58, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Color SaturatedColor(::UnityEngine::Color color, float_t saturation);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ColorExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ColorExtensions(ColorExtensions&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorExtensions(ColorExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

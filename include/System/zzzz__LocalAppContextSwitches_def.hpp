@@ -14,19 +14,24 @@ MARK_REF_PTR_T(::System::LocalAppContextSwitches);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11300))
 // CS Name: ::System::LocalAppContextSwitches*
 class CORDL_TYPE LocalAppContextSwitches : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field DontThrowOnInvalidSurrogatePairs, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_DontThrowOnInvalidSurrogatePairs, put = setStaticF_DontThrowOnInvalidSurrogatePairs)) bool DontThrowOnInvalidSurrogatePairs;
+  /// @brief Field MemberDescriptorEqualsReturnsFalseIfEquivalent, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent,
+                             put = setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent)) bool MemberDescriptorEqualsReturnsFalseIfEquivalent;
 
-  static inline void setStaticF_DontThrowOnInvalidSurrogatePairs(bool value);
+  static inline bool getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent();
 
-  static inline bool getStaticF_DontThrowOnInvalidSurrogatePairs();
+  static inline void setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent(bool value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LocalAppContextSwitches();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LocalAppContextSwitches", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LocalAppContextSwitches(LocalAppContextSwitches&&) = delete;
@@ -35,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalAppContextSwitches(LocalAppContextSwitches const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalAppContextSwitches();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

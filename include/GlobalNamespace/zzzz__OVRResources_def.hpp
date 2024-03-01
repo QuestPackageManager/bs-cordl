@@ -39,8 +39,6 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::__OVRResources____c__DisplayClass3_0_1);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7970))
 // CS Name: ::OVRResources::<>c__DisplayClass2_0*
 class CORDL_TYPE __OVRResources____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -48,20 +46,26 @@ public:
   /// @brief Field path, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path))::StringW path;
 
-  constexpr ::StringW& __cordl_internal_get_path();
+  static inline ::GlobalNamespace::__OVRResources____c__DisplayClass2_0* New_ctor();
+
+  /// @brief Method <Load>b__0, addr 0x2871d94, size 0x34, virtual false, abstract: false, final false
+  inline bool _Load_b__0(::StringW s);
 
   constexpr ::StringW const& __cordl_internal_get_path() const;
 
+  constexpr ::StringW& __cordl_internal_get_path();
+
   constexpr void __cordl_internal_set_path(::StringW value);
 
-  static inline ::GlobalNamespace::__OVRResources____c__DisplayClass2_0* New_ctor();
-
-  /// @brief Method .ctor, addr 0x279d6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2871cb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Load>b__0, addr 0x279d7c0, size 0x34, virtual false, abstract: false, final false
-  inline bool _Load_b__0(::StringW s);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRResources____c__DisplayClass2_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRResources____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRResources____c__DisplayClass2_0(__OVRResources____c__DisplayClass2_0&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRResources____c__DisplayClass2_0(__OVRResources____c__DisplayClass2_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRResources____c__DisplayClass2_0();
-
-public:
   /// @brief Field path, offset: 0x10, size: 0x8, def value: None
   ::StringW ___path;
 
@@ -93,8 +91,6 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7971))
 // CS Name: ::OVRResources::<>c__DisplayClass3_0`1<T>*
 class CORDL_TYPE __OVRResources____c__DisplayClass3_0_1 : public ::System::Object {
 public:
@@ -102,20 +98,26 @@ public:
   /// @brief Field path, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path))::StringW path;
 
-  constexpr ::StringW& __cordl_internal_get_path();
-
-  constexpr ::StringW const& __cordl_internal_get_path() const;
-
-  constexpr void __cordl_internal_set_path(::StringW value);
-
   static inline ::GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <Load>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _Load_b__0(::StringW s);
 
+  constexpr ::StringW const& __cordl_internal_get_path() const;
+
+  constexpr ::StringW& __cordl_internal_get_path();
+
+  constexpr void __cordl_internal_set_path(::StringW value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRResources____c__DisplayClass3_0_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__OVRResources____c__DisplayClass3_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __OVRResources____c__DisplayClass3_0_1(__OVRResources____c__DisplayClass3_0_1&&) = delete;
@@ -124,12 +126,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRResources____c__DisplayClass3_0_1(__OVRResources____c__DisplayClass3_0_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRResources____c__DisplayClass3_0_1();
-
-public:
   /// @brief Field path, offset: 0x10, size: 0x8, def value: None
   ::StringW ___path;
 
@@ -141,44 +137,48 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7972))
 // CS Name: ::OVRResources*
 class CORDL_TYPE OVRResources : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  template <typename T> using __c__DisplayClass3_0_1 = ::GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>;
-
   using __c__DisplayClass2_0 = ::GlobalNamespace::__OVRResources____c__DisplayClass2_0;
 
-  /// @brief Field resourceBundle, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_resourceBundle, put = setStaticF_resourceBundle))::UnityW<::UnityEngine::AssetBundle> resourceBundle;
+  template <typename T> using __c__DisplayClass3_0_1 = ::GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>;
 
   /// @brief Field assetNames, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_assetNames, put = setStaticF_assetNames))::System::Collections::Generic::List_1<::StringW>* assetNames;
 
-  static inline void setStaticF_resourceBundle(::UnityW<::UnityEngine::AssetBundle> value);
+  /// @brief Field resourceBundle, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_resourceBundle, put = setStaticF_resourceBundle))::UnityW<::UnityEngine::AssetBundle> resourceBundle;
 
-  static inline ::UnityW<::UnityEngine::AssetBundle> getStaticF_resourceBundle();
-
-  static inline void setStaticF_assetNames(::System::Collections::Generic::List_1<::StringW>* value);
-
-  static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_assetNames();
-
-  /// @brief Method Load, addr 0x279d4f8, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2871acc, size 0x1e4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Load(::StringW path);
 
-  /// @brief Method SetResourceBundle, addr 0x279d6e4, size 0xd4, virtual false, abstract: false, final false
-  static inline void SetResourceBundle(::UnityEngine::AssetBundle* bundle);
-
   static inline ::GlobalNamespace::OVRResources* New_ctor();
 
-  /// @brief Method .ctor, addr 0x279d7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetResourceBundle, addr 0x2871cb8, size 0xd4, virtual false, abstract: false, final false
+  static inline void SetResourceBundle(::UnityEngine::AssetBundle* bundle);
+
+  /// @brief Method .ctor, addr 0x2871d8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_assetNames();
+
+  static inline ::UnityW<::UnityEngine::AssetBundle> getStaticF_resourceBundle();
+
+  static inline void setStaticF_assetNames(::System::Collections::Generic::List_1<::StringW>* value);
+
+  static inline void setStaticF_resourceBundle(::UnityW<::UnityEngine::AssetBundle> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRResources();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRResources", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   OVRResources(OVRResources&&) = delete;
@@ -187,12 +187,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRResources(OVRResources const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRResources();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

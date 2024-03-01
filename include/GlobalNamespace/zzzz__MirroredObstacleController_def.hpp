@@ -35,81 +35,85 @@ MARK_REF_PTR_T(::GlobalNamespace::__MirroredObstacleController__Pool);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4144))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4140))
 // CS Name: ::MirroredObstacleController*
 class CORDL_TYPE MirroredObstacleController : public ::GlobalNamespace::ObstacleControllerBase {
 public:
   // Declarations
   using Pool = ::GlobalNamespace::__MirroredObstacleController__Pool;
 
-  /// @brief Field _stretchableObstacle, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__stretchableObstacle, put = __cordl_internal_set__stretchableObstacle))::UnityW<::GlobalNamespace::StretchableObstacle> _stretchableObstacle;
-
   /// @brief Field _followedObstacle, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__followedObstacle, put = __cordl_internal_set__followedObstacle))::UnityW<::GlobalNamespace::ObstacleController> _followedObstacle;
-
-  /// @brief Field _transform, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Field _followedTransform, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__followedTransform, put = __cordl_internal_set__followedTransform))::UnityW<::UnityEngine::Transform> _followedTransform;
 
+  /// @brief Field _stretchableObstacle, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__stretchableObstacle, put = __cordl_internal_set__stretchableObstacle))::UnityW<::GlobalNamespace::StretchableObstacle> _stretchableObstacle;
+
+  /// @brief Field _transform, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+
   __declspec(property(put = set_hide)) bool hide;
 
-  constexpr ::UnityW<::GlobalNamespace::StretchableObstacle>& __cordl_internal_get__stretchableObstacle();
-
-  constexpr ::UnityW<::GlobalNamespace::StretchableObstacle> const& __cordl_internal_get__stretchableObstacle() const;
-
-  constexpr void __cordl_internal_set__stretchableObstacle(::UnityW<::GlobalNamespace::StretchableObstacle> value);
-
-  constexpr ::UnityW<::GlobalNamespace::ObstacleController>& __cordl_internal_get__followedObstacle();
-
-  constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__followedObstacle() const;
-
-  constexpr void __cordl_internal_set__followedObstacle(::UnityW<::GlobalNamespace::ObstacleController> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
-
-  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__followedTransform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__followedTransform() const;
-
-  constexpr void __cordl_internal_set__followedTransform(::UnityW<::UnityEngine::Transform> value);
-
-  /// @brief Method set_hide, addr 0x22c9378, size 0x2c, virtual false, abstract: false, final false
-  inline void set_hide(bool value);
-
-  /// @brief Method Awake, addr 0x22d39c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x23a1030, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy, addr 0x22d39e4, size 0x4, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method Update, addr 0x22d3ab4, size 0x4, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method RemoveListeners, addr 0x22d39e8, size 0xcc, virtual false, abstract: false, final false
-  inline void RemoveListeners();
-
-  /// @brief Method UpdatePositionAndRotation, addr 0x22d3ab8, size 0x104, virtual false, abstract: false, final false
-  inline void UpdatePositionAndRotation();
-
-  /// @brief Method Mirror, addr 0x22c8694, size 0xfc, virtual false, abstract: false, final false
-  inline void Mirror(::GlobalNamespace::ObstacleController* obstacleController);
-
-  /// @brief Method HandleDidStartDissolving, addr 0x22d3d38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleDidStartDissolving, addr 0x23a13a0, size 0x20, virtual false, abstract: false, final false
   inline void HandleDidStartDissolving(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration);
+
+  /// @brief Method Mirror, addr 0x2395cfc, size 0xfc, virtual false, abstract: false, final false
+  inline void Mirror(::GlobalNamespace::ObstacleController* obstacleController);
 
   static inline ::GlobalNamespace::MirroredObstacleController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d3d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x23a104c, size 0x4, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method RemoveListeners, addr 0x23a1050, size 0xcc, virtual false, abstract: false, final false
+  inline void RemoveListeners();
+
+  /// @brief Method Update, addr 0x23a111c, size 0x4, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdatePositionAndRotation, addr 0x23a1120, size 0x104, virtual false, abstract: false, final false
+  inline void UpdatePositionAndRotation();
+
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__followedObstacle() const;
+
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController>& __cordl_internal_get__followedObstacle();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__followedTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__followedTransform();
+
+  constexpr ::UnityW<::GlobalNamespace::StretchableObstacle> const& __cordl_internal_get__stretchableObstacle() const;
+
+  constexpr ::UnityW<::GlobalNamespace::StretchableObstacle>& __cordl_internal_get__stretchableObstacle();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+
+  constexpr void __cordl_internal_set__followedObstacle(::UnityW<::GlobalNamespace::ObstacleController> value);
+
+  constexpr void __cordl_internal_set__followedTransform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__stretchableObstacle(::UnityW<::GlobalNamespace::StretchableObstacle> value);
+
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+
+  /// @brief Method .ctor, addr 0x23a13dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method set_hide, addr 0x23969e0, size 0x2c, virtual false, abstract: false, final false
+  inline void set_hide(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MirroredObstacleController();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MirroredObstacleController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MirroredObstacleController(MirroredObstacleController&&) = delete;
@@ -118,12 +122,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MirroredObstacleController(MirroredObstacleController const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MirroredObstacleController();
-
-public:
   /// @brief Field _stretchableObstacle, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StretchableObstacle> ____stretchableObstacle;
 
@@ -154,16 +152,21 @@ static_assert(offsetof(::GlobalNamespace::MirroredObstacleController, ____follow
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4140)), TypeDefinitionIndex(TypeDefinitionIndex(10192)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10192), inst:
-// 2786 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4139)) CS Name: ::MirroredObstacleController::Pool*
+// CS Name: ::MirroredObstacleController::Pool*
 class CORDL_TYPE __MirroredObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MirroredObstacleController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MirroredObstacleController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22d3d84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a13ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MirroredObstacleController__Pool();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MirroredObstacleController__Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MirroredObstacleController__Pool(__MirroredObstacleController__Pool&&) = delete;
@@ -172,12 +175,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MirroredObstacleController__Pool(__MirroredObstacleController__Pool const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MirroredObstacleController__Pool();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

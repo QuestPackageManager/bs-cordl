@@ -36,38 +36,42 @@ MARK_REF_PTR_T(::BGLib::UnityExtension::__UnityWebRequestExtensions____c__Displa
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15638))
 // CS Name: ::UnityWebRequestExtensions::<>c__DisplayClass0_0*
 class CORDL_TYPE __UnityWebRequestExtensions____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field webRequestOperation, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_webRequestOperation, put = __cordl_internal_set_webRequestOperation))::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation;
-
   /// @brief Field tcs, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* tcs;
 
-  constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& __cordl_internal_get_webRequestOperation();
+  /// @brief Field webRequestOperation, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_webRequestOperation, put = __cordl_internal_set_webRequestOperation))::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const& __cordl_internal_get_webRequestOperation() const;
+  static inline ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass0_0* New_ctor();
 
-  constexpr void __cordl_internal_set_webRequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
+  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0xe99c90, size 0xd0, virtual false, abstract: false, final false
+  inline void _GetAwaiter_g__SetResult_0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*& __cordl_internal_get_tcs();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*> const& __cordl_internal_get_tcs() const;
 
+  constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& __cordl_internal_get_webRequestOperation();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const& __cordl_internal_get_webRequestOperation() const;
+
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* value);
 
-  static inline ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass0_0* New_ctor();
+  constexpr void __cordl_internal_set_webRequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
 
-  /// @brief Method .ctor, addr 0xe53cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xe99c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0xe53cc0, size 0xd0, virtual false, abstract: false, final false
-  inline void _GetAwaiter_g__SetResult_0(::UnityEngine::AsyncOperation* _);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UnityWebRequestExtensions____c__DisplayClass0_0();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UnityWebRequestExtensions____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UnityWebRequestExtensions____c__DisplayClass0_0(__UnityWebRequestExtensions____c__DisplayClass0_0&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityWebRequestExtensions____c__DisplayClass0_0(__UnityWebRequestExtensions____c__DisplayClass0_0 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UnityWebRequestExtensions____c__DisplayClass0_0();
-
-public:
   /// @brief Field webRequestOperation, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequestAsyncOperation* ___webRequestOperation;
 
@@ -102,18 +100,22 @@ static_assert(offsetof(::BGLib::UnityExtension::__UnityWebRequestExtensions____c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15639))
 // CS Name: ::BGLib.UnityExtension::UnityWebRequestExtensions*
 class CORDL_TYPE UnityWebRequestExtensions : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass0_0 = ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass0_0;
 
-  /// @brief Method GetAwaiter, addr 0xe53880, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0xe99850, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::__UnityWebRequest__Result>
   GetAwaiter(::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnityWebRequestExtensions();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnityWebRequestExtensions(UnityWebRequestExtensions&&) = delete;
@@ -122,12 +124,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityWebRequestExtensions(UnityWebRequestExtensions const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityWebRequestExtensions();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::CryptoPro {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(128))
 // CS Name: ::Org.BouncyCastle.Asn1.CryptoPro::Gost28147Parameters*
 class CORDL_TYPE Gost28147Parameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
@@ -44,32 +42,38 @@ public:
   /// @brief Field paramSet, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_paramSet, put = __cordl_internal_set_paramSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* paramSet;
 
+  /// @brief Method GetInstance, addr 0xefd7c0, size 0x18, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+
+  /// @brief Method GetInstance, addr 0xefd7d8, size 0x178, virtual false, abstract: false, final false
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* GetInstance(::System::Object* obj);
+
+  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+
+  /// @brief Method ToAsn1Object, addr 0xefda80, size 0xf0, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_iv();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_iv() const;
-
-  constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_paramSet();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_paramSet() const;
 
+  constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+
   constexpr void __cordl_internal_set_paramSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method GetInstance, addr 0xeb67f0, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
-
-  /// @brief Method GetInstance, addr 0xeb6808, size 0x178, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* GetInstance(::System::Object* obj);
-
-  static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost28147Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
-
-  /// @brief Method .ctor, addr 0xeb6980, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xefd950, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xeb6ab0, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Gost28147Parameters();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Gost28147Parameters", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Gost28147Parameters(Gost28147Parameters&&) = delete;
@@ -78,12 +82,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Gost28147Parameters(Gost28147Parameters const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Gost28147Parameters();
-
-public:
   /// @brief Field iv, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___iv;
 

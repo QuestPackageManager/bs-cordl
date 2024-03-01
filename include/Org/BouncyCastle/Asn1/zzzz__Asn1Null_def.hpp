@@ -15,20 +15,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Null);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(31))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(454))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1Null*
 class CORDL_TYPE Asn1Null : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Asn1Null* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11e43b4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method ToString, addr 0x11e43bc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x122738c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  /// @brief Method .ctor, addr 0x1227384, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Asn1Null();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Null", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Asn1Null(Asn1Null&&) = delete;
@@ -37,12 +41,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Asn1Null(Asn1Null const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Asn1Null();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

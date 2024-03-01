@@ -16,19 +16,17 @@ MARK_VAL_T(::BeatmapSaveDataVersion4::Chain);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11152))
 // CS Name: ::BeatmapSaveDataVersion4::Chain
 struct CORDL_TYPE Chain {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "tx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "c", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr Chain(int32_t tx, int32_t ty, int32_t c, float_t s) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr Chain();
+
+  // Ctor Parameters [CppParam { name: "tx", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ty", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "c", ty:
+  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr Chain(int32_t tx, int32_t ty, int32_t c, float_t s) noexcept;
 
   /// @brief Field tx, offset: 0x0, size: 0x4, def value: None
   int32_t tx;

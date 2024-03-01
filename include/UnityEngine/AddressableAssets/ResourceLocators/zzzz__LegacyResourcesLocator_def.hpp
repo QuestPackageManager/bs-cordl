@@ -34,8 +34,6 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourc
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14126))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::LegacyResourcesLocator*
 class CORDL_TYPE LegacyResourcesLocator : public ::System::Object {
 public:
@@ -47,23 +45,29 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
-  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
-
-  /// @brief Method Locate, addr 0x2a31200, size 0x274, virtual true, abstract: false, final true
+  /// @brief Method Locate, addr 0x2b192d4, size 0x274, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
-
-  /// @brief Method get_Keys, addr 0x2a31474, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
-
-  /// @brief Method get_LocatorId, addr 0x2a3147c, size 0x40, virtual true, abstract: false, final true
-  inline ::StringW get_LocatorId();
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a314bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b19590, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Keys, addr 0x2b19548, size 0x8, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
+
+  /// @brief Method get_LocatorId, addr 0x2b19550, size 0x40, virtual true, abstract: false, final true
+  inline ::StringW get_LocatorId();
+
+  /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
+  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr LegacyResourcesLocator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesLocator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   LegacyResourcesLocator(LegacyResourcesLocator&&) = delete;
@@ -72,12 +76,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LegacyResourcesLocator(LegacyResourcesLocator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LegacyResourcesLocator();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

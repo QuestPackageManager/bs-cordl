@@ -26,8 +26,6 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::PointerState);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 50, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8987))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5766))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::PointerState
 struct CORDL_TYPE PointerState {
 public:
@@ -37,23 +35,23 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
+  /// @brief Method get_format, addr 0x2bcf78c, size 0x30, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
+
+  /// @brief Method get_kFormat, addr 0x2bcf75c, size 0x30, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
+
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-  /// @brief Method get_kFormat, addr 0x2aea688, size 0x30, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
-
-  /// @brief Method get_format, addr 0x2aea6b8, size 0x30, virtual true, abstract: false, final true
-  inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointerState();
 
   // Ctor Parameters [CppParam { name: "pointerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
   // CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "radius",
   // ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "buttons", ty: "uint16_t", modifiers: "", def_value: None }]
   constexpr PointerState(uint32_t pointerId, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 delta, float_t pressure, ::UnityEngine::Vector2 radius, uint16_t buttons) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerState();
 
   /// @brief Field pointerId, offset: 0x0, size: 0x4, def value: None
   uint32_t pointerId;

@@ -17,16 +17,19 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::X9ECParametersHolder*
 class CORDL_TYPE X9ECParametersHolder : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Asn1::X9::X9ECParameters* Parameters;
+
   /// @brief Field parameters, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Asn1::X9::X9ECParameters* parameters;
 
-  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Asn1::X9::X9ECParameters* Parameters;
+  /// @brief Method CreateParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+
+  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* New_ctor();
 
   constexpr ::Org::BouncyCastle::Asn1::X9::X9ECParameters*& __cordl_internal_get_parameters();
 
@@ -34,17 +37,18 @@ public:
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::X9::X9ECParameters* value);
 
-  /// @brief Method get_Parameters, addr 0xe8d3e8, size 0xb8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
-
-  /// @brief Method CreateParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
-
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* New_ctor();
-
-  /// @brief Method .ctor, addr 0xe8d6bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xed468c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_Parameters, addr 0xed43b8, size 0xb8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* get_Parameters();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X9ECParametersHolder();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X9ECParametersHolder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X9ECParametersHolder(X9ECParametersHolder&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X9ECParametersHolder(X9ECParametersHolder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X9ECParametersHolder();
-
-public:
   /// @brief Field parameters, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X9::X9ECParameters* ___parameters;
 

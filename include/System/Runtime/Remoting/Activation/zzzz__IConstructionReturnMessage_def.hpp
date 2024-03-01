@@ -22,29 +22,27 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::IConstructionReturnMessa
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3135))
 // CS Name: ::System.Runtime.Remoting.Activation::IConstructionReturnMessage*
 class CORDL_TYPE IConstructionReturnMessage {
 public:
   // Declarations
-  /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
-  constexpr operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept;
-
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
-  constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept;
+  /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
+  constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
-  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
-
-  /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
-  constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
+  /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
+  constexpr operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept;
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMessage* i___System__Runtime__Remoting__Messaging__IMessage() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
+
+  /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept;
 
   // Ctor Parameters [CppParam { name: "", ty: "IConstructionReturnMessage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

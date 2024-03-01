@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Security::Cryptography::CspProviderFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2926))
 // CS Name: ::System.Security.Cryptography::CspProviderFlags
 struct CORDL_TYPE CspProviderFlags {
 public:
@@ -41,45 +39,50 @@ public:
     return static_cast<__CspProviderFlags_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr CspProviderFlags(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__CspProviderFlags_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr CspProviderFlags();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr CspProviderFlags(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field CreateEphemeralKey value: static_cast<int32_t>(0x80)
+  static ::System::Security::Cryptography::CspProviderFlags const CreateEphemeralKey;
 
   /// @brief Field NoFlags value: static_cast<int32_t>(0x0)
   static ::System::Security::Cryptography::CspProviderFlags const NoFlags;
 
-  /// @brief Field UseMachineKeyStore value: static_cast<int32_t>(0x1)
-  static ::System::Security::Cryptography::CspProviderFlags const UseMachineKeyStore;
-
-  /// @brief Field UseDefaultKeyContainer value: static_cast<int32_t>(0x2)
-  static ::System::Security::Cryptography::CspProviderFlags const UseDefaultKeyContainer;
-
-  /// @brief Field UseNonExportableKey value: static_cast<int32_t>(0x4)
-  static ::System::Security::Cryptography::CspProviderFlags const UseNonExportableKey;
-
-  /// @brief Field UseExistingKey value: static_cast<int32_t>(0x8)
-  static ::System::Security::Cryptography::CspProviderFlags const UseExistingKey;
+  /// @brief Field NoPrompt value: static_cast<int32_t>(0x40)
+  static ::System::Security::Cryptography::CspProviderFlags const NoPrompt;
 
   /// @brief Field UseArchivableKey value: static_cast<int32_t>(0x10)
   static ::System::Security::Cryptography::CspProviderFlags const UseArchivableKey;
 
+  /// @brief Field UseDefaultKeyContainer value: static_cast<int32_t>(0x2)
+  static ::System::Security::Cryptography::CspProviderFlags const UseDefaultKeyContainer;
+
+  /// @brief Field UseExistingKey value: static_cast<int32_t>(0x8)
+  static ::System::Security::Cryptography::CspProviderFlags const UseExistingKey;
+
+  /// @brief Field UseMachineKeyStore value: static_cast<int32_t>(0x1)
+  static ::System::Security::Cryptography::CspProviderFlags const UseMachineKeyStore;
+
+  /// @brief Field UseNonExportableKey value: static_cast<int32_t>(0x4)
+  static ::System::Security::Cryptography::CspProviderFlags const UseNonExportableKey;
+
   /// @brief Field UseUserProtectedKey value: static_cast<int32_t>(0x20)
   static ::System::Security::Cryptography::CspProviderFlags const UseUserProtectedKey;
 
-  /// @brief Field NoPrompt value: static_cast<int32_t>(0x40)
-  static ::System::Security::Cryptography::CspProviderFlags const NoPrompt;
-
-  /// @brief Field CreateEphemeralKey value: static_cast<int32_t>(0x80)
-  static ::System::Security::Cryptography::CspProviderFlags const CreateEphemeralKey;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

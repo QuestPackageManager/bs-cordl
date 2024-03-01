@@ -18,12 +18,17 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapMethodAttribute);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3138))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3140))
 // CS Name: ::System.Runtime.Remoting.Metadata::SoapMethodAttribute*
 class CORDL_TYPE SoapMethodAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
   // Declarations
+  __declspec(property(get = get_UseAttribute)) bool UseAttribute;
+
+  __declspec(property(get = get_XmlNamespace))::StringW XmlNamespace;
+
+  /// @brief Field _namespace, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__namespace, put = __cordl_internal_set__namespace))::StringW _namespace;
+
   /// @brief Field _responseElement, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__responseElement, put = __cordl_internal_set__responseElement))::StringW _responseElement;
 
@@ -39,63 +44,62 @@ public:
   /// @brief Field _useAttribute, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__useAttribute, put = __cordl_internal_set__useAttribute)) bool _useAttribute;
 
-  /// @brief Field _namespace, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__namespace, put = __cordl_internal_set__namespace))::StringW _namespace;
+  static inline ::System::Runtime::Remoting::Metadata::SoapMethodAttribute* New_ctor();
 
-  __declspec(property(get = get_UseAttribute)) bool UseAttribute;
-
-  __declspec(property(get = get_XmlNamespace))::StringW XmlNamespace;
-
-  constexpr ::StringW& __cordl_internal_get__responseElement();
-
-  constexpr ::StringW const& __cordl_internal_get__responseElement() const;
-
-  constexpr void __cordl_internal_set__responseElement(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__responseNamespace();
-
-  constexpr ::StringW const& __cordl_internal_get__responseNamespace() const;
-
-  constexpr void __cordl_internal_set__responseNamespace(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__returnElement();
-
-  constexpr ::StringW const& __cordl_internal_get__returnElement() const;
-
-  constexpr void __cordl_internal_set__returnElement(::StringW value);
-
-  constexpr ::StringW& __cordl_internal_get__soapAction();
-
-  constexpr ::StringW const& __cordl_internal_get__soapAction() const;
-
-  constexpr void __cordl_internal_set__soapAction(::StringW value);
-
-  constexpr bool& __cordl_internal_get__useAttribute();
-
-  constexpr bool const& __cordl_internal_get__useAttribute() const;
-
-  constexpr void __cordl_internal_set__useAttribute(bool value);
-
-  constexpr ::StringW& __cordl_internal_get__namespace();
+  /// @brief Method SetReflectionObject, addr 0x2598ae8, size 0x1ac, virtual true, abstract: false, final false
+  inline void SetReflectionObject(::System::Object* reflectionObject);
 
   constexpr ::StringW const& __cordl_internal_get__namespace() const;
 
+  constexpr ::StringW& __cordl_internal_get__namespace();
+
+  constexpr ::StringW const& __cordl_internal_get__responseElement() const;
+
+  constexpr ::StringW& __cordl_internal_get__responseElement();
+
+  constexpr ::StringW const& __cordl_internal_get__responseNamespace() const;
+
+  constexpr ::StringW& __cordl_internal_get__responseNamespace();
+
+  constexpr ::StringW const& __cordl_internal_get__returnElement() const;
+
+  constexpr ::StringW& __cordl_internal_get__returnElement();
+
+  constexpr ::StringW const& __cordl_internal_get__soapAction() const;
+
+  constexpr ::StringW& __cordl_internal_get__soapAction();
+
+  constexpr bool const& __cordl_internal_get__useAttribute() const;
+
+  constexpr bool& __cordl_internal_get__useAttribute();
+
   constexpr void __cordl_internal_set__namespace(::StringW value);
 
-  static inline ::System::Runtime::Remoting::Metadata::SoapMethodAttribute* New_ctor();
+  constexpr void __cordl_internal_set__responseElement(::StringW value);
 
-  /// @brief Method .ctor, addr 0x24c7dd8, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__responseNamespace(::StringW value);
+
+  constexpr void __cordl_internal_set__returnElement(::StringW value);
+
+  constexpr void __cordl_internal_set__soapAction(::StringW value);
+
+  constexpr void __cordl_internal_set__useAttribute(bool value);
+
+  /// @brief Method .ctor, addr 0x2598ad0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseAttribute, addr 0x24c7de0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UseAttribute, addr 0x2598ad8, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlNamespace, addr 0x24c7de8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlNamespace, addr 0x2598ae0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
-  /// @brief Method SetReflectionObject, addr 0x24c7df0, size 0x1ac, virtual true, abstract: false, final false
-  inline void SetReflectionObject(::System::Object* reflectionObject);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SoapMethodAttribute();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SoapMethodAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SoapMethodAttribute(SoapMethodAttribute&&) = delete;
@@ -104,12 +108,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SoapMethodAttribute(SoapMethodAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SoapMethodAttribute();
-
-public:
   /// @brief Field _responseElement, offset: 0x28, size: 0x8, def value: None
   ::StringW ____responseElement;
 

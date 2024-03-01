@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::__Warning__Logger::*)(::System::Object*, void*)>(&::RootMotion::__Warning__Logger::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x12dba50;
+  constexpr static std::size_t addrs = 0x131ca3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::__Warning__Logger::*)(::StringW)>(&::RootMotion::__Warning__Logger::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x12dbb24;
+  constexpr static std::size_t addrs = 0x131cb10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::RootMotion::__Warning__Logger::*)(::StringW, ::System::AsyncCallback*, ::System::Object*)>(
     &::RootMotion::__Warning__Logger::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x12dbb38;
+  constexpr static std::size_t addrs = 0x131cb24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::__Warning__Logger::*)(::System::IAsyncResult*)>(&::RootMotion::__Warning__Logger::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x12dbb58;
+  constexpr static std::size_t addrs = 0x131cb44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::RootMotion::__Warning__Logger*, bool)>(&::RootMotion::Warning::Log)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x12db9b8;
+  constexpr static std::size_t addrs = 0x131c9a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::Transform*, bool)>(&::RootMotion::Warning::Log)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x12d5c58;
+  constexpr static std::size_t addrs = 0x1316c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

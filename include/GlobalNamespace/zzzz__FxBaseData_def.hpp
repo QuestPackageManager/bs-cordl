@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::GlobalNamespace::FxBaseData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10741))
 // CS Name: ::FxBaseData*
 class CORDL_TYPE FxBaseData : public ::System::Object {
 public:
@@ -27,23 +25,29 @@ public:
   /// @brief Field usePreviousEventValue, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get_usePreviousEventValue, put = __cordl_internal_set_usePreviousEventValue)) bool usePreviousEventValue;
 
-  constexpr float_t& __cordl_internal_get_beat();
+  static inline ::GlobalNamespace::FxBaseData* New_ctor(float_t beat, bool usePreviousEventValue);
 
   constexpr float_t const& __cordl_internal_get_beat() const;
 
-  constexpr void __cordl_internal_set_beat(float_t value);
-
-  constexpr bool& __cordl_internal_get_usePreviousEventValue();
+  constexpr float_t& __cordl_internal_get_beat();
 
   constexpr bool const& __cordl_internal_get_usePreviousEventValue() const;
 
+  constexpr bool& __cordl_internal_get_usePreviousEventValue();
+
+  constexpr void __cordl_internal_set_beat(float_t value);
+
   constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
-  static inline ::GlobalNamespace::FxBaseData* New_ctor(float_t beat, bool usePreviousEventValue);
-
-  /// @brief Method .ctor, addr 0x127bf48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12bef18, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FxBaseData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FxBaseData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FxBaseData(FxBaseData&&) = delete;
@@ -52,12 +56,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FxBaseData(FxBaseData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FxBaseData();
-
-public:
   /// @brief Field beat, offset: 0x10, size: 0x4, def value: None
   float_t ___beat;
 

@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::JetBrains::Annotations::CannotApplyEqualityOperatorAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15896))
 // CS Name: ::JetBrains.Annotations::CannotApplyEqualityOperatorAttribute*
 class CORDL_TYPE CannotApplyEqualityOperatorAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::CannotApplyEqualityOperatorAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ed6254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc997c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CannotApplyEqualityOperatorAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CannotApplyEqualityOperatorAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CannotApplyEqualityOperatorAttribute(CannotApplyEqualityOperatorAttribute&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CannotApplyEqualityOperatorAttribute(CannotApplyEqualityOperatorAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CannotApplyEqualityOperatorAttribute();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

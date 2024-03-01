@@ -21,33 +21,10 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::DateTimeParser);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11743))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11744))
 // CS Name: ::Newtonsoft.Json.Utilities::DateTimeParser
 struct CORDL_TYPE DateTimeParser {
 public:
   // Declarations
-  /// @brief Field Power10, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Power10, put = setStaticF_Power10))::ArrayW<int32_t, ::Array<int32_t>*> Power10;
-
-  /// @brief Field Lzyyyy, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_Lzyyyy, put = setStaticF_Lzyyyy)) int32_t Lzyyyy;
-
-  /// @brief Field Lzyyyy_, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_Lzyyyy_, put = setStaticF_Lzyyyy_)) int32_t Lzyyyy_;
-
-  /// @brief Field Lzyyyy_MM, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_Lzyyyy_MM, put = setStaticF_Lzyyyy_MM)) int32_t Lzyyyy_MM;
-
-  /// @brief Field Lzyyyy_MM_, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_Lzyyyy_MM_, put = setStaticF_Lzyyyy_MM_)) int32_t Lzyyyy_MM_;
-
-  /// @brief Field Lzyyyy_MM_dd, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_Lzyyyy_MM_dd, put = setStaticF_Lzyyyy_MM_dd)) int32_t Lzyyyy_MM_dd;
-
-  /// @brief Field Lzyyyy_MM_ddT, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_Lzyyyy_MM_ddT, put = setStaticF_Lzyyyy_MM_ddT)) int32_t Lzyyyy_MM_ddT;
-
   /// @brief Field LzHH, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_LzHH, put = setStaticF_LzHH)) int32_t LzHH;
 
@@ -69,85 +46,110 @@ public:
   /// @brief Field Lz_zz, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_Lz_zz, put = setStaticF_Lz_zz)) int32_t Lz_zz;
 
-  static inline void setStaticF_Power10(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  /// @brief Field Lzyyyy, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_Lzyyyy, put = setStaticF_Lzyyyy)) int32_t Lzyyyy;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_Power10();
+  /// @brief Field Lzyyyy_, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_Lzyyyy_, put = setStaticF_Lzyyyy_)) int32_t Lzyyyy_;
 
-  static inline void setStaticF_Lzyyyy(int32_t value);
+  /// @brief Field Lzyyyy_MM, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_Lzyyyy_MM, put = setStaticF_Lzyyyy_MM)) int32_t Lzyyyy_MM;
 
-  static inline int32_t getStaticF_Lzyyyy();
+  /// @brief Field Lzyyyy_MM_, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_Lzyyyy_MM_, put = setStaticF_Lzyyyy_MM_)) int32_t Lzyyyy_MM_;
 
-  static inline void setStaticF_Lzyyyy_(int32_t value);
+  /// @brief Field Lzyyyy_MM_dd, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_Lzyyyy_MM_dd, put = setStaticF_Lzyyyy_MM_dd)) int32_t Lzyyyy_MM_dd;
 
-  static inline int32_t getStaticF_Lzyyyy_();
+  /// @brief Field Lzyyyy_MM_ddT, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_Lzyyyy_MM_ddT, put = setStaticF_Lzyyyy_MM_ddT)) int32_t Lzyyyy_MM_ddT;
 
-  static inline void setStaticF_Lzyyyy_MM(int32_t value);
+  /// @brief Field Power10, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_Power10, put = setStaticF_Power10))::ArrayW<int32_t, ::Array<int32_t>*> Power10;
 
-  static inline int32_t getStaticF_Lzyyyy_MM();
+  /// @brief Method Parse, addr 0x274b8fc, size 0xd8, virtual false, abstract: false, final false
+  inline bool Parse(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
-  static inline void setStaticF_Lzyyyy_MM_(int32_t value);
+  /// @brief Method Parse2Digit, addr 0x274bcd4, size 0x94, virtual false, abstract: false, final false
+  inline bool Parse2Digit(int32_t start, ByRef<int32_t> num);
 
-  static inline int32_t getStaticF_Lzyyyy_MM_();
+  /// @brief Method Parse4Digit, addr 0x274bbf8, size 0xdc, virtual false, abstract: false, final false
+  inline bool Parse4Digit(int32_t start, ByRef<int32_t> num);
 
-  static inline void setStaticF_Lzyyyy_MM_dd(int32_t value);
+  /// @brief Method ParseChar, addr 0x274bb6c, size 0x4c, virtual false, abstract: false, final false
+  inline bool ParseChar(int32_t start, char16_t ch);
 
-  static inline int32_t getStaticF_Lzyyyy_MM_dd();
+  /// @brief Method ParseDate, addr 0x274b9d4, size 0x198, virtual false, abstract: false, final false
+  inline bool ParseDate(int32_t start);
 
-  static inline void setStaticF_Lzyyyy_MM_ddT(int32_t value);
+  /// @brief Method ParseTime, addr 0x274bd68, size 0x2c0, virtual false, abstract: false, final false
+  inline bool ParseTime(ByRef<int32_t> start);
 
-  static inline int32_t getStaticF_Lzyyyy_MM_ddT();
+  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x274bbb8, size 0x40, virtual false, abstract: false, final false
+  inline bool ParseTimeAndZoneAndWhitespace(int32_t start);
 
-  static inline void setStaticF_LzHH(int32_t value);
+  /// @brief Method ParseZone, addr 0x274c028, size 0x1d0, virtual false, abstract: false, final false
+  inline bool ParseZone(int32_t start);
 
   static inline int32_t getStaticF_LzHH();
 
-  static inline void setStaticF_LzHH_(int32_t value);
-
   static inline int32_t getStaticF_LzHH_();
-
-  static inline void setStaticF_LzHH_mm(int32_t value);
 
   static inline int32_t getStaticF_LzHH_mm();
 
-  static inline void setStaticF_LzHH_mm_(int32_t value);
-
   static inline int32_t getStaticF_LzHH_mm_();
-
-  static inline void setStaticF_LzHH_mm_ss(int32_t value);
 
   static inline int32_t getStaticF_LzHH_mm_ss();
 
-  static inline void setStaticF_Lz_(int32_t value);
-
   static inline int32_t getStaticF_Lz_();
-
-  static inline void setStaticF_Lz_zz(int32_t value);
 
   static inline int32_t getStaticF_Lz_zz();
 
-  /// @brief Method Parse, addr 0x267c1b0, size 0xd8, virtual false, abstract: false, final false
-  inline bool Parse(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
+  static inline int32_t getStaticF_Lzyyyy();
 
-  /// @brief Method ParseDate, addr 0x267c288, size 0x198, virtual false, abstract: false, final false
-  inline bool ParseDate(int32_t start);
+  static inline int32_t getStaticF_Lzyyyy_();
 
-  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x267c46c, size 0x40, virtual false, abstract: false, final false
-  inline bool ParseTimeAndZoneAndWhitespace(int32_t start);
+  static inline int32_t getStaticF_Lzyyyy_MM();
 
-  /// @brief Method ParseTime, addr 0x267c61c, size 0x2c0, virtual false, abstract: false, final false
-  inline bool ParseTime(ByRef<int32_t> start);
+  static inline int32_t getStaticF_Lzyyyy_MM_();
 
-  /// @brief Method ParseZone, addr 0x267c8dc, size 0x1d0, virtual false, abstract: false, final false
-  inline bool ParseZone(int32_t start);
+  static inline int32_t getStaticF_Lzyyyy_MM_dd();
 
-  /// @brief Method Parse4Digit, addr 0x267c4ac, size 0xdc, virtual false, abstract: false, final false
-  inline bool Parse4Digit(int32_t start, ByRef<int32_t> num);
+  static inline int32_t getStaticF_Lzyyyy_MM_ddT();
 
-  /// @brief Method Parse2Digit, addr 0x267c588, size 0x94, virtual false, abstract: false, final false
-  inline bool Parse2Digit(int32_t start, ByRef<int32_t> num);
+  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_Power10();
 
-  /// @brief Method ParseChar, addr 0x267c420, size 0x4c, virtual false, abstract: false, final false
-  inline bool ParseChar(int32_t start, char16_t ch);
+  static inline void setStaticF_LzHH(int32_t value);
+
+  static inline void setStaticF_LzHH_(int32_t value);
+
+  static inline void setStaticF_LzHH_mm(int32_t value);
+
+  static inline void setStaticF_LzHH_mm_(int32_t value);
+
+  static inline void setStaticF_LzHH_mm_ss(int32_t value);
+
+  static inline void setStaticF_Lz_(int32_t value);
+
+  static inline void setStaticF_Lz_zz(int32_t value);
+
+  static inline void setStaticF_Lzyyyy(int32_t value);
+
+  static inline void setStaticF_Lzyyyy_(int32_t value);
+
+  static inline void setStaticF_Lzyyyy_MM(int32_t value);
+
+  static inline void setStaticF_Lzyyyy_MM_(int32_t value);
+
+  static inline void setStaticF_Lzyyyy_MM_dd(int32_t value);
+
+  static inline void setStaticF_Lzyyyy_MM_ddT(int32_t value);
+
+  static inline void setStaticF_Power10(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr DateTimeParser();
 
   // Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Minute", ty: "int32_t", modifiers: "", def_value: None },
@@ -157,10 +159,6 @@ public:
   // CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DateTimeParser(int32_t Year, int32_t Month, int32_t Day, int32_t Hour, int32_t Minute, int32_t Second, int32_t Fraction, int32_t ZoneHour, int32_t ZoneMinute,
                            ::Newtonsoft::Json::Utilities::ParserTimeZone Zone, ::ArrayW<char16_t, ::Array<char16_t>*> _text, int32_t _end) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeParser();
 
   /// @brief Field Year, offset: 0x0, size: 0x4, def value: None
   int32_t Year;
@@ -198,11 +196,11 @@ public:
   /// @brief Field _end, offset: 0x30, size: 0x4, def value: None
   int32_t _end;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   /// @brief Field MaxFractionDigits offset 0xffffffff size 0x2
   static constexpr int16_t MaxFractionDigits{ static_cast<int16_t>(0x7) };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

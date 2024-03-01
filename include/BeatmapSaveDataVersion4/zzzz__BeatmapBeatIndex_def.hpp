@@ -22,8 +22,6 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion4::BeatmapBeatIndex);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11127))
 // CS Name: ::BeatmapSaveDataVersion4::BeatmapBeatIndex*
 class CORDL_TYPE BeatmapBeatIndex : public ::System::Object {
 public:
@@ -31,52 +29,58 @@ public:
   /// @brief Field b, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
 
-  /// @brief Field r, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) float_t r;
+  __declspec(property(get = get_beat)) float_t beat;
 
   /// @brief Field i, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) int32_t i;
 
-  __declspec(property(get = get_beat)) float_t beat;
+  /// @brief Field r, offset 0x14, size 0x4
+  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) float_t r;
 
   /// @brief Convert operator to "::BeatmapSaveDataCommon::IBeat"
   constexpr operator ::BeatmapSaveDataCommon::IBeat*() noexcept;
 
-  /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
-  constexpr ::BeatmapSaveDataCommon::IBeat* i___BeatmapSaveDataCommon__IBeat() noexcept;
-
   /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
+
+  static inline ::BeatmapSaveDataVersion4::BeatmapBeatIndex* New_ctor();
+
+  constexpr float_t const& __cordl_internal_get_b() const;
+
+  constexpr float_t& __cordl_internal_get_b();
+
+  constexpr int32_t const& __cordl_internal_get_i() const;
+
+  constexpr int32_t& __cordl_internal_get_i();
+
+  constexpr float_t const& __cordl_internal_get_r() const;
+
+  constexpr float_t& __cordl_internal_get_r();
+
+  constexpr void __cordl_internal_set_b(float_t value);
+
+  constexpr void __cordl_internal_set_i(int32_t value);
+
+  constexpr void __cordl_internal_set_r(float_t value);
+
+  /// @brief Method .ctor, addr 0x12fbd04, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_beat, addr 0x12fbcfc, size 0x8, virtual true, abstract: false, final true
+  inline float_t get_beat();
+
+  /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
+  constexpr ::BeatmapSaveDataCommon::IBeat* i___BeatmapSaveDataCommon__IBeat() noexcept;
 
   /// @brief Convert to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>* i___System__IComparable_1___BeatmapSaveDataCommon__IBeat__() noexcept;
 
-  constexpr float_t& __cordl_internal_get_b();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatmapBeatIndex();
 
-  constexpr float_t const& __cordl_internal_get_b() const;
-
-  constexpr void __cordl_internal_set_b(float_t value);
-
-  constexpr float_t& __cordl_internal_get_r();
-
-  constexpr float_t const& __cordl_internal_get_r() const;
-
-  constexpr void __cordl_internal_set_r(float_t value);
-
-  constexpr int32_t& __cordl_internal_get_i();
-
-  constexpr int32_t const& __cordl_internal_get_i() const;
-
-  constexpr void __cordl_internal_set_i(int32_t value);
-
-  /// @brief Method get_beat, addr 0x12bad2c, size 0x8, virtual true, abstract: false, final true
-  inline float_t get_beat();
-
-  static inline ::BeatmapSaveDataVersion4::BeatmapBeatIndex* New_ctor();
-
-  /// @brief Method .ctor, addr 0x12bad34, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapBeatIndex", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatmapBeatIndex(BeatmapBeatIndex&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapBeatIndex(BeatmapBeatIndex const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapBeatIndex();
-
-public:
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
 

@@ -15,61 +15,59 @@ MARK_VAL_T(::UnityEngine::JointLimits);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13950))
 // CS Name: ::UnityEngine::JointLimits
 struct CORDL_TYPE JointLimits {
 public:
   // Declarations
-  __declspec(property(get = get_min, put = set_min)) float_t min;
-
-  __declspec(property(get = get_max, put = set_max)) float_t max;
+  __declspec(property(get = get_bounceMinVelocity, put = set_bounceMinVelocity)) float_t bounceMinVelocity;
 
   __declspec(property(get = get_bounciness, put = set_bounciness)) float_t bounciness;
 
-  __declspec(property(get = get_bounceMinVelocity, put = set_bounceMinVelocity)) float_t bounceMinVelocity;
-
   __declspec(property(get = get_contactDistance, put = set_contactDistance)) float_t contactDistance;
 
-  /// @brief Method get_min, addr 0x2d388a8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_min();
+  __declspec(property(get = get_max, put = set_max)) float_t max;
 
-  /// @brief Method set_min, addr 0x2d388b0, size 0x8, virtual false, abstract: false, final false
-  inline void set_min(float_t value);
+  __declspec(property(get = get_min, put = set_min)) float_t min;
 
-  /// @brief Method get_max, addr 0x2d388b8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_max();
-
-  /// @brief Method set_max, addr 0x2d388c0, size 0x8, virtual false, abstract: false, final false
-  inline void set_max(float_t value);
-
-  /// @brief Method get_bounciness, addr 0x2d388c8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_bounciness();
-
-  /// @brief Method set_bounciness, addr 0x2d388d0, size 0x8, virtual false, abstract: false, final false
-  inline void set_bounciness(float_t value);
-
-  /// @brief Method get_bounceMinVelocity, addr 0x2d388d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounceMinVelocity, addr 0x2e25000, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounceMinVelocity();
 
-  /// @brief Method set_bounceMinVelocity, addr 0x2d388e0, size 0x8, virtual false, abstract: false, final false
-  inline void set_bounceMinVelocity(float_t value);
+  /// @brief Method get_bounciness, addr 0x2e24ff0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_bounciness();
 
-  /// @brief Method get_contactDistance, addr 0x2d388e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactDistance, addr 0x2e25010, size 0x8, virtual false, abstract: false, final false
   inline float_t get_contactDistance();
 
-  /// @brief Method set_contactDistance, addr 0x2d388f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_max, addr 0x2e24fe0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_max();
+
+  /// @brief Method get_min, addr 0x2e24fd0, size 0x8, virtual false, abstract: false, final false
+  inline float_t get_min();
+
+  /// @brief Method set_bounceMinVelocity, addr 0x2e25008, size 0x8, virtual false, abstract: false, final false
+  inline void set_bounceMinVelocity(float_t value);
+
+  /// @brief Method set_bounciness, addr 0x2e24ff8, size 0x8, virtual false, abstract: false, final false
+  inline void set_bounciness(float_t value);
+
+  /// @brief Method set_contactDistance, addr 0x2e25018, size 0x8, virtual false, abstract: false, final false
   inline void set_contactDistance(float_t value);
+
+  /// @brief Method set_max, addr 0x2e24fe8, size 0x8, virtual false, abstract: false, final false
+  inline void set_max(float_t value);
+
+  /// @brief Method set_min, addr 0x2e24fd8, size 0x8, virtual false, abstract: false, final false
+  inline void set_min(float_t value);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JointLimits();
 
   // Ctor Parameters [CppParam { name: "m_Min", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Max", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
   // "m_Bounciness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_BounceMinVelocity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ContactDistance", ty:
   // "float_t", modifiers: "", def_value: None }, CppParam { name: "minBounce", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxBounce", ty: "float_t", modifiers: "", def_value:
   // None }]
   constexpr JointLimits(float_t m_Min, float_t m_Max, float_t m_Bounciness, float_t m_BounceMinVelocity, float_t m_ContactDistance, float_t minBounce, float_t maxBounce) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JointLimits();
 
   /// @brief Field m_Min, offset: 0x0, size: 0x4, def value: None
   float_t m_Min;

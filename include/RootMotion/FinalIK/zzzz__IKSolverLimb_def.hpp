@@ -46,8 +46,6 @@ MARK_VAL_T(::RootMotion::FinalIK::__IKSolverLimb__AxisDirection);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12474))
 // CS Name: ::IKSolverLimb::BendModifier
 struct CORDL_TYPE __IKSolverLimb__BendModifier {
 public:
@@ -68,33 +66,38 @@ public:
     return static_cast<____IKSolverLimb__BendModifier_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __IKSolverLimb__BendModifier(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____IKSolverLimb__BendModifier_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __IKSolverLimb__BendModifier();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __IKSolverLimb__BendModifier(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
   /// @brief Field Animation value: static_cast<int32_t>(0x0)
   static ::RootMotion::FinalIK::__IKSolverLimb__BendModifier const Animation;
-
-  /// @brief Field Target value: static_cast<int32_t>(0x1)
-  static ::RootMotion::FinalIK::__IKSolverLimb__BendModifier const Target;
-
-  /// @brief Field Parent value: static_cast<int32_t>(0x2)
-  static ::RootMotion::FinalIK::__IKSolverLimb__BendModifier const Parent;
 
   /// @brief Field Arm value: static_cast<int32_t>(0x3)
   static ::RootMotion::FinalIK::__IKSolverLimb__BendModifier const Arm;
 
   /// @brief Field Goal value: static_cast<int32_t>(0x4)
   static ::RootMotion::FinalIK::__IKSolverLimb__BendModifier const Goal;
+
+  /// @brief Field Parent value: static_cast<int32_t>(0x2)
+  static ::RootMotion::FinalIK::__IKSolverLimb__BendModifier const Parent;
+
+  /// @brief Field Target value: static_cast<int32_t>(0x1)
+  static ::RootMotion::FinalIK::__IKSolverLimb__BendModifier const Target;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -108,22 +111,20 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverLimb__BendModifier, valu
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12475))
 // CS Name: ::IKSolverLimb::AxisDirection
 struct CORDL_TYPE __IKSolverLimb__AxisDirection {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x1305eb8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1347ea4, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 axis);
-
-  // Ctor Parameters [CppParam { name: "direction", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }, CppParam { name: "dot", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __IKSolverLimb__AxisDirection(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 axis, float_t dot) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __IKSolverLimb__AxisDirection();
+
+  // Ctor Parameters [CppParam { name: "direction", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "axis", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
+  // None }, CppParam { name: "dot", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr __IKSolverLimb__AxisDirection(::UnityEngine::Vector3 direction, ::UnityEngine::Vector3 axis, float_t dot) noexcept;
 
   /// @brief Field direction, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 direction;
@@ -153,8 +154,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, dot
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 320, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(12474)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12480)), TypeDefinitionIndex(TypeDefinitionIndex(14744))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12476)) CS Name: ::RootMotion.FinalIK::IKSolverLimb*
+// CS Name: ::RootMotion.FinalIK::IKSolverLimb*
 class CORDL_TYPE IKSolverLimb : public ::RootMotion::FinalIK::IKSolverTrigonometric {
 public:
   // Declarations
@@ -162,47 +162,13 @@ public:
 
   using BendModifier = ::RootMotion::FinalIK::__IKSolverLimb__BendModifier;
 
-  /// @brief Field goal, offset 0xa8, size 0x4
-  __declspec(property(get = __cordl_internal_get_goal, put = __cordl_internal_set_goal))::UnityEngine::AvatarIKGoal goal;
-
-  /// @brief Field bendModifier, offset 0xac, size 0x4
-  __declspec(property(get = __cordl_internal_get_bendModifier, put = __cordl_internal_set_bendModifier))::RootMotion::FinalIK::__IKSolverLimb__BendModifier bendModifier;
-
-  /// @brief Field maintainRotationWeight, offset 0xb0, size 0x4
-  __declspec(property(get = __cordl_internal_get_maintainRotationWeight, put = __cordl_internal_set_maintainRotationWeight)) float_t maintainRotationWeight;
-
-  /// @brief Field bendModifierWeight, offset 0xb4, size 0x4
-  __declspec(property(get = __cordl_internal_get_bendModifierWeight, put = __cordl_internal_set_bendModifierWeight)) float_t bendModifierWeight;
-
-  /// @brief Field bendGoal, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_bendGoal, put = __cordl_internal_set_bendGoal))::UnityW<::UnityEngine::Transform> bendGoal;
-
-  /// @brief Field maintainBendFor1Frame, offset 0xc0, size 0x1
-  __declspec(property(get = __cordl_internal_get_maintainBendFor1Frame, put = __cordl_internal_set_maintainBendFor1Frame)) bool maintainBendFor1Frame;
-
-  /// @brief Field maintainRotationFor1Frame, offset 0xc1, size 0x1
-  __declspec(property(get = __cordl_internal_get_maintainRotationFor1Frame, put = __cordl_internal_set_maintainRotationFor1Frame)) bool maintainRotationFor1Frame;
-
-  /// @brief Field defaultRootRotation, offset 0xc4, size 0x10
-  __declspec(property(get = __cordl_internal_get_defaultRootRotation, put = __cordl_internal_set_defaultRootRotation))::UnityEngine::Quaternion defaultRootRotation;
-
-  /// @brief Field parentDefaultRotation, offset 0xd4, size 0x10
-  __declspec(property(get = __cordl_internal_get_parentDefaultRotation, put = __cordl_internal_set_parentDefaultRotation))::UnityEngine::Quaternion parentDefaultRotation;
-
-  /// @brief Field bone3RotationBeforeSolve, offset 0xe4, size 0x10
-  __declspec(property(get = __cordl_internal_get_bone3RotationBeforeSolve, put = __cordl_internal_set_bone3RotationBeforeSolve))::UnityEngine::Quaternion bone3RotationBeforeSolve;
-
-  /// @brief Field maintainRotation, offset 0xf4, size 0x10
-  __declspec(property(get = __cordl_internal_get_maintainRotation, put = __cordl_internal_set_maintainRotation))::UnityEngine::Quaternion maintainRotation;
-
-  /// @brief Field bone3DefaultRotation, offset 0x104, size 0x10
-  __declspec(property(get = __cordl_internal_get_bone3DefaultRotation, put = __cordl_internal_set_bone3DefaultRotation))::UnityEngine::Quaternion bone3DefaultRotation;
-
   /// @brief Field _bendNormal, offset 0x114, size 0xc
   __declspec(property(get = __cordl_internal_get__bendNormal, put = __cordl_internal_set__bendNormal))::UnityEngine::Vector3 _bendNormal;
 
   /// @brief Field animationNormal, offset 0x120, size 0xc
   __declspec(property(get = __cordl_internal_get_animationNormal, put = __cordl_internal_set_animationNormal))::UnityEngine::Vector3 animationNormal;
+
+  __declspec(property(get = get_axisDirections))::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> axisDirections;
 
   /// @brief Field axisDirectionsLeft, offset 0x130, size 0x8
   __declspec(property(
@@ -214,138 +180,178 @@ public:
                       put = __cordl_internal_set_axisDirectionsRight))::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection,
                                                                                ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> axisDirectionsRight;
 
-  __declspec(property(get = get_axisDirections))::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> axisDirections;
+  /// @brief Field bendGoal, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_bendGoal, put = __cordl_internal_set_bendGoal))::UnityW<::UnityEngine::Transform> bendGoal;
 
-  constexpr ::UnityEngine::AvatarIKGoal& __cordl_internal_get_goal();
+  /// @brief Field bendModifier, offset 0xac, size 0x4
+  __declspec(property(get = __cordl_internal_get_bendModifier, put = __cordl_internal_set_bendModifier))::RootMotion::FinalIK::__IKSolverLimb__BendModifier bendModifier;
 
-  constexpr ::UnityEngine::AvatarIKGoal const& __cordl_internal_get_goal() const;
+  /// @brief Field bendModifierWeight, offset 0xb4, size 0x4
+  __declspec(property(get = __cordl_internal_get_bendModifierWeight, put = __cordl_internal_set_bendModifierWeight)) float_t bendModifierWeight;
 
-  constexpr void __cordl_internal_set_goal(::UnityEngine::AvatarIKGoal value);
+  /// @brief Field bone3DefaultRotation, offset 0x104, size 0x10
+  __declspec(property(get = __cordl_internal_get_bone3DefaultRotation, put = __cordl_internal_set_bone3DefaultRotation))::UnityEngine::Quaternion bone3DefaultRotation;
 
-  constexpr ::RootMotion::FinalIK::__IKSolverLimb__BendModifier& __cordl_internal_get_bendModifier();
+  /// @brief Field bone3RotationBeforeSolve, offset 0xe4, size 0x10
+  __declspec(property(get = __cordl_internal_get_bone3RotationBeforeSolve, put = __cordl_internal_set_bone3RotationBeforeSolve))::UnityEngine::Quaternion bone3RotationBeforeSolve;
 
-  constexpr ::RootMotion::FinalIK::__IKSolverLimb__BendModifier const& __cordl_internal_get_bendModifier() const;
+  /// @brief Field defaultRootRotation, offset 0xc4, size 0x10
+  __declspec(property(get = __cordl_internal_get_defaultRootRotation, put = __cordl_internal_set_defaultRootRotation))::UnityEngine::Quaternion defaultRootRotation;
 
-  constexpr void __cordl_internal_set_bendModifier(::RootMotion::FinalIK::__IKSolverLimb__BendModifier value);
+  /// @brief Field goal, offset 0xa8, size 0x4
+  __declspec(property(get = __cordl_internal_get_goal, put = __cordl_internal_set_goal))::UnityEngine::AvatarIKGoal goal;
 
-  constexpr float_t& __cordl_internal_get_maintainRotationWeight();
+  /// @brief Field maintainBendFor1Frame, offset 0xc0, size 0x1
+  __declspec(property(get = __cordl_internal_get_maintainBendFor1Frame, put = __cordl_internal_set_maintainBendFor1Frame)) bool maintainBendFor1Frame;
 
-  constexpr float_t const& __cordl_internal_get_maintainRotationWeight() const;
+  /// @brief Field maintainRotation, offset 0xf4, size 0x10
+  __declspec(property(get = __cordl_internal_get_maintainRotation, put = __cordl_internal_set_maintainRotation))::UnityEngine::Quaternion maintainRotation;
 
-  constexpr void __cordl_internal_set_maintainRotationWeight(float_t value);
+  /// @brief Field maintainRotationFor1Frame, offset 0xc1, size 0x1
+  __declspec(property(get = __cordl_internal_get_maintainRotationFor1Frame, put = __cordl_internal_set_maintainRotationFor1Frame)) bool maintainRotationFor1Frame;
 
-  constexpr float_t& __cordl_internal_get_bendModifierWeight();
+  /// @brief Field maintainRotationWeight, offset 0xb0, size 0x4
+  __declspec(property(get = __cordl_internal_get_maintainRotationWeight, put = __cordl_internal_set_maintainRotationWeight)) float_t maintainRotationWeight;
 
-  constexpr float_t const& __cordl_internal_get_bendModifierWeight() const;
+  /// @brief Field parentDefaultRotation, offset 0xd4, size 0x10
+  __declspec(property(get = __cordl_internal_get_parentDefaultRotation, put = __cordl_internal_set_parentDefaultRotation))::UnityEngine::Quaternion parentDefaultRotation;
 
-  constexpr void __cordl_internal_set_bendModifierWeight(float_t value);
+  /// @brief Method GetModifiedBendNormal, addr 0x134716c, size 0xa60, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 GetModifiedBendNormal();
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bendGoal();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bendGoal() const;
-
-  constexpr void __cordl_internal_set_bendGoal(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr bool& __cordl_internal_get_maintainBendFor1Frame();
-
-  constexpr bool const& __cordl_internal_get_maintainBendFor1Frame() const;
-
-  constexpr void __cordl_internal_set_maintainBendFor1Frame(bool value);
-
-  constexpr bool& __cordl_internal_get_maintainRotationFor1Frame();
-
-  constexpr bool const& __cordl_internal_get_maintainRotationFor1Frame() const;
-
-  constexpr void __cordl_internal_set_maintainRotationFor1Frame(bool value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultRootRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultRootRotation() const;
-
-  constexpr void __cordl_internal_set_defaultRootRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_parentDefaultRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_parentDefaultRotation() const;
-
-  constexpr void __cordl_internal_set_parentDefaultRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_bone3RotationBeforeSolve();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_bone3RotationBeforeSolve() const;
-
-  constexpr void __cordl_internal_set_bone3RotationBeforeSolve(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_maintainRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_maintainRotation() const;
-
-  constexpr void __cordl_internal_set_maintainRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_bone3DefaultRotation();
-
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_bone3DefaultRotation() const;
-
-  constexpr void __cordl_internal_set_bone3DefaultRotation(::UnityEngine::Quaternion value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__bendNormal();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__bendNormal() const;
-
-  constexpr void __cordl_internal_set__bendNormal(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_animationNormal();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_animationNormal() const;
-
-  constexpr void __cordl_internal_set_animationNormal(::UnityEngine::Vector3 value);
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*>& __cordl_internal_get_axisDirectionsLeft();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> const& __cordl_internal_get_axisDirectionsLeft() const;
-
-  constexpr void __cordl_internal_set_axisDirectionsLeft(::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> value);
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*>& __cordl_internal_get_axisDirectionsRight();
-
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> const& __cordl_internal_get_axisDirectionsRight() const;
-
-  constexpr void __cordl_internal_set_axisDirectionsRight(::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> value);
-
-  /// @brief Method MaintainRotation, addr 0x1304acc, size 0x44, virtual false, abstract: false, final false
-  inline void MaintainRotation();
-
-  /// @brief Method MaintainBend, addr 0x1304b10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method MaintainBend, addr 0x1346afc, size 0x3c, virtual false, abstract: false, final false
   inline void MaintainBend();
 
-  /// @brief Method OnInitiateVirtual, addr 0x1304b7c, size 0x35c, virtual true, abstract: false, final false
-  inline void OnInitiateVirtual();
-
-  /// @brief Method OnUpdateVirtual, addr 0x13050c4, size 0xbc, virtual true, abstract: false, final false
-  inline void OnUpdateVirtual();
-
-  /// @brief Method OnPostSolveVirtual, addr 0x1305be0, size 0xa8, virtual true, abstract: false, final false
-  inline void OnPostSolveVirtual();
+  /// @brief Method MaintainRotation, addr 0x1346ab8, size 0x44, virtual false, abstract: false, final false
+  inline void MaintainRotation();
 
   static inline ::RootMotion::FinalIK::IKSolverLimb* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1305c88, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor();
-
   static inline ::RootMotion::FinalIK::IKSolverLimb* New_ctor(::UnityEngine::AvatarIKGoal goal);
 
-  /// @brief Method .ctor, addr 0x1305e1c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::AvatarIKGoal goal);
+  /// @brief Method OnInitiateVirtual, addr 0x1346b68, size 0x35c, virtual true, abstract: false, final false
+  inline void OnInitiateVirtual();
 
-  /// @brief Method get_axisDirections, addr 0x1305e9c, size 0x1c, virtual false, abstract: false, final false
-  inline ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> get_axisDirections();
+  /// @brief Method OnPostSolveVirtual, addr 0x1347bcc, size 0xa8, virtual true, abstract: false, final false
+  inline void OnPostSolveVirtual();
 
-  /// @brief Method StoreAxisDirections, addr 0x1304ed8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method OnUpdateVirtual, addr 0x13470b0, size 0xbc, virtual true, abstract: false, final false
+  inline void OnUpdateVirtual();
+
+  /// @brief Method StoreAxisDirections, addr 0x1346ec4, size 0x1ec, virtual false, abstract: false, final false
   inline void StoreAxisDirections(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*>> axisDirections);
 
-  /// @brief Method GetModifiedBendNormal, addr 0x1305180, size 0xa60, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 GetModifiedBendNormal();
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__bendNormal() const;
 
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__bendNormal();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_animationNormal() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_animationNormal();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> const& __cordl_internal_get_axisDirectionsLeft() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*>& __cordl_internal_get_axisDirectionsLeft();
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> const& __cordl_internal_get_axisDirectionsRight() const;
+
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*>& __cordl_internal_get_axisDirectionsRight();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_bendGoal() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_bendGoal();
+
+  constexpr ::RootMotion::FinalIK::__IKSolverLimb__BendModifier const& __cordl_internal_get_bendModifier() const;
+
+  constexpr ::RootMotion::FinalIK::__IKSolverLimb__BendModifier& __cordl_internal_get_bendModifier();
+
+  constexpr float_t const& __cordl_internal_get_bendModifierWeight() const;
+
+  constexpr float_t& __cordl_internal_get_bendModifierWeight();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_bone3DefaultRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_bone3DefaultRotation();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_bone3RotationBeforeSolve() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_bone3RotationBeforeSolve();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultRootRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultRootRotation();
+
+  constexpr ::UnityEngine::AvatarIKGoal const& __cordl_internal_get_goal() const;
+
+  constexpr ::UnityEngine::AvatarIKGoal& __cordl_internal_get_goal();
+
+  constexpr bool const& __cordl_internal_get_maintainBendFor1Frame() const;
+
+  constexpr bool& __cordl_internal_get_maintainBendFor1Frame();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_maintainRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_maintainRotation();
+
+  constexpr bool const& __cordl_internal_get_maintainRotationFor1Frame() const;
+
+  constexpr bool& __cordl_internal_get_maintainRotationFor1Frame();
+
+  constexpr float_t const& __cordl_internal_get_maintainRotationWeight() const;
+
+  constexpr float_t& __cordl_internal_get_maintainRotationWeight();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_parentDefaultRotation() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_parentDefaultRotation();
+
+  constexpr void __cordl_internal_set__bendNormal(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_animationNormal(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set_axisDirectionsLeft(::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> value);
+
+  constexpr void __cordl_internal_set_axisDirectionsRight(::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> value);
+
+  constexpr void __cordl_internal_set_bendGoal(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set_bendModifier(::RootMotion::FinalIK::__IKSolverLimb__BendModifier value);
+
+  constexpr void __cordl_internal_set_bendModifierWeight(float_t value);
+
+  constexpr void __cordl_internal_set_bone3DefaultRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_bone3RotationBeforeSolve(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_defaultRootRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_goal(::UnityEngine::AvatarIKGoal value);
+
+  constexpr void __cordl_internal_set_maintainBendFor1Frame(bool value);
+
+  constexpr void __cordl_internal_set_maintainRotation(::UnityEngine::Quaternion value);
+
+  constexpr void __cordl_internal_set_maintainRotationFor1Frame(bool value);
+
+  constexpr void __cordl_internal_set_maintainRotationWeight(float_t value);
+
+  constexpr void __cordl_internal_set_parentDefaultRotation(::UnityEngine::Quaternion value);
+
+  /// @brief Method .ctor, addr 0x1347c74, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x1347e08, size 0x80, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::AvatarIKGoal goal);
+
+  /// @brief Method get_axisDirections, addr 0x1347e88, size 0x1c, virtual false, abstract: false, final false
+  inline ::ArrayW<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection, ::Array<::RootMotion::FinalIK::__IKSolverLimb__AxisDirection>*> get_axisDirections();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr IKSolverLimb();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverLimb", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   IKSolverLimb(IKSolverLimb&&) = delete;
@@ -354,12 +360,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IKSolverLimb(IKSolverLimb const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IKSolverLimb();
-
-public:
   /// @brief Field goal, offset: 0xa8, size: 0x4, def value: None
   ::UnityEngine::AvatarIKGoal ___goal;
 

@@ -14,20 +14,24 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SHA256);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2916))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2960))
 // CS Name: ::System.Security.Cryptography::SHA256*
 class CORDL_TYPE SHA256 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  static inline ::System::Security::Cryptography::SHA256* New_ctor();
-
-  /// @brief Method .ctor, addr 0x24894bc, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method Create, addr 0x24894dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x255b1d4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::SHA256* Create();
 
+  static inline ::System::Security::Cryptography::SHA256* New_ctor();
+
+  /// @brief Method .ctor, addr 0x255b1b4, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SHA256();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SHA256", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SHA256(SHA256&&) = delete;
@@ -36,12 +40,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SHA256(SHA256 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SHA256();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -23,45 +23,49 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeGizmos);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4851))
 // CS Name: ::MissionNodeGizmos*
 class CORDL_TYPE MissionNodeGizmos : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _missionNode, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionNode, put = __cordl_internal_set__missionNode))::UnityW<::GlobalNamespace::MissionNode> _missionNode;
-
   /// @brief Field _gameplayModifiersModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayModifiersModel,
                       put = __cordl_internal_set__gameplayModifiersModel))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModel;
 
+  /// @brief Field _missionNode, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionNode, put = __cordl_internal_set__missionNode))::UnityW<::GlobalNamespace::MissionNode> _missionNode;
+
   /// @brief Field _missionProgressModel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__missionProgressModel, put = __cordl_internal_set__missionProgressModel))::UnityW<::GlobalNamespace::CampaignProgressModel> _missionProgressModel;
 
-  constexpr ::UnityW<::GlobalNamespace::MissionNode>& __cordl_internal_get__missionNode();
-
-  constexpr ::UnityW<::GlobalNamespace::MissionNode> const& __cordl_internal_get__missionNode() const;
-
-  constexpr void __cordl_internal_set__missionNode(::UnityW<::GlobalNamespace::MissionNode> value);
-
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
+  static inline ::GlobalNamespace::MissionNodeGizmos* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
 
-  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
 
-  constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel>& __cordl_internal_get__missionProgressModel();
+  constexpr ::UnityW<::GlobalNamespace::MissionNode> const& __cordl_internal_get__missionNode() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MissionNode>& __cordl_internal_get__missionNode();
 
   constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel> const& __cordl_internal_get__missionProgressModel() const;
 
+  constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel>& __cordl_internal_get__missionProgressModel();
+
+  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
+
+  constexpr void __cordl_internal_set__missionNode(::UnityW<::GlobalNamespace::MissionNode> value);
+
   constexpr void __cordl_internal_set__missionProgressModel(::UnityW<::GlobalNamespace::CampaignProgressModel> value);
 
-  static inline ::GlobalNamespace::MissionNodeGizmos* New_ctor();
-
-  /// @brief Method .ctor, addr 0x23fb108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ca460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MissionNodeGizmos();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionNodeGizmos", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MissionNodeGizmos(MissionNodeGizmos&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionNodeGizmos(MissionNodeGizmos const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionNodeGizmos();
-
-public:
   /// @brief Field _missionNode, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;
 

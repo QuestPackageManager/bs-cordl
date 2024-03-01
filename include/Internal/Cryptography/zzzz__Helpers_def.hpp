@@ -17,24 +17,28 @@ MARK_REF_PTR_T(::Internal::Cryptography::Helpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Internal::Cryptography {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2309))
 // CS Name: ::Internal.Cryptography::Helpers*
 class CORDL_TYPE Helpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloneByteArray, addr 0x244c710, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CloneByteArray, addr 0x251e408, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CloneByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> src);
 
-  /// @brief Method ToHexArrayUpper, addr 0x244c788, size 0xec, virtual false, abstract: false, final false
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> ToHexArrayUpper(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
-
-  /// @brief Method ToHexStringUpper, addr 0x244c890, size 0x10, virtual false, abstract: false, final false
-  static inline ::StringW ToHexStringUpper(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
-
-  /// @brief Method NibbleToHex, addr 0x244c874, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NibbleToHex, addr 0x251e56c, size 0x1c, virtual false, abstract: false, final false
   static inline char16_t NibbleToHex(uint8_t b);
 
+  /// @brief Method ToHexArrayUpper, addr 0x251e480, size 0xec, virtual false, abstract: false, final false
+  static inline ::ArrayW<char16_t, ::Array<char16_t>*> ToHexArrayUpper(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+
+  /// @brief Method ToHexStringUpper, addr 0x251e588, size 0x10, virtual false, abstract: false, final false
+  static inline ::StringW ToHexStringUpper(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Helpers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Helpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Helpers(Helpers&&) = delete;
@@ -43,12 +47,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Helpers(Helpers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Helpers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

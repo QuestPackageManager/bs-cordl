@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1252))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::KeyExchangeAlgorithm*
 class CORDL_TYPE KeyExchangeAlgorithm : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfbdd34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1002d04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeyExchangeAlgorithm();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KeyExchangeAlgorithm", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyExchangeAlgorithm(KeyExchangeAlgorithm&&) = delete;
@@ -34,26 +38,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyExchangeAlgorithm(KeyExchangeAlgorithm const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyExchangeAlgorithm();
-
-public:
-  /// @brief Field NULL offset 0xffffffff size 0x4
-  static constexpr int32_t _cordl_NULL{ static_cast<int32_t>(0x0) };
-
-  /// @brief Field RSA offset 0xffffffff size 0x4
-  static constexpr int32_t RSA{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field RSA_EXPORT offset 0xffffffff size 0x4
-  static constexpr int32_t RSA_EXPORT{ static_cast<int32_t>(0x2) };
-
   /// @brief Field DHE_DSS offset 0xffffffff size 0x4
   static constexpr int32_t DHE_DSS{ static_cast<int32_t>(0x3) };
 
   /// @brief Field DHE_DSS_EXPORT offset 0xffffffff size 0x4
   static constexpr int32_t DHE_DSS_EXPORT{ static_cast<int32_t>(0x4) };
+
+  /// @brief Field DHE_PSK offset 0xffffffff size 0x4
+  static constexpr int32_t DHE_PSK{ static_cast<int32_t>(0xe) };
 
   /// @brief Field DHE_RSA offset 0xffffffff size 0x4
   static constexpr int32_t DHE_RSA{ static_cast<int32_t>(0x5) };
@@ -79,29 +71,35 @@ public:
   /// @brief Field DH_anon_EXPORT offset 0xffffffff size 0x4
   static constexpr int32_t DH_anon_EXPORT{ static_cast<int32_t>(0xc) };
 
-  /// @brief Field PSK offset 0xffffffff size 0x4
-  static constexpr int32_t PSK{ static_cast<int32_t>(0xd) };
-
-  /// @brief Field DHE_PSK offset 0xffffffff size 0x4
-  static constexpr int32_t DHE_PSK{ static_cast<int32_t>(0xe) };
-
-  /// @brief Field RSA_PSK offset 0xffffffff size 0x4
-  static constexpr int32_t RSA_PSK{ static_cast<int32_t>(0xf) };
-
-  /// @brief Field ECDH_ECDSA offset 0xffffffff size 0x4
-  static constexpr int32_t ECDH_ECDSA{ static_cast<int32_t>(0x10) };
-
   /// @brief Field ECDHE_ECDSA offset 0xffffffff size 0x4
   static constexpr int32_t ECDHE_ECDSA{ static_cast<int32_t>(0x11) };
 
-  /// @brief Field ECDH_RSA offset 0xffffffff size 0x4
-  static constexpr int32_t ECDH_RSA{ static_cast<int32_t>(0x12) };
+  /// @brief Field ECDHE_PSK offset 0xffffffff size 0x4
+  static constexpr int32_t ECDHE_PSK{ static_cast<int32_t>(0x18) };
 
   /// @brief Field ECDHE_RSA offset 0xffffffff size 0x4
   static constexpr int32_t ECDHE_RSA{ static_cast<int32_t>(0x13) };
 
+  /// @brief Field ECDH_ECDSA offset 0xffffffff size 0x4
+  static constexpr int32_t ECDH_ECDSA{ static_cast<int32_t>(0x10) };
+
+  /// @brief Field ECDH_RSA offset 0xffffffff size 0x4
+  static constexpr int32_t ECDH_RSA{ static_cast<int32_t>(0x12) };
+
   /// @brief Field ECDH_anon offset 0xffffffff size 0x4
   static constexpr int32_t ECDH_anon{ static_cast<int32_t>(0x14) };
+
+  /// @brief Field PSK offset 0xffffffff size 0x4
+  static constexpr int32_t PSK{ static_cast<int32_t>(0xd) };
+
+  /// @brief Field RSA offset 0xffffffff size 0x4
+  static constexpr int32_t RSA{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field RSA_EXPORT offset 0xffffffff size 0x4
+  static constexpr int32_t RSA_EXPORT{ static_cast<int32_t>(0x2) };
+
+  /// @brief Field RSA_PSK offset 0xffffffff size 0x4
+  static constexpr int32_t RSA_PSK{ static_cast<int32_t>(0xf) };
 
   /// @brief Field SRP offset 0xffffffff size 0x4
   static constexpr int32_t SRP{ static_cast<int32_t>(0x15) };
@@ -112,8 +110,8 @@ public:
   /// @brief Field SRP_RSA offset 0xffffffff size 0x4
   static constexpr int32_t SRP_RSA{ static_cast<int32_t>(0x17) };
 
-  /// @brief Field ECDHE_PSK offset 0xffffffff size 0x4
-  static constexpr int32_t ECDHE_PSK{ static_cast<int32_t>(0x18) };
+  /// @brief Field NULL offset 0xffffffff size 0x4
+  static constexpr int32_t _cordl_NULL{ static_cast<int32_t>(0x0) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

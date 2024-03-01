@@ -15,8 +15,6 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3243))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryHeaderEnum
 struct CORDL_TYPE BinaryHeaderEnum {
 public:
@@ -55,24 +53,74 @@ public:
     return static_cast<__BinaryHeaderEnum_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr BinaryHeaderEnum(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__BinaryHeaderEnum_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr BinaryHeaderEnum();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr BinaryHeaderEnum(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Array value: static_cast<int32_t>(0x7)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Array;
 
-  /// @brief Field SerializedStreamHeader value: static_cast<int32_t>(0x0)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const SerializedStreamHeader;
+  /// @brief Field ArraySingleObject value: static_cast<int32_t>(0x10)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySingleObject;
+
+  /// @brief Field ArraySinglePrimitive value: static_cast<int32_t>(0xf)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySinglePrimitive;
+
+  /// @brief Field ArraySingleString value: static_cast<int32_t>(0x11)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySingleString;
+
+  /// @brief Field Assembly value: static_cast<int32_t>(0xc)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Assembly;
+
+  /// @brief Field CrossAppDomainAssembly value: static_cast<int32_t>(0x14)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainAssembly;
+
+  /// @brief Field CrossAppDomainMap value: static_cast<int32_t>(0x12)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainMap;
+
+  /// @brief Field CrossAppDomainString value: static_cast<int32_t>(0x13)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainString;
+
+  /// @brief Field MemberPrimitiveTyped value: static_cast<int32_t>(0x8)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MemberPrimitiveTyped;
+
+  /// @brief Field MemberReference value: static_cast<int32_t>(0x9)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MemberReference;
+
+  /// @brief Field MessageEnd value: static_cast<int32_t>(0xb)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MessageEnd;
+
+  /// @brief Field MethodCall value: static_cast<int32_t>(0x15)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MethodCall;
+
+  /// @brief Field MethodReturn value: static_cast<int32_t>(0x16)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MethodReturn;
 
   /// @brief Field Object value: static_cast<int32_t>(0x1)
   static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Object;
+
+  /// @brief Field ObjectNull value: static_cast<int32_t>(0xa)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNull;
+
+  /// @brief Field ObjectNullMultiple value: static_cast<int32_t>(0xe)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNullMultiple;
+
+  /// @brief Field ObjectNullMultiple256 value: static_cast<int32_t>(0xd)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNullMultiple256;
+
+  /// @brief Field ObjectString value: static_cast<int32_t>(0x6)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectString;
 
   /// @brief Field ObjectWithMap value: static_cast<int32_t>(0x2)
   static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectWithMap;
@@ -86,56 +134,11 @@ public:
   /// @brief Field ObjectWithMapTypedAssemId value: static_cast<int32_t>(0x5)
   static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectWithMapTypedAssemId;
 
-  /// @brief Field ObjectString value: static_cast<int32_t>(0x6)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectString;
+  /// @brief Field SerializedStreamHeader value: static_cast<int32_t>(0x0)
+  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const SerializedStreamHeader;
 
-  /// @brief Field Array value: static_cast<int32_t>(0x7)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Array;
-
-  /// @brief Field MemberPrimitiveTyped value: static_cast<int32_t>(0x8)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MemberPrimitiveTyped;
-
-  /// @brief Field MemberReference value: static_cast<int32_t>(0x9)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MemberReference;
-
-  /// @brief Field ObjectNull value: static_cast<int32_t>(0xa)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNull;
-
-  /// @brief Field MessageEnd value: static_cast<int32_t>(0xb)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MessageEnd;
-
-  /// @brief Field Assembly value: static_cast<int32_t>(0xc)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const Assembly;
-
-  /// @brief Field ObjectNullMultiple256 value: static_cast<int32_t>(0xd)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNullMultiple256;
-
-  /// @brief Field ObjectNullMultiple value: static_cast<int32_t>(0xe)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ObjectNullMultiple;
-
-  /// @brief Field ArraySinglePrimitive value: static_cast<int32_t>(0xf)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySinglePrimitive;
-
-  /// @brief Field ArraySingleObject value: static_cast<int32_t>(0x10)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySingleObject;
-
-  /// @brief Field ArraySingleString value: static_cast<int32_t>(0x11)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const ArraySingleString;
-
-  /// @brief Field CrossAppDomainMap value: static_cast<int32_t>(0x12)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainMap;
-
-  /// @brief Field CrossAppDomainString value: static_cast<int32_t>(0x13)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainString;
-
-  /// @brief Field CrossAppDomainAssembly value: static_cast<int32_t>(0x14)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const CrossAppDomainAssembly;
-
-  /// @brief Field MethodCall value: static_cast<int32_t>(0x15)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MethodCall;
-
-  /// @brief Field MethodReturn value: static_cast<int32_t>(0x16)
-  static ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum const MethodReturn;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -41,8 +41,6 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerPlayerPlacement____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4576))
 // CS Name: ::MultiplayerPlayerPlacement::<>c*
 class CORDL_TYPE __MultiplayerPlayerPlacement____c : public ::System::Object {
 public:
@@ -53,22 +51,28 @@ public:
   /// @brief Field <>9__4_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__4_0, put = setStaticF___9__4_0))::System::Comparison_1<::GlobalNamespace::IConnectedPlayer*>* __9__4_0;
 
-  static inline void setStaticF___9(::GlobalNamespace::__MultiplayerPlayerPlacement____c* value);
+  static inline ::GlobalNamespace::__MultiplayerPlayerPlacement____c* New_ctor();
+
+  /// @brief Method <SortPlayers>b__4_0, addr 0x2484578, size 0x128, virtual false, abstract: false, final false
+  inline int32_t _SortPlayers_b__4_0(::GlobalNamespace::IConnectedPlayer* p1, ::GlobalNamespace::IConnectedPlayer* p2);
+
+  /// @brief Method .ctor, addr 0x2484570, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::GlobalNamespace::__MultiplayerPlayerPlacement____c* getStaticF___9();
 
-  static inline void setStaticF___9__4_0(::System::Comparison_1<::GlobalNamespace::IConnectedPlayer*>* value);
-
   static inline ::System::Comparison_1<::GlobalNamespace::IConnectedPlayer*>* getStaticF___9__4_0();
 
-  static inline ::GlobalNamespace::__MultiplayerPlayerPlacement____c* New_ctor();
+  static inline void setStaticF___9(::GlobalNamespace::__MultiplayerPlayerPlacement____c* value);
 
-  /// @brief Method .ctor, addr 0x23b6628, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__4_0(::System::Comparison_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method <SortPlayers>b__4_0, addr 0x23b6630, size 0x128, virtual false, abstract: false, final false
-  inline int32_t _SortPlayers_b__4_0(::GlobalNamespace::IConnectedPlayer* p1, ::GlobalNamespace::IConnectedPlayer* p2);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerPlayerPlacement____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerPlayerPlacement____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __MultiplayerPlayerPlacement____c(__MultiplayerPlayerPlacement____c&&) = delete;
@@ -77,12 +81,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerPlayerPlacement____c(__MultiplayerPlayerPlacement____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MultiplayerPlayerPlacement____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -93,32 +91,36 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerPl
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4577))
 // CS Name: ::MultiplayerPlayerPlacement*
 class CORDL_TYPE MultiplayerPlayerPlacement : public ::System::Object {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__MultiplayerPlayerPlacement____c;
 
-  /// @brief Method GetPlayerWorldPosition, addr 0x23afdd0, size 0x148, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 GetPlayerWorldPosition(float_t outerCircleRadius, float_t outerCirclePositionAngle, ::GlobalNamespace::MultiplayerPlayerLayout layout);
-
-  /// @brief Method GetOuterCirclePositionAngleForPlayer, addr 0x23afdc0, size 0x10, virtual false, abstract: false, final false
-  static inline float_t GetOuterCirclePositionAngleForPlayer(int32_t playerIndex, int32_t localPlayerIndex, float_t angleBetweenPlayers);
-
-  /// @brief Method GetOuterCircleRadius, addr 0x23afd7c, size 0x44, virtual false, abstract: false, final false
-  static inline float_t GetOuterCircleRadius(float_t angleBetweenPlayers, float_t innerCircleRadius);
-
-  /// @brief Method GetAngleBetweenPlayersWithEvenAdjustment, addr 0x23afd5c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetAngleBetweenPlayersWithEvenAdjustment, addr 0x247dca4, size 0x20, virtual false, abstract: false, final false
   static inline float_t GetAngleBetweenPlayersWithEvenAdjustment(int32_t numberOfPlayers, ::GlobalNamespace::MultiplayerPlayerLayout layout);
 
-  /// @brief Method SortPlayers, addr 0x23b6240, size 0xfc, virtual false, abstract: false, final false
-  static inline void SortPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* players);
-
-  /// @brief Method GetLocalPlayerIndex, addr 0x23b633c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method GetLocalPlayerIndex, addr 0x2484284, size 0x288, virtual false, abstract: false, final false
   static inline int32_t GetLocalPlayerIndex(::System::Collections::Generic::IList_1<::GlobalNamespace::IConnectedPlayer*>* otherPlayers, ::GlobalNamespace::IConnectedPlayer* localPlayer);
 
+  /// @brief Method GetOuterCirclePositionAngleForPlayer, addr 0x247dd08, size 0x10, virtual false, abstract: false, final false
+  static inline float_t GetOuterCirclePositionAngleForPlayer(int32_t playerIndex, int32_t localPlayerIndex, float_t angleBetweenPlayers);
+
+  /// @brief Method GetOuterCircleRadius, addr 0x247dcc4, size 0x44, virtual false, abstract: false, final false
+  static inline float_t GetOuterCircleRadius(float_t angleBetweenPlayers, float_t innerCircleRadius);
+
+  /// @brief Method GetPlayerWorldPosition, addr 0x247dd18, size 0x148, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 GetPlayerWorldPosition(float_t outerCircleRadius, float_t outerCirclePositionAngle, ::GlobalNamespace::MultiplayerPlayerLayout layout);
+
+  /// @brief Method SortPlayers, addr 0x2484188, size 0xfc, virtual false, abstract: false, final false
+  static inline void SortPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* players);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerPlayerPlacement();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerPlayerPlacement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerPlayerPlacement(MultiplayerPlayerPlacement&&) = delete;
@@ -127,12 +129,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerPlayerPlacement(MultiplayerPlayerPlacement const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerPlayerPlacement();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

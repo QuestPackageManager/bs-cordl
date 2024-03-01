@@ -14,23 +14,27 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::FocusOutEvent);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6491), inst: 1945 })]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6492))
 // CS Name: ::UnityEngine.UIElements::FocusOutEvent*
 class CORDL_TYPE FocusOutEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusOutEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2e6d354, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2f5fa7c, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x2e6d3a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x2f5fad0, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e6d3b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5fadc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr FocusOutEvent();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "FocusOutEvent", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   FocusOutEvent(FocusOutEvent&&) = delete;
@@ -39,12 +43,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FocusOutEvent(FocusOutEvent const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FocusOutEvent();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

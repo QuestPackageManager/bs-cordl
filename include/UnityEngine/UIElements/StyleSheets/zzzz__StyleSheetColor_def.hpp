@@ -26,8 +26,6 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSheetColor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6733))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSheetColor*
 class CORDL_TYPE StyleSheetColor : public ::System::Object {
 public:
@@ -35,16 +33,22 @@ public:
   /// @brief Field s_NameToColor, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_NameToColor, put = setStaticF_s_NameToColor))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* s_NameToColor;
 
-  static inline void setStaticF_s_NameToColor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* value);
+  /// @brief Method HexToColor32, addr 0x2ef8f60, size 0x14, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Color32 HexToColor32(uint32_t color);
+
+  /// @brief Method TryGetColor, addr 0x2ef6058, size 0xf4, virtual false, abstract: false, final false
+  static inline bool TryGetColor(::StringW name, ByRef<::UnityEngine::Color> color);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* getStaticF_s_NameToColor();
 
-  /// @brief Method TryGetColor, addr 0x2e05930, size 0xf4, virtual false, abstract: false, final false
-  static inline bool TryGetColor(::StringW name, ByRef<::UnityEngine::Color> color);
+  static inline void setStaticF_s_NameToColor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* value);
 
-  /// @brief Method HexToColor32, addr 0x2e08838, size 0x14, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color32 HexToColor32(uint32_t color);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr StyleSheetColor();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "StyleSheetColor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   StyleSheetColor(StyleSheetColor&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StyleSheetColor(StyleSheetColor const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleSheetColor();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -26,124 +26,128 @@ MARK_REF_PTR_T(::System::Xml::XmlAsyncCheckWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11389))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11345))
 // CS Name: ::System.Xml::XmlAsyncCheckWriter*
 class CORDL_TYPE XmlAsyncCheckWriter : public ::System::Xml::XmlWriter {
 public:
   // Declarations
+  __declspec(property(get = get_WriteState))::System::Xml::WriteState WriteState;
+
   /// @brief Field coreWriter, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_coreWriter, put = __cordl_internal_set_coreWriter))::System::Xml::XmlWriter* coreWriter;
 
   /// @brief Field lastTask, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_lastTask, put = __cordl_internal_set_lastTask))::System::Threading::Tasks::Task* lastTask;
 
-  __declspec(property(get = get_WriteState))::System::Xml::WriteState WriteState;
+  /// @brief Method CheckAsync, addr 0x293d7b8, size 0x84, virtual false, abstract: false, final false
+  inline void CheckAsync();
+
+  /// @brief Method Close, addr 0x293dde0, size 0x2c, virtual true, abstract: false, final false
+  inline void Close();
+
+  /// @brief Method Dispose, addr 0x293deb0, size 0x24, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
+
+  /// @brief Method Flush, addr 0x293de0c, size 0x2c, virtual true, abstract: false, final false
+  inline void Flush();
+
+  /// @brief Method LookupPrefix, addr 0x293de38, size 0x3c, virtual true, abstract: false, final false
+  inline ::StringW LookupPrefix(::StringW ns);
+
+  static inline ::System::Xml::XmlAsyncCheckWriter* New_ctor(::System::Xml::XmlWriter* writer);
+
+  /// @brief Method WriteBase64, addr 0x293dd0c, size 0x54, virtual true, abstract: false, final false
+  inline void WriteBase64(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
+
+  /// @brief Method WriteBinHex, addr 0x293dd60, size 0x54, virtual true, abstract: false, final false
+  inline void WriteBinHex(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
+
+  /// @brief Method WriteCData, addr 0x293da38, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteCData(::StringW text);
+
+  /// @brief Method WriteCharEntity, addr 0x293db30, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteCharEntity(char16_t ch);
+
+  /// @brief Method WriteChars, addr 0x293dc28, size 0x54, virtual true, abstract: false, final false
+  inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+
+  /// @brief Method WriteComment, addr 0x293da74, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteComment(::StringW text);
+
+  /// @brief Method WriteDocType, addr 0x293d8c4, size 0x58, virtual true, abstract: false, final false
+  inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
+
+  /// @brief Method WriteEndAttribute, addr 0x293da0c, size 0x2c, virtual true, abstract: false, final false
+  inline void WriteEndAttribute();
+
+  /// @brief Method WriteEndDocument, addr 0x293d89c, size 0x28, virtual true, abstract: false, final false
+  inline void WriteEndDocument();
+
+  /// @brief Method WriteEndElement, addr 0x293d96c, size 0x28, virtual true, abstract: false, final false
+  inline void WriteEndElement();
+
+  /// @brief Method WriteEntityRef, addr 0x293daf4, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteEntityRef(::StringW name);
+
+  /// @brief Method WriteFullEndElement, addr 0x293d994, size 0x28, virtual true, abstract: false, final false
+  inline void WriteFullEndElement();
+
+  /// @brief Method WriteProcessingInstruction, addr 0x293dab0, size 0x44, virtual true, abstract: false, final false
+  inline void WriteProcessingInstruction(::StringW name, ::StringW text);
+
+  /// @brief Method WriteRaw, addr 0x293dc7c, size 0x54, virtual true, abstract: false, final false
+  inline void WriteRaw(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+
+  /// @brief Method WriteRaw, addr 0x293dcd0, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteRaw(::StringW data);
+
+  /// @brief Method WriteStartAttribute, addr 0x293d9bc, size 0x50, virtual true, abstract: false, final false
+  inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
+
+  /// @brief Method WriteStartDocument, addr 0x293d83c, size 0x28, virtual true, abstract: false, final false
+  inline void WriteStartDocument();
+
+  /// @brief Method WriteStartDocument, addr 0x293d864, size 0x38, virtual true, abstract: false, final false
+  inline void WriteStartDocument(bool standalone);
+
+  /// @brief Method WriteStartElement, addr 0x293d91c, size 0x50, virtual true, abstract: false, final false
+  inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
+
+  /// @brief Method WriteString, addr 0x293dba8, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteString(::StringW text);
+
+  /// @brief Method WriteSurrogateCharEntity, addr 0x293dbe4, size 0x44, virtual true, abstract: false, final false
+  inline void WriteSurrogateCharEntity(char16_t lowChar, char16_t highChar);
+
+  /// @brief Method WriteValue, addr 0x293de74, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteValue(::StringW value);
+
+  /// @brief Method WriteWhitespace, addr 0x293db6c, size 0x3c, virtual true, abstract: false, final false
+  inline void WriteWhitespace(::StringW ws);
 
   constexpr ::System::Xml::XmlWriter*& __cordl_internal_get_coreWriter();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriter*> const& __cordl_internal_get_coreWriter() const;
 
-  constexpr void __cordl_internal_set_coreWriter(::System::Xml::XmlWriter* value);
-
   constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_lastTask();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_lastTask() const;
 
+  constexpr void __cordl_internal_set_coreWriter(::System::Xml::XmlWriter* value);
+
   constexpr void __cordl_internal_set_lastTask(::System::Threading::Tasks::Task* value);
 
-  static inline ::System::Xml::XmlAsyncCheckWriter* New_ctor(::System::Xml::XmlWriter* writer);
-
-  /// @brief Method .ctor, addr 0x28582c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x293d73c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method CheckAsync, addr 0x285833c, size 0x84, virtual false, abstract: false, final false
-  inline void CheckAsync();
-
-  /// @brief Method WriteStartDocument, addr 0x28583c0, size 0x28, virtual true, abstract: false, final false
-  inline void WriteStartDocument();
-
-  /// @brief Method WriteStartDocument, addr 0x28583e8, size 0x38, virtual true, abstract: false, final false
-  inline void WriteStartDocument(bool standalone);
-
-  /// @brief Method WriteEndDocument, addr 0x2858420, size 0x28, virtual true, abstract: false, final false
-  inline void WriteEndDocument();
-
-  /// @brief Method WriteDocType, addr 0x2858448, size 0x58, virtual true, abstract: false, final false
-  inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
-
-  /// @brief Method WriteStartElement, addr 0x28584a0, size 0x50, virtual true, abstract: false, final false
-  inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
-
-  /// @brief Method WriteEndElement, addr 0x28584f0, size 0x28, virtual true, abstract: false, final false
-  inline void WriteEndElement();
-
-  /// @brief Method WriteFullEndElement, addr 0x2858518, size 0x28, virtual true, abstract: false, final false
-  inline void WriteFullEndElement();
-
-  /// @brief Method WriteStartAttribute, addr 0x2858540, size 0x50, virtual true, abstract: false, final false
-  inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
-
-  /// @brief Method WriteEndAttribute, addr 0x2858590, size 0x2c, virtual true, abstract: false, final false
-  inline void WriteEndAttribute();
-
-  /// @brief Method WriteCData, addr 0x28585bc, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteCData(::StringW text);
-
-  /// @brief Method WriteComment, addr 0x28585f8, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteComment(::StringW text);
-
-  /// @brief Method WriteProcessingInstruction, addr 0x2858634, size 0x44, virtual true, abstract: false, final false
-  inline void WriteProcessingInstruction(::StringW name, ::StringW text);
-
-  /// @brief Method WriteEntityRef, addr 0x2858678, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteEntityRef(::StringW name);
-
-  /// @brief Method WriteCharEntity, addr 0x28586b4, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteCharEntity(char16_t ch);
-
-  /// @brief Method WriteWhitespace, addr 0x28586f0, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteWhitespace(::StringW ws);
-
-  /// @brief Method WriteString, addr 0x285872c, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteString(::StringW text);
-
-  /// @brief Method WriteSurrogateCharEntity, addr 0x2858768, size 0x44, virtual true, abstract: false, final false
-  inline void WriteSurrogateCharEntity(char16_t lowChar, char16_t highChar);
-
-  /// @brief Method WriteChars, addr 0x28587ac, size 0x54, virtual true, abstract: false, final false
-  inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
-
-  /// @brief Method WriteRaw, addr 0x2858800, size 0x54, virtual true, abstract: false, final false
-  inline void WriteRaw(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
-
-  /// @brief Method WriteRaw, addr 0x2858854, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteRaw(::StringW data);
-
-  /// @brief Method WriteBase64, addr 0x2858890, size 0x54, virtual true, abstract: false, final false
-  inline void WriteBase64(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
-
-  /// @brief Method WriteBinHex, addr 0x28588e4, size 0x54, virtual true, abstract: false, final false
-  inline void WriteBinHex(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
-
-  /// @brief Method get_WriteState, addr 0x2858938, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_WriteState, addr 0x293ddb4, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Xml::WriteState get_WriteState();
 
-  /// @brief Method Close, addr 0x2858964, size 0x2c, virtual true, abstract: false, final false
-  inline void Close();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XmlAsyncCheckWriter();
 
-  /// @brief Method Flush, addr 0x2858990, size 0x2c, virtual true, abstract: false, final false
-  inline void Flush();
-
-  /// @brief Method LookupPrefix, addr 0x28589bc, size 0x3c, virtual true, abstract: false, final false
-  inline ::StringW LookupPrefix(::StringW ns);
-
-  /// @brief Method WriteValue, addr 0x28589f8, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteValue(::StringW value);
-
-  /// @brief Method Dispose, addr 0x2858a34, size 0x24, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlAsyncCheckWriter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XmlAsyncCheckWriter(XmlAsyncCheckWriter&&) = delete;
@@ -152,12 +156,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlAsyncCheckWriter(XmlAsyncCheckWriter const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlAsyncCheckWriter();
-
-public:
   /// @brief Field coreWriter, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlWriter* ___coreWriter;
 

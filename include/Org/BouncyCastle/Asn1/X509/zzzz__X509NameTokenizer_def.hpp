@@ -19,14 +19,12 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509NameTokenizer);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(409))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509NameTokenizer*
 class CORDL_TYPE X509NameTokenizer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
+  /// @brief Field buffer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::System::Text::StringBuilder* buffer;
 
   /// @brief Field index, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
@@ -34,49 +32,55 @@ public:
   /// @brief Field separator, offset 0x1c, size 0x2
   __declspec(property(get = __cordl_internal_get_separator, put = __cordl_internal_set_separator)) char16_t separator;
 
-  /// @brief Field buffer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::System::Text::StringBuilder* buffer;
+  /// @brief Field value, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
 
-  constexpr ::StringW& __cordl_internal_get_value();
+  /// @brief Method HasMoreTokens, addr 0x12155b8, size 0x28, virtual false, abstract: false, final false
+  inline bool HasMoreTokens();
 
-  constexpr ::StringW const& __cordl_internal_get_value() const;
+  static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid);
 
-  constexpr void __cordl_internal_set_value(::StringW value);
+  static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid, char16_t separator);
 
-  constexpr int32_t& __cordl_internal_get_index();
-
-  constexpr int32_t const& __cordl_internal_get_index() const;
-
-  constexpr void __cordl_internal_set_index(int32_t value);
-
-  constexpr char16_t& __cordl_internal_get_separator();
-
-  constexpr char16_t const& __cordl_internal_get_separator() const;
-
-  constexpr void __cordl_internal_set_separator(char16_t value);
+  /// @brief Method NextToken, addr 0x1215360, size 0x1cc, virtual false, abstract: false, final false
+  inline ::StringW NextToken();
 
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get_buffer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_buffer() const;
 
+  constexpr int32_t const& __cordl_internal_get_index() const;
+
+  constexpr int32_t& __cordl_internal_get_index();
+
+  constexpr char16_t const& __cordl_internal_get_separator() const;
+
+  constexpr char16_t& __cordl_internal_get_separator();
+
+  constexpr ::StringW const& __cordl_internal_get_value() const;
+
+  constexpr ::StringW& __cordl_internal_get_value();
+
   constexpr void __cordl_internal_set_buffer(::System::Text::StringBuilder* value);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11d3388, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_separator(char16_t value);
+
+  constexpr void __cordl_internal_set_value(::StringW value);
+
+  /// @brief Method .ctor, addr 0x1215358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid, char16_t separator);
-
-  /// @brief Method .ctor, addr 0x11d355c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x121552c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, char16_t separator);
 
-  /// @brief Method HasMoreTokens, addr 0x11d35e8, size 0x28, virtual false, abstract: false, final false
-  inline bool HasMoreTokens();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509NameTokenizer();
 
-  /// @brief Method NextToken, addr 0x11d3390, size 0x1cc, virtual false, abstract: false, final false
-  inline ::StringW NextToken();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509NameTokenizer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509NameTokenizer(X509NameTokenizer&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509NameTokenizer(X509NameTokenizer const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509NameTokenizer();
-
-public:
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   ::StringW ___value;
 

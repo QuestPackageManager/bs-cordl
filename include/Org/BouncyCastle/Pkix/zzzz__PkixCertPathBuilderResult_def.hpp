@@ -27,16 +27,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1719))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1720))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathBuilderResult*
 class CORDL_TYPE PkixCertPathBuilderResult : public ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult {
 public:
   // Declarations
+  __declspec(property(get = get_CertPath))::Org::BouncyCastle::Pkix::PkixCertPath* CertPath;
+
   /// @brief Field certPath, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_certPath, put = __cordl_internal_set_certPath))::Org::BouncyCastle::Pkix::PkixCertPath* certPath;
 
-  __declspec(property(get = get_CertPath))::Org::BouncyCastle::Pkix::PkixCertPath* CertPath;
+  static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* New_ctor(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor,
+                                                                               ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
+                                                                               ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
+
+  /// @brief Method ToString, addr 0x11650c4, size 0x1a8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Pkix::PkixCertPath*& __cordl_internal_get_certPath();
 
@@ -44,20 +49,19 @@ public:
 
   constexpr void __cordl_internal_set_certPath(::Org::BouncyCastle::Pkix::PkixCertPath* value);
 
-  static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* New_ctor(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor,
-                                                                               ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
-                                                                               ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
-
-  /// @brief Method .ctor, addr 0x11192d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115c2a0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method get_CertPath, addr 0x11220ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertPath, addr 0x11650bc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPath* get_CertPath();
 
-  /// @brief Method ToString, addr 0x11220f4, size 0x1a8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PkixCertPathBuilderResult();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathBuilderResult", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PkixCertPathBuilderResult(PkixCertPathBuilderResult&&) = delete;
@@ -66,12 +70,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkixCertPathBuilderResult(PkixCertPathBuilderResult const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkixCertPathBuilderResult();
-
-public:
   /// @brief Field certPath, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Pkix::PkixCertPath* ___certPath;
 

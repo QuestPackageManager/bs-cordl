@@ -15,16 +15,21 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectiveListItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5098)), TypeDefinitionIndex(TypeDefinitionIndex(13627)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13627), inst:
-// 5199 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5099)) CS Name: ::ObjectiveListItemsList*
+// CS Name: ::ObjectiveListItemsList*
 class CORDL_TYPE ObjectiveListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::ObjectiveListItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ObjectiveListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23168e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e45b8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ObjectiveListItemsList();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ObjectiveListItemsList", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ObjectiveListItemsList(ObjectiveListItemsList&&) = delete;
@@ -33,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectiveListItemsList(ObjectiveListItemsList const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectiveListItemsList();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

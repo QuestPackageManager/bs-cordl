@@ -94,8 +94,6 @@ MARK_REF_PTR_T(::System::Net::HttpConnection);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7178))
 // CS Name: ::HttpConnection::InputState
 struct CORDL_TYPE __HttpConnection__InputState {
 public:
@@ -113,24 +111,29 @@ public:
     return static_cast<____HttpConnection__InputState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HttpConnection__InputState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____HttpConnection__InputState_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HttpConnection__InputState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HttpConnection__InputState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+  /// @brief Field Headers value: static_cast<int32_t>(0x1)
+  static ::System::Net::__HttpConnection__InputState const Headers;
 
   /// @brief Field RequestLine value: static_cast<int32_t>(0x0)
   static ::System::Net::__HttpConnection__InputState const RequestLine;
 
-  /// @brief Field Headers value: static_cast<int32_t>(0x1)
-  static ::System::Net::__HttpConnection__InputState const Headers;
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -144,8 +147,6 @@ static_assert(offsetof(::System::Net::__HttpConnection__InputState, value__) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7179))
 // CS Name: ::HttpConnection::LineState
 struct CORDL_TYPE __HttpConnection__LineState {
 public:
@@ -164,27 +165,32 @@ public:
     return static_cast<____HttpConnection__LineState_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HttpConnection__LineState(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<____HttpConnection__LineState_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __HttpConnection__LineState();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr __HttpConnection__LineState(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Net::__HttpConnection__LineState const None;
 
   /// @brief Field CR value: static_cast<int32_t>(0x1)
   static ::System::Net::__HttpConnection__LineState const CR;
 
   /// @brief Field LF value: static_cast<int32_t>(0x2)
   static ::System::Net::__HttpConnection__LineState const LF;
+
+  /// @brief Field None value: static_cast<int32_t>(0x0)
+  static ::System::Net::__HttpConnection__LineState const None;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -198,323 +204,327 @@ static_assert(offsetof(::System::Net::__HttpConnection__LineState, value__) == 0
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7178)), TypeDefinitionIndex(TypeDefinitionIndex(7179))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7180))
 // CS Name: ::System.Net::HttpConnection*
 class CORDL_TYPE HttpConnection : public ::System::Object {
 public:
   // Declarations
-  using LineState = ::System::Net::__HttpConnection__LineState;
-
   using InputState = ::System::Net::__HttpConnection__InputState;
 
-  /// @brief Field sock, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sock, put = __cordl_internal_set_sock))::System::Net::Sockets::Socket* sock;
+  using LineState = ::System::Net::__HttpConnection__LineState;
 
-  /// @brief Field stream, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = get_IsSecure)) bool IsSecure;
 
-  /// @brief Field epl, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_epl, put = __cordl_internal_set_epl))::System::Net::EndPointListener* epl;
+  __declspec(property(get = get_LocalEndPoint))::System::Net::IPEndPoint* LocalEndPoint;
 
-  /// @brief Field ms, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_ms, put = __cordl_internal_set_ms))::System::IO::MemoryStream* ms;
+  __declspec(property(put = set_Prefix))::System::Net::ListenerPrefix* Prefix;
+
+  __declspec(property(get = get_Reuses)) int32_t Reuses;
 
   /// @brief Field buffer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
-  /// @brief Field context, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Net::HttpListenerContext* context;
-
-  /// @brief Field current_line, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_current_line, put = __cordl_internal_set_current_line))::System::Text::StringBuilder* current_line;
-
-  /// @brief Field prefix, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::System::Net::ListenerPrefix* prefix;
-
-  /// @brief Field i_stream, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_i_stream, put = __cordl_internal_set_i_stream))::System::Net::RequestStream* i_stream;
-
-  /// @brief Field o_stream, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_o_stream, put = __cordl_internal_set_o_stream))::System::Net::ResponseStream* o_stream;
+  /// @brief Field cert, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::System::Security::Cryptography::X509Certificates::X509Certificate* cert;
 
   /// @brief Field chunked, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_chunked, put = __cordl_internal_set_chunked)) bool chunked;
 
-  /// @brief Field reuses, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_reuses, put = __cordl_internal_set_reuses)) int32_t reuses;
-
-  /// @brief Field context_bound, offset 0x68, size 0x1
-  __declspec(property(get = __cordl_internal_get_context_bound, put = __cordl_internal_set_context_bound)) bool context_bound;
-
-  /// @brief Field secure, offset 0x69, size 0x1
-  __declspec(property(get = __cordl_internal_get_secure, put = __cordl_internal_set_secure)) bool secure;
-
-  /// @brief Field cert, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::System::Security::Cryptography::X509Certificates::X509Certificate* cert;
-
-  /// @brief Field s_timeout, offset 0x78, size 0x4
-  __declspec(property(get = __cordl_internal_get_s_timeout, put = __cordl_internal_set_s_timeout)) int32_t s_timeout;
-
-  /// @brief Field timer, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_timer, put = __cordl_internal_set_timer))::System::Threading::Timer* timer;
-
-  /// @brief Field local_ep, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_local_ep, put = __cordl_internal_set_local_ep))::System::Net::IPEndPoint* local_ep;
-
-  /// @brief Field last_listener, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_last_listener, put = __cordl_internal_set_last_listener))::System::Net::HttpListener* last_listener;
+  /// @brief Field client_cert, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_client_cert, put = __cordl_internal_set_client_cert))::System::Security::Cryptography::X509Certificates::X509Certificate2* client_cert;
 
   /// @brief Field client_cert_errors, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_client_cert_errors, put = __cordl_internal_set_client_cert_errors))::ArrayW<int32_t, ::Array<int32_t>*> client_cert_errors;
 
-  /// @brief Field client_cert, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_client_cert, put = __cordl_internal_set_client_cert))::System::Security::Cryptography::X509Certificates::X509Certificate2* client_cert;
+  /// @brief Field context, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Net::HttpListenerContext* context;
 
-  /// @brief Field ssl_stream, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_ssl_stream, put = __cordl_internal_set_ssl_stream))::System::Net::Security::SslStream* ssl_stream;
+  /// @brief Field context_bound, offset 0x68, size 0x1
+  __declspec(property(get = __cordl_internal_get_context_bound, put = __cordl_internal_set_context_bound)) bool context_bound;
+
+  /// @brief Field current_line, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_current_line, put = __cordl_internal_set_current_line))::System::Text::StringBuilder* current_line;
+
+  /// @brief Field epl, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_epl, put = __cordl_internal_set_epl))::System::Net::EndPointListener* epl;
+
+  /// @brief Field i_stream, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_i_stream, put = __cordl_internal_set_i_stream))::System::Net::RequestStream* i_stream;
 
   /// @brief Field input_state, offset 0xb0, size 0x4
   __declspec(property(get = __cordl_internal_get_input_state, put = __cordl_internal_set_input_state))::System::Net::__HttpConnection__InputState input_state;
 
+  /// @brief Field last_listener, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_last_listener, put = __cordl_internal_set_last_listener))::System::Net::HttpListener* last_listener;
+
   /// @brief Field line_state, offset 0xb4, size 0x4
   __declspec(property(get = __cordl_internal_get_line_state, put = __cordl_internal_set_line_state))::System::Net::__HttpConnection__LineState line_state;
 
-  /// @brief Field position, offset 0xb8, size 0x4
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) int32_t position;
+  /// @brief Field local_ep, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_local_ep, put = __cordl_internal_set_local_ep))::System::Net::IPEndPoint* local_ep;
+
+  /// @brief Field ms, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_ms, put = __cordl_internal_set_ms))::System::IO::MemoryStream* ms;
+
+  /// @brief Field o_stream, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_o_stream, put = __cordl_internal_set_o_stream))::System::Net::ResponseStream* o_stream;
 
   /// @brief Field onread_cb, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_onread_cb, put = setStaticF_onread_cb))::System::AsyncCallback* onread_cb;
 
-  __declspec(property(get = get_Reuses)) int32_t Reuses;
+  /// @brief Field position, offset 0xb8, size 0x4
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) int32_t position;
 
-  __declspec(property(get = get_LocalEndPoint))::System::Net::IPEndPoint* LocalEndPoint;
+  /// @brief Field prefix, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::System::Net::ListenerPrefix* prefix;
 
-  __declspec(property(get = get_IsSecure)) bool IsSecure;
+  /// @brief Field reuses, offset 0x64, size 0x4
+  __declspec(property(get = __cordl_internal_get_reuses, put = __cordl_internal_set_reuses)) int32_t reuses;
 
-  __declspec(property(put = set_Prefix))::System::Net::ListenerPrefix* Prefix;
+  /// @brief Field s_timeout, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get_s_timeout, put = __cordl_internal_set_s_timeout)) int32_t s_timeout;
 
-  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_sock();
+  /// @brief Field secure, offset 0x69, size 0x1
+  __declspec(property(get = __cordl_internal_get_secure, put = __cordl_internal_set_secure)) bool secure;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_sock() const;
+  /// @brief Field sock, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_sock, put = __cordl_internal_set_sock))::System::Net::Sockets::Socket* sock;
 
-  constexpr void __cordl_internal_set_sock(::System::Net::Sockets::Socket* value);
+  /// @brief Field ssl_stream, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get_ssl_stream, put = __cordl_internal_set_ssl_stream))::System::Net::Security::SslStream* ssl_stream;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
+  /// @brief Field stream, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
+  /// @brief Field timer, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_timer, put = __cordl_internal_set_timer))::System::Threading::Timer* timer;
 
-  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
+  /// @brief Method BeginReadRequest, addr 0x2aacf78, size 0x1a8, virtual false, abstract: false, final false
+  inline void BeginReadRequest();
 
-  constexpr ::System::Net::EndPointListener*& __cordl_internal_get_epl();
+  /// @brief Method Close, addr 0x2aae82c, size 0x268, virtual false, abstract: false, final false
+  inline void Close(bool force_close);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPointListener*> const& __cordl_internal_get_epl() const;
+  /// @brief Method CloseSocket, addr 0x2ab0d28, size 0x108, virtual false, abstract: false, final false
+  inline void CloseSocket();
 
-  constexpr void __cordl_internal_set_epl(::System::Net::EndPointListener* value);
+  /// @brief Method GetRequestStream, addr 0x2ab0e60, size 0x14c, virtual false, abstract: false, final false
+  inline ::System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
 
-  constexpr ::System::IO::MemoryStream*& __cordl_internal_get_ms();
+  /// @brief Method GetResponseStream, addr 0x2ab1088, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Net::ResponseStream* GetResponseStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get_ms() const;
+  /// @brief Method Init, addr 0x2ab0ae4, size 0xa8, virtual false, abstract: false, final false
+  inline void Init();
 
-  constexpr void __cordl_internal_set_ms(::System::IO::MemoryStream* value);
+  static inline ::System::Net::HttpConnection* New_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure,
+                                                        ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
+  /// @brief Method OnRead, addr 0x2ab1150, size 0xd4, virtual false, abstract: false, final false
+  static inline void OnRead(::System::IAsyncResult* ares);
+
+  /// @brief Method OnReadInternal, addr 0x2ab1224, size 0x338, virtual false, abstract: false, final false
+  inline void OnReadInternal(::System::IAsyncResult* ares);
+
+  /// @brief Method OnTimeout, addr 0x2ab0d10, size 0x18, virtual false, abstract: false, final false
+  inline void OnTimeout(::System::Object* unused);
+
+  /// @brief Method ProcessInput, addr 0x2ab157c, size 0x2bc, virtual false, abstract: false, final false
+  inline bool ProcessInput(::System::IO::MemoryStream* ms);
+
+  /// @brief Method ReadLine, addr 0x2ab225c, size 0x178, virtual false, abstract: false, final false
+  inline ::StringW ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len, ByRef<int32_t> used);
+
+  /// @brief Method RemoveConnection, addr 0x2ab1e64, size 0x40, virtual false, abstract: false, final false
+  inline void RemoveConnection();
+
+  /// @brief Method SendError, addr 0x2ab155c, size 0x20, virtual false, abstract: false, final false
+  inline void SendError();
+
+  /// @brief Method SendError, addr 0x2aa89f8, size 0x1d8, virtual false, abstract: false, final false
+  inline void SendError(::StringW msg, int32_t status);
+
+  /// @brief Method Unbind, addr 0x2ab0e30, size 0x30, virtual false, abstract: false, final false
+  inline void Unbind();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __cordl_internal_get_context() const;
-
-  constexpr void __cordl_internal_set_context(::System::Net::HttpListenerContext* value);
-
-  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_current_line();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_current_line() const;
-
-  constexpr void __cordl_internal_set_current_line(::System::Text::StringBuilder* value);
-
-  constexpr ::System::Net::ListenerPrefix*& __cordl_internal_get_prefix();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ListenerPrefix*> const& __cordl_internal_get_prefix() const;
-
-  constexpr void __cordl_internal_set_prefix(::System::Net::ListenerPrefix* value);
-
-  constexpr ::System::Net::RequestStream*& __cordl_internal_get_i_stream();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::RequestStream*> const& __cordl_internal_get_i_stream() const;
-
-  constexpr void __cordl_internal_set_i_stream(::System::Net::RequestStream* value);
-
-  constexpr ::System::Net::ResponseStream*& __cordl_internal_get_o_stream();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseStream*> const& __cordl_internal_get_o_stream() const;
-
-  constexpr void __cordl_internal_set_o_stream(::System::Net::ResponseStream* value);
-
-  constexpr bool& __cordl_internal_get_chunked();
-
-  constexpr bool const& __cordl_internal_get_chunked() const;
-
-  constexpr void __cordl_internal_set_chunked(bool value);
-
-  constexpr int32_t& __cordl_internal_get_reuses();
-
-  constexpr int32_t const& __cordl_internal_get_reuses() const;
-
-  constexpr void __cordl_internal_set_reuses(int32_t value);
-
-  constexpr bool& __cordl_internal_get_context_bound();
-
-  constexpr bool const& __cordl_internal_get_context_bound() const;
-
-  constexpr void __cordl_internal_set_context_bound(bool value);
-
-  constexpr bool& __cordl_internal_get_secure();
-
-  constexpr bool const& __cordl_internal_get_secure() const;
-
-  constexpr void __cordl_internal_set_secure(bool value);
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __cordl_internal_get_cert();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& __cordl_internal_get_cert() const;
 
-  constexpr void __cordl_internal_set_cert(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
+  constexpr bool const& __cordl_internal_get_chunked() const;
 
-  constexpr int32_t& __cordl_internal_get_s_timeout();
-
-  constexpr int32_t const& __cordl_internal_get_s_timeout() const;
-
-  constexpr void __cordl_internal_set_s_timeout(int32_t value);
-
-  constexpr ::System::Threading::Timer*& __cordl_internal_get_timer();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& __cordl_internal_get_timer() const;
-
-  constexpr void __cordl_internal_set_timer(::System::Threading::Timer* value);
-
-  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_local_ep();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_local_ep() const;
-
-  constexpr void __cordl_internal_set_local_ep(::System::Net::IPEndPoint* value);
-
-  constexpr ::System::Net::HttpListener*& __cordl_internal_get_last_listener();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __cordl_internal_get_last_listener() const;
-
-  constexpr void __cordl_internal_set_last_listener(::System::Net::HttpListener* value);
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_client_cert_errors();
-
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_client_cert_errors() const;
-
-  constexpr void __cordl_internal_set_client_cert_errors(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr bool& __cordl_internal_get_chunked();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __cordl_internal_get_client_cert();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& __cordl_internal_get_client_cert() const;
 
-  constexpr void __cordl_internal_set_client_cert(::System::Security::Cryptography::X509Certificates::X509Certificate2* value);
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_client_cert_errors() const;
+
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_client_cert_errors();
+
+  constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __cordl_internal_get_context() const;
+
+  constexpr bool const& __cordl_internal_get_context_bound() const;
+
+  constexpr bool& __cordl_internal_get_context_bound();
+
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_current_line();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_current_line() const;
+
+  constexpr ::System::Net::EndPointListener*& __cordl_internal_get_epl();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPointListener*> const& __cordl_internal_get_epl() const;
+
+  constexpr ::System::Net::RequestStream*& __cordl_internal_get_i_stream();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::RequestStream*> const& __cordl_internal_get_i_stream() const;
+
+  constexpr ::System::Net::__HttpConnection__InputState const& __cordl_internal_get_input_state() const;
+
+  constexpr ::System::Net::__HttpConnection__InputState& __cordl_internal_get_input_state();
+
+  constexpr ::System::Net::HttpListener*& __cordl_internal_get_last_listener();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __cordl_internal_get_last_listener() const;
+
+  constexpr ::System::Net::__HttpConnection__LineState const& __cordl_internal_get_line_state() const;
+
+  constexpr ::System::Net::__HttpConnection__LineState& __cordl_internal_get_line_state();
+
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_local_ep();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_local_ep() const;
+
+  constexpr ::System::IO::MemoryStream*& __cordl_internal_get_ms();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get_ms() const;
+
+  constexpr ::System::Net::ResponseStream*& __cordl_internal_get_o_stream();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseStream*> const& __cordl_internal_get_o_stream() const;
+
+  constexpr int32_t const& __cordl_internal_get_position() const;
+
+  constexpr int32_t& __cordl_internal_get_position();
+
+  constexpr ::System::Net::ListenerPrefix*& __cordl_internal_get_prefix();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ListenerPrefix*> const& __cordl_internal_get_prefix() const;
+
+  constexpr int32_t const& __cordl_internal_get_reuses() const;
+
+  constexpr int32_t& __cordl_internal_get_reuses();
+
+  constexpr int32_t const& __cordl_internal_get_s_timeout() const;
+
+  constexpr int32_t& __cordl_internal_get_s_timeout();
+
+  constexpr bool const& __cordl_internal_get_secure() const;
+
+  constexpr bool& __cordl_internal_get_secure();
+
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_sock();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_sock() const;
 
   constexpr ::System::Net::Security::SslStream*& __cordl_internal_get_ssl_stream();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& __cordl_internal_get_ssl_stream() const;
 
-  constexpr void __cordl_internal_set_ssl_stream(::System::Net::Security::SslStream* value);
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::System::Net::__HttpConnection__InputState& __cordl_internal_get_input_state();
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr ::System::Net::__HttpConnection__InputState const& __cordl_internal_get_input_state() const;
+  constexpr ::System::Threading::Timer*& __cordl_internal_get_timer();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& __cordl_internal_get_timer() const;
+
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+
+  constexpr void __cordl_internal_set_cert(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
+
+  constexpr void __cordl_internal_set_chunked(bool value);
+
+  constexpr void __cordl_internal_set_client_cert(::System::Security::Cryptography::X509Certificates::X509Certificate2* value);
+
+  constexpr void __cordl_internal_set_client_cert_errors(::ArrayW<int32_t, ::Array<int32_t>*> value);
+
+  constexpr void __cordl_internal_set_context(::System::Net::HttpListenerContext* value);
+
+  constexpr void __cordl_internal_set_context_bound(bool value);
+
+  constexpr void __cordl_internal_set_current_line(::System::Text::StringBuilder* value);
+
+  constexpr void __cordl_internal_set_epl(::System::Net::EndPointListener* value);
+
+  constexpr void __cordl_internal_set_i_stream(::System::Net::RequestStream* value);
 
   constexpr void __cordl_internal_set_input_state(::System::Net::__HttpConnection__InputState value);
 
-  constexpr ::System::Net::__HttpConnection__LineState& __cordl_internal_get_line_state();
-
-  constexpr ::System::Net::__HttpConnection__LineState const& __cordl_internal_get_line_state() const;
+  constexpr void __cordl_internal_set_last_listener(::System::Net::HttpListener* value);
 
   constexpr void __cordl_internal_set_line_state(::System::Net::__HttpConnection__LineState value);
 
-  constexpr int32_t& __cordl_internal_get_position();
+  constexpr void __cordl_internal_set_local_ep(::System::Net::IPEndPoint* value);
 
-  constexpr int32_t const& __cordl_internal_get_position() const;
+  constexpr void __cordl_internal_set_ms(::System::IO::MemoryStream* value);
+
+  constexpr void __cordl_internal_set_o_stream(::System::Net::ResponseStream* value);
 
   constexpr void __cordl_internal_set_position(int32_t value);
 
-  static inline void setStaticF_onread_cb(::System::AsyncCallback* value);
+  constexpr void __cordl_internal_set_prefix(::System::Net::ListenerPrefix* value);
 
-  static inline ::System::AsyncCallback* getStaticF_onread_cb();
+  constexpr void __cordl_internal_set_reuses(int32_t value);
 
-  static inline ::System::Net::HttpConnection* New_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure,
-                                                        ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
+  constexpr void __cordl_internal_set_s_timeout(int32_t value);
 
-  /// @brief Method .ctor, addr 0x29c4c44, size 0x260, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure, ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
+  constexpr void __cordl_internal_set_secure(bool value);
 
-  /// @brief Method Init, addr 0x29c8a10, size 0xa8, virtual false, abstract: false, final false
-  inline void Init();
+  constexpr void __cordl_internal_set_sock(::System::Net::Sockets::Socket* value);
 
-  /// @brief Method get_Reuses, addr 0x29c8b6c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Reuses();
+  constexpr void __cordl_internal_set_ssl_stream(::System::Net::Security::SslStream* value);
 
-  /// @brief Method get_LocalEndPoint, addr 0x29c8b74, size 0xb8, virtual false, abstract: false, final false
-  inline ::System::Net::IPEndPoint* get_LocalEndPoint();
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  /// @brief Method get_IsSecure, addr 0x29c8c2c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsSecure();
+  constexpr void __cordl_internal_set_timer(::System::Threading::Timer* value);
 
-  /// @brief Method set_Prefix, addr 0x29c8c34, size 0x8, virtual false, abstract: false, final false
-  inline void set_Prefix(::System::Net::ListenerPrefix* value);
-
-  /// @brief Method OnTimeout, addr 0x29c8c3c, size 0x18, virtual false, abstract: false, final false
-  inline void OnTimeout(::System::Object* unused);
-
-  /// @brief Method BeginReadRequest, addr 0x29c4ea4, size 0x1a8, virtual false, abstract: false, final false
-  inline void BeginReadRequest();
-
-  /// @brief Method GetRequestStream, addr 0x29c8d8c, size 0x14c, virtual false, abstract: false, final false
-  inline ::System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
-
-  /// @brief Method GetResponseStream, addr 0x29c8fb4, size 0xc8, virtual false, abstract: false, final false
-  inline ::System::Net::ResponseStream* GetResponseStream();
-
-  /// @brief Method OnRead, addr 0x29c907c, size 0xd4, virtual false, abstract: false, final false
-  static inline void OnRead(::System::IAsyncResult* ares);
-
-  /// @brief Method OnReadInternal, addr 0x29c9150, size 0x338, virtual false, abstract: false, final false
-  inline void OnReadInternal(::System::IAsyncResult* ares);
-
-  /// @brief Method RemoveConnection, addr 0x29c9d90, size 0x40, virtual false, abstract: false, final false
-  inline void RemoveConnection();
-
-  /// @brief Method ProcessInput, addr 0x29c94a8, size 0x2bc, virtual false, abstract: false, final false
-  inline bool ProcessInput(::System::IO::MemoryStream* ms);
-
-  /// @brief Method ReadLine, addr 0x29ca188, size 0x178, virtual false, abstract: false, final false
-  inline ::StringW ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len, ByRef<int32_t> used);
-
-  /// @brief Method SendError, addr 0x29c0924, size 0x1d8, virtual false, abstract: false, final false
-  inline void SendError(::StringW msg, int32_t status);
-
-  /// @brief Method SendError, addr 0x29c9488, size 0x20, virtual false, abstract: false, final false
-  inline void SendError();
-
-  /// @brief Method Unbind, addr 0x29c8d5c, size 0x30, virtual false, abstract: false, final false
-  inline void Unbind();
-
-  /// @brief Method CloseSocket, addr 0x29c8c54, size 0x108, virtual false, abstract: false, final false
-  inline void CloseSocket();
-
-  /// @brief Method Close, addr 0x29c6758, size 0x268, virtual false, abstract: false, final false
-  inline void Close(bool force_close);
-
-  /// @brief Method <.ctor>b__24_0, addr 0x29cb6d0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__24_0, addr 0x2ab37a4, size 0xf4, virtual false, abstract: false, final false
   inline bool __ctor_b__24_0(::System::Object* t, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
                              ::System::Net::Security::SslPolicyErrors e);
 
+  /// @brief Method .ctor, addr 0x2aacd18, size 0x260, virtual false, abstract: false, final false
+  inline void _ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure, ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
+
+  static inline ::System::AsyncCallback* getStaticF_onread_cb();
+
+  /// @brief Method get_IsSecure, addr 0x2ab0d00, size 0x8, virtual false, abstract: false, final false
+  inline bool get_IsSecure();
+
+  /// @brief Method get_LocalEndPoint, addr 0x2ab0c48, size 0xb8, virtual false, abstract: false, final false
+  inline ::System::Net::IPEndPoint* get_LocalEndPoint();
+
+  /// @brief Method get_Reuses, addr 0x2ab0c40, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_Reuses();
+
+  static inline void setStaticF_onread_cb(::System::AsyncCallback* value);
+
+  /// @brief Method set_Prefix, addr 0x2ab0d08, size 0x8, virtual false, abstract: false, final false
+  inline void set_Prefix(::System::Net::ListenerPrefix* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpConnection();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpConnection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   HttpConnection(HttpConnection&&) = delete;
@@ -523,12 +533,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpConnection(HttpConnection const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpConnection();
-
-public:
   /// @brief Field sock, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ___sock;
 

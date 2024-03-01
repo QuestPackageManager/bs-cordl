@@ -140,27 +140,25 @@ MARK_VAL_T(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingRegion
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3389)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)), TypeDefinitionIndex(TypeDefinitionIndex(12579)), TypeDefinitionIndex(TypeDefinitionIndex(12580)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12584)), TypeDefinitionIndex(TypeDefinitionIndex(12656)), TypeDefinitionIndex(TypeDefinitionIndex(12823)), TypeDefinitionIndex(TypeDefinitionIndex(12909)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12911)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4747 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 100 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3390), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 905 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3398), inst: 900 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12903)) CS Name: ::GameLiftPlayerSessionProvider::<GetGameLiftPlayerSessionInfo>d__14
+// CS Name: ::GameLiftPlayerSessionProvider::<GetGameLiftPlayerSessionInfo>d__14
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xed0d30, size 0x173c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xed24c8, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe89d60, size 0x173c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe8b4f8, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
@@ -190,10 +188,6 @@ public:
       ::BGNet::Core::GameLift::GetMultiplayerInstanceResponse _getMatchmakingInstanceResponse_5__10, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken> __u__2,
       int32_t __7__wrap10, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse> __u__3,
       ::System::Runtime::CompilerServices::TaskAwaiter __u__4) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -328,23 +322,25 @@ static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 593 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 5036 })] Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(12904)) CS Name: ::GameLiftPlayerSessionProvider::<PingAllAwsGameLiftRegions>d__15
+// CS Name: ::GameLiftPlayerSessionProvider::<PingAllAwsGameLiftRegions>d__15
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xed2520, size 0x368, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xed2888, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe8b550, size 0x368, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe8b8b8, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*",
@@ -353,10 +349,6 @@ public:
   constexpr __GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* __4__this,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::ValueTuple_2<::StringW, int64_t>, ::Array<::System::ValueTuple_2<::StringW, int64_t>>*>> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -391,8 +383,6 @@ static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12905))
 // CS Name: ::GameLiftPlayerSessionProvider::<>c*
 class CORDL_TYPE __GameLiftPlayerSessionProvider____c : public ::System::Object {
 public:
@@ -412,36 +402,42 @@ public:
   static __declspec(property(get = getStaticF___9__16_2,
                              put = setStaticF___9__16_2))::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>* __9__16_2;
 
-  static inline void setStaticF___9(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider____c* value);
+  static inline ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider____c* New_ctor();
+
+  /// @brief Method <GetAverageLatencies>b__16_0, addr 0xed2900, size 0x48, virtual false, abstract: false, final false
+  inline bool _GetAverageLatencies_b__16_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
+
+  /// @brief Method <GetAverageLatencies>b__16_1, addr 0xed2948, size 0x3c, virtual false, abstract: false, final false
+  inline ::StringW _GetAverageLatencies_b__16_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
+
+  /// @brief Method <GetAverageLatencies>b__16_2, addr 0xed2984, size 0x5c, virtual false, abstract: false, final false
+  inline int64_t _GetAverageLatencies_b__16_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
+
+  /// @brief Method .ctor, addr 0xed28f8, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider____c* getStaticF___9();
 
-  static inline void setStaticF___9__16_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>* value);
-
   static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>* getStaticF___9__16_0();
-
-  static inline void setStaticF___9__16_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>* value);
 
   static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>* getStaticF___9__16_1();
 
-  static inline void setStaticF___9__16_2(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>* value);
-
   static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>* getStaticF___9__16_2();
 
-  static inline ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider____c* New_ctor();
+  static inline void setStaticF___9(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider____c* value);
 
-  /// @brief Method .ctor, addr 0xe8b928, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF___9__16_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>* value);
 
-  /// @brief Method <GetAverageLatencies>b__16_0, addr 0xe8b930, size 0x48, virtual false, abstract: false, final false
-  inline bool _GetAverageLatencies_b__16_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
+  static inline void setStaticF___9__16_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>* value);
 
-  /// @brief Method <GetAverageLatencies>b__16_1, addr 0xe8b978, size 0x3c, virtual false, abstract: false, final false
-  inline ::StringW _GetAverageLatencies_b__16_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
+  static inline void setStaticF___9__16_2(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>* value);
 
-  /// @brief Method <GetAverageLatencies>b__16_2, addr 0xe8b9b4, size 0x5c, virtual false, abstract: false, final false
-  inline int64_t _GetAverageLatencies_b__16_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GameLiftPlayerSessionProvider____c();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__GameLiftPlayerSessionProvider____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __GameLiftPlayerSessionProvider____c(__GameLiftPlayerSessionProvider____c&&) = delete;
@@ -450,12 +446,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameLiftPlayerSessionProvider____c(__GameLiftPlayerSessionProvider____c const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GameLiftPlayerSessionProvider____c();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -466,24 +456,25 @@ static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::__GameLif
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3398)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 593 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 333 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3398), inst: 872 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12906)) CS Name:
-// ::GameLiftPlayerSessionProvider::<PingRegionAsync>d__17
+// CS Name: ::GameLiftPlayerSessionProvider::<PingRegionAsync>d__17
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___PingRegionAsync_d__17 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0xed29e0, size 0x2ec, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0xed2ccc, size 0x58, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0xe8ba10, size 0x2ec, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0xe8bcfc, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GameLiftPlayerSessionProvider___PingRegionAsync_d__17();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::StringW,int64_t>>", modifiers: "", def_value: None }, CppParam { name: "awsRegion", ty: "::StringW",
@@ -491,10 +482,6 @@ public:
   constexpr __GameLiftPlayerSessionProvider___PingRegionAsync_d__17(int32_t __1__state,
                                                                     ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::StringW, int64_t>> __t__builder,
                                                                     ::StringW awsRegion, ::System::Runtime::CompilerServices::TaskAwaiter_1<int64_t> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GameLiftPlayerSessionProvider___PingRegionAsync_d__17();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -529,29 +516,29 @@ static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12907))
 // CS Name: ::BGNet.Core.GameLift::GameLiftPlayerSessionProvider*
 class CORDL_TYPE GameLiftPlayerSessionProvider : public ::System::Object {
 public:
   // Declarations
+  using _GetGameLiftPlayerSessionInfo_d__14 = ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14;
+
+  using _PingAllAwsGameLiftRegions_d__15 = ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15;
+
   using _PingRegionAsync_d__17 = ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingRegionAsync_d__17;
 
   using __c = ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider____c;
 
-  using _PingAllAwsGameLiftRegions_d__15 = ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15;
-
-  using _GetGameLiftPlayerSessionInfo_d__14 = ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14;
-
-  /// @brief Field _networkConfig, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
+  /// @brief Field _awsGameLiftRegions, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__awsGameLiftRegions, put = setStaticF__awsGameLiftRegions))::ArrayW<::StringW, ::Array<::StringW>*> _awsGameLiftRegions;
 
   /// @brief Field _graphAPIClient, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__graphAPIClient, put = __cordl_internal_set__graphAPIClient))::GlobalNamespace::GraphAPIClient* _graphAPIClient;
 
-  /// @brief Field _xPlatformAuthFeatureFlag, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__xPlatformAuthFeatureFlag,
-                      put = __cordl_internal_set__xPlatformAuthFeatureFlag))::GlobalNamespace::XPlatformAuthFeatureFlag* _xPlatformAuthFeatureFlag;
+  /// @brief Field _lastPingTime, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__lastPingTime, put = __cordl_internal_set__lastPingTime)) int64_t _lastPingTime;
+
+  /// @brief Field _networkConfig, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
 
   /// @brief Field _pingAverages, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__pingAverages,
@@ -560,97 +547,101 @@ public:
   /// @brief Field _pingCount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__pingCount, put = __cordl_internal_set__pingCount)) int32_t _pingCount;
 
-  /// @brief Field _lastPingTime, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastPingTime, put = __cordl_internal_set__lastPingTime)) int64_t _lastPingTime;
-
-  /// @brief Field _awsGameLiftRegions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__awsGameLiftRegions, put = setStaticF__awsGameLiftRegions))::ArrayW<::StringW, ::Array<::StringW>*> _awsGameLiftRegions;
+  /// @brief Field _xPlatformAuthFeatureFlag, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__xPlatformAuthFeatureFlag,
+                      put = __cordl_internal_set__xPlatformAuthFeatureFlag))::GlobalNamespace::XPlatformAuthFeatureFlag* _xPlatformAuthFeatureFlag;
 
   /// @brief Convert operator to "::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider"
   constexpr operator ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*() noexcept;
 
-  /// @brief Convert to "::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider"
-  constexpr ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* i___BGNet__Core__GameLift__IGameLiftPlayerSessionProvider() noexcept;
-
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IPollable"
-  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
+  /// @brief Method GetAverageLatencies, addr 0xed0418, size 0x24c, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* GetAverageLatencies();
 
-  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
+  /// @brief Method GetAwsGameLiftRegionEndpoint, addr 0xed0754, size 0x6c, virtual false, abstract: false, final false
+  static inline ::StringW GetAwsGameLiftRegionEndpoint(::StringW awsRegion);
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
+  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0xed02bc, size 0x15c, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*
+  GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
+                               ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
 
-  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+  /// @brief Method GetXPlatformAccessToken, addr 0xed07c0, size 0x16c, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
+                                                                                                                  ::System::Threading::CancellationToken cancellationToken, bool skipCache);
+
+  static inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig,
+                                                                                 ::GlobalNamespace::XPlatformAuthFeatureFlag* xPlatformAuthFeatureFlag);
+
+  /// @brief Method PingAllAwsGameLiftRegions, addr 0xed0228, size 0x94, virtual false, abstract: false, final false
+  inline void PingAllAwsGameLiftRegions();
+
+  /// @brief Method PingRegionAsync, addr 0xed0664, size 0xf0, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* PingRegionAsync(::StringW awsRegion);
+
+  /// @brief Method PollUpdate, addr 0xed0168, size 0xc0, virtual true, abstract: false, final true
+  inline void PollUpdate();
+
+  /// @brief Method <PingAllAwsGameLiftRegions>b__15_0, addr 0xed0d2c, size 0x4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* _PingAllAwsGameLiftRegions_b__15_0(::StringW region);
 
   constexpr ::GlobalNamespace::GraphAPIClient*& __cordl_internal_get__graphAPIClient();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GraphAPIClient*> const& __cordl_internal_get__graphAPIClient() const;
 
-  constexpr void __cordl_internal_set__graphAPIClient(::GlobalNamespace::GraphAPIClient* value);
+  constexpr int64_t const& __cordl_internal_get__lastPingTime() const;
 
-  constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag*& __cordl_internal_get__xPlatformAuthFeatureFlag();
+  constexpr int64_t& __cordl_internal_get__lastPingTime();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAuthFeatureFlag*> const& __cordl_internal_get__xPlatformAuthFeatureFlag() const;
+  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
 
-  constexpr void __cordl_internal_set__xPlatformAuthFeatureFlag(::GlobalNamespace::XPlatformAuthFeatureFlag* value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*& __cordl_internal_get__pingAverages();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*> const& __cordl_internal_get__pingAverages() const;
 
-  constexpr void __cordl_internal_set__pingAverages(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>* value);
+  constexpr int32_t const& __cordl_internal_get__pingCount() const;
 
   constexpr int32_t& __cordl_internal_get__pingCount();
 
-  constexpr int32_t const& __cordl_internal_get__pingCount() const;
+  constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag*& __cordl_internal_get__xPlatformAuthFeatureFlag();
 
-  constexpr void __cordl_internal_set__pingCount(int32_t value);
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAuthFeatureFlag*> const& __cordl_internal_get__xPlatformAuthFeatureFlag() const;
 
-  constexpr int64_t& __cordl_internal_get__lastPingTime();
-
-  constexpr int64_t const& __cordl_internal_get__lastPingTime() const;
+  constexpr void __cordl_internal_set__graphAPIClient(::GlobalNamespace::GraphAPIClient* value);
 
   constexpr void __cordl_internal_set__lastPingTime(int64_t value);
 
-  static inline void setStaticF__awsGameLiftRegions(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+
+  constexpr void __cordl_internal_set__pingAverages(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>* value);
+
+  constexpr void __cordl_internal_set__pingCount(int32_t value);
+
+  constexpr void __cordl_internal_set__xPlatformAuthFeatureFlag(::GlobalNamespace::XPlatformAuthFeatureFlag* value);
+
+  /// @brief Method .ctor, addr 0xecffc4, size 0x1a4, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::XPlatformAuthFeatureFlag* xPlatformAuthFeatureFlag);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF__awsGameLiftRegions();
 
-  static inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig,
-                                                                                 ::GlobalNamespace::XPlatformAuthFeatureFlag* xPlatformAuthFeatureFlag);
+  /// @brief Convert to "::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider"
+  constexpr ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* i___BGNet__Core__GameLift__IGameLiftPlayerSessionProvider() noexcept;
 
-  /// @brief Method .ctor, addr 0xe88ff4, size 0x1a4, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::XPlatformAuthFeatureFlag* xPlatformAuthFeatureFlag);
+  /// @brief Convert to "::GlobalNamespace::IPollable"
+  constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
 
-  /// @brief Method PollUpdate, addr 0xe89198, size 0xc0, virtual true, abstract: false, final true
-  inline void PollUpdate();
+  static inline void setStaticF__awsGameLiftRegions(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0xe892ec, size 0x15c, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*
-  GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
-                               ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameLiftPlayerSessionProvider();
 
-  /// @brief Method PingAllAwsGameLiftRegions, addr 0xe89258, size 0x94, virtual false, abstract: false, final false
-  inline void PingAllAwsGameLiftRegions();
-
-  /// @brief Method GetAverageLatencies, addr 0xe89448, size 0x24c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* GetAverageLatencies();
-
-  /// @brief Method PingRegionAsync, addr 0xe89694, size 0xf0, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* PingRegionAsync(::StringW awsRegion);
-
-  /// @brief Method GetAwsGameLiftRegionEndpoint, addr 0xe89784, size 0x6c, virtual false, abstract: false, final false
-  static inline ::StringW GetAwsGameLiftRegionEndpoint(::StringW awsRegion);
-
-  /// @brief Method GetXPlatformAccessToken, addr 0xe897f0, size 0x16c, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
-                                                                                                                  ::System::Threading::CancellationToken cancellationToken, bool skipCache);
-
-  /// @brief Method <PingAllAwsGameLiftRegions>b__15_0, addr 0xe89d5c, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* _PingAllAwsGameLiftRegions_b__15_0(::StringW region);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftPlayerSessionProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameLiftPlayerSessionProvider(GameLiftPlayerSessionProvider&&) = delete;
@@ -659,12 +650,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameLiftPlayerSessionProvider(GameLiftPlayerSessionProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameLiftPlayerSessionProvider();
-
-public:
   /// @brief Field _networkConfig, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 
@@ -683,20 +668,20 @@ public:
   /// @brief Field _lastPingTime, offset: 0x38, size: 0x8, def value: None
   int64_t ____lastPingTime;
 
-  /// @brief Field kMatchmakingTimeoutMs offset 0xffffffff size 0x4
-  static constexpr int32_t kMatchmakingTimeoutMs{ static_cast<int32_t>(0x1d4c0) };
-
-  /// @brief Field kPingFrequencyMs offset 0xffffffff size 0x4
-  static constexpr int32_t kPingFrequencyMs{ static_cast<int32_t>(0xbb8) };
-
-  /// @brief Field kMaxPingCount offset 0xffffffff size 0x4
-  static constexpr int32_t kMaxPingCount{ static_cast<int32_t>(0xa) };
+  /// @brief Field kCancelMatchmakingTicketPath offset 0xffffffff size 0x8
+  static constexpr ::ConstString kCancelMatchmakingTicketPath{ u"beat_saber_multiplayer_cancel_matchmaking_ticket" };
 
   /// @brief Field kGetMatchmakingInstancePath offset 0xffffffff size 0x8
   static constexpr ::ConstString kGetMatchmakingInstancePath{ u"beat_saber_get_multiplayer_instance" };
 
-  /// @brief Field kCancelMatchmakingTicketPath offset 0xffffffff size 0x8
-  static constexpr ::ConstString kCancelMatchmakingTicketPath{ u"beat_saber_multiplayer_cancel_matchmaking_ticket" };
+  /// @brief Field kMatchmakingTimeoutMs offset 0xffffffff size 0x4
+  static constexpr int32_t kMatchmakingTimeoutMs{ static_cast<int32_t>(0x1d4c0) };
+
+  /// @brief Field kMaxPingCount offset 0xffffffff size 0x4
+  static constexpr int32_t kMaxPingCount{ static_cast<int32_t>(0xa) };
+
+  /// @brief Field kPingFrequencyMs offset 0xffffffff size 0x4
+  static constexpr int32_t kPingFrequencyMs{ static_cast<int32_t>(0xbb8) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

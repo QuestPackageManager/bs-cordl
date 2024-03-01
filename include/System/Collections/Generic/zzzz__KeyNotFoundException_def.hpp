@@ -21,27 +21,31 @@ MARK_REF_PTR_T(::System::Collections::Generic::KeyNotFoundException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3838))
 // CS Name: ::System.Collections.Generic::KeyNotFoundException*
 class CORDL_TYPE KeyNotFoundException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Collections::Generic::KeyNotFoundException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25aeab8, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::System::Collections::Generic::KeyNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Collections::Generic::KeyNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25aeb14, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+  /// @brief Method .ctor, addr 0x267f19c, size 0x5c, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  static inline ::System::Collections::Generic::KeyNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
-
-  /// @brief Method .ctor, addr 0x25aeb38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267f21c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
+  /// @brief Method .ctor, addr 0x267f1f8, size 0x24, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeyNotFoundException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KeyNotFoundException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyNotFoundException(KeyNotFoundException&&) = delete;
@@ -50,12 +54,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyNotFoundException(KeyNotFoundException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyNotFoundException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -14,17 +14,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3553))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1312))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsNoCloseNotifyException*
 class CORDL_TYPE TlsNoCloseNotifyException : public ::System::IO::EndOfStreamException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfdab88, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x101fb58, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TlsNoCloseNotifyException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsNoCloseNotifyException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   TlsNoCloseNotifyException(TlsNoCloseNotifyException&&) = delete;
@@ -33,12 +37,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TlsNoCloseNotifyException(TlsNoCloseNotifyException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsNoCloseNotifyException();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

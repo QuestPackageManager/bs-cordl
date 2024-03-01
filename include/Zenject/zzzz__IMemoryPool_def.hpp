@@ -20,22 +20,35 @@ MARK_REF_PTR_T(::Zenject::IMemoryPool);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10169))
 // CS Name: ::Zenject::IMemoryPool*
 class CORDL_TYPE IMemoryPool {
 public:
   // Declarations
-  __declspec(property(get = get_NumTotal)) int32_t NumTotal;
+  __declspec(property(get = get_ItemType))::System::Type* ItemType;
 
   __declspec(property(get = get_NumActive)) int32_t NumActive;
 
   __declspec(property(get = get_NumInactive)) int32_t NumInactive;
 
-  __declspec(property(get = get_ItemType))::System::Type* ItemType;
+  __declspec(property(get = get_NumTotal)) int32_t NumTotal;
 
-  /// @brief Method get_NumTotal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t get_NumTotal();
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Clear();
+
+  /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Despawn(::System::Object* obj);
+
+  /// @brief Method ExpandBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ExpandBy(int32_t numToAdd);
+
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void Resize(int32_t desiredPoolSize);
+
+  /// @brief Method ShrinkBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void ShrinkBy(int32_t numToRemove);
+
+  /// @brief Method get_ItemType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Type* get_ItemType();
 
   /// @brief Method get_NumActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_NumActive();
@@ -43,23 +56,8 @@ public:
   /// @brief Method get_NumInactive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_NumInactive();
 
-  /// @brief Method get_ItemType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Type* get_ItemType();
-
-  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Resize(int32_t desiredPoolSize);
-
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Clear();
-
-  /// @brief Method ExpandBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ExpandBy(int32_t numToAdd);
-
-  /// @brief Method ShrinkBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ShrinkBy(int32_t numToRemove);
-
-  /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Despawn(::System::Object* obj);
+  /// @brief Method get_NumTotal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_NumTotal();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMemoryPool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

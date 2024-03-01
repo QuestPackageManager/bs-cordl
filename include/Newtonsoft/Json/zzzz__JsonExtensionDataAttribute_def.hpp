@@ -14,51 +14,55 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonExtensionDataAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11703))
 // CS Name: ::Newtonsoft.Json::JsonExtensionDataAttribute*
 class CORDL_TYPE JsonExtensionDataAttribute : public ::System::Attribute {
 public:
   // Declarations
-  /// @brief Field <WriteData>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__WriteData_k__BackingField, put = __cordl_internal_set__WriteData_k__BackingField)) bool _WriteData_k__BackingField;
+  __declspec(property(get = get_ReadData, put = set_ReadData)) bool ReadData;
+
+  __declspec(property(get = get_WriteData, put = set_WriteData)) bool WriteData;
 
   /// @brief Field <ReadData>k__BackingField, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get__ReadData_k__BackingField, put = __cordl_internal_set__ReadData_k__BackingField)) bool _ReadData_k__BackingField;
 
-  __declspec(property(get = get_WriteData, put = set_WriteData)) bool WriteData;
-
-  __declspec(property(get = get_ReadData, put = set_ReadData)) bool ReadData;
-
-  constexpr bool& __cordl_internal_get__WriteData_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__WriteData_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__WriteData_k__BackingField(bool value);
-
-  constexpr bool& __cordl_internal_get__ReadData_k__BackingField();
-
-  constexpr bool const& __cordl_internal_get__ReadData_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__ReadData_k__BackingField(bool value);
-
-  /// @brief Method get_WriteData, addr 0x2662b60, size 0x8, virtual false, abstract: false, final false
-  inline bool get_WriteData();
-
-  /// @brief Method set_WriteData, addr 0x2662b68, size 0xc, virtual false, abstract: false, final false
-  inline void set_WriteData(bool value);
-
-  /// @brief Method get_ReadData, addr 0x2662b74, size 0x8, virtual false, abstract: false, final false
-  inline bool get_ReadData();
-
-  /// @brief Method set_ReadData, addr 0x2662b7c, size 0xc, virtual false, abstract: false, final false
-  inline void set_ReadData(bool value);
+  /// @brief Field <WriteData>k__BackingField, offset 0x10, size 0x1
+  __declspec(property(get = __cordl_internal_get__WriteData_k__BackingField, put = __cordl_internal_set__WriteData_k__BackingField)) bool _WriteData_k__BackingField;
 
   static inline ::Newtonsoft::Json::JsonExtensionDataAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2662b88, size 0x20, virtual false, abstract: false, final false
+  constexpr bool const& __cordl_internal_get__ReadData_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__ReadData_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__WriteData_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__WriteData_k__BackingField();
+
+  constexpr void __cordl_internal_set__ReadData_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__WriteData_k__BackingField(bool value);
+
+  /// @brief Method .ctor, addr 0x27322d4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_ReadData, addr 0x27322c0, size 0x8, virtual false, abstract: false, final false
+  inline bool get_ReadData();
+
+  /// @brief Method get_WriteData, addr 0x27322ac, size 0x8, virtual false, abstract: false, final false
+  inline bool get_WriteData();
+
+  /// @brief Method set_ReadData, addr 0x27322c8, size 0xc, virtual false, abstract: false, final false
+  inline void set_ReadData(bool value);
+
+  /// @brief Method set_WriteData, addr 0x27322b4, size 0xc, virtual false, abstract: false, final false
+  inline void set_WriteData(bool value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr JsonExtensionDataAttribute();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   JsonExtensionDataAttribute(JsonExtensionDataAttribute&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonExtensionDataAttribute(JsonExtensionDataAttribute const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonExtensionDataAttribute();
-
-public:
   /// @brief Field <WriteData>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____WriteData_k__BackingField;
 

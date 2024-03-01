@@ -15,8 +15,6 @@ MARK_VAL_T(::UnityEngine::Android::AndroidAssetPackError);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14794))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackError
 struct CORDL_TYPE AndroidAssetPackError {
 public:
@@ -45,57 +43,62 @@ public:
     return static_cast<__AndroidAssetPackError_Unwrapped>(this->value__);
   }
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr AndroidAssetPackError(int32_t value__) noexcept;
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator int32_t() const noexcept {
+    return static_cast<__AndroidAssetPackError_Unwrapped>(this->value__);
+  }
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr AndroidAssetPackError();
 
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr AndroidAssetPackError(int32_t value__) noexcept;
+
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field NoError value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Android::AndroidAssetPackError const NoError;
-
-  /// @brief Field AppUnavailable value: static_cast<int32_t>(0xffffffff)
-  static ::UnityEngine::Android::AndroidAssetPackError const AppUnavailable;
-
-  /// @brief Field PackUnavailable value: static_cast<int32_t>(0xfffffffe)
-  static ::UnityEngine::Android::AndroidAssetPackError const PackUnavailable;
-
-  /// @brief Field InvalidRequest value: static_cast<int32_t>(0xfffffffd)
-  static ::UnityEngine::Android::AndroidAssetPackError const InvalidRequest;
-
-  /// @brief Field DownloadNotFound value: static_cast<int32_t>(0xfffffffc)
-  static ::UnityEngine::Android::AndroidAssetPackError const DownloadNotFound;
-
-  /// @brief Field ApiNotAvailable value: static_cast<int32_t>(0xfffffffb)
-  static ::UnityEngine::Android::AndroidAssetPackError const ApiNotAvailable;
-
-  /// @brief Field NetworkError value: static_cast<int32_t>(0xfffffffa)
-  static ::UnityEngine::Android::AndroidAssetPackError const NetworkError;
 
   /// @brief Field AccessDenied value: static_cast<int32_t>(0xfffffff9)
   static ::UnityEngine::Android::AndroidAssetPackError const AccessDenied;
 
-  /// @brief Field InsufficientStorage value: static_cast<int32_t>(0xfffffff6)
-  static ::UnityEngine::Android::AndroidAssetPackError const InsufficientStorage;
-
-  /// @brief Field PlayStoreNotFound value: static_cast<int32_t>(0xfffffff5)
-  static ::UnityEngine::Android::AndroidAssetPackError const PlayStoreNotFound;
-
-  /// @brief Field NetworkUnrestricted value: static_cast<int32_t>(0xfffffff4)
-  static ::UnityEngine::Android::AndroidAssetPackError const NetworkUnrestricted;
+  /// @brief Field ApiNotAvailable value: static_cast<int32_t>(0xfffffffb)
+  static ::UnityEngine::Android::AndroidAssetPackError const ApiNotAvailable;
 
   /// @brief Field AppNotOwned value: static_cast<int32_t>(0xfffffff3)
   static ::UnityEngine::Android::AndroidAssetPackError const AppNotOwned;
 
+  /// @brief Field AppUnavailable value: static_cast<int32_t>(0xffffffff)
+  static ::UnityEngine::Android::AndroidAssetPackError const AppUnavailable;
+
+  /// @brief Field DownloadNotFound value: static_cast<int32_t>(0xfffffffc)
+  static ::UnityEngine::Android::AndroidAssetPackError const DownloadNotFound;
+
+  /// @brief Field InsufficientStorage value: static_cast<int32_t>(0xfffffff6)
+  static ::UnityEngine::Android::AndroidAssetPackError const InsufficientStorage;
+
   /// @brief Field InternalError value: static_cast<int32_t>(0xffffff9c)
   static ::UnityEngine::Android::AndroidAssetPackError const InternalError;
+
+  /// @brief Field InvalidRequest value: static_cast<int32_t>(0xfffffffd)
+  static ::UnityEngine::Android::AndroidAssetPackError const InvalidRequest;
+
+  /// @brief Field NetworkError value: static_cast<int32_t>(0xfffffffa)
+  static ::UnityEngine::Android::AndroidAssetPackError const NetworkError;
+
+  /// @brief Field NetworkUnrestricted value: static_cast<int32_t>(0xfffffff4)
+  static ::UnityEngine::Android::AndroidAssetPackError const NetworkUnrestricted;
+
+  /// @brief Field NoError value: static_cast<int32_t>(0x0)
+  static ::UnityEngine::Android::AndroidAssetPackError const NoError;
+
+  /// @brief Field PackUnavailable value: static_cast<int32_t>(0xfffffffe)
+  static ::UnityEngine::Android::AndroidAssetPackError const PackUnavailable;
+
+  /// @brief Field PlayStoreNotFound value: static_cast<int32_t>(0xfffffff5)
+  static ::UnityEngine::Android::AndroidAssetPackError const PlayStoreNotFound;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

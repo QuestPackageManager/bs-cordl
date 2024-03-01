@@ -24,27 +24,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1628))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1647))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyRing*
 class CORDL_TYPE PgpKeyRing : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10dad84, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method ReadOptionalTrustPacket, addr 0x10dad8c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadOptionalTrustPacket, addr 0x111ed5c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::TrustPacket* ReadOptionalTrustPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadSignaturesAndTrust, addr 0x10dae2c, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ReadSignaturesAndTrust, addr 0x111edfc, size 0x2c8, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* ReadSignaturesAndTrust(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadUserIDs, addr 0x10db0f4, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method ReadUserIDs, addr 0x111f0c4, size 0x340, virtual false, abstract: false, final false
   static inline void ReadUserIDs(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput, ByRef<::System::Collections::IList*> ids, ByRef<::System::Collections::IList*> idTrusts,
                                  ByRef<::System::Collections::IList*> idSigs);
 
+  /// @brief Method .ctor, addr 0x111ed54, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PgpKeyRing();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PgpKeyRing", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PgpKeyRing(PgpKeyRing&&) = delete;
@@ -53,12 +57,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PgpKeyRing(PgpKeyRing const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PgpKeyRing();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

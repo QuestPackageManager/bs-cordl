@@ -16,18 +16,16 @@ MARK_VAL_T(::OVR::OpenVR::AppOverrideKeys_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8647))
 // CS Name: ::OVR.OpenVR::AppOverrideKeys_t
 struct CORDL_TYPE AppOverrideKeys_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "pchKey", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "pchValue", ty: "void*", modifiers: "", def_value: None }]
-  constexpr AppOverrideKeys_t(void* pchKey, void* pchValue) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr AppOverrideKeys_t();
+
+  // Ctor Parameters [CppParam { name: "pchKey", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "pchValue", ty: "void*", modifiers: "", def_value: None }]
+  constexpr AppOverrideKeys_t(void* pchKey, void* pchValue) noexcept;
 
   /// @brief Field pchKey, offset: 0x0, size: 0x8, def value: None
   void* pchKey;

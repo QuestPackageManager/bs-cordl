@@ -18,20 +18,24 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::SavePersistentViewData);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6133))
 // CS Name: ::UnityEngine.UIElements::SavePersistentViewData*
 class CORDL_TYPE SavePersistentViewData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  static inline ::UnityEngine::UIElements::SavePersistentViewData* New_ctor(::System::Object* object, void* method);
-
-  /// @brief Method .ctor, addr 0x2de7ebc, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
-
-  /// @brief Method Invoke, addr 0x2de7f78, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ed76a0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
+  static inline ::UnityEngine::UIElements::SavePersistentViewData* New_ctor(::System::Object* object, void* method);
+
+  /// @brief Method .ctor, addr 0x2ed75e4, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, void* method);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SavePersistentViewData();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SavePersistentViewData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SavePersistentViewData(SavePersistentViewData&&) = delete;
@@ -40,12 +44,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SavePersistentViewData(SavePersistentViewData const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SavePersistentViewData();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

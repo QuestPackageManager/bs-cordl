@@ -28,16 +28,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Operators {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(675))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(998))
 // CS Name: ::Org.BouncyCastle.Operators::CmsKeyTransRecipientInfoGenerator*
 class CORDL_TYPE CmsKeyTransRecipientInfoGenerator : public ::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator {
 public:
   // Declarations
+  __declspec(property(get = get_AlgorithmDetails))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* AlgorithmDetails;
+
   /// @brief Field keyWrapper, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_keyWrapper, put = __cordl_internal_set_keyWrapper))::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper;
 
-  __declspec(property(get = get_AlgorithmDetails))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* AlgorithmDetails;
+  /// @brief Method GenerateWrappedKey, addr 0xf9da34, size 0x130, virtual true, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateWrappedKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentKey);
+
+  static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert,
+                                                                                            ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
+
+  static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
   constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper*& __cordl_internal_get_keyWrapper();
 
@@ -45,23 +51,21 @@ public:
 
   constexpr void __cordl_internal_set_keyWrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
 
-  static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert,
-                                                                                            ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
-
-  /// @brief Method .ctor, addr 0xf587b8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9d788, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
-
-  /// @brief Method .ctor, addr 0xf58904, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9d8d4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method get_AlgorithmDetails, addr 0xf58978, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmDetails, addr 0xf9d948, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmDetails();
 
-  /// @brief Method GenerateWrappedKey, addr 0xf58a64, size 0x130, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateWrappedKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentKey);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CmsKeyTransRecipientInfoGenerator();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsKeyTransRecipientInfoGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CmsKeyTransRecipientInfoGenerator(CmsKeyTransRecipientInfoGenerator&&) = delete;
@@ -70,12 +74,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsKeyTransRecipientInfoGenerator(CmsKeyTransRecipientInfoGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsKeyTransRecipientInfoGenerator();
-
-public:
   /// @brief Field keyWrapper, offset: 0x40, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IKeyWrapper* ___keyWrapper;
 

@@ -15,17 +15,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::CertPolicyID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(350))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(351))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::CertPolicyID*
 class CORDL_TYPE CertPolicyID : public ::Org::BouncyCastle::Asn1::DerObjectIdentifier {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::X509::CertPolicyID* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x11b8860, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fa830, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr CertPolicyID();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "CertPolicyID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   CertPolicyID(CertPolicyID&&) = delete;
@@ -34,12 +38,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertPolicyID(CertPolicyID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertPolicyID();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

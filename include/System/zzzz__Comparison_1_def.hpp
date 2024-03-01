@@ -20,20 +20,24 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2339))
 // CS Name: ::System::Comparison`1<T>*
 class CORDL_TYPE Comparison_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t Invoke(T x, T y);
+
   static inline ::System::Comparison_1<T>* New_ctor(::System::Object* object, void* method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t Invoke(T x, T y);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Comparison_1();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Comparison_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Comparison_1(Comparison_1&&) = delete;
@@ -42,12 +46,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Comparison_1(Comparison_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Comparison_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

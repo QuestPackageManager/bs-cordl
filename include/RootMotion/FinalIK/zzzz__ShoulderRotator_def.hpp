@@ -24,68 +24,72 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::ShoulderRotator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12566))
 // CS Name: ::RootMotion.FinalIK::ShoulderRotator*
 class CORDL_TYPE ShoulderRotator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field weight, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
+  /// @brief Field ik, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ik;
 
   /// @brief Field offset, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) float_t offset;
 
-  /// @brief Field ik, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ik;
-
   /// @brief Field skip, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_skip, put = __cordl_internal_set_skip)) bool skip;
 
-  constexpr float_t& __cordl_internal_get_weight();
+  /// @brief Field weight, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  constexpr float_t const& __cordl_internal_get_weight() const;
-
-  constexpr void __cordl_internal_set_weight(float_t value);
-
-  constexpr float_t& __cordl_internal_get_offset();
-
-  constexpr float_t const& __cordl_internal_get_offset() const;
-
-  constexpr void __cordl_internal_set_offset(float_t value);
-
-  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK>& __cordl_internal_get_ik();
-
-  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_ik() const;
-
-  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> value);
-
-  constexpr bool& __cordl_internal_get_skip();
-
-  constexpr bool const& __cordl_internal_get_skip() const;
-
-  constexpr void __cordl_internal_set_skip(bool value);
-
-  /// @brief Method Start, addr 0x133242c, size 0xf0, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method RotateShoulders, addr 0x133251c, size 0xdc, virtual false, abstract: false, final false
-  inline void RotateShoulders();
-
-  /// @brief Method RotateShoulder, addr 0x13325f8, size 0x404, virtual false, abstract: false, final false
-  inline void RotateShoulder(::RootMotion::FinalIK::FullBodyBipedChain chain, float_t weight, float_t offset);
-
-  /// @brief Method GetParentBoneMap, addr 0x13329fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetParentBoneMap, addr 0x13739e8, size 0x34, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKMapping__BoneMap* GetParentBoneMap(::RootMotion::FinalIK::FullBodyBipedChain chain);
-
-  /// @brief Method OnDestroy, addr 0x1332a30, size 0x10c, virtual false, abstract: false, final false
-  inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::ShoulderRotator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1332b3c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1373a1c, size 0x10c, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method RotateShoulder, addr 0x13735e4, size 0x404, virtual false, abstract: false, final false
+  inline void RotateShoulder(::RootMotion::FinalIK::FullBodyBipedChain chain, float_t weight, float_t offset);
+
+  /// @brief Method RotateShoulders, addr 0x1373508, size 0xdc, virtual false, abstract: false, final false
+  inline void RotateShoulders();
+
+  /// @brief Method Start, addr 0x1373418, size 0xf0, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_ik() const;
+
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK>& __cordl_internal_get_ik();
+
+  constexpr float_t const& __cordl_internal_get_offset() const;
+
+  constexpr float_t& __cordl_internal_get_offset();
+
+  constexpr bool const& __cordl_internal_get_skip() const;
+
+  constexpr bool& __cordl_internal_get_skip();
+
+  constexpr float_t const& __cordl_internal_get_weight() const;
+
+  constexpr float_t& __cordl_internal_get_weight();
+
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> value);
+
+  constexpr void __cordl_internal_set_offset(float_t value);
+
+  constexpr void __cordl_internal_set_skip(bool value);
+
+  constexpr void __cordl_internal_set_weight(float_t value);
+
+  /// @brief Method .ctor, addr 0x1373b28, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ShoulderRotator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ShoulderRotator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ShoulderRotator(ShoulderRotator&&) = delete;
@@ -94,12 +98,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ShoulderRotator(ShoulderRotator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShoulderRotator();
-
-public:
   /// @brief Field weight, offset: 0x18, size: 0x4, def value: None
   float_t ___weight;
 

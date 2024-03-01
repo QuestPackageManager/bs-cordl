@@ -40,98 +40,102 @@ MARK_REF_PTR_T(::System::Resources::RuntimeResourceSet);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3438))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3425))
 // CS Name: ::System.Resources::RuntimeResourceSet*
 class CORDL_TYPE RuntimeResourceSet : public ::System::Resources::ResourceSet {
 public:
   // Declarations
-  /// @brief Field _resCache, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__resCache,
-                      put = __cordl_internal_set__resCache))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _resCache;
-
-  /// @brief Field _defaultReader, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultReader, put = __cordl_internal_set__defaultReader))::System::Resources::ResourceReader* _defaultReader;
-
   /// @brief Field _caseInsensitiveTable, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__caseInsensitiveTable,
                       put = __cordl_internal_set__caseInsensitiveTable))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _caseInsensitiveTable;
 
+  /// @brief Field _defaultReader, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultReader, put = __cordl_internal_set__defaultReader))::System::Resources::ResourceReader* _defaultReader;
+
   /// @brief Field _haveReadFromReader, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__haveReadFromReader, put = __cordl_internal_set__haveReadFromReader)) bool _haveReadFromReader;
+
+  /// @brief Field _resCache, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__resCache,
+                      put = __cordl_internal_set__resCache))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _resCache;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+  /// @brief Method Dispose, addr 0x25d0000, size 0x140, virtual true, abstract: false, final false
+  inline void Dispose(bool disposing);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__resCache();
+  /// @brief Method GetEnumerator, addr 0x25d0230, size 0x4, virtual true, abstract: false, final false
+  inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const& __cordl_internal_get__resCache() const;
+  /// @brief Method GetEnumeratorHelper, addr 0x25d0234, size 0x100, virtual false, abstract: false, final false
+  inline ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
 
-  constexpr void __cordl_internal_set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
+  /// @brief Method GetObject, addr 0x25d0d34, size 0xc, virtual true, abstract: false, final false
+  inline ::System::Object* GetObject(::StringW key);
 
-  constexpr ::System::Resources::ResourceReader*& __cordl_internal_get__defaultReader();
+  /// @brief Method GetObject, addr 0x25d0d40, size 0xc, virtual true, abstract: false, final false
+  inline ::System::Object* GetObject(::StringW key, bool ignoreCase);
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceReader*> const& __cordl_internal_get__defaultReader() const;
+  /// @brief Method GetObject, addr 0x25d03a8, size 0x910, virtual false, abstract: false, final false
+  inline ::System::Object* GetObject(::StringW key, bool ignoreCase, bool isString);
 
-  constexpr void __cordl_internal_set__defaultReader(::System::Resources::ResourceReader* value);
+  /// @brief Method GetString, addr 0x25d0338, size 0x70, virtual true, abstract: false, final false
+  inline ::StringW GetString(::StringW key);
+
+  /// @brief Method GetString, addr 0x25d0cb8, size 0x7c, virtual true, abstract: false, final false
+  inline ::StringW GetString(::StringW key, bool ignoreCase);
+
+  static inline ::System::Resources::RuntimeResourceSet* New_ctor(::StringW fileName);
+
+  static inline ::System::Resources::RuntimeResourceSet* New_ctor(::System::IO::Stream* stream);
+
+  /// @brief Method ResolveResourceLocator, addr 0x25d1604, size 0x180, virtual false, abstract: false, final false
+  inline ::System::Object* ResolveResourceLocator(::System::Resources::ResourceLocator resLocation, ::StringW key,
+                                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
+
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x25d0334, size 0x4, virtual true, abstract: false, final true
+  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__caseInsensitiveTable();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const&
   __cordl_internal_get__caseInsensitiveTable() const;
 
-  constexpr void __cordl_internal_set__caseInsensitiveTable(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
+  constexpr ::System::Resources::ResourceReader*& __cordl_internal_get__defaultReader();
 
-  constexpr bool& __cordl_internal_get__haveReadFromReader();
+  constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceReader*> const& __cordl_internal_get__defaultReader() const;
 
   constexpr bool const& __cordl_internal_get__haveReadFromReader() const;
 
+  constexpr bool& __cordl_internal_get__haveReadFromReader();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__resCache();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*> const& __cordl_internal_get__resCache() const;
+
+  constexpr void __cordl_internal_set__caseInsensitiveTable(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
+
+  constexpr void __cordl_internal_set__defaultReader(::System::Resources::ResourceReader* value);
+
   constexpr void __cordl_internal_set__haveReadFromReader(bool value);
 
-  static inline ::System::Resources::RuntimeResourceSet* New_ctor(::StringW fileName);
+  constexpr void __cordl_internal_set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
 
-  /// @brief Method .ctor, addr 0x24fe0c8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cfcdc, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName);
 
-  static inline ::System::Resources::RuntimeResourceSet* New_ctor(::System::IO::Stream* stream);
-
-  /// @brief Method .ctor, addr 0x24fe208, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cff08, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream);
 
-  /// @brief Method Dispose, addr 0x24fe308, size 0x124, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+  /// @brief Convert to "::System::Collections::IEnumerable"
+  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x24fe42c, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr RuntimeResourceSet();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x24fe530, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method GetEnumeratorHelper, addr 0x24fe430, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
-
-  /// @brief Method GetString, addr 0x24fe534, size 0x70, virtual true, abstract: false, final false
-  inline ::StringW GetString(::StringW key);
-
-  /// @brief Method GetString, addr 0x24feeb8, size 0x7c, virtual true, abstract: false, final false
-  inline ::StringW GetString(::StringW key, bool ignoreCase);
-
-  /// @brief Method GetObject, addr 0x24fef34, size 0xc, virtual true, abstract: false, final false
-  inline ::System::Object* GetObject(::StringW key);
-
-  /// @brief Method GetObject, addr 0x24fef40, size 0xc, virtual true, abstract: false, final false
-  inline ::System::Object* GetObject(::StringW key, bool ignoreCase);
-
-  /// @brief Method GetObject, addr 0x24fe5a4, size 0x914, virtual false, abstract: false, final false
-  inline ::System::Object* GetObject(::StringW key, bool ignoreCase, bool isString);
-
-  /// @brief Method ResolveResourceLocator, addr 0x24fef4c, size 0x188, virtual false, abstract: false, final false
-  inline ::System::Object* ResolveResourceLocator(::System::Resources::ResourceLocator resLocation, ::StringW key,
-                                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeResourceSet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   RuntimeResourceSet(RuntimeResourceSet&&) = delete;
@@ -140,12 +144,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeResourceSet(RuntimeResourceSet const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeResourceSet();
-
-public:
   /// @brief Field _resCache, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* ____resCache;
 

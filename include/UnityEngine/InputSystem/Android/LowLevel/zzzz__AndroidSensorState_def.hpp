@@ -31,19 +31,17 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState__
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5715))
 // CS Name: ::AndroidSensorState::<data>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __AndroidSensorState___data_e__FixedBuffer {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __AndroidSensorState___data_e__FixedBuffer(float_t FixedElementField) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr __AndroidSensorState___data_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr __AndroidSensorState___data_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief Field FixedElementField, offset: 0x0, size: 0x4, def value: None
   float_t FixedElementField;
@@ -67,41 +65,39 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidS
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5715)), TypeDefinitionIndex(TypeDefinitionIndex(5926))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5716))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorState
 struct CORDL_TYPE AndroidSensorState {
 public:
   // Declarations
   using _data_e__FixedBuffer = ::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer;
 
+  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+
   /// @brief Field kFormat, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_kFormat, put = setStaticF_kFormat))::UnityEngine::InputSystem::Utilities::FourCC kFormat;
 
-  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
-
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
+
+  /// @brief Method WithData, addr 0x2bcd9ec, size 0xd0, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState WithData(::ArrayW<float_t, ::Array<float_t>*> data);
+
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
+
+  /// @brief Method get_format, addr 0x2bcdabc, size 0x58, virtual true, abstract: false, final true
+  inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
   static inline void setStaticF_kFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
-
-  /// @brief Method WithData, addr 0x2ae8918, size 0xd0, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState WithData(::ArrayW<float_t, ::Array<float_t>*> data);
-
-  /// @brief Method get_format, addr 0x2ae89e8, size 0x58, virtual true, abstract: false, final true
-  inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
-
-  // Ctor Parameters [CppParam { name: "data", ty: "::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer", modifiers: "", def_value: None }]
-  constexpr AndroidSensorState(::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer data) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr AndroidSensorState();
+
+  // Ctor Parameters [CppParam { name: "data", ty: "::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer", modifiers: "", def_value: None }]
+  constexpr AndroidSensorState(::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer data) noexcept;
 
   /// @brief Field data, offset: 0x0, size: 0x40, def value: None
   ::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer data;

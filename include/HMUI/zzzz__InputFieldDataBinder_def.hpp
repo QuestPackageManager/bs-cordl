@@ -55,52 +55,23 @@ namespace HMUI {
 // cpp template
 template <typename T0, typename T1>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13465))
 // CS Name: ::InputFieldDataBinder::<>c__DisplayClass2_0`2<T0,T1>*
 class CORDL_TYPE __InputFieldDataBinder____c__DisplayClass2_0_2 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field toValueConvertor, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_toValueConvertor, put = __cordl_internal_set_toValueConvertor))::System::Func_2<::StringW, T1>* toValueConvertor;
-
-  /// @brief Field valueItem, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_valueItem, put = __cordl_internal_set_valueItem)) T0 valueItem;
-
   /// @brief Field inputField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_inputField, put = __cordl_internal_set_inputField))::UnityW<::UnityEngine::UI::InputField> inputField;
 
   /// @brief Field toStringConvertor, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_toStringConvertor, put = __cordl_internal_set_toStringConvertor))::System::Func_2<T1, ::StringW>* toStringConvertor;
 
-  constexpr ::System::Func_2<::StringW, T1>*& __cordl_internal_get_toValueConvertor();
+  /// @brief Field toValueConvertor, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_toValueConvertor, put = __cordl_internal_set_toValueConvertor))::System::Func_2<::StringW, T1>* toValueConvertor;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, T1>*> const& __cordl_internal_get_toValueConvertor() const;
-
-  constexpr void __cordl_internal_set_toValueConvertor(::System::Func_2<::StringW, T1>* value);
-
-  constexpr T0& __cordl_internal_get_valueItem();
-
-  constexpr T0 const& __cordl_internal_get_valueItem() const;
-
-  constexpr void __cordl_internal_set_valueItem(T0 value);
-
-  constexpr ::UnityW<::UnityEngine::UI::InputField>& __cordl_internal_get_inputField();
-
-  constexpr ::UnityW<::UnityEngine::UI::InputField> const& __cordl_internal_get_inputField() const;
-
-  constexpr void __cordl_internal_set_inputField(::UnityW<::UnityEngine::UI::InputField> value);
-
-  constexpr ::System::Func_2<T1, ::StringW>*& __cordl_internal_get_toStringConvertor();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T1, ::StringW>*> const& __cordl_internal_get_toStringConvertor() const;
-
-  constexpr void __cordl_internal_set_toStringConvertor(::System::Func_2<T1, ::StringW>* value);
+  /// @brief Field valueItem, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_valueItem, put = __cordl_internal_set_valueItem)) T0 valueItem;
 
   static inline ::HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <AddBindings>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _AddBindings_b__0(::StringW value);
@@ -108,6 +79,39 @@ public:
   /// @brief Method <AddBindings>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _AddBindings_b__1();
 
+  constexpr ::UnityW<::UnityEngine::UI::InputField> const& __cordl_internal_get_inputField() const;
+
+  constexpr ::UnityW<::UnityEngine::UI::InputField>& __cordl_internal_get_inputField();
+
+  constexpr ::System::Func_2<T1, ::StringW>*& __cordl_internal_get_toStringConvertor();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<T1, ::StringW>*> const& __cordl_internal_get_toStringConvertor() const;
+
+  constexpr ::System::Func_2<::StringW, T1>*& __cordl_internal_get_toValueConvertor();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, T1>*> const& __cordl_internal_get_toValueConvertor() const;
+
+  constexpr T0 const& __cordl_internal_get_valueItem() const;
+
+  constexpr T0& __cordl_internal_get_valueItem();
+
+  constexpr void __cordl_internal_set_inputField(::UnityW<::UnityEngine::UI::InputField> value);
+
+  constexpr void __cordl_internal_set_toStringConvertor(::System::Func_2<T1, ::StringW>* value);
+
+  constexpr void __cordl_internal_set_toValueConvertor(::System::Func_2<::StringW, T1>* value);
+
+  constexpr void __cordl_internal_set_valueItem(T0 value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InputFieldDataBinder____c__DisplayClass2_0_2();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InputFieldDataBinder____c__DisplayClass2_0_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InputFieldDataBinder____c__DisplayClass2_0_2(__InputFieldDataBinder____c__DisplayClass2_0_2&&) = delete;
@@ -116,12 +120,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InputFieldDataBinder____c__DisplayClass2_0_2(__InputFieldDataBinder____c__DisplayClass2_0_2 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InputFieldDataBinder____c__DisplayClass2_0_2();
-
-public:
   /// @brief Field toValueConvertor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::StringW, T1>* ___toValueConvertor;
 
@@ -144,8 +142,6 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13466))
 // CS Name: ::InputFieldDataBinder::<>c__3`1<T>*
 class CORDL_TYPE __InputFieldDataBinder____c__3_1 : public ::System::Object {
 public:
@@ -156,22 +152,28 @@ public:
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::StringW, ::StringW>* __9__3_0;
 
-  static inline void setStaticF___9(::HMUI::__InputFieldDataBinder____c__3_1<T>* value);
-
-  static inline ::HMUI::__InputFieldDataBinder____c__3_1<T>* getStaticF___9();
-
-  static inline void setStaticF___9__3_0(::System::Func_2<::StringW, ::StringW>* value);
-
-  static inline ::System::Func_2<::StringW, ::StringW>* getStaticF___9__3_0();
-
   static inline ::HMUI::__InputFieldDataBinder____c__3_1<T>* New_ctor();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
 
   /// @brief Method <AddStringBindings>b__3_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW _AddStringBindings_b__3_0(::StringW value);
 
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::HMUI::__InputFieldDataBinder____c__3_1<T>* getStaticF___9();
+
+  static inline ::System::Func_2<::StringW, ::StringW>* getStaticF___9__3_0();
+
+  static inline void setStaticF___9(::HMUI::__InputFieldDataBinder____c__3_1<T>* value);
+
+  static inline void setStaticF___9__3_0(::System::Func_2<::StringW, ::StringW>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __InputFieldDataBinder____c__3_1();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__InputFieldDataBinder____c__3_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __InputFieldDataBinder____c__3_1(__InputFieldDataBinder____c__3_1&&) = delete;
@@ -180,12 +182,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InputFieldDataBinder____c__3_1(__InputFieldDataBinder____c__3_1 const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InputFieldDataBinder____c__3_1();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -194,8 +190,6 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13467))
 // CS Name: ::HMUI::InputFieldDataBinder*
 class CORDL_TYPE InputFieldDataBinder : public ::System::Object {
 public:
@@ -208,6 +202,19 @@ public:
   __declspec(property(get = __cordl_internal_get__bindings, put = __cordl_internal_set__bindings))::System::Collections::Generic::List_1<
       ::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* _bindings;
 
+  /// @brief Method AddBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T0, typename T1>
+  inline void
+  AddBindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData);
+
+  /// @brief Method AddStringBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData);
+
+  /// @brief Method ClearBindings, addr 0x227a898, size 0x2c4, virtual false, abstract: false, final false
+  inline void ClearBindings();
+
+  static inline ::HMUI::InputFieldDataBinder* New_ctor();
+
   constexpr ::System::Collections::Generic::List_1<
       ::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>*&
   __cordl_internal_get__bindings();
@@ -219,22 +226,15 @@ public:
   constexpr void __cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*,
                                                                                                          ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* value);
 
-  static inline ::HMUI::InputFieldDataBinder* New_ctor();
-
-  /// @brief Method .ctor, addr 0x21ad1b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227a818, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T0, typename T1>
-  inline void
-  AddBindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputFieldDataBinder();
 
-  /// @brief Method AddStringBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::InputField>, T>*>* bindingData);
-
-  /// @brief Method ClearBindings, addr 0x21ad230, size 0x2c4, virtual false, abstract: false, final false
-  inline void ClearBindings();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   InputFieldDataBinder(InputFieldDataBinder&&) = delete;
@@ -243,12 +243,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputFieldDataBinder(InputFieldDataBinder const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputFieldDataBinder();
-
-public:
   /// @brief Field _bindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<
       ::System::Tuple_4<::UnityW<::UnityEngine::UI::InputField>, ::GlobalNamespace::IObservableChange*, ::UnityEngine::Events::UnityAction_1<::StringW>*, ::System::Action*>*>* ____bindings;

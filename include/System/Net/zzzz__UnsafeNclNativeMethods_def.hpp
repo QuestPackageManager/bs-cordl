@@ -41,8 +41,6 @@ MARK_REF_PTR_T(::System::Net::__UnsafeNclNativeMethods__SecureStringHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7151))
 // CS Name: ::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID*
 class CORDL_TYPE __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID : public ::System::Object {
 public:
@@ -50,13 +48,19 @@ public:
   /// @brief Field m_Strings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_Strings, put = setStaticF_m_Strings))::ArrayW<::StringW, ::Array<::StringW>*> m_Strings;
 
-  static inline void setStaticF_m_Strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  /// @brief Method ToString, addr 0x2aa5614, size 0x7c, virtual false, abstract: false, final false
+  static inline ::StringW ToString(int32_t position);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_Strings();
 
-  /// @brief Method ToString, addr 0x29bd540, size 0x7c, virtual false, abstract: false, final false
-  static inline ::StringW ToString(int32_t position);
+  static inline void setStaticF_m_Strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID(__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID&&) = delete;
@@ -65,12 +69,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID(__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -81,8 +79,6 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnsafeNclNati
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7152))
 // CS Name: ::UnsafeNclNativeMethods::HttpApi*
 class CORDL_TYPE __UnsafeNclNativeMethods__HttpApi : public ::System::Object {
 public:
@@ -92,10 +88,16 @@ public:
   /// @brief Field m_Strings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_Strings, put = setStaticF_m_Strings))::ArrayW<::StringW, ::Array<::StringW>*> m_Strings;
 
-  static inline void setStaticF_m_Strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
-
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_Strings();
 
+  static inline void setStaticF_m_Strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UnsafeNclNativeMethods__HttpApi();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UnsafeNclNativeMethods__HttpApi", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UnsafeNclNativeMethods__HttpApi(__UnsafeNclNativeMethods__HttpApi&&) = delete;
@@ -104,12 +106,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnsafeNclNativeMethods__HttpApi(__UnsafeNclNativeMethods__HttpApi const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UnsafeNclNativeMethods__HttpApi();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -120,18 +116,22 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__UnsafeNclNativeMe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7153))
 // CS Name: ::UnsafeNclNativeMethods::SecureStringHelper*
 class CORDL_TYPE __UnsafeNclNativeMethods__SecureStringHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateString, addr 0x29be080, size 0x1b0, virtual false, abstract: false, final false
-  static inline ::StringW CreateString(::System::Security::SecureString* secureString);
-
-  /// @brief Method CreateSecureString, addr 0x29be230, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateSecureString, addr 0x2aa6304, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Security::SecureString* CreateSecureString(::StringW plainString);
 
+  /// @brief Method CreateString, addr 0x2aa6154, size 0x1b0, virtual false, abstract: false, final false
+  static inline ::StringW CreateString(::System::Security::SecureString* secureString);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __UnsafeNclNativeMethods__SecureStringHelper();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "__UnsafeNclNativeMethods__SecureStringHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   __UnsafeNclNativeMethods__SecureStringHelper(__UnsafeNclNativeMethods__SecureStringHelper&&) = delete;
@@ -140,12 +140,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnsafeNclNativeMethods__SecureStringHelper(__UnsafeNclNativeMethods__SecureStringHelper const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UnsafeNclNativeMethods__SecureStringHelper();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -156,16 +150,20 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__UnsafeNclNativeMe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7154))
 // CS Name: ::System.Net::UnsafeNclNativeMethods*
 class CORDL_TYPE UnsafeNclNativeMethods : public ::System::Object {
 public:
   // Declarations
-  using SecureStringHelper = ::System::Net::__UnsafeNclNativeMethods__SecureStringHelper;
-
   using HttpApi = ::System::Net::__UnsafeNclNativeMethods__HttpApi;
 
+  using SecureStringHelper = ::System::Net::__UnsafeNclNativeMethods__SecureStringHelper;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr UnsafeNclNativeMethods();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "UnsafeNclNativeMethods", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   UnsafeNclNativeMethods(UnsafeNclNativeMethods&&) = delete;
@@ -174,12 +172,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnsafeNclNativeMethods(UnsafeNclNativeMethods const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnsafeNclNativeMethods();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

@@ -33,64 +33,68 @@ MARK_REF_PTR_T(::GlobalNamespace::BadNoteCutEffectSpawner);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4238))
 // CS Name: ::BadNoteCutEffectSpawner*
 class CORDL_TYPE BadNoteCutEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _failFlyingSpriteSpawner, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__failFlyingSpriteSpawner,
-                      put = __cordl_internal_set__failFlyingSpriteSpawner))::UnityW<::GlobalNamespace::FlyingSpriteSpawner> _failFlyingSpriteSpawner;
-
-  /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
-
   /// @brief Field _audioTimeSyncController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
                       put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
+  /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+
+  /// @brief Field _failFlyingSpriteSpawner, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__failFlyingSpriteSpawner,
+                      put = __cordl_internal_set__failFlyingSpriteSpawner))::UnityW<::GlobalNamespace::FlyingSpriteSpawner> _failFlyingSpriteSpawner;
+
   /// @brief Field _initData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__CoreGameHUDController__InitData* _initData;
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingSpriteSpawner>& __cordl_internal_get__failFlyingSpriteSpawner();
+  /// @brief Method HandleNoteWasCut, addr 0x242f074, size 0x118, virtual false, abstract: false, final false
+  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingSpriteSpawner> const& __cordl_internal_get__failFlyingSpriteSpawner() const;
+  static inline ::GlobalNamespace::BadNoteCutEffectSpawner* New_ctor();
 
-  constexpr void __cordl_internal_set__failFlyingSpriteSpawner(::UnityW<::GlobalNamespace::FlyingSpriteSpawner> value);
+  /// @brief Method OnDestroy, addr 0x242efdc, size 0x98, virtual false, abstract: false, final false
+  inline void OnDestroy();
+
+  /// @brief Method Start, addr 0x242ef28, size 0xb4, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr ::UnityW<::GlobalNamespace::FlyingSpriteSpawner> const& __cordl_internal_get__failFlyingSpriteSpawner() const;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
-
-  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
-
-  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
+  constexpr ::UnityW<::GlobalNamespace::FlyingSpriteSpawner>& __cordl_internal_get__failFlyingSpriteSpawner();
 
   constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& __cordl_internal_get__initData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CoreGameHUDController__InitData*> const& __cordl_internal_get__initData() const;
 
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
+
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+
+  constexpr void __cordl_internal_set__failFlyingSpriteSpawner(::UnityW<::GlobalNamespace::FlyingSpriteSpawner> value);
+
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value);
 
-  /// @brief Method Start, addr 0x2360fe0, size 0xb4, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method OnDestroy, addr 0x2361094, size 0x98, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method HandleNoteWasCut, addr 0x236112c, size 0x118, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
-
-  static inline ::GlobalNamespace::BadNoteCutEffectSpawner* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2361440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x242f388, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BadNoteCutEffectSpawner();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BadNoteCutEffectSpawner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BadNoteCutEffectSpawner(BadNoteCutEffectSpawner&&) = delete;
@@ -99,12 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BadNoteCutEffectSpawner(BadNoteCutEffectSpawner const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BadNoteCutEffectSpawner();
-
-public:
   /// @brief Field _failFlyingSpriteSpawner, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingSpriteSpawner> ____failFlyingSpriteSpawner;
 

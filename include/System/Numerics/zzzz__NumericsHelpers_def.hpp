@@ -16,27 +16,31 @@ MARK_REF_PTR_T(::System::Numerics::NumericsHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Numerics {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15809))
 // CS Name: ::System.Numerics::NumericsHelpers*
 class CORDL_TYPE NumericsHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DangerousMakeTwosComplement, addr 0x28492fc, size 0xbc, virtual false, abstract: false, final false
-  static inline void DangerousMakeTwosComplement(::ArrayW<uint32_t, ::Array<uint32_t>*> d);
-
-  /// @brief Method MakeUlong, addr 0x284c87c, size 0x10, virtual false, abstract: false, final false
-  static inline uint64_t MakeUlong(uint32_t uHi, uint32_t uLo);
-
-  /// @brief Method Abs, addr 0x284a198, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x292f614, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t Abs(int32_t a);
 
-  /// @brief Method CombineHash, addr 0x284c9cc, size 0x8, virtual false, abstract: false, final false
-  static inline uint32_t CombineHash(uint32_t u1, uint32_t u2);
-
-  /// @brief Method CombineHash, addr 0x284960c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CombineHash, addr 0x292ea88, size 0x8, virtual false, abstract: false, final false
   static inline int32_t CombineHash(int32_t n1, int32_t n2);
 
+  /// @brief Method CombineHash, addr 0x2931e48, size 0x8, virtual false, abstract: false, final false
+  static inline uint32_t CombineHash(uint32_t u1, uint32_t u2);
+
+  /// @brief Method DangerousMakeTwosComplement, addr 0x292e778, size 0xbc, virtual false, abstract: false, final false
+  static inline void DangerousMakeTwosComplement(::ArrayW<uint32_t, ::Array<uint32_t>*> d);
+
+  /// @brief Method MakeUlong, addr 0x2931cf8, size 0x10, virtual false, abstract: false, final false
+  static inline uint64_t MakeUlong(uint32_t uHi, uint32_t uLo);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr NumericsHelpers();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "NumericsHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   NumericsHelpers(NumericsHelpers&&) = delete;
@@ -45,12 +49,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NumericsHelpers(NumericsHelpers const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NumericsHelpers();
-
-public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

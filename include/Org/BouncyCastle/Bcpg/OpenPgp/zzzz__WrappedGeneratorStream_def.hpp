@@ -20,8 +20,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(452))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1678))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::WrappedGeneratorStream*
 class CORDL_TYPE WrappedGeneratorStream : public ::Org::BouncyCastle::Utilities::IO::FilterStream {
 public:
@@ -29,20 +27,26 @@ public:
   /// @brief Field gen, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_gen, put = __cordl_internal_set_gen))::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen;
 
+  /// @brief Method Close, addr 0x1140bc4, size 0xa0, virtual true, abstract: false, final false
+  inline void Close();
+
+  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen, ::System::IO::Stream* str);
+
   constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*& __cordl_internal_get_gen();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*> const& __cordl_internal_get_gen() const;
 
   constexpr void __cordl_internal_set_gen(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* value);
 
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen, ::System::IO::Stream* str);
-
-  /// @brief Method .ctor, addr 0x10fdbc8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1140b98, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen, ::System::IO::Stream* str);
 
-  /// @brief Method Close, addr 0x10fdbf4, size 0xa0, virtual true, abstract: false, final false
-  inline void Close();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr WrappedGeneratorStream();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "WrappedGeneratorStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   WrappedGeneratorStream(WrappedGeneratorStream&&) = delete;
@@ -51,12 +55,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WrappedGeneratorStream(WrappedGeneratorStream const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WrappedGeneratorStream();
-
-public:
   /// @brief Field gen, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* ___gen;
 

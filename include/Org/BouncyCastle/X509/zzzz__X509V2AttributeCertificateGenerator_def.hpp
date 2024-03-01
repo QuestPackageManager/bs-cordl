@@ -62,109 +62,113 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509V2AttributeCertificateGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1872))
 // CS Name: ::Org.BouncyCastle.X509::X509V2AttributeCertificateGenerator*
 class CORDL_TYPE X509V2AttributeCertificateGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field extGenerator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_extGenerator, put = __cordl_internal_set_extGenerator))::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* extGenerator;
+  __declspec(property(get = get_SignatureAlgNames))::System::Collections::IEnumerable* SignatureAlgNames;
 
   /// @brief Field acInfoGen, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_acInfoGen, put = __cordl_internal_set_acInfoGen))::Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator* acInfoGen;
 
-  /// @brief Field sigOID, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_sigOID, put = __cordl_internal_set_sigOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOID;
+  /// @brief Field extGenerator, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_extGenerator, put = __cordl_internal_set_extGenerator))::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* extGenerator;
 
   /// @brief Field sigAlgId, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_sigAlgId, put = __cordl_internal_set_sigAlgId))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId;
 
+  /// @brief Field sigOID, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_sigOID, put = __cordl_internal_set_sigOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOID;
+
   /// @brief Field signatureAlgorithm, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_signatureAlgorithm, put = __cordl_internal_set_signatureAlgorithm))::StringW signatureAlgorithm;
 
-  __declspec(property(get = get_SignatureAlgNames))::System::Collections::IEnumerable* SignatureAlgNames;
+  /// @brief Method AddAttribute, addr 0x11f5628, size 0x44, virtual false, abstract: false, final false
+  inline void AddAttribute(::Org::BouncyCastle::X509::X509Attribute* attribute);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*& __cordl_internal_get_extGenerator();
+  /// @brief Method AddExtension, addr 0x11f5748, size 0x98, virtual false, abstract: false, final false
+  inline void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extensionValue);
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*> const& __cordl_internal_get_extGenerator() const;
+  /// @brief Method AddExtension, addr 0x11f56b0, size 0x98, virtual false, abstract: false, final false
+  inline void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extensionValue);
 
-  constexpr void __cordl_internal_set_extGenerator(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* value);
+  /// @brief Method Generate, addr 0x11f57e0, size 0x8, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
+
+  /// @brief Method Generate, addr 0x11f57e8, size 0x84, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
+
+  /// @brief Method Generate, addr 0x11f586c, size 0x57c, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* Generate(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculatorFactory);
+
+  static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificateGenerator* New_ctor();
+
+  /// @brief Method Reset, addr 0x11f52a8, size 0x6c, virtual false, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method SetHolder, addr 0x11f5314, size 0x24, virtual false, abstract: false, final false
+  inline void SetHolder(::Org::BouncyCastle::X509::AttributeCertificateHolder* holder);
+
+  /// @brief Method SetIssuer, addr 0x11f5338, size 0x2c, virtual false, abstract: false, final false
+  inline void SetIssuer(::Org::BouncyCastle::X509::AttributeCertificateIssuer* issuer);
+
+  /// @brief Method SetIssuerUniqueId, addr 0x11f566c, size 0x44, virtual false, abstract: false, final false
+  inline void SetIssuerUniqueId(::ArrayW<bool, ::Array<bool>*> iui);
+
+  /// @brief Method SetNotAfter, addr 0x11f5454, size 0x78, virtual false, abstract: false, final false
+  inline void SetNotAfter(::System::DateTime date);
+
+  /// @brief Method SetNotBefore, addr 0x11f53dc, size 0x78, virtual false, abstract: false, final false
+  inline void SetNotBefore(::System::DateTime date);
+
+  /// @brief Method SetSerialNumber, addr 0x11f5364, size 0x78, virtual false, abstract: false, final false
+  inline void SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
+
+  /// @brief Method SetSignatureAlgorithm, addr 0x11f54cc, size 0x15c, virtual false, abstract: false, final false
+  inline void SetSignatureAlgorithm(::StringW signatureAlgorithm);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator*& __cordl_internal_get_acInfoGen();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator*> const& __cordl_internal_get_acInfoGen() const;
 
-  constexpr void __cordl_internal_set_acInfoGen(::Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator* value);
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*& __cordl_internal_get_extGenerator();
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_sigOID();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_sigOID() const;
-
-  constexpr void __cordl_internal_set_sigOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*> const& __cordl_internal_get_extGenerator() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_sigAlgId();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_sigAlgId() const;
 
-  constexpr void __cordl_internal_set_sigAlgId(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_sigOID();
 
-  constexpr ::StringW& __cordl_internal_get_signatureAlgorithm();
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_sigOID() const;
 
   constexpr ::StringW const& __cordl_internal_get_signatureAlgorithm() const;
 
+  constexpr ::StringW& __cordl_internal_get_signatureAlgorithm();
+
+  constexpr void __cordl_internal_set_acInfoGen(::Org::BouncyCastle::Asn1::X509::V2AttributeCertificateInfoGenerator* value);
+
+  constexpr void __cordl_internal_set_extGenerator(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* value);
+
+  constexpr void __cordl_internal_set_sigAlgId(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+
+  constexpr void __cordl_internal_set_sigOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+
   constexpr void __cordl_internal_set_signatureAlgorithm(::StringW value);
 
-  static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificateGenerator* New_ctor();
-
-  /// @brief Method .ctor, addr 0x11b323c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f520c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Reset, addr 0x11b32d8, size 0x6c, virtual false, abstract: false, final false
-  inline void Reset();
-
-  /// @brief Method SetHolder, addr 0x11b3344, size 0x24, virtual false, abstract: false, final false
-  inline void SetHolder(::Org::BouncyCastle::X509::AttributeCertificateHolder* holder);
-
-  /// @brief Method SetIssuer, addr 0x11b3368, size 0x2c, virtual false, abstract: false, final false
-  inline void SetIssuer(::Org::BouncyCastle::X509::AttributeCertificateIssuer* issuer);
-
-  /// @brief Method SetSerialNumber, addr 0x11b3394, size 0x78, virtual false, abstract: false, final false
-  inline void SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
-
-  /// @brief Method SetNotBefore, addr 0x11b340c, size 0x78, virtual false, abstract: false, final false
-  inline void SetNotBefore(::System::DateTime date);
-
-  /// @brief Method SetNotAfter, addr 0x11b3484, size 0x78, virtual false, abstract: false, final false
-  inline void SetNotAfter(::System::DateTime date);
-
-  /// @brief Method SetSignatureAlgorithm, addr 0x11b34fc, size 0x15c, virtual false, abstract: false, final false
-  inline void SetSignatureAlgorithm(::StringW signatureAlgorithm);
-
-  /// @brief Method AddAttribute, addr 0x11b3658, size 0x44, virtual false, abstract: false, final false
-  inline void AddAttribute(::Org::BouncyCastle::X509::X509Attribute* attribute);
-
-  /// @brief Method SetIssuerUniqueId, addr 0x11b369c, size 0x44, virtual false, abstract: false, final false
-  inline void SetIssuerUniqueId(::ArrayW<bool, ::Array<bool>*> iui);
-
-  /// @brief Method AddExtension, addr 0x11b36e0, size 0x98, virtual false, abstract: false, final false
-  inline void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extensionValue);
-
-  /// @brief Method AddExtension, addr 0x11b3778, size 0x98, virtual false, abstract: false, final false
-  inline void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extensionValue);
-
-  /// @brief Method Generate, addr 0x11b3810, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
-
-  /// @brief Method Generate, addr 0x11b3818, size 0x84, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
-
-  /// @brief Method Generate, addr 0x11b389c, size 0x57c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* Generate(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculatorFactory);
-
-  /// @brief Method get_SignatureAlgNames, addr 0x11b3e18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x11f5de8, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr X509V2AttributeCertificateGenerator();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "X509V2AttributeCertificateGenerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   X509V2AttributeCertificateGenerator(X509V2AttributeCertificateGenerator&&) = delete;
@@ -173,12 +177,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509V2AttributeCertificateGenerator(X509V2AttributeCertificateGenerator const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509V2AttributeCertificateGenerator();
-
-public:
   /// @brief Field extGenerator, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* ___extGenerator;
 

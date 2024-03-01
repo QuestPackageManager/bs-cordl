@@ -19,14 +19,15 @@ MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathNodePageInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11669))
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodePageInfo*
 class CORDL_TYPE XPathNodePageInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _pageNum, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__pageNum, put = __cordl_internal_set__pageNum)) int32_t _pageNum;
+  __declspec(property(get = get_NextPage))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> NextPage;
+
+  __declspec(property(get = get_NodeCount)) int32_t NodeCount;
+
+  __declspec(property(get = get_PageNumber)) int32_t PageNumber;
 
   /// @brief Field _nodeCount, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__nodeCount, put = __cordl_internal_set__nodeCount)) int32_t _nodeCount;
@@ -35,39 +36,42 @@ public:
   __declspec(property(get = __cordl_internal_get__pageNext,
                       put = __cordl_internal_set__pageNext))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageNext;
 
-  __declspec(property(get = get_PageNumber)) int32_t PageNumber;
-
-  __declspec(property(get = get_NodeCount)) int32_t NodeCount;
-
-  __declspec(property(get = get_NextPage))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> NextPage;
-
-  constexpr int32_t& __cordl_internal_get__pageNum();
-
-  constexpr int32_t const& __cordl_internal_get__pageNum() const;
-
-  constexpr void __cordl_internal_set__pageNum(int32_t value);
-
-  constexpr int32_t& __cordl_internal_get__nodeCount();
+  /// @brief Field _pageNum, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__pageNum, put = __cordl_internal_set__pageNum)) int32_t _pageNum;
 
   constexpr int32_t const& __cordl_internal_get__nodeCount() const;
 
-  constexpr void __cordl_internal_set__nodeCount(int32_t value);
-
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __cordl_internal_get__pageNext();
+  constexpr int32_t& __cordl_internal_get__nodeCount();
 
   constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __cordl_internal_get__pageNext() const;
 
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __cordl_internal_get__pageNext();
+
+  constexpr int32_t const& __cordl_internal_get__pageNum() const;
+
+  constexpr int32_t& __cordl_internal_get__pageNum();
+
+  constexpr void __cordl_internal_set__nodeCount(int32_t value);
+
   constexpr void __cordl_internal_set__pageNext(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  /// @brief Method get_PageNumber, addr 0x28ede70, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_PageNumber();
+  constexpr void __cordl_internal_set__pageNum(int32_t value);
 
-  /// @brief Method get_NodeCount, addr 0x28ede78, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_NodeCount();
-
-  /// @brief Method get_NextPage, addr 0x28ede80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextPage, addr 0x29d52fc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_NextPage();
 
+  /// @brief Method get_NodeCount, addr 0x29d52f4, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_NodeCount();
+
+  /// @brief Method get_PageNumber, addr 0x29d52ec, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_PageNumber();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr XPathNodePageInfo();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "XPathNodePageInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   XPathNodePageInfo(XPathNodePageInfo&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XPathNodePageInfo(XPathNodePageInfo const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XPathNodePageInfo();
-
-public:
   /// @brief Field _pageNum, offset: 0x10, size: 0x4, def value: None
   int32_t ____pageNum;
 

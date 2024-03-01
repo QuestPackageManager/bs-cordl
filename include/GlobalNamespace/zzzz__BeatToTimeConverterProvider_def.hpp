@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatToTimeConverterProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10726))
 // CS Name: ::BeatToTimeConverterProvider*
 class CORDL_TYPE BeatToTimeConverterProvider : public ::System::Object {
 public:
@@ -27,20 +25,26 @@ public:
   /// @brief Field _bpmTimeProcessor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bpmTimeProcessor, put = __cordl_internal_set__bpmTimeProcessor))::GlobalNamespace::IBeatToTimeConverter* _bpmTimeProcessor;
 
+  /// @brief Method BeatToTime, addr 0x12bbf84, size 0xb0, virtual false, abstract: false, final false
+  inline float_t BeatToTime(float_t beat);
+
+  static inline ::GlobalNamespace::BeatToTimeConverterProvider* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
+
   constexpr ::GlobalNamespace::IBeatToTimeConverter*& __cordl_internal_get__bpmTimeProcessor();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatToTimeConverter*> const& __cordl_internal_get__bpmTimeProcessor() const;
 
   constexpr void __cordl_internal_set__bpmTimeProcessor(::GlobalNamespace::IBeatToTimeConverter* value);
 
-  static inline ::GlobalNamespace::BeatToTimeConverterProvider* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
-
-  /// @brief Method .ctor, addr 0x1278f8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12bbf5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
-  /// @brief Method BeatToTime, addr 0x1278fb4, size 0xb0, virtual false, abstract: false, final false
-  inline float_t BeatToTime(float_t beat);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr BeatToTimeConverterProvider();
 
+public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatToTimeConverterProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   BeatToTimeConverterProvider(BeatToTimeConverterProvider&&) = delete;
@@ -49,12 +53,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatToTimeConverterProvider(BeatToTimeConverterProvider const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatToTimeConverterProvider();
-
-public:
   /// @brief Field _bpmTimeProcessor, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IBeatToTimeConverter* ____bpmTimeProcessor;
 

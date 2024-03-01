@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::HMUI::SegmentedControlCell);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13606))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13504))
 // CS Name: ::HMUI::SegmentedControlCell*
 class CORDL_TYPE SegmentedControlCell : public ::HMUI::SelectableCell {
 public:
@@ -32,35 +30,41 @@ public:
 
   __declspec(property(get = get_cellNumber, put = set_cellNumber)) int32_t cellNumber;
 
-  constexpr int32_t& __cordl_internal_get__cellNumber_k__BackingField();
-
-  constexpr int32_t const& __cordl_internal_get__cellNumber_k__BackingField() const;
-
-  constexpr void __cordl_internal_set__cellNumber_k__BackingField(int32_t value);
-
-  constexpr ::UnityW<::HMUI::SegmentedControl>& __cordl_internal_get__segmentedControl();
-
-  constexpr ::UnityW<::HMUI::SegmentedControl> const& __cordl_internal_get__segmentedControl() const;
-
-  constexpr void __cordl_internal_set__segmentedControl(::UnityW<::HMUI::SegmentedControl> value);
-
-  /// @brief Method get_cellNumber, addr 0x21b4b44, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_cellNumber();
-
-  /// @brief Method set_cellNumber, addr 0x21b4b4c, size 0x8, virtual false, abstract: false, final false
-  inline void set_cellNumber(int32_t value);
-
-  /// @brief Method SegmentedControlSetup, addr 0x21b48d8, size 0xc, virtual false, abstract: false, final false
-  inline void SegmentedControlSetup(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
-
-  /// @brief Method InternalToggle, addr 0x21b4b54, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x22821bc, size 0x24, virtual true, abstract: false, final false
   inline void InternalToggle();
 
   static inline ::HMUI::SegmentedControlCell* New_ctor();
 
-  /// @brief Method .ctor, addr 0x21b429c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SegmentedControlSetup, addr 0x2281f40, size 0xc, virtual false, abstract: false, final false
+  inline void SegmentedControlSetup(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
+
+  constexpr int32_t const& __cordl_internal_get__cellNumber_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__cellNumber_k__BackingField();
+
+  constexpr ::UnityW<::HMUI::SegmentedControl> const& __cordl_internal_get__segmentedControl() const;
+
+  constexpr ::UnityW<::HMUI::SegmentedControl>& __cordl_internal_get__segmentedControl();
+
+  constexpr void __cordl_internal_set__cellNumber_k__BackingField(int32_t value);
+
+  constexpr void __cordl_internal_set__segmentedControl(::UnityW<::HMUI::SegmentedControl> value);
+
+  /// @brief Method .ctor, addr 0x2281904, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_cellNumber, addr 0x22821ac, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_cellNumber();
+
+  /// @brief Method set_cellNumber, addr 0x22821b4, size 0x8, virtual false, abstract: false, final false
+  inline void set_cellNumber(int32_t value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SegmentedControlCell();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SegmentedControlCell", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SegmentedControlCell(SegmentedControlCell&&) = delete;
@@ -69,12 +73,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SegmentedControlCell(SegmentedControlCell const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SegmentedControlCell();
-
-public:
   /// @brief Field <cellNumber>k__BackingField, offset: 0x44, size: 0x4, def value: None
   int32_t ____cellNumber_k__BackingField;
 

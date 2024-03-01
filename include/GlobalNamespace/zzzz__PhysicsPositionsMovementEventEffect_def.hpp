@@ -32,206 +32,210 @@ MARK_REF_PTR_T(::GlobalNamespace::PhysicsPositionsMovementEventEffect);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(8993)), TypeDefinitionIndex(TypeDefinitionIndex(15108))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4322))
 // CS Name: ::PhysicsPositionsMovementEventEffect*
 class CORDL_TYPE PhysicsPositionsMovementEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _event, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::GlobalNamespace::BasicBeatmapEventType _event;
-
-  /// @brief Field _movementVector, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get__movementVector, put = __cordl_internal_set__movementVector))::UnityEngine::Vector3 _movementVector;
-
-  /// @brief Field _stepSize, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__stepSize, put = __cordl_internal_set__stepSize)) float_t _stepSize;
-
-  /// @brief Field _elasticity, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__elasticity, put = __cordl_internal_set__elasticity)) float_t _elasticity;
-
-  /// @brief Field _friction, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__friction, put = __cordl_internal_set__friction)) float_t _friction;
-
-  /// @brief Field _minMaxSpeed, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__minMaxSpeed, put = __cordl_internal_set__minMaxSpeed)) float_t _minMaxSpeed;
-
-  /// @brief Field _maxMaxSpeed, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxMaxSpeed, put = __cordl_internal_set__maxMaxSpeed)) float_t _maxMaxSpeed;
-
-  /// @brief Field _maxAcceleration, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxAcceleration, put = __cordl_internal_set__maxAcceleration)) float_t _maxAcceleration;
-
   /// @brief Field _beatmapCallbacksController, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
-
-  /// @brief Field _songTimeFixedUpdateController, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__songTimeFixedUpdateController,
-                      put = __cordl_internal_set__songTimeFixedUpdateController))::UnityW<::GlobalNamespace::SongTimeFixedUpdateController> _songTimeFixedUpdateController;
-
-  /// @brief Field _transform, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
-
-  /// @brief Field _startPos, offset 0x58, size 0xc
-  __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos))::UnityEngine::Vector3 _startPos;
-
-  /// @brief Field _velocity, offset 0x64, size 0xc
-  __declspec(property(get = __cordl_internal_get__velocity, put = __cordl_internal_set__velocity))::UnityEngine::Vector3 _velocity;
-
-  /// @brief Field _prevPosition, offset 0x70, size 0xc
-  __declspec(property(get = __cordl_internal_get__prevPosition, put = __cordl_internal_set__prevPosition))::UnityEngine::Vector3 _prevPosition;
-
-  /// @brief Field _position, offset 0x7c, size 0xc
-  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position))::UnityEngine::Vector3 _position;
-
-  /// @brief Field _targetPosition, offset 0x88, size 0xc
-  __declspec(property(get = __cordl_internal_get__targetPosition, put = __cordl_internal_set__targetPosition))::UnityEngine::Vector3 _targetPosition;
-
-  /// @brief Field _maxSpeed, offset 0x94, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxSpeed, put = __cordl_internal_set__maxSpeed)) float_t _maxSpeed;
-
-  /// @brief Field _sqrMaxSpeed, offset 0x98, size 0x4
-  __declspec(property(get = __cordl_internal_get__sqrMaxSpeed, put = __cordl_internal_set__sqrMaxSpeed)) float_t _sqrMaxSpeed;
 
   /// @brief Field _beatmapDataCallbackWrapper, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
                       put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
+  /// @brief Field _elasticity, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__elasticity, put = __cordl_internal_set__elasticity)) float_t _elasticity;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
+  /// @brief Field _event, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::GlobalNamespace::BasicBeatmapEventType _event;
 
-  constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
+  /// @brief Field _friction, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__friction, put = __cordl_internal_set__friction)) float_t _friction;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__movementVector();
+  /// @brief Field _maxAcceleration, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxAcceleration, put = __cordl_internal_set__maxAcceleration)) float_t _maxAcceleration;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__movementVector() const;
+  /// @brief Field _maxMaxSpeed, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxMaxSpeed, put = __cordl_internal_set__maxMaxSpeed)) float_t _maxMaxSpeed;
 
-  constexpr void __cordl_internal_set__movementVector(::UnityEngine::Vector3 value);
+  /// @brief Field _maxSpeed, offset 0x94, size 0x4
+  __declspec(property(get = __cordl_internal_get__maxSpeed, put = __cordl_internal_set__maxSpeed)) float_t _maxSpeed;
 
-  constexpr float_t& __cordl_internal_get__stepSize();
+  /// @brief Field _minMaxSpeed, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__minMaxSpeed, put = __cordl_internal_set__minMaxSpeed)) float_t _minMaxSpeed;
 
-  constexpr float_t const& __cordl_internal_get__stepSize() const;
+  /// @brief Field _movementVector, offset 0x1c, size 0xc
+  __declspec(property(get = __cordl_internal_get__movementVector, put = __cordl_internal_set__movementVector))::UnityEngine::Vector3 _movementVector;
 
-  constexpr void __cordl_internal_set__stepSize(float_t value);
+  /// @brief Field _position, offset 0x7c, size 0xc
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position))::UnityEngine::Vector3 _position;
 
-  constexpr float_t& __cordl_internal_get__elasticity();
+  /// @brief Field _prevPosition, offset 0x70, size 0xc
+  __declspec(property(get = __cordl_internal_get__prevPosition, put = __cordl_internal_set__prevPosition))::UnityEngine::Vector3 _prevPosition;
 
-  constexpr float_t const& __cordl_internal_get__elasticity() const;
+  /// @brief Field _songTimeFixedUpdateController, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__songTimeFixedUpdateController,
+                      put = __cordl_internal_set__songTimeFixedUpdateController))::UnityW<::GlobalNamespace::SongTimeFixedUpdateController> _songTimeFixedUpdateController;
 
-  constexpr void __cordl_internal_set__elasticity(float_t value);
+  /// @brief Field _sqrMaxSpeed, offset 0x98, size 0x4
+  __declspec(property(get = __cordl_internal_get__sqrMaxSpeed, put = __cordl_internal_set__sqrMaxSpeed)) float_t _sqrMaxSpeed;
 
-  constexpr float_t& __cordl_internal_get__friction();
+  /// @brief Field _startPos, offset 0x58, size 0xc
+  __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos))::UnityEngine::Vector3 _startPos;
 
-  constexpr float_t const& __cordl_internal_get__friction() const;
+  /// @brief Field _stepSize, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__stepSize, put = __cordl_internal_set__stepSize)) float_t _stepSize;
 
-  constexpr void __cordl_internal_set__friction(float_t value);
+  /// @brief Field _targetPosition, offset 0x88, size 0xc
+  __declspec(property(get = __cordl_internal_get__targetPosition, put = __cordl_internal_set__targetPosition))::UnityEngine::Vector3 _targetPosition;
 
-  constexpr float_t& __cordl_internal_get__minMaxSpeed();
+  /// @brief Field _transform, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr float_t const& __cordl_internal_get__minMaxSpeed() const;
+  /// @brief Field _velocity, offset 0x64, size 0xc
+  __declspec(property(get = __cordl_internal_get__velocity, put = __cordl_internal_set__velocity))::UnityEngine::Vector3 _velocity;
 
-  constexpr void __cordl_internal_set__minMaxSpeed(float_t value);
+  /// @brief Method HandleBeatmapEvent, addr 0x243f0ec, size 0x7c, virtual false, abstract: false, final false
+  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  constexpr float_t& __cordl_internal_get__maxMaxSpeed();
+  /// @brief Method HandleSongTimeFixedUpdate, addr 0x243efa0, size 0xdc, virtual false, abstract: false, final false
+  inline void HandleSongTimeFixedUpdate(float_t fixedDeltaTime);
 
-  constexpr float_t const& __cordl_internal_get__maxMaxSpeed() const;
+  /// @brief Method HandleSongTimeUpdate, addr 0x243f07c, size 0x70, virtual false, abstract: false, final false
+  inline void HandleSongTimeUpdate();
 
-  constexpr void __cordl_internal_set__maxMaxSpeed(float_t value);
+  static inline ::GlobalNamespace::PhysicsPositionsMovementEventEffect* New_ctor();
 
-  constexpr float_t& __cordl_internal_get__maxAcceleration();
+  /// @brief Method OnDestroy, addr 0x243ee4c, size 0x154, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
-  constexpr float_t const& __cordl_internal_get__maxAcceleration() const;
-
-  constexpr void __cordl_internal_set__maxAcceleration(float_t value);
+  /// @brief Method Start, addr 0x243ec04, size 0x248, virtual false, abstract: false, final false
+  inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
-
-  constexpr ::UnityW<::GlobalNamespace::SongTimeFixedUpdateController>& __cordl_internal_get__songTimeFixedUpdateController();
-
-  constexpr ::UnityW<::GlobalNamespace::SongTimeFixedUpdateController> const& __cordl_internal_get__songTimeFixedUpdateController() const;
-
-  constexpr void __cordl_internal_set__songTimeFixedUpdateController(::UnityW<::GlobalNamespace::SongTimeFixedUpdateController> value);
-
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
-
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
-
-  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startPos();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPos() const;
-
-  constexpr void __cordl_internal_set__startPos(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__velocity();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__velocity() const;
-
-  constexpr void __cordl_internal_set__velocity(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__prevPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevPosition() const;
-
-  constexpr void __cordl_internal_set__prevPosition(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position() const;
-
-  constexpr void __cordl_internal_set__position(::UnityEngine::Vector3 value);
-
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__targetPosition();
-
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__targetPosition() const;
-
-  constexpr void __cordl_internal_set__targetPosition(::UnityEngine::Vector3 value);
-
-  constexpr float_t& __cordl_internal_get__maxSpeed();
-
-  constexpr float_t const& __cordl_internal_get__maxSpeed() const;
-
-  constexpr void __cordl_internal_set__maxSpeed(float_t value);
-
-  constexpr float_t& __cordl_internal_get__sqrMaxSpeed();
-
-  constexpr float_t const& __cordl_internal_get__sqrMaxSpeed() const;
-
-  constexpr void __cordl_internal_set__sqrMaxSpeed(float_t value);
-
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
+  constexpr float_t const& __cordl_internal_get__elasticity() const;
+
+  constexpr float_t& __cordl_internal_get__elasticity();
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
+
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
+
+  constexpr float_t const& __cordl_internal_get__friction() const;
+
+  constexpr float_t& __cordl_internal_get__friction();
+
+  constexpr float_t const& __cordl_internal_get__maxAcceleration() const;
+
+  constexpr float_t& __cordl_internal_get__maxAcceleration();
+
+  constexpr float_t const& __cordl_internal_get__maxMaxSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__maxMaxSpeed();
+
+  constexpr float_t const& __cordl_internal_get__maxSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__maxSpeed();
+
+  constexpr float_t const& __cordl_internal_get__minMaxSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__minMaxSpeed();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__movementVector() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__movementVector();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__prevPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__prevPosition();
+
+  constexpr ::UnityW<::GlobalNamespace::SongTimeFixedUpdateController> const& __cordl_internal_get__songTimeFixedUpdateController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::SongTimeFixedUpdateController>& __cordl_internal_get__songTimeFixedUpdateController();
+
+  constexpr float_t const& __cordl_internal_get__sqrMaxSpeed() const;
+
+  constexpr float_t& __cordl_internal_get__sqrMaxSpeed();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startPos();
+
+  constexpr float_t const& __cordl_internal_get__stepSize() const;
+
+  constexpr float_t& __cordl_internal_get__stepSize();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__targetPosition() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__targetPosition();
+
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__velocity() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__velocity();
+
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+
   constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start, addr 0x2370cbc, size 0x248, virtual false, abstract: false, final false
-  inline void Start();
+  constexpr void __cordl_internal_set__elasticity(float_t value);
 
-  /// @brief Method OnDestroy, addr 0x2370f04, size 0x154, virtual false, abstract: false, final false
-  inline void OnDestroy();
+  constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
 
-  /// @brief Method HandleSongTimeFixedUpdate, addr 0x2371058, size 0xdc, virtual false, abstract: false, final false
-  inline void HandleSongTimeFixedUpdate(float_t fixedDeltaTime);
+  constexpr void __cordl_internal_set__friction(float_t value);
 
-  /// @brief Method HandleSongTimeUpdate, addr 0x2371134, size 0x70, virtual false, abstract: false, final false
-  inline void HandleSongTimeUpdate();
+  constexpr void __cordl_internal_set__maxAcceleration(float_t value);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x23711a4, size 0x7c, virtual false, abstract: false, final false
-  inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+  constexpr void __cordl_internal_set__maxMaxSpeed(float_t value);
 
-  static inline ::GlobalNamespace::PhysicsPositionsMovementEventEffect* New_ctor();
+  constexpr void __cordl_internal_set__maxSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x2371220, size 0x7c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__minMaxSpeed(float_t value);
+
+  constexpr void __cordl_internal_set__movementVector(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__position(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__prevPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__songTimeFixedUpdateController(::UnityW<::GlobalNamespace::SongTimeFixedUpdateController> value);
+
+  constexpr void __cordl_internal_set__sqrMaxSpeed(float_t value);
+
+  constexpr void __cordl_internal_set__startPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__stepSize(float_t value);
+
+  constexpr void __cordl_internal_set__targetPosition(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+
+  constexpr void __cordl_internal_set__velocity(::UnityEngine::Vector3 value);
+
+  /// @brief Method .ctor, addr 0x243f168, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PhysicsPositionsMovementEventEffect();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PhysicsPositionsMovementEventEffect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PhysicsPositionsMovementEventEffect(PhysicsPositionsMovementEventEffect&&) = delete;
@@ -240,12 +244,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PhysicsPositionsMovementEventEffect(PhysicsPositionsMovementEventEffect const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PhysicsPositionsMovementEventEffect();
-
-public:
   /// @brief Field _event, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;
 

@@ -45,23 +45,25 @@ MARK_VAL_T(::GlobalNamespace::__GameLoader___Start_d__3);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(14017)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14046)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3390), inst: 798 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14046), inst: 798 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3969)) CS Name: ::GameLoader::<Start>d__3
+// CS Name: ::GameLoader::<Start>d__3
 struct CORDL_TYPE __GameLoader___Start_d__3 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
+  /// @brief Method MoveNext, addr 0x237bfd8, size 0x33c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x237c314, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
 
-  /// @brief Method MoveNext, addr 0x22af970, size 0x33c, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x22afcac, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __GameLoader___Start_d__3();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::GameLoader>", modifiers: "",
@@ -71,10 +73,6 @@ public:
   constexpr __GameLoader___Start_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::GameLoader> __4__this,
                                       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> _handle_5__2,
                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> __u__1) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GameLoader___Start_d__3();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -114,8 +112,7 @@ static_assert(offsetof(::GlobalNamespace::__GameLoader___Start_d__3, __u__1) == 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8969)), TypeDefinitionIndex(TypeDefinitionIndex(14017)), TypeDefinitionIndex(TypeDefinitionIndex(14046)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14046), inst: 798 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3970)) CS Name: ::GameLoader*
+// CS Name: ::GameLoader*
 class CORDL_TYPE GameLoader : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -129,29 +126,35 @@ public:
       get = __cordl_internal_get__handle,
       put = __cordl_internal_set__handle))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> _handle;
 
-  constexpr ::UnityW<::Zenject::SceneContext>& __cordl_internal_get__context();
-
-  constexpr ::UnityW<::Zenject::SceneContext> const& __cordl_internal_get__context() const;
-
-  constexpr void __cordl_internal_set__context(::UnityW<::Zenject::SceneContext> value);
-
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>& __cordl_internal_get__handle();
-
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> const& __cordl_internal_get__handle() const;
-
-  constexpr void __cordl_internal_set__handle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value);
-
-  /// @brief Method Start, addr 0x22af7a4, size 0x98, virtual false, abstract: false, final false
-  inline void Start();
-
-  /// @brief Method HandleSceneContextPostInstall, addr 0x22af83c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneContextPostInstall, addr 0x237bea4, size 0x12c, virtual false, abstract: false, final false
   inline void HandleSceneContextPostInstall();
 
   static inline ::GlobalNamespace::GameLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22af968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x237be0c, size 0x98, virtual false, abstract: false, final false
+  inline void Start();
+
+  constexpr ::UnityW<::Zenject::SceneContext> const& __cordl_internal_get__context() const;
+
+  constexpr ::UnityW<::Zenject::SceneContext>& __cordl_internal_get__context();
+
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> const& __cordl_internal_get__handle() const;
+
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>& __cordl_internal_get__handle();
+
+  constexpr void __cordl_internal_set__context(::UnityW<::Zenject::SceneContext> value);
+
+  constexpr void __cordl_internal_set__handle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> value);
+
+  /// @brief Method .ctor, addr 0x237bfd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GameLoader();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GameLoader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GameLoader(GameLoader&&) = delete;
@@ -160,12 +163,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameLoader(GameLoader const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameLoader();
-
-public:
   /// @brief Field _context, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::Zenject::SceneContext> ____context;
 

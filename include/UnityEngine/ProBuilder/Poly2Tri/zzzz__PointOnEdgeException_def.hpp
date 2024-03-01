@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2445))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15494))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PointOnEdgeException*
 class CORDL_TYPE PointOnEdgeException : public ::System::NotImplementedException {
 public:
@@ -33,32 +31,38 @@ public:
   /// @brief Field C, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_C, put = __cordl_internal_set_C))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* C;
 
+  static inline ::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException* New_ctor(::StringW message, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a,
+                                                                                    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b,
+                                                                                    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
+
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_A();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_A() const;
-
-  constexpr void __cordl_internal_set_A(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_B();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_B() const;
 
-  constexpr void __cordl_internal_set_B(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
-
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_C();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_C() const;
 
+  constexpr void __cordl_internal_set_A(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+
+  constexpr void __cordl_internal_set_B(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+
   constexpr void __cordl_internal_set_C(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException* New_ctor(::StringW message, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a,
-                                                                                    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b,
-                                                                                    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
-
-  /// @brief Method .ctor, addr 0x2b31f84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c19058, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b,
                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PointOnEdgeException();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "PointOnEdgeException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   PointOnEdgeException(PointOnEdgeException&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointOnEdgeException(PointOnEdgeException const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointOnEdgeException();
-
-public:
   /// @brief Field A, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ___A;
 

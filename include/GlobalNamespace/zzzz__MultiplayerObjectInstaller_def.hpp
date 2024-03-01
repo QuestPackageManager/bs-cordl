@@ -23,51 +23,55 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerObjectInstaller);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10280))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4570))
 // CS Name: ::MultiplayerObjectInstaller*
 class CORDL_TYPE MultiplayerObjectInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Field _inEnvironmentTextsPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__inEnvironmentTextsPrefab,
-                      put = __cordl_internal_set__inEnvironmentTextsPrefab))::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> _inEnvironmentTextsPrefab;
-
   /// @brief Field _fireworkItemControllerPrefab, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__fireworkItemControllerPrefab,
                       put = __cordl_internal_set__fireworkItemControllerPrefab))::UnityW<::GlobalNamespace::FireworkItemController> _fireworkItemControllerPrefab;
+
+  /// @brief Field _inEnvironmentTextsPrefab, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__inEnvironmentTextsPrefab,
+                      put = __cordl_internal_set__inEnvironmentTextsPrefab))::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> _inEnvironmentTextsPrefab;
 
   /// @brief Field _multiplayerResultsPyramidViewAvatarPrefab, offset 0x30, size 0x8
   __declspec(
       property(get = __cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab,
                put = __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab))::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> _multiplayerResultsPyramidViewAvatarPrefab;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem>& __cordl_internal_get__inEnvironmentTextsPrefab();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> const& __cordl_internal_get__inEnvironmentTextsPrefab() const;
-
-  constexpr void __cordl_internal_set__inEnvironmentTextsPrefab(::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> value);
-
-  constexpr ::UnityW<::GlobalNamespace::FireworkItemController>& __cordl_internal_get__fireworkItemControllerPrefab();
-
-  constexpr ::UnityW<::GlobalNamespace::FireworkItemController> const& __cordl_internal_get__fireworkItemControllerPrefab() const;
-
-  constexpr void __cordl_internal_set__fireworkItemControllerPrefab(::UnityW<::GlobalNamespace::FireworkItemController> value);
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>& __cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> const& __cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab() const;
-
-  constexpr void __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> value);
-
-  /// @brief Method InstallBindings, addr 0x23b29a0, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x24808e8, size 0x144, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerObjectInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b2ae4, size 0x8, virtual false, abstract: false, final false
+  constexpr ::UnityW<::GlobalNamespace::FireworkItemController> const& __cordl_internal_get__fireworkItemControllerPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::FireworkItemController>& __cordl_internal_get__fireworkItemControllerPrefab();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> const& __cordl_internal_get__inEnvironmentTextsPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem>& __cordl_internal_get__inEnvironmentTextsPrefab();
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> const& __cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab() const;
+
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>& __cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab();
+
+  constexpr void __cordl_internal_set__fireworkItemControllerPrefab(::UnityW<::GlobalNamespace::FireworkItemController> value);
+
+  constexpr void __cordl_internal_set__inEnvironmentTextsPrefab(::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> value);
+
+  constexpr void __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> value);
+
+  /// @brief Method .ctor, addr 0x2480a2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MultiplayerObjectInstaller();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerObjectInstaller", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   MultiplayerObjectInstaller(MultiplayerObjectInstaller&&) = delete;
@@ -76,12 +80,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerObjectInstaller(MultiplayerObjectInstaller const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerObjectInstaller();
-
-public:
   /// @brief Field _inEnvironmentTextsPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> ____inEnvironmentTextsPrefab;
 

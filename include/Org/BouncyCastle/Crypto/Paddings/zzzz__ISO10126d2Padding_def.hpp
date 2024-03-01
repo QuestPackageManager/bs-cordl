@@ -23,22 +23,28 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Paddings {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(1006))
 // CS Name: ::Org.BouncyCastle.Crypto.Paddings::ISO10126d2Padding*
 class CORDL_TYPE ISO10126d2Padding : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_PaddingName))::StringW PaddingName;
+
   /// @brief Field random, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
-
-  __declspec(property(get = get_PaddingName))::StringW PaddingName;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
-  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i___Org__BouncyCastle__Crypto__Paddings__IBlockCipherPadding() noexcept;
+  /// @brief Method AddPadding, addr 0xf9e020, size 0xb4, virtual true, abstract: false, final true
+  inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
+
+  /// @brief Method Init, addr 0xf9df74, size 0x6c, virtual true, abstract: false, final true
+  inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
+
+  static inline ::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding* New_ctor();
+
+  /// @brief Method PadCount, addr 0xf9e0d4, size 0x84, virtual true, abstract: false, final true
+  inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
@@ -46,23 +52,21 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init, addr 0xf58fa4, size 0x6c, virtual true, abstract: false, final true
-  inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
-
-  /// @brief Method get_PaddingName, addr 0xf59010, size 0x40, virtual true, abstract: false, final true
-  inline ::StringW get_PaddingName();
-
-  /// @brief Method AddPadding, addr 0xf59050, size 0xb4, virtual true, abstract: false, final true
-  inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
-
-  /// @brief Method PadCount, addr 0xf59104, size 0x84, virtual true, abstract: false, final true
-  inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
-
-  static inline ::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding* New_ctor();
-
-  /// @brief Method .ctor, addr 0xf59188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0xf9e158, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_PaddingName, addr 0xf9dfe0, size 0x40, virtual true, abstract: false, final true
+  inline ::StringW get_PaddingName();
+
+  /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
+  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* i___Org__BouncyCastle__Crypto__Paddings__IBlockCipherPadding() noexcept;
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ISO10126d2Padding();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "ISO10126d2Padding", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   ISO10126d2Padding(ISO10126d2Padding&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ISO10126d2Padding(ISO10126d2Padding const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ISO10126d2Padding();
-
-public:
   /// @brief Field random, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___random;
 

@@ -33,8 +33,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KeyTransRecipientInformation);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(671))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(676))
 // CS Name: ::Org.BouncyCastle.Cms::KeyTransRecipientInformation*
 class CORDL_TYPE KeyTransRecipientInformation : public ::Org::BouncyCastle::Cms::RecipientInformation {
 public:
@@ -42,27 +40,33 @@ public:
   /// @brief Field info, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info;
 
+  /// @brief Method GetContentStream, addr 0x12763f4, size 0x1c, virtual true, abstract: false, final false
+  inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
+
+  /// @brief Method GetExchangeEncryptionAlgorithmName, addr 0x1275ea8, size 0x1c4, virtual false, abstract: false, final false
+  inline ::StringW GetExchangeEncryptionAlgorithmName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algo);
+
+  static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info,
+                                                                                 ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
+
+  /// @brief Method UnwrapKey, addr 0x127606c, size 0x388, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* UnwrapKey(::Org::BouncyCastle::Crypto::ICipherParameters* key);
+
   constexpr ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo*& __cordl_internal_get_info();
 
   constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo*> const& __cordl_internal_get_info() const;
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* value);
 
-  static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info,
-                                                                                 ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
-
-  /// @brief Method .ctor, addr 0x1210590, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1254560, size 0x21c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method GetExchangeEncryptionAlgorithmName, addr 0x1231ed8, size 0x1c4, virtual false, abstract: false, final false
-  inline ::StringW GetExchangeEncryptionAlgorithmName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algo);
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr KeyTransRecipientInformation();
 
-  /// @brief Method UnwrapKey, addr 0x123209c, size 0x388, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* UnwrapKey(::Org::BouncyCastle::Crypto::ICipherParameters* key);
-
-  /// @brief Method GetContentStream, addr 0x1232424, size 0x1c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "KeyTransRecipientInformation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   KeyTransRecipientInformation(KeyTransRecipientInformation&&) = delete;
@@ -71,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyTransRecipientInformation(KeyTransRecipientInformation const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyTransRecipientInformation();
-
-public:
   /// @brief Field info, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* ___info;
 

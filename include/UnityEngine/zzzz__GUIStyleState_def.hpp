@@ -23,8 +23,6 @@ MARK_REF_PTR_T(::UnityEngine::GUIStyleState);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14629))
 // CS Name: ::UnityEngine::GUIStyleState*
 class CORDL_TYPE GUIStyleState : public ::System::Object {
 public:
@@ -37,46 +35,52 @@ public:
 
   __declspec(property(put = set_textColor))::UnityEngine::Color textColor;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  /// @brief Method Cleanup, addr 0x2e04758, size 0x3c, virtual false, abstract: false, final false
+  inline void Cleanup();
+
+  /// @brief Method Finalize, addr 0x2e04878, size 0xf8, virtual true, abstract: false, final false
+  inline void Finalize();
+
+  /// @brief Method GetGUIStyleState, addr 0x2e04808, size 0x70, virtual false, abstract: false, final false
+  static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, void* source);
+
+  /// @brief Method Init, addr 0x2e04730, size 0x28, virtual false, abstract: false, final false
+  static inline void* Init();
+
+  static inline ::UnityEngine::GUIStyleState* New_ctor();
+
+  static inline ::UnityEngine::GUIStyleState* New_ctor(::UnityEngine::GUIStyle* sourceStyle, void* source);
 
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
   constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_SourceStyle();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_SourceStyle() const;
 
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
+
   constexpr void __cordl_internal_set_m_SourceStyle(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method set_textColor, addr 0x2d17f70, size 0x54, virtual false, abstract: false, final false
-  inline void set_textColor(::UnityEngine::Color value);
-
-  /// @brief Method Init, addr 0x2d18008, size 0x28, virtual false, abstract: false, final false
-  static inline void* Init();
-
-  /// @brief Method Cleanup, addr 0x2d18030, size 0x3c, virtual false, abstract: false, final false
-  inline void Cleanup();
-
-  static inline ::UnityEngine::GUIStyleState* New_ctor();
-
-  /// @brief Method .ctor, addr 0x2d1806c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e04794, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::GUIStyleState* New_ctor(::UnityEngine::GUIStyle* sourceStyle, void* source);
-
-  /// @brief Method .ctor, addr 0x2d180b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e047dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUIStyle* sourceStyle, void* source);
 
-  /// @brief Method GetGUIStyleState, addr 0x2d180e0, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, void* source);
+  /// @brief Method set_textColor, addr 0x2e04698, size 0x54, virtual false, abstract: false, final false
+  inline void set_textColor(::UnityEngine::Color value);
 
-  /// @brief Method Finalize, addr 0x2d18150, size 0xf8, virtual true, abstract: false, final false
-  inline void Finalize();
-
-  /// @brief Method set_textColor_Injected, addr 0x2d17fc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_textColor_Injected, addr 0x2e046ec, size 0x44, virtual false, abstract: false, final false
   inline void set_textColor_Injected(ByRef<::UnityEngine::Color> value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr GUIStyleState();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "GUIStyleState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   GUIStyleState(GUIStyleState&&) = delete;
@@ -85,12 +89,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GUIStyleState(GUIStyleState const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GUIStyleState();
-
-public:
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   void* ___m_Ptr;
 

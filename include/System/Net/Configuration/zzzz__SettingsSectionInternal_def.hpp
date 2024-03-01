@@ -15,8 +15,6 @@ MARK_REF_PTR_T(::System::Net::Configuration::SettingsSectionInternal);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7350))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
 // CS Name: ::System.Net.Configuration::SettingsSectionInternal*
 class CORDL_TYPE SettingsSectionInternal : public ::System::Object {
 public:
@@ -27,38 +25,44 @@ public:
   /// @brief Field IPProtectionLevel, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_IPProtectionLevel, put = __cordl_internal_set_IPProtectionLevel))::System::Net::Sockets::IPProtectionLevel IPProtectionLevel;
 
+  __declspec(property(get = get_Ipv6Enabled)) bool Ipv6Enabled;
+
   /// @brief Field instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::System::Net::Configuration::SettingsSectionInternal* instance;
 
-  __declspec(property(get = get_Ipv6Enabled)) bool Ipv6Enabled;
-
-  constexpr bool& __cordl_internal_get_HttpListenerUnescapeRequestUrl();
+  static inline ::System::Net::Configuration::SettingsSectionInternal* New_ctor();
 
   constexpr bool const& __cordl_internal_get_HttpListenerUnescapeRequestUrl() const;
 
-  constexpr void __cordl_internal_set_HttpListenerUnescapeRequestUrl(bool value);
-
-  constexpr ::System::Net::Sockets::IPProtectionLevel& __cordl_internal_get_IPProtectionLevel();
+  constexpr bool& __cordl_internal_get_HttpListenerUnescapeRequestUrl();
 
   constexpr ::System::Net::Sockets::IPProtectionLevel const& __cordl_internal_get_IPProtectionLevel() const;
 
+  constexpr ::System::Net::Sockets::IPProtectionLevel& __cordl_internal_get_IPProtectionLevel();
+
+  constexpr void __cordl_internal_set_HttpListenerUnescapeRequestUrl(bool value);
+
   constexpr void __cordl_internal_set_IPProtectionLevel(::System::Net::Sockets::IPProtectionLevel value);
 
-  static inline void setStaticF_instance(::System::Net::Configuration::SettingsSectionInternal* value);
+  /// @brief Method .ctor, addr 0x2add988, size 0x18, virtual false, abstract: false, final false
+  inline void _ctor();
 
   static inline ::System::Net::Configuration::SettingsSectionInternal* getStaticF_instance();
 
-  /// @brief Method get_Section, addr 0x29f5854, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Net::Configuration::SettingsSectionInternal* get_Section();
-
-  /// @brief Method get_Ipv6Enabled, addr 0x29f58ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ipv6Enabled, addr 0x2add980, size 0x8, virtual false, abstract: false, final false
   inline bool get_Ipv6Enabled();
 
-  static inline ::System::Net::Configuration::SettingsSectionInternal* New_ctor();
+  /// @brief Method get_Section, addr 0x2add928, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::Net::Configuration::SettingsSectionInternal* get_Section();
 
-  /// @brief Method .ctor, addr 0x29f58b4, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline void setStaticF_instance(::System::Net::Configuration::SettingsSectionInternal* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SettingsSectionInternal();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "SettingsSectionInternal", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   SettingsSectionInternal(SettingsSectionInternal&&) = delete;
@@ -67,12 +71,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SettingsSectionInternal(SettingsSectionInternal const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SettingsSectionInternal();
-
-public:
   /// @brief Field HttpListenerUnescapeRequestUrl, offset: 0x10, size: 0x1, def value: None
   bool ___HttpListenerUnescapeRequestUrl;
 

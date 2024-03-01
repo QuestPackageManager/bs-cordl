@@ -19,19 +19,17 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Property_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8531))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8629))
 // CS Name: ::OVR.OpenVR::VREvent_Property_t
 struct CORDL_TYPE VREvent_Property_t {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "container", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "prop", ty: "::OVR::OpenVR::ETrackedDeviceProperty", modifiers: "", def_value:
-  // None }]
-  constexpr VREvent_Property_t(uint64_t container, ::OVR::OpenVR::ETrackedDeviceProperty prop) noexcept;
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr VREvent_Property_t();
+
+  // Ctor Parameters [CppParam { name: "container", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "prop", ty: "::OVR::OpenVR::ETrackedDeviceProperty", modifiers: "", def_value:
+  // None }]
+  constexpr VREvent_Property_t(uint64_t container, ::OVR::OpenVR::ETrackedDeviceProperty prop) noexcept;
 
   /// @brief Field container, offset: 0x0, size: 0x8, def value: None
   uint64_t container;

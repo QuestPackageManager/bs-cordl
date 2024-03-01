@@ -18,8 +18,6 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::Header);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3165))
 // CS Name: ::System.Runtime.Remoting.Messaging::Header*
 class CORDL_TYPE Header : public ::System::Object {
 public:
@@ -36,30 +34,36 @@ public:
   /// @brief Field Value, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value))::System::Object* Value;
 
-  constexpr ::StringW& __cordl_internal_get_HeaderNamespace();
-
   constexpr ::StringW const& __cordl_internal_get_HeaderNamespace() const;
 
-  constexpr void __cordl_internal_set_HeaderNamespace(::StringW value);
-
-  constexpr bool& __cordl_internal_get_MustUnderstand();
+  constexpr ::StringW& __cordl_internal_get_HeaderNamespace();
 
   constexpr bool const& __cordl_internal_get_MustUnderstand() const;
 
-  constexpr void __cordl_internal_set_MustUnderstand(bool value);
-
-  constexpr ::StringW& __cordl_internal_get_Name();
+  constexpr bool& __cordl_internal_get_MustUnderstand();
 
   constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __cordl_internal_set_Name(::StringW value);
+  constexpr ::StringW& __cordl_internal_get_Name();
 
   constexpr ::System::Object*& __cordl_internal_get_Value();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_Value() const;
 
+  constexpr void __cordl_internal_set_HeaderNamespace(::StringW value);
+
+  constexpr void __cordl_internal_set_MustUnderstand(bool value);
+
+  constexpr void __cordl_internal_set_Name(::StringW value);
+
   constexpr void __cordl_internal_set_Value(::System::Object* value);
 
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Header();
+
+public:
   // Ctor Parameters [CppParam { name: "", ty: "Header", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   Header(Header&&) = delete;
@@ -68,12 +72,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Header(Header const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Header();
-
-public:
   /// @brief Field HeaderNamespace, offset: 0x10, size: 0x8, def value: None
   ::StringW ___HeaderNamespace;
 

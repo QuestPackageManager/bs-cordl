@@ -17,46 +17,44 @@ MARK_VAL_T(::UnityEngine::EventInterests);
 // SizeInfo { instance_size: 3, native_size: 12, calculated_instance_size: 3, calculated_native_size: 19, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: []
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14609))
 // CS Name: ::UnityEngine::EventInterests
 struct CORDL_TYPE EventInterests {
 public:
   // Declarations
-  __declspec(property(get = get_wantsMouseMove, put = set_wantsMouseMove)) bool wantsMouseMove;
+  __declspec(property(get = get_wantsLessLayoutEvents)) bool wantsLessLayoutEvents;
 
   __declspec(property(get = get_wantsMouseEnterLeaveWindow, put = set_wantsMouseEnterLeaveWindow)) bool wantsMouseEnterLeaveWindow;
 
-  __declspec(property(get = get_wantsLessLayoutEvents)) bool wantsLessLayoutEvents;
+  __declspec(property(get = get_wantsMouseMove, put = set_wantsMouseMove)) bool wantsMouseMove;
 
-  /// @brief Method get_wantsMouseMove, addr 0x2d09e0c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_wantsMouseMove();
-
-  /// @brief Method set_wantsMouseMove, addr 0x2d09e14, size 0xc, virtual false, abstract: false, final false
-  inline void set_wantsMouseMove(bool value);
-
-  /// @brief Method get_wantsMouseEnterLeaveWindow, addr 0x2d09e20, size 0x8, virtual false, abstract: false, final false
-  inline bool get_wantsMouseEnterLeaveWindow();
-
-  /// @brief Method set_wantsMouseEnterLeaveWindow, addr 0x2d09e28, size 0xc, virtual false, abstract: false, final false
-  inline void set_wantsMouseEnterLeaveWindow(bool value);
-
-  /// @brief Method get_wantsLessLayoutEvents, addr 0x2d09e34, size 0x8, virtual false, abstract: false, final false
-  inline bool get_wantsLessLayoutEvents();
-
-  /// @brief Method WantsEvent, addr 0x2d09e3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method WantsEvent, addr 0x2df6564, size 0x30, virtual false, abstract: false, final false
   inline bool WantsEvent(::UnityEngine::EventType type);
 
-  /// @brief Method WantsLayoutPass, addr 0x2d09e6c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method WantsLayoutPass, addr 0x2df6594, size 0x94, virtual false, abstract: false, final false
   inline bool WantsLayoutPass(::UnityEngine::EventType type);
 
-  // Ctor Parameters [CppParam { name: "_wantsMouseMove_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_wantsMouseEnterLeaveWindow_k__BackingField", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "_wantsLessLayoutEvents_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
-  constexpr EventInterests(bool _wantsMouseMove_k__BackingField, bool _wantsMouseEnterLeaveWindow_k__BackingField, bool _wantsLessLayoutEvents_k__BackingField) noexcept;
+  /// @brief Method get_wantsLessLayoutEvents, addr 0x2df655c, size 0x8, virtual false, abstract: false, final false
+  inline bool get_wantsLessLayoutEvents();
+
+  /// @brief Method get_wantsMouseEnterLeaveWindow, addr 0x2df6548, size 0x8, virtual false, abstract: false, final false
+  inline bool get_wantsMouseEnterLeaveWindow();
+
+  /// @brief Method get_wantsMouseMove, addr 0x2df6534, size 0x8, virtual false, abstract: false, final false
+  inline bool get_wantsMouseMove();
+
+  /// @brief Method set_wantsMouseEnterLeaveWindow, addr 0x2df6550, size 0xc, virtual false, abstract: false, final false
+  inline void set_wantsMouseEnterLeaveWindow(bool value);
+
+  /// @brief Method set_wantsMouseMove, addr 0x2df653c, size 0xc, virtual false, abstract: false, final false
+  inline void set_wantsMouseMove(bool value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr EventInterests();
+
+  // Ctor Parameters [CppParam { name: "_wantsMouseMove_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_wantsMouseEnterLeaveWindow_k__BackingField", ty: "bool",
+  // modifiers: "", def_value: None }, CppParam { name: "_wantsLessLayoutEvents_k__BackingField", ty: "bool", modifiers: "", def_value: None }]
+  constexpr EventInterests(bool _wantsMouseMove_k__BackingField, bool _wantsMouseEnterLeaveWindow_k__BackingField, bool _wantsLessLayoutEvents_k__BackingField) noexcept;
 
   /// @brief Field <wantsMouseMove>k__BackingField, offset: 0x0, size: 0x1, def value: None
   bool _wantsMouseMove_k__BackingField;

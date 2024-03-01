@@ -32,8 +32,6 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::AttributeTable);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(343))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::AttributeTable*
 class CORDL_TYPE AttributeTable : public ::System::Object {
 public:
@@ -41,41 +39,47 @@ public:
   /// @brief Field attributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes))::System::Collections::IDictionary* attributes;
 
+  /// @brief Method Get, addr 0x10f70ec, size 0xf4, virtual false, abstract: false, final false
+  inline ::Org::BouncyCastle::Asn1::X509::AttributeX509* Get(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+
+  static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::System::Collections::Hashtable* attrs);
+
+  static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::System::Collections::IDictionary* attrs);
+
+  static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* s);
+
+  static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
+
+  /// @brief Method ToDictionary, addr 0x10f7248, size 0x5c, virtual false, abstract: false, final false
+  inline ::System::Collections::IDictionary* ToDictionary();
+
+  /// @brief Method ToHashtable, addr 0x10f71e0, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::Hashtable* ToHashtable();
+
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_attributes();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_attributes() const;
 
   constexpr void __cordl_internal_set_attributes(::System::Collections::IDictionary* value);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::System::Collections::IDictionary* attrs);
-
-  /// @brief Method .ctor, addr 0x10b1d6c, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IDictionary* attrs);
-
-  static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::System::Collections::Hashtable* attrs);
-
-  /// @brief Method .ctor, addr 0x10b1de4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f6db4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* attrs);
 
-  static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
+  /// @brief Method .ctor, addr 0x10f6d3c, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::IDictionary* attrs);
 
-  /// @brief Method .ctor, addr 0x10b1e5c, size 0x148, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
-
-  static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* s);
-
-  /// @brief Method .ctor, addr 0x10b1fa4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f6f74, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* s);
 
-  /// @brief Method Get, addr 0x10b211c, size 0xf4, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AttributeX509* Get(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+  /// @brief Method .ctor, addr 0x10f6e2c, size 0x148, virtual false, abstract: false, final false
+  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method ToHashtable, addr 0x10b2210, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Collections::Hashtable* ToHashtable();
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AttributeTable();
 
-  /// @brief Method ToDictionary, addr 0x10b2278, size 0x5c, virtual false, abstract: false, final false
-  inline ::System::Collections::IDictionary* ToDictionary();
-
+public:
   // Ctor Parameters [CppParam { name: "", ty: "AttributeTable", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
   AttributeTable(AttributeTable&&) = delete;
@@ -84,12 +88,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AttributeTable(AttributeTable const&) = delete;
 
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AttributeTable();
-
-public:
   /// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___attributes;
 
