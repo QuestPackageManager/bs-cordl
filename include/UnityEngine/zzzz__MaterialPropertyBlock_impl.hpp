@@ -900,5 +900,3 @@ inline void UnityEngine::MaterialPropertyBlock::SetColorImpl_Injected(int32_t na
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::MaterialPropertyBlock::MaterialPropertyBlock() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

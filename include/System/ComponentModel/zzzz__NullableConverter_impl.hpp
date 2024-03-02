@@ -378,5 +378,3 @@ inline ::System::ComponentModel::TypeConverter* System::ComponentModel::Nullable
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::NullableConverter::NullableConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

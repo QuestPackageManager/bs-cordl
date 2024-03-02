@@ -412,5 +412,3 @@ inline void GlobalNamespace::SaberBurnMarkArea::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberBurnMarkArea::SaberBurnMarkArea() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

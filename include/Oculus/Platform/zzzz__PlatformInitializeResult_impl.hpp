@@ -16,5 +16,3 @@ constexpr ::Oculus::Platform::PlatformInitializeResult Oculus::Platform::Platfor
 constexpr ::Oculus::Platform::PlatformInitializeResult Oculus::Platform::PlatformInitializeResult::Unknown{ static_cast<int32_t>(0xfffffff9) };
 constexpr ::Oculus::Platform::PlatformInitializeResult Oculus::Platform::PlatformInitializeResult::InvalidCredentials{ static_cast<int32_t>(0xfffffff8) };
 constexpr ::Oculus::Platform::PlatformInitializeResult Oculus::Platform::PlatformInitializeResult::NotEntitled{ static_cast<int32_t>(0xfffffff7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

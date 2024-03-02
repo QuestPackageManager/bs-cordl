@@ -75,5 +75,3 @@ inline void UnityEngine::UISystemProfilerApi::AddMarker(::StringW name, ::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UISystemProfilerApi::UISystemProfilerApi() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

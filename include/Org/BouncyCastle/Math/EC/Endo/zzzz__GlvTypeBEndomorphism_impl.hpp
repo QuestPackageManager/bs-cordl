@@ -144,5 +144,3 @@ inline bool Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::get_HasEffi
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::GlvTypeBEndomorphism() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

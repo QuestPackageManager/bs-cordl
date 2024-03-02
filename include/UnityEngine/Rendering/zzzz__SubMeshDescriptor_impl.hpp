@@ -346,5 +346,3 @@ constexpr ::UnityEngine::Rendering::SubMeshDescriptor::SubMeshDescriptor(::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::SubMeshDescriptor::SubMeshDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

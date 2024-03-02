@@ -68,5 +68,3 @@ inline bool UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::IsEquiv
 }
 // Ctor Parameters []
 template <typename TEventType> constexpr ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::EventCallbackFunctor_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

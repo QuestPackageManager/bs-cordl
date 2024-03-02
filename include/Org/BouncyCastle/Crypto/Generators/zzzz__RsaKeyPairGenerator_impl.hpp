@@ -162,5 +162,3 @@ inline void Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator::RsaKeyPairGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

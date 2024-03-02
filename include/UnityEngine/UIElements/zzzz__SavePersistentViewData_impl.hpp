@@ -49,5 +49,3 @@ inline void UnityEngine::UIElements::SavePersistentViewData::Invoke() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::SavePersistentViewData::SavePersistentViewData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

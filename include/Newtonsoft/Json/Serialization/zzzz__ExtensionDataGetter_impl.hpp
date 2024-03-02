@@ -104,5 +104,3 @@ Newtonsoft::Json::Serialization::ExtensionDataGetter::EndInvoke(::System::IAsync
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::ExtensionDataGetter::ExtensionDataGetter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

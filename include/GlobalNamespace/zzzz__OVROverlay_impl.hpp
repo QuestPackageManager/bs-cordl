@@ -1512,5 +1512,3 @@ inline void GlobalNamespace::OVROverlay::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVROverlay::OVROverlay() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

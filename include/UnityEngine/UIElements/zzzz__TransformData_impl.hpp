@@ -163,5 +163,3 @@ constexpr ::UnityEngine::UIElements::TransformData::TransformData(::UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TransformData::TransformData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -662,5 +662,3 @@ inline ::System::Object* Newtonsoft::Json::Serialization::JsonObjectContract::Ge
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonObjectContract::JsonObjectContract() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

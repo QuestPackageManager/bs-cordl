@@ -9,5 +9,3 @@ constexpr ::System::Runtime::CompilerServices::Ephemeron::Ephemeron(::System::Ob
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::Ephemeron::Ephemeron() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

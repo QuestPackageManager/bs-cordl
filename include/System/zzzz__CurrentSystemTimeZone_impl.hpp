@@ -184,5 +184,3 @@ inline ::System::Globalization::DaylightTime* System::CurrentSystemTimeZone::Get
 }
 // Ctor Parameters []
 constexpr ::System::CurrentSystemTimeZone::CurrentSystemTimeZone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

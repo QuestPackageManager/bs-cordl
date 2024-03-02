@@ -247,5 +247,3 @@ inline void UnityEngine::InputSystem::XR::BoneControl::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::BoneControl::BoneControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

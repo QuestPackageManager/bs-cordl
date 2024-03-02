@@ -30,5 +30,3 @@ inline void Org::BouncyCastle::Asn1::BerApplicationSpecific::_ctor(int32_t tagNo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerApplicationSpecific::BerApplicationSpecific() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

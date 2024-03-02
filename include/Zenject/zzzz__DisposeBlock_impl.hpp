@@ -386,5 +386,3 @@ inline void Zenject::DisposeBlock::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::DisposeBlock::DisposeBlock() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

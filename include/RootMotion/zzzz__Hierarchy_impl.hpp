@@ -251,5 +251,3 @@ inline void RootMotion::Hierarchy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::Hierarchy::Hierarchy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

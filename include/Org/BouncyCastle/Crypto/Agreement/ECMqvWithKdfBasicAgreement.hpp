@@ -1,3 +1,5 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__ECMqvWithKdfBasicAgreement_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__ECMqvWithKdfBasicAgreement_impl.hpp"
+#endif

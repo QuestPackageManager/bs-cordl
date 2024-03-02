@@ -53,5 +53,3 @@ inline void System::AppDomainUnloadedException::_ctor(::System::Runtime::Seriali
 }
 // Ctor Parameters []
 constexpr ::System::AppDomainUnloadedException::AppDomainUnloadedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

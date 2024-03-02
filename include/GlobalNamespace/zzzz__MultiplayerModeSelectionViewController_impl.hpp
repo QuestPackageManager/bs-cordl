@@ -336,5 +336,3 @@ inline void GlobalNamespace::MultiplayerModeSelectionViewController::_DidActivat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerModeSelectionViewController::MultiplayerModeSelectionViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

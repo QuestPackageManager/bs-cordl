@@ -72,5 +72,3 @@ constexpr ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<TRe
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<TResult>::AsyncValueTaskMethodBuilder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

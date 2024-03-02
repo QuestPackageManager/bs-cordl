@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::EVRNotificationType::EVRNotificationType() {}
 constexpr ::OVR::OpenVR::EVRNotificationType OVR::OpenVR::EVRNotificationType::Transient{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVRNotificationType OVR::OpenVR::EVRNotificationType::Persistent{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EVRNotificationType OVR::OpenVR::EVRNotificationType::Transient_SystemWithUserValue{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

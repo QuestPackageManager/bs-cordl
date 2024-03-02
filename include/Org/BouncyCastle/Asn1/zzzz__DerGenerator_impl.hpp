@@ -181,5 +181,3 @@ inline void Org::BouncyCastle::Asn1::DerGenerator::WriteDerEncoded(::System::IO:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerGenerator::DerGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

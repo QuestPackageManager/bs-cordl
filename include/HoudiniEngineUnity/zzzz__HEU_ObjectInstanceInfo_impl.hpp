@@ -121,5 +121,3 @@ inline void HoudiniEngineUnity::HEU_ObjectInstanceInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ObjectInstanceInfo::HEU_ObjectInstanceInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

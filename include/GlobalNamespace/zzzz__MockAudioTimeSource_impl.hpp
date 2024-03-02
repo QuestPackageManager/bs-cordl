@@ -207,5 +207,3 @@ inline void GlobalNamespace::MockAudioTimeSource::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockAudioTimeSource::MockAudioTimeSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

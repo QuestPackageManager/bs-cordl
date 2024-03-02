@@ -217,5 +217,3 @@ inline void GlobalNamespace::PoolableSerializable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PoolableSerializable::PoolableSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

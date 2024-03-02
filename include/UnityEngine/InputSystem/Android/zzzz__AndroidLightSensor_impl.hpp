@@ -25,5 +25,3 @@ inline void UnityEngine::InputSystem::Android::AndroidLightSensor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidLightSensor::AndroidLightSensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

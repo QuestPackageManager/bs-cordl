@@ -26,5 +26,3 @@ constexpr ::System::Net::NetworkInformation::ifa_ifu::ifa_ifu(void* ifu_broadadd
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::ifa_ifu::ifa_ifu() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

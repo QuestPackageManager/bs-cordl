@@ -45,5 +45,3 @@ inline void BeatSaber::BeatAvatarSDK::AvatarSpritePartSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO::AvatarSpritePartSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

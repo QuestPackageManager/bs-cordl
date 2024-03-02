@@ -58,5 +58,3 @@ inline void GlobalNamespace::PointLightWithIds::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PointLightWithIds::PointLightWithIds() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

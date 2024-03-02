@@ -628,5 +628,3 @@ inline ::StringW Mono::Security::Cryptography::KeyPairPersistence::ToXml() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Cryptography::KeyPairPersistence::KeyPairPersistence() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

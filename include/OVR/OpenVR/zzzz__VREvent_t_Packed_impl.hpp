@@ -54,5 +54,3 @@ constexpr ::OVR::OpenVR::VREvent_t_Packed::VREvent_t_Packed(uint32_t eventType, 
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_t_Packed::VREvent_t_Packed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

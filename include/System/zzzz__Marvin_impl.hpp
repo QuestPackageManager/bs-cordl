@@ -132,5 +132,3 @@ inline uint64_t System::Marvin::GenerateSeed() {
 }
 // Ctor Parameters []
 constexpr ::System::Marvin::Marvin() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

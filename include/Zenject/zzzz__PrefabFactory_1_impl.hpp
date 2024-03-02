@@ -73,5 +73,3 @@ template <typename T> inline ::Zenject::InjectTypeInfo* Zenject::PrefabFactory_1
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Zenject::PrefabFactory_1<T>::PrefabFactory_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

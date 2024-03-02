@@ -255,5 +255,3 @@ inline ::System::Collections::ArrayList* Mono::Security::X509::X509Store::BuildC
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X509Store::X509Store() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

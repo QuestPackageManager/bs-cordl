@@ -762,5 +762,3 @@ inline void System::Runtime::Remoting::Messaging::MethodResponse::System_Runtime
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::MethodResponse::MethodResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

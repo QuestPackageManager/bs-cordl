@@ -61,5 +61,3 @@ inline void GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::BloomPrePassBackgroundSpriteRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

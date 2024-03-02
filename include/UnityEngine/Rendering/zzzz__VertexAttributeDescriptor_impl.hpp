@@ -302,5 +302,3 @@ constexpr ::UnityEngine::Rendering::VertexAttributeDescriptor::VertexAttributeDe
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::VertexAttributeDescriptor::VertexAttributeDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -22,5 +22,3 @@ constexpr ::OVR::OpenVR::VROverlayFlags OVR::OpenVR::VROverlayFlags::Panorama{ s
 constexpr ::OVR::OpenVR::VROverlayFlags OVR::OpenVR::VROverlayFlags::StereoPanorama{ static_cast<int32_t>(0xd) };
 constexpr ::OVR::OpenVR::VROverlayFlags OVR::OpenVR::VROverlayFlags::SortWithNonSceneOverlays{ static_cast<int32_t>(0xe) };
 constexpr ::OVR::OpenVR::VROverlayFlags OVR::OpenVR::VROverlayFlags::VisibleInDashboard{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

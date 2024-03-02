@@ -43,5 +43,3 @@ inline ::System::IAsyncResult* System::ComponentModel::ISynchronizeInvoke::Begin
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ISynchronizeInvoke*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, method, args);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

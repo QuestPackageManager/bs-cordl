@@ -34,5 +34,3 @@ inline ::StringW System::Runtime::Serialization::EnumMemberAttribute::get_Value(
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::EnumMemberAttribute::EnumMemberAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

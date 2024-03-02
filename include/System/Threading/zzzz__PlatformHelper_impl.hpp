@@ -40,5 +40,3 @@ inline int32_t System::Threading::PlatformHelper::get_ProcessorCount() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::PlatformHelper::PlatformHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -122,5 +122,3 @@ inline void GlobalNamespace::MockNodePoseSyncStateSender::HandleNodePoseSyncStat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockNodePoseSyncStateSender::MockNodePoseSyncStateSender() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

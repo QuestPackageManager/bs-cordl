@@ -73,5 +73,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl::get_IsServer()
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl::TlsClientContextImpl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

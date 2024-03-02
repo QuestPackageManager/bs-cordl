@@ -525,5 +525,3 @@ inline ::UnityEngine::Vector3 UnityEngine::ProBuilder::HandleUtility::GetActiveE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::HandleUtility::HandleUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -132,5 +132,3 @@ inline void RootMotion::FinalIK::FABRIKRoot::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::FABRIKRoot::FABRIKRoot() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

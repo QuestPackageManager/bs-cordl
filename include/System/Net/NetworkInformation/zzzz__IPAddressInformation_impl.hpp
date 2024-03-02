@@ -48,5 +48,3 @@ inline void System::Net::NetworkInformation::IPAddressInformation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::IPAddressInformation::IPAddressInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

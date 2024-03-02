@@ -266,5 +266,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Asn1::X509::Subje
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier::SubjectKeyIdentifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -34,5 +34,3 @@ template <typename T> inline ::cordl_internals::Ptr<void> Unity::Collections::Lo
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::LowLevel::Unsafe::NativeSliceUnsafeUtility::NativeSliceUnsafeUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

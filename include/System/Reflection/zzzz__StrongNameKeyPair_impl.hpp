@@ -147,5 +147,3 @@ inline void System::Reflection::StrongNameKeyPair::System_Runtime_Serialization_
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::StrongNameKeyPair::StrongNameKeyPair() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

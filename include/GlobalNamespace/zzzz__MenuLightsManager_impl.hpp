@@ -459,5 +459,3 @@ inline void GlobalNamespace::MenuLightsManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuLightsManager::MenuLightsManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

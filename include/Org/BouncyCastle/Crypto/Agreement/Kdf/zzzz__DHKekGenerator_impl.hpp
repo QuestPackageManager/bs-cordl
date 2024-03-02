@@ -166,5 +166,3 @@ inline int32_t Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator::Genera
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKekGenerator::DHKekGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

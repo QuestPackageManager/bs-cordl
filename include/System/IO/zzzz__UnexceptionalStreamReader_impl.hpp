@@ -160,5 +160,3 @@ inline ::StringW System::IO::UnexceptionalStreamReader::ReadToEnd() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::UnexceptionalStreamReader::UnexceptionalStreamReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

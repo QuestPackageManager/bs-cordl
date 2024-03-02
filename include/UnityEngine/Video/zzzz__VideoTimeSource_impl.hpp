@@ -8,5 +8,3 @@ constexpr ::UnityEngine::Video::VideoTimeSource::VideoTimeSource(int32_t value__
 constexpr ::UnityEngine::Video::VideoTimeSource::VideoTimeSource() {}
 constexpr ::UnityEngine::Video::VideoTimeSource UnityEngine::Video::VideoTimeSource::AudioDSPTimeSource{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Video::VideoTimeSource UnityEngine::Video::VideoTimeSource::GameTimeSource{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

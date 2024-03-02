@@ -57,5 +57,3 @@ template <typename TResult> constexpr ::System::Runtime::CompilerServices::TaskA
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<TResult>::TaskAwaiter_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

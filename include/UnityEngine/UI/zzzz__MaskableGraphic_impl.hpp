@@ -611,5 +611,3 @@ inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::MaskableGraphic::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::MaskableGraphic::MaskableGraphic() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

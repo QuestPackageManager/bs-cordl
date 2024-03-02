@@ -281,5 +281,3 @@ inline void GlobalNamespace::MultiplayerVerticalPlayerMovementManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::MultiplayerVerticalPlayerMovementManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

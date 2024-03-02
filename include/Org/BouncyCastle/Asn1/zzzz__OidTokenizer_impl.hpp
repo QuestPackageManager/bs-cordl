@@ -86,5 +86,3 @@ inline ::StringW Org::BouncyCastle::Asn1::OidTokenizer::NextToken() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::OidTokenizer::OidTokenizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -41,5 +41,3 @@ inline void System::Diagnostics::DebuggerBrowsableAttribute::_ctor(::System::Dia
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::DebuggerBrowsableAttribute::DebuggerBrowsableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

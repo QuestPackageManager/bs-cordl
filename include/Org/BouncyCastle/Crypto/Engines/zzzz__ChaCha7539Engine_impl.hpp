@@ -157,5 +157,3 @@ inline void Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::GenerateKeyStr
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::ChaCha7539Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

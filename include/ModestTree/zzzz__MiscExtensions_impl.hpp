@@ -127,5 +127,3 @@ template <typename TKey, typename TVal> inline TVal ModestTree::MiscExtensions::
 }
 // Ctor Parameters []
 constexpr ::ModestTree::MiscExtensions::MiscExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -786,5 +786,3 @@ inline void GlobalNamespace::ScoreController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreController::ScoreController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

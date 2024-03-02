@@ -9,5 +9,3 @@ constexpr ::System::Net::Security::EncryptionPolicy::EncryptionPolicy() {}
 constexpr ::System::Net::Security::EncryptionPolicy System::Net::Security::EncryptionPolicy::RequireEncryption{ static_cast<int32_t>(0x0) };
 constexpr ::System::Net::Security::EncryptionPolicy System::Net::Security::EncryptionPolicy::AllowNoEncryption{ static_cast<int32_t>(0x1) };
 constexpr ::System::Net::Security::EncryptionPolicy System::Net::Security::EncryptionPolicy::NoEncryption{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

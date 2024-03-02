@@ -1030,5 +1030,3 @@ inline void System::Text::RegularExpressions::GroupCollection::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::GroupCollection::GroupCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

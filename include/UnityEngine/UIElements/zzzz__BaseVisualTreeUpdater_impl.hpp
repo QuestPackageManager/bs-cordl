@@ -277,5 +277,3 @@ inline void UnityEngine::UIElements::BaseVisualTreeUpdater::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseVisualTreeUpdater::BaseVisualTreeUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

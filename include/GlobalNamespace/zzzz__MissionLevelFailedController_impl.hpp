@@ -468,5 +468,3 @@ inline void GlobalNamespace::MissionLevelFailedController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionLevelFailedController::MissionLevelFailedController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

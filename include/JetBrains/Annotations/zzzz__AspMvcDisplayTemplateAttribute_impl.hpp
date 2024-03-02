@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::AspMvcDisplayTemplateAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcDisplayTemplateAttribute::AspMvcDisplayTemplateAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

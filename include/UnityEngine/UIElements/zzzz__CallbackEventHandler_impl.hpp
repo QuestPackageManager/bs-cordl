@@ -296,5 +296,3 @@ inline void UnityEngine::UIElements::CallbackEventHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::CallbackEventHandler::CallbackEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

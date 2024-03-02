@@ -189,5 +189,3 @@ inline void GlobalNamespace::NamedIntListSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NamedIntListSettingsController::NamedIntListSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -73,5 +73,3 @@ inline void GlobalNamespace::PrivacyPolicyDisplayViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PrivacyPolicyDisplayViewController::PrivacyPolicyDisplayViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

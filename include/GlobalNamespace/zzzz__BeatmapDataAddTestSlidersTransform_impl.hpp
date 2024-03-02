@@ -79,5 +79,3 @@ inline void GlobalNamespace::BeatmapDataAddTestSlidersTransform::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataAddTestSlidersTransform::BeatmapDataAddTestSlidersTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

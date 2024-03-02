@@ -8,5 +8,3 @@ constexpr ::System::Runtime::Remoting::Messaging::ArgInfoType::ArgInfoType(uint8
 constexpr ::System::Runtime::Remoting::Messaging::ArgInfoType::ArgInfoType() {}
 constexpr ::System::Runtime::Remoting::Messaging::ArgInfoType System::Runtime::Remoting::Messaging::ArgInfoType::In{ static_cast<uint8_t>(0x0u) };
 constexpr ::System::Runtime::Remoting::Messaging::ArgInfoType System::Runtime::Remoting::Messaging::ArgInfoType::Out{ static_cast<uint8_t>(0x1u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

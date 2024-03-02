@@ -515,5 +515,3 @@ inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm UnityEngine::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::DTSweepContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -196,5 +196,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ParmInfo::HAPI_ParmInfo(int32_t id, int32_t
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_ParmInfo::HAPI_ParmInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

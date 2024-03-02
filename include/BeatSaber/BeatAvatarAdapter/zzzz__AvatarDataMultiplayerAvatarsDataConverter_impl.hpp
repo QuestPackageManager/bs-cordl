@@ -49,5 +49,3 @@ BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter::CreateA
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter::AvatarDataMultiplayerAvatarsDataConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

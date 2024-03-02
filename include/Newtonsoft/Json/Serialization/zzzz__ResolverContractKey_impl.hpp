@@ -98,5 +98,3 @@ constexpr ::Newtonsoft::Json::Serialization::ResolverContractKey::ResolverContra
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::ResolverContractKey::ResolverContractKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

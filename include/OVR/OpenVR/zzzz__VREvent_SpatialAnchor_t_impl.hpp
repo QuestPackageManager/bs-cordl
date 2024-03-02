@@ -6,5 +6,3 @@ constexpr ::OVR::OpenVR::VREvent_SpatialAnchor_t::VREvent_SpatialAnchor_t(uint32
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_SpatialAnchor_t::VREvent_SpatialAnchor_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

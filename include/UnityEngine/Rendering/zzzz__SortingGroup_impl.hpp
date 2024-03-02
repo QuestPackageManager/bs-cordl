@@ -233,5 +233,3 @@ inline void UnityEngine::Rendering::SortingGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::SortingGroup::SortingGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

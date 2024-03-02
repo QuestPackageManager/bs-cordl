@@ -384,5 +384,3 @@ inline void Org::BouncyCastle::Crypto::IO::MacStream::SetLength(int64_t length) 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::IO::MacStream::MacStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

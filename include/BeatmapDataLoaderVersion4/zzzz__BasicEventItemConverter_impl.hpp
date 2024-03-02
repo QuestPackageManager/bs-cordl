@@ -90,5 +90,3 @@ inline ::GlobalNamespace::BeatmapEventData* BeatmapDataLoaderVersion4::BasicEven
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::BasicEventItemConverter::BasicEventItemConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

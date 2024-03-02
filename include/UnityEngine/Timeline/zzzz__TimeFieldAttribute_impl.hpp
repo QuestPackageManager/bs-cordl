@@ -70,5 +70,3 @@ inline void UnityEngine::Timeline::TimeFieldAttribute::_ctor(::UnityEngine::Time
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimeFieldAttribute::TimeFieldAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

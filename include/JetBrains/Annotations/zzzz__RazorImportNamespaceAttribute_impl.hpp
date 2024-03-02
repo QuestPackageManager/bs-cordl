@@ -79,5 +79,3 @@ inline void JetBrains::Annotations::RazorImportNamespaceAttribute::set_Name(::St
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::RazorImportNamespaceAttribute::RazorImportNamespaceAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

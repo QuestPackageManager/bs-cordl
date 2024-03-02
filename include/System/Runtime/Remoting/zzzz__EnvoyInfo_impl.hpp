@@ -68,5 +68,3 @@ inline ::System::Runtime::Remoting::Messaging::IMessageSink* System::Runtime::Re
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::EnvoyInfo::EnvoyInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

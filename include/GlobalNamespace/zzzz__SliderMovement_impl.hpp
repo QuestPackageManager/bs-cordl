@@ -589,5 +589,3 @@ inline void GlobalNamespace::SliderMovement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SliderMovement::SliderMovement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

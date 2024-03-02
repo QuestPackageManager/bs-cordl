@@ -294,5 +294,3 @@ inline ::StringW UnityEngine::ProBuilder::UnwrapParameters::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::UnwrapParameters::UnwrapParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

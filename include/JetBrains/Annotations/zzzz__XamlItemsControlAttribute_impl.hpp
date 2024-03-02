@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::XamlItemsControlAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::XamlItemsControlAttribute::XamlItemsControlAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

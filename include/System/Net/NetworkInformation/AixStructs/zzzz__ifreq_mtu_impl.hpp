@@ -35,5 +35,3 @@ constexpr ::System::Net::NetworkInformation::AixStructs::ifreq_mtu::ifreq_mtu(::
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixStructs::ifreq_mtu::ifreq_mtu() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

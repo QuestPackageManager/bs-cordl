@@ -40,5 +40,3 @@ constexpr ::GlobalNamespace::BezierCurve::BezierCurve(::UnityEngine::Vector3 p0,
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BezierCurve::BezierCurve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

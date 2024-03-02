@@ -204,5 +204,3 @@ inline void GlobalNamespace::OptionsViewController::_DidActivate_b__7_2() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OptionsViewController::OptionsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

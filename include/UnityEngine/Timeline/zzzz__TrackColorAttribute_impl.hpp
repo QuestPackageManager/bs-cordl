@@ -62,5 +62,3 @@ inline void UnityEngine::Timeline::TrackColorAttribute::_ctor(float_t r, float_t
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TrackColorAttribute::TrackColorAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

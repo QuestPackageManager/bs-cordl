@@ -80,5 +80,3 @@ template <typename TPriority> inline void Priority_Queue::GenericPriorityQueueNo
 }
 // Ctor Parameters []
 template <typename TPriority> constexpr ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>::GenericPriorityQueueNode_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

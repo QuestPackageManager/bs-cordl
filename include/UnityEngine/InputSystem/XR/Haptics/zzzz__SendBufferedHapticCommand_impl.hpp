@@ -136,5 +136,3 @@ constexpr ::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand::Se
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand::SendBufferedHapticCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

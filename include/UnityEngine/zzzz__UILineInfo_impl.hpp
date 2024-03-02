@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UILineInfo::UILineInfo(int32_t startCharIdx, int32_t he
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UILineInfo::UILineInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -61,5 +61,3 @@ inline void UnityEngine::UIElements::FocusOutEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::FocusOutEvent::FocusOutEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

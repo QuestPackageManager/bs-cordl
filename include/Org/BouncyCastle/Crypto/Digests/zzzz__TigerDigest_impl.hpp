@@ -567,5 +567,3 @@ inline void Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset(::Org::Bouncy
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::TigerDigest::TigerDigest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

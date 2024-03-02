@@ -217,5 +217,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Smime::Sm
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Smime::SmimeCapability::SmimeCapability() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

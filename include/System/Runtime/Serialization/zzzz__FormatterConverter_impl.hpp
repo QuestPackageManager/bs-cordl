@@ -182,5 +182,3 @@ inline void System::Runtime::Serialization::FormatterConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::FormatterConverter::FormatterConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

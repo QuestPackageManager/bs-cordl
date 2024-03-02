@@ -382,5 +382,3 @@ inline void GlobalNamespace::EditColorSchemeController::_Start_b__13_0() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EditColorSchemeController::EditColorSchemeController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

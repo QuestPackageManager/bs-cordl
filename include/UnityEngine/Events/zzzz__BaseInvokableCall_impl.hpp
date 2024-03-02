@@ -122,5 +122,3 @@ inline bool UnityEngine::Events::BaseInvokableCall::Find(::System::Object* targe
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::BaseInvokableCall::BaseInvokableCall() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

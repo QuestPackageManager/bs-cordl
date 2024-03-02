@@ -871,5 +871,3 @@ constexpr ::UnityEngine::Timeline::DiscreteTime::DiscreteTime(int64_t m_Discrete
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::DiscreteTime::DiscreteTime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::RejoinDialogResult* Oculus::Platform::Message
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithRejoinDialogResult::MessageWithRejoinDialogResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

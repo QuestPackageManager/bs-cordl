@@ -539,5 +539,3 @@ inline ::StringW System::Runtime::Serialization::FormatterServices::GetClrTypeFu
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::FormatterServices::FormatterServices() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

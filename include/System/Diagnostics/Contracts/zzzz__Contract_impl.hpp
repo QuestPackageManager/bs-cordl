@@ -15,5 +15,3 @@ template <typename T> inline bool System::Diagnostics::Contracts::Contract::ForA
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Contracts::Contract::Contract() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

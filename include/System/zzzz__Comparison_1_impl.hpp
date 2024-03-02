@@ -18,5 +18,3 @@ template <typename T> inline int32_t System::Comparison_1<T>::Invoke(T x, T y) {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Comparison_1<T>::Comparison_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

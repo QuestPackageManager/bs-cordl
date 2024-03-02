@@ -60,5 +60,3 @@ constexpr ::UnityEngine::ParticleSystemJobs::NativeParticleData::NativeParticleD
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ParticleSystemJobs::NativeParticleData::NativeParticleData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

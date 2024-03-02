@@ -761,5 +761,3 @@ inline int32_t System::Security::Cryptography::RijndaelManagedTransform::MulX(in
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RijndaelManagedTransform::RijndaelManagedTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

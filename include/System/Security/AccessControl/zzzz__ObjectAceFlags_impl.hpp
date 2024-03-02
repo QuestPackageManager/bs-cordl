@@ -9,5 +9,3 @@ constexpr ::System::Security::AccessControl::ObjectAceFlags::ObjectAceFlags() {}
 constexpr ::System::Security::AccessControl::ObjectAceFlags System::Security::AccessControl::ObjectAceFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::AccessControl::ObjectAceFlags System::Security::AccessControl::ObjectAceFlags::ObjectAceTypePresent{ static_cast<int32_t>(0x1) };
 constexpr ::System::Security::AccessControl::ObjectAceFlags System::Security::AccessControl::ObjectAceFlags::InheritedObjectAceTypePresent{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::Position::Position(int32_t value__) noexcep
 constexpr ::UnityEngine::UIElements::Position::Position() {}
 constexpr ::UnityEngine::UIElements::Position UnityEngine::UIElements::Position::Relative{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::Position UnityEngine::UIElements::Position::Absolute{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

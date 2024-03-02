@@ -179,5 +179,3 @@ inline void Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X500::Style::IetfUtilities::IetfUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

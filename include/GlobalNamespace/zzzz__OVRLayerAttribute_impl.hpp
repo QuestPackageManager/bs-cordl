@@ -24,5 +24,3 @@ inline void GlobalNamespace::OVRLayerAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRLayerAttribute::OVRLayerAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -2151,5 +2151,3 @@ inline void Newtonsoft::Json::JsonSerializer::OnError(::Newtonsoft::Json::Serial
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonSerializer::JsonSerializer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

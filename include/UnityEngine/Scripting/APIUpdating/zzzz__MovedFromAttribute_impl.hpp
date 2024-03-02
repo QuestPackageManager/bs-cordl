@@ -73,5 +73,3 @@ inline void UnityEngine::Scripting::APIUpdating::MovedFromAttribute::_ctor(::Str
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Scripting::APIUpdating::MovedFromAttribute::MovedFromAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

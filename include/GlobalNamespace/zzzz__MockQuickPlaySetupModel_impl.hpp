@@ -70,5 +70,3 @@ inline void GlobalNamespace::MockQuickPlaySetupModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockQuickPlaySetupModel::MockQuickPlaySetupModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

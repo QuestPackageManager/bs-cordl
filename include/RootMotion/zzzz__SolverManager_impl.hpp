@@ -359,5 +359,3 @@ inline void RootMotion::SolverManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::SolverManager::SolverManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

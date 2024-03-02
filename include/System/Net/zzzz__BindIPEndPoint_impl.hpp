@@ -49,5 +49,3 @@ inline ::System::Net::IPEndPoint* System::Net::BindIPEndPoint::Invoke(::System::
 }
 // Ctor Parameters []
 constexpr ::System::Net::BindIPEndPoint::BindIPEndPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -180,5 +180,3 @@ constexpr ::ENet::Address::Address(::ENet::ENetAddress nativeAddress) noexcept {
 }
 // Ctor Parameters []
 constexpr ::ENet::Address::Address() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

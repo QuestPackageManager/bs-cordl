@@ -63,5 +63,3 @@ inline void GlobalNamespace::BakedLightWithIdBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BakedLightWithIdBase::BakedLightWithIdBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

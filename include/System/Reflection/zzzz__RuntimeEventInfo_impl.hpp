@@ -487,5 +487,3 @@ inline void System::Reflection::RuntimeEventInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::RuntimeEventInfo::RuntimeEventInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

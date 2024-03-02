@@ -180,5 +180,3 @@ inline ::StringW System::ComponentModel::Win32Exception::GetErrorMessage(int32_t
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::Win32Exception::Win32Exception() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

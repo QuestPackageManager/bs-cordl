@@ -110,5 +110,3 @@ inline void UnityEngine::GUIWordWrapSizer::CalcHeight() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUIWordWrapSizer::GUIWordWrapSizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

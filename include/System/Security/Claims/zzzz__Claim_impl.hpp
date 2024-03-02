@@ -363,5 +363,3 @@ inline ::StringW System::Security::Claims::Claim::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Claims::Claim::Claim() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

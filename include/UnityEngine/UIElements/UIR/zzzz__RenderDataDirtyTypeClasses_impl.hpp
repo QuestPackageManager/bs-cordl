@@ -12,5 +12,3 @@ constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses UnityEngine
 constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses::TransformSize{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses::Visuals{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses::Count{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

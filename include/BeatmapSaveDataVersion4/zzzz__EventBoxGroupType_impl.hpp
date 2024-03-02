@@ -11,5 +11,3 @@ constexpr ::BeatmapSaveDataVersion4::EventBoxGroupType BeatmapSaveDataVersion4::
 constexpr ::BeatmapSaveDataVersion4::EventBoxGroupType BeatmapSaveDataVersion4::EventBoxGroupType::Rotation{ static_cast<int32_t>(0x2) };
 constexpr ::BeatmapSaveDataVersion4::EventBoxGroupType BeatmapSaveDataVersion4::EventBoxGroupType::Translation{ static_cast<int32_t>(0x3) };
 constexpr ::BeatmapSaveDataVersion4::EventBoxGroupType BeatmapSaveDataVersion4::EventBoxGroupType::FloatFx{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

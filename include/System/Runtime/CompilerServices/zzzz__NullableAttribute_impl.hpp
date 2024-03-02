@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::NullableAttribute::*)(uint8_t)>(
     &::System::Runtime::CompilerServices::NullableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0xe8e8fc;
+  constexpr static std::size_t addrs = 0xe958f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::NullableAttribute::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Runtime::CompilerServices::NullableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xe8e97c;
+  constexpr static std::size_t addrs = 0xe95974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,5 +63,3 @@ inline void System::Runtime::CompilerServices::NullableAttribute::_ctor(::ArrayW
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::NullableAttribute::NullableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

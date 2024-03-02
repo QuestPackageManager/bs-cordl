@@ -29,5 +29,3 @@ inline void Org::BouncyCastle::Crypto::Parameters::X25519KeyGenerationParameters
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::X25519KeyGenerationParameters::X25519KeyGenerationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

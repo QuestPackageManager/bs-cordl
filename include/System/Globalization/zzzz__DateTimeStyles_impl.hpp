@@ -16,5 +16,3 @@ constexpr ::System::Globalization::DateTimeStyles System::Globalization::DateTim
 constexpr ::System::Globalization::DateTimeStyles System::Globalization::DateTimeStyles::AssumeLocal{ static_cast<int32_t>(0x20) };
 constexpr ::System::Globalization::DateTimeStyles System::Globalization::DateTimeStyles::AssumeUniversal{ static_cast<int32_t>(0x40) };
 constexpr ::System::Globalization::DateTimeStyles System::Globalization::DateTimeStyles::RoundtripKind{ static_cast<int32_t>(0x80) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

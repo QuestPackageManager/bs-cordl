@@ -535,5 +535,3 @@ inline ::GlobalNamespace::LevelCompletionResults* GlobalNamespace::LevelCompleti
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelCompletionResults::LevelCompletionResults() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

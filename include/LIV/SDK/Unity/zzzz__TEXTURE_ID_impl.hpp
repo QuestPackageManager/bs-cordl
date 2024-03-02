@@ -10,5 +10,3 @@ constexpr ::LIV::SDK::Unity::TEXTURE_ID LIV::SDK::Unity::TEXTURE_ID::UNDEFINED{ 
 constexpr ::LIV::SDK::Unity::TEXTURE_ID LIV::SDK::Unity::TEXTURE_ID::BACKGROUND_COLOR_BUFFER_ID{ static_cast<uint32_t>(0x1e140au) };
 constexpr ::LIV::SDK::Unity::TEXTURE_ID LIV::SDK::Unity::TEXTURE_ID::FOREGROUND_COLOR_BUFFER_ID{ static_cast<uint32_t>(0x1001e14u) };
 constexpr ::LIV::SDK::Unity::TEXTURE_ID LIV::SDK::Unity::TEXTURE_ID::OPTIMIZED_COLOR_BUFFER_ID{ static_cast<uint32_t>(0x1001eu) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

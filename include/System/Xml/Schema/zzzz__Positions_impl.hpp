@@ -98,5 +98,3 @@ inline void System::Xml::Schema::Positions::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Positions::Positions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

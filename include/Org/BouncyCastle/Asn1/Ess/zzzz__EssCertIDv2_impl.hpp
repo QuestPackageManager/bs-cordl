@@ -285,5 +285,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Ess::EssC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::EssCertIDv2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

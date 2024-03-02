@@ -136,5 +136,3 @@ inline void GlobalNamespace::Signal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Signal::Signal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

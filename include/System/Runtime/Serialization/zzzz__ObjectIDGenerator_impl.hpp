@@ -166,5 +166,3 @@ inline void System::Runtime::Serialization::ObjectIDGenerator::Rehash() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::ObjectIDGenerator::ObjectIDGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -17,5 +17,3 @@ constexpr ::System::Reflection::ParameterAttributes System::Reflection::Paramete
 constexpr ::System::Reflection::ParameterAttributes System::Reflection::ParameterAttributes::Reserved3{ static_cast<int32_t>(0x4000) };
 constexpr ::System::Reflection::ParameterAttributes System::Reflection::ParameterAttributes::Reserved4{ static_cast<int32_t>(0x8000) };
 constexpr ::System::Reflection::ParameterAttributes System::Reflection::ParameterAttributes::ReservedMask{ static_cast<int32_t>(0xf000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

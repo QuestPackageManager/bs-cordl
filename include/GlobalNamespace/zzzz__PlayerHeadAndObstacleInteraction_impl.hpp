@@ -264,5 +264,3 @@ inline void GlobalNamespace::PlayerHeadAndObstacleInteraction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerHeadAndObstacleInteraction::PlayerHeadAndObstacleInteraction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

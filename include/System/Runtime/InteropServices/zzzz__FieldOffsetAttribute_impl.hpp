@@ -39,5 +39,3 @@ inline void System::Runtime::InteropServices::FieldOffsetAttribute::_ctor(int32_
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::FieldOffsetAttribute::FieldOffsetAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -308,5 +308,3 @@ inline void GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::_ctor()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::StandardScoreSyncStateDeltaNetSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

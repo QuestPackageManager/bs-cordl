@@ -494,5 +494,3 @@ inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* Newtonsoft::Jso
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonTypeReflector::JsonTypeReflector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

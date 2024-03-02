@@ -203,5 +203,3 @@ inline bool System::ConsoleDriver::SetEcho(bool wantEcho) {
 }
 // Ctor Parameters []
 constexpr ::System::ConsoleDriver::ConsoleDriver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

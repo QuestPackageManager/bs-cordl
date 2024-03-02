@@ -223,5 +223,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::SkipCloseParenthesi
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::SXprUtilities::SXprUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

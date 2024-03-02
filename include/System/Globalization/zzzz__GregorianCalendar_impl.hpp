@@ -532,5 +532,3 @@ inline int32_t System::Globalization::GregorianCalendar::ToFourDigitYear(int32_t
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::GregorianCalendar::GregorianCalendar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

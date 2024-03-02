@@ -10,5 +10,3 @@ template <typename T> inline void Newtonsoft::Json::IArrayPool_1<T>::Return(::Ar
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::IArrayPool_1<T>*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

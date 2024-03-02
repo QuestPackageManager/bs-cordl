@@ -184,5 +184,3 @@ constexpr ::System::RuntimeMethodHandle::RuntimeMethodHandle(void* value) noexce
 }
 // Ctor Parameters []
 constexpr ::System::RuntimeMethodHandle::RuntimeMethodHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

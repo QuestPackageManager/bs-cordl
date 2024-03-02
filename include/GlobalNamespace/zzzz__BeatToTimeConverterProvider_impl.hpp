@@ -61,5 +61,3 @@ inline float_t GlobalNamespace::BeatToTimeConverterProvider::BeatToTime(float_t 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatToTimeConverterProvider::BeatToTimeConverterProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

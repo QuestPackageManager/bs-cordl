@@ -219,5 +219,3 @@ inline ::System::Object* System::SecurityUtils::MethodInfoInvoke(::System::Refle
 }
 // Ctor Parameters []
 constexpr ::System::SecurityUtils::SecurityUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

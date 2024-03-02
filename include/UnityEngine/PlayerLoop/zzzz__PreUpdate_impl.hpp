@@ -21,5 +21,3 @@ constexpr ::UnityEngine::PlayerLoop::__PreUpdate__UpdateVideo::__PreUpdate__Upda
 constexpr ::UnityEngine::PlayerLoop::__PreUpdate__NewInputUpdate::__PreUpdate__NewInputUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PreUpdate::PreUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

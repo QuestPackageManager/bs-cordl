@@ -14,5 +14,3 @@ constexpr ::System::Globalization::DateTimeFormatFlags System::Globalization::Da
 constexpr ::System::Globalization::DateTimeFormatFlags System::Globalization::DateTimeFormatFlags::UseSpacesInDayNames{ static_cast<int32_t>(0x10) };
 constexpr ::System::Globalization::DateTimeFormatFlags System::Globalization::DateTimeFormatFlags::UseDigitPrefixInTokens{ static_cast<int32_t>(0x20) };
 constexpr ::System::Globalization::DateTimeFormatFlags System::Globalization::DateTimeFormatFlags::NotInitialized{ static_cast<int32_t>(0xffffffff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

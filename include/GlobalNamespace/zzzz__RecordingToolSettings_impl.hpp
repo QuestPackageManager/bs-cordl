@@ -44,5 +44,3 @@ inline void GlobalNamespace::RecordingToolSettings::_ctor(::ArrayW<::GlobalNames
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolSettings::RecordingToolSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

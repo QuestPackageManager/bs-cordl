@@ -11,5 +11,3 @@ constexpr ::UnityEngine::LogType UnityEngine::LogType::_cordl_Assert{ static_cas
 constexpr ::UnityEngine::LogType UnityEngine::LogType::Warning{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::LogType UnityEngine::LogType::Log{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::LogType UnityEngine::LogType::Exception{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

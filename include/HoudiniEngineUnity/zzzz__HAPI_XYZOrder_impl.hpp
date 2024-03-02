@@ -13,5 +13,3 @@ constexpr ::HoudiniEngineUnity::HAPI_XYZOrder HoudiniEngineUnity::HAPI_XYZOrder:
 constexpr ::HoudiniEngineUnity::HAPI_XYZOrder HoudiniEngineUnity::HAPI_XYZOrder::HAPI_ZXY{ static_cast<int32_t>(0x4) };
 constexpr ::HoudiniEngineUnity::HAPI_XYZOrder HoudiniEngineUnity::HAPI_XYZOrder::HAPI_ZYX{ static_cast<int32_t>(0x5) };
 constexpr ::HoudiniEngineUnity::HAPI_XYZOrder HoudiniEngineUnity::HAPI_XYZOrder::HAPI_XYZORDER_DEFAULT{ static_cast<int32_t>(0x0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -93,5 +93,3 @@ constexpr ::UnityEngine::UIElements::UIR::TextCoreSettings::TextCoreSettings(::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::TextCoreSettings::TextCoreSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

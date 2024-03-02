@@ -49,5 +49,3 @@ inline void System::Collections::Specialized::CaseSensitiveStringDictionary::Add
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Specialized::CaseSensitiveStringDictionary::CaseSensitiveStringDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

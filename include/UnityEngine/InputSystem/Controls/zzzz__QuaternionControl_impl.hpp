@@ -306,5 +306,3 @@ inline void UnityEngine::InputSystem::Controls::QuaternionControl::WriteValueInt
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl::QuaternionControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

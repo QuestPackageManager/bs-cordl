@@ -24,5 +24,3 @@ inline void GlobalNamespace::IPAPluginsDirDeleter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IPAPluginsDirDeleter::IPAPluginsDirDeleter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

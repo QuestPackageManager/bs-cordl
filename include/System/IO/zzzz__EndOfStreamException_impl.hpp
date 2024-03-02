@@ -76,5 +76,3 @@ inline void System::IO::EndOfStreamException::_ctor(::System::Runtime::Serializa
 }
 // Ctor Parameters []
 constexpr ::System::IO::EndOfStreamException::EndOfStreamException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

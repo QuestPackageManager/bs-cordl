@@ -55,5 +55,3 @@ constexpr ::UnityEngine::SceneManagement::LoadSceneParameters::LoadSceneParamete
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SceneManagement::LoadSceneParameters::LoadSceneParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

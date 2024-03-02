@@ -27,5 +27,3 @@ inline void Oculus::Platform::Models::PidList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::PidList::PidList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

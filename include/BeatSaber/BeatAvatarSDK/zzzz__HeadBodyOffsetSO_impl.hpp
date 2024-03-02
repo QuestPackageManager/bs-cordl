@@ -88,5 +88,3 @@ inline void BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::HeadBodyOffsetSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

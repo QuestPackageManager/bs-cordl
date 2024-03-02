@@ -309,5 +309,3 @@ inline void System::Xml::Schema::XmlSchemaInfo::Clear() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaInfo::XmlSchemaInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

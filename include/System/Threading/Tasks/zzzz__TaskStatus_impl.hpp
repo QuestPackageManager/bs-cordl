@@ -14,5 +14,3 @@ constexpr ::System::Threading::Tasks::TaskStatus System::Threading::Tasks::TaskS
 constexpr ::System::Threading::Tasks::TaskStatus System::Threading::Tasks::TaskStatus::RanToCompletion{ static_cast<int32_t>(0x5) };
 constexpr ::System::Threading::Tasks::TaskStatus System::Threading::Tasks::TaskStatus::Canceled{ static_cast<int32_t>(0x6) };
 constexpr ::System::Threading::Tasks::TaskStatus System::Threading::Tasks::TaskStatus::Faulted{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

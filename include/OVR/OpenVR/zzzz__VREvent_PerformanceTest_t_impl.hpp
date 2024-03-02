@@ -6,5 +6,3 @@ constexpr ::OVR::OpenVR::VREvent_PerformanceTest_t::VREvent_PerformanceTest_t(ui
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_PerformanceTest_t::VREvent_PerformanceTest_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

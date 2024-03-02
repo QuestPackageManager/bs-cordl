@@ -102,5 +102,3 @@ inline void Org::BouncyCastle::Bcpg::UserIdPacket::Encode(::Org::BouncyCastle::B
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::UserIdPacket::UserIdPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

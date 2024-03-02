@@ -193,5 +193,3 @@ inline void Org::BouncyCastle::Asn1::DerBmpString::Encode(::Org::BouncyCastle::A
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerBmpString::DerBmpString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

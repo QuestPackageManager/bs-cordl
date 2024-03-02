@@ -120,5 +120,3 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::ECPo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::ECPointBase::ECPointBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

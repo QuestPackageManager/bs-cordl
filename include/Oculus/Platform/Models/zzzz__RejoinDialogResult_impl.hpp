@@ -39,5 +39,3 @@ inline void Oculus::Platform::Models::RejoinDialogResult::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::RejoinDialogResult::RejoinDialogResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

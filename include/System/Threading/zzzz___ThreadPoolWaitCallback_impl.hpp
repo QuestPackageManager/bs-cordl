@@ -21,5 +21,3 @@ inline bool System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::_ThreadPoolWaitCallback::_ThreadPoolWaitCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

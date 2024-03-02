@@ -99,5 +99,3 @@ inline void GlobalNamespace::SelectMultiplayerLobbyDestination::_ctor(::StringW 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectMultiplayerLobbyDestination::SelectMultiplayerLobbyDestination() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

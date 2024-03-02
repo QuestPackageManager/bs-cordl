@@ -109,5 +109,3 @@ inline bool System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::i
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::ObjectMapInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

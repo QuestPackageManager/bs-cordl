@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Events::UnityEventCallState::UnityEventCallState() {}
 constexpr ::UnityEngine::Events::UnityEventCallState UnityEngine::Events::UnityEventCallState::Off{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Events::UnityEventCallState UnityEngine::Events::UnityEventCallState::EditorAndRuntime{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Events::UnityEventCallState UnityEngine::Events::UnityEventCallState::RuntimeOnly{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

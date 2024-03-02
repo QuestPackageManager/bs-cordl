@@ -235,5 +235,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::KeyT
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo::KeyTransRecipientInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

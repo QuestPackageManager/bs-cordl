@@ -890,5 +890,3 @@ inline void GlobalNamespace::PlatformLeaderboardViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformLeaderboardViewController::PlatformLeaderboardViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -66,5 +66,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream::WrappedGeneratorStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

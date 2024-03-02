@@ -116,5 +116,3 @@ constexpr ::UnityEngine::XR::InputFeatureUsage::InputFeatureUsage(::StringW m_Na
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::InputFeatureUsage::InputFeatureUsage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -42,5 +42,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::SpotLight::SpotLight(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::GlobalIllumination::SpotLight::SpotLight() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

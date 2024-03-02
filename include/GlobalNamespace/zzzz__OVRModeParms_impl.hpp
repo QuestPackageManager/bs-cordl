@@ -91,5 +91,3 @@ inline void GlobalNamespace::OVRModeParms::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRModeParms::OVRModeParms() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

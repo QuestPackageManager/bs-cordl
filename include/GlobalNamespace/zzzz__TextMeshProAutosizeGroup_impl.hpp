@@ -55,5 +55,3 @@ inline void GlobalNamespace::TextMeshProAutosizeGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TextMeshProAutosizeGroup::TextMeshProAutosizeGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

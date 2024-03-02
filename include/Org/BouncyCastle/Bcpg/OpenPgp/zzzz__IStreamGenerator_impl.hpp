@@ -21,5 +21,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator::Close() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

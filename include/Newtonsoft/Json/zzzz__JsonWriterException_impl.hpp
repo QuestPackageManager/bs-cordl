@@ -228,5 +228,3 @@ inline ::Newtonsoft::Json::JsonWriterException* Newtonsoft::Json::JsonWriterExce
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonWriterException::JsonWriterException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

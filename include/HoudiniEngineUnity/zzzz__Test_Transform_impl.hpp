@@ -99,5 +99,3 @@ inline bool HoudiniEngineUnity::Test_Transform::IsEquivalentTo(::HoudiniEngineUn
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Transform::Test_Transform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

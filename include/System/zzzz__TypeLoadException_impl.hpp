@@ -238,5 +238,3 @@ inline void System::TypeLoadException::GetObjectData(::System::Runtime::Serializ
 }
 // Ctor Parameters []
 constexpr ::System::TypeLoadException::TypeLoadException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

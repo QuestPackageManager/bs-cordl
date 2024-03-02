@@ -312,5 +312,3 @@ inline void System::Xml::Linq::XDocument::ValidateString(::StringW s) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XDocument::XDocument() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -169,5 +169,3 @@ GlobalNamespace::IPlatformUserModel::RequestXPlatformAccessToken(::System::Threa
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPlatformUserModel*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>*, false>(this, ___internal_method, cancellationToken);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

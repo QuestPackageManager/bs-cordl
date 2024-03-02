@@ -1309,5 +1309,3 @@ inline ::System::Object* Newtonsoft::Json::Linq::JValue::System_IConvertible_ToT
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JValue::JValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

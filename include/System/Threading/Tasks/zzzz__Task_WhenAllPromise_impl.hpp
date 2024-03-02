@@ -124,5 +124,3 @@ inline bool System::Threading::Tasks::__Task__WhenAllPromise::get_InvokeMayRunAr
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::__Task__WhenAllPromise::__Task__WhenAllPromise() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

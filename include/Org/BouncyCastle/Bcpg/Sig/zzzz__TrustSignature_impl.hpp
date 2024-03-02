@@ -114,5 +114,3 @@ inline int32_t Org::BouncyCastle::Bcpg::Sig::TrustSignature::get_TrustAmount() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::TrustSignature::TrustSignature() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

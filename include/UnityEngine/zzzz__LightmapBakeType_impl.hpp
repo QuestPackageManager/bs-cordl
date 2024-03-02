@@ -9,5 +9,3 @@ constexpr ::UnityEngine::LightmapBakeType::LightmapBakeType() {}
 constexpr ::UnityEngine::LightmapBakeType UnityEngine::LightmapBakeType::Realtime{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::LightmapBakeType UnityEngine::LightmapBakeType::Baked{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::LightmapBakeType UnityEngine::LightmapBakeType::Mixed{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

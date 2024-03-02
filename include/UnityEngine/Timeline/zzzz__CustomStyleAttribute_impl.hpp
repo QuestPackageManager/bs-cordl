@@ -39,5 +39,3 @@ inline void UnityEngine::Timeline::CustomStyleAttribute::_ctor(::StringW ussStyl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::CustomStyleAttribute::CustomStyleAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

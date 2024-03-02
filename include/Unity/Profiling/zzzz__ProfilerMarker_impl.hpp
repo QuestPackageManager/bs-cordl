@@ -102,5 +102,3 @@ constexpr ::Unity::Profiling::ProfilerMarker::ProfilerMarker(void* m_Ptr) noexce
 }
 // Ctor Parameters []
 constexpr ::Unity::Profiling::ProfilerMarker::ProfilerMarker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

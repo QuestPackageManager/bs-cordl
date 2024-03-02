@@ -239,5 +239,3 @@ template <typename TBase, typename TKey> inline ::Zenject::InjectTypeInfo* Zenje
 }
 // Ctor Parameters []
 template <typename TBase, typename TKey> constexpr ::Zenject::KeyedFactoryBase_2<TBase, TKey>::KeyedFactoryBase_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

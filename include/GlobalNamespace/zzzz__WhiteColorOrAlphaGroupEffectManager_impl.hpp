@@ -122,5 +122,3 @@ inline void GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::WhiteColorOrAlphaGroupEffectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

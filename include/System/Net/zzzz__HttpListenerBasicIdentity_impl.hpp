@@ -39,5 +39,3 @@ inline void System::Net::HttpListenerBasicIdentity::_ctor(::StringW username, ::
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpListenerBasicIdentity::HttpListenerBasicIdentity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -23,5 +23,3 @@ inline bool UnityEngine::InputSystem::LowLevel::IEventPreProcessor::PreProcessEv
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::IEventPreProcessor*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, currentEventPtr);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

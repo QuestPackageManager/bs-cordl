@@ -2835,5 +2835,3 @@ inline void UnityEngine::Transform::RotateAroundLocal_Injected(ByRef<::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Transform::Transform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

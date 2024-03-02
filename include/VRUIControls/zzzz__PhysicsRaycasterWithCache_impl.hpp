@@ -119,5 +119,3 @@ inline void VRUIControls::PhysicsRaycasterWithCache::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::VRUIControls::PhysicsRaycasterWithCache::PhysicsRaycasterWithCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

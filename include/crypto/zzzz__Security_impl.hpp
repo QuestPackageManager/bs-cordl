@@ -131,5 +131,3 @@ inline void crypto::Security::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::crypto::Security::Security() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

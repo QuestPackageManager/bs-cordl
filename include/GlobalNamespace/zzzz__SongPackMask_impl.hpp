@@ -509,5 +509,3 @@ constexpr ::GlobalNamespace::SongPackMask::SongPackMask(::GlobalNamespace::BitMa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongPackMask::SongPackMask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

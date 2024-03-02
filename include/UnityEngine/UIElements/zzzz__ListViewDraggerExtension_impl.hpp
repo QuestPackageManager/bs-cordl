@@ -30,5 +30,3 @@ inline ::UnityEngine::UIElements::ReusableCollectionItem* UnityEngine::UIElement
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ListViewDraggerExtension::ListViewDraggerExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

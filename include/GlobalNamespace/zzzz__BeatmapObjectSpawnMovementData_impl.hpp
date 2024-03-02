@@ -942,5 +942,3 @@ inline void GlobalNamespace::BeatmapObjectSpawnMovementData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectSpawnMovementData::BeatmapObjectSpawnMovementData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

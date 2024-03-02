@@ -9,5 +9,3 @@ constexpr ::UnityEngine::TextCore::Text::WordInfo::WordInfo(int32_t firstCharact
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::WordInfo::WordInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

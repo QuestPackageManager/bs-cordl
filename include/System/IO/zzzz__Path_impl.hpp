@@ -791,5 +791,3 @@ inline ::StringW System::IO::Path::JoinInternal(::System::ReadOnlySpan_1<char16_
 }
 // Ctor Parameters []
 constexpr ::System::IO::Path::Path() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

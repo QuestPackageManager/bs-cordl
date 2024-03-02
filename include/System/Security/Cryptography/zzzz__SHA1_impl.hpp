@@ -42,5 +42,3 @@ inline ::System::Security::Cryptography::SHA1* System::Security::Cryptography::S
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::SHA1::SHA1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

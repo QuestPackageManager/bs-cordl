@@ -110,5 +110,3 @@ inline void Org::BouncyCastle::Bcpg::Crc24::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Crc24::Crc24() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

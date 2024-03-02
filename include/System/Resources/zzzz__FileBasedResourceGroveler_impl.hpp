@@ -50,5 +50,3 @@ inline void System::Resources::FileBasedResourceGroveler::_ctor(::System::Resour
 }
 // Ctor Parameters []
 constexpr ::System::Resources::FileBasedResourceGroveler::FileBasedResourceGroveler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

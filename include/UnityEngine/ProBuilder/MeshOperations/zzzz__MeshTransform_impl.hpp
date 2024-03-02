@@ -96,5 +96,3 @@ inline void UnityEngine::ProBuilder::MeshOperations::MeshTransform::FreezeScaleT
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::MeshTransform::MeshTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

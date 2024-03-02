@@ -265,5 +265,3 @@ inline ::StringW UnityEngine::Video::VideoClip::GetAudioLanguage(uint16_t audioT
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Video::VideoClip::VideoClip() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat::GoogleDriveDownloadForma
 constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat::GoogleDriveDownloadFormat() {}
 constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat BGLib::Polyglot::GoogleDriveDownloadFormat::CSV{ static_cast<int32_t>(0x0) };
 constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat BGLib::Polyglot::GoogleDriveDownloadFormat::TSV{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -200,5 +200,3 @@ inline uint32_t UnityEngine::InputSystem::Utilities::NumberHelpers::RemapUIntBit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::NumberHelpers::NumberHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

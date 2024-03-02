@@ -584,5 +584,3 @@ inline void UnityEngine::Debug::DrawLine_Injected(ByRef<::UnityEngine::Vector3> 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Debug::Debug() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

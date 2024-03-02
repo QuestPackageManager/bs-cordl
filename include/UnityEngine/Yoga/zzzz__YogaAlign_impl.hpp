@@ -14,5 +14,3 @@ constexpr ::UnityEngine::Yoga::YogaAlign UnityEngine::Yoga::YogaAlign::Stretch{ 
 constexpr ::UnityEngine::Yoga::YogaAlign UnityEngine::Yoga::YogaAlign::Baseline{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::Yoga::YogaAlign UnityEngine::Yoga::YogaAlign::SpaceBetween{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::Yoga::YogaAlign UnityEngine::Yoga::YogaAlign::SpaceAround{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

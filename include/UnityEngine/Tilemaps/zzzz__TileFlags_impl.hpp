@@ -12,5 +12,3 @@ constexpr ::UnityEngine::Tilemaps::TileFlags UnityEngine::Tilemaps::TileFlags::L
 constexpr ::UnityEngine::Tilemaps::TileFlags UnityEngine::Tilemaps::TileFlags::InstantiateGameObjectRuntimeOnly{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Tilemaps::TileFlags UnityEngine::Tilemaps::TileFlags::KeepGameObjectRuntimeOnly{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::Tilemaps::TileFlags UnityEngine::Tilemaps::TileFlags::LockAll{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

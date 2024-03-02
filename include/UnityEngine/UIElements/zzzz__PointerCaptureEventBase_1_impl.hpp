@@ -86,5 +86,3 @@ template <typename T> inline void UnityEngine::UIElements::PointerCaptureEventBa
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::PointerCaptureEventBase_1<T>::PointerCaptureEventBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

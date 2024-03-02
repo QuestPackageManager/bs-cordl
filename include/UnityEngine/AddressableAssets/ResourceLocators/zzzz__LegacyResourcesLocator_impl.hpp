@@ -112,5 +112,3 @@ inline void UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLoc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator::LegacyResourcesLocator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

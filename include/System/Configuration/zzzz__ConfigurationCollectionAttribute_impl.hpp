@@ -28,5 +28,3 @@ inline void System::Configuration::ConfigurationCollectionAttribute::_ctor(::Sys
 }
 // Ctor Parameters []
 constexpr ::System::Configuration::ConfigurationCollectionAttribute::ConfigurationCollectionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

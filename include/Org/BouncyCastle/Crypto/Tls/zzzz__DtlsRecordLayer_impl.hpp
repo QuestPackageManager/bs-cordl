@@ -814,5 +814,3 @@ inline int64_t Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::GetMacSequenceNu
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer::DtlsRecordLayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -297,5 +297,3 @@ constexpr ::GlobalNamespace::StandardScoreSyncState::StandardScoreSyncState(int3
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardScoreSyncState::StandardScoreSyncState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -33,5 +33,3 @@ inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel Mono::Security::Protocol:
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Protocol::Ntlm::NtlmSettings::NtlmSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

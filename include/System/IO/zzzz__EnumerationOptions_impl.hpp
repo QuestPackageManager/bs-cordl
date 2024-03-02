@@ -394,5 +394,3 @@ inline bool System::IO::EnumerationOptions::get_ReturnSpecialDirectories() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::EnumerationOptions::EnumerationOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

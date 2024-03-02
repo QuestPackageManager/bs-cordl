@@ -162,5 +162,3 @@ inline int32_t Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::PgpUserAttributeSubpacketVector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

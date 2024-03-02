@@ -586,5 +586,3 @@ System::Xml::Schema::ParticleContentValidator::BuildTransitionTable(::System::Xm
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::ParticleContentValidator::ParticleContentValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::BGNet::Core::DeliveryMethod::DeliveryMethod(uint8_t value__) noexcep
 constexpr ::BGNet::Core::DeliveryMethod::DeliveryMethod() {}
 constexpr ::BGNet::Core::DeliveryMethod BGNet::Core::DeliveryMethod::Unreliable{ static_cast<uint8_t>(0x0u) };
 constexpr ::BGNet::Core::DeliveryMethod BGNet::Core::DeliveryMethod::ReliableOrdered{ static_cast<uint8_t>(0x1u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

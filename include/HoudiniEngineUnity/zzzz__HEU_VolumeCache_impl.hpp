@@ -899,5 +899,3 @@ inline void HoudiniEngineUnity::HEU_VolumeCache::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_VolumeCache::HEU_VolumeCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

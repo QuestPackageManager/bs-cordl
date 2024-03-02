@@ -280,5 +280,3 @@ inline void BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO::AvatarPartsModelSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

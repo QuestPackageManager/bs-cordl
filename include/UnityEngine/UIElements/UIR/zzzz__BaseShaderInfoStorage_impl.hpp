@@ -253,5 +253,3 @@ inline void UnityEngine::UIElements::UIR::BaseShaderInfoStorage::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::BaseShaderInfoStorage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

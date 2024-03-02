@@ -236,5 +236,3 @@ inline void RootMotion::FinalIK::Poser::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::Poser::Poser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -109,5 +109,3 @@ inline void GlobalNamespace::LightTranslationGroupEffectManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationGroupEffectManager::LightTranslationGroupEffectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

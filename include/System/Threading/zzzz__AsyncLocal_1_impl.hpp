@@ -53,5 +53,3 @@ inline void System::Threading::AsyncLocal_1<T>::System_Threading_IAsyncLocal_OnV
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Threading::AsyncLocal_1<T>::AsyncLocal_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -132,5 +132,3 @@ inline void Newtonsoft::Json::Linq::JsonMergeSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonMergeSettings::JsonMergeSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

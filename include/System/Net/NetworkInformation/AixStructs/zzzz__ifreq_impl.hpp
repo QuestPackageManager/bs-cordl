@@ -37,5 +37,3 @@ constexpr ::System::Net::NetworkInformation::AixStructs::ifreq::ifreq(::System::
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixStructs::ifreq::ifreq() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

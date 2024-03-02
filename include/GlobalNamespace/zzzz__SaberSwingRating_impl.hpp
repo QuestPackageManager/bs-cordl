@@ -63,5 +63,3 @@ inline float_t GlobalNamespace::SaberSwingRating::AfterCutStepRating(float_t ang
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberSwingRating::SaberSwingRating() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

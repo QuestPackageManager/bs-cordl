@@ -159,5 +159,3 @@ inline void UnityEngine::XR::Management::XRConfigurationDataAttribute::_ctor(::S
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::Management::XRConfigurationDataAttribute::XRConfigurationDataAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

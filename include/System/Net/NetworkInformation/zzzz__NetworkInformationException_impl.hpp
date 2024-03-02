@@ -80,5 +80,3 @@ inline int32_t System::Net::NetworkInformation::NetworkInformationException::get
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::NetworkInformationException::NetworkInformationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

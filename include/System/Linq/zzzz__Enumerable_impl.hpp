@@ -4907,5 +4907,3 @@ inline double_t System::Linq::Enumerable::Average(::System::Collections::Generic
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Enumerable::Enumerable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

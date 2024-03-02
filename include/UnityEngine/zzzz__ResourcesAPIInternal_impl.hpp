@@ -130,5 +130,3 @@ inline void UnityEngine::ResourcesAPIInternal::UnloadAsset(::UnityEngine::Object
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourcesAPIInternal::ResourcesAPIInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

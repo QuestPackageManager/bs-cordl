@@ -183,5 +183,3 @@ inline void UnityEngine::InputSystem::PressureSensor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::PressureSensor::PressureSensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

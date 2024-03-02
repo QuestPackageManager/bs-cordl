@@ -9,5 +9,3 @@ constexpr ::System::ComponentModel::EditorBrowsableState::EditorBrowsableState()
 constexpr ::System::ComponentModel::EditorBrowsableState System::ComponentModel::EditorBrowsableState::Always{ static_cast<int32_t>(0x0) };
 constexpr ::System::ComponentModel::EditorBrowsableState System::ComponentModel::EditorBrowsableState::Never{ static_cast<int32_t>(0x1) };
 constexpr ::System::ComponentModel::EditorBrowsableState System::ComponentModel::EditorBrowsableState::Advanced{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

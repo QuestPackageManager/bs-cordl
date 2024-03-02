@@ -122,5 +122,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Encodable* Org::BouncyCastle::Crmf::Authen
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::AuthenticatorControl::AuthenticatorControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

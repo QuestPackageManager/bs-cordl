@@ -213,5 +213,3 @@ inline bool Org::BouncyCastle::Crypto::Parameters::DesEdeParameters::IsReal3Key(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DesEdeParameters::DesEdeParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

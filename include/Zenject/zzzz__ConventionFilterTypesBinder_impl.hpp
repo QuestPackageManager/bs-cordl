@@ -1325,5 +1325,3 @@ inline bool Zenject::ConventionFilterTypesBinder::IsInNamespace(::System::Type* 
 }
 // Ctor Parameters []
 constexpr ::Zenject::ConventionFilterTypesBinder::ConventionFilterTypesBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

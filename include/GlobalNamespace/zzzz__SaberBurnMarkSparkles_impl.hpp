@@ -295,5 +295,3 @@ inline void GlobalNamespace::SaberBurnMarkSparkles::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberBurnMarkSparkles::SaberBurnMarkSparkles() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

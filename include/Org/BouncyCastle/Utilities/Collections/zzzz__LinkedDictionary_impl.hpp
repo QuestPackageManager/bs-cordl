@@ -434,5 +434,3 @@ inline void Org::BouncyCastle::Utilities::Collections::LinkedDictionary::set_Ite
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary::LinkedDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

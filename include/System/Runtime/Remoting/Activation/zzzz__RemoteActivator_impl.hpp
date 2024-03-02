@@ -56,5 +56,3 @@ inline ::System::Runtime::Remoting::Activation::IActivator* System::Runtime::Rem
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Activation::RemoteActivator::RemoteActivator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

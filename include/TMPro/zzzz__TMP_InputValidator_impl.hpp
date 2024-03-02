@@ -44,5 +44,3 @@ inline void TMPro::TMP_InputValidator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_InputValidator::TMP_InputValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

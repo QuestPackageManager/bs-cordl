@@ -58,5 +58,3 @@ template <typename T> inline void GlobalNamespace::QueueSet_1<T>::_ctor() {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::QueueSet_1<T>::QueueSet_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

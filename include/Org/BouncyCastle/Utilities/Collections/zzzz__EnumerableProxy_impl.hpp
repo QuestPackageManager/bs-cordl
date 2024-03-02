@@ -70,5 +70,3 @@ inline ::System::Collections::IEnumerator* Org::BouncyCastle::Utilities::Collect
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::EnumerableProxy::EnumerableProxy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

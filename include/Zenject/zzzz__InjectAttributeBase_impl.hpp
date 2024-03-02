@@ -177,5 +177,3 @@ inline void Zenject::InjectAttributeBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::InjectAttributeBase::InjectAttributeBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

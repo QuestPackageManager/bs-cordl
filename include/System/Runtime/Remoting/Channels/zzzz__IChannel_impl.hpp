@@ -42,5 +42,3 @@ inline int32_t System::Runtime::Remoting::Channels::IChannel::get_ChannelPriorit
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::IChannel*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

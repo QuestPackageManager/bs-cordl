@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::AbuseReportVideoMode Oculus::Platform::AbuseReport
 constexpr ::Oculus::Platform::AbuseReportVideoMode Oculus::Platform::AbuseReportVideoMode::Collect{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::AbuseReportVideoMode Oculus::Platform::AbuseReportVideoMode::Optional{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::AbuseReportVideoMode Oculus::Platform::AbuseReportVideoMode::Skip{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

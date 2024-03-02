@@ -205,5 +205,3 @@ inline int32_t Org::BouncyCastle::Pkix::PkixCertPathValidatorException::get_Inde
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::PkixCertPathValidatorException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

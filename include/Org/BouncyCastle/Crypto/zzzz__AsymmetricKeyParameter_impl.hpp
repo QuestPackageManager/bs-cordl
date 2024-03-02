@@ -131,5 +131,3 @@ inline int32_t Org::BouncyCastle::Crypto::AsymmetricKeyParameter::GetHashCode() 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::AsymmetricKeyParameter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

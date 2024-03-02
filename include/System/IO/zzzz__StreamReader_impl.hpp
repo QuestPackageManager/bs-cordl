@@ -1264,5 +1264,3 @@ inline bool System::IO::StreamReader::DataAvailable() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::StreamReader::StreamReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

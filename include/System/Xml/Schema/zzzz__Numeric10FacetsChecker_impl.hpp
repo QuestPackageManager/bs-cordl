@@ -241,5 +241,3 @@ inline ::System::Exception* System::Xml::Schema::Numeric10FacetsChecker::CheckTo
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Numeric10FacetsChecker::Numeric10FacetsChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

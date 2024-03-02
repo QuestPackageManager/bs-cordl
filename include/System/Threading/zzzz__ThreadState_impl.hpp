@@ -16,5 +16,3 @@ constexpr ::System::Threading::ThreadState System::Threading::ThreadState::WaitS
 constexpr ::System::Threading::ThreadState System::Threading::ThreadState::Suspended{ static_cast<int32_t>(0x40) };
 constexpr ::System::Threading::ThreadState System::Threading::ThreadState::AbortRequested{ static_cast<int32_t>(0x80) };
 constexpr ::System::Threading::ThreadState System::Threading::ThreadState::Aborted{ static_cast<int32_t>(0x100) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

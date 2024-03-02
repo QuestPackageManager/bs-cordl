@@ -9,5 +9,3 @@ constexpr ::UnityEngine::RigidbodyInterpolation::RigidbodyInterpolation() {}
 constexpr ::UnityEngine::RigidbodyInterpolation UnityEngine::RigidbodyInterpolation::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::RigidbodyInterpolation UnityEngine::RigidbodyInterpolation::Interpolate{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::RigidbodyInterpolation UnityEngine::RigidbodyInterpolation::Extrapolate{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

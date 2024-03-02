@@ -486,5 +486,3 @@ constexpr ::GlobalNamespace::OVRAnchor::OVRAnchor(uint64_t _Handle_k__BackingFie
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRAnchor::OVRAnchor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

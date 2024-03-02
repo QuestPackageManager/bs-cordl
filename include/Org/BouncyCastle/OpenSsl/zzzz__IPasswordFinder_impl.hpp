@@ -20,5 +20,3 @@ inline ::ArrayW<char16_t, ::Array<char16_t>*> Org::BouncyCastle::OpenSsl::IPassw
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::OpenSsl::IPasswordFinder*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<char16_t, ::Array<char16_t>*>, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -711,5 +711,3 @@ inline int32_t System::IO::BinaryReader::Read7BitEncodedInt() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::BinaryReader::BinaryReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

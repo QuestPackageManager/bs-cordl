@@ -268,5 +268,3 @@ inline ::System::Object* System::Reflection::Emit::ConstructorBuilder::Invoke(::
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::ConstructorBuilder::ConstructorBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

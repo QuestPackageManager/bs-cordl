@@ -25,5 +25,3 @@ inline void GlobalNamespace::ImageWithHintItemsList::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ImageWithHintItemsList::ImageWithHintItemsList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

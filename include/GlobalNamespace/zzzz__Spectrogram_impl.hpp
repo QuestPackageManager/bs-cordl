@@ -145,5 +145,3 @@ inline void GlobalNamespace::Spectrogram::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Spectrogram::Spectrogram() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

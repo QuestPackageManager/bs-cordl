@@ -1,3 +1,5 @@
 #pragma once
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemDescriptorWithProvider_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemDescriptorWithProvider_impl.hpp"
+#endif

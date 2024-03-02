@@ -12,5 +12,3 @@ constexpr ::GlobalNamespace::OVRGLTFType GlobalNamespace::OVRGLTFType::VEC2{ sta
 constexpr ::GlobalNamespace::OVRGLTFType GlobalNamespace::OVRGLTFType::VEC3{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::OVRGLTFType GlobalNamespace::OVRGLTFType::VEC4{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::OVRGLTFType GlobalNamespace::OVRGLTFType::MAT4{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

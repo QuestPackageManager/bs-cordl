@@ -55,5 +55,3 @@ template <typename T> constexpr ::System::Collections::Generic::ValueListBuilder
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::ValueListBuilder_1<T>::ValueListBuilder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

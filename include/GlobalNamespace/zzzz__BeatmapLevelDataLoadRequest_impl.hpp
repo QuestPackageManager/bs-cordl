@@ -321,5 +321,3 @@ inline bool GlobalNamespace::BeatmapLevelDataLoadRequest::HasValidResult() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelDataLoadRequest::BeatmapLevelDataLoadRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -50,5 +50,3 @@ inline void UnityEngine::UIElements::UxmlRootElementTraits::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlRootElementTraits::UxmlRootElementTraits() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

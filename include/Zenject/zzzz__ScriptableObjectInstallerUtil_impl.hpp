@@ -22,5 +22,3 @@ template <typename TInstaller> inline TInstaller Zenject::ScriptableObjectInstal
 }
 // Ctor Parameters []
 constexpr ::Zenject::ScriptableObjectInstallerUtil::ScriptableObjectInstallerUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

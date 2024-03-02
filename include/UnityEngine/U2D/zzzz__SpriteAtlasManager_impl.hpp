@@ -126,5 +126,3 @@ inline void UnityEngine::U2D::SpriteAtlasManager::Register(::UnityEngine::U2D::S
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::U2D::SpriteAtlasManager::SpriteAtlasManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

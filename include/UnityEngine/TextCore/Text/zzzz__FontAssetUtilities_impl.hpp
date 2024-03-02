@@ -174,5 +174,3 @@ UnityEngine::TextCore::Text::FontAssetUtilities::GetSpriteCharacterFromSpriteAss
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::FontAssetUtilities::FontAssetUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

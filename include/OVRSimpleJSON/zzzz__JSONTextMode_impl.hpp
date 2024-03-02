@@ -8,5 +8,3 @@ constexpr ::OVRSimpleJSON::JSONTextMode::JSONTextMode(int32_t value__) noexcept 
 constexpr ::OVRSimpleJSON::JSONTextMode::JSONTextMode() {}
 constexpr ::OVRSimpleJSON::JSONTextMode OVRSimpleJSON::JSONTextMode::Compact{ static_cast<int32_t>(0x0) };
 constexpr ::OVRSimpleJSON::JSONTextMode OVRSimpleJSON::JSONTextMode::Indent{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

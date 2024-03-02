@@ -11,5 +11,3 @@ constexpr ::HoudiniEngineUnity::HAPI_VolumeVisualInfo::HAPI_VolumeVisualInfo(::H
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_VolumeVisualInfo::HAPI_VolumeVisualInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

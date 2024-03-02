@@ -67,5 +67,3 @@ inline void UnityEngine::UIElements::MouseCaptureController::ReleaseMouse(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseCaptureController::MouseCaptureController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -343,5 +343,3 @@ inline void Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::CfbBlockCipherMac() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

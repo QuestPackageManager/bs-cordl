@@ -111,5 +111,3 @@ constexpr ::UnityEngine::BoneWeight1::BoneWeight1(float_t m_Weight, int32_t m_Bo
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::BoneWeight1::BoneWeight1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

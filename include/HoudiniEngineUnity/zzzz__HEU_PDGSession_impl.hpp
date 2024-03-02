@@ -838,5 +838,3 @@ inline void HoudiniEngineUnity::HEU_PDGSession::ClearEventMessages() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_PDGSession::HEU_PDGSession() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

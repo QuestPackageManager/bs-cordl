@@ -404,5 +404,3 @@ inline bool System::Xml::XmlParserContext::get_HasDtdInfo() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlParserContext::XmlParserContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

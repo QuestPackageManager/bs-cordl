@@ -177,5 +177,3 @@ inline void Mono::Http::NtlmClient::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Http::NtlmClient::NtlmClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

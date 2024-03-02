@@ -70,5 +70,3 @@ template <typename T1, typename T2, typename T3> inline bool UnityEngine::Events
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3> constexpr ::UnityEngine::Events::InvokableCall_3<T1, T2, T3>::InvokableCall_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

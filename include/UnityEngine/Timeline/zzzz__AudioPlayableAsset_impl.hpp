@@ -561,5 +561,3 @@ inline void UnityEngine::Timeline::AudioPlayableAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::AudioPlayableAsset::AudioPlayableAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

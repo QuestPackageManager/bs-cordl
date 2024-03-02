@@ -43,5 +43,3 @@ inline void HMUI::PercentSlider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::PercentSlider::PercentSlider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

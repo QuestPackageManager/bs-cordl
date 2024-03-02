@@ -121,5 +121,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Encodable* Org::BouncyCastle::Crmf::RegTok
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::RegTokenControl::RegTokenControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

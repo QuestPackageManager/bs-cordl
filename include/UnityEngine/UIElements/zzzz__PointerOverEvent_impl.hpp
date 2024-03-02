@@ -24,5 +24,3 @@ inline void UnityEngine::UIElements::PointerOverEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerOverEvent::PointerOverEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

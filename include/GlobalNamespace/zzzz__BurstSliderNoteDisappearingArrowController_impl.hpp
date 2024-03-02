@@ -63,5 +63,3 @@ inline void GlobalNamespace::BurstSliderNoteDisappearingArrowController::_ctor()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BurstSliderNoteDisappearingArrowController::BurstSliderNoteDisappearingArrowController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

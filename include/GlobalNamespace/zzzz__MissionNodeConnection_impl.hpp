@@ -288,5 +288,3 @@ inline void GlobalNamespace::MissionNodeConnection::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionNodeConnection::MissionNodeConnection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

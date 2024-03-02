@@ -196,5 +196,3 @@ inline ::UnityEngine::ColorSpace UnityEngine::QualitySettings::get_activeColorSp
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::QualitySettings::QualitySettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

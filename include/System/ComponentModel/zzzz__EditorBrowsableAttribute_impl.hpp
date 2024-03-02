@@ -84,5 +84,3 @@ inline int32_t System::ComponentModel::EditorBrowsableAttribute::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::EditorBrowsableAttribute::EditorBrowsableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

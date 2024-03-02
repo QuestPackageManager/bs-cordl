@@ -63,5 +63,3 @@ inline ::Org::BouncyCastle::Crypto::ICipher* Org::BouncyCastle::Crypto::ICipherB
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::ICipherBuilder*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::ICipher*, false>(this, ___internal_method, stream);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

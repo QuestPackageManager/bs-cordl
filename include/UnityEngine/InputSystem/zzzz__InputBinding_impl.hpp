@@ -1066,5 +1066,3 @@ constexpr ::UnityEngine::InputSystem::InputBinding::InputBinding(::StringW m_Nam
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputBinding::InputBinding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

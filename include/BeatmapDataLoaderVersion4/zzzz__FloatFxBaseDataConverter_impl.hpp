@@ -28,5 +28,3 @@ inline ::GlobalNamespace::FloatFxBaseData* BeatmapDataLoaderVersion4::FloatFxBas
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::FloatFxBaseDataConverter::FloatFxBaseDataConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -49,5 +49,3 @@ inline void System::ConsoleCancelEventHandler::Invoke(::System::Object* sender, 
 }
 // Ctor Parameters []
 constexpr ::System::ConsoleCancelEventHandler::ConsoleCancelEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

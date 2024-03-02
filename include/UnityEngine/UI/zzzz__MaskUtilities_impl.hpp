@@ -180,5 +180,3 @@ inline void UnityEngine::UI::MaskUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::MaskUtilities::MaskUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

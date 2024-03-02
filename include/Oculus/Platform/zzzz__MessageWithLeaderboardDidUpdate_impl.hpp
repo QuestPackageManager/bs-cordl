@@ -69,5 +69,3 @@ inline bool Oculus::Platform::MessageWithLeaderboardDidUpdate::GetDataFromMessag
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithLeaderboardDidUpdate::MessageWithLeaderboardDidUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

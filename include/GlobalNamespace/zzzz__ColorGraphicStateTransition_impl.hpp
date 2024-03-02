@@ -387,5 +387,3 @@ inline void GlobalNamespace::ColorGraphicStateTransition::_StartTween_b__16_1() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorGraphicStateTransition::ColorGraphicStateTransition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

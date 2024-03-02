@@ -172,5 +172,3 @@ inline void Org::BouncyCastle::Asn1::BerSet::Encode(::Org::BouncyCastle::Asn1::D
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerSet::BerSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

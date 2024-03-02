@@ -95,5 +95,3 @@ inline ::System::Object* Org::BouncyCastle::Crypto::Operators::DefaultVerifierCa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::DefaultVerifierCalculator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

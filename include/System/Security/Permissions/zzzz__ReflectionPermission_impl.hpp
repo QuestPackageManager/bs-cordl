@@ -167,5 +167,3 @@ inline ::System::Security::Permissions::ReflectionPermission* System::Security::
 }
 // Ctor Parameters []
 constexpr ::System::Security::Permissions::ReflectionPermission::ReflectionPermission() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

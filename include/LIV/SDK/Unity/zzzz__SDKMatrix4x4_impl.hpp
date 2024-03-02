@@ -264,5 +264,3 @@ constexpr ::LIV::SDK::Unity::SDKMatrix4x4::SDKMatrix4x4(float_t m00, float_t m01
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKMatrix4x4::SDKMatrix4x4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

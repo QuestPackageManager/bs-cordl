@@ -100,5 +100,3 @@ constexpr ::UnityEngine::Rendering::LocalKeyword::LocalKeyword(::UnityEngine::Re
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::LocalKeyword::LocalKeyword() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

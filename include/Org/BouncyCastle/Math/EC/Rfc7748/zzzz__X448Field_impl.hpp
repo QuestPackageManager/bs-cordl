@@ -788,5 +788,3 @@ inline void Org::BouncyCastle::Math::EC::Rfc7748::X448Field::Zero(::ArrayW<uint3
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Rfc7748::X448Field::X448Field() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

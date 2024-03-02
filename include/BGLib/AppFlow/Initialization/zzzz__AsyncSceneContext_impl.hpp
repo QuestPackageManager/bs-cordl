@@ -506,5 +506,3 @@ inline void BGLib::AppFlow::Initialization::AsyncSceneContext::__n__0() {
 }
 // Ctor Parameters []
 constexpr ::BGLib::AppFlow::Initialization::AsyncSceneContext::AsyncSceneContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

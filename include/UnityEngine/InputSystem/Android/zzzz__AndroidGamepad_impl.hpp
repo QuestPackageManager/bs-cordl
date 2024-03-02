@@ -25,5 +25,3 @@ inline void UnityEngine::InputSystem::Android::AndroidGamepad::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidGamepad::AndroidGamepad() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

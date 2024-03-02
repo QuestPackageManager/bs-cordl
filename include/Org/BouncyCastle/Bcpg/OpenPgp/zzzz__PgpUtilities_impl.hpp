@@ -540,5 +540,3 @@ inline ::Org::BouncyCastle::Bcpg::S2k* Org::BouncyCastle::Bcpg::OpenPgp::PgpUtil
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUtilities::PgpUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

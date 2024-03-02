@@ -45,5 +45,3 @@ constexpr ::UnityEngine::UIVertex::UIVertex(::UnityEngine::Vector3 position, ::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIVertex::UIVertex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

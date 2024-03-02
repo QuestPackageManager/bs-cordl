@@ -131,5 +131,3 @@ inline void Newtonsoft::Json::Utilities::TypeInformation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::TypeInformation::TypeInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void System::Runtime::CompilerServices::ReflectionBlockedAttribute::_ctor
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::ReflectionBlockedAttribute::ReflectionBlockedAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -95,5 +95,3 @@ inline int32_t System::Collections::CaseInsensitiveComparer::Compare(::System::O
 }
 // Ctor Parameters []
 constexpr ::System::Collections::CaseInsensitiveComparer::CaseInsensitiveComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

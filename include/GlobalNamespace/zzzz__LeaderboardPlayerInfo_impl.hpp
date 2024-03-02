@@ -352,5 +352,3 @@ inline void GlobalNamespace::LeaderboardPlayerInfo::_ctor(bool succeeded, ::Stri
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LeaderboardPlayerInfo::LeaderboardPlayerInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

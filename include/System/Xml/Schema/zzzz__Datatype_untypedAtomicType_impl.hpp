@@ -92,5 +92,3 @@ inline void System::Xml::Schema::Datatype_untypedAtomicType::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_untypedAtomicType::Datatype_untypedAtomicType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

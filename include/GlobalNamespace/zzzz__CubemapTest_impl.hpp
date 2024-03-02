@@ -141,5 +141,3 @@ inline void GlobalNamespace::CubemapTest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CubemapTest::CubemapTest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

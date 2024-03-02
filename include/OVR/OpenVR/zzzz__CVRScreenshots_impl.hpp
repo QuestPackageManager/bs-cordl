@@ -212,5 +212,3 @@ inline ::OVR::OpenVR::EVRScreenshotError OVR::OpenVR::CVRScreenshots::SubmitScre
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRScreenshots::CVRScreenshots() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

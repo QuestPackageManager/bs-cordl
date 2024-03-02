@@ -725,5 +725,3 @@ constexpr ::System::Byte::Byte(uint8_t m_value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Byte::Byte() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

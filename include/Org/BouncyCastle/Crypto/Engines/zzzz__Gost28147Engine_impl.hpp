@@ -471,5 +471,3 @@ inline ::StringW Org::BouncyCastle::Crypto::Engines::Gost28147Engine::GetSBoxNam
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::Gost28147Engine::Gost28147Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

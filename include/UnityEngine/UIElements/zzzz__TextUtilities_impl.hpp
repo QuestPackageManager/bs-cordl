@@ -257,5 +257,3 @@ inline ::UnityEngine::UIElements::UIR::TextCoreSettings UnityEngine::UIElements:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextUtilities::TextUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

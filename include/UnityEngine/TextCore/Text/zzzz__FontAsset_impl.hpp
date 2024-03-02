@@ -3144,5 +3144,3 @@ inline void UnityEngine::TextCore::Text::FontAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::FontAsset::FontAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

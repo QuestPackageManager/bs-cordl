@@ -503,5 +503,3 @@ inline void UnityEngine::UIElements::UIRRepaintUpdater::Dispose(bool disposing) 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIRRepaintUpdater::UIRRepaintUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

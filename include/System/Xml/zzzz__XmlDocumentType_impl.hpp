@@ -377,5 +377,3 @@ inline void System::Xml::XmlDocumentType::set_DtdSchemaInfo(::System::Xml::Schem
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlDocumentType::XmlDocumentType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

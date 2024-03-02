@@ -71,5 +71,3 @@ System::Net::Security::CertificateHelper::GetEligibleClientCertificate(::System:
 }
 // Ctor Parameters []
 constexpr ::System::Net::Security::CertificateHelper::CertificateHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

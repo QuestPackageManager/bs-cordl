@@ -300,5 +300,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Tsp::Time
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::TimeStampReq() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

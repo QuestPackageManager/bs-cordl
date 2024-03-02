@@ -78,5 +78,3 @@ inline void Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::X9ECParametersHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

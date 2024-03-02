@@ -846,5 +846,3 @@ inline ::System::Object* GlobalNamespace::__HapticsAudioClipPlayer___HandleOneSh
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

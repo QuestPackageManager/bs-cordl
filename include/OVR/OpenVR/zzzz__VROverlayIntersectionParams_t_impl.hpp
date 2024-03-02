@@ -14,5 +14,3 @@ constexpr ::OVR::OpenVR::VROverlayIntersectionParams_t::VROverlayIntersectionPar
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VROverlayIntersectionParams_t::VROverlayIntersectionParams_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

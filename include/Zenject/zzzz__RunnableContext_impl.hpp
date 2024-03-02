@@ -177,5 +177,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::RunnableContext::__zenCreateInjectTyp
 }
 // Ctor Parameters []
 constexpr ::Zenject::RunnableContext::RunnableContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -464,5 +464,3 @@ inline void GlobalNamespace::SongProfilingController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongProfilingController::SongProfilingController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

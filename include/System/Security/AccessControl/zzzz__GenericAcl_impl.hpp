@@ -257,5 +257,3 @@ inline ::System::Collections::IEnumerator* System::Security::AccessControl::Gene
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::GenericAcl::GenericAcl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

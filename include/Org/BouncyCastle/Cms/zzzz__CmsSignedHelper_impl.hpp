@@ -431,5 +431,3 @@ inline void Org::BouncyCastle::Cms::CmsSignedHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsSignedHelper::CmsSignedHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

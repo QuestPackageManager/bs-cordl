@@ -162,5 +162,3 @@ inline void Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator::X509ExtensionsGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

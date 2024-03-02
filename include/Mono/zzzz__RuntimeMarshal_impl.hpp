@@ -127,5 +127,3 @@ inline void Mono::RuntimeMarshal::FreeAssemblyName(ByRef<::Mono::MonoAssemblyNam
 }
 // Ctor Parameters []
 constexpr ::Mono::RuntimeMarshal::RuntimeMarshal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

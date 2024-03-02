@@ -266,5 +266,3 @@ inline ::StringW Org::BouncyCastle::Security::WrapperUtilities::GetAlgorithmName
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::WrapperUtilities::WrapperUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

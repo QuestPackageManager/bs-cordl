@@ -64,5 +64,3 @@ inline ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup* BeatmapSaveData
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup::LightTranslationEventBoxGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

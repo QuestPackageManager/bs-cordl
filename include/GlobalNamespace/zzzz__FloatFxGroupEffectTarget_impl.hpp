@@ -64,5 +64,3 @@ inline void GlobalNamespace::FloatFxGroupEffectTarget::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatFxGroupEffectTarget::FloatFxGroupEffectTarget() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

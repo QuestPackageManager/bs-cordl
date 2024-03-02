@@ -237,5 +237,3 @@ inline bool HoudiniEngineUnity::HEU_InputUtility::UploadInputObjectTransform(::H
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputUtility::HEU_InputUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

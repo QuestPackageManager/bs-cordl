@@ -64,5 +64,3 @@ template <typename T> inline void GlobalNamespace::BeatmapEventDataProcessor_1<T
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::BeatmapEventDataProcessor_1<T>::BeatmapEventDataProcessor_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

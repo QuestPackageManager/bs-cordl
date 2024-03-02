@@ -24,5 +24,3 @@ inline void UnityEngine::UIElements::MouseOverEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseOverEvent::MouseOverEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

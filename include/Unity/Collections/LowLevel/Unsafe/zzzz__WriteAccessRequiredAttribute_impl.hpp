@@ -27,5 +27,3 @@ inline void Unity::Collections::LowLevel::Unsafe::WriteAccessRequiredAttribute::
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::LowLevel::Unsafe::WriteAccessRequiredAttribute::WriteAccessRequiredAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

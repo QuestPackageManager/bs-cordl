@@ -100,5 +100,3 @@ inline void BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword::_cto
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword::SpecialEventsForKeyword() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

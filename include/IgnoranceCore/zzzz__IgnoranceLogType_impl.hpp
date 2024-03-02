@@ -9,5 +9,3 @@ constexpr ::IgnoranceCore::IgnoranceLogType::IgnoranceLogType() {}
 constexpr ::IgnoranceCore::IgnoranceLogType IgnoranceCore::IgnoranceLogType::Quiet{ static_cast<int32_t>(0x0) };
 constexpr ::IgnoranceCore::IgnoranceLogType IgnoranceCore::IgnoranceLogType::Standard{ static_cast<int32_t>(0x1) };
 constexpr ::IgnoranceCore::IgnoranceLogType IgnoranceCore::IgnoranceLogType::Verbose{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

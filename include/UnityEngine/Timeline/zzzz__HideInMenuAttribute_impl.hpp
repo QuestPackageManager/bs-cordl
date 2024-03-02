@@ -24,5 +24,3 @@ inline void UnityEngine::Timeline::HideInMenuAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::HideInMenuAttribute::HideInMenuAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

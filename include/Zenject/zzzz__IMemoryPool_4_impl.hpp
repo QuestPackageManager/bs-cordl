@@ -28,5 +28,3 @@ inline TValue Zenject::IMemoryPool_4<TParam1, TParam2, TParam3, TValue>::Spawn(T
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IMemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, param1, param2, param3);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

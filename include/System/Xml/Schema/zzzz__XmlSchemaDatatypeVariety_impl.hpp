@@ -9,5 +9,3 @@ constexpr ::System::Xml::Schema::XmlSchemaDatatypeVariety::XmlSchemaDatatypeVari
 constexpr ::System::Xml::Schema::XmlSchemaDatatypeVariety System::Xml::Schema::XmlSchemaDatatypeVariety::Atomic{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::Schema::XmlSchemaDatatypeVariety System::Xml::Schema::XmlSchemaDatatypeVariety::List{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::Schema::XmlSchemaDatatypeVariety System::Xml::Schema::XmlSchemaDatatypeVariety::Union{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

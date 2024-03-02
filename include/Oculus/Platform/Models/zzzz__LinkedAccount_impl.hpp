@@ -63,5 +63,3 @@ inline void Oculus::Platform::Models::LinkedAccount::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::LinkedAccount::LinkedAccount() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

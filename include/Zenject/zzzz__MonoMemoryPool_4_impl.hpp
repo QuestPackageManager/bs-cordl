@@ -69,5 +69,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::MonoMemoryPool_4<TParam1, TParam2, TP
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> constexpr ::Zenject::MonoMemoryPool_4<TParam1, TParam2, TParam3, TValue>::MonoMemoryPool_4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -22,5 +22,3 @@ constexpr ::System::IO::FileAttributes System::IO::FileAttributes::NotContentInd
 constexpr ::System::IO::FileAttributes System::IO::FileAttributes::Encrypted{ static_cast<int32_t>(0x4000) };
 constexpr ::System::IO::FileAttributes System::IO::FileAttributes::IntegrityStream{ static_cast<int32_t>(0x8000) };
 constexpr ::System::IO::FileAttributes System::IO::FileAttributes::NoScrubData{ static_cast<int32_t>(0x20000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

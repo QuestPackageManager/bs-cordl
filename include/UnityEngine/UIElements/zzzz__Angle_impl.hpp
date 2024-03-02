@@ -254,5 +254,3 @@ constexpr ::UnityEngine::UIElements::Angle::Angle(float_t m_Value, ::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Angle::Angle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -5132,5 +5132,3 @@ inline void GlobalNamespace::MenuRpcManager::InvokeKickPlayer(::StringW userId, 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuRpcManager::MenuRpcManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

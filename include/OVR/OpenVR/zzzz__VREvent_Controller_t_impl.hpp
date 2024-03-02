@@ -6,5 +6,3 @@ constexpr ::OVR::OpenVR::VREvent_Controller_t::VREvent_Controller_t(uint32_t but
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Controller_t::VREvent_Controller_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

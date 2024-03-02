@@ -9,5 +9,3 @@ constexpr ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType::IndexFilterL
 constexpr ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType::None{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType::Duration{ static_cast<int32_t>(0x1) };
 constexpr ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType::Distribution{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

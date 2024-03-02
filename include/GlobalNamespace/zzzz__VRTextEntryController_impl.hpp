@@ -683,5 +683,3 @@ inline void GlobalNamespace::VRTextEntryController::_Awake_b__20_1() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VRTextEntryController::VRTextEntryController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

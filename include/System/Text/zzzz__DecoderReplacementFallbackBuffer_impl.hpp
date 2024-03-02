@@ -169,5 +169,3 @@ inline int32_t System::Text::DecoderReplacementFallbackBuffer::InternalFallback(
 }
 // Ctor Parameters []
 constexpr ::System::Text::DecoderReplacementFallbackBuffer::DecoderReplacementFallbackBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

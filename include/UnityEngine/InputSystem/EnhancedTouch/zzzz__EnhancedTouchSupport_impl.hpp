@@ -205,5 +205,3 @@ inline void UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::Check
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::EnhancedTouchSupport::EnhancedTouchSupport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

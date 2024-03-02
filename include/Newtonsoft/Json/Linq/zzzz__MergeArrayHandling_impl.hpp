@@ -10,5 +10,3 @@ constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling Newtonsoft::Json::Linq::M
 constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling Newtonsoft::Json::Linq::MergeArrayHandling::Union{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling Newtonsoft::Json::Linq::MergeArrayHandling::Replace{ static_cast<int32_t>(0x2) };
 constexpr ::Newtonsoft::Json::Linq::MergeArrayHandling Newtonsoft::Json::Linq::MergeArrayHandling::Merge{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

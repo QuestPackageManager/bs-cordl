@@ -94,5 +94,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId UnityEngine::U
 constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId UnityEngine::UIElements::StyleSheets::StylePropertyId::WhiteSpace{ static_cast<int32_t>(0x1000c) };
 constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId UnityEngine::UIElements::StyleSheets::StylePropertyId::Width{ static_cast<int32_t>(0x20020) };
 constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId UnityEngine::UIElements::StyleSheets::StylePropertyId::WordSpacing{ static_cast<int32_t>(0x1000d) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

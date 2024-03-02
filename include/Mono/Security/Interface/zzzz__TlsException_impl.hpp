@@ -69,5 +69,3 @@ inline void Mono::Security::Interface::TlsException::_ctor(::Mono::Security::Int
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::TlsException::TlsException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

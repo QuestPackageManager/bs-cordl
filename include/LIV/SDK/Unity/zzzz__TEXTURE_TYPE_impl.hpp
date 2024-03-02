@@ -8,5 +8,3 @@ constexpr ::LIV::SDK::Unity::TEXTURE_TYPE::TEXTURE_TYPE(uint32_t value__) noexce
 constexpr ::LIV::SDK::Unity::TEXTURE_TYPE::TEXTURE_TYPE() {}
 constexpr ::LIV::SDK::Unity::TEXTURE_TYPE LIV::SDK::Unity::TEXTURE_TYPE::UNDEFINED{ static_cast<uint32_t>(0xa000100u) };
 constexpr ::LIV::SDK::Unity::TEXTURE_TYPE LIV::SDK::Unity::TEXTURE_TYPE::COLOR_BUFFER{ static_cast<uint32_t>(0xa0001u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

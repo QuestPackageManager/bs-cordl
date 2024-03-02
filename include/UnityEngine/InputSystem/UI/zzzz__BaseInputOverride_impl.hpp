@@ -58,5 +58,3 @@ inline void UnityEngine::InputSystem::UI::BaseInputOverride::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::BaseInputOverride::BaseInputOverride() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -18,5 +18,3 @@ template <typename T> constexpr ::UnityEngine::ExposedReference_1<T>::ExposedRef
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ExposedReference_1<T>::ExposedReference_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

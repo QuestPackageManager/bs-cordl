@@ -39,5 +39,3 @@ inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Me
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusPlatformExtensions::OculusPlatformExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

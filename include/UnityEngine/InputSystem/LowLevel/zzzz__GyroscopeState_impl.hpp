@@ -56,5 +56,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::GyroscopeState::GyroscopeState(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::GyroscopeState::GyroscopeState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

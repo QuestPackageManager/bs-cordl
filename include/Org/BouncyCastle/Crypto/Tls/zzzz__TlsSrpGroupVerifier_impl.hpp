@@ -23,5 +23,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier::Accept(::Org::B
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, group);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

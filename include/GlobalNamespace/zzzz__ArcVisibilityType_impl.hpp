@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::ArcVisibilityType GlobalNamespace::ArcVisibilityTyp
 constexpr ::GlobalNamespace::ArcVisibilityType GlobalNamespace::ArcVisibilityType::Low{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::ArcVisibilityType GlobalNamespace::ArcVisibilityType::Standard{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::ArcVisibilityType GlobalNamespace::ArcVisibilityType::High{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

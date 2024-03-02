@@ -66,5 +66,3 @@ inline void GlobalNamespace::CustomControlPlayableAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CustomControlPlayableAsset::CustomControlPlayableAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

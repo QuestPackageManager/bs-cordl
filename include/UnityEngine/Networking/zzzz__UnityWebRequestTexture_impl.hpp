@@ -46,5 +46,3 @@ inline ::UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::UnityWebRequestTexture::UnityWebRequestTexture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

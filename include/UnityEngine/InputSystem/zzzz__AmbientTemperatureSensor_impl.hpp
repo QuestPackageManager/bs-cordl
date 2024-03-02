@@ -194,5 +194,3 @@ inline void UnityEngine::InputSystem::AmbientTemperatureSensor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::AmbientTemperatureSensor::AmbientTemperatureSensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

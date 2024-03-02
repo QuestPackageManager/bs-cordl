@@ -4,6 +4,7 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitConverterLE)
 // Forward declare root types
@@ -20,32 +21,29 @@ namespace Mono::Security {
 class CORDL_TYPE BitConverterLE : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBytes, addr 0x24dca2c, size 0x18, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int32_t value);
+  /// @brief Method GetBytes, addr 0x250f648, size 0x18, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(double_t value);
 
-  /// @brief Method GetBytes, addr 0x24dd7e8, size 0x18, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int64_t value);
+  /// @brief Method GetBytes, addr 0x250f630, size 0x18, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(float_t value);
 
-  /// @brief Method GetUIntBytes, addr 0x24dd548, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetUIntBytes, addr 0x250f390, size 0x110, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUIntBytes(::cordl_internals::Ptr<uint8_t> bytes);
 
-  /// @brief Method GetULongBytes, addr 0x24dd658, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetULongBytes, addr 0x250f4a0, size 0x190, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetULongBytes(::cordl_internals::Ptr<uint8_t> bytes);
 
-  /// @brief Method ToInt32, addr 0x24dda28, size 0x24, virtual false, abstract: false, final false
-  static inline int32_t ToInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
+  /// @brief Method ToDouble, addr 0x250f8c0, size 0x24, virtual false, abstract: false, final false
+  static inline double_t ToDouble(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToUInt16, addr 0x24dda4c, size 0x24, virtual false, abstract: false, final false
-  static inline uint16_t ToUInt16(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
+  /// @brief Method ToSingle, addr 0x250f89c, size 0x24, virtual false, abstract: false, final false
+  static inline float_t ToSingle(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
 
-  /// @brief Method ToUInt32, addr 0x24dda70, size 0x24, virtual false, abstract: false, final false
-  static inline uint32_t ToUInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
-
-  /// @brief Method UIntFromBytes, addr 0x24dd8dc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method UIntFromBytes, addr 0x250f660, size 0x14c, virtual false, abstract: false, final false
   static inline void UIntFromBytes(::cordl_internals::Ptr<uint8_t> dst, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t startIndex);
 
-  /// @brief Method UShortFromBytes, addr 0x24dd800, size 0xdc, virtual false, abstract: false, final false
-  static inline void UShortFromBytes(::cordl_internals::Ptr<uint8_t> dst, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t startIndex);
+  /// @brief Method ULongFromBytes, addr 0x250f7ac, size 0xf0, virtual false, abstract: false, final false
+  static inline void ULongFromBytes(::cordl_internals::Ptr<uint8_t> dst, ::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t startIndex);
 
 protected:
   // Ctor Parameters []

@@ -24,5 +24,3 @@ inline void Newtonsoft::Json::JsonRequiredAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonRequiredAttribute::JsonRequiredAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

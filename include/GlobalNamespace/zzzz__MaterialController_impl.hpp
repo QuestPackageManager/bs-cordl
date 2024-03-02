@@ -87,5 +87,3 @@ inline void GlobalNamespace::MaterialController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MaterialController::MaterialController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

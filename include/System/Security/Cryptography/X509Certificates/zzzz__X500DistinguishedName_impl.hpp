@@ -206,5 +206,3 @@ inline bool System::Security::Cryptography::X509Certificates::X500DistinguishedN
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500DistinguishedName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

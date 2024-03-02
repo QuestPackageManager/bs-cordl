@@ -126,5 +126,3 @@ inline ::StringW System::MissingFieldException::get_Message() {
 }
 // Ctor Parameters []
 constexpr ::System::MissingFieldException::MissingFieldException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

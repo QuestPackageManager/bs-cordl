@@ -24,5 +24,3 @@ inline void GlobalNamespace::TagPropertyAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TagPropertyAttribute::TagPropertyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

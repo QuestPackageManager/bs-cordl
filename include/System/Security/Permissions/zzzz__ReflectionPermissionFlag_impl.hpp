@@ -12,5 +12,3 @@ constexpr ::System::Security::Permissions::ReflectionPermissionFlag System::Secu
 constexpr ::System::Security::Permissions::ReflectionPermissionFlag System::Security::Permissions::ReflectionPermissionFlag::ReflectionEmit{ static_cast<int32_t>(0x4) };
 constexpr ::System::Security::Permissions::ReflectionPermissionFlag System::Security::Permissions::ReflectionPermissionFlag::RestrictedMemberAccess{ static_cast<int32_t>(0x8) };
 constexpr ::System::Security::Permissions::ReflectionPermissionFlag System::Security::Permissions::ReflectionPermissionFlag::TypeInformation{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

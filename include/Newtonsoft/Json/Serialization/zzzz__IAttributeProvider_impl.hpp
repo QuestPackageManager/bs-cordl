@@ -47,5 +47,3 @@ inline ::System::Collections::Generic::IList_1<::System::Attribute*>* Newtonsoft
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::IAttributeProvider*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<::System::Attribute*>*, false>(this, ___internal_method, attributeType, inherit);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

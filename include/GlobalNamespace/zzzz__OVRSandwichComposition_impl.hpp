@@ -24,5 +24,3 @@ inline void GlobalNamespace::OVRSandwichComposition::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSandwichComposition::OVRSandwichComposition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

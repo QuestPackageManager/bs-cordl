@@ -47,5 +47,3 @@ inline void System::EventHandler::Invoke(::System::Object* sender, ::System::Eve
 }
 // Ctor Parameters []
 constexpr ::System::EventHandler::EventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -33,5 +33,3 @@ constexpr void UnityEngine::GraphicsBuffer::__cordl_internal_set_m_Ptr(void* val
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GraphicsBuffer::GraphicsBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

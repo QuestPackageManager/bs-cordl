@@ -92,5 +92,3 @@ inline void GlobalNamespace::MissionLevelRestartController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionLevelRestartController::MissionLevelRestartController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

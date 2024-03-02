@@ -575,5 +575,3 @@ inline void Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::NistObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

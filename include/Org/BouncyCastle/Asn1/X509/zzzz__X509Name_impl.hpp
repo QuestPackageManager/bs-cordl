@@ -1109,5 +1109,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::X509Name::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::X509Name::X509Name() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

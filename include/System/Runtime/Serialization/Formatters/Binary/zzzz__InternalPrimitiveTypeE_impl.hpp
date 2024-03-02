@@ -28,5 +28,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiv
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE::UInt64{ static_cast<int32_t>(0x10) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE::Null{ static_cast<int32_t>(0x11) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE::String{ static_cast<int32_t>(0x12) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

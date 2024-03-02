@@ -10,5 +10,3 @@ constexpr ::System::Xml::Schema::XmlSchemaContentType System::Xml::Schema::XmlSc
 constexpr ::System::Xml::Schema::XmlSchemaContentType System::Xml::Schema::XmlSchemaContentType::Empty{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::Schema::XmlSchemaContentType System::Xml::Schema::XmlSchemaContentType::ElementOnly{ static_cast<int32_t>(0x2) };
 constexpr ::System::Xml::Schema::XmlSchemaContentType System::Xml::Schema::XmlSchemaContentType::Mixed{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

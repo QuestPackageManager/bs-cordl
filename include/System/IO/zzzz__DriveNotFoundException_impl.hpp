@@ -76,5 +76,3 @@ inline void System::IO::DriveNotFoundException::_ctor(::System::Runtime::Seriali
 }
 // Ctor Parameters []
 constexpr ::System::IO::DriveNotFoundException::DriveNotFoundException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -49,5 +49,3 @@ inline ::StringW System::Diagnostics::MonitoringDescriptionAttribute::get_Descri
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::MonitoringDescriptionAttribute::MonitoringDescriptionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

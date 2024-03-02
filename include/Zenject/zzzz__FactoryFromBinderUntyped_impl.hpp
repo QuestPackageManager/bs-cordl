@@ -38,5 +38,3 @@ inline void Zenject::FactoryFromBinderUntyped::_ctor(::Zenject::DiContainer* bin
 }
 // Ctor Parameters []
 constexpr ::Zenject::FactoryFromBinderUntyped::FactoryFromBinderUntyped() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

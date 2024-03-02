@@ -53,5 +53,3 @@ inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* Intern
 }
 // Ctor Parameters []
 constexpr ::Internal::Runtime::Augments::RuntimeAugments::RuntimeAugments() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

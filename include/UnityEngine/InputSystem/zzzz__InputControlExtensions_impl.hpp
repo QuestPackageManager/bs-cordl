@@ -2441,5 +2441,3 @@ inline ::UnityEngine::InputSystem::__InputControlExtensions__DeviceBuilder Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputControlExtensions::InputControlExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

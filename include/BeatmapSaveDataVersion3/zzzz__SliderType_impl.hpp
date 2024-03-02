@@ -8,5 +8,3 @@ constexpr ::BeatmapSaveDataVersion3::SliderType::SliderType(int32_t value__) noe
 constexpr ::BeatmapSaveDataVersion3::SliderType::SliderType() {}
 constexpr ::BeatmapSaveDataVersion3::SliderType BeatmapSaveDataVersion3::SliderType::Normal{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataVersion3::SliderType BeatmapSaveDataVersion3::SliderType::Burst{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

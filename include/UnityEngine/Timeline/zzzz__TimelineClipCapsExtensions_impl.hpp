@@ -156,5 +156,3 @@ inline bool UnityEngine::Timeline::TimelineClipCapsExtensions::HasAny(::UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimelineClipCapsExtensions::TimelineClipCapsExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::IsPackBetterBuyThanLevelResult::IsPackBetterBuyThan
 constexpr ::GlobalNamespace::IsPackBetterBuyThanLevelResult GlobalNamespace::IsPackBetterBuyThanLevelResult::PackIsBetter{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::IsPackBetterBuyThanLevelResult GlobalNamespace::IsPackBetterBuyThanLevelResult::LevelIsBetter{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::IsPackBetterBuyThanLevelResult GlobalNamespace::IsPackBetterBuyThanLevelResult::Failed{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -248,5 +248,3 @@ inline void Ice::FloorLightTilesGrid::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Ice::FloorLightTilesGrid::FloorLightTilesGrid() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

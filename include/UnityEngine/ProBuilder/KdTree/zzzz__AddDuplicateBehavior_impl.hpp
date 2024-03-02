@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior UnityEngine::P
 constexpr ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior::Error{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior::Update{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior::Collect{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

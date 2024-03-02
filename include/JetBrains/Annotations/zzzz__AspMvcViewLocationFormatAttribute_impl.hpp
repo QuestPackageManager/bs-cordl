@@ -81,5 +81,3 @@ inline void JetBrains::Annotations::AspMvcViewLocationFormatAttribute::set_Forma
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcViewLocationFormatAttribute::AspMvcViewLocationFormatAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

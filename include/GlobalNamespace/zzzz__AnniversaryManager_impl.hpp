@@ -170,5 +170,3 @@ inline void GlobalNamespace::AnniversaryManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AnniversaryManager::AnniversaryManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

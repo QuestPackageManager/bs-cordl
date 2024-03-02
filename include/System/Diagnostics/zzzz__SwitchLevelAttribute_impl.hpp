@@ -61,5 +61,3 @@ inline void System::Diagnostics::SwitchLevelAttribute::set_SwitchLevelType(::Sys
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::SwitchLevelAttribute::SwitchLevelAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

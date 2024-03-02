@@ -155,5 +155,3 @@ inline int32_t Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::Gen
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::BaseKdfBytesGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

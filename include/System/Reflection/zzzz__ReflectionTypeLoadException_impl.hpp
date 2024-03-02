@@ -198,5 +198,3 @@ inline ::StringW System::Reflection::ReflectionTypeLoadException::CreateString(b
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::ReflectionTypeLoadException::ReflectionTypeLoadException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

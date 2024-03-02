@@ -24,5 +24,3 @@ inline void IgnoranceCore::IgnoranceInternals::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::IgnoranceCore::IgnoranceInternals::IgnoranceInternals() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

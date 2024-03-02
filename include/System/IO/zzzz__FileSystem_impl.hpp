@@ -339,5 +339,3 @@ inline ::ArrayW<::StringW, ::Array<::StringW>*> System::IO::FileSystem::GetLogic
 }
 // Ctor Parameters []
 constexpr ::System::IO::FileSystem::FileSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

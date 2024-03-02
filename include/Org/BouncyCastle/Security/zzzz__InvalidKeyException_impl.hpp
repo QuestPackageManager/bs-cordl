@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Security::InvalidKeyException::_ctor(::StringW me
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::InvalidKeyException::InvalidKeyException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

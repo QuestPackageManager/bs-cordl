@@ -9,5 +9,3 @@ constexpr ::BeatmapLevelSaveDataVersion4::LufsData::LufsData(int32_t si, int32_t
 }
 // Ctor Parameters []
 constexpr ::BeatmapLevelSaveDataVersion4::LufsData::LufsData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

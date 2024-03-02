@@ -280,5 +280,3 @@ inline void UnityEngine::UI::AnimationTriggers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::AnimationTriggers::AnimationTriggers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

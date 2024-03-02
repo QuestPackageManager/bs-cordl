@@ -372,5 +372,3 @@ inline void LiteNetLib::NetSocket::Close(bool suspend) {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetSocket::NetSocket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

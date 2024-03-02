@@ -130,5 +130,3 @@ inline void GlobalNamespace::ObstacleDissolve::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObstacleDissolve::ObstacleDissolve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

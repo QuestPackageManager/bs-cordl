@@ -54,5 +54,3 @@ template <typename T> inline void Newtonsoft::Json::Converters::EnumerableVector
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Newtonsoft::Json::Converters::EnumerableVectorConverter_1<T>::EnumerableVectorConverter_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

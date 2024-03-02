@@ -231,5 +231,3 @@ inline void System::Reflection::Emit::FieldBuilder::SetValue(::System::Object* o
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::FieldBuilder::FieldBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

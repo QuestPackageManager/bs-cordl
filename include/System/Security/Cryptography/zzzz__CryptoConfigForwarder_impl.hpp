@@ -24,5 +24,3 @@ inline ::System::Object* System::Security::Cryptography::CryptoConfigForwarder::
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::CryptoConfigForwarder::CryptoConfigForwarder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

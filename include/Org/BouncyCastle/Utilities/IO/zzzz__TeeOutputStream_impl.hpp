@@ -117,5 +117,3 @@ inline void Org::BouncyCastle::Utilities::IO::TeeOutputStream::WriteByte(uint8_t
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::TeeOutputStream::TeeOutputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

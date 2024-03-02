@@ -246,5 +246,3 @@ constexpr ::UnityEngine::UIElements::TransformOrigin::TransformOrigin(::UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TransformOrigin::TransformOrigin() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

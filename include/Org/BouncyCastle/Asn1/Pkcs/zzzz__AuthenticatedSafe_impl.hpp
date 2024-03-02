@@ -171,5 +171,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Aut
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe::AuthenticatedSafe() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

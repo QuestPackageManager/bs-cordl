@@ -71,5 +71,3 @@ inline void Org::BouncyCastle::Cms::CmsContentInfoParser::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsContentInfoParser::CmsContentInfoParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

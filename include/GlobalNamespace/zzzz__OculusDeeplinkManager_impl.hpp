@@ -257,5 +257,3 @@ inline void GlobalNamespace::OculusDeeplinkManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusDeeplinkManager::OculusDeeplinkManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

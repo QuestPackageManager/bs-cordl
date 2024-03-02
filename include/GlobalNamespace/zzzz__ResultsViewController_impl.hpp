@@ -865,5 +865,3 @@ inline void GlobalNamespace::ResultsViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ResultsViewController::ResultsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

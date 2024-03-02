@@ -645,5 +645,3 @@ inline void GlobalNamespace::OVRVignette::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVignette::OVRVignette() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

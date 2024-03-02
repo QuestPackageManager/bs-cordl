@@ -210,5 +210,3 @@ inline void UnityEngine::CanvasGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CanvasGroup::CanvasGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1280,5 +1280,3 @@ inline ::StringW UnityEngine::Networking::UnityWebRequest::EscapeURL(::StringW s
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::UnityWebRequest::UnityWebRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

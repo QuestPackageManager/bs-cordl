@@ -121,5 +121,3 @@ inline bool System::Net::Authorization::get_Complete() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Authorization::Authorization() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

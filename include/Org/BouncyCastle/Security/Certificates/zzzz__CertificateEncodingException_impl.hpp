@@ -79,5 +79,3 @@ inline void Org::BouncyCastle::Security::Certificates::CertificateEncodingExcept
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::Certificates::CertificateEncodingException::CertificateEncodingException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

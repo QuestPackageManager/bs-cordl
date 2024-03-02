@@ -284,5 +284,3 @@ inline int32_t System::Security::AccessControl::NativeObjectSecurity::InternalGe
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::NativeObjectSecurity::NativeObjectSecurity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

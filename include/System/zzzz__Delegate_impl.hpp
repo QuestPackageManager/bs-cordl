@@ -921,5 +921,3 @@ inline ::System::MulticastDelegate* System::Delegate::AllocDelegateLike_internal
 }
 // Ctor Parameters []
 constexpr ::System::Delegate::Delegate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

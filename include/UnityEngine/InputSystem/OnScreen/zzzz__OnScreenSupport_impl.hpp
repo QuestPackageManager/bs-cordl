@@ -21,5 +21,3 @@ inline void UnityEngine::InputSystem::OnScreen::OnScreenSupport::Initialize() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenSupport::OnScreenSupport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

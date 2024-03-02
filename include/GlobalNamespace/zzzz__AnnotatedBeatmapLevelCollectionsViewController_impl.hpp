@@ -512,5 +512,3 @@ inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::_ct
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::AnnotatedBeatmapLevelCollectionsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

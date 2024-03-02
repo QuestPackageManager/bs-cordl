@@ -357,5 +357,3 @@ template <typename T> inline bool ModestTree::LinqExtensions::ContainsItem(::Sys
 }
 // Ctor Parameters []
 constexpr ::ModestTree::LinqExtensions::LinqExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

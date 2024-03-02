@@ -89,5 +89,3 @@ template <typename TKey, typename TValue> inline int32_t UnityEngine::ProBuilder
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

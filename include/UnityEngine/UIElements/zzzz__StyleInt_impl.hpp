@@ -232,5 +232,3 @@ constexpr ::UnityEngine::UIElements::StyleInt::StyleInt(int32_t m_Value, ::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleInt::StyleInt() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

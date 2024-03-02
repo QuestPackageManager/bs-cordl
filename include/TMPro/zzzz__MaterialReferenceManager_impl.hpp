@@ -546,5 +546,3 @@ inline void TMPro::MaterialReferenceManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::MaterialReferenceManager::MaterialReferenceManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

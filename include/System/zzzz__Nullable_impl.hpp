@@ -24,5 +24,3 @@ inline ::System::Type* System::Nullable::GetUnderlyingType(::System::Type* nulla
 }
 // Ctor Parameters []
 constexpr ::System::Nullable::Nullable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -119,5 +119,3 @@ inline void Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::Pkcs7Padding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

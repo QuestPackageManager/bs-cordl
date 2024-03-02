@@ -171,5 +171,3 @@ inline void Org::BouncyCastle::Crypto::StreamBlockCipher::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::StreamBlockCipher::StreamBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

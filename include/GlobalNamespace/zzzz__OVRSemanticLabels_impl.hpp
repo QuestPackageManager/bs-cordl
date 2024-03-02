@@ -358,5 +358,3 @@ constexpr ::GlobalNamespace::OVRSemanticLabels::OVRSemanticLabels(uint64_t _Hand
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSemanticLabels::OVRSemanticLabels() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -12,5 +12,3 @@ constexpr ::System::IO::FileShare System::IO::FileShare::Write{ static_cast<int3
 constexpr ::System::IO::FileShare System::IO::FileShare::ReadWrite{ static_cast<int32_t>(0x3) };
 constexpr ::System::IO::FileShare System::IO::FileShare::Delete{ static_cast<int32_t>(0x4) };
 constexpr ::System::IO::FileShare System::IO::FileShare::Inheritable{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

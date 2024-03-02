@@ -677,5 +677,3 @@ template <typename TType> template <typename T> inline void GlobalNamespace::Rpc
 }
 // Ctor Parameters []
 template <typename TType> constexpr ::GlobalNamespace::RpcHandler_1<TType>::RpcHandler_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

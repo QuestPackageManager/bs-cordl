@@ -10,5 +10,3 @@ constexpr ::BeatSaber::PerformancePresets::ObstaclesQuality BeatSaber::Performan
 constexpr ::BeatSaber::PerformancePresets::ObstaclesQuality BeatSaber::PerformancePresets::ObstaclesQuality::TexturedObstacle{ static_cast<int32_t>(0x1) };
 constexpr ::BeatSaber::PerformancePresets::ObstaclesQuality BeatSaber::PerformancePresets::ObstaclesQuality::ObstacleLW{ static_cast<int32_t>(0x2) };
 constexpr ::BeatSaber::PerformancePresets::ObstaclesQuality BeatSaber::PerformancePresets::ObstaclesQuality::ObstacleHW{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

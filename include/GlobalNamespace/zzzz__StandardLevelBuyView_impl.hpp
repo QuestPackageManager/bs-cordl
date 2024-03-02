@@ -275,5 +275,3 @@ inline void GlobalNamespace::StandardLevelBuyView::_Awake_b__11_0(bool on) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelBuyView::StandardLevelBuyView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

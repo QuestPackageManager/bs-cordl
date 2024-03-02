@@ -39,5 +39,3 @@ inline void System::Reflection::AssemblyDefaultAliasAttribute::_ctor(::StringW d
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyDefaultAliasAttribute::AssemblyDefaultAliasAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

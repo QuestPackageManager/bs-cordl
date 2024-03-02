@@ -10,5 +10,3 @@ constexpr ::UnityEngine::CollisionDetectionMode UnityEngine::CollisionDetectionM
 constexpr ::UnityEngine::CollisionDetectionMode UnityEngine::CollisionDetectionMode::Continuous{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::CollisionDetectionMode UnityEngine::CollisionDetectionMode::ContinuousDynamic{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::CollisionDetectionMode UnityEngine::CollisionDetectionMode::ContinuousSpeculative{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

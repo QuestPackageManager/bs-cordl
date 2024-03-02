@@ -956,5 +956,3 @@ inline void UnityEngine::Graphics::Blit4_Injected(::UnityEngine::Texture* source
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Graphics::Graphics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

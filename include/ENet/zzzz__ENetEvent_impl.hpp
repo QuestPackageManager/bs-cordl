@@ -15,5 +15,3 @@ constexpr ::ENet::ENetEvent::ENetEvent(::ENet::EventType type, void* peer, uint8
 }
 // Ctor Parameters []
 constexpr ::ENet::ENetEvent::ENetEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -58,5 +58,3 @@ inline void UnityEngine::AndroidJavaRunnableProxy::run() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJavaRunnableProxy::AndroidJavaRunnableProxy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -506,5 +506,3 @@ inline void GlobalNamespace::CrossFadeAudioSource::_CrossFade_b__25_2() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CrossFadeAudioSource::CrossFadeAudioSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

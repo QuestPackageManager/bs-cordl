@@ -37,5 +37,3 @@ inline void UnityEngine::TextCore::Text::SpriteGlyph::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::SpriteGlyph::SpriteGlyph() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

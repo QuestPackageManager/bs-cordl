@@ -133,5 +133,3 @@ inline void Org::BouncyCastle::Ocsp::OcspUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::OcspUtilities::OcspUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

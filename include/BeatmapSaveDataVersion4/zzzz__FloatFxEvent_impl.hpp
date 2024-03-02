@@ -11,5 +11,3 @@ constexpr ::BeatmapSaveDataVersion4::FloatFxEvent::FloatFxEvent(int32_t p, ::Bea
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::FloatFxEvent::FloatFxEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

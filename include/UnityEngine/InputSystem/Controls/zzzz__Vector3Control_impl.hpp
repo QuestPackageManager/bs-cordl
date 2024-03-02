@@ -274,5 +274,3 @@ inline float_t UnityEngine::InputSystem::Controls::Vector3Control::EvaluateMagni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::Vector3Control::Vector3Control() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

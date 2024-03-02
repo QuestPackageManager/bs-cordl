@@ -1231,5 +1231,3 @@ inline void UnityEngine::Timeline::AnimationPlayableAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

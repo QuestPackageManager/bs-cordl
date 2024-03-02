@@ -206,5 +206,3 @@ inline bool System::Xml::XmlText::get_IsText() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlText::XmlText() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

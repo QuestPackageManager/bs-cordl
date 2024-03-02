@@ -85,5 +85,3 @@ constexpr ::System::Buffers::MemoryHandle::MemoryHandle(::cordl_internals::Ptr<v
 }
 // Ctor Parameters []
 constexpr ::System::Buffers::MemoryHandle::MemoryHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

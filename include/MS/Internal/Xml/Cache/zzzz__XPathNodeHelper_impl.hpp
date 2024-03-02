@@ -172,5 +172,3 @@ inline bool MS::Internal::Xml::Cache::XPathNodeHelper::GetNonDescendant(ByRef<::
 }
 // Ctor Parameters []
 constexpr ::MS::Internal::Xml::Cache::XPathNodeHelper::XPathNodeHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

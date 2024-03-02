@@ -10,5 +10,3 @@ constexpr ::Newtonsoft::Json::DateTimeZoneHandling Newtonsoft::Json::DateTimeZon
 constexpr ::Newtonsoft::Json::DateTimeZoneHandling Newtonsoft::Json::DateTimeZoneHandling::Utc{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::DateTimeZoneHandling Newtonsoft::Json::DateTimeZoneHandling::Unspecified{ static_cast<int32_t>(0x2) };
 constexpr ::Newtonsoft::Json::DateTimeZoneHandling Newtonsoft::Json::DateTimeZoneHandling::RoundtripKind{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

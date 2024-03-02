@@ -335,5 +335,3 @@ inline ::StringW System::Globalization::IdnMapping::ToUnicode(::StringW s, int32
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::IdnMapping::IdnMapping() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -30,5 +30,3 @@ template <typename TArgs> inline void UnityEngine::UIElements::IDragAndDropContr
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IDragAndDropController_1<TArgs>*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, args);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

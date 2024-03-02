@@ -322,5 +322,3 @@ constexpr ::GlobalNamespace::Vector4Serializable::Vector4Serializable(int32_t _x
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Vector4Serializable::Vector4Serializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

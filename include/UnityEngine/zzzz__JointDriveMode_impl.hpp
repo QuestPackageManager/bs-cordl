@@ -10,5 +10,3 @@ constexpr ::UnityEngine::JointDriveMode UnityEngine::JointDriveMode::None{ stati
 constexpr ::UnityEngine::JointDriveMode UnityEngine::JointDriveMode::Position{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::JointDriveMode UnityEngine::JointDriveMode::Velocity{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::JointDriveMode UnityEngine::JointDriveMode::PositionAndVelocity{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

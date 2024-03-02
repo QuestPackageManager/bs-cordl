@@ -9,5 +9,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ImageFileFormat::HAPI_ImageFileFormat(int32
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_ImageFileFormat::HAPI_ImageFileFormat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::AspMvcPartialViewAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcPartialViewAttribute::AspMvcPartialViewAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

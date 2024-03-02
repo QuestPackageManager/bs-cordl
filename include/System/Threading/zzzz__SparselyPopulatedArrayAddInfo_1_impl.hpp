@@ -27,5 +27,3 @@ constexpr ::System::Threading::SparselyPopulatedArrayAddInfo_1<T>::SparselyPopul
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Threading::SparselyPopulatedArrayAddInfo_1<T>::SparselyPopulatedArrayAddInfo_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

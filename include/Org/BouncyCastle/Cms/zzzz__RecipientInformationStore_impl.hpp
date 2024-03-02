@@ -157,5 +157,3 @@ inline ::System::Collections::ICollection* Org::BouncyCastle::Cms::RecipientInfo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore::RecipientInformationStore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

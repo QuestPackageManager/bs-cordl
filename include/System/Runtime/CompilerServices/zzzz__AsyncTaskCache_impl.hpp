@@ -60,5 +60,3 @@ template <typename TResult> inline ::System::Threading::Tasks::Task_1<TResult>* 
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::AsyncTaskCache::AsyncTaskCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

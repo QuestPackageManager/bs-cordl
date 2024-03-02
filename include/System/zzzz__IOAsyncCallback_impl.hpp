@@ -47,5 +47,3 @@ inline void System::IOAsyncCallback::Invoke(::System::IOAsyncResult* ioares) {
 }
 // Ctor Parameters []
 constexpr ::System::IOAsyncCallback::IOAsyncCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

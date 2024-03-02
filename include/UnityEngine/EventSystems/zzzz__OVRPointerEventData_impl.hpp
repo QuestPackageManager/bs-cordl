@@ -75,5 +75,3 @@ inline ::StringW UnityEngine::EventSystems::OVRPointerEventData::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::OVRPointerEventData::OVRPointerEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

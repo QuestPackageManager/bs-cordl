@@ -91,5 +91,3 @@ constexpr ::TMPro::TMP_CharacterInfo::TMP_CharacterInfo(char16_t character, int3
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_CharacterInfo::TMP_CharacterInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

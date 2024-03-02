@@ -27,5 +27,3 @@ inline void HoudiniEngineUnity::CookedEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::CookedEvent::CookedEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

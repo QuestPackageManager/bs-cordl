@@ -48,5 +48,3 @@ inline void Newtonsoft::Json::Converters::DateTimeConverterBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::DateTimeConverterBase::DateTimeConverterBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

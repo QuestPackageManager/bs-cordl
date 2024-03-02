@@ -72,5 +72,3 @@ inline void GlobalNamespace::RecordingToolConfigViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolConfigViewController::RecordingToolConfigViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

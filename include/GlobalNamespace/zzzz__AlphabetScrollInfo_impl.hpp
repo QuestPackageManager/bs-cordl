@@ -75,5 +75,3 @@ inline void GlobalNamespace::AlphabetScrollInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AlphabetScrollInfo::AlphabetScrollInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -177,5 +177,3 @@ inline void GlobalNamespace::IncDecSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IncDecSettingsController::IncDecSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -62,5 +62,3 @@ inline ::BeatmapSaveDataVersion3::LightRotationEventBoxGroup* BeatmapSaveDataVer
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightRotationEventBoxGroup::LightRotationEventBoxGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

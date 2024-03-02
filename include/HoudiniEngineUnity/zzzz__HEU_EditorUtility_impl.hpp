@@ -1133,5 +1133,3 @@ inline bool HoudiniEngineUnity::HEU_EditorUtility::ReleasedMouse() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_EditorUtility::HEU_EditorUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

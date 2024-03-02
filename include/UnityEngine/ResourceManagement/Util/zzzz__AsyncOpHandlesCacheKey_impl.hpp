@@ -156,5 +156,3 @@ inline bool UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey::Equal
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::AsyncOpHandlesCacheKey::AsyncOpHandlesCacheKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

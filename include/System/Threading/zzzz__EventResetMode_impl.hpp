@@ -8,5 +8,3 @@ constexpr ::System::Threading::EventResetMode::EventResetMode(int32_t value__) n
 constexpr ::System::Threading::EventResetMode::EventResetMode() {}
 constexpr ::System::Threading::EventResetMode System::Threading::EventResetMode::AutoReset{ static_cast<int32_t>(0x0) };
 constexpr ::System::Threading::EventResetMode System::Threading::EventResetMode::ManualReset{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

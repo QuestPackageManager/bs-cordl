@@ -321,5 +321,3 @@ inline void UnityEngine::Timeline::ScheduleRuntimeClip::DisableAt(double_t local
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::ScheduleRuntimeClip::ScheduleRuntimeClip() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

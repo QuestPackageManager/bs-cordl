@@ -76,5 +76,3 @@ inline void GlobalNamespace::LightTranslationBeatmapEventDataProcessor::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationBeatmapEventDataProcessor::LightTranslationBeatmapEventDataProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

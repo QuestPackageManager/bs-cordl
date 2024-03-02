@@ -17,5 +17,3 @@ constexpr ::UnityEngine::AnimatorTransitionInfo::AnimatorTransitionInfo(int32_t 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AnimatorTransitionInfo::AnimatorTransitionInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

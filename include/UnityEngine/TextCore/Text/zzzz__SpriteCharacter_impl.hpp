@@ -67,5 +67,3 @@ inline void UnityEngine::TextCore::Text::SpriteCharacter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::SpriteCharacter::SpriteCharacter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

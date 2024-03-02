@@ -498,5 +498,3 @@ inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* G
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerStatisticsViewController::PlayerStatisticsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

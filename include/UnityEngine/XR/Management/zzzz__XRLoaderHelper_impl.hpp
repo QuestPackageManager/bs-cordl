@@ -127,5 +127,3 @@ inline void UnityEngine::XR::Management::XRLoaderHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::Management::XRLoaderHelper::XRLoaderHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

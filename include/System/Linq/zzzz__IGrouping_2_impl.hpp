@@ -24,5 +24,3 @@ template <typename TKey, typename TElement> inline TKey System::Linq::IGrouping_
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::IGrouping_2<TKey, TElement>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<TKey, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

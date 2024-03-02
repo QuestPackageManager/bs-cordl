@@ -39,5 +39,3 @@ inline void UnityEngine::ProBuilder::Shapes::ShapeAttribute::_ctor(::StringW n) 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::ShapeAttribute::ShapeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

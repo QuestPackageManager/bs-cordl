@@ -116,5 +116,3 @@ inline uint64_t ENet::Library::CRC64(void* buffers, int32_t bufferCount) {
 }
 // Ctor Parameters []
 constexpr ::ENet::Library::Library() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

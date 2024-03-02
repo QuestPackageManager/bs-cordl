@@ -600,5 +600,3 @@ inline void UnityEngine::MonoBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::MonoBehaviour::MonoBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

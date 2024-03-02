@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::EVRTrackedCameraFrameLayout OVR::OpenVR::EVRTrackedCame
 constexpr ::OVR::OpenVR::EVRTrackedCameraFrameLayout OVR::OpenVR::EVRTrackedCameraFrameLayout::Stereo{ static_cast<int32_t>(0x2) };
 constexpr ::OVR::OpenVR::EVRTrackedCameraFrameLayout OVR::OpenVR::EVRTrackedCameraFrameLayout::VerticalLayout{ static_cast<int32_t>(0x10) };
 constexpr ::OVR::OpenVR::EVRTrackedCameraFrameLayout OVR::OpenVR::EVRTrackedCameraFrameLayout::HorizontalLayout{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

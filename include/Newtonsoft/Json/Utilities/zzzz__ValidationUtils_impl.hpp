@@ -25,5 +25,3 @@ inline void Newtonsoft::Json::Utilities::ValidationUtils::ArgumentNotNull(::Syst
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::ValidationUtils::ValidationUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

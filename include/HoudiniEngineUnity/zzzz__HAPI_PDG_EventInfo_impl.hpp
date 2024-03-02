@@ -16,5 +16,3 @@ constexpr ::HoudiniEngineUnity::HAPI_PDG_EventInfo::HAPI_PDG_EventInfo(int32_t n
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_PDG_EventInfo::HAPI_PDG_EventInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

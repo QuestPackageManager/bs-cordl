@@ -507,5 +507,3 @@ inline void GlobalNamespace::NoteCutSoundEffectManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutSoundEffectManager::NoteCutSoundEffectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

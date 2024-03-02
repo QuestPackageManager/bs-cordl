@@ -74,5 +74,3 @@ inline bool System::ComponentModel::ExpandableObjectConverter::GetPropertiesSupp
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ExpandableObjectConverter::ExpandableObjectConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

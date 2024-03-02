@@ -6,5 +6,3 @@ constexpr ::System::Reflection::ParameterModifier::ParameterModifier(::ArrayW<bo
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::ParameterModifier::ParameterModifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

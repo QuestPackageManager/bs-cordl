@@ -101,5 +101,3 @@ inline void System::InvalidCastException::_ctor(::System::Runtime::Serialization
 }
 // Ctor Parameters []
 constexpr ::System::InvalidCastException::InvalidCastException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

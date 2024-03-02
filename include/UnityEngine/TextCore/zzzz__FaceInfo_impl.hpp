@@ -761,5 +761,3 @@ constexpr ::UnityEngine::TextCore::FaceInfo::FaceInfo(int32_t m_FaceIndex, ::Str
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::FaceInfo::FaceInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

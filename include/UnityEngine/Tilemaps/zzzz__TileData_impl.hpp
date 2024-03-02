@@ -175,5 +175,3 @@ constexpr ::UnityEngine::Tilemaps::TileData::TileData(int32_t m_Sprite, ::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Tilemaps::TileData::TileData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

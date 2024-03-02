@@ -24,5 +24,3 @@ inline void UnityEngine::YieldInstruction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::YieldInstruction::YieldInstruction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

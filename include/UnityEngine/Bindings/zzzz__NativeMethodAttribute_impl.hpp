@@ -263,5 +263,3 @@ inline void UnityEngine::Bindings::NativeMethodAttribute::_ctor(::StringW name, 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::NativeMethodAttribute::NativeMethodAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

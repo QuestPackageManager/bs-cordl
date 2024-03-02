@@ -806,5 +806,3 @@ inline void GlobalNamespace::GameEnergyCounter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameEnergyCounter::GameEnergyCounter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

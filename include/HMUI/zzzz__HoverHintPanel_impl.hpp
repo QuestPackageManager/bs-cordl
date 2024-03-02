@@ -227,5 +227,3 @@ inline void HMUI::HoverHintPanel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::HoverHintPanel::HoverHintPanel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

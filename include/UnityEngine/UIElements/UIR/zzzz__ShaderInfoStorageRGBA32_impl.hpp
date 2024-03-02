@@ -102,5 +102,3 @@ inline void UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32::_ctor(int32_t
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32::ShaderInfoStorageRGBA32() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

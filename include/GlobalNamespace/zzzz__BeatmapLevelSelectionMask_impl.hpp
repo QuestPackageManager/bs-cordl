@@ -209,5 +209,3 @@ constexpr ::GlobalNamespace::BeatmapLevelSelectionMask::BeatmapLevelSelectionMas
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelSelectionMask::BeatmapLevelSelectionMask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

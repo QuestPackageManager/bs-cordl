@@ -222,5 +222,3 @@ inline void UnityEngine::ProBuilder::ColorPalette::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ColorPalette::ColorPalette() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

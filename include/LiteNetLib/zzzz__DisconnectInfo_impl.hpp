@@ -15,5 +15,3 @@ constexpr ::LiteNetLib::DisconnectInfo::DisconnectInfo(::LiteNetLib::DisconnectR
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::DisconnectInfo::DisconnectInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

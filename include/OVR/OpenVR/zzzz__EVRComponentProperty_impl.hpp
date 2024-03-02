@@ -11,5 +11,3 @@ constexpr ::OVR::OpenVR::EVRComponentProperty OVR::OpenVR::EVRComponentProperty:
 constexpr ::OVR::OpenVR::EVRComponentProperty OVR::OpenVR::EVRComponentProperty::IsTouched{ static_cast<int32_t>(0x4) };
 constexpr ::OVR::OpenVR::EVRComponentProperty OVR::OpenVR::EVRComponentProperty::IsPressed{ static_cast<int32_t>(0x8) };
 constexpr ::OVR::OpenVR::EVRComponentProperty OVR::OpenVR::EVRComponentProperty::IsScrolled{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

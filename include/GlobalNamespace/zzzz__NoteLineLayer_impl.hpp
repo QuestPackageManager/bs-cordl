@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::NoteLineLayer::NoteLineLayer() {}
 constexpr ::GlobalNamespace::NoteLineLayer GlobalNamespace::NoteLineLayer::Base{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::NoteLineLayer GlobalNamespace::NoteLineLayer::Upper{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::NoteLineLayer GlobalNamespace::NoteLineLayer::Top{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

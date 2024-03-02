@@ -26,5 +26,3 @@ inline float_t GlobalNamespace::Interpolation::Interpolate(float_t t, ::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Interpolation::Interpolation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

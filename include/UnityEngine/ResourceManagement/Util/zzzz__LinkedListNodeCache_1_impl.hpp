@@ -64,5 +64,3 @@ template <typename T> inline void UnityEngine::ResourceManagement::Util::LinkedL
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::LinkedListNodeCache_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

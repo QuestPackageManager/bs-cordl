@@ -155,5 +155,3 @@ template <typename T> inline void GlobalNamespace::ValueDropdownController_1<T>:
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::ValueDropdownController_1<T>::ValueDropdownController_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

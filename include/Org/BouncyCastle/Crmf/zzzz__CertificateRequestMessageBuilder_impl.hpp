@@ -587,5 +587,3 @@ inline ::Org::BouncyCastle::Crmf::CertificateRequestMessage* Org::BouncyCastle::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::CertificateRequestMessageBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

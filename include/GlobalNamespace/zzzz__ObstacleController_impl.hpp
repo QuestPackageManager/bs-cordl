@@ -1196,5 +1196,3 @@ inline ::System::Object* GlobalNamespace::__ObstacleController___DissolveCorouti
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65::__ObstacleController___DissolveCoroutine_d__65() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

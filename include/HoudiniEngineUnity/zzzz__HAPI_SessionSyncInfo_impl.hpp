@@ -7,5 +7,3 @@ constexpr ::HoudiniEngineUnity::HAPI_SessionSyncInfo::HAPI_SessionSyncInfo(bool 
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_SessionSyncInfo::HAPI_SessionSyncInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

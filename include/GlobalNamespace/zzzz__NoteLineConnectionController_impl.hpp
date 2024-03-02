@@ -323,5 +323,3 @@ inline void GlobalNamespace::__NoteLineConnectionController__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__NoteLineConnectionController__Pool::__NoteLineConnectionController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

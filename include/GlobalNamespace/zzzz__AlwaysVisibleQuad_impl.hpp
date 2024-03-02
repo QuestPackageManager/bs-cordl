@@ -73,5 +73,3 @@ inline void GlobalNamespace::AlwaysVisibleQuad::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AlwaysVisibleQuad::AlwaysVisibleQuad() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

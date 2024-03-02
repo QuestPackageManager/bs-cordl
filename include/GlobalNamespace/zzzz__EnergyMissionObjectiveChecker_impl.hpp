@@ -118,5 +118,3 @@ inline void GlobalNamespace::EnergyMissionObjectiveChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnergyMissionObjectiveChecker::EnergyMissionObjectiveChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -221,5 +221,3 @@ constexpr ::UnityEngine::ProBuilder::PickerOptions::PickerOptions(bool _depthTes
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::PickerOptions::PickerOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

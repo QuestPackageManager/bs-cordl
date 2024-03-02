@@ -125,5 +125,3 @@ inline void System::Runtime::Remoting::TypeEntry::set_TypeName(::StringW value) 
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::TypeEntry::TypeEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

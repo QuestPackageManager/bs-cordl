@@ -114,5 +114,3 @@ inline void GlobalNamespace::EnvironmentIntensityReductionOptions::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentIntensityReductionOptions::EnvironmentIntensityReductionOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

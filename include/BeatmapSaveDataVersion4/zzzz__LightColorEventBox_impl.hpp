@@ -18,5 +18,3 @@ constexpr ::BeatmapSaveDataVersion4::LightColorEventBox::LightColorEventBox(floa
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::LightColorEventBox::LightColorEventBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

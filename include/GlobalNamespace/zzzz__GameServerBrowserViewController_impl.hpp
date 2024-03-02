@@ -101,5 +101,3 @@ inline void GlobalNamespace::GameServerBrowserViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServerBrowserViewController::GameServerBrowserViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

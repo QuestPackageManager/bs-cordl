@@ -236,5 +236,3 @@ inline ::Org::BouncyCastle::Security::SecureRandom* Org::BouncyCastle::Crypto::P
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::DsaParameterGenerationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

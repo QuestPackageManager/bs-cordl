@@ -149,5 +149,3 @@ inline void UnityEngine::UIElements::__ButtonStripField__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__ButtonStripField__UxmlFactory::__ButtonStripField__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

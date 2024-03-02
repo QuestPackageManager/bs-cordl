@@ -26,5 +26,3 @@ inline ::HoudiniEngineUnity::Test_LayerMask* HoudiniEngineUnity::Test_LayerMask_
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_LayerMask_Extensions::Test_LayerMask_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

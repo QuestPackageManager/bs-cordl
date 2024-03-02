@@ -361,5 +361,3 @@ inline void GlobalNamespace::MultiplayerSettingsPanelController::_Awake_b__14_0(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerSettingsPanelController::MultiplayerSettingsPanelController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

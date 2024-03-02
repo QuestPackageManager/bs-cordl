@@ -1251,5 +1251,3 @@ inline TDevice UnityEngine::InputSystem::InputDevice::Build(::StringW layoutName
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputDevice::InputDevice() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1824,5 +1824,3 @@ UnityEngine::UIElements::VisualTreeAsset::_Create_g__CreateError_49_0(ByRef<::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeAsset::VisualTreeAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

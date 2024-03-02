@@ -288,5 +288,3 @@ inline void HoudiniEngineUnity::HEU_MaterialData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_MaterialData::HEU_MaterialData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -327,5 +327,3 @@ inline void UnityEngine::ProBuilder::PolyShape::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::PolyShape::PolyShape() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

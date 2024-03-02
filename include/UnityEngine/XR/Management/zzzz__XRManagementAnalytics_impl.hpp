@@ -34,5 +34,3 @@ inline bool UnityEngine::XR::Management::XRManagementAnalytics::Initialize() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::Management::XRManagementAnalytics::XRManagementAnalytics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

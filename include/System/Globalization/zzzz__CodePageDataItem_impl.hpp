@@ -120,5 +120,3 @@ inline ::StringW System::Globalization::CodePageDataItem::get_WebName() {
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::CodePageDataItem::CodePageDataItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

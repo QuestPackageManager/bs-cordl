@@ -447,5 +447,3 @@ inline void GlobalNamespace::OVRRaycaster::OnPointerEnter(::UnityEngine::EventSy
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRRaycaster::OVRRaycaster() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

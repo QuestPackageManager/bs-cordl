@@ -39,5 +39,3 @@ inline void UnityEngine::InputSystem::XInput::IXboxOneRumble::SetMotorSpeeds(flo
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XInput::IXboxOneRumble*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lowFrequency, highFrequency, leftTrigger, rightTrigger);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

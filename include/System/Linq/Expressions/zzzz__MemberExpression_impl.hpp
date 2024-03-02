@@ -43,5 +43,3 @@ inline ::System::Reflection::MemberInfo* System::Linq::Expressions::MemberExpres
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::MemberExpression::MemberExpression() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

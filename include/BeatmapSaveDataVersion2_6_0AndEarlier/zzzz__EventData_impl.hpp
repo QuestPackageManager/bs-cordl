@@ -160,5 +160,3 @@ inline void BeatmapSaveDataVersion2_6_0AndEarlier::EventData::_ctor(float_t time
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::EventData::EventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

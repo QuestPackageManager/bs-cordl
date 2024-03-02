@@ -136,5 +136,3 @@ inline void System::ByteMatcher::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ByteMatcher::ByteMatcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

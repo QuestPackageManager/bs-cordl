@@ -24,5 +24,3 @@ inline void JetBrains::Annotations::LinqTunnelAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::LinqTunnelAttribute::LinqTunnelAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

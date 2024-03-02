@@ -208,5 +208,3 @@ inline void Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers::RosstandartObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

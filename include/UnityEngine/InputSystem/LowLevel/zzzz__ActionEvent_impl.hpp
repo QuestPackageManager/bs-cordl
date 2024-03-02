@@ -488,5 +488,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::ActionEvent::ActionEvent(::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::ActionEvent::ActionEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1754,5 +1754,3 @@ inline void Mono::Net::Security::MobileAuthenticatedStream::_InnerWrite_b__67_0(
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::MobileAuthenticatedStream::MobileAuthenticatedStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

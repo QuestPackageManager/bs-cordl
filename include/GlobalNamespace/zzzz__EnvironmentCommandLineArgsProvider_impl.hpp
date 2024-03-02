@@ -53,5 +53,3 @@ inline void GlobalNamespace::EnvironmentCommandLineArgsProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentCommandLineArgsProvider::EnvironmentCommandLineArgsProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

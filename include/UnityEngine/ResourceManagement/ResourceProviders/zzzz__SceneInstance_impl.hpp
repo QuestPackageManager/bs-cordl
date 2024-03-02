@@ -140,5 +140,3 @@ constexpr ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::S
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::SceneInstance() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

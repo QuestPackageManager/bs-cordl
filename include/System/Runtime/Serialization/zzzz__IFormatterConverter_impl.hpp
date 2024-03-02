@@ -134,5 +134,3 @@ inline ::StringW System::Runtime::Serialization::IFormatterConverter::ToString(:
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::IFormatterConverter*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -19,5 +19,3 @@ template <typename TEventType> inline void UnityEngine::UIElements::EventCallbac
 }
 // Ctor Parameters []
 template <typename TEventType> constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType>::EventCallback_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

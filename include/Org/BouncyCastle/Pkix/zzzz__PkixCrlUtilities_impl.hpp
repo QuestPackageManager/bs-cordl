@@ -98,5 +98,3 @@ inline void Org::BouncyCastle::Pkix::PkixCrlUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixCrlUtilities::PkixCrlUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

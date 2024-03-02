@@ -55,5 +55,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups::JPakePrimeOrderGroups() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

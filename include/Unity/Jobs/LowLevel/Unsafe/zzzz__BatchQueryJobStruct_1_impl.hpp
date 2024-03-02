@@ -15,5 +15,3 @@ template <typename T> inline void* Unity::Jobs::LowLevel::Unsafe::BatchQueryJobS
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Unity::Jobs::LowLevel::Unsafe::BatchQueryJobStruct_1<T>::BatchQueryJobStruct_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

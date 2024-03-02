@@ -58,5 +58,3 @@ constexpr ::HoudiniEngineUnity::HAPI_TransformEuler::HAPI_TransformEuler(::Array
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_TransformEuler::HAPI_TransformEuler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

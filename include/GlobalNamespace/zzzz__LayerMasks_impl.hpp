@@ -126,5 +126,3 @@ inline void GlobalNamespace::LayerMasks::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LayerMasks::LayerMasks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

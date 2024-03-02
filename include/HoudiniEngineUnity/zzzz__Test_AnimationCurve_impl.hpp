@@ -99,5 +99,3 @@ inline bool HoudiniEngineUnity::Test_AnimationCurve::IsEquivalentTo(::HoudiniEng
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_AnimationCurve::Test_AnimationCurve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

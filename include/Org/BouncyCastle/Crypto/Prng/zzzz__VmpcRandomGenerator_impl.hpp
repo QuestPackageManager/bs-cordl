@@ -158,5 +158,3 @@ inline void Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::NextBytes(::Ar
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator::VmpcRandomGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -505,5 +505,3 @@ inline void UnityEngine::Timeline::SignalReceiver::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::SignalReceiver::SignalReceiver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

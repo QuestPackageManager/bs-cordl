@@ -192,5 +192,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::Issu
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber::IssuerAndSerialNumber() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

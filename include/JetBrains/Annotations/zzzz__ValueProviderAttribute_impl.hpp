@@ -79,5 +79,3 @@ inline void JetBrains::Annotations::ValueProviderAttribute::set_Name(::StringW v
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::ValueProviderAttribute::ValueProviderAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

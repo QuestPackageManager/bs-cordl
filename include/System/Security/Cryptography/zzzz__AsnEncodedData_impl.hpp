@@ -417,5 +417,3 @@ inline ::StringW System::Security::Cryptography::AsnEncodedData::NetscapeCertTyp
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::AsnEncodedData::AsnEncodedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

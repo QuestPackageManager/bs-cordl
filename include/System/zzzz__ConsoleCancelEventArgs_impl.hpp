@@ -91,5 +91,3 @@ inline void System::ConsoleCancelEventArgs::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ConsoleCancelEventArgs::ConsoleCancelEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

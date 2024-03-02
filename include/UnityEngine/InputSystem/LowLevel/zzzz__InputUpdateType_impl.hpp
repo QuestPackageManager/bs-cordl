@@ -13,5 +13,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType UnityEngine::Inp
 constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType UnityEngine::InputSystem::LowLevel::InputUpdateType::Editor{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType UnityEngine::InputSystem::LowLevel::InputUpdateType::Manual{ static_cast<int32_t>(0x10) };
 constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateType UnityEngine::InputSystem::LowLevel::InputUpdateType::Default{ static_cast<int32_t>(0xb) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

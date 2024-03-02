@@ -57,5 +57,3 @@ inline ::StringW UnityEngine::AndroidJavaException::get_StackTrace() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJavaException::AndroidJavaException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

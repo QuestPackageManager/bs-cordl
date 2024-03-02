@@ -78,5 +78,3 @@ inline void UnityEngine::Timeline::ActivationPlayableAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::ActivationPlayableAsset::ActivationPlayableAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

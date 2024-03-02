@@ -180,5 +180,3 @@ inline void Org::BouncyCastle::Bcpg::SignatureSubpacket::Encode(::System::IO::St
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacket::SignatureSubpacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

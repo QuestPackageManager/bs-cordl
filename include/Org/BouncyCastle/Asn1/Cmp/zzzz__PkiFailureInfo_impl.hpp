@@ -73,5 +73,3 @@ inline ::StringW Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo::PkiFailureInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

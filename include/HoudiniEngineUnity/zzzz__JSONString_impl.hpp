@@ -198,5 +198,3 @@ inline int32_t HoudiniEngineUnity::JSONString::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::JSONString::JSONString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

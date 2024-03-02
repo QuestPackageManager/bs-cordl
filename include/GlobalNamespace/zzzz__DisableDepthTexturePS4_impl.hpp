@@ -37,5 +37,3 @@ inline void GlobalNamespace::DisableDepthTexturePS4::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisableDepthTexturePS4::DisableDepthTexturePS4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

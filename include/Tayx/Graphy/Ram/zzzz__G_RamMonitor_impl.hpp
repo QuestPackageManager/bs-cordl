@@ -210,5 +210,3 @@ inline void Tayx::Graphy::Ram::G_RamMonitor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Ram::G_RamMonitor::G_RamMonitor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

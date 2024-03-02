@@ -223,5 +223,3 @@ inline bool Newtonsoft::Json::Converters::StringEnumConverter::CanConvert(::Syst
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::StringEnumConverter::StringEnumConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

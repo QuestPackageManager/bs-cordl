@@ -8,5 +8,3 @@ constexpr ::System::IO::SearchOption::SearchOption(int32_t value__) noexcept {
 constexpr ::System::IO::SearchOption::SearchOption() {}
 constexpr ::System::IO::SearchOption System::IO::SearchOption::TopDirectoryOnly{ static_cast<int32_t>(0x0) };
 constexpr ::System::IO::SearchOption System::IO::SearchOption::AllDirectories{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

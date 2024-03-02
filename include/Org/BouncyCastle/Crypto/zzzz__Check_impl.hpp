@@ -94,5 +94,3 @@ inline void Org::BouncyCastle::Crypto::Check::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Check::Check() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

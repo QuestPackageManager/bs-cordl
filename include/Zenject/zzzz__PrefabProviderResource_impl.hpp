@@ -67,5 +67,3 @@ inline ::UnityW<::UnityEngine::Object> Zenject::PrefabProviderResource::GetPrefa
 }
 // Ctor Parameters []
 constexpr ::Zenject::PrefabProviderResource::PrefabProviderResource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -3779,5 +3779,3 @@ inline void UnityEngine::Shader::GetPropertyDefaultValue_Injected(::UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Shader::Shader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::System::Net::Security::SslPolicyErrors System::Net::Security::SslPol
 constexpr ::System::Net::Security::SslPolicyErrors System::Net::Security::SslPolicyErrors::RemoteCertificateNotAvailable{ static_cast<int32_t>(0x1) };
 constexpr ::System::Net::Security::SslPolicyErrors System::Net::Security::SslPolicyErrors::RemoteCertificateNameMismatch{ static_cast<int32_t>(0x2) };
 constexpr ::System::Net::Security::SslPolicyErrors System::Net::Security::SslPolicyErrors::RemoteCertificateChainErrors{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

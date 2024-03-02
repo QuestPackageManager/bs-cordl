@@ -819,5 +819,3 @@ inline ::System::Collections::IDictionaryEnumerator* System::Runtime::Remoting::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary::MessageDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

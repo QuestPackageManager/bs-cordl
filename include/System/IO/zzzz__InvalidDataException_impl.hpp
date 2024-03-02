@@ -76,5 +76,3 @@ inline void System::IO::InvalidDataException::_ctor(::System::Runtime::Serializa
 }
 // Ctor Parameters []
 constexpr ::System::IO::InvalidDataException::InvalidDataException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

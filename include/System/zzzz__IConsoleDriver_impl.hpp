@@ -20,5 +20,3 @@ inline ::System::ConsoleKeyInfo System::IConsoleDriver::ReadKey(bool intercept) 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IConsoleDriver*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::ConsoleKeyInfo, false>(this, ___internal_method, intercept);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

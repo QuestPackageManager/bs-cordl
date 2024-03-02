@@ -10,5 +10,3 @@ constexpr ::BeatmapSaveDataVersion4::EventBox::EventBox(int32_t f, int32_t e, ::
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::EventBox::EventBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

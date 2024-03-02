@@ -173,5 +173,3 @@ inline void GlobalNamespace::TrailElement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TrailElement::TrailElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

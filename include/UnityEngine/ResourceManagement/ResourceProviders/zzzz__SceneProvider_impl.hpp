@@ -787,5 +787,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::SceneProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

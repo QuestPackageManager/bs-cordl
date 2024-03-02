@@ -149,5 +149,3 @@ inline ::System::Security::Cryptography::ICryptoTransform* System::Security::Cry
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RijndaelManaged::RijndaelManaged() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

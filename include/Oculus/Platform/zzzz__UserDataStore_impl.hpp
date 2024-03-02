@@ -178,5 +178,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserDataStoreUp
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::UserDataStore::UserDataStore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

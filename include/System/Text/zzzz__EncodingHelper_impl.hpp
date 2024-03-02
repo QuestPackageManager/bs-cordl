@@ -111,5 +111,3 @@ inline ::System::Object* System::Text::EncodingHelper::InvokeI18N(::StringW name
 }
 // Ctor Parameters []
 constexpr ::System::Text::EncodingHelper::EncodingHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

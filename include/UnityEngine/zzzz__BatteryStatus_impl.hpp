@@ -11,5 +11,3 @@ constexpr ::UnityEngine::BatteryStatus UnityEngine::BatteryStatus::Charging{ sta
 constexpr ::UnityEngine::BatteryStatus UnityEngine::BatteryStatus::Discharging{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::BatteryStatus UnityEngine::BatteryStatus::NotCharging{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::BatteryStatus UnityEngine::BatteryStatus::Full{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

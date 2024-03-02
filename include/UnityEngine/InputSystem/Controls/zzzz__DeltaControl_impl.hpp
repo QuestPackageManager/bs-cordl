@@ -259,5 +259,3 @@ inline void UnityEngine::InputSystem::Controls::DeltaControl::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::DeltaControl::DeltaControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

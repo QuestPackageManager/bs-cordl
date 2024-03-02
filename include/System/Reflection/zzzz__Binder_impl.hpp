@@ -173,5 +173,3 @@ inline ::System::Reflection::PropertyInfo* System::Reflection::Binder::SelectPro
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Binder::Binder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

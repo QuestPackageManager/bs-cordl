@@ -395,5 +395,3 @@ inline void System::Security::Cryptography::SHA256Managed::SHA256Expand(::cordl_
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::SHA256Managed::SHA256Managed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

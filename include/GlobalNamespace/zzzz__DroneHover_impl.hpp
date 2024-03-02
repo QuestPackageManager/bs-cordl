@@ -295,5 +295,3 @@ inline void GlobalNamespace::DroneHover::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DroneHover::DroneHover() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

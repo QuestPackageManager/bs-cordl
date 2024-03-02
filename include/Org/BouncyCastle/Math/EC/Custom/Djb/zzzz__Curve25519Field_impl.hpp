@@ -586,5 +586,3 @@ inline void Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Field::Curve25519Field() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

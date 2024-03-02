@@ -461,5 +461,3 @@ inline void UnityEngine::UI::GridLayoutGroup::SetCellsAlongAxis(int32_t axis) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::GridLayoutGroup::GridLayoutGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

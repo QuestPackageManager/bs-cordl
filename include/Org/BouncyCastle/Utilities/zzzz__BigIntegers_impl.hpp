@@ -166,5 +166,3 @@ inline void Org::BouncyCastle::Utilities::BigIntegers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::BigIntegers::BigIntegers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

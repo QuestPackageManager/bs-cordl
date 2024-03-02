@@ -15,5 +15,3 @@ constexpr ::UnityEngine::UIElements::TextVertex::TextVertex(::UnityEngine::Vecto
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextVertex::TextVertex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

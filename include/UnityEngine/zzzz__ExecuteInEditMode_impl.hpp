@@ -24,5 +24,3 @@ inline void UnityEngine::ExecuteInEditMode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ExecuteInEditMode::ExecuteInEditMode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

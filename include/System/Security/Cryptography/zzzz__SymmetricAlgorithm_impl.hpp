@@ -695,5 +695,3 @@ inline void System::Security::Cryptography::SymmetricAlgorithm::GenerateIV() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::SymmetricAlgorithm::SymmetricAlgorithm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -70,5 +70,3 @@ inline ::GlobalNamespace::BeatmapObjectData* BeatmapDataLoaderVersion4::Obstacle
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::ObstacleItemConverter::ObstacleItemConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

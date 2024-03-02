@@ -2378,5 +2378,3 @@ inline void System::ComponentModel::TypeDescriptor::SortDescriptorArray(::System
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::TypeDescriptor::TypeDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

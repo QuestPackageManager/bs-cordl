@@ -11,5 +11,3 @@ inline ::System::TimeSpan System::Threading::Timeout::getStaticF_InfiniteTimeSpa
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Timeout::Timeout() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

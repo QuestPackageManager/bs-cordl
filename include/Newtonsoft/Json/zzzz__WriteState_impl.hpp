@@ -13,5 +13,3 @@ constexpr ::Newtonsoft::Json::WriteState Newtonsoft::Json::WriteState::Array{ st
 constexpr ::Newtonsoft::Json::WriteState Newtonsoft::Json::WriteState::Constructor{ static_cast<int32_t>(0x4) };
 constexpr ::Newtonsoft::Json::WriteState Newtonsoft::Json::WriteState::Property{ static_cast<int32_t>(0x5) };
 constexpr ::Newtonsoft::Json::WriteState Newtonsoft::Json::WriteState::Start{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

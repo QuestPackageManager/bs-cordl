@@ -24,5 +24,3 @@ inline ::UnityEngine::AudioType GlobalNamespace::AudioTypeHelper::GetAudioTypeFr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioTypeHelper::AudioTypeHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

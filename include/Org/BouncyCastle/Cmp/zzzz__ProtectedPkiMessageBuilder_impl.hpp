@@ -449,5 +449,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Cmp::ProtectedPki
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder::ProtectedPkiMessageBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

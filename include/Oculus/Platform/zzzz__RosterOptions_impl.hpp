@@ -114,5 +114,3 @@ inline void Oculus::Platform::RosterOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::RosterOptions::RosterOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

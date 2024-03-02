@@ -223,5 +223,3 @@ inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::_ct
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::EditAvatarAnalytics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

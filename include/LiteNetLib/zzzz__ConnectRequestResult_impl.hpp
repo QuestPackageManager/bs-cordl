@@ -10,5 +10,3 @@ constexpr ::LiteNetLib::ConnectRequestResult LiteNetLib::ConnectRequestResult::N
 constexpr ::LiteNetLib::ConnectRequestResult LiteNetLib::ConnectRequestResult::P2PLose{ static_cast<int32_t>(0x1) };
 constexpr ::LiteNetLib::ConnectRequestResult LiteNetLib::ConnectRequestResult::Reconnection{ static_cast<int32_t>(0x2) };
 constexpr ::LiteNetLib::ConnectRequestResult LiteNetLib::ConnectRequestResult::NewConnection{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

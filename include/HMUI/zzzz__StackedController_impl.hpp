@@ -251,5 +251,3 @@ inline void HMUI::StackedController::_PushViewController_g__AnimationLayouter_3_
 }
 // Ctor Parameters []
 constexpr ::HMUI::StackedController::StackedController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

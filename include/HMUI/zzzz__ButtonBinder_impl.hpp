@@ -175,5 +175,3 @@ inline void HMUI::ButtonBinder::ClearBindings() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ButtonBinder::ButtonBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

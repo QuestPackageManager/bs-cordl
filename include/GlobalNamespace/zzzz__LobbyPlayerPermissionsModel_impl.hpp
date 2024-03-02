@@ -462,5 +462,3 @@ inline void GlobalNamespace::LobbyPlayerPermissionsModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel::LobbyPlayerPermissionsModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

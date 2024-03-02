@@ -46,5 +46,3 @@ inline ::StringW System::Xml::Res::GetString(::StringW name, ::ArrayW<::System::
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Res::Res() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

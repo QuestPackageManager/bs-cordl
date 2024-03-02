@@ -70,5 +70,3 @@ inline void GlobalNamespace::BombExecutionRating::_ctor(float_t time, ::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BombExecutionRating::BombExecutionRating() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

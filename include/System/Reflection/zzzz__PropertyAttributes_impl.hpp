@@ -14,5 +14,3 @@ constexpr ::System::Reflection::PropertyAttributes System::Reflection::PropertyA
 constexpr ::System::Reflection::PropertyAttributes System::Reflection::PropertyAttributes::Reserved3{ static_cast<int32_t>(0x4000) };
 constexpr ::System::Reflection::PropertyAttributes System::Reflection::PropertyAttributes::Reserved4{ static_cast<int32_t>(0x8000) };
 constexpr ::System::Reflection::PropertyAttributes System::Reflection::PropertyAttributes::ReservedMask{ static_cast<int32_t>(0xf400) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1108,5 +1108,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Pkcs::Pkcs12Store
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkcs::Pkcs12Store::Pkcs12Store() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -149,5 +149,3 @@ Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::LookupParameters(:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::Gost3410KeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

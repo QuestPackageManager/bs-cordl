@@ -66,5 +66,3 @@ inline void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::_ctor(bool use
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData::BeatmapEditorGameplaySceneSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

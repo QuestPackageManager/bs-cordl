@@ -178,5 +178,3 @@ inline ::UnityEngine::Vector3 GlobalNamespace::BeatmapObjectAvoidancePathEvaluat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::BeatmapObjectAvoidancePathEvaluator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -143,5 +143,3 @@ inline void HoudiniEngineUnity::HEU_RenderingPipelineDefines::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_RenderingPipelineDefines::HEU_RenderingPipelineDefines() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

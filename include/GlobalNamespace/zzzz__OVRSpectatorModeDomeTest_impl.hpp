@@ -548,5 +548,3 @@ inline void GlobalNamespace::OVRSpectatorModeDomeTest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSpectatorModeDomeTest::OVRSpectatorModeDomeTest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

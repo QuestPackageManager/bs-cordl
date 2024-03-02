@@ -25,5 +25,3 @@ inline void System::Diagnostics::Tracing::NonEventAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Tracing::NonEventAttribute::NonEventAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

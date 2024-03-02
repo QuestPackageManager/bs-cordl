@@ -22,5 +22,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalParseTyp
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE::EnvelopeEnd{ static_cast<int32_t>(0xa) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE::Body{ static_cast<int32_t>(0xb) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE::BodyEnd{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

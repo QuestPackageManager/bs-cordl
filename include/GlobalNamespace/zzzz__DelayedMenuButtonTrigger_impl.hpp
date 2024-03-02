@@ -164,5 +164,3 @@ inline void GlobalNamespace::DelayedMenuButtonTrigger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DelayedMenuButtonTrigger::DelayedMenuButtonTrigger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

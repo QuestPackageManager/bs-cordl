@@ -276,5 +276,3 @@ inline ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graph
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::GraphicRegistry::GraphicRegistry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

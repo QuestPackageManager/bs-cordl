@@ -53,5 +53,3 @@ inline bool System::Net::AutoWebProxyScriptEngine::GetProxies(::System::Uri* des
 }
 // Ctor Parameters []
 constexpr ::System::Net::AutoWebProxyScriptEngine::AutoWebProxyScriptEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

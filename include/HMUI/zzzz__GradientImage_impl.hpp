@@ -507,5 +507,3 @@ inline void HMUI::GradientImage::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::GradientImage::GradientImage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

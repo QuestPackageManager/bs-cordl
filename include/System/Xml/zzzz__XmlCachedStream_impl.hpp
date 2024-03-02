@@ -43,5 +43,3 @@ inline void System::Xml::XmlCachedStream::_ctor(::System::Uri* uri, ::System::IO
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlCachedStream::XmlCachedStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

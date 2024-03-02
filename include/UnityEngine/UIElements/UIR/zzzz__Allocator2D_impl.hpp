@@ -456,5 +456,3 @@ UnityEngine::UIElements::UIR::Allocator2D::BuildRowArray(int32_t maxRowHeight, i
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Allocator2D::Allocator2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

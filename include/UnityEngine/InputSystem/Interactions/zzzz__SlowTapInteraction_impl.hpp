@@ -157,5 +157,3 @@ inline void UnityEngine::InputSystem::Interactions::SlowTapInteraction::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Interactions::SlowTapInteraction::SlowTapInteraction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -525,5 +525,3 @@ inline ::StringW GlobalNamespace::PlayerDataFileModel::LoadCorrectedSongPackMask
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerDataFileModel::PlayerDataFileModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

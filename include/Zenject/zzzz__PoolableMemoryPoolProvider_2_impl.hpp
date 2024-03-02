@@ -59,5 +59,3 @@ inline void Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::GetAl
 }
 // Ctor Parameters []
 template <typename TContract, typename TMemoryPool> constexpr ::Zenject::PoolableMemoryPoolProvider_2<TContract, TMemoryPool>::PoolableMemoryPoolProvider_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

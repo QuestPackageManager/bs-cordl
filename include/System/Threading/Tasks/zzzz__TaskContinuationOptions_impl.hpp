@@ -21,5 +21,3 @@ constexpr ::System::Threading::Tasks::TaskContinuationOptions System::Threading:
 constexpr ::System::Threading::Tasks::TaskContinuationOptions System::Threading::Tasks::TaskContinuationOptions::OnlyOnFaulted{ static_cast<int32_t>(0x50000) };
 constexpr ::System::Threading::Tasks::TaskContinuationOptions System::Threading::Tasks::TaskContinuationOptions::OnlyOnCanceled{ static_cast<int32_t>(0x30000) };
 constexpr ::System::Threading::Tasks::TaskContinuationOptions System::Threading::Tasks::TaskContinuationOptions::ExecuteSynchronously{ static_cast<int32_t>(0x80000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

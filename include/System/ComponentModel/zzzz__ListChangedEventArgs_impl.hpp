@@ -94,5 +94,3 @@ inline void System::ComponentModel::ListChangedEventArgs::_ctor(::System::Compon
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ListChangedEventArgs::ListChangedEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

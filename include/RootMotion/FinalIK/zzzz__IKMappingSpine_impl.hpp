@@ -457,5 +457,3 @@ inline void RootMotion::FinalIK::IKMappingSpine::MapToSolverPositions(::RootMoti
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::IKMappingSpine::IKMappingSpine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

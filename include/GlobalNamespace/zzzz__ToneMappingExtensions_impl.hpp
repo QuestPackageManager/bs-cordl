@@ -33,5 +33,3 @@ inline void GlobalNamespace::ToneMappingExtensions::SetShaderKeyword(::GlobalNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ToneMappingExtensions::ToneMappingExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

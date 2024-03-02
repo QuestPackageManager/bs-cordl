@@ -52,5 +52,3 @@ inline void Org::BouncyCastle::Asn1::X509::ReasonFlags::_ctor(::Org::BouncyCastl
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::ReasonFlags::ReasonFlags() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

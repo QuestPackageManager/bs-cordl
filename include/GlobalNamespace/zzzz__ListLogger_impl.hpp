@@ -331,5 +331,3 @@ inline void GlobalNamespace::ListLogger::LogException(::System::Exception* excep
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ListLogger::ListLogger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

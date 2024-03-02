@@ -89,5 +89,3 @@ inline void GlobalNamespace::BeatmapEditorSceneSetupData::_ctor(::StringW levelD
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEditorSceneSetupData::BeatmapEditorSceneSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTy
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE::Empty{ static_cast<int32_t>(0x0) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE::Object{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE::Array{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

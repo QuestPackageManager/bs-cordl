@@ -967,5 +967,3 @@ template <typename T> inline bool LiteNetLib::Utils::NetPacketProcessor::RemoveS
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::NetPacketProcessor::NetPacketProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::OVR::OpenVR::EOverlayDirection OVR::OpenVR::EOverlayDirection::Down{
 constexpr ::OVR::OpenVR::EOverlayDirection OVR::OpenVR::EOverlayDirection::Left{ static_cast<int32_t>(0x2) };
 constexpr ::OVR::OpenVR::EOverlayDirection OVR::OpenVR::EOverlayDirection::Right{ static_cast<int32_t>(0x3) };
 constexpr ::OVR::OpenVR::EOverlayDirection OVR::OpenVR::EOverlayDirection::Count{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

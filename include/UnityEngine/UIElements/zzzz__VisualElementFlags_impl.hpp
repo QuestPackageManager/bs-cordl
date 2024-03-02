@@ -20,5 +20,3 @@ constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements:
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::HierarchyDisplayed{ static_cast<int32_t>(0x800) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::StyleInitialized{ static_cast<int32_t>(0x1000) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::Init{ static_cast<int32_t>(0x81f) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

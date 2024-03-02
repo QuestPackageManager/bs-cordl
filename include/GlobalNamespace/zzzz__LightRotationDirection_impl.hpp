@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::LightRotationDirection::LightRotationDirection() {}
 constexpr ::GlobalNamespace::LightRotationDirection GlobalNamespace::LightRotationDirection::Automatic{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::LightRotationDirection GlobalNamespace::LightRotationDirection::Clockwise{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::LightRotationDirection GlobalNamespace::LightRotationDirection::Counterclockwise{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

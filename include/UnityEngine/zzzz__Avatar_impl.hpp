@@ -521,5 +521,3 @@ inline void UnityEngine::Avatar::Internal_GetLimitSign_Injected(int32_t humanId,
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Avatar::Avatar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

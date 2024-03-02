@@ -40,5 +40,3 @@ inline void System::Runtime::CompilerServices::AsyncMethodBuilderAttribute::_cto
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute::AsyncMethodBuilderAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

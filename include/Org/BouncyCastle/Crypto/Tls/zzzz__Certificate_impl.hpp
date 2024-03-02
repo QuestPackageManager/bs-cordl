@@ -205,5 +205,3 @@ Org::BouncyCastle::Crypto::Tls::Certificate::CloneCertificateList() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate::Certificate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

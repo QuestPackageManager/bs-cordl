@@ -110,5 +110,3 @@ inline void Meta::XR::Samples::SampleMetadata::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Meta::XR::Samples::SampleMetadata::SampleMetadata() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

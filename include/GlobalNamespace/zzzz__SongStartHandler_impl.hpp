@@ -351,5 +351,3 @@ inline void GlobalNamespace::SongStartHandler::Log(::StringW message) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongStartHandler::SongStartHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -121,5 +121,3 @@ inline void Newtonsoft::Json::JsonArrayAttribute::_ctor(::StringW id) {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonArrayAttribute::JsonArrayAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

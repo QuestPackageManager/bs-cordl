@@ -14,5 +14,3 @@ constexpr ::UnityEngine::Rendering::CullingOptions UnityEngine::Rendering::Culli
 constexpr ::UnityEngine::Rendering::CullingOptions UnityEngine::Rendering::CullingOptions::Stereo{ static_cast<int32_t>(0x10) };
 constexpr ::UnityEngine::Rendering::CullingOptions UnityEngine::Rendering::CullingOptions::DisablePerObjectCulling{ static_cast<int32_t>(0x20) };
 constexpr ::UnityEngine::Rendering::CullingOptions UnityEngine::Rendering::CullingOptions::ShadowCasters{ static_cast<int32_t>(0x40) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

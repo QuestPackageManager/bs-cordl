@@ -56,5 +56,3 @@ inline void GlobalNamespace::ColorManagerInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorManagerInstaller::ColorManagerInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

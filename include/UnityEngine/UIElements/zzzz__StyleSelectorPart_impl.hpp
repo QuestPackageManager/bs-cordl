@@ -154,5 +154,3 @@ constexpr ::UnityEngine::UIElements::StyleSelectorPart::StyleSelectorPart(::Stri
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSelectorPart::StyleSelectorPart() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

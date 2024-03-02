@@ -245,5 +245,3 @@ inline void Org::BouncyCastle::Math::EC::Rfc7748::X25519::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Rfc7748::X25519::X25519() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

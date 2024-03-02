@@ -24,5 +24,3 @@ inline void HoudiniEngineUnity::HEU_SessionHAPI::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_SessionHAPI::HEU_SessionHAPI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

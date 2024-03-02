@@ -468,5 +468,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X9::X9ECP
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X9::X9ECParameters::X9ECParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

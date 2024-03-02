@@ -9,5 +9,3 @@ constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle::Form
 constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle System::Runtime::Serialization::Formatters::FormatterTypeStyle::TypesWhenNeeded{ static_cast<int32_t>(0x0) };
 constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle System::Runtime::Serialization::Formatters::FormatterTypeStyle::TypesAlways{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle System::Runtime::Serialization::Formatters::FormatterTypeStyle::XsdString{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

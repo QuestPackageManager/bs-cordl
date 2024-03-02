@@ -1248,5 +1248,3 @@ inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* Mode
 }
 // Ctor Parameters []
 constexpr ::ModestTree::TypeExtensions::TypeExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

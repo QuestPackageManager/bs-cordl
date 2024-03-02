@@ -215,5 +215,3 @@ inline void TMPro::TMP_GlyphPairAdjustmentRecord::_ctor(::UnityEngine::TextCore:
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_GlyphPairAdjustmentRecord::TMP_GlyphPairAdjustmentRecord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

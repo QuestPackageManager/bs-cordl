@@ -176,5 +176,3 @@ inline void Org::BouncyCastle::Crypto::Tls::DtlsProtocol::ValidateSelectedCipher
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::DtlsProtocol() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -66,5 +66,3 @@ inline void HoudiniEngineUnity::HEU_AssetPresetUtility::LoadPresetFileIntoAssetA
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetPresetUtility::HEU_AssetPresetUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

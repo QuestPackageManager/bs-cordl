@@ -392,5 +392,3 @@ inline void GlobalNamespace::PS5AdvancedHapticsPlayerController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS5AdvancedHapticsPlayerController::PS5AdvancedHapticsPlayerController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

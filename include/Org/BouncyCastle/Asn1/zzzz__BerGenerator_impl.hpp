@@ -230,5 +230,3 @@ inline void Org::BouncyCastle::Asn1::BerGenerator::WriteBerEnd() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerGenerator::BerGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

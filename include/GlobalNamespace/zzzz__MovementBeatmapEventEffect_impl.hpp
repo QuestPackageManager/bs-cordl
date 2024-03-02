@@ -334,5 +334,3 @@ inline void GlobalNamespace::MovementBeatmapEventEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MovementBeatmapEventEffect::MovementBeatmapEventEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

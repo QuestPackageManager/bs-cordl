@@ -11,5 +11,3 @@ constexpr ::UnityEngine::Yoga::YogaJustify UnityEngine::Yoga::YogaJustify::Cente
 constexpr ::UnityEngine::Yoga::YogaJustify UnityEngine::Yoga::YogaJustify::FlexEnd{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Yoga::YogaJustify UnityEngine::Yoga::YogaJustify::SpaceBetween{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Yoga::YogaJustify UnityEngine::Yoga::YogaJustify::SpaceAround{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

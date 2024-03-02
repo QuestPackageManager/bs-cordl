@@ -143,5 +143,3 @@ inline ::UnityEngine::Vector3 UnityEngine::ProBuilder::ProBuilderSnapping::SnapV
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ProBuilderSnapping::ProBuilderSnapping() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -106,5 +106,3 @@ inline void System::Xml::XmlResolver::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlResolver::XmlResolver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

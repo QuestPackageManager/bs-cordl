@@ -8,5 +8,3 @@ constexpr ::UnityEngine::Rendering::CommandBufferExecutionFlags::CommandBufferEx
 constexpr ::UnityEngine::Rendering::CommandBufferExecutionFlags::CommandBufferExecutionFlags() {}
 constexpr ::UnityEngine::Rendering::CommandBufferExecutionFlags UnityEngine::Rendering::CommandBufferExecutionFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::CommandBufferExecutionFlags UnityEngine::Rendering::CommandBufferExecutionFlags::AsyncCompute{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

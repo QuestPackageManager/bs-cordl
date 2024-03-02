@@ -10,5 +10,3 @@ constexpr ::JetBrains::Annotations::CollectionAccessType JetBrains::Annotations:
 constexpr ::JetBrains::Annotations::CollectionAccessType JetBrains::Annotations::CollectionAccessType::Read{ static_cast<int32_t>(0x1) };
 constexpr ::JetBrains::Annotations::CollectionAccessType JetBrains::Annotations::CollectionAccessType::ModifyExistingContent{ static_cast<int32_t>(0x2) };
 constexpr ::JetBrains::Annotations::CollectionAccessType JetBrains::Annotations::CollectionAccessType::UpdatedContent{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

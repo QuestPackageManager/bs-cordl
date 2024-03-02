@@ -105,5 +105,3 @@ inline int32_t System::Text::EncoderExceptionFallback::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::EncoderExceptionFallback::EncoderExceptionFallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

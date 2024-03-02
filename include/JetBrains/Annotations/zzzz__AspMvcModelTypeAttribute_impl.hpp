@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::AspMvcModelTypeAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcModelTypeAttribute::AspMvcModelTypeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

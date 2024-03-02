@@ -202,5 +202,3 @@ inline ::System::Delegate* System::MulticastDelegate::RemoveImpl(::System::Deleg
 }
 // Ctor Parameters []
 constexpr ::System::MulticastDelegate::MulticastDelegate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

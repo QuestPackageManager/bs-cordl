@@ -206,5 +206,3 @@ inline void TMPro::TMP_FontFeatureTable::SortGlyphPairAdjustmentRecords() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_FontFeatureTable::TMP_FontFeatureTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

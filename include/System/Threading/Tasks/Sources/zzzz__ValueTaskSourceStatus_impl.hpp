@@ -10,5 +10,3 @@ constexpr ::System::Threading::Tasks::Sources::ValueTaskSourceStatus System::Thr
 constexpr ::System::Threading::Tasks::Sources::ValueTaskSourceStatus System::Threading::Tasks::Sources::ValueTaskSourceStatus::Succeeded{ static_cast<int32_t>(0x1) };
 constexpr ::System::Threading::Tasks::Sources::ValueTaskSourceStatus System::Threading::Tasks::Sources::ValueTaskSourceStatus::Faulted{ static_cast<int32_t>(0x2) };
 constexpr ::System::Threading::Tasks::Sources::ValueTaskSourceStatus System::Threading::Tasks::Sources::ValueTaskSourceStatus::Canceled{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -202,5 +202,3 @@ inline void Oculus::Platform::WindowsPlatform::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::WindowsPlatform::WindowsPlatform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

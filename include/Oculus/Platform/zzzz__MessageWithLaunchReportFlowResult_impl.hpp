@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::LaunchReportFlowResult* Oculus::Platform::Mes
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithLaunchReportFlowResult::MessageWithLaunchReportFlowResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

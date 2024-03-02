@@ -65,5 +65,3 @@ inline void UnityEngine::Timeline::GroupTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::GroupTrack::GroupTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

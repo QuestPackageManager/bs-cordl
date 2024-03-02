@@ -9,5 +9,3 @@ constexpr ::System::Xml::XmlSpace::XmlSpace() {}
 constexpr ::System::Xml::XmlSpace System::Xml::XmlSpace::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::XmlSpace System::Xml::XmlSpace::Default{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::XmlSpace System::Xml::XmlSpace::Preserve{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::LiteNetLib::NetLogLevel LiteNetLib::NetLogLevel::Warning{ static_cas
 constexpr ::LiteNetLib::NetLogLevel LiteNetLib::NetLogLevel::Error{ static_cast<int32_t>(0x1) };
 constexpr ::LiteNetLib::NetLogLevel LiteNetLib::NetLogLevel::Trace{ static_cast<int32_t>(0x2) };
 constexpr ::LiteNetLib::NetLogLevel LiteNetLib::NetLogLevel::Info{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

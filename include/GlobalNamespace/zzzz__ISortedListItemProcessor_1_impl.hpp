@@ -11,5 +11,3 @@ template <typename T> inline void GlobalNamespace::ISortedListItemProcessor_1<T>
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISortedListItemProcessor_1<T>*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nodeToDelete);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

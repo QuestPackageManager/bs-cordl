@@ -193,5 +193,3 @@ template <typename T> inline void UnityEngine::Pool::ObjectPool_1<T>::Dispose() 
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::Pool::ObjectPool_1<T>::ObjectPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -335,5 +335,3 @@ inline void GlobalNamespace::PerceivedLoudnessSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerceivedLoudnessSO::PerceivedLoudnessSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::UnityEngine::TouchPhase UnityEngine::TouchPhase::Moved{ static_cast<
 constexpr ::UnityEngine::TouchPhase UnityEngine::TouchPhase::Stationary{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TouchPhase UnityEngine::TouchPhase::Ended{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::TouchPhase UnityEngine::TouchPhase::Canceled{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

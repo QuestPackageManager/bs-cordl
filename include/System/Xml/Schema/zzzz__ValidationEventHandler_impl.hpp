@@ -50,5 +50,3 @@ inline void System::Xml::Schema::ValidationEventHandler::Invoke(::System::Object
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::ValidationEventHandler::ValidationEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

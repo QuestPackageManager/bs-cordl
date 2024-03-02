@@ -618,5 +618,3 @@ inline ::System::Array* System::Collections::__ArrayList__ReadOnlyArrayList::ToA
 }
 // Ctor Parameters []
 constexpr ::System::Collections::__ArrayList__ReadOnlyArrayList::__ArrayList__ReadOnlyArrayList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

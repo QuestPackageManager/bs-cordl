@@ -100,5 +100,3 @@ inline ::System::Xml::XmlNameTable* System::Xml::XmlImplementation::get_NameTabl
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlImplementation::XmlImplementation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

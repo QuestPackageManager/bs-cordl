@@ -176,5 +176,3 @@ Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::GetContentsOfAdmissions
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::AdmissionSyntax() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

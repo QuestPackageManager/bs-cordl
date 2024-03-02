@@ -244,5 +244,3 @@ constexpr ::HoudiniEngineUnity::HAPI_PartInfo::HAPI_PartInfo(int32_t id, int32_t
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_PartInfo::HAPI_PartInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

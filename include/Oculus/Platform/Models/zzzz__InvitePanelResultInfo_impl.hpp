@@ -39,5 +39,3 @@ inline void Oculus::Platform::Models::InvitePanelResultInfo::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::InvitePanelResultInfo::InvitePanelResultInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -254,5 +254,3 @@ inline void Org::BouncyCastle::Math::Raw::Interleave::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Raw::Interleave::Interleave() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

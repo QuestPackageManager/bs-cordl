@@ -11,5 +11,3 @@ constexpr ::Oculus::Platform::ChallengeViewerFilter Oculus::Platform::ChallengeV
 constexpr ::Oculus::Platform::ChallengeViewerFilter Oculus::Platform::ChallengeViewerFilter::Participating{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::ChallengeViewerFilter Oculus::Platform::ChallengeViewerFilter::Invited{ static_cast<int32_t>(0x3) };
 constexpr ::Oculus::Platform::ChallengeViewerFilter Oculus::Platform::ChallengeViewerFilter::ParticipatingOrInvited{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

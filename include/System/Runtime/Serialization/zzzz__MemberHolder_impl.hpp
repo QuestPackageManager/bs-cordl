@@ -99,5 +99,3 @@ inline bool System::Runtime::Serialization::MemberHolder::Equals(::System::Objec
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::MemberHolder::MemberHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -564,5 +564,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::PoolableManager::__zenCreateInjectTyp
 }
 // Ctor Parameters []
 constexpr ::Zenject::PoolableManager::PoolableManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

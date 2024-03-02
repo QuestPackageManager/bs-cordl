@@ -318,5 +318,3 @@ constexpr ::GlobalNamespace::SyncStateId::SyncStateId(uint8_t _id) noexcept {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SyncStateId::SyncStateId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

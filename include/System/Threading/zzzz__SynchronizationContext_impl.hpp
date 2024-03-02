@@ -333,5 +333,3 @@ inline ::System::Threading::SynchronizationContext* System::Threading::Synchroni
 }
 // Ctor Parameters []
 constexpr ::System::Threading::SynchronizationContext::SynchronizationContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

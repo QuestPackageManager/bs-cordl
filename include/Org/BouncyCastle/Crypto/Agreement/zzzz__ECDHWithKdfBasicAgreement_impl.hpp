@@ -102,5 +102,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Agreement
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::ECDHWithKdfBasicAgreement::ECDHWithKdfBasicAgreement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

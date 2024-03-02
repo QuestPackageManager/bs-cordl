@@ -61,5 +61,3 @@ inline void GlobalNamespace::HealthWarningSceneSetupData::_ctor(::GlobalNamespac
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HealthWarningSceneSetupData::HealthWarningSceneSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

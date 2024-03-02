@@ -251,5 +251,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Rsa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters::RsaesOaepParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

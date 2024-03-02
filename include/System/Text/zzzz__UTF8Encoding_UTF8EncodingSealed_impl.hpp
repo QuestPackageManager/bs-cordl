@@ -49,5 +49,3 @@ inline ::System::ReadOnlySpan_1<uint8_t> System::Text::__UTF8Encoding__UTF8Encod
 }
 // Ctor Parameters []
 constexpr ::System::Text::__UTF8Encoding__UTF8EncodingSealed::__UTF8Encoding__UTF8EncodingSealed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

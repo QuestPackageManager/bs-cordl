@@ -940,5 +940,3 @@ inline ::StringW UnityEngine::EventSystems::EventSystem::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::EventSystem::EventSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

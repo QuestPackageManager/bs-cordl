@@ -1265,5 +1265,3 @@ inline bool HoudiniEngineUnity::HEU_GeoNode::IsEquivalentTo(::HoudiniEngineUnity
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_GeoNode::HEU_GeoNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

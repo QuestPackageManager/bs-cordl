@@ -17,5 +17,3 @@ constexpr ::IgnoranceCore::IgnoranceServerStats::IgnoranceServerStats(uint64_t B
 }
 // Ctor Parameters []
 constexpr ::IgnoranceCore::IgnoranceServerStats::IgnoranceServerStats() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

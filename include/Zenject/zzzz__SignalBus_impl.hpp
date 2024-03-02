@@ -1229,5 +1229,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::SignalBus::__zenCreateInjectTypeInfo(
 }
 // Ctor Parameters []
 constexpr ::Zenject::SignalBus::SignalBus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

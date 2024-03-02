@@ -170,5 +170,3 @@ inline void System::ComponentModel::DecimalConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DecimalConverter::DecimalConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

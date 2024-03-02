@@ -143,5 +143,3 @@ inline void GlobalNamespace::GameLiftClientConnectionRequestHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameLiftClientConnectionRequestHandler::GameLiftClientConnectionRequestHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1092,5 +1092,3 @@ inline void UnityEngine::GUIUtility::set_compositionCursorPos_Injected(ByRef<::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUIUtility::GUIUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

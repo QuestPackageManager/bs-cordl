@@ -50,5 +50,3 @@ inline ::StringW UnityEngine::InputSystem::UI::ExtendedAxisEventData::ToString()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::ExtendedAxisEventData::ExtendedAxisEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

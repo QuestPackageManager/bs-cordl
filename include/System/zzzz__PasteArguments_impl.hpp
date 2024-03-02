@@ -46,5 +46,3 @@ inline bool System::PasteArguments::ContainsNoWhitespaceOrQuotes(::StringW s) {
 }
 // Ctor Parameters []
 constexpr ::System::PasteArguments::PasteArguments() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

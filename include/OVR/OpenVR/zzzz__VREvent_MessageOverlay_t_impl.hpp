@@ -6,5 +6,3 @@ constexpr ::OVR::OpenVR::VREvent_MessageOverlay_t::VREvent_MessageOverlay_t(uint
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_MessageOverlay_t::VREvent_MessageOverlay_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

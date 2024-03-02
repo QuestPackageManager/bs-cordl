@@ -190,5 +190,3 @@ inline void Org::BouncyCastle::Crypto::Digests::NullDigest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::NullDigest::NullDigest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

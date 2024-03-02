@@ -176,5 +176,3 @@ inline void System::Xml::Schema::Datatype_unsignedByte::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_unsignedByte::Datatype_unsignedByte() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

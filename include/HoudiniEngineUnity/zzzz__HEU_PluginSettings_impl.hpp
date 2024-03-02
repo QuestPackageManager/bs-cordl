@@ -2377,5 +2377,3 @@ inline void HoudiniEngineUnity::HEU_PluginSettings::set_ShortenFolderPaths(bool 
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_PluginSettings::HEU_PluginSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

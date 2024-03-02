@@ -247,5 +247,3 @@ inline ::UnityEngine::InputSystem::Utilities::InternedString UnityEngine::InputS
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::CommonUsages::CommonUsages() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

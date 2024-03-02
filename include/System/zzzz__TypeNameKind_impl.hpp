@@ -10,5 +10,3 @@ constexpr ::System::TypeNameKind System::TypeNameKind::Name{ static_cast<int32_t
 constexpr ::System::TypeNameKind System::TypeNameKind::ToString{ static_cast<int32_t>(0x1) };
 constexpr ::System::TypeNameKind System::TypeNameKind::SerializationName{ static_cast<int32_t>(0x2) };
 constexpr ::System::TypeNameKind System::TypeNameKind::FullName{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

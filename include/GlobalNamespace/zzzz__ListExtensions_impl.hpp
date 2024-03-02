@@ -25,5 +25,3 @@ template <typename T> inline void GlobalNamespace::ListExtensions::InsertIntoSor
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ListExtensions::ListExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

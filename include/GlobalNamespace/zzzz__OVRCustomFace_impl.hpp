@@ -261,5 +261,3 @@ inline void GlobalNamespace::OVRCustomFace::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRCustomFace::OVRCustomFace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

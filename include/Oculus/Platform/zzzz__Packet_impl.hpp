@@ -154,5 +154,3 @@ inline void Oculus::Platform::Packet::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Packet::Packet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

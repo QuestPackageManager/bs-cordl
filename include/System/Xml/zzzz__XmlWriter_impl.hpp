@@ -662,5 +662,3 @@ inline void System::Xml::XmlWriter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlWriter::XmlWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

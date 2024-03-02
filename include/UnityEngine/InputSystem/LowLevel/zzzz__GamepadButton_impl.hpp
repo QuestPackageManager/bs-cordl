@@ -30,5 +30,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::GamepadButton UnityEngine::Input
 constexpr ::UnityEngine::InputSystem::LowLevel::GamepadButton UnityEngine::InputSystem::LowLevel::GamepadButton::Square{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::InputSystem::LowLevel::GamepadButton UnityEngine::InputSystem::LowLevel::GamepadButton::Triangle{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::InputSystem::LowLevel::GamepadButton UnityEngine::InputSystem::LowLevel::GamepadButton::Circle{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -36,5 +36,3 @@ constexpr ::HoudiniEngineUnity::HAPI_NodeInfo::HAPI_NodeInfo(int32_t id, int32_t
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_NodeInfo::HAPI_NodeInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

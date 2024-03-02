@@ -11,5 +11,3 @@ constexpr ::Newtonsoft::Json::TypeNameHandling Newtonsoft::Json::TypeNameHandlin
 constexpr ::Newtonsoft::Json::TypeNameHandling Newtonsoft::Json::TypeNameHandling::Arrays{ static_cast<int32_t>(0x2) };
 constexpr ::Newtonsoft::Json::TypeNameHandling Newtonsoft::Json::TypeNameHandling::All{ static_cast<int32_t>(0x3) };
 constexpr ::Newtonsoft::Json::TypeNameHandling Newtonsoft::Json::TypeNameHandling::Auto{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

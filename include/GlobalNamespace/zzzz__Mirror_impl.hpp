@@ -279,5 +279,3 @@ inline void GlobalNamespace::Mirror::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Mirror::Mirror() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -315,5 +315,3 @@ inline bool System::Threading::ReaderWriterLock::HasWriterLock() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ReaderWriterLock::ReaderWriterLock() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

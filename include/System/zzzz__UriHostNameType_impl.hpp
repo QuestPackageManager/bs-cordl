@@ -11,5 +11,3 @@ constexpr ::System::UriHostNameType System::UriHostNameType::Basic{ static_cast<
 constexpr ::System::UriHostNameType System::UriHostNameType::Dns{ static_cast<int32_t>(0x2) };
 constexpr ::System::UriHostNameType System::UriHostNameType::IPv4{ static_cast<int32_t>(0x3) };
 constexpr ::System::UriHostNameType System::UriHostNameType::IPv6{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

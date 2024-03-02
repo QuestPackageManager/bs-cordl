@@ -674,5 +674,3 @@ inline ::System::Collections::IDictionary* Org::BouncyCastle::Crypto::Tls::Sessi
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::SessionParameters::SessionParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

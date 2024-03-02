@@ -59,5 +59,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord::SelectorM
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord::SelectorMatchRecord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -310,5 +310,3 @@ inline int32_t System::Security::Cryptography::X509Certificates::X509Certificate
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

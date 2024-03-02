@@ -3,5 +3,3 @@
 #include "System/Configuration/zzzz__ConfigurationElementCollection_def.hpp"
 // Ctor Parameters []
 constexpr ::System::Configuration::ConfigurationElementCollection::ConfigurationElementCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

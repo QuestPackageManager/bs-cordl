@@ -519,5 +519,3 @@ inline void UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEve
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::PlayerEditorConnectionEvents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

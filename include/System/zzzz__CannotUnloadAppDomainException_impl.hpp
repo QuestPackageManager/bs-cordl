@@ -76,5 +76,3 @@ inline void System::CannotUnloadAppDomainException::_ctor(::System::Runtime::Ser
 }
 // Ctor Parameters []
 constexpr ::System::CannotUnloadAppDomainException::CannotUnloadAppDomainException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

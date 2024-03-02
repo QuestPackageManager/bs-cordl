@@ -11,5 +11,3 @@ constexpr ::Oculus::Platform::PartyUpdateAction Oculus::Platform::PartyUpdateAct
 constexpr ::Oculus::Platform::PartyUpdateAction Oculus::Platform::PartyUpdateAction::Leave{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::PartyUpdateAction Oculus::Platform::PartyUpdateAction::Invite{ static_cast<int32_t>(0x3) };
 constexpr ::Oculus::Platform::PartyUpdateAction Oculus::Platform::PartyUpdateAction::Uninvite{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

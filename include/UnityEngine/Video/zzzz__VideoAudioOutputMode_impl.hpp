@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Video::VideoAudioOutputMode UnityEngine::Video::VideoAu
 constexpr ::UnityEngine::Video::VideoAudioOutputMode UnityEngine::Video::VideoAudioOutputMode::AudioSource{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Video::VideoAudioOutputMode UnityEngine::Video::VideoAudioOutputMode::Direct{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Video::VideoAudioOutputMode UnityEngine::Video::VideoAudioOutputMode::APIOnly{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

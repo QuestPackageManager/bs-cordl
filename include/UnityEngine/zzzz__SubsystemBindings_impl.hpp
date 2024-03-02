@@ -23,5 +23,3 @@ inline void UnityEngine::SubsystemBindings::DestroySubsystem(void* nativePtr) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SubsystemBindings::SubsystemBindings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

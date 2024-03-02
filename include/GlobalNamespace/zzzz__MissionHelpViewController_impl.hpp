@@ -253,5 +253,3 @@ inline void GlobalNamespace::MissionHelpViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionHelpViewController::MissionHelpViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

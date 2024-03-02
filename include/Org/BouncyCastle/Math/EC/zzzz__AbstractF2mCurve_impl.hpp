@@ -287,5 +287,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Math::EC::Abstr
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::AbstractF2mCurve::AbstractF2mCurve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

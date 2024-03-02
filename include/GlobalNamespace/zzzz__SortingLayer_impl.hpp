@@ -74,5 +74,3 @@ inline void GlobalNamespace::SortingLayer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SortingLayer::SortingLayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

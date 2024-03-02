@@ -2485,5 +2485,3 @@ inline ::UnityW<::UnityEngine::Texture2D> GlobalNamespace::OVRVirtualKeyboard::_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVirtualKeyboard::OVRVirtualKeyboard() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

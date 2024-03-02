@@ -1448,5 +1448,3 @@ inline ::UnityW<::UnityEngine::Transform> UnityEngine::UI::Graphic::UnityEngine_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Graphic::Graphic() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

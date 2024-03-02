@@ -683,5 +683,3 @@ inline float_t GlobalNamespace::Easing::BeatSaberInOutBounce(float_t t) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Easing::Easing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

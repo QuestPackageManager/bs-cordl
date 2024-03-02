@@ -157,5 +157,3 @@ inline void System::Runtime::ExceptionServices::ExceptionDispatchInfo::Throw(::S
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo::ExceptionDispatchInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

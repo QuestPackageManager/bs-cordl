@@ -129,5 +129,3 @@ constexpr ::GlobalNamespace::LastUsedBeatmapDataCache::LastUsedBeatmapDataCache(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LastUsedBeatmapDataCache::LastUsedBeatmapDataCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

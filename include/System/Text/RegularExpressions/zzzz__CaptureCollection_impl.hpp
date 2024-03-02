@@ -44,5 +44,3 @@ constexpr void System::Text::RegularExpressions::CaptureCollection::__cordl_inte
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::CaptureCollection::CaptureCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

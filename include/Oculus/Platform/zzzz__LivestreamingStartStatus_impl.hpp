@@ -12,5 +12,3 @@ constexpr ::Oculus::Platform::LivestreamingStartStatus Oculus::Platform::Livestr
 constexpr ::Oculus::Platform::LivestreamingStartStatus Oculus::Platform::LivestreamingStartStatus::NoFbConnect{ static_cast<int32_t>(0xfffffffe) };
 constexpr ::Oculus::Platform::LivestreamingStartStatus Oculus::Platform::LivestreamingStartStatus::NoSessionId{ static_cast<int32_t>(0xfffffffd) };
 constexpr ::Oculus::Platform::LivestreamingStartStatus Oculus::Platform::LivestreamingStartStatus::MissingParameters{ static_cast<int32_t>(0xfffffffc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

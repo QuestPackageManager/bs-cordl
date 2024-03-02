@@ -48,5 +48,3 @@ template <typename TItem, typename TPriority> inline void Priority_Queue::IFixed
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::IFixedSizePriorityQueue_2<TItem, TPriority>*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

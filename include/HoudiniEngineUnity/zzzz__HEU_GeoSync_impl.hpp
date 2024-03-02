@@ -57,5 +57,3 @@ inline void HoudiniEngineUnity::HEU_GeoSync::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_GeoSync::HEU_GeoSync() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

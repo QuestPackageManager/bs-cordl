@@ -507,5 +507,3 @@ inline void Org::BouncyCastle::Cms::CmsEnvelopedHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedHelper::CmsEnvelopedHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

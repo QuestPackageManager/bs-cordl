@@ -280,5 +280,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::CheckMinimumPr
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier::DefaultTlsDHVerifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

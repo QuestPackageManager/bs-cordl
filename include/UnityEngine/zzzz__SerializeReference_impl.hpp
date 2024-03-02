@@ -24,5 +24,3 @@ inline void UnityEngine::SerializeReference::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SerializeReference::SerializeReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

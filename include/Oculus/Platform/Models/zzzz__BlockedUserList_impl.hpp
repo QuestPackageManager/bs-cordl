@@ -27,5 +27,3 @@ inline void Oculus::Platform::Models::BlockedUserList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::BlockedUserList::BlockedUserList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

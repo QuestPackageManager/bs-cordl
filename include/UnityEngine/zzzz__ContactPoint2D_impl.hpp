@@ -25,5 +25,3 @@ constexpr ::UnityEngine::ContactPoint2D::ContactPoint2D(::UnityEngine::Vector2 m
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ContactPoint2D::ContactPoint2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

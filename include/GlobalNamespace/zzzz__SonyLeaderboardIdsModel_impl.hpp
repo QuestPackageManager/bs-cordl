@@ -88,5 +88,3 @@ inline uint32_t GlobalNamespace::SonyLeaderboardIdsModel::GetMaxId() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyLeaderboardIdsModel::SonyLeaderboardIdsModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

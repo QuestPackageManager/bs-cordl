@@ -31,5 +31,3 @@ constexpr ::UnityEngine::HumanDescription::HumanDescription(::ArrayW<::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::HumanDescription::HumanDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

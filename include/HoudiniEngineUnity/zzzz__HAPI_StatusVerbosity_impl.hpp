@@ -13,5 +13,3 @@ constexpr ::HoudiniEngineUnity::HAPI_StatusVerbosity HoudiniEngineUnity::HAPI_St
 constexpr ::HoudiniEngineUnity::HAPI_StatusVerbosity HoudiniEngineUnity::HAPI_StatusVerbosity::HAPI_STATUSVERBOSITY_ERRORS{ static_cast<int32_t>(0x0) };
 constexpr ::HoudiniEngineUnity::HAPI_StatusVerbosity HoudiniEngineUnity::HAPI_StatusVerbosity::HAPI_STATUSVERBOSITY_WARNINGS{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HAPI_StatusVerbosity HoudiniEngineUnity::HAPI_StatusVerbosity::HAPI_STATUSVERBOSITY_MESSAGES{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -87,5 +87,3 @@ inline void UnityEngine::Timeline::TimelineClipExtensions::MoveToTrack_Impl(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimelineClipExtensions::TimelineClipExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

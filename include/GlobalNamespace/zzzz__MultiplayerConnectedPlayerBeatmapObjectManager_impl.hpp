@@ -584,5 +584,3 @@ inline bool GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::Are
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::MultiplayerConnectedPlayerBeatmapObjectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

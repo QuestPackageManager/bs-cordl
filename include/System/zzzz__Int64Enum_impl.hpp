@@ -6,5 +6,3 @@ constexpr ::System::Int64Enum::Int64Enum(int64_t value__) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Int64Enum::Int64Enum() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

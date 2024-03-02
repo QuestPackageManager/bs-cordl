@@ -980,5 +980,3 @@ inline ::System::Array* System::Collections::ArrayList::ToArray(::System::Type* 
 }
 // Ctor Parameters []
 constexpr ::System::Collections::ArrayList::ArrayList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

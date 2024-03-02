@@ -285,5 +285,3 @@ inline void Org::BouncyCastle::Utilities::Zlib::Inflate::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::Inflate::Inflate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

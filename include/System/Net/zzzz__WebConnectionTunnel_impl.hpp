@@ -756,5 +756,3 @@ inline void System::Net::WebConnectionTunnel::FlushContents(::System::IO::Stream
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebConnectionTunnel::WebConnectionTunnel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

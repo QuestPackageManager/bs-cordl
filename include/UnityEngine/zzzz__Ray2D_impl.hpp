@@ -139,5 +139,3 @@ constexpr ::UnityEngine::Ray2D::Ray2D(::UnityEngine::Vector2 m_Origin, ::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Ray2D::Ray2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

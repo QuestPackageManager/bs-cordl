@@ -472,5 +472,3 @@ inline void GlobalNamespace::OVRSceneModelLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneModelLoader::OVRSceneModelLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

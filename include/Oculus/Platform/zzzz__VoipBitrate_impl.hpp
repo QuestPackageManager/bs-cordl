@@ -13,5 +13,3 @@ constexpr ::Oculus::Platform::VoipBitrate Oculus::Platform::VoipBitrate::B32000{
 constexpr ::Oculus::Platform::VoipBitrate Oculus::Platform::VoipBitrate::B64000{ static_cast<int32_t>(0x4) };
 constexpr ::Oculus::Platform::VoipBitrate Oculus::Platform::VoipBitrate::B96000{ static_cast<int32_t>(0x5) };
 constexpr ::Oculus::Platform::VoipBitrate Oculus::Platform::VoipBitrate::B128000{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

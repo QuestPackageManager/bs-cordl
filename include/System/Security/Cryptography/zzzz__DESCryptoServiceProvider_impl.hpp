@@ -119,5 +119,3 @@ inline void System::Security::Cryptography::DESCryptoServiceProvider::GenerateIV
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::DESCryptoServiceProvider::DESCryptoServiceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

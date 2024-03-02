@@ -167,5 +167,3 @@ HoudiniEngineUnity::Test_LODGroup_Extensions::ToTestObject(::System::Collections
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_LODGroup_Extensions::Test_LODGroup_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

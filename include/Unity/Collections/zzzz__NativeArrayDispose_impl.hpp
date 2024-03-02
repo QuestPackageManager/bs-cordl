@@ -28,5 +28,3 @@ constexpr ::Unity::Collections::NativeArrayDispose::NativeArrayDispose(::cordl_i
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::NativeArrayDispose::NativeArrayDispose() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

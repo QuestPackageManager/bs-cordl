@@ -251,5 +251,3 @@ inline ::GlobalNamespace::TrailElement* GlobalNamespace::TrailElementCollection:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TrailElementCollection::TrailElementCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

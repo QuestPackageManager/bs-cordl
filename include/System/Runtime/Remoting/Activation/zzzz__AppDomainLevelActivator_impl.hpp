@@ -110,5 +110,3 @@ System::Runtime::Remoting::Activation::AppDomainLevelActivator::Activate(::Syste
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Activation::AppDomainLevelActivator::AppDomainLevelActivator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

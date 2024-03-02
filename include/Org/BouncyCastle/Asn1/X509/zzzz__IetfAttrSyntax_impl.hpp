@@ -146,5 +146,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Iet
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::IetfAttrSyntax() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

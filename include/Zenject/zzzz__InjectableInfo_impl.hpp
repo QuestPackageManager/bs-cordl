@@ -111,5 +111,3 @@ inline void Zenject::InjectableInfo::_ctor(bool optional, ::System::Object* iden
 }
 // Ctor Parameters []
 constexpr ::Zenject::InjectableInfo::InjectableInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionA
 }
 // Ctor Parameters []
 constexpr ::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute::Il2CppEagerStaticClassConstructionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

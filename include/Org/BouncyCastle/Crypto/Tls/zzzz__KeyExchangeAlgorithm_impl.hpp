@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::KeyExchangeAlgorithm::KeyExchangeAlgorithm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

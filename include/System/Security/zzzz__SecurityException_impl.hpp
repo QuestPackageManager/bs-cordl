@@ -154,5 +154,3 @@ inline ::StringW System::Security::SecurityException::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::SecurityException::SecurityException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

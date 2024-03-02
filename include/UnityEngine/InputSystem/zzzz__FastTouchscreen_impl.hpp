@@ -7828,5 +7828,3 @@ UnityEngine::InputSystem::FastTouchscreen::Initialize_ctrlTouchscreentouch9start
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::FastTouchscreen::FastTouchscreen() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

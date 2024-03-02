@@ -118,5 +118,3 @@ inline void UnityEngine::AddressableAssets::PlatformMappingService::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::PlatformMappingService::PlatformMappingService() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

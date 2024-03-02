@@ -260,5 +260,3 @@ template <typename T> inline void System::Collections::Generic::Stack_1<T>::Thro
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::Stack_1<T>::Stack_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

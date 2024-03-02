@@ -93,5 +93,3 @@ inline void Org::BouncyCastle::Crypto::Tls::DatagramTransport::Send(::ArrayW<uin
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DatagramTransport*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buf, off, len);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

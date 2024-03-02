@@ -63,5 +63,3 @@ inline void HoudiniEngineUnity::HEU_TOPWorkResult::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_TOPWorkResult::HEU_TOPWorkResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -525,5 +525,3 @@ inline void GlobalNamespace::OVRExternalComposition::DisplayRefreshRateChanged(f
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRExternalComposition::OVRExternalComposition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

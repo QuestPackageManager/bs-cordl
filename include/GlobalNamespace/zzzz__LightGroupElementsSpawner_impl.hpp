@@ -61,5 +61,3 @@ inline void GlobalNamespace::LightGroupElementsSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroupElementsSpawner::LightGroupElementsSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

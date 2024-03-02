@@ -184,5 +184,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::P2T::Warmup() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::P2T::P2T() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

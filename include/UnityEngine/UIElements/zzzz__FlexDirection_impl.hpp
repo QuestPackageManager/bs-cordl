@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UIElements::FlexDirection UnityEngine::UIElements::Flex
 constexpr ::UnityEngine::UIElements::FlexDirection UnityEngine::UIElements::FlexDirection::ColumnReverse{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::FlexDirection UnityEngine::UIElements::FlexDirection::Row{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::FlexDirection UnityEngine::UIElements::FlexDirection::RowReverse{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

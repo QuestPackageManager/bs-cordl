@@ -229,5 +229,3 @@ inline ::Org::BouncyCastle::Crypto::IEntropySource* Org::BouncyCastle::Crypto::P
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider::BasicEntropySourceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

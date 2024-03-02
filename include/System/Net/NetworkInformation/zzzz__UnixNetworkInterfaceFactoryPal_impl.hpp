@@ -25,5 +25,3 @@ inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* System::Net::
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnixNetworkInterfaceFactoryPal::UnixNetworkInterfaceFactoryPal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

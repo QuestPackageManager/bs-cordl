@@ -84,5 +84,3 @@ inline void GlobalNamespace::BrowsingMenusRichPresenceData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData::BrowsingMenusRichPresenceData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

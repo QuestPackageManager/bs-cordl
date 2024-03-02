@@ -8,5 +8,3 @@ constexpr ::TMPro::TextRenderFlags::TextRenderFlags(int32_t value__) noexcept {
 constexpr ::TMPro::TextRenderFlags::TextRenderFlags() {}
 constexpr ::TMPro::TextRenderFlags TMPro::TextRenderFlags::DontRender{ static_cast<int32_t>(0x0) };
 constexpr ::TMPro::TextRenderFlags TMPro::TextRenderFlags::Render{ static_cast<int32_t>(0xff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

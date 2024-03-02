@@ -228,5 +228,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::get_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters::KdfCounterParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

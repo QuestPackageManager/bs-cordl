@@ -25,5 +25,3 @@ inline void Zenject::ZenjectAllowDuringValidationAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenjectAllowDuringValidationAttribute::ZenjectAllowDuringValidationAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

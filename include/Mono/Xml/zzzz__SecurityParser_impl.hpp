@@ -252,5 +252,3 @@ inline void Mono::Xml::SecurityParser::OnEndParsing(::Mono::Xml::SmallXmlParser*
 }
 // Ctor Parameters []
 constexpr ::Mono::Xml::SecurityParser::SecurityParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

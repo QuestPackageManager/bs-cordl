@@ -1188,5 +1188,3 @@ inline int32_t GlobalNamespace::NoteData::SubtypeIdentifier(::GlobalNamespace::C
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteData::NoteData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

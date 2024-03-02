@@ -643,5 +643,3 @@ inline void GlobalNamespace::ColorScheme::_ctor(::GlobalNamespace::ColorScheme* 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorScheme::ColorScheme() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

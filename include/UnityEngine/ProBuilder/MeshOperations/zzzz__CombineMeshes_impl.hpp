@@ -283,5 +283,3 @@ inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ProBuilder
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::CombineMeshes::CombineMeshes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

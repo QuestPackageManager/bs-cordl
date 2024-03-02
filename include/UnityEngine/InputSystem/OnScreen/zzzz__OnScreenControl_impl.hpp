@@ -358,5 +358,3 @@ inline void UnityEngine::InputSystem::OnScreen::OnScreenControl::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenControl::OnScreenControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

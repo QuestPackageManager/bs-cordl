@@ -180,5 +180,3 @@ inline void GlobalNamespace::ObstacleControllerBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObstacleControllerBase::ObstacleControllerBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

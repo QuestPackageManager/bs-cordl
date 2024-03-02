@@ -39,5 +39,3 @@ inline void Org::BouncyCastle::Crypto::Tls::ExtensionType::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ExtensionType::ExtensionType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

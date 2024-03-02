@@ -549,5 +549,3 @@ inline void System::Text::Normalization::load_normalization_resource(ByRef<void*
 }
 // Ctor Parameters []
 constexpr ::System::Text::Normalization::Normalization() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

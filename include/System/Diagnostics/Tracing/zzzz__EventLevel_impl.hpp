@@ -12,5 +12,3 @@ constexpr ::System::Diagnostics::Tracing::EventLevel System::Diagnostics::Tracin
 constexpr ::System::Diagnostics::Tracing::EventLevel System::Diagnostics::Tracing::EventLevel::Warning{ static_cast<int32_t>(0x3) };
 constexpr ::System::Diagnostics::Tracing::EventLevel System::Diagnostics::Tracing::EventLevel::Informational{ static_cast<int32_t>(0x4) };
 constexpr ::System::Diagnostics::Tracing::EventLevel System::Diagnostics::Tracing::EventLevel::Verbose{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

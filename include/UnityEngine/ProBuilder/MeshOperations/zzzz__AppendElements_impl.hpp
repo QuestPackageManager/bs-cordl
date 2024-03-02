@@ -858,5 +858,3 @@ inline ::UnityEngine::ProBuilder::Vertex* UnityEngine::ProBuilder::MeshOperation
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendElements() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

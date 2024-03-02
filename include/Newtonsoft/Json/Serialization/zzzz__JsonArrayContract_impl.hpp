@@ -555,5 +555,3 @@ inline ::System::Collections::IList* Newtonsoft::Json::Serialization::JsonArrayC
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonArrayContract::JsonArrayContract() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

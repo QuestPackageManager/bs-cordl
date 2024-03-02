@@ -128,5 +128,3 @@ inline void System::IO::UnexceptionalStreamWriter::Write(::StringW value) {
 }
 // Ctor Parameters []
 constexpr ::System::IO::UnexceptionalStreamWriter::UnexceptionalStreamWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

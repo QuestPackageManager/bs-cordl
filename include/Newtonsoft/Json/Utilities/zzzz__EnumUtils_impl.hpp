@@ -338,5 +338,3 @@ inline ::StringW Newtonsoft::Json::Utilities::EnumUtils::ResolvedEnumName(::Newt
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::EnumUtils::EnumUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

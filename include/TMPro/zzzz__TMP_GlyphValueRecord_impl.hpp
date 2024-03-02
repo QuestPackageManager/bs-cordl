@@ -250,5 +250,3 @@ constexpr ::TMPro::TMP_GlyphValueRecord::TMP_GlyphValueRecord(float_t m_XPlaceme
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_GlyphValueRecord::TMP_GlyphValueRecord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

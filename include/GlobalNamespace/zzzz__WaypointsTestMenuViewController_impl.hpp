@@ -753,5 +753,3 @@ inline void GlobalNamespace::WaypointsTestMenuViewController::_HandleMainGameSce
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::WaypointsTestMenuViewController::WaypointsTestMenuViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

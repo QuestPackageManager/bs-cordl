@@ -1151,5 +1151,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Xml::XmlEventCache::ToBytes(
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlEventCache::XmlEventCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

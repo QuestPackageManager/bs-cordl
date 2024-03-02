@@ -135,5 +135,3 @@ inline void UnityEngine::DebugLogHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::DebugLogHandler::DebugLogHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -39,5 +39,3 @@ inline void GlobalNamespace::GetXPlatformAccessTokenResponse::_ctor(::StringW ac
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GetXPlatformAccessTokenResponse::GetXPlatformAccessTokenResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

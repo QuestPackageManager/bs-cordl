@@ -25,5 +25,3 @@ inline void System::Runtime::InteropServices::PreserveSigAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::PreserveSigAttribute::PreserveSigAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

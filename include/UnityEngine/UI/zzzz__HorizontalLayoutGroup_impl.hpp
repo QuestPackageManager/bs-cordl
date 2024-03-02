@@ -103,5 +103,3 @@ inline void UnityEngine::UI::HorizontalLayoutGroup::SetLayoutVertical() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::HorizontalLayoutGroup::HorizontalLayoutGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

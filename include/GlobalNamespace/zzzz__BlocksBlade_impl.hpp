@@ -443,5 +443,3 @@ inline void GlobalNamespace::BlocksBlade::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BlocksBlade::BlocksBlade() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

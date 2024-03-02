@@ -26,5 +26,3 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> constexpr ::Zenject::Factory_4<TParam1, TParam2, TParam3, TValue>::Factory_4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

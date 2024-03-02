@@ -19,5 +19,3 @@ constexpr ::OVR::OpenVR::CameraVideoStreamFrameHeader_t::CameraVideoStreamFrameH
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CameraVideoStreamFrameHeader_t::CameraVideoStreamFrameHeader_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

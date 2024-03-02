@@ -106,5 +106,3 @@ inline void UnityEngine::XR::XRMeshSubsystem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::XRMeshSubsystem::XRMeshSubsystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

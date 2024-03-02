@@ -88,5 +88,3 @@ inline void Zenject::ZenMemberSetterMethod::EndInvoke(::System::IAsyncResult* re
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenMemberSetterMethod::ZenMemberSetterMethod() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

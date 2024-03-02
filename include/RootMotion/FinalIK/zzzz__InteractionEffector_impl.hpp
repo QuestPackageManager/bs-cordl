@@ -851,5 +851,3 @@ inline void RootMotion::FinalIK::InteractionEffector::OnPostFBBIK() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::InteractionEffector::InteractionEffector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

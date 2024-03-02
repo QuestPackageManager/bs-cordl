@@ -1399,5 +1399,3 @@ inline void System::Diagnostics::Process::RaiseOnExited() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Process::Process() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -933,5 +933,3 @@ UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectElements() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

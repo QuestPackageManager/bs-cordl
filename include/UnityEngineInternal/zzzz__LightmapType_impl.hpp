@@ -9,5 +9,3 @@ constexpr ::UnityEngineInternal::LightmapType::LightmapType() {}
 constexpr ::UnityEngineInternal::LightmapType UnityEngineInternal::LightmapType::NoLightmap{ static_cast<int32_t>(0xffffffff) };
 constexpr ::UnityEngineInternal::LightmapType UnityEngineInternal::LightmapType::StaticLightmap{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngineInternal::LightmapType UnityEngineInternal::LightmapType::DynamicLightmap{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

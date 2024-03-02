@@ -149,5 +149,3 @@ inline void GlobalNamespace::RecordingUIController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingUIController::RecordingUIController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

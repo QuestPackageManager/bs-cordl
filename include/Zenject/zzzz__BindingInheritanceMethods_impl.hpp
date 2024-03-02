@@ -11,5 +11,3 @@ constexpr ::Zenject::BindingInheritanceMethods Zenject::BindingInheritanceMethod
 constexpr ::Zenject::BindingInheritanceMethods Zenject::BindingInheritanceMethods::CopyDirectOnly{ static_cast<int32_t>(0x2) };
 constexpr ::Zenject::BindingInheritanceMethods Zenject::BindingInheritanceMethods::MoveIntoAll{ static_cast<int32_t>(0x3) };
 constexpr ::Zenject::BindingInheritanceMethods Zenject::BindingInheritanceMethods::MoveDirectOnly{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

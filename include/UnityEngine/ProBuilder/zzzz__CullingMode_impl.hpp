@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ProBuilder::CullingMode UnityEngine::ProBuilder::Cullin
 constexpr ::UnityEngine::ProBuilder::CullingMode UnityEngine::ProBuilder::CullingMode::Back{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::CullingMode UnityEngine::ProBuilder::CullingMode::Front{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ProBuilder::CullingMode UnityEngine::ProBuilder::CullingMode::FrontBack{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

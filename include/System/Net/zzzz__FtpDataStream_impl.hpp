@@ -605,5 +605,3 @@ inline void System::Net::FtpDataStream::SetSocketTimeoutOption(int32_t timeout) 
 }
 // Ctor Parameters []
 constexpr ::System::Net::FtpDataStream::FtpDataStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

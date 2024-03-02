@@ -357,5 +357,3 @@ inline void GlobalNamespace::LevelFailedTextOverride::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelFailedTextOverride::LevelFailedTextOverride() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

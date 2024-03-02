@@ -65,5 +65,3 @@ inline ::GlobalNamespace::BeatmapEventData* BeatmapDataLoaderVersion4::BpmEventC
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::BpmEventConverter::BpmEventConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

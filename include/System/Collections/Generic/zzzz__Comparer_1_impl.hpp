@@ -61,5 +61,3 @@ template <typename T> inline void System::Collections::Generic::Comparer_1<T>::_
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::Comparer_1<T>::Comparer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

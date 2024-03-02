@@ -407,5 +407,3 @@ Org::BouncyCastle::Asn1::Asn1EncodableVector::CloneElements(::ArrayW<::Org::Boun
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector::Asn1EncodableVector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

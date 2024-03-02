@@ -157,5 +157,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::BinaryMethodCall() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

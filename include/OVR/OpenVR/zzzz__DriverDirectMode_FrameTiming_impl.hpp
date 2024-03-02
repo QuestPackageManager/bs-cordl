@@ -13,5 +13,3 @@ constexpr ::OVR::OpenVR::DriverDirectMode_FrameTiming::DriverDirectMode_FrameTim
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::DriverDirectMode_FrameTiming::DriverDirectMode_FrameTiming() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -51,5 +51,3 @@ inline void System::ComponentModel::PropertyChangedEventHandler::Invoke(::System
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::PropertyChangedEventHandler::PropertyChangedEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -90,5 +90,3 @@ template <typename T> inline bool System::Runtime::InteropServices::MemoryMarsha
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::MemoryMarshal::MemoryMarshal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

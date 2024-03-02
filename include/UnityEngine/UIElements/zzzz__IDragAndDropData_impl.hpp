@@ -21,5 +21,3 @@ inline ::System::Object* UnityEngine::UIElements::IDragAndDropData::get_userData
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IDragAndDropData*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

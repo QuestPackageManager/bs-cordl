@@ -40,5 +40,3 @@ inline void Oculus::Platform::Models::SendInvitesResult::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::SendInvitesResult::SendInvitesResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

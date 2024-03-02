@@ -301,5 +301,3 @@ inline void GlobalNamespace::BeatmapCharacteristicsDropdown::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicsDropdown::BeatmapCharacteristicsDropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

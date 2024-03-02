@@ -124,5 +124,3 @@ inline void Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::AuthorityKeyIdentifierStructure() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

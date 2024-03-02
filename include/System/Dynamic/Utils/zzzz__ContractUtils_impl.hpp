@@ -22,5 +22,3 @@ inline ::System::Exception* System::Dynamic::Utils::ContractUtils::get_Unreachab
 }
 // Ctor Parameters []
 constexpr ::System::Dynamic::Utils::ContractUtils::ContractUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

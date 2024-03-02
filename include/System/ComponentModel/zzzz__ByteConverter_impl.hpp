@@ -107,5 +107,3 @@ inline void System::ComponentModel::ByteConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ByteConverter::ByteConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

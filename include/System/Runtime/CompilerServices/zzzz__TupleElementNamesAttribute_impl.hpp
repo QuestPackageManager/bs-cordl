@@ -40,5 +40,3 @@ inline void System::Runtime::CompilerServices::TupleElementNamesAttribute::_ctor
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::TupleElementNamesAttribute::TupleElementNamesAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

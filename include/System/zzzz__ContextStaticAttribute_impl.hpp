@@ -24,5 +24,3 @@ inline void System::ContextStaticAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ContextStaticAttribute::ContextStaticAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

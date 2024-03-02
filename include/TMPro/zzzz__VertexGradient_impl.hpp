@@ -60,5 +60,3 @@ constexpr ::TMPro::VertexGradient::VertexGradient(::UnityEngine::Color topLeft, 
 }
 // Ctor Parameters []
 constexpr ::TMPro::VertexGradient::VertexGradient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

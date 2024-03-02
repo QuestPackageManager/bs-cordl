@@ -360,5 +360,3 @@ inline float_t GlobalNamespace::BeatmapEventDataBox::EventDistributionParamToSte
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEventDataBox::BeatmapEventDataBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

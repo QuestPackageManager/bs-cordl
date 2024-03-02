@@ -276,5 +276,3 @@ inline void GlobalNamespace::MenuSceneSetup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuSceneSetup::MenuSceneSetup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

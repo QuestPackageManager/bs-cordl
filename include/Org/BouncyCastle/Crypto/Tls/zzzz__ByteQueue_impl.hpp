@@ -340,5 +340,3 @@ inline void Org::BouncyCastle::Crypto::Tls::ByteQueue::Shrink() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue::ByteQueue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

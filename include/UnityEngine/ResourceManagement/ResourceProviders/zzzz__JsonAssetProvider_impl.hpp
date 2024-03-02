@@ -51,5 +51,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvide
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::JsonAssetProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

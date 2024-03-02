@@ -28,5 +28,3 @@ inline void UnityEngine::AddressableAssets::AssetReferenceTexture2D::_ctor(::Str
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::AssetReferenceTexture2D::AssetReferenceTexture2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

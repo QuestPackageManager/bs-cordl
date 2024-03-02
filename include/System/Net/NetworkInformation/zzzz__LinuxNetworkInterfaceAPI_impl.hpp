@@ -93,5 +93,3 @@ inline void System::Net::NetworkInformation::LinuxNetworkInterfaceAPI::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::LinuxNetworkInterfaceAPI::LinuxNetworkInterfaceAPI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

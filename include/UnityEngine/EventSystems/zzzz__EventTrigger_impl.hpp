@@ -730,5 +730,3 @@ inline void UnityEngine::EventSystems::EventTrigger::OnCancel(::UnityEngine::Eve
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::EventTrigger::EventTrigger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -67,5 +67,3 @@ constexpr ::UnityEngine::Experimental::Playables::CameraPlayable::CameraPlayable
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::Playables::CameraPlayable::CameraPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -12,5 +12,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyValue::StylePrope
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyValue::StylePropertyValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

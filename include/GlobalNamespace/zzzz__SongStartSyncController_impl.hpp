@@ -433,5 +433,3 @@ inline void GlobalNamespace::SongStartSyncController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongStartSyncController::SongStartSyncController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

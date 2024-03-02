@@ -261,5 +261,3 @@ inline void GlobalNamespace::SonyAchievementIdsModelSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyAchievementIdsModelSO::SonyAchievementIdsModelSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

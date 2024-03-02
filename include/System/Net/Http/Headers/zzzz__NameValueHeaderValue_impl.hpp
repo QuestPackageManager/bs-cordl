@@ -378,5 +378,3 @@ inline bool System::Net::Http::Headers::NameValueHeaderValue::TryParseElement(::
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::NameValueHeaderValue::NameValueHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

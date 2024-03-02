@@ -171,5 +171,3 @@ inline void HMUI::NoTransitionsToggle::_Start_b__6_0(bool isOn) {
 }
 // Ctor Parameters []
 constexpr ::HMUI::NoTransitionsToggle::NoTransitionsToggle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

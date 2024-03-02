@@ -9,5 +9,3 @@ constexpr ::UnityEngine::AudioVelocityUpdateMode::AudioVelocityUpdateMode() {}
 constexpr ::UnityEngine::AudioVelocityUpdateMode UnityEngine::AudioVelocityUpdateMode::Auto{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::AudioVelocityUpdateMode UnityEngine::AudioVelocityUpdateMode::Fixed{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::AudioVelocityUpdateMode UnityEngine::AudioVelocityUpdateMode::Dynamic{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

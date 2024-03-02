@@ -115,5 +115,3 @@ inline ::StringW Tayx::Graphy::Utils::NumString::G_IntString::ToStringNonAlloc(i
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Utils::NumString::G_IntString::G_IntString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

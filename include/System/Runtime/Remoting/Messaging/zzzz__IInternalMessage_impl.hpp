@@ -89,5 +89,3 @@ inline void System::Runtime::Remoting::Messaging::IInternalMessage::set_Uri(::St
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::IInternalMessage*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

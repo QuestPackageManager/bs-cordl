@@ -20,5 +20,3 @@ constexpr ::Unity::Jobs::LowLevel::Unsafe::BatchQueryJob_2<CommandT, ResultT>::B
 }
 // Ctor Parameters []
 template <typename CommandT, typename ResultT> constexpr ::Unity::Jobs::LowLevel::Unsafe::BatchQueryJob_2<CommandT, ResultT>::BatchQueryJob_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

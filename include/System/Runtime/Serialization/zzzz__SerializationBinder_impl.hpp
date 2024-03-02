@@ -70,5 +70,3 @@ inline void System::Runtime::Serialization::SerializationBinder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationBinder::SerializationBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

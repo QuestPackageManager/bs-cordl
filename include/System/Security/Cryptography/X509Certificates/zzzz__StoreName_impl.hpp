@@ -14,5 +14,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::StoreName System::
 constexpr ::System::Security::Cryptography::X509Certificates::StoreName System::Security::Cryptography::X509Certificates::StoreName::Root{ static_cast<int32_t>(0x6) };
 constexpr ::System::Security::Cryptography::X509Certificates::StoreName System::Security::Cryptography::X509Certificates::StoreName::TrustedPeople{ static_cast<int32_t>(0x7) };
 constexpr ::System::Security::Cryptography::X509Certificates::StoreName System::Security::Cryptography::X509Certificates::StoreName::TrustedPublisher{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

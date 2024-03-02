@@ -44,5 +44,3 @@ inline void System::Collections::Generic::IntrospectiveSortUtilities::ThrowOrIgn
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Generic::IntrospectiveSortUtilities::IntrospectiveSortUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

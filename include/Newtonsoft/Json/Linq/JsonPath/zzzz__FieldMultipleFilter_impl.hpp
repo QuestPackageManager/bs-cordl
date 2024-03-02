@@ -611,5 +611,3 @@ inline void Newtonsoft::Json::Linq::JsonPath::FieldMultipleFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonPath::FieldMultipleFilter::FieldMultipleFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

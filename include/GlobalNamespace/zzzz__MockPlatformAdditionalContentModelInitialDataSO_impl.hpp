@@ -134,5 +134,3 @@ inline void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::_c
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::MockPlatformAdditionalContentModelInitialDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

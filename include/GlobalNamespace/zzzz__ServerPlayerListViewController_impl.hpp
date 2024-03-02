@@ -598,5 +598,3 @@ inline void GlobalNamespace::ServerPlayerListViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ServerPlayerListViewController::ServerPlayerListViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

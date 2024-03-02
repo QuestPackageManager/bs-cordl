@@ -48,5 +48,3 @@ inline void Org::BouncyCastle::Utilities::Times::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Times::Times() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

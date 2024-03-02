@@ -87,5 +87,3 @@ inline void GlobalNamespace::BloomPrePassLightTypeSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassLightTypeSO::BloomPrePassLightTypeSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

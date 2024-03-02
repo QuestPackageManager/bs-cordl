@@ -148,5 +148,3 @@ inline ::UnityEngine::ProBuilder::Face* UnityEngine::ProBuilder::SelectionPicker
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::SelectionPicker::SelectionPicker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

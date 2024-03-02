@@ -299,5 +299,3 @@ inline void GlobalNamespace::ScaleAnimator::_InitIfNeeded_b__7_3() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScaleAnimator::ScaleAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

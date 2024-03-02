@@ -270,5 +270,3 @@ inline void GlobalNamespace::FlyingObjectEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FlyingObjectEffect::FlyingObjectEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -32,5 +32,3 @@ inline void Org::BouncyCastle::Crypto::Tls::ExporterLabel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ExporterLabel::ExporterLabel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

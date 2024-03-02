@@ -71,5 +71,3 @@ inline void System::Xml::Schema::Datatype_NCName::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_NCName::Datatype_NCName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

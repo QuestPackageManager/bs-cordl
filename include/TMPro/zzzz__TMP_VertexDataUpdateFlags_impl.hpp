@@ -13,5 +13,3 @@ constexpr ::TMPro::TMP_VertexDataUpdateFlags TMPro::TMP_VertexDataUpdateFlags::U
 constexpr ::TMPro::TMP_VertexDataUpdateFlags TMPro::TMP_VertexDataUpdateFlags::Uv4{ static_cast<int32_t>(0x8) };
 constexpr ::TMPro::TMP_VertexDataUpdateFlags TMPro::TMP_VertexDataUpdateFlags::Colors32{ static_cast<int32_t>(0x10) };
 constexpr ::TMPro::TMP_VertexDataUpdateFlags TMPro::TMP_VertexDataUpdateFlags::All{ static_cast<int32_t>(0xff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

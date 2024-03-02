@@ -78,5 +78,3 @@ constexpr ::UnityEngine::UIElements::UIR::BMPAlloc::BMPAlloc(int32_t page, uint1
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::BMPAlloc::BMPAlloc() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

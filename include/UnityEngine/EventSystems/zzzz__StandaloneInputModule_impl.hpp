@@ -917,5 +917,3 @@ inline ::UnityW<::UnityEngine::GameObject> UnityEngine::EventSystems::Standalone
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::StandaloneInputModule::StandaloneInputModule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

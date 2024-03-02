@@ -36,5 +36,3 @@ inline ::System::Runtime::Remoting::Metadata::SoapAttribute* System::Runtime::Re
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::InternalRemotingServices::InternalRemotingServices() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

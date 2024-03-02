@@ -987,5 +987,3 @@ inline void UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogPro
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::ContentCatalogProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -55,5 +55,3 @@ inline ::StringW UnityEngine::ResourceManagement::Exceptions::OperationException
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Exceptions::OperationException::OperationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

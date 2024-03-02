@@ -25,5 +25,3 @@ inline void GlobalNamespace::DefaultEnvironmentEventsFactory::InsertDefaultEvent
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DefaultEnvironmentEventsFactory::DefaultEnvironmentEventsFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

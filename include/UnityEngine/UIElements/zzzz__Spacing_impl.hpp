@@ -93,5 +93,3 @@ constexpr ::UnityEngine::UIElements::Spacing::Spacing(float_t left, float_t top,
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Spacing::Spacing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

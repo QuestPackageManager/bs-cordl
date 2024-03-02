@@ -236,5 +236,3 @@ constexpr ::UnityEngine::UIElements::StyleScale::StyleScale(::UnityEngine::UIEle
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleScale::StyleScale() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -202,5 +202,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::AccessDescription::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::AccessDescription::AccessDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -65,5 +65,3 @@ inline void HoudiniEngineUnity::HEU_VertexEntry::_ctor(int32_t meshKey, int32_t 
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_VertexEntry::HEU_VertexEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

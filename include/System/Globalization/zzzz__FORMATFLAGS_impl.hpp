@@ -13,5 +13,3 @@ constexpr ::System::Globalization::FORMATFLAGS System::Globalization::FORMATFLAG
 constexpr ::System::Globalization::FORMATFLAGS System::Globalization::FORMATFLAGS::UseHebrewParsing{ static_cast<int32_t>(0x8) };
 constexpr ::System::Globalization::FORMATFLAGS System::Globalization::FORMATFLAGS::UseSpacesInDayNames{ static_cast<int32_t>(0x10) };
 constexpr ::System::Globalization::FORMATFLAGS System::Globalization::FORMATFLAGS::UseDigitPrefixInTokens{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

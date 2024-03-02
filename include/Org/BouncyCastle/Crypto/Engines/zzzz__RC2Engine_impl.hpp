@@ -287,5 +287,3 @@ inline void Org::BouncyCastle::Crypto::Engines::RC2Engine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::RC2Engine::RC2Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

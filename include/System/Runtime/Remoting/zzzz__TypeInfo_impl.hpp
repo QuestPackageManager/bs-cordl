@@ -114,5 +114,3 @@ inline bool System::Runtime::Remoting::TypeInfo::CanCastTo(::System::Type* fromT
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::TypeInfo::TypeInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

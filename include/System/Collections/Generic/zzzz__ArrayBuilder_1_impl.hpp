@@ -42,5 +42,3 @@ template <typename T> constexpr ::System::Collections::Generic::ArrayBuilder_1<T
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::ArrayBuilder_1<T>::ArrayBuilder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

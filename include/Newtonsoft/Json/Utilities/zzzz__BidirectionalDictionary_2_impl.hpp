@@ -128,5 +128,3 @@ template <typename TFirst, typename TSecond> inline bool Newtonsoft::Json::Utili
 }
 // Ctor Parameters []
 template <typename TFirst, typename TSecond> constexpr ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::BidirectionalDictionary_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

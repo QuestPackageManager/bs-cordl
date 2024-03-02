@@ -140,5 +140,3 @@ inline void GlobalNamespace::MovementHistoryRecorder::ManualUpdate(float_t delta
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MovementHistoryRecorder::MovementHistoryRecorder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

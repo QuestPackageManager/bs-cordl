@@ -69,5 +69,3 @@ inline void Org::BouncyCastle::Pkcs::Pkcs12Utilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkcs::Pkcs12Utilities::Pkcs12Utilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

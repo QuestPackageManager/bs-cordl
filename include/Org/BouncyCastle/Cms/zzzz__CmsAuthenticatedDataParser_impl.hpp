@@ -288,5 +288,3 @@ inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* Org::BouncyCastle::Cms::C
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsAuthenticatedDataParser::CmsAuthenticatedDataParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

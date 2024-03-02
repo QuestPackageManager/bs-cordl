@@ -95,5 +95,3 @@ inline ::System::DateTime Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime::G
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime::SignatureCreationTime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

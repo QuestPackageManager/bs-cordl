@@ -1713,5 +1713,3 @@ inline void Newtonsoft::Json::Serialization::JsonProperty::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonProperty::JsonProperty() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

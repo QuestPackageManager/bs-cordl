@@ -41,5 +41,3 @@ constexpr ::BeatmapSaveDataCommon::EaseType BeatmapSaveDataCommon::EaseType::InO
 constexpr ::BeatmapSaveDataCommon::EaseType BeatmapSaveDataCommon::EaseType::BeatSaberInOutBack{ static_cast<int32_t>(0x64) };
 constexpr ::BeatmapSaveDataCommon::EaseType BeatmapSaveDataCommon::EaseType::BeatSaberInOutElastic{ static_cast<int32_t>(0x65) };
 constexpr ::BeatmapSaveDataCommon::EaseType BeatmapSaveDataCommon::EaseType::BeatSaberInOutBounce{ static_cast<int32_t>(0x66) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

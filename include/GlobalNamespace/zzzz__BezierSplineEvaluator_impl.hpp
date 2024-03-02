@@ -346,5 +346,3 @@ inline ::GlobalNamespace::__BezierSplineEvaluator__CubicSolveResult GlobalNamesp
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BezierSplineEvaluator::BezierSplineEvaluator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

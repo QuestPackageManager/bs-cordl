@@ -108,5 +108,3 @@ inline void System::Net::NetworkInformation::MibIPGlobalProperties::_ctor(::Stri
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::MibIPGlobalProperties::MibIPGlobalProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

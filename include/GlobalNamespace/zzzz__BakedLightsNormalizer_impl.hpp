@@ -229,5 +229,3 @@ inline void GlobalNamespace::BakedLightsNormalizer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BakedLightsNormalizer::BakedLightsNormalizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

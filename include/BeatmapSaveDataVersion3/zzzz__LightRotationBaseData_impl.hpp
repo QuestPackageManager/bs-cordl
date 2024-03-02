@@ -228,5 +228,3 @@ inline void BeatmapSaveDataVersion3::LightRotationBaseData::_ctor(float_t beat, 
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightRotationBaseData::LightRotationBaseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

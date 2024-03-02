@@ -491,5 +491,3 @@ inline void Org::BouncyCastle::Crypto::Digests::Sha256Digest::Reset(::Org::Bounc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::Sha256Digest::Sha256Digest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

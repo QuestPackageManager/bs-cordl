@@ -11,5 +11,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTyp
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE::Jagged{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE::Rectangular{ static_cast<int32_t>(0x3) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE System::Runtime::Serialization::Formatters::Binary::InternalArrayTypeE::Base64{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

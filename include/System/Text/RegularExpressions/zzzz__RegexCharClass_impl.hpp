@@ -1126,5 +1126,3 @@ inline ::StringW System::Text::RegularExpressions::RegexCharClass::SetFromProper
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexCharClass::RegexCharClass() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

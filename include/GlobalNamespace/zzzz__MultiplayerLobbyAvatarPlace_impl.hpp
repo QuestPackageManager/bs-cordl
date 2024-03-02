@@ -75,5 +75,3 @@ inline void GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool::__MultiplayerLobbyAvatarPlace__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

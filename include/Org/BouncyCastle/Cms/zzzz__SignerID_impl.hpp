@@ -63,5 +63,3 @@ inline void Org::BouncyCastle::Cms::SignerID::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::SignerID::SignerID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

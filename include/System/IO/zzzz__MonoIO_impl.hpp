@@ -730,5 +730,3 @@ inline bool System::IO::MonoIO::RemapPath(::StringW path, ByRef<::StringW> newPa
 }
 // Ctor Parameters []
 constexpr ::System::IO::MonoIO::MonoIO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

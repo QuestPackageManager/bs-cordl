@@ -40,5 +40,3 @@ inline void System::AssemblyLoadEventArgs::_ctor(::System::Reflection::Assembly*
 }
 // Ctor Parameters []
 constexpr ::System::AssemblyLoadEventArgs::AssemblyLoadEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

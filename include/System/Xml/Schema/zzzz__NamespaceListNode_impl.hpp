@@ -142,5 +142,3 @@ inline bool System::Xml::Schema::NamespaceListNode::get_IsNullable() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::NamespaceListNode::NamespaceListNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::System::MidpointRounding::MidpointRounding(int32_t value__) noexcept
 constexpr ::System::MidpointRounding::MidpointRounding() {}
 constexpr ::System::MidpointRounding System::MidpointRounding::ToEven{ static_cast<int32_t>(0x0) };
 constexpr ::System::MidpointRounding System::MidpointRounding::AwayFromZero{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

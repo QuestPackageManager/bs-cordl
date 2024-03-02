@@ -491,5 +491,3 @@ inline int32_t Org::BouncyCastle::Asn1::DerInteger::SignBytesToSkip(::ArrayW<uin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerInteger::DerInteger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

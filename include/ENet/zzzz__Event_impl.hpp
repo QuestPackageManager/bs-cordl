@@ -159,5 +159,3 @@ constexpr ::ENet::Event::Event(::ENet::ENetEvent nativeEvent) noexcept {
 }
 // Ctor Parameters []
 constexpr ::ENet::Event::Event() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -19,5 +19,3 @@ constexpr ::System::InputRecord::InputRecord(int16_t EventType, bool KeyDown, in
 }
 // Ctor Parameters []
 constexpr ::System::InputRecord::InputRecord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

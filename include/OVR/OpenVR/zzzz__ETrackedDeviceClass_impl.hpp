@@ -13,5 +13,3 @@ constexpr ::OVR::OpenVR::ETrackedDeviceClass OVR::OpenVR::ETrackedDeviceClass::G
 constexpr ::OVR::OpenVR::ETrackedDeviceClass OVR::OpenVR::ETrackedDeviceClass::TrackingReference{ static_cast<int32_t>(0x4) };
 constexpr ::OVR::OpenVR::ETrackedDeviceClass OVR::OpenVR::ETrackedDeviceClass::DisplayRedirect{ static_cast<int32_t>(0x5) };
 constexpr ::OVR::OpenVR::ETrackedDeviceClass OVR::OpenVR::ETrackedDeviceClass::Max{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

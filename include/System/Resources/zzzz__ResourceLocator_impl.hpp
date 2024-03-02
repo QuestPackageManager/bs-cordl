@@ -107,5 +107,3 @@ constexpr ::System::Resources::ResourceLocator::ResourceLocator(::System::Object
 }
 // Ctor Parameters []
 constexpr ::System::Resources::ResourceLocator::ResourceLocator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

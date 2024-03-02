@@ -201,5 +201,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Signers
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator::HMacDsaKCalculator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

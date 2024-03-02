@@ -64,5 +64,3 @@ inline void GlobalNamespace::SyncTimeProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SyncTimeProvider::SyncTimeProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

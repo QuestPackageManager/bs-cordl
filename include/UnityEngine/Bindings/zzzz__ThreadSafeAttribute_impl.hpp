@@ -24,5 +24,3 @@ inline void UnityEngine::Bindings::ThreadSafeAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::ThreadSafeAttribute::ThreadSafeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

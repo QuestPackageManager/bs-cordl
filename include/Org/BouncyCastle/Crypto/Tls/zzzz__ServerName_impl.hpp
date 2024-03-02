@@ -174,5 +174,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::ServerName::IsCorrectType(uint8_t na
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ServerName::ServerName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

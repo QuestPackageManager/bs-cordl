@@ -184,5 +184,3 @@ inline void GlobalNamespace::BeatmapCharacteristicTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicTableCell::BeatmapCharacteristicTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

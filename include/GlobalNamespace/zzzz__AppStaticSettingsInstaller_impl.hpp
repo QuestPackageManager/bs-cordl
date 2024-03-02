@@ -57,5 +57,3 @@ inline void GlobalNamespace::AppStaticSettingsInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AppStaticSettingsInstaller::AppStaticSettingsInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

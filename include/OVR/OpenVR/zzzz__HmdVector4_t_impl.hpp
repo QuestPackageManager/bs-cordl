@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::HmdVector4_t::HmdVector4_t(float_t v0, float_t v1, floa
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::HmdVector4_t::HmdVector4_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

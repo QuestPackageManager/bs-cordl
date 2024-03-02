@@ -235,5 +235,3 @@ inline void GlobalNamespace::LeaderboardTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LeaderboardTableCell::LeaderboardTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

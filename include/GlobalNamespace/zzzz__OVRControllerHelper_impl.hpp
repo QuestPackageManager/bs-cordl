@@ -401,5 +401,3 @@ inline void GlobalNamespace::OVRControllerHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRControllerHelper::OVRControllerHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

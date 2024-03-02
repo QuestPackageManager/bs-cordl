@@ -48,5 +48,3 @@ inline void System::Threading::WaitOrTimerCallback::Invoke(::System::Object* sta
 }
 // Ctor Parameters []
 constexpr ::System::Threading::WaitOrTimerCallback::WaitOrTimerCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

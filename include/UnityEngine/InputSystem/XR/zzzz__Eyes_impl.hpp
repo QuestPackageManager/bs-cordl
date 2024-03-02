@@ -301,5 +301,3 @@ constexpr ::UnityEngine::InputSystem::XR::Eyes::Eyes(::UnityEngine::Vector3 _lef
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::Eyes::Eyes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

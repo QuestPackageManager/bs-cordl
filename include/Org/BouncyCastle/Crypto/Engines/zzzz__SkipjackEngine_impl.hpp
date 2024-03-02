@@ -324,5 +324,3 @@ inline void Org::BouncyCastle::Crypto::Engines::SkipjackEngine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::SkipjackEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -162,5 +162,3 @@ inline void Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::NextBytes
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::CryptoApiRandomGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

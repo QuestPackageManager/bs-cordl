@@ -747,5 +747,3 @@ constexpr ::System::UInt16::UInt16(uint16_t m_value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::UInt16::UInt16() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

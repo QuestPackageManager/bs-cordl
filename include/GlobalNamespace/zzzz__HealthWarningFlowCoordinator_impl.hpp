@@ -812,5 +812,3 @@ inline void GlobalNamespace::HealthWarningFlowCoordinator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HealthWarningFlowCoordinator::HealthWarningFlowCoordinator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

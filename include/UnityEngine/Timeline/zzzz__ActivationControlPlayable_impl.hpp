@@ -221,5 +221,3 @@ inline void UnityEngine::Timeline::ActivationControlPlayable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::ActivationControlPlayable::ActivationControlPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

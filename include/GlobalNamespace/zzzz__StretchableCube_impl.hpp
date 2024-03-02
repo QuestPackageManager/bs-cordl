@@ -269,5 +269,3 @@ inline void GlobalNamespace::StretchableCube::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StretchableCube::StretchableCube() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

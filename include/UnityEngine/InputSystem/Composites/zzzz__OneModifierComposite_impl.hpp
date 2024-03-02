@@ -287,5 +287,3 @@ inline void UnityEngine::InputSystem::Composites::OneModifierComposite::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Composites::OneModifierComposite::OneModifierComposite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

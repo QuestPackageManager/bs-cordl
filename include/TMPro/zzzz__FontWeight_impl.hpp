@@ -15,5 +15,3 @@ constexpr ::TMPro::FontWeight TMPro::FontWeight::SemiBold{ static_cast<int32_t>(
 constexpr ::TMPro::FontWeight TMPro::FontWeight::Bold{ static_cast<int32_t>(0x2bc) };
 constexpr ::TMPro::FontWeight TMPro::FontWeight::Heavy{ static_cast<int32_t>(0x320) };
 constexpr ::TMPro::FontWeight TMPro::FontWeight::Black{ static_cast<int32_t>(0x384) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -105,5 +105,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::CrlA
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent::CrlAnnContent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void GlobalNamespace::DuplicateMirrorForReflectionProbe::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DuplicateMirrorForReflectionProbe::DuplicateMirrorForReflectionProbe() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

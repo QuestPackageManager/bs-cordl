@@ -206,5 +206,3 @@ inline void GlobalNamespace::PlaybackScreenshotRecorder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlaybackScreenshotRecorder::PlaybackScreenshotRecorder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

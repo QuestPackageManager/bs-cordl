@@ -11,5 +11,3 @@ constexpr ::UnityEngine::ParticleSystemGradientMode UnityEngine::ParticleSystemG
 constexpr ::UnityEngine::ParticleSystemGradientMode UnityEngine::ParticleSystemGradientMode::TwoColors{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ParticleSystemGradientMode UnityEngine::ParticleSystemGradientMode::TwoGradients{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::ParticleSystemGradientMode UnityEngine::ParticleSystemGradientMode::RandomColor{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

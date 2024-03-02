@@ -279,5 +279,3 @@ inline ::StringW System::Net::Http::Headers::RangeConditionHeaderValue::ToString
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::RangeConditionHeaderValue::RangeConditionHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

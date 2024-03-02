@@ -148,5 +148,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::RsaKeyGenerationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

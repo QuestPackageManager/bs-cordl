@@ -24,5 +24,3 @@ template <typename TParam1, typename TParam2, typename TValue> inline TValue Zen
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IMemoryPool_3<TParam1, TParam2, TValue>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, param1, param2);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

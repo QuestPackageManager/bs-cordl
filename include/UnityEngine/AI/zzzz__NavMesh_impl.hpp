@@ -209,5 +209,3 @@ inline bool UnityEngine::AI::NavMesh::SamplePosition_Injected(ByRef<::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AI::NavMesh::NavMesh() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

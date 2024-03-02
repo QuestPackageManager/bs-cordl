@@ -225,5 +225,3 @@ inline void GlobalNamespace::EnvironmentLightGroups::Sort() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentLightGroups::EnvironmentLightGroups() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

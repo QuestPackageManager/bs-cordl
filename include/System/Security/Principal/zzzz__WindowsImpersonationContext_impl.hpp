@@ -180,5 +180,3 @@ inline bool System::Security::Principal::WindowsImpersonationContext::RevertToSe
 }
 // Ctor Parameters []
 constexpr ::System::Security::Principal::WindowsImpersonationContext::WindowsImpersonationContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

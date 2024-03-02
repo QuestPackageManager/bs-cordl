@@ -79,5 +79,3 @@ inline void GlobalNamespace::AnimationStartParams::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AnimationStartParams::AnimationStartParams() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

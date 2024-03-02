@@ -347,5 +347,3 @@ inline void System::Xml::Linq::XName::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XName::XName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void GlobalNamespace::ColorSignal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSignal::ColorSignal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

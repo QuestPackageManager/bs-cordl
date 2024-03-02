@@ -177,5 +177,3 @@ inline void Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator::NaccacheSternKeyPairGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

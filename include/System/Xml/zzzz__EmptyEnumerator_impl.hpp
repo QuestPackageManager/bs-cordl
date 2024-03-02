@@ -96,5 +96,3 @@ inline void System::Xml::EmptyEnumerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::EmptyEnumerator::EmptyEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

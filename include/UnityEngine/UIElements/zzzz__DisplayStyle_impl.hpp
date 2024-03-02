@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::DisplayStyle::DisplayStyle(int32_t value__)
 constexpr ::UnityEngine::UIElements::DisplayStyle::DisplayStyle() {}
 constexpr ::UnityEngine::UIElements::DisplayStyle UnityEngine::UIElements::DisplayStyle::Flex{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::DisplayStyle UnityEngine::UIElements::DisplayStyle::None{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

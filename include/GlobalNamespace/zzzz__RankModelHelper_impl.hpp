@@ -32,5 +32,3 @@ inline ::GlobalNamespace::__RankModel__Rank GlobalNamespace::RankModelHelper::Ma
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RankModelHelper::RankModelHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

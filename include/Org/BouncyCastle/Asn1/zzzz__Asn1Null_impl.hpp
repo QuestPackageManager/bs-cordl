@@ -43,5 +43,3 @@ inline ::StringW Org::BouncyCastle::Asn1::Asn1Null::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1Null::Asn1Null() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -19,5 +19,3 @@ constexpr ::UnityEngine::AudioType UnityEngine::AudioType::XM{ static_cast<int32
 constexpr ::UnityEngine::AudioType UnityEngine::AudioType::XMA{ static_cast<int32_t>(0x16) };
 constexpr ::UnityEngine::AudioType UnityEngine::AudioType::VAG{ static_cast<int32_t>(0x17) };
 constexpr ::UnityEngine::AudioType UnityEngine::AudioType::AUDIOQUEUE{ static_cast<int32_t>(0x18) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

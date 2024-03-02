@@ -68,5 +68,3 @@ template <typename TKey, typename TValue> inline void IntervalTree::IIntervalTre
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IIntervalTree_2<TKey, TValue>*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

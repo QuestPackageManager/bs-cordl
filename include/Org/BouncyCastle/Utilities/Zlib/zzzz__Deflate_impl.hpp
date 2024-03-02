@@ -1629,5 +1629,3 @@ inline int32_t Org::BouncyCastle::Utilities::Zlib::Deflate::deflate(::Org::Bounc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::Deflate::Deflate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

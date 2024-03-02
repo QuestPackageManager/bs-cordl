@@ -270,5 +270,3 @@ inline ::Newtonsoft::Json::Converters::IXmlElement* Newtonsoft::Json::Converters
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::IXmlDocument*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Converters::IXmlElement*, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

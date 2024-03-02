@@ -100,5 +100,3 @@ inline void System::Runtime::Remoting::Activation::RemoteActivationAttribute::Ge
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Activation::RemoteActivationAttribute::RemoteActivationAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

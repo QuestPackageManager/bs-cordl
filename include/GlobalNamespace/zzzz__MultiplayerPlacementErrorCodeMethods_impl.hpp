@@ -26,5 +26,3 @@ inline ::GlobalNamespace::ConnectionFailedReason GlobalNamespace::MultiplayerPla
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerPlacementErrorCodeMethods::MultiplayerPlacementErrorCodeMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

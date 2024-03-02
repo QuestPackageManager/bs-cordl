@@ -362,5 +362,3 @@ inline void GlobalNamespace::MultiplayerLevelLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLevelLoader::MultiplayerLevelLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -14,5 +14,3 @@ constexpr ::OVR::OpenVR::VREvent_TouchPadMove_t::VREvent_TouchPadMove_t(bool bFi
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_TouchPadMove_t::VREvent_TouchPadMove_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

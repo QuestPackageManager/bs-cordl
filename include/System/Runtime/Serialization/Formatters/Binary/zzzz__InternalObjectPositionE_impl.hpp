@@ -11,5 +11,3 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPo
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE::Child{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE System::Runtime::Serialization::Formatters::Binary::InternalObjectPositionE::Headers{ static_cast<int32_t>(
     0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -296,5 +296,3 @@ inline bool System::Reflection::MemberInfo::op_Inequality(::System::Reflection::
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::MemberInfo::MemberInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

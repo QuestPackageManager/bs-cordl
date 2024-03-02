@@ -316,5 +316,3 @@ inline int32_t OVRSimpleJSON::JSONNumber::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::OVRSimpleJSON::JSONNumber::JSONNumber() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

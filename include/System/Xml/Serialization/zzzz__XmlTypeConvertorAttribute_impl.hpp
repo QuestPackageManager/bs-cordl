@@ -60,5 +60,3 @@ inline void System::Xml::Serialization::XmlTypeConvertorAttribute::_ctor(::Strin
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlTypeConvertorAttribute::XmlTypeConvertorAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

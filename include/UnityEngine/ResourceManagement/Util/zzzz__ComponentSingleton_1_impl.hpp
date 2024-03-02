@@ -61,5 +61,3 @@ template <typename T> inline void UnityEngine::ResourceManagement::Util::Compone
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<T>::ComponentSingleton_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

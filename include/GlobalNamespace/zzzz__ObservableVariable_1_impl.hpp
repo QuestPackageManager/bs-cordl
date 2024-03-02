@@ -83,5 +83,3 @@ template <typename T> inline void GlobalNamespace::ObservableVariable_1<T>::_cto
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::ObservableVariable_1<T>::ObservableVariable_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

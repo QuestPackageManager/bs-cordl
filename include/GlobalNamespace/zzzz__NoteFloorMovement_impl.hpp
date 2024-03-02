@@ -418,5 +418,3 @@ inline void GlobalNamespace::NoteFloorMovement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteFloorMovement::NoteFloorMovement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

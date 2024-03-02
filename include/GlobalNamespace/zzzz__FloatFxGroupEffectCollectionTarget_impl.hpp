@@ -85,5 +85,3 @@ inline void GlobalNamespace::FloatFxGroupEffectCollectionTarget::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatFxGroupEffectCollectionTarget::FloatFxGroupEffectCollectionTarget() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

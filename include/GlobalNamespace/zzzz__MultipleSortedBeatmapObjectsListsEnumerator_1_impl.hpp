@@ -280,5 +280,3 @@ template <typename T> inline ::System::Collections::Generic::IEnumerator_1<::Sys
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1<T>::MultipleSortedBeatmapObjectsListsEnumerator_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

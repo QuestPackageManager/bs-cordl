@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ProBuilder::BezierTangentMode::BezierTangentMode() {}
 constexpr ::UnityEngine::ProBuilder::BezierTangentMode UnityEngine::ProBuilder::BezierTangentMode::Free{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::BezierTangentMode UnityEngine::ProBuilder::BezierTangentMode::Aligned{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::BezierTangentMode UnityEngine::ProBuilder::BezierTangentMode::Mirrored{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -26,5 +26,3 @@ constexpr ::GlobalNamespace::OVRMeshAttributes::OVRMeshAttributes(::ArrayW<::Uni
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMeshAttributes::OVRMeshAttributes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::UnityEngine::UIElements::UsageHints UnityEngine::UIElements::UsageHi
 constexpr ::UnityEngine::UIElements::UsageHints UnityEngine::UIElements::UsageHints::GroupTransform{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::UsageHints UnityEngine::UIElements::UsageHints::MaskContainer{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::UsageHints UnityEngine::UIElements::UsageHints::DynamicColor{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

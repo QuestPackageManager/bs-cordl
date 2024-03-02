@@ -412,5 +412,3 @@ constexpr ::UnityEngine::UIElements::Length::Length(float_t m_Value, ::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Length::Length() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

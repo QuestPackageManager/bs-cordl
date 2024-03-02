@@ -694,5 +694,3 @@ inline bool System::Reflection::Emit::TypeBuilder::IsPrimitiveImpl() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::TypeBuilder::TypeBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

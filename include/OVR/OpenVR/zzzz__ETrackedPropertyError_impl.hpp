@@ -19,5 +19,3 @@ constexpr ::OVR::OpenVR::ETrackedPropertyError OVR::OpenVR::ETrackedPropertyErro
 constexpr ::OVR::OpenVR::ETrackedPropertyError OVR::OpenVR::ETrackedPropertyError::TrackedProp_PermissionDenied{ static_cast<int32_t>(0xa) };
 constexpr ::OVR::OpenVR::ETrackedPropertyError OVR::OpenVR::ETrackedPropertyError::TrackedProp_InvalidOperation{ static_cast<int32_t>(0xb) };
 constexpr ::OVR::OpenVR::ETrackedPropertyError OVR::OpenVR::ETrackedPropertyError::TrackedProp_CannotWriteToWildcards{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

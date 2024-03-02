@@ -36,5 +36,3 @@ inline ::System::Xml::Schema::XmlSchemaObjectCollection* System::Xml::Schema::Xm
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaChoice::XmlSchemaChoice() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

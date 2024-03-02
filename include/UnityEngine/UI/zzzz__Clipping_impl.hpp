@@ -30,5 +30,3 @@ inline ::UnityEngine::Rect UnityEngine::UI::Clipping::FindCullAndClipWorldRect(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Clipping::Clipping() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

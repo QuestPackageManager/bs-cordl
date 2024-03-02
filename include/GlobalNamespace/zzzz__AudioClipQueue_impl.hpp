@@ -122,5 +122,3 @@ inline void GlobalNamespace::AudioClipQueue::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioClipQueue::AudioClipQueue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

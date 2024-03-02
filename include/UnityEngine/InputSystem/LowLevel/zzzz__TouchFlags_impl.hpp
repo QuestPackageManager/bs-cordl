@@ -12,5 +12,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::TouchFlags UnityEngine::InputSys
 constexpr ::UnityEngine::InputSystem::LowLevel::TouchFlags UnityEngine::InputSystem::LowLevel::TouchFlags::TapRelease{ static_cast<uint8_t>(0x20u) };
 constexpr ::UnityEngine::InputSystem::LowLevel::TouchFlags UnityEngine::InputSystem::LowLevel::TouchFlags::OrphanedPrimaryTouch{ static_cast<uint8_t>(0x40u) };
 constexpr ::UnityEngine::InputSystem::LowLevel::TouchFlags UnityEngine::InputSystem::LowLevel::TouchFlags::BeganInSameFrame{ static_cast<uint8_t>(0x80u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

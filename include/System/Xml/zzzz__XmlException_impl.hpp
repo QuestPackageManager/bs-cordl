@@ -655,5 +655,3 @@ inline ::StringW System::Xml::XmlException::get_ResString() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlException::XmlException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

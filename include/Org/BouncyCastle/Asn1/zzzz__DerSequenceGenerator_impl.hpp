@@ -131,5 +131,3 @@ inline void Org::BouncyCastle::Asn1::DerSequenceGenerator::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerSequenceGenerator::DerSequenceGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

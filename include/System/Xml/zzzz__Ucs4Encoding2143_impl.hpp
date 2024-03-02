@@ -63,5 +63,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Xml::Ucs4Encoding2143::GetPr
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Ucs4Encoding2143::Ucs4Encoding2143() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

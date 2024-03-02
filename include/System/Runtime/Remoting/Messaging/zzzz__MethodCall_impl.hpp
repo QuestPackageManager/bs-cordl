@@ -747,5 +747,3 @@ inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> System::Runtime::Rem
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::MethodCall::MethodCall() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void System::Runtime::CompilerServices::IntrinsicAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::IntrinsicAttribute::IntrinsicAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

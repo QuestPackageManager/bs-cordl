@@ -475,5 +475,3 @@ template <typename T> inline void TMPro::TMP_TextInfo::Resize(ByRef<::ArrayW<T, 
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_TextInfo::TMP_TextInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

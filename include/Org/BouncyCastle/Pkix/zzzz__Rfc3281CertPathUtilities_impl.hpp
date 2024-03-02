@@ -278,5 +278,3 @@ inline void Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::Rfc3281CertPathUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

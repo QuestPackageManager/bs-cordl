@@ -687,5 +687,3 @@ inline void System::Net::NetworkStreamWrapper::SetSocketTimeoutOption(int32_t ti
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkStreamWrapper::NetworkStreamWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

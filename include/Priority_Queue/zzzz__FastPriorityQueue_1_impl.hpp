@@ -299,5 +299,3 @@ template <typename T> inline bool Priority_Queue::FastPriorityQueue_1<T>::IsVali
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Priority_Queue::FastPriorityQueue_1<T>::FastPriorityQueue_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

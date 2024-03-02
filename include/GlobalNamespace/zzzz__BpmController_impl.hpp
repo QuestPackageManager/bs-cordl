@@ -201,5 +201,3 @@ inline void GlobalNamespace::BpmController::HandleBpmChangeBeatmapEvent(::Global
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BpmController::BpmController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

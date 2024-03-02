@@ -48,5 +48,3 @@ constexpr ::UnityEngineInternal::Input::NativeInputEventBuffer::NativeInputEvent
 }
 // Ctor Parameters []
 constexpr ::UnityEngineInternal::Input::NativeInputEventBuffer::NativeInputEventBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

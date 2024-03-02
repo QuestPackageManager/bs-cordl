@@ -428,5 +428,3 @@ inline void GlobalNamespace::ScoringElement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoringElement::ScoringElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

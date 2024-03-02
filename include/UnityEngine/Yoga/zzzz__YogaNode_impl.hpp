@@ -1648,5 +1648,3 @@ inline ::System::Collections::IEnumerator* UnityEngine::Yoga::YogaNode::System_C
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Yoga::YogaNode::YogaNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -104,5 +104,3 @@ inline ::System::Array* UnityEngine::NoAllocHelpers::ExtractArrayFromList(::Syst
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::NoAllocHelpers::NoAllocHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

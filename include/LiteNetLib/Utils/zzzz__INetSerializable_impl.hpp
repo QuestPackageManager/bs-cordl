@@ -42,5 +42,3 @@ inline void LiteNetLib::Utils::INetSerializable::Deserialize(::LiteNetLib::Utils
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::INetSerializable*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

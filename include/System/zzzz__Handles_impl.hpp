@@ -9,5 +9,3 @@ constexpr ::System::Handles::Handles() {}
 constexpr ::System::Handles System::Handles::STD_INPUT{ static_cast<int32_t>(0xfffffff6) };
 constexpr ::System::Handles System::Handles::STD_OUTPUT{ static_cast<int32_t>(0xfffffff5) };
 constexpr ::System::Handles System::Handles::STD_ERROR{ static_cast<int32_t>(0xfffffff4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::UnityEngine::UIElements::Align UnityEngine::UIElements::Align::FlexS
 constexpr ::UnityEngine::UIElements::Align UnityEngine::UIElements::Align::Center{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::Align UnityEngine::UIElements::Align::FlexEnd{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UIElements::Align UnityEngine::UIElements::Align::Stretch{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

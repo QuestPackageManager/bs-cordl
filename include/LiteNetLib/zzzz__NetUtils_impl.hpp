@@ -202,5 +202,3 @@ inline int32_t LiteNetLib::NetUtils::RelativeSequenceNumber(int32_t number, int3
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetUtils::NetUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -253,5 +253,3 @@ inline void Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner::Ed25519phSigner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

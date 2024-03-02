@@ -3011,5 +3011,3 @@ constexpr ::OVR::OpenVR::IVRApplications::IVRApplications(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRApplications::IVRApplications() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

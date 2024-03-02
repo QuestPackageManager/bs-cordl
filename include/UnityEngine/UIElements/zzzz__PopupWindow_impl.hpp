@@ -120,5 +120,3 @@ inline void UnityEngine::UIElements::__PopupWindow__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__PopupWindow__UxmlFactory::__PopupWindow__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

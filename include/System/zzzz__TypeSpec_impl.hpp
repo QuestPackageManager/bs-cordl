@@ -399,5 +399,3 @@ inline void System::TypeSpec::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::TypeSpec::TypeSpec() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

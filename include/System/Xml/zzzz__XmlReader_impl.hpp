@@ -571,5 +571,3 @@ inline void System::Xml::XmlReader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlReader::XmlReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -130,5 +130,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::DHBasicAgreement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

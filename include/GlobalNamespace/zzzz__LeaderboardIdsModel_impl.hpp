@@ -69,5 +69,3 @@ inline bool GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId(By
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LeaderboardIdsModel::LeaderboardIdsModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

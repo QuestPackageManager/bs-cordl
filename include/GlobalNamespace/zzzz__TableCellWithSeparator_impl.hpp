@@ -58,5 +58,3 @@ inline void GlobalNamespace::TableCellWithSeparator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TableCellWithSeparator::TableCellWithSeparator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

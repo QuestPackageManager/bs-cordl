@@ -254,5 +254,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1SetParser* Org::BouncyCastle::Asn1::Cms::A
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser::AuthenticatedDataParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

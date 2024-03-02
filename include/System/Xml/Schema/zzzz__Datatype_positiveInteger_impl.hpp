@@ -78,5 +78,3 @@ inline void System::Xml::Schema::Datatype_positiveInteger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_positiveInteger::Datatype_positiveInteger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

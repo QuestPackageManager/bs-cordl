@@ -637,5 +637,3 @@ inline void UnityEngine::GL::Viewport_Injected(ByRef<::UnityEngine::Rect> pixelR
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GL::GL() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

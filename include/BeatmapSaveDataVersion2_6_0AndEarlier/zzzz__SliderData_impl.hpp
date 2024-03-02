@@ -439,5 +439,3 @@ inline void BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::_ctor(::BeatmapSa
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::SliderData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

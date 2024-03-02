@@ -116,5 +116,3 @@ inline ::UnityEngine::Quaternion RootMotion::BakerUtilities::EnsureQuaternionCon
 }
 // Ctor Parameters []
 constexpr ::RootMotion::BakerUtilities::BakerUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

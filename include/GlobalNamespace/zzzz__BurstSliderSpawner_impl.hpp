@@ -173,5 +173,3 @@ inline void GlobalNamespace::BurstSliderSpawner::ProcessSliderData(::GlobalNames
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BurstSliderSpawner::BurstSliderSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

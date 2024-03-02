@@ -72,5 +72,3 @@ inline void System::Threading::Tasks::Sources::IValueTaskSource::GetResult(int16
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::Sources::IValueTaskSource*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, token);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

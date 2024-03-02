@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::VRBoneTransform_t::VRBoneTransform_t(::OVR::OpenVR::Hmd
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VRBoneTransform_t::VRBoneTransform_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

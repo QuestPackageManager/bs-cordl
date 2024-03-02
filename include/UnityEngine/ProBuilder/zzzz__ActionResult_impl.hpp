@@ -257,5 +257,3 @@ inline ::UnityEngine::ProBuilder::ActionResult* UnityEngine::ProBuilder::ActionR
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ActionResult::ActionResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

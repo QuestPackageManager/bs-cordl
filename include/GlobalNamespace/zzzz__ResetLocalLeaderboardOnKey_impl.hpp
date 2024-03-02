@@ -81,5 +81,3 @@ inline void GlobalNamespace::ResetLocalLeaderboardOnKey::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ResetLocalLeaderboardOnKey::ResetLocalLeaderboardOnKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

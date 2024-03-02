@@ -690,5 +690,3 @@ inline void UnityEngine::Networking::PlayerConnection::PlayerConnection::_ctor()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::PlayerConnection::PlayerConnection::PlayerConnection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

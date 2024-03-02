@@ -42,5 +42,3 @@ template <typename TContract> template <typename TConcrete> inline ::Zenject::Fa
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::FactoryToChoiceBinder_1<TContract>::FactoryToChoiceBinder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

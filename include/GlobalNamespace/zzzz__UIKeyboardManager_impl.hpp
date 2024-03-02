@@ -314,5 +314,3 @@ inline void GlobalNamespace::UIKeyboardManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UIKeyboardManager::UIKeyboardManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -77,5 +77,3 @@ inline void System::Reflection::AmbiguousMatchException::_ctor(::System::Runtime
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AmbiguousMatchException::AmbiguousMatchException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

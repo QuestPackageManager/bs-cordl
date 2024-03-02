@@ -71,5 +71,3 @@ constexpr ::GlobalNamespace::PublicServerInfo::PublicServerInfo(::StringW code, 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PublicServerInfo::PublicServerInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

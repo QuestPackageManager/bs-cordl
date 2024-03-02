@@ -197,5 +197,3 @@ inline int32_t OVRSimpleJSON::JSONString::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::OVRSimpleJSON::JSONString::JSONString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

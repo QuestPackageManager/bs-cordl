@@ -8,5 +8,3 @@ constexpr ::Newtonsoft::Json::ConstructorHandling::ConstructorHandling(int32_t v
 constexpr ::Newtonsoft::Json::ConstructorHandling::ConstructorHandling() {}
 constexpr ::Newtonsoft::Json::ConstructorHandling Newtonsoft::Json::ConstructorHandling::Default{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::ConstructorHandling Newtonsoft::Json::ConstructorHandling::AllowNonPublicDefaultConstructor{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

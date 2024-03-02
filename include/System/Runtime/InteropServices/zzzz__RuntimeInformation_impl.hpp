@@ -90,5 +90,3 @@ inline bool System::Runtime::InteropServices::RuntimeInformation::IsOSPlatform(:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::RuntimeInformation::RuntimeInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::UnityEngine::SpritePackingMode::SpritePackingMode(int32_t value__) n
 constexpr ::UnityEngine::SpritePackingMode::SpritePackingMode() {}
 constexpr ::UnityEngine::SpritePackingMode UnityEngine::SpritePackingMode::Tight{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SpritePackingMode UnityEngine::SpritePackingMode::Rectangle{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -194,5 +194,3 @@ inline void Environments::Definitions::EnvironmentsAsyncInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Environments::Definitions::EnvironmentsAsyncInstaller::EnvironmentsAsyncInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

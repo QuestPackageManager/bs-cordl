@@ -280,5 +280,3 @@ inline void BeatSaber::PerformancePresets::PerformancePreset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::PerformancePresets::PerformancePreset::PerformancePreset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -144,5 +144,3 @@ constexpr ::UnityEngine::EventInterests::EventInterests(bool _wantsMouseMove_k__
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventInterests::EventInterests() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

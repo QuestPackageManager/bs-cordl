@@ -127,5 +127,3 @@ inline ::StringW UnityEngine::ProBuilder::XYZColor::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::XYZColor::XYZColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

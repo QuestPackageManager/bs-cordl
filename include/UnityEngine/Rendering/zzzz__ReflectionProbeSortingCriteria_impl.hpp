@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Rendering::ReflectionProbeSortingCriteria UnityEngine::
 constexpr ::UnityEngine::Rendering::ReflectionProbeSortingCriteria UnityEngine::Rendering::ReflectionProbeSortingCriteria::Importance{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeSortingCriteria UnityEngine::Rendering::ReflectionProbeSortingCriteria::Size{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeSortingCriteria UnityEngine::Rendering::ReflectionProbeSortingCriteria::ImportanceThenSize{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

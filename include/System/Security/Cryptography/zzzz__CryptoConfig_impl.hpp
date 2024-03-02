@@ -144,5 +144,3 @@ inline bool System::Security::Cryptography::CryptoConfig::get_AllowOnlyFipsAlgor
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::CryptoConfig::CryptoConfig() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

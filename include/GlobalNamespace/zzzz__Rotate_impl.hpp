@@ -212,5 +212,3 @@ inline void GlobalNamespace::Rotate::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Rotate::Rotate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

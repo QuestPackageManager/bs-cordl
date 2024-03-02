@@ -38,5 +38,3 @@ constexpr ::GlobalNamespace::CreateServerFormData::CreateServerFormData(bool use
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CreateServerFormData::CreateServerFormData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

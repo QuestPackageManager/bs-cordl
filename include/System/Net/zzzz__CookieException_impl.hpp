@@ -158,5 +158,3 @@ inline void System::Net::CookieException::GetObjectData(::System::Runtime::Seria
 }
 // Ctor Parameters []
 constexpr ::System::Net::CookieException::CookieException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

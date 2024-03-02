@@ -8,5 +8,3 @@ constexpr ::UnityEngine::Rendering::DefaultReflectionMode::DefaultReflectionMode
 constexpr ::UnityEngine::Rendering::DefaultReflectionMode::DefaultReflectionMode() {}
 constexpr ::UnityEngine::Rendering::DefaultReflectionMode UnityEngine::Rendering::DefaultReflectionMode::Skybox{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::DefaultReflectionMode UnityEngine::Rendering::DefaultReflectionMode::Custom{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -53,5 +53,3 @@ inline ::UnityW<::UnityEngine::Audio::AudioMixer> UnityEngine::Audio::AudioMixer
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Audio::AudioMixerGroup::AudioMixerGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -284,5 +284,3 @@ inline void BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter::AvatarPropertyBlockColorSetter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

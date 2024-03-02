@@ -328,5 +328,3 @@ inline ::System::Object* System::UnitySerializationHolder::GetRealObject(::Syste
 }
 // Ctor Parameters []
 constexpr ::System::UnitySerializationHolder::UnitySerializationHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

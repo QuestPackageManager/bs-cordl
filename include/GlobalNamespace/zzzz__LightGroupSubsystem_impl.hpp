@@ -92,5 +92,3 @@ inline void GlobalNamespace::LightGroupSubsystem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroupSubsystem::LightGroupSubsystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

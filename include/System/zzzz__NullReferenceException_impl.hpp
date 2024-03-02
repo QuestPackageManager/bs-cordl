@@ -76,5 +76,3 @@ inline void System::NullReferenceException::_ctor(::System::Runtime::Serializati
 }
 // Ctor Parameters []
 constexpr ::System::NullReferenceException::NullReferenceException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

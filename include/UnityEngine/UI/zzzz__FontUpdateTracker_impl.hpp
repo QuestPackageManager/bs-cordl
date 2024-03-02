@@ -78,5 +78,3 @@ inline void UnityEngine::UI::FontUpdateTracker::UntrackText(::UnityEngine::UI::T
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::FontUpdateTracker::FontUpdateTracker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

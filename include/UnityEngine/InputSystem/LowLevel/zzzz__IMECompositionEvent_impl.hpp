@@ -83,5 +83,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionEvent::IMEComposit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::IMECompositionEvent::IMECompositionEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

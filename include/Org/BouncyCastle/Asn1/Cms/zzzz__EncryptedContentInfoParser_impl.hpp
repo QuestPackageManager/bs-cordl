@@ -132,5 +132,3 @@ inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* Org::BouncyCastle::Asn1::Cms
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser::EncryptedContentInfoParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

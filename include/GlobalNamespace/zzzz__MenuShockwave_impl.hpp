@@ -170,5 +170,3 @@ inline void GlobalNamespace::MenuShockwave::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuShockwave::MenuShockwave() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

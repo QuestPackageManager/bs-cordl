@@ -196,5 +196,3 @@ inline void GlobalNamespace::JoiningLobbyViewController::_DidActivate_b__8_0() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::JoiningLobbyViewController::JoiningLobbyViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

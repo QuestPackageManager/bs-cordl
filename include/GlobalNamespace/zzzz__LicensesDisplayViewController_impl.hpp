@@ -72,5 +72,3 @@ inline void GlobalNamespace::LicensesDisplayViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LicensesDisplayViewController::LicensesDisplayViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

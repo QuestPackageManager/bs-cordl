@@ -194,5 +194,3 @@ constexpr ::UnityEngine::InputSystem::Haptics::DualMotorRumble::DualMotorRumble(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Haptics::DualMotorRumble::DualMotorRumble() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

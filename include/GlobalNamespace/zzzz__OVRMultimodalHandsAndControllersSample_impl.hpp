@@ -204,5 +204,3 @@ inline void GlobalNamespace::OVRMultimodalHandsAndControllersSample::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMultimodalHandsAndControllersSample::OVRMultimodalHandsAndControllersSample() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

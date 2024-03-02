@@ -1668,5 +1668,3 @@ inline void System::Reflection::SignatureType::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::SignatureType::SignatureType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

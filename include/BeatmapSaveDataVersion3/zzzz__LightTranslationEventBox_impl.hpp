@@ -281,5 +281,3 @@ inline void BeatmapSaveDataVersion3::LightTranslationEventBox::_ctor(::BeatmapSa
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightTranslationEventBox::LightTranslationEventBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

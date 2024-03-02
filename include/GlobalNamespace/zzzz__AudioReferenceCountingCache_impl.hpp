@@ -26,5 +26,3 @@ inline void GlobalNamespace::AudioReferenceCountingCache::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioReferenceCountingCache::AudioReferenceCountingCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

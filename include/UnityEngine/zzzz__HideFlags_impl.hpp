@@ -15,5 +15,3 @@ constexpr ::UnityEngine::HideFlags UnityEngine::HideFlags::DontSaveInBuild{ stat
 constexpr ::UnityEngine::HideFlags UnityEngine::HideFlags::DontUnloadUnusedAsset{ static_cast<int32_t>(0x20) };
 constexpr ::UnityEngine::HideFlags UnityEngine::HideFlags::DontSave{ static_cast<int32_t>(0x34) };
 constexpr ::UnityEngine::HideFlags UnityEngine::HideFlags::HideAndDontSave{ static_cast<int32_t>(0x3d) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -97,5 +97,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::DerSequen
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerSequenceParser::DerSequenceParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

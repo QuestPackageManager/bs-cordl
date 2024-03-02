@@ -84,5 +84,3 @@ inline void GlobalNamespace::OVRAudioSourceTest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRAudioSourceTest::OVRAudioSourceTest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

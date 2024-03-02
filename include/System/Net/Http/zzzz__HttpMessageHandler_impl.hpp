@@ -95,5 +95,3 @@ inline void System::Net::Http::HttpMessageHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::HttpMessageHandler::HttpMessageHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

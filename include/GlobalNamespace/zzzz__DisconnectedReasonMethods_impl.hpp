@@ -44,5 +44,3 @@ inline ::StringW GlobalNamespace::DisconnectedReasonMethods::ErrorCode(::GlobalN
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisconnectedReasonMethods::DisconnectedReasonMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

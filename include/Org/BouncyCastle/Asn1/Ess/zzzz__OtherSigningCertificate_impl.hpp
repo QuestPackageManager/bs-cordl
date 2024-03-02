@@ -164,5 +164,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Ess::Othe
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate::OtherSigningCertificate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

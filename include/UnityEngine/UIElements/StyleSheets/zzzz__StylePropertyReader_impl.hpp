@@ -1294,5 +1294,3 @@ inline void UnityEngine::UIElements::StyleSheets::StylePropertyReader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyReader::StylePropertyReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -47,5 +47,3 @@ inline ::GlobalNamespace::__UserInfo__Platform GlobalNamespace::AuthenticationTo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AuthenticationTokenPlatformExtensions::AuthenticationTokenPlatformExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

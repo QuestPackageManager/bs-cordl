@@ -422,5 +422,3 @@ Newtonsoft::Json::Linq::JsonPath::JPath::Evaluate(::System::Collections::Generic
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonPath::JPath::JPath() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

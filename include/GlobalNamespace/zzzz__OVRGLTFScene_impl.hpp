@@ -25,5 +25,3 @@ constexpr ::GlobalNamespace::OVRGLTFScene::OVRGLTFScene(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGLTFScene::OVRGLTFScene() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

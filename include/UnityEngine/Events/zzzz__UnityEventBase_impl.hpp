@@ -387,5 +387,3 @@ inline ::System::Reflection::MethodInfo* UnityEngine::Events::UnityEventBase::Ge
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::UnityEventBase::UnityEventBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

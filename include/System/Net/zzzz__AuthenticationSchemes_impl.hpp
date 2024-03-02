@@ -13,5 +13,3 @@ constexpr ::System::Net::AuthenticationSchemes System::Net::AuthenticationScheme
 constexpr ::System::Net::AuthenticationSchemes System::Net::AuthenticationSchemes::Basic{ static_cast<int32_t>(0x8) };
 constexpr ::System::Net::AuthenticationSchemes System::Net::AuthenticationSchemes::Anonymous{ static_cast<int32_t>(0x8000) };
 constexpr ::System::Net::AuthenticationSchemes System::Net::AuthenticationSchemes::IntegratedWindowsAuthentication{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

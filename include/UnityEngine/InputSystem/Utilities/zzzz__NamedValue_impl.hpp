@@ -378,5 +378,3 @@ constexpr ::UnityEngine::InputSystem::Utilities::NamedValue::NamedValue(::String
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::NamedValue::NamedValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

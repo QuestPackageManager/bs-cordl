@@ -112,5 +112,3 @@ inline void System::ComponentModel::DateTimeConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DateTimeConverter::DateTimeConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

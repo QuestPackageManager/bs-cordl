@@ -680,5 +680,3 @@ inline void System::Net::WebConnectionStream::set_Position(int64_t value) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebConnectionStream::WebConnectionStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -700,5 +700,3 @@ constexpr ::System::Numerics::Register::Register(uint8_t byte_0, uint8_t byte_1,
 }
 // Ctor Parameters []
 constexpr ::System::Numerics::Register::Register() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

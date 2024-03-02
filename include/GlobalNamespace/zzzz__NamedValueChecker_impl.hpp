@@ -51,5 +51,3 @@ inline void GlobalNamespace::NamedValueChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NamedValueChecker::NamedValueChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -231,5 +231,3 @@ template <typename TObject, typename TObjectDependency> inline float_t UnityEngi
 }
 // Ctor Parameters []
 template <typename TObject, typename TObjectDependency> constexpr ::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::ChainOperation_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -56,5 +56,3 @@ inline void GlobalNamespace::NetDataWriterExtensions::SetUpPacket(::LiteNetLib::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NetDataWriterExtensions::NetDataWriterExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

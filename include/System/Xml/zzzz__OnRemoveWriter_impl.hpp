@@ -47,5 +47,3 @@ inline void System::Xml::OnRemoveWriter::Invoke(::System::Xml::XmlRawWriter* wri
 }
 // Ctor Parameters []
 constexpr ::System::Xml::OnRemoveWriter::OnRemoveWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

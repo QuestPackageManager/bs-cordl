@@ -253,5 +253,3 @@ inline bool Org::BouncyCastle::X509::AttributeCertificateIssuer::Match(::System:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::AttributeCertificateIssuer::AttributeCertificateIssuer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

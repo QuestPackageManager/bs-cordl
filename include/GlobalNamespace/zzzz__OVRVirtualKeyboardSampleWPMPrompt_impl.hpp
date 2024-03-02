@@ -44,5 +44,3 @@ inline void GlobalNamespace::OVRVirtualKeyboardSampleWPMPrompt::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVirtualKeyboardSampleWPMPrompt::OVRVirtualKeyboardSampleWPMPrompt() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

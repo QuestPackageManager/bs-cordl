@@ -3390,5 +3390,3 @@ inline void System::Threading::Tasks::Task::ExecuteWithThreadLocal(ByRef<::Syste
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::Task::Task() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -933,5 +933,3 @@ inline void System::Net::Sockets::SocketAsyncEventArgs::SetBuffer(::System::Memo
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::SocketAsyncEventArgs::SocketAsyncEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

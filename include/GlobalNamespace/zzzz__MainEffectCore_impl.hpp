@@ -57,5 +57,3 @@ inline void GlobalNamespace::MainEffectCore::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainEffectCore::MainEffectCore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

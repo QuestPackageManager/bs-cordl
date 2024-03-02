@@ -15,5 +15,3 @@ constexpr ::System::Runtime::Serialization::StreamingContextStates System::Runti
 constexpr ::System::Runtime::Serialization::StreamingContextStates System::Runtime::Serialization::StreamingContextStates::Clone{ static_cast<int32_t>(0x40) };
 constexpr ::System::Runtime::Serialization::StreamingContextStates System::Runtime::Serialization::StreamingContextStates::CrossAppDomain{ static_cast<int32_t>(0x80) };
 constexpr ::System::Runtime::Serialization::StreamingContextStates System::Runtime::Serialization::StreamingContextStates::All{ static_cast<int32_t>(0xff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

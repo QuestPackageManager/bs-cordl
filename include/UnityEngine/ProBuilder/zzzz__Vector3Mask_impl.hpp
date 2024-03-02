@@ -487,5 +487,3 @@ constexpr ::UnityEngine::ProBuilder::Vector3Mask::Vector3Mask(uint8_t m_Mask) no
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Vector3Mask::Vector3Mask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

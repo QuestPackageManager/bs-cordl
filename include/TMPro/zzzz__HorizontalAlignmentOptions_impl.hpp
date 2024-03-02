@@ -12,5 +12,3 @@ constexpr ::TMPro::HorizontalAlignmentOptions TMPro::HorizontalAlignmentOptions:
 constexpr ::TMPro::HorizontalAlignmentOptions TMPro::HorizontalAlignmentOptions::Justified{ static_cast<int32_t>(0x8) };
 constexpr ::TMPro::HorizontalAlignmentOptions TMPro::HorizontalAlignmentOptions::Flush{ static_cast<int32_t>(0x10) };
 constexpr ::TMPro::HorizontalAlignmentOptions TMPro::HorizontalAlignmentOptions::Geometry{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

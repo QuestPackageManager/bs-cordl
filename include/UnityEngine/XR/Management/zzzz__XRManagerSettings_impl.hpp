@@ -837,5 +837,3 @@ inline void UnityEngine::XR::Management::XRManagerSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::Management::XRManagerSettings::XRManagerSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

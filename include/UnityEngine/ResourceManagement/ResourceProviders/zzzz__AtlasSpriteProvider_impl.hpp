@@ -50,5 +50,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider::AtlasSpriteProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

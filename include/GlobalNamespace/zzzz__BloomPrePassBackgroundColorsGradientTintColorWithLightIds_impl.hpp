@@ -67,5 +67,3 @@ inline void GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLi
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::BloomPrePassBackgroundColorsGradientTintColorWithLightIds() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

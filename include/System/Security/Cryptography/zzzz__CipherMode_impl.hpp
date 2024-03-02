@@ -11,5 +11,3 @@ constexpr ::System::Security::Cryptography::CipherMode System::Security::Cryptog
 constexpr ::System::Security::Cryptography::CipherMode System::Security::Cryptography::CipherMode::OFB{ static_cast<int32_t>(0x3) };
 constexpr ::System::Security::Cryptography::CipherMode System::Security::Cryptography::CipherMode::CFB{ static_cast<int32_t>(0x4) };
 constexpr ::System::Security::Cryptography::CipherMode System::Security::Cryptography::CipherMode::CTS{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -75,5 +75,3 @@ constexpr ::System::Collections::Generic::LargeArrayBuilder_1<T>::LargeArrayBuil
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::LargeArrayBuilder_1<T>::LargeArrayBuilder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

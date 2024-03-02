@@ -62,5 +62,3 @@ inline void UnityEngine::TextMesh::set_alignment(::UnityEngine::TextAlignment va
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextMesh::TextMesh() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

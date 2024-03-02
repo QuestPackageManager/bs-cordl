@@ -285,5 +285,3 @@ constexpr ::MS::Internal::Xml::Cache::XPathNode::XPathNode(::MS::Internal::Xml::
 }
 // Ctor Parameters []
 constexpr ::MS::Internal::Xml::Cache::XPathNode::XPathNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Security::SignatureException::_ctor(::StringW mes
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::SignatureException::SignatureException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

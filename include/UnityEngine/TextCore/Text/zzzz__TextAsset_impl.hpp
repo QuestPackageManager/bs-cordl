@@ -261,5 +261,3 @@ inline void UnityEngine::TextCore::Text::TextAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextAsset::TextAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

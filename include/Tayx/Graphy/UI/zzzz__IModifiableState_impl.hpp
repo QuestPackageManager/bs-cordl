@@ -21,5 +21,3 @@ inline void Tayx::Graphy::UI::IModifiableState::SetState(::Tayx::Graphy::__Graph
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::UI::IModifiableState*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newState, silentUpdate);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

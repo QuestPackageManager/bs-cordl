@@ -387,5 +387,3 @@ inline void GlobalNamespace::ColorTMPTextStateTransition::_StartTween_b__16_1() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorTMPTextStateTransition::ColorTMPTextStateTransition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

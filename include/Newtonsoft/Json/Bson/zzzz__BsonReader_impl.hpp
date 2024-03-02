@@ -899,5 +899,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Newtonsoft::Json::Bson::BsonReader::
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonReader::BsonReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

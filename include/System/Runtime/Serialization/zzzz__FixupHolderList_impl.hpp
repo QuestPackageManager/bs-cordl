@@ -117,5 +117,3 @@ inline void System::Runtime::Serialization::FixupHolderList::EnlargeArray() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::FixupHolderList::FixupHolderList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

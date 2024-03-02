@@ -97,5 +97,3 @@ inline ::UnityEngine::Vector3 Tweening::Vector3Tween::GetValue(float_t t) {
 }
 // Ctor Parameters []
 constexpr ::Tweening::Vector3Tween::Vector3Tween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

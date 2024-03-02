@@ -24,5 +24,3 @@ inline void System::Diagnostics::DebuggerHiddenAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::DebuggerHiddenAttribute::DebuggerHiddenAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

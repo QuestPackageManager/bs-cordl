@@ -11,5 +11,3 @@ constexpr ::UnityEngine::Tilemaps::TileAnimationData::TileAnimationData(::ArrayW
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Tilemaps::TileAnimationData::TileAnimationData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

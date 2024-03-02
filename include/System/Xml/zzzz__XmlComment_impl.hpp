@@ -107,5 +107,3 @@ inline ::System::Xml::XmlNode* System::Xml::XmlComment::CloneNode(bool deep) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlComment::XmlComment() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

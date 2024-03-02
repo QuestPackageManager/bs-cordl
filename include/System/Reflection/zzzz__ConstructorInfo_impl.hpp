@@ -189,5 +189,3 @@ inline bool System::Reflection::ConstructorInfo::op_Inequality(::System::Reflect
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::ConstructorInfo::ConstructorInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

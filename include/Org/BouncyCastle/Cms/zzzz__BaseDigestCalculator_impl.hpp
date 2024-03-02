@@ -67,5 +67,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Cms::BaseDigestCa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::BaseDigestCalculator::BaseDigestCalculator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -47,5 +47,3 @@ inline void GlobalNamespace::TupleListExtensions::Add(::System::Collections::Gen
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TupleListExtensions::TupleListExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

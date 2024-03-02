@@ -246,5 +246,3 @@ inline void UnityEngine::UIElements::GeometryChangedEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::GeometryChangedEvent::GeometryChangedEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

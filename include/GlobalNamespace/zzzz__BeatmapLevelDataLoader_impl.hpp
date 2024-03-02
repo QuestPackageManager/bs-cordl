@@ -225,5 +225,3 @@ inline void GlobalNamespace::BeatmapLevelDataLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelDataLoader::BeatmapLevelDataLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

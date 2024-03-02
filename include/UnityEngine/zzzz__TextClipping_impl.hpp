@@ -8,5 +8,3 @@ constexpr ::UnityEngine::TextClipping::TextClipping(int32_t value__) noexcept {
 constexpr ::UnityEngine::TextClipping::TextClipping() {}
 constexpr ::UnityEngine::TextClipping UnityEngine::TextClipping::Overflow{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::TextClipping UnityEngine::TextClipping::Clip{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

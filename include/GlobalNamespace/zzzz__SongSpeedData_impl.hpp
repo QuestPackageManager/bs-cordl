@@ -38,5 +38,3 @@ inline void GlobalNamespace::SongSpeedData::_ctor(float_t speedMul) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongSpeedData::SongSpeedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

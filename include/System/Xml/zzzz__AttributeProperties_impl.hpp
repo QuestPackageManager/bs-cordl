@@ -10,5 +10,3 @@ constexpr ::System::Xml::AttributeProperties System::Xml::AttributeProperties::D
 constexpr ::System::Xml::AttributeProperties System::Xml::AttributeProperties::URI{ static_cast<uint32_t>(0x40201u) };
 constexpr ::System::Xml::AttributeProperties System::Xml::AttributeProperties::BOOLEAN{ static_cast<uint32_t>(0x2000402u) };
 constexpr ::System::Xml::AttributeProperties System::Xml::AttributeProperties::NAME{ static_cast<uint32_t>(0x4020004u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

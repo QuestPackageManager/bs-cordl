@@ -11,5 +11,3 @@ constexpr ::System::Xml::ReadState System::Xml::ReadState::Interactive{ static_c
 constexpr ::System::Xml::ReadState System::Xml::ReadState::Error{ static_cast<int32_t>(0x2) };
 constexpr ::System::Xml::ReadState System::Xml::ReadState::EndOfFile{ static_cast<int32_t>(0x3) };
 constexpr ::System::Xml::ReadState System::Xml::ReadState::Closed{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

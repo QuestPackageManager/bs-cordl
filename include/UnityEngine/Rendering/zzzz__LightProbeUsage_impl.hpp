@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Rendering::LightProbeUsage UnityEngine::Rendering::Ligh
 constexpr ::UnityEngine::Rendering::LightProbeUsage UnityEngine::Rendering::LightProbeUsage::BlendProbes{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::LightProbeUsage UnityEngine::Rendering::LightProbeUsage::UseProxyVolume{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::LightProbeUsage UnityEngine::Rendering::LightProbeUsage::CustomProvided{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

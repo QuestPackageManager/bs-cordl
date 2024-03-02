@@ -205,5 +205,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::_ctor(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::ValidityPreCompInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

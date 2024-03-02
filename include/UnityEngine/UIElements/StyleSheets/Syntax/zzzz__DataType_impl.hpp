@@ -17,5 +17,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::Time{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::Angle{ static_cast<int32_t>(0x9) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType UnityEngine::UIElements::StyleSheets::Syntax::DataType::CustomIdent{ static_cast<int32_t>(0xa) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

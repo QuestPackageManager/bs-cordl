@@ -536,5 +536,3 @@ inline void UnityEngine::TouchScreenKeyboard::SetSelection(int32_t start, int32_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TouchScreenKeyboard::TouchScreenKeyboard() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

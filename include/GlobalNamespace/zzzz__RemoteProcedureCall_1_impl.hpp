@@ -54,5 +54,3 @@ template <typename T0> inline void GlobalNamespace::RemoteProcedureCall_1<T0>::_
 }
 // Ctor Parameters []
 template <typename T0> constexpr ::GlobalNamespace::RemoteProcedureCall_1<T0>::RemoteProcedureCall_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

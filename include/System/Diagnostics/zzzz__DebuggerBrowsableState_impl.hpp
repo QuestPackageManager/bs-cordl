@@ -9,5 +9,3 @@ constexpr ::System::Diagnostics::DebuggerBrowsableState::DebuggerBrowsableState(
 constexpr ::System::Diagnostics::DebuggerBrowsableState System::Diagnostics::DebuggerBrowsableState::Never{ static_cast<int32_t>(0x0) };
 constexpr ::System::Diagnostics::DebuggerBrowsableState System::Diagnostics::DebuggerBrowsableState::Collapsed{ static_cast<int32_t>(0x2) };
 constexpr ::System::Diagnostics::DebuggerBrowsableState System::Diagnostics::DebuggerBrowsableState::RootHidden{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

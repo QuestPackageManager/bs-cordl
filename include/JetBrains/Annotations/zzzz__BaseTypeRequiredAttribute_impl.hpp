@@ -80,5 +80,3 @@ inline void JetBrains::Annotations::BaseTypeRequiredAttribute::set_BaseType(::Sy
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::BaseTypeRequiredAttribute::BaseTypeRequiredAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

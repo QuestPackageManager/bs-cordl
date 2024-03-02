@@ -78,5 +78,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::_ctor(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException::PgpDataValidationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

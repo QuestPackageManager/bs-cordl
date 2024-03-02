@@ -67,5 +67,3 @@ inline float_t GlobalNamespace::RelativeSfxVolumePerLevelModel::GetRelativeSfxVo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RelativeSfxVolumePerLevelModel::RelativeSfxVolumePerLevelModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

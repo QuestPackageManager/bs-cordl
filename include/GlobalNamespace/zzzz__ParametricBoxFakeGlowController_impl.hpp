@@ -236,5 +236,3 @@ inline void GlobalNamespace::ParametricBoxFakeGlowController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ParametricBoxFakeGlowController::ParametricBoxFakeGlowController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -960,5 +960,3 @@ inline void UnityEngine::InputSystem::UI::VirtualMouseInput::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::VirtualMouseInput::VirtualMouseInput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

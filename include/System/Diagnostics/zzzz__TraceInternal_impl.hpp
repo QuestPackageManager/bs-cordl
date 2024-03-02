@@ -134,5 +134,3 @@ inline void System::Diagnostics::TraceInternal::InitializeSettings() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::TraceInternal::TraceInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

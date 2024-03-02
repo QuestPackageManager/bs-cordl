@@ -136,5 +136,3 @@ inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Org::BouncyCastle:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey::Pkcs5Scheme2PbeKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

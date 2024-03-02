@@ -360,5 +360,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::GM::GMNamedC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::GM::GMNamedCurves::GMNamedCurves() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -594,5 +594,3 @@ inline void System::Collections::Queue::SetCapacity(int32_t capacity) {
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Queue::Queue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

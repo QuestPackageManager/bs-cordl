@@ -95,5 +95,3 @@ inline ::System::Object* Org::BouncyCastle::Crypto::Operators::DefaultSignatureC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator::DefaultSignatureCalculator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

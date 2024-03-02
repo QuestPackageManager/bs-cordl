@@ -144,5 +144,3 @@ inline bool System::ComponentModel::DesignOnlyAttribute::IsDefaultAttribute() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DesignOnlyAttribute::DesignOnlyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

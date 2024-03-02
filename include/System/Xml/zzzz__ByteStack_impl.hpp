@@ -112,5 +112,3 @@ inline uint8_t System::Xml::ByteStack::Pop() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::ByteStack::ByteStack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -4613,5 +4613,3 @@ inline ::StringW System::String::IsInterned(::StringW str) {
 }
 // Ctor Parameters []
 constexpr ::System::String::String() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

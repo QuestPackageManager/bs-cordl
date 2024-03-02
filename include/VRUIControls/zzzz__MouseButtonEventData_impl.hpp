@@ -86,5 +86,3 @@ inline void VRUIControls::MouseButtonEventData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::VRUIControls::MouseButtonEventData::MouseButtonEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

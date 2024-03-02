@@ -311,5 +311,3 @@ inline void UnityEngine::UI::StencilMaterial::ClearAll() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::StencilMaterial::StencilMaterial() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

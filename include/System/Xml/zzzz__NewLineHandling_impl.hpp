@@ -9,5 +9,3 @@ constexpr ::System::Xml::NewLineHandling::NewLineHandling() {}
 constexpr ::System::Xml::NewLineHandling System::Xml::NewLineHandling::Replace{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::NewLineHandling System::Xml::NewLineHandling::Entitize{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::NewLineHandling System::Xml::NewLineHandling::None{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

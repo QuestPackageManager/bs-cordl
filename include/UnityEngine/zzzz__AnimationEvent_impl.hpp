@@ -161,5 +161,3 @@ inline void UnityEngine::AnimationEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AnimationEvent::AnimationEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

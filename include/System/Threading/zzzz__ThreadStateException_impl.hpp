@@ -76,5 +76,3 @@ inline void System::Threading::ThreadStateException::_ctor(::System::Runtime::Se
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ThreadStateException::ThreadStateException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

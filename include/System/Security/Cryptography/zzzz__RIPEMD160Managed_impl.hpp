@@ -332,5 +332,3 @@ inline uint32_t System::Security::Cryptography::RIPEMD160Managed::J(uint32_t x, 
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RIPEMD160Managed::RIPEMD160Managed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -200,5 +200,3 @@ inline void Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::G
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters::X25519PrivateKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::OVR::OpenVR::ETrackedControllerRole OVR::OpenVR::ETrackedControllerR
 constexpr ::OVR::OpenVR::ETrackedControllerRole OVR::OpenVR::ETrackedControllerRole::RightHand{ static_cast<int32_t>(0x2) };
 constexpr ::OVR::OpenVR::ETrackedControllerRole OVR::OpenVR::ETrackedControllerRole::OptOut{ static_cast<int32_t>(0x3) };
 constexpr ::OVR::OpenVR::ETrackedControllerRole OVR::OpenVR::ETrackedControllerRole::Max{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

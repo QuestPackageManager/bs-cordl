@@ -21,5 +21,3 @@ inline void UnityEngine::PreloadData::PreloadDataDontStripMe() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PreloadData::PreloadData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

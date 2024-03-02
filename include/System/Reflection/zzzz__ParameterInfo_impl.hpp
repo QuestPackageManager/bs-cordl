@@ -401,5 +401,3 @@ inline ::StringW System::Reflection::ParameterInfo::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::ParameterInfo::ParameterInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

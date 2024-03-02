@@ -214,5 +214,3 @@ constexpr ::System::Threading::SpinLock::SpinLock(int32_t m_owner) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::SpinLock::SpinLock() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

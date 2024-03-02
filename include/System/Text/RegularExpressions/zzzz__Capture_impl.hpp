@@ -263,5 +263,3 @@ inline ::System::ReadOnlySpan_1<char16_t> System::Text::RegularExpressions::Capt
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::Capture::Capture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

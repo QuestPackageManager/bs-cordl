@@ -222,5 +222,3 @@ inline void HMUI::ButtonSpriteSwap::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ButtonSpriteSwap::ButtonSpriteSwap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

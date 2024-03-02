@@ -242,5 +242,3 @@ inline void GlobalNamespace::LobbyPlayerData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LobbyPlayerData::LobbyPlayerData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

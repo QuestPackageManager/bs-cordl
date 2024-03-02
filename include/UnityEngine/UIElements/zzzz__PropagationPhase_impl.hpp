@@ -12,5 +12,3 @@ constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::P
 constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::DefaultActionAtTarget{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::BubbleUp{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::DefaultAction{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

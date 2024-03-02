@@ -256,5 +256,3 @@ inline void UnityEngine::ProBuilder::KdTree::Math::FloatMath::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::KdTree::Math::FloatMath::FloatMath() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -227,5 +227,3 @@ inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Gene
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BatchExtensions::BatchExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -280,5 +280,3 @@ inline void GlobalNamespace::MultiplayerBigAvatarAnimator::_InitIfNeeded_b__8_2(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerBigAvatarAnimator::MultiplayerBigAvatarAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

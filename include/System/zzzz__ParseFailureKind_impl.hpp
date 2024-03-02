@@ -14,5 +14,3 @@ constexpr ::System::ParseFailureKind System::ParseFailureKind::FormatWithOrigina
 constexpr ::System::ParseFailureKind System::ParseFailureKind::FormatWithFormatSpecifier{ static_cast<int32_t>(0x5) };
 constexpr ::System::ParseFailureKind System::ParseFailureKind::FormatWithOriginalDateTimeAndParameter{ static_cast<int32_t>(0x6) };
 constexpr ::System::ParseFailureKind System::ParseFailureKind::FormatBadDateTimeCalendar{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

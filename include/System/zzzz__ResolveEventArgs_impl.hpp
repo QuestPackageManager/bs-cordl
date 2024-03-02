@@ -77,5 +77,3 @@ inline void System::ResolveEventArgs::_ctor(::StringW name, ::System::Reflection
 }
 // Ctor Parameters []
 constexpr ::System::ResolveEventArgs::ResolveEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

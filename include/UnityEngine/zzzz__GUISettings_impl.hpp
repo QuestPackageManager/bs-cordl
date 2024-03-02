@@ -85,5 +85,3 @@ inline void UnityEngine::GUISettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUISettings::GUISettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

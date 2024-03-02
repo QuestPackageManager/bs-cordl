@@ -39,5 +39,3 @@ inline void System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::_ctor(bool 
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute::NotNullWhenAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

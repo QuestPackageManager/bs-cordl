@@ -198,5 +198,3 @@ inline void Org::BouncyCastle::Asn1::DerSet::Encode(::Org::BouncyCastle::Asn1::D
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerSet::DerSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

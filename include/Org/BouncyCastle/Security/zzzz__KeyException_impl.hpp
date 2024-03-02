@@ -75,5 +75,3 @@ inline void Org::BouncyCastle::Security::KeyException::_ctor(::StringW message, 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::KeyException::KeyException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ constexpr ::System::Collections::Concurrent::PaddedHeadAndTail::PaddedHeadAndTai
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Concurrent::PaddedHeadAndTail::PaddedHeadAndTail() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

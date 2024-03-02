@@ -9,5 +9,3 @@ constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior::UIPointerBehavior()
 constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior UnityEngine::InputSystem::UI::UIPointerBehavior::SingleMouseOrPenButMultiTouchAndTrack{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior UnityEngine::InputSystem::UI::UIPointerBehavior::SingleUnifiedPointer{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior UnityEngine::InputSystem::UI::UIPointerBehavior::AllPointersAsIs{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

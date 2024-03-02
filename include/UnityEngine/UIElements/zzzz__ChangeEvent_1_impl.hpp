@@ -73,5 +73,3 @@ template <typename T> inline void UnityEngine::UIElements::ChangeEvent_1<T>::_ct
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::ChangeEvent_1<T>::ChangeEvent_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

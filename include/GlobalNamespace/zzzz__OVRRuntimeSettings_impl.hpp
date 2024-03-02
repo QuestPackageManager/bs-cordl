@@ -172,5 +172,3 @@ inline void GlobalNamespace::OVRRuntimeSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRRuntimeSettings::OVRRuntimeSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

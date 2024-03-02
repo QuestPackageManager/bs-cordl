@@ -488,5 +488,3 @@ inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> UnityEngine::ProBuild
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ShapeGenerator::ShapeGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

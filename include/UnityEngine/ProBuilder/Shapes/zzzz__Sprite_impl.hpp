@@ -69,5 +69,3 @@ inline void UnityEngine::ProBuilder::Shapes::Sprite::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Sprite::Sprite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

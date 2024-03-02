@@ -107,5 +107,3 @@ inline void GlobalNamespace::ScreenBackButtonAnimationController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScreenBackButtonAnimationController::ScreenBackButtonAnimationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

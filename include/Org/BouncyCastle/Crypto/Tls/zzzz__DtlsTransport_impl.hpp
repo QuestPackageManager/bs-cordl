@@ -163,5 +163,3 @@ inline void Org::BouncyCastle::Crypto::Tls::DtlsTransport::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsTransport::DtlsTransport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

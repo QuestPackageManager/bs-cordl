@@ -359,5 +359,3 @@ inline ::Newtonsoft::Json::JsonReaderException* Newtonsoft::Json::JsonReaderExce
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonReaderException::JsonReaderException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

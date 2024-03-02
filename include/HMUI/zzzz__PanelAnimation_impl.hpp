@@ -409,5 +409,3 @@ inline void HMUI::PanelAnimation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::PanelAnimation::PanelAnimation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

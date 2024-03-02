@@ -152,5 +152,3 @@ inline void GlobalNamespace::PCAppInit::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PCAppInit::PCAppInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

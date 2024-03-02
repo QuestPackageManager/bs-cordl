@@ -81,5 +81,3 @@ inline ::StringW System::Runtime::Remoting::ActivatedServiceTypeEntry::ToString(
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ActivatedServiceTypeEntry::ActivatedServiceTypeEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

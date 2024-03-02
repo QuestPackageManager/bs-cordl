@@ -11,5 +11,3 @@ constexpr ::JetBrains::Annotations::ImplicitUseKindFlags JetBrains::Annotations:
 constexpr ::JetBrains::Annotations::ImplicitUseKindFlags JetBrains::Annotations::ImplicitUseKindFlags::Assign{ static_cast<int32_t>(0x2) };
 constexpr ::JetBrains::Annotations::ImplicitUseKindFlags JetBrains::Annotations::ImplicitUseKindFlags::InstantiatedWithFixedConstructorSignature{ static_cast<int32_t>(0x4) };
 constexpr ::JetBrains::Annotations::ImplicitUseKindFlags JetBrains::Annotations::ImplicitUseKindFlags::InstantiatedNoFixedConstructorSignature{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::Oculus::Platform::PermissionType::PermissionType() {}
 constexpr ::Oculus::Platform::PermissionType Oculus::Platform::PermissionType::Unknown{ static_cast<int32_t>(0x0) };
 constexpr ::Oculus::Platform::PermissionType Oculus::Platform::PermissionType::Microphone{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::PermissionType Oculus::Platform::PermissionType::WriteExternalStorage{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

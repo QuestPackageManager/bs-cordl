@@ -190,5 +190,3 @@ inline void UnityEngine::UIElements::ReusableListViewItem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ReusableListViewItem::ReusableListViewItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void UnityEngine::UIElements::DetachFromPanelEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DetachFromPanelEvent::DetachFromPanelEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

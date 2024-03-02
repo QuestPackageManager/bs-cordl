@@ -23,5 +23,3 @@ inline void System::Runtime::Serialization::ISafeSerializationData::CompleteDese
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ISafeSerializationData*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, deserialized);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

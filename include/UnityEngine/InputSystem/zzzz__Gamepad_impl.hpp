@@ -1256,5 +1256,3 @@ inline void UnityEngine::InputSystem::Gamepad::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Gamepad::Gamepad() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

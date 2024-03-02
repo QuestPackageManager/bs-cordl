@@ -2018,5 +2018,3 @@ inline void GlobalNamespace::PlayerSaveData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerSaveData::PlayerSaveData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

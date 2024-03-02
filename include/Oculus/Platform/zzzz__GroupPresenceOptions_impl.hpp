@@ -180,5 +180,3 @@ inline void Oculus::Platform::GroupPresenceOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::GroupPresenceOptions::GroupPresenceOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

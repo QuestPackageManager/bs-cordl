@@ -353,5 +353,3 @@ inline int32_t Org::BouncyCastle::Asn1::Cms::EnvelopedData::CalculateVersion(::O
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::EnvelopedData::EnvelopedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -306,5 +306,3 @@ inline void GlobalNamespace::EnabledViewStateTransition::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnabledViewStateTransition::EnabledViewStateTransition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

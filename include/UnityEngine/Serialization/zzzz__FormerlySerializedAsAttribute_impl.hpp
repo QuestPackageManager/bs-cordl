@@ -39,5 +39,3 @@ inline void UnityEngine::Serialization::FormerlySerializedAsAttribute::_ctor(::S
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Serialization::FormerlySerializedAsAttribute::FormerlySerializedAsAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

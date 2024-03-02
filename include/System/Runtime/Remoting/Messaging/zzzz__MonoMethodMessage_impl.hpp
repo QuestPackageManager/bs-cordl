@@ -779,5 +779,3 @@ inline bool System::Runtime::Remoting::Messaging::MonoMethodMessage::NeedsOutPro
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::MonoMethodMessage::MonoMethodMessage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -437,5 +437,3 @@ constexpr ::UnityEngine::ProBuilder::Edge::Edge(int32_t a, int32_t b) noexcept {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Edge::Edge() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

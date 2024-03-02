@@ -25,5 +25,3 @@ inline void System::Net::Configuration::BypassElementCollection::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::BypassElementCollection::BypassElementCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

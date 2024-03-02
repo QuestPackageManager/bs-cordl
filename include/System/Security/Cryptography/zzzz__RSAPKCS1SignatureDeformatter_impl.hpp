@@ -144,5 +144,3 @@ inline bool System::Security::Cryptography::RSAPKCS1SignatureDeformatter::Verify
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::RSAPKCS1SignatureDeformatter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

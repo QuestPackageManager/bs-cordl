@@ -420,5 +420,3 @@ inline ::System::Reflection::FieldAttributes System::Runtime::Serialization::Ser
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationFieldInfo::SerializationFieldInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -346,5 +346,3 @@ inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* System::Runti
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::CADMessageBase::CADMessageBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

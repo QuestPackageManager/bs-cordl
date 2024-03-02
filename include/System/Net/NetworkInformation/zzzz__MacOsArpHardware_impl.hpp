@@ -12,5 +12,3 @@ constexpr ::System::Net::NetworkInformation::MacOsArpHardware System::Net::Netwo
 constexpr ::System::Net::NetworkInformation::MacOsArpHardware System::Net::NetworkInformation::MacOsArpHardware::PPP{ static_cast<int32_t>(0x17) };
 constexpr ::System::Net::NetworkInformation::MacOsArpHardware System::Net::NetworkInformation::MacOsArpHardware::LOOPBACK{ static_cast<int32_t>(0x18) };
 constexpr ::System::Net::NetworkInformation::MacOsArpHardware System::Net::NetworkInformation::MacOsArpHardware::FDDI{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

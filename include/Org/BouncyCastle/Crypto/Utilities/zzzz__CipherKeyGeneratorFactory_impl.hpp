@@ -82,5 +82,3 @@ inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* Org::BouncyCastle::Crypt
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory::CipherKeyGeneratorFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

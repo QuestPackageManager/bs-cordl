@@ -89,5 +89,3 @@ constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>::AsyncTaskMethodBuilder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -199,5 +199,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* Org::BouncyCastle::Cryp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::PskTlsClient::PskTlsClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

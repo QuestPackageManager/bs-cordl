@@ -440,5 +440,3 @@ inline void GlobalNamespace::EnterPlayerGuestNameViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnterPlayerGuestNameViewController::EnterPlayerGuestNameViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

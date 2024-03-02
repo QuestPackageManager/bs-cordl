@@ -190,5 +190,3 @@ inline bool System::Runtime::Serialization::Formatters::Binary::SerStack::IsEmpt
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::SerStack::SerStack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

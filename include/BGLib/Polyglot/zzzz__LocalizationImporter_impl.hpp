@@ -285,5 +285,3 @@ inline ::System::Collections::Generic::List_1<::StringW>* BGLib::Polyglot::Local
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LocalizationImporter::LocalizationImporter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

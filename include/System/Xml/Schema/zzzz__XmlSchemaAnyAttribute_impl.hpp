@@ -105,5 +105,3 @@ inline void System::Xml::Schema::XmlSchemaAnyAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute::XmlSchemaAnyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

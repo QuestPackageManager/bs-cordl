@@ -9,5 +9,3 @@ constexpr ::UnityEngine::LightShadows::LightShadows() {}
 constexpr ::UnityEngine::LightShadows UnityEngine::LightShadows::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::LightShadows UnityEngine::LightShadows::Hard{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::LightShadows UnityEngine::LightShadows::Soft{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

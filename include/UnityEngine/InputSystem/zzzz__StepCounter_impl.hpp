@@ -182,5 +182,3 @@ inline void UnityEngine::InputSystem::StepCounter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::StepCounter::StepCounter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

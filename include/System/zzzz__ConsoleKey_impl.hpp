@@ -150,5 +150,3 @@ constexpr ::System::ConsoleKey System::ConsoleKey::Zoom{ static_cast<int32_t>(0x
 constexpr ::System::ConsoleKey System::ConsoleKey::NoName{ static_cast<int32_t>(0xfc) };
 constexpr ::System::ConsoleKey System::ConsoleKey::Pa1{ static_cast<int32_t>(0xfd) };
 constexpr ::System::ConsoleKey System::ConsoleKey::OemClear{ static_cast<int32_t>(0xfe) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

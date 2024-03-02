@@ -8,5 +8,3 @@ constexpr ::System::Threading::SynchronizationContextProperties::Synchronization
 constexpr ::System::Threading::SynchronizationContextProperties::SynchronizationContextProperties() {}
 constexpr ::System::Threading::SynchronizationContextProperties System::Threading::SynchronizationContextProperties::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Threading::SynchronizationContextProperties System::Threading::SynchronizationContextProperties::RequireWaitNotification{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void Oculus::Platform::Models::SdkAccountList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::SdkAccountList::SdkAccountList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

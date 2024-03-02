@@ -214,5 +214,3 @@ inline bool HoudiniEngineUnity::CurveNodeData::IsEquivalentTo(::HoudiniEngineUni
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::CurveNodeData::CurveNodeData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

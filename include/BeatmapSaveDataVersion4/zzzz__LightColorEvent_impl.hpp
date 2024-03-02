@@ -20,5 +20,3 @@ constexpr ::BeatmapSaveDataVersion4::LightColorEvent::LightColorEvent(int32_t p,
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::LightColorEvent::LightColorEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

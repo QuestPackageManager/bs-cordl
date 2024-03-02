@@ -91,5 +91,3 @@ inline ::System::Security::SecureString* System::Net::__UnsafeNclNativeMethods__
 constexpr ::System::Net::__UnsafeNclNativeMethods__SecureStringHelper::__UnsafeNclNativeMethods__SecureStringHelper() {}
 // Ctor Parameters []
 constexpr ::System::Net::UnsafeNclNativeMethods::UnsafeNclNativeMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

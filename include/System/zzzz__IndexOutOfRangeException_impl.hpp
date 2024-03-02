@@ -76,5 +76,3 @@ inline void System::IndexOutOfRangeException::_ctor(::System::Runtime::Serializa
 }
 // Ctor Parameters []
 constexpr ::System::IndexOutOfRangeException::IndexOutOfRangeException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

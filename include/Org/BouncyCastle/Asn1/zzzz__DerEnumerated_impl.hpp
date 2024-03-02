@@ -319,5 +319,3 @@ inline ::Org::BouncyCastle::Asn1::DerEnumerated* Org::BouncyCastle::Asn1::DerEnu
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerEnumerated::DerEnumerated() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

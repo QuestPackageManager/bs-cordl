@@ -118,5 +118,3 @@ inline void Libraries::HM::HMLib::VR::HapticPresetSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO::HapticPresetSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

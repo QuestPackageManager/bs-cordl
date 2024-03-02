@@ -413,5 +413,3 @@ inline void GlobalNamespace::KnucklesUnityXRHapticsHandler::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler::KnucklesUnityXRHapticsHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

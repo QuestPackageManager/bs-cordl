@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::AchievementProgressList* Oculus::Platform::Me
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithAchievementProgressList::MessageWithAchievementProgressList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

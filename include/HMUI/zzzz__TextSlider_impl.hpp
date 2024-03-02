@@ -880,5 +880,3 @@ inline ::UnityW<::UnityEngine::Transform> HMUI::TextSlider::UnityEngine_UI_ICanv
 }
 // Ctor Parameters []
 constexpr ::HMUI::TextSlider::TextSlider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

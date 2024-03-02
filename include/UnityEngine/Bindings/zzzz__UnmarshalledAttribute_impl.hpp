@@ -24,5 +24,3 @@ inline void UnityEngine::Bindings::UnmarshalledAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::UnmarshalledAttribute::UnmarshalledAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

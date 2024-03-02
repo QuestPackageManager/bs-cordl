@@ -10,5 +10,3 @@ constexpr ::UnityEngine::TerrainUtils::TerrainMapStatusCode UnityEngine::Terrain
 constexpr ::UnityEngine::TerrainUtils::TerrainMapStatusCode UnityEngine::TerrainUtils::TerrainMapStatusCode::Overlapping{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TerrainUtils::TerrainMapStatusCode UnityEngine::TerrainUtils::TerrainMapStatusCode::SizeMismatch{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::TerrainUtils::TerrainMapStatusCode UnityEngine::TerrainUtils::TerrainMapStatusCode::EdgeAlignmentMismatch{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

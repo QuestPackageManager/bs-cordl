@@ -2368,5 +2368,3 @@ inline void Newtonsoft::Json::JsonWriter::InternalWriteComment() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonWriter::JsonWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

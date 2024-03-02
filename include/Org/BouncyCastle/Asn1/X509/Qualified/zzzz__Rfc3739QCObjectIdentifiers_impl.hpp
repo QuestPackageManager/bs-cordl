@@ -55,5 +55,3 @@ inline void Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::Rfc3739QCObjectIdentifiers::Rfc3739QCObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

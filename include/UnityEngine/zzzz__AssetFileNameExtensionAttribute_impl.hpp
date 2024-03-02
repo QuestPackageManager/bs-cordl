@@ -55,5 +55,3 @@ inline void UnityEngine::AssetFileNameExtensionAttribute::_ctor(::StringW prefer
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AssetFileNameExtensionAttribute::AssetFileNameExtensionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

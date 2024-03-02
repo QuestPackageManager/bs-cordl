@@ -494,5 +494,3 @@ inline ::UnityEngine::UIElements::IPanel* UnityEngine::UIElements::PointerDevice
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerDeviceState::PointerDeviceState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

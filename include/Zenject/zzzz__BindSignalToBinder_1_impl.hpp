@@ -428,5 +428,3 @@ template <typename TSignal> inline ::Zenject::InjectTypeInfo* Zenject::BindSigna
 }
 // Ctor Parameters []
 template <typename TSignal> constexpr ::Zenject::BindSignalToBinder_1<TSignal>::BindSignalToBinder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

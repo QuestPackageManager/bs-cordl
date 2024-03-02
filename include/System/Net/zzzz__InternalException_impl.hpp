@@ -24,5 +24,3 @@ inline void System::Net::InternalException::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::InternalException::InternalException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

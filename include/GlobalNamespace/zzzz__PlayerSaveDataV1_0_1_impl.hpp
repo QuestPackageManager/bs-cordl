@@ -1109,5 +1109,3 @@ inline void GlobalNamespace::PlayerSaveDataV1_0_1::_ctor() {
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSaveDataV1_0_1() {}
 constexpr ::GlobalNamespace::BeatmapDifficulty GlobalNamespace::PlayerSaveDataV1_0_1::kDefaulLastSelectedBeatmapDifficulty{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

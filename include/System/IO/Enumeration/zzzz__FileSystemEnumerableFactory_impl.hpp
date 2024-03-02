@@ -885,5 +885,3 @@ inline ::System::Collections::Generic::IEnumerable_1<::System::IO::FileSystemInf
 }
 // Ctor Parameters []
 constexpr ::System::IO::Enumeration::FileSystemEnumerableFactory::FileSystemEnumerableFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

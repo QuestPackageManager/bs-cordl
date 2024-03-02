@@ -261,5 +261,3 @@ inline void Org::BouncyCastle::Crypto::Engines::Cast6Engine::CAST_Decipher(uint3
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::Cast6Engine::Cast6Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

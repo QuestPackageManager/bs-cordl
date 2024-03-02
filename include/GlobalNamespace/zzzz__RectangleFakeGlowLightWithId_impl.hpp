@@ -103,5 +103,3 @@ inline void GlobalNamespace::RectangleFakeGlowLightWithId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RectangleFakeGlowLightWithId::RectangleFakeGlowLightWithId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

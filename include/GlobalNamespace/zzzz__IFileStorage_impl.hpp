@@ -83,5 +83,3 @@ inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::IFileStorage::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IFileStorage*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, fileName, storageLocation);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -18,5 +18,3 @@ template <typename TInput, typename TOutput> inline TOutput System::Converter_2<
 }
 // Ctor Parameters []
 template <typename TInput, typename TOutput> constexpr ::System::Converter_2<TInput, TOutput>::Converter_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -51,5 +51,3 @@ inline ::UnityW<::UnityEngine::Object> UnityEngine::UIElements::LoadResourceFunc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::LoadResourceFunction::LoadResourceFunction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -71,5 +71,3 @@ inline ::System::Collections::ICollection* Org::BouncyCastle::X509::Store::X509C
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Store::X509CollectionStore::X509CollectionStore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

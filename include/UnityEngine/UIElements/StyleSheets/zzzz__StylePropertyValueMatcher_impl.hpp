@@ -404,5 +404,3 @@ inline void UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::_ct
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::StylePropertyValueMatcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -3302,5 +3302,3 @@ constexpr ::System::Reflection::BindingFlags System::RuntimeType::BinderGetSetFi
 constexpr ::System::Reflection::BindingFlags System::RuntimeType::BinderSetInvokeField{ static_cast<int32_t>(0x900) };
 constexpr ::System::Reflection::BindingFlags System::RuntimeType::BinderNonFieldGetSet{ static_cast<int32_t>(0xfff300) };
 constexpr ::System::Reflection::BindingFlags System::RuntimeType::ClassicBindingMask{ static_cast<int32_t>(0xf100) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

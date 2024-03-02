@@ -62,5 +62,3 @@ inline void GlobalNamespace::OVROnCompleteListener::onFailure() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVROnCompleteListener::OVROnCompleteListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

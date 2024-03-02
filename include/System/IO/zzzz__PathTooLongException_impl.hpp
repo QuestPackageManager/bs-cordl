@@ -76,5 +76,3 @@ inline void System::IO::PathTooLongException::_ctor(::System::Runtime::Serializa
 }
 // Ctor Parameters []
 constexpr ::System::IO::PathTooLongException::PathTooLongException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

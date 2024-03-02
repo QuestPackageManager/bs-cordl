@@ -35,5 +35,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::PointLight::PointLigh
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::GlobalIllumination::PointLight::PointLight() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

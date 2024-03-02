@@ -492,5 +492,3 @@ inline void System::Runtime::Remoting::Messaging::ConstructionCall::set_SourcePr
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::ConstructionCall::ConstructionCall() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

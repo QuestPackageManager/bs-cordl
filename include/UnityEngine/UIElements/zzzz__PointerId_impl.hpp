@@ -53,5 +53,3 @@ inline ::ArrayW<int32_t, ::Array<int32_t>*> UnityEngine::UIElements::PointerId::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerId::PointerId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

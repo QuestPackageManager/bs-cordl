@@ -86,5 +86,3 @@ inline void UnityEngine::UIElements::ListViewReorderableDragAndDropController::O
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ListViewReorderableDragAndDropController::ListViewReorderableDragAndDropController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

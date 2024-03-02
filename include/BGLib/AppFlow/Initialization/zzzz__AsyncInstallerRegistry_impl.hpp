@@ -108,5 +108,3 @@ inline void BGLib::AppFlow::Initialization::AsyncInstallerRegistry::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGLib::AppFlow::Initialization::AsyncInstallerRegistry::AsyncInstallerRegistry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

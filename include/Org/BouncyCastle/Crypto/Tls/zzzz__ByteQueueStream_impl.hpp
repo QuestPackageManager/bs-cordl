@@ -417,5 +417,3 @@ inline void Org::BouncyCastle::Crypto::Tls::ByteQueueStream::WriteByte(uint8_t b
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream::ByteQueueStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

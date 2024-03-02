@@ -97,5 +97,3 @@ inline void GlobalNamespace::LanguageSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LanguageSettingsController::LanguageSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

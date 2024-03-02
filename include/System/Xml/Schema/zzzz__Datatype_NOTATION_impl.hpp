@@ -211,5 +211,3 @@ inline void System::Xml::Schema::Datatype_NOTATION::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_NOTATION::Datatype_NOTATION() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

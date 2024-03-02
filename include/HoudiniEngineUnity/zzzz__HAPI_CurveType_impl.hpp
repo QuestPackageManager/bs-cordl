@@ -11,5 +11,3 @@ constexpr ::HoudiniEngineUnity::HAPI_CurveType HoudiniEngineUnity::HAPI_CurveTyp
 constexpr ::HoudiniEngineUnity::HAPI_CurveType HoudiniEngineUnity::HAPI_CurveType::HAPI_CURVETYPE_NURBS{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HAPI_CurveType HoudiniEngineUnity::HAPI_CurveType::HAPI_CURVETYPE_BEZIER{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HAPI_CurveType HoudiniEngineUnity::HAPI_CurveType::HAPI_CURVETYPE_MAX{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -497,5 +497,3 @@ inline void UnityEngine::UIElements::__UQuery__FirstQueryMatcher::_ctor() {
 constexpr ::UnityEngine::UIElements::__UQuery__FirstQueryMatcher::__UQuery__FirstQueryMatcher() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UQuery::UQuery() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

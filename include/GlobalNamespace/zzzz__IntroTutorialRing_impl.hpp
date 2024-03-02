@@ -393,5 +393,3 @@ inline void GlobalNamespace::IntroTutorialRing::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IntroTutorialRing::IntroTutorialRing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -444,5 +444,3 @@ inline void Org::BouncyCastle::Utilities::Platform::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Platform::Platform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

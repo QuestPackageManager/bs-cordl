@@ -44,5 +44,3 @@ constexpr ::UnityEngine::EventType UnityEngine::EventType::dragUpdated{ static_c
 constexpr ::UnityEngine::EventType UnityEngine::EventType::dragPerform{ static_cast<int32_t>(0xa) };
 constexpr ::UnityEngine::EventType UnityEngine::EventType::ignore{ static_cast<int32_t>(0xb) };
 constexpr ::UnityEngine::EventType UnityEngine::EventType::used{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

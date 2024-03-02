@@ -380,5 +380,3 @@ inline void RootMotion::FinalIK::IKSolverArm::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::IKSolverArm::IKSolverArm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

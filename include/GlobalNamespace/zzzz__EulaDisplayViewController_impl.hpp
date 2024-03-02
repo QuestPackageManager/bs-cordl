@@ -70,5 +70,3 @@ inline void GlobalNamespace::EulaDisplayViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EulaDisplayViewController::EulaDisplayViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

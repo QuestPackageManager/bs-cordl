@@ -154,5 +154,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Bcpg::DsaSecret
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::DsaSecretBcpgKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

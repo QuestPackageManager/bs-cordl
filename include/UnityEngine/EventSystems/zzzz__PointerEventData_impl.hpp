@@ -1727,5 +1727,3 @@ inline ::StringW UnityEngine::EventSystems::PointerEventData::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::PointerEventData::PointerEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

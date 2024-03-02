@@ -129,5 +129,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::Chal
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::Challenge::Challenge() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

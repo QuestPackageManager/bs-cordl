@@ -82,5 +82,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::DeviceResetEvent::DeviceResetEve
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::DeviceResetEvent::DeviceResetEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

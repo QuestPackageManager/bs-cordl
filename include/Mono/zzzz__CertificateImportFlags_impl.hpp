@@ -9,5 +9,3 @@ constexpr ::Mono::CertificateImportFlags::CertificateImportFlags() {}
 constexpr ::Mono::CertificateImportFlags Mono::CertificateImportFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::Mono::CertificateImportFlags Mono::CertificateImportFlags::DisableNativeBackend{ static_cast<int32_t>(0x1) };
 constexpr ::Mono::CertificateImportFlags Mono::CertificateImportFlags::DisableAutomaticFallback{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

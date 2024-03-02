@@ -506,5 +506,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketGenerator::_c
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketGenerator::PgpSignatureSubpacketGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

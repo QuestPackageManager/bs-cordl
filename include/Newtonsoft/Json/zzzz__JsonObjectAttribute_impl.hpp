@@ -180,5 +180,3 @@ inline void Newtonsoft::Json::JsonObjectAttribute::_ctor(::StringW id) {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonObjectAttribute::JsonObjectAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

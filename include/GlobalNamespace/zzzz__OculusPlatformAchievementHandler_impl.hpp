@@ -327,5 +327,3 @@ inline void GlobalNamespace::OculusPlatformAchievementHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusPlatformAchievementHandler::OculusPlatformAchievementHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

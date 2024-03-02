@@ -68,5 +68,3 @@ inline void GlobalNamespace::StaticEnvironmentLights::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StaticEnvironmentLights::StaticEnvironmentLights() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

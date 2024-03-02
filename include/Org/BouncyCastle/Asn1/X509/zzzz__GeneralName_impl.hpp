@@ -401,5 +401,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Gen
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName::GeneralName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

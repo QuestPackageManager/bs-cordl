@@ -84,5 +84,3 @@ inline ::UnityW<::UnityEngine::GameObject> Zenject::SubContainerCreatorByNewPref
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByNewPrefabDynamicContext::SubContainerCreatorByNewPrefabDynamicContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

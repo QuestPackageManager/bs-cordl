@@ -370,5 +370,3 @@ inline void GlobalNamespace::ScoreModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreModel::ScoreModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

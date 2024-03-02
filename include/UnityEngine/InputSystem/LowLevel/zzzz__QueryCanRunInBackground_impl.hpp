@@ -103,5 +103,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::QueryCanRunInBackground::QueryCa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryCanRunInBackground::QueryCanRunInBackground() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

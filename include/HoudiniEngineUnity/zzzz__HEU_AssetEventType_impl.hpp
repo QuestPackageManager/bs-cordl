@@ -11,5 +11,3 @@ constexpr ::HoudiniEngineUnity::HEU_AssetEventType HoudiniEngineUnity::HEU_Asset
 constexpr ::HoudiniEngineUnity::HEU_AssetEventType HoudiniEngineUnity::HEU_AssetEventType::COOK{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HEU_AssetEventType HoudiniEngineUnity::HEU_AssetEventType::BAKE_NEW{ static_cast<int32_t>(0x3) };
 constexpr ::HoudiniEngineUnity::HEU_AssetEventType HoudiniEngineUnity::HEU_AssetEventType::BAKE_UPDATE{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

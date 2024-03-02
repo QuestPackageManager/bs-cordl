@@ -254,5 +254,3 @@ inline void System::Security::Cryptography::AesTransform::Decrypt128(::ArrayW<ui
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::AesTransform::AesTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

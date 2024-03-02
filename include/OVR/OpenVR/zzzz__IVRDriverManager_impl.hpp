@@ -286,5 +286,3 @@ constexpr ::OVR::OpenVR::IVRDriverManager::IVRDriverManager(::OVR::OpenVR::__IVR
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRDriverManager::IVRDriverManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

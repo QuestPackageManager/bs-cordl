@@ -92,5 +92,3 @@ inline int64_t Org::BouncyCastle::Utilities::Date::DateTimeUtilities::CurrentUni
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeUtilities::DateTimeUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

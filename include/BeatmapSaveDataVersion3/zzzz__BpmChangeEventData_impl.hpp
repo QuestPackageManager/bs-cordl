@@ -58,5 +58,3 @@ inline void BeatmapSaveDataVersion3::BpmChangeEventData::_ctor(float_t beat, flo
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::BpmChangeEventData::BpmChangeEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

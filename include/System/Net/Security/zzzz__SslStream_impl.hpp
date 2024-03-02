@@ -1006,5 +1006,3 @@ inline void System::Net::Security::SslStream::EndWrite(::System::IAsyncResult* a
 }
 // Ctor Parameters []
 constexpr ::System::Net::Security::SslStream::SslStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

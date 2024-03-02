@@ -412,5 +412,3 @@ inline void GlobalNamespace::BaseStateTransition::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BaseStateTransition::BaseStateTransition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

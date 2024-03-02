@@ -199,5 +199,3 @@ inline ::System::Object* Zenject::IProviderExtensions::GetInstance(::Zenject::IP
 }
 // Ctor Parameters []
 constexpr ::Zenject::IProviderExtensions::IProviderExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

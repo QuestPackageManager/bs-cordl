@@ -111,5 +111,3 @@ inline ::StringW UnityEngine::ProBuilder::ChangelogEntry::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ChangelogEntry::ChangelogEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

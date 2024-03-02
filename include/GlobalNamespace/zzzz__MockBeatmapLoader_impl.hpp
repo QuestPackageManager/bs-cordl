@@ -230,5 +230,3 @@ inline void GlobalNamespace::MockBeatmapLoader::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockBeatmapLoader::MockBeatmapLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

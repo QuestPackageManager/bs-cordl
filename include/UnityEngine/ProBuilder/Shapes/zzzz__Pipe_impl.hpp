@@ -138,5 +138,3 @@ inline void UnityEngine::ProBuilder::Shapes::Pipe::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Pipe::Pipe() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

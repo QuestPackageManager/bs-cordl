@@ -212,5 +212,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Parameter
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::AeadParameters::AeadParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

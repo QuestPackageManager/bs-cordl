@@ -87,5 +87,3 @@ inline void GlobalNamespace::FillIndicator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FillIndicator::FillIndicator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

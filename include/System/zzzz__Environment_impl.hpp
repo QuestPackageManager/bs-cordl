@@ -976,5 +976,3 @@ inline ::StringW System::Environment::GetStackTrace(::System::Exception* e, bool
 }
 // Ctor Parameters []
 constexpr ::System::Environment::Environment() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1090,5 +1090,3 @@ inline void Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::TeleTrusTNamedCurves() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -74,5 +74,3 @@ inline void Org::BouncyCastle::Crmf::CrmfException::_ctor(::StringW message, ::S
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::CrmfException::CrmfException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

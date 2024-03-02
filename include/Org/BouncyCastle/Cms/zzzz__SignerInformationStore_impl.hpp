@@ -160,5 +160,3 @@ inline ::System::Collections::ICollection* Org::BouncyCastle::Cms::SignerInforma
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::SignerInformationStore::SignerInformationStore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

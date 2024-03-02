@@ -243,5 +243,3 @@ inline ::UnityEngine::Vector2 GlobalNamespace::ExtensionMethods::Rotate(::UnityE
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ExtensionMethods::ExtensionMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

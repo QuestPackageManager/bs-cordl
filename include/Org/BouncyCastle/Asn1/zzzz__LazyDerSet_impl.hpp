@@ -139,5 +139,3 @@ inline void Org::BouncyCastle::Asn1::LazyDerSet::Encode(::Org::BouncyCastle::Asn
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::LazyDerSet::LazyDerSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

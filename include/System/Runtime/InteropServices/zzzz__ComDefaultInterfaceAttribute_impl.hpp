@@ -40,5 +40,3 @@ inline void System::Runtime::InteropServices::ComDefaultInterfaceAttribute::_cto
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::ComDefaultInterfaceAttribute::ComDefaultInterfaceAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

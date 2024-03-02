@@ -50,5 +50,3 @@ inline void GlobalNamespace::__MultiplayerScoreRingItem__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MultiplayerScoreRingItem__Pool::__MultiplayerScoreRingItem__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -31,5 +31,3 @@ constexpr ::OVR::OpenVR::Compositor_CumulativeStats::Compositor_CumulativeStats(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::Compositor_CumulativeStats::Compositor_CumulativeStats() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

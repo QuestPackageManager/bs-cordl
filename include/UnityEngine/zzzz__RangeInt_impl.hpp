@@ -45,5 +45,3 @@ constexpr ::UnityEngine::RangeInt::RangeInt(int32_t start, int32_t length) noexc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RangeInt::RangeInt() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

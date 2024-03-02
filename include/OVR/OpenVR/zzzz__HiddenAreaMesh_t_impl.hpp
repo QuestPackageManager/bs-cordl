@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::HiddenAreaMesh_t::HiddenAreaMesh_t(void* pVertexData, u
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::HiddenAreaMesh_t::HiddenAreaMesh_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

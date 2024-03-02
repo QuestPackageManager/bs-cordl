@@ -245,5 +245,3 @@ inline bool Zenject::InjectUtil::PopValueWithType(::System::Collections::Generic
 }
 // Ctor Parameters []
 constexpr ::Zenject::InjectUtil::InjectUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

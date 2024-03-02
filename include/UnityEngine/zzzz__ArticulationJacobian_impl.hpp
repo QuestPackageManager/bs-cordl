@@ -189,5 +189,3 @@ constexpr ::UnityEngine::ArticulationJacobian::ArticulationJacobian(int32_t rows
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ArticulationJacobian::ArticulationJacobian() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

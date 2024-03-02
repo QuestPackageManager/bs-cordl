@@ -15,5 +15,3 @@ constexpr ::UnityEngine::Yoga::YogaEdge UnityEngine::Yoga::YogaEdge::End{ static
 constexpr ::UnityEngine::Yoga::YogaEdge UnityEngine::Yoga::YogaEdge::Horizontal{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::Yoga::YogaEdge UnityEngine::Yoga::YogaEdge::Vertical{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::Yoga::YogaEdge UnityEngine::Yoga::YogaEdge::All{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

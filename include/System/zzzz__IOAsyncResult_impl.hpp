@@ -293,5 +293,3 @@ inline void System::IOAsyncResult::CompleteDisposed() {
 }
 // Ctor Parameters []
 constexpr ::System::IOAsyncResult::IOAsyncResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

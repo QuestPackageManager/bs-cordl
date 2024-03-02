@@ -2065,5 +2065,3 @@ inline void UnityEngine::UI::Dropdown::OnSelectItem(::UnityEngine::UI::Toggle* t
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Dropdown::Dropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

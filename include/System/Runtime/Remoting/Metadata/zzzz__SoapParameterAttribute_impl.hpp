@@ -27,5 +27,3 @@ inline void System::Runtime::Remoting::Metadata::SoapParameterAttribute::_ctor()
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Metadata::SoapParameterAttribute::SoapParameterAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

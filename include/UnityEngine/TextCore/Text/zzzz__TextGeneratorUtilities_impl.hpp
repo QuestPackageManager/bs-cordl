@@ -624,5 +624,3 @@ inline ::UnityEngine::TextCore::Text::TextAlignment UnityEngine::TextCore::Text:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextGeneratorUtilities::TextGeneratorUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

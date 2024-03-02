@@ -52,5 +52,3 @@ inline void UnityEngine::UIElements::EventDebuggerLogIMGUICall::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventDebuggerLogIMGUICall::EventDebuggerLogIMGUICall() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::BeatmapSaveDataCommon::SliderMidAnchorMode::SliderMidAnchorMode() {}
 constexpr ::BeatmapSaveDataCommon::SliderMidAnchorMode BeatmapSaveDataCommon::SliderMidAnchorMode::Straight{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataCommon::SliderMidAnchorMode BeatmapSaveDataCommon::SliderMidAnchorMode::Clockwise{ static_cast<int32_t>(0x1) };
 constexpr ::BeatmapSaveDataCommon::SliderMidAnchorMode BeatmapSaveDataCommon::SliderMidAnchorMode::CounterClockwise{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

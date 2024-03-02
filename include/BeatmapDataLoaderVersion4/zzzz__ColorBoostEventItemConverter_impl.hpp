@@ -75,5 +75,3 @@ inline ::GlobalNamespace::BeatmapEventData* BeatmapDataLoaderVersion4::ColorBoos
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::ColorBoostEventItemConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

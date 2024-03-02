@@ -8,5 +8,3 @@ constexpr ::UnityEngine::ParticleSystemMeshDistribution::ParticleSystemMeshDistr
 constexpr ::UnityEngine::ParticleSystemMeshDistribution::ParticleSystemMeshDistribution() {}
 constexpr ::UnityEngine::ParticleSystemMeshDistribution UnityEngine::ParticleSystemMeshDistribution::UniformRandom{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ParticleSystemMeshDistribution UnityEngine::ParticleSystemMeshDistribution::NonUniformRandom{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

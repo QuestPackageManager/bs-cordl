@@ -3639,5 +3639,3 @@ inline void UnityEngine::UIElements::StylePropertyAnimationSystem::Update() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StylePropertyAnimationSystem::StylePropertyAnimationSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

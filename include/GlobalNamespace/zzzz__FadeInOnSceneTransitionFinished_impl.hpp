@@ -308,5 +308,3 @@ inline void GlobalNamespace::FadeInOnSceneTransitionFinished::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FadeInOnSceneTransitionFinished::FadeInOnSceneTransitionFinished() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

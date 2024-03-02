@@ -9,5 +9,3 @@ constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior::PressBehavior
 constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior UnityEngine::InputSystem::Interactions::PressBehavior::PressOnly{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior UnityEngine::InputSystem::Interactions::PressBehavior::ReleaseOnly{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior UnityEngine::InputSystem::Interactions::PressBehavior::PressAndRelease{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

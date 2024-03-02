@@ -278,5 +278,3 @@ inline void GlobalNamespace::AudioLatencyViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioLatencyViewController::AudioLatencyViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

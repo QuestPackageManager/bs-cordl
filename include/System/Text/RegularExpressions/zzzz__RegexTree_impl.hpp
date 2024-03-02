@@ -134,5 +134,3 @@ inline void System::Text::RegularExpressions::RegexTree::_ctor(::System::Text::R
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexTree::RegexTree() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

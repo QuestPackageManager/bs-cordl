@@ -8,5 +8,3 @@ constexpr ::UnityEngine::ProBuilder::BezierTangentDirection::BezierTangentDirect
 constexpr ::UnityEngine::ProBuilder::BezierTangentDirection::BezierTangentDirection() {}
 constexpr ::UnityEngine::ProBuilder::BezierTangentDirection UnityEngine::ProBuilder::BezierTangentDirection::In{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::BezierTangentDirection UnityEngine::ProBuilder::BezierTangentDirection::Out{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

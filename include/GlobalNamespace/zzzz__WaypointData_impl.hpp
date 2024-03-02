@@ -248,5 +248,3 @@ inline void GlobalNamespace::WaypointData::MirrorTransformOffsetDirection() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::WaypointData::WaypointData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

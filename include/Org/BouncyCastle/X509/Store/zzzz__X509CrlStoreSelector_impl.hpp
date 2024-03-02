@@ -694,5 +694,3 @@ inline bool Org::BouncyCastle::X509::Store::X509CrlStoreSelector::Match(::System
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::X509CrlStoreSelector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

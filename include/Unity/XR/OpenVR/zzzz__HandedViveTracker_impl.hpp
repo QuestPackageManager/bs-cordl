@@ -308,5 +308,3 @@ inline void Unity::XR::OpenVR::HandedViveTracker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::OpenVR::HandedViveTracker::HandedViveTracker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

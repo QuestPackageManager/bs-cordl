@@ -10,5 +10,3 @@ constexpr ::System::Runtime::InteropServices::GCHandleType System::Runtime::Inte
 constexpr ::System::Runtime::InteropServices::GCHandleType System::Runtime::InteropServices::GCHandleType::WeakTrackResurrection{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::InteropServices::GCHandleType System::Runtime::InteropServices::GCHandleType::Normal{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::InteropServices::GCHandleType System::Runtime::InteropServices::GCHandleType::Pinned{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -293,5 +293,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::StateEvent::StateEvent(::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::StateEvent::StateEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

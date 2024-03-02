@@ -217,5 +217,3 @@ inline void BeatSaber::BeatAvatarSDK::AvatarSaveData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarSaveData::AvatarSaveData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

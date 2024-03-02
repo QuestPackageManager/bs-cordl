@@ -158,5 +158,3 @@ inline ::StringW GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::GetD
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::PlayingDifficultyBeatmapRichPresenceData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

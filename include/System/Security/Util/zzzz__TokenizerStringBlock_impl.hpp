@@ -48,5 +48,3 @@ inline void System::Security::Util::TokenizerStringBlock::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Util::TokenizerStringBlock::TokenizerStringBlock() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

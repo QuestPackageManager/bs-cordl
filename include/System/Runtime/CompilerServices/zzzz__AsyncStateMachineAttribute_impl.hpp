@@ -28,5 +28,3 @@ inline void System::Runtime::CompilerServices::AsyncStateMachineAttribute::_ctor
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::AsyncStateMachineAttribute::AsyncStateMachineAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -349,5 +349,3 @@ inline void System::ComponentModel::AttributeCollection::CopyTo(::System::Array*
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::AttributeCollection::AttributeCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

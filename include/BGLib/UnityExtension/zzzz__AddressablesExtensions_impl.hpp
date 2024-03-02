@@ -39,5 +39,3 @@ BGLib::UnityExtension::AddressablesExtensions::LoadContentOperation(::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::BGLib::UnityExtension::AddressablesExtensions::AddressablesExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

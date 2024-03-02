@@ -335,5 +335,3 @@ inline void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::UIRTextUpdatePainter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

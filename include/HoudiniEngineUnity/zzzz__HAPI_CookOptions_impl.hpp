@@ -32,5 +32,3 @@ constexpr ::HoudiniEngineUnity::HAPI_CookOptions::HAPI_CookOptions(bool splitGeo
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_CookOptions::HAPI_CookOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

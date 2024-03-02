@@ -114,5 +114,3 @@ inline void GlobalNamespace::TutorialNoteCutEffectSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TutorialNoteCutEffectSpawner::TutorialNoteCutEffectSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

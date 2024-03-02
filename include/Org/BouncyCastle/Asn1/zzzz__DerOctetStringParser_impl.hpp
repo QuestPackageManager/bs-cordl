@@ -98,5 +98,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::DerOctetS
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerOctetStringParser::DerOctetStringParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

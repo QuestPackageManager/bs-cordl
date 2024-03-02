@@ -216,5 +216,3 @@ template <typename TParam1, typename TValue> inline ::Zenject::InjectTypeInfo* Z
 }
 // Ctor Parameters []
 template <typename TParam1, typename TValue> constexpr ::Zenject::PlaceholderFactory_2<TParam1, TValue>::PlaceholderFactory_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

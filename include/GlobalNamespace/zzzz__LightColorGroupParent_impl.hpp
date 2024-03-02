@@ -33,5 +33,3 @@ inline void GlobalNamespace::LightColorGroupParent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorGroupParent::LightColorGroupParent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

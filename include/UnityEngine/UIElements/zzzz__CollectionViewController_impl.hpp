@@ -515,5 +515,3 @@ inline void UnityEngine::UIElements::CollectionViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::CollectionViewController::CollectionViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

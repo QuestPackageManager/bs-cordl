@@ -5860,5 +5860,3 @@ inline bool System::Net::Sockets::Socket::IsProtocolSupported(::System::Net::Net
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::Socket::Socket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

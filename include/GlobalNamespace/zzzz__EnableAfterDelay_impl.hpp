@@ -250,5 +250,3 @@ inline void GlobalNamespace::EnableAfterDelay::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnableAfterDelay::EnableAfterDelay() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

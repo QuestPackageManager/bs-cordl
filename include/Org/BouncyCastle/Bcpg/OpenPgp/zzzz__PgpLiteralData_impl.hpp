@@ -157,5 +157,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData::G
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData::PgpLiteralData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

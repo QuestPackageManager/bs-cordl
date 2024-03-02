@@ -890,5 +890,3 @@ inline void GlobalNamespace::X509CertificateUtility::ValidateCertificateChainDot
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::X509CertificateUtility::X509CertificateUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

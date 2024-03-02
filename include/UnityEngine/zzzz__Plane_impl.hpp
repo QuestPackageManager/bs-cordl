@@ -253,5 +253,3 @@ constexpr ::UnityEngine::Plane::Plane(::UnityEngine::Vector3 m_Normal, float_t m
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Plane::Plane() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

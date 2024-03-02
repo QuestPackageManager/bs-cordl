@@ -25,5 +25,3 @@ template <typename T> inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonso
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::IJEnumerable_1<T>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*, false>(this, ___internal_method, key);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

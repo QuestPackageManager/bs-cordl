@@ -62,5 +62,3 @@ inline void GlobalNamespace::IStartSeekSongController::SeekTo(float_t songTime) 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IStartSeekSongController*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, songTime);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

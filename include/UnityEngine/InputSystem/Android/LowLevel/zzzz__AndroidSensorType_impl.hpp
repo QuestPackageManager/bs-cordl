@@ -34,5 +34,3 @@ constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType Unity
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType::HeartBeat{ static_cast<int32_t>(0x1f) };
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType::LowLatencyOffBodyDetect{ static_cast<int32_t>(0x22) };
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType::AccelerometerUncalibrated{ static_cast<int32_t>(0x23) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

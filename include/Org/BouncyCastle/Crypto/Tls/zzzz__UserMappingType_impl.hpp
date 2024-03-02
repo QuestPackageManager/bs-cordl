@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Crypto::Tls::UserMappingType::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::UserMappingType::UserMappingType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

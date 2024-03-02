@@ -291,5 +291,3 @@ inline int32_t System::Reflection::MethodInfo::get_GenericParameterCount() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::MethodInfo::MethodInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

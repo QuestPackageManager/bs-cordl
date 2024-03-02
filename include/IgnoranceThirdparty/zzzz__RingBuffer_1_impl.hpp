@@ -106,5 +106,3 @@ template <typename T> inline int32_t IgnoranceThirdparty::RingBuffer_1<T>::NextP
 }
 // Ctor Parameters []
 template <typename T> constexpr ::IgnoranceThirdparty::RingBuffer_1<T>::RingBuffer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

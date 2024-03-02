@@ -36,5 +36,3 @@ inline void GlobalNamespace::VersionSaveData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VersionSaveData::VersionSaveData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void UnityEngine::InputSystem::Android::DualShock4GamepadAndroid::_ctor()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid::DualShock4GamepadAndroid() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

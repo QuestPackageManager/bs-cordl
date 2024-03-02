@@ -54,5 +54,3 @@ inline void GlobalNamespace::NamedPreset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NamedPreset::NamedPreset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

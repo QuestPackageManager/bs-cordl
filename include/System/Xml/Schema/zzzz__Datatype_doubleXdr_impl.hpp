@@ -47,5 +47,3 @@ inline void System::Xml::Schema::Datatype_doubleXdr::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_doubleXdr::Datatype_doubleXdr() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

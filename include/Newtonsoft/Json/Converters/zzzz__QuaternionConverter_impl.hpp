@@ -304,5 +304,3 @@ inline void Newtonsoft::Json::Converters::QuaternionConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::QuaternionConverter::QuaternionConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

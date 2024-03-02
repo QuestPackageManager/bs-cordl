@@ -69,5 +69,3 @@ inline void UnityEngine::InputSystem::Controls::IntegerControl::WriteValueIntoSt
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::IntegerControl::IntegerControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

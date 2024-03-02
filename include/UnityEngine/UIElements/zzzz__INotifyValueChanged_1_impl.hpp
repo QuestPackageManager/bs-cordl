@@ -15,5 +15,3 @@ template <typename T> inline void UnityEngine::UIElements::INotifyValueChanged_1
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::INotifyValueChanged_1<T>*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

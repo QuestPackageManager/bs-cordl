@@ -317,5 +317,3 @@ inline void System::Security::Util::TokenizerStream::GoToPosition(int32_t positi
 }
 // Ctor Parameters []
 constexpr ::System::Security::Util::TokenizerStream::TokenizerStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

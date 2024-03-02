@@ -61,5 +61,3 @@ inline void UnityEngine::LightmapData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LightmapData::LightmapData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

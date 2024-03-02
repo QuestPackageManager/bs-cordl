@@ -494,5 +494,3 @@ inline ::UnityEngine::Vector3 RootMotion::FinalIK::IKConstraintBend::OrthoToBone
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::IKConstraintBend::IKConstraintBend() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

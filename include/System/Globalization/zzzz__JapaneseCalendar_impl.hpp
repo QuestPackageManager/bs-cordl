@@ -518,5 +518,3 @@ inline void System::Globalization::JapaneseCalendar::set_TwoDigitYearMax(int32_t
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::JapaneseCalendar::JapaneseCalendar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

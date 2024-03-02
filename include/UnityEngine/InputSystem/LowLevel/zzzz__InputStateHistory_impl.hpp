@@ -1884,5 +1884,3 @@ inline int32_t UnityEngine::InputSystem::LowLevel::InputStateHistory::get_bytesP
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory::InputStateHistory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

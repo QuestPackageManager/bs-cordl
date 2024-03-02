@@ -158,5 +158,3 @@ inline ::StringW GlobalNamespace::SonyVersion::Get(::GlobalNamespace::__SonyVers
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyVersion::SonyVersion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

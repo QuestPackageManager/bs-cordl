@@ -7,5 +7,3 @@ constexpr ::OVR::OpenVR::HmdVector2_t::HmdVector2_t(float_t v0, float_t v1) noex
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::HmdVector2_t::HmdVector2_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

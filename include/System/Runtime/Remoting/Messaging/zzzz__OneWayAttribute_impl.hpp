@@ -3,5 +3,3 @@
 #include "System/Runtime/Remoting/Messaging/zzzz__OneWayAttribute_def.hpp"
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::OneWayAttribute::OneWayAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

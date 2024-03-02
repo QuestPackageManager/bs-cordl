@@ -9,5 +9,3 @@ constexpr ::System::IO::SeekOrigin::SeekOrigin() {}
 constexpr ::System::IO::SeekOrigin System::IO::SeekOrigin::Begin{ static_cast<int32_t>(0x0) };
 constexpr ::System::IO::SeekOrigin System::IO::SeekOrigin::Current{ static_cast<int32_t>(0x1) };
 constexpr ::System::IO::SeekOrigin System::IO::SeekOrigin::End{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

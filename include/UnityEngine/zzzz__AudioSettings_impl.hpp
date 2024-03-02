@@ -437,5 +437,3 @@ inline void UnityEngine::AudioSettings::GetConfiguration_Injected(ByRef<::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AudioSettings::AudioSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

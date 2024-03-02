@@ -26,5 +26,3 @@ inline void GlobalNamespace::DoesNotRequireDomainReloadInitAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DoesNotRequireDomainReloadInitAttribute::DoesNotRequireDomainReloadInitAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

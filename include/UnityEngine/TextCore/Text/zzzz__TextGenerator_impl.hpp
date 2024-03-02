@@ -1973,5 +1973,3 @@ inline void UnityEngine::TextCore::Text::TextGenerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextGenerator::TextGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

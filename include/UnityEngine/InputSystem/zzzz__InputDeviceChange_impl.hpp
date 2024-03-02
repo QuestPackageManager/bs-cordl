@@ -17,5 +17,3 @@ constexpr ::UnityEngine::InputSystem::InputDeviceChange UnityEngine::InputSystem
 constexpr ::UnityEngine::InputSystem::InputDeviceChange UnityEngine::InputSystem::InputDeviceChange::SoftReset{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::InputSystem::InputDeviceChange UnityEngine::InputSystem::InputDeviceChange::HardReset{ static_cast<int32_t>(0x9) };
 constexpr ::UnityEngine::InputSystem::InputDeviceChange UnityEngine::InputSystem::InputDeviceChange::Destroyed{ static_cast<int32_t>(0xa) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

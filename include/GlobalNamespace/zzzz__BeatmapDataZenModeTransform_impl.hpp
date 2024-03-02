@@ -47,5 +47,3 @@ inline ::GlobalNamespace::BeatmapDataItem* GlobalNamespace::BeatmapDataZenModeTr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataZenModeTransform::BeatmapDataZenModeTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

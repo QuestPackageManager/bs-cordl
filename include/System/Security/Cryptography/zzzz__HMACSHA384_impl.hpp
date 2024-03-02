@@ -79,5 +79,3 @@ inline int32_t System::Security::Cryptography::HMACSHA384::get_BlockSize() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::HMACSHA384::HMACSHA384() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

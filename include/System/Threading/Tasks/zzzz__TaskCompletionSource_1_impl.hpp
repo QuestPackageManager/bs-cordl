@@ -116,5 +116,3 @@ template <typename TResult> inline void System::Threading::Tasks::TaskCompletion
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<TResult>::TaskCompletionSource_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

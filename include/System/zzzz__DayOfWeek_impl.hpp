@@ -13,5 +13,3 @@ constexpr ::System::DayOfWeek System::DayOfWeek::Wednesday{ static_cast<int32_t>
 constexpr ::System::DayOfWeek System::DayOfWeek::Thursday{ static_cast<int32_t>(0x4) };
 constexpr ::System::DayOfWeek System::DayOfWeek::Friday{ static_cast<int32_t>(0x5) };
 constexpr ::System::DayOfWeek System::DayOfWeek::Saturday{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

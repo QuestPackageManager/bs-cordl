@@ -187,5 +187,3 @@ inline void UnityEngine::UIElements::StyleCache::SetValue(int32_t hash,
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleCache::StyleCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

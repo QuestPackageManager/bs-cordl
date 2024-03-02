@@ -1012,5 +1012,3 @@ constexpr ::System::TimeSpan::TimeSpan(int64_t _ticks) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::TimeSpan::TimeSpan() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

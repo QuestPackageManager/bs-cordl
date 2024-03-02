@@ -3,5 +3,3 @@
 #include "System/Collections/Generic/zzzz__ICollectionDebugView_1_def.hpp"
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::ICollectionDebugView_1<T>::ICollectionDebugView_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

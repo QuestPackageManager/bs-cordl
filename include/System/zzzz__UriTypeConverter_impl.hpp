@@ -130,5 +130,3 @@ inline ::System::Object* System::UriTypeConverter::ConvertTo(::System::Component
 }
 // Ctor Parameters []
 constexpr ::System::UriTypeConverter::UriTypeConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

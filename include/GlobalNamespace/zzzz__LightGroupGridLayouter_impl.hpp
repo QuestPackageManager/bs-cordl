@@ -121,5 +121,3 @@ inline void GlobalNamespace::LightGroupGridLayouter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroupGridLayouter::LightGroupGridLayouter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -458,5 +458,3 @@ inline bool LiteNetLib::NetPacket::FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetPacket::NetPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1275,5 +1275,3 @@ template <typename TData> inline TData UnityEngine::InputSystem::InputRemoting::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputRemoting::InputRemoting() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

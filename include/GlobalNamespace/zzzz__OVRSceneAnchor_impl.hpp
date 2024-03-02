@@ -435,5 +435,3 @@ inline void GlobalNamespace::OVRSceneAnchor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneAnchor::OVRSceneAnchor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

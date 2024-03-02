@@ -377,5 +377,3 @@ inline void GlobalNamespace::__TutorialNoteController__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__TutorialNoteController__Pool::__TutorialNoteController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ constexpr ::Newtonsoft::Json::Linq::JTokenType Newtonsoft::Json::Linq::JTokenTyp
 constexpr ::Newtonsoft::Json::Linq::JTokenType Newtonsoft::Json::Linq::JTokenType::Guid{ static_cast<int32_t>(0xf) };
 constexpr ::Newtonsoft::Json::Linq::JTokenType Newtonsoft::Json::Linq::JTokenType::Uri{ static_cast<int32_t>(0x10) };
 constexpr ::Newtonsoft::Json::Linq::JTokenType Newtonsoft::Json::Linq::JTokenType::TimeSpan{ static_cast<int32_t>(0x11) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

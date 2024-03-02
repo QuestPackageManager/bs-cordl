@@ -382,5 +382,3 @@ constexpr ::GlobalNamespace::OVRAnchorContainer::OVRAnchorContainer(uint64_t _Ha
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRAnchorContainer::OVRAnchorContainer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

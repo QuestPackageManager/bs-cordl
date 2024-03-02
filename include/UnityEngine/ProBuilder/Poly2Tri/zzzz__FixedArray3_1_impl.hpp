@@ -258,5 +258,3 @@ template <typename T> inline ::System::Collections::IEnumerator* UnityEngine::Pr
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>::__FixedArray3_1___Enumerate_d__10() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

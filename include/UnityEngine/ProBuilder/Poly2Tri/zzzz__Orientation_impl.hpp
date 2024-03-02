@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ProBuilder::Poly2Tri::Orientation::Orientation() {}
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::Orientation UnityEngine::ProBuilder::Poly2Tri::Orientation::CW{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::Orientation UnityEngine::ProBuilder::Poly2Tri::Orientation::CCW{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::Orientation UnityEngine::ProBuilder::Poly2Tri::Orientation::Collinear{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

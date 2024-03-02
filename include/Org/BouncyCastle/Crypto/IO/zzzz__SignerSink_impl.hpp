@@ -100,5 +100,3 @@ inline void Org::BouncyCastle::Crypto::IO::SignerSink::Write(::ArrayW<uint8_t, :
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::IO::SignerSink::SignerSink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

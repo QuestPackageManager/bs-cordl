@@ -40,5 +40,3 @@ inline void Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::_ctor(::Sys
 }
 // Ctor Parameters []
 constexpr ::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::JobProducerTypeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

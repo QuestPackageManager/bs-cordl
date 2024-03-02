@@ -514,5 +514,3 @@ inline void System::Net::MonoChunkParser::ThrowProtocolViolation(::StringW messa
 }
 // Ctor Parameters []
 constexpr ::System::Net::MonoChunkParser::MonoChunkParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

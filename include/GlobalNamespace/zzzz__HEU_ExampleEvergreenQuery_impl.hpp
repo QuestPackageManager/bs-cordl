@@ -235,5 +235,3 @@ inline void GlobalNamespace::HEU_ExampleEvergreenQuery::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HEU_ExampleEvergreenQuery::HEU_ExampleEvergreenQuery() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

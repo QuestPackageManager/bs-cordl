@@ -44,5 +44,3 @@ inline void Org::BouncyCastle::Utilities::IO::MemoryOutputStream::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::MemoryOutputStream::MemoryOutputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

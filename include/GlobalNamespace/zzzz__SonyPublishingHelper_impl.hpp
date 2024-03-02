@@ -171,5 +171,3 @@ inline ::StringW GlobalNamespace::SonyPublishingHelper::GetServiceIdFromNpTitleI
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyPublishingHelper::SonyPublishingHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

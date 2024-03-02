@@ -812,5 +812,3 @@ inline void GlobalNamespace::LevelCollectionTableView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelCollectionTableView::LevelCollectionTableView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

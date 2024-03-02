@@ -105,5 +105,3 @@ inline void Org::BouncyCastle::Crypto::Tls::HashAlgorithm::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::HashAlgorithm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

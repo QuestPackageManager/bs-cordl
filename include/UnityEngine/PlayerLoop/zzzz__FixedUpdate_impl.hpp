@@ -29,5 +29,3 @@ constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunDelayedFixedFrameRa
 constexpr ::UnityEngine::PlayerLoop::__FixedUpdate__NewInputFixedUpdate::__FixedUpdate__NewInputFixedUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::FixedUpdate::FixedUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

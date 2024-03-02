@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::EChaperoneConfigFile::EChaperoneConfigFile(int32_t valu
 constexpr ::OVR::OpenVR::EChaperoneConfigFile::EChaperoneConfigFile() {}
 constexpr ::OVR::OpenVR::EChaperoneConfigFile OVR::OpenVR::EChaperoneConfigFile::Live{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EChaperoneConfigFile OVR::OpenVR::EChaperoneConfigFile::Temp{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

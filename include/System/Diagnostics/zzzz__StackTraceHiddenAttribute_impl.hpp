@@ -25,5 +25,3 @@ inline void System::Diagnostics::StackTraceHiddenAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::StackTraceHiddenAttribute::StackTraceHiddenAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

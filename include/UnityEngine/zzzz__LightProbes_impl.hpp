@@ -543,5 +543,3 @@ inline void UnityEngine::LightProbes::GetInterpolatedProbe_Injected(ByRef<::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LightProbes::LightProbes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

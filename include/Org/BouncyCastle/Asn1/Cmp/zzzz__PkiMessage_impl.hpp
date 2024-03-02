@@ -298,5 +298,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::PkiM
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiMessage::PkiMessage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

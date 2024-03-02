@@ -491,5 +491,3 @@ inline void System::Collections::Stack::Push(::System::Object* obj) {
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Stack::Stack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

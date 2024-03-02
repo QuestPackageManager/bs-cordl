@@ -101,5 +101,3 @@ inline void RootMotion::TriggerEventBroadcaster::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::TriggerEventBroadcaster::TriggerEventBroadcaster() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

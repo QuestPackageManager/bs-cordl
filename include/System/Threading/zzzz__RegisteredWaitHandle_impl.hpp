@@ -212,5 +212,3 @@ inline bool System::Threading::RegisteredWaitHandle::Unregister(::System::Thread
 }
 // Ctor Parameters []
 constexpr ::System::Threading::RegisteredWaitHandle::RegisteredWaitHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

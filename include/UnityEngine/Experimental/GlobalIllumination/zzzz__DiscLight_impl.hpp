@@ -35,5 +35,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::DiscLight::DiscLight(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::GlobalIllumination::DiscLight::DiscLight() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

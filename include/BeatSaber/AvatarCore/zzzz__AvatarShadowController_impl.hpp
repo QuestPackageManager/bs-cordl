@@ -184,5 +184,3 @@ inline void BeatSaber::AvatarCore::AvatarShadowController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AvatarShadowController::AvatarShadowController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

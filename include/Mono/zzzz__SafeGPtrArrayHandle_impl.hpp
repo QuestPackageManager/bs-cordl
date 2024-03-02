@@ -93,5 +93,3 @@ constexpr ::Mono::SafeGPtrArrayHandle::SafeGPtrArrayHandle(::Mono::RuntimeGPtrAr
 }
 // Ctor Parameters []
 constexpr ::Mono::SafeGPtrArrayHandle::SafeGPtrArrayHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

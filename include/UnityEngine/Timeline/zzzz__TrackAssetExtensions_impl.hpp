@@ -49,5 +49,3 @@ inline void UnityEngine::Timeline::TrackAssetExtensions::SetGroup(::UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TrackAssetExtensions::TrackAssetExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

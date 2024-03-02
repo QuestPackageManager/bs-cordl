@@ -186,5 +186,3 @@ inline void BeatSaber::TrackDefinitions::EventTrackDefinitionSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::TrackDefinitions::EventTrackDefinitionSO::EventTrackDefinitionSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

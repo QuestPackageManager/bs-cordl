@@ -919,5 +919,3 @@ template <typename T> inline ::Newtonsoft::Json::Linq::IJEnumerable_1<T>* Newton
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::Extensions::Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

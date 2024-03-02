@@ -111,5 +111,3 @@ System::Runtime::Serialization::SurrogateSelector::GetSurrogate(::System::Type* 
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SurrogateSelector::SurrogateSelector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

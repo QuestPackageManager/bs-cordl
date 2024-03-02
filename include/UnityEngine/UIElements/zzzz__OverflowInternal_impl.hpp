@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::OverflowInternal::OverflowInternal() {}
 constexpr ::UnityEngine::UIElements::OverflowInternal UnityEngine::UIElements::OverflowInternal::Visible{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::OverflowInternal UnityEngine::UIElements::OverflowInternal::Hidden{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::OverflowInternal UnityEngine::UIElements::OverflowInternal::Scroll{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

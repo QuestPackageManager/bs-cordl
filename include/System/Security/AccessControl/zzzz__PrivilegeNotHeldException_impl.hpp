@@ -100,5 +100,3 @@ inline void System::Security::AccessControl::PrivilegeNotHeldException::GetObjec
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::PrivilegeNotHeldException::PrivilegeNotHeldException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

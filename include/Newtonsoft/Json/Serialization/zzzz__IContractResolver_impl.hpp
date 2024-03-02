@@ -23,5 +23,3 @@ inline ::Newtonsoft::Json::Serialization::JsonContract* Newtonsoft::Json::Serial
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::IContractResolver*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Serialization::JsonContract*, false>(this, ___internal_method, type);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

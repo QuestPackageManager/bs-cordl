@@ -450,5 +450,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGener
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator::CmsEnvelopedDataStreamGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

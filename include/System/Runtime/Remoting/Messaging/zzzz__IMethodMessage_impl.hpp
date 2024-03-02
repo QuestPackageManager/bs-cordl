@@ -210,5 +210,3 @@ inline ::System::Object* System::Runtime::Remoting::Messaging::IMethodMessage::G
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::IMethodMessage*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, argNum);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

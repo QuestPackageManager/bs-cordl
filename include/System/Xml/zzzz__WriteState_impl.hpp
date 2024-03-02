@@ -13,5 +13,3 @@ constexpr ::System::Xml::WriteState System::Xml::WriteState::Attribute{ static_c
 constexpr ::System::Xml::WriteState System::Xml::WriteState::Content{ static_cast<int32_t>(0x4) };
 constexpr ::System::Xml::WriteState System::Xml::WriteState::Closed{ static_cast<int32_t>(0x5) };
 constexpr ::System::Xml::WriteState System::Xml::WriteState::Error{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

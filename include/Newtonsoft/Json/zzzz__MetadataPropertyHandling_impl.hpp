@@ -9,5 +9,3 @@ constexpr ::Newtonsoft::Json::MetadataPropertyHandling::MetadataPropertyHandling
 constexpr ::Newtonsoft::Json::MetadataPropertyHandling Newtonsoft::Json::MetadataPropertyHandling::Default{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::MetadataPropertyHandling Newtonsoft::Json::MetadataPropertyHandling::ReadAhead{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::MetadataPropertyHandling Newtonsoft::Json::MetadataPropertyHandling::Ignore{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

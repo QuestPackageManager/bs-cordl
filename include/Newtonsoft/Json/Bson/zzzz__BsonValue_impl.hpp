@@ -94,5 +94,3 @@ inline ::Newtonsoft::Json::Bson::BsonType Newtonsoft::Json::Bson::BsonValue::get
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonValue::BsonValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

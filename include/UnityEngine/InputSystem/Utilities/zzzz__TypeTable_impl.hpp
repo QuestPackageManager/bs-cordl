@@ -198,5 +198,3 @@ constexpr ::UnityEngine::InputSystem::Utilities::TypeTable::TypeTable(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::TypeTable::TypeTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

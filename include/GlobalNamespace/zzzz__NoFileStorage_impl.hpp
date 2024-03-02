@@ -128,5 +128,3 @@ inline void GlobalNamespace::NoFileStorage::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoFileStorage::NoFileStorage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

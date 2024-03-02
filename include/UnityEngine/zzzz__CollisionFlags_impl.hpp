@@ -13,5 +13,3 @@ constexpr ::UnityEngine::CollisionFlags UnityEngine::CollisionFlags::Below{ stat
 constexpr ::UnityEngine::CollisionFlags UnityEngine::CollisionFlags::CollidedSides{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::CollisionFlags UnityEngine::CollisionFlags::CollidedAbove{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::CollisionFlags UnityEngine::CollisionFlags::CollidedBelow{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

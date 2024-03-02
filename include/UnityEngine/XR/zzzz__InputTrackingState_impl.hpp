@@ -14,5 +14,3 @@ constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingSt
 constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::Acceleration{ static_cast<uint32_t>(0x3f2010u) };
 constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::AngularAcceleration{ static_cast<uint32_t>(0x3f20u) };
 constexpr ::UnityEngine::XR::InputTrackingState UnityEngine::XR::InputTrackingState::All{ static_cast<uint32_t>(0x8000003fu) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

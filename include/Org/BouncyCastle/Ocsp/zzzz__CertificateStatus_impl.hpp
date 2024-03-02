@@ -32,5 +32,3 @@ inline void Org::BouncyCastle::Ocsp::CertificateStatus::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::CertificateStatus::CertificateStatus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

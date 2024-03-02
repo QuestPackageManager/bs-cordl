@@ -87,5 +87,3 @@ inline void UnityEngine::ResourceRequest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceRequest::ResourceRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

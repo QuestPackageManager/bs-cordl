@@ -218,5 +218,3 @@ inline void BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings::BeatAvatarSystemSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

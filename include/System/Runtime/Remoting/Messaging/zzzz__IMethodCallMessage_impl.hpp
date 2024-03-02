@@ -18,5 +18,3 @@ constexpr System::Runtime::Remoting::Messaging::IMethodCallMessage::operator ::S
 constexpr ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoting::Messaging::IMethodCallMessage::i___System__Runtime__Remoting__Messaging__IMessage() noexcept {
   return static_cast<::System::Runtime::Remoting::Messaging::IMessage*>(static_cast<void*>(this));
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

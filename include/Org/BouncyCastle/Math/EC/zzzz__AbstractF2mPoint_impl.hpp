@@ -270,5 +270,3 @@ inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* Org::BouncyCastle::Math:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::AbstractF2mPoint::AbstractF2mPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

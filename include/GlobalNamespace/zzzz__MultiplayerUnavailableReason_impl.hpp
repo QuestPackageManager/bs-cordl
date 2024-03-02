@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::MultiplayerUnavailableReason GlobalNamespace::Multi
 constexpr ::GlobalNamespace::MultiplayerUnavailableReason GlobalNamespace::MultiplayerUnavailableReason::UpdateRequired{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::MultiplayerUnavailableReason GlobalNamespace::MultiplayerUnavailableReason::ServerOffline{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::MultiplayerUnavailableReason GlobalNamespace::MultiplayerUnavailableReason::MaintenanceMode{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

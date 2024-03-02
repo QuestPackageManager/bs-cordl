@@ -62,5 +62,3 @@ inline ::Mono::Net::Security::MobileTlsContext* Mono::Unity::UnityTlsStream::Cre
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTlsStream::UnityTlsStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -150,5 +150,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::OobC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::OobCertHash::OobCertHash() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -432,5 +432,3 @@ inline void GlobalNamespace::RichPresenceManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RichPresenceManager::RichPresenceManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

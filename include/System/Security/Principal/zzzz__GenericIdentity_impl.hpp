@@ -202,5 +202,3 @@ inline void System::Security::Principal::GenericIdentity::AddNameClaim() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Principal::GenericIdentity::GenericIdentity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

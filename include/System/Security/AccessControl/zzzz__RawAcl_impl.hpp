@@ -157,5 +157,3 @@ inline void System::Security::AccessControl::RawAcl::RemoveAce(int32_t index) {
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::RawAcl::RawAcl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

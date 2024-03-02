@@ -203,5 +203,3 @@ template <typename U> inline void UnityEngine::Playables::PlayableExtensions::Se
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Playables::PlayableExtensions::PlayableExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

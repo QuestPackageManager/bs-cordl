@@ -8,5 +8,3 @@ constexpr ::System::Net::Http::ClientCertificateOption::ClientCertificateOption(
 constexpr ::System::Net::Http::ClientCertificateOption::ClientCertificateOption() {}
 constexpr ::System::Net::Http::ClientCertificateOption System::Net::Http::ClientCertificateOption::Manual{ static_cast<int32_t>(0x0) };
 constexpr ::System::Net::Http::ClientCertificateOption System::Net::Http::ClientCertificateOption::Automatic{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

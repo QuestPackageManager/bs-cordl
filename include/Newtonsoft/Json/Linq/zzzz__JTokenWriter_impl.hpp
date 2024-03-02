@@ -870,5 +870,3 @@ inline void Newtonsoft::Json::Linq::JTokenWriter::WriteToken(::Newtonsoft::Json:
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JTokenWriter::JTokenWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

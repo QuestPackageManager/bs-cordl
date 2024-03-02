@@ -110,5 +110,3 @@ inline void GlobalNamespace::ObjectiveListItem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObjectiveListItem::ObjectiveListItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

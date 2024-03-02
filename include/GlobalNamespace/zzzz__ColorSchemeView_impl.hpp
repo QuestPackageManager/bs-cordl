@@ -143,5 +143,3 @@ inline void GlobalNamespace::ColorSchemeView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSchemeView::ColorSchemeView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -526,5 +526,3 @@ template <typename T> inline void System::Collections::Concurrent::ConcurrentBag
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Concurrent::ConcurrentBag_1<T>::ConcurrentBag_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

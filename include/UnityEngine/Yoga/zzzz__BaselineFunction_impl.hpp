@@ -49,5 +49,3 @@ inline float_t UnityEngine::Yoga::BaselineFunction::Invoke(::UnityEngine::Yoga::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Yoga::BaselineFunction::BaselineFunction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

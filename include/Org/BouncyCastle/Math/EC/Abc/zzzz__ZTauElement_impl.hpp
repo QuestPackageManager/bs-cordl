@@ -54,5 +54,3 @@ inline void Org::BouncyCastle::Math::EC::Abc::ZTauElement::_ctor(::Org::BouncyCa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Abc::ZTauElement::ZTauElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

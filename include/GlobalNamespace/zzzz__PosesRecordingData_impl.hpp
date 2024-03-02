@@ -338,5 +338,3 @@ inline int32_t GlobalNamespace::PosesRecordingData::ObjectIndex(::StringW object
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PosesRecordingData::PosesRecordingData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

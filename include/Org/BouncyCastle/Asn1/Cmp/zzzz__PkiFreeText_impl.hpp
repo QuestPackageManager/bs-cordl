@@ -211,5 +211,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::PkiF
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText::PkiFreeText() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

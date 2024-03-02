@@ -101,5 +101,3 @@ inline void GlobalNamespace::MaterialPropertyBlockColorAnimator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MaterialPropertyBlockColorAnimator::MaterialPropertyBlockColorAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

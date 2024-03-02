@@ -21,5 +21,3 @@ inline void Unity::XR::Oculus::InputLayoutLoader::RegisterInputLayouts() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::InputLayoutLoader::InputLayoutLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

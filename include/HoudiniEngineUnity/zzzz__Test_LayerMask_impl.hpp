@@ -72,5 +72,3 @@ inline bool HoudiniEngineUnity::Test_LayerMask::IsEquivalentTo(::HoudiniEngineUn
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_LayerMask::Test_LayerMask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

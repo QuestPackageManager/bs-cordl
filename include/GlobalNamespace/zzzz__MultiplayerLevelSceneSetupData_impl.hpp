@@ -88,5 +88,3 @@ inline void GlobalNamespace::MultiplayerLevelSceneSetupData::_ctor(::GlobalNames
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLevelSceneSetupData::MultiplayerLevelSceneSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -169,5 +169,3 @@ inline ::StringW Newtonsoft::Json::Serialization::MemoryTraceWriter::ToString() 
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::MemoryTraceWriter::MemoryTraceWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

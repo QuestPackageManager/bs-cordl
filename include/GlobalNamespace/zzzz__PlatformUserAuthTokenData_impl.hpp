@@ -135,5 +135,3 @@ inline void GlobalNamespace::PlatformUserAuthTokenData::_ctor(::StringW token, :
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformUserAuthTokenData::PlatformUserAuthTokenData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

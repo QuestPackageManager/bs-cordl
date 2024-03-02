@@ -330,5 +330,3 @@ inline void UnityEngine::UIElements::CollectionVirtualizationController::Replace
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::CollectionVirtualizationController::CollectionVirtualizationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

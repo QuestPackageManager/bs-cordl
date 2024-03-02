@@ -9,5 +9,3 @@ constexpr ::UnityEngine::LineAlignment::LineAlignment() {}
 constexpr ::UnityEngine::LineAlignment UnityEngine::LineAlignment::View{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::LineAlignment UnityEngine::LineAlignment::Local{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::LineAlignment UnityEngine::LineAlignment::TransformZ{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

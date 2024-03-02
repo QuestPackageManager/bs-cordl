@@ -195,5 +195,3 @@ inline void UnityEngine::TextCore::Text::FontFeatureTable::SortGlyphPairAdjustme
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::FontFeatureTable::FontFeatureTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

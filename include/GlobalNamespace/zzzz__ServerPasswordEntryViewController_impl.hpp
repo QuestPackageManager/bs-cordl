@@ -224,5 +224,3 @@ inline void GlobalNamespace::ServerPasswordEntryViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ServerPasswordEntryViewController::ServerPasswordEntryViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

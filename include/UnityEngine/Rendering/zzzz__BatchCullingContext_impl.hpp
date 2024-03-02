@@ -68,5 +68,3 @@ constexpr ::UnityEngine::Rendering::BatchCullingContext::BatchCullingContext(::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::BatchCullingContext::BatchCullingContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

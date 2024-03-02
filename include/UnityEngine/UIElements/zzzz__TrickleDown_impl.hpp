@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::TrickleDown::TrickleDown(int32_t value__) n
 constexpr ::UnityEngine::UIElements::TrickleDown::TrickleDown() {}
 constexpr ::UnityEngine::UIElements::TrickleDown UnityEngine::UIElements::TrickleDown::NoTrickleDown{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::TrickleDown UnityEngine::UIElements::TrickleDown::_cordl_TrickleDown{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

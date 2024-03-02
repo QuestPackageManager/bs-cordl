@@ -82,5 +82,3 @@ inline void System::Security::Cryptography::CryptographicUnexpectedOperationExce
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::CryptographicUnexpectedOperationException::CryptographicUnexpectedOperationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

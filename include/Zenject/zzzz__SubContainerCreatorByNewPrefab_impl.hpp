@@ -108,5 +108,3 @@ inline ::Zenject::DiContainer* Zenject::SubContainerCreatorByNewPrefab::CreateSu
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByNewPrefab::SubContainerCreatorByNewPrefab() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

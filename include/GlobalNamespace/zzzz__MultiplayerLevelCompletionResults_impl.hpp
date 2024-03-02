@@ -348,5 +348,3 @@ inline bool GlobalNamespace::MultiplayerLevelCompletionResults::HasAnyResult(::G
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelCompletionResults() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -72,5 +72,3 @@ inline void System::Collections::Generic::LongEnumEqualityComparer_1<T>::GetObje
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::LongEnumEqualityComparer_1<T>::LongEnumEqualityComparer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

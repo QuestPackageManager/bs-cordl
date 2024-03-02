@@ -83,5 +83,3 @@ inline ::UnityEngine::UIElements::MouseMoveEvent* UnityEngine::UIElements::Mouse
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseMoveEvent::MouseMoveEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

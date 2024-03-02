@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Rendering::RenderBufferLoadAction::RenderBufferLoadActi
 constexpr ::UnityEngine::Rendering::RenderBufferLoadAction UnityEngine::Rendering::RenderBufferLoadAction::Load{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::RenderBufferLoadAction UnityEngine::Rendering::RenderBufferLoadAction::Clear{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::RenderBufferLoadAction UnityEngine::Rendering::RenderBufferLoadAction::DontCare{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

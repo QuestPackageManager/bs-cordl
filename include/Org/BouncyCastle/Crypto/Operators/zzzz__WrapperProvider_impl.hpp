@@ -24,5 +24,3 @@ inline ::System::Object* Org::BouncyCastle::Crypto::Operators::WrapperProvider::
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::WrapperProvider*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, forWrapping, parameters);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

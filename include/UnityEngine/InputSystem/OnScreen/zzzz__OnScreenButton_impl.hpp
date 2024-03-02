@@ -149,5 +149,3 @@ inline void UnityEngine::InputSystem::OnScreen::OnScreenButton::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenButton::OnScreenButton() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -117,5 +117,3 @@ inline bool HoudiniEngineUnity::HEU_InputInterface::CreateInputNodeWithDataUploa
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputInterface::HEU_InputInterface() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

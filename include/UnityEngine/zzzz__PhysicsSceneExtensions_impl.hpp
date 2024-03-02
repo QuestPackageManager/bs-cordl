@@ -70,5 +70,3 @@ inline void UnityEngine::PhysicsSceneExtensions::GetPhysicsScene_Internal_Inject
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PhysicsSceneExtensions::PhysicsSceneExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

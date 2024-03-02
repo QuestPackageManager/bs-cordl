@@ -216,5 +216,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::ZenAutoInjecter::__zenCreateInjectTyp
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenAutoInjecter::ZenAutoInjecter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

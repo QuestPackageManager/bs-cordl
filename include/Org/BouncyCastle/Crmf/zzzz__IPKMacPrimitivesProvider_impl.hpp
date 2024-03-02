@@ -45,5 +45,3 @@ inline ::Org::BouncyCastle::Crypto::IMac* Org::BouncyCastle::Crmf::IPKMacPrimiti
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::IMac*, false>(this, ___internal_method, macAlg);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

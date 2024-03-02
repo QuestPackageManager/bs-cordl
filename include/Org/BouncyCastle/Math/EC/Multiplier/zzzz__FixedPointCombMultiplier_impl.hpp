@@ -53,5 +53,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier::_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier::FixedPointCombMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

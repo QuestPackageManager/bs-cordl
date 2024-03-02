@@ -206,5 +206,3 @@ inline void UnityEngine::UIElements::VisualTreeViewDataUpdater::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeViewDataUpdater::VisualTreeViewDataUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

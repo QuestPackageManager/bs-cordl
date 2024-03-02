@@ -303,5 +303,3 @@ inline void Oculus::Platform::Callback::HandleMessage(::Oculus::Platform::Messag
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Callback::Callback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

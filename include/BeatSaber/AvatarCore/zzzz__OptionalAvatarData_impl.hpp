@@ -39,5 +39,3 @@ constexpr ::BeatSaber::AvatarCore::OptionalAvatarData::OptionalAvatarData(uint32
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::OptionalAvatarData::OptionalAvatarData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

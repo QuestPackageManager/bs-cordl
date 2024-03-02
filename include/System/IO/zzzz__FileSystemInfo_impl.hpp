@@ -436,5 +436,3 @@ inline ::StringW System::IO::FileSystemInfo::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::FileSystemInfo::FileSystemInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

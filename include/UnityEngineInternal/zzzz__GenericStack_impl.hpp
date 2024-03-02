@@ -24,5 +24,3 @@ inline void UnityEngineInternal::GenericStack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngineInternal::GenericStack::GenericStack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

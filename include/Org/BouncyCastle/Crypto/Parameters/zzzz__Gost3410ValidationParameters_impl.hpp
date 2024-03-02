@@ -228,5 +228,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParamete
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters::Gost3410ValidationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

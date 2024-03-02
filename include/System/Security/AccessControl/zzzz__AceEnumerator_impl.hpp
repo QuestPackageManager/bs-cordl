@@ -141,5 +141,3 @@ inline void System::Security::AccessControl::AceEnumerator::Reset() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::AceEnumerator::AceEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

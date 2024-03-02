@@ -43,5 +43,3 @@ constexpr ::System::Net::FtpStatusCode System::Net::FtpStatusCode::ActionNotTake
 constexpr ::System::Net::FtpStatusCode System::Net::FtpStatusCode::ActionAbortedUnknownPageType{ static_cast<int32_t>(0x227) };
 constexpr ::System::Net::FtpStatusCode System::Net::FtpStatusCode::FileActionAborted{ static_cast<int32_t>(0x228) };
 constexpr ::System::Net::FtpStatusCode System::Net::FtpStatusCode::ActionNotTakenFilenameNotAllowed{ static_cast<int32_t>(0x229) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

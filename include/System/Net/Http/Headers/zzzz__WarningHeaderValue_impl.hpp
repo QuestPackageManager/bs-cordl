@@ -407,5 +407,3 @@ inline ::StringW System::Net::Http::Headers::WarningHeaderValue::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::WarningHeaderValue::WarningHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

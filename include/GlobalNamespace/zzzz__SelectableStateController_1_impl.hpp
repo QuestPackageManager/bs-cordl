@@ -23,5 +23,3 @@ template <typename T> inline void GlobalNamespace::SelectableStateController_1<T
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::SelectableStateController_1<T>::SelectableStateController_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

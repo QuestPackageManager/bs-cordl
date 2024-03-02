@@ -976,5 +976,3 @@ inline void UnityEngine::TextCore::Text::TextSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextSettings::TextSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

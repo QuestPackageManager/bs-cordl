@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::InputDigitalActionData_t::InputDigitalActionData_t(bool
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::InputDigitalActionData_t::InputDigitalActionData_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

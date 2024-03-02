@@ -110,5 +110,3 @@ constexpr ::GlobalNamespace::ColorSchemeNetSerializable::ColorSchemeNetSerializa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSchemeNetSerializable::ColorSchemeNetSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

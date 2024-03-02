@@ -68,5 +68,3 @@ inline ::Oculus::Platform::Models::Purchase* Oculus::Platform::MessageWithPurcha
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithPurchase::MessageWithPurchase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

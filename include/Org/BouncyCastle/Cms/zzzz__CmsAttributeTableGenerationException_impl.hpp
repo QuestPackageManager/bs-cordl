@@ -78,5 +78,3 @@ inline void Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::_ctor(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerationException::CmsAttributeTableGenerationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -273,5 +273,3 @@ inline ::System::Object* System::Xml::Schema::XmlNumeric2Converter::ChangeType(:
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlNumeric2Converter::XmlNumeric2Converter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

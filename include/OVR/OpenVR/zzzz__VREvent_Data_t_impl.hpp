@@ -330,5 +330,3 @@ constexpr ::OVR::OpenVR::VREvent_Data_t::VREvent_Data_t(::OVR::OpenVR::VREvent_R
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Data_t::VREvent_Data_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

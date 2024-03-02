@@ -88,5 +88,3 @@ inline void UnityEngine::UIElements::VisualElementFocusChangeDirection::_ctor(in
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementFocusChangeDirection::VisualElementFocusChangeDirection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

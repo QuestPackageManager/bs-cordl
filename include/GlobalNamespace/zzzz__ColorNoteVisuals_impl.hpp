@@ -351,5 +351,3 @@ inline void GlobalNamespace::ColorNoteVisuals::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorNoteVisuals::ColorNoteVisuals() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

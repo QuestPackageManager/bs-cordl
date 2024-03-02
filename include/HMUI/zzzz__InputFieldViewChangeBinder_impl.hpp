@@ -177,5 +177,3 @@ inline void HMUI::InputFieldViewChangeBinder::Enable() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::InputFieldViewChangeBinder::InputFieldViewChangeBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

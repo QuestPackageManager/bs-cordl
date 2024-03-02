@@ -215,5 +215,3 @@ inline void UnityEngine::UIElements::TimerEventScheduler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TimerEventScheduler::TimerEventScheduler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

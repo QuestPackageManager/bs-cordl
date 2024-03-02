@@ -13,5 +13,3 @@ constexpr ::OVR::OpenVR::DistortionCoordinates_t::DistortionCoordinates_t(float_
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::DistortionCoordinates_t::DistortionCoordinates_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -14,5 +14,3 @@ constexpr ::OVR::OpenVR::VREvent_DualAnalog_t::VREvent_DualAnalog_t(float_t x, f
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_DualAnalog_t::VREvent_DualAnalog_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

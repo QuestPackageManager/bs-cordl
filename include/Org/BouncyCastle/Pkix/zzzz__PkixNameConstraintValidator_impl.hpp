@@ -1813,5 +1813,3 @@ inline ::StringW Org::BouncyCastle::Pkix::PkixNameConstraintValidator::ToString(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::PkixNameConstraintValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -589,5 +589,3 @@ inline void Unity::XR::Oculus::Stats::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::Stats::Stats() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

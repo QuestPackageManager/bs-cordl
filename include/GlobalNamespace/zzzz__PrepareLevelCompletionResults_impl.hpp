@@ -171,5 +171,3 @@ inline void GlobalNamespace::PrepareLevelCompletionResults::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PrepareLevelCompletionResults::PrepareLevelCompletionResults() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

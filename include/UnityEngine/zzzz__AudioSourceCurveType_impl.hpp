@@ -10,5 +10,3 @@ constexpr ::UnityEngine::AudioSourceCurveType UnityEngine::AudioSourceCurveType:
 constexpr ::UnityEngine::AudioSourceCurveType UnityEngine::AudioSourceCurveType::SpatialBlend{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::AudioSourceCurveType UnityEngine::AudioSourceCurveType::ReverbZoneMix{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::AudioSourceCurveType UnityEngine::AudioSourceCurveType::Spread{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -503,5 +503,3 @@ inline ::OVR::OpenVR::EVRInputError OVR::OpenVR::CVRInput::ShowBindingsForAction
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRInput::CVRInput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

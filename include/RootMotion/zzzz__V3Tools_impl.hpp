@@ -278,5 +278,3 @@ inline ::UnityEngine::Vector3 RootMotion::V3Tools::InverseTransformPointUnscaled
 }
 // Ctor Parameters []
 constexpr ::RootMotion::V3Tools::V3Tools() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

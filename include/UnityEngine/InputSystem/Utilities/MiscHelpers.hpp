@@ -1,3 +1,5 @@
 #pragma once
 #include "UnityEngine/InputSystem/Utilities/zzzz__MiscHelpers_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "UnityEngine/InputSystem/Utilities/zzzz__MiscHelpers_impl.hpp"
+#endif

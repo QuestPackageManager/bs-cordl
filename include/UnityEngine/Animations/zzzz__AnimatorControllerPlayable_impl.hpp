@@ -118,5 +118,3 @@ constexpr ::UnityEngine::Animations::AnimatorControllerPlayable::AnimatorControl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Animations::AnimatorControllerPlayable::AnimatorControllerPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

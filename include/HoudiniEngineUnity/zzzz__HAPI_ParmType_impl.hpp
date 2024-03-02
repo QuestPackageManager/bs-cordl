@@ -38,5 +38,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ParmType HoudiniEngineUnity::HAPI_ParmType:
 constexpr ::HoudiniEngineUnity::HAPI_ParmType HoudiniEngineUnity::HAPI_ParmType::HAPI_PARMTYPE_CONTAINER_END{ static_cast<int32_t>(0xc) };
 constexpr ::HoudiniEngineUnity::HAPI_ParmType HoudiniEngineUnity::HAPI_ParmType::HAPI_PARMTYPE_NONVALUE_START{ static_cast<int32_t>(0xd) };
 constexpr ::HoudiniEngineUnity::HAPI_ParmType HoudiniEngineUnity::HAPI_ParmType::HAPI_PARMTYPE_NONVALUE_END{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

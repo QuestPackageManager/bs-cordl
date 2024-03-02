@@ -9,5 +9,3 @@ constexpr ::LiteNetLib::ShutdownResult::ShutdownResult() {}
 constexpr ::LiteNetLib::ShutdownResult LiteNetLib::ShutdownResult::None{ static_cast<int32_t>(0x0) };
 constexpr ::LiteNetLib::ShutdownResult LiteNetLib::ShutdownResult::Success{ static_cast<int32_t>(0x1) };
 constexpr ::LiteNetLib::ShutdownResult LiteNetLib::ShutdownResult::WasConnected{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

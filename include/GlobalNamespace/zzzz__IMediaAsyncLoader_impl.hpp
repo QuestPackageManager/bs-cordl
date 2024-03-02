@@ -22,5 +22,3 @@ inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* G
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IMediaAsyncLoader*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*, false>(this, ___internal_method, filePath);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

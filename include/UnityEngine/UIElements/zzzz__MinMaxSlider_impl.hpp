@@ -1011,5 +1011,3 @@ inline void UnityEngine::UIElements::__MinMaxSlider__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__MinMaxSlider__UxmlFactory::__MinMaxSlider__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -280,5 +280,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Security::Private
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::PrivateKeyFactory::PrivateKeyFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

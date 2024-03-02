@@ -43,5 +43,3 @@ constexpr ::TMPro::TextAlignmentOptions TMPro::TextAlignmentOptions::CaplineJust
 constexpr ::TMPro::TextAlignmentOptions TMPro::TextAlignmentOptions::CaplineFlush{ static_cast<int32_t>(0x2010) };
 constexpr ::TMPro::TextAlignmentOptions TMPro::TextAlignmentOptions::CaplineGeoAligned{ static_cast<int32_t>(0x2020) };
 constexpr ::TMPro::TextAlignmentOptions TMPro::TextAlignmentOptions::Converted{ static_cast<int32_t>(0xffff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

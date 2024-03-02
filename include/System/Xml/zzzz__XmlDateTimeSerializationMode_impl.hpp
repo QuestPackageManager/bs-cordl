@@ -10,5 +10,3 @@ constexpr ::System::Xml::XmlDateTimeSerializationMode System::Xml::XmlDateTimeSe
 constexpr ::System::Xml::XmlDateTimeSerializationMode System::Xml::XmlDateTimeSerializationMode::Utc{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::XmlDateTimeSerializationMode System::Xml::XmlDateTimeSerializationMode::Unspecified{ static_cast<int32_t>(0x2) };
 constexpr ::System::Xml::XmlDateTimeSerializationMode System::Xml::XmlDateTimeSerializationMode::RoundtripKind{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

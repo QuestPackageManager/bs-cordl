@@ -28,5 +28,3 @@ inline void Oculus::Platform::Models::AchievementDefinitionList::_ctor(void* a) 
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::AchievementDefinitionList::AchievementDefinitionList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -229,5 +229,3 @@ inline ::StringW UnityEngine::ProBuilder::HandleConstraint2D::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::HandleConstraint2D::HandleConstraint2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

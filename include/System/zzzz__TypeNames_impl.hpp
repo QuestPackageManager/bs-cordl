@@ -123,5 +123,3 @@ inline void System::__TypeNames__ATypeName::_ctor() {
 constexpr ::System::__TypeNames__ATypeName::__TypeNames__ATypeName() {}
 // Ctor Parameters []
 constexpr ::System::TypeNames::TypeNames() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

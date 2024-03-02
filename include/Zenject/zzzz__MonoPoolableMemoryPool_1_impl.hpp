@@ -57,5 +57,3 @@ template <typename TValue> inline ::Zenject::InjectTypeInfo* Zenject::MonoPoolab
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::Zenject::MonoPoolableMemoryPool_1<TValue>::MonoPoolableMemoryPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

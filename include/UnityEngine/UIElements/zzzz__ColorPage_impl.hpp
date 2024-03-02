@@ -34,5 +34,3 @@ constexpr ::UnityEngine::UIElements::ColorPage::ColorPage(bool isValid, ::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ColorPage::ColorPage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

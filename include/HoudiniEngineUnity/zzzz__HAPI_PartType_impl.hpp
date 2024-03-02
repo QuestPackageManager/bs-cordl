@@ -14,5 +14,3 @@ constexpr ::HoudiniEngineUnity::HAPI_PartType HoudiniEngineUnity::HAPI_PartType:
 constexpr ::HoudiniEngineUnity::HAPI_PartType HoudiniEngineUnity::HAPI_PartType::HAPI_PARTTYPE_BOX{ static_cast<int32_t>(0x4) };
 constexpr ::HoudiniEngineUnity::HAPI_PartType HoudiniEngineUnity::HAPI_PartType::HAPI_PARTTYPE_SPHERE{ static_cast<int32_t>(0x5) };
 constexpr ::HoudiniEngineUnity::HAPI_PartType HoudiniEngineUnity::HAPI_PartType::HAPI_PARTTYPE_MAX{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ inline void UnityEngine::AudioBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AudioBehaviour::AudioBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

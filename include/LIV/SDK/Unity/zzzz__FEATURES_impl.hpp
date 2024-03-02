@@ -18,5 +18,3 @@ constexpr ::LIV::SDK::Unity::FEATURES LIV::SDK::Unity::FEATURES::RELEASE_CONTROL
 constexpr ::LIV::SDK::Unity::FEATURES LIV::SDK::Unity::FEATURES::OPTIMIZED_RENDER{ static_cast<uint64_t>(0x10000000u) };
 constexpr ::LIV::SDK::Unity::FEATURES LIV::SDK::Unity::FEATURES::INTERLACED_RENDER{ static_cast<uint64_t>(0x20000000u) };
 constexpr ::LIV::SDK::Unity::FEATURES LIV::SDK::Unity::FEATURES::DEBUG_CLIP_PLANE{ static_cast<uint64_t>(0x1000000000000u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

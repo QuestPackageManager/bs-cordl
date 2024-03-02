@@ -77,5 +77,3 @@ inline void GlobalNamespace::HEU_ExampleInstanceCustomAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HEU_ExampleInstanceCustomAttribute::HEU_ExampleInstanceCustomAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

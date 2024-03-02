@@ -201,5 +201,3 @@ inline ::StringW System::ArgumentException::get_Message() {
 }
 // Ctor Parameters []
 constexpr ::System::ArgumentException::ArgumentException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::UnityEngine::AnimationCullingType UnityEngine::AnimationCullingType:
 constexpr ::UnityEngine::AnimationCullingType UnityEngine::AnimationCullingType::BasedOnRenderers{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::AnimationCullingType UnityEngine::AnimationCullingType::BasedOnClipBounds{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::AnimationCullingType UnityEngine::AnimationCullingType::BasedOnUserBounds{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -269,5 +269,3 @@ inline void GlobalNamespace::VertexPath::AddVertex(ByRef<::UnityEngine::Vector3>
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VertexPath::VertexPath() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

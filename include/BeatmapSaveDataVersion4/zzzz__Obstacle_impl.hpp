@@ -12,5 +12,3 @@ constexpr ::BeatmapSaveDataVersion4::Obstacle::Obstacle(int32_t x, int32_t y, fl
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::Obstacle::Obstacle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -708,5 +708,3 @@ inline ::UnityEngine::Vector3 RootMotion::FinalIK::IKEffector::GetPosition(::Roo
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::IKEffector::IKEffector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void UnityEngine::InputSystem::Android::AndroidProximity::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidProximity::AndroidProximity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -984,5 +984,3 @@ inline void System::IO::MemoryStream::WriteTo(::System::IO::Stream* stream) {
 }
 // Ctor Parameters []
 constexpr ::System::IO::MemoryStream::MemoryStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

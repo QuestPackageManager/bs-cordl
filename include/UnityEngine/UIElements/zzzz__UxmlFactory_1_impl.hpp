@@ -12,5 +12,3 @@ template <typename TCreatedType> inline void UnityEngine::UIElements::UxmlFactor
 }
 // Ctor Parameters []
 template <typename TCreatedType> constexpr ::UnityEngine::UIElements::UxmlFactory_1<TCreatedType>::UxmlFactory_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

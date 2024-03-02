@@ -98,5 +98,3 @@ inline void Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Crmf::CrmfObjectIdentifiers::CrmfObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

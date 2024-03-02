@@ -402,5 +402,3 @@ inline void System::Security::Cryptography::AesManaged::GenerateKey() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::AesManaged::AesManaged() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

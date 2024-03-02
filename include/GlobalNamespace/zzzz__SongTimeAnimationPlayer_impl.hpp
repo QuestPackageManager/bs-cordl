@@ -68,5 +68,3 @@ inline void GlobalNamespace::SongTimeAnimationPlayer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongTimeAnimationPlayer::SongTimeAnimationPlayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

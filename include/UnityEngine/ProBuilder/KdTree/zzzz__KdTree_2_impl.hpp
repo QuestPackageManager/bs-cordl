@@ -582,5 +582,3 @@ template <typename TKey, typename TValue> inline ::System::Collections::IEnumera
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::KdTree_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

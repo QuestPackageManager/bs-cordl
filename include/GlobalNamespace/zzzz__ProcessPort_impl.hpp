@@ -285,5 +285,3 @@ inline void GlobalNamespace::ProcessPort::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ProcessPort::ProcessPort() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

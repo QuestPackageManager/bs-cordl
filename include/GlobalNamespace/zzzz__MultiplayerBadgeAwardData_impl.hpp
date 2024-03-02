@@ -236,5 +236,3 @@ inline int32_t GlobalNamespace::MultiplayerBadgeAwardData::CompareTo(::System::O
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerBadgeAwardData::MultiplayerBadgeAwardData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

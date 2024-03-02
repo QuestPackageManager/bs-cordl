@@ -251,5 +251,3 @@ inline bool Org::BouncyCastle::Asn1::DerIA5String::IsIA5String(::StringW str) {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerIA5String::DerIA5String() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

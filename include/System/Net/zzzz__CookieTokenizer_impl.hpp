@@ -548,5 +548,3 @@ inline ::System::Net::CookieToken System::Net::CookieTokenizer::TokenFromName(bo
 }
 // Ctor Parameters []
 constexpr ::System::Net::CookieTokenizer::CookieTokenizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

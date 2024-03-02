@@ -31,5 +31,3 @@ constexpr ::UnityEngine::DrivenTransformProperties UnityEngine::DrivenTransformP
 constexpr ::UnityEngine::DrivenTransformProperties UnityEngine::DrivenTransformProperties::Anchors{ static_cast<int32_t>(0xf00) };
 constexpr ::UnityEngine::DrivenTransformProperties UnityEngine::DrivenTransformProperties::SizeDelta{ static_cast<int32_t>(0x3000) };
 constexpr ::UnityEngine::DrivenTransformProperties UnityEngine::DrivenTransformProperties::Pivot{ static_cast<int32_t>(0xc000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

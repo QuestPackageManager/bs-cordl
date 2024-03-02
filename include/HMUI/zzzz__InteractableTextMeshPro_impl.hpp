@@ -95,5 +95,3 @@ inline void HMUI::InteractableTextMeshPro::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::InteractableTextMeshPro::InteractableTextMeshPro() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

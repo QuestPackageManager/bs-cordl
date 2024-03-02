@@ -308,5 +308,3 @@ inline void* UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_I
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::DownloadHandlerAssetBundle::DownloadHandlerAssetBundle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

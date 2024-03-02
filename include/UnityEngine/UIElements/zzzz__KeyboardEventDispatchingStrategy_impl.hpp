@@ -82,5 +82,3 @@ inline void UnityEngine::UIElements::KeyboardEventDispatchingStrategy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::KeyboardEventDispatchingStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

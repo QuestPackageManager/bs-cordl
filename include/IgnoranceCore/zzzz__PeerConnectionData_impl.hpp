@@ -9,5 +9,3 @@ constexpr ::IgnoranceCore::PeerConnectionData::PeerConnectionData(uint16_t Port,
 }
 // Ctor Parameters []
 constexpr ::IgnoranceCore::PeerConnectionData::PeerConnectionData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -259,5 +259,3 @@ inline void UnityEngine::Screen::get_currentResolution_Injected(ByRef<::UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Screen::Screen() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ constexpr ::BeatmapSaveDataVersion4::IndexFilter::IndexFilter(::BeatmapSaveDataC
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::IndexFilter::IndexFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

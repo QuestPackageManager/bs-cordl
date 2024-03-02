@@ -299,5 +299,3 @@ inline void System::Net::NetworkInformation::UnicastIPAddressInformationCollecti
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection::UnicastIPAddressInformationCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

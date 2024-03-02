@@ -411,5 +411,3 @@ template <typename T> inline bool GlobalNamespace::OrderedSet_1<T>::TryGetFirst(
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::OrderedSet_1<T>::OrderedSet_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

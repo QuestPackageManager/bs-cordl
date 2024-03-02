@@ -24,5 +24,3 @@ inline void GlobalNamespace::PS5NetworkPlayerModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS5NetworkPlayerModel::PS5NetworkPlayerModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

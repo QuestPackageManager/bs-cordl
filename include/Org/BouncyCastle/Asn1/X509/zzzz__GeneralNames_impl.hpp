@@ -252,5 +252,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::GeneralNames::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames::GeneralNames() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

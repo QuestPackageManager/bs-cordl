@@ -159,5 +159,3 @@ inline ::StringW UnityEngine::XR::InputDevices::GetDeviceManufacturer(uint64_t d
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::InputDevices::InputDevices() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

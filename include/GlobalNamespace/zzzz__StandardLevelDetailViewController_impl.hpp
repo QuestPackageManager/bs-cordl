@@ -1686,5 +1686,3 @@ inline ::System::Threading::Tasks::Task* GlobalNamespace::StandardLevelDetailVie
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelDetailViewController::StandardLevelDetailViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

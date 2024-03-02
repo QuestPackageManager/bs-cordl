@@ -68,5 +68,3 @@ inline void System::Runtime::Remoting::Services::ITrackingHandler::UnmarshaledOb
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Services::ITrackingHandler*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj, _cordl_or);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

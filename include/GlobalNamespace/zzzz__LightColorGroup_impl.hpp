@@ -33,5 +33,3 @@ inline void GlobalNamespace::LightColorGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorGroup::LightColorGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

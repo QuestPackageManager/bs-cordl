@@ -44,5 +44,3 @@ template <typename T> inline bool HMUI::SetPropertyUtility::SetClass(ByRef<T> cu
 }
 // Ctor Parameters []
 constexpr ::HMUI::SetPropertyUtility::SetPropertyUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

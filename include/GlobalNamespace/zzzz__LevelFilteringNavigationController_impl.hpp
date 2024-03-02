@@ -1260,5 +1260,3 @@ inline bool GlobalNamespace::LevelFilteringNavigationController::_SetupBeatmapLe
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelFilteringNavigationController::LevelFilteringNavigationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

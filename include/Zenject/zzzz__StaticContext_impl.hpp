@@ -65,5 +65,3 @@ inline ::Zenject::DiContainer* Zenject::StaticContext::get_Container() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::StaticContext::StaticContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

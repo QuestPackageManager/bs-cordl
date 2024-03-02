@@ -239,5 +239,3 @@ inline int32_t Newtonsoft::Json::Linq::JPropertyDescriptor::get_NameHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JPropertyDescriptor::JPropertyDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

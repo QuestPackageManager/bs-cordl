@@ -978,5 +978,3 @@ inline void UnityEngine::XR::WindowsMR::Input::WMRSpatialController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::WMRSpatialController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

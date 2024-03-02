@@ -8,5 +8,3 @@ constexpr ::UnityEngine::Video::VideoSource::VideoSource(int32_t value__) noexce
 constexpr ::UnityEngine::Video::VideoSource::VideoSource() {}
 constexpr ::UnityEngine::Video::VideoSource UnityEngine::Video::VideoSource::VideoClip{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Video::VideoSource UnityEngine::Video::VideoSource::Url{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

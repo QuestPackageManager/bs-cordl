@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::EVRScreenshotPropertyFilenames::EVRScreenshotPropertyFi
 constexpr ::OVR::OpenVR::EVRScreenshotPropertyFilenames::EVRScreenshotPropertyFilenames() {}
 constexpr ::OVR::OpenVR::EVRScreenshotPropertyFilenames OVR::OpenVR::EVRScreenshotPropertyFilenames::Preview{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVRScreenshotPropertyFilenames OVR::OpenVR::EVRScreenshotPropertyFilenames::VR{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

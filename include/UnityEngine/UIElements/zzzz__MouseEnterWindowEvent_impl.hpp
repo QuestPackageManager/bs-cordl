@@ -87,5 +87,3 @@ inline void UnityEngine::UIElements::MouseEnterWindowEvent::PostDispatch(::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseEnterWindowEvent::MouseEnterWindowEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

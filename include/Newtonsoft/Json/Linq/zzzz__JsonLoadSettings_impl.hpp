@@ -132,5 +132,3 @@ inline void Newtonsoft::Json::Linq::JsonLoadSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonLoadSettings::JsonLoadSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

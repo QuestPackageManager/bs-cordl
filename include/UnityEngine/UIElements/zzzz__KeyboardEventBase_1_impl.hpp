@@ -142,5 +142,3 @@ template <typename T> inline void UnityEngine::UIElements::KeyboardEventBase_1<T
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::KeyboardEventBase_1<T>::KeyboardEventBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

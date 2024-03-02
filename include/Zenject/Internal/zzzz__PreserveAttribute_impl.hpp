@@ -24,5 +24,3 @@ inline void Zenject::Internal::PreserveAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::Internal::PreserveAttribute::PreserveAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

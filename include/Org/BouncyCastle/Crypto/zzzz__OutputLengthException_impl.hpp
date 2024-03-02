@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Crypto::OutputLengthException::_ctor(::StringW me
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::OutputLengthException::OutputLengthException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

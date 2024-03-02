@@ -24,5 +24,3 @@ inline void GlobalNamespace::HelpNavigationController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HelpNavigationController::HelpNavigationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

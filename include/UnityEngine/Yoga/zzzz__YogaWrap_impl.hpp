@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Yoga::YogaWrap::YogaWrap() {}
 constexpr ::UnityEngine::Yoga::YogaWrap UnityEngine::Yoga::YogaWrap::NoWrap{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Yoga::YogaWrap UnityEngine::Yoga::YogaWrap::Wrap{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Yoga::YogaWrap UnityEngine::Yoga::YogaWrap::WrapReverse{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

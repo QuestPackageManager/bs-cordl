@@ -171,5 +171,3 @@ constexpr ::System::Collections::Specialized::BitVector32::BitVector32(uint32_t 
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Specialized::BitVector32::BitVector32() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

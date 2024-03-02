@@ -9,5 +9,3 @@ constexpr ::UnityEngine::NetworkReachability::NetworkReachability() {}
 constexpr ::UnityEngine::NetworkReachability UnityEngine::NetworkReachability::NotReachable{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::NetworkReachability UnityEngine::NetworkReachability::ReachableViaCarrierDataNetwork{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::NetworkReachability UnityEngine::NetworkReachability::ReachableViaLocalAreaNetwork{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

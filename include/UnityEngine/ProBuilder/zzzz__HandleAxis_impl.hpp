@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ProBuilder::HandleAxis UnityEngine::ProBuilder::HandleA
 constexpr ::UnityEngine::ProBuilder::HandleAxis UnityEngine::ProBuilder::HandleAxis::Y{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ProBuilder::HandleAxis UnityEngine::ProBuilder::HandleAxis::Z{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::ProBuilder::HandleAxis UnityEngine::ProBuilder::HandleAxis::Free{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

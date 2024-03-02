@@ -25,5 +25,3 @@ inline void GlobalNamespace::LightGroupTranslationXTransform::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroupTranslationXTransform::LightGroupTranslationXTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

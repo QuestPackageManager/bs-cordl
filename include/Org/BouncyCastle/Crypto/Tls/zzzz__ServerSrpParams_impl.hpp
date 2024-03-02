@@ -212,5 +212,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::ServerSrpParams* Org::BouncyCastle::Cry
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ServerSrpParams::ServerSrpParams() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

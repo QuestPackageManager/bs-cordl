@@ -168,5 +168,3 @@ inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* Org::BouncyCastle::Pkix::Re
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::ReasonsMask::ReasonsMask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

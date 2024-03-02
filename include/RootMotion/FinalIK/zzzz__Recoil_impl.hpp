@@ -723,5 +723,3 @@ inline void RootMotion::FinalIK::Recoil::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::Recoil::Recoil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::System::Base64FormattingOptions::Base64FormattingOptions(int32_t val
 constexpr ::System::Base64FormattingOptions::Base64FormattingOptions() {}
 constexpr ::System::Base64FormattingOptions System::Base64FormattingOptions::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Base64FormattingOptions System::Base64FormattingOptions::InsertLineBreaks{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

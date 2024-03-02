@@ -88,5 +88,3 @@ inline void GlobalNamespace::TextMeshProButton::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TextMeshProButton::TextMeshProButton() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

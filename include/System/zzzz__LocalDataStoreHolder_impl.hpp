@@ -76,5 +76,3 @@ inline ::System::LocalDataStore* System::LocalDataStoreHolder::get_Store() {
 }
 // Ctor Parameters []
 constexpr ::System::LocalDataStoreHolder::LocalDataStoreHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

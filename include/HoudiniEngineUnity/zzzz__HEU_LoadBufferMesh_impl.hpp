@@ -112,5 +112,3 @@ inline void HoudiniEngineUnity::HEU_LoadBufferMesh::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_LoadBufferMesh::HEU_LoadBufferMesh() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

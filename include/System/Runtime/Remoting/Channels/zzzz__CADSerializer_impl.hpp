@@ -116,5 +116,3 @@ inline ::System::Object* System::Runtime::Remoting::Channels::CADSerializer::Des
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Channels::CADSerializer::CADSerializer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

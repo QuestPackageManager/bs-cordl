@@ -27,5 +27,3 @@ constexpr ::OVR::OpenVR::EVRApplicationError OVR::OpenVR::EVRApplicationError::B
 constexpr ::OVR::OpenVR::EVRApplicationError OVR::OpenVR::EVRApplicationError::PropertyNotSet{ static_cast<int32_t>(0xc9) };
 constexpr ::OVR::OpenVR::EVRApplicationError OVR::OpenVR::EVRApplicationError::UnknownProperty{ static_cast<int32_t>(0xca) };
 constexpr ::OVR::OpenVR::EVRApplicationError OVR::OpenVR::EVRApplicationError::InvalidParameter{ static_cast<int32_t>(0xcb) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

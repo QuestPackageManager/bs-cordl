@@ -530,5 +530,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Encodable* Org::BouncyCastle::Cms::CmsEnve
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator::CmsEnvelopedGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

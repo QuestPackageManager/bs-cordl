@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UIElements::DragVisualMode UnityEngine::UIElements::Dra
 constexpr ::UnityEngine::UIElements::DragVisualMode UnityEngine::UIElements::DragVisualMode::Copy{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::DragVisualMode UnityEngine::UIElements::DragVisualMode::Move{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::DragVisualMode UnityEngine::UIElements::DragVisualMode::Rejected{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

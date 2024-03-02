@@ -29,5 +29,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLoca
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation::DownloadOnlyLocation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

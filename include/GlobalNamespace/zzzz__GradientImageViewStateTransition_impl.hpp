@@ -500,5 +500,3 @@ inline void GlobalNamespace::GradientImageViewStateTransition::_StartTweens_b__1
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GradientImageViewStateTransition::GradientImageViewStateTransition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::TMPro::MaskingOffsetMode::MaskingOffsetMode(int32_t value__) noexcep
 constexpr ::TMPro::MaskingOffsetMode::MaskingOffsetMode() {}
 constexpr ::TMPro::MaskingOffsetMode TMPro::MaskingOffsetMode::Percentage{ static_cast<int32_t>(0x0) };
 constexpr ::TMPro::MaskingOffsetMode TMPro::MaskingOffsetMode::Pixel{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

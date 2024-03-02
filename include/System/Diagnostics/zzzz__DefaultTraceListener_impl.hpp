@@ -257,5 +257,3 @@ inline void System::Diagnostics::DefaultTraceListener::WriteLine(::StringW messa
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::DefaultTraceListener::DefaultTraceListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

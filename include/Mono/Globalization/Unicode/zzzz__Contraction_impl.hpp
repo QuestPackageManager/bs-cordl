@@ -80,5 +80,3 @@ inline void Mono::Globalization::Unicode::Contraction::_ctor(int32_t index, ::Ar
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::Contraction::Contraction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -284,5 +284,3 @@ inline bool UnityEngine::UIElements::PointerDispatchState::ShouldSendCompatibili
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerDispatchState::PointerDispatchState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

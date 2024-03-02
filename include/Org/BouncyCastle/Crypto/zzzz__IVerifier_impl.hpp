@@ -40,5 +40,3 @@ inline bool Org::BouncyCastle::Crypto::IVerifier::IsVerified(::ArrayW<uint8_t, :
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::IVerifier*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, source, off, length);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

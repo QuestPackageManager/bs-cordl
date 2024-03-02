@@ -288,5 +288,3 @@ inline void GlobalNamespace::TrailerGameplayManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TrailerGameplayManager::TrailerGameplayManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

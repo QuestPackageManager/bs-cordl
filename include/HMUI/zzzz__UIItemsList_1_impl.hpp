@@ -118,5 +118,3 @@ template <typename T> inline void HMUI::UIItemsList_1<T>::_ctor() {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::HMUI::UIItemsList_1<T>::UIItemsList_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

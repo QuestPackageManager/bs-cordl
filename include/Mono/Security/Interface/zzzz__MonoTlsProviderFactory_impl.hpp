@@ -23,5 +23,3 @@ inline ::Mono::Security::Interface::MonoTlsProvider* Mono::Security::Interface::
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::MonoTlsProviderFactory::MonoTlsProviderFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

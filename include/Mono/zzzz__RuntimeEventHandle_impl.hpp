@@ -84,5 +84,3 @@ constexpr ::Mono::RuntimeEventHandle::RuntimeEventHandle(void* value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::Mono::RuntimeEventHandle::RuntimeEventHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

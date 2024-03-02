@@ -146,5 +146,3 @@ constexpr ::Mono::RuntimeClassHandle::RuntimeClassHandle(::cordl_internals::Ptr<
 }
 // Ctor Parameters []
 constexpr ::Mono::RuntimeClassHandle::RuntimeClassHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

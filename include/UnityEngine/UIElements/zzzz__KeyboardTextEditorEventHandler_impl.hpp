@@ -458,5 +458,3 @@ inline void UnityEngine::UIElements::KeyboardTextEditorEventHandler::PostDrawCur
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::KeyboardTextEditorEventHandler::KeyboardTextEditorEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

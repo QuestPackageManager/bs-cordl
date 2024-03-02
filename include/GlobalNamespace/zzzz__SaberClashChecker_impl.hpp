@@ -158,5 +158,3 @@ inline void GlobalNamespace::SaberClashChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberClashChecker::SaberClashChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons::_c
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButtons::AndroidGamepadWithDpadButtons() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

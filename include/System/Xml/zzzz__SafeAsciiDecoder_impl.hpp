@@ -87,5 +87,3 @@ inline void System::Xml::SafeAsciiDecoder::Convert(::ArrayW<uint8_t, ::Array<uin
 }
 // Ctor Parameters []
 constexpr ::System::Xml::SafeAsciiDecoder::SafeAsciiDecoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

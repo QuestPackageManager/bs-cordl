@@ -605,5 +605,3 @@ inline void UnityEngine::ProBuilder::SharedVertex::SetCoincident(ByRef<::System:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::SharedVertex::SharedVertex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

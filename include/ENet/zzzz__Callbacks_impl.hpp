@@ -86,5 +86,3 @@ inline void ENet::Callbacks::_ctor(::ENet::AllocCallback* allocCallback, ::ENet:
 }
 // Ctor Parameters []
 constexpr ::ENet::Callbacks::Callbacks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

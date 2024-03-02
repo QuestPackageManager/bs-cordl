@@ -234,5 +234,3 @@ inline void GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::BeatmapObjectExecutionRatingsRecorder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

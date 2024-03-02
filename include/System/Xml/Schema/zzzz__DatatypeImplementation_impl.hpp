@@ -1530,5 +1530,3 @@ inline void System::Xml::Schema::DatatypeImplementation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::DatatypeImplementation::DatatypeImplementation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

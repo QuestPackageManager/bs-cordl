@@ -133,5 +133,3 @@ inline void System::Xml::Schema::SequenceNode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SequenceNode::SequenceNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

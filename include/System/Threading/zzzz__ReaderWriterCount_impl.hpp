@@ -84,5 +84,3 @@ inline void System::Threading::ReaderWriterCount::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ReaderWriterCount::ReaderWriterCount() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

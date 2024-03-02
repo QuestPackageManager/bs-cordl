@@ -222,5 +222,3 @@ inline void System::Object::FieldSetter(::StringW typeName, ::StringW fieldName,
 }
 // Ctor Parameters []
 constexpr ::System::Object::Object() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

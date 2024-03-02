@@ -128,5 +128,3 @@ inline void Zenject::SignalBindingBindInfo::set_SignalType(::System::Type* value
 }
 // Ctor Parameters []
 constexpr ::Zenject::SignalBindingBindInfo::SignalBindingBindInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

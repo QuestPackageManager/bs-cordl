@@ -25,5 +25,3 @@ inline ::GlobalNamespace::OffsetDirection GlobalNamespace::OffsetDirectionExtens
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OffsetDirectionExtensions::OffsetDirectionExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

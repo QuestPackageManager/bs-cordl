@@ -7,5 +7,3 @@ constexpr ::System::Globalization::InternalEncodingDataItem::InternalEncodingDat
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::InternalEncodingDataItem::InternalEncodingDataItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

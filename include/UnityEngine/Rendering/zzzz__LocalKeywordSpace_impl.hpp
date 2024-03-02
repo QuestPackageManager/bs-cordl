@@ -101,5 +101,3 @@ constexpr ::UnityEngine::Rendering::LocalKeywordSpace::LocalKeywordSpace(void* m
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::LocalKeywordSpace::LocalKeywordSpace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

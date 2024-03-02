@@ -931,5 +931,3 @@ inline void GlobalNamespace::IMultiplayerSessionManager::UnregisterSerializer(::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IMultiplayerSessionManager*>::get(), 49)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, serializerType, subSerializer);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

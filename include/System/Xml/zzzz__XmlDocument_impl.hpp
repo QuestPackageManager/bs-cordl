@@ -2206,5 +2206,3 @@ inline ::System::Xml::XmlNode* System::Xml::XmlDocument::AppendChildForLoad(::Sy
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlDocument::XmlDocument() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

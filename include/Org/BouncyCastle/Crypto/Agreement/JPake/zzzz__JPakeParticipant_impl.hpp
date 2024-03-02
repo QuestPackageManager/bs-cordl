@@ -543,5 +543,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::Valid
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::JPakeParticipant() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

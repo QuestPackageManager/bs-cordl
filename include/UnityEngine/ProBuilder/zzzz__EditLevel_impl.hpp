@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ProBuilder::EditLevel UnityEngine::ProBuilder::EditLeve
 constexpr ::UnityEngine::ProBuilder::EditLevel UnityEngine::ProBuilder::EditLevel::Geometry{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::EditLevel UnityEngine::ProBuilder::EditLevel::Texture{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ProBuilder::EditLevel UnityEngine::ProBuilder::EditLevel::Plugin{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

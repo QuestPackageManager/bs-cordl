@@ -24,5 +24,3 @@ inline void System::Net::Mime::EncodedStreamFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Mime::EncodedStreamFactory::EncodedStreamFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

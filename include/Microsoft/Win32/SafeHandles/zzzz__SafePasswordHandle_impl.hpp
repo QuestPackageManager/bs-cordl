@@ -149,5 +149,3 @@ inline ::StringW Microsoft::Win32::SafeHandles::SafePasswordHandle::Mono_Dangero
 }
 // Ctor Parameters []
 constexpr ::Microsoft::Win32::SafeHandles::SafePasswordHandle::SafePasswordHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

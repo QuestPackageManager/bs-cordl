@@ -485,5 +485,3 @@ inline void UnityEngine::UIElements::StyleVariableResolver::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleVariableResolver::StyleVariableResolver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

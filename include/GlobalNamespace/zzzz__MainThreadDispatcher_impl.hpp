@@ -384,5 +384,3 @@ inline void GlobalNamespace::MainThreadDispatcher::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainThreadDispatcher::MainThreadDispatcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -243,5 +243,3 @@ inline bool System::IO::FileStreamAsyncResult::get_IsCompleted() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::FileStreamAsyncResult::FileStreamAsyncResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

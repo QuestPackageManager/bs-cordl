@@ -230,5 +230,3 @@ inline void UnityEngine::UIElements::__Button__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__Button__UxmlFactory::__Button__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

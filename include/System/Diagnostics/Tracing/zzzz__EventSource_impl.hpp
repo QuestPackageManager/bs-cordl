@@ -447,5 +447,3 @@ inline void System::Diagnostics::Tracing::EventSource::WriteEventCore(int32_t ev
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Tracing::EventSource::EventSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

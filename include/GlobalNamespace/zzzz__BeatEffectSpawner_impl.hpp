@@ -308,5 +308,3 @@ inline void GlobalNamespace::BeatEffectSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatEffectSpawner::BeatEffectSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

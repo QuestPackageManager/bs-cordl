@@ -401,5 +401,3 @@ constexpr ::System::TermInfoStrings System::TermInfoStrings::EnterVerticalHlMode
 constexpr ::System::TermInfoStrings System::TermInfoStrings::SetAAttributes{ static_cast<int32_t>(0x188) };
 constexpr ::System::TermInfoStrings System::TermInfoStrings::SetPglenInch{ static_cast<int32_t>(0x189) };
 constexpr ::System::TermInfoStrings System::TermInfoStrings::Last{ static_cast<int32_t>(0x18a) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -81,5 +81,3 @@ inline void System::Security::Authentication::ExtendedProtection::ExtendedProtec
 }
 // Ctor Parameters []
 constexpr ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::ExtendedProtectionPolicyTypeConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

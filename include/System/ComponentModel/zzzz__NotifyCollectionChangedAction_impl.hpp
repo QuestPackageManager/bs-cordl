@@ -11,5 +11,3 @@ constexpr ::System::ComponentModel::NotifyCollectionChangedAction System::Compon
 constexpr ::System::ComponentModel::NotifyCollectionChangedAction System::ComponentModel::NotifyCollectionChangedAction::Replace{ static_cast<int32_t>(0x2) };
 constexpr ::System::ComponentModel::NotifyCollectionChangedAction System::ComponentModel::NotifyCollectionChangedAction::Move{ static_cast<int32_t>(0x3) };
 constexpr ::System::ComponentModel::NotifyCollectionChangedAction System::ComponentModel::NotifyCollectionChangedAction::Reset{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -483,5 +483,3 @@ inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* Org::BouncyCastl
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::SM2Signer::SM2Signer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -993,5 +993,3 @@ inline void System::Security::Cryptography::X509Certificates::X509Certificate::T
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate::X509Certificate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

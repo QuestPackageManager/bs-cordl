@@ -8,5 +8,3 @@ constexpr ::Unity::IO::LowLevel::Unsafe::FileState::FileState(int32_t value__) n
 constexpr ::Unity::IO::LowLevel::Unsafe::FileState::FileState() {}
 constexpr ::Unity::IO::LowLevel::Unsafe::FileState Unity::IO::LowLevel::Unsafe::FileState::Absent{ static_cast<int32_t>(0x0) };
 constexpr ::Unity::IO::LowLevel::Unsafe::FileState Unity::IO::LowLevel::Unsafe::FileState::Exists{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -470,5 +470,3 @@ inline void Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream::ZDeflaterOutputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

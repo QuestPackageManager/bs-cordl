@@ -227,5 +227,3 @@ inline bool GlobalNamespace::LevelMissionParser::ParseFunction(::StringW s, int3
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelMissionParser::LevelMissionParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

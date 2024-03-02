@@ -11,5 +11,3 @@ template <typename TElement> inline ::ArrayW<TElement, ::Array<TElement>*> Syste
 }
 // Ctor Parameters []
 template <typename TElement> constexpr ::System::Linq::EmptyEnumerable_1<TElement>::EmptyEnumerable_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

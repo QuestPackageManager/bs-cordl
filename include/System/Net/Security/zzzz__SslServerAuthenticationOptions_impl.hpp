@@ -271,5 +271,3 @@ inline void System::Net::Security::SslServerAuthenticationOptions::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Security::SslServerAuthenticationOptions::SslServerAuthenticationOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

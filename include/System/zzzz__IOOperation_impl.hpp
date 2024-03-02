@@ -8,5 +8,3 @@ constexpr ::System::IOOperation::IOOperation(int32_t value__) noexcept {
 constexpr ::System::IOOperation::IOOperation() {}
 constexpr ::System::IOOperation System::IOOperation::Read{ static_cast<int32_t>(0x1) };
 constexpr ::System::IOOperation System::IOOperation::Write{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

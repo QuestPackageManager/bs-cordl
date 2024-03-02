@@ -483,5 +483,3 @@ constexpr ::GlobalNamespace::BitMask256::BitMask256(uint64_t _d0, uint64_t _d1, 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BitMask256::BitMask256() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

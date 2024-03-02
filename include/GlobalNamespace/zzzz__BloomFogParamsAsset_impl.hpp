@@ -89,5 +89,3 @@ inline void GlobalNamespace::BloomFogParamsAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomFogParamsAsset::BloomFogParamsAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

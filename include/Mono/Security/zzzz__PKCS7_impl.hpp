@@ -875,5 +875,3 @@ inline uint8_t Mono::Security::__PKCS7__SignerInfo::get_Version() {
 constexpr ::Mono::Security::__PKCS7__SignerInfo::__PKCS7__SignerInfo() {}
 // Ctor Parameters []
 constexpr ::Mono::Security::PKCS7::PKCS7() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

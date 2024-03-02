@@ -10,5 +10,3 @@ constexpr ::UnityEngine::SkinQuality UnityEngine::SkinQuality::Auto{ static_cast
 constexpr ::UnityEngine::SkinQuality UnityEngine::SkinQuality::Bone1{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::SkinQuality UnityEngine::SkinQuality::Bone2{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::SkinQuality UnityEngine::SkinQuality::Bone4{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -211,5 +211,3 @@ inline void UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::_ctor()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::MeshImportSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

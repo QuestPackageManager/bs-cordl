@@ -633,5 +633,3 @@ inline void System::IO::BinaryWriter::Write7BitEncodedInt(int32_t value) {
 }
 // Ctor Parameters []
 constexpr ::System::IO::BinaryWriter::BinaryWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

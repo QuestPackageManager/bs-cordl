@@ -152,5 +152,3 @@ inline ::Newtonsoft::Json::Bson::BsonType Newtonsoft::Json::Bson::BsonRegex::get
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonRegex::BsonRegex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

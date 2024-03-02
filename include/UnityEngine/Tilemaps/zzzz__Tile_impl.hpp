@@ -371,5 +371,3 @@ inline void UnityEngine::Tilemaps::Tile::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Tilemaps::Tile::Tile() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -668,5 +668,3 @@ inline void UnityEngine::InputSystem::DualShock::DualShockGamepad::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::DualShock::DualShockGamepad::DualShockGamepad() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

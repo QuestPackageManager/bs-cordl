@@ -2626,5 +2626,3 @@ inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* Mono::Unity::UnityT
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTls::UnityTls() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

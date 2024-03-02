@@ -51,5 +51,3 @@ inline void System::ComponentModel::IContainer::Remove(::System::ComponentModel:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::IContainer*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, component);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

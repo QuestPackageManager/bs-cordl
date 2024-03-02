@@ -18,5 +18,3 @@ template <typename T> constexpr ::System::ByReference_1<T>::ByReference_1(void* 
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::ByReference_1<T>::ByReference_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

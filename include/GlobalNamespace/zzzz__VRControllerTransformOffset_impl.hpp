@@ -87,5 +87,3 @@ inline void GlobalNamespace::VRControllerTransformOffset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VRControllerTransformOffset::VRControllerTransformOffset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

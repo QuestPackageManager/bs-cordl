@@ -28,5 +28,3 @@ inline void Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::_ctor(::O
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator::Kdf2BytesGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

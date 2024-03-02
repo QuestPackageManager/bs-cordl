@@ -1073,5 +1073,3 @@ inline void GlobalNamespace::MainSystemInit::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainSystemInit::MainSystemInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

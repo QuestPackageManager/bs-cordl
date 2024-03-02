@@ -260,5 +260,3 @@ inline void GlobalNamespace::__MirroredObstacleController__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MirroredObstacleController__Pool::__MirroredObstacleController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

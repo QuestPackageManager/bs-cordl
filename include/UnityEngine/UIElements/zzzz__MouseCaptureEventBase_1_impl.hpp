@@ -17,5 +17,3 @@ template <typename T> inline void UnityEngine::UIElements::MouseCaptureEventBase
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::MouseCaptureEventBase_1<T>::MouseCaptureEventBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

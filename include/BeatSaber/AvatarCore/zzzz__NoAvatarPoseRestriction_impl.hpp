@@ -69,5 +69,3 @@ inline void BeatSaber::AvatarCore::NoAvatarPoseRestriction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::NoAvatarPoseRestriction::NoAvatarPoseRestriction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

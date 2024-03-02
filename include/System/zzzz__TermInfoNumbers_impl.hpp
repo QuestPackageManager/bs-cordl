@@ -40,5 +40,3 @@ constexpr ::System::TermInfoNumbers System::TermInfoNumbers::Buttons{ static_cas
 constexpr ::System::TermInfoNumbers System::TermInfoNumbers::BitImageEntwining{ static_cast<int32_t>(0x1f) };
 constexpr ::System::TermInfoNumbers System::TermInfoNumbers::BitImageType{ static_cast<int32_t>(0x20) };
 constexpr ::System::TermInfoNumbers System::TermInfoNumbers::Last{ static_cast<int32_t>(0x21) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

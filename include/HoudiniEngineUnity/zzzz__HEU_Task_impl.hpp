@@ -287,5 +287,3 @@ inline void HoudiniEngineUnity::HEU_Task::CompleteTask(::HoudiniEngineUnity::__H
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Task::HEU_Task() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

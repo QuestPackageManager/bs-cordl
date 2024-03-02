@@ -182,5 +182,3 @@ inline void Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::_ctor(:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters::ECGost3410Parameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

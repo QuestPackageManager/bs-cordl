@@ -174,5 +174,3 @@ inline ::System::Globalization::CodePageDataItem* System::Globalization::Encodin
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::EncodingTable::EncodingTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::AspDataFieldAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspDataFieldAttribute::AspDataFieldAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

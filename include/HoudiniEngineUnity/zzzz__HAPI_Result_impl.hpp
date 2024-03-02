@@ -27,5 +27,3 @@ constexpr ::HoudiniEngineUnity::HAPI_Result HoudiniEngineUnity::HAPI_Result::HAP
 constexpr ::HoudiniEngineUnity::HAPI_Result HoudiniEngineUnity::HAPI_Result::HAPI_RESULT_NODE_INVALID{ static_cast<int32_t>(0xd2) };
 constexpr ::HoudiniEngineUnity::HAPI_Result HoudiniEngineUnity::HAPI_Result::HAPI_RESULT_USER_INTERRUPTED{ static_cast<int32_t>(0x12c) };
 constexpr ::HoudiniEngineUnity::HAPI_Result HoudiniEngineUnity::HAPI_Result::HAPI_RESULT_INVALID_SESSION{ static_cast<int32_t>(0x190) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

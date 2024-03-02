@@ -49,5 +49,3 @@ inline void UnityEngine::Bindings::VisibleToOtherModulesAttribute::_ctor(::Array
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::VisibleToOtherModulesAttribute::VisibleToOtherModulesAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

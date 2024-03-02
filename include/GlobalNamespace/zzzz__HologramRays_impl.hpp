@@ -689,5 +689,3 @@ inline void GlobalNamespace::HologramRays::_Awake_b__22_0(float_t f) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HologramRays::HologramRays() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

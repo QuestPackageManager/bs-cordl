@@ -108,5 +108,3 @@ GlobalNamespace::IAdditionalContentModel::OpenLevelProductStoreAsync(::StringW l
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IAdditionalContentModel*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>*, false>(this, ___internal_method, levelId, token);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -21,5 +21,3 @@ inline ::ArrayW<::StringW, ::Array<::StringW>*> System::IO::DriveInfoInternal::G
 }
 // Ctor Parameters []
 constexpr ::System::IO::DriveInfoInternal::DriveInfoInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

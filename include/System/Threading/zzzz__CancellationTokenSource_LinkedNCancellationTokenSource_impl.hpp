@@ -15,5 +15,3 @@ inline ::System::Action_1<::System::Object*>* System::Threading::__CancellationT
 }
 // Ctor Parameters []
 constexpr ::System::Threading::__CancellationTokenSource__LinkedNCancellationTokenSource::__CancellationTokenSource__LinkedNCancellationTokenSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

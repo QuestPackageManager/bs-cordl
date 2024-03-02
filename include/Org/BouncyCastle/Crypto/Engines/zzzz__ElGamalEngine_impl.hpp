@@ -191,5 +191,3 @@ inline void Org::BouncyCastle::Crypto::Engines::ElGamalEngine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::ElGamalEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

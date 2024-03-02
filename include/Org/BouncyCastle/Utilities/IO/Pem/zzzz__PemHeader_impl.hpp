@@ -157,5 +157,3 @@ inline int32_t Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode(::S
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemHeader::PemHeader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

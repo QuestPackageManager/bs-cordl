@@ -250,5 +250,3 @@ inline void UnityEngine::Android::PermissionCallbacks::onPermissionDeniedAndDont
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Android::PermissionCallbacks::PermissionCallbacks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -141,5 +141,3 @@ inline bool LiteNetLib::BaseChannel::ProcessPacket(::LiteNetLib::NetPacket* pack
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::BaseChannel::BaseChannel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

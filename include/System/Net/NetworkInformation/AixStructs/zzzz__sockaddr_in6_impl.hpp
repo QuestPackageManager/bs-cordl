@@ -16,5 +16,3 @@ constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr_in6::sockaddr_
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr_in6::sockaddr_in6() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

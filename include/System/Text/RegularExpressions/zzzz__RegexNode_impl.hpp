@@ -540,5 +540,3 @@ inline int32_t System::Text::RegularExpressions::RegexNode::Type() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexNode::RegexNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -545,5 +545,3 @@ inline void Org::BouncyCastle::Math::EC::Custom::Sec::SecT571Field::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT571Field::SecT571Field() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

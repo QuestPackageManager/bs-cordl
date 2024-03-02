@@ -8,5 +8,3 @@ constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode::Rijnda
 constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode::RijndaelManagedTransformMode() {}
 constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode System::Security::Cryptography::RijndaelManagedTransformMode::Encrypt{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode System::Security::Cryptography::RijndaelManagedTransformMode::Decrypt{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

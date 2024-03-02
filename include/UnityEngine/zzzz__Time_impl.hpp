@@ -315,5 +315,3 @@ inline void UnityEngine::Time::set_captureFramerate(int32_t value) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Time::Time() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::StoragePreference::StoragePreference(int32_t value_
 constexpr ::GlobalNamespace::StoragePreference::StoragePreference() {}
 constexpr ::GlobalNamespace::StoragePreference GlobalNamespace::StoragePreference::Cloud{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::StoragePreference GlobalNamespace::StoragePreference::Local{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

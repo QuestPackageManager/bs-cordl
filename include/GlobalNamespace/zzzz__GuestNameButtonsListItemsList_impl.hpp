@@ -26,5 +26,3 @@ inline void GlobalNamespace::GuestNameButtonsListItemsList::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GuestNameButtonsListItemsList::GuestNameButtonsListItemsList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

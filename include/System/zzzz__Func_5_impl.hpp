@@ -19,5 +19,3 @@ template <typename T1, typename T2, typename T3, typename T4, typename TResult> 
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3, typename T4, typename TResult> constexpr ::System::Func_5<T1, T2, T3, T4, TResult>::Func_5() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

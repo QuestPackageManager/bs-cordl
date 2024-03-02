@@ -112,5 +112,3 @@ inline ::System::ComponentModel::__EventHandlerList__ListEntry* System::Componen
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::EventHandlerList::EventHandlerList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

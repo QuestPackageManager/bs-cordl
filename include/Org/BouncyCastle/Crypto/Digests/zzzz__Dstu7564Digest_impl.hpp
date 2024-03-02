@@ -607,5 +607,3 @@ inline void Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::Reset(::Org::Bou
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest::Dstu7564Digest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

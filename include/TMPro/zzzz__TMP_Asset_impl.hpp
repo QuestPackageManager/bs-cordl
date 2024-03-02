@@ -91,5 +91,3 @@ inline void TMPro::TMP_Asset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Asset::TMP_Asset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

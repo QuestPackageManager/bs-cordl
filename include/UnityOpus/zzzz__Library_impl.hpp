@@ -323,5 +323,3 @@ inline void UnityOpus::Library::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityOpus::Library::Library() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -276,5 +276,3 @@ inline void GlobalNamespace::NoteDebrisSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteDebrisSpawner::NoteDebrisSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -293,5 +293,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Authenticode::Authen
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Authenticode::AuthenticodeBase::AuthenticodeBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

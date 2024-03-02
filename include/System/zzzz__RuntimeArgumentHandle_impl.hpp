@@ -7,5 +7,3 @@ constexpr ::System::RuntimeArgumentHandle::RuntimeArgumentHandle(void* args) noe
 }
 // Ctor Parameters []
 constexpr ::System::RuntimeArgumentHandle::RuntimeArgumentHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

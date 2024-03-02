@@ -39,5 +39,3 @@ inline void Oculus::Platform::Models::MicrophoneAvailabilityState::_ctor(void* o
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::MicrophoneAvailabilityState::MicrophoneAvailabilityState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

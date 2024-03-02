@@ -57,5 +57,3 @@ System::Net::Security::LocalCertSelectionCallback::Invoke(::StringW targetHost, 
 }
 // Ctor Parameters []
 constexpr ::System::Net::Security::LocalCertSelectionCallback::LocalCertSelectionCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

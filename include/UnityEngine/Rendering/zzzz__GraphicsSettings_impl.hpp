@@ -185,5 +185,3 @@ inline void UnityEngine::Rendering::GraphicsSettings::set_defaultRenderPipeline(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::GraphicsSettings::GraphicsSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

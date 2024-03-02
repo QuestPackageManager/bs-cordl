@@ -65,5 +65,3 @@ inline void UnityEngine::AssetReferenceUIRestriction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AssetReferenceUIRestriction::AssetReferenceUIRestriction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

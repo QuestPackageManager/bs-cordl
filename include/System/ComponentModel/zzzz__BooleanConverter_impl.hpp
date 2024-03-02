@@ -140,5 +140,3 @@ inline void System::ComponentModel::BooleanConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::BooleanConverter::BooleanConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

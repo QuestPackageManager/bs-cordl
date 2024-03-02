@@ -16,5 +16,3 @@ constexpr ::UnityEngine::InputSystem::XR::XRFeatureDescriptor::XRFeatureDescript
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::XRFeatureDescriptor::XRFeatureDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

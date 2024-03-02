@@ -118,5 +118,3 @@ inline void HoudiniEngineUnity::HEU_GeoGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_GeoGroup::HEU_GeoGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

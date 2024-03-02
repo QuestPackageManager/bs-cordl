@@ -468,5 +468,3 @@ template <typename TObject> inline void UnityEngine::ResourceManagement::AsyncOp
 }
 // Ctor Parameters []
 template <typename TObject> constexpr ::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::ProviderOperation_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -42,5 +42,3 @@ inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSession
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*, false>(
       this, ___internal_method, authenticationTokenProvider, userId, beatmapLevelSelectionMask, gameplayServerConfiguration, secret, code, cancellationToken);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

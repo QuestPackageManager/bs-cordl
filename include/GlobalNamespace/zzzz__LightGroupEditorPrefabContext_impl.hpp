@@ -40,5 +40,3 @@ inline void GlobalNamespace::LightGroupEditorPrefabContext::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroupEditorPrefabContext::LightGroupEditorPrefabContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

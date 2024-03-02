@@ -25,5 +25,3 @@ inline void UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute::IgnoreOnPlayableTrackAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

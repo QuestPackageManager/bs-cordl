@@ -1020,5 +1020,3 @@ inline ::StringW System::Net::Cookie::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Cookie::Cookie() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

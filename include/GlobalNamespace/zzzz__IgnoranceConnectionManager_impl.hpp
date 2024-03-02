@@ -2347,5 +2347,3 @@ inline ::System::Threading::Tasks::Task* GlobalNamespace::IgnoranceConnectionMan
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IgnoranceConnectionManager::IgnoranceConnectionManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

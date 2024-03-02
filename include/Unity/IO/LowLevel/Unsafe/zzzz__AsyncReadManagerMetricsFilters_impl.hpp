@@ -79,5 +79,3 @@ constexpr void Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters::__co
 }
 // Ctor Parameters []
 constexpr ::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters::AsyncReadManagerMetricsFilters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

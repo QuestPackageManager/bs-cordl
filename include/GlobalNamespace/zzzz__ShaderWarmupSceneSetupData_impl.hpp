@@ -83,5 +83,3 @@ inline void GlobalNamespace::ShaderWarmupSceneSetupData::_ctor(::GlobalNamespace
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ShaderWarmupSceneSetupData::ShaderWarmupSceneSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

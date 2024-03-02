@@ -2145,5 +2145,3 @@ inline void UnityEngine::InputSystem::InputSystem::PerformDefaultPluginInitializ
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputSystem::InputSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

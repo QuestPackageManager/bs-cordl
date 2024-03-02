@@ -8,5 +8,3 @@ constexpr ::OVRSimpleJSON::JSONContainerType::JSONContainerType(int32_t value__)
 constexpr ::OVRSimpleJSON::JSONContainerType::JSONContainerType() {}
 constexpr ::OVRSimpleJSON::JSONContainerType OVRSimpleJSON::JSONContainerType::Array{ static_cast<int32_t>(0x0) };
 constexpr ::OVRSimpleJSON::JSONContainerType OVRSimpleJSON::JSONContainerType::Object{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

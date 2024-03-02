@@ -106,5 +106,3 @@ inline ::UnityW<::UnityEngine::GameObject> UnityEngine::CameraRaycastHelper::Ray
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CameraRaycastHelper::CameraRaycastHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

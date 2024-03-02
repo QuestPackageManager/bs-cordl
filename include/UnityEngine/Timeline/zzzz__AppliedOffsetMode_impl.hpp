@@ -13,5 +13,3 @@ constexpr ::UnityEngine::Timeline::AppliedOffsetMode UnityEngine::Timeline::Appl
 constexpr ::UnityEngine::Timeline::AppliedOffsetMode UnityEngine::Timeline::AppliedOffsetMode::SceneOffsetLegacy{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Timeline::AppliedOffsetMode UnityEngine::Timeline::AppliedOffsetMode::SceneOffsetEditor{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::Timeline::AppliedOffsetMode UnityEngine::Timeline::AppliedOffsetMode::SceneOffsetLegacyEditor{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::UnityEngine::AudioRolloffMode::AudioRolloffMode() {}
 constexpr ::UnityEngine::AudioRolloffMode UnityEngine::AudioRolloffMode::Logarithmic{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::AudioRolloffMode UnityEngine::AudioRolloffMode::Linear{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::AudioRolloffMode UnityEngine::AudioRolloffMode::Custom{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

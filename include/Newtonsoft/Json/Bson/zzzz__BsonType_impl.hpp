@@ -26,5 +26,3 @@ constexpr ::Newtonsoft::Json::Bson::BsonType Newtonsoft::Json::Bson::BsonType::T
 constexpr ::Newtonsoft::Json::Bson::BsonType Newtonsoft::Json::Bson::BsonType::Long{ static_cast<int8_t>(0x12) };
 constexpr ::Newtonsoft::Json::Bson::BsonType Newtonsoft::Json::Bson::BsonType::MinKey{ static_cast<int8_t>(0xff) };
 constexpr ::Newtonsoft::Json::Bson::BsonType Newtonsoft::Json::Bson::BsonType::MaxKey{ static_cast<int8_t>(0x7f) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

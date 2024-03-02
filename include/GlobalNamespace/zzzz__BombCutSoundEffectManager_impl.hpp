@@ -186,5 +186,3 @@ inline void GlobalNamespace::BombCutSoundEffectManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BombCutSoundEffectManager::BombCutSoundEffectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

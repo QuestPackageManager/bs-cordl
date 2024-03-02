@@ -10,5 +10,3 @@ constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableParameter Org::BouncyCastle
 constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableParameter Org::BouncyCastle::Cms::CmsAttributeTableParameter::Digest{ static_cast<int32_t>(0x1) };
 constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableParameter Org::BouncyCastle::Cms::CmsAttributeTableParameter::Signature{ static_cast<int32_t>(0x2) };
 constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableParameter Org::BouncyCastle::Cms::CmsAttributeTableParameter::DigestAlgorithmIdentifier{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

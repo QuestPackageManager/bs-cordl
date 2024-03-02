@@ -68,5 +68,3 @@ inline ::Oculus::Platform::Models::UserProof* Oculus::Platform::MessageWithUserP
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithUserProof::MessageWithUserProof() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

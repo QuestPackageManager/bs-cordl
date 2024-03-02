@@ -31,5 +31,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::DirectionalLight::Dir
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::GlobalIllumination::DirectionalLight::DirectionalLight() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

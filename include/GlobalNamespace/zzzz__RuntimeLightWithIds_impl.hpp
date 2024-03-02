@@ -274,5 +274,3 @@ inline void GlobalNamespace::RuntimeLightWithIds::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RuntimeLightWithIds::RuntimeLightWithIds() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

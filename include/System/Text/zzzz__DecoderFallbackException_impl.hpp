@@ -105,5 +105,3 @@ inline void System::Text::DecoderFallbackException::_ctor(::System::Runtime::Ser
 }
 // Ctor Parameters []
 constexpr ::System::Text::DecoderFallbackException::DecoderFallbackException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -187,5 +187,3 @@ inline void Mono::Security::Interface::MonoTlsConnectionInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::MonoTlsConnectionInfo::MonoTlsConnectionInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

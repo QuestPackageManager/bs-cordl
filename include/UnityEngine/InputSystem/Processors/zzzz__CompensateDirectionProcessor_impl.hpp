@@ -74,5 +74,3 @@ inline void UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::CompensateDirectionProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

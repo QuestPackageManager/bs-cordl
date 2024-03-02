@@ -81,5 +81,3 @@ constexpr ::IntervalTree::RangeValuePair_2<TKey, TValue>::RangeValuePair_2(TKey 
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::IntervalTree::RangeValuePair_2<TKey, TValue>::RangeValuePair_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

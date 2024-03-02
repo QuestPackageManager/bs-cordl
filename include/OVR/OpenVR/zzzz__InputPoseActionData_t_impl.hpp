@@ -11,5 +11,3 @@ constexpr ::OVR::OpenVR::InputPoseActionData_t::InputPoseActionData_t(bool bActi
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::InputPoseActionData_t::InputPoseActionData_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

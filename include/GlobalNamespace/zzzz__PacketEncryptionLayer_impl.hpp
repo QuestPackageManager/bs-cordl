@@ -1701,5 +1701,3 @@ inline void GlobalNamespace::PacketEncryptionLayer::LogV(::StringW message) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PacketEncryptionLayer::PacketEncryptionLayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

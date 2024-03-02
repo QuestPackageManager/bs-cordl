@@ -622,5 +622,3 @@ inline void Zenject::SubContainerBindingFinalizer::FinalizeBindingSelf(::Zenject
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerBindingFinalizer::SubContainerBindingFinalizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

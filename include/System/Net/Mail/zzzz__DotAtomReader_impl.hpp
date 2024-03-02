@@ -23,5 +23,3 @@ inline int32_t System::Net::Mail::DotAtomReader::ReadReverse(::StringW data, int
 }
 // Ctor Parameters []
 constexpr ::System::Net::Mail::DotAtomReader::DotAtomReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

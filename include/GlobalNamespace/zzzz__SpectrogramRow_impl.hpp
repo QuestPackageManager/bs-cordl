@@ -113,5 +113,3 @@ inline void GlobalNamespace::SpectrogramRow::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SpectrogramRow::SpectrogramRow() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -122,5 +122,3 @@ inline ::System::Net::Authorization* System::Net::AuthenticationManager::PreAuth
 }
 // Ctor Parameters []
 constexpr ::System::Net::AuthenticationManager::AuthenticationManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

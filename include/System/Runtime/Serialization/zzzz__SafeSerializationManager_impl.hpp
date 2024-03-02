@@ -284,5 +284,3 @@ inline void System::Runtime::Serialization::SafeSerializationManager::OnDeserial
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SafeSerializationManager::SafeSerializationManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

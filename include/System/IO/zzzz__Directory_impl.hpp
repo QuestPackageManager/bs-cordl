@@ -392,5 +392,3 @@ inline ::StringW System::IO::Directory::InsecureGetCurrentDirectory() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::Directory::Directory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -54,5 +54,3 @@ template <typename T1, typename T2, typename T3> constexpr ::UnityEngine::ProBui
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3> constexpr ::UnityEngine::ProBuilder::SimpleTuple_3<T1, T2, T3>::SimpleTuple_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

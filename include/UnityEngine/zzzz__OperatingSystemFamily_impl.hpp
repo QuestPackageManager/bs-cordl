@@ -10,5 +10,3 @@ constexpr ::UnityEngine::OperatingSystemFamily UnityEngine::OperatingSystemFamil
 constexpr ::UnityEngine::OperatingSystemFamily UnityEngine::OperatingSystemFamily::MacOSX{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::OperatingSystemFamily UnityEngine::OperatingSystemFamily::Windows{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::OperatingSystemFamily UnityEngine::OperatingSystemFamily::Linux{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

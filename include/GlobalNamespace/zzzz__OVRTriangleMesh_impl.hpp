@@ -561,5 +561,3 @@ constexpr ::GlobalNamespace::OVRTriangleMesh::OVRTriangleMesh(uint64_t _Handle_k
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTriangleMesh::OVRTriangleMesh() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

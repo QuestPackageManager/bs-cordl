@@ -96,5 +96,3 @@ inline void GlobalNamespace::PS5ActivityIdsModelSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS5ActivityIdsModelSO::PS5ActivityIdsModelSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

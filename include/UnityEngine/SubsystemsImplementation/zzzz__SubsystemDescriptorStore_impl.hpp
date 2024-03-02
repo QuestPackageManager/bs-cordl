@@ -158,5 +158,3 @@ inline void UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::Reg
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::SubsystemDescriptorStore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

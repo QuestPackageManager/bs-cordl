@@ -85,5 +85,3 @@ inline ::UnityEngine::UIElements::ClickEvent* UnityEngine::UIElements::ClickEven
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ClickEvent::ClickEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

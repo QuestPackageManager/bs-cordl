@@ -471,5 +471,3 @@ inline void System::Security::Cryptography::RSACryptoServiceProvider::OnKeyGener
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RSACryptoServiceProvider::RSACryptoServiceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

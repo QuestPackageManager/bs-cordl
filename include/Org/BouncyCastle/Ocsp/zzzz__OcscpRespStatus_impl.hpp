@@ -24,5 +24,3 @@ inline void Org::BouncyCastle::Ocsp::OcscpRespStatus::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::OcscpRespStatus::OcscpRespStatus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

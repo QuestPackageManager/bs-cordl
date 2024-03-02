@@ -115,5 +115,3 @@ inline void Org::BouncyCastle::Cms::RecipientID::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::RecipientID::RecipientID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

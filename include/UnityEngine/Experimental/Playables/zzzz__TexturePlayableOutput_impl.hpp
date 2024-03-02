@@ -38,5 +38,3 @@ constexpr ::UnityEngine::Experimental::Playables::TexturePlayableOutput::Texture
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::Playables::TexturePlayableOutput::TexturePlayableOutput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

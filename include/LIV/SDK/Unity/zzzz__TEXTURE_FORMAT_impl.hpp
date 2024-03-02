@@ -8,5 +8,3 @@ constexpr ::LIV::SDK::Unity::TEXTURE_FORMAT::TEXTURE_FORMAT(uint32_t value__) no
 constexpr ::LIV::SDK::Unity::TEXTURE_FORMAT::TEXTURE_FORMAT() {}
 constexpr ::LIV::SDK::Unity::TEXTURE_FORMAT LIV::SDK::Unity::TEXTURE_FORMAT::UNDEFINED{ static_cast<uint32_t>(0x1000a00u) };
 constexpr ::LIV::SDK::Unity::TEXTURE_FORMAT LIV::SDK::Unity::TEXTURE_FORMAT::ARGB32{ static_cast<uint32_t>(0x201000au) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

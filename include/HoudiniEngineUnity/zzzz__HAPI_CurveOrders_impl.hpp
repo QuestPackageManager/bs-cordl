@@ -11,5 +11,3 @@ constexpr ::HoudiniEngineUnity::HAPI_CurveOrders HoudiniEngineUnity::HAPI_CurveO
 constexpr ::HoudiniEngineUnity::HAPI_CurveOrders HoudiniEngineUnity::HAPI_CurveOrders::HAPI_CURVE_ORDER_LINEAR{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HAPI_CurveOrders HoudiniEngineUnity::HAPI_CurveOrders::HAPI_CURVE_ORDER_QUADRATIC{ static_cast<int32_t>(0x3) };
 constexpr ::HoudiniEngineUnity::HAPI_CurveOrders HoudiniEngineUnity::HAPI_CurveOrders::HAPI_CURVE_ORDER_CUBIC{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -343,5 +343,3 @@ inline void LiteNetLib::NetStatistics::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetStatistics::NetStatistics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

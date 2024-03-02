@@ -115,5 +115,3 @@ inline void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::MultiplayerLocalPlayerDisconnectHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -116,5 +116,3 @@ template <typename T> inline ::GlobalNamespace::DelegateList_1<T>* GlobalNamespa
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::DelegateList_1<T>::DelegateList_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

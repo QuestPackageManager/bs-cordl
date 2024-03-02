@@ -183,5 +183,3 @@ inline void GlobalNamespace::FlexyFollow::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FlexyFollow::FlexyFollow() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

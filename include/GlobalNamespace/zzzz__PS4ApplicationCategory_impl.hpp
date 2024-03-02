@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::PS4ApplicationCategory::PS4ApplicationCategory() {}
 constexpr ::GlobalNamespace::PS4ApplicationCategory GlobalNamespace::PS4ApplicationCategory::Application{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::PS4ApplicationCategory GlobalNamespace::PS4ApplicationCategory::Patch{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::PS4ApplicationCategory GlobalNamespace::PS4ApplicationCategory::Remaster{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

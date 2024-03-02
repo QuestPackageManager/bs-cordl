@@ -70,5 +70,3 @@ constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<T>::TextProcessin
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<T>::TextProcessingStack_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -130,5 +130,3 @@ template <typename T> inline void System::Collections::Generic::ArraySortHelper_
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::ArraySortHelper_1<T>::ArraySortHelper_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

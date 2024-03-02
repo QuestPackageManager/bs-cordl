@@ -982,5 +982,3 @@ GlobalNamespace::BeatmapData::InsertToAllBeatmapData(::GlobalNamespace::BeatmapD
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapData::BeatmapData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

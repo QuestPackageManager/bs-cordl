@@ -261,5 +261,3 @@ inline void HoudiniEngineUnity::HEU_AssetTask::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetTask::HEU_AssetTask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

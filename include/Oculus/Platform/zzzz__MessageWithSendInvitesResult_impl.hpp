@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::SendInvitesResult* Oculus::Platform::MessageW
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithSendInvitesResult::MessageWithSendInvitesResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

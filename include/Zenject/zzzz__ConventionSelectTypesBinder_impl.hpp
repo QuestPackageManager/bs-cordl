@@ -346,5 +346,3 @@ inline ::Zenject::ConventionFilterTypesBinder* Zenject::ConventionSelectTypesBin
 }
 // Ctor Parameters []
 constexpr ::Zenject::ConventionSelectTypesBinder::ConventionSelectTypesBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

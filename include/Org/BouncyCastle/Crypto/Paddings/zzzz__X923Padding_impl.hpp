@@ -131,5 +131,3 @@ inline void Org::BouncyCastle::Crypto::Paddings::X923Padding::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Paddings::X923Padding::X923Padding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

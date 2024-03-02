@@ -610,5 +610,3 @@ inline void System::Collections::CollectionBase::OnRemoveComplete(int32_t index,
 }
 // Ctor Parameters []
 constexpr ::System::Collections::CollectionBase::CollectionBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

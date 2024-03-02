@@ -433,5 +433,3 @@ inline void UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser::_ct
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser::StyleSyntaxParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

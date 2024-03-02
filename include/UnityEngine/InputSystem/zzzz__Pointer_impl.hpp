@@ -515,5 +515,3 @@ inline void UnityEngine::InputSystem::Pointer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Pointer::Pointer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

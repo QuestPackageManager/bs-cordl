@@ -8,5 +8,3 @@ constexpr ::System::Globalization::TimeSpanStyles::TimeSpanStyles(int32_t value_
 constexpr ::System::Globalization::TimeSpanStyles::TimeSpanStyles() {}
 constexpr ::System::Globalization::TimeSpanStyles System::Globalization::TimeSpanStyles::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Globalization::TimeSpanStyles System::Globalization::TimeSpanStyles::AssumeNegative{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -427,5 +427,3 @@ inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* Zenject::
 }
 // Ctor Parameters []
 constexpr ::Zenject::ConventionBindInfo::ConventionBindInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::UnityEngine::DetailRenderMode::DetailRenderMode() {}
 constexpr ::UnityEngine::DetailRenderMode UnityEngine::DetailRenderMode::GrassBillboard{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::DetailRenderMode UnityEngine::DetailRenderMode::VertexLit{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::DetailRenderMode UnityEngine::DetailRenderMode::Grass{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

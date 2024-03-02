@@ -255,5 +255,3 @@ inline void GlobalNamespace::PrivacyPolicyViewController::_DidActivate_b__11_1()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PrivacyPolicyViewController::PrivacyPolicyViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

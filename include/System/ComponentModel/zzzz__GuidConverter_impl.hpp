@@ -112,5 +112,3 @@ inline void System::ComponentModel::GuidConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::GuidConverter::GuidConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

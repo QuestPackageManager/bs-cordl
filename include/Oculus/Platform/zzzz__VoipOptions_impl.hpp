@@ -120,5 +120,3 @@ inline void Oculus::Platform::VoipOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::VoipOptions::VoipOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

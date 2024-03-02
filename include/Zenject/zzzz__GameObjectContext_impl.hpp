@@ -425,5 +425,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::GameObjectContext::__zenCreateInjectT
 }
 // Ctor Parameters []
 constexpr ::Zenject::GameObjectContext::GameObjectContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

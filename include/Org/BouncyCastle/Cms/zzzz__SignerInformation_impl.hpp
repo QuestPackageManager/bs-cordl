@@ -802,5 +802,3 @@ inline ::Org::BouncyCastle::Cms::SignerInformation* Org::BouncyCastle::Cms::Sign
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::SignerInformation::SignerInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -137,5 +137,3 @@ constexpr ::TMPro::HighlightState::HighlightState(::UnityEngine::Color32 color, 
 }
 // Ctor Parameters []
 constexpr ::TMPro::HighlightState::HighlightState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -853,5 +853,3 @@ template <typename T> inline int32_t System::Collections::Generic::SortedSet_1<T
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::SortedSet_1<T>::SortedSet_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

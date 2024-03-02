@@ -191,5 +191,3 @@ inline bool System::Xml::CharEntityEncoderFallback::CanReplaceAt(int32_t index) 
 }
 // Ctor Parameters []
 constexpr ::System::Xml::CharEntityEncoderFallback::CharEntityEncoderFallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -170,5 +170,3 @@ HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject(::System::Collect
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_TerrainLayer_Extensions::Test_TerrainLayer_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

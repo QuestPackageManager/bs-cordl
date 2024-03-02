@@ -158,5 +158,3 @@ inline void Oculus::Platform::UserOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::UserOptions::UserOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

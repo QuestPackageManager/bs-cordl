@@ -6068,5 +6068,3 @@ inline void UnityEngine::ParticleSystem::ScheduleManagedJob_Injected(ByRef<::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ParticleSystem::ParticleSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

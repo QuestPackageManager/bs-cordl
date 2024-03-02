@@ -73,5 +73,3 @@ inline void GlobalNamespace::MultiplayerModeSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerModeSettings::MultiplayerModeSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

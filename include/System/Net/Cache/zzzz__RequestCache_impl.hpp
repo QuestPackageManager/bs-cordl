@@ -10,5 +10,3 @@ inline ::ArrayW<char16_t, ::Array<char16_t>*> System::Net::Cache::RequestCache::
 }
 // Ctor Parameters []
 constexpr ::System::Net::Cache::RequestCache::RequestCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

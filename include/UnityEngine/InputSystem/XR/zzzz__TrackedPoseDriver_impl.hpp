@@ -894,5 +894,3 @@ inline void UnityEngine::InputSystem::XR::TrackedPoseDriver::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::TrackedPoseDriver::TrackedPoseDriver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

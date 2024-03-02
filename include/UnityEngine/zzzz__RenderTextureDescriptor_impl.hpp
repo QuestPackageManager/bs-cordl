@@ -794,5 +794,3 @@ constexpr ::UnityEngine::RenderTextureDescriptor::RenderTextureDescriptor(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RenderTextureDescriptor::RenderTextureDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

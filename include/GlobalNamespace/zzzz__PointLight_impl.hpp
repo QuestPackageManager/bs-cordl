@@ -114,5 +114,3 @@ inline void GlobalNamespace::PointLight::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PointLight::PointLight() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

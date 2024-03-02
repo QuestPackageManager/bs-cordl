@@ -642,5 +642,3 @@ inline void VRUIControls::VRPointer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::VRUIControls::VRPointer::VRPointer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

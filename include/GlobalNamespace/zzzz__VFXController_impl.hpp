@@ -375,5 +375,3 @@ inline void GlobalNamespace::VFXController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VFXController::VFXController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

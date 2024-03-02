@@ -172,5 +172,3 @@ inline void UnityEngine::Tilemaps::ITilemap::GetAllTileData(::UnityEngine::Tilem
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Tilemaps::ITilemap::ITilemap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

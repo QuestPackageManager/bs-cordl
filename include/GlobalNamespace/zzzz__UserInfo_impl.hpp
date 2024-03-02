@@ -78,5 +78,3 @@ inline void GlobalNamespace::UserInfo::_ctor(::GlobalNamespace::__UserInfo__Plat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UserInfo::UserInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

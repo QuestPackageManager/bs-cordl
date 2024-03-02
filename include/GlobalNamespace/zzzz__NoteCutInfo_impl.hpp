@@ -161,5 +161,3 @@ constexpr ::GlobalNamespace::NoteCutInfo::NoteCutInfo(::GlobalNamespace::NoteDat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutInfo::NoteCutInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

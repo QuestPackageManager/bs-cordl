@@ -27,5 +27,3 @@ inline float_t GlobalNamespace::Vector2Extensions::SignedAngleToLine(::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Vector2Extensions::Vector2Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

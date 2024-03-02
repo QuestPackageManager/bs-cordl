@@ -760,5 +760,3 @@ inline void System::Xml::Linq::XContainer::WriteContentTo(::System::Xml::XmlWrit
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XContainer::XContainer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

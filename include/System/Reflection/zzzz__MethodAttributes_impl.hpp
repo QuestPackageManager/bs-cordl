@@ -30,5 +30,3 @@ constexpr ::System::Reflection::MethodAttributes System::Reflection::MethodAttri
 constexpr ::System::Reflection::MethodAttributes System::Reflection::MethodAttributes::HasSecurity{ static_cast<int32_t>(0x4000) };
 constexpr ::System::Reflection::MethodAttributes System::Reflection::MethodAttributes::RequireSecObject{ static_cast<int32_t>(0x8000) };
 constexpr ::System::Reflection::MethodAttributes System::Reflection::MethodAttributes::ReservedMask{ static_cast<int32_t>(0xd000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

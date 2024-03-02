@@ -58,5 +58,3 @@ inline ::Zenject::ConcreteBinderNonGeneric* Zenject::ConcreteIdBinderNonGeneric:
 }
 // Ctor Parameters []
 constexpr ::Zenject::ConcreteIdBinderNonGeneric::ConcreteIdBinderNonGeneric() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

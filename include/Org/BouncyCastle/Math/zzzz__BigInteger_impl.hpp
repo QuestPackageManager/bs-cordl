@@ -2602,5 +2602,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Math::BigIntege
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::BigInteger::BigInteger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

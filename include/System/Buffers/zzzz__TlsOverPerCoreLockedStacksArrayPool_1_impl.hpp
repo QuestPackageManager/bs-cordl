@@ -278,5 +278,3 @@ template <typename T> inline bool System::Buffers::TlsOverPerCoreLockedStacksArr
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::TlsOverPerCoreLockedStacksArrayPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

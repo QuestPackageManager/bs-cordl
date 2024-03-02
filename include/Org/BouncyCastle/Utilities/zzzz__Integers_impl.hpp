@@ -144,5 +144,3 @@ inline void Org::BouncyCastle::Utilities::Integers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Integers::Integers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

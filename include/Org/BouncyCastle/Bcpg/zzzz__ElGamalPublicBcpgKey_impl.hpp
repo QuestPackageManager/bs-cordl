@@ -223,5 +223,3 @@ inline void Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey::Encode(::Org::BouncyC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey::ElGamalPublicBcpgKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

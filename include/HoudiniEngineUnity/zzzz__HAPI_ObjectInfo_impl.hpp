@@ -20,5 +20,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo::HAPI_ObjectInfo(int32_t nameSH,
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo::HAPI_ObjectInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

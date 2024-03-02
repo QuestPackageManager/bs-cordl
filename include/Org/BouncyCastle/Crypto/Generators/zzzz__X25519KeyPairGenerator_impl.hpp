@@ -96,5 +96,3 @@ inline void Org::BouncyCastle::Crypto::Generators::X25519KeyPairGenerator::_ctor
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::X25519KeyPairGenerator::X25519KeyPairGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

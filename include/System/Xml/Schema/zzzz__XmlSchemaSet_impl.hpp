@@ -212,5 +212,3 @@ inline void System::Xml::Schema::XmlSchemaSet::InternalValidationCallback(::Syst
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaSet::XmlSchemaSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

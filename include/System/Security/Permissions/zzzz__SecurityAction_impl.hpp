@@ -15,5 +15,3 @@ constexpr ::System::Security::Permissions::SecurityAction System::Security::Perm
 constexpr ::System::Security::Permissions::SecurityAction System::Security::Permissions::SecurityAction::RequestMinimum{ static_cast<int32_t>(0x8) };
 constexpr ::System::Security::Permissions::SecurityAction System::Security::Permissions::SecurityAction::RequestOptional{ static_cast<int32_t>(0x9) };
 constexpr ::System::Security::Permissions::SecurityAction System::Security::Permissions::SecurityAction::RequestRefuse{ static_cast<int32_t>(0xa) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -31,5 +31,3 @@ inline bool System::Net::HttpValidationHelpers::IsInvalidMethodOrHeaderString(::
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpValidationHelpers::HttpValidationHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

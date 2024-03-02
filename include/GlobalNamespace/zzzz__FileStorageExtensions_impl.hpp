@@ -584,5 +584,3 @@ inline ::System::Threading::Tasks::Task_1<T>* GlobalNamespace::FileStorageExtens
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileStorageExtensions::FileStorageExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

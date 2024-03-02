@@ -76,5 +76,3 @@ inline void System::EntryPointNotFoundException::_ctor(::System::Runtime::Serial
 }
 // Ctor Parameters []
 constexpr ::System::EntryPointNotFoundException::EntryPointNotFoundException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

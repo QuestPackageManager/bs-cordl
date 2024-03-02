@@ -85,5 +85,3 @@ inline void GlobalNamespace::OVRChromaticAberration::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRChromaticAberration::OVRChromaticAberration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

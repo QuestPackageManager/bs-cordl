@@ -125,5 +125,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::MemberReference:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberReference::MemberReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -440,5 +440,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Cryptography::ARC4Ma
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Cryptography::ARC4Managed::ARC4Managed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

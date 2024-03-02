@@ -608,5 +608,3 @@ inline void Org::BouncyCastle::Bcpg::SignaturePacket::setCreationTime() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::SignaturePacket::SignaturePacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -103,5 +103,3 @@ inline void System::Security::Cryptography::KeyedHashAlgorithm::set_Key(::ArrayW
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::KeyedHashAlgorithm::KeyedHashAlgorithm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

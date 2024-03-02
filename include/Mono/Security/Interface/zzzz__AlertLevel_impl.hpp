@@ -8,5 +8,3 @@ constexpr ::Mono::Security::Interface::AlertLevel::AlertLevel(uint8_t value__) n
 constexpr ::Mono::Security::Interface::AlertLevel::AlertLevel() {}
 constexpr ::Mono::Security::Interface::AlertLevel Mono::Security::Interface::AlertLevel::Warning{ static_cast<uint8_t>(0x1u) };
 constexpr ::Mono::Security::Interface::AlertLevel Mono::Security::Interface::AlertLevel::Fatal{ static_cast<uint8_t>(0x2u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

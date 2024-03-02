@@ -176,5 +176,3 @@ inline ::System::Threading::Tasks::Task_1<int32_t>* System::Net::FixedSizeReadSt
 }
 // Ctor Parameters []
 constexpr ::System::Net::FixedSizeReadStream::FixedSizeReadStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

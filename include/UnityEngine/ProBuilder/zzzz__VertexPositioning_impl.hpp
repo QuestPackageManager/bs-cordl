@@ -250,5 +250,3 @@ inline void UnityEngine::ProBuilder::VertexPositioning::SetSharedVertexValues(::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::VertexPositioning::VertexPositioning() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

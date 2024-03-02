@@ -12,5 +12,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator U
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator::AndAnd{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator::Juxtaposition{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator::Group{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

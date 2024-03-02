@@ -49,5 +49,3 @@ inline void System::Runtime::ConstrainedExecution::CriticalFinalizerObject::Fina
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::CriticalFinalizerObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

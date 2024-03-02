@@ -99,5 +99,3 @@ inline void Mono::Net::Security::BufferOffsetSize2::AppendData(::ArrayW<uint8_t,
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::BufferOffsetSize2::BufferOffsetSize2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

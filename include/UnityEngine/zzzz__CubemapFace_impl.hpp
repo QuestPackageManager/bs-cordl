@@ -13,5 +13,3 @@ constexpr ::UnityEngine::CubemapFace UnityEngine::CubemapFace::PositiveY{ static
 constexpr ::UnityEngine::CubemapFace UnityEngine::CubemapFace::NegativeY{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::CubemapFace UnityEngine::CubemapFace::PositiveZ{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::CubemapFace UnityEngine::CubemapFace::NegativeZ{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

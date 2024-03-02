@@ -191,5 +191,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::CertificateUrl* Org::BouncyCastle::Cryp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::CertificateUrl::CertificateUrl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

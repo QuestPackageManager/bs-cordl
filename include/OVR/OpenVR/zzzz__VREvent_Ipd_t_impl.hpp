@@ -6,5 +6,3 @@ constexpr ::OVR::OpenVR::VREvent_Ipd_t::VREvent_Ipd_t(float_t ipdMeters) noexcep
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Ipd_t::VREvent_Ipd_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

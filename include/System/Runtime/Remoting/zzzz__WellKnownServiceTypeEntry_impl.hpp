@@ -150,5 +150,3 @@ inline ::StringW System::Runtime::Remoting::WellKnownServiceTypeEntry::ToString(
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::WellKnownServiceTypeEntry::WellKnownServiceTypeEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

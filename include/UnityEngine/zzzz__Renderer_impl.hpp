@@ -996,5 +996,3 @@ inline void UnityEngine::Renderer::GetLightmapST_Injected(::UnityEngineInternal:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Renderer::Renderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

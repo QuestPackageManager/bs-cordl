@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::VREvent_Mouse_t::VREvent_Mouse_t(float_t x, float_t y, 
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Mouse_t::VREvent_Mouse_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

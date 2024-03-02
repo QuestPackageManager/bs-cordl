@@ -350,5 +350,3 @@ inline ::UnityEngine::Vector2 UnityEngine::EventSystems::OVRPhysicsRaycaster::Ge
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::OVRPhysicsRaycaster::OVRPhysicsRaycaster() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

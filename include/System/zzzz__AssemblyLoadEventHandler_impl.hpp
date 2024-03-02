@@ -48,5 +48,3 @@ inline void System::AssemblyLoadEventHandler::Invoke(::System::Object* sender, :
 }
 // Ctor Parameters []
 constexpr ::System::AssemblyLoadEventHandler::AssemblyLoadEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

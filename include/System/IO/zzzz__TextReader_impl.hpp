@@ -438,5 +438,3 @@ inline ::System::IO::TextReader* System::IO::TextReader::Synchronized(::System::
 }
 // Ctor Parameters []
 constexpr ::System::IO::TextReader::TextReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

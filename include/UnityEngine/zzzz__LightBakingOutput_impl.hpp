@@ -17,5 +17,3 @@ constexpr ::UnityEngine::LightBakingOutput::LightBakingOutput(int32_t probeOcclu
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LightBakingOutput::LightBakingOutput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

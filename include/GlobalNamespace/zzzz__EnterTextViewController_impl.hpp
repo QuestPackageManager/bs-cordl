@@ -178,5 +178,3 @@ inline void GlobalNamespace::EnterTextViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnterTextViewController::EnterTextViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

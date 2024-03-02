@@ -11,5 +11,3 @@ constexpr ::System::DTSubStringType System::DTSubStringType::Invalid{ static_cas
 constexpr ::System::DTSubStringType System::DTSubStringType::Number{ static_cast<int32_t>(0x2) };
 constexpr ::System::DTSubStringType System::DTSubStringType::End{ static_cast<int32_t>(0x3) };
 constexpr ::System::DTSubStringType System::DTSubStringType::Other{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -145,5 +145,3 @@ inline void UnityEngine::InputSystem::Composites::Vector3Composite::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Composites::Vector3Composite::Vector3Composite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

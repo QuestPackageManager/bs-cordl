@@ -200,5 +200,3 @@ inline ::StringW System::Text::RegularExpressions::RegexFC::GetFirstChars(::Syst
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexFC::RegexFC() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

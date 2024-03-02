@@ -175,5 +175,3 @@ inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Cms::Pa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::PasswordRecipientInfoGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

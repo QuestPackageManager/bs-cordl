@@ -240,5 +240,3 @@ inline void GlobalNamespace::RecordingToolSettingsFlowCoordinator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolSettingsFlowCoordinator::RecordingToolSettingsFlowCoordinator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

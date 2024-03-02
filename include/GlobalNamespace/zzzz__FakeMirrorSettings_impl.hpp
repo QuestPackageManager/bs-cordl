@@ -244,5 +244,3 @@ inline void GlobalNamespace::FakeMirrorSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FakeMirrorSettings::FakeMirrorSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

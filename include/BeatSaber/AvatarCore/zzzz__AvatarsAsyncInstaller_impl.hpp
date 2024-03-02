@@ -108,5 +108,3 @@ inline void BeatSaber::AvatarCore::AvatarsAsyncInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AvatarsAsyncInstaller::AvatarsAsyncInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

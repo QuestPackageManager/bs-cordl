@@ -22,5 +22,3 @@ constexpr ::UnityEngine::ParticleSystemVertexStreams UnityEngine::ParticleSystem
 constexpr ::UnityEngine::ParticleSystemVertexStreams UnityEngine::ParticleSystemVertexStreams::Random{ static_cast<int32_t>(0x2000) };
 constexpr ::UnityEngine::ParticleSystemVertexStreams UnityEngine::ParticleSystemVertexStreams::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ParticleSystemVertexStreams UnityEngine::ParticleSystemVertexStreams::All{ static_cast<int32_t>(0x7fffffff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

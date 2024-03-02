@@ -249,5 +249,3 @@ inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Org::BouncyCastle::Op
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::OpenSsl::Pkcs8Generator::Pkcs8Generator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

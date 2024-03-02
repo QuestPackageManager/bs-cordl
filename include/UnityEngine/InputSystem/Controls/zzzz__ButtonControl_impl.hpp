@@ -150,5 +150,3 @@ inline bool UnityEngine::InputSystem::Controls::ButtonControl::get_wasReleasedTh
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::ButtonControl::ButtonControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

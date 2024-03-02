@@ -75,5 +75,3 @@ inline void Org::BouncyCastle::Asn1::BerNull::Encode(::Org::BouncyCastle::Asn1::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerNull::BerNull() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

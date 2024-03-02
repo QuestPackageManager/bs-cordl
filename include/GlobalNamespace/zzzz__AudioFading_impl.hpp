@@ -145,5 +145,3 @@ inline void GlobalNamespace::AudioFading::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioFading::AudioFading() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

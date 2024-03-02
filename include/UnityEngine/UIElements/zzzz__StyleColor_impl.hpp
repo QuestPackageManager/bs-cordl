@@ -235,5 +235,3 @@ constexpr ::UnityEngine::UIElements::StyleColor::StyleColor(::UnityEngine::Color
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleColor::StyleColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

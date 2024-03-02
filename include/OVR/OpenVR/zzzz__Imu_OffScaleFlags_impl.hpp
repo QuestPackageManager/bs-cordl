@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::Imu_OffScaleFlags OVR::OpenVR::Imu_OffScaleFlags::OffSc
 constexpr ::OVR::OpenVR::Imu_OffScaleFlags OVR::OpenVR::Imu_OffScaleFlags::OffScale_GyroX{ static_cast<int32_t>(0x8) };
 constexpr ::OVR::OpenVR::Imu_OffScaleFlags OVR::OpenVR::Imu_OffScaleFlags::OffScale_GyroY{ static_cast<int32_t>(0x10) };
 constexpr ::OVR::OpenVR::Imu_OffScaleFlags OVR::OpenVR::Imu_OffScaleFlags::OffScale_GyroZ{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -206,5 +206,3 @@ HoudiniEngineUnity::HEU_InputInterfaceTilemap::GenerateTilemapDataFromGameObject
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTilemap::HEU_InputInterfaceTilemap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

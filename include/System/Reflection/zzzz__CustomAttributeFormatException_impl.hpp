@@ -105,5 +105,3 @@ inline void System::Reflection::CustomAttributeFormatException::_ctor(::System::
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::CustomAttributeFormatException::CustomAttributeFormatException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

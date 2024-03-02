@@ -1876,5 +1876,3 @@ inline ::UnityEngine::InputSystem::InputControlScheme UnityEngine::InputSystem::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions::InputActionSetupExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

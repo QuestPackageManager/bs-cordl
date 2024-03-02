@@ -273,5 +273,3 @@ inline void GlobalNamespace::GameEnergyUIPanel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameEnergyUIPanel::GameEnergyUIPanel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

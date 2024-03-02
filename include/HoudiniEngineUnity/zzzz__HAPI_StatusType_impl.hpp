@@ -10,5 +10,3 @@ constexpr ::HoudiniEngineUnity::HAPI_StatusType HoudiniEngineUnity::HAPI_StatusT
 constexpr ::HoudiniEngineUnity::HAPI_StatusType HoudiniEngineUnity::HAPI_StatusType::HAPI_STATUS_COOK_RESULT{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HAPI_StatusType HoudiniEngineUnity::HAPI_StatusType::HAPI_STATUS_COOK_STATE{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HAPI_StatusType HoudiniEngineUnity::HAPI_StatusType::HAPI_STATUS_MAX{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

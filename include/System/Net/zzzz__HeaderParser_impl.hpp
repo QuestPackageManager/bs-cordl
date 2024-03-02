@@ -47,5 +47,3 @@ inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Net::HeaderParser::Invok
 }
 // Ctor Parameters []
 constexpr ::System::Net::HeaderParser::HeaderParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

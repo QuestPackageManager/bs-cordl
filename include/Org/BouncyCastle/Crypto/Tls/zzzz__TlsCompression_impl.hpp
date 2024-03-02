@@ -43,5 +43,3 @@ inline ::System::IO::Stream* Org::BouncyCastle::Crypto::Tls::TlsCompression::Dec
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsCompression*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(this, ___internal_method, output);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

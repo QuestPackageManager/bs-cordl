@@ -49,5 +49,3 @@ inline void GlobalNamespace::OVRProfilerScope::System_IDisposable_Dispose() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRProfilerScope::OVRProfilerScope() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

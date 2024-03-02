@@ -1072,5 +1072,3 @@ inline int32_t Mono::Security::X509::PKCS12::get_MaximumPasswordLength() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::PKCS12::PKCS12() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

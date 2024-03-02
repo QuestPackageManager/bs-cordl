@@ -10,5 +10,3 @@ constexpr ::System::Net::Configuration::UnicodeDecodingConformance System::Net::
 constexpr ::System::Net::Configuration::UnicodeDecodingConformance System::Net::Configuration::UnicodeDecodingConformance::Strict{ static_cast<int32_t>(0x1) };
 constexpr ::System::Net::Configuration::UnicodeDecodingConformance System::Net::Configuration::UnicodeDecodingConformance::Compat{ static_cast<int32_t>(0x2) };
 constexpr ::System::Net::Configuration::UnicodeDecodingConformance System::Net::Configuration::UnicodeDecodingConformance::Loose{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

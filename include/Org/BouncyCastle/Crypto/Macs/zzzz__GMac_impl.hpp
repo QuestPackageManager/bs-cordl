@@ -230,5 +230,3 @@ inline void Org::BouncyCastle::Crypto::Macs::GMac::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::GMac::GMac() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

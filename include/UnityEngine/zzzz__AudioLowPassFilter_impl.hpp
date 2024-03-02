@@ -183,5 +183,3 @@ inline void UnityEngine::AudioLowPassFilter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AudioLowPassFilter::AudioLowPassFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

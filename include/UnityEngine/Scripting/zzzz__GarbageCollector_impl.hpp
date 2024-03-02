@@ -82,5 +82,3 @@ inline ::UnityEngine::Scripting::__GarbageCollector__Mode UnityEngine::Scripting
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Scripting::GarbageCollector::GarbageCollector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

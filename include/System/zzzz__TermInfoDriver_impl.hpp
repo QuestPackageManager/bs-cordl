@@ -1167,5 +1167,3 @@ inline void System::TermInfoDriver::AddStringMapping(::System::TermInfoStrings s
 }
 // Ctor Parameters []
 constexpr ::System::TermInfoDriver::TermInfoDriver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

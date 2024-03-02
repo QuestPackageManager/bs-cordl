@@ -105,5 +105,3 @@ inline void GlobalNamespace::BloomFogEnvironment::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomFogEnvironment::BloomFogEnvironment() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

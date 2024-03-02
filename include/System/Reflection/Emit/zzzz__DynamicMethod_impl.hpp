@@ -254,5 +254,3 @@ inline bool System::Reflection::Emit::DynamicMethod::IsDefined(::System::Type* a
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::DynamicMethod::DynamicMethod() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

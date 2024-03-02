@@ -97,5 +97,3 @@ template <typename T> constexpr ::System::ReadOnlyMemory_1<T>::ReadOnlyMemory_1(
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::ReadOnlyMemory_1<T>::ReadOnlyMemory_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -97,5 +97,3 @@ inline void System::ComponentModel::CollectionConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::CollectionConverter::CollectionConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

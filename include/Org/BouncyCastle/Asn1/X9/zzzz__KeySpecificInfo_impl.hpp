@@ -141,5 +141,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X9::KeySp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo::KeySpecificInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

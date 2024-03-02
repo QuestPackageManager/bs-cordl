@@ -12,5 +12,3 @@ constexpr ::System::Xml::Schema::XmlSchemaValidationFlags System::Xml::Schema::X
 constexpr ::System::Xml::Schema::XmlSchemaValidationFlags System::Xml::Schema::XmlSchemaValidationFlags::ReportValidationWarnings{ static_cast<int32_t>(0x4) };
 constexpr ::System::Xml::Schema::XmlSchemaValidationFlags System::Xml::Schema::XmlSchemaValidationFlags::ProcessIdentityConstraints{ static_cast<int32_t>(0x8) };
 constexpr ::System::Xml::Schema::XmlSchemaValidationFlags System::Xml::Schema::XmlSchemaValidationFlags::AllowXmlAttributes{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

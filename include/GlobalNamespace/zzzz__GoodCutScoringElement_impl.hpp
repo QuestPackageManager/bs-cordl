@@ -259,5 +259,3 @@ inline void GlobalNamespace::__GoodCutScoringElement__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__GoodCutScoringElement__Pool::__GoodCutScoringElement__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -29,5 +29,3 @@ System::Linq::IOrderedEnumerable_1<TElement>::CreateOrderedEnumerable(::System::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::IOrderedEnumerable_1<TElement>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::IOrderedEnumerable_1<TElement>*, false>(this, ___internal_method, keySelector, comparer, descending);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

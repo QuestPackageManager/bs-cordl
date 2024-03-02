@@ -27,5 +27,3 @@ inline void Unity::Collections::NativeDisableParallelForRestrictionAttribute::_c
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::NativeDisableParallelForRestrictionAttribute::NativeDisableParallelForRestrictionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

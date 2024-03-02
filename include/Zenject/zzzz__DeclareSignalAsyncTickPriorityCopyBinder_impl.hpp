@@ -68,5 +68,3 @@ inline ::Zenject::SignalCopyBinder* Zenject::DeclareSignalAsyncTickPriorityCopyB
 }
 // Ctor Parameters []
 constexpr ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder::DeclareSignalAsyncTickPriorityCopyBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

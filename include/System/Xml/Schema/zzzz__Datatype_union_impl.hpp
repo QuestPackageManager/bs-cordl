@@ -49,5 +49,3 @@ inline bool System::Xml::Schema::Datatype_union::HasAtomicMembers() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_union::Datatype_union() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

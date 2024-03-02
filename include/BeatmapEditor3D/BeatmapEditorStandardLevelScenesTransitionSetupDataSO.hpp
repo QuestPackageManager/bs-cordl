@@ -1,3 +1,5 @@
 #pragma once
 #include "BeatmapEditor3D/zzzz__BeatmapEditorStandardLevelScenesTransitionSetupDataSO_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "BeatmapEditor3D/zzzz__BeatmapEditorStandardLevelScenesTransitionSetupDataSO_impl.hpp"
+#endif

@@ -24,5 +24,3 @@ inline void UnityEngine::Timeline::SignalTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::SignalTrack::SignalTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

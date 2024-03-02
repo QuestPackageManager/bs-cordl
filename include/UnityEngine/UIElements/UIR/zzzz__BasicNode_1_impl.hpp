@@ -42,5 +42,3 @@ template <typename T> inline void UnityEngine::UIElements::UIR::BasicNode_1<T>::
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UIR::BasicNode_1<T>::BasicNode_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

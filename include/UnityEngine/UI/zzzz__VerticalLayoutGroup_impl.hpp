@@ -102,5 +102,3 @@ inline void UnityEngine::UI::VerticalLayoutGroup::SetLayoutVertical() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::VerticalLayoutGroup::VerticalLayoutGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

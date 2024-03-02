@@ -1288,5 +1288,3 @@ inline ::System::Collections::IEnumerator* UnityEngine::UIElements::__InternalTr
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__InternalTreeView___GetAllItems_d__64::__InternalTreeView___GetAllItems_d__64() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

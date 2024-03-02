@@ -364,5 +364,3 @@ inline void GlobalNamespace::LightmapLightsWithIds::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightmapLightsWithIds::LightmapLightsWithIds() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

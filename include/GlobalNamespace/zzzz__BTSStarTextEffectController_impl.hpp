@@ -171,5 +171,3 @@ inline void GlobalNamespace::__BTSStarTextEffectController__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__BTSStarTextEffectController__Pool::__BTSStarTextEffectController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

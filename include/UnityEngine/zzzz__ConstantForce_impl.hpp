@@ -345,5 +345,3 @@ inline void UnityEngine::ConstantForce::set_relativeTorque_Injected(ByRef<::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ConstantForce::ConstantForce() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

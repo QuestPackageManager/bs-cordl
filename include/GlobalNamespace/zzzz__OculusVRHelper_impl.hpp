@@ -975,5 +975,3 @@ inline void GlobalNamespace::OculusVRHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusVRHelper::OculusVRHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

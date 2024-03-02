@@ -1703,5 +1703,3 @@ inline ::System::ArgumentException* System::Xml::XmlConvert::CreateInvalidNameAr
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlConvert::XmlConvert() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

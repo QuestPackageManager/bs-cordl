@@ -354,5 +354,3 @@ inline void GlobalNamespace::GameServersFilterViewController::_DidActivate_b__16
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServersFilterViewController::GameServersFilterViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

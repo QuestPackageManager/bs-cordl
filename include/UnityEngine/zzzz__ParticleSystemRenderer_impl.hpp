@@ -1398,5 +1398,3 @@ inline void UnityEngine::ParticleSystemRenderer::set_flip_Injected(ByRef<::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ParticleSystemRenderer::ParticleSystemRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

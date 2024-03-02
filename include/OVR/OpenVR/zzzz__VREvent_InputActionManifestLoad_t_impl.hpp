@@ -11,5 +11,3 @@ constexpr ::OVR::OpenVR::VREvent_InputActionManifestLoad_t::VREvent_InputActionM
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_InputActionManifestLoad_t::VREvent_InputActionManifestLoad_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

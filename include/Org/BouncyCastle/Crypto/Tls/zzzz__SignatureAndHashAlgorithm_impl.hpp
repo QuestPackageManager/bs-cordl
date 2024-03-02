@@ -184,5 +184,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* Org::BouncyC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm::SignatureAndHashAlgorithm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

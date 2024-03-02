@@ -21,5 +21,3 @@ inline ::UnityEngine::Playables::PlayableOutputHandle UnityEngine::Playables::IP
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::IPlayableOutput*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::PlayableOutputHandle, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

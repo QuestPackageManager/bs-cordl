@@ -478,5 +478,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Cryptography::RSAMan
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Cryptography::RSAManaged::RSAManaged() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

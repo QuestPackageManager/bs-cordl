@@ -580,5 +580,3 @@ inline void System::Xml::HtmlUtf8RawTextWriter::OutputRestAmps() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::HtmlUtf8RawTextWriter::HtmlUtf8RawTextWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

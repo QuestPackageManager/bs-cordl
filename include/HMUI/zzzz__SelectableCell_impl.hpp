@@ -543,5 +543,3 @@ inline void HMUI::SelectableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::SelectableCell::SelectableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -833,5 +833,3 @@ inline void System::Reflection::RuntimePropertyInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::RuntimePropertyInfo::RuntimePropertyInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

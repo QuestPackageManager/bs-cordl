@@ -9,5 +9,3 @@ constexpr ::UnityEngine::InputSystem::InputControlLayoutChange::InputControlLayo
 constexpr ::UnityEngine::InputSystem::InputControlLayoutChange UnityEngine::InputSystem::InputControlLayoutChange::Added{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::InputControlLayoutChange UnityEngine::InputSystem::InputControlLayoutChange::Removed{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::InputControlLayoutChange UnityEngine::InputSystem::InputControlLayoutChange::Replaced{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

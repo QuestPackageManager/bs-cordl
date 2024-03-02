@@ -87,5 +87,3 @@ inline void GlobalNamespace::GameState::Init() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameState::GameState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -39,5 +39,3 @@ inline void Oculus::Platform::Models::AppDownloadResult::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::AppDownloadResult::AppDownloadResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

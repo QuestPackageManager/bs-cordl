@@ -383,5 +383,3 @@ inline void Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher::checkCounter() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::KCtrBlockCipher::KCtrBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

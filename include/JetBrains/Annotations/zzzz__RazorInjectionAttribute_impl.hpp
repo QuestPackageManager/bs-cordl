@@ -131,5 +131,3 @@ inline void JetBrains::Annotations::RazorInjectionAttribute::set_FieldName(::Str
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::RazorInjectionAttribute::RazorInjectionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

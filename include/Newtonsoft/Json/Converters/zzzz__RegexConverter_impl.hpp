@@ -214,5 +214,3 @@ inline void Newtonsoft::Json::Converters::RegexConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::RegexConverter::RegexConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

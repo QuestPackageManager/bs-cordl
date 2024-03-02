@@ -133,5 +133,3 @@ inline ::System::Security::AccessControl::AceType System::Security::AccessContro
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::CommonAce::CommonAce() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

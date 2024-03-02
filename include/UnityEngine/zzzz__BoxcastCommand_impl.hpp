@@ -492,5 +492,3 @@ constexpr ::UnityEngine::BoxcastCommand::BoxcastCommand(::UnityEngine::Vector3 _
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::BoxcastCommand::BoxcastCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

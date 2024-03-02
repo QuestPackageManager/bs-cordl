@@ -38,5 +38,3 @@ template <typename TObject> inline bool UnityEngine::AddressableAssets::AssetRef
 }
 // Ctor Parameters []
 template <typename TObject> constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>::AssetReferenceT_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

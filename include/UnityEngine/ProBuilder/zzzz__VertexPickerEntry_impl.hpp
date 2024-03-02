@@ -15,5 +15,3 @@ constexpr ::UnityEngine::ProBuilder::VertexPickerEntry::VertexPickerEntry(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::VertexPickerEntry::VertexPickerEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

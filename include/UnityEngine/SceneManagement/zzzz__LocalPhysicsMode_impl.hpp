@@ -9,5 +9,3 @@ constexpr ::UnityEngine::SceneManagement::LocalPhysicsMode::LocalPhysicsMode() {
 constexpr ::UnityEngine::SceneManagement::LocalPhysicsMode UnityEngine::SceneManagement::LocalPhysicsMode::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SceneManagement::LocalPhysicsMode UnityEngine::SceneManagement::LocalPhysicsMode::Physics2D{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::SceneManagement::LocalPhysicsMode UnityEngine::SceneManagement::LocalPhysicsMode::Physics3D{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

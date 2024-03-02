@@ -305,5 +305,3 @@ inline void GlobalNamespace::BTSCharacterSpawnController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BTSCharacterSpawnController::BTSCharacterSpawnController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

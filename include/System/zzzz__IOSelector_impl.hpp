@@ -26,5 +26,3 @@ inline void System::IOSelector::Add(void* handle, ::System::IOSelectorJob* job) 
 }
 // Ctor Parameters []
 constexpr ::System::IOSelector::IOSelector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

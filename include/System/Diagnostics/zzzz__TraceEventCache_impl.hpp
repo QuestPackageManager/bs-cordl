@@ -239,5 +239,3 @@ inline void System::Diagnostics::TraceEventCache::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::TraceEventCache::TraceEventCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

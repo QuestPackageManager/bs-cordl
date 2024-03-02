@@ -8,5 +8,3 @@ constexpr ::Oculus::Platform::MediaContentType::MediaContentType(int32_t value__
 constexpr ::Oculus::Platform::MediaContentType::MediaContentType() {}
 constexpr ::Oculus::Platform::MediaContentType Oculus::Platform::MediaContentType::Unknown{ static_cast<int32_t>(0x0) };
 constexpr ::Oculus::Platform::MediaContentType Oculus::Platform::MediaContentType::Photo{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -89,5 +89,3 @@ inline void GlobalNamespace::TubeLightAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TubeLightAsset::TubeLightAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

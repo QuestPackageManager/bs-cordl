@@ -77,5 +77,3 @@ inline ::GlobalNamespace::ProgramArguments* GlobalNamespace::ProgramArguments::E
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ProgramArguments::ProgramArguments() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

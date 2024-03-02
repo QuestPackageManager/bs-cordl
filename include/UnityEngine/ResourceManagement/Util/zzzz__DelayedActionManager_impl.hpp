@@ -457,5 +457,3 @@ inline void UnityEngine::ResourceManagement::Util::DelayedActionManager::_ctor()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::DelayedActionManager::DelayedActionManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

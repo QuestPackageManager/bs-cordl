@@ -7,5 +7,3 @@ constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag::UserAttributeSub
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag::UserAttributeSubpacketTag() {}
 constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag::ImageAttribute{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

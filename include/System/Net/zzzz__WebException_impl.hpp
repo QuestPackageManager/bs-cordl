@@ -418,5 +418,3 @@ inline ::System::Net::WebResponse* System::Net::WebException::get_Response() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebException::WebException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

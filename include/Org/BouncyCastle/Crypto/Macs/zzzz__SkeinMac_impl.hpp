@@ -218,5 +218,3 @@ inline int32_t Org::BouncyCastle::Crypto::Macs::SkeinMac::DoFinal(::ArrayW<uint8
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::SkeinMac::SkeinMac() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

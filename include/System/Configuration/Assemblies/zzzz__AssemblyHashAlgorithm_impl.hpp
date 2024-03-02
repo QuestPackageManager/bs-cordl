@@ -12,5 +12,3 @@ constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm System::Con
 constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm System::Configuration::Assemblies::AssemblyHashAlgorithm::SHA256{ static_cast<int32_t>(0x800c) };
 constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm System::Configuration::Assemblies::AssemblyHashAlgorithm::SHA384{ static_cast<int32_t>(0x800d) };
 constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm System::Configuration::Assemblies::AssemblyHashAlgorithm::SHA512{ static_cast<int32_t>(0x800e) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

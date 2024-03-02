@@ -214,5 +214,3 @@ inline void Org::BouncyCastle::Math::Raw::Nat320::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Raw::Nat320::Nat320() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

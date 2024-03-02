@@ -369,5 +369,3 @@ inline ::StringW System::Xml::XmlEntityReference::get_ChildBaseURI() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlEntityReference::XmlEntityReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

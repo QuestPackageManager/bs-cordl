@@ -10,5 +10,3 @@ constexpr ::System::Xml::Schema::SchemaType System::Xml::Schema::SchemaType::Non
 constexpr ::System::Xml::Schema::SchemaType System::Xml::Schema::SchemaType::DTD{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::Schema::SchemaType System::Xml::Schema::SchemaType::XDR{ static_cast<int32_t>(0x2) };
 constexpr ::System::Xml::Schema::SchemaType System::Xml::Schema::SchemaType::XSD{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

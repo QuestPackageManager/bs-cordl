@@ -16,5 +16,3 @@ constexpr ::System::Net::FtpMethodFlags System::Net::FtpMethodFlags::ParameterIs
 constexpr ::System::Net::FtpMethodFlags System::Net::FtpMethodFlags::ShouldParseForResponseUri{ static_cast<int32_t>(0x40) };
 constexpr ::System::Net::FtpMethodFlags System::Net::FtpMethodFlags::HasHttpCommand{ static_cast<int32_t>(0x80) };
 constexpr ::System::Net::FtpMethodFlags System::Net::FtpMethodFlags::MustChangeWorkingDirectoryToPath{ static_cast<int32_t>(0x100) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

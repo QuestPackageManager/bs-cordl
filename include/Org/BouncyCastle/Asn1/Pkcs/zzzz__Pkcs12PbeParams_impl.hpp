@@ -163,5 +163,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Pkc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams::Pkcs12PbeParams() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

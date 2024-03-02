@@ -58,5 +58,3 @@ inline void UnityEngine::WaitUntil::_ctor(::System::Func_1<bool>* predicate) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::WaitUntil::WaitUntil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -103,5 +103,3 @@ inline void Org::BouncyCastle::Utilities::IO::PushbackStream::Unread(int32_t b) 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::PushbackStream::PushbackStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

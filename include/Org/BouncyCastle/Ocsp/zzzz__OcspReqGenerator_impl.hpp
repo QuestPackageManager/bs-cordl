@@ -392,5 +392,3 @@ inline void Org::BouncyCastle::Ocsp::OcspReqGenerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::OcspReqGenerator::OcspReqGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

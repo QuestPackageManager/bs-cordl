@@ -228,5 +228,3 @@ inline void System::Runtime::Serialization::LongList::EnlargeArray() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::LongList::LongList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -419,5 +419,3 @@ inline ::StringW System::UriBuilder::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::UriBuilder::UriBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

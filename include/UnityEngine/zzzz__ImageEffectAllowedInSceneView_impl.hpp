@@ -24,5 +24,3 @@ inline void UnityEngine::ImageEffectAllowedInSceneView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ImageEffectAllowedInSceneView::ImageEffectAllowedInSceneView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

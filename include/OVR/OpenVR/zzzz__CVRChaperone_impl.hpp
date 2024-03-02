@@ -207,5 +207,3 @@ inline void OVR::OpenVR::CVRChaperone::ForceBoundsVisible(bool bForce) {
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRChaperone::CVRChaperone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

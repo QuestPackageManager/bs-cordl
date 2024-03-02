@@ -43,5 +43,3 @@ inline ::StringW UnityEngine::SubsystemDescriptorBindings::GetId(void* descripto
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SubsystemDescriptorBindings::SubsystemDescriptorBindings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -37,5 +37,3 @@ template <typename T> inline void Oculus::Platform::Request_1<T>::HandleMessage(
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Oculus::Platform::Request_1<T>::Request_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

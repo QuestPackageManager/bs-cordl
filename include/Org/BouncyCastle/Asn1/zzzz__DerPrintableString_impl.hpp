@@ -235,5 +235,3 @@ inline bool Org::BouncyCastle::Asn1::DerPrintableString::IsPrintableString(::Str
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerPrintableString::DerPrintableString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

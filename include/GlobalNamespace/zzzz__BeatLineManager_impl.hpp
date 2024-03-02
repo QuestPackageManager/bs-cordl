@@ -271,5 +271,3 @@ inline void GlobalNamespace::BeatLineManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatLineManager::BeatLineManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

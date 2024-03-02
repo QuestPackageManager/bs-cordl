@@ -81,5 +81,3 @@ inline void JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcAreaPartialViewLocationFormatAttribute::AspMvcAreaPartialViewLocationFormatAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

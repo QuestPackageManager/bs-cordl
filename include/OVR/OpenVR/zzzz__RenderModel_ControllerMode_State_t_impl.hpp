@@ -6,5 +6,3 @@ constexpr ::OVR::OpenVR::RenderModel_ControllerMode_State_t::RenderModel_Control
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::RenderModel_ControllerMode_State_t::RenderModel_ControllerMode_State_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -48,5 +48,3 @@ inline void System::Xml::Schema::Datatype_normalizedStringV1Compat::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_normalizedStringV1Compat::Datatype_normalizedStringV1Compat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

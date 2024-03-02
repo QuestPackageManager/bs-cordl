@@ -22,5 +22,3 @@ inline void UnityEngine::LowerResBlitTexture::LowerResBlitTextureDontStripMe() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LowerResBlitTexture::LowerResBlitTexture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

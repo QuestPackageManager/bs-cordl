@@ -43,5 +43,3 @@ inline void BGLib::DotnetExtension::EnvironmentVariableHelper::SetDirectoryPath(
 }
 // Ctor Parameters []
 constexpr ::BGLib::DotnetExtension::EnvironmentVariableHelper::EnvironmentVariableHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -237,5 +237,3 @@ inline void System::Security::Cryptography::X509Certificates::X509Store::Open(::
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Store::X509Store() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

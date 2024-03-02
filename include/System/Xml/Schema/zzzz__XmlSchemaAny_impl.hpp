@@ -123,5 +123,3 @@ inline void System::Xml::Schema::XmlSchemaAny::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaAny::XmlSchemaAny() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

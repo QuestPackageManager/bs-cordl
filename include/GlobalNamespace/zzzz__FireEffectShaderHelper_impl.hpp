@@ -23,5 +23,3 @@ inline int32_t GlobalNamespace::FireEffectShaderHelper::getStaticF_privatePointL
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FireEffectShaderHelper::FireEffectShaderHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

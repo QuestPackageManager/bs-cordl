@@ -50,5 +50,3 @@ inline ::StringW Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::ToString(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::VerisignCzagExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

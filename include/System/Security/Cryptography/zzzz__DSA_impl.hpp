@@ -141,5 +141,3 @@ inline void System::Security::Cryptography::DSA::ImportParameters(::System::Secu
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::DSA::DSA() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

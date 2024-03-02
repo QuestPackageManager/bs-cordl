@@ -12,5 +12,3 @@ constexpr ::UnityEngine::WrapMode UnityEngine::WrapMode::PingPong{ static_cast<i
 constexpr ::UnityEngine::WrapMode UnityEngine::WrapMode::Default{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::WrapMode UnityEngine::WrapMode::ClampForever{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::WrapMode UnityEngine::WrapMode::Clamp{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

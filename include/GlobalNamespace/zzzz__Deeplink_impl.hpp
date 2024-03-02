@@ -120,5 +120,3 @@ inline void GlobalNamespace::Deeplink::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Deeplink::Deeplink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

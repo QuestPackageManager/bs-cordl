@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::UserAccountAgeCategory* Oculus::Platform::Mes
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithUserAccountAgeCategory::MessageWithUserAccountAgeCategory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -83,5 +83,3 @@ inline void UnityEngine::Timeline::AudioMixerProperties::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::AudioMixerProperties::AudioMixerProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

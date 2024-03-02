@@ -27,5 +27,3 @@ UnityEngine::UIElements::Experimental::ITransitionAnimations::Start(::UnityEngin
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>*, false>(this, ___internal_method, to,
                                                                                                                                                                       durationMs);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -40,5 +40,3 @@ template <typename T> inline void Tayx::Graphy::Utils::G_Singleton_1<T>::_ctor()
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Tayx::Graphy::Utils::G_Singleton_1<T>::G_Singleton_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -39,5 +39,3 @@ inline void Oculus::Platform::Models::AvatarEditorResult::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::AvatarEditorResult::AvatarEditorResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

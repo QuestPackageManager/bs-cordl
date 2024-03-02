@@ -503,5 +503,3 @@ inline void UnityEngine::UIElements::ListViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ListViewController::ListViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

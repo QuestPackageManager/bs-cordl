@@ -151,5 +151,3 @@ inline void System::Threading::NativeEventCalls::CloseEvent_internal(void* handl
 }
 // Ctor Parameters []
 constexpr ::System::Threading::NativeEventCalls::NativeEventCalls() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -363,5 +363,3 @@ inline ::UnityEngine::Color GlobalNamespace::BufferedLightColorGroupEffect::GetC
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BufferedLightColorGroupEffect::BufferedLightColorGroupEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

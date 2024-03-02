@@ -28,5 +28,3 @@ constexpr ::UnityEngine::TerrainUtils::TerrainTileCoord::TerrainTileCoord(int32_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TerrainUtils::TerrainTileCoord::TerrainTileCoord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

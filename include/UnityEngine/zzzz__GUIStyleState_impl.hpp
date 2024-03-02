@@ -195,5 +195,3 @@ inline void UnityEngine::GUIStyleState::set_textColor_Injected(ByRef<::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUIStyleState::GUIStyleState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

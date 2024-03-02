@@ -523,5 +523,3 @@ inline void UnityEngine::Collider::Internal_ClosestPointOnBounds_Injected(ByRef<
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Collider::Collider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

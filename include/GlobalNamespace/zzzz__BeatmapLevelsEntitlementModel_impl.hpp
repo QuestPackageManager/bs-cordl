@@ -143,5 +143,3 @@ GlobalNamespace::BeatmapLevelsEntitlementModel::GetLevelPackEntitlementStatusAsy
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel::BeatmapLevelsEntitlementModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

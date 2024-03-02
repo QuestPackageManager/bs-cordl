@@ -120,5 +120,3 @@ template <typename T> inline void BGLib::Polyglot::LocalizedTextComponent_1<T>::
 }
 // Ctor Parameters []
 template <typename T> constexpr ::BGLib::Polyglot::LocalizedTextComponent_1<T>::LocalizedTextComponent_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

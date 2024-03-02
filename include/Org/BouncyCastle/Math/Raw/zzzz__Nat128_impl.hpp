@@ -1111,5 +1111,3 @@ inline void Org::BouncyCastle::Math::Raw::Nat128::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Raw::Nat128::Nat128() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

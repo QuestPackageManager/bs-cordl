@@ -44,5 +44,3 @@ inline void Org::BouncyCastle::Crypto::Tls::NameType::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::NameType::NameType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

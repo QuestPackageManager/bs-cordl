@@ -176,5 +176,3 @@ inline void GlobalNamespace::MultiplayerResultsData::_ctor(::StringW gameId, ::G
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerResultsData::MultiplayerResultsData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

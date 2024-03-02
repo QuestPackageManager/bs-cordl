@@ -134,5 +134,3 @@ inline void System::Net::ProtocolViolationException::GetObjectData(::System::Run
 }
 // Ctor Parameters []
 constexpr ::System::Net::ProtocolViolationException::ProtocolViolationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

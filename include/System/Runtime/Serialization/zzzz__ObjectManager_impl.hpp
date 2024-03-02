@@ -774,5 +774,3 @@ inline void System::Runtime::Serialization::ObjectManager::RaiseOnDeserializingE
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::ObjectManager::ObjectManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

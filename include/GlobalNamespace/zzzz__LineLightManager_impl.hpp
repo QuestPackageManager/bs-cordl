@@ -122,5 +122,3 @@ inline void GlobalNamespace::LineLightManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LineLightManager::LineLightManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

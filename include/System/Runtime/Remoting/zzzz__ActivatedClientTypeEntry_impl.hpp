@@ -137,5 +137,3 @@ inline ::StringW System::Runtime::Remoting::ActivatedClientTypeEntry::ToString()
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ActivatedClientTypeEntry::ActivatedClientTypeEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

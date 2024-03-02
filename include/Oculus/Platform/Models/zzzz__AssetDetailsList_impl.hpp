@@ -28,5 +28,3 @@ inline void Oculus::Platform::Models::AssetDetailsList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::AssetDetailsList::AssetDetailsList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -95,5 +95,3 @@ inline int32_t System::Net::HttpListenerException::get_ErrorCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpListenerException::HttpListenerException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

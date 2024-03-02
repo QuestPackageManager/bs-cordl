@@ -46,5 +46,3 @@ inline void UnityEngine::Events::UnityAction::Invoke() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::UnityAction::UnityAction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -20,5 +20,3 @@ constexpr ::UnityEngine::AvatarMaskBodyPart UnityEngine::AvatarMaskBodyPart::Rig
 constexpr ::UnityEngine::AvatarMaskBodyPart UnityEngine::AvatarMaskBodyPart::LeftHandIK{ static_cast<int32_t>(0xb) };
 constexpr ::UnityEngine::AvatarMaskBodyPart UnityEngine::AvatarMaskBodyPart::RightHandIK{ static_cast<int32_t>(0xc) };
 constexpr ::UnityEngine::AvatarMaskBodyPart UnityEngine::AvatarMaskBodyPart::LastBodyPart{ static_cast<int32_t>(0xd) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

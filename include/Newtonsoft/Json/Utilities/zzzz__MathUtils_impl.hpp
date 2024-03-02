@@ -133,5 +133,3 @@ inline bool Newtonsoft::Json::Utilities::MathUtils::ApproxEquals(double_t d1, do
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::MathUtils::MathUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

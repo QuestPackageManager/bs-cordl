@@ -104,5 +104,3 @@ inline ::StringW System::Runtime::Remoting::Channels::CrossAppDomainData::get_Pr
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Channels::CrossAppDomainData::CrossAppDomainData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

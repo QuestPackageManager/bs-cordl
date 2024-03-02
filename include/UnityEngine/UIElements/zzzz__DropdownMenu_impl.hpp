@@ -132,5 +132,3 @@ inline void UnityEngine::UIElements::DropdownMenu::PrepareForDisplay(::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DropdownMenu::DropdownMenu() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

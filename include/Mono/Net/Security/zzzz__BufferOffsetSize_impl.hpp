@@ -144,5 +144,3 @@ inline ::StringW Mono::Net::Security::BufferOffsetSize::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::BufferOffsetSize::BufferOffsetSize() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

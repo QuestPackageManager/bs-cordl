@@ -854,5 +854,3 @@ inline void GlobalNamespace::DebugConsoleController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DebugConsoleController::DebugConsoleController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

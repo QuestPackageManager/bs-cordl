@@ -690,5 +690,3 @@ inline void Org::BouncyCastle::Crypto::Digests::LongDigest::Reset(::Org::BouncyC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::LongDigest::LongDigest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

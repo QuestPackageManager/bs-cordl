@@ -115,5 +115,3 @@ inline ::System::Exception* System::Security::Cryptography::X509Certificates::X5
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Helper2::X509Helper2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

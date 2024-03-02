@@ -12,5 +12,3 @@ constexpr ::Oculus::Platform::RichPresenceExtraContext Oculus::Platform::RichPre
 constexpr ::Oculus::Platform::RichPresenceExtraContext Oculus::Platform::RichPresenceExtraContext::StartedAgo{ static_cast<int32_t>(0x3) };
 constexpr ::Oculus::Platform::RichPresenceExtraContext Oculus::Platform::RichPresenceExtraContext::EndingIn{ static_cast<int32_t>(0x4) };
 constexpr ::Oculus::Platform::RichPresenceExtraContext Oculus::Platform::RichPresenceExtraContext::LookingForAMatch{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -62,5 +62,3 @@ inline void UnityEngine::InputSystem::Sensor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Sensor::Sensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

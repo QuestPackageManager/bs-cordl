@@ -536,5 +536,3 @@ inline int32_t GlobalNamespace::__LevelFilter____c::_FilterLevelByText_b__14_0(:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__LevelFilter____c::__LevelFilter____c() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

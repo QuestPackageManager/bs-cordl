@@ -145,5 +145,3 @@ template <typename TValue> inline ::System::IDisposable* UnityEngine::InputSyste
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::Observable::Observable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -451,5 +451,3 @@ inline bool System::Threading::ThreadPool::get_IsThreadPoolThread() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ThreadPool::ThreadPool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

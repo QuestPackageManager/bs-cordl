@@ -89,5 +89,3 @@ inline void GlobalNamespace::AvatarColorAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AvatarColorAsset::AvatarColorAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

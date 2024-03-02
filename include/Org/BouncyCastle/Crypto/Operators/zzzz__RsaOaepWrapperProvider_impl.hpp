@@ -81,5 +81,3 @@ Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::Org_BouncyCastle_C
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider::RsaOaepWrapperProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

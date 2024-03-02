@@ -260,5 +260,3 @@ inline ::Org::BouncyCastle::Asn1::DerBoolean* Org::BouncyCastle::Asn1::DerBoolea
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerBoolean::DerBoolean() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

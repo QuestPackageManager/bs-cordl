@@ -812,5 +812,3 @@ inline void TMPro::TextContainer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TextContainer::TextContainer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

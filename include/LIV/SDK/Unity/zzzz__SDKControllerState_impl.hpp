@@ -66,5 +66,3 @@ constexpr ::LIV::SDK::Unity::SDKControllerState::SDKControllerState(::LIV::SDK::
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKControllerState::SDKControllerState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

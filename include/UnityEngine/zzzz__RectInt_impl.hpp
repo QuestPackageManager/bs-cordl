@@ -356,5 +356,3 @@ constexpr ::UnityEngine::RectInt::RectInt(int32_t m_XMin, int32_t m_YMin, int32_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RectInt::RectInt() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -269,5 +269,3 @@ inline void System::Net::ListenerPrefix::CheckUri(::StringW uri) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::ListenerPrefix::ListenerPrefix() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

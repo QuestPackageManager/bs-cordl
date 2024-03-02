@@ -161,5 +161,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Crmf::Cer
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Crmf::CertId::CertId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

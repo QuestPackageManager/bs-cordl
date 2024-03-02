@@ -275,5 +275,3 @@ inline void UnityEngine::Timeline::ParticleControlPlayable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::ParticleControlPlayable::ParticleControlPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

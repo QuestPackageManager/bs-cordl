@@ -235,5 +235,3 @@ inline void System::Diagnostics::Stopwatch::Stop() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Stopwatch::Stopwatch() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

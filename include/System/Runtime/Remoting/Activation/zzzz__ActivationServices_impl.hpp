@@ -202,5 +202,3 @@ inline void System::Runtime::Remoting::Activation::ActivationServices::EnablePro
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Activation::ActivationServices::ActivationServices() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

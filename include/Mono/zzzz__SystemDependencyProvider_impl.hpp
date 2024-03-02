@@ -158,5 +158,3 @@ inline void Mono::SystemDependencyProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Mono::SystemDependencyProvider::SystemDependencyProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

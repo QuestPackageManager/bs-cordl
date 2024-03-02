@@ -89,5 +89,3 @@ template <typename U> inline void UnityEngine::Playables::PlayableOutputExtensio
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Playables::PlayableOutputExtensions::PlayableOutputExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

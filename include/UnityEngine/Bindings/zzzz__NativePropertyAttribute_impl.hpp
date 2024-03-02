@@ -139,5 +139,3 @@ inline void UnityEngine::Bindings::NativePropertyAttribute::_ctor(::StringW name
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::NativePropertyAttribute::NativePropertyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

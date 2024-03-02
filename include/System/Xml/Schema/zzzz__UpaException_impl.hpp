@@ -54,5 +54,3 @@ inline void System::Xml::Schema::UpaException::_ctor(::System::Object* particle1
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::UpaException::UpaException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

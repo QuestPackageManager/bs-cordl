@@ -27,5 +27,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType U
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType::LessThan{ static_cast<int32_t>(0x12) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType::GreaterThan{ static_cast<int32_t>(0x13) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType::End{ static_cast<int32_t>(0x14) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

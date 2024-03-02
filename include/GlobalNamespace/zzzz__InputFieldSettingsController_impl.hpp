@@ -129,5 +129,3 @@ inline void GlobalNamespace::InputFieldSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::InputFieldSettingsController::InputFieldSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

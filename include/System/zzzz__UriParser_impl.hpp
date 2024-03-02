@@ -713,5 +713,3 @@ constexpr ::System::UriSyntaxFlags System::UriParser::LdapSyntaxFlags{ static_ca
 constexpr ::System::UriSyntaxFlags System::UriParser::MailtoSyntaxFlags{ static_cast<int32_t>(0x14004ffc) };
 constexpr ::System::UriSyntaxFlags System::UriParser::NetPipeSyntaxFlags{ static_cast<int32_t>(0x17e00e71) };
 constexpr ::System::UriSyntaxFlags System::UriParser::NetTcpSyntaxFlags{ static_cast<int32_t>(0x17e00e79) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

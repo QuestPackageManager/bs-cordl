@@ -64,5 +64,3 @@ inline void System::Xml::Schema::DfaContentValidator::_ctor(::ArrayW<::ArrayW<in
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::DfaContentValidator::DfaContentValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::UnityEngine::PointerType::PointerType() {}
 constexpr ::UnityEngine::PointerType UnityEngine::PointerType::Mouse{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::PointerType UnityEngine::PointerType::Touch{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::PointerType UnityEngine::PointerType::Pen{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

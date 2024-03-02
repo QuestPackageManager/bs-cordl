@@ -171,5 +171,3 @@ template <typename T> inline bool GlobalNamespace::BloomFilterUtil::ContainsBloo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomFilterUtil::BloomFilterUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

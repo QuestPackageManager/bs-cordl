@@ -228,5 +228,3 @@ constexpr ::GlobalNamespace::OVRPose::OVRPose(::UnityEngine::Vector3 position, :
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPose::OVRPose() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

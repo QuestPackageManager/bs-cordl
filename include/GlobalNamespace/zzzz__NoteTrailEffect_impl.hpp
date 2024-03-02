@@ -164,5 +164,3 @@ inline void GlobalNamespace::NoteTrailEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteTrailEffect::NoteTrailEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

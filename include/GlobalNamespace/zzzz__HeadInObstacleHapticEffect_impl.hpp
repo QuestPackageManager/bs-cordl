@@ -276,5 +276,3 @@ inline void GlobalNamespace::HeadInObstacleHapticEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HeadInObstacleHapticEffect::HeadInObstacleHapticEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

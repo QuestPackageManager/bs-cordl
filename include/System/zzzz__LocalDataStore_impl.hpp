@@ -158,5 +158,3 @@ inline ::System::LocalDataStoreElement* System::LocalDataStore::PopulateElement(
 }
 // Ctor Parameters []
 constexpr ::System::LocalDataStore::LocalDataStore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

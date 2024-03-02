@@ -29,5 +29,3 @@ constexpr ::OVR::OpenVR::Compositor_OverlaySettings::Compositor_OverlaySettings(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::Compositor_OverlaySettings::Compositor_OverlaySettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::TimeUnit::TimeUnit(int32_t value__) noexcep
 constexpr ::UnityEngine::UIElements::TimeUnit::TimeUnit() {}
 constexpr ::UnityEngine::UIElements::TimeUnit UnityEngine::UIElements::TimeUnit::Second{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::TimeUnit UnityEngine::UIElements::TimeUnit::Millisecond{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

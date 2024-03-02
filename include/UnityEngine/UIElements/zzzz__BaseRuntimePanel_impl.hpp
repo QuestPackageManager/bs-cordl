@@ -691,5 +691,3 @@ inline void UnityEngine::UIElements::BaseRuntimePanel::PointerEntersPanel(int32_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseRuntimePanel::BaseRuntimePanel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

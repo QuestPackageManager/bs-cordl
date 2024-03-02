@@ -275,5 +275,3 @@ inline void Org::BouncyCastle::Crypto::BufferedIesCipher::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::BufferedIesCipher::BufferedIesCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

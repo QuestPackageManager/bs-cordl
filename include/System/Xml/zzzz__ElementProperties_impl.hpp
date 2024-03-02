@@ -15,5 +15,3 @@ constexpr ::System::Xml::ElementProperties System::Xml::ElementProperties::NO_EN
 constexpr ::System::Xml::ElementProperties System::Xml::ElementProperties::HEAD{ static_cast<uint32_t>(0x80804020u) };
 constexpr ::System::Xml::ElementProperties System::Xml::ElementProperties::BLOCK_WS{ static_cast<uint32_t>(0x808040u) };
 constexpr ::System::Xml::ElementProperties System::Xml::ElementProperties::HAS_NS{ static_cast<uint32_t>(0x1008080u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

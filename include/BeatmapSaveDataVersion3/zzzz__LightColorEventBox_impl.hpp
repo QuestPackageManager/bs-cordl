@@ -218,5 +218,3 @@ inline void BeatmapSaveDataVersion3::LightColorEventBox::_ctor(::BeatmapSaveData
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightColorEventBox::LightColorEventBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

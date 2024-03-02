@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::EVRCompositorTimingMode::EVRCompositorTimingMode() {}
 constexpr ::OVR::OpenVR::EVRCompositorTimingMode OVR::OpenVR::EVRCompositorTimingMode::Implicit{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVRCompositorTimingMode OVR::OpenVR::EVRCompositorTimingMode::Explicit_RuntimePerformsPostPresentHandoff{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EVRCompositorTimingMode OVR::OpenVR::EVRCompositorTimingMode::Explicit_ApplicationPerformsPostPresentHandoff{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

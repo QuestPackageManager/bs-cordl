@@ -24,5 +24,3 @@ inline void UnityEngine::UIElements::ExecuteCommandEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ExecuteCommandEvent::ExecuteCommandEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

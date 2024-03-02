@@ -157,5 +157,3 @@ inline void System::Buffers::ArrayPoolEventSource::BufferTrimPoll(int32_t millis
 }
 // Ctor Parameters []
 constexpr ::System::Buffers::ArrayPoolEventSource::ArrayPoolEventSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

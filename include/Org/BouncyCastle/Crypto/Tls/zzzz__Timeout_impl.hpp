@@ -207,5 +207,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::Timeout::HasExpired(::Org::BouncyCas
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::Timeout::Timeout() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

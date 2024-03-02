@@ -56,5 +56,3 @@ inline ::System::Net::WebRequest* System::Net::FtpWebRequestCreator::Create(::Sy
 }
 // Ctor Parameters []
 constexpr ::System::Net::FtpWebRequestCreator::FtpWebRequestCreator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

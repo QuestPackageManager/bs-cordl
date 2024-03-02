@@ -90,5 +90,3 @@ inline ::System::Object* Org::BouncyCastle::Crmf::PKMacStreamCalculator::GetResu
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::PKMacStreamCalculator::PKMacStreamCalculator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

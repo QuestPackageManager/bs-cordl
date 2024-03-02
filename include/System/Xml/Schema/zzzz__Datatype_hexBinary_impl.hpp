@@ -210,5 +210,3 @@ inline void System::Xml::Schema::Datatype_hexBinary::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_hexBinary::Datatype_hexBinary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

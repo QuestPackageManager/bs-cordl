@@ -15,5 +15,3 @@ constexpr ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem Unity::IO::LowLev
 constexpr ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem::EntitiesScene{ static_cast<int32_t>(0x6) };
 constexpr ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem::EntitiesStreamBinaryReader{ static_cast<int32_t>(0x7) };
 constexpr ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem::FileInfo{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

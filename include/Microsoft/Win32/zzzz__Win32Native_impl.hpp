@@ -43,5 +43,3 @@ inline int32_t Microsoft::Win32::Win32Native::MakeHRFromErrorCode(int32_t errorC
 }
 // Ctor Parameters []
 constexpr ::Microsoft::Win32::Win32Native::Win32Native() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

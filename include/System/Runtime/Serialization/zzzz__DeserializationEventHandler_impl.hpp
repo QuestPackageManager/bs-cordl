@@ -50,5 +50,3 @@ inline void System::Runtime::Serialization::DeserializationEventHandler::Invoke(
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::DeserializationEventHandler::DeserializationEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

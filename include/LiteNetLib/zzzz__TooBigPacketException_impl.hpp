@@ -74,5 +74,3 @@ inline void LiteNetLib::TooBigPacketException::_ctor(::StringW message, ::System
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::TooBigPacketException::TooBigPacketException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

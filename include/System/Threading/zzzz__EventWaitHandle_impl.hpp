@@ -94,5 +94,3 @@ inline bool System::Threading::EventWaitHandle::Set() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::EventWaitHandle::EventWaitHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

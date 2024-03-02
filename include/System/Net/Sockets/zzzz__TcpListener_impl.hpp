@@ -204,5 +204,3 @@ inline ::System::Net::Sockets::TcpClient* System::Net::Sockets::TcpListener::End
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::TcpListener::TcpListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

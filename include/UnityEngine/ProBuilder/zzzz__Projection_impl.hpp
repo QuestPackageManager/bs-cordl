@@ -408,5 +408,3 @@ inline ::UnityEngine::Plane UnityEngine::ProBuilder::Projection::FindBestPlane(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Projection::Projection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

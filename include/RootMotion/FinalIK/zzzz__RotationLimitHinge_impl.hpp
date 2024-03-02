@@ -212,5 +212,3 @@ inline void RootMotion::FinalIK::RotationLimitHinge::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::RotationLimitHinge::RotationLimitHinge() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

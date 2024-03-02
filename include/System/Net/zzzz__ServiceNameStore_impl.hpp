@@ -51,5 +51,3 @@ inline void System::Net::ServiceNameStore::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::ServiceNameStore::ServiceNameStore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

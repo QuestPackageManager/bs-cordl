@@ -51,5 +51,3 @@ inline void Oculus::Platform::Models::AchievementUpdate::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::AchievementUpdate::AchievementUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

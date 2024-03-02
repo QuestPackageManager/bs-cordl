@@ -715,5 +715,3 @@ inline uint8_t Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher::getFlag(bool a
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher::KCcmBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

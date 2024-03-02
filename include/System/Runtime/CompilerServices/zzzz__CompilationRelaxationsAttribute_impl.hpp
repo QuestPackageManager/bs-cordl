@@ -86,5 +86,3 @@ inline int32_t System::Runtime::CompilerServices::CompilationRelaxationsAttribut
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::CompilationRelaxationsAttribute::CompilationRelaxationsAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

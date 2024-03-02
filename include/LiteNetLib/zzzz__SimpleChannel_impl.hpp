@@ -66,5 +66,3 @@ inline bool LiteNetLib::SimpleChannel::ProcessPacket(::LiteNetLib::NetPacket* pa
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::SimpleChannel::SimpleChannel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

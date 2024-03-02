@@ -16,5 +16,3 @@ constexpr ::UnityEngine::UIElements::VectorImageVertex::VectorImageVertex(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VectorImageVertex::VectorImageVertex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

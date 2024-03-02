@@ -89,5 +89,3 @@ inline ::GlobalNamespace::BeatmapObjectData* BeatmapDataLoaderVersion4::ChainIte
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::ChainItemConverter::ChainItemConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

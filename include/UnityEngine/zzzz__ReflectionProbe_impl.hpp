@@ -1563,5 +1563,3 @@ inline void UnityEngine::ReflectionProbe::get_defaultTextureHDRDecodeValues_Inje
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ReflectionProbe::ReflectionProbe() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

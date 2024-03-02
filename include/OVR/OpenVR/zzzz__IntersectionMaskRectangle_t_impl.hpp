@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::IntersectionMaskRectangle_t::IntersectionMaskRectangle_
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IntersectionMaskRectangle_t::IntersectionMaskRectangle_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

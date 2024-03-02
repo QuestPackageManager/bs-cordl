@@ -259,5 +259,3 @@ inline void UnityEngine::InputSystem::Controls::StickControl::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::StickControl::StickControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

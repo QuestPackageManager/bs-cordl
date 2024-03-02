@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Rendering::ReflectionProbeRefreshMode::ReflectionProbeR
 constexpr ::UnityEngine::Rendering::ReflectionProbeRefreshMode UnityEngine::Rendering::ReflectionProbeRefreshMode::OnAwake{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeRefreshMode UnityEngine::Rendering::ReflectionProbeRefreshMode::EveryFrame{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeRefreshMode UnityEngine::Rendering::ReflectionProbeRefreshMode::ViaScripting{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

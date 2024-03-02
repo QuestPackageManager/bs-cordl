@@ -76,5 +76,3 @@ inline void System::InvalidTimeZoneException::_ctor(::System::Runtime::Serializa
 }
 // Ctor Parameters []
 constexpr ::System::InvalidTimeZoneException::InvalidTimeZoneException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

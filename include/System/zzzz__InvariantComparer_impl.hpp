@@ -77,5 +77,3 @@ inline int32_t System::InvariantComparer::Compare(::System::Object* a, ::System:
 }
 // Ctor Parameters []
 constexpr ::System::InvariantComparer::InvariantComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

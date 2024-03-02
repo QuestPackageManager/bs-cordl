@@ -205,5 +205,3 @@ inline void UnityEngine::UI::RawImage::OnDidApplyAnimationProperties() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::RawImage::RawImage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -16,5 +16,3 @@ constexpr ::HoudiniEngineUnity::HAPI_StorageType HoudiniEngineUnity::HAPI_Storag
 constexpr ::HoudiniEngineUnity::HAPI_StorageType HoudiniEngineUnity::HAPI_StorageType::HAPI_STORAGETYPE_INT8{ static_cast<int32_t>(0x6) };
 constexpr ::HoudiniEngineUnity::HAPI_StorageType HoudiniEngineUnity::HAPI_StorageType::HAPI_STORAGETYPE_INT16{ static_cast<int32_t>(0x7) };
 constexpr ::HoudiniEngineUnity::HAPI_StorageType HoudiniEngineUnity::HAPI_StorageType::HAPI_STORAGETYPE_MAX{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

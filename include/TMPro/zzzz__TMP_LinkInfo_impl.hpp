@@ -76,5 +76,3 @@ constexpr ::TMPro::TMP_LinkInfo::TMP_LinkInfo(::UnityW<::TMPro::TMP_Text> textCo
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_LinkInfo::TMP_LinkInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

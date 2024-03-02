@@ -24,5 +24,3 @@ inline void UnityEngine::UnityEngineModuleAssembly::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UnityEngineModuleAssembly::UnityEngineModuleAssembly() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

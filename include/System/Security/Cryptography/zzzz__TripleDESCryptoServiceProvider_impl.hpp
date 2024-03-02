@@ -120,5 +120,3 @@ inline void System::Security::Cryptography::TripleDESCryptoServiceProvider::Gene
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::TripleDESCryptoServiceProvider::TripleDESCryptoServiceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

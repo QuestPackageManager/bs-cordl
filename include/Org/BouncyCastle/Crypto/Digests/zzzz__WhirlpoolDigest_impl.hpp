@@ -628,5 +628,3 @@ inline void Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::Reset(::Org::Bo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::WhirlpoolDigest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

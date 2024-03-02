@@ -445,5 +445,3 @@ inline int32_t System::Xml::XmlName::GetHashCode(::StringW name) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlName::XmlName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -270,5 +270,3 @@ inline void HMUI::SwitchView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::SwitchView::SwitchView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

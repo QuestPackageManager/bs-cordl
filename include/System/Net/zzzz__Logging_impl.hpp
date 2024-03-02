@@ -21,5 +21,3 @@ inline bool System::Net::Logging::get_On() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Logging::Logging() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* Oculus::Platform::Me
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithAssetFileDownloadUpdate::MessageWithAssetFileDownloadUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

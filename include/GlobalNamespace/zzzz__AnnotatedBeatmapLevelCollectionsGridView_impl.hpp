@@ -792,5 +792,3 @@ inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView::AnnotatedBeatmapLevelCollectionsGridView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

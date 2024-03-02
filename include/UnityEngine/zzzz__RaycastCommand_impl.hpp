@@ -406,5 +406,3 @@ constexpr ::UnityEngine::RaycastCommand::RaycastCommand(::UnityEngine::Vector3 _
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RaycastCommand::RaycastCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

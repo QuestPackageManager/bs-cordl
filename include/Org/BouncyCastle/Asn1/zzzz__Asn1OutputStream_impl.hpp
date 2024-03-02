@@ -49,5 +49,3 @@ inline void Org::BouncyCastle::Asn1::Asn1OutputStream::WriteObject(::System::Obj
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1OutputStream::Asn1OutputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

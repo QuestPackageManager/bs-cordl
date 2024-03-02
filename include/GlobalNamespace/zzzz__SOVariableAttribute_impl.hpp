@@ -24,5 +24,3 @@ inline void GlobalNamespace::SOVariableAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SOVariableAttribute::SOVariableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

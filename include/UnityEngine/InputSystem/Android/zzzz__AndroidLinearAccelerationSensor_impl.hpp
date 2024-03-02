@@ -27,5 +27,3 @@ inline void UnityEngine::InputSystem::Android::AndroidLinearAccelerationSensor::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidLinearAccelerationSensor::AndroidLinearAccelerationSensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

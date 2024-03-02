@@ -820,5 +820,3 @@ inline void TMPro::TMP_SpriteAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_SpriteAsset::TMP_SpriteAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

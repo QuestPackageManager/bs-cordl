@@ -67,5 +67,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::g
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::IesWithCipherParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

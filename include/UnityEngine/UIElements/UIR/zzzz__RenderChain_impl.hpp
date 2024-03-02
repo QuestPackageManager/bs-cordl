@@ -2018,5 +2018,3 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::UIR::R
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::RenderChain::RenderChain() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

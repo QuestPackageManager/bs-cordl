@@ -68,5 +68,3 @@ inline void GlobalNamespace::MultiplayerMenuClient::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerMenuClient::MultiplayerMenuClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -112,5 +112,3 @@ inline bool Unity::XR::Oculus::Performance::TryGetDisplayRefreshRate(ByRef<float
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::Performance::Performance() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::X509::Store::NoSuchStoreException::_ctor(::String
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Store::NoSuchStoreException::NoSuchStoreException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

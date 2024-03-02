@@ -809,5 +809,3 @@ inline void GlobalNamespace::AudioClipAsyncLoader::LogError(::StringW message) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioClipAsyncLoader::AudioClipAsyncLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

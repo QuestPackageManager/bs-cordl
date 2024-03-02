@@ -13,5 +13,3 @@ constexpr ::System::Threading::Tasks::InternalTaskOptions System::Threading::Tas
 constexpr ::System::Threading::Tasks::InternalTaskOptions System::Threading::Tasks::InternalTaskOptions::LazyCancellation{ static_cast<int32_t>(0x1000) };
 constexpr ::System::Threading::Tasks::InternalTaskOptions System::Threading::Tasks::InternalTaskOptions::QueuedByRuntime{ static_cast<int32_t>(0x2000) };
 constexpr ::System::Threading::Tasks::InternalTaskOptions System::Threading::Tasks::InternalTaskOptions::DoNotDispose{ static_cast<int32_t>(0x4000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

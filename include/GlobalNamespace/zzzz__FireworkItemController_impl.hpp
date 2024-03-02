@@ -832,5 +832,3 @@ inline ::System::Object* GlobalNamespace::__FireworkItemController___FireCorouti
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__FireworkItemController___FireCoroutine_d__29::__FireworkItemController___FireCoroutine_d__29() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

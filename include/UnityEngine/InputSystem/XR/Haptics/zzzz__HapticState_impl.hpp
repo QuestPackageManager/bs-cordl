@@ -109,5 +109,3 @@ constexpr ::UnityEngine::InputSystem::XR::Haptics::HapticState::HapticState(uint
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::Haptics::HapticState::HapticState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

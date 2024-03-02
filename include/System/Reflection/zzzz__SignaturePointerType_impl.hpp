@@ -157,5 +157,3 @@ inline ::StringW System::Reflection::SignaturePointerType::get_Suffix() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::SignaturePointerType::SignaturePointerType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

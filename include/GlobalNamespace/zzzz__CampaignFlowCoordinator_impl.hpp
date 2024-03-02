@@ -724,5 +724,3 @@ inline void GlobalNamespace::CampaignFlowCoordinator::_HandleMissionResultsViewC
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CampaignFlowCoordinator::CampaignFlowCoordinator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

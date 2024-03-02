@@ -586,5 +586,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Ocsp::BasicOcspRes
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::BasicOcspRespGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

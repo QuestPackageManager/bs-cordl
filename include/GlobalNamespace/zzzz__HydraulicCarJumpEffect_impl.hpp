@@ -220,5 +220,3 @@ inline void GlobalNamespace::HydraulicCarJumpEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HydraulicCarJumpEffect::HydraulicCarJumpEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

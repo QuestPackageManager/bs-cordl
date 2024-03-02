@@ -344,5 +344,3 @@ inline bool GlobalNamespace::PlayerAgreements::AgreedToPlayerSenstivityFlag() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerAgreements::PlayerAgreements() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

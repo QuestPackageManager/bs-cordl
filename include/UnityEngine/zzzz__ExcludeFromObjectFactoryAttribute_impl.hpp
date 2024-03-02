@@ -25,5 +25,3 @@ inline void UnityEngine::ExcludeFromObjectFactoryAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ExcludeFromObjectFactoryAttribute::ExcludeFromObjectFactoryAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

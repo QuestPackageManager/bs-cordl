@@ -158,5 +158,3 @@ inline void System::Xml::DomNameTable::Grow() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::DomNameTable::DomNameTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

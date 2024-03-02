@@ -104,5 +104,3 @@ System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink::AsyncProcessMe
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::ServerObjectTerminatorSink::ServerObjectTerminatorSink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

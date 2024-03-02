@@ -25,5 +25,3 @@ inline void GlobalNamespace::ICertificateValidator::ValidateCertificateChain(::G
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ICertificateValidator*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, endPoint, certificate, certificateChain);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -45,5 +45,3 @@ inline void System::Xml::Schema::Datatype_time::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_time::Datatype_time() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

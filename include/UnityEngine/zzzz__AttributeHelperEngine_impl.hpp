@@ -146,5 +146,3 @@ template <typename T> inline T UnityEngine::AttributeHelperEngine::GetCustomAttr
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AttributeHelperEngine::AttributeHelperEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

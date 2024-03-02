@@ -37,7 +37,7 @@ public:
   }
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator uint8_t() const noexcept {
+  constexpr explicit operator uint8_t() const noexcept {
     return static_cast<uint8_t>(this->value__);
   }
 

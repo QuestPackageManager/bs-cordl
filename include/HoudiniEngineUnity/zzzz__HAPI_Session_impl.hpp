@@ -10,5 +10,3 @@ constexpr ::HoudiniEngineUnity::HAPI_Session::HAPI_Session(::HoudiniEngineUnity:
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_Session::HAPI_Session() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -44,5 +44,3 @@ inline void GlobalNamespace::ObjectiveValueFormatterSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObjectiveValueFormatterSO::ObjectiveValueFormatterSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

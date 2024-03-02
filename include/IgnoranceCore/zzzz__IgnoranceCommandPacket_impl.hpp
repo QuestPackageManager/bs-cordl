@@ -10,5 +10,3 @@ constexpr ::IgnoranceCore::IgnoranceCommandPacket::IgnoranceCommandPacket(::Igno
 }
 // Ctor Parameters []
 constexpr ::IgnoranceCore::IgnoranceCommandPacket::IgnoranceCommandPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

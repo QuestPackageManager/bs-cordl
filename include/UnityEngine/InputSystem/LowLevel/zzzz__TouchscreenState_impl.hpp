@@ -130,5 +130,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::TouchscreenState::TouchscreenSta
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::TouchscreenState::TouchscreenState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

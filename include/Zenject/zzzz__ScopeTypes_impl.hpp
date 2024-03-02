@@ -9,5 +9,3 @@ constexpr ::Zenject::ScopeTypes::ScopeTypes() {}
 constexpr ::Zenject::ScopeTypes Zenject::ScopeTypes::Unset{ static_cast<int32_t>(0x0) };
 constexpr ::Zenject::ScopeTypes Zenject::ScopeTypes::Transient{ static_cast<int32_t>(0x1) };
 constexpr ::Zenject::ScopeTypes Zenject::ScopeTypes::Singleton{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

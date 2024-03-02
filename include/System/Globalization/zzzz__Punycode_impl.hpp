@@ -24,5 +24,3 @@ inline void System::Globalization::Punycode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::Punycode::Punycode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

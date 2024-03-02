@@ -3071,5 +3071,3 @@ inline void GlobalNamespace::OVRPassthroughLayer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPassthroughLayer::OVRPassthroughLayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

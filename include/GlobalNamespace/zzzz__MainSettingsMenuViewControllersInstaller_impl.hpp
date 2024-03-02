@@ -125,5 +125,3 @@ inline void GlobalNamespace::MainSettingsMenuViewControllersInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainSettingsMenuViewControllersInstaller::MainSettingsMenuViewControllersInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -34,5 +34,3 @@ inline void GlobalNamespace::PS5PlatformAdditionalContentModel::_ctor(::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS5PlatformAdditionalContentModel::PS5PlatformAdditionalContentModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

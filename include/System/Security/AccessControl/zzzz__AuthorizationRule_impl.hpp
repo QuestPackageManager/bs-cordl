@@ -123,5 +123,3 @@ inline int32_t System::Security::AccessControl::AuthorizationRule::get_AccessMas
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::AuthorizationRule::AuthorizationRule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

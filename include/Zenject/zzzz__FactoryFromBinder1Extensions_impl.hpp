@@ -379,5 +379,3 @@ Zenject::FactoryFromBinder1Extensions::FromPoolableMemoryPool(::Zenject::Factory
 }
 // Ctor Parameters []
 constexpr ::Zenject::FactoryFromBinder1Extensions::FactoryFromBinder1Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

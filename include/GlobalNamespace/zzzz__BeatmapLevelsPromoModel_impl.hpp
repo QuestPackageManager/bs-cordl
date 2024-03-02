@@ -167,5 +167,3 @@ inline bool GlobalNamespace::BeatmapLevelsPromoModel::IsBeatmapLevelUpdated(::Gl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelsPromoModel::BeatmapLevelsPromoModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

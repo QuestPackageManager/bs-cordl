@@ -264,5 +264,3 @@ inline void UnityEngine::ProBuilder::Shapes::Stairs::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Stairs::Stairs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

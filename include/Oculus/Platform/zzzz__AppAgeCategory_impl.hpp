@@ -9,5 +9,3 @@ constexpr ::Oculus::Platform::AppAgeCategory::AppAgeCategory() {}
 constexpr ::Oculus::Platform::AppAgeCategory Oculus::Platform::AppAgeCategory::Unknown{ static_cast<int32_t>(0x0) };
 constexpr ::Oculus::Platform::AppAgeCategory Oculus::Platform::AppAgeCategory::Ch{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::AppAgeCategory Oculus::Platform::AppAgeCategory::Nch{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

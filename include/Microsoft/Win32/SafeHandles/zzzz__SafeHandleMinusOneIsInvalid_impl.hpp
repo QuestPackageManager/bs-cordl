@@ -49,5 +49,3 @@ inline bool Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::get_IsIn
 }
 // Ctor Parameters []
 constexpr ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid::SafeHandleMinusOneIsInvalid() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

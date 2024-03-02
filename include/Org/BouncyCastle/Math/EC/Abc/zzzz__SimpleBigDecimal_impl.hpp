@@ -552,5 +552,3 @@ inline int32_t Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::GetHashCode()
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::SimpleBigDecimal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

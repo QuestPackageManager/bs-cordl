@@ -266,5 +266,3 @@ inline bool GlobalNamespace::BeatmapLevelMask::Equals(::System::Object* obj) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelMask::BeatmapLevelMask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

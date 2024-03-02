@@ -70,5 +70,3 @@ template <typename T> inline void GlobalNamespace::UndoRedoBuffer_1<T>::Clear() 
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::UndoRedoBuffer_1<T>::UndoRedoBuffer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

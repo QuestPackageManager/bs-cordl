@@ -122,5 +122,3 @@ inline void BGNet::Core::GameLift::PlayerSessionInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGNet::Core::GameLift::PlayerSessionInfo::PlayerSessionInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

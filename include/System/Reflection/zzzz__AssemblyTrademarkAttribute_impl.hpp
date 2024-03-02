@@ -39,5 +39,3 @@ inline void System::Reflection::AssemblyTrademarkAttribute::_ctor(::StringW trad
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyTrademarkAttribute::AssemblyTrademarkAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

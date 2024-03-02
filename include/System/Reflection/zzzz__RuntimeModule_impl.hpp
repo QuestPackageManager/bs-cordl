@@ -335,5 +335,3 @@ inline void System::Reflection::RuntimeModule::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::RuntimeModule::RuntimeModule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

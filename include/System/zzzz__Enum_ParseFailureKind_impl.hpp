@@ -11,5 +11,3 @@ constexpr ::System::__Enum__ParseFailureKind System::__Enum__ParseFailureKind::A
 constexpr ::System::__Enum__ParseFailureKind System::__Enum__ParseFailureKind::ArgumentNull{ static_cast<int32_t>(0x2) };
 constexpr ::System::__Enum__ParseFailureKind System::__Enum__ParseFailureKind::ArgumentWithParameter{ static_cast<int32_t>(0x3) };
 constexpr ::System::__Enum__ParseFailureKind System::__Enum__ParseFailureKind::UnhandledException{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

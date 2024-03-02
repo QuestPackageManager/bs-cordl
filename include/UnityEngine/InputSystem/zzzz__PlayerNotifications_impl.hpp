@@ -10,5 +10,3 @@ constexpr ::UnityEngine::InputSystem::PlayerNotifications UnityEngine::InputSyst
 constexpr ::UnityEngine::InputSystem::PlayerNotifications UnityEngine::InputSystem::PlayerNotifications::BroadcastMessages{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::PlayerNotifications UnityEngine::InputSystem::PlayerNotifications::InvokeUnityEvents{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::InputSystem::PlayerNotifications UnityEngine::InputSystem::PlayerNotifications::InvokeCSharpEvents{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

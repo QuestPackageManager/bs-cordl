@@ -75,5 +75,3 @@ inline void UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::RaycasterManager::RaycasterManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

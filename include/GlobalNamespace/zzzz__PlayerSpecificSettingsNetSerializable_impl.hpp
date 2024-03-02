@@ -213,5 +213,3 @@ inline void GlobalNamespace::PlayerSpecificSettingsNetSerializable::Deserialize(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerSpecificSettingsNetSerializable::PlayerSpecificSettingsNetSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

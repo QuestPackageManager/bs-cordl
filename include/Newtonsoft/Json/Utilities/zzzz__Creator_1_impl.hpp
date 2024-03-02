@@ -30,5 +30,3 @@ template <typename T> inline T Newtonsoft::Json::Utilities::Creator_1<T>::EndInv
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Newtonsoft::Json::Utilities::Creator_1<T>::Creator_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -107,5 +107,3 @@ inline int64_t System::LocalDataStoreElement::get_Cookie() {
 }
 // Ctor Parameters []
 constexpr ::System::LocalDataStoreElement::LocalDataStoreElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

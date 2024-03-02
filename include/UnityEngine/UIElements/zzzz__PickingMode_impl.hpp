@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::PickingMode::PickingMode(int32_t value__) n
 constexpr ::UnityEngine::UIElements::PickingMode::PickingMode() {}
 constexpr ::UnityEngine::UIElements::PickingMode UnityEngine::UIElements::PickingMode::Position{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::PickingMode UnityEngine::UIElements::PickingMode::Ignore{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

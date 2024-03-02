@@ -210,5 +210,3 @@ inline void System::Xml::Schema::Datatype_double::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_double::Datatype_double() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -172,5 +172,3 @@ inline void Zenject::GetFromGameObjectComponentProvider::GetAllInstancesWithInje
 }
 // Ctor Parameters []
 constexpr ::Zenject::GetFromGameObjectComponentProvider::GetFromGameObjectComponentProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

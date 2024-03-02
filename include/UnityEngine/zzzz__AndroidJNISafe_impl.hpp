@@ -2061,5 +2061,3 @@ inline int32_t UnityEngine::AndroidJNISafe::GetArrayLength(void* array) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJNISafe::AndroidJNISafe() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

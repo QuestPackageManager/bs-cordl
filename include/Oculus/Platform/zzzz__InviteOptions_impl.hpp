@@ -114,5 +114,3 @@ inline void Oculus::Platform::InviteOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::InviteOptions::InviteOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

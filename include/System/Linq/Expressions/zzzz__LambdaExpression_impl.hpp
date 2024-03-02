@@ -35,5 +35,3 @@ inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::Lambd
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::LambdaExpression::LambdaExpression() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

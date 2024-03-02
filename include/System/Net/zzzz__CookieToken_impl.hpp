@@ -26,5 +26,3 @@ constexpr ::System::Net::CookieToken System::Net::CookieToken::Secure{ static_ca
 constexpr ::System::Net::CookieToken System::Net::CookieToken::HttpOnly{ static_cast<int32_t>(0x11) };
 constexpr ::System::Net::CookieToken System::Net::CookieToken::Unknown{ static_cast<int32_t>(0x12) };
 constexpr ::System::Net::CookieToken System::Net::CookieToken::Version{ static_cast<int32_t>(0x13) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

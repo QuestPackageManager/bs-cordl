@@ -129,5 +129,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::TypeInformation:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::TypeInformation::TypeInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

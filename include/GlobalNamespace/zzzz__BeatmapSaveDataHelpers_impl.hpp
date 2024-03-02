@@ -124,5 +124,3 @@ inline ::System::Version* GlobalNamespace::BeatmapSaveDataHelpers::GetVersion(::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapSaveDataHelpers::BeatmapSaveDataHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

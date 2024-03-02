@@ -12,5 +12,3 @@ constexpr ::System::IO::FileMode System::IO::FileMode::Open{ static_cast<int32_t
 constexpr ::System::IO::FileMode System::IO::FileMode::OpenOrCreate{ static_cast<int32_t>(0x4) };
 constexpr ::System::IO::FileMode System::IO::FileMode::Truncate{ static_cast<int32_t>(0x5) };
 constexpr ::System::IO::FileMode System::IO::FileMode::Append{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

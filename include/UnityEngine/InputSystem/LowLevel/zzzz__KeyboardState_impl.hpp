@@ -149,5 +149,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::KeyboardState::KeyboardState(::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::KeyboardState::KeyboardState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

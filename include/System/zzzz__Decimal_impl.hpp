@@ -2876,5 +2876,3 @@ constexpr ::System::Decimal::Decimal(int32_t flags, int32_t hi, int32_t lo, int3
 }
 // Ctor Parameters []
 constexpr ::System::Decimal::Decimal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

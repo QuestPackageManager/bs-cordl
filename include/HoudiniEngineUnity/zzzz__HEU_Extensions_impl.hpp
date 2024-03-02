@@ -301,5 +301,3 @@ inline ::UnityEngine::Vector3 HoudiniEngineUnity::HEU_Extensions::DecomposeToSca
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Extensions::HEU_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

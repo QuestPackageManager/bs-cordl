@@ -20,5 +20,3 @@ inline void System::Action_6<T1, T2, T3, T4, T5, T6>::Invoke(T1 arg1, T2 arg2, T
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> constexpr ::System::Action_6<T1, T2, T3, T4, T5, T6>::Action_6() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

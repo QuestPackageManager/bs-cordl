@@ -72,5 +72,3 @@ inline void BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::StaticAvatarVisualDataProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ template <typename TResult> inline TResult System::Threading::Tasks::Sources::IV
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<TResult, false>(this, ___internal_method, token);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

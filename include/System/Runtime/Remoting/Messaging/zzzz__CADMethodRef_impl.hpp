@@ -130,5 +130,3 @@ inline void System::Runtime::Remoting::Messaging::CADMethodRef::_ctor(::System::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::CADMethodRef::CADMethodRef() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

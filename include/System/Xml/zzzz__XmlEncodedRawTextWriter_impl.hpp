@@ -1571,5 +1571,3 @@ inline void System::Xml::XmlEncodedRawTextWriter::ValidateContentChars(::StringW
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlEncodedRawTextWriter::XmlEncodedRawTextWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

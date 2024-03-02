@@ -294,5 +294,3 @@ constexpr ::TMPro::FloatTween::FloatTween(::TMPro::__FloatTween__FloatTweenCallb
 }
 // Ctor Parameters []
 constexpr ::TMPro::FloatTween::FloatTween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

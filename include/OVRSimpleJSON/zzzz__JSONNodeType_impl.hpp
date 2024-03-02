@@ -14,5 +14,3 @@ constexpr ::OVRSimpleJSON::JSONNodeType OVRSimpleJSON::JSONNodeType::NullValue{ 
 constexpr ::OVRSimpleJSON::JSONNodeType OVRSimpleJSON::JSONNodeType::Boolean{ static_cast<int32_t>(0x6) };
 constexpr ::OVRSimpleJSON::JSONNodeType OVRSimpleJSON::JSONNodeType::None{ static_cast<int32_t>(0x7) };
 constexpr ::OVRSimpleJSON::JSONNodeType OVRSimpleJSON::JSONNodeType::Custom{ static_cast<int32_t>(0xff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

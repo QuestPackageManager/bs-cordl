@@ -39,5 +39,3 @@ inline void GlobalNamespace::SonyFirstPersonFlyingControllerHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyFirstPersonFlyingControllerHandler::SonyFirstPersonFlyingControllerHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

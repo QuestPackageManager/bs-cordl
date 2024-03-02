@@ -75,5 +75,3 @@ inline void GlobalNamespace::BoolSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BoolSettingsController::BoolSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

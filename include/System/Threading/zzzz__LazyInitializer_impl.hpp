@@ -85,5 +85,3 @@ inline ::System::Object* System::Threading::LazyInitializer::EnsureLockInitializ
 }
 // Ctor Parameters []
 constexpr ::System::Threading::LazyInitializer::LazyInitializer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

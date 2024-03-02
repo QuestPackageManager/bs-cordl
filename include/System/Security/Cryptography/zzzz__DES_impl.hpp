@@ -181,5 +181,3 @@ inline uint64_t System::Security::Cryptography::DES::QuadWordFromBigEndian(::Arr
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::DES::DES() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

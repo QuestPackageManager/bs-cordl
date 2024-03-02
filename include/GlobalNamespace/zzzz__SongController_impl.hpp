@@ -226,5 +226,3 @@ inline void GlobalNamespace::SongController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongController::SongController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

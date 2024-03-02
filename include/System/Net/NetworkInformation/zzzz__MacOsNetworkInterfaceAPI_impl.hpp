@@ -89,5 +89,3 @@ System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::GetAllNetworkInterfac
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::MacOsNetworkInterfaceAPI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

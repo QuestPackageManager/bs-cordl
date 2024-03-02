@@ -1179,5 +1179,3 @@ inline void System::Net::WebRequestStream::Close_internal(ByRef<bool> disposed) 
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebRequestStream::WebRequestStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

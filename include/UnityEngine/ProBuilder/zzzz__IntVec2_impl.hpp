@@ -280,5 +280,3 @@ constexpr ::UnityEngine::ProBuilder::IntVec2::IntVec2(::UnityEngine::Vector2 val
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::IntVec2::IntVec2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

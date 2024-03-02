@@ -1036,5 +1036,3 @@ inline void Tayx::Graphy::GraphyDebugger::ExecuteOperationsInDebugPacket(::Tayx:
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::GraphyDebugger::GraphyDebugger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

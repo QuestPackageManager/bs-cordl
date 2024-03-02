@@ -112,5 +112,3 @@ inline void System::Security::Cryptography::RC2::set_KeySize(int32_t value) {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RC2::RC2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

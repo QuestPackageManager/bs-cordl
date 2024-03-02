@@ -616,5 +616,3 @@ inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSigne
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

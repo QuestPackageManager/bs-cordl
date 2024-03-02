@@ -68,5 +68,3 @@ inline void BeatSaber::AvatarCore::ConnectedPlayerName::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::ConnectedPlayerName::ConnectedPlayerName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

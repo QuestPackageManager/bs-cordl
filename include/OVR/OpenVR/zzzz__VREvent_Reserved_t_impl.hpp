@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::VREvent_Reserved_t::VREvent_Reserved_t(uint64_t reserve
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Reserved_t::VREvent_Reserved_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

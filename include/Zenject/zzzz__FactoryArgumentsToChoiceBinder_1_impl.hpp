@@ -128,5 +128,3 @@ Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::WithFactoryArgumentsExplic
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>::FactoryArgumentsToChoiceBinder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

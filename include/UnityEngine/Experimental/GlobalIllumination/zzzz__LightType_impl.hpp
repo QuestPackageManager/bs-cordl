@@ -13,5 +13,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::LightType UnityEngine
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LightType UnityEngine::Experimental::GlobalIllumination::LightType::Disc{ static_cast<uint8_t>(0x4u) };
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LightType UnityEngine::Experimental::GlobalIllumination::LightType::SpotPyramidShape{ static_cast<uint8_t>(0x5u) };
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LightType UnityEngine::Experimental::GlobalIllumination::LightType::SpotBoxShape{ static_cast<uint8_t>(0x6u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

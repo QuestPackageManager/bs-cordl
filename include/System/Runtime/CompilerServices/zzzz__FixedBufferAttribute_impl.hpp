@@ -92,5 +92,3 @@ inline int32_t System::Runtime::CompilerServices::FixedBufferAttribute::get_Leng
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::FixedBufferAttribute::FixedBufferAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

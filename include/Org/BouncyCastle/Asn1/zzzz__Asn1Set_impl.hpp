@@ -522,5 +522,3 @@ inline ::StringW Org::BouncyCastle::Asn1::Asn1Set::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1Set::Asn1Set() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

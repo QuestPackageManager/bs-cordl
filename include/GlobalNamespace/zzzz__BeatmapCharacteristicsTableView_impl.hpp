@@ -362,5 +362,3 @@ inline void GlobalNamespace::BeatmapCharacteristicsTableView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicsTableView::BeatmapCharacteristicsTableView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

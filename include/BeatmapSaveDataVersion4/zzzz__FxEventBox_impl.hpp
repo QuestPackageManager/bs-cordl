@@ -18,5 +18,3 @@ constexpr ::BeatmapSaveDataVersion4::FxEventBox::FxEventBox(float_t w, ::Beatmap
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::FxEventBox::FxEventBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

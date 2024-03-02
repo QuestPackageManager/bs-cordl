@@ -228,5 +228,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Bcpg::Attr::Image
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib::ImageAttrib() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

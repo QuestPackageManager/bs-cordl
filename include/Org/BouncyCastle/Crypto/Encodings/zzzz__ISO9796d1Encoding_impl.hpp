@@ -348,5 +348,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Encodings
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::ISO9796d1Encoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

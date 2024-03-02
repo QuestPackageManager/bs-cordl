@@ -48,5 +48,3 @@ constexpr ::HoudiniEngineUnity::HAPI_PDG_EventType HoudiniEngineUnity::HAPI_PDG_
 constexpr ::HoudiniEngineUnity::HAPI_PDG_EventType HoudiniEngineUnity::HAPI_PDG_EventType::HAPI_PDG_EVENT_SET_SCHEDULER{ static_cast<int32_t>(0x27) };
 constexpr ::HoudiniEngineUnity::HAPI_PDG_EventType HoudiniEngineUnity::HAPI_PDG_EventType::HAPI_PDG_EVENT_SERVICE_MANAGER_ALL{ static_cast<int32_t>(0x28) };
 constexpr ::HoudiniEngineUnity::HAPI_PDG_EventType HoudiniEngineUnity::HAPI_PDG_EventType::HAPI_PDG_CONTEXT_EVENTS{ static_cast<int32_t>(0x29) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

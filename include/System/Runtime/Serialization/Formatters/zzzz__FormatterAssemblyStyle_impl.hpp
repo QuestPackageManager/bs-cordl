@@ -8,5 +8,3 @@ constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle::
 constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle::FormatterAssemblyStyle() {}
 constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle System::Runtime::Serialization::Formatters::FormatterAssemblyStyle::Simple{ static_cast<int32_t>(0x0) };
 constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle System::Runtime::Serialization::Formatters::FormatterAssemblyStyle::Full{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

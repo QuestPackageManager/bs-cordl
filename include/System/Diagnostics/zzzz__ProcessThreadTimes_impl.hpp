@@ -92,5 +92,3 @@ inline void System::Diagnostics::ProcessThreadTimes::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::ProcessThreadTimes::ProcessThreadTimes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

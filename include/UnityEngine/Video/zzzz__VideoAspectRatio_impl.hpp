@@ -12,5 +12,3 @@ constexpr ::UnityEngine::Video::VideoAspectRatio UnityEngine::Video::VideoAspect
 constexpr ::UnityEngine::Video::VideoAspectRatio UnityEngine::Video::VideoAspectRatio::FitInside{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Video::VideoAspectRatio UnityEngine::Video::VideoAspectRatio::FitOutside{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Video::VideoAspectRatio UnityEngine::Video::VideoAspectRatio::Stretch{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

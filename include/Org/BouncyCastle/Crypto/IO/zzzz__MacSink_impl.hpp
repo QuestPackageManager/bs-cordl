@@ -99,5 +99,3 @@ inline void Org::BouncyCastle::Crypto::IO::MacSink::Write(::ArrayW<uint8_t, ::Ar
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::IO::MacSink::MacSink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

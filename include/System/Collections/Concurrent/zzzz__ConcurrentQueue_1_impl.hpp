@@ -583,5 +583,3 @@ template <typename T> inline bool System::Collections::Concurrent::ConcurrentQue
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<T>::ConcurrentQueue_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

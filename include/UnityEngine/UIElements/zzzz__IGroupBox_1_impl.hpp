@@ -9,5 +9,3 @@ template <typename T> constexpr UnityEngine::UIElements::IGroupBox_1<T>::operato
 template <typename T> constexpr ::UnityEngine::UIElements::IGroupBox* UnityEngine::UIElements::IGroupBox_1<T>::i___UnityEngine__UIElements__IGroupBox() noexcept {
   return static_cast<::UnityEngine::UIElements::IGroupBox*>(static_cast<void*>(this));
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

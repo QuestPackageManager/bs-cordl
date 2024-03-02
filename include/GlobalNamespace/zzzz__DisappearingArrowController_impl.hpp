@@ -59,5 +59,3 @@ inline void GlobalNamespace::DisappearingArrowController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisappearingArrowController::DisappearingArrowController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

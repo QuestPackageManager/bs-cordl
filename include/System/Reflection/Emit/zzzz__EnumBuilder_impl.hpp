@@ -694,5 +694,3 @@ inline bool System::Reflection::Emit::EnumBuilder::IsPrimitiveImpl() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::EnumBuilder::EnumBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

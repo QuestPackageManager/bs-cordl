@@ -11,5 +11,3 @@ constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::Networ
 constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFFLAGS{ static_cast<uint32_t>(0x286911f0u) };
 constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFNETMASK{ static_cast<uint32_t>(0x286925f0u) };
 constexpr ::System::Net::NetworkInformation::AixIoctlRequest System::Net::NetworkInformation::AixIoctlRequest::SIOCGIFMTU{ static_cast<uint32_t>(0x286956f0u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

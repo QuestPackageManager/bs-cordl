@@ -40,5 +40,3 @@ constexpr ::System::ParsingInfo::ParsingInfo(::System::Globalization::Calendar* 
 }
 // Ctor Parameters []
 constexpr ::System::ParsingInfo::ParsingInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

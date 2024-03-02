@@ -122,5 +122,3 @@ UnityEngine::Timeline::Extrapolation::SortClipsByStartTime(::ArrayW<::UnityEngin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::Extrapolation::Extrapolation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

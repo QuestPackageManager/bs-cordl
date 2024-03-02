@@ -210,5 +210,3 @@ inline ::StringW System::Security::Cryptography::AsymmetricAlgorithm::ToXmlStrin
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::AsymmetricAlgorithm::AsymmetricAlgorithm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

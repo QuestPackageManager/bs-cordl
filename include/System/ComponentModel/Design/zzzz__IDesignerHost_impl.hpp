@@ -53,5 +53,3 @@ inline ::System::ComponentModel::Design::IDesigner* System::ComponentModel::Desi
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::Design::IDesignerHost*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::Design::IDesigner*, false>(this, ___internal_method, component);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -16,5 +16,3 @@ constexpr ::UnityEngine::ProBuilder::MeshArrays UnityEngine::ProBuilder::MeshArr
 constexpr ::UnityEngine::ProBuilder::MeshArrays UnityEngine::ProBuilder::MeshArrays::Normal{ static_cast<int32_t>(0x40) };
 constexpr ::UnityEngine::ProBuilder::MeshArrays UnityEngine::ProBuilder::MeshArrays::Tangent{ static_cast<int32_t>(0x80) };
 constexpr ::UnityEngine::ProBuilder::MeshArrays UnityEngine::ProBuilder::MeshArrays::All{ static_cast<int32_t>(0xff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -259,5 +259,3 @@ inline void BeatmapSaveDataVersion3::LightColorBaseData::_ctor(float_t beat, ::B
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightColorBaseData::LightColorBaseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -125,5 +125,3 @@ inline void Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2> constexpr ::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>::SubContainerCreatorByNewGameObjectMethod_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

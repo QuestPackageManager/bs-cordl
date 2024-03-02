@@ -1070,5 +1070,3 @@ inline void Mono::Xml::SmallXmlParser::ReadComment() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Xml::SmallXmlParser::SmallXmlParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

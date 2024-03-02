@@ -473,5 +473,3 @@ template <typename TKey, typename TValue> inline ::System::Object* Newtonsoft::J
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>::DictionaryWrapper_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

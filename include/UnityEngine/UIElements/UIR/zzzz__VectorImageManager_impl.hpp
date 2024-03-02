@@ -334,5 +334,3 @@ inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* UnityEngine::UIEle
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::VectorImageManager::VectorImageManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

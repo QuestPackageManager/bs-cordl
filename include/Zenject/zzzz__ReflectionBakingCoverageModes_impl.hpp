@@ -9,5 +9,3 @@ constexpr ::Zenject::ReflectionBakingCoverageModes::ReflectionBakingCoverageMode
 constexpr ::Zenject::ReflectionBakingCoverageModes Zenject::ReflectionBakingCoverageModes::FallbackToDirectReflection{ static_cast<int32_t>(0x0) };
 constexpr ::Zenject::ReflectionBakingCoverageModes Zenject::ReflectionBakingCoverageModes::NoCheckAssumeFullCoverage{ static_cast<int32_t>(0x1) };
 constexpr ::Zenject::ReflectionBakingCoverageModes Zenject::ReflectionBakingCoverageModes::FallbackToDirectReflectionWithWarning{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -279,5 +279,3 @@ inline void UnityEngine::UIElements::MeshWriteData::Reset(::Unity::Collections::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MeshWriteData::MeshWriteData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

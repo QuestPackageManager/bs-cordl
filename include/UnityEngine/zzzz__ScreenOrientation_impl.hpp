@@ -13,5 +13,3 @@ constexpr ::UnityEngine::ScreenOrientation UnityEngine::ScreenOrientation::Portr
 constexpr ::UnityEngine::ScreenOrientation UnityEngine::ScreenOrientation::LandscapeLeft{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::ScreenOrientation UnityEngine::ScreenOrientation::LandscapeRight{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::ScreenOrientation UnityEngine::ScreenOrientation::AutoRotation{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

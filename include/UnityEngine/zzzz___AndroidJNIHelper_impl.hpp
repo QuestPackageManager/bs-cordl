@@ -434,5 +434,3 @@ inline void UnityEngine::_AndroidJNIHelper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::_AndroidJNIHelper::_AndroidJNIHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

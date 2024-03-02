@@ -9,5 +9,3 @@ constexpr ::Newtonsoft::Json::StringEscapeHandling::StringEscapeHandling() {}
 constexpr ::Newtonsoft::Json::StringEscapeHandling Newtonsoft::Json::StringEscapeHandling::Default{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::StringEscapeHandling Newtonsoft::Json::StringEscapeHandling::EscapeNonAscii{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::StringEscapeHandling Newtonsoft::Json::StringEscapeHandling::EscapeHtml{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

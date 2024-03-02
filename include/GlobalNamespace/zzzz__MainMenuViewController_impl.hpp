@@ -522,5 +522,3 @@ inline void GlobalNamespace::MainMenuViewController::_DidActivate_b__19_7() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainMenuViewController::MainMenuViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

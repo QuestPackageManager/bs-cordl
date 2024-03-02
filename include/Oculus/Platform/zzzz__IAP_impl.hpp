@@ -150,5 +150,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>*
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::IAP::IAP() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

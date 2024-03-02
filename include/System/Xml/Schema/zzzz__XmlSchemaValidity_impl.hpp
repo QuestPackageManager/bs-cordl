@@ -9,5 +9,3 @@ constexpr ::System::Xml::Schema::XmlSchemaValidity::XmlSchemaValidity() {}
 constexpr ::System::Xml::Schema::XmlSchemaValidity System::Xml::Schema::XmlSchemaValidity::NotKnown{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::Schema::XmlSchemaValidity System::Xml::Schema::XmlSchemaValidity::Valid{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::Schema::XmlSchemaValidity System::Xml::Schema::XmlSchemaValidity::Invalid{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

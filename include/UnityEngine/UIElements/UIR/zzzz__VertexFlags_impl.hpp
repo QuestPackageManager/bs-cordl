@@ -13,5 +13,3 @@ constexpr ::UnityEngine::UIElements::UIR::VertexFlags UnityEngine::UIElements::U
 constexpr ::UnityEngine::UIElements::UIR::VertexFlags UnityEngine::UIElements::UIR::VertexFlags::IsSvgGradients{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::UIR::VertexFlags UnityEngine::UIElements::UIR::VertexFlags::LastType{ static_cast<int32_t>(0xa) };
 constexpr ::UnityEngine::UIElements::UIR::VertexFlags UnityEngine::UIElements::UIR::VertexFlags::IsGraphViewEdge{ static_cast<int32_t>(0xa) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

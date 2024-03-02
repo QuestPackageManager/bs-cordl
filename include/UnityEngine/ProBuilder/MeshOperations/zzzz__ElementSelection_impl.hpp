@@ -1427,5 +1427,3 @@ inline ::UnityEngine::ProBuilder::WingedEdge* UnityEngine::ProBuilder::MeshOpera
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::ElementSelection::ElementSelection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

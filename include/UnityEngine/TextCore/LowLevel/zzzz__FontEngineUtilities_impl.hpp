@@ -24,5 +24,3 @@ inline int32_t UnityEngine::TextCore::LowLevel::FontEngineUtilities::MaxValue(in
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::LowLevel::FontEngineUtilities::FontEngineUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

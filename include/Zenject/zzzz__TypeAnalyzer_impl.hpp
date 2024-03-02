@@ -411,5 +411,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::TypeAnalyzer::CreateTypeInfoFromRefle
 }
 // Ctor Parameters []
 constexpr ::Zenject::TypeAnalyzer::TypeAnalyzer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -63,5 +63,3 @@ inline void System::Xml::IncrementalReadDecoder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::IncrementalReadDecoder::IncrementalReadDecoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

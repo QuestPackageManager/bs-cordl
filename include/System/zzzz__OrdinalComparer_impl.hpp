@@ -134,5 +134,3 @@ inline int32_t System::OrdinalComparer::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::OrdinalComparer::OrdinalComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -296,5 +296,3 @@ inline void UnityEngine::InputSystem::XInput::XInputController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XInput::XInputController::XInputController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

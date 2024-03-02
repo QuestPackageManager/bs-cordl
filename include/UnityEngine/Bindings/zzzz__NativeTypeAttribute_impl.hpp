@@ -200,5 +200,3 @@ inline void UnityEngine::Bindings::NativeTypeAttribute::_ctor(::UnityEngine::Bin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::NativeTypeAttribute::NativeTypeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

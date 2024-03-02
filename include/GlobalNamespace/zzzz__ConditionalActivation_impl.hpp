@@ -67,5 +67,3 @@ inline void GlobalNamespace::ConditionalActivation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConditionalActivation::ConditionalActivation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

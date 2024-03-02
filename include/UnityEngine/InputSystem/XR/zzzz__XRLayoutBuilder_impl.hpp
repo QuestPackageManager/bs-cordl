@@ -324,5 +324,3 @@ inline void UnityEngine::InputSystem::XR::XRLayoutBuilder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::XRLayoutBuilder::XRLayoutBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -31,5 +31,3 @@ template <typename T> inline void GlobalNamespace::ISyncStateDeltaSerializable_1
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISyncStateDeltaSerializable_1<T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

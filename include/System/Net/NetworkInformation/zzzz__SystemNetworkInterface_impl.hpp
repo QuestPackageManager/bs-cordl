@@ -37,5 +37,3 @@ System::Net::NetworkInformation::SystemNetworkInterface::GetNetworkInterfaces() 
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::SystemNetworkInterface::SystemNetworkInterface() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

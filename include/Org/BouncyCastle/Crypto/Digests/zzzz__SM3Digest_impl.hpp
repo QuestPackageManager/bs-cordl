@@ -450,5 +450,3 @@ inline void Org::BouncyCastle::Crypto::Digests::SM3Digest::ProcessBlock() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::SM3Digest::SM3Digest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

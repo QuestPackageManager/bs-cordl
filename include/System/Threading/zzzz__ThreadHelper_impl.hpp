@@ -152,5 +152,3 @@ inline void System::Threading::ThreadHelper::ThreadStart() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ThreadHelper::ThreadHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

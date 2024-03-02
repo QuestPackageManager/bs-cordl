@@ -213,5 +213,3 @@ inline void GlobalNamespace::ColorTransitionSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorTransitionSO::ColorTransitionSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

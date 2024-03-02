@@ -149,5 +149,3 @@ inline void UnityEngine::TextCore::Text::TextColorGradient::_ctor(::UnityEngine:
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextColorGradient::TextColorGradient() {}
 constexpr ::UnityEngine::TextCore::Text::ColorGradientMode UnityEngine::TextCore::Text::TextColorGradient::k_DefaultColorMode{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

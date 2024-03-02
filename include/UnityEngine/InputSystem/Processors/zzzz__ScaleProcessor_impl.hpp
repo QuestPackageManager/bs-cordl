@@ -82,5 +82,3 @@ inline void UnityEngine::InputSystem::Processors::ScaleProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Processors::ScaleProcessor::ScaleProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

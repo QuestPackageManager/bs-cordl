@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::EnvironmentType GlobalNamespace::EnvironmentType::N
 constexpr ::GlobalNamespace::EnvironmentType GlobalNamespace::EnvironmentType::Circle{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::EnvironmentType GlobalNamespace::EnvironmentType::Multiplayer{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::EnvironmentType GlobalNamespace::EnvironmentType::Tutorial{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

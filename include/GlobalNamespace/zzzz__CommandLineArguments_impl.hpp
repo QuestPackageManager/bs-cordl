@@ -61,5 +61,3 @@ inline ::StringW GlobalNamespace::CommandLineArguments::GetParameter(::StringW a
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CommandLineArguments::CommandLineArguments() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -608,5 +608,3 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
 }
 // Ctor Parameters []
 template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1<TValueType>::BaseSlider_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

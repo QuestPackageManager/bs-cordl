@@ -392,5 +392,3 @@ inline void Org::BouncyCastle::Crypto::Digests::MD2Digest::Reset(::Org::BouncyCa
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::MD2Digest::MD2Digest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

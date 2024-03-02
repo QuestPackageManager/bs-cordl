@@ -24,5 +24,3 @@ inline void JetBrains::Annotations::NotNullAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::NotNullAttribute::NotNullAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

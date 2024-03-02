@@ -265,5 +265,3 @@ inline void UnityEngine::XR::WindowsMR::Input::HololensHand::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::WindowsMR::Input::HololensHand::HololensHand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

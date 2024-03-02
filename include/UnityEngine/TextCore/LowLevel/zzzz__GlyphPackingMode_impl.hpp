@@ -11,5 +11,3 @@ constexpr ::UnityEngine::TextCore::LowLevel::GlyphPackingMode UnityEngine::TextC
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphPackingMode UnityEngine::TextCore::LowLevel::GlyphPackingMode::BestAreaFit{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphPackingMode UnityEngine::TextCore::LowLevel::GlyphPackingMode::BottomLeftRule{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::TextCore::LowLevel::GlyphPackingMode UnityEngine::TextCore::LowLevel::GlyphPackingMode::ContactPointRule{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

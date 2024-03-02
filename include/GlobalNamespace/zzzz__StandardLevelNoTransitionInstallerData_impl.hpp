@@ -549,5 +549,3 @@ inline void GlobalNamespace::StandardLevelNoTransitionInstallerData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelNoTransitionInstallerData::StandardLevelNoTransitionInstallerData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

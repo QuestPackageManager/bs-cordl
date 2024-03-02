@@ -79,5 +79,3 @@ template <typename P1, typename P2, typename P3, typename P4, typename T> inline
 }
 // Ctor Parameters []
 template <typename P1, typename P2, typename P3, typename P4, typename T> constexpr ::Zenject::PrefabFactory_5<P1, P2, P3, P4, T>::PrefabFactory_5() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

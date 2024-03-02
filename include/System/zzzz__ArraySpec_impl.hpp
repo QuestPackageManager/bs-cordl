@@ -121,5 +121,3 @@ inline ::StringW System::ArraySpec::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::ArraySpec::ArraySpec() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -370,5 +370,3 @@ Org::BouncyCastle::Asn1::Asn1InputStream::CreatePrimitiveDerObject(int32_t tagNo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1InputStream::Asn1InputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

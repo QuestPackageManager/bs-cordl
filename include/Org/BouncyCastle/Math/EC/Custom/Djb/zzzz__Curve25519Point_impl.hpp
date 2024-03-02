@@ -337,5 +337,3 @@ inline ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* Org::BouncyC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point::Curve25519Point() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -192,5 +192,3 @@ template <typename T> inline bool System::Runtime::CompilerServices::RuntimeHelp
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::RuntimeHelpers::RuntimeHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

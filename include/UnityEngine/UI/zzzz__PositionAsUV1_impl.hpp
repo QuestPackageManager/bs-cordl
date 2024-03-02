@@ -45,5 +45,3 @@ inline void UnityEngine::UI::PositionAsUV1::ModifyMesh(::UnityEngine::UI::Vertex
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::PositionAsUV1::PositionAsUV1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

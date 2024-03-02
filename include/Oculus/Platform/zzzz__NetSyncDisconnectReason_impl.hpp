@@ -11,5 +11,3 @@ constexpr ::Oculus::Platform::NetSyncDisconnectReason Oculus::Platform::NetSyncD
 constexpr ::Oculus::Platform::NetSyncDisconnectReason Oculus::Platform::NetSyncDisconnectReason::ServerTerminated{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::NetSyncDisconnectReason Oculus::Platform::NetSyncDisconnectReason::Failed{ static_cast<int32_t>(0x3) };
 constexpr ::Oculus::Platform::NetSyncDisconnectReason Oculus::Platform::NetSyncDisconnectReason::Lost{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

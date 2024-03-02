@@ -30,5 +30,3 @@ template <typename T> constexpr ::UnityEngine::Pool::PooledObject_1<T>::PooledOb
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::Pool::PooledObject_1<T>::PooledObject_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

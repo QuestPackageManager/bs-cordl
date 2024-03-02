@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UIElements::UIR::RenderChainTextEntry::RenderChainTextE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::RenderChainTextEntry::RenderChainTextEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

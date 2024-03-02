@@ -157,5 +157,3 @@ inline void ModestTree::Log::Error(::StringW message, ::ArrayW<::System::Object*
 }
 // Ctor Parameters []
 constexpr ::ModestTree::Log::Log() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

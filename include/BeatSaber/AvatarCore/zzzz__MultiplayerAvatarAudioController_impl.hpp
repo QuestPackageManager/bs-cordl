@@ -291,5 +291,3 @@ inline void BeatSaber::AvatarCore::MultiplayerAvatarAudioController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::MultiplayerAvatarAudioController::MultiplayerAvatarAudioController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -67,5 +67,3 @@ inline void Oculus::Platform::AndroidPlatform::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::AndroidPlatform::AndroidPlatform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

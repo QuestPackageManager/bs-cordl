@@ -191,5 +191,3 @@ inline ::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter Syste
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::YieldAwaitable::YieldAwaitable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

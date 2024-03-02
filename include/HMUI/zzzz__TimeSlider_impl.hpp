@@ -65,5 +65,3 @@ inline void HMUI::TimeSlider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::TimeSlider::TimeSlider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

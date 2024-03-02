@@ -49,5 +49,3 @@ constexpr ::System::Runtime::InteropServices::HandleRef::HandleRef(::System::Obj
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::HandleRef::HandleRef() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

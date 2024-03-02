@@ -91,5 +91,3 @@ inline void UnityEngine::UIElements::VectorImage::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VectorImage::VectorImage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

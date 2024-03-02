@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::ShareMediaResult* Oculus::Platform::MessageWi
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithShareMediaResult::MessageWithShareMediaResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

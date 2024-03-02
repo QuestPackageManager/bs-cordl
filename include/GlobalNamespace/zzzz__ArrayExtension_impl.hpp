@@ -24,5 +24,3 @@ inline bool GlobalNamespace::ArrayExtension::IsValidIndex(::System::Array* array
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ArrayExtension::ArrayExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -404,5 +404,3 @@ inline void UnityEngine::UI::ToggleGroup::SetAllTogglesOff(bool sendCallback) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::ToggleGroup::ToggleGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

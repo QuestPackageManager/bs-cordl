@@ -114,5 +114,3 @@ inline ::UnityW<::TMPro::TMP_FontAsset> TMPro::TMP_FontUtilities::SearchForChara
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_FontUtilities::TMP_FontUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

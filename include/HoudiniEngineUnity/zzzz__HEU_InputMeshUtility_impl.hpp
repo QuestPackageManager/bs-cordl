@@ -265,5 +265,3 @@ inline bool HoudiniEngineUnity::HEU_InputMeshUtility::SetMeshDetailAttribute(::H
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputMeshUtility::HEU_InputMeshUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

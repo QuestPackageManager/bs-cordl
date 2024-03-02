@@ -96,5 +96,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Crypto::Operators:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider::Asn1VerifierFactoryProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

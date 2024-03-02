@@ -540,5 +540,3 @@ inline void BeatmapDataLoaderVersion4::BeatmapDataLoader::ConvertEventBoxGroups(
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::BeatmapDataLoader::BeatmapDataLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

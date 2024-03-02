@@ -65,5 +65,3 @@ template <typename A, typename B> inline void TMPro::FastAction_2<A, B>::_ctor()
 }
 // Ctor Parameters []
 template <typename A, typename B> constexpr ::TMPro::FastAction_2<A, B>::FastAction_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

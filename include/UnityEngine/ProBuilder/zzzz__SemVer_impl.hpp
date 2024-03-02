@@ -702,5 +702,3 @@ inline int32_t UnityEngine::ProBuilder::SemVer::GetBuildNumber(::StringW input) 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::SemVer::SemVer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

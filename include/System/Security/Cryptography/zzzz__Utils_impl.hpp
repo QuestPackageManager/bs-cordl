@@ -344,5 +344,3 @@ inline bool System::Security::Cryptography::Utils::_ProduceLegacyHmacValues() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::Utils::Utils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

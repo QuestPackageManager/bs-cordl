@@ -133,5 +133,3 @@ constexpr ::Mono::SafeStringMarshal::SafeStringMarshal(::StringW str, void* mars
 }
 // Ctor Parameters []
 constexpr ::Mono::SafeStringMarshal::SafeStringMarshal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

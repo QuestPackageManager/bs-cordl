@@ -282,5 +282,3 @@ inline void GlobalNamespace::KawaseBloomMainEffectSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::KawaseBloomMainEffectSO::KawaseBloomMainEffectSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -742,5 +742,3 @@ inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int6
 }
 // Ctor Parameters []
 constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GameLiftPlayerSessionProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

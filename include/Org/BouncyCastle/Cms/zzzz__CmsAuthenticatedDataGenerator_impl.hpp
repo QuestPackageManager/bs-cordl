@@ -103,5 +103,3 @@ inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* Org::BouncyCastle::Cms::C
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsAuthenticatedDataGenerator::CmsAuthenticatedDataGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

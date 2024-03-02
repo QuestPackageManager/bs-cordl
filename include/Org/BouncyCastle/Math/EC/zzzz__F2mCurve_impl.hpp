@@ -681,5 +681,3 @@ Org::BouncyCastle::Math::EC::F2mCurve::CreateCacheSafeLookupTable(::ArrayW<::Org
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::F2mCurve::F2mCurve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

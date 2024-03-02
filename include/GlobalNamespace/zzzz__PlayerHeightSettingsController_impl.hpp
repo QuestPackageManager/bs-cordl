@@ -254,5 +254,3 @@ inline void GlobalNamespace::PlayerHeightSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerHeightSettingsController::PlayerHeightSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

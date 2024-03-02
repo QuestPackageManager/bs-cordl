@@ -135,5 +135,3 @@ inline void Org::BouncyCastle::Asn1::X509::KeyPurposeID::_ctor(::StringW id) {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::KeyPurposeID::KeyPurposeID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

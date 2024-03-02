@@ -94,5 +94,3 @@ inline void UnityEngine::ManagedStreamHelpers::ManagedStreamLength(::System::IO:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ManagedStreamHelpers::ManagedStreamHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

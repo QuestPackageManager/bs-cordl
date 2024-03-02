@@ -256,5 +256,3 @@ inline void Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner::Gost3410DigestSigner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

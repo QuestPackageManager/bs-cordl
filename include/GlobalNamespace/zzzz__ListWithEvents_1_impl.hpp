@@ -204,5 +204,3 @@ template <typename T> inline void GlobalNamespace::ListWithEvents_1<T>::_ctor() 
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::ListWithEvents_1<T>::ListWithEvents_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

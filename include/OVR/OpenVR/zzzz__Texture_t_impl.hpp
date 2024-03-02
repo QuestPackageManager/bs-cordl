@@ -14,5 +14,3 @@ constexpr ::OVR::OpenVR::Texture_t::Texture_t(void* handle, ::OVR::OpenVR::EText
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::Texture_t::Texture_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

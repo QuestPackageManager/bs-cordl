@@ -220,5 +220,3 @@ inline void System::Security::Cryptography::RNGCryptoServiceProvider::Dispose(bo
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RNGCryptoServiceProvider::RNGCryptoServiceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

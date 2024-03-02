@@ -25,5 +25,3 @@ inline ::StringW System::StringExtensions::SubstringTrim(::StringW value, int32_
 }
 // Ctor Parameters []
 constexpr ::System::StringExtensions::StringExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

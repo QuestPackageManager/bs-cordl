@@ -296,5 +296,3 @@ constexpr ::UnityEngine::UIElements::CreationContext::CreationContext(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::CreationContext::CreationContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

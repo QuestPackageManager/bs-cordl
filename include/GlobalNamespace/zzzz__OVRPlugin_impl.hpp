@@ -20058,5 +20058,3 @@ inline bool GlobalNamespace::OVRPlugin::SetEyeBufferSharpenType(::GlobalNamespac
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRPlugin::OVRPlugin() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

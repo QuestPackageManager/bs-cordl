@@ -235,5 +235,3 @@ inline void UnityEngine::UIElements::PointerCaptureHelper::ProcessPointerCapture
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerCaptureHelper::PointerCaptureHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

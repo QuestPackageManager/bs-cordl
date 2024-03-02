@@ -30,5 +30,3 @@ inline void Org::BouncyCastle::Crypto::Tls::TlsException::_ctor(::StringW messag
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsException::TlsException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

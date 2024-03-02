@@ -13,5 +13,3 @@ constexpr ::HoudiniEngineUnity::HAPI_VolumeVisualType HoudiniEngineUnity::HAPI_V
 constexpr ::HoudiniEngineUnity::HAPI_VolumeVisualType HoudiniEngineUnity::HAPI_VolumeVisualType::HAPI_VOLUMEVISTYPE_INVISIBLE{ static_cast<int32_t>(0x3) };
 constexpr ::HoudiniEngineUnity::HAPI_VolumeVisualType HoudiniEngineUnity::HAPI_VolumeVisualType::HAPI_VOLUMEVISTYPE_HEIGHTFIELD{ static_cast<int32_t>(0x4) };
 constexpr ::HoudiniEngineUnity::HAPI_VolumeVisualType HoudiniEngineUnity::HAPI_VolumeVisualType::HAPI_VOLUMEVISTYPE_MAX{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

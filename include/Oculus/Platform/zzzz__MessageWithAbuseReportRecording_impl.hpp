@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::AbuseReportRecording* Oculus::Platform::Messa
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithAbuseReportRecording::MessageWithAbuseReportRecording() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

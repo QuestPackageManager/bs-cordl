@@ -3,5 +3,3 @@
 #include "Unity/Collections/zzzz__DeallocateOnJobCompletionAttribute_def.hpp"
 // Ctor Parameters []
 constexpr ::Unity::Collections::DeallocateOnJobCompletionAttribute::DeallocateOnJobCompletionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

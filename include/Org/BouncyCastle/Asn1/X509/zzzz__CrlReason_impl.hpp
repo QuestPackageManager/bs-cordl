@@ -78,5 +78,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::CrlReason::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::CrlReason::CrlReason() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

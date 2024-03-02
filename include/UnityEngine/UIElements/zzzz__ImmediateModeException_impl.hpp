@@ -28,5 +28,3 @@ inline void UnityEngine::UIElements::ImmediateModeException::_ctor(::System::Exc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ImmediateModeException::ImmediateModeException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -74,5 +74,3 @@ inline void Org::BouncyCastle::Cmp::CmpException::_ctor(::StringW message, ::Sys
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::CmpException::CmpException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

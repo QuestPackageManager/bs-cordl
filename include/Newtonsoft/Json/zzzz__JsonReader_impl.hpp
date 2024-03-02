@@ -1504,5 +1504,3 @@ inline ::Newtonsoft::Json::JsonToken Newtonsoft::Json::JsonReader::GetContentTok
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonReader::JsonReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

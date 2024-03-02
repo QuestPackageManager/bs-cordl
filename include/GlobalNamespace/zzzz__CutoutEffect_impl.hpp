@@ -179,5 +179,3 @@ inline void GlobalNamespace::CutoutEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CutoutEffect::CutoutEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

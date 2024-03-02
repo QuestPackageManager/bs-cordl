@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::HierarchyChangeType::HierarchyChangeType() 
 constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::Add{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::Remove{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::Move{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

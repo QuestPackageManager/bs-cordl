@@ -245,5 +245,3 @@ inline void UnityEngine::GUIScrollGroup::SetVertical(float_t y, float_t height) 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUIScrollGroup::GUIScrollGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

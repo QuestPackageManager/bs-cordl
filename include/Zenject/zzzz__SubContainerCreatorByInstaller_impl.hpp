@@ -155,5 +155,3 @@ inline ::Zenject::DiContainer* Zenject::SubContainerCreatorByInstaller::CreateSu
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByInstaller::SubContainerCreatorByInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

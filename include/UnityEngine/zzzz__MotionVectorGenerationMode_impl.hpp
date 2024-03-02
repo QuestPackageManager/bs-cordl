@@ -9,5 +9,3 @@ constexpr ::UnityEngine::MotionVectorGenerationMode::MotionVectorGenerationMode(
 constexpr ::UnityEngine::MotionVectorGenerationMode UnityEngine::MotionVectorGenerationMode::Camera{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::MotionVectorGenerationMode UnityEngine::MotionVectorGenerationMode::Object{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::MotionVectorGenerationMode UnityEngine::MotionVectorGenerationMode::ForceNoMotion{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

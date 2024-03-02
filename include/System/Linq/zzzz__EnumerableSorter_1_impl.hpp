@@ -35,5 +35,3 @@ template <typename TElement> inline void System::Linq::EnumerableSorter_1<TEleme
 }
 // Ctor Parameters []
 template <typename TElement> constexpr ::System::Linq::EnumerableSorter_1<TElement>::EnumerableSorter_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

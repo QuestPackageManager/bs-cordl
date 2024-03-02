@@ -441,5 +441,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::DHStandardGroups() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

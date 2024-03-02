@@ -117,5 +117,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::ECDHBasicAgreement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

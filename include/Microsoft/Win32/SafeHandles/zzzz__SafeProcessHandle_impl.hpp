@@ -81,5 +81,3 @@ inline bool Microsoft::Win32::SafeHandles::SafeProcessHandle::ReleaseHandle() {
 }
 // Ctor Parameters []
 constexpr ::Microsoft::Win32::SafeHandles::SafeProcessHandle::SafeProcessHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

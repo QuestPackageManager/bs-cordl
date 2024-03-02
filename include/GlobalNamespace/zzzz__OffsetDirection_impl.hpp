@@ -15,5 +15,3 @@ constexpr ::GlobalNamespace::OffsetDirection GlobalNamespace::OffsetDirection::U
 constexpr ::GlobalNamespace::OffsetDirection GlobalNamespace::OffsetDirection::DownLeft{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::OffsetDirection GlobalNamespace::OffsetDirection::DownRight{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::OffsetDirection GlobalNamespace::OffsetDirection::None{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -312,5 +312,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserCapabilityL
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Users::Users() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

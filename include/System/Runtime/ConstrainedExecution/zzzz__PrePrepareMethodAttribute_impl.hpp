@@ -27,5 +27,3 @@ inline void System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute::_c
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute::PrePrepareMethodAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

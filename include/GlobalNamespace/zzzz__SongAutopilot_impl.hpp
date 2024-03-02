@@ -355,5 +355,3 @@ inline void GlobalNamespace::SongAutopilot::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongAutopilot::SongAutopilot() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

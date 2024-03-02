@@ -9,5 +9,3 @@ constexpr ::System::UriIdnScope::UriIdnScope() {}
 constexpr ::System::UriIdnScope System::UriIdnScope::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::UriIdnScope System::UriIdnScope::AllExceptIntranet{ static_cast<int32_t>(0x1) };
 constexpr ::System::UriIdnScope System::UriIdnScope::All{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

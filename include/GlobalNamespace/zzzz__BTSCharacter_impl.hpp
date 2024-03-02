@@ -189,5 +189,3 @@ inline void GlobalNamespace::BTSCharacter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BTSCharacter::BTSCharacter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

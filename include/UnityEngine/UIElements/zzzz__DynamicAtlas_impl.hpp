@@ -646,5 +646,3 @@ inline void UnityEngine::UIElements::DynamicAtlas::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DynamicAtlas::DynamicAtlas() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

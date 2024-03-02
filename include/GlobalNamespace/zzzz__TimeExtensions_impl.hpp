@@ -424,5 +424,3 @@ inline ::System::DateTime GlobalNamespace::TimeExtensions::AsUnixTime(int64_t un
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TimeExtensions::TimeExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

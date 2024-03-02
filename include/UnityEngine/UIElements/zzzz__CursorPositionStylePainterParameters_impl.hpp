@@ -74,5 +74,3 @@ constexpr ::UnityEngine::UIElements::CursorPositionStylePainterParameters::Curso
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::CursorPositionStylePainterParameters::CursorPositionStylePainterParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

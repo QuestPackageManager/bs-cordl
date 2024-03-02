@@ -152,5 +152,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::SceneContextRegistryAdderAndRemover::
 }
 // Ctor Parameters []
 constexpr ::Zenject::SceneContextRegistryAdderAndRemover::SceneContextRegistryAdderAndRemover() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

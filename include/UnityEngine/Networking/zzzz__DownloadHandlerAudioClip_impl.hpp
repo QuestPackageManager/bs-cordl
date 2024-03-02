@@ -218,5 +218,3 @@ inline ::UnityW<::UnityEngine::AudioClip> UnityEngine::Networking::DownloadHandl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::DownloadHandlerAudioClip::DownloadHandlerAudioClip() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -209,5 +209,3 @@ constexpr ::UnityEngine::Keyframe::Keyframe(float_t m_Time, float_t m_Value, flo
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Keyframe::Keyframe() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

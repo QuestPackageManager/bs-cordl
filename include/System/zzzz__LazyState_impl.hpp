@@ -16,5 +16,3 @@ constexpr ::System::LazyState System::LazyState::PublicationOnlyException{ stati
 constexpr ::System::LazyState System::LazyState::ExecutionAndPublicationViaConstructor{ static_cast<int32_t>(0x7) };
 constexpr ::System::LazyState System::LazyState::ExecutionAndPublicationViaFactory{ static_cast<int32_t>(0x8) };
 constexpr ::System::LazyState System::LazyState::ExecutionAndPublicationException{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

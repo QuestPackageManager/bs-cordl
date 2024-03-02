@@ -378,5 +378,3 @@ inline void System::Runtime::Remoting::Identity::NotifyServerDynamicSinks(bool s
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Identity::Identity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

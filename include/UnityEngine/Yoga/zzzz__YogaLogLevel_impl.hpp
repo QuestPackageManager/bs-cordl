@@ -12,5 +12,3 @@ constexpr ::UnityEngine::Yoga::YogaLogLevel UnityEngine::Yoga::YogaLogLevel::Inf
 constexpr ::UnityEngine::Yoga::YogaLogLevel UnityEngine::Yoga::YogaLogLevel::Debug{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Yoga::YogaLogLevel UnityEngine::Yoga::YogaLogLevel::Verbose{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Yoga::YogaLogLevel UnityEngine::Yoga::YogaLogLevel::Fatal{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

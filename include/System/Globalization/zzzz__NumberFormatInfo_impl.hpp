@@ -1286,5 +1286,3 @@ inline void System::Globalization::NumberFormatInfo::ValidateParseStyleFloatingP
 // Ctor Parameters []
 constexpr ::System::Globalization::NumberFormatInfo::NumberFormatInfo() {}
 constexpr ::System::Globalization::NumberStyles System::Globalization::NumberFormatInfo::InvalidNumberStyles{ static_cast<int32_t>(0xfffffc00) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -473,5 +473,3 @@ inline char16_t GlobalNamespace::ProfanityFilter::GetLeetEquivalent(char16_t c) 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ProfanityFilter::ProfanityFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -717,5 +717,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::AssetBundleReque
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::AssetBundleRequestOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

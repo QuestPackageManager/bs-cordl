@@ -112,5 +112,3 @@ inline void System::Xml::Schema::QNameFacetsChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::QNameFacetsChecker::QNameFacetsChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

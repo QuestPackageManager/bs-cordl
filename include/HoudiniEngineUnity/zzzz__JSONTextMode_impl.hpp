@@ -8,5 +8,3 @@ constexpr ::HoudiniEngineUnity::JSONTextMode::JSONTextMode(int32_t value__) noex
 constexpr ::HoudiniEngineUnity::JSONTextMode::JSONTextMode() {}
 constexpr ::HoudiniEngineUnity::JSONTextMode HoudiniEngineUnity::JSONTextMode::Compact{ static_cast<int32_t>(0x0) };
 constexpr ::HoudiniEngineUnity::JSONTextMode HoudiniEngineUnity::JSONTextMode::Indent{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

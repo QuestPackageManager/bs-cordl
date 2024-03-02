@@ -181,5 +181,3 @@ inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* Org::BouncyCastle::Bcp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair::PgpKeyPair() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -3032,5 +3032,3 @@ inline void System::Net::HttpWebRequest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpWebRequest::HttpWebRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

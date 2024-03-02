@@ -52,5 +52,3 @@ template <typename T> inline void GlobalNamespace::SyncBackgroundCommand_1<T>::_
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::SyncBackgroundCommand_1<T>::SyncBackgroundCommand_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

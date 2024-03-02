@@ -48,5 +48,3 @@ inline void GlobalNamespace::MultiplayerBadgeDataHandMovementSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerBadgeDataHandMovementSO::MultiplayerBadgeDataHandMovementSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

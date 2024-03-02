@@ -276,5 +276,3 @@ inline void TMPro::FaceInfo_Legacy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::FaceInfo_Legacy::FaceInfo_Legacy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

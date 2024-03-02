@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* Oculus::Plat
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::MessageWithNetSyncSetSessionPropertyResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

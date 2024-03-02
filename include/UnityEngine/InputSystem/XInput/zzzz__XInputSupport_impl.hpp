@@ -21,5 +21,3 @@ inline void UnityEngine::InputSystem::XInput::XInputSupport::Initialize() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XInput::XInputSupport::XInputSupport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

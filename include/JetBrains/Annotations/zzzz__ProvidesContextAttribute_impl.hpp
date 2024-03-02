@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::ProvidesContextAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::ProvidesContextAttribute::ProvidesContextAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

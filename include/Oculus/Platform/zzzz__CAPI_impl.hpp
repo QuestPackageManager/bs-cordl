@@ -18605,5 +18605,3 @@ inline void Oculus::Platform::CAPI::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::CAPI::CAPI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

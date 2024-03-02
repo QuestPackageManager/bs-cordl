@@ -248,5 +248,3 @@ constexpr ::UnityEngine::Cache::Cache(int32_t m_Handle) noexcept {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Cache::Cache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

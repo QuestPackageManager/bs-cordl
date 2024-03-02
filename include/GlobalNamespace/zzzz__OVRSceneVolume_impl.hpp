@@ -458,5 +458,3 @@ inline void GlobalNamespace::OVRSceneVolume::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneVolume::OVRSceneVolume() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -60,5 +60,3 @@ inline void UnityEngine::Bindings::NativeNameAttribute::_ctor(::StringW name) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::NativeNameAttribute::NativeNameAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

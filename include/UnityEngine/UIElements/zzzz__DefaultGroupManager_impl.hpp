@@ -123,5 +123,3 @@ inline void UnityEngine::UIElements::DefaultGroupManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DefaultGroupManager::DefaultGroupManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

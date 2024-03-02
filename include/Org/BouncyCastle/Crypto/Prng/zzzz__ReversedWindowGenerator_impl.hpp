@@ -187,5 +187,3 @@ inline void Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::doNextByte
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::ReversedWindowGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

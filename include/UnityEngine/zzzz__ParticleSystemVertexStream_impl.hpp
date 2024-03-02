@@ -52,5 +52,3 @@ constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemV
 constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::NoiseImpulseXY{ static_cast<int32_t>(0x2b) };
 constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::NoiseImpulseXYZ{ static_cast<int32_t>(0x2c) };
 constexpr ::UnityEngine::ParticleSystemVertexStream UnityEngine::ParticleSystemVertexStream::MeshIndex{ static_cast<int32_t>(0x2d) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

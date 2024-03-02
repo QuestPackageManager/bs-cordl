@@ -35,5 +35,3 @@ inline void Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers::AnssiObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

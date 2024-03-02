@@ -131,5 +131,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCac
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache::SerObjectInfoCache() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

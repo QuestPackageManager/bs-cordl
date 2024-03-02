@@ -268,5 +268,3 @@ inline bool System::ComponentModel::ReferenceConverter::IsValueAllowed(::System:
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ReferenceConverter::ReferenceConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

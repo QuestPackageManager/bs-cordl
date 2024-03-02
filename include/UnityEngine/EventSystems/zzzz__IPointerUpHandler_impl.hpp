@@ -31,5 +31,3 @@ inline void UnityEngine::EventSystems::IPointerUpHandler::OnPointerUp(::UnityEng
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::IPointerUpHandler*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -230,5 +230,3 @@ inline ::System::Object* System::Reflection::MemberInfoSerializationHolder::GetR
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::MemberInfoSerializationHolder::MemberInfoSerializationHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

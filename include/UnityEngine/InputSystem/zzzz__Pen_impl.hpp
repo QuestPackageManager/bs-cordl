@@ -624,5 +624,3 @@ inline void UnityEngine::InputSystem::Pen::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Pen::Pen() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -91,5 +91,3 @@ inline void UnityEngine::InputSystem::Controls::TouchPressControl::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::TouchPressControl::TouchPressControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -523,5 +523,3 @@ inline void HoudiniEngineUnity::HEU_ThreadedTask::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ThreadedTask::HEU_ThreadedTask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

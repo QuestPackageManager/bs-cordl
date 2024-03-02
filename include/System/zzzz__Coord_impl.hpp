@@ -7,5 +7,3 @@ constexpr ::System::Coord::Coord(int16_t X, int16_t Y) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Coord::Coord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -21,5 +21,3 @@ inline void Unity::ThrowStub::ThrowNotSupportedException() {
 }
 // Ctor Parameters []
 constexpr ::Unity::ThrowStub::ThrowStub() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

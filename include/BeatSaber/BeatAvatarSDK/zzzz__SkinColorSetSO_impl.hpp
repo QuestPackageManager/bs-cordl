@@ -60,5 +60,3 @@ inline void BeatSaber::BeatAvatarSDK::SkinColorSetSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::SkinColorSetSO::SkinColorSetSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

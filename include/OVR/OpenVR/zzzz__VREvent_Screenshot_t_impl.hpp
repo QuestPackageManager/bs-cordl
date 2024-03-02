@@ -7,5 +7,3 @@ constexpr ::OVR::OpenVR::VREvent_Screenshot_t::VREvent_Screenshot_t(uint32_t han
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Screenshot_t::VREvent_Screenshot_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

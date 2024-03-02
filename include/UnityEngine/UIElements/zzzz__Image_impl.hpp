@@ -522,5 +522,3 @@ inline void UnityEngine::UIElements::__Image__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__Image__UxmlFactory::__Image__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

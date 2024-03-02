@@ -529,5 +529,3 @@ inline uint64_t Org::BouncyCastle::Crypto::Macs::Poly1305::mul32x32_64(uint32_t 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::Poly1305::Poly1305() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

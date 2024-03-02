@@ -128,5 +128,3 @@ constexpr ::UnityEngine::ContactPoint::ContactPoint(::UnityEngine::Vector3 m_Poi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ContactPoint::ContactPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

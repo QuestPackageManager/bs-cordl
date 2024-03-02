@@ -76,5 +76,3 @@ inline void System::ExecutionEngineException::_ctor(::System::Runtime::Serializa
 }
 // Ctor Parameters []
 constexpr ::System::ExecutionEngineException::ExecutionEngineException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

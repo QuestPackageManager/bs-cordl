@@ -610,5 +610,3 @@ inline void System::Xml::XPath::XPathNavigator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XPath::XPathNavigator::XPathNavigator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

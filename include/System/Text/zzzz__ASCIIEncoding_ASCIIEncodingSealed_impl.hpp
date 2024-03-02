@@ -25,5 +25,3 @@ inline void System::Text::__ASCIIEncoding__ASCIIEncodingSealed::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::__ASCIIEncoding__ASCIIEncodingSealed::__ASCIIEncoding__ASCIIEncodingSealed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

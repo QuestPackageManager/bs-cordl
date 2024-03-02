@@ -9,5 +9,3 @@ constexpr ::System::Net::Security::AuthenticationLevel::AuthenticationLevel() {}
 constexpr ::System::Net::Security::AuthenticationLevel System::Net::Security::AuthenticationLevel::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Net::Security::AuthenticationLevel System::Net::Security::AuthenticationLevel::MutualAuthRequested{ static_cast<int32_t>(0x1) };
 constexpr ::System::Net::Security::AuthenticationLevel System::Net::Security::AuthenticationLevel::MutualAuthRequired{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

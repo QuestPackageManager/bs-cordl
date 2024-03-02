@@ -175,5 +175,3 @@ inline void GlobalNamespace::BackgroundCommandQueue::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BackgroundCommandQueue::BackgroundCommandQueue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

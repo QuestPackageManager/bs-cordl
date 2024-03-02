@@ -267,5 +267,3 @@ inline void GlobalNamespace::MultiplayerSpectatingSpotManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager::MultiplayerSpectatingSpotManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

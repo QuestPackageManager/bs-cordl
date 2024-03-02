@@ -945,5 +945,3 @@ inline void UnityEngine::RectTransform::set_pivot_Injected(ByRef<::UnityEngine::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RectTransform::RectTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -199,5 +199,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::LightDataGI::LightDat
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LightDataGI::LightDataGI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

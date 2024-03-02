@@ -14,5 +14,3 @@ constexpr ::OVR::OpenVR::VRTextureDepthInfo_t::VRTextureDepthInfo_t(void* handle
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VRTextureDepthInfo_t::VRTextureDepthInfo_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

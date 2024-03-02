@@ -24,5 +24,3 @@ inline void UnityEngine::ScrollViewState::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ScrollViewState::ScrollViewState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

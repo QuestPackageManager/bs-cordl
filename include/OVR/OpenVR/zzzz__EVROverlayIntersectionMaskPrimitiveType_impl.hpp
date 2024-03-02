@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType::EVROverlayInte
 constexpr ::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType::EVROverlayIntersectionMaskPrimitiveType() {}
 constexpr ::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType::OverlayIntersectionPrimitiveType_Rectangle{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType::OverlayIntersectionPrimitiveType_Circle{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

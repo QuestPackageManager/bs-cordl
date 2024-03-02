@@ -9,5 +9,3 @@ constexpr ::BeatmapSaveDataCommon::NoteLineLayer::NoteLineLayer() {}
 constexpr ::BeatmapSaveDataCommon::NoteLineLayer BeatmapSaveDataCommon::NoteLineLayer::Base{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataCommon::NoteLineLayer BeatmapSaveDataCommon::NoteLineLayer::Upper{ static_cast<int32_t>(0x1) };
 constexpr ::BeatmapSaveDataCommon::NoteLineLayer BeatmapSaveDataCommon::NoteLineLayer::Top{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

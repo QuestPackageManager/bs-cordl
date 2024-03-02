@@ -472,5 +472,3 @@ inline void GlobalNamespace::LightColorGroupEffect::SetColor(float_t t) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorGroupEffect::LightColorGroupEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

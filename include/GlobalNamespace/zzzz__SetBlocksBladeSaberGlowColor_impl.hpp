@@ -83,5 +83,3 @@ inline void GlobalNamespace::SetBlocksBladeSaberGlowColor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SetBlocksBladeSaberGlowColor::SetBlocksBladeSaberGlowColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

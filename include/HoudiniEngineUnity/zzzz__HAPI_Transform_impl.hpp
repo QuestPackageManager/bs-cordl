@@ -55,5 +55,3 @@ constexpr ::HoudiniEngineUnity::HAPI_Transform::HAPI_Transform(::ArrayW<float_t,
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_Transform::HAPI_Transform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

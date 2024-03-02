@@ -205,5 +205,3 @@ inline int32_t Org::BouncyCastle::Crypto::Digests::ShortenedDigest::GetByteLengt
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::ShortenedDigest::ShortenedDigest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

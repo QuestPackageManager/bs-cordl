@@ -79,5 +79,3 @@ inline void GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::_ctor()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::RecordingToolSettingsNoTransitionInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

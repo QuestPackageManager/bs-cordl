@@ -317,5 +317,3 @@ inline void GlobalNamespace::OVRControllerDrivenHandPosesSample::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRControllerDrivenHandPosesSample::OVRControllerDrivenHandPosesSample() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

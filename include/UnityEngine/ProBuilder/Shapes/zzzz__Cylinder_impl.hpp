@@ -126,5 +126,3 @@ inline void UnityEngine::ProBuilder::Shapes::Cylinder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Cylinder::Cylinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -170,5 +170,3 @@ inline int32_t UnityEngine::Ping::get_time() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Ping::Ping() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -250,5 +250,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::BinaryArray::Rea
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArray::BinaryArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

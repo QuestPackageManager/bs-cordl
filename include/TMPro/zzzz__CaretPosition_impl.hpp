@@ -9,5 +9,3 @@ constexpr ::TMPro::CaretPosition::CaretPosition() {}
 constexpr ::TMPro::CaretPosition TMPro::CaretPosition::None{ static_cast<int32_t>(0x0) };
 constexpr ::TMPro::CaretPosition TMPro::CaretPosition::Left{ static_cast<int32_t>(0x1) };
 constexpr ::TMPro::CaretPosition TMPro::CaretPosition::Right{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

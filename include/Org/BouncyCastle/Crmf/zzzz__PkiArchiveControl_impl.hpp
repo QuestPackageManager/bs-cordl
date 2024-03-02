@@ -177,5 +177,3 @@ inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Org::BouncyCastle::Crmf::PkiA
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::PkiArchiveControl::PkiArchiveControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

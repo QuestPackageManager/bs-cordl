@@ -33,5 +33,3 @@ inline ::StringW UnityEngine::UIElements::UIR::Shaders::getStaticF_k_GraphView()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Shaders::Shaders() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

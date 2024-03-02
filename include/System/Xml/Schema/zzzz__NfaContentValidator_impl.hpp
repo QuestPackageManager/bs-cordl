@@ -110,5 +110,3 @@ inline void System::Xml::Schema::NfaContentValidator::_ctor(::System::Xml::Schem
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::NfaContentValidator::NfaContentValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

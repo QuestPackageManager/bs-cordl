@@ -28,5 +28,3 @@ constexpr void System::Globalization::SortVersion::__cordl_internal_set_m_SortId
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::SortVersion::SortVersion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

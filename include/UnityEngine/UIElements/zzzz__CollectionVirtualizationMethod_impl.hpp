@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod::CollectionV
 constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod::CollectionVirtualizationMethod() {}
 constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod UnityEngine::UIElements::CollectionVirtualizationMethod::FixedHeight{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod UnityEngine::UIElements::CollectionVirtualizationMethod::DynamicHeight{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

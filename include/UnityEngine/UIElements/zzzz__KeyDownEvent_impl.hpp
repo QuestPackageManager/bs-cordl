@@ -46,5 +46,3 @@ inline void UnityEngine::UIElements::KeyDownEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::KeyDownEvent::KeyDownEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

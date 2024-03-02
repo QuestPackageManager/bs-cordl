@@ -456,5 +456,3 @@ inline void UnityEngine::ProBuilder::MeshHandles::CreateEdgeBillboardMesh(::Unit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshHandles::MeshHandles() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

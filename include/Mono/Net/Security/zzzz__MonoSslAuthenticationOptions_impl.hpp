@@ -338,5 +338,3 @@ inline void Mono::Net::Security::MonoSslAuthenticationOptions::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::MonoSslAuthenticationOptions::MonoSslAuthenticationOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

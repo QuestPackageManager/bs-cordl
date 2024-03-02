@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::EVRSubmitFlags OVR::OpenVR::EVRSubmitFlags::Submit_GlRe
 constexpr ::OVR::OpenVR::EVRSubmitFlags OVR::OpenVR::EVRSubmitFlags::Submit_Reserved{ static_cast<int32_t>(0x4) };
 constexpr ::OVR::OpenVR::EVRSubmitFlags OVR::OpenVR::EVRSubmitFlags::Submit_TextureWithPose{ static_cast<int32_t>(0x8) };
 constexpr ::OVR::OpenVR::EVRSubmitFlags OVR::OpenVR::EVRSubmitFlags::Submit_TextureWithDepth{ static_cast<int32_t>(0x10) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

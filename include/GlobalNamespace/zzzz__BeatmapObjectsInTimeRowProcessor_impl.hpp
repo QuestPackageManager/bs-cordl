@@ -808,5 +808,3 @@ inline bool GlobalNamespace::BeatmapObjectsInTimeRowProcessor::SliderHeadPositio
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::BeatmapObjectsInTimeRowProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

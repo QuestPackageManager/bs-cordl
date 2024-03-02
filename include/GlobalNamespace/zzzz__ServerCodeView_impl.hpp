@@ -184,5 +184,3 @@ inline void GlobalNamespace::ServerCodeView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ServerCodeView::ServerCodeView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

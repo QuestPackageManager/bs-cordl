@@ -682,5 +682,3 @@ inline void Org::BouncyCastle::Math::Primes::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Primes::Primes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

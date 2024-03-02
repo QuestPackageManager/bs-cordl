@@ -101,5 +101,3 @@ inline void HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Vector2SerializationSurrogate::HEU_Vector2SerializationSurrogate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

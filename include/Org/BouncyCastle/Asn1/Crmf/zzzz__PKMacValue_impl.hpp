@@ -216,5 +216,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Crmf::PKM
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue::PKMacValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

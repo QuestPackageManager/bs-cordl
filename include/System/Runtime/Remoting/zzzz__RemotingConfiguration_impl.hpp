@@ -486,5 +486,3 @@ inline void System::Runtime::Remoting::RemotingConfiguration::SetCustomErrorsMod
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::RemotingConfiguration::RemotingConfiguration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

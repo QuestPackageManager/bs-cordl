@@ -440,5 +440,3 @@ inline void System::Diagnostics::TraceListenerCollection::System_Collections_ICo
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::TraceListenerCollection::TraceListenerCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

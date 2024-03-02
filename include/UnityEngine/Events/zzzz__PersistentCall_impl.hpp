@@ -309,5 +309,3 @@ inline void UnityEngine::Events::PersistentCall::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::PersistentCall::PersistentCall() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

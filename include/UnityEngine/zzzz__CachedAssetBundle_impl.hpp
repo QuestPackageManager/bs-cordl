@@ -69,5 +69,3 @@ constexpr ::UnityEngine::CachedAssetBundle::CachedAssetBundle(::StringW m_Name, 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CachedAssetBundle::CachedAssetBundle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

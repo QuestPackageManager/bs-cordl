@@ -401,5 +401,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::SceneDecoratorContext::__zenCreateInj
 }
 // Ctor Parameters []
 constexpr ::Zenject::SceneDecoratorContext::SceneDecoratorContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -269,5 +269,3 @@ inline void UnityEngine::InputSystem::Composites::TwoModifiersComposite::_ctor()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Composites::TwoModifiersComposite::TwoModifiersComposite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

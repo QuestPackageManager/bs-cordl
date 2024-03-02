@@ -103,5 +103,3 @@ inline int32_t Unity::XR::Oculus::Utils::GetFoveationLevel() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::Utils::Utils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

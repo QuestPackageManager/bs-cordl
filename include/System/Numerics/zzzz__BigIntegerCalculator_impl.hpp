@@ -199,5 +199,3 @@ inline int32_t System::Numerics::BigIntegerCalculator::Compare(::ArrayW<uint32_t
 }
 // Ctor Parameters []
 constexpr ::System::Numerics::BigIntegerCalculator::BigIntegerCalculator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -96,5 +96,3 @@ inline void Org::BouncyCastle::Asn1::LimitedInputStream::SetParentEofDetect(bool
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::LimitedInputStream::LimitedInputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

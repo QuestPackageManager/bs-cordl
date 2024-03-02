@@ -139,5 +139,3 @@ inline void System::LocalDataStoreSlot::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::System::LocalDataStoreSlot::LocalDataStoreSlot() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -44,5 +44,3 @@ template <typename T> inline int32_t System::Collections::Generic::ShortEnumEqua
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::ShortEnumEqualityComparer_1<T>::ShortEnumEqualityComparer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

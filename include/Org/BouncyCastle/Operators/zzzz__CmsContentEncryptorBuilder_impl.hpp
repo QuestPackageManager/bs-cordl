@@ -145,5 +145,3 @@ inline ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* Org::BouncyCastle::Op
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::CmsContentEncryptorBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

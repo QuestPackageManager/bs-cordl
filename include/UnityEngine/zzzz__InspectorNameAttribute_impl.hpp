@@ -38,5 +38,3 @@ inline void UnityEngine::InspectorNameAttribute::_ctor(::StringW displayName) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InspectorNameAttribute::InspectorNameAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

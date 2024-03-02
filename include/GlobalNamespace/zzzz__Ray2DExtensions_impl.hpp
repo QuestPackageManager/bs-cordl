@@ -30,5 +30,3 @@ inline int32_t GlobalNamespace::Ray2DExtensions::CircleIntersections(::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Ray2DExtensions::Ray2DExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -68,5 +68,3 @@ inline ::Oculus::Platform::Models::UserReportID* Oculus::Platform::MessageWithUs
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithUserReportID::MessageWithUserReportID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

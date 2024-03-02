@@ -86,5 +86,3 @@ inline void UnityEngine::ProBuilder::Shapes::Cube::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Cube::Cube() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

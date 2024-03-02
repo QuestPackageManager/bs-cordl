@@ -54,5 +54,3 @@ inline void Org::BouncyCastle::Asn1::BerSequenceGenerator::_ctor(::System::IO::S
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator::BerSequenceGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

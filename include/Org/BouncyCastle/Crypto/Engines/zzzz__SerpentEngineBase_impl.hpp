@@ -764,5 +764,3 @@ inline void Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::DecryptBlock(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase::SerpentEngineBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -331,5 +331,3 @@ inline ::StringW System::Net::Http::Headers::AuthenticationHeaderValue::ToString
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::AuthenticationHeaderValue::AuthenticationHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Security::GeneralSecurityException::_ctor(::Strin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::GeneralSecurityException::GeneralSecurityException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

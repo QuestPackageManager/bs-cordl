@@ -335,5 +335,3 @@ inline int32_t Org::BouncyCastle::Security::GeneratorUtilities::FindDefaultKeySi
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Security::GeneratorUtilities::GeneratorUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

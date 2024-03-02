@@ -281,5 +281,3 @@ inline void Mono::Unity::X509ChainImplUnityTls::Dispose(bool disposing) {
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::X509ChainImplUnityTls::X509ChainImplUnityTls() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

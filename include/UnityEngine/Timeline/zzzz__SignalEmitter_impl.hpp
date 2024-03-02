@@ -239,5 +239,3 @@ inline void UnityEngine::Timeline::SignalEmitter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::SignalEmitter::SignalEmitter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

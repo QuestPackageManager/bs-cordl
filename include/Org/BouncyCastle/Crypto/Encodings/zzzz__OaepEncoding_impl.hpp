@@ -409,5 +409,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Encodings
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Encodings::OaepEncoding::OaepEncoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

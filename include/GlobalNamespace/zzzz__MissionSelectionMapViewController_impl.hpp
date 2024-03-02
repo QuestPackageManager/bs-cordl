@@ -499,5 +499,3 @@ inline void GlobalNamespace::MissionSelectionMapViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionSelectionMapViewController::MissionSelectionMapViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

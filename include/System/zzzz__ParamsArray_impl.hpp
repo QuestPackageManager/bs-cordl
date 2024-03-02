@@ -182,5 +182,3 @@ constexpr ::System::ParamsArray::ParamsArray(::System::Object* _arg0, ::System::
 }
 // Ctor Parameters []
 constexpr ::System::ParamsArray::ParamsArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -291,5 +291,3 @@ inline void GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::SaveFromNe
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::PlayersSpecificSettingsAtGameStartModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

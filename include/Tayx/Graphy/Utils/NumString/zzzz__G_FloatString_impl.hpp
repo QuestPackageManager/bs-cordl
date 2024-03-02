@@ -222,5 +222,3 @@ inline float_t Tayx::Graphy::Utils::NumString::G_FloatString::FromIndex(int32_t 
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::Utils::NumString::G_FloatString::G_FloatString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

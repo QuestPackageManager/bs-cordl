@@ -42,5 +42,3 @@ inline void System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::UnmanagedFunctionPointerAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

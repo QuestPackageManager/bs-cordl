@@ -878,5 +878,3 @@ inline void System::Net::FileWebRequest::Abort() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::FileWebRequest::FileWebRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

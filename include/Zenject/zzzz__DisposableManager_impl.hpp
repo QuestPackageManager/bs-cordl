@@ -890,5 +890,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::DisposableManager::__zenCreateInjectT
 }
 // Ctor Parameters []
 constexpr ::Zenject::DisposableManager::DisposableManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

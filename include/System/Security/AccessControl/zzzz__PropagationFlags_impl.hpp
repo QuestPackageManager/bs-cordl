@@ -9,5 +9,3 @@ constexpr ::System::Security::AccessControl::PropagationFlags::PropagationFlags(
 constexpr ::System::Security::AccessControl::PropagationFlags System::Security::AccessControl::PropagationFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::AccessControl::PropagationFlags System::Security::AccessControl::PropagationFlags::NoPropagateInherit{ static_cast<int32_t>(0x1) };
 constexpr ::System::Security::AccessControl::PropagationFlags System::Security::AccessControl::PropagationFlags::InheritOnly{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

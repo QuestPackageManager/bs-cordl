@@ -239,5 +239,3 @@ inline void UnityEngine::LightmapSettings::Reset() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LightmapSettings::LightmapSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

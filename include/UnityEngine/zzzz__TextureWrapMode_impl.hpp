@@ -10,5 +10,3 @@ constexpr ::UnityEngine::TextureWrapMode UnityEngine::TextureWrapMode::Repeat{ s
 constexpr ::UnityEngine::TextureWrapMode UnityEngine::TextureWrapMode::Clamp{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TextureWrapMode UnityEngine::TextureWrapMode::Mirror{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TextureWrapMode UnityEngine::TextureWrapMode::MirrorOnce{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

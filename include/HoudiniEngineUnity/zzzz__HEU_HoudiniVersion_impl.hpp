@@ -24,5 +24,3 @@ inline void HoudiniEngineUnity::HEU_HoudiniVersion::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_HoudiniVersion::HEU_HoudiniVersion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

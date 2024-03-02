@@ -64,5 +64,3 @@ inline ::Org::BouncyCastle::Cms::CmsReadable* Org::BouncyCastle::Cms::CmsSecureR
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSecureReadable*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cms::CmsReadable*, false>(this, ___internal_method, key);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

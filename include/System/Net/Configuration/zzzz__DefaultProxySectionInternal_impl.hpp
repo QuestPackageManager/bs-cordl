@@ -146,5 +146,3 @@ inline void System::Net::Configuration::DefaultProxySectionInternal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::DefaultProxySectionInternal::DefaultProxySectionInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

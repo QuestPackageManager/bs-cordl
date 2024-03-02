@@ -439,5 +439,3 @@ inline ::Newtonsoft::Json::Linq::JConstructor* Newtonsoft::Json::Linq::JConstruc
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JConstructor::JConstructor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

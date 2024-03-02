@@ -806,5 +806,3 @@ inline void System::Net::CommandStream::ReceiveCommandResponseCallback(::System:
 }
 // Ctor Parameters []
 constexpr ::System::Net::CommandStream::CommandStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

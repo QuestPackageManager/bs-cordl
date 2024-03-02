@@ -237,5 +237,3 @@ inline void HoudiniEngineUnity::HEU_TaskManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_TaskManager::HEU_TaskManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

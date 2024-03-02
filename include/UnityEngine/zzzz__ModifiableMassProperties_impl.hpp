@@ -12,5 +12,3 @@ constexpr ::UnityEngine::ModifiableMassProperties::ModifiableMassProperties(floa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ModifiableMassProperties::ModifiableMassProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

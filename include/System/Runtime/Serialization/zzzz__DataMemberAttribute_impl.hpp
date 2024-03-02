@@ -127,5 +127,3 @@ inline bool System::Runtime::Serialization::DataMemberAttribute::get_EmitDefault
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::DataMemberAttribute::DataMemberAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -250,5 +250,3 @@ inline void HMUI::TableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::TableCell::TableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

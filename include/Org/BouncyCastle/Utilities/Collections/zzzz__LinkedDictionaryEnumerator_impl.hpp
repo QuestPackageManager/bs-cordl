@@ -227,5 +227,3 @@ inline ::System::Object* Org::BouncyCastle::Utilities::Collections::LinkedDictio
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator::LinkedDictionaryEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

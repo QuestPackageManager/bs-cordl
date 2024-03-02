@@ -103,5 +103,3 @@ inline void System::Reflection::TargetException::_ctor(::System::Runtime::Serial
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::TargetException::TargetException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

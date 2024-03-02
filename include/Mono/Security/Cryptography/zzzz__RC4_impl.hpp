@@ -101,5 +101,3 @@ inline ::Mono::Security::Cryptography::RC4* Mono::Security::Cryptography::RC4::C
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Cryptography::RC4::RC4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -50,5 +50,3 @@ inline ::UnityEngine::Vector3 UnityEngine::UI::MultipleDisplayUtilities::Relativ
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::MultipleDisplayUtilities::MultipleDisplayUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

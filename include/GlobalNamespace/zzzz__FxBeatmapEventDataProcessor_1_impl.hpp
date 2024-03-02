@@ -31,5 +31,3 @@ template <typename T> inline void GlobalNamespace::FxBeatmapEventDataProcessor_1
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::FxBeatmapEventDataProcessor_1<T>::FxBeatmapEventDataProcessor_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -114,5 +114,3 @@ inline ::Org::BouncyCastle::Cms::CmsTypedStream* Org::BouncyCastle::Cms::KeyTran
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::KeyTransRecipientInformation::KeyTransRecipientInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

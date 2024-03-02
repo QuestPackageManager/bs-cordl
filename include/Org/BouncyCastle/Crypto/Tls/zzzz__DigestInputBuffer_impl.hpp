@@ -131,5 +131,3 @@ inline void Org::BouncyCastle::Crypto::Tls::DigestInputBuffer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DigestInputBuffer::DigestInputBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

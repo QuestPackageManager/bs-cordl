@@ -172,5 +172,3 @@ inline void System::Security::AccessControl::QualifiedAce::SetOpaque(::ArrayW<ui
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::QualifiedAce::QualifiedAce() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

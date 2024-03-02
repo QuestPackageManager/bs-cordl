@@ -10,5 +10,3 @@ constexpr ::UnityEngine::AudioDataLoadState UnityEngine::AudioDataLoadState::Unl
 constexpr ::UnityEngine::AudioDataLoadState UnityEngine::AudioDataLoadState::Loading{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::AudioDataLoadState UnityEngine::AudioDataLoadState::Loaded{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::AudioDataLoadState UnityEngine::AudioDataLoadState::Failed{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

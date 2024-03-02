@@ -11,5 +11,3 @@ constexpr ::LiteNetLib::ConnectionState LiteNetLib::ConnectionState::Connected{ 
 constexpr ::LiteNetLib::ConnectionState LiteNetLib::ConnectionState::ShutdownRequested{ static_cast<uint8_t>(0x8u) };
 constexpr ::LiteNetLib::ConnectionState LiteNetLib::ConnectionState::Disconnected{ static_cast<uint8_t>(0x10u) };
 constexpr ::LiteNetLib::ConnectionState LiteNetLib::ConnectionState::Any{ static_cast<uint8_t>(0xeu) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

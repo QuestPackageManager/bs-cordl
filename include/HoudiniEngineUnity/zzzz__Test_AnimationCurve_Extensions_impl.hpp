@@ -169,5 +169,3 @@ HoudiniEngineUnity::Test_AnimationCurve_Extensions::ToTestObject(::System::Colle
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_AnimationCurve_Extensions::Test_AnimationCurve_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

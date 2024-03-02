@@ -189,5 +189,3 @@ inline ::StringW GlobalNamespace::SonyContentVersion::Get(::GlobalNamespace::__S
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyContentVersion::SonyContentVersion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

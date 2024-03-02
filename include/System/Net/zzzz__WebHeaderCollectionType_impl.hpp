@@ -17,5 +17,3 @@ constexpr ::System::Net::WebHeaderCollectionType System::Net::WebHeaderCollectio
 constexpr ::System::Net::WebHeaderCollectionType System::Net::WebHeaderCollectionType::FtpWebResponse{ static_cast<uint16_t>(0x8u) };
 constexpr ::System::Net::WebHeaderCollectionType System::Net::WebHeaderCollectionType::FileWebRequest{ static_cast<uint16_t>(0x9u) };
 constexpr ::System::Net::WebHeaderCollectionType System::Net::WebHeaderCollectionType::FileWebResponse{ static_cast<uint16_t>(0xau) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

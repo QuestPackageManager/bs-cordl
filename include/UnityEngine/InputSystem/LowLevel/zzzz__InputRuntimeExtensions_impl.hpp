@@ -15,5 +15,3 @@ inline int64_t UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions::Devic
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions::InputRuntimeExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

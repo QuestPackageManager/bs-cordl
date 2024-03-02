@@ -105,5 +105,3 @@ inline ::Org::BouncyCastle::Crypto::IBlockResult* Org::BouncyCastle::Crypto::Ope
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper::Asn1KeyWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

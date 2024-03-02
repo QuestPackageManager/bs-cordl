@@ -270,5 +270,3 @@ inline void UnityEngine::UIElements::AtlasBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::AtlasBase::AtlasBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

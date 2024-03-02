@@ -579,5 +579,3 @@ inline void UnityEngine::InputSystem::InputBindingComposite::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputBindingComposite::InputBindingComposite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

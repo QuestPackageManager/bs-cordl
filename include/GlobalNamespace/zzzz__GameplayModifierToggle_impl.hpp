@@ -170,5 +170,3 @@ inline void GlobalNamespace::GameplayModifierToggle::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayModifierToggle::GameplayModifierToggle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

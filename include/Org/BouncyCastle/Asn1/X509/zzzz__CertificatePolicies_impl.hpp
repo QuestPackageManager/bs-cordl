@@ -279,5 +279,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::CertificatePolicies::ToString() 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::CertificatePolicies::CertificatePolicies() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

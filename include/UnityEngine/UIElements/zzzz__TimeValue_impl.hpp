@@ -245,5 +245,3 @@ constexpr ::UnityEngine::UIElements::TimeValue::TimeValue(float_t m_Value, ::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TimeValue::TimeValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

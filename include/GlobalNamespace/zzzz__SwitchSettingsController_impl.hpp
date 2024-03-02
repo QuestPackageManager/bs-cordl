@@ -182,5 +182,3 @@ inline void GlobalNamespace::SwitchSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SwitchSettingsController::SwitchSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

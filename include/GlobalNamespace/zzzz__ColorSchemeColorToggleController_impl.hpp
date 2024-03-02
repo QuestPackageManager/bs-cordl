@@ -113,5 +113,3 @@ inline void GlobalNamespace::ColorSchemeColorToggleController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSchemeColorToggleController::ColorSchemeColorToggleController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

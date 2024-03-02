@@ -210,5 +210,3 @@ inline void System::Xml::Schema::Datatype_duration::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_duration::Datatype_duration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

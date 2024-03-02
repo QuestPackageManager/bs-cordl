@@ -132,5 +132,3 @@ inline void JetBrains::Annotations::AspChildControlTypeAttribute::set_ControlTyp
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspChildControlTypeAttribute::AspChildControlTypeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

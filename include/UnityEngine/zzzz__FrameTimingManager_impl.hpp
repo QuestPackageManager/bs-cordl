@@ -45,5 +45,3 @@ inline uint32_t UnityEngine::FrameTimingManager::GetLatestTimings(uint32_t numFr
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::FrameTimingManager::FrameTimingManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

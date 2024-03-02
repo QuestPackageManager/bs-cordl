@@ -24,5 +24,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* Org::BouncyCastle::Crypto::T
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Tls::TlsCipher*, false>(this, ___internal_method, context, encryptionAlgorithm, macAlgorithm);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -79,5 +79,3 @@ inline void GlobalNamespace::StandardLevelReturnToMenuController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelReturnToMenuController::StandardLevelReturnToMenuController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

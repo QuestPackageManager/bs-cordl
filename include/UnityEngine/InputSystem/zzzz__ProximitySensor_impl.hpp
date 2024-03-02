@@ -182,5 +182,3 @@ inline void UnityEngine::InputSystem::ProximitySensor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::ProximitySensor::ProximitySensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

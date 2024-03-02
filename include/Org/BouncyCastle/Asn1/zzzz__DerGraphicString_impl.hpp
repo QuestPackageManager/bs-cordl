@@ -186,5 +186,3 @@ inline bool Org::BouncyCastle::Asn1::DerGraphicString::Asn1Equals(::Org::BouncyC
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerGraphicString::DerGraphicString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

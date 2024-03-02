@@ -545,5 +545,3 @@ inline void System::Threading::InternalThread::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::InternalThread::InternalThread() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -42,5 +42,3 @@ inline void System::Runtime::CompilerServices::DefaultDependencyAttribute::_ctor
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::DefaultDependencyAttribute::DefaultDependencyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

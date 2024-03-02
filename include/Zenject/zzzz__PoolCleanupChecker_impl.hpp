@@ -224,5 +224,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::PoolCleanupChecker::__zenCreateInject
 }
 // Ctor Parameters []
 constexpr ::Zenject::PoolCleanupChecker::PoolCleanupChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

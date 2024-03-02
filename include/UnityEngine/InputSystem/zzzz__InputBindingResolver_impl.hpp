@@ -298,5 +298,3 @@ constexpr ::UnityEngine::InputSystem::InputBindingResolver::InputBindingResolver
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputBindingResolver::InputBindingResolver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

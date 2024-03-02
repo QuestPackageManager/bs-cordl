@@ -124,5 +124,3 @@ inline void GlobalNamespace::CommandBufferGrabPass::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CommandBufferGrabPass::CommandBufferGrabPass() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

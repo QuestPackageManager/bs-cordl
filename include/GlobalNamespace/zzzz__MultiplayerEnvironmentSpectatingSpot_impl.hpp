@@ -293,5 +293,3 @@ inline ::UnityW<::UnityEngine::Transform> GlobalNamespace::MultiplayerEnvironmen
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::MultiplayerEnvironmentSpectatingSpot() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

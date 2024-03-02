@@ -75,5 +75,3 @@ inline bool Newtonsoft::Json::Utilities::StringReferenceExtensions::EndsWith(::N
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::StringReferenceExtensions::StringReferenceExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

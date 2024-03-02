@@ -409,5 +409,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* Org::BouncyCastle::Cry
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion::ProtocolVersion() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

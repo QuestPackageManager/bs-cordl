@@ -387,5 +387,3 @@ inline ::System::Guid System::Security::AccessControl::ObjectAce::ReadGuid(::Arr
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::ObjectAce::ObjectAce() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

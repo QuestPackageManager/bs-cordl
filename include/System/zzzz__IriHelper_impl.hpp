@@ -93,5 +93,3 @@ inline ::StringW System::IriHelper::EscapeUnescapeIri(::cordl_internals::Ptr<cha
 }
 // Ctor Parameters []
 constexpr ::System::IriHelper::IriHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

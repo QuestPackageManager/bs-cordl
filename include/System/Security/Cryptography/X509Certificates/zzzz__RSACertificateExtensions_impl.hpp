@@ -29,5 +29,3 @@ System::Security::Cryptography::X509Certificates::RSACertificateExtensions::GetR
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::RSACertificateExtensions::RSACertificateExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

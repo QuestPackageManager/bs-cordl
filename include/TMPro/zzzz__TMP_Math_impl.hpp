@@ -56,5 +56,3 @@ inline int32_t TMPro::TMP_Math::Mod(int32_t a, int32_t b) {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Math::TMP_Math() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

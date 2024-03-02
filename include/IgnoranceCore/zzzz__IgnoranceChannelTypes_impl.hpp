@@ -12,5 +12,3 @@ constexpr ::IgnoranceCore::IgnoranceChannelTypes IgnoranceCore::IgnoranceChannel
 constexpr ::IgnoranceCore::IgnoranceChannelTypes IgnoranceCore::IgnoranceChannelTypes::UnreliableFragmented{ static_cast<int32_t>(0x8) };
 constexpr ::IgnoranceCore::IgnoranceChannelTypes IgnoranceCore::IgnoranceChannelTypes::UnreliableSequenced{ static_cast<int32_t>(0x0) };
 constexpr ::IgnoranceCore::IgnoranceChannelTypes IgnoranceCore::IgnoranceChannelTypes::Unthrottled{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

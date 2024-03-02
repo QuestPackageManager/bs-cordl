@@ -48,5 +48,3 @@ inline void GlobalNamespace::FloatFxBeatmapEventDataProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FloatFxBeatmapEventDataProcessor::FloatFxBeatmapEventDataProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

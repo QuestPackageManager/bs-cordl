@@ -53,5 +53,3 @@ inline ::System::Security::AccessControl::AuthorizationRuleCollection* System::S
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::CommonObjectSecurity::CommonObjectSecurity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

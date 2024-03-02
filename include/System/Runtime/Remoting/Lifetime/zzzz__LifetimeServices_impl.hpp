@@ -220,5 +220,3 @@ inline void System::Runtime::Remoting::Lifetime::LifetimeServices::TrackLifetime
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Lifetime::LifetimeServices::LifetimeServices() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

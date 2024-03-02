@@ -8,5 +8,3 @@ constexpr ::Unity::Collections::NativeArrayOptions::NativeArrayOptions(int32_t v
 constexpr ::Unity::Collections::NativeArrayOptions::NativeArrayOptions() {}
 constexpr ::Unity::Collections::NativeArrayOptions Unity::Collections::NativeArrayOptions::UninitializedMemory{ static_cast<int32_t>(0x0) };
 constexpr ::Unity::Collections::NativeArrayOptions Unity::Collections::NativeArrayOptions::ClearMemory{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -203,5 +203,3 @@ inline void HMUI::InputFieldViewStaticAnimations::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::InputFieldViewStaticAnimations::InputFieldViewStaticAnimations() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

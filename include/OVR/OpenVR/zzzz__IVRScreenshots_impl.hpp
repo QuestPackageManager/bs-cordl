@@ -691,5 +691,3 @@ constexpr ::OVR::OpenVR::IVRScreenshots::IVRScreenshots(::OVR::OpenVR::__IVRScre
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRScreenshots::IVRScreenshots() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

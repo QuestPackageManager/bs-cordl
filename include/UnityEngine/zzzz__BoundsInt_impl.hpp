@@ -670,5 +670,3 @@ constexpr ::UnityEngine::BoundsInt::BoundsInt(::UnityEngine::Vector3Int m_Positi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::BoundsInt::BoundsInt() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

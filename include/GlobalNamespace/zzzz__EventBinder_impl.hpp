@@ -79,5 +79,3 @@ inline void GlobalNamespace::EventBinder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EventBinder::EventBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1351,5 +1351,3 @@ inline void UnityEngine::Animation::set_localBounds_Injected(ByRef<::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Animation::Animation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

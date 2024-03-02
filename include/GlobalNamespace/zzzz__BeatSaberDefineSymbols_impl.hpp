@@ -3,5 +3,3 @@
 #include "GlobalNamespace/zzzz__BeatSaberDefineSymbols_def.hpp"
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatSaberDefineSymbols::BeatSaberDefineSymbols() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

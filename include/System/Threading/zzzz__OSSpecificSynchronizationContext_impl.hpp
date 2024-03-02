@@ -396,5 +396,3 @@ inline void System::Threading::OSSpecificSynchronizationContext::PostInternal(::
 }
 // Ctor Parameters []
 constexpr ::System::Threading::OSSpecificSynchronizationContext::OSSpecificSynchronizationContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

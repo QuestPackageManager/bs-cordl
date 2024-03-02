@@ -30,5 +30,3 @@ constexpr ::TMPro::TMP_WordInfo::TMP_WordInfo(::UnityW<::TMPro::TMP_Text> textCo
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_WordInfo::TMP_WordInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

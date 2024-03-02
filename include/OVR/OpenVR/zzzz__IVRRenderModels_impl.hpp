@@ -1850,5 +1850,3 @@ constexpr ::OVR::OpenVR::IVRRenderModels::IVRRenderModels(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRRenderModels::IVRRenderModels() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

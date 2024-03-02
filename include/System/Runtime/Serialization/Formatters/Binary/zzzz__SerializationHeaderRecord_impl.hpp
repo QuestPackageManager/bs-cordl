@@ -243,5 +243,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::SerializationHea
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::SerializationHeaderRecord() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

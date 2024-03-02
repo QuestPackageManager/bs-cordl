@@ -350,5 +350,3 @@ inline void GlobalNamespace::BeatmapDataLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataLoader::BeatmapDataLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

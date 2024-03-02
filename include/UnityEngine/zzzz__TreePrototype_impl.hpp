@@ -214,5 +214,3 @@ inline bool UnityEngine::TreePrototype::Equals(::UnityEngine::TreePrototype* oth
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TreePrototype::TreePrototype() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

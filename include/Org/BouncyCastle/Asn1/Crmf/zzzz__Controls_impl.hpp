@@ -134,5 +134,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Crmf::Con
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Crmf::Controls::Controls() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

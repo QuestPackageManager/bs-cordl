@@ -68,5 +68,3 @@ inline void GlobalNamespace::AnchorIntoParent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AnchorIntoParent::AnchorIntoParent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -101,5 +101,3 @@ inline void JetBrains::Annotations::PathReferenceAttribute::set_BasePath(::Strin
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::PathReferenceAttribute::PathReferenceAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -568,5 +568,3 @@ inline void GlobalNamespace::KawaseBlurRendererSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::KawaseBlurRendererSO::KawaseBlurRendererSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

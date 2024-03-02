@@ -28,5 +28,3 @@ inline void Oculus::Platform::Models::LinkedAccountList::_ctor(void* a) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::LinkedAccountList::LinkedAccountList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

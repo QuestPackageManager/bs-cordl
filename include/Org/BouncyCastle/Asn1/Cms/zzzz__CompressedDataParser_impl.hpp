@@ -128,5 +128,3 @@ inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* Org::BouncyCastle::Asn
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::CompressedDataParser::CompressedDataParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

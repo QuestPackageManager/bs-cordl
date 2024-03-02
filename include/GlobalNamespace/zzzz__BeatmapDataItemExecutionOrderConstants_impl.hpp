@@ -26,5 +26,3 @@ inline void GlobalNamespace::BeatmapDataItemExecutionOrderConstants::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataItemExecutionOrderConstants::BeatmapDataItemExecutionOrderConstants() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

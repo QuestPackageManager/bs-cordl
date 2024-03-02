@@ -42,5 +42,3 @@ inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IMissionNodesManager*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::IMissionNode*>*, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

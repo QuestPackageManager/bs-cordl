@@ -15,5 +15,3 @@ constexpr ::OVR::OpenVR::EVRState OVR::OpenVR::EVRState::Ready_Alert{ static_cas
 constexpr ::OVR::OpenVR::EVRState OVR::OpenVR::EVRState::NotReady{ static_cast<int32_t>(0x5) };
 constexpr ::OVR::OpenVR::EVRState OVR::OpenVR::EVRState::Standby{ static_cast<int32_t>(0x6) };
 constexpr ::OVR::OpenVR::EVRState OVR::OpenVR::EVRState::Ready_Alert_Low{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

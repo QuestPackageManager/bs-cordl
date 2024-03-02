@@ -202,5 +202,3 @@ inline void RootMotion::FinalIK::IKMappingBone::WritePose(float_t solverWeight) 
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::IKMappingBone::IKMappingBone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

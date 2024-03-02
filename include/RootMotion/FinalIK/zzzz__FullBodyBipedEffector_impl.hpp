@@ -15,5 +15,3 @@ constexpr ::RootMotion::FinalIK::FullBodyBipedEffector RootMotion::FinalIK::Full
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector RootMotion::FinalIK::FullBodyBipedEffector::RightHand{ static_cast<int32_t>(0x6) };
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector RootMotion::FinalIK::FullBodyBipedEffector::LeftFoot{ static_cast<int32_t>(0x7) };
 constexpr ::RootMotion::FinalIK::FullBodyBipedEffector RootMotion::FinalIK::FullBodyBipedEffector::RightFoot{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

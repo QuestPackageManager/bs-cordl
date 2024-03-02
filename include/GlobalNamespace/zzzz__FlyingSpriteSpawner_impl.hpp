@@ -194,5 +194,3 @@ inline void GlobalNamespace::FlyingSpriteSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FlyingSpriteSpawner::FlyingSpriteSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

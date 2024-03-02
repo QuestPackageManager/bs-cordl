@@ -674,5 +674,3 @@ constexpr ::System::UInt32::UInt32(uint32_t m_value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::UInt32::UInt32() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -923,5 +923,3 @@ inline void System::Net::Http::Headers::CacheControlHeaderValue::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::CacheControlHeaderValue::CacheControlHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

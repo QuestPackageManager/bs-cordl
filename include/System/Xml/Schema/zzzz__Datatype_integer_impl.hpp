@@ -71,5 +71,3 @@ inline void System::Xml::Schema::Datatype_integer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_integer::Datatype_integer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

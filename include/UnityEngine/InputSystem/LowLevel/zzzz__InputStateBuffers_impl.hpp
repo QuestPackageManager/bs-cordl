@@ -505,5 +505,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBuffers::InputStateBuf
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBuffers::InputStateBuffers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

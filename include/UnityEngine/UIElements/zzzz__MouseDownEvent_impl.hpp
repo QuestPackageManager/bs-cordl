@@ -127,5 +127,3 @@ inline ::UnityEngine::UIElements::MouseDownEvent* UnityEngine::UIElements::Mouse
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseDownEvent::MouseDownEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

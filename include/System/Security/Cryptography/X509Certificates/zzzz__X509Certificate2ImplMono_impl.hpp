@@ -457,5 +457,3 @@ inline ::Mono::Security::X509::X509Certificate* System::Security::Cryptography::
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono::X509Certificate2ImplMono() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

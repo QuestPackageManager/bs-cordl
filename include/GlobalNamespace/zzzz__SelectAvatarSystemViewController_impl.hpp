@@ -799,5 +799,3 @@ inline void GlobalNamespace::SelectAvatarSystemViewController::_DidActivate_b__2
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectAvatarSystemViewController::SelectAvatarSystemViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

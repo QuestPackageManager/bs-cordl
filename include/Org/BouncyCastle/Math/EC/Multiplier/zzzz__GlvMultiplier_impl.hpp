@@ -83,5 +83,3 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Mult
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier::GlvMultiplier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -281,5 +281,3 @@ inline void GlobalNamespace::BitMaskSparse::Deserialize(::LiteNetLib::Utils::Net
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BitMaskSparse::BitMaskSparse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

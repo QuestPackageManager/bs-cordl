@@ -83,5 +83,3 @@ inline void System::SharedStatics::ReleaseSharedStringMaker(ByRef<::System::Secu
 }
 // Ctor Parameters []
 constexpr ::System::SharedStatics::SharedStatics() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

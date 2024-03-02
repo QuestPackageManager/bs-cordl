@@ -255,5 +255,3 @@ inline void GlobalNamespace::ControllersTransformSettingsViewController::_ctor()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ControllersTransformSettingsViewController::ControllersTransformSettingsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

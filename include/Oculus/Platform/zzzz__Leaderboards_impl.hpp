@@ -229,5 +229,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Leaderboards::Leaderboards() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

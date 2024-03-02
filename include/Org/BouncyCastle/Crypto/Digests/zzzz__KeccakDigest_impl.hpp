@@ -613,5 +613,3 @@ inline void Org::BouncyCastle::Crypto::Digests::KeccakDigest::Reset(::Org::Bounc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::KeccakDigest::KeccakDigest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -527,5 +527,3 @@ HoudiniEngineUnity::HEU_InputInterfaceTerrain::GenerateTerrainDataFromGameObject
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputInterfaceTerrain() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

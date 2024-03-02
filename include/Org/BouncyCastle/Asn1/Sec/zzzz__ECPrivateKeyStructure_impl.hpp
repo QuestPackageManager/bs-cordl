@@ -346,5 +346,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Sec::ECPr
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::ECPrivateKeyStructure() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

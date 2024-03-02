@@ -58,5 +58,3 @@ inline void GlobalNamespace::BeatmapObjectExecutionRating::_ctor(float_t time) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRating() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -53,5 +53,3 @@ inline void HoudiniEngineUnity::HEU_RecookPreset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_RecookPreset::HEU_RecookPreset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

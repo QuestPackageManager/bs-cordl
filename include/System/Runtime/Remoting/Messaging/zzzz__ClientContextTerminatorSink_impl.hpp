@@ -105,5 +105,3 @@ System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::AsyncProcessM
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::ClientContextTerminatorSink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

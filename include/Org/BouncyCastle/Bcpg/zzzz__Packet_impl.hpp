@@ -24,5 +24,3 @@ inline void Org::BouncyCastle::Bcpg::Packet::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Packet::Packet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

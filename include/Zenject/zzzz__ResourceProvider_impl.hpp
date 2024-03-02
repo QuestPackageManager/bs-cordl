@@ -166,5 +166,3 @@ inline void Zenject::ResourceProvider::GetAllInstancesWithInjectSplit(::Zenject:
 }
 // Ctor Parameters []
 constexpr ::Zenject::ResourceProvider::ResourceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

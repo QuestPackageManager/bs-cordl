@@ -292,5 +292,3 @@ inline bool Newtonsoft::Json::Serialization::JsonSerializerInternalBase::IsError
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase::JsonSerializerInternalBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

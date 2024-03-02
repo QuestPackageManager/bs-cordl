@@ -241,5 +241,3 @@ inline void GlobalNamespace::ScoreSyncStateManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreSyncStateManager::ScoreSyncStateManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

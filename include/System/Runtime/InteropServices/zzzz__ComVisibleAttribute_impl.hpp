@@ -39,5 +39,3 @@ inline void System::Runtime::InteropServices::ComVisibleAttribute::_ctor(bool vi
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::ComVisibleAttribute::ComVisibleAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

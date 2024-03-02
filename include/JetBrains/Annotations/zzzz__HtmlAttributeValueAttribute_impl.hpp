@@ -79,5 +79,3 @@ inline void JetBrains::Annotations::HtmlAttributeValueAttribute::set_Name(::Stri
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::HtmlAttributeValueAttribute::HtmlAttributeValueAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

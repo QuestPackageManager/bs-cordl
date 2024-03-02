@@ -28,5 +28,3 @@ inline TValue System::Collections::Generic::CollectionExtensions::GetValueOrDefa
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Generic::CollectionExtensions::CollectionExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

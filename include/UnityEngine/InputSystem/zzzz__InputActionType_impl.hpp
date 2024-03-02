@@ -9,5 +9,3 @@ constexpr ::UnityEngine::InputSystem::InputActionType::InputActionType() {}
 constexpr ::UnityEngine::InputSystem::InputActionType UnityEngine::InputSystem::InputActionType::Value{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::InputSystem::InputActionType UnityEngine::InputSystem::InputActionType::Button{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::InputActionType UnityEngine::InputSystem::InputActionType::PassThrough{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

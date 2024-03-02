@@ -71,5 +71,3 @@ template <typename T> inline void GlobalNamespace::AsyncComputeOperation_1<T>::F
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::AsyncComputeOperation_1<T>::AsyncComputeOperation_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

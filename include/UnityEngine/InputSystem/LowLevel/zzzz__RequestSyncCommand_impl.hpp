@@ -84,5 +84,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::RequestSyncCommand::RequestSyncC
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::RequestSyncCommand::RequestSyncCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

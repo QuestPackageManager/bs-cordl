@@ -25,5 +25,3 @@ inline void GlobalNamespace::LightGroupRotationYTransform::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroupRotationYTransform::LightGroupRotationYTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

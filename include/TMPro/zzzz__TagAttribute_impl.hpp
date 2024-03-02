@@ -9,5 +9,3 @@ constexpr ::TMPro::TagAttribute::TagAttribute(int32_t startIndex, int32_t length
 }
 // Ctor Parameters []
 constexpr ::TMPro::TagAttribute::TagAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

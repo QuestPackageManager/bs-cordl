@@ -499,5 +499,3 @@ inline void System::Security::Cryptography::HashAlgorithm::Initialize() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::HashAlgorithm::HashAlgorithm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

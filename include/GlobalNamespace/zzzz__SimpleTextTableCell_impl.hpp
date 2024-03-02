@@ -75,5 +75,3 @@ inline void GlobalNamespace::SimpleTextTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SimpleTextTableCell::SimpleTextTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

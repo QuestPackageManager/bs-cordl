@@ -1026,5 +1026,3 @@ constexpr ::UnityEngine::Matrix4x4::Matrix4x4(float_t m00, float_t m10, float_t 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Matrix4x4::Matrix4x4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -57,5 +57,3 @@ inline void GlobalNamespace::EmitParticles::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EmitParticles::EmitParticles() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

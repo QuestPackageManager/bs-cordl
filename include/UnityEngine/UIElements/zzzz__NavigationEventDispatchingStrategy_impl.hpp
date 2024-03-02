@@ -82,5 +82,3 @@ inline void UnityEngine::UIElements::NavigationEventDispatchingStrategy::_ctor()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::NavigationEventDispatchingStrategy::NavigationEventDispatchingStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

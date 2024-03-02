@@ -891,5 +891,3 @@ inline void UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase
 }
 // Ctor Parameters []
 template <typename TObject> constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>::AsyncOperationBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

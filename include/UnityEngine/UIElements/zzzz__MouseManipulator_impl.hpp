@@ -139,5 +139,3 @@ inline bool UnityEngine::UIElements::MouseManipulator::CanStopManipulation(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseManipulator::MouseManipulator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

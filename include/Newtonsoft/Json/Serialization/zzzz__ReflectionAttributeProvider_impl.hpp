@@ -94,5 +94,3 @@ inline ::System::Collections::Generic::IList_1<::System::Attribute*>* Newtonsoft
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::ReflectionAttributeProvider::ReflectionAttributeProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

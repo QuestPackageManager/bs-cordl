@@ -50,5 +50,3 @@ inline bool System::Runtime::Serialization::SurrogateHashtable::KeyEquals(::Syst
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SurrogateHashtable::SurrogateHashtable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

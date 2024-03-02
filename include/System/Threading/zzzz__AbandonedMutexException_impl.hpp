@@ -128,5 +128,3 @@ inline void System::Threading::AbandonedMutexException::SetupException(int32_t l
 }
 // Ctor Parameters []
 constexpr ::System::Threading::AbandonedMutexException::AbandonedMutexException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

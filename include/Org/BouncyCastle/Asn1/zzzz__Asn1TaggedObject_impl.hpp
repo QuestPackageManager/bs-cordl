@@ -334,5 +334,3 @@ inline ::StringW Org::BouncyCastle::Asn1::Asn1TaggedObject::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObject::Asn1TaggedObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

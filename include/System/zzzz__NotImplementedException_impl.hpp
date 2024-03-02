@@ -76,5 +76,3 @@ inline void System::NotImplementedException::_ctor(::System::Runtime::Serializat
 }
 // Ctor Parameters []
 constexpr ::System::NotImplementedException::NotImplementedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

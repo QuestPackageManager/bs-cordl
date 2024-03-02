@@ -279,5 +279,3 @@ constexpr ::System::Reflection::MonoMethodInfo::MonoMethodInfo(::System::Type* p
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::MonoMethodInfo::MonoMethodInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

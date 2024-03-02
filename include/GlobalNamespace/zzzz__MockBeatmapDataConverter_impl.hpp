@@ -317,5 +317,3 @@ inline ::GlobalNamespace::MockObstacleData* GlobalNamespace::MockBeatmapDataConv
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockBeatmapDataConverter::MockBeatmapDataConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

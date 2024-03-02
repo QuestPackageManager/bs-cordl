@@ -293,5 +293,3 @@ constexpr ::UnityEngine::Playables::FrameRate::FrameRate(int32_t m_Rate) noexcep
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Playables::FrameRate::FrameRate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

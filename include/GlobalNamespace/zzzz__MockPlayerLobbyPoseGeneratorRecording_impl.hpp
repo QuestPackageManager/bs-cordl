@@ -73,5 +73,3 @@ inline void GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::Tick() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording::MockPlayerLobbyPoseGeneratorRecording() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

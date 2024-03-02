@@ -40,5 +40,3 @@ inline void Oculus::Platform::Models::LivestreamingStartResult::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::LivestreamingStartResult::LivestreamingStartResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

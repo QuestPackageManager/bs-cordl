@@ -154,5 +154,3 @@ inline void System::Collections::Generic::ByteEqualityComparer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Generic::ByteEqualityComparer::ByteEqualityComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -41,5 +41,3 @@ inline void Zenject::IBindingFinalizer::FinalizeBinding(::Zenject::DiContainer* 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IBindingFinalizer*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

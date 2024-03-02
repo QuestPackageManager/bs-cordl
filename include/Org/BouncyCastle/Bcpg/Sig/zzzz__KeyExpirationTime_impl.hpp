@@ -92,5 +92,3 @@ inline int64_t Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime::get_Time() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime::KeyExpirationTime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -97,5 +97,3 @@ inline void GlobalNamespace::JumpMarker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::JumpMarker::JumpMarker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

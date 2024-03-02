@@ -2453,5 +2453,3 @@ inline void Newtonsoft::Json::Linq::JContainer::MergeEnumerableContent(::Newtons
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JContainer::JContainer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -72,5 +72,3 @@ constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabiliti
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities::AndroidSensorCapabilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

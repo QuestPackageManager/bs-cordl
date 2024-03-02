@@ -400,5 +400,3 @@ inline void GlobalNamespace::GradientTransitionSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GradientTransitionSO::GradientTransitionSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

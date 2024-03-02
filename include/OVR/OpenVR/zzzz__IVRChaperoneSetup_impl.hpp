@@ -1961,5 +1961,3 @@ constexpr ::OVR::OpenVR::IVRChaperoneSetup::IVRChaperoneSetup(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRChaperoneSetup::IVRChaperoneSetup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::BeatmapSaveDataCommon::EnvironmentColorType BeatmapSaveDataCommon::E
 constexpr ::BeatmapSaveDataCommon::EnvironmentColorType BeatmapSaveDataCommon::EnvironmentColorType::Color0{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataCommon::EnvironmentColorType BeatmapSaveDataCommon::EnvironmentColorType::Color1{ static_cast<int32_t>(0x1) };
 constexpr ::BeatmapSaveDataCommon::EnvironmentColorType BeatmapSaveDataCommon::EnvironmentColorType::ColorWhite{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

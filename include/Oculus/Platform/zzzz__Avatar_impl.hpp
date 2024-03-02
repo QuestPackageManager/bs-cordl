@@ -28,5 +28,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorRes
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Avatar::Avatar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

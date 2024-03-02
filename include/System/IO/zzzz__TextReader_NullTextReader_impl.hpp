@@ -63,5 +63,3 @@ inline ::StringW System::IO::__TextReader__NullTextReader::ReadLine() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::__TextReader__NullTextReader::__TextReader__NullTextReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -224,5 +224,3 @@ inline void HoudiniEngineUnity::HEU_TOPNodeData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_TOPNodeData::HEU_TOPNodeData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

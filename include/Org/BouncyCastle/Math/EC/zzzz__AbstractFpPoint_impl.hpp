@@ -144,5 +144,3 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Abst
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::AbstractFpPoint::AbstractFpPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

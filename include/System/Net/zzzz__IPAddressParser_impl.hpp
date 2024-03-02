@@ -298,5 +298,3 @@ inline uint16_t System::Net::IPAddressParser::Reverse(uint16_t number) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::IPAddressParser::IPAddressParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

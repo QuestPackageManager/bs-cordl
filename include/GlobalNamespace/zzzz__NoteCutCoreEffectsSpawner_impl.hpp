@@ -273,5 +273,3 @@ inline void GlobalNamespace::NoteCutCoreEffectsSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutCoreEffectsSpawner::NoteCutCoreEffectsSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

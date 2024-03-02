@@ -39,5 +39,3 @@ inline void System::Reflection::AssemblyProductAttribute::_ctor(::StringW produc
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::AssemblyProductAttribute::AssemblyProductAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

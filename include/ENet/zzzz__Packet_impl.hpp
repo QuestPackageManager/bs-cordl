@@ -443,5 +443,3 @@ constexpr ::ENet::Packet::Packet(void* nativePacket) noexcept {
 }
 // Ctor Parameters []
 constexpr ::ENet::Packet::Packet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

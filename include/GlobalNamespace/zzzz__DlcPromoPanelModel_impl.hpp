@@ -990,5 +990,3 @@ inline void GlobalNamespace::DlcPromoPanelModel::HandleAdditionalContentModelDid
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DlcPromoPanelModel::DlcPromoPanelModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

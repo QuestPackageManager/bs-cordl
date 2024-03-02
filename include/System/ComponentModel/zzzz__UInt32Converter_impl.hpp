@@ -107,5 +107,3 @@ inline void System::ComponentModel::UInt32Converter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::UInt32Converter::UInt32Converter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

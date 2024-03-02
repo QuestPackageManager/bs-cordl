@@ -17,5 +17,3 @@ constexpr ::GlobalNamespace::OVRMaterialData::OVRMaterialData(::UnityW<::UnityEn
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMaterialData::OVRMaterialData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

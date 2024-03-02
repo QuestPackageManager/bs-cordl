@@ -11,5 +11,3 @@ constexpr ::OVR::OpenVR::NotificationBitmap_t::NotificationBitmap_t(void* m_pIma
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::NotificationBitmap_t::NotificationBitmap_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

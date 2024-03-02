@@ -32,5 +32,3 @@ constexpr ::UnityEngine::AI::NavMeshHit::NavMeshHit(::UnityEngine::Vector3 m_Pos
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AI::NavMeshHit::NavMeshHit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

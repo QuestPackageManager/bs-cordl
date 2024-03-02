@@ -79,5 +79,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken::Styl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken::StyleSyntaxToken() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

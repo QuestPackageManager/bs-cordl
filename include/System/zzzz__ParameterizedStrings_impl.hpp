@@ -480,5 +480,3 @@ inline ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System:
 }
 // Ctor Parameters []
 constexpr ::System::ParameterizedStrings::ParameterizedStrings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

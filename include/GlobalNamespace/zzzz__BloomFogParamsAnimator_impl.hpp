@@ -381,5 +381,3 @@ inline void GlobalNamespace::BloomFogParamsAnimator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomFogParamsAnimator::BloomFogParamsAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

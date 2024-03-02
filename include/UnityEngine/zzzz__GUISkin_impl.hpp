@@ -1570,5 +1570,3 @@ inline ::System::Collections::IEnumerator* UnityEngine::GUISkin::GetEnumerator()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUISkin::GUISkin() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

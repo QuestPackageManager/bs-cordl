@@ -868,5 +868,3 @@ inline bool GlobalNamespace::PlayerSpecificSettings::AreValuesEqual(::GlobalName
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerSpecificSettings::PlayerSpecificSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -217,5 +217,3 @@ constexpr ::UnityEngine::UIElements::Scale::Scale(::UnityEngine::Vector3 m_Scale
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Scale::Scale() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

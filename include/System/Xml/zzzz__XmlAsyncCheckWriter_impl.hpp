@@ -614,5 +614,3 @@ inline void System::Xml::XmlAsyncCheckWriter::Dispose(bool disposing) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlAsyncCheckWriter::XmlAsyncCheckWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

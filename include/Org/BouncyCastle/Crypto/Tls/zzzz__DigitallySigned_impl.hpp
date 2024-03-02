@@ -144,5 +144,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* Org::BouncyCastle::Cry
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DigitallySigned::DigitallySigned() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

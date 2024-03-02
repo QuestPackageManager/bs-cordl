@@ -1309,5 +1309,3 @@ inline void GlobalNamespace::LevelCollectionNavigationController::_AnimateCanvas
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LevelCollectionNavigationController::LevelCollectionNavigationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

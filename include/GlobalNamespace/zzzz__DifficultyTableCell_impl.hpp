@@ -177,5 +177,3 @@ inline void GlobalNamespace::DifficultyTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DifficultyTableCell::DifficultyTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

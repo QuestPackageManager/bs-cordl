@@ -314,5 +314,3 @@ inline void HoudiniEngineUnity::HEU_AssetSync::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetSync::HEU_AssetSync() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

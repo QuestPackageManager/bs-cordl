@@ -939,5 +939,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::DTSweep::RotateTrianglePair(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweep::DTSweep() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

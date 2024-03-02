@@ -10,5 +10,3 @@ constexpr ::Newtonsoft::Json::Utilities::ParseResult Newtonsoft::Json::Utilities
 constexpr ::Newtonsoft::Json::Utilities::ParseResult Newtonsoft::Json::Utilities::ParseResult::Success{ static_cast<int32_t>(0x1) };
 constexpr ::Newtonsoft::Json::Utilities::ParseResult Newtonsoft::Json::Utilities::ParseResult::Overflow{ static_cast<int32_t>(0x2) };
 constexpr ::Newtonsoft::Json::Utilities::ParseResult Newtonsoft::Json::Utilities::ParseResult::Invalid{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

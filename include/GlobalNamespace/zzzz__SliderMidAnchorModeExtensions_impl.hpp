@@ -25,5 +25,3 @@ inline ::GlobalNamespace::SliderMidAnchorMode GlobalNamespace::SliderMidAnchorMo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SliderMidAnchorModeExtensions::SliderMidAnchorModeExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

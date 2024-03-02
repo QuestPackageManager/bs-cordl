@@ -441,5 +441,3 @@ inline ::System::Xml::Linq::XNamespace* System::Xml::Linq::XNamespace::EnsureNam
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XNamespace::XNamespace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -145,5 +145,3 @@ inline ::System::Threading::Tasks::Task* System::Net::ContentDecodeStream::Finis
 }
 // Ctor Parameters []
 constexpr ::System::Net::ContentDecodeStream::ContentDecodeStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

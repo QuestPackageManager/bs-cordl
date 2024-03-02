@@ -123,5 +123,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::QueryUserIdC
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::QueryUserIdCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

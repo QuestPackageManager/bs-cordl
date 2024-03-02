@@ -101,5 +101,3 @@ inline int32_t UnityEngine::Internal::DefaultValueAttribute::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Internal::DefaultValueAttribute::DefaultValueAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

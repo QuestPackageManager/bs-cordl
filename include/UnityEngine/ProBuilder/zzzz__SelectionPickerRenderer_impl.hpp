@@ -887,5 +887,3 @@ inline bool UnityEngine::ProBuilder::SelectionPickerRenderer::ShouldUseHDRP() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

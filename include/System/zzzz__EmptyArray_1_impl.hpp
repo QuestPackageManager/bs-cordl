@@ -10,5 +10,3 @@ template <typename T> inline ::ArrayW<T, ::Array<T>*> System::EmptyArray_1<T>::g
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::EmptyArray_1<T>::EmptyArray_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

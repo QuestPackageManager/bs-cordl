@@ -180,5 +180,3 @@ inline void GlobalNamespace::PlayerOptionsViewController::_DidActivate_b__6_0() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerOptionsViewController::PlayerOptionsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -301,5 +301,3 @@ inline ::System::Object* Org::BouncyCastle::X509::Store::X509CertPairStoreSelect
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::X509CertPairStoreSelector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

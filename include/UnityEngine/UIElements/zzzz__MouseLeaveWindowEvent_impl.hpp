@@ -109,5 +109,3 @@ inline void UnityEngine::UIElements::MouseLeaveWindowEvent::PostDispatch(::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseLeaveWindowEvent::MouseLeaveWindowEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

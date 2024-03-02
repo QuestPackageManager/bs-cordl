@@ -97,5 +97,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Paramet
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters::Srp6GroupParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

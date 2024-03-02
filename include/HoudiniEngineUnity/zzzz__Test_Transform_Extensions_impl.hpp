@@ -167,5 +167,3 @@ HoudiniEngineUnity::Test_Transform_Extensions::ToTestObject(::System::Collection
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Transform_Extensions::Test_Transform_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -198,5 +198,3 @@ inline void HoudiniEngineUnity::HEU_SessionSyncData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_SessionSyncData::HEU_SessionSyncData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -134,5 +134,3 @@ inline void System::Diagnostics::Switch::_pruneCachedSwitches() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Switch::Switch() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

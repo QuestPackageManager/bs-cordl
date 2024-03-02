@@ -643,5 +643,3 @@ inline void GlobalNamespace::OVRScreenFade::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRScreenFade::OVRScreenFade() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -94,5 +94,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Tls::UseS
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::UseSrtpData::UseSrtpData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

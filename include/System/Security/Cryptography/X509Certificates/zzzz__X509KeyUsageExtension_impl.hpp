@@ -245,5 +245,3 @@ inline ::StringW System::Security::Cryptography::X509Certificates::X509KeyUsageE
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::X509KeyUsageExtension() {}
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::all{ static_cast<int32_t>(0x80ff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

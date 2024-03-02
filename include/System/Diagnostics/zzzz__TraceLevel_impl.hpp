@@ -11,5 +11,3 @@ constexpr ::System::Diagnostics::TraceLevel System::Diagnostics::TraceLevel::Err
 constexpr ::System::Diagnostics::TraceLevel System::Diagnostics::TraceLevel::Warning{ static_cast<int32_t>(0x2) };
 constexpr ::System::Diagnostics::TraceLevel System::Diagnostics::TraceLevel::Info{ static_cast<int32_t>(0x3) };
 constexpr ::System::Diagnostics::TraceLevel System::Diagnostics::TraceLevel::Verbose{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

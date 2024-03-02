@@ -121,5 +121,3 @@ inline ::StringW HoudiniEngineUnity::HEU_GeometryUtility::GetInstanceOutputName(
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_GeometryUtility::HEU_GeometryUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::Crypto::MaxBytesExceededException::_ctor(::String
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::MaxBytesExceededException::MaxBytesExceededException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

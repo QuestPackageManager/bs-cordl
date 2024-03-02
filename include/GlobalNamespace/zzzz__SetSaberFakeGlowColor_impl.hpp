@@ -147,5 +147,3 @@ inline void GlobalNamespace::SetSaberFakeGlowColor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SetSaberFakeGlowColor::SetSaberFakeGlowColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

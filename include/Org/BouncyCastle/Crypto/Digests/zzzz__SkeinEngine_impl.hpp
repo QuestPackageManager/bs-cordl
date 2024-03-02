@@ -1254,5 +1254,3 @@ inline void Org::BouncyCastle::Crypto::Digests::SkeinEngine::Output(uint64_t out
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::SkeinEngine::SkeinEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

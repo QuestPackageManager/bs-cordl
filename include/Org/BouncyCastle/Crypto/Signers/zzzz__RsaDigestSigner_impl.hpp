@@ -422,5 +422,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Signers::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::RsaDigestSigner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

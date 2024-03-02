@@ -159,5 +159,3 @@ inline ::System::Xml::Linq::XNode* System::Xml::Linq::XComment::CloneNode() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XComment::XComment() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

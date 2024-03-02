@@ -8,5 +8,3 @@ constexpr ::System::ConsoleSpecialKey::ConsoleSpecialKey(int32_t value__) noexce
 constexpr ::System::ConsoleSpecialKey::ConsoleSpecialKey() {}
 constexpr ::System::ConsoleSpecialKey System::ConsoleSpecialKey::ControlC{ static_cast<int32_t>(0x0) };
 constexpr ::System::ConsoleSpecialKey System::ConsoleSpecialKey::ControlBreak{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

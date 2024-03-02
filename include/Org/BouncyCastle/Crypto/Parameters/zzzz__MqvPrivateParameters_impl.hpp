@@ -183,5 +183,3 @@ inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* Org::Boun
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters::MqvPrivateParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -183,5 +183,3 @@ inline double_t System::Numerics::ConstantHelper::GetDoubleWithAllBitsSet() {
 }
 // Ctor Parameters []
 constexpr ::System::Numerics::ConstantHelper::ConstantHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

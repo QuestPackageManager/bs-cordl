@@ -1055,5 +1055,3 @@ inline bool Org::BouncyCastle::X509::Store::X509CertStoreSelector::MatchExtensio
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector::X509CertStoreSelector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

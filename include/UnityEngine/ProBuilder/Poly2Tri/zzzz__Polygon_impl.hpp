@@ -498,5 +498,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::Polygon::Prepare(::UnityEngine::P
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::Polygon::Polygon() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

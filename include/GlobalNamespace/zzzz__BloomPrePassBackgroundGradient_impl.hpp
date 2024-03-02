@@ -61,5 +61,3 @@ inline void GlobalNamespace::BloomPrePassBackgroundGradient::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundGradient::BloomPrePassBackgroundGradient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -62,5 +62,3 @@ inline void Mono::Unity::CertHelper::AddCertificateToNativeChain(::cordl_interna
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::CertHelper::CertHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -104,5 +104,3 @@ GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData(::System::C
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::AlphabetScrollbarInfoBeatmapLevelHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

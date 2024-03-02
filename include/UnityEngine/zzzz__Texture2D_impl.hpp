@@ -2359,5 +2359,3 @@ inline void UnityEngine::Texture2D::ReadPixelsImpl_Injected(ByRef<::UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Texture2D::Texture2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

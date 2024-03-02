@@ -116,5 +116,3 @@ template <typename TKey, typename TValue> inline ::System::Lazy_1<::System::Thre
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::GlobalNamespace::AsyncCache_2<TKey, TValue>::AsyncCache_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

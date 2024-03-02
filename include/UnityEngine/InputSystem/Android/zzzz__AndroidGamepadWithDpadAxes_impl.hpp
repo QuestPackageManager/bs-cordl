@@ -27,5 +27,3 @@ inline void UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes::_ctor
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes::AndroidGamepadWithDpadAxes() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

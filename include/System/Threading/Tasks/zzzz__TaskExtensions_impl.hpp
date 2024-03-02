@@ -14,5 +14,3 @@ inline ::System::Threading::Tasks::Task_1<TResult>* System::Threading::Tasks::Ta
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskExtensions::TaskExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

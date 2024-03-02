@@ -27,5 +27,3 @@ constexpr ::UnityEngine::GradientAlphaKey::GradientAlphaKey(float_t alpha, float
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GradientAlphaKey::GradientAlphaKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

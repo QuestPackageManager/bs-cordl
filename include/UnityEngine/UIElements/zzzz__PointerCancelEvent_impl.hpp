@@ -84,5 +84,3 @@ inline void UnityEngine::UIElements::PointerCancelEvent::PostDispatch(::UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerCancelEvent::PointerCancelEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

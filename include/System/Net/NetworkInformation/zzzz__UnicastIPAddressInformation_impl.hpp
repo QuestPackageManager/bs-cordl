@@ -27,5 +27,3 @@ inline void System::Net::NetworkInformation::UnicastIPAddressInformation::_ctor(
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnicastIPAddressInformation::UnicastIPAddressInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

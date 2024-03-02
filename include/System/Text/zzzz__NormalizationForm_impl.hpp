@@ -10,5 +10,3 @@ constexpr ::System::Text::NormalizationForm System::Text::NormalizationForm::For
 constexpr ::System::Text::NormalizationForm System::Text::NormalizationForm::FormD{ static_cast<int32_t>(0x2) };
 constexpr ::System::Text::NormalizationForm System::Text::NormalizationForm::FormKC{ static_cast<int32_t>(0x5) };
 constexpr ::System::Text::NormalizationForm System::Text::NormalizationForm::FormKD{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

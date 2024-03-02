@@ -211,5 +211,3 @@ constexpr ::UnityEngine::ProBuilder::BezierPoint::BezierPoint(::UnityEngine::Vec
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::BezierPoint::BezierPoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

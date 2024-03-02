@@ -68,5 +68,3 @@ inline ::Oculus::Platform::Models::PidList* Oculus::Platform::MessageWithPidList
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithPidList::MessageWithPidList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

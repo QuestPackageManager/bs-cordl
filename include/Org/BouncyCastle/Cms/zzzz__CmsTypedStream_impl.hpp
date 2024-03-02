@@ -211,5 +211,3 @@ inline void Org::BouncyCastle::Cms::CmsTypedStream::Drain() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsTypedStream::CmsTypedStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

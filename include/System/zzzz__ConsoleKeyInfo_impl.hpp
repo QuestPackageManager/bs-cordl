@@ -133,5 +133,3 @@ constexpr ::System::ConsoleKeyInfo::ConsoleKeyInfo(char16_t _keyChar, ::System::
 }
 // Ctor Parameters []
 constexpr ::System::ConsoleKeyInfo::ConsoleKeyInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

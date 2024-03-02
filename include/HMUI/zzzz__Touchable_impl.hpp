@@ -74,5 +74,3 @@ inline void HMUI::Touchable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::Touchable::Touchable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

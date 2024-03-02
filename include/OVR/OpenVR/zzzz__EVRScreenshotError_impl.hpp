@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::EVRScreenshotError OVR::OpenVR::EVRScreenshotError::Inc
 constexpr ::OVR::OpenVR::EVRScreenshotError OVR::OpenVR::EVRScreenshotError::NotFound{ static_cast<int32_t>(0x65) };
 constexpr ::OVR::OpenVR::EVRScreenshotError OVR::OpenVR::EVRScreenshotError::BufferTooSmall{ static_cast<int32_t>(0x66) };
 constexpr ::OVR::OpenVR::EVRScreenshotError OVR::OpenVR::EVRScreenshotError::ScreenshotAlreadyInProgress{ static_cast<int32_t>(0x6c) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -15,5 +15,3 @@ constexpr ::HoudiniEngineUnity::HAPI_EnvIntType HoudiniEngineUnity::HAPI_EnvIntT
 constexpr ::HoudiniEngineUnity::HAPI_EnvIntType HoudiniEngineUnity::HAPI_EnvIntType::HAPI_ENVINT_VERSION_HOUDINI_ENGINE_MINOR{ static_cast<int32_t>(0xd2) };
 constexpr ::HoudiniEngineUnity::HAPI_EnvIntType HoudiniEngineUnity::HAPI_EnvIntType::HAPI_ENVINT_VERSION_HOUDINI_ENGINE_API{ static_cast<int32_t>(0xdc) };
 constexpr ::HoudiniEngineUnity::HAPI_EnvIntType HoudiniEngineUnity::HAPI_EnvIntType::HAPI_ENVINT_MAX{ static_cast<int32_t>(0xdd) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

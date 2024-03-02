@@ -258,5 +258,3 @@ constexpr ::UnityEngine::XR::MeshGenerationResult::MeshGenerationResult(::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::MeshGenerationResult::MeshGenerationResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -88,5 +88,3 @@ inline void UnityEngine::UIElements::UIDocumentList::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIDocumentList::UIDocumentList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -44,5 +44,3 @@ constexpr ::Oculus::Platform::LogEventName Oculus::Platform::LogEventName::VrObt
 constexpr ::Oculus::Platform::LogEventName Oculus::Platform::LogEventName::VrPushOpened{ static_cast<int32_t>(0x23) };
 constexpr ::Oculus::Platform::LogEventName Oculus::Platform::LogEventName::VrActivateApp{ static_cast<int32_t>(0x24) };
 constexpr ::Oculus::Platform::LogEventName Oculus::Platform::LogEventName::VrDeactivateApp{ static_cast<int32_t>(0x25) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

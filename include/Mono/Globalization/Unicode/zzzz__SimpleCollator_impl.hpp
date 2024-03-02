@@ -1510,5 +1510,3 @@ inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore(::
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::SimpleCollator::SimpleCollator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::GlobalNamespace::CannotStartGameReason GlobalNamespace::CannotStartG
 constexpr ::GlobalNamespace::CannotStartGameReason GlobalNamespace::CannotStartGameReason::NoSongSelected{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::CannotStartGameReason GlobalNamespace::CannotStartGameReason::AllPlayersNotInLobby{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::CannotStartGameReason GlobalNamespace::CannotStartGameReason::DoNotOwnSong{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

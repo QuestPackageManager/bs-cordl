@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::EVRApplicationTransitionState OVR::OpenVR::EVRApplicati
 constexpr ::OVR::OpenVR::EVRApplicationTransitionState OVR::OpenVR::EVRApplicationTransitionState::VRApplicationTransition_OldAppQuitSent{ static_cast<int32_t>(0xa) };
 constexpr ::OVR::OpenVR::EVRApplicationTransitionState OVR::OpenVR::EVRApplicationTransitionState::VRApplicationTransition_WaitingForExternalLaunch{ static_cast<int32_t>(0xb) };
 constexpr ::OVR::OpenVR::EVRApplicationTransitionState OVR::OpenVR::EVRApplicationTransitionState::VRApplicationTransition_NewAppLaunched{ static_cast<int32_t>(0x14) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

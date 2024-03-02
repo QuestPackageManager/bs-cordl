@@ -49,5 +49,3 @@ constexpr ::LIV::SDK::Unity::SDKOutputFrame::SDKOutputFrame(::LIV::SDK::Unity::R
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKOutputFrame::SDKOutputFrame() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

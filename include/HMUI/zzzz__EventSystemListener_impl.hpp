@@ -203,5 +203,3 @@ inline void HMUI::EventSystemListener::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::EventSystemListener::EventSystemListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

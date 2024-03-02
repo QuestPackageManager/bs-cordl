@@ -8,5 +8,3 @@ constexpr ::Zenject::ValidationErrorResponses::ValidationErrorResponses(int32_t 
 constexpr ::Zenject::ValidationErrorResponses::ValidationErrorResponses() {}
 constexpr ::Zenject::ValidationErrorResponses Zenject::ValidationErrorResponses::Log{ static_cast<int32_t>(0x0) };
 constexpr ::Zenject::ValidationErrorResponses Zenject::ValidationErrorResponses::Throw{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

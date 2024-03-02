@@ -11,5 +11,3 @@ constexpr ::UnityEngine::UIElements::UIR::Transform3x4::Transform3x4(::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Transform3x4::Transform3x4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

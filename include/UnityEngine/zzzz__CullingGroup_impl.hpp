@@ -100,5 +100,3 @@ inline void UnityEngine::CullingGroup::SendEvents(::UnityEngine::CullingGroup* c
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CullingGroup::CullingGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

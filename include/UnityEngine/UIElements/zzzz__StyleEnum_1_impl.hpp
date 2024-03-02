@@ -107,5 +107,3 @@ template <typename T> constexpr ::UnityEngine::UIElements::StyleEnum_1<T>::Style
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::StyleEnum_1<T>::StyleEnum_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

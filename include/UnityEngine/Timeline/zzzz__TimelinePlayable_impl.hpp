@@ -416,5 +416,3 @@ inline void UnityEngine::Timeline::TimelinePlayable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimelinePlayable::TimelinePlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -129,5 +129,3 @@ inline void Org::BouncyCastle::Bcpg::SecretSubkeyPacket::Encode(::Org::BouncyCas
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::SecretSubkeyPacket::SecretSubkeyPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

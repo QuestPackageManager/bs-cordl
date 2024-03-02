@@ -150,5 +150,3 @@ inline void System::Security::Cryptography::SHA1CryptoServiceProvider::Initializ
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::SHA1CryptoServiceProvider::SHA1CryptoServiceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

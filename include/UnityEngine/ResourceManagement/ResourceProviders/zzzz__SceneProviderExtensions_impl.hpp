@@ -47,5 +47,3 @@ UnityEngine::ResourceManagement::ResourceProviders::SceneProviderExtensions::Rel
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::SceneProviderExtensions::SceneProviderExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

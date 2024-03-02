@@ -634,5 +634,3 @@ inline void Unity::XR::OpenVR::OpenVROculusTouchController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::OpenVR::OpenVROculusTouchController::OpenVROculusTouchController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

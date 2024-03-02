@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Rendering::ComputeQueueType::ComputeQueueType() {}
 constexpr ::UnityEngine::Rendering::ComputeQueueType UnityEngine::Rendering::ComputeQueueType::Default{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::ComputeQueueType UnityEngine::Rendering::ComputeQueueType::Background{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ComputeQueueType UnityEngine::Rendering::ComputeQueueType::Urgent{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

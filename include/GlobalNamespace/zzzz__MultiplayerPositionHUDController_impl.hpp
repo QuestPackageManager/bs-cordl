@@ -186,5 +186,3 @@ inline void GlobalNamespace::MultiplayerPositionHUDController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerPositionHUDController::MultiplayerPositionHUDController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -210,5 +210,3 @@ inline int32_t System::Text::RegularExpressions::RegexBoyerMoore::Scan(::StringW
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexBoyerMoore::RegexBoyerMoore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

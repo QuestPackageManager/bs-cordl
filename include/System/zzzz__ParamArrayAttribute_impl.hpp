@@ -24,5 +24,3 @@ inline void System::ParamArrayAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ParamArrayAttribute::ParamArrayAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

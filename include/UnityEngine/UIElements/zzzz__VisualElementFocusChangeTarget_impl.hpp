@@ -157,5 +157,3 @@ inline void UnityEngine::UIElements::VisualElementFocusChangeTarget::set_target(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementFocusChangeTarget::VisualElementFocusChangeTarget() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

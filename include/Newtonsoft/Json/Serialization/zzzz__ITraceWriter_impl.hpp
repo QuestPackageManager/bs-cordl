@@ -44,5 +44,3 @@ inline void Newtonsoft::Json::Serialization::ITraceWriter::Trace(::System::Diagn
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ITraceWriter*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, level, message, ex);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

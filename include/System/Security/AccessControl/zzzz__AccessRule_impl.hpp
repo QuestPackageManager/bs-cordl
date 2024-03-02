@@ -77,5 +77,3 @@ inline ::System::Security::AccessControl::AccessControlType System::Security::Ac
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::AccessRule::AccessRule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

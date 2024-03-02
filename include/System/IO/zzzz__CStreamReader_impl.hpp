@@ -140,5 +140,3 @@ inline ::StringW System::IO::CStreamReader::ReadToEnd() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::CStreamReader::CStreamReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

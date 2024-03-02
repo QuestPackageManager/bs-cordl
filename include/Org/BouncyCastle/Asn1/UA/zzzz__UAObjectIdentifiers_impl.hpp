@@ -377,5 +377,3 @@ inline void Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::UA::UAObjectIdentifiers::UAObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

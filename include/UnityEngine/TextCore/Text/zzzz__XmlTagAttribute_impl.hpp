@@ -15,5 +15,3 @@ constexpr ::UnityEngine::TextCore::Text::XmlTagAttribute::XmlTagAttribute(int32_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::XmlTagAttribute::XmlTagAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

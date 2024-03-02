@@ -462,5 +462,3 @@ inline ::System::Xml::XmlAttribute* System::Xml::XmlAttributeCollection::Interna
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlAttributeCollection::XmlAttributeCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -48,5 +48,3 @@ inline void System::Security::Cryptography::HMACSHA256::_ctor(::ArrayW<uint8_t, 
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::HMACSHA256::HMACSHA256() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

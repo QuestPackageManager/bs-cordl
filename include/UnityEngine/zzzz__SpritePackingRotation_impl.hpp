@@ -11,5 +11,3 @@ constexpr ::UnityEngine::SpritePackingRotation UnityEngine::SpritePackingRotatio
 constexpr ::UnityEngine::SpritePackingRotation UnityEngine::SpritePackingRotation::FlipVertical{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::SpritePackingRotation UnityEngine::SpritePackingRotation::Rotate180{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::SpritePackingRotation UnityEngine::SpritePackingRotation::Any{ static_cast<int32_t>(0xf) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

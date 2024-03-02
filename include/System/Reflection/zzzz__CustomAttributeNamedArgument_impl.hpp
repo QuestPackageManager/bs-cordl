@@ -276,5 +276,3 @@ constexpr ::System::Reflection::CustomAttributeNamedArgument::CustomAttributeNam
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::CustomAttributeNamedArgument::CustomAttributeNamedArgument() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

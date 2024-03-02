@@ -223,5 +223,3 @@ inline void UnityEngine::UIElements::DropdownMenuAction::UpdateActionStatus(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DropdownMenuAction::DropdownMenuAction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

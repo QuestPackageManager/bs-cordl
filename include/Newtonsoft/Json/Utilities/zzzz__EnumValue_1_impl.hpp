@@ -46,5 +46,3 @@ template <typename T> inline void Newtonsoft::Json::Utilities::EnumValue_1<T>::_
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Newtonsoft::Json::Utilities::EnumValue_1<T>::EnumValue_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

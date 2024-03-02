@@ -155,5 +155,3 @@ inline void BeatSaber::BeatAvatarAdapter::BeatAvatar::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarAdapter::BeatAvatar::BeatAvatar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

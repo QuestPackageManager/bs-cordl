@@ -68,5 +68,3 @@ inline void Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::VmpcKsa3Engine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

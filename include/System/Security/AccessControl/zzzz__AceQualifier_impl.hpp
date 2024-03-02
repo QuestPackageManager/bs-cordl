@@ -10,5 +10,3 @@ constexpr ::System::Security::AccessControl::AceQualifier System::Security::Acce
 constexpr ::System::Security::AccessControl::AceQualifier System::Security::AccessControl::AceQualifier::AccessDenied{ static_cast<int32_t>(0x1) };
 constexpr ::System::Security::AccessControl::AceQualifier System::Security::AccessControl::AceQualifier::SystemAudit{ static_cast<int32_t>(0x2) };
 constexpr ::System::Security::AccessControl::AceQualifier System::Security::AccessControl::AceQualifier::SystemAlarm{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

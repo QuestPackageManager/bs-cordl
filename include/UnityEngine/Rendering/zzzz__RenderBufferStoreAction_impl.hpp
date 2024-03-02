@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Rendering::RenderBufferStoreAction UnityEngine::Renderi
 constexpr ::UnityEngine::Rendering::RenderBufferStoreAction UnityEngine::Rendering::RenderBufferStoreAction::Resolve{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::RenderBufferStoreAction UnityEngine::Rendering::RenderBufferStoreAction::StoreAndResolve{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::RenderBufferStoreAction UnityEngine::Rendering::RenderBufferStoreAction::DontCare{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

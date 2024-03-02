@@ -175,5 +175,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Bcpg::OpenPgp::Pgp
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::PgpEncryptedDataList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

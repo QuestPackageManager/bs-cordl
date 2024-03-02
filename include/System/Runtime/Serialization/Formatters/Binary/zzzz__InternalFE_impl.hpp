@@ -81,5 +81,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::InternalFE::_cto
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalFE::InternalFE() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

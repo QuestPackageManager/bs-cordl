@@ -212,5 +212,3 @@ constexpr ::UnityEngine::InputSystem::Users::InputUserAccountHandle::InputUserAc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Users::InputUserAccountHandle::InputUserAccountHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

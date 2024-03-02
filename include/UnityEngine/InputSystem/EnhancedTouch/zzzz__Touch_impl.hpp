@@ -1179,5 +1179,3 @@ constexpr ::UnityEngine::InputSystem::EnhancedTouch::Touch::Touch(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::Touch::Touch() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

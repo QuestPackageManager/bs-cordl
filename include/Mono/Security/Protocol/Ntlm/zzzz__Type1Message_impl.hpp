@@ -132,5 +132,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Protocol::Ntlm::Type
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Protocol::Ntlm::Type1Message::Type1Message() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

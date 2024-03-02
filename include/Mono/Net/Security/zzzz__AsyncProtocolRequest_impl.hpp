@@ -587,5 +587,3 @@ inline ::StringW Mono::Net::Security::AsyncProtocolRequest::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::AsyncProtocolRequest::AsyncProtocolRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

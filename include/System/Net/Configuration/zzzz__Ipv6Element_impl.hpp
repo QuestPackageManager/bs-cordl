@@ -45,5 +45,3 @@ inline ::System::Configuration::ConfigurationPropertyCollection* System::Net::Co
 }
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::Ipv6Element::Ipv6Element() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

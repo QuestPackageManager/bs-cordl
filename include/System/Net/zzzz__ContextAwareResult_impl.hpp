@@ -381,5 +381,3 @@ inline void System::Net::ContextAwareResult::CompleteCallback() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::ContextAwareResult::ContextAwareResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ inline void System::FlagsAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::FlagsAttribute::FlagsAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

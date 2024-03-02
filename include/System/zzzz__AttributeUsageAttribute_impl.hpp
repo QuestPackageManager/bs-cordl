@@ -147,5 +147,3 @@ inline void System::AttributeUsageAttribute::set_Inherited(bool value) {
 }
 // Ctor Parameters []
 constexpr ::System::AttributeUsageAttribute::AttributeUsageAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

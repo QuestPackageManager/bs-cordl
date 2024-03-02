@@ -91,5 +91,3 @@ inline void System::Collections::Generic::InternalStringComparer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Generic::InternalStringComparer::InternalStringComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

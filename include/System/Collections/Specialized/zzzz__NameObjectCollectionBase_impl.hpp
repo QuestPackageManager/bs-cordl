@@ -865,5 +865,3 @@ inline bool System::Collections::Specialized::NameObjectCollectionBase::System_C
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Specialized::NameObjectCollectionBase::NameObjectCollectionBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

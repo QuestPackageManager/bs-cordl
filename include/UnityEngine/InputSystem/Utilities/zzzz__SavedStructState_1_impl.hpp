@@ -122,5 +122,3 @@ template <typename T> inline void UnityEngine::InputSystem::Utilities::SavedStru
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::InputSystem::Utilities::SavedStructState_1<T>::SavedStructState_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

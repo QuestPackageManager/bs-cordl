@@ -59,5 +59,3 @@ inline ::ArrayW<::StringW, ::Array<::StringW>*> UnityEngine::HumanTrait::get_Mus
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::HumanTrait::HumanTrait() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -85,5 +85,3 @@ inline void System::Xml::Schema::DtdValidator::SetDefaultTypedValue(::System::Xm
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::DtdValidator::DtdValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

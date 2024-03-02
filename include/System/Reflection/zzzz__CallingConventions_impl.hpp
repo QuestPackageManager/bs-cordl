@@ -11,5 +11,3 @@ constexpr ::System::Reflection::CallingConventions System::Reflection::CallingCo
 constexpr ::System::Reflection::CallingConventions System::Reflection::CallingConventions::Any{ static_cast<int32_t>(0x3) };
 constexpr ::System::Reflection::CallingConventions System::Reflection::CallingConventions::HasThis{ static_cast<int32_t>(0x20) };
 constexpr ::System::Reflection::CallingConventions System::Reflection::CallingConventions::ExplicitThis{ static_cast<int32_t>(0x40) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

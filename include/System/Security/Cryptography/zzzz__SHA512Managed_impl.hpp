@@ -395,5 +395,3 @@ inline void System::Security::Cryptography::SHA512Managed::SHA512Expand(::cordl_
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::SHA512Managed::SHA512Managed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

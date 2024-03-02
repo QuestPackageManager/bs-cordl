@@ -9,5 +9,3 @@ constexpr ::HMUI::TableViewSelectionType::TableViewSelectionType() {}
 constexpr ::HMUI::TableViewSelectionType HMUI::TableViewSelectionType::None{ static_cast<int32_t>(0x0) };
 constexpr ::HMUI::TableViewSelectionType HMUI::TableViewSelectionType::Single{ static_cast<int32_t>(0x1) };
 constexpr ::HMUI::TableViewSelectionType HMUI::TableViewSelectionType::Multiple{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

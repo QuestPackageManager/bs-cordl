@@ -782,5 +782,3 @@ inline void Org::BouncyCastle::Crypto::Modes::Gcm::GcmUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::GcmUtilities::GcmUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

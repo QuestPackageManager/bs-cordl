@@ -405,5 +405,3 @@ inline void GlobalNamespace::PositionRectTransformViewStateTransition::_StartTwe
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PositionRectTransformViewStateTransition::PositionRectTransformViewStateTransition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

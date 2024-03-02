@@ -172,5 +172,3 @@ inline bool System::Net::BufferedReadStream::TryReadFromBuffer(::ArrayW<uint8_t,
 }
 // Ctor Parameters []
 constexpr ::System::Net::BufferedReadStream::BufferedReadStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

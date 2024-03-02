@@ -158,5 +158,3 @@ inline void GlobalNamespace::ImmediateRankUIPanel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ImmediateRankUIPanel::ImmediateRankUIPanel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

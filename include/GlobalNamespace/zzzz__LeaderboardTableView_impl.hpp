@@ -417,5 +417,3 @@ inline void GlobalNamespace::LeaderboardTableView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LeaderboardTableView::LeaderboardTableView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

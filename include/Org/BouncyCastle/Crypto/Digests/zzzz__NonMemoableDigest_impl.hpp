@@ -202,5 +202,3 @@ inline int32_t Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::GetByteLen
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest::NonMemoableDigest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

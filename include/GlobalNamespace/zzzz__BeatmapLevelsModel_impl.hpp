@@ -1370,5 +1370,3 @@ inline void GlobalNamespace::BeatmapLevelsModel::HandleBeatmapLevelLoaderLevelDo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelsModel::BeatmapLevelsModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

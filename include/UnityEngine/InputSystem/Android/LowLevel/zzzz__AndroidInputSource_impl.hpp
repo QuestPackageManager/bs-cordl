@@ -15,5 +15,3 @@ constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource Unit
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource::Trackball{ static_cast<int32_t>(0x10004) };
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource::Touchpad{ static_cast<int32_t>(0x100008) };
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource UnityEngine::InputSystem::Android::LowLevel::AndroidInputSource::Joystick{ static_cast<int32_t>(0x1000010) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

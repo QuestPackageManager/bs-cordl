@@ -192,5 +192,3 @@ inline void BeatSaber::AvatarCore::OptionalAvatarDataSender::HandleOptionalAvata
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender::OptionalAvatarDataSender() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

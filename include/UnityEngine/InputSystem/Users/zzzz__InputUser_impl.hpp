@@ -1808,5 +1808,3 @@ inline void UnityEngine::InputSystem::Users::__InputUser____c::_SaveAndResetStat
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Users::__InputUser____c::__InputUser____c() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

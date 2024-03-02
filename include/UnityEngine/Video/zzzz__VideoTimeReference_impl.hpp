@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Video::VideoTimeReference::VideoTimeReference() {}
 constexpr ::UnityEngine::Video::VideoTimeReference UnityEngine::Video::VideoTimeReference::Freerun{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Video::VideoTimeReference UnityEngine::Video::VideoTimeReference::InternalTime{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Video::VideoTimeReference UnityEngine::Video::VideoTimeReference::ExternalTime{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

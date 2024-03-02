@@ -218,5 +218,3 @@ inline void GlobalNamespace::ComboUIController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ComboUIController::ComboUIController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

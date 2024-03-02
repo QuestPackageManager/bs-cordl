@@ -94,5 +94,3 @@ inline int32_t System::Collections::CaseInsensitiveHashCodeProvider::GetHashCode
 }
 // Ctor Parameters []
 constexpr ::System::Collections::CaseInsensitiveHashCodeProvider::CaseInsensitiveHashCodeProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

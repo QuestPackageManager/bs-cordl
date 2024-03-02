@@ -2309,5 +2309,3 @@ inline void UnityEngine::InputSystem::__PlayerInput__ControlsChangedEvent::_ctor
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::__PlayerInput__ControlsChangedEvent::__PlayerInput__ControlsChangedEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

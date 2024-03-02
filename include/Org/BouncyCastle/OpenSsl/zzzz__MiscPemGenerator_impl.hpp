@@ -210,5 +210,3 @@ inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Org::BouncyCastle::Op
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::OpenSsl::MiscPemGenerator::MiscPemGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -251,5 +251,3 @@ inline int32_t GlobalNamespace::GraphAPIClient::CalculateDelayMsBeforeRetry(int3
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GraphAPIClient::GraphAPIClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

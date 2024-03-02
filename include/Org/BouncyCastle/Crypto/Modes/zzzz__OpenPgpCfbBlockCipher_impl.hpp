@@ -343,5 +343,3 @@ inline int32_t Org::BouncyCastle::Crypto::Modes::OpenPgpCfbBlockCipher::DecryptB
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::OpenPgpCfbBlockCipher::OpenPgpCfbBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

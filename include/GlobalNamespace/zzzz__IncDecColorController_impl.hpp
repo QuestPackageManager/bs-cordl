@@ -174,5 +174,3 @@ inline void GlobalNamespace::IncDecColorController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IncDecColorController::IncDecColorController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

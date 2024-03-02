@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* Oculus::Platform::Me
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithLaunchUnblockFlowResult::MessageWithLaunchUnblockFlowResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

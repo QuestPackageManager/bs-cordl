@@ -360,5 +360,3 @@ inline ::OVR::OpenVR::EVRTrackedCameraError OVR::OpenVR::CVRTrackedCamera::Relea
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRTrackedCamera::CVRTrackedCamera() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

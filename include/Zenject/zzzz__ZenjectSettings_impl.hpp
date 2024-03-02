@@ -479,5 +479,3 @@ inline bool Zenject::ZenjectSettings::get_EnsureDeterministicDestructionOrderOnA
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenjectSettings::ZenjectSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

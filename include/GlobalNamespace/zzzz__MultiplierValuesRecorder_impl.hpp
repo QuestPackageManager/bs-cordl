@@ -171,5 +171,3 @@ inline void GlobalNamespace::MultiplierValuesRecorder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplierValuesRecorder::MultiplierValuesRecorder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -316,5 +316,3 @@ inline float_t UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitud
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::AxisControl::AxisControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -52,5 +52,3 @@ inline void Zenject::ZenjectException::_ctor(::StringW message, ::System::Except
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenjectException::ZenjectException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

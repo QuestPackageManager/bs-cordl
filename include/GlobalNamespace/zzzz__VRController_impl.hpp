@@ -666,5 +666,3 @@ inline void GlobalNamespace::VRController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VRController::VRController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

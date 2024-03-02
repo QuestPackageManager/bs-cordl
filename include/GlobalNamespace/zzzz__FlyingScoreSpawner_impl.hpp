@@ -154,5 +154,3 @@ inline void GlobalNamespace::FlyingScoreSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FlyingScoreSpawner::FlyingScoreSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

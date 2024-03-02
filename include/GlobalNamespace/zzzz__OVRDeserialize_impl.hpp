@@ -105,5 +105,3 @@ template <typename T> inline T GlobalNamespace::OVRDeserialize::ByteArrayToStruc
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRDeserialize::OVRDeserialize() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

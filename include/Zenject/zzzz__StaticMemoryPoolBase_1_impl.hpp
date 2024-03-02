@@ -18,5 +18,3 @@ template <typename TValue> inline TValue Zenject::StaticMemoryPoolBase_1<TValue>
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::Zenject::StaticMemoryPoolBase_1<TValue>::StaticMemoryPoolBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

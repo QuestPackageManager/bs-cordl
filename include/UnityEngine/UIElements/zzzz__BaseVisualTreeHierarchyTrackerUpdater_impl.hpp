@@ -211,5 +211,3 @@ inline void UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::_cto
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater::BaseVisualTreeHierarchyTrackerUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

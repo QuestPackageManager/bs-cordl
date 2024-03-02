@@ -12,5 +12,3 @@ constexpr ::GlobalNamespace::NodeStatePropertyType GlobalNamespace::NodeStatePro
 constexpr ::GlobalNamespace::NodeStatePropertyType GlobalNamespace::NodeStatePropertyType::AngularVelocity{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::NodeStatePropertyType GlobalNamespace::NodeStatePropertyType::Position{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::NodeStatePropertyType GlobalNamespace::NodeStatePropertyType::Orientation{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

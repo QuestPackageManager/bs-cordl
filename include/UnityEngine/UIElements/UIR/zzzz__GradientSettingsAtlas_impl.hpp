@@ -485,5 +485,3 @@ inline void UnityEngine::UIElements::UIR::GradientSettingsAtlas::PrepareAtlas() 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::GradientSettingsAtlas::GradientSettingsAtlas() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

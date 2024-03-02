@@ -25,5 +25,3 @@ inline ::StringW GlobalNamespace::BeatmapCharacteristicExtensions::SerializedNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicExtensions::BeatmapCharacteristicExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

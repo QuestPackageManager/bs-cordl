@@ -52,5 +52,3 @@ constexpr ::System::Net::Sockets::SocketOptionName System::Net::Sockets::SocketO
 constexpr ::System::Net::Sockets::SocketOptionName System::Net::Sockets::SocketOptionName::ChecksumCoverage{ static_cast<int32_t>(0x14) };
 constexpr ::System::Net::Sockets::SocketOptionName System::Net::Sockets::SocketOptionName::UpdateAcceptContext{ static_cast<int32_t>(0x700b) };
 constexpr ::System::Net::Sockets::SocketOptionName System::Net::Sockets::SocketOptionName::UpdateConnectContext{ static_cast<int32_t>(0x7010) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

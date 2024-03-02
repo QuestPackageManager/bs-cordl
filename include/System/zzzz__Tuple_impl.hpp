@@ -105,5 +105,3 @@ inline int32_t System::Tuple::CombineHashCodes(int32_t h1, int32_t h2, int32_t h
 }
 // Ctor Parameters []
 constexpr ::System::Tuple::Tuple() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

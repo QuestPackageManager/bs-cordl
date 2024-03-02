@@ -121,5 +121,3 @@ inline void UnityEngine::Networking::DownloadHandlerBuffer::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::DownloadHandlerBuffer::DownloadHandlerBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

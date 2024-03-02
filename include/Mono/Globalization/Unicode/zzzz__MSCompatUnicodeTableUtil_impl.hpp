@@ -67,5 +67,3 @@ inline ::Mono::Globalization::Unicode::CodePointIndexer* Mono::Globalization::Un
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::MSCompatUnicodeTableUtil::MSCompatUnicodeTableUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

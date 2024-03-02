@@ -97,5 +97,3 @@ inline void System::Net::Configuration::SettingsSectionInternal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::SettingsSectionInternal::SettingsSectionInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

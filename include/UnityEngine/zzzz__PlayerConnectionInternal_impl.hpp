@@ -376,5 +376,3 @@ inline void UnityEngine::PlayerConnectionInternal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerConnectionInternal::PlayerConnectionInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

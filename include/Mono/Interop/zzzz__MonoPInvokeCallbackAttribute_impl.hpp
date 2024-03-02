@@ -28,5 +28,3 @@ inline void Mono::Interop::MonoPInvokeCallbackAttribute::_ctor(::System::Type* t
 }
 // Ctor Parameters []
 constexpr ::Mono::Interop::MonoPInvokeCallbackAttribute::MonoPInvokeCallbackAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

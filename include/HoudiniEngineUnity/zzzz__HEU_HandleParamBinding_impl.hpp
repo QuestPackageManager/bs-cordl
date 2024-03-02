@@ -126,5 +126,3 @@ inline void HoudiniEngineUnity::HEU_HandleParamBinding::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding::HEU_HandleParamBinding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

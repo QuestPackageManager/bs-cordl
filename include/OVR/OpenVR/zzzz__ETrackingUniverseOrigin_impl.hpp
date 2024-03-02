@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::ETrackingUniverseOrigin::ETrackingUniverseOrigin() {}
 constexpr ::OVR::OpenVR::ETrackingUniverseOrigin OVR::OpenVR::ETrackingUniverseOrigin::TrackingUniverseSeated{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::ETrackingUniverseOrigin OVR::OpenVR::ETrackingUniverseOrigin::TrackingUniverseStanding{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::ETrackingUniverseOrigin OVR::OpenVR::ETrackingUniverseOrigin::TrackingUniverseRawAndUncalibrated{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

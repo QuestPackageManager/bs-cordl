@@ -83,5 +83,3 @@ inline void UnityEngine::UIElements::IMGUIEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::IMGUIEvent::IMGUIEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

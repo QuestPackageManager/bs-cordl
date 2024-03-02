@@ -752,5 +752,3 @@ inline void UnityEngine::CharacterJoint::set_swing2Limit_Injected(ByRef<::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CharacterJoint::CharacterJoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

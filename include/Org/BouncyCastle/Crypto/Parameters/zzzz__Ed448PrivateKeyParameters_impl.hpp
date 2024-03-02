@@ -259,5 +259,3 @@ inline void Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::Si
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters::Ed448PrivateKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

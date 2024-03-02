@@ -464,5 +464,3 @@ inline void UnityEngine::UIElements::DragEventsProcessor::OnPointerMoveEvent(::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DragEventsProcessor::DragEventsProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

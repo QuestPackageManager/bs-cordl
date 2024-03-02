@@ -18,5 +18,3 @@ constexpr ::OVR::OpenVR::InputAnalogActionData_t::InputAnalogActionData_t(bool b
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::InputAnalogActionData_t::InputAnalogActionData_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ScaleMode::ScaleMode() {}
 constexpr ::UnityEngine::ScaleMode UnityEngine::ScaleMode::StretchToFill{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ScaleMode UnityEngine::ScaleMode::ScaleAndCrop{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ScaleMode UnityEngine::ScaleMode::ScaleToFit{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

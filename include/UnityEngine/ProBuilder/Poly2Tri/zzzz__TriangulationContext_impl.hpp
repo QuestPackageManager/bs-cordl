@@ -485,5 +485,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::TriangulationContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

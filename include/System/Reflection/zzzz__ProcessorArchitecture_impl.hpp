@@ -12,5 +12,3 @@ constexpr ::System::Reflection::ProcessorArchitecture System::Reflection::Proces
 constexpr ::System::Reflection::ProcessorArchitecture System::Reflection::ProcessorArchitecture::IA64{ static_cast<int32_t>(0x3) };
 constexpr ::System::Reflection::ProcessorArchitecture System::Reflection::ProcessorArchitecture::Amd64{ static_cast<int32_t>(0x4) };
 constexpr ::System::Reflection::ProcessorArchitecture System::Reflection::ProcessorArchitecture::Arm{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

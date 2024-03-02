@@ -10,5 +10,3 @@ constexpr ::UnityEngine::TextCore::Text::TextureMapping UnityEngine::TextCore::T
 constexpr ::UnityEngine::TextCore::Text::TextureMapping UnityEngine::TextCore::Text::TextureMapping::Line{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TextCore::Text::TextureMapping UnityEngine::TextCore::Text::TextureMapping::Paragraph{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::TextCore::Text::TextureMapping UnityEngine::TextCore::Text::TextureMapping::MatchAspect{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

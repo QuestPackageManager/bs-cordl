@@ -392,5 +392,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::Encode(::Syst
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature::PgpOnePassSignature() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

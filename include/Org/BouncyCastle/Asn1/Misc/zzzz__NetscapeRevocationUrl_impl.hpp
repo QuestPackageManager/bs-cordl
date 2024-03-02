@@ -50,5 +50,3 @@ inline ::StringW Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::ToString(
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl::NetscapeRevocationUrl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

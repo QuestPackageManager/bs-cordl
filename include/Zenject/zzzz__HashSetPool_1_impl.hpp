@@ -37,5 +37,3 @@ template <typename T> inline void Zenject::HashSetPool_1<T>::OnDespawned(::Syste
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Zenject::HashSetPool_1<T>::HashSetPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

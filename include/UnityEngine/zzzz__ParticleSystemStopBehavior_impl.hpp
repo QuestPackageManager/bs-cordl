@@ -8,5 +8,3 @@ constexpr ::UnityEngine::ParticleSystemStopBehavior::ParticleSystemStopBehavior(
 constexpr ::UnityEngine::ParticleSystemStopBehavior::ParticleSystemStopBehavior() {}
 constexpr ::UnityEngine::ParticleSystemStopBehavior UnityEngine::ParticleSystemStopBehavior::StopEmittingAndClear{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ParticleSystemStopBehavior UnityEngine::ParticleSystemStopBehavior::StopEmitting{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

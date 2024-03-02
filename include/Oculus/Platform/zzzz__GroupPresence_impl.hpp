@@ -398,5 +398,3 @@ Oculus::Platform::GroupPresence::GetNextApplicationInviteListPage(::Oculus::Plat
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::GroupPresence::GroupPresence() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

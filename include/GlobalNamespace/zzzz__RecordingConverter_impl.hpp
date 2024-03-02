@@ -64,5 +64,3 @@ inline void GlobalNamespace::RecordingConverter::SaveToOldFormat(::StringW path,
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingConverter::RecordingConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

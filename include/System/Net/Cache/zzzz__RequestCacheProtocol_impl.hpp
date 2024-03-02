@@ -30,5 +30,3 @@ inline void System::Net::Cache::RequestCacheProtocol::_ctor(::System::Object* ar
 }
 // Ctor Parameters []
 constexpr ::System::Net::Cache::RequestCacheProtocol::RequestCacheProtocol() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

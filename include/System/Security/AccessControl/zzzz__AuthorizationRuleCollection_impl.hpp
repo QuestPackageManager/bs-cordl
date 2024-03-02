@@ -33,5 +33,3 @@ inline void System::Security::AccessControl::AuthorizationRuleCollection::_ctor(
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::AuthorizationRuleCollection::AuthorizationRuleCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

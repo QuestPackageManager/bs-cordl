@@ -73,5 +73,3 @@ inline void RootMotion::InspectorComment::_ctor(::StringW name, ::StringW color)
 }
 // Ctor Parameters []
 constexpr ::RootMotion::InspectorComment::InspectorComment() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

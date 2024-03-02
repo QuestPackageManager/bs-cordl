@@ -188,5 +188,3 @@ inline void GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::MultiplayerLobbyAvatarPlaceManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

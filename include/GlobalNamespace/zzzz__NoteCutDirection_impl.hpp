@@ -16,5 +16,3 @@ constexpr ::GlobalNamespace::NoteCutDirection GlobalNamespace::NoteCutDirection:
 constexpr ::GlobalNamespace::NoteCutDirection GlobalNamespace::NoteCutDirection::DownRight{ static_cast<int32_t>(0x7) };
 constexpr ::GlobalNamespace::NoteCutDirection GlobalNamespace::NoteCutDirection::Any{ static_cast<int32_t>(0x8) };
 constexpr ::GlobalNamespace::NoteCutDirection GlobalNamespace::NoteCutDirection::None{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

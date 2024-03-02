@@ -102,5 +102,3 @@ inline void System::NotSupportedException::_ctor(::System::Runtime::Serializatio
 }
 // Ctor Parameters []
 constexpr ::System::NotSupportedException::NotSupportedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

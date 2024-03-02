@@ -155,5 +155,3 @@ inline ::StringW System::Reflection::SignatureByRefType::get_Suffix() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::SignatureByRefType::SignatureByRefType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

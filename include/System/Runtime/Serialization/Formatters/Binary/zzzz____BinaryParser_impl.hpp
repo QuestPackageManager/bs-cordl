@@ -1334,5 +1334,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::__BinaryParser::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser::__BinaryParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

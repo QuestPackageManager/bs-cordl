@@ -152,5 +152,3 @@ inline void GlobalNamespace::CubemapHelpers::DrawCubemapFace(::UnityEngine::Text
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CubemapHelpers::CubemapHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

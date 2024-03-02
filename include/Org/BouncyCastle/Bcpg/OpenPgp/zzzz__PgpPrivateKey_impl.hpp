@@ -128,5 +128,3 @@ inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Org::BouncyCastle::B
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey::PgpPrivateKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

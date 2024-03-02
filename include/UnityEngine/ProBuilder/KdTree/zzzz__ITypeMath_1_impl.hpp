@@ -70,5 +70,3 @@ template <typename T> inline T UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, a, b);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

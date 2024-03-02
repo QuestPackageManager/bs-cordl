@@ -8,5 +8,3 @@ constexpr ::BeatmapSaveDataCommon::ExecutionTime::ExecutionTime(int32_t value__)
 constexpr ::BeatmapSaveDataCommon::ExecutionTime::ExecutionTime() {}
 constexpr ::BeatmapSaveDataCommon::ExecutionTime BeatmapSaveDataCommon::ExecutionTime::Early{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataCommon::ExecutionTime BeatmapSaveDataCommon::ExecutionTime::Late{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

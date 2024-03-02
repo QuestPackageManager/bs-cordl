@@ -38,5 +38,3 @@ constexpr ::System::Globalization::DaylightTimeStruct::DaylightTimeStruct(::Syst
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::DaylightTimeStruct::DaylightTimeStruct() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

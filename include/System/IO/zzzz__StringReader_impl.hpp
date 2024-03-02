@@ -237,5 +237,3 @@ inline ::System::Threading::Tasks::Task_1<int32_t>* System::IO::StringReader::Re
 }
 // Ctor Parameters []
 constexpr ::System::IO::StringReader::StringReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -73,5 +73,3 @@ inline void UnityEngine::Experimental::XR::Interaction::BasePoseProvider::_ctor(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::BasePoseProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

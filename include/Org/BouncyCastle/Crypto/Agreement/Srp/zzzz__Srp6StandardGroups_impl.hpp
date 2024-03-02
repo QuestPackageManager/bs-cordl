@@ -134,5 +134,3 @@ inline void Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::_ctor
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups::Srp6StandardGroups() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

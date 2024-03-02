@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::RazorSectionAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::RazorSectionAttribute::RazorSectionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

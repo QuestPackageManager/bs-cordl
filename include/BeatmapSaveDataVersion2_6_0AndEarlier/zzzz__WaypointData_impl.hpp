@@ -165,5 +165,3 @@ inline void BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::_ctor(float_t t
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::WaypointData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

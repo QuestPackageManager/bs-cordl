@@ -297,5 +297,3 @@ inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::BGLib::UnityExtension::AssetBundleExtensions::AssetBundleExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

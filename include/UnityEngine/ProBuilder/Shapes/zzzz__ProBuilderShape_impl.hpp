@@ -656,5 +656,3 @@ inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::ProBuilderShape::ProBuilderShape() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

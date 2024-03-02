@@ -182,5 +182,3 @@ inline void UnityEngine::InputSystem::Accelerometer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Accelerometer::Accelerometer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

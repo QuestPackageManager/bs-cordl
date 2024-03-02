@@ -1939,5 +1939,3 @@ inline void GlobalNamespace::MainSettingsModelSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainSettingsModelSO::MainSettingsModelSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

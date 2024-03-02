@@ -428,5 +428,3 @@ constexpr ::TMPro::TMP_Offset::TMP_Offset(float_t m_Left, float_t m_Right, float
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Offset::TMP_Offset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

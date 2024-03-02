@@ -162,5 +162,3 @@ inline int32_t Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator::Genera
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::Mgf1BytesGenerator::Mgf1BytesGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

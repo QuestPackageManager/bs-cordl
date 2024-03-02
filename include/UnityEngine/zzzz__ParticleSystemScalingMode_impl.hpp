@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ParticleSystemScalingMode::ParticleSystemScalingMode() 
 constexpr ::UnityEngine::ParticleSystemScalingMode UnityEngine::ParticleSystemScalingMode::Hierarchy{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ParticleSystemScalingMode UnityEngine::ParticleSystemScalingMode::Local{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ParticleSystemScalingMode UnityEngine::ParticleSystemScalingMode::Shape{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

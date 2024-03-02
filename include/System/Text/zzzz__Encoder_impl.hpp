@@ -248,5 +248,3 @@ inline void System::Text::Encoder::Convert(::cordl_internals::Ptr<char16_t> char
 }
 // Ctor Parameters []
 constexpr ::System::Text::Encoder::Encoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -76,5 +76,3 @@ inline void System::StackOverflowException::_ctor(::System::Runtime::Serializati
 }
 // Ctor Parameters []
 constexpr ::System::StackOverflowException::StackOverflowException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

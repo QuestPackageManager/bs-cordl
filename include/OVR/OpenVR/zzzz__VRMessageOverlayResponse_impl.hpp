@@ -13,5 +13,3 @@ constexpr ::OVR::OpenVR::VRMessageOverlayResponse OVR::OpenVR::VRMessageOverlayR
 constexpr ::OVR::OpenVR::VRMessageOverlayResponse OVR::OpenVR::VRMessageOverlayResponse::CouldntFindSystemOverlay{ static_cast<int32_t>(0x4) };
 constexpr ::OVR::OpenVR::VRMessageOverlayResponse OVR::OpenVR::VRMessageOverlayResponse::CouldntFindOrCreateClientOverlay{ static_cast<int32_t>(0x5) };
 constexpr ::OVR::OpenVR::VRMessageOverlayResponse OVR::OpenVR::VRMessageOverlayResponse::ApplicationQuit{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

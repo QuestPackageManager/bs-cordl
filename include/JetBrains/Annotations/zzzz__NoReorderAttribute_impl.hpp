@@ -24,5 +24,3 @@ inline void JetBrains::Annotations::NoReorderAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::NoReorderAttribute::NoReorderAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

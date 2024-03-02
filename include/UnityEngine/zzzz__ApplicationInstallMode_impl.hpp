@@ -12,5 +12,3 @@ constexpr ::UnityEngine::ApplicationInstallMode UnityEngine::ApplicationInstallM
 constexpr ::UnityEngine::ApplicationInstallMode UnityEngine::ApplicationInstallMode::Adhoc{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::ApplicationInstallMode UnityEngine::ApplicationInstallMode::Enterprise{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::ApplicationInstallMode UnityEngine::ApplicationInstallMode::Editor{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

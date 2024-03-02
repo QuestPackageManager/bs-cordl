@@ -99,5 +99,3 @@ inline void Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator::_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator::RsaBlindingFactorGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

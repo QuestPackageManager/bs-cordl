@@ -42,5 +42,3 @@ inline void System::Runtime::InteropServices::ClassInterfaceAttribute::_ctor(::S
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::ClassInterfaceAttribute::ClassInterfaceAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

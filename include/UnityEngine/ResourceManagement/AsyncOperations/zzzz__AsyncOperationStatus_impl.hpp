@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStat
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus::Succeeded{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus::Failed{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

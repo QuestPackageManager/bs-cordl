@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode::TriangulationM
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode UnityEngine::ProBuilder::Poly2Tri::TriangulationMode::Unconstrained{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode UnityEngine::ProBuilder::Poly2Tri::TriangulationMode::Constrained{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode UnityEngine::ProBuilder::Poly2Tri::TriangulationMode::Polygon{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -44,5 +44,3 @@ inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::Unity
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RuntimeAnimatorController::RuntimeAnimatorController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

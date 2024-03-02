@@ -258,5 +258,3 @@ constexpr ::System::IO::FileStatus::FileStatus(::GlobalNamespace::__Interop__Sys
 }
 // Ctor Parameters []
 constexpr ::System::IO::FileStatus::FileStatus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

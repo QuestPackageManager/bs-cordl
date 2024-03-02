@@ -11,5 +11,3 @@ constexpr ::UnityEngine::Experimental::Rendering::DefaultFormat UnityEngine::Exp
 constexpr ::UnityEngine::Experimental::Rendering::DefaultFormat UnityEngine::Experimental::Rendering::DefaultFormat::DepthStencil{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Experimental::Rendering::DefaultFormat UnityEngine::Experimental::Rendering::DefaultFormat::Shadow{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Experimental::Rendering::DefaultFormat UnityEngine::Experimental::Rendering::DefaultFormat::Video{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -237,5 +237,3 @@ inline void RootMotion::FinalIK::TwistRelaxer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::TwistRelaxer::TwistRelaxer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

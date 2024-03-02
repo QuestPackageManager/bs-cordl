@@ -47,5 +47,3 @@ inline void System::Runtime::Remoting::Messaging::MethodReturnDictionary::_ctor(
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::MethodReturnDictionary::MethodReturnDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

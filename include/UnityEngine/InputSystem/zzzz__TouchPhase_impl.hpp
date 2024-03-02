@@ -12,5 +12,3 @@ constexpr ::UnityEngine::InputSystem::TouchPhase UnityEngine::InputSystem::Touch
 constexpr ::UnityEngine::InputSystem::TouchPhase UnityEngine::InputSystem::TouchPhase::Ended{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::InputSystem::TouchPhase UnityEngine::InputSystem::TouchPhase::Canceled{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::InputSystem::TouchPhase UnityEngine::InputSystem::TouchPhase::Stationary{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

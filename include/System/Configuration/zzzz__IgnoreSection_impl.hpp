@@ -147,5 +147,3 @@ inline ::StringW System::Configuration::IgnoreSection::SerializeSection(::System
 }
 // Ctor Parameters []
 constexpr ::System::Configuration::IgnoreSection::IgnoreSection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

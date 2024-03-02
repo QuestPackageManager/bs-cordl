@@ -95,5 +95,3 @@ inline void Zenject::IfNotBoundBinder::IfNotBound() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::IfNotBoundBinder::IfNotBoundBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

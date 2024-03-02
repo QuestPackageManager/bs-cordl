@@ -25,5 +25,3 @@ template <typename TContract> inline ::Zenject::ConditionCopyNonLazyBinder* Zenj
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenjectMoqExtensions::ZenjectMoqExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

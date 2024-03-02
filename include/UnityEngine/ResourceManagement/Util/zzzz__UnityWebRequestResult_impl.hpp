@@ -258,5 +258,3 @@ inline bool UnityEngine::ResourceManagement::Util::UnityWebRequestResult::Should
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult::UnityWebRequestResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

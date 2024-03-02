@@ -82,5 +82,3 @@ inline ::System::Linq::EnumerableSorter_1<TElement>* System::Linq::OrderedEnumer
 }
 // Ctor Parameters []
 template <typename TElement, typename TKey> constexpr ::System::Linq::OrderedEnumerable_2<TElement, TKey>::OrderedEnumerable_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

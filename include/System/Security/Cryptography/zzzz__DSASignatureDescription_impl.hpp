@@ -26,5 +26,3 @@ inline void System::Security::Cryptography::DSASignatureDescription::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::DSASignatureDescription::DSASignatureDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

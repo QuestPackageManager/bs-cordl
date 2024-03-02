@@ -53,5 +53,3 @@ inline ::System::Net::NetworkInformation::IPGlobalProperties* System::Net::Netwo
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal::UnixIPGlobalPropertiesFactoryPal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

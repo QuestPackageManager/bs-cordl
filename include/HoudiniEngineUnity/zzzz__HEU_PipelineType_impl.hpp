@@ -10,5 +10,3 @@ constexpr ::HoudiniEngineUnity::HEU_PipelineType HoudiniEngineUnity::HEU_Pipelin
 constexpr ::HoudiniEngineUnity::HEU_PipelineType HoudiniEngineUnity::HEU_PipelineType::BiRP{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HEU_PipelineType HoudiniEngineUnity::HEU_PipelineType::URP{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HEU_PipelineType HoudiniEngineUnity::HEU_PipelineType::HDRP{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -15,5 +15,3 @@ constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::
 constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::MarkerFlags::Warning{ static_cast<uint16_t>(0x10u) };
 constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::MarkerFlags::Counter{ static_cast<uint16_t>(0x80u) };
 constexpr ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::MarkerFlags::SampleGPU{ static_cast<uint16_t>(0x100u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

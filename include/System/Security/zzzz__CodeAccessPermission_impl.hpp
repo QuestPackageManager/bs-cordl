@@ -250,5 +250,3 @@ inline void System::Security::CodeAccessPermission::System_Security_IPermission_
 }
 // Ctor Parameters []
 constexpr ::System::Security::CodeAccessPermission::CodeAccessPermission() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

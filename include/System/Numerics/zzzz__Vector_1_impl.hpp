@@ -182,5 +182,3 @@ template <typename T> constexpr ::System::Numerics::__Vector_1__VectorSizeHelper
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Numerics::__Vector_1__VectorSizeHelper<T>::__Vector_1__VectorSizeHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

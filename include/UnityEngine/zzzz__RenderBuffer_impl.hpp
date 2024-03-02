@@ -9,5 +9,3 @@ constexpr ::UnityEngine::RenderBuffer::RenderBuffer(int32_t m_RenderTextureInsta
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RenderBuffer::RenderBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -232,5 +232,3 @@ inline void GlobalNamespace::PS5AppInit::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS5AppInit::PS5AppInit() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -57,5 +57,3 @@ inline int32_t GlobalNamespace::LightConstants::GetLightProbeLightBakeIdProperty
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightConstants::LightConstants() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

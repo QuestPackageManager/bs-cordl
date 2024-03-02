@@ -180,5 +180,3 @@ inline void System::Xml::Schema::Datatype_unsignedShort::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_unsignedShort::Datatype_unsignedShort() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

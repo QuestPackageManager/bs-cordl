@@ -131,5 +131,3 @@ inline void UnityEngine::InputSystem::HID::HIDSupport::Initialize() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::HID::HIDSupport::HIDSupport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

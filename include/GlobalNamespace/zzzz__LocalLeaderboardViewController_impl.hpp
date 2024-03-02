@@ -568,5 +568,3 @@ inline void GlobalNamespace::LocalLeaderboardViewController::_DidActivate_b__19_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LocalLeaderboardViewController::LocalLeaderboardViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

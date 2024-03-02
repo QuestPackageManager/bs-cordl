@@ -524,5 +524,3 @@ inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessa
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::HttpClient::HttpClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void UnityEngine::ProBuilder::ProGridsNoSnapAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::ProGridsNoSnapAttribute::ProGridsNoSnapAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

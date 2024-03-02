@@ -165,5 +165,3 @@ inline int32_t BeatmapSaveDataVersion3::FxEventsCollection::AddEventAndGetIndex(
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::FxEventsCollection::FxEventsCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

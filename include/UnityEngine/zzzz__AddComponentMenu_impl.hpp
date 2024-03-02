@@ -73,5 +73,3 @@ inline void UnityEngine::AddComponentMenu::_ctor(::StringW menuName, int32_t ord
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddComponentMenu::AddComponentMenu() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

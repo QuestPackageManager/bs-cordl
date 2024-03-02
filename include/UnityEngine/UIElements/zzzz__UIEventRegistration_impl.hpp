@@ -300,5 +300,3 @@ inline void UnityEngine::UIElements::UIEventRegistration::MakeCurrentIMGUIContai
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIEventRegistration::UIEventRegistration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

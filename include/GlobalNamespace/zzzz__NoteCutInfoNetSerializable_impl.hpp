@@ -356,5 +356,3 @@ GlobalNamespace::NoteCutInfoNetSerializable::Init(float_t saberSpeed, bool cutWa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutInfoNetSerializable::NoteCutInfoNetSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

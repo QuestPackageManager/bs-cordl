@@ -218,5 +218,3 @@ inline ::StringW System::IO::FileInfo::get_Name() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::FileInfo::FileInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

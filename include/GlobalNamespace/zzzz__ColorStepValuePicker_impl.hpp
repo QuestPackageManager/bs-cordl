@@ -327,5 +327,3 @@ inline void GlobalNamespace::ColorStepValuePicker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorStepValuePicker::ColorStepValuePicker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

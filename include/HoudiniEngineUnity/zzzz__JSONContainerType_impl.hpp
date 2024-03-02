@@ -8,5 +8,3 @@ constexpr ::HoudiniEngineUnity::JSONContainerType::JSONContainerType(int32_t val
 constexpr ::HoudiniEngineUnity::JSONContainerType::JSONContainerType() {}
 constexpr ::HoudiniEngineUnity::JSONContainerType HoudiniEngineUnity::JSONContainerType::Array{ static_cast<int32_t>(0x0) };
 constexpr ::HoudiniEngineUnity::JSONContainerType HoudiniEngineUnity::JSONContainerType::Object{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

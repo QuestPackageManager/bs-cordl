@@ -139,5 +139,3 @@ inline void Oculus::Platform::Models::LeaderboardEntry::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::LeaderboardEntry::LeaderboardEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

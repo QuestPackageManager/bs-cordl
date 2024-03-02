@@ -49,5 +49,3 @@ inline void System::MonoListItem::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::MonoListItem::MonoListItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

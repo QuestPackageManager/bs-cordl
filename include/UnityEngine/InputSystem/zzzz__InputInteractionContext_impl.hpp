@@ -480,5 +480,3 @@ constexpr ::UnityEngine::InputSystem::InputInteractionContext::InputInteractionC
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputInteractionContext::InputInteractionContext() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -49,5 +49,3 @@ inline void System::Threading::ParameterizedThreadStart::Invoke(::System::Object
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ParameterizedThreadStart::ParameterizedThreadStart() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

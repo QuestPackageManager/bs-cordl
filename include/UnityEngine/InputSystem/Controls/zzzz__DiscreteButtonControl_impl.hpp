@@ -164,5 +164,3 @@ inline void UnityEngine::InputSystem::Controls::DiscreteButtonControl::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::DiscreteButtonControl::DiscreteButtonControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

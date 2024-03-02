@@ -167,5 +167,3 @@ HoudiniEngineUnity::Test_Mesh_Extensions::ToTestObject(::System::Collections::Ge
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_Mesh_Extensions::Test_Mesh_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

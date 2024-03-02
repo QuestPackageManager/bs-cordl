@@ -221,5 +221,3 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Crypto::Parame
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::SM2KeyExchangePrivateParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -42,5 +42,3 @@ inline ::System::Security::Cryptography::RIPEMD160* System::Security::Cryptograp
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RIPEMD160::RIPEMD160() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

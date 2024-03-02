@@ -977,5 +977,3 @@ inline bool UnityEngine::ProBuilder::Face::TryGetNextEdge(::UnityEngine::ProBuil
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Face::Face() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

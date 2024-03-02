@@ -851,5 +851,3 @@ inline bool Org::BouncyCastle::X509::X509Certificate::IsAlgIDEqual(::Org::Bouncy
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509Certificate::X509Certificate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -129,5 +129,3 @@ inline ::UnityEngine::UIElements::UQueryBuilder_1<T> UnityEngine::UIElements::UQ
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UQueryExtensions::UQueryExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

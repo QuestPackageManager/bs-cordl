@@ -104,5 +104,3 @@ inline void GlobalNamespace::SliderMeshConstructorCrossedStrips::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SliderMeshConstructorCrossedStrips::SliderMeshConstructorCrossedStrips() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

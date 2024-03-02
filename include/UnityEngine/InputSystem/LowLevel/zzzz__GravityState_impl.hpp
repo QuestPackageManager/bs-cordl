@@ -56,5 +56,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::GravityState::GravityState(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::GravityState::GravityState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

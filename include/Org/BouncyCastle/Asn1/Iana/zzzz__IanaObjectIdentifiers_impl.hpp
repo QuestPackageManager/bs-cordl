@@ -71,5 +71,3 @@ inline void Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Iana::IanaObjectIdentifiers::IanaObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

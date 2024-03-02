@@ -374,5 +374,3 @@ constexpr ::UnityEngine::InputSystem::InputControlList_1<TControl>::InputControl
 }
 // Ctor Parameters []
 template <typename TControl> constexpr ::UnityEngine::InputSystem::InputControlList_1<TControl>::InputControlList_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

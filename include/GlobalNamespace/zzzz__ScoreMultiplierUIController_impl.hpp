@@ -247,5 +247,3 @@ inline void GlobalNamespace::ScoreMultiplierUIController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreMultiplierUIController::ScoreMultiplierUIController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -293,5 +293,3 @@ inline void HMUI::ToggleBinder::Enable() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ToggleBinder::ToggleBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

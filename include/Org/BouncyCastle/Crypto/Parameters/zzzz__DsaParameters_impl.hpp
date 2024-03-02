@@ -268,5 +268,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::DsaParameters::GetHashCode
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaParameters::DsaParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

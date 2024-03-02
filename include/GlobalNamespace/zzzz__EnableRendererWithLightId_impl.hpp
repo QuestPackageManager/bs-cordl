@@ -82,5 +82,3 @@ inline void GlobalNamespace::EnableRendererWithLightId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnableRendererWithLightId::EnableRendererWithLightId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

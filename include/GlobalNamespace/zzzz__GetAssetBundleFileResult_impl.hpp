@@ -56,5 +56,3 @@ constexpr ::GlobalNamespace::GetAssetBundleFileResult::GetAssetBundleFileResult(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GetAssetBundleFileResult::GetAssetBundleFileResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

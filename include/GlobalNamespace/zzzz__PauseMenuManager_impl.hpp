@@ -676,5 +676,3 @@ inline void GlobalNamespace::PauseMenuManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PauseMenuManager::PauseMenuManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

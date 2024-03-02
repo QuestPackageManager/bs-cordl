@@ -105,5 +105,3 @@ inline void System::ComponentModel::InvalidEnumArgumentException::_ctor(::System
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::InvalidEnumArgumentException::InvalidEnumArgumentException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -41,5 +41,3 @@ GlobalNamespace::IScoreSyncStateManager_5<TStateTable, TType, TState, TSerializa
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IScoreSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal_method, i);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

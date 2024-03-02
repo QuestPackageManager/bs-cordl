@@ -69,5 +69,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::JoystickState::JoystickState(int
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::JoystickState::JoystickState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

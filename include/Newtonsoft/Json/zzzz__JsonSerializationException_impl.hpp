@@ -180,5 +180,3 @@ inline ::Newtonsoft::Json::JsonSerializationException* Newtonsoft::Json::JsonSer
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonSerializationException::JsonSerializationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

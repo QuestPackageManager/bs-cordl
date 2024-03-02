@@ -282,5 +282,3 @@ template <typename T> inline void GlobalNamespace::PerformanceConfigurationLog::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceConfigurationLog::PerformanceConfigurationLog() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

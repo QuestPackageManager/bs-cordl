@@ -114,5 +114,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::KeyUsage::ToString() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::KeyUsage::KeyUsage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

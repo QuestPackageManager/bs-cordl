@@ -220,5 +220,3 @@ inline void Org::BouncyCastle::X509::X509AttrCertParser::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509AttrCertParser::X509AttrCertParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::System::Xml::Linq::XObjectChange System::Xml::Linq::XObjectChange::A
 constexpr ::System::Xml::Linq::XObjectChange System::Xml::Linq::XObjectChange::Remove{ static_cast<int32_t>(0x1) };
 constexpr ::System::Xml::Linq::XObjectChange System::Xml::Linq::XObjectChange::Name{ static_cast<int32_t>(0x2) };
 constexpr ::System::Xml::Linq::XObjectChange System::Xml::Linq::XObjectChange::Value{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

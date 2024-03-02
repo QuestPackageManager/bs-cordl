@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::VRActiveActionSet_t::VRActiveActionSet_t(uint64_t ulAct
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VRActiveActionSet_t::VRActiveActionSet_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

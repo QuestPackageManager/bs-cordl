@@ -448,5 +448,3 @@ inline ::Newtonsoft::Json::Utilities::ReflectionObject* Newtonsoft::Json::Utilit
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::ReflectionObject::ReflectionObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

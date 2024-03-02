@@ -100,5 +100,3 @@ inline bool GlobalNamespace::IPosesSerializer::RecordingCanBeCreated(::StringW p
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPosesSerializer*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, path);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

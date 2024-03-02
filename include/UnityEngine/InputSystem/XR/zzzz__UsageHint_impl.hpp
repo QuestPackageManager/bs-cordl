@@ -6,5 +6,3 @@ constexpr ::UnityEngine::InputSystem::XR::UsageHint::UsageHint(::StringW content
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::UsageHint::UsageHint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

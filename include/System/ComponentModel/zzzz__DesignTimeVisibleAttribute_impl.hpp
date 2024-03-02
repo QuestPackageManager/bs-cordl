@@ -149,5 +149,3 @@ inline bool System::ComponentModel::DesignTimeVisibleAttribute::IsDefaultAttribu
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DesignTimeVisibleAttribute::DesignTimeVisibleAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

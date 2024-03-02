@@ -502,5 +502,3 @@ inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Org::BouncyCastle::Math::E
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

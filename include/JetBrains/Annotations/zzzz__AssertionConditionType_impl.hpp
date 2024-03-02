@@ -10,5 +10,3 @@ constexpr ::JetBrains::Annotations::AssertionConditionType JetBrains::Annotation
 constexpr ::JetBrains::Annotations::AssertionConditionType JetBrains::Annotations::AssertionConditionType::IS_FALSE{ static_cast<int32_t>(0x1) };
 constexpr ::JetBrains::Annotations::AssertionConditionType JetBrains::Annotations::AssertionConditionType::IS_NULL{ static_cast<int32_t>(0x2) };
 constexpr ::JetBrains::Annotations::AssertionConditionType JetBrains::Annotations::AssertionConditionType::IS_NOT_NULL{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

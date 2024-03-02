@@ -15,5 +15,3 @@ constexpr ::UnityEngine::TextAnchor UnityEngine::TextAnchor::MiddleRight{ static
 constexpr ::UnityEngine::TextAnchor UnityEngine::TextAnchor::LowerLeft{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::TextAnchor UnityEngine::TextAnchor::LowerCenter{ static_cast<int32_t>(0x7) };
 constexpr ::UnityEngine::TextAnchor UnityEngine::TextAnchor::LowerRight{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -252,5 +252,3 @@ inline void HoudiniEngineUnity::JSONNull::WriteToStringBuilder(::System::Text::S
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::JSONNull::JSONNull() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

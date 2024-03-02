@@ -415,5 +415,3 @@ inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* Org::BouncyCastle::A
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator::V2TbsCertListGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

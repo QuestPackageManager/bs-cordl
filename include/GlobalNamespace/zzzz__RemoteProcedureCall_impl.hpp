@@ -286,5 +286,3 @@ inline void GlobalNamespace::RemoteProcedureCall::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RemoteProcedureCall::RemoteProcedureCall() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

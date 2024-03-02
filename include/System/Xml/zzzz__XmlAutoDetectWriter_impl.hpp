@@ -829,5 +829,3 @@ inline void System::Xml::XmlAutoDetectWriter::CreateWrappedWriter(::System::Xml:
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlAutoDetectWriter::XmlAutoDetectWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

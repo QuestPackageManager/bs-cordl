@@ -22,5 +22,3 @@ inline ::UnityEngine::UIElements::EventDispatcher* UnityEngine::UIElements::Runt
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::RuntimeEventDispatcher::RuntimeEventDispatcher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

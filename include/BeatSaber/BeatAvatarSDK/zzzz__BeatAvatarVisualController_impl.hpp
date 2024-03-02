@@ -536,5 +536,3 @@ inline void BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController::BeatAvatarVisualController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -259,5 +259,3 @@ inline void Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo::ValidateAtt
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo::CertificationRequestInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

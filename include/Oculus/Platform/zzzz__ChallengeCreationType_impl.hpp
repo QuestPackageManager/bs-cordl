@@ -9,5 +9,3 @@ constexpr ::Oculus::Platform::ChallengeCreationType::ChallengeCreationType() {}
 constexpr ::Oculus::Platform::ChallengeCreationType Oculus::Platform::ChallengeCreationType::Unknown{ static_cast<int32_t>(0x0) };
 constexpr ::Oculus::Platform::ChallengeCreationType Oculus::Platform::ChallengeCreationType::UserCreated{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::ChallengeCreationType Oculus::Platform::ChallengeCreationType::DeveloperCreated{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

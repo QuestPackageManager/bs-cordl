@@ -132,5 +132,3 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner::MultiplayerConnectedPlayerEffectsSpawner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

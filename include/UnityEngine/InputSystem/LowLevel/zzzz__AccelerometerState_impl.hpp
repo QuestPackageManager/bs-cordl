@@ -56,5 +56,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::AccelerometerState::Acceleromete
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::AccelerometerState::AccelerometerState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

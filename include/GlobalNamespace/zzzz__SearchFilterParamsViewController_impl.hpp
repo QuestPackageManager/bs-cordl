@@ -494,5 +494,3 @@ inline void GlobalNamespace::SearchFilterParamsViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SearchFilterParamsViewController::SearchFilterParamsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

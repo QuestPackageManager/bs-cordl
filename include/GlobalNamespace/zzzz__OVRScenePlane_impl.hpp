@@ -711,5 +711,3 @@ inline void GlobalNamespace::OVRScenePlane::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRScenePlane::OVRScenePlane() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

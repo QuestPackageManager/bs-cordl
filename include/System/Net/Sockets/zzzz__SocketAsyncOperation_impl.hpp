@@ -16,5 +16,3 @@ constexpr ::System::Net::Sockets::SocketAsyncOperation System::Net::Sockets::Soc
 constexpr ::System::Net::Sockets::SocketAsyncOperation System::Net::Sockets::SocketAsyncOperation::Send{ static_cast<int32_t>(0x7) };
 constexpr ::System::Net::Sockets::SocketAsyncOperation System::Net::Sockets::SocketAsyncOperation::SendPackets{ static_cast<int32_t>(0x8) };
 constexpr ::System::Net::Sockets::SocketAsyncOperation System::Net::Sockets::SocketAsyncOperation::SendTo{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

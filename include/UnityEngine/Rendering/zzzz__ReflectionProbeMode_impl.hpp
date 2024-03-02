@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Rendering::ReflectionProbeMode::ReflectionProbeMode() {
 constexpr ::UnityEngine::Rendering::ReflectionProbeMode UnityEngine::Rendering::ReflectionProbeMode::Baked{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeMode UnityEngine::Rendering::ReflectionProbeMode::Realtime{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeMode UnityEngine::Rendering::ReflectionProbeMode::Custom{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

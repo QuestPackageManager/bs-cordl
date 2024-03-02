@@ -45,5 +45,3 @@ inline void System::Xml::Ucs4Decoder2143::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Ucs4Decoder2143::Ucs4Decoder2143() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

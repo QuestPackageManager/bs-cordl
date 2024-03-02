@@ -167,5 +167,3 @@ inline void GlobalNamespace::ResultsTableView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ResultsTableView::ResultsTableView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

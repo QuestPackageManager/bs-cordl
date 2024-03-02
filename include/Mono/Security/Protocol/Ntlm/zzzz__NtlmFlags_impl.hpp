@@ -16,5 +16,3 @@ constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags Mono::Security::Protocol::
 constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags Mono::Security::Protocol::Ntlm::NtlmFlags::NegotiateNtlm2Key{ static_cast<int32_t>(0x80000) };
 constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags Mono::Security::Protocol::Ntlm::NtlmFlags::Negotiate128{ static_cast<int32_t>(0x20000000) };
 constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags Mono::Security::Protocol::Ntlm::NtlmFlags::Negotiate56{ static_cast<int32_t>(0x80000000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

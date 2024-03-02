@@ -672,5 +672,3 @@ inline void UnityEngine::UIElements::FocusController::SyncIMGUIFocus(int32_t img
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::FocusController::FocusController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

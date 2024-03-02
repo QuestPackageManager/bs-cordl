@@ -471,5 +471,3 @@ inline void Unity::XR::OpenVR::OpenVRHMD::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::OpenVR::OpenVRHMD::OpenVRHMD() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

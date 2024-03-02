@@ -1561,5 +1561,3 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::X9::X962Name
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves::X962NamedCurves() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

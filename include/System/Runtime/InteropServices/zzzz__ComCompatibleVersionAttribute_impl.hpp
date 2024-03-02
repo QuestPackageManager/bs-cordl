@@ -78,5 +78,3 @@ inline void System::Runtime::InteropServices::ComCompatibleVersionAttribute::_ct
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::ComCompatibleVersionAttribute::ComCompatibleVersionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

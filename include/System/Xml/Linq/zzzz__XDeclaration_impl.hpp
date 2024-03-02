@@ -202,5 +202,3 @@ inline ::StringW System::Xml::Linq::XDeclaration::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XDeclaration::XDeclaration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

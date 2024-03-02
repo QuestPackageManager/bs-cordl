@@ -10,5 +10,3 @@ constexpr ::UnityEngine::RenderTextureMemoryless UnityEngine::RenderTextureMemor
 constexpr ::UnityEngine::RenderTextureMemoryless UnityEngine::RenderTextureMemoryless::Color{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::RenderTextureMemoryless UnityEngine::RenderTextureMemoryless::Depth{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::RenderTextureMemoryless UnityEngine::RenderTextureMemoryless::MSAA{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

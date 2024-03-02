@@ -176,5 +176,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1SetParser* Org::BouncyCastle::Asn1::Cms::E
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser::EnvelopedDataParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

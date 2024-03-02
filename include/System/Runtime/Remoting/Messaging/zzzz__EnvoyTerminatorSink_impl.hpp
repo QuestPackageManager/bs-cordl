@@ -94,5 +94,3 @@ inline void System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::EnvoyTerminatorSink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

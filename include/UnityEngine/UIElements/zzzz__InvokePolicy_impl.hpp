@@ -8,5 +8,3 @@ constexpr ::UnityEngine::UIElements::InvokePolicy::InvokePolicy(int32_t value__)
 constexpr ::UnityEngine::UIElements::InvokePolicy::InvokePolicy() {}
 constexpr ::UnityEngine::UIElements::InvokePolicy UnityEngine::UIElements::InvokePolicy::Default{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::InvokePolicy UnityEngine::UIElements::InvokePolicy::IncludeDisabled{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

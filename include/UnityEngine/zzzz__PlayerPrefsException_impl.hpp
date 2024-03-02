@@ -26,5 +26,3 @@ inline void UnityEngine::PlayerPrefsException::_ctor(::StringW error) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerPrefsException::PlayerPrefsException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

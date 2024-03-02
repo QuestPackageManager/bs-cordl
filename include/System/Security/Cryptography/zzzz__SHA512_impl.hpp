@@ -42,5 +42,3 @@ inline ::System::Security::Cryptography::SHA512* System::Security::Cryptography:
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::SHA512::SHA512() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

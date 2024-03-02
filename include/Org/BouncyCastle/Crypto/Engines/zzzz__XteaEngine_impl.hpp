@@ -295,5 +295,3 @@ inline int32_t Org::BouncyCastle::Crypto::Engines::XteaEngine::decryptBlock(::Ar
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::XteaEngine::XteaEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

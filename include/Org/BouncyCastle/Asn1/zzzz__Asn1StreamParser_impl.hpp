@@ -240,5 +240,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* Org::BouncyCastle::Asn1::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser::Asn1StreamParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

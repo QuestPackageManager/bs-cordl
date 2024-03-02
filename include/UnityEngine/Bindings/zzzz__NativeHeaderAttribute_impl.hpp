@@ -60,5 +60,3 @@ inline void UnityEngine::Bindings::NativeHeaderAttribute::_ctor(::StringW header
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::NativeHeaderAttribute::NativeHeaderAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

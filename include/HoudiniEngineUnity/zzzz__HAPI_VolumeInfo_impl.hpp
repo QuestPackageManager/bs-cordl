@@ -34,5 +34,3 @@ constexpr ::HoudiniEngineUnity::HAPI_VolumeInfo::HAPI_VolumeInfo(int32_t nameSH,
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_VolumeInfo::HAPI_VolumeInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

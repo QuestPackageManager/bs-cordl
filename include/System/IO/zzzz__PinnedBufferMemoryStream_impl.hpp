@@ -132,5 +132,3 @@ inline void System::IO::PinnedBufferMemoryStream::Dispose(bool disposing) {
 }
 // Ctor Parameters []
 constexpr ::System::IO::PinnedBufferMemoryStream::PinnedBufferMemoryStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

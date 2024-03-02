@@ -107,5 +107,3 @@ BGLib::UnityExtension::UnityWebRequestExtensions::GetAwaiter(::UnityEngine::Netw
 }
 // Ctor Parameters []
 constexpr ::BGLib::UnityExtension::UnityWebRequestExtensions::UnityWebRequestExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

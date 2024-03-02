@@ -53,5 +53,3 @@ inline void System::ArrayTypeMismatchException::_ctor(::System::Runtime::Seriali
 }
 // Ctor Parameters []
 constexpr ::System::ArrayTypeMismatchException::ArrayTypeMismatchException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

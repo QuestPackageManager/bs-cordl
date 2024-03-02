@@ -61,5 +61,3 @@ inline void Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler::_ctor(::System::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler::TlsProtocolHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

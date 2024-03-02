@@ -65,5 +65,3 @@ inline void GlobalNamespace::OVRCursor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRCursor::OVRCursor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

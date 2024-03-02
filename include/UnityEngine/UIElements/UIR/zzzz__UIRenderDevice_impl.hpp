@@ -1560,5 +1560,3 @@ inline void UnityEngine::UIElements::UIR::UIRenderDevice::OnFlushPendingResource
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice::UIRenderDevice() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -939,5 +939,3 @@ inline void UnityEngine::TerrainData::set_size_Injected(ByRef<::UnityEngine::Vec
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TerrainData::TerrainData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

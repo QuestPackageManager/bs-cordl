@@ -80,5 +80,3 @@ inline ::StringW HoudiniEngineUnity::HEU_HoudiniEngineError::ToString() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_HoudiniEngineError::HEU_HoudiniEngineError() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

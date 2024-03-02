@@ -269,5 +269,3 @@ inline void System::LocalDataStoreMgr::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::LocalDataStoreMgr::LocalDataStoreMgr() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

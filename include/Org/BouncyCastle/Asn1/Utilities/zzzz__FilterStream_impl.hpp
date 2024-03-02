@@ -335,5 +335,3 @@ inline void Org::BouncyCastle::Asn1::Utilities::FilterStream::WriteByte(uint8_t 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Utilities::FilterStream::FilterStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

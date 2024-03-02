@@ -31,5 +31,3 @@ inline void System::Security::AccessControl::FileSecurity::_ctor(::StringW fileN
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::FileSecurity::FileSecurity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

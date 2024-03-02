@@ -549,5 +549,3 @@ inline void UnityEngine::UI::RectMask2D::OnCanvasHierarchyChanged() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::RectMask2D::RectMask2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

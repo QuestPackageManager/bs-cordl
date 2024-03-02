@@ -169,5 +169,3 @@ inline void GlobalNamespace::PerlinNoise::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerlinNoise::PerlinNoise() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

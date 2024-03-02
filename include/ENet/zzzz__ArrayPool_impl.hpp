@@ -53,5 +53,3 @@ inline ::ArrayW<void*, ::Array<void*>*> ENet::ArrayPool::GetPointerBuffer() {
 }
 // Ctor Parameters []
 constexpr ::ENet::ArrayPool::ArrayPool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

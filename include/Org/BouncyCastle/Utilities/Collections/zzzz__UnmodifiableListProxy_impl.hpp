@@ -241,5 +241,3 @@ inline ::System::Object* Org::BouncyCastle::Utilities::Collections::Unmodifiable
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::UnmodifiableListProxy::UnmodifiableListProxy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -21,5 +21,3 @@ inline bool System::Net::Http::Headers::ElementTryParser_1<T>::Invoke(::System::
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Net::Http::Headers::ElementTryParser_1<T>::ElementTryParser_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

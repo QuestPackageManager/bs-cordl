@@ -49,5 +49,3 @@ constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::ChineseSimp
 constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::ChineseTraditional{ static_cast<int32_t>(0x29) };
 constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::Unknown{ static_cast<int32_t>(0x2a) };
 constexpr ::UnityEngine::SystemLanguage UnityEngine::SystemLanguage::Hungarian{ static_cast<int32_t>(0x12) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

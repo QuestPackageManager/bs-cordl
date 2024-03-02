@@ -16,5 +16,3 @@ constexpr void UnityEngine::ComputeBuffer::__cordl_internal_set_m_Ptr(void* valu
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ComputeBuffer::ComputeBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

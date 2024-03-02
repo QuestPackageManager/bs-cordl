@@ -168,5 +168,3 @@ constexpr ::UnityEngine::Playables::PlayableBinding::PlayableBinding(::StringW m
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Playables::PlayableBinding::PlayableBinding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -102,5 +102,3 @@ inline void UnityEngine::UIElements::StartDragArgs::_ctor(::StringW title, ::Sys
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StartDragArgs::StartDragArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -7,5 +7,3 @@ constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr::sockaddr(uint
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr::sockaddr() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

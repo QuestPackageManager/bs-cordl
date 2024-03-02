@@ -185,5 +185,3 @@ inline ::Mono::Security::Authenticode::PrivateKey* Mono::Security::Authenticode:
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Authenticode::PrivateKey::PrivateKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

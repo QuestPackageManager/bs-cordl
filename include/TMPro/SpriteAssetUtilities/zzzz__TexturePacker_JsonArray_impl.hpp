@@ -182,5 +182,3 @@ inline void TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray::TexturePacker_JsonArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

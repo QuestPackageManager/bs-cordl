@@ -78,5 +78,3 @@ inline ::System::Text::Encoding* UnityEngine::WWWForm::get_DefaultEncoding() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::WWWForm::WWWForm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

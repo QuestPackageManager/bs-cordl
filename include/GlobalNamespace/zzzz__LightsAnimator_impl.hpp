@@ -453,5 +453,3 @@ inline void GlobalNamespace::LightsAnimator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightsAnimator::LightsAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

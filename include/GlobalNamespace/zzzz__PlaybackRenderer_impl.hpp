@@ -684,5 +684,3 @@ inline void GlobalNamespace::PlaybackRenderer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlaybackRenderer::PlaybackRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

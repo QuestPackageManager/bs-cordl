@@ -206,5 +206,3 @@ inline void Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::_ctor
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::EntitlementCheck() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::UnityEngine::DeviceType UnityEngine::DeviceType::Unknown{ static_cas
 constexpr ::UnityEngine::DeviceType UnityEngine::DeviceType::Handheld{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::DeviceType UnityEngine::DeviceType::Console{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::DeviceType UnityEngine::DeviceType::Desktop{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -288,5 +288,3 @@ inline void GlobalNamespace::SongRunningHelper::_StartLevel_g__HandleLevelDidFin
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongRunningHelper::SongRunningHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -51,5 +51,3 @@ inline void GlobalNamespace::__MirroredBombNoteController__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MirroredBombNoteController__Pool::__MirroredBombNoteController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -138,5 +138,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::QueryKeyNam
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::QueryKeyNameCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -28,5 +28,3 @@ inline ::GlobalNamespace::LightColorBaseData* BeatmapDataLoaderVersion4::LightCo
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::LightColorBaseDataConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

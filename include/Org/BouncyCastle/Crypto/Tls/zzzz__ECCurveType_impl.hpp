@@ -24,5 +24,3 @@ inline void Org::BouncyCastle::Crypto::Tls::ECCurveType::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ECCurveType::ECCurveType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

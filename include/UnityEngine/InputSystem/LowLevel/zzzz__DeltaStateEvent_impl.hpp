@@ -223,5 +223,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::DeltaStateEvent
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::DeltaStateEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

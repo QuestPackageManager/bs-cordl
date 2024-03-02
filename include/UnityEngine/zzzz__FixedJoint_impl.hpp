@@ -24,5 +24,3 @@ inline void UnityEngine::FixedJoint::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::FixedJoint::FixedJoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

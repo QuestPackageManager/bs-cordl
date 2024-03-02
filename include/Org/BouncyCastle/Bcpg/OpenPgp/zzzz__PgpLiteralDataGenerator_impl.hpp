@@ -212,5 +212,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator::PgpLiteralDataGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

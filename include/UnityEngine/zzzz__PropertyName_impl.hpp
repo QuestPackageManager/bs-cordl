@@ -195,5 +195,3 @@ constexpr ::UnityEngine::PropertyName::PropertyName(int32_t id) noexcept {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PropertyName::PropertyName() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

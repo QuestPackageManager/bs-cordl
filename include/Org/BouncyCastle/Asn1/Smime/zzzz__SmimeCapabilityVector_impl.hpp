@@ -126,5 +126,3 @@ inline void Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector::SmimeCapabilityVector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

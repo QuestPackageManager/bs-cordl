@@ -415,5 +415,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Tls::TlsE
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsECDHKeyExchange::TlsECDHKeyExchange() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

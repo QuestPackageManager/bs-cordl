@@ -262,5 +262,3 @@ inline ::StringW System::IO::StringWriter::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::StringWriter::StringWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -47,5 +47,3 @@ inline void GlobalNamespace::OVRSceneObjectTransformType::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneObjectTransformType::OVRSceneObjectTransformType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

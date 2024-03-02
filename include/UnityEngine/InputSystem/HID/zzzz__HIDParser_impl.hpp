@@ -338,5 +338,3 @@ inline int32_t UnityEngine::InputSystem::HID::HIDParser::ReadData(int32_t itemSi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::HID::HIDParser::HIDParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

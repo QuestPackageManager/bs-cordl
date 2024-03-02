@@ -118,5 +118,3 @@ inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* Org::BouncyCastle::Cmp::Revoc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::RevocationDetails::RevocationDetails() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

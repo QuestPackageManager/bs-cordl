@@ -21,5 +21,3 @@ inline void Unity::XR::Oculus::OculusSession::Update() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::OculusSession::OculusSession() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

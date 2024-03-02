@@ -815,5 +815,3 @@ inline void UnityEngine::AudioClip::InvokePCMSetPositionCallback_Internal(int32_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AudioClip::AudioClip() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

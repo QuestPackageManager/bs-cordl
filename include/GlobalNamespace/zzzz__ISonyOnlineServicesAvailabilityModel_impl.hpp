@@ -42,5 +42,3 @@ GlobalNamespace::ISonyOnlineServicesAvailabilityModel::GetOnlineServicesAvailabi
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyOnlineServicesAvailabilityModel__OnlineServicesAvailability>*, false>(this,
                                                                                                                                                                                 ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

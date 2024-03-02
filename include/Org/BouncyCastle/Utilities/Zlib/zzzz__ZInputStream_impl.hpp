@@ -599,5 +599,3 @@ inline void Org::BouncyCastle::Utilities::Zlib::ZInputStream::Write(::ArrayW<uin
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::ZInputStream::ZInputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

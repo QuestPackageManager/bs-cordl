@@ -246,5 +246,3 @@ constexpr ::UnityEngine::ProBuilder::Normal::Normal(::UnityEngine::Vector3 _norm
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Normal::Normal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

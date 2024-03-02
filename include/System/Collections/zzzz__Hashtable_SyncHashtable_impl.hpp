@@ -503,5 +503,3 @@ inline void System::Collections::__Hashtable__SyncHashtable::OnDeserialization(:
 }
 // Ctor Parameters []
 constexpr ::System::Collections::__Hashtable__SyncHashtable::__Hashtable__SyncHashtable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

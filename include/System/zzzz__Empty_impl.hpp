@@ -83,5 +83,3 @@ inline void System::Empty::GetObjectData(::System::Runtime::Serialization::Seria
 }
 // Ctor Parameters []
 constexpr ::System::Empty::Empty() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

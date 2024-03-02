@@ -143,5 +143,3 @@ inline bool System::ComponentModel::BrowsableAttribute::IsDefaultAttribute() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::BrowsableAttribute::BrowsableAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

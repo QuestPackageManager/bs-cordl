@@ -85,5 +85,3 @@ inline int32_t GlobalNamespace::FxBeatmapEventData::SubtypeIdentifier(int32_t gr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FxBeatmapEventData::FxBeatmapEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

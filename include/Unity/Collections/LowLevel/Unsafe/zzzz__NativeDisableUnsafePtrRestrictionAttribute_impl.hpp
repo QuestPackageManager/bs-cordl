@@ -27,5 +27,3 @@ inline void Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrict
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute::NativeDisableUnsafePtrRestrictionAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -35,5 +35,3 @@ template <typename T> inline ::System::Object* Newtonsoft::Json::Serialization::
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<T>::ObjectConstructor_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

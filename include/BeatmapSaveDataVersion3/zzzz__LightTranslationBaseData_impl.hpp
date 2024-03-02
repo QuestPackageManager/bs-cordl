@@ -160,5 +160,3 @@ inline void BeatmapSaveDataVersion3::LightTranslationBaseData::_ctor(float_t bea
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightTranslationBaseData::LightTranslationBaseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

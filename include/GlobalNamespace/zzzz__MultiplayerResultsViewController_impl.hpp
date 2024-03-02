@@ -322,5 +322,3 @@ inline void GlobalNamespace::MultiplayerResultsViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerResultsViewController::MultiplayerResultsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

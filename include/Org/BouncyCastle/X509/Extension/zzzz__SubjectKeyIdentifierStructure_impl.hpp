@@ -76,5 +76,3 @@ inline void Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::SubjectKeyIdentifierStructure() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

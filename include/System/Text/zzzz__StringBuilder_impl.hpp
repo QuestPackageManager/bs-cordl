@@ -1567,5 +1567,3 @@ inline void System::Text::StringBuilder::Remove(int32_t startIndex, int32_t coun
 }
 // Ctor Parameters []
 constexpr ::System::Text::StringBuilder::StringBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

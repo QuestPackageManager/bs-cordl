@@ -82,5 +82,3 @@ inline void GlobalNamespace::DirectionalLightWithId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DirectionalLightWithId::DirectionalLightWithId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

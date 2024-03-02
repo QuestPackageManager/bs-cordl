@@ -11,5 +11,3 @@ constexpr ::Org::BouncyCastle::Bcpg::RevocationReasonTag Org::BouncyCastle::Bcpg
 constexpr ::Org::BouncyCastle::Bcpg::RevocationReasonTag Org::BouncyCastle::Bcpg::RevocationReasonTag::KeyCompromised{ static_cast<uint8_t>(0x2u) };
 constexpr ::Org::BouncyCastle::Bcpg::RevocationReasonTag Org::BouncyCastle::Bcpg::RevocationReasonTag::KeyRetired{ static_cast<uint8_t>(0x3u) };
 constexpr ::Org::BouncyCastle::Bcpg::RevocationReasonTag Org::BouncyCastle::Bcpg::RevocationReasonTag::UserNoLongerValid{ static_cast<uint8_t>(0x20u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -186,5 +186,3 @@ inline ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* System::Xm
 }
 // Ctor Parameters []
 constexpr ::System::Xml::SecureStringHasher::SecureStringHasher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

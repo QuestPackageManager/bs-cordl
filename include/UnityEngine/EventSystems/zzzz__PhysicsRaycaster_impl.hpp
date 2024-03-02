@@ -353,5 +353,3 @@ inline void UnityEngine::EventSystems::PhysicsRaycaster::Raycast(::UnityEngine::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::PhysicsRaycaster::PhysicsRaycaster() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -74,5 +74,3 @@ inline ::StringW UnityEngine::InputSystem::InputInteraction::GetDisplayName(::Sy
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputInteraction::InputInteraction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

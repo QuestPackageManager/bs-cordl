@@ -79,5 +79,3 @@ constexpr ::TMPro::TMP_FontStyleStack::TMP_FontStyleStack(uint8_t bold, uint8_t 
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_FontStyleStack::TMP_FontStyleStack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

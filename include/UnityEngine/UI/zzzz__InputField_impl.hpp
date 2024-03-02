@@ -4482,5 +4482,3 @@ inline ::UnityW<::UnityEngine::Transform> UnityEngine::UI::InputField::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::InputField::InputField() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

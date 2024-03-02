@@ -22,5 +22,3 @@ inline void LiteNetLib::IDeliveryEventListener::OnMessageDelivered(::LiteNetLib:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::IDeliveryEventListener*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peer, userData);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

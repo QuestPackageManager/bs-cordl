@@ -109,5 +109,3 @@ inline void Internal::Runtime::Augments::TaskTraceCallbacks::TaskScheduled(int32
 }
 // Ctor Parameters []
 constexpr ::Internal::Runtime::Augments::TaskTraceCallbacks::TaskTraceCallbacks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

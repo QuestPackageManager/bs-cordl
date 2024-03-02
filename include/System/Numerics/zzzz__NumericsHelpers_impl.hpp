@@ -104,5 +104,3 @@ inline int32_t System::Numerics::NumericsHelpers::CombineHash(int32_t n1, int32_
 }
 // Ctor Parameters []
 constexpr ::System::Numerics::NumericsHelpers::NumericsHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

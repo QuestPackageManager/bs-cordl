@@ -65,5 +65,3 @@ inline ::StringW Oculus::Platform::MessageWithString::GetDataFromMessage(void* c
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithString::MessageWithString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

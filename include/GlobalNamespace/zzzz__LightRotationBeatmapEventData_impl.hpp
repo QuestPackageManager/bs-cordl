@@ -283,5 +283,3 @@ inline ::GlobalNamespace::BeatmapEventData* GlobalNamespace::LightRotationBeatma
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightRotationBeatmapEventData::LightRotationBeatmapEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1226,5 +1226,3 @@ inline void GlobalNamespace::PlayerSettingsPanelController::_OnEnable_b__42_8() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -253,5 +253,3 @@ inline void Org::BouncyCastle::Utilities::IO::Streams::WriteZeroes(::System::IO:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::Streams::Streams() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

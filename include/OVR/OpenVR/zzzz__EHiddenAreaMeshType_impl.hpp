@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::EHiddenAreaMeshType OVR::OpenVR::EHiddenAreaMeshType::k
 constexpr ::OVR::OpenVR::EHiddenAreaMeshType OVR::OpenVR::EHiddenAreaMeshType::k_eHiddenAreaMesh_Inverse{ static_cast<int32_t>(0x1) };
 constexpr ::OVR::OpenVR::EHiddenAreaMeshType OVR::OpenVR::EHiddenAreaMeshType::k_eHiddenAreaMesh_LineLoop{ static_cast<int32_t>(0x2) };
 constexpr ::OVR::OpenVR::EHiddenAreaMeshType OVR::OpenVR::EHiddenAreaMeshType::k_eHiddenAreaMesh_Max{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

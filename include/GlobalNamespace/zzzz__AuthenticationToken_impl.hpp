@@ -231,5 +231,3 @@ constexpr ::GlobalNamespace::AuthenticationToken::AuthenticationToken(::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AuthenticationToken::AuthenticationToken() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

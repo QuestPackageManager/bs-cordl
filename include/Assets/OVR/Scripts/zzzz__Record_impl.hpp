@@ -64,5 +64,3 @@ inline void Assets::OVR::Scripts::Record::_ctor(int32_t order, ::StringW cat, ::
 }
 // Ctor Parameters []
 constexpr ::Assets::OVR::Scripts::Record::Record() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -341,5 +341,3 @@ inline ::System::Net::FtpStatusCode System::Net::FtpWebResponse::get_StatusCode(
 }
 // Ctor Parameters []
 constexpr ::System::Net::FtpWebResponse::FtpWebResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

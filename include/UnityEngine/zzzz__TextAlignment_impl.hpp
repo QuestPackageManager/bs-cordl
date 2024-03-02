@@ -9,5 +9,3 @@ constexpr ::UnityEngine::TextAlignment::TextAlignment() {}
 constexpr ::UnityEngine::TextAlignment UnityEngine::TextAlignment::Left{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::TextAlignment UnityEngine::TextAlignment::Center{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TextAlignment UnityEngine::TextAlignment::Right{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

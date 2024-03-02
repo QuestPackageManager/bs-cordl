@@ -6,5 +6,3 @@ constexpr ::OVR::OpenVR::VREvent_ScreenshotProgress_t::VREvent_ScreenshotProgres
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_ScreenshotProgress_t::VREvent_ScreenshotProgress_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

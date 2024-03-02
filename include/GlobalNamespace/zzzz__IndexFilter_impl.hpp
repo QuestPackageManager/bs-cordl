@@ -946,5 +946,3 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::IndexFilter::System_
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IndexFilter::IndexFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

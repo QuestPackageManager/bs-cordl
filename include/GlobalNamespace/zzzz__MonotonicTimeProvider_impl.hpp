@@ -114,5 +114,3 @@ inline int64_t GlobalNamespace::MonotonicTimeProvider::GetTicks() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MonotonicTimeProvider::MonotonicTimeProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

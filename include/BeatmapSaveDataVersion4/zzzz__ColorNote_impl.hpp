@@ -16,5 +16,3 @@ constexpr ::BeatmapSaveDataVersion4::ColorNote::ColorNote(int32_t x, int32_t y, 
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::ColorNote::ColorNote() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

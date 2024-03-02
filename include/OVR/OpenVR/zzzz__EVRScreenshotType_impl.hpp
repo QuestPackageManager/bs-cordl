@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::EVRScreenshotType OVR::OpenVR::EVRScreenshotType::Stere
 constexpr ::OVR::OpenVR::EVRScreenshotType OVR::OpenVR::EVRScreenshotType::Cubemap{ static_cast<int32_t>(0x3) };
 constexpr ::OVR::OpenVR::EVRScreenshotType OVR::OpenVR::EVRScreenshotType::MonoPanorama{ static_cast<int32_t>(0x4) };
 constexpr ::OVR::OpenVR::EVRScreenshotType OVR::OpenVR::EVRScreenshotType::StereoPanorama{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

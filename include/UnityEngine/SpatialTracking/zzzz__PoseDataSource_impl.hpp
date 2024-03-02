@@ -88,5 +88,3 @@ inline ::UnityEngine::SpatialTracking::PoseDataFlags UnityEngine::SpatialTrackin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SpatialTracking::PoseDataSource::PoseDataSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

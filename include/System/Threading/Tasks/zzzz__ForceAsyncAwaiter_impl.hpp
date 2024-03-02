@@ -146,5 +146,3 @@ constexpr ::System::Threading::Tasks::ForceAsyncAwaiter::ForceAsyncAwaiter(::Sys
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::ForceAsyncAwaiter::ForceAsyncAwaiter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -163,5 +163,3 @@ constexpr void System::Xml::Schema::RestrictionFacets::__cordl_internal_set_Flag
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::RestrictionFacets::RestrictionFacets() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

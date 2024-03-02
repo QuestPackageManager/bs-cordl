@@ -49,5 +49,3 @@ inline void Org::BouncyCastle::Utilities::Zlib::Adler32::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::Adler32::Adler32() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

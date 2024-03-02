@@ -544,5 +544,3 @@ inline bool GlobalNamespace::OVRSceneRoom::_Awake_g__TryGetUuid_24_1(::GlobalNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRSceneRoom::OVRSceneRoom() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

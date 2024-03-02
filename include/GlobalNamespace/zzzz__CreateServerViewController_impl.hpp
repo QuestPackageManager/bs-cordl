@@ -249,5 +249,3 @@ inline void GlobalNamespace::CreateServerViewController::_DidActivate_b__10_1() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CreateServerViewController::CreateServerViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

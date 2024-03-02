@@ -88,5 +88,3 @@ inline ::UnityEngine::Timeline::MatchTargetFields UnityEngine::Timeline::MatchTa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::MatchTargetFieldConstants::MatchTargetFieldConstants() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

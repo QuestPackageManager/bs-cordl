@@ -101,5 +101,3 @@ inline void Newtonsoft::Json::Linq::JsonPath::QueryExpression::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JsonPath::QueryExpression::QueryExpression() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -87,5 +87,3 @@ inline uint64_t GlobalNamespace::BitMaskUtil::ShiftRight(ByRef<uint64_t> value, 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BitMaskUtil::BitMaskUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

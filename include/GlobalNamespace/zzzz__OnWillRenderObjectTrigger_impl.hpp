@@ -137,5 +137,3 @@ inline void GlobalNamespace::OnWillRenderObjectTrigger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OnWillRenderObjectTrigger::OnWillRenderObjectTrigger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

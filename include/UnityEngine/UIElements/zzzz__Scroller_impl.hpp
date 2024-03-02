@@ -691,5 +691,3 @@ inline void UnityEngine::UIElements::__Scroller__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__Scroller__UxmlFactory::__Scroller__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -43,5 +43,3 @@ inline ::TMPro::TextAlignmentOptions TMPro::TMP_Compatibility::ConvertTextAlignm
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Compatibility::TMP_Compatibility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

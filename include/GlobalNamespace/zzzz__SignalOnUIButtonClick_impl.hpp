@@ -104,5 +104,3 @@ inline void GlobalNamespace::SignalOnUIButtonClick::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SignalOnUIButtonClick::SignalOnUIButtonClick() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

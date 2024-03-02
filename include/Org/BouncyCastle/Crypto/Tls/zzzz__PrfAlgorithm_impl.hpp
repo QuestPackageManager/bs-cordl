@@ -24,5 +24,3 @@ inline void Org::BouncyCastle::Crypto::Tls::PrfAlgorithm::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::PrfAlgorithm::PrfAlgorithm() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

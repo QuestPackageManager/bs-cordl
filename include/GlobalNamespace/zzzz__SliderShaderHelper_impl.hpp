@@ -304,5 +304,3 @@ inline void GlobalNamespace::SliderShaderHelper::UpdateMaterialPropertyBlock(::U
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SliderShaderHelper::SliderShaderHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

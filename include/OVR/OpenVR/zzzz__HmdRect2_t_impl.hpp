@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::HmdRect2_t::HmdRect2_t(::OVR::OpenVR::HmdVector2_t vTop
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::HmdRect2_t::HmdRect2_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

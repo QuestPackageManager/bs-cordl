@@ -338,5 +338,3 @@ inline void GlobalNamespace::SmoothStepPositionGroupEventEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SmoothStepPositionGroupEventEffect::SmoothStepPositionGroupEventEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

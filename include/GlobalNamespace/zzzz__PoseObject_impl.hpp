@@ -92,5 +92,3 @@ inline void GlobalNamespace::PoseObject::_ctor(::UnityEngine::Transform* transfo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PoseObject::PoseObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

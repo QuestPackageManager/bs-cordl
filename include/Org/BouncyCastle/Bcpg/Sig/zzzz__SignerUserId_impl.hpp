@@ -92,5 +92,3 @@ inline ::StringW Org::BouncyCastle::Bcpg::Sig::SignerUserId::GetId() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::SignerUserId::SignerUserId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

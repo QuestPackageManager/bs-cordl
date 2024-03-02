@@ -79,5 +79,3 @@ inline void UnityEngine::ScreenCapture::CaptureScreenshot(::StringW filename, in
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ScreenCapture::ScreenCapture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

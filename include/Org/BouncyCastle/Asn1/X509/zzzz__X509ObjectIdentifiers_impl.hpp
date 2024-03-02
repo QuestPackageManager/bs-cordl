@@ -206,5 +206,3 @@ inline void Org::BouncyCastle::Asn1::X509::X509ObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::X509ObjectIdentifiers::X509ObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

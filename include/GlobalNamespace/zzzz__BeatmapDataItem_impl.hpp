@@ -195,5 +195,3 @@ inline int32_t GlobalNamespace::BeatmapDataItem::CompareTo(::GlobalNamespace::Be
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataItem::BeatmapDataItem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

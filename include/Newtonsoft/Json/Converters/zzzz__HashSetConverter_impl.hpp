@@ -116,5 +116,3 @@ inline void Newtonsoft::Json::Converters::HashSetConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::HashSetConverter::HashSetConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

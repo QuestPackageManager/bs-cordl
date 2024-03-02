@@ -29,5 +29,3 @@ constexpr ::UnityEngine::UIElements::EasingMode UnityEngine::UIElements::EasingM
 constexpr ::UnityEngine::UIElements::EasingMode UnityEngine::UIElements::EasingMode::EaseInBounce{ static_cast<int32_t>(0x14) };
 constexpr ::UnityEngine::UIElements::EasingMode UnityEngine::UIElements::EasingMode::EaseOutBounce{ static_cast<int32_t>(0x15) };
 constexpr ::UnityEngine::UIElements::EasingMode UnityEngine::UIElements::EasingMode::EaseInOutBounce{ static_cast<int32_t>(0x16) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

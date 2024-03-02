@@ -23,5 +23,3 @@ inline ::System::TimeSpan System::Runtime::Remoting::Lifetime::ISponsor::Renewal
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::ISponsor*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::TimeSpan, false>(this, ___internal_method, lease);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

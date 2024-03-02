@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Playables::DirectorUpdateMode UnityEngine::Playables::D
 constexpr ::UnityEngine::Playables::DirectorUpdateMode UnityEngine::Playables::DirectorUpdateMode::GameTime{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Playables::DirectorUpdateMode UnityEngine::Playables::DirectorUpdateMode::UnscaledGameTime{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Playables::DirectorUpdateMode UnityEngine::Playables::DirectorUpdateMode::Manual{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

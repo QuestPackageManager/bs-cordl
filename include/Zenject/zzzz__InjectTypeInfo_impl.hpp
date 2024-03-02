@@ -402,5 +402,3 @@ inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>
 }
 // Ctor Parameters []
 constexpr ::Zenject::InjectTypeInfo::InjectTypeInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -48,5 +48,3 @@ inline bool System::Reflection::MemberFilter::Invoke(::System::Reflection::Membe
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::MemberFilter::MemberFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -2383,5 +2383,3 @@ inline ::UnityW<::UnityEngine::Transform> UnityEngine::UI::ScrollRect::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::ScrollRect::ScrollRect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

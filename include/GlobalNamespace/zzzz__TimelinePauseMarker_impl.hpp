@@ -66,5 +66,3 @@ inline void GlobalNamespace::TimelinePauseMarker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TimelinePauseMarker::TimelinePauseMarker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

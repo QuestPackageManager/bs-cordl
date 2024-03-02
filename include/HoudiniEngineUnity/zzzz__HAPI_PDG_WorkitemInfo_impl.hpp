@@ -9,5 +9,3 @@ constexpr ::HoudiniEngineUnity::HAPI_PDG_WorkitemInfo::HAPI_PDG_WorkitemInfo(int
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_PDG_WorkitemInfo::HAPI_PDG_WorkitemInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

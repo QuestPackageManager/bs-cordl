@@ -60,5 +60,3 @@ inline void GlobalNamespace::OVRAutoDestroyInMRC::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRAutoDestroyInMRC::OVRAutoDestroyInMRC() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

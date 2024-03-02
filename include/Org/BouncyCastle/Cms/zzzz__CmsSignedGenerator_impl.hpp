@@ -549,5 +549,3 @@ inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* Org::BouncyCastle::Cms:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsSignedGenerator::CmsSignedGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

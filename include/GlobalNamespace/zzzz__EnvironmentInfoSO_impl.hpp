@@ -417,5 +417,3 @@ inline void GlobalNamespace::EnvironmentInfoSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentInfoSO::EnvironmentInfoSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

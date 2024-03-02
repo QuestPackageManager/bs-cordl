@@ -1241,5 +1241,3 @@ inline bool HoudiniEngineUnity::HEU_HAPIUtility::GetObjectInfos(::HoudiniEngineU
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_HAPIUtility::HEU_HAPIUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

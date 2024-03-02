@@ -2905,5 +2905,3 @@ UnityEngine::InputSystem::FastKeyboard::Initialize_ctrlKeyboardIMESelected(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::FastKeyboard::FastKeyboard() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

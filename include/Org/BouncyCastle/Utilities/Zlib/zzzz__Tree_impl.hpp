@@ -233,5 +233,3 @@ inline void Org::BouncyCastle::Utilities::Zlib::Tree::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::Tree::Tree() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

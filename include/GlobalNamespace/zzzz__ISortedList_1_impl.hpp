@@ -32,5 +32,3 @@ template <typename T> inline void GlobalNamespace::ISortedList_1<T>::TouchLastUs
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ISortedList_1<T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

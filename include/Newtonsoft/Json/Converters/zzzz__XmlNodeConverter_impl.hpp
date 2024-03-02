@@ -832,5 +832,3 @@ inline void Newtonsoft::Json::Converters::XmlNodeConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::XmlNodeConverter::XmlNodeConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

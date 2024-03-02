@@ -173,5 +173,3 @@ inline void GlobalNamespace::BloomPrePassBackgroundColorsGradient::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundColorsGradient::BloomPrePassBackgroundColorsGradient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -384,5 +384,3 @@ inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMateria
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::BuiltinMaterials::BuiltinMaterials() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

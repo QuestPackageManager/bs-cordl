@@ -84,5 +84,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::EnableDeviceCommand::EnableDevic
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::EnableDeviceCommand::EnableDeviceCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

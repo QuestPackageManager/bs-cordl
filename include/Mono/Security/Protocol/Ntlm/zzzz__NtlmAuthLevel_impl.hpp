@@ -10,5 +10,3 @@ constexpr ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel Mono::Security::Protoc
 constexpr ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel Mono::Security::Protocol::Ntlm::NtlmAuthLevel::LM_and_NTLM_and_try_NTLMv2_Session{ static_cast<int32_t>(0x1) };
 constexpr ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel Mono::Security::Protocol::Ntlm::NtlmAuthLevel::NTLM_only{ static_cast<int32_t>(0x2) };
 constexpr ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel Mono::Security::Protocol::Ntlm::NtlmAuthLevel::NTLMv2_only{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

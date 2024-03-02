@@ -275,5 +275,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::CryptoPro
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::ECGost3410ParamSetParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

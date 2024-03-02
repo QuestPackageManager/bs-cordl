@@ -224,5 +224,3 @@ inline void Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::VerifySymmetricKeyAlgori
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey::ECDHPublicBcpgKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

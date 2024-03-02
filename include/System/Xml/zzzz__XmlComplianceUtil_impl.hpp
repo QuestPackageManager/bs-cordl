@@ -43,5 +43,3 @@ inline ::StringW System::Xml::XmlComplianceUtil::CDataNormalize(::StringW value)
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlComplianceUtil::XmlComplianceUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

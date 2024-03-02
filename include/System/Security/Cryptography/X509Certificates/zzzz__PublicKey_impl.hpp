@@ -238,5 +238,3 @@ inline ::System::Security::Cryptography::RSA* System::Security::Cryptography::X5
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::PublicKey::PublicKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

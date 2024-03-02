@@ -368,5 +368,3 @@ inline ::System::Text::StringBuilder* System::Globalization::TimeSpanFormat::For
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::TimeSpanFormat::TimeSpanFormat() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -199,5 +199,3 @@ constexpr ::OVR::OpenVR::IVRResources::IVRResources(::OVR::OpenVR::__IVRResource
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRResources::IVRResources() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

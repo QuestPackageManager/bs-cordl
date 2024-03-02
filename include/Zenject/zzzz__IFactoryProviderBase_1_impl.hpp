@@ -107,5 +107,3 @@ template <typename TContract> inline ::Zenject::InjectTypeInfo* Zenject::IFactor
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::IFactoryProviderBase_1<TContract>::IFactoryProviderBase_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

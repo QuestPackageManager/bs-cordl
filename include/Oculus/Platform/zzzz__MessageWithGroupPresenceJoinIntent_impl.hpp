@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::GroupPresenceJoinIntent* Oculus::Platform::Me
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithGroupPresenceJoinIntent::MessageWithGroupPresenceJoinIntent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

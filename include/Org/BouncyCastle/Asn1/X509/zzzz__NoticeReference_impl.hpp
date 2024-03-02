@@ -243,5 +243,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Not
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::NoticeReference::NoticeReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

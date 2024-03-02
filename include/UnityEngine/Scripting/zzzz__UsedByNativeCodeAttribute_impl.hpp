@@ -82,5 +82,3 @@ inline void UnityEngine::Scripting::UsedByNativeCodeAttribute::set_Name(::String
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Scripting::UsedByNativeCodeAttribute::UsedByNativeCodeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

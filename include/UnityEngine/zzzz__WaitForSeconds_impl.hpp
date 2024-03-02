@@ -38,5 +38,3 @@ inline void UnityEngine::WaitForSeconds::_ctor(float_t seconds) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::WaitForSeconds::WaitForSeconds() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

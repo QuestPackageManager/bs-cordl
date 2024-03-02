@@ -402,5 +402,3 @@ inline void Mono::Security::Cryptography::MD4Managed::MD4Transform(::ArrayW<uint
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Cryptography::MD4Managed::MD4Managed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

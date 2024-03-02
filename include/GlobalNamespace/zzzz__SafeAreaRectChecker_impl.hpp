@@ -224,5 +224,3 @@ inline void GlobalNamespace::SafeAreaRectChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SafeAreaRectChecker::SafeAreaRectChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

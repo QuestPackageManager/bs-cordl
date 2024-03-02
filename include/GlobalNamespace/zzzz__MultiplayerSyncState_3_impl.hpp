@@ -52,5 +52,3 @@ template <typename TStateTable, typename TType, typename TState> inline void Glo
 }
 // Ctor Parameters []
 template <typename TStateTable, typename TType, typename TState> constexpr ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>::MultiplayerSyncState_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

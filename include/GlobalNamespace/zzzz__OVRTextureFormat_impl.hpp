@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::OVRTextureFormat GlobalNamespace::OVRTextureFormat:
 constexpr ::GlobalNamespace::OVRTextureFormat GlobalNamespace::OVRTextureFormat::KTX2{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRTextureFormat GlobalNamespace::OVRTextureFormat::PNG{ static_cast<int32_t>(0x2) };
 constexpr ::GlobalNamespace::OVRTextureFormat GlobalNamespace::OVRTextureFormat::JPEG{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

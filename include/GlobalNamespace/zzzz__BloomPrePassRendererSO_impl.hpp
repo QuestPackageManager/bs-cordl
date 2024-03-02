@@ -612,5 +612,3 @@ inline void GlobalNamespace::BloomPrePassRendererSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassRendererSO::BloomPrePassRendererSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

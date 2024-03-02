@@ -98,5 +98,3 @@ template <typename T> inline T System::Threading::SparselyPopulatedArrayFragment
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>::SparselyPopulatedArrayFragment_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

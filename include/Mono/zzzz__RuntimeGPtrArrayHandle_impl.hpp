@@ -126,5 +126,3 @@ constexpr ::Mono::RuntimeGPtrArrayHandle::RuntimeGPtrArrayHandle(::cordl_interna
 }
 // Ctor Parameters []
 constexpr ::Mono::RuntimeGPtrArrayHandle::RuntimeGPtrArrayHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -68,5 +68,3 @@ inline ::Oculus::Platform::Models::ProductList* Oculus::Platform::MessageWithPro
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithProductList::MessageWithProductList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

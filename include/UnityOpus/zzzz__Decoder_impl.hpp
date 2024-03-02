@@ -174,5 +174,3 @@ inline void UnityOpus::Decoder::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::UnityOpus::Decoder::Decoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

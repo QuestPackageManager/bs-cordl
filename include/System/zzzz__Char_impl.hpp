@@ -1358,5 +1358,3 @@ constexpr ::System::Char::Char(char16_t m_value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::Char::Char() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

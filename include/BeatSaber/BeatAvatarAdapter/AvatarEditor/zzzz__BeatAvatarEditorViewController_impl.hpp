@@ -1757,5 +1757,3 @@ inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewCont
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController::BeatAvatarEditorViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

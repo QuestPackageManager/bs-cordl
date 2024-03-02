@@ -2410,5 +2410,3 @@ inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::L
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventTrace::InputEventTrace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -52,5 +52,3 @@ inline void UnityEngine::UIElements::MouseEventsHelper::SendMouseOverMouseOut(::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseEventsHelper::MouseEventsHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

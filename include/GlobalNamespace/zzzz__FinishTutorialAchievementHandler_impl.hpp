@@ -121,5 +121,3 @@ inline void GlobalNamespace::FinishTutorialAchievementHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FinishTutorialAchievementHandler::FinishTutorialAchievementHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

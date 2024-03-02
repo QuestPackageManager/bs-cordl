@@ -384,5 +384,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Agreeme
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6Server::Srp6Server() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

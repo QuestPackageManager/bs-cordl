@@ -116,5 +116,3 @@ inline void System::Runtime::CompilerServices::RuntimeWrappedException::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::RuntimeWrappedException::RuntimeWrappedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

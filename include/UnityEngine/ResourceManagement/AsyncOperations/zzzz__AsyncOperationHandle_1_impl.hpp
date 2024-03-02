@@ -323,5 +323,3 @@ constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHand
 }
 // Ctor Parameters []
 template <typename TObject> constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>::AsyncOperationHandle_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

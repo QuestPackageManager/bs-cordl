@@ -156,5 +156,3 @@ inline ::System::Collections::IDictionary* System::Runtime::Remoting::Messaging:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::ConstructionResponse::ConstructionResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

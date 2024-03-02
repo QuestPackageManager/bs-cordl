@@ -857,5 +857,3 @@ inline ::UnityEngine::Vector2 UnityEngine::UIElements::UIElementsRuntimeUtility:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIElementsRuntimeUtility::UIElementsRuntimeUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

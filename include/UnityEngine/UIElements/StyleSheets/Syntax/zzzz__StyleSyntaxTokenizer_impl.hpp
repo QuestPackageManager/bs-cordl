@@ -230,5 +230,3 @@ inline void UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer::StyleSyntaxTokenizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

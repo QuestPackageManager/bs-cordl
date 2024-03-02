@@ -277,5 +277,3 @@ inline void GlobalNamespace::MultiplayerCenterResizeController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerCenterResizeController::MultiplayerCenterResizeController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

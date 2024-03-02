@@ -209,5 +209,3 @@ constexpr ::UnityEngine::XR::InputDevice::InputDevice(uint64_t m_DeviceId, bool 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::InputDevice::InputDevice() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ inline void Unity::Collections::WriteOnlyAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::WriteOnlyAttribute::WriteOnlyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

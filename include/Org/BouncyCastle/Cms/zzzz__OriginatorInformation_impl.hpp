@@ -104,5 +104,3 @@ inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* Org::BouncyCastle::Cms::O
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::OriginatorInformation::OriginatorInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

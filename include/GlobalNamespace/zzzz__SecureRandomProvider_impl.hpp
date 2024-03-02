@@ -235,5 +235,3 @@ inline void GlobalNamespace::SecureRandomProvider::GetBytes(::ArrayW<uint8_t, ::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SecureRandomProvider::SecureRandomProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

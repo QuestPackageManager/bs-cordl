@@ -137,5 +137,3 @@ inline void Newtonsoft::Json::Serialization::ErrorEventArgs::_ctor(::System::Obj
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::ErrorEventArgs::ErrorEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

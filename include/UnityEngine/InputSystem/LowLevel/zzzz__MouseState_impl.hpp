@@ -142,5 +142,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::MouseState::MouseState(::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::MouseState::MouseState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

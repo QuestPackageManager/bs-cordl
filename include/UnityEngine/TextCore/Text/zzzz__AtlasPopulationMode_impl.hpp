@@ -9,5 +9,3 @@ constexpr ::UnityEngine::TextCore::Text::AtlasPopulationMode::AtlasPopulationMod
 constexpr ::UnityEngine::TextCore::Text::AtlasPopulationMode UnityEngine::TextCore::Text::AtlasPopulationMode::Static{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::TextCore::Text::AtlasPopulationMode UnityEngine::TextCore::Text::AtlasPopulationMode::Dynamic{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TextCore::Text::AtlasPopulationMode UnityEngine::TextCore::Text::AtlasPopulationMode::DynamicOS{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

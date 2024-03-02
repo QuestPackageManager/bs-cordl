@@ -14,5 +14,3 @@ constexpr ::UnityEngine::Rendering::StencilOp UnityEngine::Rendering::StencilOp:
 constexpr ::UnityEngine::Rendering::StencilOp UnityEngine::Rendering::StencilOp::Invert{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::Rendering::StencilOp UnityEngine::Rendering::StencilOp::IncrementWrap{ static_cast<int32_t>(0x6) };
 constexpr ::UnityEngine::Rendering::StencilOp UnityEngine::Rendering::StencilOp::DecrementWrap{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

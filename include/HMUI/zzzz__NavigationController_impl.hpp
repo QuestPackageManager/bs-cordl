@@ -467,5 +467,3 @@ inline void HMUI::NavigationController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::NavigationController::NavigationController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

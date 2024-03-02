@@ -119,5 +119,3 @@ inline void GlobalNamespace::MockScoreSyncStateSender::HandleScoreSyncStateUpdat
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockScoreSyncStateSender::MockScoreSyncStateSender() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

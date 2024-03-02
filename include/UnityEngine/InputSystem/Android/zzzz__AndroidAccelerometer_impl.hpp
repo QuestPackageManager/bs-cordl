@@ -26,5 +26,3 @@ inline void UnityEngine::InputSystem::Android::AndroidAccelerometer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidAccelerometer::AndroidAccelerometer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

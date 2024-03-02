@@ -602,5 +602,3 @@ inline void GlobalNamespace::__BurstSliderGameNoteController__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__BurstSliderGameNoteController__Pool::__BurstSliderGameNoteController__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

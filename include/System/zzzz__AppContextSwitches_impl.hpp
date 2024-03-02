@@ -34,5 +34,3 @@ inline bool System::AppContextSwitches::getStaticF_EnforceLegacyJapaneseDatePars
 }
 // Ctor Parameters []
 constexpr ::System::AppContextSwitches::AppContextSwitches() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

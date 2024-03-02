@@ -1253,5 +1253,3 @@ inline int32_t System::Threading::ReaderWriterLockSlim::get_WaitingWriteCount() 
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ReaderWriterLockSlim::ReaderWriterLockSlim() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

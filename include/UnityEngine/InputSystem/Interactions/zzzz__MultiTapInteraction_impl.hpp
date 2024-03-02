@@ -282,5 +282,3 @@ inline void UnityEngine::InputSystem::Interactions::MultiTapInteraction::_ctor()
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Interactions::MultiTapInteraction::MultiTapInteraction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

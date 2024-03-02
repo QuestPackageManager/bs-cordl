@@ -418,5 +418,3 @@ constexpr ::UnityEngine::InputSystem::Utilities::InternedString::InternedString(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString::InternedString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

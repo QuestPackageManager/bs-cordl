@@ -89,5 +89,3 @@ inline bool System::UnhandledExceptionEventArgs::get_IsTerminating() {
 }
 // Ctor Parameters []
 constexpr ::System::UnhandledExceptionEventArgs::UnhandledExceptionEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

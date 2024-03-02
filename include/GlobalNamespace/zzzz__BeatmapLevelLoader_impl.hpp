@@ -852,5 +852,3 @@ inline void GlobalNamespace::BeatmapLevelLoader::HandleItemWillBeRemovedFromCach
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelLoader::BeatmapLevelLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

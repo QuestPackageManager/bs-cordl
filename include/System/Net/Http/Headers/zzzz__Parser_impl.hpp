@@ -359,5 +359,3 @@ inline bool System::Net::Http::Headers::__Parser__Uri::TryParse(::StringW input,
 constexpr ::System::Net::Http::Headers::__Parser__Uri::__Parser__Uri() {}
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::Parser::Parser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

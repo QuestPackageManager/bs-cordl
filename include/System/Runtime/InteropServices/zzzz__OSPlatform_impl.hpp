@@ -265,5 +265,3 @@ constexpr ::System::Runtime::InteropServices::OSPlatform::OSPlatform(::StringW _
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::OSPlatform::OSPlatform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

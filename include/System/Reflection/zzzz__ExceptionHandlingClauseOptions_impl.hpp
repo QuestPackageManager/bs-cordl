@@ -10,5 +10,3 @@ constexpr ::System::Reflection::ExceptionHandlingClauseOptions System::Reflectio
 constexpr ::System::Reflection::ExceptionHandlingClauseOptions System::Reflection::ExceptionHandlingClauseOptions::Filter{ static_cast<int32_t>(0x1) };
 constexpr ::System::Reflection::ExceptionHandlingClauseOptions System::Reflection::ExceptionHandlingClauseOptions::Finally{ static_cast<int32_t>(0x2) };
 constexpr ::System::Reflection::ExceptionHandlingClauseOptions System::Reflection::ExceptionHandlingClauseOptions::Fault{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

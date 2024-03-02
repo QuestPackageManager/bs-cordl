@@ -516,5 +516,3 @@ inline float_t UnityEngine::UI::LayoutUtility::GetLayoutProperty(::UnityEngine::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::LayoutUtility::LayoutUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

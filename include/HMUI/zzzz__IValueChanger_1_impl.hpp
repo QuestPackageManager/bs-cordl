@@ -11,5 +11,3 @@ template <typename T> inline void HMUI::IValueChanger_1<T>::remove_valueChangedE
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::IValueChanger_1<T>*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -266,5 +266,3 @@ inline bool System::ComponentModel::ExtendedPropertyDescriptor::ShouldSerializeV
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ExtendedPropertyDescriptor::ExtendedPropertyDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

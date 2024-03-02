@@ -46,5 +46,3 @@ constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo::HAPI_AttributeInfo(bool exis
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo::HAPI_AttributeInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -213,5 +213,3 @@ constexpr ::UnityEngine::Playables::FrameData::FrameData(uint64_t m_FrameID, dou
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Playables::FrameData::FrameData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

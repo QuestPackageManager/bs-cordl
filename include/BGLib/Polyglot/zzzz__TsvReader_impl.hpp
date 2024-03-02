@@ -46,5 +46,3 @@ inline void BGLib::Polyglot::TsvReader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::TsvReader::TsvReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

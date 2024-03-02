@@ -101,5 +101,3 @@ inline void System::ArithmeticException::_ctor(::System::Runtime::Serialization:
 }
 // Ctor Parameters []
 constexpr ::System::ArithmeticException::ArithmeticException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

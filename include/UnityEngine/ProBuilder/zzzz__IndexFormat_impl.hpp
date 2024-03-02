@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ProBuilder::IndexFormat::IndexFormat() {}
 constexpr ::UnityEngine::ProBuilder::IndexFormat UnityEngine::ProBuilder::IndexFormat::Local{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ProBuilder::IndexFormat UnityEngine::ProBuilder::IndexFormat::Common{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ProBuilder::IndexFormat UnityEngine::ProBuilder::IndexFormat::Both{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

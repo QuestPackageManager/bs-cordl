@@ -413,5 +413,3 @@ inline void System::Runtime::Remoting::Lifetime::Lease::ProcessSponsorResponse(:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Lifetime::Lease::Lease() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -117,5 +117,3 @@ inline void UnityEngine::TextCore::Text::TextResourceManager::AddFontAsset(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextResourceManager::TextResourceManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

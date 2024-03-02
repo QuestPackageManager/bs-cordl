@@ -18,5 +18,3 @@ constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::Render
 constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::RenderHints::DirtyClipWithScissors{ static_cast<int32_t>(0x80) };
 constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::RenderHints::DirtyMaskContainer{ static_cast<int32_t>(0x100) };
 constexpr ::UnityEngine::UIElements::RenderHints UnityEngine::UIElements::RenderHints::DirtyAll{ static_cast<int32_t>(0x1e0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

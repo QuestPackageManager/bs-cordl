@@ -5,5 +5,3 @@ template <typename T> inline int32_t System::Collections::Generic::IComparer_1<T
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::IComparer_1<T>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x, y);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void UnityEngine::InputSystem::Android::AndroidAmbientTemperature::_ctor(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidAmbientTemperature::AndroidAmbientTemperature() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

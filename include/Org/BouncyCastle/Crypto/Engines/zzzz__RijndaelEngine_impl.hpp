@@ -796,5 +796,3 @@ inline void Org::BouncyCastle::Crypto::Engines::RijndaelEngine::DecryptBlock(::A
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::RijndaelEngine::RijndaelEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

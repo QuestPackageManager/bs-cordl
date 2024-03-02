@@ -529,5 +529,3 @@ inline int32_t Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement::Curve25519FieldElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

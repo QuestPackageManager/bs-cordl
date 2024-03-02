@@ -69,5 +69,3 @@ constexpr ::LIV::SDK::Unity::SDKPlane::SDKPlane(float_t distance, ::LIV::SDK::Un
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKPlane::SDKPlane() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

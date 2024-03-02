@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::D3D12TextureData_t::D3D12TextureData_t(void* m_pResourc
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::D3D12TextureData_t::D3D12TextureData_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

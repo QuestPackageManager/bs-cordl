@@ -1611,5 +1611,3 @@ inline void UnityEngine::GUIStyle::SetMouseTooltip_Injected(::StringW tooltip, B
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUIStyle::GUIStyle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

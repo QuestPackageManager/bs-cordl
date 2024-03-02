@@ -427,5 +427,3 @@ inline bool Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable(::S
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::UnsafeUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

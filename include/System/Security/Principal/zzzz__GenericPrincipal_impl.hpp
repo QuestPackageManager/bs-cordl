@@ -55,5 +55,3 @@ inline void System::Security::Principal::GenericPrincipal::_ctor(::System::Secur
 }
 // Ctor Parameters []
 constexpr ::System::Security::Principal::GenericPrincipal::GenericPrincipal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

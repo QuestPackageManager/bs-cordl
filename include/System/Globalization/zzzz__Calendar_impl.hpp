@@ -660,5 +660,3 @@ inline int32_t System::Globalization::Calendar::GetSystemTwoDigitYearSetting(int
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::Calendar::Calendar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

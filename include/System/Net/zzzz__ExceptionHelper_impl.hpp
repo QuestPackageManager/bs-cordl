@@ -102,5 +102,3 @@ inline ::System::Net::WebException* System::Net::ExceptionHelper::get_RequestAbo
 }
 // Ctor Parameters []
 constexpr ::System::Net::ExceptionHelper::ExceptionHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

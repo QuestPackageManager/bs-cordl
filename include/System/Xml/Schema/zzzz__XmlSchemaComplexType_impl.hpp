@@ -243,5 +243,3 @@ inline void System::Xml::Schema::XmlSchemaComplexType::SetAttributeWildcard(::Sy
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaComplexType::XmlSchemaComplexType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

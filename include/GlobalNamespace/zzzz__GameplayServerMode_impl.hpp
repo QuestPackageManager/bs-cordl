@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::GameplayServerMode::GameplayServerMode() {}
 constexpr ::GlobalNamespace::GameplayServerMode GlobalNamespace::GameplayServerMode::Countdown{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::GameplayServerMode GlobalNamespace::GameplayServerMode::Managed{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::GameplayServerMode GlobalNamespace::GameplayServerMode::QuickStartOneSong{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

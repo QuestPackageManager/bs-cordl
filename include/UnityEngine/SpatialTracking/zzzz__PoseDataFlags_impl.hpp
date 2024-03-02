@@ -9,5 +9,3 @@ constexpr ::UnityEngine::SpatialTracking::PoseDataFlags::PoseDataFlags() {}
 constexpr ::UnityEngine::SpatialTracking::PoseDataFlags UnityEngine::SpatialTracking::PoseDataFlags::NoData{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::SpatialTracking::PoseDataFlags UnityEngine::SpatialTracking::PoseDataFlags::Position{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::SpatialTracking::PoseDataFlags UnityEngine::SpatialTracking::PoseDataFlags::Rotation{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

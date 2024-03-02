@@ -445,5 +445,3 @@ inline bool System::Security::Principal::SecurityIdentifier::TryParseSubAuthorit
 }
 // Ctor Parameters []
 constexpr ::System::Security::Principal::SecurityIdentifier::SecurityIdentifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

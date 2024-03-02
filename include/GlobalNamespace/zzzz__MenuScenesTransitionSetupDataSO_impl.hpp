@@ -25,5 +25,3 @@ inline void GlobalNamespace::MenuScenesTransitionSetupDataSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuScenesTransitionSetupDataSO::MenuScenesTransitionSetupDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

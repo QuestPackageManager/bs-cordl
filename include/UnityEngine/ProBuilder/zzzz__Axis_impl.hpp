@@ -12,5 +12,3 @@ constexpr ::UnityEngine::ProBuilder::Axis UnityEngine::ProBuilder::Axis::Up{ sta
 constexpr ::UnityEngine::ProBuilder::Axis UnityEngine::ProBuilder::Axis::Down{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::ProBuilder::Axis UnityEngine::ProBuilder::Axis::Forward{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::ProBuilder::Axis UnityEngine::ProBuilder::Axis::Backward{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

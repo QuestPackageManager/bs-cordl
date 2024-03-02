@@ -454,5 +454,3 @@ inline ::StringW System::Reflection::SignatureHasElementType::get_Suffix() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::SignatureHasElementType::SignatureHasElementType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

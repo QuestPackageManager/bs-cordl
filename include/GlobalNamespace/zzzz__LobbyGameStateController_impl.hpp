@@ -2317,5 +2317,3 @@ inline void GlobalNamespace::LobbyGameStateController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LobbyGameStateController::LobbyGameStateController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -83,5 +83,3 @@ inline void GlobalNamespace::MultipliedAndAddedColorSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultipliedAndAddedColorSO::MultipliedAndAddedColorSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

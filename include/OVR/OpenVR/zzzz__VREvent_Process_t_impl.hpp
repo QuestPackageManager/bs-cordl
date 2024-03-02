@@ -9,5 +9,3 @@ constexpr ::OVR::OpenVR::VREvent_Process_t::VREvent_Process_t(uint32_t pid, uint
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Process_t::VREvent_Process_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

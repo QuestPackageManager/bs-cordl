@@ -73,5 +73,3 @@ inline ::Oculus::Platform::Models::LivestreamingVideoStats* Oculus::Platform::Me
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithLivestreamingVideoStats::MessageWithLivestreamingVideoStats() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -29,5 +29,3 @@ inline ::UnityEngine::Matrix4x4 UnityEngine::UIElements::ProjectionUtils::Ortho(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ProjectionUtils::ProjectionUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

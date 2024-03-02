@@ -195,5 +195,3 @@ inline void System::Runtime::Remoting::Channels::CrossAppDomainChannel::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Channels::CrossAppDomainChannel::CrossAppDomainChannel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

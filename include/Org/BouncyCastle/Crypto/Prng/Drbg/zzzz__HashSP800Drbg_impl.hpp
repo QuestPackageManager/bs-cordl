@@ -343,5 +343,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Prng::Drb
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg::HashSP800Drbg() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

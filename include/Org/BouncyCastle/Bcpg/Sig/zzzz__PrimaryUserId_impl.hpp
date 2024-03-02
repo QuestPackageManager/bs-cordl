@@ -92,5 +92,3 @@ inline bool Org::BouncyCastle::Bcpg::Sig::PrimaryUserId::IsPrimaryUserId() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId::PrimaryUserId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

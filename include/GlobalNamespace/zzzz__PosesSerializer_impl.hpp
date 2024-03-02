@@ -305,5 +305,3 @@ inline bool GlobalNamespace::PosesSerializer::RecordingCanBeCreated(::StringW pa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PosesSerializer::PosesSerializer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -209,5 +209,3 @@ inline void GlobalNamespace::BloomPrePassBackgroundColor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundColor::BloomPrePassBackgroundColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ inline void ModestTree::Util::PreserveAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::ModestTree::Util::PreserveAttribute::PreserveAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -2495,5 +2495,3 @@ inline void UnityEngine::ResourceManagement::ResourceManager::__ctor_b__53_0(::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceManager::ResourceManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

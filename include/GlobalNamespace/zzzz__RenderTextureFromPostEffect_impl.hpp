@@ -110,5 +110,3 @@ inline void GlobalNamespace::RenderTextureFromPostEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RenderTextureFromPostEffect::RenderTextureFromPostEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

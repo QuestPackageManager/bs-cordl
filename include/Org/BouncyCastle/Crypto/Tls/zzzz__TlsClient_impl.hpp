@@ -377,5 +377,3 @@ inline void Org::BouncyCastle::Crypto::Tls::TlsClient::NotifyNewSessionTicket(::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsClient*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newSessionTicket);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

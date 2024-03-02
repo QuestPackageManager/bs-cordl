@@ -130,5 +130,3 @@ inline void GlobalNamespace::NoteDebrisPoolInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteDebrisPoolInstaller::NoteDebrisPoolInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

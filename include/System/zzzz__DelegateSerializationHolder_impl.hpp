@@ -272,5 +272,3 @@ inline ::System::Object* System::DelegateSerializationHolder::GetRealObject(::Sy
 }
 // Ctor Parameters []
 constexpr ::System::DelegateSerializationHolder::DelegateSerializationHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -622,5 +622,3 @@ inline void GlobalNamespace::MultiplayerLevelFinishedController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLevelFinishedController::MultiplayerLevelFinishedController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

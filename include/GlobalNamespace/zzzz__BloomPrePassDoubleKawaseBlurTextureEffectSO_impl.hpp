@@ -148,5 +148,3 @@ inline void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::_ctor(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::BloomPrePassDoubleKawaseBlurTextureEffectSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

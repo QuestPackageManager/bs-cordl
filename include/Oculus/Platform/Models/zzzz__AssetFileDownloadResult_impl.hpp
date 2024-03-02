@@ -51,5 +51,3 @@ inline void Oculus::Platform::Models::AssetFileDownloadResult::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::AssetFileDownloadResult::AssetFileDownloadResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

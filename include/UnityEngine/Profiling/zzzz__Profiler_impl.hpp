@@ -155,5 +155,3 @@ inline int64_t UnityEngine::Profiling::Profiler::GetTotalReservedMemoryLong() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Profiling::Profiler::Profiler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

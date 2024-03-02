@@ -3835,5 +3835,3 @@ inline void System::TimeZoneInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::TimeZoneInfo::TimeZoneInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

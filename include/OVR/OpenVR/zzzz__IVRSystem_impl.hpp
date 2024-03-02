@@ -4496,5 +4496,3 @@ constexpr ::OVR::OpenVR::IVRSystem::IVRSystem(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::IVRSystem::IVRSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -204,5 +204,3 @@ inline ::System::Xml::Linq::SaveOptions System::Xml::Linq::XObject::GetSaveOptio
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XObject::XObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

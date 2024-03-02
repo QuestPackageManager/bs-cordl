@@ -567,5 +567,3 @@ inline void UnityEngine::UI::VertexHelper::GetUIVertexStream(::System::Collectio
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::VertexHelper::VertexHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

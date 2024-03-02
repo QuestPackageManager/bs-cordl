@@ -73,5 +73,3 @@ inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* Oculu
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::MessageWithDataStoreUnderPrivateUserDataStore() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

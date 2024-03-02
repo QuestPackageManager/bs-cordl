@@ -22,5 +22,3 @@ inline ::Mono::X509PalImpl* Mono::X509Pal::get_Instance() {
 }
 // Ctor Parameters []
 constexpr ::Mono::X509Pal::X509Pal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

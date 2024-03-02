@@ -61,5 +61,3 @@ inline void UnityEngine::UIElements::PointerEnterEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerEnterEvent::PointerEnterEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

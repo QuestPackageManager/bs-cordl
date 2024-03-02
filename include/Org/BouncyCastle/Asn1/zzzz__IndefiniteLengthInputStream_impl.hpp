@@ -157,5 +157,3 @@ inline int32_t Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::RequireByte
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::IndefiniteLengthInputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -572,5 +572,3 @@ inline void UnityEngine::CharacterController::set_center_Injected(ByRef<::UnityE
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CharacterController::CharacterController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

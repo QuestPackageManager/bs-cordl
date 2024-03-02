@@ -59,5 +59,3 @@ inline bool UnityEngine::UIElements::ITreeViewItem::get_hasChildren() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ITreeViewItem*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -13,5 +13,3 @@ template <typename T> inline int32_t GlobalNamespace::LinkedListExtension::Index
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LinkedListExtension::LinkedListExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

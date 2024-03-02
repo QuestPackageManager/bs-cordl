@@ -224,5 +224,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Ess::Sign
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2::SigningCertificateV2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

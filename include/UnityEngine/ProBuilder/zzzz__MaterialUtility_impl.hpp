@@ -58,5 +58,3 @@ inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::MaterialUtilit
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MaterialUtility::MaterialUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

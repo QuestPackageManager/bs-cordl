@@ -16,5 +16,3 @@ constexpr ::System::Diagnostics::Tracing::EventKeywords System::Diagnostics::Tra
 constexpr ::System::Diagnostics::Tracing::EventKeywords System::Diagnostics::Tracing::EventKeywords::AuditSuccess{ static_cast<int64_t>(0x20000000000000) };
 constexpr ::System::Diagnostics::Tracing::EventKeywords System::Diagnostics::Tracing::EventKeywords::CorrelationHint{ static_cast<int64_t>(0x10000000000000) };
 constexpr ::System::Diagnostics::Tracing::EventKeywords System::Diagnostics::Tracing::EventKeywords::EventLogClassic{ static_cast<int64_t>(0x80000000000000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

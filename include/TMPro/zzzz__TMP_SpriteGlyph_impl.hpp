@@ -102,5 +102,3 @@ inline void TMPro::TMP_SpriteGlyph::_ctor(uint32_t index, ::UnityEngine::TextCor
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_SpriteGlyph::TMP_SpriteGlyph() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

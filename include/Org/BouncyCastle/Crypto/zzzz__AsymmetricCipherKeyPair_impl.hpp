@@ -96,5 +96,3 @@ inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Org::BouncyCastle::C
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::AsymmetricCipherKeyPair() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

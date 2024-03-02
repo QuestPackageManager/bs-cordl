@@ -63,5 +63,3 @@ constexpr void System::Net::Sockets::SendPacketsElement::__cordl_internal_set_m_
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::SendPacketsElement::SendPacketsElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

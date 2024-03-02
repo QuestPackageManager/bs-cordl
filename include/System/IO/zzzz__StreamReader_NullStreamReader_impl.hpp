@@ -215,5 +215,3 @@ inline int32_t System::IO::__StreamReader__NullStreamReader::ReadBuffer() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::__StreamReader__NullStreamReader::__StreamReader__NullStreamReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

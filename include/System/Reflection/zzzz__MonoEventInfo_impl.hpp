@@ -24,5 +24,3 @@ constexpr ::System::Reflection::MonoEventInfo::MonoEventInfo(::System::Type* dec
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::MonoEventInfo::MonoEventInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -220,5 +220,3 @@ inline void GlobalNamespace::BitMaskArray::Deserialize(::LiteNetLib::Utils::NetD
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BitMaskArray::BitMaskArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

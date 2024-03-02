@@ -25,5 +25,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags::PgpKeyFlags() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

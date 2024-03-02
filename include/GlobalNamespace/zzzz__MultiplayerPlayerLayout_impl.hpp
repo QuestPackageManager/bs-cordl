@@ -9,5 +9,3 @@ constexpr ::GlobalNamespace::MultiplayerPlayerLayout::MultiplayerPlayerLayout() 
 constexpr ::GlobalNamespace::MultiplayerPlayerLayout GlobalNamespace::MultiplayerPlayerLayout::NotDetermined{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::MultiplayerPlayerLayout GlobalNamespace::MultiplayerPlayerLayout::Circle{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::MultiplayerPlayerLayout GlobalNamespace::MultiplayerPlayerLayout::Duel{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

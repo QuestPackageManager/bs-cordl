@@ -208,5 +208,3 @@ inline void GlobalNamespace::BloomPrePass::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePass::BloomPrePass() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

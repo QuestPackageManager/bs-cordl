@@ -315,5 +315,3 @@ inline void Org::BouncyCastle::Crypto::BufferedAeadCipher::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::BufferedAeadCipher::BufferedAeadCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

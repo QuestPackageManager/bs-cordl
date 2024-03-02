@@ -167,5 +167,3 @@ HoudiniEngineUnity::Test_MeshFilter_Extensions::ToTestObject(::System::Collectio
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_MeshFilter_Extensions::Test_MeshFilter_Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

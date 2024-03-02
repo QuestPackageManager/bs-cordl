@@ -77,5 +77,3 @@ inline void Mono::Globalization::Unicode::TailoringInfo::_ctor(int32_t lcid, int
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::TailoringInfo::TailoringInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

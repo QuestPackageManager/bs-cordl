@@ -294,5 +294,3 @@ inline void GlobalNamespace::PyramidBloomRendererSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PyramidBloomRendererSO::PyramidBloomRendererSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

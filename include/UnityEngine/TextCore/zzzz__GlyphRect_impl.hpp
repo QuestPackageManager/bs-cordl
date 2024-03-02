@@ -199,5 +199,3 @@ constexpr ::UnityEngine::TextCore::GlyphRect::GlyphRect(int32_t m_X, int32_t m_Y
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::GlyphRect::GlyphRect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

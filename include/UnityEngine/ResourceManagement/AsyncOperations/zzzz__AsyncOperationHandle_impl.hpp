@@ -724,5 +724,3 @@ constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHand
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::AsyncOperationHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

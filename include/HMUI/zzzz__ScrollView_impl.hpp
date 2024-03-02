@@ -1265,5 +1265,3 @@ inline float_t HMUI::ScrollView::_Awake_b__42_2(::HMUI::ItemForFocussedScrolling
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScrollView::ScrollView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

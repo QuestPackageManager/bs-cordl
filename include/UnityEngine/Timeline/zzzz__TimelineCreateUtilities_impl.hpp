@@ -245,5 +245,3 @@ inline bool UnityEngine::Timeline::TimelineCreateUtilities::ValidateParentTrack(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::TimelineCreateUtilities::TimelineCreateUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

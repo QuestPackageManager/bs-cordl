@@ -85,5 +85,3 @@ inline char16_t Internal::Cryptography::Helpers::NibbleToHex(uint8_t b) {
 }
 // Ctor Parameters []
 constexpr ::Internal::Cryptography::Helpers::Helpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

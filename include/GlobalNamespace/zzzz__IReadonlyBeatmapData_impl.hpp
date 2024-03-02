@@ -323,5 +323,3 @@ GlobalNamespace::IReadonlyBeatmapData::GetFilteredCopy(::System::Func_2<::Global
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IReadonlyBeatmapData*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapData*, false>(this, ___internal_method, processDataItem);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

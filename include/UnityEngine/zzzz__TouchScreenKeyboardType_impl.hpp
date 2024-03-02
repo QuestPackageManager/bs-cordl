@@ -19,5 +19,3 @@ constexpr ::UnityEngine::TouchScreenKeyboardType UnityEngine::TouchScreenKeyboar
 constexpr ::UnityEngine::TouchScreenKeyboardType UnityEngine::TouchScreenKeyboardType::Search{ static_cast<int32_t>(0xa) };
 constexpr ::UnityEngine::TouchScreenKeyboardType UnityEngine::TouchScreenKeyboardType::DecimalPad{ static_cast<int32_t>(0xb) };
 constexpr ::UnityEngine::TouchScreenKeyboardType UnityEngine::TouchScreenKeyboardType::OneTimeCode{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

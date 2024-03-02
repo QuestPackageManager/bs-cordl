@@ -99,5 +99,3 @@ inline void GlobalNamespace::ScoreMissionObjectiveChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreMissionObjectiveChecker::ScoreMissionObjectiveChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -162,5 +162,3 @@ constexpr ::UnityEngine::JointDrive::JointDrive(float_t m_PositionSpring, float_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::JointDrive::JointDrive() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

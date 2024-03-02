@@ -194,5 +194,3 @@ inline bool System::ComponentModel::DisplayNameAttribute::IsDefaultAttribute() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DisplayNameAttribute::DisplayNameAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

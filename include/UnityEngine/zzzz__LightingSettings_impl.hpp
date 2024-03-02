@@ -177,5 +177,3 @@ inline void UnityEngine::LightingSettings::set_realtimeEnvironmentLighting(bool 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LightingSettings::LightingSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

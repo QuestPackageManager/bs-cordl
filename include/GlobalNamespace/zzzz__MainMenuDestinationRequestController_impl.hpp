@@ -293,5 +293,3 @@ inline void GlobalNamespace::MainMenuDestinationRequestController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainMenuDestinationRequestController::MainMenuDestinationRequestController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

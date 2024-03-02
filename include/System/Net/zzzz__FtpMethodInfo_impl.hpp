@@ -206,5 +206,3 @@ inline ::System::Net::FtpMethodInfo* System::Net::FtpMethodInfo::GetMethodInfo(:
 }
 // Ctor Parameters []
 constexpr ::System::Net::FtpMethodInfo::FtpMethodInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

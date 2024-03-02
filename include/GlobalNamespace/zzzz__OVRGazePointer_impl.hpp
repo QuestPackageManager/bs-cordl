@@ -542,5 +542,3 @@ inline void GlobalNamespace::OVRGazePointer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGazePointer::OVRGazePointer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

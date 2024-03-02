@@ -39,5 +39,3 @@ inline ::Zenject::FactoryFromBinder_4<TParam1, TParam2, TParam3, TConcrete>* Zen
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract> constexpr ::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>::FactoryToChoiceBinder_4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

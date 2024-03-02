@@ -137,5 +137,3 @@ inline void System::Security::Cryptography::RC2Transform::ECB(::ArrayW<uint8_t, 
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RC2Transform::RC2Transform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

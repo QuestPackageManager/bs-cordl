@@ -10,5 +10,3 @@ constexpr ::UnityEngine::InputSystem::UI::UIPointerType UnityEngine::InputSystem
 constexpr ::UnityEngine::InputSystem::UI::UIPointerType UnityEngine::InputSystem::UI::UIPointerType::MouseOrPen{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::InputSystem::UI::UIPointerType UnityEngine::InputSystem::UI::UIPointerType::Touch{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::InputSystem::UI::UIPointerType UnityEngine::InputSystem::UI::UIPointerType::Tracked{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

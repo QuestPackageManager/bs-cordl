@@ -8,5 +8,3 @@ constexpr ::System::Xml::Schema::XmlSeverityType::XmlSeverityType(int32_t value_
 constexpr ::System::Xml::Schema::XmlSeverityType::XmlSeverityType() {}
 constexpr ::System::Xml::Schema::XmlSeverityType System::Xml::Schema::XmlSeverityType::Error{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::Schema::XmlSeverityType System::Xml::Schema::XmlSeverityType::Warning{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

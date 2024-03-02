@@ -142,5 +142,3 @@ inline bool UnityEngine::TrackedReference::op_Implicit_bool(::UnityEngine::Track
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TrackedReference::TrackedReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -55,5 +55,3 @@ inline void GlobalNamespace::DisableIfNotPlatform::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisableIfNotPlatform::DisableIfNotPlatform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

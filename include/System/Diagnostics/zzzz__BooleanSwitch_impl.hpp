@@ -26,5 +26,3 @@ inline void System::Diagnostics::BooleanSwitch::_ctor(::StringW displayName, ::S
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::BooleanSwitch::BooleanSwitch() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

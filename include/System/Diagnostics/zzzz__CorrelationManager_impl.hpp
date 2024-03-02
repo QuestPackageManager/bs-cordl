@@ -63,5 +63,3 @@ inline ::System::Collections::Stack* System::Diagnostics::CorrelationManager::Ge
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::CorrelationManager::CorrelationManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

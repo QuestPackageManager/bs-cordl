@@ -470,5 +470,3 @@ inline void Org::BouncyCastle::Asn1::DerExternal::WriteEncodable(::System::IO::M
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerExternal::DerExternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

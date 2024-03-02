@@ -66,5 +66,3 @@ inline void System::Xml::Schema::StarNode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::StarNode::StarNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

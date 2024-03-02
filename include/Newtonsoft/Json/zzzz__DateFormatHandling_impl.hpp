@@ -8,5 +8,3 @@ constexpr ::Newtonsoft::Json::DateFormatHandling::DateFormatHandling(int32_t val
 constexpr ::Newtonsoft::Json::DateFormatHandling::DateFormatHandling() {}
 constexpr ::Newtonsoft::Json::DateFormatHandling Newtonsoft::Json::DateFormatHandling::IsoDateFormat{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::DateFormatHandling Newtonsoft::Json::DateFormatHandling::MicrosoftDateFormat{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

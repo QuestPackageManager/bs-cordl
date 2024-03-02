@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::ReportRequestResponse Oculus::Platform::ReportRequ
 constexpr ::Oculus::Platform::ReportRequestResponse Oculus::Platform::ReportRequestResponse::Handled{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::ReportRequestResponse Oculus::Platform::ReportRequestResponse::Unhandled{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::ReportRequestResponse Oculus::Platform::ReportRequestResponse::Unavailable{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

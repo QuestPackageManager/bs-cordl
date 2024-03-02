@@ -213,5 +213,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters::Leg
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters::DHPublicKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -38,5 +38,3 @@ inline void Org::BouncyCastle::Crypto::Parameters::CcmParameters::_ctor(::Org::B
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::CcmParameters::CcmParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

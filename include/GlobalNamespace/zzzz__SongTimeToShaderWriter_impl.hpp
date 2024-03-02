@@ -62,5 +62,3 @@ inline void GlobalNamespace::SongTimeToShaderWriter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongTimeToShaderWriter::SongTimeToShaderWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

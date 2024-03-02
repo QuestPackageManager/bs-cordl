@@ -9,5 +9,3 @@ constexpr ::HoudiniEngineUnity::HAPI_SessionEnvIntType::HAPI_SessionEnvIntType()
 constexpr ::HoudiniEngineUnity::HAPI_SessionEnvIntType HoudiniEngineUnity::HAPI_SessionEnvIntType::HAPI_SESSIONENVINT_INVALID{ static_cast<int32_t>(0xffffffff) };
 constexpr ::HoudiniEngineUnity::HAPI_SessionEnvIntType HoudiniEngineUnity::HAPI_SessionEnvIntType::HAPI_SESSIONENVINT_LICENSE{ static_cast<int32_t>(0x64) };
 constexpr ::HoudiniEngineUnity::HAPI_SessionEnvIntType HoudiniEngineUnity::HAPI_SessionEnvIntType::HAPI_SESSIONENVINT_MAX{ static_cast<int32_t>(0x65) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

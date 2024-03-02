@@ -67,5 +67,3 @@ inline bool GlobalNamespace::OperationResultExtensions::IsWarning(::GlobalNamesp
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OperationResultExtensions::OperationResultExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

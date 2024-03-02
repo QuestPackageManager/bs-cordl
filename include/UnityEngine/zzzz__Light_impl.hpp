@@ -358,5 +358,3 @@ inline void UnityEngine::Light::get_bakingOutput_Injected(ByRef<::UnityEngine::L
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Light::Light() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

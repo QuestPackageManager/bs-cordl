@@ -252,5 +252,3 @@ inline void BGLib::Polyglot::LocalizationAsyncInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LocalizationAsyncInstaller::LocalizationAsyncInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -243,5 +243,3 @@ inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::Networking::DownloadHandl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::DownloadHandlerTexture::DownloadHandlerTexture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

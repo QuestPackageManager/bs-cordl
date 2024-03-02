@@ -16,5 +16,3 @@ constexpr ::Internal::Cryptography::Pal::GeneralNameType Internal::Cryptography:
 constexpr ::Internal::Cryptography::Pal::GeneralNameType Internal::Cryptography::Pal::GeneralNameType::UniformResourceIdentifier{ static_cast<int32_t>(0x6) };
 constexpr ::Internal::Cryptography::Pal::GeneralNameType Internal::Cryptography::Pal::GeneralNameType::IPAddress{ static_cast<int32_t>(0x7) };
 constexpr ::Internal::Cryptography::Pal::GeneralNameType Internal::Cryptography::Pal::GeneralNameType::RegisteredId{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

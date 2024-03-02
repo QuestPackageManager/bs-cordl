@@ -22,5 +22,3 @@ inline ::BGNet::Core::ITimeProvider* BGNet::Core::DefaultTimeProvider::get_insta
 }
 // Ctor Parameters []
 constexpr ::BGNet::Core::DefaultTimeProvider::DefaultTimeProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

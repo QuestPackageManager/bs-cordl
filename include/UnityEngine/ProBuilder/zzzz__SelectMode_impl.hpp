@@ -16,5 +16,3 @@ constexpr ::UnityEngine::ProBuilder::SelectMode UnityEngine::ProBuilder::SelectM
 constexpr ::UnityEngine::ProBuilder::SelectMode UnityEngine::ProBuilder::SelectMode::TextureVertex{ static_cast<int32_t>(0x40) };
 constexpr ::UnityEngine::ProBuilder::SelectMode UnityEngine::ProBuilder::SelectMode::InputTool{ static_cast<int32_t>(0x80) };
 constexpr ::UnityEngine::ProBuilder::SelectMode UnityEngine::ProBuilder::SelectMode::Any{ static_cast<int32_t>(0xffff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

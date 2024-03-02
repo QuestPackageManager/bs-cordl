@@ -117,5 +117,3 @@ inline void BGNet::Logging::ConsoleLogger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGNet::Logging::ConsoleLogger::ConsoleLogger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

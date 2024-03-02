@@ -128,5 +128,3 @@ constexpr ::UnityEngine::UIElements::EventDispatcherGate::EventDispatcherGate(::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventDispatcherGate::EventDispatcherGate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

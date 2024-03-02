@@ -350,5 +350,3 @@ inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Syst
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::HttpClientHandler::HttpClientHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -49,5 +49,3 @@ inline void System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::_ctor
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::UnixNoLibCIPGlobalProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

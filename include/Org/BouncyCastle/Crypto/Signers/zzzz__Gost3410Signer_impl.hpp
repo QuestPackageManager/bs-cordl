@@ -183,5 +183,3 @@ inline void Org::BouncyCastle::Crypto::Signers::Gost3410Signer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::Gost3410Signer::Gost3410Signer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

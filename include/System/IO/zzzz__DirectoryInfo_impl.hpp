@@ -204,5 +204,3 @@ inline void System::IO::DirectoryInfo::_ctor(::System::Runtime::Serialization::S
 }
 // Ctor Parameters []
 constexpr ::System::IO::DirectoryInfo::DirectoryInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

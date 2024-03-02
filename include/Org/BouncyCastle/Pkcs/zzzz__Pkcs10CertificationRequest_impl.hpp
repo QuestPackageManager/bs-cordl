@@ -489,5 +489,3 @@ inline ::StringW Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::GetDigestA
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::Pkcs10CertificationRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

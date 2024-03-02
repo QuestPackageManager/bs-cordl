@@ -101,5 +101,3 @@ inline void UnityEngine::BeforeRenderHelper::Invoke() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::BeforeRenderHelper::BeforeRenderHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -42,5 +42,3 @@ inline void GlobalNamespace::DisableOnNonSteam::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisableOnNonSteam::DisableOnNonSteam() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

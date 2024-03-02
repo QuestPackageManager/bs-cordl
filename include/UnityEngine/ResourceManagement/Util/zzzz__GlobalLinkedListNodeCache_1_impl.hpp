@@ -27,5 +27,3 @@ template <typename T> inline void UnityEngine::ResourceManagement::Util::GlobalL
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1<T>::GlobalLinkedListNodeCache_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

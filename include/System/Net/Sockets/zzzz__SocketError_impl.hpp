@@ -53,5 +53,3 @@ constexpr ::System::Net::Sockets::SocketError System::Net::Sockets::SocketError:
 constexpr ::System::Net::Sockets::SocketError System::Net::Sockets::SocketError::NoData{ static_cast<int32_t>(0x2afc) };
 constexpr ::System::Net::Sockets::SocketError System::Net::Sockets::SocketError::IOPending{ static_cast<int32_t>(0x3e5) };
 constexpr ::System::Net::Sockets::SocketError System::Net::Sockets::SocketError::OperationAborted{ static_cast<int32_t>(0x3e3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

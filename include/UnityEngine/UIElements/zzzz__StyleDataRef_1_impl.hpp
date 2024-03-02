@@ -146,5 +146,3 @@ template <typename T> constexpr ::UnityEngine::UIElements::StyleDataRef_1<T>::St
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::StyleDataRef_1<T>::StyleDataRef_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

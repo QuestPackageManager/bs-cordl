@@ -84,5 +84,3 @@ inline ::ArrayW<char16_t, ::Array<char16_t>*> System::Globalization::TextInfoToL
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::TextInfoToLowerData::TextInfoToLowerData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

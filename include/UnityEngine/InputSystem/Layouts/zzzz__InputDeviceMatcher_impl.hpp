@@ -945,5 +945,3 @@ inline bool UnityEngine::InputSystem::Layouts::__InputDeviceMatcher____c::_With_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Layouts::__InputDeviceMatcher____c::__InputDeviceMatcher____c() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

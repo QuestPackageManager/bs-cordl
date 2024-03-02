@@ -582,5 +582,3 @@ inline void System::IO::__Stream__NullStream::SetLength(int64_t length) {
 }
 // Ctor Parameters []
 constexpr ::System::IO::__Stream__NullStream::__Stream__NullStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

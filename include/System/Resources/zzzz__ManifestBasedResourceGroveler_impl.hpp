@@ -106,5 +106,3 @@ inline bool System::Resources::ManifestBasedResourceGroveler::GetNeutralResource
 }
 // Ctor Parameters []
 constexpr ::System::Resources::ManifestBasedResourceGroveler::ManifestBasedResourceGroveler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

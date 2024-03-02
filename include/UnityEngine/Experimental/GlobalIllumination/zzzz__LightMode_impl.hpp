@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::LightMode UnityEngine
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LightMode UnityEngine::Experimental::GlobalIllumination::LightMode::Mixed{ static_cast<uint8_t>(0x1u) };
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LightMode UnityEngine::Experimental::GlobalIllumination::LightMode::Baked{ static_cast<uint8_t>(0x2u) };
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LightMode UnityEngine::Experimental::GlobalIllumination::LightMode::Unknown{ static_cast<uint8_t>(0x3u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

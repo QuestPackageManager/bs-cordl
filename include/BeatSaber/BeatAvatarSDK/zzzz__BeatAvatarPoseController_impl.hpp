@@ -157,5 +157,3 @@ inline void BeatSaber::BeatAvatarSDK::BeatAvatarPoseController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController::BeatAvatarPoseController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -24,5 +24,3 @@ constexpr ::System::Xml::XmlNodeType System::Xml::XmlNodeType::SignificantWhites
 constexpr ::System::Xml::XmlNodeType System::Xml::XmlNodeType::EndElement{ static_cast<int32_t>(0xf) };
 constexpr ::System::Xml::XmlNodeType System::Xml::XmlNodeType::EndEntity{ static_cast<int32_t>(0x10) };
 constexpr ::System::Xml::XmlNodeType System::Xml::XmlNodeType::XmlDeclaration{ static_cast<int32_t>(0x11) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

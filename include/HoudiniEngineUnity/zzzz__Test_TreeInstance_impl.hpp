@@ -72,5 +72,3 @@ inline bool HoudiniEngineUnity::Test_TreeInstance::IsEquivalentTo(::HoudiniEngin
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::Test_TreeInstance::Test_TreeInstance() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

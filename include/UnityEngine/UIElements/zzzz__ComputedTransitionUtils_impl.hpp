@@ -1017,5 +1017,3 @@ inline ::System::Func_2<float_t, float_t>* UnityEngine::UIElements::ComputedTran
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ComputedTransitionUtils::ComputedTransitionUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

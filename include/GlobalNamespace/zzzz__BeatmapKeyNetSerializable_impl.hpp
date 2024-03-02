@@ -357,5 +357,3 @@ inline ::StringW GlobalNamespace::BeatmapKeyNetSerializable::ToString() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapKeyNetSerializable::BeatmapKeyNetSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

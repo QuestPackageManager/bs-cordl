@@ -619,5 +619,3 @@ inline int32_t TMPro::TMP_TextUtilities::StringHexToInt(::StringW s) {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_TextUtilities::TMP_TextUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

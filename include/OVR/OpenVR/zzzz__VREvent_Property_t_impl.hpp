@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::VREvent_Property_t::VREvent_Property_t(uint64_t contain
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_Property_t::VREvent_Property_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

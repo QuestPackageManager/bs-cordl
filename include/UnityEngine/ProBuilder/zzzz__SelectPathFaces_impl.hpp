@@ -149,5 +149,3 @@ inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::ProBuilder:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::SelectPathFaces::SelectPathFaces() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

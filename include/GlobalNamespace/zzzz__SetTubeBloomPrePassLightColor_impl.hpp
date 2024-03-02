@@ -73,5 +73,3 @@ inline void GlobalNamespace::SetTubeBloomPrePassLightColor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SetTubeBloomPrePassLightColor::SetTubeBloomPrePassLightColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

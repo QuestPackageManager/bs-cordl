@@ -214,5 +214,3 @@ inline void GlobalNamespace::OVRTracker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTracker::OVRTracker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

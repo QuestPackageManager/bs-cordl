@@ -465,5 +465,3 @@ inline ::StringW Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::get_Reg
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProfessionInfo::ProfessionInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

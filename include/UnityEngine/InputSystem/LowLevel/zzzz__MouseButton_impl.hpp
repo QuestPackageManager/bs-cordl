@@ -11,5 +11,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::MouseButton UnityEngine::InputSy
 constexpr ::UnityEngine::InputSystem::LowLevel::MouseButton UnityEngine::InputSystem::LowLevel::MouseButton::Middle{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::InputSystem::LowLevel::MouseButton UnityEngine::InputSystem::LowLevel::MouseButton::Forward{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::InputSystem::LowLevel::MouseButton UnityEngine::InputSystem::LowLevel::MouseButton::Back{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -12,5 +12,3 @@ constexpr ::Oculus::Platform::PartyMicState Oculus::Platform::PartyMicState::App
 constexpr ::Oculus::Platform::PartyMicState Oculus::Platform::PartyMicState::Mute{ static_cast<int32_t>(0x3) };
 constexpr ::Oculus::Platform::PartyMicState Oculus::Platform::PartyMicState::Inactive{ static_cast<int32_t>(0x4) };
 constexpr ::Oculus::Platform::PartyMicState Oculus::Platform::PartyMicState::InputShared{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

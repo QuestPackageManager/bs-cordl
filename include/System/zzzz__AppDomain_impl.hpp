@@ -994,5 +994,3 @@ inline void System::AppDomain::remove_UnhandledException(::System::UnhandledExce
 }
 // Ctor Parameters []
 constexpr ::System::AppDomain::AppDomain() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

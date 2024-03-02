@@ -44,5 +44,3 @@ inline void UnityEngine::UI::Misc::DestroyImmediate(::UnityEngine::Object* obj) 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::Misc::Misc() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

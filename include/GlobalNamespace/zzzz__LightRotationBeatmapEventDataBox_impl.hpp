@@ -194,5 +194,3 @@ inline void GlobalNamespace::LightRotationBeatmapEventDataBox::Unpack(float_t gr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightRotationBeatmapEventDataBox::LightRotationBeatmapEventDataBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

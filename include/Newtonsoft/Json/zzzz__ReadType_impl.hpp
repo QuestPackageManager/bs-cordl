@@ -15,5 +15,3 @@ constexpr ::Newtonsoft::Json::ReadType Newtonsoft::Json::ReadType::ReadAsDateTim
 constexpr ::Newtonsoft::Json::ReadType Newtonsoft::Json::ReadType::ReadAsDateTimeOffset{ static_cast<int32_t>(0x6) };
 constexpr ::Newtonsoft::Json::ReadType Newtonsoft::Json::ReadType::ReadAsDouble{ static_cast<int32_t>(0x7) };
 constexpr ::Newtonsoft::Json::ReadType Newtonsoft::Json::ReadType::ReadAsBoolean{ static_cast<int32_t>(0x8) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

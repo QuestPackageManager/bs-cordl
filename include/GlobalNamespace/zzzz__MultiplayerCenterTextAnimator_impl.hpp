@@ -403,5 +403,3 @@ inline void GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_4(::Unit
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerCenterTextAnimator::MultiplayerCenterTextAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

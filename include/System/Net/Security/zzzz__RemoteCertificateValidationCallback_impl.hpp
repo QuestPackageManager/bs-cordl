@@ -56,5 +56,3 @@ inline bool System::Net::Security::RemoteCertificateValidationCallback::Invoke(:
 }
 // Ctor Parameters []
 constexpr ::System::Net::Security::RemoteCertificateValidationCallback::RemoteCertificateValidationCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

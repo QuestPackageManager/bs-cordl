@@ -12,5 +12,3 @@ constexpr ::Mono::Math::Prime::ConfidenceFactor Mono::Math::Prime::ConfidenceFac
 constexpr ::Mono::Math::Prime::ConfidenceFactor Mono::Math::Prime::ConfidenceFactor::High{ static_cast<int32_t>(0x3) };
 constexpr ::Mono::Math::Prime::ConfidenceFactor Mono::Math::Prime::ConfidenceFactor::ExtraHigh{ static_cast<int32_t>(0x4) };
 constexpr ::Mono::Math::Prime::ConfidenceFactor Mono::Math::Prime::ConfidenceFactor::Provable{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

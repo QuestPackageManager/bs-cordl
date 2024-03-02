@@ -221,5 +221,3 @@ inline void UnityEngine::UIElements::MouseEventDispatchingStrategy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseEventDispatchingStrategy::MouseEventDispatchingStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

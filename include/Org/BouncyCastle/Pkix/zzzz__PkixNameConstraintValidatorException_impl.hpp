@@ -27,5 +27,3 @@ inline void Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException::_ctor
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException::PkixNameConstraintValidatorException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

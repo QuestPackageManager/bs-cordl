@@ -166,5 +166,3 @@ inline ::System::Collections::IList* Org::BouncyCastle::Crypto::Parameters::Nacc
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::NaccacheSternPrivateKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -198,5 +198,3 @@ inline void BeatSaber::AvatarCore::OptionalAvatarDataPacket::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataPacket::OptionalAvatarDataPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

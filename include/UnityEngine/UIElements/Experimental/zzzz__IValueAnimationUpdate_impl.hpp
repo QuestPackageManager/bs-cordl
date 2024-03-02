@@ -22,5 +22,3 @@ inline void UnityEngine::UIElements::Experimental::IValueAnimationUpdate::Tick(i
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentTimeMs);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -12,5 +12,3 @@ constexpr ::System::Globalization::GregorianCalendarTypes System::Globalization:
 constexpr ::System::Globalization::GregorianCalendarTypes System::Globalization::GregorianCalendarTypes::Arabic{ static_cast<int32_t>(0xa) };
 constexpr ::System::Globalization::GregorianCalendarTypes System::Globalization::GregorianCalendarTypes::TransliteratedEnglish{ static_cast<int32_t>(0xb) };
 constexpr ::System::Globalization::GregorianCalendarTypes System::Globalization::GregorianCalendarTypes::TransliteratedFrench{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

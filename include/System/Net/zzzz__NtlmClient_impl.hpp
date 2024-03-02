@@ -114,5 +114,3 @@ inline ::StringW System::Net::NtlmClient::get_AuthenticationType() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NtlmClient::NtlmClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

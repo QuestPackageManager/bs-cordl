@@ -307,5 +307,3 @@ inline int32_t Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_Bit
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::ScalarSplitParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -41,5 +41,3 @@ inline ::UnityEngine::UIElements::IDragAndDrop* UnityEngine::UIElements::DragAnd
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DragAndDropUtility::DragAndDropUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

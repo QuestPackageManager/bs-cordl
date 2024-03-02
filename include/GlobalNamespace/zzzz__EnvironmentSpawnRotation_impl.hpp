@@ -276,5 +276,3 @@ inline void GlobalNamespace::EnvironmentSpawnRotation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentSpawnRotation::EnvironmentSpawnRotation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

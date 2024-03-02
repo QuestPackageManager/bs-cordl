@@ -519,5 +519,3 @@ inline ::StringW UnityEngine::ProBuilder::Bounds2D::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Bounds2D::Bounds2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

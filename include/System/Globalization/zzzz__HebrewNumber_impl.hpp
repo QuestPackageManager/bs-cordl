@@ -169,5 +169,3 @@ inline bool System::Globalization::HebrewNumber::IsDigit(char16_t ch) {
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::HebrewNumber::HebrewNumber() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

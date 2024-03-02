@@ -2456,5 +2456,3 @@ inline void System::Number::DoubleToNumber(double_t value, int32_t precision, By
 }
 // Ctor Parameters []
 constexpr ::System::Number::Number() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

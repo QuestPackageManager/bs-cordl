@@ -9,5 +9,3 @@ constexpr ::BeatmapSaveDataCommon::RotationDirection::RotationDirection() {}
 constexpr ::BeatmapSaveDataCommon::RotationDirection BeatmapSaveDataCommon::RotationDirection::Automatic{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataCommon::RotationDirection BeatmapSaveDataCommon::RotationDirection::Clockwise{ static_cast<int32_t>(0x1) };
 constexpr ::BeatmapSaveDataCommon::RotationDirection BeatmapSaveDataCommon::RotationDirection::Counterclockwise{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

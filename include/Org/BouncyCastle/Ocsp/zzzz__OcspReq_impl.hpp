@@ -388,5 +388,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Ocsp::OcspReq::Ge
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::OcspReq::OcspReq() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

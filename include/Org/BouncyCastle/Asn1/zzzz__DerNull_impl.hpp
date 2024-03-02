@@ -127,5 +127,3 @@ inline int32_t Org::BouncyCastle::Asn1::DerNull::Asn1GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerNull::DerNull() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

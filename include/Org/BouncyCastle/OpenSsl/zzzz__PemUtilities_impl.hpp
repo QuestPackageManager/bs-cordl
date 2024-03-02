@@ -135,5 +135,3 @@ inline void Org::BouncyCastle::OpenSsl::PemUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::OpenSsl::PemUtilities::PemUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

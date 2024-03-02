@@ -448,5 +448,3 @@ inline ::System::Object* System::Xml::Schema::XmlNumeric10Converter::ChangeTypeW
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlNumeric10Converter::XmlNumeric10Converter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

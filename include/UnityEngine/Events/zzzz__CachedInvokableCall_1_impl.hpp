@@ -41,5 +41,3 @@ template <typename T> inline void UnityEngine::Events::CachedInvokableCall_1<T>:
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::Events::CachedInvokableCall_1<T>::CachedInvokableCall_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

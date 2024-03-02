@@ -27,5 +27,3 @@ inline void GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController::_c
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController::SafeAreaFocusedSimpleDialogPromptViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

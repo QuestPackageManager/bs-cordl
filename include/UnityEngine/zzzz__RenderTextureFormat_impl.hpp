@@ -34,5 +34,3 @@ constexpr ::UnityEngine::RenderTextureFormat UnityEngine::RenderTextureFormat::R
 constexpr ::UnityEngine::RenderTextureFormat UnityEngine::RenderTextureFormat::BGRA10101010_XR{ static_cast<int32_t>(0x1a) };
 constexpr ::UnityEngine::RenderTextureFormat UnityEngine::RenderTextureFormat::BGR101010_XR{ static_cast<int32_t>(0x1b) };
 constexpr ::UnityEngine::RenderTextureFormat UnityEngine::RenderTextureFormat::R16{ static_cast<int32_t>(0x1c) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

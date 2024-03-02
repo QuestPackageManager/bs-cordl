@@ -137,5 +137,3 @@ inline void GlobalNamespace::MissionObjectiveTypeSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionObjectiveTypeSO::MissionObjectiveTypeSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

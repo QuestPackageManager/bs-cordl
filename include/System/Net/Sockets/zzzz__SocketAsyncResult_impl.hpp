@@ -595,5 +595,3 @@ inline void System::Net::Sockets::SocketAsyncResult::Complete(::System::Net::Soc
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::SocketAsyncResult::SocketAsyncResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

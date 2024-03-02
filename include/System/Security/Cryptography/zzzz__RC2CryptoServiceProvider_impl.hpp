@@ -165,5 +165,3 @@ inline void System::Security::Cryptography::RC2CryptoServiceProvider::GenerateIV
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RC2CryptoServiceProvider::RC2CryptoServiceProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

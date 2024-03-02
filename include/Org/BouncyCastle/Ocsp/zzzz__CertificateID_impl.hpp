@@ -281,5 +281,3 @@ inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* Org::BouncyCastle::Ocsp::Certifi
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::CertificateID::CertificateID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -23,5 +23,3 @@ constexpr ::OVR::OpenVR::EVRApplicationProperty OVR::OpenVR::EVRApplicationPrope
 constexpr ::OVR::OpenVR::EVRApplicationProperty OVR::OpenVR::EVRApplicationProperty::IsInternal_Bool{ static_cast<int32_t>(0x3f) };
 constexpr ::OVR::OpenVR::EVRApplicationProperty OVR::OpenVR::EVRApplicationProperty::WantsCompositorPauseInStandby_Bool{ static_cast<int32_t>(0x40) };
 constexpr ::OVR::OpenVR::EVRApplicationProperty OVR::OpenVR::EVRApplicationProperty::LastLaunchTime_Uint64{ static_cast<int32_t>(0x46) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

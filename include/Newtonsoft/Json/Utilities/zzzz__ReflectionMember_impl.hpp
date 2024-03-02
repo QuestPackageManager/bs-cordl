@@ -187,5 +187,3 @@ inline void Newtonsoft::Json::Utilities::ReflectionMember::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::ReflectionMember::ReflectionMember() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

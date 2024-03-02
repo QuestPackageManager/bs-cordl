@@ -660,5 +660,3 @@ inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::__InputBind
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::__InputBindingCompositeContext___get_controls_d__2::__InputBindingCompositeContext___get_controls_d__2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

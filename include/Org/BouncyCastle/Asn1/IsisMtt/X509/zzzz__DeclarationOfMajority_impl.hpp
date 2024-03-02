@@ -269,5 +269,3 @@ inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* Org::BouncyCastle::Asn1::I
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::DeclarationOfMajority() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

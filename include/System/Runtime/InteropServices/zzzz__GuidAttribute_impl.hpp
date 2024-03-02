@@ -39,5 +39,3 @@ inline void System::Runtime::InteropServices::GuidAttribute::_ctor(::StringW gui
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::GuidAttribute::GuidAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

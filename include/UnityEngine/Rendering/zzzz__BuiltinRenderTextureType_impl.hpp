@@ -29,5 +29,3 @@ constexpr ::UnityEngine::Rendering::BuiltinRenderTextureType UnityEngine::Render
 constexpr ::UnityEngine::Rendering::BuiltinRenderTextureType UnityEngine::Rendering::BuiltinRenderTextureType::GBuffer5{ static_cast<int32_t>(0x11) };
 constexpr ::UnityEngine::Rendering::BuiltinRenderTextureType UnityEngine::Rendering::BuiltinRenderTextureType::GBuffer6{ static_cast<int32_t>(0x12) };
 constexpr ::UnityEngine::Rendering::BuiltinRenderTextureType UnityEngine::Rendering::BuiltinRenderTextureType::GBuffer7{ static_cast<int32_t>(0x13) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

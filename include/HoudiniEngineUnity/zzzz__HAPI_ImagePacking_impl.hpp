@@ -16,5 +16,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ImagePacking HoudiniEngineUnity::HAPI_Image
 constexpr ::HoudiniEngineUnity::HAPI_ImagePacking HoudiniEngineUnity::HAPI_ImagePacking::HAPI_IMAGE_PACKING_MAX{ static_cast<int32_t>(0x6) };
 constexpr ::HoudiniEngineUnity::HAPI_ImagePacking HoudiniEngineUnity::HAPI_ImagePacking::HAPI_IMAGE_PACKING_DEFAULT3{ static_cast<int32_t>(0x2) };
 constexpr ::HoudiniEngineUnity::HAPI_ImagePacking HoudiniEngineUnity::HAPI_ImagePacking::HAPI_IMAGE_PACKING_DEFAULT4{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

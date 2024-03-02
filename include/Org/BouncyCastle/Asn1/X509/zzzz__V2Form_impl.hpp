@@ -301,5 +301,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::V2F
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::V2Form::V2Form() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

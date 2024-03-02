@@ -85,5 +85,3 @@ inline int32_t GlobalNamespace::BTSCharacterSpawnEventValueParser::MergeValuesIn
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BTSCharacterSpawnEventValueParser::BTSCharacterSpawnEventValueParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

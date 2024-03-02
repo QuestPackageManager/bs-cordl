@@ -191,5 +191,3 @@ inline void System::ComponentModel::ReflectEventDescriptor::FillSingleMethodAttr
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ReflectEventDescriptor::ReflectEventDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

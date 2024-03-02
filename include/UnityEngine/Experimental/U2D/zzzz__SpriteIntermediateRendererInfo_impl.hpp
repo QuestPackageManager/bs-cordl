@@ -37,5 +37,3 @@ constexpr ::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo::Spri
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo::SpriteIntermediateRendererInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

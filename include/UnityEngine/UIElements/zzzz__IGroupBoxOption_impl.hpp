@@ -20,5 +20,3 @@ inline void UnityEngine::UIElements::IGroupBoxOption::SetSelected(bool selected)
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IGroupBoxOption*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, selected);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

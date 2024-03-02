@@ -68,5 +68,3 @@ inline void GlobalNamespace::CrashInfoViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CrashInfoViewController::CrashInfoViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

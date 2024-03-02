@@ -60,5 +60,3 @@ inline ::System::Type* System::Runtime::CompilerServices::StateMachineAttribute:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::StateMachineAttribute::StateMachineAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

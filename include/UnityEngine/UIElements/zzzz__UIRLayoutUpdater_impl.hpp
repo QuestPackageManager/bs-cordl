@@ -126,5 +126,3 @@ inline void UnityEngine::UIElements::UIRLayoutUpdater::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIRLayoutUpdater::UIRLayoutUpdater() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -426,5 +426,3 @@ inline void RootMotion::Demos::Navigator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::Demos::Navigator::Navigator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

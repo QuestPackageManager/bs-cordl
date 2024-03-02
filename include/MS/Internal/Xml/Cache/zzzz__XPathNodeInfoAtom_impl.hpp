@@ -225,5 +225,3 @@ inline ::System::Xml::XPath::XPathDocument* MS::Internal::Xml::Cache::XPathNodeI
 }
 // Ctor Parameters []
 constexpr ::MS::Internal::Xml::Cache::XPathNodeInfoAtom::XPathNodeInfoAtom() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

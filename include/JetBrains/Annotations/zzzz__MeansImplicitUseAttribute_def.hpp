@@ -26,10 +26,6 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE MeansImplicitUseAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_TargetFlags, put = set_TargetFlags))::JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
-
-  __declspec(property(get = get_UseKindFlags, put = set_UseKindFlags))::JetBrains::Annotations::ImplicitUseKindFlags UseKindFlags;
-
   /// @brief Field <TargetFlags>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__TargetFlags_k__BackingField,
                       put = __cordl_internal_set__TargetFlags_k__BackingField))::JetBrains::Annotations::ImplicitUseTargetFlags _TargetFlags_k__BackingField;
@@ -39,10 +35,6 @@ public:
                       put = __cordl_internal_set__UseKindFlags_k__BackingField))::JetBrains::Annotations::ImplicitUseKindFlags _UseKindFlags_k__BackingField;
 
   static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor();
-
-  static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
-
-  static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
 
   static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags,
                                                                               ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
@@ -59,29 +51,11 @@ public:
 
   constexpr void __cordl_internal_set__UseKindFlags_k__BackingField(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
-  /// @brief Method .ctor, addr 0x2fc9a84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d89200, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2fc9b00, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
-
-  /// @brief Method .ctor, addr 0x2fc9ad4, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
-
-  /// @brief Method .ctor, addr 0x2fc9aa8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d89224, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
-
-  /// @brief Method get_TargetFlags, addr 0x2fc9b3c, size 0x8, virtual false, abstract: false, final false
-  inline ::JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
-
-  /// @brief Method get_UseKindFlags, addr 0x2fc9b2c, size 0x8, virtual false, abstract: false, final false
-  inline ::JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
-
-  /// @brief Method set_TargetFlags, addr 0x2fc9b44, size 0x8, virtual false, abstract: false, final false
-  inline void set_TargetFlags(::JetBrains::Annotations::ImplicitUseTargetFlags value);
-
-  /// @brief Method set_UseKindFlags, addr 0x2fc9b34, size 0x8, virtual false, abstract: false, final false
-  inline void set_UseKindFlags(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
 protected:
   // Ctor Parameters []

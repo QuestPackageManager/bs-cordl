@@ -54,5 +54,3 @@ inline void System::Resources::MissingManifestResourceException::_ctor(::System:
 }
 // Ctor Parameters []
 constexpr ::System::Resources::MissingManifestResourceException::MissingManifestResourceException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

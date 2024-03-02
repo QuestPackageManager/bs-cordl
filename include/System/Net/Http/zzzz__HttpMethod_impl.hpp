@@ -252,5 +252,3 @@ inline ::StringW System::Net::Http::HttpMethod::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::HttpMethod::HttpMethod() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

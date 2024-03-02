@@ -221,5 +221,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesP
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::LegacyResourcesProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

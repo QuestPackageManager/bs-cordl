@@ -221,5 +221,3 @@ inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCas
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload::JPakeRound1Payload() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

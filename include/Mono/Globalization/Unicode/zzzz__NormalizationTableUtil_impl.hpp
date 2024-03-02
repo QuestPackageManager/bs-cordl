@@ -89,5 +89,3 @@ inline int32_t Mono::Globalization::Unicode::NormalizationTableUtil::MapIdx(int3
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::NormalizationTableUtil::NormalizationTableUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -81,5 +81,3 @@ inline ::System::InvalidOperationException* System::Runtime::InteropServices::Sa
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::SafeBuffer::SafeBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

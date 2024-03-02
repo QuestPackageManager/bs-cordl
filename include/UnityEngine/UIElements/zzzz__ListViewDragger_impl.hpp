@@ -535,5 +535,3 @@ inline void UnityEngine::UIElements::ListViewDragger::_ApplyDragAndDropUI_b__22_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ListViewDragger::ListViewDragger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

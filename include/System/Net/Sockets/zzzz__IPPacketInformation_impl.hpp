@@ -50,5 +50,3 @@ constexpr ::System::Net::Sockets::IPPacketInformation::IPPacketInformation(::Sys
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::IPPacketInformation::IPPacketInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

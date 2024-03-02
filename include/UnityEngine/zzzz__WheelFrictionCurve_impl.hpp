@@ -202,5 +202,3 @@ constexpr ::UnityEngine::WheelFrictionCurve::WheelFrictionCurve(float_t m_Extrem
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::WheelFrictionCurve::WheelFrictionCurve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

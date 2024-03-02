@@ -111,5 +111,3 @@ inline void GlobalNamespace::ConnectionErrorDialogViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConnectionErrorDialogViewController::ConnectionErrorDialogViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

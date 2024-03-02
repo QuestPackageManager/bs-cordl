@@ -658,5 +658,3 @@ inline void Org::BouncyCastle::Crypto::Tls::AbstractTlsClient::NotifyNewSessionT
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient::AbstractTlsClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

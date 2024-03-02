@@ -296,5 +296,3 @@ inline void GlobalNamespace::QuickPlaySetupData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::QuickPlaySetupData::QuickPlaySetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

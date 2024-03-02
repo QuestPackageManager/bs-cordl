@@ -334,5 +334,3 @@ constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::Joystick8Button16{ static
 constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::Joystick8Button17{ static_cast<int32_t>(0x1fb) };
 constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::Joystick8Button18{ static_cast<int32_t>(0x1fc) };
 constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::Joystick8Button19{ static_cast<int32_t>(0x1fd) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::System::Diagnostics::ProcessWindowStyle System::Diagnostics::Process
 constexpr ::System::Diagnostics::ProcessWindowStyle System::Diagnostics::ProcessWindowStyle::Maximized{ static_cast<int32_t>(0x3) };
 constexpr ::System::Diagnostics::ProcessWindowStyle System::Diagnostics::ProcessWindowStyle::Minimized{ static_cast<int32_t>(0x2) };
 constexpr ::System::Diagnostics::ProcessWindowStyle System::Diagnostics::ProcessWindowStyle::Normal{ static_cast<int32_t>(0x0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

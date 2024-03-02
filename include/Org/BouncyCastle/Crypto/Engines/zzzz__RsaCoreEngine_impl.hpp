@@ -218,5 +218,3 @@ inline void Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::RsaCoreEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -406,5 +406,3 @@ constexpr ::UnityEngine::UI::ColorBlock::ColorBlock(::UnityEngine::Color m_Norma
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::ColorBlock::ColorBlock() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -441,5 +441,3 @@ inline void UnityEngine::UIElements::UIR::BestFitAllocator::SplitBlock(::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator::BestFitAllocator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

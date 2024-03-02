@@ -58,5 +58,3 @@ constexpr ::LIV::SDK::Unity::SDKApplicationOutput::SDKApplicationOutput(::LIV::S
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKApplicationOutput::SDKApplicationOutput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

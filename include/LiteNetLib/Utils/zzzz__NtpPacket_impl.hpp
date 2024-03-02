@@ -762,5 +762,3 @@ inline uint64_t LiteNetLib::Utils::NtpPacket::SwapEndianness(uint64_t x) {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::Utils::NtpPacket::NtpPacket() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

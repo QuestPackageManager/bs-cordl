@@ -73,5 +73,3 @@ inline bool UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::Validat
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::AssetReferenceAtlasedSprite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -2497,5 +2497,3 @@ inline void UnityEngine::Video::VideoPlayer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Video::VideoPlayer::VideoPlayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -258,5 +258,3 @@ inline void GlobalNamespace::LightGroup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroup::LightGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

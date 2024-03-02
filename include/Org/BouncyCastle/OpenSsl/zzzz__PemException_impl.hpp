@@ -54,5 +54,3 @@ inline void Org::BouncyCastle::OpenSsl::PemException::_ctor(::StringW message, :
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::OpenSsl::PemException::PemException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

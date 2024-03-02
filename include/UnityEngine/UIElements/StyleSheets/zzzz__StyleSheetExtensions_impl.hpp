@@ -49,5 +49,3 @@ inline bool UnityEngine::UIElements::StyleSheets::StyleSheetExtensions::IsVarFun
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions::StyleSheetExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

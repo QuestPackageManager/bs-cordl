@@ -27,5 +27,3 @@ inline void UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor::_ctor
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor::AndroidMagneticFieldSensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

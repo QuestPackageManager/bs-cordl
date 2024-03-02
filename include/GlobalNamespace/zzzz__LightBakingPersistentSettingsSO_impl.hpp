@@ -597,5 +597,3 @@ inline void GlobalNamespace::LightBakingPersistentSettingsSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightBakingPersistentSettingsSO::LightBakingPersistentSettingsSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

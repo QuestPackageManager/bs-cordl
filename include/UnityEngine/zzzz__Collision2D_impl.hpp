@@ -113,5 +113,3 @@ constexpr void UnityEngine::Collision2D::__cordl_internal_set_m_LegacyContacts(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Collision2D::Collision2D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

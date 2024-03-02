@@ -10,5 +10,3 @@ constexpr ::HoudiniEngineUnity::HAPI_InputType HoudiniEngineUnity::HAPI_InputTyp
 constexpr ::HoudiniEngineUnity::HAPI_InputType HoudiniEngineUnity::HAPI_InputType::HAPI_INPUT_TRANSFORM{ static_cast<int32_t>(0x0) };
 constexpr ::HoudiniEngineUnity::HAPI_InputType HoudiniEngineUnity::HAPI_InputType::HAPI_INPUT_GEOMETRY{ static_cast<int32_t>(0x1) };
 constexpr ::HoudiniEngineUnity::HAPI_InputType HoudiniEngineUnity::HAPI_InputType::HAPI_INPUT_MAX{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -71,5 +71,3 @@ constexpr ::System::Text::ValueUtf8Converter::ValueUtf8Converter(::ArrayW<uint8_
 }
 // Ctor Parameters []
 constexpr ::System::Text::ValueUtf8Converter::ValueUtf8Converter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

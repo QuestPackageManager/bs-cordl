@@ -48,5 +48,3 @@ inline void UnityEngine::ResourceManagement::Util::PlatformUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::PlatformUtilities::PlatformUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

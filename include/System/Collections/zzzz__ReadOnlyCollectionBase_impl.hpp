@@ -182,5 +182,3 @@ inline void System::Collections::ReadOnlyCollectionBase::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Collections::ReadOnlyCollectionBase::ReadOnlyCollectionBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

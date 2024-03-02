@@ -314,5 +314,3 @@ inline void GlobalNamespace::NetworkPlayerEntitlementChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NetworkPlayerEntitlementChecker::NetworkPlayerEntitlementChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

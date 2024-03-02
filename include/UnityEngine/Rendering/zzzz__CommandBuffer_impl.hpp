@@ -1152,5 +1152,3 @@ inline void UnityEngine::Rendering::CommandBuffer::SetRenderTargetSingle_Interna
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::CommandBuffer::CommandBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

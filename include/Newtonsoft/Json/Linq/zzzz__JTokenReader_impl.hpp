@@ -379,5 +379,3 @@ inline ::StringW Newtonsoft::Json::Linq::JTokenReader::get_Path() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JTokenReader::JTokenReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

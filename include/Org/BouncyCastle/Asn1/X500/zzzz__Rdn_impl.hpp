@@ -242,5 +242,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X500::Rdn
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X500::Rdn::Rdn() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

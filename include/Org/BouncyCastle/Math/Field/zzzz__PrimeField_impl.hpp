@@ -130,5 +130,3 @@ inline int32_t Org::BouncyCastle::Math::Field::PrimeField::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Field::PrimeField::PrimeField() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

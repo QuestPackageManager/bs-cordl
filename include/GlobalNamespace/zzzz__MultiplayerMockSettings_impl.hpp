@@ -297,5 +297,3 @@ inline void GlobalNamespace::MultiplayerMockSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerMockSettings::MultiplayerMockSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

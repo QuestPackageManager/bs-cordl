@@ -363,5 +363,3 @@ inline void Mono::Net::Security::MonoTlsStream::CloseSslStream() {
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::MonoTlsStream::MonoTlsStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

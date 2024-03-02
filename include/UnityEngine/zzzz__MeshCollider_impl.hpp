@@ -256,5 +256,3 @@ inline void UnityEngine::MeshCollider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::MeshCollider::MeshCollider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

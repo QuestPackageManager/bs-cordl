@@ -619,5 +619,3 @@ inline ::System::Uri* System::Net::WebProxy::ProxyUri(::StringW proxyName) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebProxy::WebProxy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

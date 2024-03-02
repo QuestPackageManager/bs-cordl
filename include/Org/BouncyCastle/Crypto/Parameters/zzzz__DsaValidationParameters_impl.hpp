@@ -226,5 +226,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::G
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters::DsaValidationParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -121,5 +121,3 @@ constexpr ::UnityEngine::ArticulationReducedSpace::ArticulationReducedSpace(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ArticulationReducedSpace::ArticulationReducedSpace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

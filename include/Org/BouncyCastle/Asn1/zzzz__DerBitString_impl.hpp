@@ -357,5 +357,3 @@ inline ::Org::BouncyCastle::Asn1::DerBitString* Org::BouncyCastle::Asn1::DerBitS
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerBitString::DerBitString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

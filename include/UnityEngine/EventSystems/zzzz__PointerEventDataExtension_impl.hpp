@@ -92,5 +92,3 @@ inline void UnityEngine::EventSystems::PointerEventDataExtension::SetSwipeStart(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::PointerEventDataExtension::PointerEventDataExtension() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

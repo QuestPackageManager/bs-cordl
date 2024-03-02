@@ -610,5 +610,3 @@ inline void GlobalNamespace::RandomizedPitch::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RandomizedPitch::RandomizedPitch() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

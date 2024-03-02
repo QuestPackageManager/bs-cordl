@@ -50,5 +50,3 @@ inline void System::Runtime::CompilerServices::CustomConstantAttribute::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::CustomConstantAttribute::CustomConstantAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

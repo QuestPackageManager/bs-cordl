@@ -9,5 +9,3 @@ constexpr ::UnityEngine::XR::ConnectionChangeType::ConnectionChangeType() {}
 constexpr ::UnityEngine::XR::ConnectionChangeType UnityEngine::XR::ConnectionChangeType::Connected{ static_cast<uint32_t>(0x20100u) };
 constexpr ::UnityEngine::XR::ConnectionChangeType UnityEngine::XR::ConnectionChangeType::Disconnected{ static_cast<uint32_t>(0x1000201u) };
 constexpr ::UnityEngine::XR::ConnectionChangeType UnityEngine::XR::ConnectionChangeType::ConfigChange{ static_cast<uint32_t>(0x2010002u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

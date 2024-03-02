@@ -29,5 +29,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::MatchResult::MatchResult(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::MatchResult::MatchResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -77,5 +77,3 @@ inline void GlobalNamespace::CoroutineStarter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CoroutineStarter::CoroutineStarter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

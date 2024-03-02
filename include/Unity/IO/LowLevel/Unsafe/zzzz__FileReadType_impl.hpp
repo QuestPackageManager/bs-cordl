@@ -8,5 +8,3 @@ constexpr ::Unity::IO::LowLevel::Unsafe::FileReadType::FileReadType(int32_t valu
 constexpr ::Unity::IO::LowLevel::Unsafe::FileReadType::FileReadType() {}
 constexpr ::Unity::IO::LowLevel::Unsafe::FileReadType Unity::IO::LowLevel::Unsafe::FileReadType::Sync{ static_cast<int32_t>(0x0) };
 constexpr ::Unity::IO::LowLevel::Unsafe::FileReadType Unity::IO::LowLevel::Unsafe::FileReadType::Async{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

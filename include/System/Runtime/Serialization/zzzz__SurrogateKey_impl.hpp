@@ -77,5 +77,3 @@ inline int32_t System::Runtime::Serialization::SurrogateKey::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SurrogateKey::SurrogateKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

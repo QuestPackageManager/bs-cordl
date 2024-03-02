@@ -55,5 +55,3 @@ inline void UnityEngine::UIElements::PointerEventsHelper::SendOverOut(::UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerEventsHelper::PointerEventsHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

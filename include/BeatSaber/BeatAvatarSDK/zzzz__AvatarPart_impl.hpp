@@ -20,5 +20,3 @@ constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart BeatSaber::BeatAvatarSDK::Avata
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart BeatSaber::BeatAvatarSDK::AvatarPart::ClothesModelPrimaryColor{ static_cast<int32_t>(0xb) };
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart BeatSaber::BeatAvatarSDK::AvatarPart::ClothesModelSecondaryColor{ static_cast<int32_t>(0xc) };
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart BeatSaber::BeatAvatarSDK::AvatarPart::ClothesModelDetailColor{ static_cast<int32_t>(0xd) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

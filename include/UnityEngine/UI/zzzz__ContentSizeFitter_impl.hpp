@@ -337,5 +337,3 @@ inline void UnityEngine::UI::ContentSizeFitter::SetDirty() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::ContentSizeFitter::ContentSizeFitter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

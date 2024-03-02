@@ -376,5 +376,3 @@ inline ::StringW System::AggregateException::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::AggregateException::AggregateException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1146,5 +1146,3 @@ inline void Org::BouncyCastle::Crypto::Utilities::Pack::LE_To_UInt64(::ArrayW<ui
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Utilities::Pack::Pack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

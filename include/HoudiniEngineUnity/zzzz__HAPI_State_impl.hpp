@@ -15,5 +15,3 @@ constexpr ::HoudiniEngineUnity::HAPI_State HoudiniEngineUnity::HAPI_State::HAPI_
 constexpr ::HoudiniEngineUnity::HAPI_State HoudiniEngineUnity::HAPI_State::HAPI_STATE_LOADING{ static_cast<int32_t>(0x6) };
 constexpr ::HoudiniEngineUnity::HAPI_State HoudiniEngineUnity::HAPI_State::HAPI_STATE_MAX{ static_cast<int32_t>(0x7) };
 constexpr ::HoudiniEngineUnity::HAPI_State HoudiniEngineUnity::HAPI_State::HAPI_STATE_MAX_READY_STATE{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -82,5 +82,3 @@ inline void RootMotion::FinalIK::ConstraintRotation::_ctor(::UnityEngine::Transf
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::ConstraintRotation::ConstraintRotation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

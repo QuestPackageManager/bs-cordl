@@ -193,5 +193,3 @@ inline ::System::Object* System::Xml::Schema::XmlBooleanConverter::ChangeType(::
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlBooleanConverter::XmlBooleanConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

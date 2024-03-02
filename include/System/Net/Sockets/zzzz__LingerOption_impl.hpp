@@ -90,5 +90,3 @@ inline void System::Net::Sockets::LingerOption::set_LingerTime(int32_t value) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::LingerOption::LingerOption() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

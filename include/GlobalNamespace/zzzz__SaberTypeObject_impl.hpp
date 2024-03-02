@@ -57,5 +57,3 @@ inline void GlobalNamespace::SaberTypeObject::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberTypeObject::SaberTypeObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

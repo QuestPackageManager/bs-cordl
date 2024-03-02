@@ -107,5 +107,3 @@ inline void System::ComponentModel::UInt16Converter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::UInt16Converter::UInt16Converter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

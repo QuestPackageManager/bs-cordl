@@ -497,5 +497,3 @@ inline void GlobalNamespace::ColorSchemeColorsToggleGroup::_Awake_b__17_6(bool i
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSchemeColorsToggleGroup::ColorSchemeColorsToggleGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

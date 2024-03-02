@@ -61,5 +61,3 @@ inline void UnityEngine::Bindings::NotNullAttribute::_ctor(::StringW exception) 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::NotNullAttribute::NotNullAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

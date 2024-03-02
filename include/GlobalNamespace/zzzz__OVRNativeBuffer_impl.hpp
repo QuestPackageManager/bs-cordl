@@ -226,5 +226,3 @@ inline void GlobalNamespace::OVRNativeBuffer::Release() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRNativeBuffer::OVRNativeBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

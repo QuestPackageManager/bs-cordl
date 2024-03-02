@@ -229,5 +229,3 @@ inline void GlobalNamespace::PerformanceToolLauncher::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceToolLauncher::PerformanceToolLauncher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

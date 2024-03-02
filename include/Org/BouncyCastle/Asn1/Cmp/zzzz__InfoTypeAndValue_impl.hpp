@@ -191,5 +191,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::Info
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue::InfoTypeAndValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

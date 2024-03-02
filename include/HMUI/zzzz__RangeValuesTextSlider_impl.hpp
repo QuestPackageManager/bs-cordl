@@ -431,5 +431,3 @@ inline void HMUI::RangeValuesTextSlider::_Awake_b__17_1() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::RangeValuesTextSlider::RangeValuesTextSlider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

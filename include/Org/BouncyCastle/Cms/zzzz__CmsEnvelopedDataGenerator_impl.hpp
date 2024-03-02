@@ -153,5 +153,3 @@ inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Org::BouncyCastle::Cms::CmsEn
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::CmsEnvelopedDataGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

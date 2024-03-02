@@ -83,5 +83,3 @@ inline void GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::_cto
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::BloomPrePassBackgroundNonLightDynamicRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

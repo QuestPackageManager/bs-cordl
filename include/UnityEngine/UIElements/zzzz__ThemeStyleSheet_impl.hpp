@@ -43,5 +43,3 @@ inline void UnityEngine::UIElements::ThemeStyleSheet::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ThemeStyleSheet::ThemeStyleSheet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

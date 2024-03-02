@@ -170,5 +170,3 @@ inline void GlobalNamespace::HealthCheckService::Run() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HealthCheckService::HealthCheckService() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

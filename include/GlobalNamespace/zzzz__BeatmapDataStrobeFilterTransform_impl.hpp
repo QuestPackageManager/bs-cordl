@@ -242,5 +242,3 @@ inline int32_t GlobalNamespace::BeatmapDataStrobeFilterTransform::GetFlashAndFad
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataStrobeFilterTransform::BeatmapDataStrobeFilterTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

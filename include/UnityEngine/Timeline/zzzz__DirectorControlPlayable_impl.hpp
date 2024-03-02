@@ -328,5 +328,3 @@ inline void UnityEngine::Timeline::DirectorControlPlayable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::DirectorControlPlayable::DirectorControlPlayable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

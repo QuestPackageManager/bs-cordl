@@ -1246,5 +1246,3 @@ inline void UnityEngine::InputSystem::Layouts::InputControlAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Layouts::InputControlAttribute::InputControlAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

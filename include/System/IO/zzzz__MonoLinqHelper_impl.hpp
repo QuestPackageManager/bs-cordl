@@ -13,5 +13,3 @@ template <typename T> inline ::ArrayW<T, ::Array<T>*> System::IO::MonoLinqHelper
 }
 // Ctor Parameters []
 constexpr ::System::IO::MonoLinqHelper::MonoLinqHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

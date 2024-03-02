@@ -279,5 +279,3 @@ inline ::StringW System::Net::SocketAddress::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::SocketAddress::SocketAddress() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

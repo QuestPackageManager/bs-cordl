@@ -11,5 +11,3 @@ constexpr ::UnityEngine::UIElements::StyleKeyword UnityEngine::UIElements::Style
 constexpr ::UnityEngine::UIElements::StyleKeyword UnityEngine::UIElements::StyleKeyword::Auto{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::StyleKeyword UnityEngine::UIElements::StyleKeyword::None{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UIElements::StyleKeyword UnityEngine::UIElements::StyleKeyword::Initial{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -121,5 +121,3 @@ inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* Org::BouncyCastle::Cms::D
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator::DefaultAuthenticatedAttributeTableGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

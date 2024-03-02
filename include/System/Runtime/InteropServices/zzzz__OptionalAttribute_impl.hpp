@@ -25,5 +25,3 @@ inline void System::Runtime::InteropServices::OptionalAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::OptionalAttribute::OptionalAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

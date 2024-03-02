@@ -156,5 +156,3 @@ inline void System::OperationCanceledException::_ctor(::System::Runtime::Seriali
 }
 // Ctor Parameters []
 constexpr ::System::OperationCanceledException::OperationCanceledException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

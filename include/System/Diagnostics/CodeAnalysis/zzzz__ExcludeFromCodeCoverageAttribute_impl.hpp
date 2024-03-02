@@ -27,5 +27,3 @@ inline void System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute:
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttribute::ExcludeFromCodeCoverageAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

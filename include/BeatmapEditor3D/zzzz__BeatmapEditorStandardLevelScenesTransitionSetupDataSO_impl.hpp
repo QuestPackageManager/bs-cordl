@@ -234,5 +234,3 @@ inline void BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData
 }
 // Ctor Parameters []
 constexpr ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO::BeatmapEditorStandardLevelScenesTransitionSetupDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

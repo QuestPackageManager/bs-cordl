@@ -73,5 +73,3 @@ inline void System::Xml::Linq::XObjectChangeEventArgs::_ctor(::System::Xml::Linq
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XObjectChangeEventArgs::XObjectChangeEventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

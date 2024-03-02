@@ -164,5 +164,3 @@ template <typename T1, typename T2, typename T3> constexpr ::System::ValueTuple_
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3> constexpr ::System::ValueTuple_3<T1, T2, T3>::ValueTuple_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

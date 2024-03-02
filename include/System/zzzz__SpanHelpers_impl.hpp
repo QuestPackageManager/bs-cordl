@@ -361,5 +361,3 @@ inline void System::SpanHelpers::ClearWithReferences(ByRef<void*> ip, uint64_t p
 }
 // Ctor Parameters []
 constexpr ::System::SpanHelpers::SpanHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -164,5 +164,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters::Ge
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters::DHPrivateKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

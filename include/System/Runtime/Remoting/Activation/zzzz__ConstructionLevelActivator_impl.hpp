@@ -82,5 +82,3 @@ inline void System::Runtime::Remoting::Activation::ConstructionLevelActivator::_
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Activation::ConstructionLevelActivator::ConstructionLevelActivator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

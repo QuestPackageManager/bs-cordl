@@ -18,5 +18,3 @@ constexpr ::OVR::OpenVR::EVRCompositorError OVR::OpenVR::EVRCompositorError::Sha
 constexpr ::OVR::OpenVR::EVRCompositorError OVR::OpenVR::EVRCompositorError::IndexOutOfRange{ static_cast<int32_t>(0x6b) };
 constexpr ::OVR::OpenVR::EVRCompositorError OVR::OpenVR::EVRCompositorError::AlreadySubmitted{ static_cast<int32_t>(0x6c) };
 constexpr ::OVR::OpenVR::EVRCompositorError OVR::OpenVR::EVRCompositorError::InvalidBounds{ static_cast<int32_t>(0x6d) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

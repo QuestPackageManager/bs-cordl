@@ -180,5 +180,3 @@ inline bool System::Text::RegularExpressions::RegexCode::OpcodeBacktracks(int32_
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexCode::RegexCode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -275,5 +275,3 @@ inline ::System::Collections::ICollection* Org::BouncyCastle::X509::X509CrlParse
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509CrlParser::X509CrlParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

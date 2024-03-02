@@ -148,5 +148,3 @@ inline void System::Net::DigestClient::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::DigestClient::DigestClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -185,5 +185,3 @@ inline void Org::BouncyCastle::Asn1::Asn1Object::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1Object::Asn1Object() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

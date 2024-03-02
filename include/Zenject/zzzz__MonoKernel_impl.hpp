@@ -304,5 +304,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::MonoKernel::__zenCreateInjectTypeInfo
 }
 // Ctor Parameters []
 constexpr ::Zenject::MonoKernel::MonoKernel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

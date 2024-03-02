@@ -170,5 +170,3 @@ inline void GlobalNamespace::ParticleSystemLightWithId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ParticleSystemLightWithId::ParticleSystemLightWithId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

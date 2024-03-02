@@ -20,5 +20,3 @@ template <typename T> inline bool System::Collections::Generic::TreeWalkPredicat
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::TreeWalkPredicate_1<T>::TreeWalkPredicate_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -6,5 +6,3 @@ constexpr ::System::Net::NetworkInformation::in6_addr::in6_addr(::ArrayW<uint8_t
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::in6_addr::in6_addr() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -140,5 +140,3 @@ GlobalNamespace::OVRScenePrefabOverride::_UnityEngine_ISerializationCallbackRece
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRScenePrefabOverride::OVRScenePrefabOverride() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

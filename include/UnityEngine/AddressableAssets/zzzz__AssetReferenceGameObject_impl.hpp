@@ -28,5 +28,3 @@ inline void UnityEngine::AddressableAssets::AssetReferenceGameObject::_ctor(::St
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject::AssetReferenceGameObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

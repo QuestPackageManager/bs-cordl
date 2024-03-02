@@ -67,5 +67,3 @@ inline void GlobalNamespace::ConnectionFailedException::_ctor(::GlobalNamespace:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConnectionFailedException::ConnectionFailedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

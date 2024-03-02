@@ -39,5 +39,3 @@ inline ::System::Object* System::Runtime::CompilerServices::DateTimeConstantAttr
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::DateTimeConstantAttribute::DateTimeConstantAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

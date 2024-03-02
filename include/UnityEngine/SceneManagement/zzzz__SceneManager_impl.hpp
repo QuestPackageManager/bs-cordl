@@ -819,5 +819,3 @@ inline void UnityEngine::SceneManagement::SceneManager::MoveGameObjectToScene_In
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SceneManagement::SceneManager::SceneManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

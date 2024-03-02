@@ -48,5 +48,3 @@ template <typename TValue> inline void UnityEngine::InputSystem::InputBindingCom
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::UnityEngine::InputSystem::InputBindingComposite_1<TValue>::InputBindingComposite_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

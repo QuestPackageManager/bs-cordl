@@ -161,5 +161,3 @@ inline bool System::Security::Principal::NTAccount::op_Equality(::System::Securi
 }
 // Ctor Parameters []
 constexpr ::System::Security::Principal::NTAccount::NTAccount() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

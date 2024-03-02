@@ -1,3 +1,5 @@
 #pragma once
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAgreementCredentials_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAgreementCredentials_impl.hpp"
+#endif

@@ -60,5 +60,3 @@ template <typename T> inline void System::Net::Http::Headers::CollectionExtensio
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::CollectionExtensions::CollectionExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

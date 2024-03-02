@@ -953,5 +953,3 @@ inline void UnityEngine::Event::set_delta_Injected(ByRef<::UnityEngine::Vector2>
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Event::Event() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

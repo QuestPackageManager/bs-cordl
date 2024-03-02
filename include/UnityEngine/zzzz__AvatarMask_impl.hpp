@@ -103,5 +103,3 @@ inline bool UnityEngine::AvatarMask::GetTransformActive(int32_t index) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AvatarMask::AvatarMask() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

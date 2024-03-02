@@ -222,5 +222,3 @@ inline void HoudiniEngineUnity::HEU_InputObjectInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_InputObjectInfo::HEU_InputObjectInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

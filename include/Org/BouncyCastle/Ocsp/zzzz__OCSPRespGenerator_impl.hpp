@@ -47,5 +47,3 @@ inline void Org::BouncyCastle::Ocsp::OCSPRespGenerator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::OCSPRespGenerator::OCSPRespGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

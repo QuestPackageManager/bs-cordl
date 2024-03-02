@@ -473,5 +473,3 @@ inline void Org::BouncyCastle::Bcpg::ArmoredOutputStream::DoWrite(::StringW s) {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::ArmoredOutputStream::ArmoredOutputStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

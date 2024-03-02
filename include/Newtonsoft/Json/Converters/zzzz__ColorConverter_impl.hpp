@@ -115,5 +115,3 @@ inline void Newtonsoft::Json::Converters::ColorConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::ColorConverter::ColorConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

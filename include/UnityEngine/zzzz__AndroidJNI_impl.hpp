@@ -3409,5 +3409,3 @@ inline void UnityEngine::AndroidJNI::SetObjectArrayElement(void* array, int32_t 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJNI::AndroidJNI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

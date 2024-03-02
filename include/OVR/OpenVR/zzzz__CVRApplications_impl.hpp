@@ -731,5 +731,3 @@ inline uint32_t OVR::OpenVR::CVRApplications::GetCurrentSceneProcessId() {
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRApplications::CVRApplications() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

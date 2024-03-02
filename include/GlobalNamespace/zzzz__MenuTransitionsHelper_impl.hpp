@@ -1504,5 +1504,3 @@ inline void GlobalNamespace::MenuTransitionsHelper::_HandleBeatmapEditorSceneDid
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuTransitionsHelper::MenuTransitionsHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

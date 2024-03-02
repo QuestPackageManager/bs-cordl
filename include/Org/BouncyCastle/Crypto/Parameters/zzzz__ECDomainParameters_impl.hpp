@@ -466,5 +466,3 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Crypto::Parame
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::ECDomainParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

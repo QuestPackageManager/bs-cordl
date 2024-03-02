@@ -290,5 +290,3 @@ inline void RootMotion::FinalIK::Amplifier::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::Amplifier::Amplifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::PanelScreenMatchMode::PanelScreenMatchMode(
 constexpr ::UnityEngine::UIElements::PanelScreenMatchMode UnityEngine::UIElements::PanelScreenMatchMode::MatchWidthOrHeight{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::PanelScreenMatchMode UnityEngine::UIElements::PanelScreenMatchMode::Shrink{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::PanelScreenMatchMode UnityEngine::UIElements::PanelScreenMatchMode::Expand{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

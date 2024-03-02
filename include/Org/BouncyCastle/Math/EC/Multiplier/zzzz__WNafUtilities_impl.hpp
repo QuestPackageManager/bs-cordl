@@ -1042,5 +1042,3 @@ inline void Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::WNafUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

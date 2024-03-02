@@ -70,5 +70,3 @@ template <typename TValue> inline void UnityEngine::InputSystem::Utilities::Obse
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::UnityEngine::InputSystem::Utilities::Observer_1<TValue>::Observer_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -157,5 +157,3 @@ inline void Zenject::MethodProviderUntyped::GetAllInstancesWithInjectSplit(::Zen
 }
 // Ctor Parameters []
 constexpr ::Zenject::MethodProviderUntyped::MethodProviderUntyped() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

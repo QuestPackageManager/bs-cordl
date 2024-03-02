@@ -244,5 +244,3 @@ constexpr ::UnityEngine::UIElements::StyleTransformOrigin::StyleTransformOrigin(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleTransformOrigin::StyleTransformOrigin() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

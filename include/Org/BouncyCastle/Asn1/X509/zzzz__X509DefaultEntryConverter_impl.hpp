@@ -51,5 +51,3 @@ inline void Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter::X509DefaultEntryConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

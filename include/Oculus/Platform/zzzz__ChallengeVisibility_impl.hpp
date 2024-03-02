@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::ChallengeVisibility Oculus::Platform::ChallengeVis
 constexpr ::Oculus::Platform::ChallengeVisibility Oculus::Platform::ChallengeVisibility::InviteOnly{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::ChallengeVisibility Oculus::Platform::ChallengeVisibility::Public{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::ChallengeVisibility Oculus::Platform::ChallengeVisibility::Private{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

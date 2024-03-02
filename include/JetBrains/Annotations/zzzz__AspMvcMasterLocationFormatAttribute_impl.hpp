@@ -81,5 +81,3 @@ inline void JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::set_For
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::AspMvcMasterLocationFormatAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

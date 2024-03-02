@@ -9,5 +9,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationFlag
 constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationFlag System::Security::Cryptography::X509Certificates::X509RevocationFlag::EndCertificateOnly{ static_cast<int32_t>(0x0) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationFlag System::Security::Cryptography::X509Certificates::X509RevocationFlag::EntireChain{ static_cast<int32_t>(0x1) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationFlag System::Security::Cryptography::X509Certificates::X509RevocationFlag::ExcludeRoot{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

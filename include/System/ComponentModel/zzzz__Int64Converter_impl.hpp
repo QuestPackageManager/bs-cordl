@@ -107,5 +107,3 @@ inline void System::ComponentModel::Int64Converter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::Int64Converter::Int64Converter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

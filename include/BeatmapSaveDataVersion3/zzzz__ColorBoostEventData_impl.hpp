@@ -58,5 +58,3 @@ inline void BeatmapSaveDataVersion3::ColorBoostEventData::_ctor(float_t beat, bo
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::ColorBoostEventData::ColorBoostEventData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -187,5 +187,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X9::DHVal
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X9::DHValidationParms::DHValidationParms() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

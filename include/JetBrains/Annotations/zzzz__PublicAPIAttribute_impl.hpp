@@ -100,5 +100,3 @@ inline void JetBrains::Annotations::PublicAPIAttribute::set_Comment(::StringW va
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::PublicAPIAttribute::PublicAPIAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

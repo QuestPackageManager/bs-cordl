@@ -11,5 +11,3 @@ constexpr ::System::Security::Cryptography::PaddingMode System::Security::Crypto
 constexpr ::System::Security::Cryptography::PaddingMode System::Security::Cryptography::PaddingMode::Zeros{ static_cast<int32_t>(0x3) };
 constexpr ::System::Security::Cryptography::PaddingMode System::Security::Cryptography::PaddingMode::ANSIX923{ static_cast<int32_t>(0x4) };
 constexpr ::System::Security::Cryptography::PaddingMode System::Security::Cryptography::PaddingMode::ISO10126{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

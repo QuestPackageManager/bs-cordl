@@ -543,5 +543,3 @@ constexpr ::GlobalNamespace::OVRLocatable::OVRLocatable(uint64_t _Handle_k__Back
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRLocatable::OVRLocatable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

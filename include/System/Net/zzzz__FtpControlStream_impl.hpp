@@ -1047,5 +1047,3 @@ inline ::System::Net::TriState System::Net::FtpControlStream::IsFtpDataStreamWri
 }
 // Ctor Parameters []
 constexpr ::System::Net::FtpControlStream::FtpControlStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

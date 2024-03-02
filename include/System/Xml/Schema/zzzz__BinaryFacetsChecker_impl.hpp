@@ -114,5 +114,3 @@ inline void System::Xml::Schema::BinaryFacetsChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::BinaryFacetsChecker::BinaryFacetsChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

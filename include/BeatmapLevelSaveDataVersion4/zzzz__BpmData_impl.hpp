@@ -108,5 +108,3 @@ inline void BeatmapLevelSaveDataVersion4::BpmData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatmapLevelSaveDataVersion4::BpmData::BpmData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

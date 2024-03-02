@@ -24,5 +24,3 @@ inline void UnityEngine::Scripting::PreserveAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Scripting::PreserveAttribute::PreserveAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

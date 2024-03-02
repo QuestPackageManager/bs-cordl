@@ -579,5 +579,3 @@ inline void GlobalNamespace::EventsTestGameplayManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EventsTestGameplayManager::EventsTestGameplayManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

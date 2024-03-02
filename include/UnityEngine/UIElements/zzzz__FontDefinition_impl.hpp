@@ -264,5 +264,3 @@ constexpr ::UnityEngine::UIElements::FontDefinition::FontDefinition(::UnityW<::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::FontDefinition::FontDefinition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -3,5 +3,3 @@
 #include "System/Diagnostics/zzzz__ProcessThreadCollection_def.hpp"
 // Ctor Parameters []
 constexpr ::System::Diagnostics::ProcessThreadCollection::ProcessThreadCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

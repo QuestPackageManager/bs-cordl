@@ -12,5 +12,3 @@ constexpr ::UnityEngine::UI::CanvasUpdate UnityEngine::UI::CanvasUpdate::PostLay
 constexpr ::UnityEngine::UI::CanvasUpdate UnityEngine::UI::CanvasUpdate::PreRender{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UI::CanvasUpdate UnityEngine::UI::CanvasUpdate::LatePreRender{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UI::CanvasUpdate UnityEngine::UI::CanvasUpdate::MaxUpdateValue{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -300,5 +300,3 @@ inline void UnityEngine::UIElements::UIR::TextureSlotManager::Bind(::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::TextureSlotManager::TextureSlotManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

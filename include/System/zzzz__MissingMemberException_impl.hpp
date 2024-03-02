@@ -171,5 +171,3 @@ inline ::StringW System::MissingMemberException::FormatSignature(::ArrayW<uint8_
 }
 // Ctor Parameters []
 constexpr ::System::MissingMemberException::MissingMemberException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

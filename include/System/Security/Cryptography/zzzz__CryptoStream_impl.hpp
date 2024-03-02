@@ -1358,5 +1358,3 @@ inline ::System::Threading::SemaphoreSlim* System::Security::Cryptography::Crypt
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::CryptoStream::CryptoStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

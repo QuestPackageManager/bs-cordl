@@ -19,5 +19,3 @@ constexpr ::System::Xml::XmlTokenizedType System::Xml::XmlTokenizedType::ENUMERA
 constexpr ::System::Xml::XmlTokenizedType System::Xml::XmlTokenizedType::QName{ static_cast<int32_t>(0xa) };
 constexpr ::System::Xml::XmlTokenizedType System::Xml::XmlTokenizedType::NCName{ static_cast<int32_t>(0xb) };
 constexpr ::System::Xml::XmlTokenizedType System::Xml::XmlTokenizedType::None{ static_cast<int32_t>(0xc) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

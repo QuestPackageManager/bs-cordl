@@ -45,5 +45,3 @@ inline void Org::BouncyCastle::Asn1::X509::PolicyQualifierID::_ctor(::StringW id
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::PolicyQualifierID::PolicyQualifierID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

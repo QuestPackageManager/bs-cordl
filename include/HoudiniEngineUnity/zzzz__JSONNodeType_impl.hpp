@@ -14,5 +14,3 @@ constexpr ::HoudiniEngineUnity::JSONNodeType HoudiniEngineUnity::JSONNodeType::N
 constexpr ::HoudiniEngineUnity::JSONNodeType HoudiniEngineUnity::JSONNodeType::Boolean{ static_cast<int32_t>(0x6) };
 constexpr ::HoudiniEngineUnity::JSONNodeType HoudiniEngineUnity::JSONNodeType::None{ static_cast<int32_t>(0x7) };
 constexpr ::HoudiniEngineUnity::JSONNodeType HoudiniEngineUnity::JSONNodeType::Custom{ static_cast<int32_t>(0xff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

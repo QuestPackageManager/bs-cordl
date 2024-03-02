@@ -144,5 +144,3 @@ inline void System::Xml::Schema::Datatype_char::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_char::Datatype_char() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -230,5 +230,3 @@ constexpr ::System::RuntimeFieldHandle::RuntimeFieldHandle(void* value) noexcept
 }
 // Ctor Parameters []
 constexpr ::System::RuntimeFieldHandle::RuntimeFieldHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

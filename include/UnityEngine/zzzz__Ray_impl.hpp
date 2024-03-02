@@ -179,5 +179,3 @@ constexpr ::UnityEngine::Ray::Ray(::UnityEngine::Vector3 m_Origin, ::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Ray::Ray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

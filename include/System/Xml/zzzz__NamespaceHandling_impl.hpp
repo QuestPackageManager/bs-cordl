@@ -8,5 +8,3 @@ constexpr ::System::Xml::NamespaceHandling::NamespaceHandling(int32_t value__) n
 constexpr ::System::Xml::NamespaceHandling::NamespaceHandling() {}
 constexpr ::System::Xml::NamespaceHandling System::Xml::NamespaceHandling::Default{ static_cast<int32_t>(0x0) };
 constexpr ::System::Xml::NamespaceHandling System::Xml::NamespaceHandling::OmitDuplicates{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

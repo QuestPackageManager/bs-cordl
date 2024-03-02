@@ -31,5 +31,3 @@ constexpr ::Mono::Security::Interface::AlertDescription Mono::Security::Interfac
 constexpr ::Mono::Security::Interface::AlertDescription Mono::Security::Interface::AlertDescription::UserCancelled{ static_cast<uint8_t>(0x5au) };
 constexpr ::Mono::Security::Interface::AlertDescription Mono::Security::Interface::AlertDescription::NoRenegotiation{ static_cast<uint8_t>(0x64u) };
 constexpr ::Mono::Security::Interface::AlertDescription Mono::Security::Interface::AlertDescription::UnsupportedExtension{ static_cast<uint8_t>(0x6eu) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

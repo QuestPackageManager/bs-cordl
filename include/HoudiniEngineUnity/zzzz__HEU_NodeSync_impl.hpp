@@ -199,5 +199,3 @@ inline void HoudiniEngineUnity::HEU_NodeSync::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_NodeSync::HEU_NodeSync() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

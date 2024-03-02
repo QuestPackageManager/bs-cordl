@@ -238,5 +238,3 @@ inline void UnityEngine::ProBuilder::BezierShape::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::BezierShape::BezierShape() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

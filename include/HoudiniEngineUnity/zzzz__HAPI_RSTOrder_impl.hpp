@@ -13,5 +13,3 @@ constexpr ::HoudiniEngineUnity::HAPI_RSTOrder HoudiniEngineUnity::HAPI_RSTOrder:
 constexpr ::HoudiniEngineUnity::HAPI_RSTOrder HoudiniEngineUnity::HAPI_RSTOrder::HAPI_STR{ static_cast<int32_t>(0x4) };
 constexpr ::HoudiniEngineUnity::HAPI_RSTOrder HoudiniEngineUnity::HAPI_RSTOrder::HAPI_SRT{ static_cast<int32_t>(0x5) };
 constexpr ::HoudiniEngineUnity::HAPI_RSTOrder HoudiniEngineUnity::HAPI_RSTOrder::HAPI_RSTORDER_DEFAULT{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

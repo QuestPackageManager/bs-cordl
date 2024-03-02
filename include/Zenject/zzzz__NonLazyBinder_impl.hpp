@@ -64,5 +64,3 @@ inline ::Zenject::IfNotBoundBinder* Zenject::NonLazyBinder::Lazy() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::NonLazyBinder::NonLazyBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

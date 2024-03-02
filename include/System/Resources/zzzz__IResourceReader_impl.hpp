@@ -58,5 +58,3 @@ inline ::System::Collections::IDictionaryEnumerator* System::Resources::IResourc
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::IResourceReader*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionaryEnumerator*, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

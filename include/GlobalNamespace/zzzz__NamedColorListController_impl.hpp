@@ -279,5 +279,3 @@ inline void GlobalNamespace::NamedColorListController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NamedColorListController::NamedColorListController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

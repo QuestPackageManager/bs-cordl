@@ -9,5 +9,3 @@ constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType::ObstacleType() 
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType::FullHeight{ static_cast<int32_t>(0x0) };
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType::Top{ static_cast<int32_t>(0x1) };
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType::Free{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::UnityEngine::AudioClipLoadType::AudioClipLoadType() {}
 constexpr ::UnityEngine::AudioClipLoadType UnityEngine::AudioClipLoadType::DecompressOnLoad{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::AudioClipLoadType UnityEngine::AudioClipLoadType::CompressedInMemory{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::AudioClipLoadType UnityEngine::AudioClipLoadType::Streaming{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

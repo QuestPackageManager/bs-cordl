@@ -253,5 +253,3 @@ inline void GlobalNamespace::BurstFireEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BurstFireEffect::BurstFireEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

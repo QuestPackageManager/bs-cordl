@@ -174,5 +174,3 @@ inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::VertexEditing::VertexEditing() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

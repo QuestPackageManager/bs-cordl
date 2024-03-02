@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::ColorMixAndWeightingApproach::ColorMixAndWeightingA
 constexpr ::GlobalNamespace::ColorMixAndWeightingApproach::ColorMixAndWeightingApproach() {}
 constexpr ::GlobalNamespace::ColorMixAndWeightingApproach GlobalNamespace::ColorMixAndWeightingApproach::Maximum{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::ColorMixAndWeightingApproach GlobalNamespace::ColorMixAndWeightingApproach::FractionAndSum{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

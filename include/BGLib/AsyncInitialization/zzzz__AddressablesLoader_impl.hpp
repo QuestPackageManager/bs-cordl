@@ -71,5 +71,3 @@ BGLib::AsyncInitialization::AddressablesLoader::InstantiateFromAddressableToCont
 }
 // Ctor Parameters []
 constexpr ::BGLib::AsyncInitialization::AddressablesLoader::AddressablesLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

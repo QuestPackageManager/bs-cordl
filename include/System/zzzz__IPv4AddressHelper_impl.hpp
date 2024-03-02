@@ -174,5 +174,3 @@ inline bool System::IPv4AddressHelper::Parse(::StringW name, ::cordl_internals::
 }
 // Ctor Parameters []
 constexpr ::System::IPv4AddressHelper::IPv4AddressHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

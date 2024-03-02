@@ -361,5 +361,3 @@ inline void BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator::AvatarEditorFlowCoordinator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -995,5 +995,3 @@ inline void GlobalNamespace::TutorialSongController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TutorialSongController::TutorialSongController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

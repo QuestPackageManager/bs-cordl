@@ -177,5 +177,3 @@ inline void GlobalNamespace::__BadCutScoringElement__Pool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__BadCutScoringElement__Pool::__BadCutScoringElement__Pool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

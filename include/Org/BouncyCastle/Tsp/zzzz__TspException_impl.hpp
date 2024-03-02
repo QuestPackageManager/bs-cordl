@@ -74,5 +74,3 @@ inline void Org::BouncyCastle::Tsp::TspException::_ctor(::StringW message, ::Sys
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TspException::TspException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -17,5 +17,3 @@ inline bool UnityEngine::UIElements::UIElementsPackageUtility::getStaticF_IsUIEP
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIElementsPackageUtility::UIElementsPackageUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -12,5 +12,3 @@ constexpr ::HoudiniEngineUnity::HAPI_SessionType HoudiniEngineUnity::HAPI_Sessio
 constexpr ::HoudiniEngineUnity::HAPI_SessionType HoudiniEngineUnity::HAPI_SessionType::HAPI_SESSION_CUSTOM2{ static_cast<int32_t>(0x3) };
 constexpr ::HoudiniEngineUnity::HAPI_SessionType HoudiniEngineUnity::HAPI_SessionType::HAPI_SESSION_CUSTOM3{ static_cast<int32_t>(0x4) };
 constexpr ::HoudiniEngineUnity::HAPI_SessionType HoudiniEngineUnity::HAPI_SessionType::HAPI_SESSION_MAX{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

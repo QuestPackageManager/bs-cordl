@@ -955,5 +955,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator::Close()
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator::PgpEncryptedDataGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

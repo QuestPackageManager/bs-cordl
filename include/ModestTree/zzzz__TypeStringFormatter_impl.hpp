@@ -135,5 +135,3 @@ inline ::StringW ModestTree::TypeStringFormatter::GetCSharpTypeName(::StringW ty
 }
 // Ctor Parameters []
 constexpr ::ModestTree::TypeStringFormatter::TypeStringFormatter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

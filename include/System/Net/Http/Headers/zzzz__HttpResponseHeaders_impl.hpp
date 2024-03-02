@@ -25,5 +25,3 @@ inline void System::Net::Http::Headers::HttpResponseHeaders::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::HttpResponseHeaders::HttpResponseHeaders() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

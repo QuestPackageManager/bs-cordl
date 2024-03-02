@@ -114,5 +114,3 @@ constexpr ::UnityEngine::InputSystem::DynamicBitfield::DynamicBitfield(::UnityEn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::DynamicBitfield::DynamicBitfield() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

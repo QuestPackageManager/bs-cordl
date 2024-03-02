@@ -104,5 +104,3 @@ constexpr ::Mono::RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle(:
 }
 // Ctor Parameters []
 constexpr ::Mono::RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

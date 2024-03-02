@@ -110,5 +110,3 @@ constexpr ::TMPro::TMP_TextProcessingStack_1<T>::TMP_TextProcessingStack_1(::Arr
 }
 // Ctor Parameters []
 template <typename T> constexpr ::TMPro::TMP_TextProcessingStack_1<T>::TMP_TextProcessingStack_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

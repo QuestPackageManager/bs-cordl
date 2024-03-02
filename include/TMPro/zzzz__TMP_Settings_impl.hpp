@@ -1297,5 +1297,3 @@ inline void TMPro::TMP_Settings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Settings::TMP_Settings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

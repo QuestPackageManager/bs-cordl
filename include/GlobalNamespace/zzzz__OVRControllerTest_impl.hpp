@@ -1290,5 +1290,3 @@ inline void GlobalNamespace::OVRControllerTest::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRControllerTest::OVRControllerTest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

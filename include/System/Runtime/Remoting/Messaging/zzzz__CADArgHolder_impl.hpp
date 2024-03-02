@@ -39,5 +39,3 @@ inline void System::Runtime::Remoting::Messaging::CADArgHolder::_ctor(int32_t i)
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder::CADArgHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

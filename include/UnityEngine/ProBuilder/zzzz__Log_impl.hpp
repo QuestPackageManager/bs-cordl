@@ -419,5 +419,3 @@ template <typename T> inline void UnityEngine::ProBuilder::Log::NotNull(T obj, :
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Log::Log() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

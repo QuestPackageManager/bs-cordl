@@ -751,5 +751,3 @@ inline void UnityEngine::EventSystems::PointerInputModule::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::PointerInputModule::PointerInputModule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -432,5 +432,3 @@ inline void HMUI::DropdownWithTableView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::DropdownWithTableView::DropdownWithTableView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

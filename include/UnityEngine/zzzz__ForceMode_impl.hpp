@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ForceMode UnityEngine::ForceMode::Force{ static_cast<in
 constexpr ::UnityEngine::ForceMode UnityEngine::ForceMode::Acceleration{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::ForceMode UnityEngine::ForceMode::Impulse{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ForceMode UnityEngine::ForceMode::VelocityChange{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

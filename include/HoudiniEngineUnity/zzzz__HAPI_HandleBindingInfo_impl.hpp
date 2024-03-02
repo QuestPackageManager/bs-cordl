@@ -10,5 +10,3 @@ constexpr ::HoudiniEngineUnity::HAPI_HandleBindingInfo::HAPI_HandleBindingInfo(i
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_HandleBindingInfo::HAPI_HandleBindingInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

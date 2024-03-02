@@ -96,5 +96,3 @@ inline void GlobalNamespace::HealthWarningDisplayViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HealthWarningDisplayViewController::HealthWarningDisplayViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

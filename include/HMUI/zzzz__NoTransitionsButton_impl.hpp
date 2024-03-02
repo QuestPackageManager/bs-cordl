@@ -144,5 +144,3 @@ inline void HMUI::NoTransitionsButton::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::NoTransitionsButton::NoTransitionsButton() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

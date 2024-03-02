@@ -78,5 +78,3 @@ inline ::System::Xml::XmlNode* System::Xml::XmlLinkedNode::get_NextSibling() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlLinkedNode::XmlLinkedNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -197,5 +197,3 @@ inline int32_t System::Security::NamedPermissionSet::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::NamedPermissionSet::NamedPermissionSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

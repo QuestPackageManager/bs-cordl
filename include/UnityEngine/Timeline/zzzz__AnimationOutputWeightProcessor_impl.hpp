@@ -155,5 +155,3 @@ inline void UnityEngine::Timeline::AnimationOutputWeightProcessor::Evaluate() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::AnimationOutputWeightProcessor::AnimationOutputWeightProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

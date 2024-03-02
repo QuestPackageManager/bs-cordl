@@ -134,5 +134,3 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::IesParameters::get_MacKeyS
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::IesParameters::IesParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -13,5 +13,3 @@ constexpr ::Oculus::Platform::LaunchResult Oculus::Platform::LaunchResult::Faile
 constexpr ::Oculus::Platform::LaunchResult Oculus::Platform::LaunchResult::FailedRoomNotFound{ static_cast<int32_t>(0x4) };
 constexpr ::Oculus::Platform::LaunchResult Oculus::Platform::LaunchResult::FailedUserDeclined{ static_cast<int32_t>(0x5) };
 constexpr ::Oculus::Platform::LaunchResult Oculus::Platform::LaunchResult::FailedOtherReason{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

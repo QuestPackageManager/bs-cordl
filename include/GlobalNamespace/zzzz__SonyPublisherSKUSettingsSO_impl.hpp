@@ -148,5 +148,3 @@ inline void GlobalNamespace::SonyPublisherSKUSettingsSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyPublisherSKUSettingsSO::SonyPublisherSKUSettingsSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

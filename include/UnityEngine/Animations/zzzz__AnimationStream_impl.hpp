@@ -17,5 +17,3 @@ constexpr ::UnityEngine::Animations::AnimationStream::AnimationStream(uint32_t m
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Animations::AnimationStream::AnimationStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

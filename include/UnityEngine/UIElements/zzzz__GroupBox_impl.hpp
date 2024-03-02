@@ -189,5 +189,3 @@ inline void UnityEngine::UIElements::__GroupBox__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__GroupBox__UxmlFactory::__GroupBox__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

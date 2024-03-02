@@ -3,5 +3,3 @@
 #include "System/Collections/Generic/zzzz__StackDebugView_1_def.hpp"
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::StackDebugView_1<T>::StackDebugView_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

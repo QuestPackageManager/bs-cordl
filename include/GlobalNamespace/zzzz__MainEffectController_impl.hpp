@@ -252,5 +252,3 @@ inline void GlobalNamespace::MainEffectController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainEffectController::MainEffectController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

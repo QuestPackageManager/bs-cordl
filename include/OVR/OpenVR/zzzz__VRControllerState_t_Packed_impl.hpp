@@ -64,5 +64,3 @@ constexpr ::OVR::OpenVR::VRControllerState_t_Packed::VRControllerState_t_Packed(
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VRControllerState_t_Packed::VRControllerState_t_Packed() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

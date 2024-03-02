@@ -662,5 +662,3 @@ inline int32_t System::Globalization::UmAlQuraCalendar::ToFourDigitYear(int32_t 
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::UmAlQuraCalendar::UmAlQuraCalendar() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

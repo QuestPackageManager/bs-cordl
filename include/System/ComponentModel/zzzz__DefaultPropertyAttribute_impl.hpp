@@ -110,5 +110,3 @@ inline int32_t System::ComponentModel::DefaultPropertyAttribute::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DefaultPropertyAttribute::DefaultPropertyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

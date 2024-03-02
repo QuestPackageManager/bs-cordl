@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::AvatarEditorResult* Oculus::Platform::Message
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithAvatarEditorResult::MessageWithAvatarEditorResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

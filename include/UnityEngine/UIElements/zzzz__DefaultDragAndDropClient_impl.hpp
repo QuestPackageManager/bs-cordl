@@ -116,5 +116,3 @@ inline void UnityEngine::UIElements::DefaultDragAndDropClient::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DefaultDragAndDropClient::DefaultDragAndDropClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

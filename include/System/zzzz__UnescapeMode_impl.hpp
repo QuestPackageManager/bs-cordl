@@ -13,5 +13,3 @@ constexpr ::System::UnescapeMode System::UnescapeMode::EscapeUnescape{ static_ca
 constexpr ::System::UnescapeMode System::UnescapeMode::V1ToStringFlag{ static_cast<int32_t>(0x4) };
 constexpr ::System::UnescapeMode System::UnescapeMode::UnescapeAll{ static_cast<int32_t>(0x8) };
 constexpr ::System::UnescapeMode System::UnescapeMode::UnescapeAllOrThrow{ static_cast<int32_t>(0x18) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

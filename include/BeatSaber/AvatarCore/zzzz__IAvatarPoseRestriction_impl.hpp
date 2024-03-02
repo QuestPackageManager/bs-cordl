@@ -27,5 +27,3 @@ inline void BeatSaber::AvatarCore::IAvatarPoseRestriction::RestrictPose(::UnityE
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, headRotation, headPosition, leftHandPosition, rightHandPosition, newHeadPosition, newLeftHandPosition,
                                                           newRightHandPosition);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

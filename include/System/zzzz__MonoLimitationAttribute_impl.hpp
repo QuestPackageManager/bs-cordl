@@ -26,5 +26,3 @@ inline void System::MonoLimitationAttribute::_ctor(::StringW comment) {
 }
 // Ctor Parameters []
 constexpr ::System::MonoLimitationAttribute::MonoLimitationAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

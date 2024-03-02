@@ -78,5 +78,3 @@ inline void Org::BouncyCastle::Utilities::IO::StreamOverflowException::_ctor(::S
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::StreamOverflowException::StreamOverflowException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

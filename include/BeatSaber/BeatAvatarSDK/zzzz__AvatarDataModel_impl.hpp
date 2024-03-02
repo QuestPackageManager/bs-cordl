@@ -651,5 +651,3 @@ inline void BeatSaber::BeatAvatarSDK::AvatarDataModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel::AvatarDataModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

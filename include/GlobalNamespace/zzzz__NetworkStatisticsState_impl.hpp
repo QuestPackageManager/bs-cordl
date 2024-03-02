@@ -189,5 +189,3 @@ constexpr ::GlobalNamespace::NetworkStatisticsState::NetworkStatisticsState(int6
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NetworkStatisticsState::NetworkStatisticsState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

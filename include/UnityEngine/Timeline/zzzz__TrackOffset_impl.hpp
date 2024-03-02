@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Timeline::TrackOffset::TrackOffset() {}
 constexpr ::UnityEngine::Timeline::TrackOffset UnityEngine::Timeline::TrackOffset::ApplyTransformOffsets{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Timeline::TrackOffset UnityEngine::Timeline::TrackOffset::ApplySceneOffsets{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Timeline::TrackOffset UnityEngine::Timeline::TrackOffset::Auto{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

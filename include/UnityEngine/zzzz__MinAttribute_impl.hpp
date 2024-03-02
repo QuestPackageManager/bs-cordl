@@ -38,5 +38,3 @@ inline void UnityEngine::MinAttribute::_ctor(float_t min) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::MinAttribute::MinAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

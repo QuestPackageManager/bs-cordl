@@ -122,5 +122,3 @@ inline void UnityEngine::UIElements::UIR::GradientRemapPool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::GradientRemapPool::GradientRemapPool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -90,5 +90,3 @@ constexpr ::MS::Internal::Xml::Cache::XPathNodeRef::XPathNodeRef(::ArrayW<::MS::
 }
 // Ctor Parameters []
 constexpr ::MS::Internal::Xml::Cache::XPathNodeRef::XPathNodeRef() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

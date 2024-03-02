@@ -138,5 +138,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::X509NameTokenizer::NextToken() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::X509NameTokenizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

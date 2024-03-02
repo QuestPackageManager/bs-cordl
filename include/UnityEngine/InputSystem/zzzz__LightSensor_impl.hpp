@@ -182,5 +182,3 @@ inline void UnityEngine::InputSystem::LightSensor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LightSensor::LightSensor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

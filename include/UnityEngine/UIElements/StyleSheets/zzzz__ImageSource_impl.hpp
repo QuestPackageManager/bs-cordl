@@ -36,5 +36,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::ImageSource::ImageSource(::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::ImageSource::ImageSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

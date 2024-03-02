@@ -44,5 +44,3 @@ inline void GlobalNamespace::RecordingToolInstallerSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolInstallerSO::RecordingToolInstallerSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

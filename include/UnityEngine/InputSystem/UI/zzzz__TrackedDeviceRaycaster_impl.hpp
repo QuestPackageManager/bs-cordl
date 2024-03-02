@@ -736,5 +736,3 @@ inline void UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster::TrackedDeviceRaycaster() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

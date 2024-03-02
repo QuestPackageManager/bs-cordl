@@ -594,5 +594,3 @@ inline void Org::BouncyCastle::Crypto::Digests::Blake2bDigest::ClearSalt() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::Blake2bDigest::Blake2bDigest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

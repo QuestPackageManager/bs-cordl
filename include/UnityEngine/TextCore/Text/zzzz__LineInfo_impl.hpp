@@ -44,5 +44,3 @@ constexpr ::UnityEngine::TextCore::Text::LineInfo::LineInfo(int32_t controlChara
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::LineInfo::LineInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

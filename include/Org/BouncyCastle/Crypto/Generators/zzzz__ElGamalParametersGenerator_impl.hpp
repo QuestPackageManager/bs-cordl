@@ -110,5 +110,3 @@ inline void Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::ElGamalParametersGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

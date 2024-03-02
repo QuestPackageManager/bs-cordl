@@ -26,5 +26,3 @@ inline void JetBrains::Annotations::AspMvcSuppressViewErrorAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcSuppressViewErrorAttribute::AspMvcSuppressViewErrorAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

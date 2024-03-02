@@ -30,5 +30,3 @@ inline ::System::Threading::ThreadPoolWorkQueue* System::Threading::ThreadPoolGl
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ThreadPoolGlobals::ThreadPoolGlobals() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

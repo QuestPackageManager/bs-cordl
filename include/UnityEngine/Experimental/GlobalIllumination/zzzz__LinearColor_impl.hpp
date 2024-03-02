@@ -181,5 +181,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::LinearColor::LinearCo
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LinearColor::LinearColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

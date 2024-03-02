@@ -53,5 +53,3 @@ inline void GlobalNamespace::ScoreFormatter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreFormatter::ScoreFormatter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

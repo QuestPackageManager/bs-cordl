@@ -12,5 +12,3 @@ constexpr ::System::Net::Sockets::TransmitFileOptions System::Net::Sockets::Tran
 constexpr ::System::Net::Sockets::TransmitFileOptions System::Net::Sockets::TransmitFileOptions::WriteBehind{ static_cast<int32_t>(0x4) };
 constexpr ::System::Net::Sockets::TransmitFileOptions System::Net::Sockets::TransmitFileOptions::UseSystemThread{ static_cast<int32_t>(0x10) };
 constexpr ::System::Net::Sockets::TransmitFileOptions System::Net::Sockets::TransmitFileOptions::UseKernelApc{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -109,5 +109,3 @@ inline ::StringW System::PointerSpec::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::PointerSpec::PointerSpec() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

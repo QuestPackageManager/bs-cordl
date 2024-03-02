@@ -145,5 +145,3 @@ constexpr ::UnityEngine::UIElements::VisualElementStyleSheetSet::VisualElementSt
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementStyleSheetSet::VisualElementStyleSheetSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

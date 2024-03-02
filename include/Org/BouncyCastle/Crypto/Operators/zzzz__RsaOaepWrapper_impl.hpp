@@ -145,5 +145,3 @@ inline ::Org::BouncyCastle::Crypto::IBlockResult* Org::BouncyCastle::Crypto::Ope
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::RsaOaepWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

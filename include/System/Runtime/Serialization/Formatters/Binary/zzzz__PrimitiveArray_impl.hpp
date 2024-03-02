@@ -221,5 +221,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::PrimitiveArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

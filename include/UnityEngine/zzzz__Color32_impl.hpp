@@ -215,5 +215,3 @@ constexpr ::UnityEngine::Color32::Color32(int32_t rgba, uint8_t r, uint8_t g, ui
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Color32::Color32() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

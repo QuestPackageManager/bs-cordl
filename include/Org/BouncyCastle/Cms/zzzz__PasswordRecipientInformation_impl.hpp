@@ -91,5 +91,3 @@ inline ::Org::BouncyCastle::Cms::CmsTypedStream* Org::BouncyCastle::Cms::Passwor
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::PasswordRecipientInformation::PasswordRecipientInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

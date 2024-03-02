@@ -141,5 +141,3 @@ inline void System::Security::Cryptography::OidEnumerator::Reset() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::OidEnumerator::OidEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

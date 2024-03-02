@@ -116,5 +116,3 @@ inline void GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::MultiplayerActivePlayersTimeOffsetAverage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

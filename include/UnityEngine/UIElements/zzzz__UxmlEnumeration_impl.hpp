@@ -99,5 +99,3 @@ inline void UnityEngine::UIElements::UxmlEnumeration::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlEnumeration::UxmlEnumeration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

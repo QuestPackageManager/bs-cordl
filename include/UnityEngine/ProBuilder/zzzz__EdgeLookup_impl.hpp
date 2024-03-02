@@ -387,5 +387,3 @@ constexpr ::UnityEngine::ProBuilder::EdgeLookup::EdgeLookup(::UnityEngine::ProBu
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::EdgeLookup::EdgeLookup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

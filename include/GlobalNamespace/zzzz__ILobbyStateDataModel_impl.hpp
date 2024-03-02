@@ -242,5 +242,3 @@ inline ::GlobalNamespace::IConnectedPlayer* GlobalNamespace::ILobbyStateDataMode
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ILobbyStateDataModel*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(this, ___internal_method, userId);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

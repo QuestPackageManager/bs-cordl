@@ -51,5 +51,3 @@ inline void GlobalNamespace::GetXPlatformAccessTokenRequestSteam::_ctor(::String
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GetXPlatformAccessTokenRequestSteam::GetXPlatformAccessTokenRequestSteam() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

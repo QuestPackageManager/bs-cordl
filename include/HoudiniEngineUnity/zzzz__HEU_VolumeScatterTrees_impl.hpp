@@ -168,5 +168,3 @@ inline void HoudiniEngineUnity::HEU_VolumeScatterTrees::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_VolumeScatterTrees::HEU_VolumeScatterTrees() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

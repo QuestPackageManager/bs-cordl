@@ -654,5 +654,3 @@ inline void Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::Reset(bool clear
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305::ChaCha20Poly1305() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

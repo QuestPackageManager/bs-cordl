@@ -39,5 +39,3 @@ inline void UnityEngine::UIElements::DropdownMenuSeparator::_ctor(::StringW subM
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DropdownMenuSeparator::DropdownMenuSeparator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

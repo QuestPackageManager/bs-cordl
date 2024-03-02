@@ -459,5 +459,3 @@ inline void UnityEngine::PhysicMaterial::set_bounceCombine(::UnityEngine::Physic
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PhysicMaterial::PhysicMaterial() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

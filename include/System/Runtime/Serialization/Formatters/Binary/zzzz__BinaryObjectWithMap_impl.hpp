@@ -221,5 +221,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::BinaryObjectWith
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::BinaryObjectWithMap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

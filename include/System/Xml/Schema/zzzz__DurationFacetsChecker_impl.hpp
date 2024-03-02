@@ -112,5 +112,3 @@ inline void System::Xml::Schema::DurationFacetsChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::DurationFacetsChecker::DurationFacetsChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

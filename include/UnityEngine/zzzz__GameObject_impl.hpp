@@ -1407,5 +1407,3 @@ inline void UnityEngine::GameObject::get_scene_Injected(ByRef<::UnityEngine::Sce
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GameObject::GameObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

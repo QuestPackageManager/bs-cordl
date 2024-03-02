@@ -102,5 +102,3 @@ inline void GlobalNamespace::TubeBloomPrePassLightWithId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TubeBloomPrePassLightWithId::TubeBloomPrePassLightWithId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

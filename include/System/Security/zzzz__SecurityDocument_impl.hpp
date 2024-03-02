@@ -224,5 +224,3 @@ inline ::System::Security::SecurityElement* System::Security::SecurityDocument::
 }
 // Ctor Parameters []
 constexpr ::System::Security::SecurityDocument::SecurityDocument() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

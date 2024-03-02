@@ -176,5 +176,3 @@ template <typename T> inline void TMPro::TweenRunner_1<T>::_ctor() {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::TMPro::TweenRunner_1<T>::TweenRunner_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

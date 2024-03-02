@@ -433,5 +433,3 @@ inline void GlobalNamespace::PerformanceRecorder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceRecorder::PerformanceRecorder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

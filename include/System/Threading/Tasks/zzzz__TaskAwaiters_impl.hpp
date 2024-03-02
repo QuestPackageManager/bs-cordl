@@ -26,5 +26,3 @@ inline ::System::Threading::Tasks::ForceAsyncAwaiter System::Threading::Tasks::T
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskAwaiters::TaskAwaiters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

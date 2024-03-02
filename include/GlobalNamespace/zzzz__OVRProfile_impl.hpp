@@ -180,5 +180,3 @@ inline void GlobalNamespace::OVRProfile::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRProfile::OVRProfile() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

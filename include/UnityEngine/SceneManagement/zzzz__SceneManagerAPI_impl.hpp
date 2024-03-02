@@ -149,5 +149,3 @@ inline ::UnityEngine::AsyncOperation* UnityEngine::SceneManagement::SceneManager
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SceneManagement::SceneManagerAPI::SceneManagerAPI() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

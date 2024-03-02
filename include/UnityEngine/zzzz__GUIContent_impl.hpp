@@ -316,5 +316,3 @@ inline ::StringW UnityEngine::GUIContent::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUIContent::GUIContent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

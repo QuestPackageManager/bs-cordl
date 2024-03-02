@@ -103,5 +103,3 @@ inline ::ArrayW<int32_t, ::Array<int32_t>*> Org::BouncyCastle::Bcpg::Sig::Prefer
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::PreferredAlgorithms() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

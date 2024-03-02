@@ -23,5 +23,3 @@ inline bool System::Xml::BinaryCompatibility::get_TargetsAtLeast_Desktop_V4_5_2(
 }
 // Ctor Parameters []
 constexpr ::System::Xml::BinaryCompatibility::BinaryCompatibility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -187,5 +187,3 @@ inline void HoudiniEngineUnity::HEU_WorkItemTally::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_WorkItemTally::HEU_WorkItemTally() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

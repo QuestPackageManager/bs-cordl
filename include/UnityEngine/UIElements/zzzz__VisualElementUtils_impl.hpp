@@ -84,5 +84,3 @@ inline int32_t UnityEngine::UIElements::VisualElementUtils::GetListAndFoldoutDep
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementUtils::VisualElementUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

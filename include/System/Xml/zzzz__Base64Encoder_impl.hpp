@@ -121,5 +121,3 @@ inline void System::Xml::Base64Encoder::Flush() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Base64Encoder::Base64Encoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

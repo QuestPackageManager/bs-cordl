@@ -9,5 +9,3 @@ constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility::Ass
 constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility System::Configuration::Assemblies::AssemblyVersionCompatibility::SameMachine{ static_cast<int32_t>(0x1) };
 constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility System::Configuration::Assemblies::AssemblyVersionCompatibility::SameProcess{ static_cast<int32_t>(0x2) };
 constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility System::Configuration::Assemblies::AssemblyVersionCompatibility::SameDomain{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

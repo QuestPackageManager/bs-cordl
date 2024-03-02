@@ -64,5 +64,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::PointerState::PointerState(uint3
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::PointerState::PointerState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

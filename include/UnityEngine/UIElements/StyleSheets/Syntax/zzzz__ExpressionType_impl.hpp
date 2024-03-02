@@ -10,5 +10,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType UnityEn
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType::Data{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType::Keyword{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType::Combinator{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -105,5 +105,3 @@ template <typename T> inline void UnityEngine::ProBuilder::KdTree::Math::TypeMat
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::TypeMath_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -29,5 +29,3 @@ inline void Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature::_ctor(bool critical
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::EmbeddedSignature::EmbeddedSignature() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

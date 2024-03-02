@@ -152,5 +152,3 @@ inline float_t UnityEngine::ProBuilder::HSVColor::SqrDistance(::UnityEngine::Pro
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::HSVColor::HSVColor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

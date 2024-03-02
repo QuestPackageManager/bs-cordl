@@ -33,5 +33,3 @@ inline ::UnityW<::UnityEngine::RenderTexture> GlobalNamespace::PseudoHDREncoding
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PseudoHDREncoding::PseudoHDREncoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -61,5 +61,3 @@ constexpr ::UnityEngine::UIElements::StyleVariable::StyleVariable(::StringW name
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleVariable::StyleVariable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -31,5 +31,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResul
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Media::Media() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

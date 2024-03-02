@@ -18,5 +18,3 @@ constexpr ::System::Net::Sockets::SocketOperation System::Net::Sockets::SocketOp
 constexpr ::System::Net::Sockets::SocketOperation System::Net::Sockets::SocketOperation::AcceptReceive{ static_cast<int32_t>(0x9) };
 constexpr ::System::Net::Sockets::SocketOperation System::Net::Sockets::SocketOperation::ReceiveGeneric{ static_cast<int32_t>(0xa) };
 constexpr ::System::Net::Sockets::SocketOperation System::Net::Sockets::SocketOperation::SendGeneric{ static_cast<int32_t>(0xb) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

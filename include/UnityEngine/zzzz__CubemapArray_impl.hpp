@@ -285,5 +285,3 @@ inline void UnityEngine::CubemapArray::ValidateIsNotCrunched(::UnityEngine::Expe
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CubemapArray::CubemapArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -259,5 +259,3 @@ inline void UnityEngine::InputSystem::TrackedDevice::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::TrackedDevice::TrackedDevice() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

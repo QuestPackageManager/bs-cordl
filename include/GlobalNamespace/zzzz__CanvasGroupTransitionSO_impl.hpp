@@ -211,5 +211,3 @@ inline void GlobalNamespace::CanvasGroupTransitionSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CanvasGroupTransitionSO::CanvasGroupTransitionSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

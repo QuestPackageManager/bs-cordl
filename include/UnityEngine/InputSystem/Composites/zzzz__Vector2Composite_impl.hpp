@@ -155,5 +155,3 @@ inline void UnityEngine::InputSystem::Composites::Vector2Composite::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Composites::Vector2Composite::Vector2Composite() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

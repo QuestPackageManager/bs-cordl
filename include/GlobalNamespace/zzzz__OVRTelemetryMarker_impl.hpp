@@ -428,5 +428,3 @@ constexpr ::GlobalNamespace::OVRTelemetryMarker::OVRTelemetryMarker(::GlobalName
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTelemetryMarker::OVRTelemetryMarker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

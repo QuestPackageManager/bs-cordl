@@ -225,5 +225,3 @@ inline void UnityEngine::ProBuilder::MeshOperations::MergeElements::CollapseCoin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::MergeElements::MergeElements() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1012,5 +1012,3 @@ inline bool System::ComponentModel::EventDescriptorCollection::System_Collection
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::EventDescriptorCollection::EventDescriptorCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

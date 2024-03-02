@@ -126,5 +126,3 @@ inline void Oculus::Platform::CallbackRunner::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::CallbackRunner::CallbackRunner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

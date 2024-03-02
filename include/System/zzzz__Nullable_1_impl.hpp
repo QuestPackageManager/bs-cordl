@@ -68,5 +68,3 @@ template <typename T> constexpr ::System::Nullable_1<T>::Nullable_1(bool hasValu
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Nullable_1<T>::Nullable_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

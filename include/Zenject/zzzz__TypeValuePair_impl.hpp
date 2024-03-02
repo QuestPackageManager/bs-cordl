@@ -32,5 +32,3 @@ constexpr ::Zenject::TypeValuePair::TypeValuePair(::System::Type* Type, ::System
 }
 // Ctor Parameters []
 constexpr ::Zenject::TypeValuePair::TypeValuePair() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

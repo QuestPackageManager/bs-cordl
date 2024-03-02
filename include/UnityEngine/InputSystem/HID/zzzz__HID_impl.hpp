@@ -1527,5 +1527,3 @@ inline void UnityEngine::InputSystem::HID::HID::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::HID::HID::HID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

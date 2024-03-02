@@ -88,5 +88,3 @@ inline void ENet::PacketFreeCallback::EndInvoke(::System::IAsyncResult* result) 
 }
 // Ctor Parameters []
 constexpr ::ENet::PacketFreeCallback::PacketFreeCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

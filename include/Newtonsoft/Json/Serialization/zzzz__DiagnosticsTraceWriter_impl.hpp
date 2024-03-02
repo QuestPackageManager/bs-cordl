@@ -138,5 +138,3 @@ inline void Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::DiagnosticsTraceWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

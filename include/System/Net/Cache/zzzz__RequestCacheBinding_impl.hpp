@@ -130,5 +130,3 @@ inline ::System::Net::Cache::RequestCachePolicy* System::Net::Cache::RequestCach
 }
 // Ctor Parameters []
 constexpr ::System::Net::Cache::RequestCacheBinding::RequestCacheBinding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

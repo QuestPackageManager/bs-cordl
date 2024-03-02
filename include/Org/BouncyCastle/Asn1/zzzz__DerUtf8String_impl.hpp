@@ -169,5 +169,3 @@ inline void Org::BouncyCastle::Asn1::DerUtf8String::Encode(::Org::BouncyCastle::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerUtf8String::DerUtf8String() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

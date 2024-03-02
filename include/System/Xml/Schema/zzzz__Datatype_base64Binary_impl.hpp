@@ -210,5 +210,3 @@ inline void System::Xml::Schema::Datatype_base64Binary::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_base64Binary::Datatype_base64Binary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

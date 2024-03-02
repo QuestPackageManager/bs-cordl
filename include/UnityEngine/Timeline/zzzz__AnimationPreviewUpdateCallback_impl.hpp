@@ -118,5 +118,3 @@ inline void UnityEngine::Timeline::AnimationPreviewUpdateCallback::FetchPreviewC
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::AnimationPreviewUpdateCallback::AnimationPreviewUpdateCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

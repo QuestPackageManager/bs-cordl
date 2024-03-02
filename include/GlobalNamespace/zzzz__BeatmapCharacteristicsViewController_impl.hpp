@@ -256,5 +256,3 @@ inline void GlobalNamespace::BeatmapCharacteristicsViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicsViewController::BeatmapCharacteristicsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

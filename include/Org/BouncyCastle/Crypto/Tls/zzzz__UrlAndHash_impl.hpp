@@ -138,5 +138,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* Org::BouncyCastle::Crypto::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::UrlAndHash::UrlAndHash() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

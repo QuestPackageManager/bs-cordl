@@ -92,5 +92,3 @@ inline void GlobalNamespace::MissionLevelReturnToMenuController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionLevelReturnToMenuController::MissionLevelReturnToMenuController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

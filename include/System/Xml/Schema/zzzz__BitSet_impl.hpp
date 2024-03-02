@@ -345,5 +345,3 @@ inline void System::Xml::Schema::BitSet::EnsureLength(int32_t nRequiredLength) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::BitSet::BitSet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

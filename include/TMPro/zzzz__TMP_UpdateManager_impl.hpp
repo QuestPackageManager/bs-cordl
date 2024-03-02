@@ -494,5 +494,3 @@ inline void TMPro::TMP_UpdateManager::InternalUnRegisterTextObjectForUpdate(::TM
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_UpdateManager::TMP_UpdateManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

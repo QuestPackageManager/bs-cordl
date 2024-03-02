@@ -318,5 +318,3 @@ GlobalNamespace::MockPlatformAdditionalContentModel::OpenLevelPackProductStoreAs
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlatformAdditionalContentModel::MockPlatformAdditionalContentModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

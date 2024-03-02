@@ -383,5 +383,3 @@ inline float_t GlobalNamespace::SaberMovementData::ComputeSwingRating(bool overr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberMovementData::SaberMovementData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

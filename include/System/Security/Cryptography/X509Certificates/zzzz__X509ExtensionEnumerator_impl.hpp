@@ -137,5 +137,3 @@ inline void System::Security::Cryptography::X509Certificates::X509ExtensionEnume
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator::X509ExtensionEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

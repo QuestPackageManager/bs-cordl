@@ -70,5 +70,3 @@ BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData::_ctor(::S
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData::SpecialEventKeywordFiltersData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

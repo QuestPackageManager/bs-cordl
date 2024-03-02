@@ -440,5 +440,3 @@ inline ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SceneStartHandler::SceneStartHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

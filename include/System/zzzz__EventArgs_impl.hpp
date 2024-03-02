@@ -30,5 +30,3 @@ inline void System::EventArgs::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::EventArgs::EventArgs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

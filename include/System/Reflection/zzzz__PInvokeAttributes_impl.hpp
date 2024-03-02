@@ -28,5 +28,3 @@ constexpr ::System::Reflection::PInvokeAttributes System::Reflection::PInvokeAtt
 constexpr ::System::Reflection::PInvokeAttributes System::Reflection::PInvokeAttributes::CallConvThiscall{ static_cast<int32_t>(0x400) };
 constexpr ::System::Reflection::PInvokeAttributes System::Reflection::PInvokeAttributes::CallConvFastcall{ static_cast<int32_t>(0x500) };
 constexpr ::System::Reflection::PInvokeAttributes System::Reflection::PInvokeAttributes::MaxValue{ static_cast<int32_t>(0xffff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

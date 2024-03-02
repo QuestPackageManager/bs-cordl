@@ -173,5 +173,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::Evid
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::Evidence::Evidence() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

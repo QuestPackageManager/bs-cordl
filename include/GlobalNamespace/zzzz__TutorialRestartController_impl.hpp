@@ -65,5 +65,3 @@ inline void GlobalNamespace::TutorialRestartController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TutorialRestartController::TutorialRestartController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

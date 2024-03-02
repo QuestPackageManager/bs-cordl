@@ -42,5 +42,3 @@ constexpr ::TMPro::TMP_Vertex::TMP_Vertex(::UnityEngine::Vector3 position, ::Uni
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Vertex::TMP_Vertex() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

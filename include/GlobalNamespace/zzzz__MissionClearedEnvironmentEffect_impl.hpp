@@ -111,5 +111,3 @@ inline void GlobalNamespace::MissionClearedEnvironmentEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionClearedEnvironmentEffect::MissionClearedEnvironmentEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

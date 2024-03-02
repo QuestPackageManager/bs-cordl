@@ -264,5 +264,3 @@ inline void GlobalNamespace::GameplayLevelSceneTransitionEvents::InvokeAnyGamepl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents::GameplayLevelSceneTransitionEvents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -770,5 +770,3 @@ inline int32_t Org::BouncyCastle::Math::EC::F2mFieldElement::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::F2mFieldElement::F2mFieldElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

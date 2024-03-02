@@ -9,5 +9,3 @@ constexpr ::Oculus::Platform::NetSyncVoipStreamMode::NetSyncVoipStreamMode() {}
 constexpr ::Oculus::Platform::NetSyncVoipStreamMode Oculus::Platform::NetSyncVoipStreamMode::Unknown{ static_cast<int32_t>(0x0) };
 constexpr ::Oculus::Platform::NetSyncVoipStreamMode Oculus::Platform::NetSyncVoipStreamMode::Ambisonic{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::NetSyncVoipStreamMode Oculus::Platform::NetSyncVoipStreamMode::Mono{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

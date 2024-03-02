@@ -17,5 +17,3 @@ constexpr ::System::Net::NetworkInformation::MacOsStructs::ifaddrs::ifaddrs(void
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::MacOsStructs::ifaddrs::ifaddrs() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

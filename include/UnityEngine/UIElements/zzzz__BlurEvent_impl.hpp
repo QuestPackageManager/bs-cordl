@@ -45,5 +45,3 @@ inline void UnityEngine::UIElements::BlurEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BlurEvent::BlurEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

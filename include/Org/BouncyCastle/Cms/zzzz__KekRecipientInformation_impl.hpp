@@ -67,5 +67,3 @@ inline ::Org::BouncyCastle::Cms::CmsTypedStream* Org::BouncyCastle::Cms::KekReci
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::KekRecipientInformation::KekRecipientInformation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

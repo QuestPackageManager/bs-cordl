@@ -273,5 +273,3 @@ inline ::StringW System::Security::Claims::ClaimsPrincipal::SerializeIdentities(
 }
 // Ctor Parameters []
 constexpr ::System::Security::Claims::ClaimsPrincipal::ClaimsPrincipal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

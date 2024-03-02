@@ -13,5 +13,3 @@ constexpr ::System::Runtime::InteropServices::DllImportSearchPath System::Runtim
 constexpr ::System::Runtime::InteropServices::DllImportSearchPath System::Runtime::InteropServices::DllImportSearchPath::SafeDirectories{ static_cast<int32_t>(0x1000) };
 constexpr ::System::Runtime::InteropServices::DllImportSearchPath System::Runtime::InteropServices::DllImportSearchPath::AssemblyDirectory{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::InteropServices::DllImportSearchPath System::Runtime::InteropServices::DllImportSearchPath::LegacyBehavior{ static_cast<int32_t>(0x0) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

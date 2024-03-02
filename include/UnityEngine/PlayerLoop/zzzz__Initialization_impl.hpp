@@ -17,5 +17,3 @@ constexpr ::UnityEngine::PlayerLoop::__Initialization__SynchronizeInputs::__Init
 constexpr ::UnityEngine::PlayerLoop::__Initialization__XREarlyUpdate::__Initialization__XREarlyUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::Initialization::Initialization() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -438,5 +438,3 @@ constexpr ::ENet::SslConfiguration::SslConfiguration(::ENet::ENetSslConfiguratio
 }
 // Ctor Parameters []
 constexpr ::ENet::SslConfiguration::SslConfiguration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

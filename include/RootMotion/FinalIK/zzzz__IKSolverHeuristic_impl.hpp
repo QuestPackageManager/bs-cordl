@@ -459,5 +459,3 @@ inline void RootMotion::FinalIK::IKSolverHeuristic::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::IKSolverHeuristic::IKSolverHeuristic() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

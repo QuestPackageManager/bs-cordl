@@ -98,5 +98,3 @@ inline void UnityEngine::UIElements::UxmlAttributeOverridesFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlAttributeOverridesFactory::UxmlAttributeOverridesFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

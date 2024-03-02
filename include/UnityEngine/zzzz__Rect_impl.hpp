@@ -833,5 +833,3 @@ constexpr ::UnityEngine::Rect::Rect(float_t m_XMin, float_t m_YMin, float_t m_Wi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rect::Rect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

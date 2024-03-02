@@ -1513,5 +1513,3 @@ inline ::System::Xml::Linq::XDocument* Newtonsoft::Json::JsonConvert::Deserializ
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::JsonConvert::JsonConvert() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

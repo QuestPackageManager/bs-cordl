@@ -436,5 +436,3 @@ inline void UnityEngine::UIElements::Focusable::ProcessEvent(::UnityEngine::UIEl
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Focusable::Focusable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

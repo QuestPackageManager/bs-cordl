@@ -24,5 +24,3 @@ inline void UnityEngine::SerializeField::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SerializeField::SerializeField() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

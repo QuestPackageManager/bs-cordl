@@ -94,5 +94,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Paramet
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters::Gost3410PublicKeyParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

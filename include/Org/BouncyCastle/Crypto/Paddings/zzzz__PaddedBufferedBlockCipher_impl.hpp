@@ -204,5 +204,3 @@ inline int32_t Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::D
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::PaddedBufferedBlockCipher() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

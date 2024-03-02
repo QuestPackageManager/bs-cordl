@@ -370,5 +370,3 @@ inline void GlobalNamespace::SimpleTextureLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SimpleTextureLoader::SimpleTextureLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

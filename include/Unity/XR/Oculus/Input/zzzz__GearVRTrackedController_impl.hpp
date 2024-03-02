@@ -743,5 +743,3 @@ inline void Unity::XR::Oculus::Input::GearVRTrackedController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::Input::GearVRTrackedController::GearVRTrackedController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

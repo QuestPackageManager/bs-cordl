@@ -305,5 +305,3 @@ inline void GlobalNamespace::MultiplayerLeadPlayerProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLeadPlayerProvider::MultiplayerLeadPlayerProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

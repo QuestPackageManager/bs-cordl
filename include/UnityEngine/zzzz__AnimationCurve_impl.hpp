@@ -392,5 +392,3 @@ inline int32_t UnityEngine::AnimationCurve::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AnimationCurve::AnimationCurve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

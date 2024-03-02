@@ -37,5 +37,3 @@ constexpr ::System::Threading::CancellationCallbackCoreWorkArguments::Cancellati
 }
 // Ctor Parameters []
 constexpr ::System::Threading::CancellationCallbackCoreWorkArguments::CancellationCallbackCoreWorkArguments() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

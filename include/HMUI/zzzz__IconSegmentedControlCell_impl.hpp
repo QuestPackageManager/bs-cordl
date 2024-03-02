@@ -163,5 +163,3 @@ inline void HMUI::IconSegmentedControlCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::IconSegmentedControlCell::IconSegmentedControlCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

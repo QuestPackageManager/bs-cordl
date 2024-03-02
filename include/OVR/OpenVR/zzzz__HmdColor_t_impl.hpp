@@ -10,5 +10,3 @@ constexpr ::OVR::OpenVR::HmdColor_t::HmdColor_t(float_t r, float_t g, float_t b,
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::HmdColor_t::HmdColor_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

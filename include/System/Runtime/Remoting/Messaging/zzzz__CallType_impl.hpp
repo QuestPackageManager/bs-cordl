@@ -10,5 +10,3 @@ constexpr ::System::Runtime::Remoting::Messaging::CallType System::Runtime::Remo
 constexpr ::System::Runtime::Remoting::Messaging::CallType System::Runtime::Remoting::Messaging::CallType::BeginInvoke{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::Remoting::Messaging::CallType System::Runtime::Remoting::Messaging::CallType::EndInvoke{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::Remoting::Messaging::CallType System::Runtime::Remoting::Messaging::CallType::OneWay{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

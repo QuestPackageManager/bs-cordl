@@ -117,5 +117,3 @@ inline void GlobalNamespace::InternetConnectionChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::InternetConnectionChecker::InternetConnectionChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

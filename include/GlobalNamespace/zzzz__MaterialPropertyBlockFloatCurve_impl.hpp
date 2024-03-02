@@ -83,5 +83,3 @@ inline void GlobalNamespace::MaterialPropertyBlockFloatCurve::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MaterialPropertyBlockFloatCurve::MaterialPropertyBlockFloatCurve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

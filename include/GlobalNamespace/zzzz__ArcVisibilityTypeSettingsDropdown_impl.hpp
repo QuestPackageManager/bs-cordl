@@ -51,5 +51,3 @@ inline void GlobalNamespace::ArcVisibilityTypeSettingsDropdown::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown::ArcVisibilityTypeSettingsDropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

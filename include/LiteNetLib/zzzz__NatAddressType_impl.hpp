@@ -8,5 +8,3 @@ constexpr ::LiteNetLib::NatAddressType::NatAddressType(int32_t value__) noexcept
 constexpr ::LiteNetLib::NatAddressType::NatAddressType() {}
 constexpr ::LiteNetLib::NatAddressType LiteNetLib::NatAddressType::Internal{ static_cast<int32_t>(0x0) };
 constexpr ::LiteNetLib::NatAddressType LiteNetLib::NatAddressType::External{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

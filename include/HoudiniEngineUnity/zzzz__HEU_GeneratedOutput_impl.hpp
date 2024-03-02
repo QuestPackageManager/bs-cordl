@@ -474,5 +474,3 @@ inline void HoudiniEngineUnity::HEU_GeneratedOutput::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_GeneratedOutput::HEU_GeneratedOutput() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

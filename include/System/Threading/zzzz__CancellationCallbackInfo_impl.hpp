@@ -139,5 +139,3 @@ inline void System::Threading::CancellationCallbackInfo::ExecutionContextCallbac
 }
 // Ctor Parameters []
 constexpr ::System::Threading::CancellationCallbackInfo::CancellationCallbackInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

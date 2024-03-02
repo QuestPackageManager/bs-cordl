@@ -40,5 +40,3 @@ inline void Oculus::Platform::Models::LaunchInvitePanelFlowResult::_ctor(void* o
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::LaunchInvitePanelFlowResult::LaunchInvitePanelFlowResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

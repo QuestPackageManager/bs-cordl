@@ -130,5 +130,3 @@ inline void Org::BouncyCastle::Asn1::X9::ECNamedCurveTable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable::ECNamedCurveTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

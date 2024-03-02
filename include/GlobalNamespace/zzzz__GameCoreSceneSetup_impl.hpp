@@ -82,5 +82,3 @@ inline void GlobalNamespace::GameCoreSceneSetup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameCoreSceneSetup::GameCoreSceneSetup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

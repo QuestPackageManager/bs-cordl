@@ -428,5 +428,3 @@ inline bool UnityEngine::UIElements::UIR::Page::get_isEmpty() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Page::Page() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

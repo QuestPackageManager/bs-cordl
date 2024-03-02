@@ -326,5 +326,3 @@ inline void GlobalNamespace::ColorSchemeDropdown::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSchemeDropdown::ColorSchemeDropdown() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

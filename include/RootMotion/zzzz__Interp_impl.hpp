@@ -689,5 +689,3 @@ inline void RootMotion::Interp::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::Interp::Interp() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

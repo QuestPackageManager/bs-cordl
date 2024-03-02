@@ -24,5 +24,3 @@ inline void System::Xml::Schema::Datatype_dateTime::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_dateTime::Datatype_dateTime() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

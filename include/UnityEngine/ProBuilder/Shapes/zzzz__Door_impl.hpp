@@ -93,5 +93,3 @@ inline void UnityEngine::ProBuilder::Shapes::Door::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Door::Door() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

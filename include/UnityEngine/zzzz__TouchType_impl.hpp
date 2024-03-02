@@ -9,5 +9,3 @@ constexpr ::UnityEngine::TouchType::TouchType() {}
 constexpr ::UnityEngine::TouchType UnityEngine::TouchType::Direct{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::TouchType UnityEngine::TouchType::Indirect{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::TouchType UnityEngine::TouchType::Stylus{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

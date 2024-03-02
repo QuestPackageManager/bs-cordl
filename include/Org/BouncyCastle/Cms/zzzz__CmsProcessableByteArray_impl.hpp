@@ -181,5 +181,3 @@ inline ::System::Object* Org::BouncyCastle::Cms::CmsProcessableByteArray::GetCon
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsProcessableByteArray::CmsProcessableByteArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::OpenProductStoreResult::OpenProductStoreResult(int3
 constexpr ::GlobalNamespace::OpenProductStoreResult::OpenProductStoreResult() {}
 constexpr ::GlobalNamespace::OpenProductStoreResult GlobalNamespace::OpenProductStoreResult::OK{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OpenProductStoreResult GlobalNamespace::OpenProductStoreResult::Failed{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -293,5 +293,3 @@ inline void HMUI::KeyboardBinder::ManualUpdate() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::KeyboardBinder::KeyboardBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

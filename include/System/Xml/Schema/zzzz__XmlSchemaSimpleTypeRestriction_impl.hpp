@@ -72,5 +72,3 @@ inline void System::Xml::Schema::XmlSchemaSimpleTypeRestriction::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction::XmlSchemaSimpleTypeRestriction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

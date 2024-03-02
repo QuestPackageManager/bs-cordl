@@ -1,3 +1,5 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSelectionViewController_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSelectionViewController_impl.hpp"
+#endif

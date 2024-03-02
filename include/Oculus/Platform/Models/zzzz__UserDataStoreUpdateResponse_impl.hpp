@@ -39,5 +39,3 @@ inline void Oculus::Platform::Models::UserDataStoreUpdateResponse::_ctor(void* o
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::UserDataStoreUpdateResponse::UserDataStoreUpdateResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

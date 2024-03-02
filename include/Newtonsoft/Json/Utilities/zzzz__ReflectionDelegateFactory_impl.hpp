@@ -114,5 +114,3 @@ inline void Newtonsoft::Json::Utilities::ReflectionDelegateFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory::ReflectionDelegateFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

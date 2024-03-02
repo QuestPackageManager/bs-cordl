@@ -239,5 +239,3 @@ inline void System::CultureAwareComparer::GetObjectData(::System::Runtime::Seria
 }
 // Ctor Parameters []
 constexpr ::System::CultureAwareComparer::CultureAwareComparer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

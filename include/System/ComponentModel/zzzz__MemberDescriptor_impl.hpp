@@ -539,5 +539,3 @@ inline ::System::ComponentModel::ISite* System::ComponentModel::MemberDescriptor
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::MemberDescriptor::MemberDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

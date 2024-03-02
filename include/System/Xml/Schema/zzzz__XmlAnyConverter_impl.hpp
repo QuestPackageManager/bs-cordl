@@ -443,5 +443,3 @@ inline ::System::Xml::XPath::XPathNavigator* System::Xml::Schema::XmlAnyConverte
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlAnyConverter::XmlAnyConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

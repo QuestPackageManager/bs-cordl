@@ -51,5 +51,3 @@ inline void Oculus::Platform::Models::LaunchBlockFlowResult::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::LaunchBlockFlowResult::LaunchBlockFlowResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

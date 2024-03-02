@@ -2683,5 +2683,3 @@ inline ::StringW System::Xml::DtdParser::StripSpaces(::StringW value) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::DtdParser::DtdParser() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -113,5 +113,3 @@ inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* Org::Boun
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters::SM2KeyExchangePublicParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

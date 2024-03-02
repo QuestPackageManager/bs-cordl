@@ -69,5 +69,3 @@ inline ::Oculus::Platform::Models::ChallengeList* Oculus::Platform::MessageWithC
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithChallengeList::MessageWithChallengeList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1055,5 +1055,3 @@ inline void GlobalNamespace::PSVR2Helper::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PSVR2Helper::PSVR2Helper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

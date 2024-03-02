@@ -279,5 +279,3 @@ inline void GlobalNamespace::RumbleHapticFeedbackPlayer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RumbleHapticFeedbackPlayer::RumbleHapticFeedbackPlayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -205,5 +205,3 @@ constexpr ::UnityEngine::Rendering::CameraProperties::CameraProperties(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::CameraProperties::CameraProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -4016,5 +4016,3 @@ inline int64_t UnityEngine::InputSystem::InputManager::_TryFindMatchingControlLa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputManager::InputManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

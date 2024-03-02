@@ -457,5 +457,3 @@ inline void RootMotion::FinalIK::Finger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::Finger::Finger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

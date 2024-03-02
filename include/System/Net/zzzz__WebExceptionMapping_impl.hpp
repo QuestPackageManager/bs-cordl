@@ -31,5 +31,3 @@ inline ::StringW System::Net::WebExceptionMapping::GetWebStatusString(::System::
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebExceptionMapping::WebExceptionMapping() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -303,5 +303,3 @@ inline void System::Text::EncoderNLS::ClearMustFlush() {
 }
 // Ctor Parameters []
 constexpr ::System::Text::EncoderNLS::EncoderNLS() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

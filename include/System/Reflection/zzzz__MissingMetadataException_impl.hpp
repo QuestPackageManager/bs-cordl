@@ -24,5 +24,3 @@ inline void System::Reflection::MissingMetadataException::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::MissingMetadataException::MissingMetadataException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

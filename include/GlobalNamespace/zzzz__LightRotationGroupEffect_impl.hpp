@@ -311,5 +311,3 @@ inline float_t GlobalNamespace::LightRotationGroupEffect::ComputeTargetAngle(flo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightRotationGroupEffect::LightRotationGroupEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

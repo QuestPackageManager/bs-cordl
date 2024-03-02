@@ -61,5 +61,3 @@ inline void GlobalNamespace::RecordingToolSceneSetupData::_ctor(::GlobalNamespac
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolSceneSetupData::RecordingToolSceneSetupData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

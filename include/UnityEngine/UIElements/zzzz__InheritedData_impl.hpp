@@ -192,5 +192,3 @@ constexpr ::UnityEngine::UIElements::InheritedData::InheritedData(::UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::InheritedData::InheritedData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

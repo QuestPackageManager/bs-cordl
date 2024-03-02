@@ -6,5 +6,3 @@ constexpr ::OVR::OpenVR::VREvent_WebConsole_t::VREvent_WebConsole_t(uint64_t web
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_WebConsole_t::VREvent_WebConsole_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

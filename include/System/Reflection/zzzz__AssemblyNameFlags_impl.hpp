@@ -11,5 +11,3 @@ constexpr ::System::Reflection::AssemblyNameFlags System::Reflection::AssemblyNa
 constexpr ::System::Reflection::AssemblyNameFlags System::Reflection::AssemblyNameFlags::EnableJITcompileOptimizer{ static_cast<int32_t>(0x4000) };
 constexpr ::System::Reflection::AssemblyNameFlags System::Reflection::AssemblyNameFlags::EnableJITcompileTracking{ static_cast<int32_t>(0x8000) };
 constexpr ::System::Reflection::AssemblyNameFlags System::Reflection::AssemblyNameFlags::Retargetable{ static_cast<int32_t>(0x100) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

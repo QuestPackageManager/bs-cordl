@@ -25,5 +25,3 @@ inline void UnityEngine::ThreadAndSerializationSafeAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ThreadAndSerializationSafeAttribute::ThreadAndSerializationSafeAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

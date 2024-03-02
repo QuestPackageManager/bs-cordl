@@ -642,5 +642,3 @@ inline void OVRSimpleJSON::JSONArray::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::OVRSimpleJSON::JSONArray::JSONArray() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

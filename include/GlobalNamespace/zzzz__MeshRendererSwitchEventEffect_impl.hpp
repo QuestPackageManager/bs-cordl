@@ -178,5 +178,3 @@ inline void GlobalNamespace::MeshRendererSwitchEventEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MeshRendererSwitchEventEffect::MeshRendererSwitchEventEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -256,5 +256,3 @@ inline void UnityEngine::ProBuilder::KdTree::Math::DoubleMath::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::DoubleMath() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

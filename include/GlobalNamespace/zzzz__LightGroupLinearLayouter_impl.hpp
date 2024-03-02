@@ -70,5 +70,3 @@ inline void GlobalNamespace::LightGroupLinearLayouter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroupLinearLayouter::LightGroupLinearLayouter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

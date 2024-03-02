@@ -113,5 +113,3 @@ inline void GlobalNamespace::OtherSettingsViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OtherSettingsViewController::OtherSettingsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

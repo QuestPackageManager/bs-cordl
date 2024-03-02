@@ -160,5 +160,3 @@ inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Org::BouncyCastle::Ocsp:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::SingleResp::SingleResp() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

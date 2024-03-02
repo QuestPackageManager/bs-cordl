@@ -120,5 +120,3 @@ inline bool UnityEngine::UIElements::StyleSheets::StylePropertyUtil::IsMatchingS
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::StylePropertyUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -139,5 +139,3 @@ inline ::StringW Newtonsoft::Json::Utilities::JavaScriptUtils::ToEscapedJavaScri
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Utilities::JavaScriptUtils::JavaScriptUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

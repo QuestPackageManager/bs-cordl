@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::EnvironmentContext::EnvironmentContext(int32_t valu
 constexpr ::GlobalNamespace::EnvironmentContext::EnvironmentContext() {}
 constexpr ::GlobalNamespace::EnvironmentContext GlobalNamespace::EnvironmentContext::Gameplay{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::EnvironmentContext GlobalNamespace::EnvironmentContext::BeatmapEditor{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

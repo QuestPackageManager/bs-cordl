@@ -152,5 +152,3 @@ inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* Org::BouncyCast
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::CertificateConfirmationContentBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

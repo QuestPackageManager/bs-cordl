@@ -41,5 +41,3 @@ inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker::_ctor(::Org::BouncyCast
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker::PgpMarker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -825,5 +825,3 @@ inline ::Unity::Collections::NativeArray_1<T> GlobalNamespace::OVRExtensions::To
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRExtensions::OVRExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -47,5 +47,3 @@ constexpr ::System::Xml::LineInfo::LineInfo(int32_t lineNo, int32_t linePos) noe
 }
 // Ctor Parameters []
 constexpr ::System::Xml::LineInfo::LineInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

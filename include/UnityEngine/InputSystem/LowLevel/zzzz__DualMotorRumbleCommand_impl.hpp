@@ -112,5 +112,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::DualMotorRumbleCommand::DualMoto
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::DualMotorRumbleCommand::DualMotorRumbleCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

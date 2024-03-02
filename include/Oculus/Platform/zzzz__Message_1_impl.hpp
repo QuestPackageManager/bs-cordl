@@ -66,5 +66,3 @@ template <typename T> inline T Oculus::Platform::Message_1<T>::GetDataFromMessag
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Oculus::Platform::Message_1<T>::Message_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

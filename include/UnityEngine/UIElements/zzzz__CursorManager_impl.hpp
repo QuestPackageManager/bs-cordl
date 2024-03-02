@@ -125,5 +125,3 @@ inline void UnityEngine::UIElements::CursorManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::CursorManager::CursorManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

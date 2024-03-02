@@ -182,5 +182,3 @@ inline void GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::BeatmapEditorScenesTransitionSetupDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

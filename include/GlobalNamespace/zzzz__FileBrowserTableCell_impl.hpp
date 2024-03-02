@@ -141,5 +141,3 @@ inline void GlobalNamespace::FileBrowserTableCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileBrowserTableCell::FileBrowserTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

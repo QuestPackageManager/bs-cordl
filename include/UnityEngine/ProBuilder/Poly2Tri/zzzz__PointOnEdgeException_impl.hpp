@@ -75,5 +75,3 @@ inline void UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::_ctor(::Str
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::PointOnEdgeException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

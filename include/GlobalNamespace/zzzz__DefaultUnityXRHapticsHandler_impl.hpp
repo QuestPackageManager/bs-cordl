@@ -137,5 +137,3 @@ inline void GlobalNamespace::DefaultUnityXRHapticsHandler::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DefaultUnityXRHapticsHandler::DefaultUnityXRHapticsHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

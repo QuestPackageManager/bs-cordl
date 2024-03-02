@@ -11,5 +11,3 @@ constexpr ::UnityEngineInternal::Input::NativeInputEventType UnityEngineInternal
 constexpr ::UnityEngineInternal::Input::NativeInputEventType UnityEngineInternal::Input::NativeInputEventType::Text{ static_cast<int32_t>(0x54455854) };
 constexpr ::UnityEngineInternal::Input::NativeInputEventType UnityEngineInternal::Input::NativeInputEventType::State{ static_cast<int32_t>(0x53544154) };
 constexpr ::UnityEngineInternal::Input::NativeInputEventType UnityEngineInternal::Input::NativeInputEventType::Delta{ static_cast<int32_t>(0x444c5441) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -434,5 +434,3 @@ inline void GlobalNamespace::LobbyStateDataModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LobbyStateDataModel::LobbyStateDataModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

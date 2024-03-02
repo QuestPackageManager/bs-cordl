@@ -307,5 +307,3 @@ inline void Org::BouncyCastle::Cms::CmsUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsUtilities::CmsUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -2642,5 +2642,3 @@ inline void UnityEngine::InputSystem::UI::InputSystemUIInputModule::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::InputSystemUIInputModule::InputSystemUIInputModule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

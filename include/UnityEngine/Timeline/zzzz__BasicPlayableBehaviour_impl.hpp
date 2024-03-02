@@ -281,5 +281,3 @@ inline void UnityEngine::Timeline::BasicPlayableBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::BasicPlayableBehaviour::BasicPlayableBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

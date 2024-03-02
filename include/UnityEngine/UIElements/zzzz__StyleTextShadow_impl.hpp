@@ -238,5 +238,3 @@ constexpr ::UnityEngine::UIElements::StyleTextShadow::StyleTextShadow(::UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleTextShadow::StyleTextShadow() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

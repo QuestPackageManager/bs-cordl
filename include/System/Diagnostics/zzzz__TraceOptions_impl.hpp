@@ -13,5 +13,3 @@ constexpr ::System::Diagnostics::TraceOptions System::Diagnostics::TraceOptions:
 constexpr ::System::Diagnostics::TraceOptions System::Diagnostics::TraceOptions::ProcessId{ static_cast<int32_t>(0x8) };
 constexpr ::System::Diagnostics::TraceOptions System::Diagnostics::TraceOptions::ThreadId{ static_cast<int32_t>(0x10) };
 constexpr ::System::Diagnostics::TraceOptions System::Diagnostics::TraceOptions::Callstack{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

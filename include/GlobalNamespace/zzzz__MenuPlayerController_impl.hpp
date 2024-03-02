@@ -140,5 +140,3 @@ inline void GlobalNamespace::MenuPlayerController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuPlayerController::MenuPlayerController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

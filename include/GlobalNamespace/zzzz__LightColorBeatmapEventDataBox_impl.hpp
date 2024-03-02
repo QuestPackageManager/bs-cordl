@@ -174,5 +174,3 @@ inline void GlobalNamespace::LightColorBeatmapEventDataBox::Unpack(float_t group
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorBeatmapEventDataBox::LightColorBeatmapEventDataBox() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -101,5 +101,3 @@ constexpr ::UnityEngine::XR::MeshId::MeshId(uint64_t m_SubId1, uint64_t m_SubId2
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::MeshId::MeshId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

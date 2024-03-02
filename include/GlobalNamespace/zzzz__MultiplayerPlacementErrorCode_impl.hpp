@@ -14,5 +14,3 @@ constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode GlobalNamespace::Mult
 constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode GlobalNamespace::MultiplayerPlacementErrorCode::AuthenticationFailed{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode GlobalNamespace::MultiplayerPlacementErrorCode::RequestTimeout{ static_cast<int32_t>(0x6) };
 constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode GlobalNamespace::MultiplayerPlacementErrorCode::MatchmakingTimeout{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

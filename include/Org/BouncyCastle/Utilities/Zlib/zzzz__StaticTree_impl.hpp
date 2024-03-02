@@ -141,5 +141,3 @@ inline void Org::BouncyCastle::Utilities::Zlib::StaticTree::_ctor(::ArrayW<int16
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::StaticTree::StaticTree() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -49,5 +49,3 @@ inline void GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene(boo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BakedLightUtils::BakedLightUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

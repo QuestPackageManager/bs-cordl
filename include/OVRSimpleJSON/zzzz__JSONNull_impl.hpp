@@ -252,5 +252,3 @@ inline void OVRSimpleJSON::JSONNull::WriteToStringBuilder(::System::Text::String
 }
 // Ctor Parameters []
 constexpr ::OVRSimpleJSON::JSONNull::JSONNull() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -197,5 +197,3 @@ inline void HMUI::InputFieldDataBinder::ClearBindings() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::InputFieldDataBinder::InputFieldDataBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

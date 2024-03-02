@@ -120,5 +120,3 @@ template <typename T> constexpr ::System::Memory_1<T>::Memory_1(::System::Object
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Memory_1<T>::Memory_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -132,5 +132,3 @@ inline void GlobalNamespace::ReportingCallbackSample::_Start_b__2_0(::Oculus::Pl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ReportingCallbackSample::ReportingCallbackSample() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -50,5 +50,3 @@ inline void GlobalNamespace::FxBaseData::_ctor(float_t beat, bool usePreviousEve
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FxBaseData::FxBaseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

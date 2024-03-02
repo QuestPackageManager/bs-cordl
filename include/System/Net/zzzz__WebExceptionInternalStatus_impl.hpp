@@ -10,5 +10,3 @@ constexpr ::System::Net::WebExceptionInternalStatus System::Net::WebExceptionInt
 constexpr ::System::Net::WebExceptionInternalStatus System::Net::WebExceptionInternalStatus::ServicePointFatal{ static_cast<int32_t>(0x1) };
 constexpr ::System::Net::WebExceptionInternalStatus System::Net::WebExceptionInternalStatus::Recoverable{ static_cast<int32_t>(0x2) };
 constexpr ::System::Net::WebExceptionInternalStatus System::Net::WebExceptionInternalStatus::Isolated{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

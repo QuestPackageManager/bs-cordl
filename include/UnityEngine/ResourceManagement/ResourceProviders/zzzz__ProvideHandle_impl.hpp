@@ -257,5 +257,3 @@ constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::P
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle::ProvideHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

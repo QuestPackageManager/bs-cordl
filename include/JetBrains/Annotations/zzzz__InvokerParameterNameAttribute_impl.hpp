@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::InvokerParameterNameAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::InvokerParameterNameAttribute::InvokerParameterNameAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

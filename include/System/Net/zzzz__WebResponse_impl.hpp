@@ -263,5 +263,3 @@ inline ::System::Net::WebHeaderCollection* System::Net::WebResponse::get_Headers
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebResponse::WebResponse() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

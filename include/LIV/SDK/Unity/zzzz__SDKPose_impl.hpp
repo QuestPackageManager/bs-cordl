@@ -61,5 +61,3 @@ constexpr ::LIV::SDK::Unity::SDKPose::SDKPose(::LIV::SDK::Unity::SDKMatrix4x4 pr
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKPose::SDKPose() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

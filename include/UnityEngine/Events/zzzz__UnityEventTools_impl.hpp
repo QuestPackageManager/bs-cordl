@@ -23,5 +23,3 @@ inline ::StringW UnityEngine::Events::UnityEventTools::TidyAssemblyTypeName(::St
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::UnityEventTools::UnityEventTools() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

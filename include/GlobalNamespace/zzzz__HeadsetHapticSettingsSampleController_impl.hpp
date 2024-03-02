@@ -197,5 +197,3 @@ inline void GlobalNamespace::HeadsetHapticSettingsSampleController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HeadsetHapticSettingsSampleController::HeadsetHapticSettingsSampleController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

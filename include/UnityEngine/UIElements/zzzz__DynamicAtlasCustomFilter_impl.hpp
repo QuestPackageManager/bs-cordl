@@ -51,5 +51,3 @@ inline bool UnityEngine::UIElements::DynamicAtlasCustomFilter::Invoke(::UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter::DynamicAtlasCustomFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

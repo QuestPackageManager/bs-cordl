@@ -68,5 +68,3 @@ inline ::Oculus::Platform::Models::PartyID* Oculus::Platform::MessageWithPartyID
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithPartyID::MessageWithPartyID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

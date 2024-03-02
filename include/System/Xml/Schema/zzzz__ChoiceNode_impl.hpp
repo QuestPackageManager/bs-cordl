@@ -119,5 +119,3 @@ inline void System::Xml::Schema::ChoiceNode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::ChoiceNode::ChoiceNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -196,5 +196,3 @@ Oculus::Platform::Achievements::GetNextAchievementProgressListPage(::Oculus::Pla
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Achievements::Achievements() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -110,5 +110,3 @@ inline void GlobalNamespace::PathsHolder::UpdateVertexPathByBezierPath() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PathsHolder::PathsHolder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -214,5 +214,3 @@ inline void UnityEngine::SpringJoint::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SpringJoint::SpringJoint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

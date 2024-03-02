@@ -1112,5 +1112,3 @@ BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::GetSpa
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel::EnvironmentTrackDefinitionModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

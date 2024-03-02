@@ -219,5 +219,3 @@ inline void GlobalNamespace::BeatmapEventDataBoxGroupList::SyncWithBeatmapData()
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEventDataBoxGroupList::BeatmapEventDataBoxGroupList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

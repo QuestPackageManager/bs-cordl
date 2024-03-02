@@ -648,5 +648,3 @@ inline void Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder::AddOptional(::Org::B
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder::PkiHeaderBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

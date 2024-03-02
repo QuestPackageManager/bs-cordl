@@ -50,5 +50,3 @@ inline ::System::Net::AuthenticationSchemes System::Net::AuthenticationSchemeSel
 }
 // Ctor Parameters []
 constexpr ::System::Net::AuthenticationSchemeSelector::AuthenticationSchemeSelector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -105,5 +105,3 @@ inline bool GlobalNamespace::FileSystemHelper::IsFileWritable(::StringW path) {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileSystemHelper::FileSystemHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -114,5 +114,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::MessageEnd::Dump
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::MessageEnd::MessageEnd() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

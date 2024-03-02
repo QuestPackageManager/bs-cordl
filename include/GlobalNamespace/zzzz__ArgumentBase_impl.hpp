@@ -123,5 +123,3 @@ inline void GlobalNamespace::ArgumentBase::Reset() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ArgumentBase::ArgumentBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

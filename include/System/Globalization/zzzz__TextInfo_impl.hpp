@@ -829,5 +829,3 @@ inline void System::Globalization::TextInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::TextInfo::TextInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

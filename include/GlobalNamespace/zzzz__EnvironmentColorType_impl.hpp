@@ -10,5 +10,3 @@ constexpr ::GlobalNamespace::EnvironmentColorType GlobalNamespace::EnvironmentCo
 constexpr ::GlobalNamespace::EnvironmentColorType GlobalNamespace::EnvironmentColorType::Color0{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::EnvironmentColorType GlobalNamespace::EnvironmentColorType::Color1{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::EnvironmentColorType GlobalNamespace::EnvironmentColorType::ColorW{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -175,5 +175,3 @@ inline void Zenject::SignalCopyBinder::SetInheritanceMethod(::Zenject::BindingIn
 }
 // Ctor Parameters []
 constexpr ::Zenject::SignalCopyBinder::SignalCopyBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -275,5 +275,3 @@ inline void GlobalNamespace::PosesRecorder::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PosesRecorder::PosesRecorder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

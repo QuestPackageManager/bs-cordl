@@ -322,5 +322,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::TermInfoReader::GetStringByt
 }
 // Ctor Parameters []
 constexpr ::System::TermInfoReader::TermInfoReader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

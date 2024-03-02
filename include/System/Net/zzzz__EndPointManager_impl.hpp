@@ -190,5 +190,3 @@ inline void System::Net::EndPointManager::RemovePrefixInternal(::StringW prefix,
 }
 // Ctor Parameters []
 constexpr ::System::Net::EndPointManager::EndPointManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

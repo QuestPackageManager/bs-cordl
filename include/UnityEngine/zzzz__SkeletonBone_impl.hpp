@@ -16,5 +16,3 @@ constexpr ::UnityEngine::SkeletonBone::SkeletonBone(::StringW name, ::StringW pa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SkeletonBone::SkeletonBone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

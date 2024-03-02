@@ -300,5 +300,3 @@ inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateDro
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_DefaultControls::TMP_DefaultControls() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

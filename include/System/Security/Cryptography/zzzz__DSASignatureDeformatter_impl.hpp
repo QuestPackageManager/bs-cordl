@@ -142,5 +142,3 @@ inline bool System::Security::Cryptography::DSASignatureDeformatter::VerifySigna
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::DSASignatureDeformatter::DSASignatureDeformatter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

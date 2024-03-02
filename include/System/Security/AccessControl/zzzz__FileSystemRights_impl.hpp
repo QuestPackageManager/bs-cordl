@@ -29,5 +29,3 @@ constexpr ::System::Security::AccessControl::FileSystemRights System::Security::
 constexpr ::System::Security::AccessControl::FileSystemRights System::Security::AccessControl::FileSystemRights::TakeOwnership{ static_cast<int32_t>(0x80000) };
 constexpr ::System::Security::AccessControl::FileSystemRights System::Security::AccessControl::FileSystemRights::Synchronize{ static_cast<int32_t>(0x100000) };
 constexpr ::System::Security::AccessControl::FileSystemRights System::Security::AccessControl::FileSystemRights::FullControl{ static_cast<int32_t>(0x1f01ff) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

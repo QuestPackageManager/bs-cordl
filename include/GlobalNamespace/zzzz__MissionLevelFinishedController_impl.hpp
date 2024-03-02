@@ -153,5 +153,3 @@ inline void GlobalNamespace::MissionLevelFinishedController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionLevelFinishedController::MissionLevelFinishedController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::UnityOpus::NumChannels::NumChannels(int32_t value__) noexcept {
 constexpr ::UnityOpus::NumChannels::NumChannels() {}
 constexpr ::UnityOpus::NumChannels UnityOpus::NumChannels::Mono{ static_cast<int32_t>(0x1) };
 constexpr ::UnityOpus::NumChannels UnityOpus::NumChannels::Stereo{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

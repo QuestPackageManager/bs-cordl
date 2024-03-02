@@ -166,5 +166,3 @@ inline void GlobalNamespace::VRRenderingParamsSetup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VRRenderingParamsSetup::VRRenderingParamsSetup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

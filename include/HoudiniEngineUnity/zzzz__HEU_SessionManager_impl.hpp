@@ -1175,5 +1175,3 @@ inline ::StringW HoudiniEngineUnity::HEU_SessionManager::GetUniqueMaterialShopNa
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_SessionManager::HEU_SessionManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

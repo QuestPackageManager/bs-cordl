@@ -436,5 +436,3 @@ inline void GlobalNamespace::MediaAsyncLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MediaAsyncLoader::MediaAsyncLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

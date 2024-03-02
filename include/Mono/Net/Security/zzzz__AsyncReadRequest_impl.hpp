@@ -57,5 +57,3 @@ inline ::Mono::Net::Security::AsyncOperationStatus Mono::Net::Security::AsyncRea
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::AsyncReadRequest::AsyncReadRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

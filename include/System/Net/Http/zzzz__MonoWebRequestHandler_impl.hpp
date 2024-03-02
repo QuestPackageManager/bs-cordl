@@ -856,5 +856,3 @@ inline void System::Net::Http::MonoWebRequestHandler::System_Net_Http_IMonoHttpC
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::MonoWebRequestHandler::MonoWebRequestHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

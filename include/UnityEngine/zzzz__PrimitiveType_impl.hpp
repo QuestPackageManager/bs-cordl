@@ -12,5 +12,3 @@ constexpr ::UnityEngine::PrimitiveType UnityEngine::PrimitiveType::Cylinder{ sta
 constexpr ::UnityEngine::PrimitiveType UnityEngine::PrimitiveType::Cube{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::PrimitiveType UnityEngine::PrimitiveType::Plane{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::PrimitiveType UnityEngine::PrimitiveType::Quad{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

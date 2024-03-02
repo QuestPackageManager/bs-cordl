@@ -260,5 +260,3 @@ inline ::System::IDisposable* UnityEngine::InputSystem::LowLevel::InputEventList
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventListener::InputEventListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

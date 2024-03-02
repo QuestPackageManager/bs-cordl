@@ -1508,5 +1508,3 @@ inline float_t UnityEngine::Yoga::Native::YGNodeLayoutGetBorder(void* node, ::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Yoga::Native::Native() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

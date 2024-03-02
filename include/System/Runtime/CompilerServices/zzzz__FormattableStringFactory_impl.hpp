@@ -200,5 +200,3 @@ inline ::System::FormattableString* System::Runtime::CompilerServices::Formattab
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::FormattableStringFactory::FormattableStringFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

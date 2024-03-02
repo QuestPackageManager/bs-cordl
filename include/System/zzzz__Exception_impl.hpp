@@ -728,5 +728,3 @@ inline void System::Exception::ReportUnhandledException(::System::Exception* exc
 }
 // Ctor Parameters []
 constexpr ::System::Exception::Exception() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

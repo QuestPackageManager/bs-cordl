@@ -48,5 +48,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::KeyedFactory_6<TBase, TKey, TParam1, 
 // Ctor Parameters []
 template <typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3, typename TParam4>
 constexpr ::Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>::KeyedFactory_6() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

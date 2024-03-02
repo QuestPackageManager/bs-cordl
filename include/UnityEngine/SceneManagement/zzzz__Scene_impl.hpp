@@ -300,5 +300,3 @@ constexpr ::UnityEngine::SceneManagement::Scene::Scene(int32_t m_Handle) noexcep
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SceneManagement::Scene::Scene() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

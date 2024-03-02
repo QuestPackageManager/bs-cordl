@@ -25,5 +25,3 @@ inline void UnityEngine::TerrainCollider::set_terrainData(::UnityEngine::Terrain
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TerrainCollider::TerrainCollider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

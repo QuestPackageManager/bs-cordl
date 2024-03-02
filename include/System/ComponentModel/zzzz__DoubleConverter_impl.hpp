@@ -126,5 +126,3 @@ inline void System::ComponentModel::DoubleConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DoubleConverter::DoubleConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::System::IO::Compression::CompressionLevel::CompressionLevel() {}
 constexpr ::System::IO::Compression::CompressionLevel System::IO::Compression::CompressionLevel::Optimal{ static_cast<int32_t>(0x0) };
 constexpr ::System::IO::Compression::CompressionLevel System::IO::Compression::CompressionLevel::Fastest{ static_cast<int32_t>(0x1) };
 constexpr ::System::IO::Compression::CompressionLevel System::IO::Compression::CompressionLevel::NoCompression{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

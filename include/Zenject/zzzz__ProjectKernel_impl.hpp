@@ -287,5 +287,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::ProjectKernel::__zenCreateInjectTypeI
 }
 // Ctor Parameters []
 constexpr ::Zenject::ProjectKernel::ProjectKernel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

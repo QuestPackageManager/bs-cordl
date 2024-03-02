@@ -248,5 +248,3 @@ inline int32_t System::Net::Mail::MailAddress::GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Mail::MailAddress::MailAddress() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

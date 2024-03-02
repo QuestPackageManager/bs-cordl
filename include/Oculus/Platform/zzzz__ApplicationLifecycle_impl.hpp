@@ -69,5 +69,3 @@ inline void Oculus::Platform::ApplicationLifecycle::SetLaunchIntentChangedNotifi
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::ApplicationLifecycle::ApplicationLifecycle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

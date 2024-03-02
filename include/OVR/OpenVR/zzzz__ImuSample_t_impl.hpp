@@ -13,5 +13,3 @@ constexpr ::OVR::OpenVR::ImuSample_t::ImuSample_t(double_t fSampleTime, ::OVR::O
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::ImuSample_t::ImuSample_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

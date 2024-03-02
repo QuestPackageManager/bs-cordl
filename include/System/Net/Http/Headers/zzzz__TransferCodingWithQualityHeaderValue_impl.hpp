@@ -88,5 +88,3 @@ inline bool System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::Tr
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TransferCodingWithQualityHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

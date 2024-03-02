@@ -150,5 +150,3 @@ inline void Org::BouncyCastle::Asn1::DerSequence::Encode(::Org::BouncyCastle::As
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerSequence::DerSequence() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

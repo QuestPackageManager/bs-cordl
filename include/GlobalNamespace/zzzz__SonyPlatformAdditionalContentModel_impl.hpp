@@ -947,5 +947,3 @@ GlobalNamespace::SonyPlatformAdditionalContentModel::UpdateEntitlementsAsync(::S
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyPlatformAdditionalContentModel::SonyPlatformAdditionalContentModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

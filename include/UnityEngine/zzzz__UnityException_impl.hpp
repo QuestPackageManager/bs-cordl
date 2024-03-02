@@ -75,5 +75,3 @@ inline void UnityEngine::UnityException::_ctor(::System::Runtime::Serialization:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UnityException::UnityException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

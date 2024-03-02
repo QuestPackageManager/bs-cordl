@@ -26,5 +26,3 @@ inline void UnityEngine::InputSystem::Android::AndroidRotationVector::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidRotationVector::AndroidRotationVector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::RegexPatternAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::RegexPatternAttribute::RegexPatternAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -101,5 +101,3 @@ inline void JetBrains::Annotations::LocalizationRequiredAttribute::set_Required(
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::LocalizationRequiredAttribute::LocalizationRequiredAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

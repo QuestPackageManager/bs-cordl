@@ -85,5 +85,3 @@ inline void BGLib::Polyglot::SaveLanguagePreference::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::SaveLanguagePreference::SaveLanguagePreference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

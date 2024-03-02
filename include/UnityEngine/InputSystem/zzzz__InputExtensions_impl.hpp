@@ -106,5 +106,3 @@ inline bool UnityEngine::InputSystem::InputExtensions::IsTextInputKey(::UnityEng
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputExtensions::InputExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -396,5 +396,3 @@ inline void Ice::FloorLightStreakTileEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Ice::FloorLightStreakTileEffect::FloorLightStreakTileEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

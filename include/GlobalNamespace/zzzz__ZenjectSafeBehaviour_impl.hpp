@@ -166,5 +166,3 @@ inline ::Zenject::InjectTypeInfo* GlobalNamespace::ZenjectSafeBehaviour::__zenCr
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ZenjectSafeBehaviour::ZenjectSafeBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

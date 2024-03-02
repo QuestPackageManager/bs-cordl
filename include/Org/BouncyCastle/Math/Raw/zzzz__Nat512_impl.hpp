@@ -72,5 +72,3 @@ inline void Org::BouncyCastle::Math::Raw::Nat512::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Raw::Nat512::Nat512() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

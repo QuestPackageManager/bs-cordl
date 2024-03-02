@@ -25,5 +25,3 @@ inline void UnityEngine::InputSystem::Android::AndroidStepCounter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidStepCounter::AndroidStepCounter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

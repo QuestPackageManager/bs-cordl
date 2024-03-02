@@ -50,5 +50,3 @@ inline ::UnityEngine::Color32 UnityEngine::TextCore::Text::ColorUtilities::Multi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::ColorUtilities::ColorUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

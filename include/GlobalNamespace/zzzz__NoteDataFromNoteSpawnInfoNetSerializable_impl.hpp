@@ -29,5 +29,3 @@ inline void GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable::_ctor(::G
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable::NoteDataFromNoteSpawnInfoNetSerializable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

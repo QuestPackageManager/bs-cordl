@@ -428,5 +428,3 @@ inline bool UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsCrunc
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GraphicsFormatUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -257,5 +257,3 @@ inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::ECGost3410NamedCurves() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

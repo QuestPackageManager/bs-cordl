@@ -135,5 +135,3 @@ inline void UnityEngine::UIElements::TouchScreenTextEditorEventHandler::ExecuteD
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TouchScreenTextEditorEventHandler::TouchScreenTextEditorEventHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

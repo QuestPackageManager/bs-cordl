@@ -337,5 +337,3 @@ inline void RootMotion::BakerTransform::AddLoopFrame(float_t time) {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::BakerTransform::BakerTransform() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

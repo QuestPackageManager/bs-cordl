@@ -28,5 +28,3 @@ constexpr ::HoudiniEngineUnity::HAPI_SphereInfo::HAPI_SphereInfo(::ArrayW<float_
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_SphereInfo::HAPI_SphereInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -589,5 +589,3 @@ inline int32_t System::IO::Compression::DeflateStreamNative::WriteZStream(::Syst
 }
 // Ctor Parameters []
 constexpr ::System::IO::Compression::DeflateStreamNative::DeflateStreamNative() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

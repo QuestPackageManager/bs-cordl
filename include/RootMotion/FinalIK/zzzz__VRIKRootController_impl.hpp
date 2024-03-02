@@ -222,5 +222,3 @@ inline void RootMotion::FinalIK::VRIKRootController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::VRIKRootController::VRIKRootController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

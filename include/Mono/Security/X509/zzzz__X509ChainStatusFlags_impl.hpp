@@ -13,5 +13,3 @@ constexpr ::Mono::Security::X509::X509ChainStatusFlags Mono::Security::X509::X50
 constexpr ::Mono::Security::X509::X509ChainStatusFlags Mono::Security::X509::X509ChainStatusFlags::NotTimeValid{ static_cast<int32_t>(0x1) };
 constexpr ::Mono::Security::X509::X509ChainStatusFlags Mono::Security::X509::X509ChainStatusFlags::PartialChain{ static_cast<int32_t>(0x10000) };
 constexpr ::Mono::Security::X509::X509ChainStatusFlags Mono::Security::X509::X509ChainStatusFlags::UntrustedRoot{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

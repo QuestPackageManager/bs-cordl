@@ -48,5 +48,3 @@ inline bool Microsoft::Win32::SafeHandles::SafeWaitHandle::ReleaseHandle() {
 }
 // Ctor Parameters []
 constexpr ::Microsoft::Win32::SafeHandles::SafeWaitHandle::SafeWaitHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

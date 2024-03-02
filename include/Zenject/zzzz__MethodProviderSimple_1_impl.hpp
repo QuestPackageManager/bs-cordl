@@ -67,5 +67,3 @@ inline void Zenject::MethodProviderSimple_1<TReturn>::GetAllInstancesWithInjectS
 }
 // Ctor Parameters []
 template <typename TReturn> constexpr ::Zenject::MethodProviderSimple_1<TReturn>::MethodProviderSimple_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

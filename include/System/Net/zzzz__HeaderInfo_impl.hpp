@@ -92,5 +92,3 @@ inline void System::Net::HeaderInfo::_ctor(::StringW name, bool requestRestricte
 }
 // Ctor Parameters []
 constexpr ::System::Net::HeaderInfo::HeaderInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

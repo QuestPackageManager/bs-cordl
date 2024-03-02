@@ -12,5 +12,3 @@ constexpr ::Unity::Collections::Allocator Unity::Collections::Allocator::Temp{ s
 constexpr ::Unity::Collections::Allocator Unity::Collections::Allocator::TempJob{ static_cast<int32_t>(0x3) };
 constexpr ::Unity::Collections::Allocator Unity::Collections::Allocator::Persistent{ static_cast<int32_t>(0x4) };
 constexpr ::Unity::Collections::Allocator Unity::Collections::Allocator::AudioKernel{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

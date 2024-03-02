@@ -69,5 +69,3 @@ inline ::System::Object* System::Xml::Schema::XmlAnyListConverter::ChangeType(::
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlAnyListConverter::XmlAnyListConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

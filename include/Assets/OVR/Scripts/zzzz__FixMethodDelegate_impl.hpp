@@ -92,5 +92,3 @@ inline void Assets::OVR::Scripts::FixMethodDelegate::EndInvoke(::System::IAsyncR
 }
 // Ctor Parameters []
 constexpr ::Assets::OVR::Scripts::FixMethodDelegate::FixMethodDelegate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

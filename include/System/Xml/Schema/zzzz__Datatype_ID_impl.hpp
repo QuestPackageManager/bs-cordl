@@ -66,5 +66,3 @@ inline void System::Xml::Schema::Datatype_ID::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_ID::Datatype_ID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

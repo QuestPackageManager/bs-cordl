@@ -9,5 +9,3 @@ constexpr ::LiteNetLib::DisconnectResult::DisconnectResult() {}
 constexpr ::LiteNetLib::DisconnectResult LiteNetLib::DisconnectResult::None{ static_cast<int32_t>(0x0) };
 constexpr ::LiteNetLib::DisconnectResult LiteNetLib::DisconnectResult::Reject{ static_cast<int32_t>(0x1) };
 constexpr ::LiteNetLib::DisconnectResult LiteNetLib::DisconnectResult::Disconnect{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

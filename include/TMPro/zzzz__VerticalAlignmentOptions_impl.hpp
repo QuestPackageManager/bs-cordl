@@ -12,5 +12,3 @@ constexpr ::TMPro::VerticalAlignmentOptions TMPro::VerticalAlignmentOptions::Bot
 constexpr ::TMPro::VerticalAlignmentOptions TMPro::VerticalAlignmentOptions::Baseline{ static_cast<int32_t>(0x800) };
 constexpr ::TMPro::VerticalAlignmentOptions TMPro::VerticalAlignmentOptions::Geometry{ static_cast<int32_t>(0x1000) };
 constexpr ::TMPro::VerticalAlignmentOptions TMPro::VerticalAlignmentOptions::Capline{ static_cast<int32_t>(0x2000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

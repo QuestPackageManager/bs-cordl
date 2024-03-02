@@ -16,5 +16,3 @@ constexpr ::UnityEngine::RigidbodyConstraints UnityEngine::RigidbodyConstraints:
 constexpr ::UnityEngine::RigidbodyConstraints UnityEngine::RigidbodyConstraints::FreezePosition{ static_cast<int32_t>(0xe) };
 constexpr ::UnityEngine::RigidbodyConstraints UnityEngine::RigidbodyConstraints::FreezeRotation{ static_cast<int32_t>(0x70) };
 constexpr ::UnityEngine::RigidbodyConstraints UnityEngine::RigidbodyConstraints::FreezeAll{ static_cast<int32_t>(0x7e) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -230,5 +230,3 @@ inline void UnityEngine::SendMouseEvents::SendEvents(int32_t i, ::UnityEngine::_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SendMouseEvents::SendMouseEvents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

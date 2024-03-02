@@ -8,5 +8,3 @@ constexpr ::LiteNetLib::Utils::NtpMode::NtpMode(int32_t value__) noexcept {
 constexpr ::LiteNetLib::Utils::NtpMode::NtpMode() {}
 constexpr ::LiteNetLib::Utils::NtpMode LiteNetLib::Utils::NtpMode::Client{ static_cast<int32_t>(0x3) };
 constexpr ::LiteNetLib::Utils::NtpMode LiteNetLib::Utils::NtpMode::Server{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

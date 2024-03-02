@@ -74,5 +74,3 @@ inline void System::Xml::Schema::Datatype_dayTimeDuration::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_dayTimeDuration::Datatype_dayTimeDuration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

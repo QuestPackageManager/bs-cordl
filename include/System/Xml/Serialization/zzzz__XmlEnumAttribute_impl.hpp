@@ -39,5 +39,3 @@ inline void System::Xml::Serialization::XmlEnumAttribute::_ctor(::StringW name) 
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlEnumAttribute::XmlEnumAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -13,5 +13,3 @@ constexpr ::System::Net::NetworkInformation::OperationalStatus System::Net::Netw
 constexpr ::System::Net::NetworkInformation::OperationalStatus System::Net::NetworkInformation::OperationalStatus::Dormant{ static_cast<int32_t>(0x5) };
 constexpr ::System::Net::NetworkInformation::OperationalStatus System::Net::NetworkInformation::OperationalStatus::NotPresent{ static_cast<int32_t>(0x6) };
 constexpr ::System::Net::NetworkInformation::OperationalStatus System::Net::NetworkInformation::OperationalStatus::LowerLayerDown{ static_cast<int32_t>(0x7) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -462,5 +462,3 @@ constexpr ::System::Runtime::InteropServices::GCHandle::GCHandle(void* handle) n
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::GCHandle::GCHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

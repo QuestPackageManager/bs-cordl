@@ -543,5 +543,3 @@ inline bool Org::BouncyCastle::X509::X509Crl::get_IsIndirectCrl() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509Crl::X509Crl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

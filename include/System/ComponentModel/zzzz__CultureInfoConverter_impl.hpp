@@ -360,5 +360,3 @@ inline void System::ComponentModel::CultureInfoConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::CultureInfoConverter::CultureInfoConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

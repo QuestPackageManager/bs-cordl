@@ -224,5 +224,3 @@ inline ::StringW ModestTree::ReflectionUtil::ToDebugString(::System::Func_4<TPar
 }
 // Ctor Parameters []
 constexpr ::ModestTree::ReflectionUtil::ReflectionUtil() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

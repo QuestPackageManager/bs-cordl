@@ -92,5 +92,3 @@ inline void System::ComponentModel::CharConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::CharConverter::CharConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

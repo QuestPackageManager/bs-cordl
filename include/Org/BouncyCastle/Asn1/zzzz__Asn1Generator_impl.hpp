@@ -119,5 +119,3 @@ inline void Org::BouncyCastle::Asn1::Asn1Generator::Close() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Asn1Generator::Asn1Generator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

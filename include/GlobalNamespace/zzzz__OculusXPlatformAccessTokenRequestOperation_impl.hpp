@@ -241,5 +241,3 @@ inline void GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::OnCompl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::OculusXPlatformAccessTokenRequestOperation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

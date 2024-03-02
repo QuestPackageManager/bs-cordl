@@ -280,5 +280,3 @@ inline bool System::Security::Cryptography::X509Certificates::X509ChainElementCo
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection::X509ChainElementCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

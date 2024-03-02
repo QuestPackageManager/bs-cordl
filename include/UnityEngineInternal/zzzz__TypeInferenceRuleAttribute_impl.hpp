@@ -85,5 +85,3 @@ inline ::StringW UnityEngineInternal::TypeInferenceRuleAttribute::ToString() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngineInternal::TypeInferenceRuleAttribute::TypeInferenceRuleAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

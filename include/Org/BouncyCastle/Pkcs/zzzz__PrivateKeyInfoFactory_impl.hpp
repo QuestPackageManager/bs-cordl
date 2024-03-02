@@ -153,5 +153,3 @@ inline void Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory::ExtractBytes(::Array
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory::PrivateKeyInfoFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

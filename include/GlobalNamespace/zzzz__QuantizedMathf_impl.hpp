@@ -136,5 +136,3 @@ inline ::StringW GlobalNamespace::QuantizedMathf::QuantizedVectorComponentToStri
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::QuantizedMathf::QuantizedMathf() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

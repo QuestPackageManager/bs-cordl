@@ -503,5 +503,3 @@ inline void GlobalNamespace::UIKeyboard::_Awake_b__21_3() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UIKeyboard::UIKeyboard() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

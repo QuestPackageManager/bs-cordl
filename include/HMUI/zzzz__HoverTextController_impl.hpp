@@ -611,5 +611,3 @@ inline void HMUI::HoverTextController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::HoverTextController::HoverTextController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

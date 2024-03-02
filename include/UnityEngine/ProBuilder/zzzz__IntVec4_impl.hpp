@@ -316,5 +316,3 @@ constexpr ::UnityEngine::ProBuilder::IntVec4::IntVec4(::UnityEngine::Vector4 val
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::IntVec4::IntVec4() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

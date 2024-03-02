@@ -772,5 +772,3 @@ inline double_t System::Math::ModF(double_t x, ::cordl_internals::Ptr<double_t> 
 }
 // Ctor Parameters []
 constexpr ::System::Math::Math() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

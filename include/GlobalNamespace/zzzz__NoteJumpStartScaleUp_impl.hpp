@@ -183,5 +183,3 @@ inline void GlobalNamespace::NoteJumpStartScaleUp::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteJumpStartScaleUp::NoteJumpStartScaleUp() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

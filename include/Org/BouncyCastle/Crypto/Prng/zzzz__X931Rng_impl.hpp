@@ -248,5 +248,3 @@ inline bool Org::BouncyCastle::Crypto::Prng::X931Rng::IsTooLarge(::ArrayW<uint8_
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::X931Rng::X931Rng() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -129,5 +129,3 @@ inline void UnityEngine::UIElements::TooltipEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TooltipEvent::TooltipEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

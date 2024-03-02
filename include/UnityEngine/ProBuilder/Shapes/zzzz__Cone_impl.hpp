@@ -126,5 +126,3 @@ inline void UnityEngine::ProBuilder::Shapes::Cone::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Shapes::Cone::Cone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

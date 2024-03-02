@@ -25,5 +25,3 @@ inline void UnityEngine::Timeline::CustomSignalEventDrawer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::CustomSignalEventDrawer::CustomSignalEventDrawer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

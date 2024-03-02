@@ -880,5 +880,3 @@ inline bool System::ComponentModel::ReflectPropertyDescriptor::ShouldSerializeVa
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ReflectPropertyDescriptor::ReflectPropertyDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

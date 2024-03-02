@@ -177,5 +177,3 @@ inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* Org::BouncyCastle::Crmf:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder::ProofOfPossessionSigningKeyBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

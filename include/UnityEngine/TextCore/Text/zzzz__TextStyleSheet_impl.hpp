@@ -154,5 +154,3 @@ inline void UnityEngine::TextCore::Text::TextStyleSheet::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextStyleSheet::TextStyleSheet() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

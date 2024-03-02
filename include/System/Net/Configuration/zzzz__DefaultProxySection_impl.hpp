@@ -69,5 +69,3 @@ inline void System::Net::Configuration::DefaultProxySection::Reset(::System::Con
 }
 // Ctor Parameters []
 constexpr ::System::Net::Configuration::DefaultProxySection::DefaultProxySection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -83,5 +83,3 @@ inline void GlobalNamespace::PlayingTutorialPresenceData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayingTutorialPresenceData::PlayingTutorialPresenceData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

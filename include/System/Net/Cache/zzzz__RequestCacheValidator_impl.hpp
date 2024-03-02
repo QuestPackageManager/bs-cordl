@@ -23,5 +23,3 @@ inline ::System::Object* System::Net::Cache::RequestCacheValidator::CreateValida
 }
 // Ctor Parameters []
 constexpr ::System::Net::Cache::RequestCacheValidator::RequestCacheValidator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

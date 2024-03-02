@@ -408,5 +408,3 @@ inline ::StringW System::Runtime::Remoting::SoapServices::EncodeNs(::StringW ns)
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::SoapServices::SoapServices() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

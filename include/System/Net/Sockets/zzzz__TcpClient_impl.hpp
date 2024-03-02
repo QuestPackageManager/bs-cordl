@@ -427,5 +427,3 @@ inline void System::Net::Sockets::TcpClient::initialize() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::TcpClient::TcpClient() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

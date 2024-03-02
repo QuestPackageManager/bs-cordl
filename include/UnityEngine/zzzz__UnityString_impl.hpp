@@ -27,5 +27,3 @@ inline ::StringW UnityEngine::UnityString::Format(::StringW fmt, ::ArrayW<::Syst
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UnityString::UnityString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -160,5 +160,3 @@ inline void System::Xml::BinHexDecoder::Decode(::cordl_internals::Ptr<char16_t> 
 }
 // Ctor Parameters []
 constexpr ::System::Xml::BinHexDecoder::BinHexDecoder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ParticleSystemSimulationSpace::ParticleSystemSimulation
 constexpr ::UnityEngine::ParticleSystemSimulationSpace UnityEngine::ParticleSystemSimulationSpace::Local{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ParticleSystemSimulationSpace UnityEngine::ParticleSystemSimulationSpace::World{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ParticleSystemSimulationSpace UnityEngine::ParticleSystemSimulationSpace::Custom{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

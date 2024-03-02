@@ -98,5 +98,3 @@ inline void GlobalNamespace::OverrideEnvironmentSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OverrideEnvironmentSettings::OverrideEnvironmentSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

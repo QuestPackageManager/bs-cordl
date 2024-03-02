@@ -696,5 +696,3 @@ inline void System::IO::Compression::GZipStream::ThrowStreamClosedException() {
 }
 // Ctor Parameters []
 constexpr ::System::IO::Compression::GZipStream::GZipStream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

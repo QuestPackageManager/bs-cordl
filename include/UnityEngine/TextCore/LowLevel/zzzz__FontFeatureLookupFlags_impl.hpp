@@ -9,5 +9,3 @@ constexpr ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags::FontFeature
 constexpr ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags::IgnoreLigatures{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags::IgnoreSpacingAdjustments{ static_cast<int32_t>(0x100) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

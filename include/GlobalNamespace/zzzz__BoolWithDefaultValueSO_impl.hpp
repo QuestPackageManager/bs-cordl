@@ -55,5 +55,3 @@ inline void GlobalNamespace::BoolWithDefaultValueSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BoolWithDefaultValueSO::BoolWithDefaultValueSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -88,5 +88,3 @@ inline void GlobalNamespace::LocalPlayerInGameMenuInitData::_ctor(::GlobalNamesp
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LocalPlayerInGameMenuInitData::LocalPlayerInGameMenuInitData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

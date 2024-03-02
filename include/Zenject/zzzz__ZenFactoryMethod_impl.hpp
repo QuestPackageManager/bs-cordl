@@ -89,5 +89,3 @@ inline ::System::Object* Zenject::ZenFactoryMethod::EndInvoke(::System::IAsyncRe
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenFactoryMethod::ZenFactoryMethod() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

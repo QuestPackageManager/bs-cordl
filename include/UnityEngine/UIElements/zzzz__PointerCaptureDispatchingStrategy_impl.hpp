@@ -82,5 +82,3 @@ inline void UnityEngine::UIElements::PointerCaptureDispatchingStrategy::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerCaptureDispatchingStrategy::PointerCaptureDispatchingStrategy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

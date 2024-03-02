@@ -57,5 +57,3 @@ constexpr ::System::ExceptionResource System::ExceptionResource::TaskCompletionS
 constexpr ::System::ExceptionResource System::ExceptionResource::TaskCompletionSourceT_TrySetException_NoExceptions{ static_cast<int32_t>(0x30) };
 constexpr ::System::ExceptionResource System::ExceptionResource::NotSupported_StringComparison{ static_cast<int32_t>(0x31) };
 constexpr ::System::ExceptionResource System::ExceptionResource::InvalidOperation_NullArray{ static_cast<int32_t>(0x32) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

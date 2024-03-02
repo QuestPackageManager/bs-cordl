@@ -210,5 +210,3 @@ inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Org::BouncyCastle::Cms::Si
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::SignerInfoGeneratorBuilder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

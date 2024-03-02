@@ -79,5 +79,3 @@ inline ::StringW System::Net::Cache::RequestCachePolicy::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::Cache::RequestCachePolicy::RequestCachePolicy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

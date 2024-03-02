@@ -82,5 +82,3 @@ inline int32_t Org::BouncyCastle::Tsp::TspValidationException::get_FailureCode()
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TspValidationException::TspValidationException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

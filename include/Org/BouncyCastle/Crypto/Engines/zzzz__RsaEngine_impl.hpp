@@ -177,5 +177,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::RsaEngine::RsaEngine() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

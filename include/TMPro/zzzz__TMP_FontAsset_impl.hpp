@@ -2679,5 +2679,3 @@ inline void TMPro::TMP_FontAsset::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_FontAsset::TMP_FontAsset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

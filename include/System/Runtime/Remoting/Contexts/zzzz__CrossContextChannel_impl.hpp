@@ -223,5 +223,3 @@ inline void System::Runtime::Remoting::Contexts::CrossContextChannel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Contexts::CrossContextChannel::CrossContextChannel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

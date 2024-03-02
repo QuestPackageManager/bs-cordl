@@ -9,5 +9,3 @@ constexpr ::HoudiniEngineUnity::HAPI_HandleInfo::HAPI_HandleInfo(int32_t nameSH,
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_HandleInfo::HAPI_HandleInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

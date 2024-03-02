@@ -121,5 +121,3 @@ inline void GlobalNamespace::OVRMixedReality::RecenterPose() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMixedReality::OVRMixedReality() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

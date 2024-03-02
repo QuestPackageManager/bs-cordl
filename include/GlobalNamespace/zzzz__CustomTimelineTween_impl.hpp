@@ -68,5 +68,3 @@ inline void GlobalNamespace::CustomTimelineTween::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CustomTimelineTween::CustomTimelineTween() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

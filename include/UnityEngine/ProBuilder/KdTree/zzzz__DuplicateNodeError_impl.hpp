@@ -25,5 +25,3 @@ inline void UnityEngine::ProBuilder::KdTree::DuplicateNodeError::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::KdTree::DuplicateNodeError::DuplicateNodeError() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

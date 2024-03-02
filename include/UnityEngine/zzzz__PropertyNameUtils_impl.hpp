@@ -47,5 +47,3 @@ inline void UnityEngine::PropertyNameUtils::PropertyNameFromString_Injected(::St
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::PropertyNameUtils::PropertyNameUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

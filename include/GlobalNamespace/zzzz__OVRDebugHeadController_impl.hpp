@@ -187,5 +187,3 @@ inline void GlobalNamespace::OVRDebugHeadController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRDebugHeadController::OVRDebugHeadController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

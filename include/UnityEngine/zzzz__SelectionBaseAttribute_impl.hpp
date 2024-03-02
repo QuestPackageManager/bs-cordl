@@ -24,5 +24,3 @@ inline void UnityEngine::SelectionBaseAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SelectionBaseAttribute::SelectionBaseAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -11,5 +11,3 @@ constexpr ::OVR::OpenVR::EVRNotificationStyle OVR::OpenVR::EVRNotificationStyle:
 constexpr ::OVR::OpenVR::EVRNotificationStyle OVR::OpenVR::EVRNotificationStyle::Contact_Disabled{ static_cast<int32_t>(0xc8) };
 constexpr ::OVR::OpenVR::EVRNotificationStyle OVR::OpenVR::EVRNotificationStyle::Contact_Enabled{ static_cast<int32_t>(0xc9) };
 constexpr ::OVR::OpenVR::EVRNotificationStyle OVR::OpenVR::EVRNotificationStyle::Contact_Active{ static_cast<int32_t>(0xca) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -3,5 +3,3 @@
 #include "System/Reflection/Emit/zzzz__SignatureHelper_def.hpp"
 // Ctor Parameters []
 constexpr ::System::Reflection::Emit::SignatureHelper::SignatureHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

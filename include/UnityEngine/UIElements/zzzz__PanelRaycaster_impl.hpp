@@ -295,5 +295,3 @@ inline void UnityEngine::UIElements::PanelRaycaster::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PanelRaycaster::PanelRaycaster() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

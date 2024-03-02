@@ -514,5 +514,3 @@ inline void Org::BouncyCastle::Crypto::Digests::RipeMD160Digest::Reset(::Org::Bo
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::RipeMD160Digest::RipeMD160Digest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

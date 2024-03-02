@@ -87,5 +87,3 @@ constexpr ::HoudiniEngineUnity::TransformData::TransformData(::UnityEngine::Vect
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::TransformData::TransformData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

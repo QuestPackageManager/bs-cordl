@@ -82,5 +82,3 @@ inline void UnityEngine::UIElements::PointerUpEvent::PostDispatch(::UnityEngine:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerUpEvent::PointerUpEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -664,5 +664,3 @@ inline void RootMotion::FinalIK::InteractionTrigger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::InteractionTrigger::InteractionTrigger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

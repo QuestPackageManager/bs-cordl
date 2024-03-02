@@ -60,5 +60,3 @@ inline void GlobalNamespace::MaterialPropertyBlockVectorAnimator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MaterialPropertyBlockVectorAnimator::MaterialPropertyBlockVectorAnimator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

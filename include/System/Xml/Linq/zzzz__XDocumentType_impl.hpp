@@ -236,5 +236,3 @@ inline ::System::Xml::Linq::XNode* System::Xml::Linq::XDocumentType::CloneNode()
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XDocumentType::XDocumentType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

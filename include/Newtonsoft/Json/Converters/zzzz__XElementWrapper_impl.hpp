@@ -266,5 +266,3 @@ inline bool Newtonsoft::Json::Converters::XElementWrapper::get_IsEmpty() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::XElementWrapper::XElementWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

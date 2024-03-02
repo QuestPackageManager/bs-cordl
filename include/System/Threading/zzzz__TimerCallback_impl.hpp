@@ -46,5 +46,3 @@ inline void System::Threading::TimerCallback::Invoke(::System::Object* state) {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::TimerCallback::TimerCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

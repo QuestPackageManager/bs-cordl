@@ -131,5 +131,3 @@ inline void UnityEngine::InputSystem::Controls::KeyControl::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::KeyControl::KeyControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

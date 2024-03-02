@@ -64,5 +64,3 @@ inline void System::Threading::__CancellationTokenSource__Linked1CancellationTok
 }
 // Ctor Parameters []
 constexpr ::System::Threading::__CancellationTokenSource__Linked1CancellationTokenSource::__CancellationTokenSource__Linked1CancellationTokenSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

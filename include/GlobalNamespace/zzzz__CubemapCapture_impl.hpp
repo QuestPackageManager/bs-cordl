@@ -252,5 +252,3 @@ inline void GlobalNamespace::CubemapCapture::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CubemapCapture::CubemapCapture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -127,5 +127,3 @@ inline ::StringW UnityEngine::ResourceManagement::Exceptions::RemoteProviderExce
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::RemoteProviderException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

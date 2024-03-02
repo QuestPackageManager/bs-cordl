@@ -192,5 +192,3 @@ inline void GlobalNamespace::SaberClashEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberClashEffect::SaberClashEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

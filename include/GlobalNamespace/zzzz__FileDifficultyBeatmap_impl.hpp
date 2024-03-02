@@ -161,5 +161,3 @@ inline ::StringW GlobalNamespace::FileDifficultyBeatmap::GetBeatmapChecksum() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FileDifficultyBeatmap::FileDifficultyBeatmap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

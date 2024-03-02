@@ -333,5 +333,3 @@ inline ::System::Reflection::ParameterInfo* System::Reflection::RuntimeParameter
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::RuntimeParameterInfo::RuntimeParameterInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

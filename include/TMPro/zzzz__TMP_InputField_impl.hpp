@@ -6205,5 +6205,3 @@ inline ::UnityW<::UnityEngine::Transform> TMPro::TMP_InputField::UnityEngine_UI_
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_InputField::TMP_InputField() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

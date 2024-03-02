@@ -141,5 +141,3 @@ inline void UnityEngine::MeshRenderer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::MeshRenderer::MeshRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

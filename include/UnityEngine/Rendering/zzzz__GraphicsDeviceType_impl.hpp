@@ -30,5 +30,3 @@ constexpr ::UnityEngine::Rendering::GraphicsDeviceType UnityEngine::Rendering::G
 constexpr ::UnityEngine::Rendering::GraphicsDeviceType UnityEngine::Rendering::GraphicsDeviceType::GameCoreXboxSeries{ static_cast<int32_t>(0x19) };
 constexpr ::UnityEngine::Rendering::GraphicsDeviceType UnityEngine::Rendering::GraphicsDeviceType::PlayStation5{ static_cast<int32_t>(0x1a) };
 constexpr ::UnityEngine::Rendering::GraphicsDeviceType UnityEngine::Rendering::GraphicsDeviceType::PlayStation5NGGC{ static_cast<int32_t>(0x1b) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -27,5 +27,3 @@ inline void JetBrains::Annotations::CannotApplyEqualityOperatorAttribute::_ctor(
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::CannotApplyEqualityOperatorAttribute::CannotApplyEqualityOperatorAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

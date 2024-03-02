@@ -205,5 +205,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitial
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::PlatformInternal::PlatformInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

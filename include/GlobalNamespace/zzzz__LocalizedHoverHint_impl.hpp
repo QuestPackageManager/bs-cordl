@@ -67,5 +67,3 @@ inline void GlobalNamespace::LocalizedHoverHint::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LocalizedHoverHint::LocalizedHoverHint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

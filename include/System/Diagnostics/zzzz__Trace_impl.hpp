@@ -67,5 +67,3 @@ inline ::System::Diagnostics::CorrelationManager* System::Diagnostics::Trace::ge
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Trace::Trace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

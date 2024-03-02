@@ -12,5 +12,3 @@ constexpr ::OVR::OpenVR::EVRSettingsError OVR::OpenVR::EVRSettingsError::WriteFa
 constexpr ::OVR::OpenVR::EVRSettingsError OVR::OpenVR::EVRSettingsError::ReadFailed{ static_cast<int32_t>(0x3) };
 constexpr ::OVR::OpenVR::EVRSettingsError OVR::OpenVR::EVRSettingsError::JsonParseFailed{ static_cast<int32_t>(0x4) };
 constexpr ::OVR::OpenVR::EVRSettingsError OVR::OpenVR::EVRSettingsError::UnsetSettingHasNoDefault{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

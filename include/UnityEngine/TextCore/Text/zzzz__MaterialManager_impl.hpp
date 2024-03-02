@@ -64,5 +64,3 @@ inline ::UnityW<::UnityEngine::Material> UnityEngine::TextCore::Text::MaterialMa
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::MaterialManager::MaterialManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

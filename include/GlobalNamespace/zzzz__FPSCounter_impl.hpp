@@ -296,5 +296,3 @@ inline void GlobalNamespace::FPSCounter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FPSCounter::FPSCounter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

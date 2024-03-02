@@ -46,5 +46,3 @@ inline void UnityEngine::AndroidJavaRunnable::Invoke() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidJavaRunnable::AndroidJavaRunnable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

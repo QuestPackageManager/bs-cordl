@@ -17,5 +17,3 @@ constexpr ::UnityEngine::TextCore::Text::FontStyles UnityEngine::TextCore::Text:
 constexpr ::UnityEngine::TextCore::Text::FontStyles UnityEngine::TextCore::Text::FontStyles::Superscript{ static_cast<int32_t>(0x80) };
 constexpr ::UnityEngine::TextCore::Text::FontStyles UnityEngine::TextCore::Text::FontStyles::Subscript{ static_cast<int32_t>(0x100) };
 constexpr ::UnityEngine::TextCore::Text::FontStyles UnityEngine::TextCore::Text::FontStyles::Highlight{ static_cast<int32_t>(0x200) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

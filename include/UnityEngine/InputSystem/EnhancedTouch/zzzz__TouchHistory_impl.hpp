@@ -377,5 +377,3 @@ inline void UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator::__TouchHistory__Enumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

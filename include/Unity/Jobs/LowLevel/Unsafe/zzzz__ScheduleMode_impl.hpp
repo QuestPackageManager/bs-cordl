@@ -10,5 +10,3 @@ constexpr ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode Unity::Jobs::LowLevel::U
 constexpr ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode Unity::Jobs::LowLevel::Unsafe::ScheduleMode::Batched{ static_cast<int32_t>(0x1) };
 constexpr ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode Unity::Jobs::LowLevel::Unsafe::ScheduleMode::Parallel{ static_cast<int32_t>(0x1) };
 constexpr ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode Unity::Jobs::LowLevel::Unsafe::ScheduleMode::Single{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

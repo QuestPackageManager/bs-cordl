@@ -55,5 +55,3 @@ inline void GlobalNamespace::SetApplicationVersionText::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SetApplicationVersionText::SetApplicationVersionText() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

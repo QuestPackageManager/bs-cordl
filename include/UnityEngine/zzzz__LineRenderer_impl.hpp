@@ -1227,5 +1227,3 @@ inline void UnityEngine::LineRenderer::GetPosition_Injected(int32_t index, ByRef
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LineRenderer::LineRenderer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

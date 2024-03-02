@@ -31,5 +31,3 @@ constexpr ::UnityEngine::Rendering::CameraEvent UnityEngine::Rendering::CameraEv
 constexpr ::UnityEngine::Rendering::CameraEvent UnityEngine::Rendering::CameraEvent::AfterReflections{ static_cast<int32_t>(0x16) };
 constexpr ::UnityEngine::Rendering::CameraEvent UnityEngine::Rendering::CameraEvent::BeforeHaloAndLensFlares{ static_cast<int32_t>(0x17) };
 constexpr ::UnityEngine::Rendering::CameraEvent UnityEngine::Rendering::CameraEvent::AfterHaloAndLensFlares{ static_cast<int32_t>(0x18) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

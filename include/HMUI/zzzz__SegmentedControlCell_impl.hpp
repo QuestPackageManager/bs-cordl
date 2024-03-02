@@ -129,5 +129,3 @@ inline void HMUI::SegmentedControlCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::SegmentedControlCell::SegmentedControlCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

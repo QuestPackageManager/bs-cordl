@@ -264,5 +264,3 @@ inline void GlobalNamespace::LightWithIdMonoBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightWithIdMonoBehaviour::LightWithIdMonoBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -415,5 +415,3 @@ inline void Zenject::Internal::ReflectionTypeInfo::_ctor(::System::Type* type, :
 }
 // Ctor Parameters []
 constexpr ::Zenject::Internal::ReflectionTypeInfo::ReflectionTypeInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

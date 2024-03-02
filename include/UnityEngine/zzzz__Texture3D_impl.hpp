@@ -435,5 +435,3 @@ inline void UnityEngine::Texture3D::ValidateIsNotCrunched(::UnityEngine::Experim
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Texture3D::Texture3D() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

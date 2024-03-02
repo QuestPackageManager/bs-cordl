@@ -57,5 +57,3 @@ inline bool System::Diagnostics::TraceFilter::ShouldTrace(::System::Diagnostics:
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::TraceFilter::TraceFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

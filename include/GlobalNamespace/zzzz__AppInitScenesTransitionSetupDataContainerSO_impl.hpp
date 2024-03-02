@@ -42,5 +42,3 @@ inline void GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO::_ctor(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO::AppInitScenesTransitionSetupDataContainerSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

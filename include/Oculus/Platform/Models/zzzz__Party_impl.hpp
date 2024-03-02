@@ -112,5 +112,3 @@ inline void Oculus::Platform::Models::Party::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::Party::Party() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

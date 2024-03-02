@@ -525,5 +525,3 @@ inline void System::Xml::XmlUtf8RawTextWriterIndent::WriteIndent() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlUtf8RawTextWriterIndent::XmlUtf8RawTextWriterIndent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

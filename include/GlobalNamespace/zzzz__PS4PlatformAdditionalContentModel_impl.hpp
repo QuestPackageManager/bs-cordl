@@ -34,5 +34,3 @@ inline void GlobalNamespace::PS4PlatformAdditionalContentModel::_ctor(::GlobalNa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS4PlatformAdditionalContentModel::PS4PlatformAdditionalContentModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

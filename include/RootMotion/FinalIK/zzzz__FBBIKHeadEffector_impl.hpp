@@ -964,5 +964,3 @@ inline void RootMotion::FinalIK::FBBIKHeadEffector::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::FBBIKHeadEffector::FBBIKHeadEffector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

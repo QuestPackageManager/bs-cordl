@@ -380,5 +380,3 @@ inline void GlobalNamespace::CanvasGroupStateTransition::_StartTween_b__16_1() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CanvasGroupStateTransition::CanvasGroupStateTransition() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

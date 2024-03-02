@@ -178,5 +178,3 @@ inline void GlobalNamespace::FormattedFloatListSettingsValueController::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FormattedFloatListSettingsValueController::FormattedFloatListSettingsValueController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

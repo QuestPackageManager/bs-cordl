@@ -49,5 +49,3 @@ inline bool UnityEngine::XR::Provider::XRStats::TryGetStat_Internal(void* ptr, :
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::Provider::XRStats::XRStats() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

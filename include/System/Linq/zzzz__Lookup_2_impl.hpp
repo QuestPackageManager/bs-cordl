@@ -625,5 +625,3 @@ template <typename TKey, typename TElement> inline void System::Linq::Lookup_2<T
 }
 // Ctor Parameters []
 template <typename TKey, typename TElement> constexpr ::System::Linq::Lookup_2<TKey, TElement>::Lookup_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

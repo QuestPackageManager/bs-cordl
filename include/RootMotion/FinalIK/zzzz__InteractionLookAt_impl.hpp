@@ -217,5 +217,3 @@ inline void RootMotion::FinalIK::InteractionLookAt::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::InteractionLookAt::InteractionLookAt() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -241,5 +241,3 @@ inline void GlobalNamespace::StretchableObstacle::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StretchableObstacle::StretchableObstacle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

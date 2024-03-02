@@ -28,5 +28,3 @@ constexpr ::UnityEngine::UIElements::TextNativeSettings::TextNativeSettings(::St
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TextNativeSettings::TextNativeSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

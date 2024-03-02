@@ -197,5 +197,3 @@ inline int32_t UnityEngine::UIElements::UxmlIntAttributeDescription::ConvertValu
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription::UxmlIntAttributeDescription() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

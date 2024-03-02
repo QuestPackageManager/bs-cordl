@@ -116,5 +116,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatus::X
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatus::X509ChainStatus() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

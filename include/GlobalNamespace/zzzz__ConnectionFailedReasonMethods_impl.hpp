@@ -46,5 +46,3 @@ inline ::StringW GlobalNamespace::ConnectionFailedReasonMethods::ErrorCode(::Glo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConnectionFailedReasonMethods::ConnectionFailedReasonMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

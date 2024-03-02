@@ -480,5 +480,3 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::ResourceProvider
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::ResourceProviderBase() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

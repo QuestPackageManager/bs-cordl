@@ -212,5 +212,3 @@ inline ::StringW System::Xml::Schema::NamespaceList::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::NamespaceList::NamespaceList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

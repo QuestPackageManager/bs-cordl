@@ -142,5 +142,3 @@ inline void UnityEngine::InputSystem::XR::XRDeviceDescriptor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::XRDeviceDescriptor::XRDeviceDescriptor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -8,5 +8,3 @@ constexpr ::UnityEngine::EventSystems::EventHandle::EventHandle(int32_t value__)
 constexpr ::UnityEngine::EventSystems::EventHandle::EventHandle() {}
 constexpr ::UnityEngine::EventSystems::EventHandle UnityEngine::EventSystems::EventHandle::Unused{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::EventSystems::EventHandle UnityEngine::EventSystems::EventHandle::Used{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

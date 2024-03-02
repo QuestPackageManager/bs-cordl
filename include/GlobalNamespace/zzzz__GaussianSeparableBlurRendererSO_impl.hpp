@@ -25,5 +25,3 @@ inline void GlobalNamespace::GaussianSeparableBlurRendererSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GaussianSeparableBlurRendererSO::GaussianSeparableBlurRendererSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

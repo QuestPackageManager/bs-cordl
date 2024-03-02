@@ -457,5 +457,3 @@ inline void UnityEngine::RectOffset::Remove_Injected(ByRef<::UnityEngine::Rect> 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RectOffset::RectOffset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

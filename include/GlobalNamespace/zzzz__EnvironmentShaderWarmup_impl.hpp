@@ -291,5 +291,3 @@ inline void GlobalNamespace::EnvironmentShaderWarmup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentShaderWarmup::EnvironmentShaderWarmup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

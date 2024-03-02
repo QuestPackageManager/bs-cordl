@@ -11,5 +11,3 @@ constexpr ::UnityEngine::Experimental::GlobalIllumination::FalloffType UnityEngi
 constexpr ::UnityEngine::Experimental::GlobalIllumination::FalloffType UnityEngine::Experimental::GlobalIllumination::FalloffType::Linear{ static_cast<uint8_t>(0x2u) };
 constexpr ::UnityEngine::Experimental::GlobalIllumination::FalloffType UnityEngine::Experimental::GlobalIllumination::FalloffType::Legacy{ static_cast<uint8_t>(0x3u) };
 constexpr ::UnityEngine::Experimental::GlobalIllumination::FalloffType UnityEngine::Experimental::GlobalIllumination::FalloffType::Undefined{ static_cast<uint8_t>(0x4u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

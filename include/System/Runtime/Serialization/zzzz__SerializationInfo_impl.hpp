@@ -925,5 +925,3 @@ inline ::StringW System::Runtime::Serialization::SerializationInfo::GetString(::
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationInfo::SerializationInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

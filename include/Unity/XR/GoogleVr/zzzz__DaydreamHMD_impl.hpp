@@ -24,5 +24,3 @@ inline void Unity::XR::GoogleVr::DaydreamHMD::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::GoogleVr::DaydreamHMD::DaydreamHMD() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

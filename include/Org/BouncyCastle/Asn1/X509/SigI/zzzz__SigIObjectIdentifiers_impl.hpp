@@ -91,5 +91,3 @@ inline void Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers::SigIObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

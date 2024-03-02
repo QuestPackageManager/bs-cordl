@@ -398,5 +398,3 @@ inline void UnityEngine::Timeline::AudioTrack::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::AudioTrack::AudioTrack() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

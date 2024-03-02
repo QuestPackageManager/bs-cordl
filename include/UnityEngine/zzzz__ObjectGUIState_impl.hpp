@@ -139,5 +139,3 @@ inline void UnityEngine::ObjectGUIState::Internal_Destroy(void* ptr) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ObjectGUIState::ObjectGUIState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

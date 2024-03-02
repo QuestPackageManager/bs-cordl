@@ -6,5 +6,3 @@ constexpr ::BeatmapSaveDataVersion4::ColorBoostEvent::ColorBoostEvent(int32_t b)
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::ColorBoostEvent::ColorBoostEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

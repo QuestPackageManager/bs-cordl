@@ -126,5 +126,3 @@ inline ::ArrayW<int32_t, ::Array<int32_t>*> System::Runtime::Serialization::Valu
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::ValueTypeFixupInfo::ValueTypeFixupInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -208,5 +208,3 @@ constexpr ::GlobalNamespace::BeatmapKey::BeatmapKey(::UnityW<::GlobalNamespace::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapKey::BeatmapKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

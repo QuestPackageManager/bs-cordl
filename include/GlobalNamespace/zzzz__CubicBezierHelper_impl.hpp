@@ -170,5 +170,3 @@ inline float_t GlobalNamespace::CubicBezierHelper::EstimateCurveLength(ByRef<::U
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CubicBezierHelper::CubicBezierHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

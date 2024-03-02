@@ -724,5 +724,3 @@ inline void GlobalNamespace::MultiplayerScoreProvider::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerScoreProvider::MultiplayerScoreProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

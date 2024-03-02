@@ -182,5 +182,3 @@ inline void TMPro::TMP_SpriteCharacter::_ctor(uint32_t unicode, uint32_t glyphIn
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_SpriteCharacter::TMP_SpriteCharacter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

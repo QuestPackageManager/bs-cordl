@@ -39,5 +39,3 @@ template <typename TValueType, typename TValueUxmlAttributeType> inline void Uni
 }
 // Ctor Parameters []
 template <typename TValueType, typename TValueUxmlAttributeType> constexpr ::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::BaseFieldTraits_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

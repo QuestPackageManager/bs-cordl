@@ -29,5 +29,3 @@ constexpr ::TMPro::KerningPairKey::KerningPairKey(uint32_t ascii_Left, uint32_t 
 }
 // Ctor Parameters []
 constexpr ::TMPro::KerningPairKey::KerningPairKey() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

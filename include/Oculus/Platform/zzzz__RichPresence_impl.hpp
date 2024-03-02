@@ -85,5 +85,3 @@ inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::RichPresence::RichPresence() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

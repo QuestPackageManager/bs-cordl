@@ -176,5 +176,3 @@ inline void System::Xml::Schema::Datatype_unsignedLong::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_unsignedLong::Datatype_unsignedLong() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

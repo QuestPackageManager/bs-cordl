@@ -21,5 +21,3 @@ inline void UnityEngine::InputSystem::DualShock::DualShockSupport::Initialize() 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::DualShock::DualShockSupport::DualShockSupport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

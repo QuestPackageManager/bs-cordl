@@ -27,5 +27,3 @@ inline void GlobalNamespace::XPlatformAccessTokenFetchException::_ctor(::StringW
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::XPlatformAccessTokenFetchException::XPlatformAccessTokenFetchException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

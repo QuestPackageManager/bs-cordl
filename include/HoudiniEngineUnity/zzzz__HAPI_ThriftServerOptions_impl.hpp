@@ -7,5 +7,3 @@ constexpr ::HoudiniEngineUnity::HAPI_ThriftServerOptions::HAPI_ThriftServerOptio
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_ThriftServerOptions::HAPI_ThriftServerOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

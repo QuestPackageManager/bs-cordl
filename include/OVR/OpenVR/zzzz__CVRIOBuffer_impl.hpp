@@ -154,5 +154,3 @@ inline uint64_t OVR::OpenVR::CVRIOBuffer::PropertyContainer(uint64_t ulBuffer) {
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRIOBuffer::CVRIOBuffer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

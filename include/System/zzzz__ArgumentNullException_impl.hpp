@@ -98,5 +98,3 @@ inline void System::ArgumentNullException::_ctor(::System::Runtime::Serializatio
 }
 // Ctor Parameters []
 constexpr ::System::ArgumentNullException::ArgumentNullException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

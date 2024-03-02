@@ -177,5 +177,3 @@ inline ::System::ComponentModel::ICustomTypeDescriptor* System::ComponentModel::
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DelegatingTypeDescriptionProvider::DelegatingTypeDescriptionProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

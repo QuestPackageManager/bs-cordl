@@ -49,5 +49,3 @@ inline void Org::BouncyCastle::Crypto::Prng::EntropyUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::EntropyUtilities::EntropyUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1125,5 +1125,3 @@ inline void GlobalNamespace::SongPreviewPlayer::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongPreviewPlayer::SongPreviewPlayer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

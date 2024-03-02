@@ -286,5 +286,3 @@ template <typename T> constexpr ::System::ArraySegment_1<T>::ArraySegment_1(::Ar
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::ArraySegment_1<T>::ArraySegment_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -9,5 +9,3 @@ constexpr ::UnityEngine::UIElements::DispatchMode::DispatchMode() {}
 constexpr ::UnityEngine::UIElements::DispatchMode UnityEngine::UIElements::DispatchMode::Default{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::DispatchMode UnityEngine::UIElements::DispatchMode::Queued{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::DispatchMode UnityEngine::UIElements::DispatchMode::Immediate{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

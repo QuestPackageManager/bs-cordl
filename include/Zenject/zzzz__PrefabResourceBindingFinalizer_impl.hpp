@@ -640,5 +640,3 @@ inline void Zenject::PrefabResourceBindingFinalizer::FinalizeBindingSelf(::Zenje
 }
 // Ctor Parameters []
 constexpr ::Zenject::PrefabResourceBindingFinalizer::PrefabResourceBindingFinalizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -81,5 +81,3 @@ inline void System::Runtime::Remoting::Services::TrackingServices::NotifyDisconn
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Services::TrackingServices::TrackingServices() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

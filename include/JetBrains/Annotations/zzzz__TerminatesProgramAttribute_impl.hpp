@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::TerminatesProgramAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::TerminatesProgramAttribute::TerminatesProgramAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -968,5 +968,3 @@ inline void BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion2_6_0AndEarlier::BeatmapDataLoader::BeatmapDataLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -514,5 +514,3 @@ inline void GlobalNamespace::SaberActivityCounter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberActivityCounter::SaberActivityCounter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

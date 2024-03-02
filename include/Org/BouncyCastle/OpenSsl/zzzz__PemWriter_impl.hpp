@@ -77,5 +77,3 @@ inline void Org::BouncyCastle::OpenSsl::PemWriter::WriteObject(::System::Object*
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::OpenSsl::PemWriter::PemWriter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

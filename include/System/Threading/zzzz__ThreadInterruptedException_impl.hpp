@@ -54,5 +54,3 @@ inline void System::Threading::ThreadInterruptedException::_ctor(::System::Runti
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ThreadInterruptedException::ThreadInterruptedException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

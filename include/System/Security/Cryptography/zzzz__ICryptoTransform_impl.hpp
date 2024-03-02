@@ -116,5 +116,3 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Security::Cryptography::ICry
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::ICryptoTransform*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, inputBuffer, inputOffset, inputCount);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

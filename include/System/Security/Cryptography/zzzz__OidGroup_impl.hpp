@@ -17,5 +17,3 @@ constexpr ::System::Security::Cryptography::OidGroup System::Security::Cryptogra
 constexpr ::System::Security::Cryptography::OidGroup System::Security::Cryptography::OidGroup::Policy{ static_cast<int32_t>(0x8) };
 constexpr ::System::Security::Cryptography::OidGroup System::Security::Cryptography::OidGroup::Template{ static_cast<int32_t>(0x9) };
 constexpr ::System::Security::Cryptography::OidGroup System::Security::Cryptography::OidGroup::KeyDerivationFunction{ static_cast<int32_t>(0xa) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

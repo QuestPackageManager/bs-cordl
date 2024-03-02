@@ -90,5 +90,3 @@ inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> System::Runtime:
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::ArgInfo::ArgInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -13,5 +13,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierTy
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType::Ranges{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType::OneOrMoreComma{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplierType::GroupAtLeastOne{ static_cast<int32_t>(0x6) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

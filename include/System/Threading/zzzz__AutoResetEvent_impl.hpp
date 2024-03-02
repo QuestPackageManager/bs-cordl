@@ -26,5 +26,3 @@ inline void System::Threading::AutoResetEvent::_ctor(bool initialState) {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::AutoResetEvent::AutoResetEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

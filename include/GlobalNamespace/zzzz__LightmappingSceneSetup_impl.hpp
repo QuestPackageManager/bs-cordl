@@ -149,5 +149,3 @@ inline void GlobalNamespace::LightmappingSceneSetup::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightmappingSceneSetup::LightmappingSceneSetup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

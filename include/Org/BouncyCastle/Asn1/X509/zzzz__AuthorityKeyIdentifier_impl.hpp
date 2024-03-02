@@ -377,5 +377,3 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::ToString
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::AuthorityKeyIdentifier::AuthorityKeyIdentifier() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -26,5 +26,3 @@ inline void System::Runtime::CompilerServices::IsUnmanagedAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::IsUnmanagedAttribute::IsUnmanagedAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

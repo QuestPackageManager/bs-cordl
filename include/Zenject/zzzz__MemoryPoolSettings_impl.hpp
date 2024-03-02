@@ -150,5 +150,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::MemoryPoolSettings::__zenCreateInject
 }
 // Ctor Parameters []
 constexpr ::Zenject::MemoryPoolSettings::MemoryPoolSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

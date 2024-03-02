@@ -79,5 +79,3 @@ inline void UnityEngine::UIElements::PointerManipulator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerManipulator::PointerManipulator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -81,5 +81,3 @@ inline void UnityEngine::UIElements::StyleRule::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleRule::StyleRule() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

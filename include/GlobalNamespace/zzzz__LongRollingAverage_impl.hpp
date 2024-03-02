@@ -160,5 +160,3 @@ inline void GlobalNamespace::LongRollingAverage::Reset() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LongRollingAverage::LongRollingAverage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

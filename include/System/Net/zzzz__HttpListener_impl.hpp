@@ -733,5 +733,3 @@ inline void System::Net::HttpListener::RemoveConnection(::System::Net::HttpConne
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpListener::HttpListener() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

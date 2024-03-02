@@ -138,5 +138,3 @@ inline void Oculus::Platform::NetSyncOptions::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::NetSyncOptions::NetSyncOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

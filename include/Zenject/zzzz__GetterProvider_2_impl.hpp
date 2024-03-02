@@ -133,5 +133,3 @@ inline void Zenject::GetterProvider_2<TObj, TResult>::GetAllInstancesWithInjectS
 }
 // Ctor Parameters []
 template <typename TObj, typename TResult> constexpr ::Zenject::GetterProvider_2<TObj, TResult>::GetterProvider_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

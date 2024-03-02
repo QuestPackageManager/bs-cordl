@@ -422,5 +422,3 @@ inline void GlobalNamespace::SaberTrail::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberTrail::SaberTrail() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

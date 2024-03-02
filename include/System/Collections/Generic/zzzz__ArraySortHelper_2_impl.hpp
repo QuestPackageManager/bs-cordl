@@ -131,5 +131,3 @@ template <typename TKey, typename TValue> inline void System::Collections::Gener
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::ArraySortHelper_2<TKey, TValue>::ArraySortHelper_2() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

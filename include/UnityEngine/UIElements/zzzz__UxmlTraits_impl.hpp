@@ -80,5 +80,3 @@ inline void UnityEngine::UIElements::UxmlTraits::Init(::UnityEngine::UIElements:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlTraits::UxmlTraits() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

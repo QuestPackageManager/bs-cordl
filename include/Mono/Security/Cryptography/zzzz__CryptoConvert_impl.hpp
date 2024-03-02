@@ -159,5 +159,3 @@ inline ::StringW Mono::Security::Cryptography::CryptoConvert::ToHex(::ArrayW<uin
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Cryptography::CryptoConvert::CryptoConvert() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -128,5 +128,3 @@ inline void GlobalNamespace::NoRichPresencePlatformHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoRichPresencePlatformHandler::NoRichPresencePlatformHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

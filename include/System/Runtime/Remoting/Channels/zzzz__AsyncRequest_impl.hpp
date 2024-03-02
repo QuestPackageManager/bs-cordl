@@ -56,5 +56,3 @@ inline void System::Runtime::Remoting::Channels::AsyncRequest::_ctor(::System::R
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Channels::AsyncRequest::AsyncRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

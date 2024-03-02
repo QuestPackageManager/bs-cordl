@@ -81,5 +81,3 @@ inline bool Org::BouncyCastle::Crypto::Tls::TlsSession::get_IsResumable() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsSession*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

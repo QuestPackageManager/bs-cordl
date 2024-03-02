@@ -293,5 +293,3 @@ inline void UnityEngine::AndroidReflection::SetNativeExceptionOnProxy(void* prox
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidReflection::AndroidReflection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

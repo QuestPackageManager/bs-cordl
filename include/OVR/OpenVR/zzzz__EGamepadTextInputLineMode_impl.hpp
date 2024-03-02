@@ -8,5 +8,3 @@ constexpr ::OVR::OpenVR::EGamepadTextInputLineMode::EGamepadTextInputLineMode(in
 constexpr ::OVR::OpenVR::EGamepadTextInputLineMode::EGamepadTextInputLineMode() {}
 constexpr ::OVR::OpenVR::EGamepadTextInputLineMode OVR::OpenVR::EGamepadTextInputLineMode::k_EGamepadTextInputLineModeSingleLine{ static_cast<int32_t>(0x0) };
 constexpr ::OVR::OpenVR::EGamepadTextInputLineMode OVR::OpenVR::EGamepadTextInputLineMode::k_EGamepadTextInputLineModeMultipleLines{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

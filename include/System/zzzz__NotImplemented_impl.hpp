@@ -22,5 +22,3 @@ inline ::System::Exception* System::NotImplemented::get_ByDesign() {
 }
 // Ctor Parameters []
 constexpr ::System::NotImplemented::NotImplemented() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

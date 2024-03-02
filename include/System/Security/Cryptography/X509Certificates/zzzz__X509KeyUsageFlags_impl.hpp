@@ -16,5 +16,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags 
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags System::Security::Cryptography::X509Certificates::X509KeyUsageFlags::NonRepudiation{ static_cast<int32_t>(0x40) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags System::Security::Cryptography::X509Certificates::X509KeyUsageFlags::DigitalSignature{ static_cast<int32_t>(0x80) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags System::Security::Cryptography::X509Certificates::X509KeyUsageFlags::DecipherOnly{ static_cast<int32_t>(0x8000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

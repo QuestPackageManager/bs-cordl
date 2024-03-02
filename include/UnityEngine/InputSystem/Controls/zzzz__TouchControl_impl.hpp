@@ -753,5 +753,3 @@ inline void UnityEngine::InputSystem::Controls::TouchControl::WriteValueIntoStat
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::TouchControl::TouchControl() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

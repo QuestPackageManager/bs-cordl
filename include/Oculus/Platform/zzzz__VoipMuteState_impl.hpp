@@ -9,5 +9,3 @@ constexpr ::Oculus::Platform::VoipMuteState::VoipMuteState() {}
 constexpr ::Oculus::Platform::VoipMuteState Oculus::Platform::VoipMuteState::Unknown{ static_cast<int32_t>(0x0) };
 constexpr ::Oculus::Platform::VoipMuteState Oculus::Platform::VoipMuteState::Muted{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::VoipMuteState Oculus::Platform::VoipMuteState::Unmuted{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -129,5 +129,3 @@ inline bool Oculus::Platform::Models::PingResult::get_IsTimeout() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::PingResult::PingResult() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -102,5 +102,3 @@ constexpr ::System::Security::Principal::WellKnownSidType System::Security::Prin
 constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilitySharedUserCertificatesSid{ static_cast<int32_t>(0x5c) };
 constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityEnterpriseAuthenticationSid{ static_cast<int32_t>(0x5d) };
 constexpr ::System::Security::Principal::WellKnownSidType System::Security::Principal::WellKnownSidType::WinCapabilityRemovableStorageSid{ static_cast<int32_t>(0x5e) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -79,5 +79,3 @@ inline void JetBrains::Annotations::RazorDirectiveAttribute::set_Directive(::Str
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::RazorDirectiveAttribute::RazorDirectiveAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

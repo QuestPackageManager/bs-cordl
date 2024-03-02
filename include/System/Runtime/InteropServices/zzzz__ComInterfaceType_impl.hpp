@@ -10,5 +10,3 @@ constexpr ::System::Runtime::InteropServices::ComInterfaceType System::Runtime::
 constexpr ::System::Runtime::InteropServices::ComInterfaceType System::Runtime::InteropServices::ComInterfaceType::InterfaceIsIUnknown{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::InteropServices::ComInterfaceType System::Runtime::InteropServices::ComInterfaceType::InterfaceIsIDispatch{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::InteropServices::ComInterfaceType System::Runtime::InteropServices::ComInterfaceType::InterfaceIsIInspectable{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

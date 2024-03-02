@@ -44,5 +44,3 @@ template <typename T> inline bool UnityEngine::UI::SetPropertyUtility::SetClass(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::SetPropertyUtility::SetPropertyUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

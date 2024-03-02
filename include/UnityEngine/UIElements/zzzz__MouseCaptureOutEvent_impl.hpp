@@ -25,5 +25,3 @@ inline void UnityEngine::UIElements::MouseCaptureOutEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseCaptureOutEvent::MouseCaptureOutEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

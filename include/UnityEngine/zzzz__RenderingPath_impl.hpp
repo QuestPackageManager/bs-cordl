@@ -11,5 +11,3 @@ constexpr ::UnityEngine::RenderingPath UnityEngine::RenderingPath::VertexLit{ st
 constexpr ::UnityEngine::RenderingPath UnityEngine::RenderingPath::Forward{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::RenderingPath UnityEngine::RenderingPath::DeferredLighting{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::RenderingPath UnityEngine::RenderingPath::DeferredShading{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -230,5 +230,3 @@ Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::GetCorrespondingPubli
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::ECKeyPairGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

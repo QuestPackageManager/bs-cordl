@@ -588,5 +588,3 @@ inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::Bevel::Bevel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

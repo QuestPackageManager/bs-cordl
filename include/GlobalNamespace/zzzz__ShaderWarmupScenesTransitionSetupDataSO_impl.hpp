@@ -48,5 +48,3 @@ inline void GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::ShaderWarmupScenesTransitionSetupDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

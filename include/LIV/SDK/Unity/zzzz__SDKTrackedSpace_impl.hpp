@@ -58,5 +58,3 @@ constexpr ::LIV::SDK::Unity::SDKTrackedSpace::SDKTrackedSpace(::LIV::SDK::Unity:
 }
 // Ctor Parameters []
 constexpr ::LIV::SDK::Unity::SDKTrackedSpace::SDKTrackedSpace() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

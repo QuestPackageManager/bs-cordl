@@ -90,5 +90,3 @@ inline void System::Reflection::RtFieldInfo::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::RtFieldInfo::RtFieldInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

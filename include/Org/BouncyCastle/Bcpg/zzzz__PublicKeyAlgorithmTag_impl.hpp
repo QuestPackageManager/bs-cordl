@@ -28,5 +28,3 @@ constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Org::BouncyCastle::Bc
 constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag::Experimental_9{ static_cast<int32_t>(0x6c) };
 constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag::Experimental_10{ static_cast<int32_t>(0x6d) };
 constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag::Experimental_11{ static_cast<int32_t>(0x6e) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

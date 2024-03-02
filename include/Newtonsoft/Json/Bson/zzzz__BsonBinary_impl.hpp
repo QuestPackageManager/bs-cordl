@@ -83,5 +83,3 @@ inline void Newtonsoft::Json::Bson::BsonBinary::_ctor(::ArrayW<uint8_t, ::Array<
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonBinary::BsonBinary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

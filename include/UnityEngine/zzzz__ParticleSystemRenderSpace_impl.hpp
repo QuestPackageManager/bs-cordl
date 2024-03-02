@@ -11,5 +11,3 @@ constexpr ::UnityEngine::ParticleSystemRenderSpace UnityEngine::ParticleSystemRe
 constexpr ::UnityEngine::ParticleSystemRenderSpace UnityEngine::ParticleSystemRenderSpace::Local{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ParticleSystemRenderSpace UnityEngine::ParticleSystemRenderSpace::Facing{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::ParticleSystemRenderSpace UnityEngine::ParticleSystemRenderSpace::Velocity{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

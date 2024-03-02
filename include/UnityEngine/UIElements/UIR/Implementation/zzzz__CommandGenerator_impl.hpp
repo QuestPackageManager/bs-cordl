@@ -734,5 +734,3 @@ inline void UnityEngine::UIElements::UIR::Implementation::CommandGenerator::Rese
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::Implementation::CommandGenerator::CommandGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -4817,5 +4817,3 @@ inline void UnityEngine::Material::SetTextureScaleImpl_Injected(int32_t name, By
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Material::Material() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

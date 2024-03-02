@@ -272,5 +272,3 @@ BeatSaber::AvatarCore::ConnectedPlayerOptionalAvatarDataProvider::HandleOptional
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::ConnectedPlayerOptionalAvatarDataProvider::ConnectedPlayerOptionalAvatarDataProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

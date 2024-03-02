@@ -337,5 +337,3 @@ inline void GlobalNamespace::MockBeatmapData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockBeatmapData::MockBeatmapData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

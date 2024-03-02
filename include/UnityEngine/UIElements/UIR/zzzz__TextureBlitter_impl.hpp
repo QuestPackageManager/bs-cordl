@@ -394,5 +394,3 @@ inline void UnityEngine::UIElements::UIR::TextureBlitter::EndBlit() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::TextureBlitter::TextureBlitter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

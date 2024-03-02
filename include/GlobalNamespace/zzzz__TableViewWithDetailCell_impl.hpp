@@ -417,5 +417,3 @@ inline void GlobalNamespace::TableViewWithDetailCell::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TableViewWithDetailCell::TableViewWithDetailCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

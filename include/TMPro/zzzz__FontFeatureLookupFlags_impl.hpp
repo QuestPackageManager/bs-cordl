@@ -9,5 +9,3 @@ constexpr ::TMPro::FontFeatureLookupFlags::FontFeatureLookupFlags() {}
 constexpr ::TMPro::FontFeatureLookupFlags TMPro::FontFeatureLookupFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::TMPro::FontFeatureLookupFlags TMPro::FontFeatureLookupFlags::IgnoreLigatures{ static_cast<int32_t>(0x4) };
 constexpr ::TMPro::FontFeatureLookupFlags TMPro::FontFeatureLookupFlags::IgnoreSpacingAdjustments{ static_cast<int32_t>(0x100) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

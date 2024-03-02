@@ -196,5 +196,3 @@ inline ::System::Object* System::LazyHelper::CreateViaDefaultConstructor(::Syste
 }
 // Ctor Parameters []
 constexpr ::System::LazyHelper::LazyHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

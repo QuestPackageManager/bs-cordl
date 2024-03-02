@@ -228,5 +228,3 @@ inline bool System::Net::ServerCertValidationCallback::Invoke(::System::Object* 
 }
 // Ctor Parameters []
 constexpr ::System::Net::ServerCertValidationCallback::ServerCertValidationCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -25,5 +25,3 @@ inline void System::Runtime::InteropServices::ComImportAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::ComImportAttribute::ComImportAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

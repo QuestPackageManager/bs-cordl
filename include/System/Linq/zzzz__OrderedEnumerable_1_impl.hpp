@@ -234,5 +234,3 @@ template <typename TElement> inline void System::Linq::OrderedEnumerable_1<TElem
 }
 // Ctor Parameters []
 template <typename TElement> constexpr ::System::Linq::OrderedEnumerable_1<TElement>::OrderedEnumerable_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

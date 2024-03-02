@@ -71,5 +71,3 @@ inline void Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::EdEC::EdECObjectIdentifiers::EdECObjectIdentifiers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

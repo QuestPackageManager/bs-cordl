@@ -654,5 +654,3 @@ inline void RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg(::RootMotion::Fina
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::VRIKCalibrator::VRIKCalibrator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

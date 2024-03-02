@@ -81,5 +81,3 @@ inline void Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribut
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::SmimeEncryptionKeyPreferenceAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

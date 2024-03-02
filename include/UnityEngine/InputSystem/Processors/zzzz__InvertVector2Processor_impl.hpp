@@ -98,5 +98,3 @@ inline void UnityEngine::InputSystem::Processors::InvertVector2Processor::_ctor(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Processors::InvertVector2Processor::InvertVector2Processor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

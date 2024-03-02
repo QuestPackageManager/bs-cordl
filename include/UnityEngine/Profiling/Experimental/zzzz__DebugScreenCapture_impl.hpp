@@ -101,5 +101,3 @@ constexpr ::UnityEngine::Profiling::Experimental::DebugScreenCapture::DebugScree
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Profiling::Experimental::DebugScreenCapture::DebugScreenCapture() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

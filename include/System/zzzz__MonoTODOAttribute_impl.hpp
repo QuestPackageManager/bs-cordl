@@ -59,5 +59,3 @@ inline void System::MonoTODOAttribute::_ctor(::StringW comment) {
 }
 // Ctor Parameters []
 constexpr ::System::MonoTODOAttribute::MonoTODOAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

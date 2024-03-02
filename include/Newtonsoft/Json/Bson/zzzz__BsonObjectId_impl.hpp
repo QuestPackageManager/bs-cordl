@@ -79,5 +79,3 @@ inline void Newtonsoft::Json::Bson::BsonObjectId::_ctor(::ArrayW<uint8_t, ::Arra
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonObjectId::BsonObjectId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

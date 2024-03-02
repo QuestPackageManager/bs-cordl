@@ -23,5 +23,3 @@ constexpr ::System::UriComponents System::UriComponents::StrongAuthority{ static
 constexpr ::System::UriComponents System::UriComponents::SchemeAndServer{ static_cast<int32_t>(0xd) };
 constexpr ::System::UriComponents System::UriComponents::HttpRequestUrl{ static_cast<int32_t>(0x3d) };
 constexpr ::System::UriComponents System::UriComponents::PathAndQuery{ static_cast<int32_t>(0x30) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

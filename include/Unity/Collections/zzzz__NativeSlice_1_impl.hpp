@@ -209,5 +209,3 @@ template <typename T> constexpr ::Unity::Collections::__NativeSlice_1__Enumerato
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Unity::Collections::__NativeSlice_1__Enumerator<T>::__NativeSlice_1__Enumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

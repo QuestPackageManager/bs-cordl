@@ -24,5 +24,3 @@ inline void GlobalNamespace::OVRReadOnlyAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRReadOnlyAttribute::OVRReadOnlyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

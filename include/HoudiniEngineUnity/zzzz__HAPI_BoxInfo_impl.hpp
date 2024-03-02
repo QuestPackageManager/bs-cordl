@@ -31,5 +31,3 @@ constexpr ::HoudiniEngineUnity::HAPI_BoxInfo::HAPI_BoxInfo(::ArrayW<float_t, ::A
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HAPI_BoxInfo::HAPI_BoxInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

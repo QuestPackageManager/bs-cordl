@@ -610,5 +610,3 @@ inline ::System::Exception* System::Xml::XmlLoader::UnexpectedNodeType(::System:
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlLoader::XmlLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

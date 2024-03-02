@@ -18,5 +18,3 @@ template <typename T> inline bool System::Predicate_1<T>::Invoke(T obj) {
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Predicate_1<T>::Predicate_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

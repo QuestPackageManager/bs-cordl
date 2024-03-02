@@ -432,5 +432,3 @@ inline void GlobalNamespace::ColorArrayLightWithIds::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorArrayLightWithIds::ColorArrayLightWithIds() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

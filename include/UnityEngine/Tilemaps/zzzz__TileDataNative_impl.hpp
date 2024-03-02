@@ -23,5 +23,3 @@ constexpr ::UnityEngine::Tilemaps::TileDataNative::TileDataNative(int32_t m_Spri
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Tilemaps::TileDataNative::TileDataNative() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

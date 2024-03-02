@@ -142,5 +142,3 @@ inline bool System::ComponentModel::ReadOnlyAttribute::IsDefaultAttribute() {
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ReadOnlyAttribute::ReadOnlyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -219,5 +219,3 @@ inline void BeatSaber::AvatarCore::BeatAvatarSelectionView::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::BeatAvatarSelectionView::BeatAvatarSelectionView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

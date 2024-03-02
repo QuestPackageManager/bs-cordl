@@ -34,5 +34,3 @@ inline bool UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalC
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Animations::AnimationPlayableGraphExtensions::AnimationPlayableGraphExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

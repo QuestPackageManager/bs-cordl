@@ -9,5 +9,3 @@ constexpr ::UnityEngine::DisableBatchingType::DisableBatchingType() {}
 constexpr ::UnityEngine::DisableBatchingType UnityEngine::DisableBatchingType::False{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::DisableBatchingType UnityEngine::DisableBatchingType::True{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::DisableBatchingType UnityEngine::DisableBatchingType::WhenLODFading{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

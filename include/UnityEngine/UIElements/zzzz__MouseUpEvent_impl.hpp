@@ -149,5 +149,3 @@ inline ::UnityEngine::UIElements::MouseUpEvent* UnityEngine::UIElements::MouseUp
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseUpEvent::MouseUpEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

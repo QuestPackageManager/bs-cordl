@@ -290,5 +290,3 @@ inline ::StringW System::Net::Http::Headers::StringWithQualityHeaderValue::ToStr
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::StringWithQualityHeaderValue::StringWithQualityHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -627,5 +627,3 @@ inline void Unity::XR::GoogleVr::DaydreamController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::GoogleVr::DaydreamController::DaydreamController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

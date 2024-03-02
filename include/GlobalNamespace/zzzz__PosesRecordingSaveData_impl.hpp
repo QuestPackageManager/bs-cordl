@@ -353,5 +353,3 @@ inline void GlobalNamespace::PosesRecordingSaveData::_ctor(
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PosesRecordingSaveData::PosesRecordingSaveData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

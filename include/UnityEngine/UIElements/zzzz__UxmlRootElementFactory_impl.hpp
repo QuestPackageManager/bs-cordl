@@ -95,5 +95,3 @@ inline void UnityEngine::UIElements::UxmlRootElementFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlRootElementFactory::UxmlRootElementFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

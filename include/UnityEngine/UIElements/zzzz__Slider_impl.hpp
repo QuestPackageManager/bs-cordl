@@ -350,5 +350,3 @@ inline void UnityEngine::UIElements::__Slider__UxmlFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::__Slider__UxmlFactory::__Slider__UxmlFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::System::Runtime::ConstrainedExecution::Consistency System::Runtime::
 constexpr ::System::Runtime::ConstrainedExecution::Consistency System::Runtime::ConstrainedExecution::Consistency::MayCorruptAppDomain{ static_cast<int32_t>(0x1) };
 constexpr ::System::Runtime::ConstrainedExecution::Consistency System::Runtime::ConstrainedExecution::Consistency::MayCorruptInstance{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::ConstrainedExecution::Consistency System::Runtime::ConstrainedExecution::Consistency::WillNotCorruptState{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

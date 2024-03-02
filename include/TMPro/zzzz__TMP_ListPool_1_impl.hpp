@@ -49,5 +49,3 @@ template <typename T> inline void TMPro::TMP_ListPool_1<T>::Release(::System::Co
 }
 // Ctor Parameters []
 template <typename T> constexpr ::TMPro::TMP_ListPool_1<T>::TMP_ListPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

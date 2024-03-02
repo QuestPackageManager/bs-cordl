@@ -46,5 +46,3 @@ inline void GlobalNamespace::ScoreObjectiveValueFormatterSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreObjectiveValueFormatterSO::ScoreObjectiveValueFormatterSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1576,5 +1576,3 @@ inline void UnityEngine::UIElements::PanelSettings::DetachUIDocument(::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PanelSettings::PanelSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

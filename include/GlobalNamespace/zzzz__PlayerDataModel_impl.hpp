@@ -205,5 +205,3 @@ inline void GlobalNamespace::PlayerDataModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerDataModel::PlayerDataModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

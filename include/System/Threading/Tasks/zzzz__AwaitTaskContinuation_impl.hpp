@@ -314,5 +314,3 @@ inline void System::Threading::Tasks::AwaitTaskContinuation::MarkAborted(::Syste
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::AwaitTaskContinuation::AwaitTaskContinuation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

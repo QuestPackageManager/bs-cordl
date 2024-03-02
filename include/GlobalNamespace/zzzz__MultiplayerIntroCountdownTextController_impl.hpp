@@ -184,5 +184,3 @@ inline void GlobalNamespace::MultiplayerIntroCountdownTextController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController::MultiplayerIntroCountdownTextController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

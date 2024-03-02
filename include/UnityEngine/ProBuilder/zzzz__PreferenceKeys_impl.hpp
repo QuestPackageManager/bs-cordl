@@ -25,5 +25,3 @@ inline ::UnityEngine::Color UnityEngine::ProBuilder::PreferenceKeys::getStaticF_
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::PreferenceKeys::PreferenceKeys() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

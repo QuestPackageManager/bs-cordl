@@ -49,5 +49,3 @@ inline ::StringW Newtonsoft::Json::Serialization::CamelCasePropertyNamesContract
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::CamelCasePropertyNamesContractResolver() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

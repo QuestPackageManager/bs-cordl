@@ -656,5 +656,3 @@ inline ::Org::BouncyCastle::Utilities::Collections::ISet* Org::BouncyCastle::X50
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector::X509AttrCertStoreSelector() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

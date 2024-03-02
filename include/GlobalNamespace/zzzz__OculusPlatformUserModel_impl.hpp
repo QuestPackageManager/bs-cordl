@@ -921,5 +921,3 @@ GlobalNamespace::OculusPlatformUserModel::_GetUserNamesForUserIds_g__Fetch_16_0(
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusPlatformUserModel::OculusPlatformUserModel() {}
 constexpr ::GlobalNamespace::PlatformEnvironment GlobalNamespace::OculusPlatformUserModel::kPlatformEnvironment{ static_cast<uint8_t>(0x2u) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

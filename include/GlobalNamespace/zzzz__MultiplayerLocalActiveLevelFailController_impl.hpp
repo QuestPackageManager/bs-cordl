@@ -395,5 +395,3 @@ inline void GlobalNamespace::MultiplayerLocalActiveLevelFailController::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalActiveLevelFailController::MultiplayerLocalActiveLevelFailController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

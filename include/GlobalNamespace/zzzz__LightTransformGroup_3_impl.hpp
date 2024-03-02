@@ -135,5 +135,3 @@ template <typename TX, typename TY, typename TZ> inline void GlobalNamespace::Li
 }
 // Ctor Parameters []
 template <typename TX, typename TY, typename TZ> constexpr ::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::LightTransformGroup_3() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

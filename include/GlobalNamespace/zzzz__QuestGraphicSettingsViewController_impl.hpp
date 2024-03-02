@@ -271,5 +271,3 @@ inline void GlobalNamespace::QuestGraphicSettingsViewController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::QuestGraphicSettingsViewController::QuestGraphicSettingsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

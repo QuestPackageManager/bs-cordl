@@ -111,5 +111,3 @@ inline void GlobalNamespace::LightRotationBaseData::_ctor(float_t beat, bool use
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightRotationBaseData::LightRotationBaseData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

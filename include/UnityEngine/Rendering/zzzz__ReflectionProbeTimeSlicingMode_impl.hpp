@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Rendering::ReflectionProbeTimeSlicingMode::ReflectionPr
 constexpr ::UnityEngine::Rendering::ReflectionProbeTimeSlicingMode UnityEngine::Rendering::ReflectionProbeTimeSlicingMode::AllFacesAtOnce{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeTimeSlicingMode UnityEngine::Rendering::ReflectionProbeTimeSlicingMode::IndividualFaces{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ReflectionProbeTimeSlicingMode UnityEngine::Rendering::ReflectionProbeTimeSlicingMode::NoTimeSlicing{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

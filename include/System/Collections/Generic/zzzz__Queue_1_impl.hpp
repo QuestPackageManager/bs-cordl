@@ -305,5 +305,3 @@ template <typename T> inline void System::Collections::Generic::Queue_1<T>::Thro
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::Queue_1<T>::Queue_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

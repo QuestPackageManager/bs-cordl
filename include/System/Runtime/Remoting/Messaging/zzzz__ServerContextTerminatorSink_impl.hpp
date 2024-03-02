@@ -90,5 +90,3 @@ inline void System::Runtime::Remoting::Messaging::ServerContextTerminatorSink::_
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::ServerContextTerminatorSink::ServerContextTerminatorSink() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

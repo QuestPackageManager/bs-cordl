@@ -5,5 +5,3 @@
 constexpr ::UnityEngine::PlayerLoop::__TimeUpdate__WaitForLastPresentationAndUpdateTime::__TimeUpdate__WaitForLastPresentationAndUpdateTime() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::TimeUpdate::TimeUpdate() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

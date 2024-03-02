@@ -46,5 +46,3 @@ inline void Oculus::Platform::Vrcamera::SetGetSurfaceUpdateNotificationCallback(
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Vrcamera::Vrcamera() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

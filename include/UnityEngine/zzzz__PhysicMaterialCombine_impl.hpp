@@ -10,5 +10,3 @@ constexpr ::UnityEngine::PhysicMaterialCombine UnityEngine::PhysicMaterialCombin
 constexpr ::UnityEngine::PhysicMaterialCombine UnityEngine::PhysicMaterialCombine::Minimum{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::PhysicMaterialCombine UnityEngine::PhysicMaterialCombine::Multiply{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::PhysicMaterialCombine UnityEngine::PhysicMaterialCombine::Maximum{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

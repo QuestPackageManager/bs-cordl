@@ -186,5 +186,3 @@ inline void System::Runtime::Remoting::Proxies::TransparentProxy::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Proxies::TransparentProxy::TransparentProxy() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

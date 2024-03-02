@@ -342,5 +342,3 @@ inline void RootMotion::FinalIK::Inertia::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::Inertia::Inertia() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -268,5 +268,3 @@ inline void System::WeakReference::GetObjectData(::System::Runtime::Serializatio
 }
 // Ctor Parameters []
 constexpr ::System::WeakReference::WeakReference() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

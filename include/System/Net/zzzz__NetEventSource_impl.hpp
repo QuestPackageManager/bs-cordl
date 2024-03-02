@@ -549,5 +549,3 @@ inline void System::Net::NetEventSource::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetEventSource::NetEventSource() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -117,5 +117,3 @@ inline void GlobalNamespace::MonoBehaviourCallbackHooks::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MonoBehaviourCallbackHooks::MonoBehaviourCallbackHooks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

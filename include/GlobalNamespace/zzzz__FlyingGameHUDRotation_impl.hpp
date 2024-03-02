@@ -140,5 +140,3 @@ inline void GlobalNamespace::FlyingGameHUDRotation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FlyingGameHUDRotation::FlyingGameHUDRotation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::Oculus::Platform::PermissionGrantStatus Oculus::Platform::Permission
 constexpr ::Oculus::Platform::PermissionGrantStatus Oculus::Platform::PermissionGrantStatus::Granted{ static_cast<int32_t>(0x1) };
 constexpr ::Oculus::Platform::PermissionGrantStatus Oculus::Platform::PermissionGrantStatus::Denied{ static_cast<int32_t>(0x2) };
 constexpr ::Oculus::Platform::PermissionGrantStatus Oculus::Platform::PermissionGrantStatus::Blocked{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

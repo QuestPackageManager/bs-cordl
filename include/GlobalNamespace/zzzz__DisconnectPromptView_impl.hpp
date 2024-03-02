@@ -340,5 +340,3 @@ inline void GlobalNamespace::DisconnectPromptView::_OnEnable_b__9_1() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DisconnectPromptView::DisconnectPromptView() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

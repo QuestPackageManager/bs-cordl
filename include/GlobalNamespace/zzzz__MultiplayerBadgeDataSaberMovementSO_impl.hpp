@@ -48,5 +48,3 @@ inline void GlobalNamespace::MultiplayerBadgeDataSaberMovementSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO::MultiplayerBadgeDataSaberMovementSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

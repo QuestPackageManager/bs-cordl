@@ -398,5 +398,3 @@ inline bool UnityEngine::ProBuilder::MeshOperations::Triangulation::Triangulate(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::Triangulation::Triangulation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

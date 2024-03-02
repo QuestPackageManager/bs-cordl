@@ -1148,5 +1148,3 @@ inline ::System::Threading::Tasks::Task_1<::System::Net::WebResponse*>* System::
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebRequest::WebRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

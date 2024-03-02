@@ -72,5 +72,3 @@ inline void System::Net::NetworkInformation::CommonUnixIPGlobalProperties::_ctor
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::CommonUnixIPGlobalProperties() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

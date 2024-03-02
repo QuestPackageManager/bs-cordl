@@ -206,5 +206,3 @@ inline void GlobalNamespace::TubeLightBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TubeLightBehaviour::TubeLightBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

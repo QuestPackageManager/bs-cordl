@@ -230,5 +230,3 @@ inline void Org::BouncyCastle::Math::EC::Endo::EndoUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Endo::EndoUtilities::EndoUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

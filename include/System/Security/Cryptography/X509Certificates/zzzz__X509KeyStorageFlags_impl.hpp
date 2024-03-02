@@ -13,5 +13,3 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlag
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags System::Security::Cryptography::X509Certificates::X509KeyStorageFlags::UserProtected{ static_cast<int32_t>(0x8) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags System::Security::Cryptography::X509Certificates::X509KeyStorageFlags::PersistKeySet{ static_cast<int32_t>(0x10) };
 constexpr ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags System::Security::Cryptography::X509Certificates::X509KeyStorageFlags::EphemeralKeySet{ static_cast<int32_t>(0x20) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

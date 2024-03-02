@@ -93,5 +93,3 @@ inline void Org::BouncyCastle::Pkix::PkixAttrCertChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixAttrCertChecker::PkixAttrCertChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

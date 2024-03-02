@@ -450,5 +450,3 @@ inline ::StringW System::Security::Principal::WindowsIdentity::GetTokenName(void
 }
 // Ctor Parameters []
 constexpr ::System::Security::Principal::WindowsIdentity::WindowsIdentity() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

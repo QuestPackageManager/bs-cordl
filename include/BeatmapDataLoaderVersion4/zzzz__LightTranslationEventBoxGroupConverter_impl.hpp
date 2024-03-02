@@ -60,5 +60,3 @@ inline ::GlobalNamespace::BeatmapEventDataBox* BeatmapDataLoaderVersion4::LightT
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::LightTranslationEventBoxGroupConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

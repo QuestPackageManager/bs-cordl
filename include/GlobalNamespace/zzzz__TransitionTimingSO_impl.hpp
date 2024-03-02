@@ -87,5 +87,3 @@ inline void GlobalNamespace::TransitionTimingSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TransitionTimingSO::TransitionTimingSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

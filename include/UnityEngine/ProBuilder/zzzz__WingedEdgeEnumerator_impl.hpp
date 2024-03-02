@@ -178,5 +178,3 @@ inline void UnityEngine::ProBuilder::WingedEdgeEnumerator::Dispose() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::WingedEdgeEnumerator::WingedEdgeEnumerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

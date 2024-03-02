@@ -24,5 +24,3 @@ inline ::GlobalNamespace::ColorType GlobalNamespace::ColorTypeExtensions::Opposi
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorTypeExtensions::ColorTypeExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

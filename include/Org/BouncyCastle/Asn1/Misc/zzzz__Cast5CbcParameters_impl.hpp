@@ -162,5 +162,3 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Misc::Cas
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Misc::Cast5CbcParameters::Cast5CbcParameters() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

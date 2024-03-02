@@ -379,5 +379,3 @@ inline void System::Xml::Schema::FacetsChecker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::FacetsChecker::FacetsChecker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

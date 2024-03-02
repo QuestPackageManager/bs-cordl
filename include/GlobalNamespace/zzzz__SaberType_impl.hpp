@@ -8,5 +8,3 @@ constexpr ::GlobalNamespace::SaberType::SaberType(int32_t value__) noexcept {
 constexpr ::GlobalNamespace::SaberType::SaberType() {}
 constexpr ::GlobalNamespace::SaberType GlobalNamespace::SaberType::SaberA{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::SaberType GlobalNamespace::SaberType::SaberB{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

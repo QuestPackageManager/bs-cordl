@@ -9,5 +9,3 @@ constexpr ::UnityEngine::Playables::DirectorWrapMode::DirectorWrapMode() {}
 constexpr ::UnityEngine::Playables::DirectorWrapMode UnityEngine::Playables::DirectorWrapMode::Hold{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::Playables::DirectorWrapMode UnityEngine::Playables::DirectorWrapMode::Loop{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Playables::DirectorWrapMode UnityEngine::Playables::DirectorWrapMode::None{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -222,5 +222,3 @@ inline bool System::Net::Http::Headers::ContentDispositionHeaderValue::TryParse(
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::ContentDispositionHeaderValue::ContentDispositionHeaderValue() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

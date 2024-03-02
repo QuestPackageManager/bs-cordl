@@ -152,5 +152,3 @@ inline ::Org::BouncyCastle::Asn1::DerIA5String* Org::BouncyCastle::Asn1::Mozilla
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge::PublicKeyAndChallenge() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

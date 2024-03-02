@@ -84,5 +84,3 @@ inline void UnityEngine::RuntimeInitializeOnLoadMethodAttribute::set_loadType(::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute::RuntimeInitializeOnLoadMethodAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

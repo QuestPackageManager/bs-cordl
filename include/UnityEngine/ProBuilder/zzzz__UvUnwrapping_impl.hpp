@@ -495,5 +495,3 @@ inline void UnityEngine::ProBuilder::UvUnwrapping::UpgradeAutoUVScaleOffset(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::UvUnwrapping::UvUnwrapping() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

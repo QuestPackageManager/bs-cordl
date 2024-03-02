@@ -215,5 +215,3 @@ inline void GlobalNamespace::SonyLeaderboardIdsSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SonyLeaderboardIdsSO::SonyLeaderboardIdsSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

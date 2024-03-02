@@ -136,5 +136,3 @@ inline ::Mono::Security::X509::X509Extension* Mono::Security::X509::X509Extensio
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X509ExtensionCollection::X509ExtensionCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -514,5 +514,3 @@ inline float_t GlobalNamespace::OVRGLTFAccessor::ReadElementAsFloat(::ArrayW<uin
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRGLTFAccessor::OVRGLTFAccessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

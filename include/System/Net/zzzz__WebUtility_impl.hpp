@@ -376,5 +376,3 @@ inline int32_t System::Net::WebUtility::HexToInt(char16_t h) {
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebUtility::WebUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

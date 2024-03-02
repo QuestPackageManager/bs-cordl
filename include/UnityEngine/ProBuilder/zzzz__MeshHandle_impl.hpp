@@ -94,5 +94,3 @@ inline void UnityEngine::ProBuilder::MeshHandle::DrawMeshNow(int32_t submeshInde
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshHandle::MeshHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

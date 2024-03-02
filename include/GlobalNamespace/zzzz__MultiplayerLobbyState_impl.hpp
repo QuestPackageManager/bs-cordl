@@ -12,5 +12,3 @@ constexpr ::GlobalNamespace::MultiplayerLobbyState GlobalNamespace::MultiplayerL
 constexpr ::GlobalNamespace::MultiplayerLobbyState GlobalNamespace::MultiplayerLobbyState::GameStarting{ static_cast<int32_t>(0x3) };
 constexpr ::GlobalNamespace::MultiplayerLobbyState GlobalNamespace::MultiplayerLobbyState::GameRunning{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::MultiplayerLobbyState GlobalNamespace::MultiplayerLobbyState::Error{ static_cast<int32_t>(0x5) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

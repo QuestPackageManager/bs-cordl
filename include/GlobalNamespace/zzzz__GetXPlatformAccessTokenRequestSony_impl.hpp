@@ -56,5 +56,3 @@ inline void GlobalNamespace::GetXPlatformAccessTokenRequestSony::_ctor(::StringW
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GetXPlatformAccessTokenRequestSony::GetXPlatformAccessTokenRequestSony() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

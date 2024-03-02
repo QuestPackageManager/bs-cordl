@@ -87,5 +87,3 @@ inline void Org::BouncyCastle::Math::Field::FiniteFields::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Field::FiniteFields::FiniteFields() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

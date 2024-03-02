@@ -64,5 +64,3 @@ inline void Org::BouncyCastle::Cms::OriginatorID::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::OriginatorID::OriginatorID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

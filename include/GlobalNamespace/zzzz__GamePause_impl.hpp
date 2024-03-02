@@ -366,5 +366,3 @@ inline void GlobalNamespace::GamePause::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GamePause::GamePause() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

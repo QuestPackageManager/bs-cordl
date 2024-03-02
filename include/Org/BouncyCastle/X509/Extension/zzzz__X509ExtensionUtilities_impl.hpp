@@ -115,5 +115,3 @@ inline void Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::_ctor() 
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::X509ExtensionUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

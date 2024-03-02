@@ -25,5 +25,3 @@ inline void UnityEngine::InputSystem::Android::AndroidJoystick::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Android::AndroidJoystick::AndroidJoystick() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

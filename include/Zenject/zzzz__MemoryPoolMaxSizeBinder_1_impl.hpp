@@ -30,5 +30,3 @@ template <typename TContract> inline ::Zenject::MemoryPoolExpandBinder_1<TContra
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::MemoryPoolMaxSizeBinder_1<TContract>::MemoryPoolMaxSizeBinder_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

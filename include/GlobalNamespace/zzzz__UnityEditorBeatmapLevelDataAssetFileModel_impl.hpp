@@ -86,5 +86,3 @@ template <typename T> inline T GlobalNamespace::UnityEditorBeatmapLevelDataAsset
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::UnityEditorBeatmapLevelDataAssetFileModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

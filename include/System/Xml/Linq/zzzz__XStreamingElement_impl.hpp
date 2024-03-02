@@ -29,5 +29,3 @@ constexpr void System::Xml::Linq::XStreamingElement::__cordl_internal_set_conten
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XStreamingElement::XStreamingElement() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

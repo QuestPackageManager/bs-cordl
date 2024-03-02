@@ -142,5 +142,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::InputDeviceC
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::InputDeviceCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

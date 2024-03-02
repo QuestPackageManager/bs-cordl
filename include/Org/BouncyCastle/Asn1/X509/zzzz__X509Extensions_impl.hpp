@@ -827,5 +827,3 @@ Org::BouncyCastle::Asn1::X509::X509Extensions::ToOidArray(::System::Collections:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions::X509Extensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

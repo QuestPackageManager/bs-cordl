@@ -140,5 +140,3 @@ inline void GlobalNamespace::StandardLevelFinishedController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelFinishedController::StandardLevelFinishedController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

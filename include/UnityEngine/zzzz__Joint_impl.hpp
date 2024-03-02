@@ -664,5 +664,3 @@ inline void UnityEngine::Joint::set_connectedAnchor_Injected(ByRef<::UnityEngine
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Joint::Joint() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

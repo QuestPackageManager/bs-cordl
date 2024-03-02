@@ -51,5 +51,3 @@ inline void UnityEngine::ContextMenuItemAttribute::_ctor(::StringW name, ::Strin
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ContextMenuItemAttribute::ContextMenuItemAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

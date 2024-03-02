@@ -56,5 +56,3 @@ inline void UnityEngine::Timeline::SupportsChildTracksAttribute::_ctor(::System:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::SupportsChildTracksAttribute::SupportsChildTracksAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

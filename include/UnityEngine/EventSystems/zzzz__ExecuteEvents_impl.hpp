@@ -1105,5 +1105,3 @@ template <typename T> inline ::UnityW<::UnityEngine::GameObject> UnityEngine::Ev
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::ExecuteEvents::ExecuteEvents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

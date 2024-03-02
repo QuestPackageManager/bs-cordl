@@ -1011,5 +1011,3 @@ inline void UnityEngine::UIElements::UIRAtlasAllocator::BuildAreas() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIRAtlasAllocator::UIRAtlasAllocator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

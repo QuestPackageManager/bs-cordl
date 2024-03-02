@@ -12,5 +12,3 @@ constexpr ::HoudiniEngineUnity::HEU_GenerateOptions::HEU_GenerateOptions(bool _g
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_GenerateOptions::HEU_GenerateOptions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

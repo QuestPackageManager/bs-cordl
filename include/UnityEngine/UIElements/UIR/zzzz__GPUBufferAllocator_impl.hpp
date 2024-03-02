@@ -133,5 +133,3 @@ inline bool UnityEngine::UIElements::UIR::GPUBufferAllocator::HighLowCollide() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::GPUBufferAllocator::GPUBufferAllocator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

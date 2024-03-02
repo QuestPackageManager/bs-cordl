@@ -82,5 +82,3 @@ UnityEngine::SceneManagement::SceneManagerAPIInternal::LoadSceneAsyncNameIndexIn
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SceneManagement::SceneManagerAPIInternal::SceneManagerAPIInternal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

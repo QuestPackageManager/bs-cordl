@@ -380,5 +380,3 @@ inline void UnityEngine::Logger::LogFormat(::UnityEngine::LogType logType, ::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Logger::Logger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

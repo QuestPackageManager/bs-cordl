@@ -460,5 +460,3 @@ inline void GlobalNamespace::GameplayModifiersPanelController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayModifiersPanelController::GameplayModifiersPanelController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

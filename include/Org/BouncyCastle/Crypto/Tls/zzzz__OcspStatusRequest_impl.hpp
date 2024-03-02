@@ -142,5 +142,3 @@ inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* Org::BouncyCastle::C
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest::OcspStatusRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

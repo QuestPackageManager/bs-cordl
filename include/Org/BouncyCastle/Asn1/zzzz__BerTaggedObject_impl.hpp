@@ -100,5 +100,3 @@ inline void Org::BouncyCastle::Asn1::BerTaggedObject::Encode(::Org::BouncyCastle
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerTaggedObject::BerTaggedObject() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

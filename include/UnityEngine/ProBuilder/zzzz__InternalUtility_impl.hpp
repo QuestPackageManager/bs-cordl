@@ -239,5 +239,3 @@ template <typename T> inline T UnityEngine::ProBuilder::InternalUtility::DemandC
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::InternalUtility::InternalUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

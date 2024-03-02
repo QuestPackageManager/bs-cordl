@@ -201,5 +201,3 @@ inline ::StringW GlobalNamespace::BeatmapDifficultyMaskExtensions::ToHexString(:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDifficultyMaskExtensions::BeatmapDifficultyMaskExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

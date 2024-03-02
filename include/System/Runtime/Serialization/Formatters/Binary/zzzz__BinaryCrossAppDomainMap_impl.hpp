@@ -82,5 +82,3 @@ inline void System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDo
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::BinaryCrossAppDomainMap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

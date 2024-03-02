@@ -57,5 +57,3 @@ inline void GlobalNamespace::LocalLeaderboardsInstaller::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LocalLeaderboardsInstaller::LocalLeaderboardsInstaller() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

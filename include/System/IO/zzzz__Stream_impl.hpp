@@ -2451,5 +2451,3 @@ inline ::System::Threading::Tasks::ValueTask_1<int32_t> System::IO::Stream::_Rea
 }
 // Ctor Parameters []
 constexpr ::System::IO::Stream::Stream() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

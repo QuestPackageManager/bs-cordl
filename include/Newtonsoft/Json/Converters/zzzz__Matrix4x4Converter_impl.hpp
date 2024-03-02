@@ -116,5 +116,3 @@ inline void Newtonsoft::Json::Converters::Matrix4x4Converter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::Matrix4x4Converter::Matrix4x4Converter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -629,5 +629,3 @@ inline ::UnityW<::UnityEngine::Transform> HMUI::CircleSlider::UnityEngine_UI_ICa
 }
 // Ctor Parameters []
 constexpr ::HMUI::CircleSlider::CircleSlider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

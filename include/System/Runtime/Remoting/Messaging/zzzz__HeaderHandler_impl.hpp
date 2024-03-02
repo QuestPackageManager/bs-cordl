@@ -53,5 +53,3 @@ System::Runtime::Remoting::Messaging::HeaderHandler::Invoke(::ArrayW<::System::R
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::HeaderHandler::HeaderHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

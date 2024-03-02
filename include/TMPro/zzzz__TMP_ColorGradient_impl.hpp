@@ -148,5 +148,3 @@ inline void TMPro::TMP_ColorGradient::_ctor(::UnityEngine::Color color0, ::Unity
 // Ctor Parameters []
 constexpr ::TMPro::TMP_ColorGradient::TMP_ColorGradient() {}
 constexpr ::TMPro::ColorMode TMPro::TMP_ColorGradient::k_DefaultColorMode{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

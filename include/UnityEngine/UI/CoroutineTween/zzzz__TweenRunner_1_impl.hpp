@@ -181,5 +181,3 @@ template <typename T> inline void UnityEngine::UI::CoroutineTween::TweenRunner_1
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UI::CoroutineTween::TweenRunner_1<T>::TweenRunner_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

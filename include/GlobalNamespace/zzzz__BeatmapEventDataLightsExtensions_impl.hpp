@@ -112,5 +112,3 @@ inline bool GlobalNamespace::BeatmapEventDataLightsExtensions::HasFixedDurationL
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapEventDataLightsExtensions::BeatmapEventDataLightsExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

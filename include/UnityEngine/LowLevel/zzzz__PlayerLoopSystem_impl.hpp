@@ -88,5 +88,3 @@ constexpr ::UnityEngine::LowLevel::PlayerLoopSystem::PlayerLoopSystem(::System::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::LowLevel::PlayerLoopSystem::PlayerLoopSystem() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::UnityEngine::Rendering::ShadowCastingMode UnityEngine::Rendering::Sh
 constexpr ::UnityEngine::Rendering::ShadowCastingMode UnityEngine::Rendering::ShadowCastingMode::On{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::Rendering::ShadowCastingMode UnityEngine::Rendering::ShadowCastingMode::TwoSided{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::ShadowCastingMode UnityEngine::Rendering::ShadowCastingMode::ShadowsOnly{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

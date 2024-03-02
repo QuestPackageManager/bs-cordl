@@ -76,5 +76,3 @@ constexpr ::UnityEngine::TextureFormat UnityEngine::TextureFormat::ASTC_RGBA_6x6
 constexpr ::UnityEngine::TextureFormat UnityEngine::TextureFormat::ASTC_RGBA_8x8{ static_cast<int32_t>(0x39) };
 constexpr ::UnityEngine::TextureFormat UnityEngine::TextureFormat::ASTC_RGBA_10x10{ static_cast<int32_t>(0x3a) };
 constexpr ::UnityEngine::TextureFormat UnityEngine::TextureFormat::ASTC_RGBA_12x12{ static_cast<int32_t>(0x3b) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

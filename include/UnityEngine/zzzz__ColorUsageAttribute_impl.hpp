@@ -121,5 +121,3 @@ inline void UnityEngine::ColorUsageAttribute::_ctor(bool showAlpha, bool hdr) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ColorUsageAttribute::ColorUsageAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

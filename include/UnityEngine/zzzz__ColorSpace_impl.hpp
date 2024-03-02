@@ -9,5 +9,3 @@ constexpr ::UnityEngine::ColorSpace::ColorSpace() {}
 constexpr ::UnityEngine::ColorSpace UnityEngine::ColorSpace::Uninitialized{ static_cast<int32_t>(0xffffffff) };
 constexpr ::UnityEngine::ColorSpace UnityEngine::ColorSpace::Gamma{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::ColorSpace UnityEngine::ColorSpace::Linear{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

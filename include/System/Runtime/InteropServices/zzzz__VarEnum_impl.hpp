@@ -50,5 +50,3 @@ constexpr ::System::Runtime::InteropServices::VarEnum System::Runtime::InteropSe
 constexpr ::System::Runtime::InteropServices::VarEnum System::Runtime::InteropServices::VarEnum::VT_VECTOR{ static_cast<int32_t>(0x1000) };
 constexpr ::System::Runtime::InteropServices::VarEnum System::Runtime::InteropServices::VarEnum::VT_ARRAY{ static_cast<int32_t>(0x2000) };
 constexpr ::System::Runtime::InteropServices::VarEnum System::Runtime::InteropServices::VarEnum::VT_BYREF{ static_cast<int32_t>(0x4000) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

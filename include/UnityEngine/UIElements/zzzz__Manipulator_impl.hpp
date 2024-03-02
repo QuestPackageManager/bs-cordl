@@ -126,5 +126,3 @@ inline void UnityEngine::UIElements::Manipulator::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Manipulator::Manipulator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

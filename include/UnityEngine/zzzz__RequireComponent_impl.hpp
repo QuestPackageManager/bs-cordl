@@ -89,5 +89,3 @@ inline void UnityEngine::RequireComponent::_ctor(::System::Type* requiredCompone
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::RequireComponent::RequireComponent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

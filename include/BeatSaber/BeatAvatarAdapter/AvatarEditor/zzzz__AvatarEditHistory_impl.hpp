@@ -241,5 +241,3 @@ inline void BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::_ctor
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::AvatarEditHistory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

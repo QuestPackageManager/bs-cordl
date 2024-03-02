@@ -223,5 +223,3 @@ inline void GlobalNamespace::ParametricBoxFrameController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ParametricBoxFrameController::ParametricBoxFrameController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

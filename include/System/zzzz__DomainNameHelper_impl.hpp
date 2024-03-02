@@ -259,5 +259,3 @@ inline bool System::DomainNameHelper::IsValidDomainLabelCharacter(char16_t chara
 }
 // Ctor Parameters []
 constexpr ::System::DomainNameHelper::DomainNameHelper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -177,5 +177,3 @@ inline ::Org::BouncyCastle::Crypto::ISigner* Org::BouncyCastle::Crypto::Tls::Tls
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange::TlsDheKeyExchange() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

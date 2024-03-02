@@ -29,5 +29,3 @@ inline ::GlobalNamespace::LightTranslationBaseData* BeatmapDataLoaderVersion4::L
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter::LightTranslationBaseDataConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

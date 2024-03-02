@@ -178,5 +178,3 @@ inline void Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities::TlsSrpUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -278,5 +278,3 @@ inline void RootMotion::GenericBaker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::GenericBaker::GenericBaker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

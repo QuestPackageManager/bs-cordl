@@ -1027,5 +1027,3 @@ inline void RootMotion::FinalIK::FBIKChain::BackwardReach(::UnityEngine::Vector3
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::FBIKChain::FBIKChain() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

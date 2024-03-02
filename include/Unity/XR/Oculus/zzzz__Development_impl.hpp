@@ -79,5 +79,3 @@ inline void Unity::XR::Oculus::Development::OverrideDeveloperModeStop() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::Development::Development() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

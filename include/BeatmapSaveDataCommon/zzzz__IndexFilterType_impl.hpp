@@ -8,5 +8,3 @@ constexpr ::BeatmapSaveDataCommon::IndexFilterType::IndexFilterType(int32_t valu
 constexpr ::BeatmapSaveDataCommon::IndexFilterType::IndexFilterType() {}
 constexpr ::BeatmapSaveDataCommon::IndexFilterType BeatmapSaveDataCommon::IndexFilterType::Division{ static_cast<int32_t>(0x1) };
 constexpr ::BeatmapSaveDataCommon::IndexFilterType BeatmapSaveDataCommon::IndexFilterType::StepAndOffset{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -1,3 +1,5 @@
 #pragma once
 #include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
+#ifndef CORDL_NO_IMPL_INCLUDE
 #include "System/Security/Principal/zzzz__SecurityIdentifier_impl.hpp"
+#endif

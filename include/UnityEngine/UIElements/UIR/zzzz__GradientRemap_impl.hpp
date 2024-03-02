@@ -104,5 +104,3 @@ inline void UnityEngine::UIElements::UIR::GradientRemap::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::GradientRemap::GradientRemap() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

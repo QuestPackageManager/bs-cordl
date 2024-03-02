@@ -193,5 +193,3 @@ inline ::RootMotion::BipedLimbOrientations* RootMotion::BipedLimbOrientations::g
 }
 // Ctor Parameters []
 constexpr ::RootMotion::BipedLimbOrientations::BipedLimbOrientations() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

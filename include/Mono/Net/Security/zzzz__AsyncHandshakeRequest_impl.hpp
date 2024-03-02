@@ -51,5 +51,3 @@ inline ::Mono::Net::Security::AsyncOperationStatus Mono::Net::Security::AsyncHan
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::AsyncHandshakeRequest::AsyncHandshakeRequest() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

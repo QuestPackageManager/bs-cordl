@@ -172,5 +172,3 @@ inline void LiteNetLib::NetPacketPool::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetPacketPool::NetPacketPool() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

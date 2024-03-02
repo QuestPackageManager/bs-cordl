@@ -35,5 +35,3 @@ inline void GlobalNamespace::BeatmapObjectSpawnControllerHelpers::GetNoteJumpVal
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectSpawnControllerHelpers::BeatmapObjectSpawnControllerHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

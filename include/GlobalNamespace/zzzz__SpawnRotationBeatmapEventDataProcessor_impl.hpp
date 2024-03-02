@@ -75,5 +75,3 @@ inline void GlobalNamespace::SpawnRotationBeatmapEventDataProcessor::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor::SpawnRotationBeatmapEventDataProcessor() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

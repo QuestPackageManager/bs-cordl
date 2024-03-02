@@ -220,5 +220,3 @@ inline void Oculus::Platform::PlatformSettings::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::PlatformSettings::PlatformSettings() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

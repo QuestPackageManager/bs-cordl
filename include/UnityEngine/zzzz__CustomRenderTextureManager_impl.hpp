@@ -65,5 +65,3 @@ inline void UnityEngine::CustomRenderTextureManager::InvokeOnTextureUnloaded_Int
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::CustomRenderTextureManager::CustomRenderTextureManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

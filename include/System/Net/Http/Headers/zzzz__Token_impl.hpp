@@ -192,5 +192,3 @@ constexpr ::System::Net::Http::Headers::Token::Token(::System::Net::Http::Header
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::Token::Token() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

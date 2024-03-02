@@ -83,5 +83,3 @@ inline void GlobalNamespace::MissionCompletionResults::_ctor(::GlobalNamespace::
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionCompletionResults::MissionCompletionResults() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -2770,5 +2770,3 @@ inline int32_t System::Text::Encoding::GetBytes(::System::ReadOnlySpan_1<char16_
 }
 // Ctor Parameters []
 constexpr ::System::Text::Encoding::Encoding() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

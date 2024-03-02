@@ -153,5 +153,3 @@ constexpr ::UnityEngine::ResourceManagement::Util::SerializedType::SerializedTyp
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::SerializedType::SerializedType() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

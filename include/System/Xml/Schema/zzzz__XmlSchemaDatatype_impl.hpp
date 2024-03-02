@@ -339,5 +339,3 @@ inline void System::Xml::Schema::XmlSchemaDatatype::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaDatatype::XmlSchemaDatatype() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

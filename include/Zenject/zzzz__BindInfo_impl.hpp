@@ -316,5 +316,3 @@ inline void Zenject::BindInfo::Reset() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::BindInfo::BindInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

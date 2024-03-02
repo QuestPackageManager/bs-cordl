@@ -325,5 +325,3 @@ inline ::UnityEngine::AndroidJavaObject* UnityEngine::Android::AndroidAssetPacks
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Android::AndroidAssetPacks::AndroidAssetPacks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

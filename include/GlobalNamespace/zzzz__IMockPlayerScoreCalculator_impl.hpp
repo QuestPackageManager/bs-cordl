@@ -21,5 +21,3 @@ inline int32_t GlobalNamespace::IMockPlayerScoreCalculator::GetScoreForNote(::Gl
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IMockPlayerScoreCalculator*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, noteData);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

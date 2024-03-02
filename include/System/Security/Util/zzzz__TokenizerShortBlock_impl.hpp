@@ -48,5 +48,3 @@ inline void System::Security::Util::TokenizerShortBlock::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Security::Util::TokenizerShortBlock::TokenizerShortBlock() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

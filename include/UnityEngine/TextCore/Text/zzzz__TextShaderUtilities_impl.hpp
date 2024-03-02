@@ -587,5 +587,3 @@ inline float_t UnityEngine::TextCore::Text::TextShaderUtilities::GetPadding(::Un
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextShaderUtilities::TextShaderUtilities() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -10,5 +10,3 @@ constexpr ::UnityEngine::AnimatorControllerParameterType UnityEngine::AnimatorCo
 constexpr ::UnityEngine::AnimatorControllerParameterType UnityEngine::AnimatorControllerParameterType::Int{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::AnimatorControllerParameterType UnityEngine::AnimatorControllerParameterType::Bool{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::AnimatorControllerParameterType UnityEngine::AnimatorControllerParameterType::Trigger{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

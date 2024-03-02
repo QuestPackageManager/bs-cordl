@@ -12,5 +12,3 @@ constexpr ::ENet::ENetCallbacks::ENetCallbacks(::ENet::AllocCallback* malloc, ::
 }
 // Ctor Parameters []
 constexpr ::ENet::ENetCallbacks::ENetCallbacks() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

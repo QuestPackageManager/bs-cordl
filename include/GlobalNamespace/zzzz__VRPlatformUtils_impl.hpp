@@ -108,5 +108,3 @@ inline void GlobalNamespace::VRPlatformUtils::StopXR(::GlobalNamespace::IVerbose
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VRPlatformUtils::VRPlatformUtils() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

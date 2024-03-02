@@ -647,5 +647,3 @@ inline ::ArrayW<float_t, ::Array<float_t>*> HoudiniEngineUnity::HEU_TerrainUtili
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_TerrainUtility::HEU_TerrainUtility() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

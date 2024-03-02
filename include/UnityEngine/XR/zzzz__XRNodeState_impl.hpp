@@ -284,5 +284,3 @@ constexpr ::UnityEngine::XR::XRNodeState::XRNodeState(::UnityEngine::XR::XRNode 
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::XRNodeState::XRNodeState() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

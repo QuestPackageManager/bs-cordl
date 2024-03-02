@@ -156,5 +156,3 @@ inline void UnityEngine::UIElements::RepaintData::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::RepaintData::RepaintData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

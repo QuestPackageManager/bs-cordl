@@ -71,5 +71,3 @@ inline ::Oculus::Platform::Models::SdkAccountList* Oculus::Platform::MessageWith
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithSdkAccountList::MessageWithSdkAccountList() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

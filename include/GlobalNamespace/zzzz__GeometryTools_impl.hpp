@@ -57,5 +57,3 @@ inline void GlobalNamespace::GeometryTools::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GeometryTools::GeometryTools() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

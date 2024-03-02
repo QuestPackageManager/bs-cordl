@@ -282,5 +282,3 @@ inline void UnityEngine::Terrain::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Terrain::Terrain() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

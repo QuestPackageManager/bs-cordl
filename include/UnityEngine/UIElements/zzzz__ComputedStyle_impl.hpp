@@ -2638,5 +2638,3 @@ constexpr ::UnityEngine::UIElements::ComputedStyle::ComputedStyle(
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ComputedStyle::ComputedStyle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

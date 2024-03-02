@@ -104,5 +104,3 @@ constexpr ::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand::QueryDim
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand::QueryDimensionsCommand() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

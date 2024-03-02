@@ -63,5 +63,3 @@ inline int32_t System::Buffers::Text::FormattingHelpers::CountHexDigits(uint64_t
 }
 // Ctor Parameters []
 constexpr ::System::Buffers::Text::FormattingHelpers::FormattingHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

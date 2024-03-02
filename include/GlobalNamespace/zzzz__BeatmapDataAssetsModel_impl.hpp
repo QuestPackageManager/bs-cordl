@@ -154,5 +154,3 @@ inline ::StringW GlobalNamespace::BeatmapDataAssetsModel::AssetBundleStreamingAs
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDataAssetsModel::BeatmapDataAssetsModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

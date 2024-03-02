@@ -67,5 +67,3 @@ inline ::System::Collections::IEnumerator* Org::BouncyCastle::Utilities::Collect
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::EmptyEnumerable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

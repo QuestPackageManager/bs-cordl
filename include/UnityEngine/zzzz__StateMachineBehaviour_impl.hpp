@@ -312,5 +312,3 @@ inline void UnityEngine::StateMachineBehaviour::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::StateMachineBehaviour::StateMachineBehaviour() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

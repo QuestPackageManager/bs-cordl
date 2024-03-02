@@ -314,5 +314,3 @@ inline ::Zenject::InjectContext* Zenject::Internal::ZenPools::SpawnInjectContext
 }
 // Ctor Parameters []
 constexpr ::Zenject::Internal::ZenPools::ZenPools() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -171,5 +171,3 @@ template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Collections::Gener
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::LowLevelList_1<T>::LowLevelList_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

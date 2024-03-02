@@ -28,5 +28,3 @@ constexpr ::Org::BouncyCastle::Bcpg::PacketTag Org::BouncyCastle::Bcpg::PacketTa
 constexpr ::Org::BouncyCastle::Bcpg::PacketTag Org::BouncyCastle::Bcpg::PacketTag::Experimental2{ static_cast<int32_t>(0x3d) };
 constexpr ::Org::BouncyCastle::Bcpg::PacketTag Org::BouncyCastle::Bcpg::PacketTag::Experimental3{ static_cast<int32_t>(0x3e) };
 constexpr ::Org::BouncyCastle::Bcpg::PacketTag Org::BouncyCastle::Bcpg::PacketTag::Experimental4{ static_cast<int32_t>(0x3f) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

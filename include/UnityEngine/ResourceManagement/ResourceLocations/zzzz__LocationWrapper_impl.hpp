@@ -245,5 +245,3 @@ inline int32_t UnityEngine::ResourceManagement::ResourceLocations::LocationWrapp
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::LocationWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

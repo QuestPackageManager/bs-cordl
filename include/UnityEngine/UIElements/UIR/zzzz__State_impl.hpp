@@ -17,5 +17,3 @@ constexpr ::UnityEngine::UIElements::UIR::State::State(::UnityW<::UnityEngine::M
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::State::State() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

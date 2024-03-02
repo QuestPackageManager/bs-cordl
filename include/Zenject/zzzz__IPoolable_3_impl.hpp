@@ -10,5 +10,3 @@ template <typename TParam1, typename TParam2, typename TParam3> inline void Zenj
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPoolable_3<TParam1, TParam2, TParam3>*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, p1, p2, p3);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

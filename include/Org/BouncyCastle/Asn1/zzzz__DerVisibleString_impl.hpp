@@ -210,5 +210,3 @@ inline int32_t Org::BouncyCastle::Asn1::DerVisibleString::Asn1GetHashCode() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerVisibleString::DerVisibleString() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

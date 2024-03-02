@@ -38,5 +38,3 @@ inline void Oculus::Platform::Models::OrgScopedID::_ctor(void* o) {
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::OrgScopedID::OrgScopedID() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

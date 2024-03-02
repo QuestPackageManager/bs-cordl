@@ -586,5 +586,3 @@ inline void Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DefaultTlsCipherFactory::DefaultTlsCipherFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

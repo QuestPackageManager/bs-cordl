@@ -257,5 +257,3 @@ inline void System::Threading::Tasks::DebuggerSupport::RemoveFromActiveTasksNonI
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::DebuggerSupport::DebuggerSupport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

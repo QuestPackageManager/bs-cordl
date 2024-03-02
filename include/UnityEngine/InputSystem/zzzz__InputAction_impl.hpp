@@ -1753,5 +1753,3 @@ inline int32_t UnityEngine::InputSystem::InputAction::BindingIndexOnMapToBinding
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputAction::InputAction() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

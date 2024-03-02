@@ -1492,5 +1492,3 @@ inline void HMUI::ViewControllerTransitionHelpers::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ViewControllerTransitionHelpers::ViewControllerTransitionHelpers() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

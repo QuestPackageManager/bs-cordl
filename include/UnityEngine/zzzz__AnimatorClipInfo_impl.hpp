@@ -7,5 +7,3 @@ constexpr ::UnityEngine::AnimatorClipInfo::AnimatorClipInfo(int32_t m_ClipInstan
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AnimatorClipInfo::AnimatorClipInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

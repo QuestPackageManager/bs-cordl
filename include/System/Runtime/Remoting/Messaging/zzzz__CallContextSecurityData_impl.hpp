@@ -93,5 +93,3 @@ inline void System::Runtime::Remoting::Messaging::CallContextSecurityData::_ctor
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::CallContextSecurityData::CallContextSecurityData() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

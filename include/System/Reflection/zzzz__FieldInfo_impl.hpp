@@ -550,5 +550,3 @@ inline ::ArrayW<::System::Reflection::CustomAttributeData*, ::Array<::System::Re
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::FieldInfo::FieldInfo() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

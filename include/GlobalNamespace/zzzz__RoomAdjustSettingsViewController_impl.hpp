@@ -386,5 +386,3 @@ inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__1
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RoomAdjustSettingsViewController::RoomAdjustSettingsViewController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

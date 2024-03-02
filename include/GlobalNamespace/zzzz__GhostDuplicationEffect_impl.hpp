@@ -667,5 +667,3 @@ inline void GlobalNamespace::GhostDuplicationEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GhostDuplicationEffect::GhostDuplicationEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

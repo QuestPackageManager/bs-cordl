@@ -26,5 +26,3 @@ inline void HoudiniEngineUnity::HEU_OutputAttributeDictionary::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_OutputAttributeDictionary::HEU_OutputAttributeDictionary() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

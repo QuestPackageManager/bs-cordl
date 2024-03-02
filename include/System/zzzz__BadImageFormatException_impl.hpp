@@ -226,5 +226,3 @@ inline ::StringW System::BadImageFormatException::ToString() {
 }
 // Ctor Parameters []
 constexpr ::System::BadImageFormatException::BadImageFormatException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

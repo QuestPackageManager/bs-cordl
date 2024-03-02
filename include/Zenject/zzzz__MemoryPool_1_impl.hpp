@@ -84,5 +84,3 @@ template <typename TValue> inline ::Zenject::InjectTypeInfo* Zenject::MemoryPool
 }
 // Ctor Parameters []
 template <typename TValue> constexpr ::Zenject::MemoryPool_1<TValue>::MemoryPool_1() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

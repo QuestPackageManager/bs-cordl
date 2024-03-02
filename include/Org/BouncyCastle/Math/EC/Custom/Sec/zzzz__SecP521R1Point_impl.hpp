@@ -245,5 +245,3 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Cust
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP521R1Point::SecP521R1Point() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

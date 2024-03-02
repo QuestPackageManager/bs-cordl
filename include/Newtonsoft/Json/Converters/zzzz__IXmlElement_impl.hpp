@@ -68,5 +68,3 @@ inline bool Newtonsoft::Json::Converters::IXmlElement::get_IsEmpty() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::IXmlElement*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

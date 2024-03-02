@@ -28,5 +28,3 @@ inline void Unity::Collections::NativeLeakDetection::Initialize() {
 }
 // Ctor Parameters []
 constexpr ::Unity::Collections::NativeLeakDetection::NativeLeakDetection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

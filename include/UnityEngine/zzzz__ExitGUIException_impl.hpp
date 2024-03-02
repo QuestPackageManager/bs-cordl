@@ -24,5 +24,3 @@ inline void UnityEngine::ExitGUIException::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ExitGUIException::ExitGUIException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

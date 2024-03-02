@@ -25,5 +25,3 @@ inline ::StringW GlobalNamespace::MissionDataExtensions::Name(::GlobalNamespace:
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionDataExtensions::MissionDataExtensions() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

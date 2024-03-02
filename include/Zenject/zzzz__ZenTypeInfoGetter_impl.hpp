@@ -89,5 +89,3 @@ inline ::Zenject::InjectTypeInfo* Zenject::ZenTypeInfoGetter::EndInvoke(::System
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenTypeInfoGetter::ZenTypeInfoGetter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

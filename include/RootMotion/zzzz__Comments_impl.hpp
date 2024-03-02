@@ -36,5 +36,3 @@ inline void RootMotion::Comments::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::Comments::Comments() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

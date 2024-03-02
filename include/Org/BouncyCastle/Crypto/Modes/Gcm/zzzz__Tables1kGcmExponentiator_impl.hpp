@@ -115,5 +115,3 @@ inline void Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::_ct
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Tables1kGcmExponentiator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

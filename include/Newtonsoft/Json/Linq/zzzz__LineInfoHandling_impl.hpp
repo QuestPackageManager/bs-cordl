@@ -8,5 +8,3 @@ constexpr ::Newtonsoft::Json::Linq::LineInfoHandling::LineInfoHandling(int32_t v
 constexpr ::Newtonsoft::Json::Linq::LineInfoHandling::LineInfoHandling() {}
 constexpr ::Newtonsoft::Json::Linq::LineInfoHandling Newtonsoft::Json::Linq::LineInfoHandling::Ignore{ static_cast<int32_t>(0x0) };
 constexpr ::Newtonsoft::Json::Linq::LineInfoHandling Newtonsoft::Json::Linq::LineInfoHandling::Load{ static_cast<int32_t>(0x1) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

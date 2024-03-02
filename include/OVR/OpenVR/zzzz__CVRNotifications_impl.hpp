@@ -97,5 +97,3 @@ inline ::OVR::OpenVR::EVRNotificationError OVR::OpenVR::CVRNotifications::Remove
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRNotifications::CVRNotifications() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

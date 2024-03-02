@@ -1331,5 +1331,3 @@ inline void HoudiniEngineUnity::HEU_Curve::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Curve::HEU_Curve() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

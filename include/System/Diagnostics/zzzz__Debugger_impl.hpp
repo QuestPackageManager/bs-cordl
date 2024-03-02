@@ -89,5 +89,3 @@ inline void System::Diagnostics::Debugger::NotifyOfCrossThreadDependency() {
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Debugger::Debugger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

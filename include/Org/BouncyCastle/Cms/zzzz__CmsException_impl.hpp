@@ -74,5 +74,3 @@ inline void Org::BouncyCastle::Cms::CmsException::_ctor(::StringW msg, ::System:
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsException::CmsException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -26,5 +26,3 @@ constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::P
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::PC_Placeholder_4105{ static_cast<int32_t>(0x1009) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::PC_Placeholder_4106{ static_cast<int32_t>(0x100a) };
 constexpr ::Unity::XR::Oculus::SystemHeadset Unity::XR::Oculus::SystemHeadset::PC_Placeholder_4107{ static_cast<int32_t>(0x100b) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

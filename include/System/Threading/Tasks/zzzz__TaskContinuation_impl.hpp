@@ -68,5 +68,3 @@ inline void System::Threading::Tasks::TaskContinuation::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::TaskContinuation::TaskContinuation() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

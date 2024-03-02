@@ -25,5 +25,3 @@ constexpr ::UnityEngine::ModifiableContact::ModifiableContact(::UnityEngine::Vec
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ModifiableContact::ModifiableContact() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

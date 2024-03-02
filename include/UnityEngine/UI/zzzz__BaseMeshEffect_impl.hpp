@@ -163,5 +163,3 @@ inline void UnityEngine::UI::BaseMeshEffect::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::BaseMeshEffect::BaseMeshEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

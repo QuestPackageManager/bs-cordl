@@ -30,5 +30,3 @@ constexpr ::UnityEngine::UIElements::StyleSheets::ScalableImage::ScalableImage(:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleSheets::ScalableImage::ScalableImage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -61,5 +61,3 @@ inline void UnityEngine::UIElements::MouseEnterEvent::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MouseEnterEvent::MouseEnterEvent() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

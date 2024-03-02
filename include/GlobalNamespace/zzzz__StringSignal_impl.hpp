@@ -24,5 +24,3 @@ inline void GlobalNamespace::StringSignal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StringSignal::StringSignal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

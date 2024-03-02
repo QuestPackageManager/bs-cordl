@@ -183,5 +183,3 @@ constexpr ::UnityEngine::Pose::Pose(::UnityEngine::Vector3 position, ::UnityEngi
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Pose::Pose() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

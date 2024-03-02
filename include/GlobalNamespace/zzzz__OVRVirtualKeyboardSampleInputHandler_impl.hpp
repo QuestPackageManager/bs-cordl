@@ -311,5 +311,3 @@ inline void GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::OVRVirtualKeyboardSampleInputHandler() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -162,5 +162,3 @@ inline void HMUI::HierarchyManager::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::HierarchyManager::HierarchyManager() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

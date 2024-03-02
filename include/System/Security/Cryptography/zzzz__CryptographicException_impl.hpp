@@ -129,5 +129,3 @@ inline void System::Security::Cryptography::CryptographicException::_ctor(::Syst
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::CryptographicException::CryptographicException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

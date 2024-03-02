@@ -302,5 +302,3 @@ inline void Org::BouncyCastle::Crypto::Macs::HMac::XorPad(::ArrayW<uint8_t, ::Ar
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::HMac::HMac() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

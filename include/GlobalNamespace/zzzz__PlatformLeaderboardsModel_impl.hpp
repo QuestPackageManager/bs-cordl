@@ -1198,5 +1198,3 @@ inline void GlobalNamespace::PlatformLeaderboardsModel::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformLeaderboardsModel::PlatformLeaderboardsModel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

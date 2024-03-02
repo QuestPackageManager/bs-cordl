@@ -25,5 +25,3 @@ inline void JetBrains::Annotations::AspMethodPropertyAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMethodPropertyAttribute::AspMethodPropertyAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

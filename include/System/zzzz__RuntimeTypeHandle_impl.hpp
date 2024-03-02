@@ -878,5 +878,3 @@ constexpr ::System::RuntimeTypeHandle::RuntimeTypeHandle(void* value) noexcept {
 }
 // Ctor Parameters []
 constexpr ::System::RuntimeTypeHandle::RuntimeTypeHandle() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

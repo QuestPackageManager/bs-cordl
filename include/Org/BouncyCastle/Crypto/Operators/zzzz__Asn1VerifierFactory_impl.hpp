@@ -139,5 +139,3 @@ inline ::Org::BouncyCastle::Crypto::IStreamCalculator* Org::BouncyCastle::Crypto
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory::Asn1VerifierFactory() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

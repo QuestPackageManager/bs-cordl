@@ -21,5 +21,3 @@ inline void GlobalNamespace::UISupport::Initialize() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UISupport::UISupport() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

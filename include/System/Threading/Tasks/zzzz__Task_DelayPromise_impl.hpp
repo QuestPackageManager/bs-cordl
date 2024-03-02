@@ -87,5 +87,3 @@ inline void System::Threading::Tasks::__Task__DelayPromise::Complete() {
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::__Task__DelayPromise::__Task__DelayPromise() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

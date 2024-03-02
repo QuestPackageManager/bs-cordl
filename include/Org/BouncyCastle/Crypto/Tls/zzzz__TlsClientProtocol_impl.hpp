@@ -437,5 +437,3 @@ inline void Org::BouncyCastle::Crypto::Tls::TlsClientProtocol::SendClientKeyExch
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClientProtocol::TlsClientProtocol() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

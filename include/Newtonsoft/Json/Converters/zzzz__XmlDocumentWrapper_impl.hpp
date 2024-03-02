@@ -337,5 +337,3 @@ inline ::Newtonsoft::Json::Converters::IXmlElement* Newtonsoft::Json::Converters
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::XmlDocumentWrapper::XmlDocumentWrapper() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

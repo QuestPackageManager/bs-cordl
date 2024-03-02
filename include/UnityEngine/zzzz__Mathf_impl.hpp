@@ -929,5 +929,3 @@ inline void UnityEngine::Mathf::CorrelatedColorTemperatureToRGB_Injected(float_t
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Mathf::Mathf() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

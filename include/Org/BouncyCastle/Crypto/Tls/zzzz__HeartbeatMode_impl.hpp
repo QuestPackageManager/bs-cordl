@@ -45,5 +45,3 @@ inline void Org::BouncyCastle::Crypto::Tls::HeartbeatMode::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::HeartbeatMode::HeartbeatMode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

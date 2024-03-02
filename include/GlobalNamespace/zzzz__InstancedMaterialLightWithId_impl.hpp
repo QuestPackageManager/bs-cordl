@@ -152,5 +152,3 @@ inline void GlobalNamespace::InstancedMaterialLightWithId::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::InstancedMaterialLightWithId::InstancedMaterialLightWithId() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

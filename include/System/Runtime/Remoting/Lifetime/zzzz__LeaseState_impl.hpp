@@ -11,5 +11,3 @@ constexpr ::System::Runtime::Remoting::Lifetime::LeaseState System::Runtime::Rem
 constexpr ::System::Runtime::Remoting::Lifetime::LeaseState System::Runtime::Remoting::Lifetime::LeaseState::Active{ static_cast<int32_t>(0x2) };
 constexpr ::System::Runtime::Remoting::Lifetime::LeaseState System::Runtime::Remoting::Lifetime::LeaseState::Renewing{ static_cast<int32_t>(0x3) };
 constexpr ::System::Runtime::Remoting::Lifetime::LeaseState System::Runtime::Remoting::Lifetime::LeaseState::Expired{ static_cast<int32_t>(0x4) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

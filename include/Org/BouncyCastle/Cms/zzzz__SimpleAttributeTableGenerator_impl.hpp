@@ -72,5 +72,3 @@ inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* Org::BouncyCastle::Cms::S
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator::SimpleAttributeTableGenerator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

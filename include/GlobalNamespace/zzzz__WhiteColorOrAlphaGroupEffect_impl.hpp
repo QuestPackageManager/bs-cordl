@@ -91,5 +91,3 @@ inline ::UnityEngine::Color GlobalNamespace::WhiteColorOrAlphaGroupEffect::GetCo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::WhiteColorOrAlphaGroupEffect::WhiteColorOrAlphaGroupEffect() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

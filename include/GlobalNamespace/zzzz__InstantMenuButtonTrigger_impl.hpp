@@ -128,5 +128,3 @@ inline void GlobalNamespace::InstantMenuButtonTrigger::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::InstantMenuButtonTrigger::InstantMenuButtonTrigger() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

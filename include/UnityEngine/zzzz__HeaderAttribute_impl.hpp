@@ -38,5 +38,3 @@ inline void UnityEngine::HeaderAttribute::_ctor(::StringW header) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::HeaderAttribute::HeaderAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

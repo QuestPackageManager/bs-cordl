@@ -48,5 +48,3 @@ inline bool System::Reflection::TypeFilter::Invoke(::System::Type* m, ::System::
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::TypeFilter::TypeFilter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

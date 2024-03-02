@@ -7,5 +7,3 @@ constexpr ::OVR::OpenVR::VRControllerAxis_t::VRControllerAxis_t(float_t x, float
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VRControllerAxis_t::VRControllerAxis_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

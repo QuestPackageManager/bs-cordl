@@ -233,5 +233,3 @@ inline ::Zenject::InjectContext* Zenject::ResolveProvider::GetSubContext(::Zenje
 }
 // Ctor Parameters []
 constexpr ::Zenject::ResolveProvider::ResolveProvider() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

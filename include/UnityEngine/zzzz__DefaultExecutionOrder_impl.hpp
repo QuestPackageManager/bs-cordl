@@ -56,5 +56,3 @@ inline int32_t UnityEngine::DefaultExecutionOrder::get_order() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::DefaultExecutionOrder::DefaultExecutionOrder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

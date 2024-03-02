@@ -66,5 +66,3 @@ inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* Org::BouncyCastle::As
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage::SubsequentMessage() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

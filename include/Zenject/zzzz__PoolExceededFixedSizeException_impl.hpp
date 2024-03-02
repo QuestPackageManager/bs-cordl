@@ -26,5 +26,3 @@ inline void Zenject::PoolExceededFixedSizeException::_ctor(::StringW errorMessag
 }
 // Ctor Parameters []
 constexpr ::Zenject::PoolExceededFixedSizeException::PoolExceededFixedSizeException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

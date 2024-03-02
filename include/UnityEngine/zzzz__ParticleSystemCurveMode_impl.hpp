@@ -10,5 +10,3 @@ constexpr ::UnityEngine::ParticleSystemCurveMode UnityEngine::ParticleSystemCurv
 constexpr ::UnityEngine::ParticleSystemCurveMode UnityEngine::ParticleSystemCurveMode::Curve{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::ParticleSystemCurveMode UnityEngine::ParticleSystemCurveMode::TwoCurves{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ParticleSystemCurveMode UnityEngine::ParticleSystemCurveMode::TwoConstants{ static_cast<int32_t>(0x3) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

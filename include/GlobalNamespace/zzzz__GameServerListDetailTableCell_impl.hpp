@@ -146,5 +146,3 @@ inline void GlobalNamespace::GameServerListDetailTableCell::_Start_b__5_0() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServerListDetailTableCell::GameServerListDetailTableCell() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

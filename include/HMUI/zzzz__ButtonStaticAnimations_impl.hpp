@@ -191,5 +191,3 @@ inline void HMUI::ButtonStaticAnimations::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::HMUI::ButtonStaticAnimations::ButtonStaticAnimations() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

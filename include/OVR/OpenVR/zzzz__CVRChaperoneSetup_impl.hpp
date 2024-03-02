@@ -464,5 +464,3 @@ inline bool OVR::OpenVR::CVRChaperoneSetup::ImportFromBufferToWorking(::StringW 
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRChaperoneSetup::CVRChaperoneSetup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

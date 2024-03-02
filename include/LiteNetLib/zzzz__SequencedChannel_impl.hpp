@@ -165,5 +165,3 @@ inline bool LiteNetLib::SequencedChannel::ProcessPacket(::LiteNetLib::NetPacket*
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::SequencedChannel::SequencedChannel() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

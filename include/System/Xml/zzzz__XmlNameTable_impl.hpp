@@ -82,5 +82,3 @@ inline void System::Xml::XmlNameTable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNameTable::XmlNameTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

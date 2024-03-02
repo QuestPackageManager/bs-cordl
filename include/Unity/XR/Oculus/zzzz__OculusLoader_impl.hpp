@@ -264,5 +264,3 @@ inline void Unity::XR::Oculus::OculusLoader::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::OculusLoader::OculusLoader() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

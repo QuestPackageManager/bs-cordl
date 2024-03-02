@@ -227,5 +227,3 @@ inline bool Microsoft::Win32::NativeMethods::CloseProcess(void* handle) {
 }
 // Ctor Parameters []
 constexpr ::Microsoft::Win32::NativeMethods::NativeMethods() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

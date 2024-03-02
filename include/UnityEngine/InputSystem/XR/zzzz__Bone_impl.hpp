@@ -133,5 +133,3 @@ constexpr ::UnityEngine::InputSystem::XR::Bone::Bone(uint32_t _parentBoneIndex_k
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::XR::Bone::Bone() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

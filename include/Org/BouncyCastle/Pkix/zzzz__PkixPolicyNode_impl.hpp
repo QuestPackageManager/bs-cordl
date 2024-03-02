@@ -468,5 +468,3 @@ inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* Org::BouncyCastle::Pkix::PkixP
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode::PkixPolicyNode() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

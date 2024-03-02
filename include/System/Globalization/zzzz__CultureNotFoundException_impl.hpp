@@ -225,5 +225,3 @@ inline ::StringW System::Globalization::CultureNotFoundException::get_Message() 
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::CultureNotFoundException::CultureNotFoundException() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

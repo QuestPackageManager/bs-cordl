@@ -48,5 +48,3 @@ constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis UnityEngine
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis UnityEngine::InputSystem::Android::LowLevel::AndroidAxis::Generic14{ static_cast<int32_t>(0x2d) };
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis UnityEngine::InputSystem::Android::LowLevel::AndroidAxis::Generic15{ static_cast<int32_t>(0x2e) };
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis UnityEngine::InputSystem::Android::LowLevel::AndroidAxis::Generic16{ static_cast<int32_t>(0x2f) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

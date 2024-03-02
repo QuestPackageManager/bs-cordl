@@ -15,5 +15,3 @@ constexpr ::BeatmapSaveDataCommon::OffsetDirection BeatmapSaveDataCommon::Offset
 constexpr ::BeatmapSaveDataCommon::OffsetDirection BeatmapSaveDataCommon::OffsetDirection::DownLeft{ static_cast<int32_t>(0x6) };
 constexpr ::BeatmapSaveDataCommon::OffsetDirection BeatmapSaveDataCommon::OffsetDirection::DownRight{ static_cast<int32_t>(0x7) };
 constexpr ::BeatmapSaveDataCommon::OffsetDirection BeatmapSaveDataCommon::OffsetDirection::None{ static_cast<int32_t>(0x9) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

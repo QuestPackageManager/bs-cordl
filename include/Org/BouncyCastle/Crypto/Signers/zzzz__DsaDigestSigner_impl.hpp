@@ -301,5 +301,3 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Signers
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::DsaDigestSigner::DsaDigestSigner() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

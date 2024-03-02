@@ -1455,5 +1455,3 @@ inline void Org::BouncyCastle::Utilities::Arrays::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Arrays::Arrays() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

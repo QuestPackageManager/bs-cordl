@@ -356,5 +356,3 @@ inline bool System::Xml::XmlDeclaration::IsValidXmlVersion(::StringW ver) {
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlDeclaration::XmlDeclaration() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

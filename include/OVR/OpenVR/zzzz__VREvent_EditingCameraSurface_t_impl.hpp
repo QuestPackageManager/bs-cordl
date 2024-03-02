@@ -7,5 +7,3 @@ constexpr ::OVR::OpenVR::VREvent_EditingCameraSurface_t::VREvent_EditingCameraSu
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::VREvent_EditingCameraSurface_t::VREvent_EditingCameraSurface_t() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

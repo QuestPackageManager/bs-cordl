@@ -115,5 +115,3 @@ inline void System::Gen2GcCallback::Finalize() {
 }
 // Ctor Parameters []
 constexpr ::System::Gen2GcCallback::Gen2GcCallback() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

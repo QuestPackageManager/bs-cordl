@@ -24,5 +24,3 @@ inline void Zenject::NoReflectionBakingAttribute::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Zenject::NoReflectionBakingAttribute::NoReflectionBakingAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

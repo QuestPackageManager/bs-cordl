@@ -543,5 +543,3 @@ inline void RootMotion::Baker::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::RootMotion::Baker::Baker() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

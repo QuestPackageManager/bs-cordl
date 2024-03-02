@@ -138,5 +138,3 @@ inline void GlobalNamespace::BloomPrePassRenderDataSO::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassRenderDataSO::BloomPrePassRenderDataSO() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

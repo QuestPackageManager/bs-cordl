@@ -59,5 +59,3 @@ inline void UnityEngine::SpaceAttribute::_ctor(float_t height) {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SpaceAttribute::SpaceAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

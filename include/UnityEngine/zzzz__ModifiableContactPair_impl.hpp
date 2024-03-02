@@ -639,5 +639,3 @@ constexpr ::UnityEngine::ModifiableContactPair::ModifiableContactPair(void* acto
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ModifiableContactPair::ModifiableContactPair() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

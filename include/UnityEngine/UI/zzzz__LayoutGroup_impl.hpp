@@ -1056,5 +1056,3 @@ inline ::System::Collections::IEnumerator* UnityEngine::UI::LayoutGroup::Delayed
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::LayoutGroup::LayoutGroup() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

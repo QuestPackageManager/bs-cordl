@@ -84,5 +84,3 @@ inline void GlobalNamespace::MultiplayerConnectedPlayerNoteController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConnectedPlayerNoteController::MultiplayerConnectedPlayerNoteController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

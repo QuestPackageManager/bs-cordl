@@ -69,5 +69,3 @@ constexpr ::System::Collections::DictionaryEntry::DictionaryEntry(::System::Obje
 }
 // Ctor Parameters []
 constexpr ::System::Collections::DictionaryEntry::DictionaryEntry() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

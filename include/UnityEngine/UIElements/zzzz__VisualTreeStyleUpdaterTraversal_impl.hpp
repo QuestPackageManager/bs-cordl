@@ -562,5 +562,3 @@ inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::VisualTreeStyleUpdaterTraversal() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

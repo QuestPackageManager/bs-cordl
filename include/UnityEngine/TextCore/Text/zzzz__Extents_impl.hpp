@@ -29,5 +29,3 @@ constexpr ::UnityEngine::TextCore::Text::Extents::Extents(::UnityEngine::Vector2
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::Extents::Extents() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

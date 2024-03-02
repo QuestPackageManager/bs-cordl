@@ -24,5 +24,3 @@ inline ::OVRSimpleJSON::JSONNode* OVRSimpleJSON::JSON::Parse(::StringW aJSON) {
 }
 // Ctor Parameters []
 constexpr ::OVRSimpleJSON::JSON::JSON() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

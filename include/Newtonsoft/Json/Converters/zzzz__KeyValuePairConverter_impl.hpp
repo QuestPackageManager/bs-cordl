@@ -132,5 +132,3 @@ inline void Newtonsoft::Json::Converters::KeyValuePairConverter::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::KeyValuePairConverter::KeyValuePairConverter() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

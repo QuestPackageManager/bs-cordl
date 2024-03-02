@@ -116,5 +116,3 @@ inline void System::Net::HeaderInfoTable::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::System::Net::HeaderInfoTable::HeaderInfoTable() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

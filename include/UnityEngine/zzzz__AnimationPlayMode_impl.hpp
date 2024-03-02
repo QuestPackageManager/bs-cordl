@@ -9,5 +9,3 @@ constexpr ::UnityEngine::AnimationPlayMode::AnimationPlayMode() {}
 constexpr ::UnityEngine::AnimationPlayMode UnityEngine::AnimationPlayMode::Stop{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::AnimationPlayMode UnityEngine::AnimationPlayMode::Queue{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::AnimationPlayMode UnityEngine::AnimationPlayMode::Mix{ static_cast<int32_t>(0x2) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

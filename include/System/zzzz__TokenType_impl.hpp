@@ -38,5 +38,3 @@ constexpr ::System::TokenType System::TokenType::SEP_LocalTimeMark{ static_cast<
 constexpr ::System::TokenType System::TokenType::SEP_DateOrOffset{ static_cast<int32_t>(0xf00) };
 constexpr ::System::TokenType System::TokenType::RegularTokenMask{ static_cast<int32_t>(0xff) };
 constexpr ::System::TokenType System::TokenType::SeparatorTokenMask{ static_cast<int32_t>(0xff00) };
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

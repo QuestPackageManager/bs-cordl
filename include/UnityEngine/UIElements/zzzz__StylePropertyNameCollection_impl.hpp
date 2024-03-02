@@ -279,5 +279,3 @@ constexpr ::UnityEngine::UIElements::StylePropertyNameCollection::StylePropertyN
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StylePropertyNameCollection::StylePropertyNameCollection() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

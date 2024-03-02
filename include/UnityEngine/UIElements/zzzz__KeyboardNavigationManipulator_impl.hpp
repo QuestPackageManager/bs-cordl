@@ -308,5 +308,3 @@ inline ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIEle
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::KeyboardNavigationManipulator::KeyboardNavigationManipulator() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

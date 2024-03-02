@@ -248,5 +248,3 @@ inline void System::Xml::Linq::XAttribute::ValidateAttribute(::System::Xml::Linq
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Linq::XAttribute::XAttribute() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

@@ -139,5 +139,3 @@ inline bool RootMotion::FinalIK::ConstraintPositionOffset::get_positionChanged()
 }
 // Ctor Parameters []
 constexpr ::RootMotion::FinalIK::ConstraintPositionOffset::ConstraintPositionOffset() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

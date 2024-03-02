@@ -353,5 +353,3 @@ inline void Zenject::ScopableBindingFinalizer::FinalizeBindingSelf(::Zenject::Di
 }
 // Ctor Parameters []
 constexpr ::Zenject::ScopableBindingFinalizer::ScopableBindingFinalizer() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

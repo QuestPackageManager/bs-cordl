@@ -464,5 +464,3 @@ inline void Zenject::ConventionAssemblySelectionBinder::FromAssembliesWhere(::Sy
 }
 // Ctor Parameters []
 constexpr ::Zenject::ConventionAssemblySelectionBinder::ConventionAssemblySelectionBinder() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif

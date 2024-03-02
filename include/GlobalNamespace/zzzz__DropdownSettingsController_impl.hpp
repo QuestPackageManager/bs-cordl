@@ -278,5 +278,3 @@ inline void GlobalNamespace::DropdownSettingsController::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DropdownSettingsController::DropdownSettingsController() {}
-#ifndef CORDL_NO_IMPL_INCLUDE
-#endif
